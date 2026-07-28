@@ -1,1 +1,63 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkibmV0L3VybCIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0U2NyaXB0Q2xlYXJWZXJzaW9uc09ubHlSZW1vdmVzU2VsZWN0ZWRTY3JpcHRIaXN0b3J5KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzY3JpcHQtdmVyc2lvbi1jbGVhciIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXJlY29yZHMgOj0gW11tb2RlbC5TY3JpcHRWZXJzaW9uewoJCXtTY3JpcHRQYXRoOiAiZm9sZGVyL2RlbW8uanMiLCBWZXJzaW9uOiAxLCBNZXNzYWdlOiAidjEiLCBDb250ZW50OiAiY29uc29sZS5sb2coJ2EnKVxuIn0sCgkJe1NjcmlwdFBhdGg6ICJmb2xkZXIvZGVtby5qcyIsIFZlcnNpb246IDIsIE1lc3NhZ2U6ICJ2MiIsIENvbnRlbnQ6ICJjb25zb2xlLmxvZygnYicpXG4ifSwKCQl7U2NyaXB0UGF0aDogImZvbGRlci9rZWVwLmpzIiwgVmVyc2lvbjogMSwgTWVzc2FnZTogImtlZXAiLCBDb250ZW50OiAiY29uc29sZS5sb2coJ2tlZXAnKVxuIn0sCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZyZWNvcmRzKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNlZWQgc2NyaXB0IHZlcnNpb25zOiAldiIsIGVycikKCX0KCglyZWMgOj0gcGVyZm9ybVJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kRGVsZXRlLAoJCSIvYXBpL3YxL3NjcmlwdHMvdmVyc2lvbnM/cGF0aD0iK3VybC5RdWVyeUVzY2FwZSgiZm9sZGVyL2RlbW8uanMiKSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwKCSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglwYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgcmVjKQoJaWYgZ290LCBfIDo9IHBheWxvYWRbImNsZWFyZWRfY291bnQiXS4oZmxvYXQ2NCk7IGdvdCAhPSAyIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2xlYXJlZF9jb3VudD0yLCBnb3QgJXYiLCBwYXlsb2FkWyJjbGVhcmVkX2NvdW50Il0pCgl9CgoJdmFyIGNsZWFyZWRDb3VudCBpbnQ2NAoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5TY3JpcHRWZXJzaW9ue30pLgoJCVdoZXJlKCJzY3JpcHRfcGF0aCA9ID8iLCAiZm9sZGVyL2RlbW8uanMiKS4KCQlDb3VudCgmY2xlYXJlZENvdW50KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNvdW50IGNsZWFyZWQgdmVyc2lvbnM6ICV2IiwgZXJyKQoJfQoJaWYgY2xlYXJlZENvdW50ICE9IDAgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjbGVhcmVkIHZlcnNpb25zIHRvIGJlIHJlbW92ZWQsIGdvdCAlZCIsIGNsZWFyZWRDb3VudCkKCX0KCgl2YXIga2VwdENvdW50IGludDY0CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlNjcmlwdFZlcnNpb257fSkuCgkJV2hlcmUoInNjcmlwdF9wYXRoID0gPyIsICJmb2xkZXIva2VlcC5qcyIpLgoJCUNvdW50KCZrZXB0Q291bnQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY291bnQga2VwdCB2ZXJzaW9uczogJXYiLCBlcnIpCgl9CglpZiBrZXB0Q291bnQgIT0gMSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVucmVsYXRlZCB2ZXJzaW9ucyB0byByZW1haW4sIGdvdCAlZCIsIGtlcHRDb3VudCkKCX0KfQo=
+package handler_test
+
+import (
+	"net/http"
+	"net/url"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestScriptClearVersionsOnlyRemovesSelectedScriptHistory(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-version-clear", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	records := []model.ScriptVersion{
+		{ScriptPath: "folder/demo.js", Version: 1, Message: "v1", Content: "console.log('a')\n"},
+		{ScriptPath: "folder/demo.js", Version: 2, Message: "v2", Content: "console.log('b')\n"},
+		{ScriptPath: "folder/keep.js", Version: 1, Message: "keep", Content: "console.log('keep')\n"},
+	}
+	if err := database.DB.Create(&records).Error; err != nil {
+		t.Fatalf("seed script versions: %v", err)
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodDelete,
+		"/api/v1/scripts/versions?path="+url.QueryEscape("folder/demo.js"),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	if got, _ := payload["cleared_count"].(float64); got != 2 {
+		t.Fatalf("expected cleared_count=2, got %v", payload["cleared_count"])
+	}
+
+	var clearedCount int64
+	if err := database.DB.Model(&model.ScriptVersion{}).
+		Where("script_path = ?", "folder/demo.js").
+		Count(&clearedCount).Error; err != nil {
+		t.Fatalf("count cleared versions: %v", err)
+	}
+	if clearedCount != 0 {
+		t.Fatalf("expected cleared versions to be removed, got %d", clearedCount)
+	}
+
+	var keptCount int64
+	if err := database.DB.Model(&model.ScriptVersion{}).
+		Where("script_path = ?", "folder/keep.js").
+		Count(&keptCount).Error; err != nil {
+		t.Fatalf("count kept versions: %v", err)
+	}
+	if keptCount != 1 {
+		t.Fatalf("expected unrelated versions to remain, got %d", keptCount)
+	}
+}

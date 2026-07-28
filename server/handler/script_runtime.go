@@ -1,1 +1,264 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImJ1ZmlvIgoJImZtdCIKCSJpbyIKCSJvcyIKCSJvcy9leGVjIgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKKQoKdmFyIHNjcmlwdEludGVycHJldGVyTWFwID0gbWFwW3N0cmluZ11bXXN0cmluZ3sKCSIucHkiOiAgeyJweXRob24iLCAiLXUifSwKCSIuanMiOiAgeyJub2RlIn0sCgkiLm1qcyI6IHsibm9kZSJ9LAoJIi50cyI6ICB7Im5weCIsICJ0cy1ub2RlIn0sCgkiLnNoIjogIHsiYmFzaCJ9LAoJIi5nbyI6ICB7ImdvIiwgInJ1biJ9LAp9Cgp2YXIgc2NyaXB0TGFuZ3VhZ2VFeHRNYXAgPSBtYXBbc3RyaW5nXXN0cmluZ3sKCSJweXRob24iOiAgICAgIi5weSIsCgkiamF2YXNjcmlwdCI6ICIuanMiLAoJIm5vZGUiOiAgICAgICAiLm1qcyIsCgkibWpzIjogICAgICAgICIubWpzIiwKCSJ0eXBlc2NyaXB0IjogIi50cyIsCgkic2hlbGwiOiAgICAgICIuc2giLAoJImdvIjogICAgICAgICAiLmdvIiwKfQoKZnVuYyBuZXdEZWJ1Z1J1bigpICpkZWJ1Z1J1biB7CglyZXR1cm4gJmRlYnVnUnVuewoJCUxvZ3M6ICAgW11zdHJpbmd7fSwKCQlTdGF0dXM6ICJydW5uaW5nIiwKCX0KfQoKZnVuYyAoaCAqU2NyaXB0SGFuZGxlcikgc3RvcmVSdW4ocnVuSUQgc3RyaW5nLCBydW4gKmRlYnVnUnVuKSB7CgloLm11LkxvY2soKQoJaC5kZWJ1Z1J1bnNbcnVuSURdID0gcnVuCgloLm11LlVubG9jaygpCn0KCmZ1bmMgKGggKlNjcmlwdEhhbmRsZXIpIGxvYWRSdW4ocnVuSUQgc3RyaW5nKSAoKmRlYnVnUnVuLCBib29sKSB7CgloLm11LkxvY2soKQoJcnVuLCBleGlzdHMgOj0gaC5kZWJ1Z1J1bnNbcnVuSURdCgloLm11LlVubG9jaygpCglyZXR1cm4gcnVuLCBleGlzdHMKfQoKZnVuYyAoaCAqU2NyaXB0SGFuZGxlcikgZGVsZXRlUnVuKHJ1bklEIHN0cmluZykgKCpkZWJ1Z1J1biwgYm9vbCkgewoJaC5tdS5Mb2NrKCkKCXJ1biwgZXhpc3RzIDo9IGguZGVidWdSdW5zW3J1bklEXQoJaWYgZXhpc3RzIHsKCQlkZWxldGUoaC5kZWJ1Z1J1bnMsIHJ1bklEKQoJfQoJaC5tdS5VbmxvY2soKQoJcmV0dXJuIHJ1biwgZXhpc3RzCn0KCmZ1bmMgKHJ1biAqZGVidWdSdW4pIHNldFByb2Nlc3MocHJvY2VzcyAqb3MuUHJvY2VzcykgewoJcnVuLm11LkxvY2soKQoJcnVuLlByb2Nlc3MgPSBwcm9jZXNzCglydW4ubXUuVW5sb2NrKCkKfQoKZnVuYyAocnVuICpkZWJ1Z1J1bikgYXBwZW5kTG9nKGxpbmUgc3RyaW5nKSB7CglydW4ubXUuTG9jaygpCglydW4uTG9ncyA9IGFwcGVuZChydW4uTG9ncywgbGluZSkKCXJ1bi5tdS5VbmxvY2soKQp9CgpmdW5jIChydW4gKmRlYnVnUnVuKSBsb2dPdXRwdXQoKSBzdHJpbmcgewoJcnVuLm11LkxvY2soKQoJZGVmZXIgcnVuLm11LlVubG9jaygpCglyZXR1cm4gc3RyaW5ncy5Kb2luKHJ1bi5Mb2dzLCAiXG4iKQp9CgpmdW5jIChydW4gKmRlYnVnUnVuKSBsb2dPdXRwdXRTaW5jZShvZmZzZXQgaW50KSBzdHJpbmcgewoJcnVuLm11LkxvY2soKQoJZGVmZXIgcnVuLm11LlVubG9jaygpCglpZiBvZmZzZXQgPj0gbGVuKHJ1bi5Mb2dzKSB7CgkJcmV0dXJuICIiCgl9CglyZXR1cm4gc3RyaW5ncy5Kb2luKHJ1bi5Mb2dzW29mZnNldDpdLCAiXG4iKQp9CgpmdW5jIChydW4gKmRlYnVnUnVuKSBsb2dMZW4oKSBpbnQgewoJcnVuLm11LkxvY2soKQoJZGVmZXIgcnVuLm11LlVubG9jaygpCglyZXR1cm4gbGVuKHJ1bi5Mb2dzKQp9CgpmdW5jIChydW4gKmRlYnVnUnVuKSBzbmFwc2hvdCgpIChbXXN0cmluZywgYm9vbCwgKmludCwgc3RyaW5nKSB7CglydW4ubXUuTG9jaygpCglkZWZlciBydW4ubXUuVW5sb2NrKCkKCglsb2dzIDo9IG1ha2UoW11zdHJpbmcsIGxlbihydW4uTG9ncykpCgljb3B5KGxvZ3MsIHJ1bi5Mb2dzKQoKCXZhciBleGl0Q29kZSAqaW50CglpZiBydW4uRXhpdENvZGUgIT0gbmlsIHsKCQl2YWx1ZSA6PSAqcnVuLkV4aXRDb2RlCgkJZXhpdENvZGUgPSAmdmFsdWUKCX0KCglyZXR1cm4gbG9ncywgcnVuLkRvbmUsIGV4aXRDb2RlLCBydW4uU3RhdHVzCn0KCmZ1bmMgKHJ1biAqZGVidWdSdW4pIHN0b3AoKSB7CglydW4ubXUuTG9jaygpCglkZWZlciBydW4ubXUuVW5sb2NrKCkKCglpZiBydW4uUHJvY2VzcyA9PSBuaWwgfHwgcnVuLkRvbmUgewoJCXJldHVybgoJfQoKCXNlcnZpY2UuS2lsbFByb2Nlc3NHcm91cChydW4uUHJvY2VzcykKCXJ1bi5TdGF0dXMgPSAic3RvcHBlZCIKCWV4aXRDb2RlIDo9IC0xCglydW4uRXhpdENvZGUgPSAmZXhpdENvZGUKCXJ1bi5Eb25lID0gdHJ1ZQoJcnVuLkxvZ3MgPSBhcHBlbmQocnVuLkxvZ3MsICJb6LCD6K+V6L+Q6KGM5bey5YGc5q2iXSIpCn0KCmZ1bmMgKHJ1biAqZGVidWdSdW4pIGtpbGxJZlJ1bm5pbmcoKSB7CglydW4ubXUuTG9jaygpCglkZWZlciBydW4ubXUuVW5sb2NrKCkKCglpZiBydW4uUHJvY2VzcyAhPSBuaWwgJiYgIXJ1bi5Eb25lIHsKCQlzZXJ2aWNlLktpbGxQcm9jZXNzR3JvdXAocnVuLlByb2Nlc3MpCgl9Cn0KCmZ1bmMgKHJ1biAqZGVidWdSdW4pIGlzU3RvcHBlZCgpIGJvb2wgewoJcnVuLm11LkxvY2soKQoJZGVmZXIgcnVuLm11LlVubG9jaygpCglyZXR1cm4gcnVuLlN0YXR1cyA9PSAic3RvcHBlZCIKfQoKZnVuYyAocnVuICpkZWJ1Z1J1bikgZmluaXNoKGV4aXRDb2RlIGludCwgd2FpdEVyciBlcnJvciwgZWxhcHNlZCBmbG9hdDY0KSB7CglydW4ubXUuTG9jaygpCglkZWZlciBydW4ubXUuVW5sb2NrKCkKCglpZiBydW4uU3RhdHVzID09ICJzdG9wcGVkIiB7CgkJcmV0dXJuCgl9CgoJcnVuLkV4aXRDb2RlID0gJmV4aXRDb2RlCglydW4uRG9uZSA9IHRydWUKCWlmIGV4aXRDb2RlID09IDAgewoJCXJ1bi5TdGF0dXMgPSAic3VjY2VzcyIKCQlydW4uTG9ncyA9IGFwcGVuZChydW4uTG9ncywgZm10LlNwcmludGYoIlvov5vnqIvnu5PmnZ8sIOmAgOWHuueggTogJWQsIOiAl+aXtjogJS4yZuenkl0iLCBleGl0Q29kZSwgZWxhcHNlZCkpCgkJcmV0dXJuCgl9CgoJcnVuLlN0YXR1cyA9ICJmYWlsZWQiCgllcnJNc2cgOj0gIiIKCWlmIHdhaXRFcnIgIT0gbmlsIHsKCQllcnJNc2cgPSB3YWl0RXJyLkVycm9yKCkKCX0KCWlmIGVyck1zZyAhPSAiIiB7CgkJcnVuLkxvZ3MgPSBhcHBlbmQocnVuLkxvZ3MsIGZtdC5TcHJpbnRmKCJb6L+b56iL5byC5bi46YCA5Ye6LCDpgIDlh7rnoIE6ICVkLCDplJnor686ICVzLCDogJfml7Y6ICUuMmbnp5JdIiwgZXhpdENvZGUsIGVyck1zZywgZWxhcHNlZCkpCgkJcmV0dXJuCgl9CglydW4uTG9ncyA9IGFwcGVuZChydW4uTG9ncywgZm10LlNwcmludGYoIlvov5vnqIvlvILluLjpgIDlh7osIOmAgOWHuueggTogJWQsIOiAl+aXtjogJS4yZuenkl0iLCBleGl0Q29kZSwgZWxhcHNlZCkpCn0KCmZ1bmMgc2NyaXB0Q29tbWFuZFBhcnRzKGV4dCwgdGFyZ2V0IHN0cmluZykgKFtdc3RyaW5nLCBlcnJvcikgewoJYmFzZUNtZCwgb2sgOj0gc2NyaXB0SW50ZXJwcmV0ZXJNYXBbZXh0XQoJaWYgIW9rIHsKCQlyZXR1cm4gbmlsLCBmbXQuRXJyb3JmKCLkuI3mlK/mjIHmiafooYzmraTmlofku7bnsbvlnosiKQoJfQoKCWlmIGV4dCA9PSAiLnNoIiB7CgkJaWYgZXJyIDo9IHNlcnZpY2UuTm9ybWFsaXplU2hlbGxTY3JpcHRGaWxlKHRhcmdldCk7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gbmlsLCBmbXQuRXJyb3JmKCLohJrmnKzmjaLooYzop4TojIPljJblpLHotKU6ICV3IiwgZXJyKQoJCX0KCX0KCgljbWRQYXJ0cyA6PSBhcHBlbmQoW11zdHJpbmd7fSwgYmFzZUNtZC4uLikKCWNtZFBhcnRzID0gYXBwZW5kKGNtZFBhcnRzLCB0YXJnZXQpCglyZXR1cm4gY21kUGFydHMsIG5pbAp9CgpmdW5jIHNjcmlwdFJ1bnRpbWVJbnRlcnByZXRlcihleHQgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJc3dpdGNoIGV4dCB7CgljYXNlICIucHkiOgoJCXJldHVybiAicHl0aG9uMyIsIG5pbAoJY2FzZSAiLmpzIiwgIi5tanMiOgoJCXJldHVybiAibm9kZSIsIG5pbAoJY2FzZSAiLnRzIjoKCQlyZXR1cm4gInRzLW5vZGUiLCBuaWwKCWNhc2UgIi5zaCI6CgkJcmV0dXJuICJiYXNoIiwgbmlsCgljYXNlICIuZ28iOgoJCXJldHVybiAiZ28iLCBuaWwKCWRlZmF1bHQ6CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLkuI3mlK/mjIHmiafooYzmraTmlofku7bnsbvlnosiKQoJfQp9CgpmdW5jIGJ1aWxkU2NyaXB0RXhlY0Vudih3b3JrRGlyIHN0cmluZykgbWFwW3N0cmluZ11zdHJpbmcgewoJZW52TWFwLCBlcnIgOj0gc2VydmljZS5CdWlsZE1hbmFnZWRSdW50aW1lRW52TWFwRm9yUHl0aG9uVmVyc2lvbih3b3JrRGlyLCBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsIG5pbCwgMip0aW1lLkhvdXIsICIiKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVudk1hcAoJfQoJcmV0dXJuIGVudk1hcAp9CgpmdW5jIG5ld1NjcmlwdENvbW1hbmQoaW50ZXJwcmV0ZXIgc3RyaW5nLCB0YXJnZXQgc3RyaW5nLCBzY3JpcHRBcmdzIFtdc3RyaW5nLCB3b3JrRGlyIHN0cmluZywgZW52TWFwIG1hcFtzdHJpbmddc3RyaW5nKSAoKmV4ZWMuQ21kLCBmdW5jKCksIGVycm9yKSB7CglyZXR1cm4gc2VydmljZS5DcmVhdGVNYW5hZ2VkQ29tbWFuZChpbnRlcnByZXRlciwgdGFyZ2V0LCBzY3JpcHRBcmdzLCB3b3JrRGlyLCBlbnZNYXApCn0KCmZ1bmMgc3RhcnRUcmFja2VkQ29tbWFuZChjbWQgKmV4ZWMuQ21kLCBydW4gKmRlYnVnUnVuKSAoKmlvLlBpcGVXcml0ZXIsIGNoYW4gc3RydWN0e30sIGVycm9yKSB7CglwaXBlUmVhZGVyLCBwaXBlV3JpdGVyIDo9IGlvLlBpcGUoKQoJY21kLlN0ZG91dCA9IHBpcGVXcml0ZXIKCWNtZC5TdGRlcnIgPSBwaXBlV3JpdGVyCgoJaWYgZXJyIDo9IGNtZC5TdGFydCgpOyBlcnIgIT0gbmlsIHsKCQlwaXBlV3JpdGVyLkNsb3NlKCkKCQlyZXR1cm4gbmlsLCBuaWwsIGVycgoJfQoKCXJ1bi5zZXRQcm9jZXNzKGNtZC5Qcm9jZXNzKQoJc2NhbkRvbmUgOj0gY29sbGVjdFJ1bkxvZ3MocGlwZVJlYWRlciwgcnVuKQoJcmV0dXJuIHBpcGVXcml0ZXIsIHNjYW5Eb25lLCBuaWwKfQoKZnVuYyBjb2xsZWN0UnVuTG9ncyhyZWFkZXIgaW8uUmVhZGVyLCBydW4gKmRlYnVnUnVuKSBjaGFuIHN0cnVjdHt9IHsKCWRvbmUgOj0gbWFrZShjaGFuIHN0cnVjdHt9KQoKCWdvIGZ1bmMoKSB7CgkJc2Nhbm5lciA6PSBidWZpby5OZXdTY2FubmVyKHJlYWRlcikKCQlzY2FubmVyLkJ1ZmZlcihtYWtlKFtdYnl0ZSwgNjQqMTAyNCksIDEwMjQqMTAyNCkKCQlmb3Igc2Nhbm5lci5TY2FuKCkgewoJCQlydW4uYXBwZW5kTG9nKHNjYW5uZXIuVGV4dCgpKQoJCX0KCQljbG9zZShkb25lKQoJfSgpCgoJcmV0dXJuIGRvbmUKfQoKZnVuYyB3YWl0VHJhY2tlZENvbW1hbmQoY21kICpleGVjLkNtZCwgcGlwZVdyaXRlciAqaW8uUGlwZVdyaXRlciwgc2NhbkRvbmUgY2hhbiBzdHJ1Y3R7fSkgZXJyb3IgewoJZXJyIDo9IGNtZC5XYWl0KCkKCXBpcGVXcml0ZXIuQ2xvc2UoKQoJPC1zY2FuRG9uZQoJcmV0dXJuIGVycgp9CgpmdW5jIHJlc29sdmVFeGl0Q29kZShlcnIgZXJyb3IpIGludCB7CglpZiBlcnIgPT0gbmlsIHsKCQlyZXR1cm4gMAoJfQoJaWYgZXhpdEVyciwgb2sgOj0gZXJyLigqZXhlYy5FeGl0RXJyb3IpOyBvayB7CgkJcmV0dXJuIGV4aXRFcnIuRXhpdENvZGUoKQoJfQoJcmV0dXJuIDEKfQo=
+package handler
+
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"os"
+	"os/exec"
+	"strings"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/service"
+)
+
+var scriptInterpreterMap = map[string][]string{
+	".py":  {"python", "-u"},
+	".js":  {"node"},
+	".mjs": {"node"},
+	".ts":  {"npx", "ts-node"},
+	".sh":  {"bash"},
+	".go":  {"go", "run"},
+}
+
+var scriptLanguageExtMap = map[string]string{
+	"python":     ".py",
+	"javascript": ".js",
+	"node":       ".mjs",
+	"mjs":        ".mjs",
+	"typescript": ".ts",
+	"shell":      ".sh",
+	"go":         ".go",
+}
+
+func newDebugRun() *debugRun {
+	return &debugRun{
+		Logs:   []string{},
+		Status: "running",
+	}
+}
+
+func (h *ScriptHandler) storeRun(runID string, run *debugRun) {
+	h.mu.Lock()
+	h.debugRuns[runID] = run
+	h.mu.Unlock()
+}
+
+func (h *ScriptHandler) loadRun(runID string) (*debugRun, bool) {
+	h.mu.Lock()
+	run, exists := h.debugRuns[runID]
+	h.mu.Unlock()
+	return run, exists
+}
+
+func (h *ScriptHandler) deleteRun(runID string) (*debugRun, bool) {
+	h.mu.Lock()
+	run, exists := h.debugRuns[runID]
+	if exists {
+		delete(h.debugRuns, runID)
+	}
+	h.mu.Unlock()
+	return run, exists
+}
+
+func (run *debugRun) setProcess(process *os.Process) {
+	run.mu.Lock()
+	run.Process = process
+	run.mu.Unlock()
+}
+
+func (run *debugRun) appendLog(line string) {
+	run.mu.Lock()
+	run.Logs = append(run.Logs, line)
+	run.mu.Unlock()
+}
+
+func (run *debugRun) logOutput() string {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+	return strings.Join(run.Logs, "\n")
+}
+
+func (run *debugRun) logOutputSince(offset int) string {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+	if offset >= len(run.Logs) {
+		return ""
+	}
+	return strings.Join(run.Logs[offset:], "\n")
+}
+
+func (run *debugRun) logLen() int {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+	return len(run.Logs)
+}
+
+func (run *debugRun) snapshot() ([]string, bool, *int, string) {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+
+	logs := make([]string, len(run.Logs))
+	copy(logs, run.Logs)
+
+	var exitCode *int
+	if run.ExitCode != nil {
+		value := *run.ExitCode
+		exitCode = &value
+	}
+
+	return logs, run.Done, exitCode, run.Status
+}
+
+func (run *debugRun) stop() {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+
+	if run.Process == nil || run.Done {
+		return
+	}
+
+	service.KillProcessGroup(run.Process)
+	run.Status = "stopped"
+	exitCode := -1
+	run.ExitCode = &exitCode
+	run.Done = true
+	run.Logs = append(run.Logs, "[???????]")
+}
+
+func (run *debugRun) killIfRunning() {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+
+	if run.Process != nil && !run.Done {
+		service.KillProcessGroup(run.Process)
+	}
+}
+
+func (run *debugRun) isStopped() bool {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+	return run.Status == "stopped"
+}
+
+func (run *debugRun) finish(exitCode int, waitErr error, elapsed float64) {
+	run.mu.Lock()
+	defer run.mu.Unlock()
+
+	if run.Status == "stopped" {
+		return
+	}
+
+	run.ExitCode = &exitCode
+	run.Done = true
+	if exitCode == 0 {
+		run.Status = "success"
+		run.Logs = append(run.Logs, fmt.Sprintf("[????, ???: %d, ??: %.2f?]", exitCode, elapsed))
+		return
+	}
+
+	run.Status = "failed"
+	errMsg := ""
+	if waitErr != nil {
+		errMsg = waitErr.Error()
+	}
+	if errMsg != "" {
+		run.Logs = append(run.Logs, fmt.Sprintf("[??????, ???: %d, ??: %s, ??: %.2f?]", exitCode, errMsg, elapsed))
+		return
+	}
+	run.Logs = append(run.Logs, fmt.Sprintf("[??????, ???: %d, ??: %.2f?]", exitCode, elapsed))
+}
+
+func scriptCommandParts(ext, target string) ([]string, error) {
+	baseCmd, ok := scriptInterpreterMap[ext]
+	if !ok {
+		return nil, fmt.Errorf("??????????")
+	}
+
+	if ext == ".sh" {
+		if err := service.NormalizeShellScriptFile(target); err != nil {
+			return nil, fmt.Errorf("?????????: %w", err)
+		}
+	}
+
+	cmdParts := append([]string{}, baseCmd...)
+	cmdParts = append(cmdParts, target)
+	return cmdParts, nil
+}
+
+func scriptRuntimeInterpreter(ext string) (string, error) {
+	switch ext {
+	case ".py":
+		return "python3", nil
+	case ".js", ".mjs":
+		return "node", nil
+	case ".ts":
+		return "ts-node", nil
+	case ".sh":
+		return "bash", nil
+	case ".go":
+		return "go", nil
+	default:
+		return "", fmt.Errorf("??????????")
+	}
+}
+
+func buildScriptExecEnv(workDir string) map[string]string {
+	envMap, err := service.BuildManagedRuntimeEnvMapForPythonVersion(workDir, config.C.Data.ScriptsDir, nil, 2*time.Hour, "")
+	if err != nil {
+		return envMap
+	}
+	return envMap
+}
+
+func newScriptCommand(interpreter string, target string, scriptArgs []string, workDir string, envMap map[string]string) (*exec.Cmd, func(), error) {
+	return service.CreateManagedCommand(interpreter, target, scriptArgs, workDir, envMap)
+}
+
+func startTrackedCommand(cmd *exec.Cmd, run *debugRun) (*io.PipeWriter, chan struct{}, error) {
+	pipeReader, pipeWriter := io.Pipe()
+	cmd.Stdout = pipeWriter
+	cmd.Stderr = pipeWriter
+
+	if err := cmd.Start(); err != nil {
+		pipeWriter.Close()
+		return nil, nil, err
+	}
+
+	run.setProcess(cmd.Process)
+	scanDone := collectRunLogs(pipeReader, run)
+	return pipeWriter, scanDone, nil
+}
+
+func collectRunLogs(reader io.Reader, run *debugRun) chan struct{} {
+	done := make(chan struct{})
+
+	go func() {
+		scanner := bufio.NewScanner(reader)
+		scanner.Buffer(make([]byte, 64*1024), 1024*1024)
+		for scanner.Scan() {
+			run.appendLog(scanner.Text())
+		}
+		close(done)
+	}()
+
+	return done
+}
+
+func waitTrackedCommand(cmd *exec.Cmd, pipeWriter *io.PipeWriter, scanDone chan struct{}) error {
+	err := cmd.Wait()
+	pipeWriter.Close()
+	<-scanDone
+	return err
+}
+
+func resolveExitCode(err error) int {
+	if err == nil {
+		return 0
+	}
+	if exitErr, ok := err.(*exec.ExitError); ok {
+		return exitErr.ExitCode()
+	}
+	return 1
+}

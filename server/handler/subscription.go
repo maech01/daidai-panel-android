@@ -1,1 +1,551 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkic3luYyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21pZGRsZXdhcmUiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKdHlwZSBzdWJQdWxsQnJvYWRjYXN0ZXIgc3RydWN0IHsKCW11ICAgc3luYy5SV011dGV4CglzdWJzIG1hcFtjaGFuIHN0cmluZ11zdHJ1Y3R7fQoJbG9nICBzdHJpbmdzLkJ1aWxkZXIKfQoKdmFyICgKCXN1YlB1bGxTdHJlYW1zICAgPSBtYWtlKG1hcFt1aW50XSpzdWJQdWxsQnJvYWRjYXN0ZXIpCglzdWJQdWxsU3RyZWFtc011IHN5bmMuUldNdXRleAopCgpmdW5jIGdldE9yQ3JlYXRlU3ViQnJvYWRjYXN0ZXIoaWQgdWludCkgKnN1YlB1bGxCcm9hZGNhc3RlciB7CglzdWJQdWxsU3RyZWFtc011LkxvY2soKQoJZGVmZXIgc3ViUHVsbFN0cmVhbXNNdS5VbmxvY2soKQoJaWYgYiwgb2sgOj0gc3ViUHVsbFN0cmVhbXNbaWRdOyBvayB7CgkJcmV0dXJuIGIKCX0KCWIgOj0gJnN1YlB1bGxCcm9hZGNhc3RlcntzdWJzOiBtYWtlKG1hcFtjaGFuIHN0cmluZ11zdHJ1Y3R7fSl9CglzdWJQdWxsU3RyZWFtc1tpZF0gPSBiCglyZXR1cm4gYgp9CgpmdW5jIHJlbW92ZVN1YkJyb2FkY2FzdGVyKGlkIHVpbnQpIHsKCXN1YlB1bGxTdHJlYW1zTXUuTG9jaygpCglkZWZlciBzdWJQdWxsU3RyZWFtc011LlVubG9jaygpCglpZiBiLCBvayA6PSBzdWJQdWxsU3RyZWFtc1tpZF07IG9rIHsKCQliLm11LkxvY2soKQoJCWZvciBjaCA6PSByYW5nZSBiLnN1YnMgewoJCQljbG9zZShjaCkKCQl9CgkJYi5tdS5VbmxvY2soKQoJCWRlbGV0ZShzdWJQdWxsU3RyZWFtcywgaWQpCgl9Cn0KCmZ1bmMgKGIgKnN1YlB1bGxCcm9hZGNhc3Rlcikgc3Vic2NyaWJlKCkgY2hhbiBzdHJpbmcgewoJY2ggOj0gbWFrZShjaGFuIHN0cmluZywgNjQpCgliLm11LkxvY2soKQoJYi5zdWJzW2NoXSA9IHN0cnVjdHt9e30KCWIubXUuVW5sb2NrKCkKCXJldHVybiBjaAp9CgpmdW5jIChiICpzdWJQdWxsQnJvYWRjYXN0ZXIpIHVuc3Vic2NyaWJlKGNoIGNoYW4gc3RyaW5nKSB7CgliLm11LkxvY2soKQoJZGVsZXRlKGIuc3VicywgY2gpCgliLm11LlVubG9jaygpCn0KCmZ1bmMgKGIgKnN1YlB1bGxCcm9hZGNhc3RlcikgYnJvYWRjYXN0KGxpbmUgc3RyaW5nKSB7CgliLm11LkxvY2soKQoJYi5sb2cuV3JpdGVTdHJpbmcobGluZSkKCWIubG9nLldyaXRlU3RyaW5nKCJcbiIpCgliLm11LlVubG9jaygpCgoJYi5tdS5STG9jaygpCglkZWZlciBiLm11LlJVbmxvY2soKQoJZm9yIGNoIDo9IHJhbmdlIGIuc3VicyB7CgkJc2VsZWN0IHsKCQljYXNlIGNoIDwtIGxpbmU6CgkJZGVmYXVsdDoKCQl9Cgl9Cn0KCmZ1bmMgKGIgKnN1YlB1bGxCcm9hZGNhc3RlcikgZG9uZSgpIHsKCWIubXUuUkxvY2soKQoJZGVmZXIgYi5tdS5SVW5sb2NrKCkKCWZvciBjaCA6PSByYW5nZSBiLnN1YnMgewoJCXNlbGVjdCB7CgkJY2FzZSBjaCA8LSAiXHgwMERPTkUiOgoJCWRlZmF1bHQ6CgkJfQoJfQp9CgpmdW5jIChiICpzdWJQdWxsQnJvYWRjYXN0ZXIpIGhpc3RvcnkoKSBzdHJpbmcgewoJYi5tdS5STG9jaygpCglkZWZlciBiLm11LlJVbmxvY2soKQoJcmV0dXJuIGIubG9nLlN0cmluZygpCn0KCnR5cGUgU3Vic2NyaXB0aW9uSGFuZGxlciBzdHJ1Y3R7fQoKZnVuYyBOZXdTdWJzY3JpcHRpb25IYW5kbGVyKCkgKlN1YnNjcmlwdGlvbkhhbmRsZXIgewoJcmV0dXJuICZTdWJzY3JpcHRpb25IYW5kbGVye30KfQoKZnVuYyBub3JtYWxpemVTdWJzY3JpcHRpb25BdXRoSW5wdXQoYXV0aFR5cGUgc3RyaW5nLCBzc2hLZXlJRCAqdWludCwgYXV0aFRva2VuIHN0cmluZykgKHN0cmluZywgKnVpbnQsIHN0cmluZywgZXJyb3IpIHsKCW5vcm1hbGl6ZWRUeXBlIDo9IG1vZGVsLk5vcm1hbGl6ZVN1YnNjcmlwdGlvbkF1dGhUeXBlKGF1dGhUeXBlKQoJdHJpbW1lZFRva2VuIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGF1dGhUb2tlbikKCglzd2l0Y2ggbm9ybWFsaXplZFR5cGUgewoJY2FzZSAiIjoKCQlyZXR1cm4gIiIsIG5pbCwgIiIsIG5pbAoJY2FzZSBtb2RlbC5TdWJBdXRoVHlwZVNTSDoKCQlpZiBzc2hLZXlJRCA9PSBuaWwgfHwgKnNzaEtleUlEID09IDAgewoJCQlyZXR1cm4gIiIsIG5pbCwgIiIsIGZtdC5FcnJvcmYoIuW3sumAieaLqSBTU0gg6Ym05p2D77yM6K+35oyH5a6aIFNTSCDlr4bpkqUiKQoJCX0KCQlyZXR1cm4gbm9ybWFsaXplZFR5cGUsIHNzaEtleUlELCAiIiwgbmlsCgljYXNlIG1vZGVsLlN1YkF1dGhUeXBlVG9rZW46CgkJaWYgdHJpbW1lZFRva2VuID09ICIiIHsKCQkJcmV0dXJuICIiLCBuaWwsICIiLCBmbXQuRXJyb3JmKCLlt7LpgInmi6kgVG9rZW4g6Ym05p2D77yM6K+35aGr5YaZ6K6/6Zeu5Luk54mMIikKCQl9CgkJcmV0dXJuIG5vcm1hbGl6ZWRUeXBlLCBuaWwsIHRyaW1tZWRUb2tlbiwgbmlsCglkZWZhdWx0OgoJCXJldHVybiAiIiwgbmlsLCAiIiwgZm10LkVycm9yZigi5peg5pWI55qE5LuT5bqT6Ym05p2D5pa55byPIikKCX0KfQoKZnVuYyAoaCAqU3Vic2NyaXB0aW9uSGFuZGxlcikgTGlzdChjICpnaW4uQ29udGV4dCkgewoJa2V5d29yZCA6PSBjLlF1ZXJ5KCJrZXl3b3JkIikKCXN1YlR5cGUgOj0gYy5RdWVyeSgidHlwZSIpCgllbmFibGVkUmF3IDo9IGMuUXVlcnkoImVuYWJsZWQiKQoJcGFnZSwgXyA6PSBzdHJjb252LkF0b2koYy5EZWZhdWx0UXVlcnkoInBhZ2UiLCAiMSIpKQoJcGFnZVNpemUsIF8gOj0gc3RyY29udi5BdG9pKGMuRGVmYXVsdFF1ZXJ5KCJwYWdlX3NpemUiLCAiMjAiKSkKCglpZiBwYWdlIDwgMSB7CgkJcGFnZSA9IDEKCX0KCWlmIHBhZ2VTaXplIDwgMSB8fCBwYWdlU2l6ZSA+IDEwMCB7CgkJcGFnZVNpemUgPSAyMAoJfQoKCXF1ZXJ5IDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5TdWJzY3JpcHRpb257fSkKCglpZiBrZXl3b3JkICE9ICIiIHsKCQlsaWtlIDo9ICIlIiArIGtleXdvcmQgKyAiJSIKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJuYW1lIExJS0UgPyBPUiB1cmwgTElLRSA/IiwgbGlrZSwgbGlrZSkKCX0KCWlmIHN1YlR5cGUgIT0gIiIgewoJCXF1ZXJ5ID0gcXVlcnkuV2hlcmUoInR5cGUgPSA/Iiwgc3ViVHlwZSkKCX0KCWlmIGVuYWJsZWRSYXcgIT0gIiIgewoJCWVuYWJsZWQsIGVyciA6PSBzdHJjb252LlBhcnNlQm9vbChlbmFibGVkUmF3KQoJCWlmIGVyciA9PSBuaWwgewoJCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJlbmFibGVkID0gPyIsIGVuYWJsZWQpCgkJfQoJfQoKCXZhciB0b3RhbCBpbnQ2NAoJcXVlcnkuQ291bnQoJnRvdGFsKQoKCXZhciBzdWJzIFtdbW9kZWwuU3Vic2NyaXB0aW9uCglxdWVyeS5PcmRlcigiY3JlYXRlZF9hdCBERVNDIikuCgkJT2Zmc2V0KChwYWdlIC0gMSkgKiBwYWdlU2l6ZSkuTGltaXQocGFnZVNpemUpLkZpbmQoJnN1YnMpCgoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKHN1YnMpKQoJZm9yIGksIHMgOj0gcmFuZ2Ugc3VicyB7CgkJZGF0YVtpXSA9IHMuVG9EaWN0KCkKCX0KCglyZXNwb25zZS5QYWdpbmF0ZWQoYywgZGF0YSwgdG90YWwsIHBhZ2UsIHBhZ2VTaXplKQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBDcmVhdGUoYyAqZ2luLkNvbnRleHQpIHsKCXZhciByZXEgc3RydWN0IHsKCQlOYW1lICAgICAgICAgICBzdHJpbmcgYGpzb246Im5hbWUiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlUeXBlICAgICAgICAgICBzdHJpbmcgYGpzb246InR5cGUiYAoJCVVSTCAgICAgICAgICAgIHN0cmluZyBganNvbjoidXJsIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgkJQnJhbmNoICAgICAgICAgc3RyaW5nIGBqc29uOiJicmFuY2giYAoJCVNjaGVkdWxlICAgICAgIHN0cmluZyBganNvbjoic2NoZWR1bGUiYAoJCVdoaXRlbGlzdCAgICAgIHN0cmluZyBganNvbjoid2hpdGVsaXN0ImAKCQlCbGFja2xpc3QgICAgICBzdHJpbmcgYGpzb246ImJsYWNrbGlzdCJgCgkJRGVwZW5kT24gICAgICAgc3RyaW5nIGBqc29uOiJkZXBlbmRfb24iYAoJCUhvb2tTY3JpcHQgICAgIHN0cmluZyBganNvbjoiaG9va19zY3JpcHQiYAoJCUF1dG9BZGRUYXNrICAgIGJvb2wgICBganNvbjoiYXV0b19hZGRfdGFzayJgCgkJQXV0b0RlbFRhc2sgICAgYm9vbCAgIGBqc29uOiJhdXRvX2RlbF90YXNrImAKCQlTYXZlRGlyICAgICAgICBzdHJpbmcgYGpzb246InNhdmVfZGlyImAKCQlTdWJQYXRoICAgICAgICBzdHJpbmcgYGpzb246InN1Yl9wYXRoImAKCQlTU0hLZXlJRCAgICAgICAqdWludCAgYGpzb246InNzaF9rZXlfaWQiYAoJCUF1dGhUeXBlICAgICAgIHN0cmluZyBganNvbjoiYXV0aF90eXBlImAKCQlBdXRoVXNlcm5hbWUgICAgc3RyaW5nIGBqc29uOiJhdXRoX3VzZXJuYW1lImAKCQlBdXRoVG9rZW4gICAgICBzdHJpbmcgYGpzb246ImF1dGhfdG9rZW4iYAoJCUFsaWFzICAgICAgICAgIHN0cmluZyBganNvbjoiYWxpYXMiYAoJCUZvcmNlT3ZlcndyaXRlICpib29sICBganNvbjoiZm9yY2Vfb3ZlcndyaXRlImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWlmIHJlcS5UeXBlID09ICIiIHsKCQlyZXEuVHlwZSA9IG1vZGVsLlN1YlR5cGVHaXRSZXBvCgl9CglpZiAhc2VydmljZS5WYWxpZGF0ZVN1YnNjcmlwdGlvblNjaGVkdWxlKHJlcS5TY2hlZHVsZSkgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuaXoOaViOeahOiuoumYheWumuaXtuinhOWImSIpCgkJcmV0dXJuCgl9CglhdXRoVHlwZSwgc3NoS2V5SUQsIGF1dGhUb2tlbiwgZXJyIDo9IG5vcm1hbGl6ZVN1YnNjcmlwdGlvbkF1dGhJbnB1dChyZXEuQXV0aFR5cGUsIHJlcS5TU0hLZXlJRCwgcmVxLkF1dGhUb2tlbikKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CgoJc3ViIDo9IG1vZGVsLlN1YnNjcmlwdGlvbnsKCQlOYW1lOiAgICAgICAgICAgcmVxLk5hbWUsCgkJVHlwZTogICAgICAgICAgIHJlcS5UeXBlLAoJCVVSTDogICAgICAgICAgICByZXEuVVJMLAoJCUJyYW5jaDogICAgICAgICByZXEuQnJhbmNoLAoJCVNjaGVkdWxlOiAgICAgICByZXEuU2NoZWR1bGUsCgkJV2hpdGVsaXN0OiAgICAgIHJlcS5XaGl0ZWxpc3QsCgkJQmxhY2tsaXN0OiAgICAgIHJlcS5CbGFja2xpc3QsCgkJRGVwZW5kT246ICAgICAgIHJlcS5EZXBlbmRPbiwKCQlIb29rU2NyaXB0OiAgICAgcmVxLkhvb2tTY3JpcHQsCgkJQXV0b0FkZFRhc2s6ICAgIHJlcS5BdXRvQWRkVGFzaywKCQlBdXRvRGVsVGFzazogICAgcmVxLkF1dG9EZWxUYXNrLAoJCUVuYWJsZWQ6ICAgICAgICB0cnVlLAoJCVNhdmVEaXI6ICAgICAgICByZXEuU2F2ZURpciwKCQlTdWJQYXRoOiAgICAgICAgcmVxLlN1YlBhdGgsCgkJU1NIS2V5SUQ6ICAgICAgIHNzaEtleUlELAoJCUF1dGhUeXBlOiAgICAgICBhdXRoVHlwZSwKCQlBdXRoVXNlcm5hbWU6ICAgIHJlcS5BdXRoVXNlcm5hbWUsCgkJQXV0aFRva2VuOiAgICAgIGF1dGhUb2tlbiwKCQlBbGlhczogICAgICAgICAgcmVxLkFsaWFzLAoJCUZvcmNlT3ZlcndyaXRlOiByZXEuRm9yY2VPdmVyd3JpdGUsCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmc3ViKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi5Yib5bu66K6i6ZiF5aSx6LSlIikKCQlyZXR1cm4KCX0KCglpZiBlcnIgOj0gc2VydmljZS5HZXRTdWJzY3JpcHRpb25TY2hlZHVsZXIoKS5BZGRPclVwZGF0ZUpvYigmc3ViKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi5Yib5bu66K6i6ZiF5oiQ5Yqf77yM5L2G5a6a5pe26LCD5bqm5rOo5YaM5aSx6LSlIikKCQlyZXR1cm4KCX0KCglyZXNwb25zZS5DcmVhdGVkKGMsIGdpbi5IeyJtZXNzYWdlIjogIuWIm+W7uuaIkOWKnyIsICJkYXRhIjogc3ViLlRvRGljdCgpfSkKfQoKZnVuYyAoaCAqU3Vic2NyaXB0aW9uSGFuZGxlcikgVXBkYXRlKGMgKmdpbi5Db250ZXh0KSB7CglzdWJJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHN1YiBtb2RlbC5TdWJzY3JpcHRpb24KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmc3ViLCBzdWJJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLorqLpmIXkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXZhciByZXEgbWFwW3N0cmluZ11pbnRlcmZhY2V7fQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJYWxsb3dlZCA6PSBtYXBbc3RyaW5nXWJvb2x7CgkJIm5hbWUiOiB0cnVlLCAidHlwZSI6IHRydWUsICJ1cmwiOiB0cnVlLCAiYnJhbmNoIjogdHJ1ZSwKCQkic2NoZWR1bGUiOiB0cnVlLCAid2hpdGVsaXN0IjogdHJ1ZSwgImJsYWNrbGlzdCI6IHRydWUsCgkJImRlcGVuZF9vbiI6IHRydWUsICJob29rX3NjcmlwdCI6IHRydWUsICJhdXRvX2FkZF90YXNrIjogdHJ1ZSwgImF1dG9fZGVsX3Rhc2siOiB0cnVlLAoJCSJzYXZlX2RpciI6IHRydWUsICJzdWJfcGF0aCI6IHRydWUsICJzc2hfa2V5X2lkIjogdHJ1ZSwgImF1dGhfdHlwZSI6IHRydWUsICJhdXRoX3VzZXJuYW1lIjogdHJ1ZSwgImF1dGhfdG9rZW4iOiB0cnVlLCAiYWxpYXMiOiB0cnVlLCAiZm9yY2Vfb3ZlcndyaXRlIjogdHJ1ZSwKCX0KCXVwZGF0ZXMgOj0gbWFrZShtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJZm9yIGssIHYgOj0gcmFuZ2UgcmVxIHsKCQlpZiBhbGxvd2VkW2tdIHsKCQkJdXBkYXRlc1trXSA9IHYKCQl9Cgl9CgoJaWYgc2NoZWR1bGUsIG9rIDo9IHVwZGF0ZXNbInNjaGVkdWxlIl0uKHN0cmluZyk7IG9rIHsKCQlpZiAhc2VydmljZS5WYWxpZGF0ZVN1YnNjcmlwdGlvblNjaGVkdWxlKHNjaGVkdWxlKSB7CgkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuaXoOaViOeahOiuoumYheWumuaXtuinhOWImSIpCgkJCXJldHVybgoJCX0KCX0KCglpZiBfLCBoYXNBdXRoVHlwZSA6PSB1cGRhdGVzWyJhdXRoX3R5cGUiXTsgaGFzQXV0aFR5cGUgfHwgdXBkYXRlc1sic3NoX2tleV9pZCJdICE9IG5pbCB8fCB1cGRhdGVzWyJhdXRoX3Rva2VuIl0gIT0gbmlsIHsKCQl2YXIgcmF3U1NIS2V5SUQgKnVpbnQKCQlpZiB2YWx1ZSwgZXhpc3RzIDo9IHVwZGF0ZXNbInNzaF9rZXlfaWQiXTsgZXhpc3RzIHsKCQkJc3dpdGNoIHR5cGVkIDo9IHZhbHVlLih0eXBlKSB7CgkJCWNhc2UgbmlsOgoJCQkJcmF3U1NIS2V5SUQgPSBuaWwKCQkJY2FzZSBmbG9hdDY0OgoJCQkJaWYgdHlwZWQgPiAwIHsKCQkJCQlpZCA6PSB1aW50KHR5cGVkKQoJCQkJCXJhd1NTSEtleUlEID0gJmlkCgkJCQl9CgkJCX0KCQl9IGVsc2UgewoJCQlyYXdTU0hLZXlJRCA9IHN1Yi5TU0hLZXlJRAoJCX0KCgkJYXV0aFR5cGUgOj0gc3ViLkVmZmVjdGl2ZUF1dGhUeXBlKCkKCQlpZiB2YWx1ZSwgZXhpc3RzIDo9IHVwZGF0ZXNbImF1dGhfdHlwZSJdOyBleGlzdHMgewoJCQl0ZXh0LCBvayA6PSB2YWx1ZS4oc3RyaW5nKQoJCQlpZiAhb2sgewoJCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5peg5pWI55qE5LuT5bqT6Ym05p2D5pa55byPIikKCQkJCXJldHVybgoJCQl9CgkJCWF1dGhUeXBlID0gdGV4dAoJCX0KCgkJYXV0aFRva2VuIDo9IHN1Yi5BdXRoVG9rZW4KCQlpZiB2YWx1ZSwgZXhpc3RzIDo9IHVwZGF0ZXNbImF1dGhfdG9rZW4iXTsgZXhpc3RzIHsKCQkJdGV4dCwgb2sgOj0gdmFsdWUuKHN0cmluZykKCQkJaWYgIW9rIHsKCQkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuaXoOaViOeahOS7k+W6k+iuv+mXruS7pOeJjCIpCgkJCQlyZXR1cm4KCQkJfQoJCQlpZiBzdHJpbmdzLlRyaW1TcGFjZSh0ZXh0KSAhPSAiIiB8fCBzdWIuRWZmZWN0aXZlQXV0aFR5cGUoKSAhPSBtb2RlbC5TdWJBdXRoVHlwZVRva2VuIHsKCQkJCWF1dGhUb2tlbiA9IHRleHQKCQkJfQoJCX0KCgkJbm9ybWFsaXplZFR5cGUsIG5vcm1hbGl6ZWRTU0hLZXlJRCwgbm9ybWFsaXplZFRva2VuLCBlcnIgOj0gbm9ybWFsaXplU3Vic2NyaXB0aW9uQXV0aElucHV0KGF1dGhUeXBlLCByYXdTU0hLZXlJRCwgYXV0aFRva2VuKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsIGVyci5FcnJvcigpKQoJCQlyZXR1cm4KCQl9CgkJdXBkYXRlc1siYXV0aF90eXBlIl0gPSBub3JtYWxpemVkVHlwZQoJCXVwZGF0ZXNbInNzaF9rZXlfaWQiXSA9IG5vcm1hbGl6ZWRTU0hLZXlJRAoJCXVwZGF0ZXNbImF1dGhfdG9rZW4iXSA9IG5vcm1hbGl6ZWRUb2tlbgoJfQoKCWlmIGxlbih1cGRhdGVzKSA+IDAgewoJCWRhdGFiYXNlLkRCLk1vZGVsKCZzdWIpLlVwZGF0ZXModXBkYXRlcykKCX0KCglkYXRhYmFzZS5EQi5GaXJzdCgmc3ViLCBzdWJJRCkKCWlmIGVyciA6PSBzZXJ2aWNlLkdldFN1YnNjcmlwdGlvblNjaGVkdWxlcigpLkFkZE9yVXBkYXRlSm9iKCZzdWIpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLmm7TmlrDmiJDlip/vvIzkvYblrprml7bosIPluqbms6jlhozlpLHotKUiKQoJCXJldHVybgoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLmm7TmlrDmiJDlip8iLCAiZGF0YSI6IHN1Yi5Ub0RpY3QoKX0pCn0KCmZ1bmMgKGggKlN1YnNjcmlwdGlvbkhhbmRsZXIpIERlbGV0ZShjICpnaW4uQ29udGV4dCkgewoJc3ViSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJc2VydmljZS5HZXRTdWJzY3JpcHRpb25TY2hlZHVsZXIoKS5SZW1vdmVKb2IodWludChzdWJJRCkpCglkYXRhYmFzZS5EQi5XaGVyZSgiaWQgPSA/Iiwgc3ViSUQpLkRlbGV0ZSgmbW9kZWwuU3Vic2NyaXB0aW9ue30pCglkYXRhYmFzZS5EQi5XaGVyZSgic3Vic2NyaXB0aW9uX2lkID0gPyIsIHN1YklEKS5EZWxldGUoJm1vZGVsLlN1YkxvZ3t9KQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLliKDpmaTmiJDlip8ifSkKfQoKZnVuYyAoaCAqU3Vic2NyaXB0aW9uSGFuZGxlcikgRW5hYmxlKGMgKmdpbi5Db250ZXh0KSB7CglzdWJJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgl2YXIgc3ViIG1vZGVsLlN1YnNjcmlwdGlvbgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdWIsIHN1YklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuiuoumYheS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CglkYXRhYmFzZS5EQi5Nb2RlbCgmc3ViKS5VcGRhdGUoImVuYWJsZWQiLCB0cnVlKQoJc3ViLkVuYWJsZWQgPSB0cnVlCglpZiBlcnIgOj0gc2VydmljZS5HZXRTdWJzY3JpcHRpb25TY2hlZHVsZXIoKS5BZGRPclVwZGF0ZUpvYigmc3ViKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi5ZCv55So5oiQ5Yqf77yM5L2G5a6a5pe26LCD5bqm5rOo5YaM5aSx6LSlIikKCQlyZXR1cm4KCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey5ZCv55SoIiwgImRhdGEiOiBzdWIuVG9EaWN0KCl9KQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBEaXNhYmxlKGMgKmdpbi5Db250ZXh0KSB7CglzdWJJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgl2YXIgc3ViIG1vZGVsLlN1YnNjcmlwdGlvbgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdWIsIHN1YklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuiuoumYheS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CglkYXRhYmFzZS5EQi5Nb2RlbCgmc3ViKS5VcGRhdGUoImVuYWJsZWQiLCBmYWxzZSkKCXN1Yi5FbmFibGVkID0gZmFsc2UKCXNlcnZpY2UuR2V0U3Vic2NyaXB0aW9uU2NoZWR1bGVyKCkuUmVtb3ZlSm9iKHN1Yi5JRCkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey56aB55SoIiwgImRhdGEiOiBzdWIuVG9EaWN0KCl9KQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBQdWxsKGMgKmdpbi5Db250ZXh0KSB7CglzdWJJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgl2YXIgc3ViIG1vZGVsLlN1YnNjcmlwdGlvbgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdWIsIHN1YklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuiuoumYheS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJaWYgc2VydmljZS5Jc1N1YnNjcmlwdGlvblB1bGxSdW5uaW5nKHVpbnQoc3ViSUQpKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6K+l6K6i6ZiF5q2j5Zyo5ouJ5Y+W5LitIikKCQlyZXR1cm4KCX0KCglicm9hZGNhc3RlciA6PSBnZXRPckNyZWF0ZVN1YkJyb2FkY2FzdGVyKHVpbnQoc3ViSUQpKQoKCWdvIGZ1bmMoKSB7CgkJZGVmZXIgcmVtb3ZlU3ViQnJvYWRjYXN0ZXIodWludChzdWJJRCkpCgkJc2VydmljZS5FeGVjdXRlU3Vic2NyaXB0aW9uUHVsbCgmc3ViLCBmdW5jKGxpbmUgc3RyaW5nKSB7CgkJCWJyb2FkY2FzdGVyLmJyb2FkY2FzdChsaW5lKQoJCX0pCgkJYnJvYWRjYXN0ZXIuZG9uZSgpCgl9KCkKCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIuaLieWPluS7u+WKoeW3suWQr+WKqCJ9KQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBTdG9wUHVsbChjICpnaW4uQ29udGV4dCkgewoJc3ViSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJaWYgIXNlcnZpY2UuSXNTdWJzY3JpcHRpb25QdWxsUnVubmluZyh1aW50KHN1YklEKSkgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuW9k+WJjeayoeaciei/m+ihjOS4reeahOaLieWPluS7u+WKoSIpCgkJcmV0dXJuCgl9CgoJc3ViUHVsbFN0cmVhbXNNdS5STG9jaygpCglicm9hZGNhc3RlciwgZXhpc3RzIDo9IHN1YlB1bGxTdHJlYW1zW3VpbnQoc3ViSUQpXQoJc3ViUHVsbFN0cmVhbXNNdS5SVW5sb2NrKCkKCWlmIGV4aXN0cyB7CgkJYnJvYWRjYXN0ZXIuYnJvYWRjYXN0KCJb5YGc5q2i6K+35rGCXSDmraPlnKjnu4jmraLlvZPliY3mi4nlj5bku7vliqEuLi4iKQoJfQoKCWlmICFzZXJ2aWNlLlN0b3BTdWJzY3JpcHRpb25QdWxsKHVpbnQoc3ViSUQpKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5ouJ5Y+W5Lu75Yqh5YGc5q2i5aSx6LSlIikKCQlyZXR1cm4KCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIuW3suWPkemAgeWBnOatouivt+axgiJ9KQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBQdWxsU3RyZWFtKGMgKmdpbi5Db250ZXh0KSB7CglzdWJJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJYy5IZWFkZXIoIkNvbnRlbnQtVHlwZSIsICJ0ZXh0L2V2ZW50LXN0cmVhbSIpCgljLkhlYWRlcigiQ2FjaGUtQ29udHJvbCIsICJuby1jYWNoZSIpCgljLkhlYWRlcigiQ29ubmVjdGlvbiIsICJrZWVwLWFsaXZlIikKCWMuSGVhZGVyKCJYLUFjY2VsLUJ1ZmZlcmluZyIsICJubyIpCgoJc3ViUHVsbFN0cmVhbXNNdS5STG9jaygpCglicm9hZGNhc3RlciwgZXhpc3RzIDo9IHN1YlB1bGxTdHJlYW1zW3VpbnQoc3ViSUQpXQoJc3ViUHVsbFN0cmVhbXNNdS5SVW5sb2NrKCkKCglpZiAhZXhpc3RzIHsKCQlmbXQuRnByaW50ZihjLldyaXRlciwgImV2ZW50OiBkb25lXG5kYXRhOiBub3RfcnVubmluZ1xuXG4iKQoJCWMuV3JpdGVyLkZsdXNoKCkKCQlyZXR1cm4KCX0KCgloaXN0b3J5IDo9IGJyb2FkY2FzdGVyLmhpc3RvcnkoKQoJaWYgaGlzdG9yeSAhPSAiIiB7CgkJZm9yIF8sIGxpbmUgOj0gcmFuZ2Ugc3RyaW5ncy5TcGxpdChzdHJpbmdzLlRyaW1SaWdodChoaXN0b3J5LCAiXG4iKSwgIlxuIikgewoJCQlpZiBsaW5lICE9ICIiIHsKCQkJCWZtdC5GcHJpbnRmKGMuV3JpdGVyLCAiZGF0YTogJXNcblxuIiwgbGluZSkKCQkJfQoJCX0KCQljLldyaXRlci5GbHVzaCgpCgl9CgoJc3ViIDo9IGJyb2FkY2FzdGVyLnN1YnNjcmliZSgpCglkZWZlciBicm9hZGNhc3Rlci51bnN1YnNjcmliZShzdWIpCgoJY3R4IDo9IGMuUmVxdWVzdC5Db250ZXh0KCkKCWZvciB7CgkJc2VsZWN0IHsKCQljYXNlIGxpbmUsIG9rIDo9IDwtc3ViOgoJCQlpZiAhb2sgewoJCQkJZm10LkZwcmludGYoYy5Xcml0ZXIsICJldmVudDogZG9uZVxuZGF0YTogY2xvc2VkXG5cbiIpCgkJCQljLldyaXRlci5GbHVzaCgpCgkJCQlyZXR1cm4KCQkJfQoJCQlpZiBsaW5lID09ICJceDAwRE9ORSIgewoJCQkJZm10LkZwcmludGYoYy5Xcml0ZXIsICJldmVudDogZG9uZVxuZGF0YTogZmluaXNoZWRcblxuIikKCQkJCWMuV3JpdGVyLkZsdXNoKCkKCQkJCXJldHVybgoJCQl9CgkJCWZtdC5GcHJpbnRmKGMuV3JpdGVyLCAiZGF0YTogJXNcblxuIiwgbGluZSkKCQkJYy5Xcml0ZXIuRmx1c2goKQoJCWNhc2UgPC1jdHguRG9uZSgpOgoJCQlyZXR1cm4KCQljYXNlIDwtdGltZS5BZnRlcig1ICogdGltZS5NaW51dGUpOgoJCQlmbXQuRnByaW50ZihjLldyaXRlciwgImV2ZW50OiBkb25lXG5kYXRhOiB0aW1lb3V0XG5cbiIpCgkJCWMuV3JpdGVyLkZsdXNoKCkKCQkJcmV0dXJuCgkJfQoJfQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBMb2dzKGMgKmdpbi5Db250ZXh0KSB7CglzdWJJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCglwYWdlLCBfIDo9IHN0cmNvbnYuQXRvaShjLkRlZmF1bHRRdWVyeSgicGFnZSIsICIxIikpCglwYWdlU2l6ZSwgXyA6PSBzdHJjb252LkF0b2koYy5EZWZhdWx0UXVlcnkoInBhZ2Vfc2l6ZSIsICIyMCIpKQoKCWlmIHBhZ2UgPCAxIHsKCQlwYWdlID0gMQoJfQoJaWYgcGFnZVNpemUgPCAxIHx8IHBhZ2VTaXplID4gMTAwIHsKCQlwYWdlU2l6ZSA9IDIwCgl9CgoJcXVlcnkgOj0gZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlN1YkxvZ3t9KS5XaGVyZSgic3Vic2NyaXB0aW9uX2lkID0gPyIsIHN1YklEKQoKCXZhciB0b3RhbCBpbnQ2NAoJcXVlcnkuQ291bnQoJnRvdGFsKQoKCXZhciBsb2dzIFtdbW9kZWwuU3ViTG9nCglxdWVyeS5PcmRlcigiY3JlYXRlZF9hdCBERVNDIikuCgkJT2Zmc2V0KChwYWdlIC0gMSkgKiBwYWdlU2l6ZSkuTGltaXQocGFnZVNpemUpLkZpbmQoJmxvZ3MpCgoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKGxvZ3MpKQoJZm9yIGksIGwgOj0gcmFuZ2UgbG9ncyB7CgkJZGF0YVtpXSA9IGwuVG9EaWN0KCkKCX0KCglyZXNwb25zZS5QYWdpbmF0ZWQoYywgZGF0YSwgdG90YWwsIHBhZ2UsIHBhZ2VTaXplKQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBCYXRjaERlbGV0ZShjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCUlEcyBbXXVpbnQgYGpzb246ImlkcyIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJcmVzdWx0IDo9IGRhdGFiYXNlLkRCLldoZXJlKCJpZCBJTiA/IiwgcmVxLklEcykuRGVsZXRlKCZtb2RlbC5TdWJzY3JpcHRpb257fSkKCWRhdGFiYXNlLkRCLldoZXJlKCJzdWJzY3JpcHRpb25faWQgSU4gPyIsIHJlcS5JRHMpLkRlbGV0ZSgmbW9kZWwuU3ViTG9ne30pCglmb3IgXywgaWQgOj0gcmFuZ2UgcmVxLklEcyB7CgkJc2VydmljZS5HZXRTdWJzY3JpcHRpb25TY2hlZHVsZXIoKS5SZW1vdmVKb2IoaWQpCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6IGZtdC5TcHJpbnRmKCLlt7LliKDpmaQgJWQg5Liq6K6i6ZiFIiwgcmVzdWx0LlJvd3NBZmZlY3RlZCksCgl9KQp9CgpmdW5jIChoICpTdWJzY3JpcHRpb25IYW5kbGVyKSBSZWdpc3RlclJvdXRlcyhyICpnaW4uUm91dGVyR3JvdXApIHsKCXN1YnMgOj0gci5Hcm91cCgiL3N1YnNjcmlwdGlvbnMiLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgbWlkZGxld2FyZS5PcGVuQVBJQWNjZXNzKCJzdWJzY3JpcHRpb25zIiksIG1pZGRsZXdhcmUuUmVxdWlyZVJvbGUoIm9wZXJhdG9yIikpCgl7CgkJc3Vicy5HRVQoIiIsIGguTGlzdCkKCQlzdWJzLlBPU1QoIiIsIGguQ3JlYXRlKQoJCXN1YnMuUFVUKCIvOmlkIiwgaC5VcGRhdGUpCgkJc3Vicy5ERUxFVEUoIi86aWQiLCBoLkRlbGV0ZSkKCQlzdWJzLlBVVCgiLzppZC9lbmFibGUiLCBoLkVuYWJsZSkKCQlzdWJzLlBVVCgiLzppZC9kaXNhYmxlIiwgaC5EaXNhYmxlKQoJCXN1YnMuUFVUKCIvOmlkL3B1bGwiLCBoLlB1bGwpCgkJc3Vicy5QVVQoIi86aWQvcHVsbC9zdG9wIiwgaC5TdG9wUHVsbCkKCQlzdWJzLkdFVCgiLzppZC9wdWxsLXN0cmVhbSIsIGguUHVsbFN0cmVhbSkKCQlzdWJzLkdFVCgiLzppZC9sb2dzIiwgaC5Mb2dzKQoJCXN1YnMuREVMRVRFKCIvYmF0Y2giLCBoLkJhdGNoRGVsZXRlKQoJfQp9Cg==
+package handler
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+type subPullBroadcaster struct {
+	mu   sync.RWMutex
+	subs map[chan string]struct{}
+	log  strings.Builder
+}
+
+var (
+	subPullStreams   = make(map[uint]*subPullBroadcaster)
+	subPullStreamsMu sync.RWMutex
+)
+
+func getOrCreateSubBroadcaster(id uint) *subPullBroadcaster {
+	subPullStreamsMu.Lock()
+	defer subPullStreamsMu.Unlock()
+	if b, ok := subPullStreams[id]; ok {
+		return b
+	}
+	b := &subPullBroadcaster{subs: make(map[chan string]struct{})}
+	subPullStreams[id] = b
+	return b
+}
+
+func removeSubBroadcaster(id uint) {
+	subPullStreamsMu.Lock()
+	defer subPullStreamsMu.Unlock()
+	if b, ok := subPullStreams[id]; ok {
+		b.mu.Lock()
+		for ch := range b.subs {
+			close(ch)
+		}
+		b.mu.Unlock()
+		delete(subPullStreams, id)
+	}
+}
+
+func (b *subPullBroadcaster) subscribe() chan string {
+	ch := make(chan string, 64)
+	b.mu.Lock()
+	b.subs[ch] = struct{}{}
+	b.mu.Unlock()
+	return ch
+}
+
+func (b *subPullBroadcaster) unsubscribe(ch chan string) {
+	b.mu.Lock()
+	delete(b.subs, ch)
+	b.mu.Unlock()
+}
+
+func (b *subPullBroadcaster) broadcast(line string) {
+	b.mu.Lock()
+	b.log.WriteString(line)
+	b.log.WriteString("\n")
+	b.mu.Unlock()
+
+	b.mu.RLock()
+	defer b.mu.RUnlock()
+	for ch := range b.subs {
+		select {
+		case ch <- line:
+		default:
+		}
+	}
+}
+
+func (b *subPullBroadcaster) done() {
+	b.mu.RLock()
+	defer b.mu.RUnlock()
+	for ch := range b.subs {
+		select {
+		case ch <- "\x00DONE":
+		default:
+		}
+	}
+}
+
+func (b *subPullBroadcaster) history() string {
+	b.mu.RLock()
+	defer b.mu.RUnlock()
+	return b.log.String()
+}
+
+type SubscriptionHandler struct{}
+
+func NewSubscriptionHandler() *SubscriptionHandler {
+	return &SubscriptionHandler{}
+}
+
+func normalizeSubscriptionAuthInput(authType string, sshKeyID *uint, authToken string) (string, *uint, string, error) {
+	normalizedType := model.NormalizeSubscriptionAuthType(authType)
+	trimmedToken := strings.TrimSpace(authToken)
+
+	switch normalizedType {
+	case "":
+		return "", nil, "", nil
+	case model.SubAuthTypeSSH:
+		if sshKeyID == nil || *sshKeyID == 0 {
+			return "", nil, "", fmt.Errorf("??? SSH ??,??? SSH ??")
+		}
+		return normalizedType, sshKeyID, "", nil
+	case model.SubAuthTypeToken:
+		if trimmedToken == "" {
+			return "", nil, "", fmt.Errorf("??? Token ??,???????")
+		}
+		return normalizedType, nil, trimmedToken, nil
+	default:
+		return "", nil, "", fmt.Errorf("?????????")
+	}
+}
+
+func (h *SubscriptionHandler) List(c *gin.Context) {
+	keyword := c.Query("keyword")
+	subType := c.Query("type")
+	enabledRaw := c.Query("enabled")
+	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
+	pageSize, _ := strconv.Atoi(c.DefaultQuery("page_size", "20"))
+
+	if page < 1 {
+		page = 1
+	}
+	if pageSize < 1 || pageSize > 100 {
+		pageSize = 20
+	}
+
+	query := database.DB.Model(&model.Subscription{})
+
+	if keyword != "" {
+		like := "%" + keyword + "%"
+		query = query.Where("name LIKE ? OR url LIKE ?", like, like)
+	}
+	if subType != "" {
+		query = query.Where("type = ?", subType)
+	}
+	if enabledRaw != "" {
+		enabled, err := strconv.ParseBool(enabledRaw)
+		if err == nil {
+			query = query.Where("enabled = ?", enabled)
+		}
+	}
+
+	var total int64
+	query.Count(&total)
+
+	var subs []model.Subscription
+	query.Order("created_at DESC").
+		Offset((page - 1) * pageSize).Limit(pageSize).Find(&subs)
+
+	data := make([]map[string]interface{}, len(subs))
+	for i, s := range subs {
+		data[i] = s.ToDict()
+	}
+
+	response.Paginated(c, data, total, page, pageSize)
+}
+
+func (h *SubscriptionHandler) Create(c *gin.Context) {
+	var req struct {
+		Name           string `json:"name" binding:"required"`
+		Type           string `json:"type"`
+		URL            string `json:"url" binding:"required"`
+		Branch         string `json:"branch"`
+		Schedule       string `json:"schedule"`
+		Whitelist      string `json:"whitelist"`
+		Blacklist      string `json:"blacklist"`
+		DependOn       string `json:"depend_on"`
+		HookScript     string `json:"hook_script"`
+		AutoAddTask    bool   `json:"auto_add_task"`
+		AutoDelTask    bool   `json:"auto_del_task"`
+		SaveDir        string `json:"save_dir"`
+		SubPath        string `json:"sub_path"`
+		SSHKeyID       *uint  `json:"ssh_key_id"`
+		AuthType       string `json:"auth_type"`
+		AuthUsername    string `json:"auth_username"`
+		AuthToken      string `json:"auth_token"`
+		Alias          string `json:"alias"`
+		ForceOverwrite *bool  `json:"force_overwrite"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	if req.Type == "" {
+		req.Type = model.SubTypeGitRepo
+	}
+	if !service.ValidateSubscriptionSchedule(req.Schedule) {
+		response.BadRequest(c, "?????????")
+		return
+	}
+	authType, sshKeyID, authToken, err := normalizeSubscriptionAuthInput(req.AuthType, req.SSHKeyID, req.AuthToken)
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	sub := model.Subscription{
+		Name:           req.Name,
+		Type:           req.Type,
+		URL:            req.URL,
+		Branch:         req.Branch,
+		Schedule:       req.Schedule,
+		Whitelist:      req.Whitelist,
+		Blacklist:      req.Blacklist,
+		DependOn:       req.DependOn,
+		HookScript:     req.HookScript,
+		AutoAddTask:    req.AutoAddTask,
+		AutoDelTask:    req.AutoDelTask,
+		Enabled:        true,
+		SaveDir:        req.SaveDir,
+		SubPath:        req.SubPath,
+		SSHKeyID:       sshKeyID,
+		AuthType:       authType,
+		AuthUsername:    req.AuthUsername,
+		AuthToken:      authToken,
+		Alias:          req.Alias,
+		ForceOverwrite: req.ForceOverwrite,
+	}
+
+	if err := database.DB.Create(&sub).Error; err != nil {
+		response.InternalError(c, "??????")
+		return
+	}
+
+	if err := service.GetSubscriptionScheduler().AddOrUpdateJob(&sub); err != nil {
+		response.InternalError(c, "??????,?????????")
+		return
+	}
+
+	response.Created(c, gin.H{"message": "????", "data": sub.ToDict()})
+}
+
+func (h *SubscriptionHandler) Update(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var sub model.Subscription
+	if err := database.DB.First(&sub, subID).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	var req map[string]interface{}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	allowed := map[string]bool{
+		"name": true, "type": true, "url": true, "branch": true,
+		"schedule": true, "whitelist": true, "blacklist": true,
+		"depend_on": true, "hook_script": true, "auto_add_task": true, "auto_del_task": true,
+		"save_dir": true, "sub_path": true, "ssh_key_id": true, "auth_type": true, "auth_username": true, "auth_token": true, "alias": true, "force_overwrite": true,
+	}
+	updates := make(map[string]interface{})
+	for k, v := range req {
+		if allowed[k] {
+			updates[k] = v
+		}
+	}
+
+	if schedule, ok := updates["schedule"].(string); ok {
+		if !service.ValidateSubscriptionSchedule(schedule) {
+			response.BadRequest(c, "?????????")
+			return
+		}
+	}
+
+	if _, hasAuthType := updates["auth_type"]; hasAuthType || updates["ssh_key_id"] != nil || updates["auth_token"] != nil {
+		var rawSSHKeyID *uint
+		if value, exists := updates["ssh_key_id"]; exists {
+			switch typed := value.(type) {
+			case nil:
+				rawSSHKeyID = nil
+			case float64:
+				if typed > 0 {
+					id := uint(typed)
+					rawSSHKeyID = &id
+				}
+			}
+		} else {
+			rawSSHKeyID = sub.SSHKeyID
+		}
+
+		authType := sub.EffectiveAuthType()
+		if value, exists := updates["auth_type"]; exists {
+			text, ok := value.(string)
+			if !ok {
+				response.BadRequest(c, "?????????")
+				return
+			}
+			authType = text
+		}
+
+		authToken := sub.AuthToken
+		if value, exists := updates["auth_token"]; exists {
+			text, ok := value.(string)
+			if !ok {
+				response.BadRequest(c, "?????????")
+				return
+			}
+			if strings.TrimSpace(text) != "" || sub.EffectiveAuthType() != model.SubAuthTypeToken {
+				authToken = text
+			}
+		}
+
+		normalizedType, normalizedSSHKeyID, normalizedToken, err := normalizeSubscriptionAuthInput(authType, rawSSHKeyID, authToken)
+		if err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+		updates["auth_type"] = normalizedType
+		updates["ssh_key_id"] = normalizedSSHKeyID
+		updates["auth_token"] = normalizedToken
+	}
+
+	if len(updates) > 0 {
+		database.DB.Model(&sub).Updates(updates)
+	}
+
+	database.DB.First(&sub, subID)
+	if err := service.GetSubscriptionScheduler().AddOrUpdateJob(&sub); err != nil {
+		response.InternalError(c, "????,?????????")
+		return
+	}
+	response.Success(c, gin.H{"message": "????", "data": sub.ToDict()})
+}
+
+func (h *SubscriptionHandler) Delete(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	service.GetSubscriptionScheduler().RemoveJob(uint(subID))
+	database.DB.Where("id = ?", subID).Delete(&model.Subscription{})
+	database.DB.Where("subscription_id = ?", subID).Delete(&model.SubLog{})
+	response.Success(c, gin.H{"message": "????"})
+}
+
+func (h *SubscriptionHandler) Enable(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	var sub model.Subscription
+	if err := database.DB.First(&sub, subID).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+	database.DB.Model(&sub).Update("enabled", true)
+	sub.Enabled = true
+	if err := service.GetSubscriptionScheduler().AddOrUpdateJob(&sub); err != nil {
+		response.InternalError(c, "????,?????????")
+		return
+	}
+	response.Success(c, gin.H{"message": "???", "data": sub.ToDict()})
+}
+
+func (h *SubscriptionHandler) Disable(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	var sub model.Subscription
+	if err := database.DB.First(&sub, subID).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+	database.DB.Model(&sub).Update("enabled", false)
+	sub.Enabled = false
+	service.GetSubscriptionScheduler().RemoveJob(sub.ID)
+	response.Success(c, gin.H{"message": "???", "data": sub.ToDict()})
+}
+
+func (h *SubscriptionHandler) Pull(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	var sub model.Subscription
+	if err := database.DB.First(&sub, subID).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	if service.IsSubscriptionPullRunning(uint(subID)) {
+		response.BadRequest(c, "????????")
+		return
+	}
+
+	broadcaster := getOrCreateSubBroadcaster(uint(subID))
+
+	go func() {
+		defer removeSubBroadcaster(uint(subID))
+		service.ExecuteSubscriptionPull(&sub, func(line string) {
+			broadcaster.broadcast(line)
+		})
+		broadcaster.done()
+	}()
+
+	response.Success(c, gin.H{"message": "???????"})
+}
+
+func (h *SubscriptionHandler) StopPull(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	if !service.IsSubscriptionPullRunning(uint(subID)) {
+		response.BadRequest(c, "????????????")
+		return
+	}
+
+	subPullStreamsMu.RLock()
+	broadcaster, exists := subPullStreams[uint(subID)]
+	subPullStreamsMu.RUnlock()
+	if exists {
+		broadcaster.broadcast("[????] ??????????...")
+	}
+
+	if !service.StopSubscriptionPull(uint(subID)) {
+		response.BadRequest(c, "????????")
+		return
+	}
+
+	response.Success(c, gin.H{"message": "???????"})
+}
+
+func (h *SubscriptionHandler) PullStream(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	c.Header("Content-Type", "text/event-stream")
+	c.Header("Cache-Control", "no-cache")
+	c.Header("Connection", "keep-alive")
+	c.Header("X-Accel-Buffering", "no")
+
+	subPullStreamsMu.RLock()
+	broadcaster, exists := subPullStreams[uint(subID)]
+	subPullStreamsMu.RUnlock()
+
+	if !exists {
+		fmt.Fprintf(c.Writer, "event: done\ndata: not_running\n\n")
+		c.Writer.Flush()
+		return
+	}
+
+	history := broadcaster.history()
+	if history != "" {
+		for _, line := range strings.Split(strings.TrimRight(history, "\n"), "\n") {
+			if line != "" {
+				fmt.Fprintf(c.Writer, "data: %s\n\n", line)
+			}
+		}
+		c.Writer.Flush()
+	}
+
+	sub := broadcaster.subscribe()
+	defer broadcaster.unsubscribe(sub)
+
+	ctx := c.Request.Context()
+	for {
+		select {
+		case line, ok := <-sub:
+			if !ok {
+				fmt.Fprintf(c.Writer, "event: done\ndata: closed\n\n")
+				c.Writer.Flush()
+				return
+			}
+			if line == "\x00DONE" {
+				fmt.Fprintf(c.Writer, "event: done\ndata: finished\n\n")
+				c.Writer.Flush()
+				return
+			}
+			fmt.Fprintf(c.Writer, "data: %s\n\n", line)
+			c.Writer.Flush()
+		case <-ctx.Done():
+			return
+		case <-time.After(5 * time.Minute):
+			fmt.Fprintf(c.Writer, "event: done\ndata: timeout\n\n")
+			c.Writer.Flush()
+			return
+		}
+	}
+}
+
+func (h *SubscriptionHandler) Logs(c *gin.Context) {
+	subID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
+	pageSize, _ := strconv.Atoi(c.DefaultQuery("page_size", "20"))
+
+	if page < 1 {
+		page = 1
+	}
+	if pageSize < 1 || pageSize > 100 {
+		pageSize = 20
+	}
+
+	query := database.DB.Model(&model.SubLog{}).Where("subscription_id = ?", subID)
+
+	var total int64
+	query.Count(&total)
+
+	var logs []model.SubLog
+	query.Order("created_at DESC").
+		Offset((page - 1) * pageSize).Limit(pageSize).Find(&logs)
+
+	data := make([]map[string]interface{}, len(logs))
+	for i, l := range logs {
+		data[i] = l.ToDict()
+	}
+
+	response.Paginated(c, data, total, page, pageSize)
+}
+
+func (h *SubscriptionHandler) BatchDelete(c *gin.Context) {
+	var req struct {
+		IDs []uint `json:"ids" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	result := database.DB.Where("id IN ?", req.IDs).Delete(&model.Subscription{})
+	database.DB.Where("subscription_id IN ?", req.IDs).Delete(&model.SubLog{})
+	for _, id := range req.IDs {
+		service.GetSubscriptionScheduler().RemoveJob(id)
+	}
+
+	response.Success(c, gin.H{
+		"message": fmt.Sprintf("??? %d ???", result.RowsAffected),
+	})
+}
+
+func (h *SubscriptionHandler) RegisterRoutes(r *gin.RouterGroup) {
+	subs := r.Group("/subscriptions", middleware.JWTAuth(), middleware.OpenAPIAccess("subscriptions"), middleware.RequireRole("operator"))
+	{
+		subs.GET("", h.List)
+		subs.POST("", h.Create)
+		subs.PUT("/:id", h.Update)
+		subs.DELETE("/:id", h.Delete)
+		subs.PUT("/:id/enable", h.Enable)
+		subs.PUT("/:id/disable", h.Disable)
+		subs.PUT("/:id/pull", h.Pull)
+		subs.PUT("/:id/pull/stop", h.StopPull)
+		subs.GET("/:id/pull-stream", h.PullStream)
+		subs.GET("/:id/logs", h.Logs)
+		subs.DELETE("/batch", h.BatchDelete)
+	}
+}

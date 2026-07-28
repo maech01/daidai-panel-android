@@ -1,1 +1,68 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTY3JpcHRTYXZlUmVqZWN0c0RpcmVjdG9yeVRhcmdldCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic2NyaXB0LXNhdmUtZGlyIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZGlyUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImZvbGRlciIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZGlyUGF0aCwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgdGFyZ2V0IGRpcjogJXYiLCBlcnIpCgl9CgoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJIi9hcGkvdjEvc2NyaXB0cy9jb250ZW50IiwKCQlgeyJwYXRoIjoiZm9sZGVyIiwiY29udGVudCI6InByaW50KCdoZWxsbycpXG4ifWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0MDAsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMocmVjLkJvZHkuU3RyaW5nKCksICLlvZPliY3ot6/lvoTmmK/nm67lvZUiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRpcmVjdG9yeSB0YXJnZXQgZXJyb3IsIGJvZHk9JXMiLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KfQoKZnVuYyBUZXN0U2NyaXB0U2F2ZVdyaXRlc05vcm1hbGl6ZWRTaGVsbENvbnRlbnQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInNjcmlwdC1zYXZlLXNoZWxsIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJIi9hcGkvdjEvc2NyaXB0cy9jb250ZW50IiwKCQkie1wicGF0aFwiOlwiZGVtby5zaFwiLFwiY29udGVudFwiOlwiZWNobyBoaVxcclxcbmVjaG8gYWdhaW5cXHJcXG5cIn0iLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJY29udGVudCwgZXJyIDo9IG9zLlJlYWRGaWxlKGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAiZGVtby5zaCIpKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgc2F2ZWQgc2hlbGwgZmlsZTogJXYiLCBlcnIpCgl9CglpZiBnb3QgOj0gc3RyaW5nKGNvbnRlbnQpOyBnb3QgIT0gImVjaG8gaGlcbmVjaG8gYWdhaW5cbiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBub3JtYWxpemVkIHNoZWxsIGNvbnRlbnQsIGdvdCAlcSIsIGdvdCkKCX0KfQo=
+package handler_test
+
+import (
+	"net/http"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestScriptSaveRejectsDirectoryTarget(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-save-dir", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	dirPath := filepath.Join(config.C.Data.ScriptsDir, "folder")
+	if err := os.MkdirAll(dirPath, 0o755); err != nil {
+		t.Fatalf("mkdir target dir: %v", err)
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/scripts/content",
+		`{"path":"folder","content":"print('hello')\n"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d body=%s", rec.Code, rec.Body.String())
+	}
+	if !strings.Contains(rec.Body.String(), "???????") {
+		t.Fatalf("expected directory target error, body=%s", rec.Body.String())
+	}
+}
+
+func TestScriptSaveWritesNormalizedShellContent(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-save-shell", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/scripts/content",
+		"{\"path\":\"demo.sh\",\"content\":\"echo hi\\r\\necho again\\r\\n\"}",
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	content, err := os.ReadFile(filepath.Join(config.C.Data.ScriptsDir, "demo.sh"))
+	if err != nil {
+		t.Fatalf("read saved shell file: %v", err)
+	}
+	if got := string(content); got != "echo hi\necho again\n" {
+		t.Fatalf("expected normalized shell content, got %q", got)
+	}
+}

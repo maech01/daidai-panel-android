@@ -1,1 +1,116 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJIm5ldC9odHRwL2h0dHB0ZXN0IgoJInN0cmluZ3MiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIHNlZWRFbmFibGVkMkZBKHQgKnRlc3RpbmcuVCwgdXNlcklEIHVpbnQpIHN0cmluZyB7Cgl0LkhlbHBlcigpCglzZWNyZXQsIF8sIGVyciA6PSBzZXJ2aWNlLlNldHVwVHdvRmFjdG9yKHVzZXJJRCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXR1cCAyZmE6ICV2IiwgZXJyKQoJfQoJY29kZSA6PSBzZXJ2aWNlLkdlbmVyYXRlQ3VycmVudFRPVFBGb3JUZXN0KHNlY3JldCkKCWlmIGVyciA6PSBzZXJ2aWNlLlZlcmlmeUFuZEVuYWJsZVR3b0ZhY3Rvcih1c2VySUQsIGNvZGUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZW5hYmxlIDJmYTogJXYiLCBlcnIpCgl9CglpZiAhc2VydmljZS5Jc1R3b0ZhY3RvckVuYWJsZWQodXNlcklEKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDJmYSBlbmFibGVkIGFmdGVyIHZlcmlmeSIpCgl9CglyZXR1cm4gc2VjcmV0Cn0KCmZ1bmMgVGVzdERpc2FibGUyRkFSZWplY3RzTWlzc2luZ0NvZGUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ0d29mYS11c2VyLW1pc3NpbmciLCAiYWRtaW4iKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCXNlZWRFbmFibGVkMkZBKHQsIHVzZXIuSUQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZERlbGV0ZSwgIi9hcGkvdjEvc2VjdXJpdHkvMmZhIiwgc3RyaW5ncy5OZXdSZWFkZXIoYHt9YCkpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlcS5IZWFkZXIuU2V0KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCglyZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChyZWMsIHJlcSkKCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0MDAgd2l0aG91dCBUT1RQIGNvZGUsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgIXNlcnZpY2UuSXNUd29GYWN0b3JFbmFibGVkKHVzZXIuSUQpIHsKCQl0LkZhdGFsZigiMkZBIHNob3VsZCByZW1haW4gZW5hYmxlZCBhZnRlciBmYWlsZWQgZGlzYWJsZSIpCgl9Cn0KCmZ1bmMgVGVzdERpc2FibGUyRkFSZWplY3RzSW52YWxpZENvZGUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ0d29mYS11c2VyLWludmFsaWQiLCAiYWRtaW4iKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCXNlZWRFbmFibGVkMkZBKHQsIHVzZXIuSUQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZERlbGV0ZSwgIi9hcGkvdjEvc2VjdXJpdHkvMmZhIiwgc3RyaW5ncy5OZXdSZWFkZXIoYHsiY29kZSI6IjAwMDAwMCJ9YCkpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlcS5IZWFkZXIuU2V0KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCglyZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChyZWMsIHJlcSkKCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0MDAgd2l0aCBpbnZhbGlkIGNvZGUsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgIXNlcnZpY2UuSXNUd29GYWN0b3JFbmFibGVkKHVzZXIuSUQpIHsKCQl0LkZhdGFsZigiMkZBIHNob3VsZCByZW1haW4gZW5hYmxlZCB3aGVuIGludmFsaWQgY29kZSBwcm92aWRlZCIpCgl9Cn0KCmZ1bmMgVGVzdERpc2FibGUyRkFBY2NlcHRzVmFsaWRDb2RlKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidHdvZmEtdXNlci12YWxpZCIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoJc2VjcmV0IDo9IHNlZWRFbmFibGVkMkZBKHQsIHVzZXIuSUQpCgoJY29kZSA6PSBzZXJ2aWNlLkdlbmVyYXRlQ3VycmVudFRPVFBGb3JUZXN0KHNlY3JldCkKCWJvZHkgOj0gZm10LlNwcmludGYoYHsiY29kZSI6IiVzIn1gLCBjb2RlKQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2REZWxldGUsICIvYXBpL3YxL3NlY3VyaXR5LzJmYSIsIHN0cmluZ3MuTmV3UmVhZGVyKGJvZHkpKQoJcmVxLkhlYWRlci5TZXQoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICIrdG9rZW4pCglyZXEuSGVhZGVyLlNldCgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQoJcmVjIDo9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAocmVjLCByZXEpCgoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCB3aXRoIHZhbGlkIGNvZGUsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgc2VydmljZS5Jc1R3b0ZhY3RvckVuYWJsZWQodXNlci5JRCkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyRkEgZGlzYWJsZWQgYWZ0ZXIgdmFsaWQgY29kZSIpCgl9Cn0KCmZ1bmMgVGVzdERpc2FibGUyRkFJZGVtcG90ZW50V2hlbkFscmVhZHlPZmYodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ0d29mYS11c2VyLW5vb3AiLCAiYWRtaW4iKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCS8vIERvIE5PVCBlbmFibGUgMkZBIOKAlCBkaXNhYmxpbmcgc2hvdWxkIGJlIGEgbm8tb3Agc3VjY2Vzcy4KCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kRGVsZXRlLCAiL2FwaS92MS9zZWN1cml0eS8yZmEiLCBzdHJpbmdzLk5ld1JlYWRlcihge31gKSkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVxLkhlYWRlci5TZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAgd2hlbiAyRkEgYWxyZWFkeSBvZmYsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQp9Cg==
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"net/http/httptest"
+	"strings"
+	"testing"
+
+	"daidai-panel/service"
+	"daidai-panel/testutil"
+)
+
+func seedEnabled2FA(t *testing.T, userID uint) string {
+	t.Helper()
+	secret, _, err := service.SetupTwoFactor(userID)
+	if err != nil {
+		t.Fatalf("setup 2fa: %v", err)
+	}
+	code := service.GenerateCurrentTOTPForTest(secret)
+	if err := service.VerifyAndEnableTwoFactor(userID, code); err != nil {
+		t.Fatalf("enable 2fa: %v", err)
+	}
+	if !service.IsTwoFactorEnabled(userID) {
+		t.Fatalf("expected 2fa enabled after verify")
+	}
+	return secret
+}
+
+func TestDisable2FARejectsMissingCode(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	user := testutil.MustCreateUser(t, "twofa-user-missing", "admin")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	seedEnabled2FA(t, user.ID)
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodDelete, "/api/v1/security/2fa", strings.NewReader(`{}`))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400 without TOTP code, got %d body=%s", rec.Code, rec.Body.String())
+	}
+	if !service.IsTwoFactorEnabled(user.ID) {
+		t.Fatalf("2FA should remain enabled after failed disable")
+	}
+}
+
+func TestDisable2FARejectsInvalidCode(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	user := testutil.MustCreateUser(t, "twofa-user-invalid", "admin")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	seedEnabled2FA(t, user.ID)
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodDelete, "/api/v1/security/2fa", strings.NewReader(`{"code":"000000"}`))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400 with invalid code, got %d body=%s", rec.Code, rec.Body.String())
+	}
+	if !service.IsTwoFactorEnabled(user.ID) {
+		t.Fatalf("2FA should remain enabled when invalid code provided")
+	}
+}
+
+func TestDisable2FAAcceptsValidCode(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	user := testutil.MustCreateUser(t, "twofa-user-valid", "admin")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	secret := seedEnabled2FA(t, user.ID)
+
+	code := service.GenerateCurrentTOTPForTest(secret)
+	body := fmt.Sprintf(`{"code":"%s"}`, code)
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodDelete, "/api/v1/security/2fa", strings.NewReader(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200 with valid code, got %d body=%s", rec.Code, rec.Body.String())
+	}
+	if service.IsTwoFactorEnabled(user.ID) {
+		t.Fatalf("expected 2FA disabled after valid code")
+	}
+}
+
+func TestDisable2FAIdempotentWhenAlreadyOff(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	user := testutil.MustCreateUser(t, "twofa-user-noop", "admin")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	// Do NOT enable 2FA - disabling should be a no-op success.
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodDelete, "/api/v1/security/2fa", strings.NewReader(`{}`))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200 when 2FA already off, got %d body=%s", rec.Code, rec.Body.String())
+	}
+}

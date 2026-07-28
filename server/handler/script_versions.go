@@ -1,1 +1,120 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmNvbnYiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgpmdW5jIHJlY29yZFNjcmlwdFZlcnNpb24oc2NyaXB0UGF0aCwgY29udGVudCwgbWVzc2FnZSBzdHJpbmcpIGludCB7Cgl2YXIgbWF4VmVyc2lvbiBpbnQKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5TY3JpcHRWZXJzaW9ue30pLgoJCVdoZXJlKCJzY3JpcHRfcGF0aCA9ID8iLCBzY3JpcHRQYXRoKS4KCQlTZWxlY3QoIkNPQUxFU0NFKE1BWCh2ZXJzaW9uKSwgMCkiKS4KCQlTY2FuKCZtYXhWZXJzaW9uKQoKCW5ld1ZlcnNpb24gOj0gbWF4VmVyc2lvbiArIDEKCWlmIG1lc3NhZ2UgPT0gIiIgewoJCW1lc3NhZ2UgPSBmbXQuU3ByaW50ZigidiVkIiwgbmV3VmVyc2lvbikKCX0KCglzdiA6PSBtb2RlbC5TY3JpcHRWZXJzaW9uewoJCVNjcmlwdFBhdGg6IHNjcmlwdFBhdGgsCgkJQ29udGVudDogICAgY29udGVudCwKCQlWZXJzaW9uOiAgICBuZXdWZXJzaW9uLAoJCU1lc3NhZ2U6ICAgIG1lc3NhZ2UsCgl9CglkYXRhYmFzZS5EQi5DcmVhdGUoJnN2KQoKCXJldHVybiBuZXdWZXJzaW9uCn0KCmZ1bmMgKGggKlNjcmlwdEhhbmRsZXIpIExpc3RWZXJzaW9ucyhjICpnaW4uQ29udGV4dCkgewoJcGF0aCA6PSBjLlF1ZXJ5KCJwYXRoIikKCWlmIHBhdGggPT0gIiIgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIui3r+W+hOS4jeiDveS4uuepuiIpCgkJcmV0dXJuCgl9CgoJdmFyIHZlcnNpb25zIFtdbW9kZWwuU2NyaXB0VmVyc2lvbgoJZGF0YWJhc2UuREIuV2hlcmUoInNjcmlwdF9wYXRoID0gPyIsIHBhdGgpLgoJCU9yZGVyKCJ2ZXJzaW9uIERFU0MiKS5MaW1pdCg1MCkuRmluZCgmdmVyc2lvbnMpCgoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKHZlcnNpb25zKSkKCWZvciBpLCB2IDo9IHJhbmdlIHZlcnNpb25zIHsKCQlkYXRhW2ldID0gdi5Ub0RpY3QoKQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBkYXRhfSkKfQoKZnVuYyAoaCAqU2NyaXB0SGFuZGxlcikgQ2xlYXJWZXJzaW9ucyhjICpnaW4uQ29udGV4dCkgewoJcGF0aCwgZXJyIDo9IG5vcm1hbGl6ZVNjcmlwdFJlbGF0aXZlUGF0aChjLlF1ZXJ5KCJwYXRoIikpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsIGVyci5FcnJvcigpKQoJCXJldHVybgoJfQoKCXJlc3VsdCA6PSBkYXRhYmFzZS5EQi5XaGVyZSgic2NyaXB0X3BhdGggPSA/IiwgcGF0aCkuRGVsZXRlKCZtb2RlbC5TY3JpcHRWZXJzaW9ue30pCglpZiByZXN1bHQuRXJyb3IgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLmuIXnqbrniYjmnKzljoblj7LlpLHotKUiKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7CgkJIm1lc3NhZ2UiOiAgICAgICAi54mI5pys5Y6G5Y+y5bey5riF56m6IiwKCQkiY2xlYXJlZF9jb3VudCI6IHJlc3VsdC5Sb3dzQWZmZWN0ZWQsCgl9KQp9CgpmdW5jIChoICpTY3JpcHRIYW5kbGVyKSBHZXRWZXJzaW9uKGMgKmdpbi5Db250ZXh0KSB7CglpZCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHZlcnNpb24gbW9kZWwuU2NyaXB0VmVyc2lvbgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ2ZXJzaW9uLCBpZCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLniYjmnKzkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiB2ZXJzaW9uLlRvRGljdFdpdGhDb250ZW50KCl9KQp9CgpmdW5jIChoICpTY3JpcHRIYW5kbGVyKSBSb2xsYmFjayhjICpnaW4uQ29udGV4dCkgewoJaWQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoKCXZhciB2ZXJzaW9uIG1vZGVsLlNjcmlwdFZlcnNpb24KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdmVyc2lvbiwgaWQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi54mI5pys5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglmdWxsLCBlcnIgOj0gc2FmZVBhdGgodmVyc2lvbi5TY3JpcHRQYXRoLCBmYWxzZSkKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CgoJb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKGZ1bGwpLCAwNzU1KQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmdWxsLCBbXWJ5dGUodmVyc2lvbi5Db250ZW50KSwgMDY0NCk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuWGmeWFpeaWh+S7tuWksei0pSIpCgkJcmV0dXJuCgl9CgoJbmV3VmVyc2lvbiA6PSByZWNvcmRTY3JpcHRWZXJzaW9uKAoJCXZlcnNpb24uU2NyaXB0UGF0aCwKCQl2ZXJzaW9uLkNvbnRlbnQsCgkJZm10LlNwcmludGYoIuWbnua7muWIsCB2JWQiLCB2ZXJzaW9uLlZlcnNpb24pLAoJKQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7CgkJIm1lc3NhZ2UiOiBmbXQuU3ByaW50Zigi5bey5Zue5rua5YiwIHYlZCIsIHZlcnNpb24uVmVyc2lvbiksCgkJInZlcnNpb24iOiBuZXdWZXJzaW9uLAoJfSkKfQo=
+package handler
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"strconv"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+)
+
+func recordScriptVersion(scriptPath, content, message string) int {
+	var maxVersion int
+	database.DB.Model(&model.ScriptVersion{}).
+		Where("script_path = ?", scriptPath).
+		Select("COALESCE(MAX(version), 0)").
+		Scan(&maxVersion)
+
+	newVersion := maxVersion + 1
+	if message == "" {
+		message = fmt.Sprintf("v%d", newVersion)
+	}
+
+	sv := model.ScriptVersion{
+		ScriptPath: scriptPath,
+		Content:    content,
+		Version:    newVersion,
+		Message:    message,
+	}
+	database.DB.Create(&sv)
+
+	return newVersion
+}
+
+func (h *ScriptHandler) ListVersions(c *gin.Context) {
+	path := c.Query("path")
+	if path == "" {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	var versions []model.ScriptVersion
+	database.DB.Where("script_path = ?", path).
+		Order("version DESC").Limit(50).Find(&versions)
+
+	data := make([]map[string]interface{}, len(versions))
+	for i, v := range versions {
+		data[i] = v.ToDict()
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *ScriptHandler) ClearVersions(c *gin.Context) {
+	path, err := normalizeScriptRelativePath(c.Query("path"))
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	result := database.DB.Where("script_path = ?", path).Delete(&model.ScriptVersion{})
+	if result.Error != nil {
+		response.InternalError(c, "????????")
+		return
+	}
+
+	response.Success(c, gin.H{
+		"message":       "???????",
+		"cleared_count": result.RowsAffected,
+	})
+}
+
+func (h *ScriptHandler) GetVersion(c *gin.Context) {
+	id, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var version model.ScriptVersion
+	if err := database.DB.First(&version, id).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	response.Success(c, gin.H{"data": version.ToDictWithContent()})
+}
+
+func (h *ScriptHandler) Rollback(c *gin.Context) {
+	id, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var version model.ScriptVersion
+	if err := database.DB.First(&version, id).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	full, err := safePath(version.ScriptPath, false)
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	os.MkdirAll(filepath.Dir(full), 0755)
+	if err := os.WriteFile(full, []byte(version.Content), 0644); err != nil {
+		response.InternalError(c, "??????")
+		return
+	}
+
+	newVersion := recordScriptVersion(
+		version.ScriptPath,
+		version.Content,
+		fmt.Sprintf("??? v%d", version.Version),
+	)
+
+	response.Success(c, gin.H{
+		"message": fmt.Sprintf("???? v%d", version.Version),
+		"version": newVersion,
+	})
+}

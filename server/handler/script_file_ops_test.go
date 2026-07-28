@@ -1,1 +1,117 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZW5jb2RpbmcvanNvbiIKCSJuZXQvaHR0cCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmluZ3MiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdFNjcmlwdEdldENvbnRlbnRSZWplY3RzRGlyZWN0b3J5VGFyZ2V0KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzY3JpcHQtb3Blbi1kaXIiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCglkaXJQYXRoIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAiZm9sZGVyIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChkaXJQYXRoLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciB0YXJnZXQgZGlyOiAldiIsIGVycikKCX0KCglyZWMgOj0gcGVyZm9ybVJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kR2V0LAoJCSIvYXBpL3YxL3NjcmlwdHMvY29udGVudD9wYXRoPWZvbGRlciIsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0MDAsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMocmVjLkJvZHkuU3RyaW5nKCksICLlvZPliY3ot6/lvoTmmK/nm67lvZUiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRpcmVjdG9yeSB0YXJnZXQgZXJyb3IsIGJvZHk9JXMiLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KfQoKZnVuYyBUZXN0U2NyaXB0VHJlZVNob3dzRG90RmlsZXNBbmRTa2lwc1B5Y2FjaGUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInNjcmlwdC10cmVlLWRvdGZpbGVzIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJc2NyaXB0c1Jvb3QgOj0gY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguSm9pbihzY3JpcHRzUm9vdCwgIi5oaWRkZW4tZGlyIiksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIGhpZGRlbiBkaXI6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHNjcmlwdHNSb290LCAiLmhpZGRlbi1kaXIiLCAiLmVudiIpLCBbXWJ5dGUoIlRPS0VOPWRlbW9cbiIpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBoaWRkZW4gZW52OiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihzY3JpcHRzUm9vdCwgIi5oaWRkZW4tZmlsZSIpLCBbXWJ5dGUoInNlY3JldCIpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBoaWRkZW4gZmlsZTogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguSm9pbihzY3JpcHRzUm9vdCwgIl9fcHljYWNoZV9fIiksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIHB5Y2FjaGU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHNjcmlwdHNSb290LCAiX19weWNhY2hlX18iLCAibm90aWZ5LmNweXRob24tMzEyLnB5YyIpLCBbXWJ5dGV7MHgwMCwgMHgwMX0sIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHB5Y2FjaGUgZmlsZTogJXYiLCBlcnIpCgl9CgoJcmVjIDo9IHBlcmZvcm1SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZEdldCwKCQkiL2FwaS92MS9zY3JpcHRzL3RyZWUiLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIHBheWxvYWQgc3RydWN0IHsKCQlEYXRhIFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSBganNvbjoiZGF0YSJgCgl9CglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwocmVjLkJvZHkuQnl0ZXMoKSwgJnBheWxvYWQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZGVjb2RlIHRyZWUgcGF5bG9hZDogJXYiLCBlcnIpCgl9CglmbGF0S2V5cyA6PSBjb2xsZWN0U2NyaXB0VHJlZUtleXMocGF5bG9hZC5EYXRhKQoJZm9yIF8sIGtleSA6PSByYW5nZSBbXXN0cmluZ3siLmhpZGRlbi1kaXIiLCAiLmhpZGRlbi1kaXIvLmVudiIsICIuaGlkZGVuLWZpbGUifSB7CgkJaWYgIWZsYXRLZXlzW2tleV0gewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgc2NyaXB0IHRyZWUgdG8gaW5jbHVkZSAlcSwgZ290IGtleXM9JXYiLCBrZXksIGZsYXRLZXlzKQoJCX0KCX0KCWZvciBrZXkgOj0gcmFuZ2UgZmxhdEtleXMgewoJCWlmIHN0cmluZ3MuQ29udGFpbnMoa2V5LCAiX19weWNhY2hlX18iKSB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBzY3JpcHQgdHJlZSB0byBza2lwIF9fcHljYWNoZV9fLCBnb3Qga2V5PSVxIGFsbD0ldiIsIGtleSwgZmxhdEtleXMpCgkJfQoJfQp9CgpmdW5jIGNvbGxlY3RTY3JpcHRUcmVlS2V5cyhub2RlcyBbXW1hcFtzdHJpbmddaW50ZXJmYWNle30pIG1hcFtzdHJpbmddYm9vbCB7CglrZXlzIDo9IG1ha2UobWFwW3N0cmluZ11ib29sKQoJdmFyIHdhbGsgZnVuYyhbXW1hcFtzdHJpbmddaW50ZXJmYWNle30pCgl3YWxrID0gZnVuYyhpdGVtcyBbXW1hcFtzdHJpbmddaW50ZXJmYWNle30pIHsKCQlmb3IgXywgaXRlbSA6PSByYW5nZSBpdGVtcyB7CgkJCWlmIGtleSwgb2sgOj0gaXRlbVsia2V5Il0uKHN0cmluZyk7IG9rIHsKCQkJCWtleXNba2V5XSA9IHRydWUKCQkJfQoJCQljaGlsZHJlbiwgb2sgOj0gaXRlbVsiY2hpbGRyZW4iXS4oW11pbnRlcmZhY2V7fSkKCQkJaWYgIW9rIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJY2hpbGRNYXBzIDo9IG1ha2UoW11tYXBbc3RyaW5nXWludGVyZmFjZXt9LCAwLCBsZW4oY2hpbGRyZW4pKQoJCQlmb3IgXywgY2hpbGQgOj0gcmFuZ2UgY2hpbGRyZW4gewoJCQkJaWYgY2hpbGRNYXAsIG9rIDo9IGNoaWxkLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KTsgb2sgewoJCQkJCWNoaWxkTWFwcyA9IGFwcGVuZChjaGlsZE1hcHMsIGNoaWxkTWFwKQoJCQkJfQoJCQl9CgkJCXdhbGsoY2hpbGRNYXBzKQoJCX0KCX0KCXdhbGsobm9kZXMpCglyZXR1cm4ga2V5cwp9Cg==
+package handler_test
+
+import (
+	"encoding/json"
+	"net/http"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestScriptGetContentRejectsDirectoryTarget(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-open-dir", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	dirPath := filepath.Join(config.C.Data.ScriptsDir, "folder")
+	if err := os.MkdirAll(dirPath, 0o755); err != nil {
+		t.Fatalf("mkdir target dir: %v", err)
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/scripts/content?path=folder",
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d body=%s", rec.Code, rec.Body.String())
+	}
+	if !strings.Contains(rec.Body.String(), "???????") {
+		t.Fatalf("expected directory target error, body=%s", rec.Body.String())
+	}
+}
+
+func TestScriptTreeShowsDotFilesAndSkipsPycache(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-tree-dotfiles", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	scriptsRoot := config.C.Data.ScriptsDir
+	if err := os.MkdirAll(filepath.Join(scriptsRoot, ".hidden-dir"), 0o755); err != nil {
+		t.Fatalf("mkdir hidden dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(scriptsRoot, ".hidden-dir", ".env"), []byte("TOKEN=demo\n"), 0o644); err != nil {
+		t.Fatalf("write hidden env: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(scriptsRoot, ".hidden-file"), []byte("secret"), 0o644); err != nil {
+		t.Fatalf("write hidden file: %v", err)
+	}
+	if err := os.MkdirAll(filepath.Join(scriptsRoot, "__pycache__"), 0o755); err != nil {
+		t.Fatalf("mkdir pycache: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(scriptsRoot, "__pycache__", "notify.cpython-312.pyc"), []byte{0x00, 0x01}, 0o644); err != nil {
+		t.Fatalf("write pycache file: %v", err)
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/scripts/tree",
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	var payload struct {
+		Data []map[string]interface{} `json:"data"`
+	}
+	if err := json.Unmarshal(rec.Body.Bytes(), &payload); err != nil {
+		t.Fatalf("decode tree payload: %v", err)
+	}
+	flatKeys := collectScriptTreeKeys(payload.Data)
+	for _, key := range []string{".hidden-dir", ".hidden-dir/.env", ".hidden-file"} {
+		if !flatKeys[key] {
+			t.Fatalf("expected script tree to include %q, got keys=%v", key, flatKeys)
+		}
+	}
+	for key := range flatKeys {
+		if strings.Contains(key, "__pycache__") {
+			t.Fatalf("expected script tree to skip __pycache__, got key=%q all=%v", key, flatKeys)
+		}
+	}
+}
+
+func collectScriptTreeKeys(nodes []map[string]interface{}) map[string]bool {
+	keys := make(map[string]bool)
+	var walk func([]map[string]interface{})
+	walk = func(items []map[string]interface{}) {
+		for _, item := range items {
+			if key, ok := item["key"].(string); ok {
+				keys[key] = true
+			}
+			children, ok := item["children"].([]interface{})
+			if !ok {
+				continue
+			}
+			childMaps := make([]map[string]interface{}, 0, len(children))
+			for _, child := range children {
+				if childMap, ok := child.(map[string]interface{}); ok {
+					childMaps = append(childMaps, childMap)
+				}
+			}
+			walk(childMaps)
+		}
+	}
+	walk(nodes)
+	return keys
+}

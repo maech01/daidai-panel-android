@@ -1,1 +1,69 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiYnl0ZXMiCgkibmV0L2h0dHAiCgkibmV0L3VybCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTeXN0ZW1CYWNrdXBEb3dubG9hZFN1cHBvcnRzUXVlcnlGaWxlbmFtZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiYmFja3VwLWRvd25sb2FkIiwgImFkbWluIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZmlsZW5hbWUgOj0gImRhaWx5XzIwMjYwNjA1XzAzMDAwMC50Z3oiCglleHBlY3RlZCA6PSBbXWJ5dGV7MHgxZiwgMHg4YiwgMHgwOCwgMHgwMCwgMHgwMSwgMHgwMiwgMHgwM30KCWJhY2t1cERpciA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiYmFja3VwcyIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoYmFja3VwRGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgYmFja3VwIGRpcjogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4oYmFja3VwRGlyLCBmaWxlbmFtZSksIGV4cGVjdGVkLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBiYWNrdXAgZmlsZTogJXYiLCBlcnIpCgl9CgoJcmVjIDo9IHBlcmZvcm1SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZEdldCwKCQkiL2FwaS92MS9zeXN0ZW0vYmFja3VwL2Rvd25sb2FkP2ZpbGVuYW1lPSIrdXJsLlF1ZXJ5RXNjYXBlKGZpbGVuYW1lKSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwKCSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglpZiBnb3QgOj0gcmVjLkhlYWRlcigpLkdldCgiQ29udGVudC1EaXNwb3NpdGlvbiIpOyBnb3QgPT0gIiIgewoJCXQuRmF0YWwoImV4cGVjdGVkIENvbnRlbnQtRGlzcG9zaXRpb24gaGVhZGVyIGZvciBhdHRhY2htZW50IikKCX0KCWlmIGdvdCA6PSByZWMuSGVhZGVyKCkuR2V0KCJDYWNoZS1Db250cm9sIik7IGdvdCAhPSAibm8tc3RvcmUsIG5vLWNhY2hlLCBtdXN0LXJldmFsaWRhdGUiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZG93bmxvYWQgcmVzcG9uc2UgdG8gZGlzYWJsZSBjYWNoZSwgZ290ICVxIiwgZ290KQoJfQoJaWYgIWJ5dGVzLkVxdWFsKHJlYy5Cb2R5LkJ5dGVzKCksIGV4cGVjdGVkKSB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgZG93bmxvYWQgYm9keTogJSN2IiwgcmVjLkJvZHkuQnl0ZXMoKSkKCX0KfQoKZnVuYyBUZXN0U3lzdGVtQmFja3VwRG93bmxvYWRSZWplY3RzSW52YWxpZEZpbGVuYW1lKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJiYWNrdXAtZG93bmxvYWQtaW52YWxpZCIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXJlYyA6PSBwZXJmb3JtUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RHZXQsCgkJIi9hcGkvdjEvc3lzdGVtL2JhY2t1cC9kb3dubG9hZD9maWxlbmFtZT0iK3VybC5RdWVyeUVzY2FwZSgiLi4vY29uZmlnLnlhbWwiKSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwKCSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDQwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQp9Cg==
+package handler_test
+
+import (
+	"bytes"
+	"net/http"
+	"net/url"
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestSystemBackupDownloadSupportsQueryFilename(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "backup-download", "admin")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	filename := "daily_20260605_030000.tgz"
+	expected := []byte{0x1f, 0x8b, 0x08, 0x00, 0x01, 0x02, 0x03}
+	backupDir := filepath.Join(config.C.Data.Dir, "backups")
+	if err := os.MkdirAll(backupDir, 0o755); err != nil {
+		t.Fatalf("create backup dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(backupDir, filename), expected, 0o644); err != nil {
+		t.Fatalf("write backup file: %v", err)
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/system/backup/download?filename="+url.QueryEscape(filename),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	if got := rec.Header().Get("Content-Disposition"); got == "" {
+		t.Fatal("expected Content-Disposition header for attachment")
+	}
+	if got := rec.Header().Get("Cache-Control"); got != "no-store, no-cache, must-revalidate" {
+		t.Fatalf("expected download response to disable cache, got %q", got)
+	}
+	if !bytes.Equal(rec.Body.Bytes(), expected) {
+		t.Fatalf("unexpected download body: %#v", rec.Body.Bytes())
+	}
+}
+
+func TestSystemBackupDownloadRejectsInvalidFilename(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "backup-download-invalid", "admin")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/system/backup/download?filename="+url.QueryEscape("../config.yaml"),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+}

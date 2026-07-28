@@ -1,1 +1,112 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkib3MvZXhlYyIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCmZ1bmMgKGggKlNjcmlwdEhhbmRsZXIpIEZvcm1hdChjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCUNvbnRlbnQgICBzdHJpbmcgYGpzb246ImNvbnRlbnQiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlMYW5ndWFnZSAgc3RyaW5nIGBqc29uOiJsYW5ndWFnZSIgYmluZGluZzoicmVxdWlyZWQiYAoJCUZvcm1hdHRlciBzdHJpbmcgYGpzb246ImZvcm1hdHRlciJgCgl9CglpZiBlcnIgOj0gYy5TaG91bGRCaW5kSlNPTigmcmVxKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6K+35rGC5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCgl2YXIgZm9ybWF0dGVkIHN0cmluZwoJdmFyIHVzZWRGb3JtYXR0ZXIgc3RyaW5nCgoJc3dpdGNoIHJlcS5MYW5ndWFnZSB7CgljYXNlICJweXRob24iOgoJCWZvcm1hdHRlZCwgdXNlZEZvcm1hdHRlciA9IGZvcm1hdFB5dGhvbihyZXEuQ29udGVudCkKCWNhc2UgInNoZWxsIjoKCQlmb3JtYXR0ZWQsIHVzZWRGb3JtYXR0ZXIgPSBmb3JtYXRTaGVsbChyZXEuQ29udGVudCkKCWNhc2UgImdvIjoKCQlmb3JtYXR0ZWQsIHVzZWRGb3JtYXR0ZXIgPSBmb3JtYXRHbyhyZXEuQ29udGVudCkKCWNhc2UgImpzb24iOgoJCWZvcm1hdHRlZCwgdXNlZEZvcm1hdHRlciA9IGZvcm1hdEpTT04ocmVxLkNvbnRlbnQpCglkZWZhdWx0OgoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuS4jeaUr+aMgeeahOivreiogCIpCgkJcmV0dXJuCgl9CgoJaWYgZm9ybWF0dGVkID09ICIiIHsKCQlmb3JtYXR0ZWQgPSByZXEuQ29udGVudAoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7CgkJImRhdGEiOiBnaW4uSHsKCQkJImNvbnRlbnQiOiAgIGZvcm1hdHRlZCwKCQkJImxhbmd1YWdlIjogIHJlcS5MYW5ndWFnZSwKCQkJImZvcm1hdHRlciI6IHVzZWRGb3JtYXR0ZXIsCgkJfSwKCX0pCn0KCmZ1bmMgZm9ybWF0UHl0aG9uKGNvbnRlbnQgc3RyaW5nKSAoc3RyaW5nLCBzdHJpbmcpIHsKCWlmIF8sIGVyciA6PSBleGVjLkxvb2tQYXRoKCJibGFjayIpOyBlcnIgPT0gbmlsIHsKCQljbWQgOj0gZXhlYy5Db21tYW5kKCJibGFjayIsICItLWxpbmUtbGVuZ3RoIiwgIjg4IiwgIi0tcXVpZXQiLCAiLSIpCgkJY21kLlN0ZGluID0gc3RyaW5ncy5OZXdSZWFkZXIoY29udGVudCkKCQlvdXQsIGVyciA6PSBjbWQuT3V0cHV0KCkKCQlpZiBlcnIgPT0gbmlsIHsKCQkJcmV0dXJuIHN0cmluZyhvdXQpLCAiYmxhY2siCgkJfQoJfQoJaWYgXywgZXJyIDo9IGV4ZWMuTG9va1BhdGgoImF1dG9wZXA4Iik7IGVyciA9PSBuaWwgewoJCWNtZCA6PSBleGVjLkNvbW1hbmQoImF1dG9wZXA4IiwgIi0tbWF4LWxpbmUtbGVuZ3RoIiwgIjg4IiwgIi1hIiwgIi0iKQoJCWNtZC5TdGRpbiA9IHN0cmluZ3MuTmV3UmVhZGVyKGNvbnRlbnQpCgkJb3V0LCBlcnIgOj0gY21kLk91dHB1dCgpCgkJaWYgZXJyID09IG5pbCB7CgkJCXJldHVybiBzdHJpbmcob3V0KSwgImF1dG9wZXA4IgoJCX0KCX0KCXJldHVybiBjb250ZW50LCAibm9uZSIKfQoKZnVuYyBmb3JtYXRTaGVsbChjb250ZW50IHN0cmluZykgKHN0cmluZywgc3RyaW5nKSB7CglpZiBfLCBlcnIgOj0gZXhlYy5Mb29rUGF0aCgic2hmbXQiKTsgZXJyID09IG5pbCB7CgkJY21kIDo9IGV4ZWMuQ29tbWFuZCgic2hmbXQiLCAiLWkiLCAiMiIsICItYm4iLCAiLWNpIiwgIi1zciIpCgkJY21kLlN0ZGluID0gc3RyaW5ncy5OZXdSZWFkZXIoY29udGVudCkKCQlvdXQsIGVyciA6PSBjbWQuT3V0cHV0KCkKCQlpZiBlcnIgPT0gbmlsIHsKCQkJcmV0dXJuIHN0cmluZyhvdXQpLCAic2hmbXQiCgkJfQoJfQoJbGluZXMgOj0gc3RyaW5ncy5TcGxpdChjb250ZW50LCAiXG4iKQoJZm9yIGksIGxpbmUgOj0gcmFuZ2UgbGluZXMgewoJCWxpbmVzW2ldID0gc3RyaW5ncy5UcmltUmlnaHQobGluZSwgIiBcdCIpCgl9CglyZXR1cm4gc3RyaW5ncy5Kb2luKGxpbmVzLCAiXG4iKSwgImJhc2ljIgp9CgpmdW5jIGZvcm1hdEdvKGNvbnRlbnQgc3RyaW5nKSAoc3RyaW5nLCBzdHJpbmcpIHsKCWlmIF8sIGVyciA6PSBleGVjLkxvb2tQYXRoKCJnb2ZtdCIpOyBlcnIgPT0gbmlsIHsKCQljbWQgOj0gZXhlYy5Db21tYW5kKCJnb2ZtdCIpCgkJY21kLlN0ZGluID0gc3RyaW5ncy5OZXdSZWFkZXIoY29udGVudCkKCQlvdXQsIGVyciA6PSBjbWQuT3V0cHV0KCkKCQlpZiBlcnIgPT0gbmlsIHsKCQkJcmV0dXJuIHN0cmluZyhvdXQpLCAiZ29mbXQiCgkJfQoJfQoJcmV0dXJuIGNvbnRlbnQsICJub25lIgp9CgpmdW5jIGZvcm1hdEpTT04oY29udGVudCBzdHJpbmcpIChzdHJpbmcsIHN0cmluZykgewoJdmFyIG9iaiBpbnRlcmZhY2V7fQoJaWYgZXJyIDo9IGpzb24uVW5tYXJzaGFsKFtdYnl0ZShjb250ZW50KSwgJm9iaik7IGVyciAhPSBuaWwgewoJCXJldHVybiBjb250ZW50LCAibm9uZSIKCX0KCW91dCwgZXJyIDo9IGpzb24uTWFyc2hhbEluZGVudChvYmosICIiLCAiICAiKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGNvbnRlbnQsICJub25lIgoJfQoJcmV0dXJuIHN0cmluZyhvdXQpLCAianNvbiIKfQo=
+package handler
+
+import (
+	"encoding/json"
+	"os/exec"
+	"strings"
+
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+)
+
+func (h *ScriptHandler) Format(c *gin.Context) {
+	var req struct {
+		Content   string `json:"content" binding:"required"`
+		Language  string `json:"language" binding:"required"`
+		Formatter string `json:"formatter"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	var formatted string
+	var usedFormatter string
+
+	switch req.Language {
+	case "python":
+		formatted, usedFormatter = formatPython(req.Content)
+	case "shell":
+		formatted, usedFormatter = formatShell(req.Content)
+	case "go":
+		formatted, usedFormatter = formatGo(req.Content)
+	case "json":
+		formatted, usedFormatter = formatJSON(req.Content)
+	default:
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	if formatted == "" {
+		formatted = req.Content
+	}
+
+	response.Success(c, gin.H{
+		"data": gin.H{
+			"content":   formatted,
+			"language":  req.Language,
+			"formatter": usedFormatter,
+		},
+	})
+}
+
+func formatPython(content string) (string, string) {
+	if _, err := exec.LookPath("black"); err == nil {
+		cmd := exec.Command("black", "--line-length", "88", "--quiet", "-")
+		cmd.Stdin = strings.NewReader(content)
+		out, err := cmd.Output()
+		if err == nil {
+			return string(out), "black"
+		}
+	}
+	if _, err := exec.LookPath("autopep8"); err == nil {
+		cmd := exec.Command("autopep8", "--max-line-length", "88", "-a", "-")
+		cmd.Stdin = strings.NewReader(content)
+		out, err := cmd.Output()
+		if err == nil {
+			return string(out), "autopep8"
+		}
+	}
+	return content, "none"
+}
+
+func formatShell(content string) (string, string) {
+	if _, err := exec.LookPath("shfmt"); err == nil {
+		cmd := exec.Command("shfmt", "-i", "2", "-bn", "-ci", "-sr")
+		cmd.Stdin = strings.NewReader(content)
+		out, err := cmd.Output()
+		if err == nil {
+			return string(out), "shfmt"
+		}
+	}
+	lines := strings.Split(content, "\n")
+	for i, line := range lines {
+		lines[i] = strings.TrimRight(line, " \t")
+	}
+	return strings.Join(lines, "\n"), "basic"
+}
+
+func formatGo(content string) (string, string) {
+	if _, err := exec.LookPath("gofmt"); err == nil {
+		cmd := exec.Command("gofmt")
+		cmd.Stdin = strings.NewReader(content)
+		out, err := cmd.Output()
+		if err == nil {
+			return string(out), "gofmt"
+		}
+	}
+	return content, "none"
+}
+
+func formatJSON(content string) (string, string) {
+	var obj interface{}
+	if err := json.Unmarshal([]byte(content), &obj); err != nil {
+		return content, "none"
+	}
+	out, err := json.MarshalIndent(obj, "", "  ")
+	if err != nil {
+		return content, "none"
+	}
+	return string(out), "json"
+}

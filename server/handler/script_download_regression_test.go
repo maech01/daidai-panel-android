@@ -1,1 +1,53 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiYnl0ZXMiCgkibmV0L2h0dHAiCgkibmV0L3VybCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTY3JpcHREb3dubG9hZFN1cHBvcnRzQmluYXJ5U09GaWxlcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic2NyaXB0LWRvd25sb2FkIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZmlsZU5hbWUgOj0gImxpYnMvZGVtby5zbyIKCWZpbGVQYXRoIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBmaWxlcGF0aC5Gcm9tU2xhc2goZmlsZU5hbWUpKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGZpbGVwYXRoLkRpcihmaWxlUGF0aCksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBzY3JpcHQgZGlyOiAldiIsIGVycikKCX0KCglleHBlY3RlZCA6PSBbXWJ5dGV7MHg3ZiwgMHg0NSwgMHg0YywgMHg0NiwgMHgwMSwgMHgwMiwgMHgwMywgMHgwNH0KCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZVBhdGgsIGV4cGVjdGVkLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSAuc28gZmlsZTogJXYiLCBlcnIpCgl9CgoJcmVjIDo9IHBlcmZvcm1SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZEdldCwKCQkiL2FwaS92MS9zY3JpcHRzL2Rvd25sb2FkP3BhdGg9Iit1cmwuUXVlcnlFc2NhcGUoZmlsZU5hbWUpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWlmIGdvdCA6PSByZWMuSGVhZGVyKCkuR2V0KCJDb250ZW50LURpc3Bvc2l0aW9uIik7IGdvdCA9PSAiIiB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgQ29udGVudC1EaXNwb3NpdGlvbiBoZWFkZXIgZm9yIGF0dGFjaG1lbnQiKQoJfQoJaWYgZ290IDo9IHJlYy5IZWFkZXIoKS5HZXQoIkNhY2hlLUNvbnRyb2wiKTsgZ290ICE9ICJuby1zdG9yZSwgbm8tY2FjaGUsIG11c3QtcmV2YWxpZGF0ZSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkb3dubG9hZCByZXNwb25zZSB0byBkaXNhYmxlIGNhY2hlLCBnb3QgJXEiLCBnb3QpCgl9CgoJaWYgIWJ5dGVzLkVxdWFsKHJlYy5Cb2R5LkJ5dGVzKCksIGV4cGVjdGVkKSB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgZG93bmxvYWQgYm9keTogJSN2IiwgcmVjLkJvZHkuQnl0ZXMoKSkKCX0KfQo=
+package handler_test
+
+import (
+	"bytes"
+	"net/http"
+	"net/url"
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestScriptDownloadSupportsBinarySOFiles(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-download", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	fileName := "libs/demo.so"
+	filePath := filepath.Join(config.C.Data.ScriptsDir, filepath.FromSlash(fileName))
+	if err := os.MkdirAll(filepath.Dir(filePath), 0o755); err != nil {
+		t.Fatalf("create script dir: %v", err)
+	}
+
+	expected := []byte{0x7f, 0x45, 0x4c, 0x46, 0x01, 0x02, 0x03, 0x04}
+	if err := os.WriteFile(filePath, expected, 0o644); err != nil {
+		t.Fatalf("write .so file: %v", err)
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/scripts/download?path="+url.QueryEscape(fileName),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	if got := rec.Header().Get("Content-Disposition"); got == "" {
+		t.Fatal("expected Content-Disposition header for attachment")
+	}
+	if got := rec.Header().Get("Cache-Control"); got != "no-store, no-cache, must-revalidate" {
+		t.Fatalf("expected download response to disable cache, got %q", got)
+	}
+
+	if !bytes.Equal(rec.Body.Bytes(), expected) {
+		t.Fatalf("unexpected download body: %#v", rec.Body.Bytes())
+	}
+}

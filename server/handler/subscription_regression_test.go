@@ -1,1 +1,186 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkic3RyY29udiIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTdWJzY3JpcHRpb25DcmVhdGVQZXJzaXN0c0ZvcmNlT3ZlcndyaXRlRmFsc2UodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglvcGVyYXRvciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic3Vic2NyaXB0aW9uLW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBvcGVyYXRvci5Vc2VybmFtZSwgb3BlcmF0b3IuUm9sZSkKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoKCWJvZHkgOj0gYHsibmFtZSI6ImRlbW8tc3ViIiwidHlwZSI6ImdpdC1yZXBvIiwidXJsIjoiaHR0cHM6Ly9naXRodWIuY29tL2V4YW1wbGUvZGVtby5naXQiLCJmb3JjZV9vdmVyd3JpdGUiOmZhbHNlfWAKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFBvc3QsICIvYXBpL3YxL3N1YnNjcmlwdGlvbnMiLCBib2R5LCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VuLAoJfSwgIiIpCgoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAxLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWRhdGEsIG9rIDo9IHBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRhdGEgbWFwLCBnb3QgJVQiLCBwYXlsb2FkWyJkYXRhIl0pCgl9CglpZiBnb3QsIF8gOj0gZGF0YVsiZm9yY2Vfb3ZlcndyaXRlIl0uKGJvb2wpOyBnb3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXNwb25zZSBmb3JjZV9vdmVyd3JpdGUgZmFsc2UsIGdvdCAldiIsIGRhdGFbImZvcmNlX292ZXJ3cml0ZSJdKQoJfQoKCXZhciBzdWIgbW9kZWwuU3Vic2NyaXB0aW9uCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoIm5hbWUgPSA/IiwgImRlbW8tc3ViIikuRmlyc3QoJnN1YikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJxdWVyeSBzdWJzY3JpcHRpb246ICV2IiwgZXJyKQoJfQoJaWYgc3ViLkZvcmNlT3ZlcndyaXRlID09IG5pbCB8fCAqc3ViLkZvcmNlT3ZlcndyaXRlIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZm9yY2Vfb3ZlcndyaXRlIHBlcnNpc3RlZCBmYWxzZSwgZ290ICUjdiIsIHN1Yi5Gb3JjZU92ZXJ3cml0ZSkKCX0KfQoKZnVuYyBUZXN0U3Vic2NyaXB0aW9uVXBkYXRlS2VlcHNGb3JjZU92ZXJ3cml0ZUZhbHNlQWZ0ZXJSZWxvYWQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglvcGVyYXRvciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic3Vic2NyaXB0aW9uLWVkaXRvciIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgb3BlcmF0b3IuVXNlcm5hbWUsIG9wZXJhdG9yLlJvbGUpCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCglmb3JjZU92ZXJ3cml0ZSA6PSB0cnVlCglzdWIgOj0gbW9kZWwuU3Vic2NyaXB0aW9uewoJCU5hbWU6ICAgICAgICAgICAiZWRpdGFibGUtc3ViIiwKCQlUeXBlOiAgICAgICAgICAgbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAgICAgICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vZXhhbXBsZS9lZGl0YWJsZS5naXQiLAoJCUVuYWJsZWQ6ICAgICAgICB0cnVlLAoJCUZvcmNlT3ZlcndyaXRlOiAmZm9yY2VPdmVyd3JpdGUsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZzdWIpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHN1YnNjcmlwdGlvbjogJXYiLCBlcnIpCgl9CgoJdXBkYXRlQm9keSA6PSBgeyJmb3JjZV9vdmVyd3JpdGUiOmZhbHNlLCJhbGlhcyI6ImVkaXRlZC1zdWIifWAKCXVwZGF0ZVJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFB1dCwgIi9hcGkvdjEvc3Vic2NyaXB0aW9ucy8iK3N0cmNvbnYuRm9ybWF0VWludCh1aW50NjQoc3ViLklEKSwgMTApLCB1cGRhdGVCb2R5LCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VuLAoJfSwgIiIpCglpZiB1cGRhdGVSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCB1cGRhdGVSZWMuQ29kZSwgdXBkYXRlUmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIHVwZGF0ZWQgbW9kZWwuU3Vic2NyaXB0aW9uCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnVwZGF0ZWQsIHN1Yi5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgc3Vic2NyaXB0aW9uOiAldiIsIGVycikKCX0KCWlmIHVwZGF0ZWQuRm9yY2VPdmVyd3JpdGUgPT0gbmlsIHx8ICp1cGRhdGVkLkZvcmNlT3ZlcndyaXRlIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZm9yY2Vfb3ZlcndyaXRlIHVwZGF0ZWQgZmFsc2UsIGdvdCAlI3YiLCB1cGRhdGVkLkZvcmNlT3ZlcndyaXRlKQoJfQoKCWxpc3RSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvc3Vic2NyaXB0aW9ucz9rZXl3b3JkPWVkaXRhYmxlLXN1YiIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW4sCgl9KQoJaWYgbGlzdFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsaXN0IDIwMCwgZ290ICVkLCBib2R5PSVzIiwgbGlzdFJlYy5Db2RlLCBsaXN0UmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJbGlzdFBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCBsaXN0UmVjKQoJaXRlbXMsIG9rIDo9IGxpc3RQYXlsb2FkWyJkYXRhIl0uKFtdaW50ZXJmYWNle30pCglpZiAhb2sgfHwgbGVuKGl0ZW1zKSA9PSAwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3Vic2NyaXB0aW9uIGxpc3QsIGdvdCAlVCIsIGxpc3RQYXlsb2FkWyJkYXRhIl0pCgl9CglpdGVtLCBvayA6PSBpdGVtc1swXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGxpc3QgaXRlbSBtYXAsIGdvdCAlVCIsIGl0ZW1zWzBdKQoJfQoJaWYgZ290LCBfIDo9IGl0ZW1bImZvcmNlX292ZXJ3cml0ZSJdLihib29sKTsgZ290IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbGlzdCBmb3JjZV9vdmVyd3JpdGUgZmFsc2UgYWZ0ZXIgcmVsb2FkLCBnb3QgJXYiLCBpdGVtWyJmb3JjZV9vdmVyd3JpdGUiXSkKCX0KfQoKZnVuYyBUZXN0U3Vic2NyaXB0aW9uQ3JlYXRlUGVyc2lzdHNUb2tlbkF1dGhXaXRob3V0TGVha2luZ1Rva2VuKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJb3BlcmF0b3IgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInN1YnNjcmlwdGlvbi10b2tlbi1vcGVyYXRvciIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgb3BlcmF0b3IuVXNlcm5hbWUsIG9wZXJhdG9yLlJvbGUpCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCglib2R5IDo9IGB7Im5hbWUiOiJ0b2tlbi1zdWIiLCJ0eXBlIjoiZ2l0LXJlcG8iLCJ1cmwiOiJodHRwczovL2dpdGh1Yi5jb20vZXhhbXBsZS9wcml2YXRlLmdpdCIsImF1dGhfdHlwZSI6InRva2VuIiwiYXV0aF90b2tlbiI6ImdocF9kZW1vX3Rva2VuIn1gCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQb3N0LCAiL2FwaS92MS9zdWJzY3JpcHRpb25zIiwgYm9keSwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbiwKCX0sICIiKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAxLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWRhdGEsIG9rIDo9IHBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRhdGEgbWFwLCBnb3QgJVQiLCBwYXlsb2FkWyJkYXRhIl0pCgl9CglpZiBnb3QsIF8gOj0gZGF0YVsiYXV0aF90eXBlIl0uKHN0cmluZyk7IGdvdCAhPSBtb2RlbC5TdWJBdXRoVHlwZVRva2VuIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXV0aF90eXBlPSVxLCBnb3QgJSN2IiwgbW9kZWwuU3ViQXV0aFR5cGVUb2tlbiwgZGF0YVsiYXV0aF90eXBlIl0pCgl9CglpZiBnb3QsIF8gOj0gZGF0YVsiaGFzX2F1dGhfdG9rZW4iXS4oYm9vbCk7ICFnb3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBoYXNfYXV0aF90b2tlbj10cnVlLCBnb3QgJSN2IiwgZGF0YVsiaGFzX2F1dGhfdG9rZW4iXSkKCX0KCWlmIF8sIGV4aXN0cyA6PSBkYXRhWyJhdXRoX3Rva2VuIl07IGV4aXN0cyB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IGF1dGhfdG9rZW4gaW4gcmVzcG9uc2UgcGF5bG9hZDogJSN2IiwgZGF0YSkKCX0KCgl2YXIgc3ViIG1vZGVsLlN1YnNjcmlwdGlvbgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJuYW1lID0gPyIsICJ0b2tlbi1zdWIiKS5GaXJzdCgmc3ViKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInF1ZXJ5IHN1YnNjcmlwdGlvbjogJXYiLCBlcnIpCgl9CglpZiBzdWIuRWZmZWN0aXZlQXV0aFR5cGUoKSAhPSBtb2RlbC5TdWJBdXRoVHlwZVRva2VuIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RvcmVkIGF1dGggdHlwZSB0b2tlbiwgZ290ICVxIiwgc3ViLkVmZmVjdGl2ZUF1dGhUeXBlKCkpCgl9CglpZiBzdHJpbmdzLlRyaW1TcGFjZShzdWIuQXV0aFRva2VuKSAhPSAiZ2hwX2RlbW9fdG9rZW4iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RvcmVkIGF1dGggdG9rZW4sIGdvdCAlcSIsIHN1Yi5BdXRoVG9rZW4pCgl9CglpZiBzdWIuU1NIS2V5SUQgIT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3NoX2tleV9pZCBjbGVhcmVkIGZvciB0b2tlbiBhdXRoLCBnb3QgJSN2Iiwgc3ViLlNTSEtleUlEKQoJfQp9CgpmdW5jIFRlc3RTdWJzY3JpcHRpb25VcGRhdGVLZWVwc0V4aXN0aW5nVG9rZW5XaGVuQXV0aFRva2VuT21pdHRlZCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCW9wZXJhdG9yIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzdWJzY3JpcHRpb24tdG9rZW4tZWRpdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBvcGVyYXRvci5Vc2VybmFtZSwgb3BlcmF0b3IuUm9sZSkKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoKCXN1YiA6PSBtb2RlbC5TdWJzY3JpcHRpb257CgkJTmFtZTogICAgICAiZWRpdGFibGUtdG9rZW4tc3ViIiwKCQlUeXBlOiAgICAgIG1vZGVsLlN1YlR5cGVHaXRSZXBvLAoJCVVSTDogICAgICAgImh0dHBzOi8vZ2l0aHViLmNvbS9leGFtcGxlL3ByaXZhdGUuZ2l0IiwKCQlFbmFibGVkOiAgIHRydWUsCgkJQXV0aFR5cGU6ICBtb2RlbC5TdWJBdXRoVHlwZVRva2VuLAoJCUF1dGhUb2tlbjogImdocF9rZWVwX21lIiwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJnN1YikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgc3Vic2NyaXB0aW9uOiAldiIsIGVycikKCX0KCgl1cGRhdGVCb2R5IDo9IGB7ImF1dGhfdHlwZSI6InRva2VuIiwiYXV0aF90b2tlbiI6IiIsImFsaWFzIjoidG9rZW4tZWRpdGVkIn1gCgl1cGRhdGVSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQdXQsICIvYXBpL3YxL3N1YnNjcmlwdGlvbnMvIitzdHJjb252LkZvcm1hdFVpbnQodWludDY0KHN1Yi5JRCksIDEwKSwgdXBkYXRlQm9keSwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbiwKCX0sICIiKQoJaWYgdXBkYXRlUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgdXBkYXRlUmVjLkNvZGUsIHVwZGF0ZVJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXZhciB1cGRhdGVkIG1vZGVsLlN1YnNjcmlwdGlvbgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ1cGRhdGVkLCBzdWIuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVsb2FkIHN1YnNjcmlwdGlvbjogJXYiLCBlcnIpCgl9CglpZiBzdHJpbmdzLlRyaW1TcGFjZSh1cGRhdGVkLkF1dGhUb2tlbikgIT0gImdocF9rZWVwX21lIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGF1dGggdG9rZW4gdG8gc3RheSB1bmNoYW5nZWQsIGdvdCAlcSIsIHVwZGF0ZWQuQXV0aFRva2VuKQoJfQoJaWYgdXBkYXRlZC5FZmZlY3RpdmVBdXRoVHlwZSgpICE9IG1vZGVsLlN1YkF1dGhUeXBlVG9rZW4gewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhdXRoIHR5cGUgdG9rZW4gYWZ0ZXIgdXBkYXRlLCBnb3QgJXEiLCB1cGRhdGVkLkVmZmVjdGl2ZUF1dGhUeXBlKCkpCgl9Cn0K
+package handler_test
+
+import (
+	"net/http"
+	"strconv"
+	"strings"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestSubscriptionCreatePersistsForceOverwriteFalse(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	operator := testutil.MustCreateUser(t, "subscription-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, operator.Username, operator.Role)
+	engine := newProtectedRouter()
+
+	body := `{"name":"demo-sub","type":"git-repo","url":"https://github.com/example/demo.git","force_overwrite":false}`
+	rec := performJSONRequest(engine, http.MethodPost, "/api/v1/subscriptions", body, map[string]string{
+		"Authorization": "Bearer " + token,
+	}, "")
+
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected data map, got %T", payload["data"])
+	}
+	if got, _ := data["force_overwrite"].(bool); got {
+		t.Fatalf("expected response force_overwrite false, got %v", data["force_overwrite"])
+	}
+
+	var sub model.Subscription
+	if err := database.DB.Where("name = ?", "demo-sub").First(&sub).Error; err != nil {
+		t.Fatalf("query subscription: %v", err)
+	}
+	if sub.ForceOverwrite == nil || *sub.ForceOverwrite {
+		t.Fatalf("expected force_overwrite persisted false, got %#v", sub.ForceOverwrite)
+	}
+}
+
+func TestSubscriptionUpdateKeepsForceOverwriteFalseAfterReload(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	operator := testutil.MustCreateUser(t, "subscription-editor", "operator")
+	token := testutil.MustCreateAccessToken(t, operator.Username, operator.Role)
+	engine := newProtectedRouter()
+
+	forceOverwrite := true
+	sub := model.Subscription{
+		Name:           "editable-sub",
+		Type:           model.SubTypeGitRepo,
+		URL:            "https://github.com/example/editable.git",
+		Enabled:        true,
+		ForceOverwrite: &forceOverwrite,
+	}
+	if err := database.DB.Create(&sub).Error; err != nil {
+		t.Fatalf("create subscription: %v", err)
+	}
+
+	updateBody := `{"force_overwrite":false,"alias":"edited-sub"}`
+	updateRec := performJSONRequest(engine, http.MethodPut, "/api/v1/subscriptions/"+strconv.FormatUint(uint64(sub.ID), 10), updateBody, map[string]string{
+		"Authorization": "Bearer " + token,
+	}, "")
+	if updateRec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", updateRec.Code, updateRec.Body.String())
+	}
+
+	var updated model.Subscription
+	if err := database.DB.First(&updated, sub.ID).Error; err != nil {
+		t.Fatalf("reload subscription: %v", err)
+	}
+	if updated.ForceOverwrite == nil || *updated.ForceOverwrite {
+		t.Fatalf("expected force_overwrite updated false, got %#v", updated.ForceOverwrite)
+	}
+
+	listRec := performRequest(engine, http.MethodGet, "/api/v1/subscriptions?keyword=editable-sub", map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if listRec.Code != http.StatusOK {
+		t.Fatalf("expected list 200, got %d, body=%s", listRec.Code, listRec.Body.String())
+	}
+
+	listPayload := decodeJSONMap(t, listRec)
+	items, ok := listPayload["data"].([]interface{})
+	if !ok || len(items) == 0 {
+		t.Fatalf("expected subscription list, got %T", listPayload["data"])
+	}
+	item, ok := items[0].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected list item map, got %T", items[0])
+	}
+	if got, _ := item["force_overwrite"].(bool); got {
+		t.Fatalf("expected list force_overwrite false after reload, got %v", item["force_overwrite"])
+	}
+}
+
+func TestSubscriptionCreatePersistsTokenAuthWithoutLeakingToken(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	operator := testutil.MustCreateUser(t, "subscription-token-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, operator.Username, operator.Role)
+	engine := newProtectedRouter()
+
+	body := `{"name":"token-sub","type":"git-repo","url":"https://github.com/example/private.git","auth_type":"token","auth_token":"ghp_demo_token"}`
+	rec := performJSONRequest(engine, http.MethodPost, "/api/v1/subscriptions", body, map[string]string{
+		"Authorization": "Bearer " + token,
+	}, "")
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected data map, got %T", payload["data"])
+	}
+	if got, _ := data["auth_type"].(string); got != model.SubAuthTypeToken {
+		t.Fatalf("expected auth_type=%q, got %#v", model.SubAuthTypeToken, data["auth_type"])
+	}
+	if got, _ := data["has_auth_token"].(bool); !got {
+		t.Fatalf("expected has_auth_token=true, got %#v", data["has_auth_token"])
+	}
+	if _, exists := data["auth_token"]; exists {
+		t.Fatalf("did not expect auth_token in response payload: %#v", data)
+	}
+
+	var sub model.Subscription
+	if err := database.DB.Where("name = ?", "token-sub").First(&sub).Error; err != nil {
+		t.Fatalf("query subscription: %v", err)
+	}
+	if sub.EffectiveAuthType() != model.SubAuthTypeToken {
+		t.Fatalf("expected stored auth type token, got %q", sub.EffectiveAuthType())
+	}
+	if strings.TrimSpace(sub.AuthToken) != "ghp_demo_token" {
+		t.Fatalf("expected stored auth token, got %q", sub.AuthToken)
+	}
+	if sub.SSHKeyID != nil {
+		t.Fatalf("expected ssh_key_id cleared for token auth, got %#v", sub.SSHKeyID)
+	}
+}
+
+func TestSubscriptionUpdateKeepsExistingTokenWhenAuthTokenOmitted(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	operator := testutil.MustCreateUser(t, "subscription-token-editor", "operator")
+	token := testutil.MustCreateAccessToken(t, operator.Username, operator.Role)
+	engine := newProtectedRouter()
+
+	sub := model.Subscription{
+		Name:      "editable-token-sub",
+		Type:      model.SubTypeGitRepo,
+		URL:       "https://github.com/example/private.git",
+		Enabled:   true,
+		AuthType:  model.SubAuthTypeToken,
+		AuthToken: "ghp_keep_me",
+	}
+	if err := database.DB.Create(&sub).Error; err != nil {
+		t.Fatalf("create subscription: %v", err)
+	}
+
+	updateBody := `{"auth_type":"token","auth_token":"","alias":"token-edited"}`
+	updateRec := performJSONRequest(engine, http.MethodPut, "/api/v1/subscriptions/"+strconv.FormatUint(uint64(sub.ID), 10), updateBody, map[string]string{
+		"Authorization": "Bearer " + token,
+	}, "")
+	if updateRec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", updateRec.Code, updateRec.Body.String())
+	}
+
+	var updated model.Subscription
+	if err := database.DB.First(&updated, sub.ID).Error; err != nil {
+		t.Fatalf("reload subscription: %v", err)
+	}
+	if strings.TrimSpace(updated.AuthToken) != "ghp_keep_me" {
+		t.Fatalf("expected auth token to stay unchanged, got %q", updated.AuthToken)
+	}
+	if updated.EffectiveAuthType() != model.SubAuthTypeToken {
+		t.Fatalf("expected auth type token after update, got %q", updated.EffectiveAuthType())
+	}
+}

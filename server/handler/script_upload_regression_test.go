@@ -1,1 +1,229 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiYnl0ZXMiCgkibWltZS9tdWx0aXBhcnQiCgkibmV0L2h0dHAiCgkibmV0L2h0dHAvaHR0cHRlc3QiCgkibmV0L3VybCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTY3JpcHRVcGxvYWRTdXBwb3J0c011bHRpcGxlRmlsZXModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInNjcmlwdC1vcGVyYXRvciIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXZhciBib2R5IGJ5dGVzLkJ1ZmZlcgoJd3JpdGVyIDo9IG11bHRpcGFydC5OZXdXcml0ZXIoJmJvZHkpCgoJaWYgZXJyIDo9IHdyaXRlci5Xcml0ZUZpZWxkKCJkaXIiLCAiYmF0Y2giKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGRpciBmaWVsZDogJXYiLCBlcnIpCgl9CgoJZmlsZUNhc2VzIDo9IFtdc3RydWN0IHsKCQluYW1lICAgIHN0cmluZwoJCWNvbnRlbnQgc3RyaW5nCgl9ewoJCXtuYW1lOiAib25lLnB5IiwgY29udGVudDogInByaW50KCdvbmUnKVxuIn0sCgkJe25hbWU6ICJ0d28uc2giLCBjb250ZW50OiAiZWNobyB0d29cbiJ9LAoJCXtuYW1lOiAidGhyZWUuZ28iLCBjb250ZW50OiAicGFja2FnZSBtYWluXG5mdW5jIG1haW4oKSB7fVxuIn0sCgl9CgoJZm9yIF8sIGZpbGVDYXNlIDo9IHJhbmdlIGZpbGVDYXNlcyB7CgkJcGFydCwgZXJyIDo9IHdyaXRlci5DcmVhdGVGb3JtRmlsZSgiZmlsZSIsIGZpbGVDYXNlLm5hbWUpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJjcmVhdGUgZm9ybSBmaWxlICVzOiAldiIsIGZpbGVDYXNlLm5hbWUsIGVycikKCQl9CgkJaWYgXywgZXJyIDo9IHBhcnQuV3JpdGUoW11ieXRlKGZpbGVDYXNlLmNvbnRlbnQpKTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJ3cml0ZSBmb3JtIGZpbGUgJXM6ICV2IiwgZmlsZUNhc2UubmFtZSwgZXJyKQoJCX0KCX0KCglpZiBlcnIgOj0gd3JpdGVyLkNsb3NlKCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjbG9zZSBtdWx0aXBhcnQgd3JpdGVyOiAldiIsIGVycikKCX0KCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZFBvc3QsICIvYXBpL3YxL3NjcmlwdHMvdXBsb2FkIiwgJmJvZHkpCglyZXEuSGVhZGVyLlNldCgiQ29udGVudC1UeXBlIiwgd3JpdGVyLkZvcm1EYXRhQ29udGVudFR5cGUoKSkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQ3JlYXRlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMSwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCByZWMpCglpZiBnb3QsIF8gOj0gcGF5bG9hZFsidXBsb2FkZWRfY291bnQiXS4oZmxvYXQ2NCk7IGdvdCAhPSAzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXBsb2FkZWRfY291bnQ9MywgZ290ICV2IiwgcGF5bG9hZFsidXBsb2FkZWRfY291bnQiXSkKCX0KCglwYXRocywgb2sgOj0gcGF5bG9hZFsicGF0aHMiXS4oW11pbnRlcmZhY2V7fSkKCWlmICFvayB8fCBsZW4ocGF0aHMpICE9IDMgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAzIHVwbG9hZGVkIHBhdGhzLCBnb3QgJSN2IiwgcGF5bG9hZFsicGF0aHMiXSkKCX0KCglmb3IgXywgZmlsZUNhc2UgOj0gcmFuZ2UgZmlsZUNhc2VzIHsKCQl1cGxvYWRlZFBhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsICJiYXRjaCIsIGZpbGVDYXNlLm5hbWUpCgkJY29udGVudCwgZXJyIDo9IG9zLlJlYWRGaWxlKHVwbG9hZGVkUGF0aCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoInJlYWQgdXBsb2FkZWQgZmlsZSAlczogJXYiLCB1cGxvYWRlZFBhdGgsIGVycikKCQl9CgkJaWYgc3RyaW5nKGNvbnRlbnQpICE9IGZpbGVDYXNlLmNvbnRlbnQgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBjb250ZW50IGZvciAlczogJXEiLCB1cGxvYWRlZFBhdGgsIHN0cmluZyhjb250ZW50KSkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdFNjcmlwdFVwbG9hZEFsbG93c0NvbW1vbk1vYmlsZUZpbGVuYW1lc0FuZFN1cHBvcnRzUmVhZERlbGV0ZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic2NyaXB0LW1vYmlsZSIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXZhciBib2R5IGJ5dGVzLkJ1ZmZlcgoJd3JpdGVyIDo9IG11bHRpcGFydC5OZXdXcml0ZXIoJmJvZHkpCgoJZmlsZU5hbWUgOj0gIuaJi+acuiDlr7zlhaUgKDEpLnNoIgoJcGFydCwgZXJyIDo9IHdyaXRlci5DcmVhdGVGb3JtRmlsZSgiZmlsZSIsIGZpbGVOYW1lKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBmb3JtIGZpbGU6ICV2IiwgZXJyKQoJfQoJaWYgXywgZXJyIDo9IHBhcnQuV3JpdGUoW11ieXRlKCJlY2hvIGhpXHJcbmVjaG8gYWdhaW5cclxuIikpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgZm9ybSBmaWxlOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSB3cml0ZXIuQ2xvc2UoKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNsb3NlIG11bHRpcGFydCB3cml0ZXI6ICV2IiwgZXJyKQoJfQoKCXJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUG9zdCwgIi9hcGkvdjEvc2NyaXB0cy91cGxvYWQiLCAmYm9keSkKCXJlcS5IZWFkZXIuU2V0KCJDb250ZW50LVR5cGUiLCB3cml0ZXIuRm9ybURhdGFDb250ZW50VHlwZSgpKQoJcmVxLkhlYWRlci5TZXQoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICIrdG9rZW4pCgoJcmVjIDo9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAocmVjLCByZXEpCgoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAxLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJY29udGVudFJlYyA6PSBwZXJmb3JtUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RHZXQsCgkJIi9hcGkvdjEvc2NyaXB0cy9jb250ZW50P3BhdGg9Iit1cmwuUXVlcnlFc2NhcGUoZmlsZU5hbWUpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJKQoJaWYgY29udGVudFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjb250ZW50IHJlcXVlc3QgdG8gc3VjY2VlZCwgZ290ICVkLCBib2R5PSVzIiwgY29udGVudFJlYy5Db2RlLCBjb250ZW50UmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJY29udGVudFBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCBjb250ZW50UmVjKQoJZGF0YSwgb2sgOj0gY29udGVudFBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgY29udGVudCBwYXlsb2FkOiAlI3YiLCBjb250ZW50UGF5bG9hZCkKCX0KCWlmIGdvdCwgXyA6PSBkYXRhWyJjb250ZW50Il0uKHN0cmluZyk7IGdvdCAhPSAiZWNobyBoaVxuZWNobyBhZ2FpblxuIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5vcm1hbGl6ZWQgc2hlbGwgY29udGVudCwgZ290ICVxIiwgZ290KQoJfQoKCWRlbGV0ZVJlYyA6PSBwZXJmb3JtUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2REZWxldGUsCgkJIi9hcGkvdjEvc2NyaXB0cz9wYXRoPSIrdXJsLlF1ZXJ5RXNjYXBlKGZpbGVOYW1lKSsiJnR5cGU9ZmlsZSIsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkpCglpZiBkZWxldGVSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVsZXRlIHJlcXVlc3QgdG8gc3VjY2VlZCwgZ290ICVkLCBib2R5PSVzIiwgZGVsZXRlUmVjLkNvZGUsIGRlbGV0ZVJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBmaWxlTmFtZSkpOyAhb3MuSXNOb3RFeGlzdChlcnIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXBsb2FkZWQgZmlsZSB0byBiZSBkZWxldGVkLCBzdGF0IGVycj0ldiIsIGVycikKCX0KfQoKZnVuYyBUZXN0U2NyaXB0Q29weVJlamVjdHNQYXRoVHJhdmVyc2FsSW5OZXdOYW1lKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzY3JpcHQtY29weSIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXNvdXJjZU5hbWUgOj0gInNvdXJjZS5zaCIKCXNvdXJjZVBhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsIHNvdXJjZU5hbWUpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKHNvdXJjZVBhdGgpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgc2NyaXB0cyBkaXI6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzb3VyY2VQYXRoLCBbXWJ5dGUoImVjaG8gc2FmZVxuIiksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNvdXJjZSBmaWxlOiAldiIsIGVycikKCX0KCglvdXRzaWRlUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiZXNjYXBlLnNoIikKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS9zY3JpcHRzL2NvcHkiLAoJCWB7InNvdXJjZV9wYXRoIjoic291cmNlLnNoIiwibmV3X25hbWUiOiIuLi9lc2NhcGUuc2gifWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0MDAsIGdvdCAlZCwgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglpZiBfLCBlcnIgOj0gb3MuU3RhdChvdXRzaWRlUGF0aCk7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBubyBmaWxlIG91dHNpZGUgc2NyaXB0cyBkaXIsIHN0YXQgZXJyPSV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RTY3JpcHRDb3B5UmVqZWN0c0ludmFsaWRUYXJnZXREaXIodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInNjcmlwdC1jb3B5LXRhcmdldCIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXNvdXJjZU5hbWUgOj0gImNvcHktdGFyZ2V0LnNoIgoJc291cmNlUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0Rpciwgc291cmNlTmFtZSkKCWlmIGVyciA6PSBvcy5Na2RpckFsbChmaWxlcGF0aC5EaXIoc291cmNlUGF0aCksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBzY3JpcHRzIGRpcjogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNvdXJjZVBhdGgsIFtdYnl0ZSgiZWNobyB0YXJnZXRcbiIpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBzb3VyY2UgZmlsZTogJXYiLCBlcnIpCgl9CgoJd29ya2luZ0RpciwgZXJyIDo9IG9zLkdldHdkKCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJnZXQgd29ya2luZyBkaXJlY3Rvcnk6ICV2IiwgZXJyKQoJfQoJdW5leHBlY3RlZFBhdGggOj0gZmlsZXBhdGguSm9pbih3b3JraW5nRGlyLCBzb3VyY2VOYW1lKQoJXyA9IG9zLlJlbW92ZSh1bmV4cGVjdGVkUGF0aCkKCXQuQ2xlYW51cChmdW5jKCkgewoJCV8gPSBvcy5SZW1vdmUodW5leHBlY3RlZFBhdGgpCgl9KQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS9zY3JpcHRzL2NvcHkiLAoJCWB7InNvdXJjZV9wYXRoIjoiY29weS10YXJnZXQuc2giLCJ0YXJnZXRfZGlyIjoiLi4vb3V0c2lkZSJ9YCwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwKCQkiIiwKCSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDQwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWlmIF8sIGVyciA6PSBvcy5TdGF0KHVuZXhwZWN0ZWRQYXRoKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGludmFsaWQgdGFyZ2V0X2RpciBub3QgdG8gY3JlYXRlICVzLCBzdGF0IGVycj0ldiIsIHVuZXhwZWN0ZWRQYXRoLCBlcnIpCgl9Cn0K
+package handler_test
+
+import (
+	"bytes"
+	"mime/multipart"
+	"net/http"
+	"net/http/httptest"
+	"net/url"
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestScriptUploadSupportsMultipleFiles(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	var body bytes.Buffer
+	writer := multipart.NewWriter(&body)
+
+	if err := writer.WriteField("dir", "batch"); err != nil {
+		t.Fatalf("write dir field: %v", err)
+	}
+
+	fileCases := []struct {
+		name    string
+		content string
+	}{
+		{name: "one.py", content: "print('one')\n"},
+		{name: "two.sh", content: "echo two\n"},
+		{name: "three.go", content: "package main\nfunc main() {}\n"},
+	}
+
+	for _, fileCase := range fileCases {
+		part, err := writer.CreateFormFile("file", fileCase.name)
+		if err != nil {
+			t.Fatalf("create form file %s: %v", fileCase.name, err)
+		}
+		if _, err := part.Write([]byte(fileCase.content)); err != nil {
+			t.Fatalf("write form file %s: %v", fileCase.name, err)
+		}
+	}
+
+	if err := writer.Close(); err != nil {
+		t.Fatalf("close multipart writer: %v", err)
+	}
+
+	req := httptest.NewRequest(http.MethodPost, "/api/v1/scripts/upload", &body)
+	req.Header.Set("Content-Type", writer.FormDataContentType())
+	req.Header.Set("Authorization", "Bearer "+token)
+
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	if got, _ := payload["uploaded_count"].(float64); got != 3 {
+		t.Fatalf("expected uploaded_count=3, got %v", payload["uploaded_count"])
+	}
+
+	paths, ok := payload["paths"].([]interface{})
+	if !ok || len(paths) != 3 {
+		t.Fatalf("expected 3 uploaded paths, got %#v", payload["paths"])
+	}
+
+	for _, fileCase := range fileCases {
+		uploadedPath := filepath.Join(config.C.Data.ScriptsDir, "batch", fileCase.name)
+		content, err := os.ReadFile(uploadedPath)
+		if err != nil {
+			t.Fatalf("read uploaded file %s: %v", uploadedPath, err)
+		}
+		if string(content) != fileCase.content {
+			t.Fatalf("unexpected content for %s: %q", uploadedPath, string(content))
+		}
+	}
+}
+
+func TestScriptUploadAllowsCommonMobileFilenamesAndSupportsReadDelete(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-mobile", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	var body bytes.Buffer
+	writer := multipart.NewWriter(&body)
+
+	fileName := "?? ?? (1).sh"
+	part, err := writer.CreateFormFile("file", fileName)
+	if err != nil {
+		t.Fatalf("create form file: %v", err)
+	}
+	if _, err := part.Write([]byte("echo hi\r\necho again\r\n")); err != nil {
+		t.Fatalf("write form file: %v", err)
+	}
+	if err := writer.Close(); err != nil {
+		t.Fatalf("close multipart writer: %v", err)
+	}
+
+	req := httptest.NewRequest(http.MethodPost, "/api/v1/scripts/upload", &body)
+	req.Header.Set("Content-Type", writer.FormDataContentType())
+	req.Header.Set("Authorization", "Bearer "+token)
+
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	contentRec := performRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/scripts/content?path="+url.QueryEscape(fileName),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if contentRec.Code != http.StatusOK {
+		t.Fatalf("expected content request to succeed, got %d, body=%s", contentRec.Code, contentRec.Body.String())
+	}
+
+	contentPayload := decodeJSONMap(t, contentRec)
+	data, ok := contentPayload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("unexpected content payload: %#v", contentPayload)
+	}
+	if got, _ := data["content"].(string); got != "echo hi\necho again\n" {
+		t.Fatalf("expected normalized shell content, got %q", got)
+	}
+
+	deleteRec := performRequest(
+		engine,
+		http.MethodDelete,
+		"/api/v1/scripts?path="+url.QueryEscape(fileName)+"&type=file",
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if deleteRec.Code != http.StatusOK {
+		t.Fatalf("expected delete request to succeed, got %d, body=%s", deleteRec.Code, deleteRec.Body.String())
+	}
+
+	if _, err := os.Stat(filepath.Join(config.C.Data.ScriptsDir, fileName)); !os.IsNotExist(err) {
+		t.Fatalf("expected uploaded file to be deleted, stat err=%v", err)
+	}
+}
+
+func TestScriptCopyRejectsPathTraversalInNewName(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-copy", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	sourceName := "source.sh"
+	sourcePath := filepath.Join(config.C.Data.ScriptsDir, sourceName)
+	if err := os.MkdirAll(filepath.Dir(sourcePath), 0o755); err != nil {
+		t.Fatalf("create scripts dir: %v", err)
+	}
+	if err := os.WriteFile(sourcePath, []byte("echo safe\n"), 0o755); err != nil {
+		t.Fatalf("write source file: %v", err)
+	}
+
+	outsidePath := filepath.Join(config.C.Data.Dir, "escape.sh")
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/scripts/copy",
+		`{"source_path":"source.sh","new_name":"../escape.sh"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	if _, err := os.Stat(outsidePath); !os.IsNotExist(err) {
+		t.Fatalf("expected no file outside scripts dir, stat err=%v", err)
+	}
+}
+
+func TestScriptCopyRejectsInvalidTargetDir(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "script-copy-target", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	sourceName := "copy-target.sh"
+	sourcePath := filepath.Join(config.C.Data.ScriptsDir, sourceName)
+	if err := os.MkdirAll(filepath.Dir(sourcePath), 0o755); err != nil {
+		t.Fatalf("create scripts dir: %v", err)
+	}
+	if err := os.WriteFile(sourcePath, []byte("echo target\n"), 0o755); err != nil {
+		t.Fatalf("write source file: %v", err)
+	}
+
+	workingDir, err := os.Getwd()
+	if err != nil {
+		t.Fatalf("get working directory: %v", err)
+	}
+	unexpectedPath := filepath.Join(workingDir, sourceName)
+	_ = os.Remove(unexpectedPath)
+	t.Cleanup(func() {
+		_ = os.Remove(unexpectedPath)
+	})
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/scripts/copy",
+		`{"source_path":"copy-target.sh","target_dir":"../outside"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	if _, err := os.Stat(unexpectedPath); !os.IsNotExist(err) {
+		t.Fatalf("expected invalid target_dir not to create %s, stat err=%v", unexpectedPath, err)
+	}
+}

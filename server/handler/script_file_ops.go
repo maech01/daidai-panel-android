@@ -1,1 +1,193 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2Jhc2U2NCIKCSJtaW1lIgoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic29ydCIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCmZ1bmMgKGggKlNjcmlwdEhhbmRsZXIpIExpc3QoYyAqZ2luLkNvbnRleHQpIHsKCWRpciA6PSBzY3JpcHRzRGlyKCkKCXZhciBmaWxlcyBbXW1hcFtzdHJpbmddaW50ZXJmYWNle30KCglmaWxlcGF0aC5XYWxrKGRpciwgZnVuYyhwYXRoIHN0cmluZywgaW5mbyBvcy5GaWxlSW5mbywgZXJyIGVycm9yKSBlcnJvciB7CgkJaWYgZXJyICE9IG5pbCB7CgkJCXJldHVybiBuaWwKCQl9CgkJaWYgaW5mby5Jc0RpcigpIHsKCQkJaWYgc2hvdWxkU2tpcFNjcmlwdFRyZWVEaXIoaW5mby5OYW1lKCkpIHsKCQkJCXJldHVybiBmaWxlcGF0aC5Ta2lwRGlyCgkJCX0KCQkJcmV0dXJuIG5pbAoJCX0KCQlpZiBzZXJ2aWNlLlNob3VsZElnbm9yZVNjcmlwdFBhdGgoZGlyLCBwYXRoKSB7CgkJCXJldHVybiBuaWwKCQl9CgkJZXh0IDo9IHN0cmluZ3MuVG9Mb3dlcihmaWxlcGF0aC5FeHQoaW5mby5OYW1lKCkpKQoJCWlmICFhbGxvd2VkRXh0ZW5zaW9uc1tleHRdICYmIGV4dCAhPSAiIiB7CgkJCXJldHVybiBuaWwKCQl9CgkJcmVsIDo9IHJlbFBhdGgocGF0aCkKCQlmaWxlcyA9IGFwcGVuZChmaWxlcywgbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJInBhdGgiOiAgcmVsLAoJCQkibmFtZSI6ICBpbmZvLk5hbWUoKSwKCQkJInNpemUiOiAgaW5mby5TaXplKCksCgkJCSJtdGltZSI6IGZsb2F0NjQoaW5mby5Nb2RUaW1lKCkuVW5peCgpKSwKCQl9KQoJCXJldHVybiBuaWwKCX0pCgoJaWYgZmlsZXMgPT0gbmlsIHsKCQlmaWxlcyA9IFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fXt9Cgl9CgoJc29ydC5TbGljZShmaWxlcywgZnVuYyhpLCBqIGludCkgYm9vbCB7CgkJcmV0dXJuIGZpbGVzW2ldWyJwYXRoIl0uKHN0cmluZykgPCBmaWxlc1tqXVsicGF0aCJdLihzdHJpbmcpCgl9KQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBmaWxlcywgInRvdGFsIjogbGVuKGZpbGVzKX0pCn0KCmZ1bmMgKGggKlNjcmlwdEhhbmRsZXIpIFRyZWUoYyAqZ2luLkNvbnRleHQpIHsKCXRyZWUgOj0gYnVpbGRUcmVlKHNjcmlwdHNEaXIoKSwgIiIpCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJkYXRhIjogdHJlZX0pCn0KCmZ1bmMgc2hvdWxkU2tpcFNjcmlwdFRyZWVEaXIobmFtZSBzdHJpbmcpIGJvb2wgewoJcmV0dXJuIHNlcnZpY2UuU2hvdWxkSWdub3JlU2NyaXB0RW50cnlOYW1lKG5hbWUpCn0KCmZ1bmMgYnVpbGRUcmVlKGJhc2VEaXIsIHByZWZpeCBzdHJpbmcpIFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7CglkaXIgOj0gZmlsZXBhdGguSm9pbihiYXNlRGlyLCBwcmVmaXgpCgllbnRyaWVzLCBlcnIgOj0gb3MuUmVhZERpcihkaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gW11tYXBbc3RyaW5nXWludGVyZmFjZXt9e30KCX0KCgl2YXIgZGlycywgZmlsZXMgW11tYXBbc3RyaW5nXWludGVyZmFjZXt9CgoJc29ydGVkIDo9IG1ha2UoW11vcy5EaXJFbnRyeSwgbGVuKGVudHJpZXMpKQoJY29weShzb3J0ZWQsIGVudHJpZXMpCglzb3J0LlNsaWNlKHNvcnRlZCwgZnVuYyhpLCBqIGludCkgYm9vbCB7CgkJcmV0dXJuIHN0cmluZ3MuVG9Mb3dlcihzb3J0ZWRbaV0uTmFtZSgpKSA8IHN0cmluZ3MuVG9Mb3dlcihzb3J0ZWRbal0uTmFtZSgpKQoJfSkKCglmb3IgXywgZW50cnkgOj0gcmFuZ2Ugc29ydGVkIHsKCQluYW1lIDo9IGVudHJ5Lk5hbWUoKQoKCQlyZWwgOj0gbmFtZQoJCWlmIHByZWZpeCAhPSAiIiB7CgkJCXJlbCA9IHByZWZpeCArICIvIiArIG5hbWUKCQl9CgoJCWlmIGVudHJ5LklzRGlyKCkgewoJCQlpZiBzaG91bGRTa2lwU2NyaXB0VHJlZURpcihuYW1lKSB7CgkJCQljb250aW51ZQoJCQl9CgkJCWNoaWxkcmVuIDo9IGJ1aWxkVHJlZShiYXNlRGlyLCByZWwpCgkJCWRpcnMgPSBhcHBlbmQoZGlycywgbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJCSJrZXkiOiAgICAgIHJlbCwKCQkJCSJ0aXRsZSI6ICAgIG5hbWUsCgkJCQkiaXNMZWFmIjogICBmYWxzZSwKCQkJCSJ0eXBlIjogICAgICJkaXJlY3RvcnkiLAoJCQkJImNoaWxkcmVuIjogY2hpbGRyZW4sCgkJCX0pCgkJfSBlbHNlIHsKCQkJaW5mbywgXyA6PSBlbnRyeS5JbmZvKCkKCQkJc2l6ZSA6PSBpbnQ2NCgwKQoJCQltdGltZSA6PSBmbG9hdDY0KDApCgkJCWlmIGluZm8gIT0gbmlsIHsKCQkJCXNpemUgPSBpbmZvLlNpemUoKQoJCQkJbXRpbWUgPSBmbG9hdDY0KGluZm8uTW9kVGltZSgpLlVuaXgoKSkKCQkJfQoJCQlmaWxlcyA9IGFwcGVuZChmaWxlcywgbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJCSJrZXkiOiAgICAgICByZWwsCgkJCQkidGl0bGUiOiAgICAgbmFtZSwKCQkJCSJpc0xlYWYiOiAgICB0cnVlLAoJCQkJInR5cGUiOiAgICAgICJmaWxlIiwKCQkJCSJleHRlbnNpb24iOiBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguRXh0KG5hbWUpKSwKCQkJCSJzaXplIjogICAgICBzaXplLAoJCQkJIm10aW1lIjogICAgIG10aW1lLAoJCQl9KQoJCX0KCX0KCglyZXN1bHQgOj0gbWFrZShbXW1hcFtzdHJpbmddaW50ZXJmYWNle30sIDAsIGxlbihkaXJzKStsZW4oZmlsZXMpKQoJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgZGlycy4uLikKCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIGZpbGVzLi4uKQoJcmV0dXJuIHJlc3VsdAp9CgpmdW5jIChoICpTY3JpcHRIYW5kbGVyKSBHZXRDb250ZW50KGMgKmdpbi5Db250ZXh0KSB7CglwYXRoIDo9IGMuUXVlcnkoInBhdGgiKQoJZnVsbCwgZXJyIDo9IHNhZmVQYXRoKHBhdGgsIHRydWUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsIGVyci5FcnJvcigpKQoJCXJldHVybgoJfQoKCWlmIGluZm8sIHN0YXRFcnIgOj0gb3MuU3RhdChmdWxsKTsgc3RhdEVyciA9PSBuaWwgJiYgaW5mby5Jc0RpcigpIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLlvZPliY3ot6/lvoTmmK/nm67lvZXvvIzkuI3og73kvZzkuLrohJrmnKzmlofku7bmiZPlvIAiKQoJCXJldHVybgoJfQoKCWV4dCA6PSBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguRXh0KGZ1bGwpKQoJaWYgYmluYXJ5RXh0ZW5zaW9uc1tleHRdIHsKCQlkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoZnVsbCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi6K+75Y+W5paH5Lu25aSx6LSlIikKCQkJcmV0dXJuCgkJfQoJCW1pbWVUeXBlIDo9IG1pbWUuVHlwZUJ5RXh0ZW5zaW9uKGV4dCkKCQlpZiBtaW1lVHlwZSA9PSAiIiB7CgkJCW1pbWVUeXBlID0gImFwcGxpY2F0aW9uL29jdGV0LXN0cmVhbSIKCQl9CgkJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkJImRhdGEiOiBnaW4uSHsKCQkJCSJwYXRoIjogICAgICBwYXRoLAoJCQkJImNvbnRlbnQiOiAgIGJhc2U2NC5TdGRFbmNvZGluZy5FbmNvZGVUb1N0cmluZyhkYXRhKSwKCQkJCSJiaW5hcnkiOiAgICB0cnVlLAoJCQkJImlzX2JpbmFyeSI6IHRydWUsCgkJCQkibWltZSI6ICAgICAgbWltZVR5cGUsCgkJCX0sCgkJfSkKCQlyZXR1cm4KCX0KCglkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoZnVsbCkKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuivu+WPluaWh+S7tuWksei0pSIpCgkJcmV0dXJuCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkiZGF0YSI6IGdpbi5IewoJCQkicGF0aCI6ICAgICAgcGF0aCwKCQkJImNvbnRlbnQiOiAgIHN0cmluZyhkYXRhKSwKCQkJImJpbmFyeSI6ICAgIGZhbHNlLAoJCQkiaXNfYmluYXJ5IjogZmFsc2UsCgkJfSwKCX0pCn0KCmZ1bmMgKGggKlNjcmlwdEhhbmRsZXIpIERvd25sb2FkKGMgKmdpbi5Db250ZXh0KSB7CglwYXRoIDo9IGMuUXVlcnkoInBhdGgiKQoJZnVsbCwgZXJyIDo9IHNhZmVQYXRoKHBhdGgsIHRydWUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsIGVyci5FcnJvcigpKQoJCXJldHVybgoJfQoKCWMuSGVhZGVyKCJDYWNoZS1Db250cm9sIiwgIm5vLXN0b3JlLCBuby1jYWNoZSwgbXVzdC1yZXZhbGlkYXRlIikKCWMuSGVhZGVyKCJQcmFnbWEiLCAibm8tY2FjaGUiKQoJYy5IZWFkZXIoIkV4cGlyZXMiLCAiMCIpCgljLkZpbGVBdHRhY2htZW50KGZ1bGwsIGZpbGVwYXRoLkJhc2UoZnVsbCkpCn0K
+package handler
+
+import (
+	"encoding/base64"
+	"mime"
+	"os"
+	"path/filepath"
+	"sort"
+	"strings"
+
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+func (h *ScriptHandler) List(c *gin.Context) {
+	dir := scriptsDir()
+	var files []map[string]interface{}
+
+	filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return nil
+		}
+		if info.IsDir() {
+			if shouldSkipScriptTreeDir(info.Name()) {
+				return filepath.SkipDir
+			}
+			return nil
+		}
+		if service.ShouldIgnoreScriptPath(dir, path) {
+			return nil
+		}
+		ext := strings.ToLower(filepath.Ext(info.Name()))
+		if !allowedExtensions[ext] && ext != "" {
+			return nil
+		}
+		rel := relPath(path)
+		files = append(files, map[string]interface{}{
+			"path":  rel,
+			"name":  info.Name(),
+			"size":  info.Size(),
+			"mtime": float64(info.ModTime().Unix()),
+		})
+		return nil
+	})
+
+	if files == nil {
+		files = []map[string]interface{}{}
+	}
+
+	sort.Slice(files, func(i, j int) bool {
+		return files[i]["path"].(string) < files[j]["path"].(string)
+	})
+
+	response.Success(c, gin.H{"data": files, "total": len(files)})
+}
+
+func (h *ScriptHandler) Tree(c *gin.Context) {
+	tree := buildTree(scriptsDir(), "")
+	response.Success(c, gin.H{"data": tree})
+}
+
+func shouldSkipScriptTreeDir(name string) bool {
+	return service.ShouldIgnoreScriptEntryName(name)
+}
+
+func buildTree(baseDir, prefix string) []map[string]interface{} {
+	dir := filepath.Join(baseDir, prefix)
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return []map[string]interface{}{}
+	}
+
+	var dirs, files []map[string]interface{}
+
+	sorted := make([]os.DirEntry, len(entries))
+	copy(sorted, entries)
+	sort.Slice(sorted, func(i, j int) bool {
+		return strings.ToLower(sorted[i].Name()) < strings.ToLower(sorted[j].Name())
+	})
+
+	for _, entry := range sorted {
+		name := entry.Name()
+
+		rel := name
+		if prefix != "" {
+			rel = prefix + "/" + name
+		}
+
+		if entry.IsDir() {
+			if shouldSkipScriptTreeDir(name) {
+				continue
+			}
+			children := buildTree(baseDir, rel)
+			dirs = append(dirs, map[string]interface{}{
+				"key":      rel,
+				"title":    name,
+				"isLeaf":   false,
+				"type":     "directory",
+				"children": children,
+			})
+		} else {
+			info, _ := entry.Info()
+			size := int64(0)
+			mtime := float64(0)
+			if info != nil {
+				size = info.Size()
+				mtime = float64(info.ModTime().Unix())
+			}
+			files = append(files, map[string]interface{}{
+				"key":       rel,
+				"title":     name,
+				"isLeaf":    true,
+				"type":      "file",
+				"extension": strings.ToLower(filepath.Ext(name)),
+				"size":      size,
+				"mtime":     mtime,
+			})
+		}
+	}
+
+	result := make([]map[string]interface{}, 0, len(dirs)+len(files))
+	result = append(result, dirs...)
+	result = append(result, files...)
+	return result
+}
+
+func (h *ScriptHandler) GetContent(c *gin.Context) {
+	path := c.Query("path")
+	full, err := safePath(path, true)
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	if info, statErr := os.Stat(full); statErr == nil && info.IsDir() {
+		response.BadRequest(c, "???????,??????????")
+		return
+	}
+
+	ext := strings.ToLower(filepath.Ext(full))
+	if binaryExtensions[ext] {
+		data, err := os.ReadFile(full)
+		if err != nil {
+			response.InternalError(c, "??????")
+			return
+		}
+		mimeType := mime.TypeByExtension(ext)
+		if mimeType == "" {
+			mimeType = "application/octet-stream"
+		}
+		response.Success(c, gin.H{
+			"data": gin.H{
+				"path":      path,
+				"content":   base64.StdEncoding.EncodeToString(data),
+				"binary":    true,
+				"is_binary": true,
+				"mime":      mimeType,
+			},
+		})
+		return
+	}
+
+	data, err := os.ReadFile(full)
+	if err != nil {
+		response.InternalError(c, "??????")
+		return
+	}
+
+	response.Success(c, gin.H{
+		"data": gin.H{
+			"path":      path,
+			"content":   string(data),
+			"binary":    false,
+			"is_binary": false,
+		},
+	})
+}
+
+func (h *ScriptHandler) Download(c *gin.Context) {
+	path := c.Query("path")
+	full, err := safePath(path, true)
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	c.Header("Cache-Control", "no-store, no-cache, must-revalidate")
+	c.Header("Pragma", "no-cache")
+	c.Header("Expires", "0")
+	c.FileAttachment(full, filepath.Base(full))
+}

@@ -1,1 +1,40 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3ROb3JtYWxpemVTY3JpcHRSZWxhdGl2ZVBhdGgodCAqdGVzdGluZy5UKSB7Cgl0ZXN0cyA6PSBbXXN0cnVjdCB7CgkJbmFtZSAgICBzdHJpbmcKCQlpbnB1dCAgIHN0cmluZwoJCXdhbnQgICAgc3RyaW5nCgkJd2FudEVyciBzdHJpbmcKCX17CgkJe25hbWU6ICJzaW1wbGUgcm9vdCBmaWxlIiwgaW5wdXQ6ICJkZW1vLnNoIiwgd2FudDogImRlbW8uc2gifSwKCQl7bmFtZTogIm5vcm1hbGl6ZSByZXBlYXRlZCBzZXBhcmF0b3JzIiwgaW5wdXQ6ICIgZm9sZGVyLy9zdWIvLi9kZW1vLnB5ICIsIHdhbnQ6ICJmb2xkZXIvc3ViL2RlbW8ucHkifSwKCQl7bmFtZTogIm5vcm1hbGl6ZSB3aW5kb3dzIHNlcGFyYXRvcnMiLCBpbnB1dDogYGZvbGRlclxjaGlsZFxkZW1vLmpzYCwgd2FudDogImZvbGRlci9jaGlsZC9kZW1vLmpzIn0sCgkJe25hbWU6ICJyZWplY3QgdHJhdmVyc2FsIiwgaW5wdXQ6ICIuLi9vdXRzaWRlIiwgd2FudEVycjogIuS4jeWFgeiuuOi3r+W+hOepv+i2iiJ9LAoJCXtuYW1lOiAicmVqZWN0IG5lc3RlZCB0cmF2ZXJzYWwiLCBpbnB1dDogImZvbGRlci8uLi9vdXRzaWRlIiwgd2FudEVycjogIuS4jeWFgeiuuOi3r+W+hOepv+i2iiJ9LAoJCXtuYW1lOiAicmVqZWN0IGFic29sdXRlLWxpa2UgcGF0aCIsIGlucHV0OiAiL291dHNpZGUvZGVtby5zaCIsIHdhbnRFcnI6ICLkuI3lhYHorrjot6/lvoTnqb/otooifSwKCX0KCglmb3IgXywgdHQgOj0gcmFuZ2UgdGVzdHMgewoJCXQuUnVuKHR0Lm5hbWUsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJCWdvdCwgZXJyIDo9IG5vcm1hbGl6ZVNjcmlwdFJlbGF0aXZlUGF0aCh0dC5pbnB1dCkKCQkJaWYgdHQud2FudEVyciAhPSAiIiB7CgkJCQlpZiBlcnIgPT0gbmlsIHsKCQkJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZXJyb3IgJXEsIGdvdCBuaWwiLCB0dC53YW50RXJyKQoJCQkJfQoJCQkJaWYgZXJyLkVycm9yKCkgIT0gdHQud2FudEVyciB7CgkJCQkJdC5GYXRhbGYoImV4cGVjdGVkIGVycm9yICVxLCBnb3QgJXEiLCB0dC53YW50RXJyLCBlcnIuRXJyb3IoKSkKCQkJCX0KCQkJCXJldHVybgoJCQl9CgkJCWlmIGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgZXJyb3I6ICV2IiwgZXJyKQoJCQl9CgkJCWlmIGdvdCAhPSB0dC53YW50IHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCAlcSwgZ290ICVxIiwgdHQud2FudCwgZ290KQoJCQl9CgkJfSkKCX0KfQo=
+package handler
+
+import "testing"
+
+func TestNormalizeScriptRelativePath(t *testing.T) {
+	tests := []struct {
+		name    string
+		input   string
+		want    string
+		wantErr string
+	}{
+		{name: "simple root file", input: "demo.sh", want: "demo.sh"},
+		{name: "normalize repeated separators", input: " folder//sub/./demo.py ", want: "folder/sub/demo.py"},
+		{name: "normalize windows separators", input: `folder\child\demo.js`, want: "folder/child/demo.js"},
+		{name: "reject traversal", input: "../outside", wantErr: "???????"},
+		{name: "reject nested traversal", input: "folder/../outside", wantErr: "???????"},
+		{name: "reject absolute-like path", input: "/outside/demo.sh", wantErr: "???????"},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := normalizeScriptRelativePath(tt.input)
+			if tt.wantErr != "" {
+				if err == nil {
+					t.Fatalf("expected error %q, got nil", tt.wantErr)
+				}
+				if err.Error() != tt.wantErr {
+					t.Fatalf("expected error %q, got %q", tt.wantErr, err.Error())
+				}
+				return
+			}
+			if err != nil {
+				t.Fatalf("unexpected error: %v", err)
+			}
+			if got != tt.want {
+				t.Fatalf("expected %q, got %q", tt.want, got)
+			}
+		})
+	}
+}

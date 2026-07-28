@@ -1,1 +1,116 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJInN0cmNvbnYiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbWlkZGxld2FyZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgp0eXBlIFNTSEtleUhhbmRsZXIgc3RydWN0e30KCmZ1bmMgTmV3U1NIS2V5SGFuZGxlcigpICpTU0hLZXlIYW5kbGVyIHsKCXJldHVybiAmU1NIS2V5SGFuZGxlcnt9Cn0KCmZ1bmMgKGggKlNTSEtleUhhbmRsZXIpIExpc3QoYyAqZ2luLkNvbnRleHQpIHsKCXZhciBrZXlzIFtdbW9kZWwuU1NIS2V5CglkYXRhYmFzZS5EQi5PcmRlcigiY3JlYXRlZF9hdCBERVNDIikuRmluZCgma2V5cykKCglkYXRhIDo9IG1ha2UoW11tYXBbc3RyaW5nXWludGVyZmFjZXt9LCBsZW4oa2V5cykpCglmb3IgaSwgayA6PSByYW5nZSBrZXlzIHsKCQlkYXRhW2ldID0gay5Ub0RpY3QoKQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBkYXRhfSkKfQoKZnVuYyAoaCAqU1NIS2V5SGFuZGxlcikgQ3JlYXRlKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJTmFtZSAgICAgICBzdHJpbmcgYGpzb246Im5hbWUiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlQcml2YXRlS2V5IHN0cmluZyBganNvbjoicHJpdmF0ZV9rZXkiIGJpbmRpbmc6InJlcXVpcmVkImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWtleSA6PSBtb2RlbC5TU0hLZXl7CgkJTmFtZTogICAgICAgcmVxLk5hbWUsCgkJUHJpdmF0ZUtleTogcmVxLlByaXZhdGVLZXksCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgma2V5KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi5Yib5bu6IFNTSCDlr4bpkqXlpLHotKUiKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLkNyZWF0ZWQoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Yib5bu65oiQ5YqfIiwgImRhdGEiOiBrZXkuVG9EaWN0KCl9KQp9CgpmdW5jIChoICpTU0hLZXlIYW5kbGVyKSBVcGRhdGUoYyAqZ2luLkNvbnRleHQpIHsKCWtleUlELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCgl2YXIga2V5IG1vZGVsLlNTSEtleQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZrZXksIGtleUlEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIlNTSCDlr4bpkqXkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXZhciByZXEgc3RydWN0IHsKCQlOYW1lICAgICAgIHN0cmluZyBganNvbjoibmFtZSJgCgkJUHJpdmF0ZUtleSBzdHJpbmcgYGpzb246InByaXZhdGVfa2V5ImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCXVwZGF0ZXMgOj0gbWFrZShtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgcmVxLk5hbWUgIT0gIiIgewoJCXVwZGF0ZXNbIm5hbWUiXSA9IHJlcS5OYW1lCgl9CglpZiByZXEuUHJpdmF0ZUtleSAhPSAiIiB7CgkJdXBkYXRlc1sicHJpdmF0ZV9rZXkiXSA9IHJlcS5Qcml2YXRlS2V5Cgl9CgoJaWYgbGVuKHVwZGF0ZXMpID4gMCB7CgkJZGF0YWJhc2UuREIuTW9kZWwoJmtleSkuVXBkYXRlcyh1cGRhdGVzKQoJfQoKCWRhdGFiYXNlLkRCLkZpcnN0KCZrZXksIGtleUlEKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLmm7TmlrDmiJDlip8iLCAiZGF0YSI6IGtleS5Ub0RpY3QoKX0pCn0KCmZ1bmMgKGggKlNTSEtleUhhbmRsZXIpIERlbGV0ZShjICpnaW4uQ29udGV4dCkgewoJa2V5SUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJZGF0YWJhc2UuREIuV2hlcmUoImlkID0gPyIsIGtleUlEKS5EZWxldGUoJm1vZGVsLlNTSEtleXt9KQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLliKDpmaTmiJDlip8ifSkKfQoKZnVuYyAoaCAqU1NIS2V5SGFuZGxlcikgRGV0YWlsKGMgKmdpbi5Db250ZXh0KSB7CglrZXlJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIGtleSBtb2RlbC5TU0hLZXkKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgma2V5LCBrZXlJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICJTU0gg5a+G6ZKl5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJkYXRhIjoga2V5LlRvRGljdFdpdGhLZXkoKX0pCn0KCmZ1bmMgKGggKlNTSEtleUhhbmRsZXIpIFJlZ2lzdGVyUm91dGVzKHIgKmdpbi5Sb3V0ZXJHcm91cCkgewoJa2V5cyA6PSByLkdyb3VwKCIvc3NoLWtleXMiLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgbWlkZGxld2FyZS5SZXF1aXJlVXNlclRva2VuKCksIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCkpCgl7CgkJa2V5cy5HRVQoIiIsIGguTGlzdCkKCQlrZXlzLlBPU1QoIiIsIGguQ3JlYXRlKQoJCWtleXMuUFVUKCIvOmlkIiwgaC5VcGRhdGUpCgkJa2V5cy5ERUxFVEUoIi86aWQiLCBoLkRlbGV0ZSkKCQlrZXlzLkdFVCgiLzppZCIsIGguRGV0YWlsKQoJfQp9Cg==
+package handler
+
+import (
+	"strconv"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+)
+
+type SSHKeyHandler struct{}
+
+func NewSSHKeyHandler() *SSHKeyHandler {
+	return &SSHKeyHandler{}
+}
+
+func (h *SSHKeyHandler) List(c *gin.Context) {
+	var keys []model.SSHKey
+	database.DB.Order("created_at DESC").Find(&keys)
+
+	data := make([]map[string]interface{}, len(keys))
+	for i, k := range keys {
+		data[i] = k.ToDict()
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *SSHKeyHandler) Create(c *gin.Context) {
+	var req struct {
+		Name       string `json:"name" binding:"required"`
+		PrivateKey string `json:"private_key" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	key := model.SSHKey{
+		Name:       req.Name,
+		PrivateKey: req.PrivateKey,
+	}
+
+	if err := database.DB.Create(&key).Error; err != nil {
+		response.InternalError(c, "?? SSH ????")
+		return
+	}
+
+	response.Created(c, gin.H{"message": "????", "data": key.ToDict()})
+}
+
+func (h *SSHKeyHandler) Update(c *gin.Context) {
+	keyID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var key model.SSHKey
+	if err := database.DB.First(&key, keyID).Error; err != nil {
+		response.NotFound(c, "SSH ?????")
+		return
+	}
+
+	var req struct {
+		Name       string `json:"name"`
+		PrivateKey string `json:"private_key"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	updates := make(map[string]interface{})
+	if req.Name != "" {
+		updates["name"] = req.Name
+	}
+	if req.PrivateKey != "" {
+		updates["private_key"] = req.PrivateKey
+	}
+
+	if len(updates) > 0 {
+		database.DB.Model(&key).Updates(updates)
+	}
+
+	database.DB.First(&key, keyID)
+	response.Success(c, gin.H{"message": "????", "data": key.ToDict()})
+}
+
+func (h *SSHKeyHandler) Delete(c *gin.Context) {
+	keyID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	database.DB.Where("id = ?", keyID).Delete(&model.SSHKey{})
+	response.Success(c, gin.H{"message": "????"})
+}
+
+func (h *SSHKeyHandler) Detail(c *gin.Context) {
+	keyID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var key model.SSHKey
+	if err := database.DB.First(&key, keyID).Error; err != nil {
+		response.NotFound(c, "SSH ?????")
+		return
+	}
+
+	response.Success(c, gin.H{"data": key.ToDictWithKey()})
+}
+
+func (h *SSHKeyHandler) RegisterRoutes(r *gin.RouterGroup) {
+	keys := r.Group("/ssh-keys", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireAdmin())
+	{
+		keys.GET("", h.List)
+		keys.POST("", h.Create)
+		keys.PUT("/:id", h.Update)
+		keys.DELETE("/:id", h.Delete)
+		keys.GET("/:id", h.Detail)
+	}
+}

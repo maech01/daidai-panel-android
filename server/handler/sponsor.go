@@ -1,1 +1,216 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkiZm10IgoJImxvZyIKCSJuZXQvaHR0cCIKCSJuZXQvdXJsIgoJInN0cmluZ3MiCgkic3luYyIKCSJ0aW1lIgoJInVuaWNvZGUvdXRmOCIKCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgp2YXIgZGVmYXVsdFNwb25zb3JGZWVkVVJMID0gImh0dHBzOi8vZHVtYmxpc3QubGlueml4dWFuLnRvcC8iCgpjb25zdCBzcG9uc29yRmVlZExvZ0ludGVydmFsID0gMTAgKiB0aW1lLk1pbnV0ZQoKdmFyIHNwb25zb3JGZWVkTG9nU3RhdGUgc3RydWN0IHsKCW11ICAgICAgIHN5bmMuTXV0ZXgKCWxhc3RXYXJuIHRpbWUuVGltZQp9Cgp0eXBlIFNwb25zb3JIYW5kbGVyIHN0cnVjdHt9Cgp0eXBlIHNwb25zb3JGZWVkSXRlbSBzdHJ1Y3QgewoJSUQgICAgICAgIHVpbnQgICAgYGpzb246ImlkLG9taXRlbXB0eSJgCglOYW1lICAgICAgc3RyaW5nICBganNvbjoibmFtZSJgCglBbW91bnQgICAgZmxvYXQ2NCBganNvbjoiYW1vdW50ImAKCUF2YXRhclVSTCBzdHJpbmcgIGBqc29uOiJhdmF0YXJfdXJsImAKCUluaXRpYWwgICBzdHJpbmcgIGBqc29uOiJpbml0aWFsLG9taXRlbXB0eSJgCglDcmVhdGVkQXQgc3RyaW5nICBganNvbjoiY3JlYXRlZF9hdCxvbWl0ZW1wdHkiYAoJVXBkYXRlZEF0IHN0cmluZyAgYGpzb246InVwZGF0ZWRfYXQsb21pdGVtcHR5ImAKfQoKdHlwZSBzcG9uc29yRmVlZFN1bW1hcnkgc3RydWN0IHsKCVNwb25zb3JzICAgIFtdc3BvbnNvckZlZWRJdGVtIGBqc29uOiJzcG9uc29ycyJgCglDb3VudCAgICAgICBpbnQgICAgICAgICAgICAgICBganNvbjoiY291bnQiYAoJVG90YWxBbW91bnQgZmxvYXQ2NCAgICAgICAgICAgYGpzb246InRvdGFsX2Ftb3VudCJgCglVcGRhdGVkQXQgICBzdHJpbmcgICAgICAgICAgICBganNvbjoidXBkYXRlZF9hdCxvbWl0ZW1wdHkiYAoJVW5hdmFpbGFibGUgYm9vbCAgICAgICAgICAgICAgYGpzb246InVuYXZhaWxhYmxlLG9taXRlbXB0eSJgCn0KCmZ1bmMgTmV3U3BvbnNvckhhbmRsZXIoKSAqU3BvbnNvckhhbmRsZXIgewoJcmV0dXJuICZTcG9uc29ySGFuZGxlcnt9Cn0KCmZ1bmMgKGggKlNwb25zb3JIYW5kbGVyKSBMaXN0KGMgKmdpbi5Db250ZXh0KSB7CgljLkhlYWRlcigiQ2FjaGUtQ29udHJvbCIsICJuby1zdG9yZSIpCgoJZmVlZFVSTCA6PSBkZWZhdWx0U3BvbnNvckZlZWRVUkwKCglzdW1tYXJ5LCBlcnIgOj0gZmV0Y2hTcG9uc29yRmVlZChmZWVkVVJMKQoJaWYgZXJyICE9IG5pbCB7CgkJbG9nU3BvbnNvckZlZWRVbmF2YWlsYWJsZSgpCgkJZmFsbGJhY2sgOj0gZW1wdHlTcG9uc29yRmVlZCgpCgkJZmFsbGJhY2suVW5hdmFpbGFibGUgPSB0cnVlCgkJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsiZGF0YSI6IGZhbGxiYWNrfSkKCQlyZXR1cm4KCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBzdW1tYXJ5fSkKfQoKZnVuYyAoaCAqU3BvbnNvckhhbmRsZXIpIFJlZ2lzdGVyUm91dGVzKHIgKmdpbi5Sb3V0ZXJHcm91cCkgewoJci5HRVQoIi9zcG9uc29ycyIsIGguTGlzdCkKfQoKZnVuYyBlbXB0eVNwb25zb3JGZWVkKCkgc3BvbnNvckZlZWRTdW1tYXJ5IHsKCXJldHVybiBzcG9uc29yRmVlZFN1bW1hcnl7CgkJU3BvbnNvcnM6ICAgIFtdc3BvbnNvckZlZWRJdGVte30sCgkJQ291bnQ6ICAgICAgIDAsCgkJVG90YWxBbW91bnQ6IDAsCgkJVXBkYXRlZEF0OiAgICIiLAoJfQp9CgpmdW5jIGxvZ1Nwb25zb3JGZWVkVW5hdmFpbGFibGUoKSB7CglzcG9uc29yRmVlZExvZ1N0YXRlLm11LkxvY2soKQoJZGVmZXIgc3BvbnNvckZlZWRMb2dTdGF0ZS5tdS5VbmxvY2soKQoKCW5vdyA6PSB0aW1lLk5vdygpCglpZiAhc3BvbnNvckZlZWRMb2dTdGF0ZS5sYXN0V2Fybi5Jc1plcm8oKSAmJiBub3cuU3ViKHNwb25zb3JGZWVkTG9nU3RhdGUubGFzdFdhcm4pIDwgc3BvbnNvckZlZWRMb2dJbnRlcnZhbCB7CgkJcmV0dXJuCgl9CgoJc3BvbnNvckZlZWRMb2dTdGF0ZS5sYXN0V2FybiA9IG5vdwoJbG9nLlByaW50Zigic3BvbnNvciBmZWVkIHVuYXZhaWxhYmxlLCB1c2luZyBmYWxsYmFjayByZXNwb25zZSIpCn0KCmZ1bmMgZmV0Y2hTcG9uc29yRmVlZChmZWVkVVJMIHN0cmluZykgKHNwb25zb3JGZWVkU3VtbWFyeSwgZXJyb3IpIHsKCWNsaWVudCA6PSBzZXJ2aWNlLk5ld0hUVFBDbGllbnQoOCAqIHRpbWUuU2Vjb25kKQoJcmVxLCBlcnIgOj0gaHR0cC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kR2V0LCBmZWVkVVJMLCBuaWwpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gc3BvbnNvckZlZWRTdW1tYXJ5e30sIGVycgoJfQoJcmVxLkhlYWRlci5TZXQoIkFjY2VwdCIsICJhcHBsaWNhdGlvbi9qc29uIikKCglyZXNwLCBlcnIgOj0gY2xpZW50LkRvKHJlcSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBzcG9uc29yRmVlZFN1bW1hcnl7fSwgZXJyCgl9CglkZWZlciByZXNwLkJvZHkuQ2xvc2UoKQoKCWlmIHJlc3AuU3RhdHVzQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQlyZXR1cm4gc3BvbnNvckZlZWRTdW1tYXJ5e30sIGZtdC5FcnJvcmYoInJlbW90ZSBzdGF0dXMgJWQiLCByZXNwLlN0YXR1c0NvZGUpCgl9CgoJdmFyIHJvb3QgbWFwW3N0cmluZ11qc29uLlJhd01lc3NhZ2UKCWlmIGVyciA6PSBqc29uLk5ld0RlY29kZXIocmVzcC5Cb2R5KS5EZWNvZGUoJnJvb3QpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gc3BvbnNvckZlZWRTdW1tYXJ5e30sIGVycgoJfQoKCXZhciBzdW1tYXJ5IHNwb25zb3JGZWVkU3VtbWFyeQoJaWYgcmF3LCBvayA6PSByb290WyJkYXRhIl07IG9rICYmIGxlbihyYXcpID4gMCAmJiBzdHJpbmcocmF3KSAhPSAibnVsbCIgewoJCWlmIGVyciA6PSBqc29uLlVubWFyc2hhbChyYXcsICZzdW1tYXJ5KTsgZXJyICE9IG5pbCB7CgkJCXJldHVybiBzcG9uc29yRmVlZFN1bW1hcnl7fSwgZXJyCgkJfQoJfSBlbHNlIGlmIHJhdywgb2sgOj0gcm9vdFsic3BvbnNvcnMiXTsgb2sgJiYgbGVuKHJhdykgPiAwICYmIHN0cmluZyhyYXcpICE9ICJudWxsIiB7CgkJaWYgZXJyIDo9IGpzb24uVW5tYXJzaGFsKHJhdywgJnN1bW1hcnkuU3BvbnNvcnMpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIHNwb25zb3JGZWVkU3VtbWFyeXt9LCBlcnIKCQl9CgkJaWYgcmF3Q291bnQsIG9rIDo9IHJvb3RbImNvdW50Il07IG9rICYmIGxlbihyYXdDb3VudCkgPiAwICYmIHN0cmluZyhyYXdDb3VudCkgIT0gIm51bGwiIHsKCQkJXyA9IGpzb24uVW5tYXJzaGFsKHJhd0NvdW50LCAmc3VtbWFyeS5Db3VudCkKCQl9CgkJaWYgcmF3VG90YWwsIG9rIDo9IHJvb3RbInRvdGFsX2Ftb3VudCJdOyBvayAmJiBsZW4ocmF3VG90YWwpID4gMCAmJiBzdHJpbmcocmF3VG90YWwpICE9ICJudWxsIiB7CgkJCV8gPSBqc29uLlVubWFyc2hhbChyYXdUb3RhbCwgJnN1bW1hcnkuVG90YWxBbW91bnQpCgkJfQoJCWlmIHJhd1VwZGF0ZWRBdCwgb2sgOj0gcm9vdFsidXBkYXRlZF9hdCJdOyBvayAmJiBsZW4ocmF3VXBkYXRlZEF0KSA+IDAgJiYgc3RyaW5nKHJhd1VwZGF0ZWRBdCkgIT0gIm51bGwiIHsKCQkJXyA9IGpzb24uVW5tYXJzaGFsKHJhd1VwZGF0ZWRBdCwgJnN1bW1hcnkuVXBkYXRlZEF0KQoJCX0KCX0gZWxzZSB7CgkJYm9keSwgZXJyIDo9IGpzb24uTWFyc2hhbChyb290KQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gc3BvbnNvckZlZWRTdW1tYXJ5e30sIGVycgoJCX0KCQlpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoYm9keSwgJnN1bW1hcnkpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIHNwb25zb3JGZWVkU3VtbWFyeXt9LCBlcnIKCQl9Cgl9CgoJaWYgc3VtbWFyeS5TcG9uc29ycyA9PSBuaWwgewoJCXN1bW1hcnkuU3BvbnNvcnMgPSBbXXNwb25zb3JGZWVkSXRlbXt9Cgl9CglpZiBzdW1tYXJ5LkNvdW50ID09IDAgewoJCXN1bW1hcnkuQ291bnQgPSBsZW4oc3VtbWFyeS5TcG9uc29ycykKCX0KCglmb3IgaSA6PSByYW5nZSBzdW1tYXJ5LlNwb25zb3JzIHsKCQlzdW1tYXJ5LlNwb25zb3JzW2ldLkF2YXRhclVSTCA9IHJlc29sdmVSZW1vdGVVUkwoZmVlZFVSTCwgc3VtbWFyeS5TcG9uc29yc1tpXS5BdmF0YXJVUkwpCgkJaWYgc3RyaW5ncy5UcmltU3BhY2Uoc3VtbWFyeS5TcG9uc29yc1tpXS5Jbml0aWFsKSA9PSAiIiB7CgkJCXN1bW1hcnkuU3BvbnNvcnNbaV0uSW5pdGlhbCA9IHNwb25zb3JJbml0aWFsKHN1bW1hcnkuU3BvbnNvcnNbaV0uTmFtZSkKCQl9Cgl9CgoJcmV0dXJuIHN1bW1hcnksIG5pbAp9CgpmdW5jIHJlc29sdmVSZW1vdGVVUkwoZmVlZFVSTCwgdGFyZ2V0IHN0cmluZykgc3RyaW5nIHsKCXRhcmdldCA9IHN0cmluZ3MuVHJpbVNwYWNlKHRhcmdldCkKCWlmIHRhcmdldCA9PSAiIiB7CgkJcmV0dXJuICIiCgl9Cglsb3dlciA6PSBzdHJpbmdzLlRvTG93ZXIodGFyZ2V0KQoJaWYgc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJkYXRhOiIpIHsKCQlyZXR1cm4gdGFyZ2V0Cgl9CgoJYmFzZSwgZXJyIDo9IHVybC5QYXJzZShmZWVkVVJMKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIHRhcmdldAoJfQoJcmVmLCBlcnIgOj0gdXJsLlBhcnNlKHRhcmdldCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiB0YXJnZXQKCX0KCglpZiByZWYuSXNBYnMoKSB7CgkJcmV0dXJuIG5vcm1hbGl6ZVJlc29sdmVkUmVtb3RlVVJMKGJhc2UsIHJlZikKCX0KCglyZXR1cm4gbm9ybWFsaXplUmVzb2x2ZWRSZW1vdGVVUkwoYmFzZSwgYmFzZS5SZXNvbHZlUmVmZXJlbmNlKHJlZikpCn0KCmZ1bmMgbm9ybWFsaXplUmVzb2x2ZWRSZW1vdGVVUkwoYmFzZSwgcmVzb2x2ZWQgKnVybC5VUkwpIHN0cmluZyB7CglpZiBiYXNlID09IG5pbCB8fCByZXNvbHZlZCA9PSBuaWwgewoJCXJldHVybiAiIgoJfQoKCWlmIHN0cmluZ3MuRXF1YWxGb2xkKGJhc2UuU2NoZW1lLCAiaHR0cHMiKSAmJgoJCXN0cmluZ3MuRXF1YWxGb2xkKHJlc29sdmVkLlNjaGVtZSwgImh0dHAiKSAmJgoJCXN0cmluZ3MuRXF1YWxGb2xkKGJhc2UuSG9zdG5hbWUoKSwgcmVzb2x2ZWQuSG9zdG5hbWUoKSkgJiYKCQliYXNlLkhvc3RuYW1lKCkgIT0gIiIgewoJCWNsb25lZCA6PSAqcmVzb2x2ZWQKCQljbG9uZWQuU2NoZW1lID0gImh0dHBzIgoJCXJldHVybiBjbG9uZWQuU3RyaW5nKCkKCX0KCglyZXR1cm4gcmVzb2x2ZWQuU3RyaW5nKCkKfQoKZnVuYyBzcG9uc29ySW5pdGlhbChuYW1lIHN0cmluZykgc3RyaW5nIHsKCXRyaW1tZWQgOj0gc3RyaW5ncy5UcmltU3BhY2UobmFtZSkKCWlmIHRyaW1tZWQgPT0gIiIgewoJCXJldHVybiAi6LWeIgoJfQoJciwgXyA6PSB1dGY4LkRlY29kZVJ1bmVJblN0cmluZyh0cmltbWVkKQoJaWYgciA9PSB1dGY4LlJ1bmVFcnJvciB7CgkJcmV0dXJuICLotZ4iCgl9CglyZXR1cm4gc3RyaW5nKHIpCn0K
+package handler
+
+import (
+	"encoding/json"
+	"fmt"
+	"log"
+	"net/http"
+	"net/url"
+	"strings"
+	"sync"
+	"time"
+	"unicode/utf8"
+
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+var defaultSponsorFeedURL = "https://dumblist.linzixuan.top/"
+
+const sponsorFeedLogInterval = 10 * time.Minute
+
+var sponsorFeedLogState struct {
+	mu       sync.Mutex
+	lastWarn time.Time
+}
+
+type SponsorHandler struct{}
+
+type sponsorFeedItem struct {
+	ID        uint    `json:"id,omitempty"`
+	Name      string  `json:"name"`
+	Amount    float64 `json:"amount"`
+	AvatarURL string  `json:"avatar_url"`
+	Initial   string  `json:"initial,omitempty"`
+	CreatedAt string  `json:"created_at,omitempty"`
+	UpdatedAt string  `json:"updated_at,omitempty"`
+}
+
+type sponsorFeedSummary struct {
+	Sponsors    []sponsorFeedItem `json:"sponsors"`
+	Count       int               `json:"count"`
+	TotalAmount float64           `json:"total_amount"`
+	UpdatedAt   string            `json:"updated_at,omitempty"`
+	Unavailable bool              `json:"unavailable,omitempty"`
+}
+
+func NewSponsorHandler() *SponsorHandler {
+	return &SponsorHandler{}
+}
+
+func (h *SponsorHandler) List(c *gin.Context) {
+	c.Header("Cache-Control", "no-store")
+
+	feedURL := defaultSponsorFeedURL
+
+	summary, err := fetchSponsorFeed(feedURL)
+	if err != nil {
+		logSponsorFeedUnavailable()
+		fallback := emptySponsorFeed()
+		fallback.Unavailable = true
+		response.Success(c, gin.H{"data": fallback})
+		return
+	}
+	response.Success(c, gin.H{"data": summary})
+}
+
+func (h *SponsorHandler) RegisterRoutes(r *gin.RouterGroup) {
+	r.GET("/sponsors", h.List)
+}
+
+func emptySponsorFeed() sponsorFeedSummary {
+	return sponsorFeedSummary{
+		Sponsors:    []sponsorFeedItem{},
+		Count:       0,
+		TotalAmount: 0,
+		UpdatedAt:   "",
+	}
+}
+
+func logSponsorFeedUnavailable() {
+	sponsorFeedLogState.mu.Lock()
+	defer sponsorFeedLogState.mu.Unlock()
+
+	now := time.Now()
+	if !sponsorFeedLogState.lastWarn.IsZero() && now.Sub(sponsorFeedLogState.lastWarn) < sponsorFeedLogInterval {
+		return
+	}
+
+	sponsorFeedLogState.lastWarn = now
+	log.Printf("sponsor feed unavailable, using fallback response")
+}
+
+func fetchSponsorFeed(feedURL string) (sponsorFeedSummary, error) {
+	client := service.NewHTTPClient(8 * time.Second)
+	req, err := http.NewRequest(http.MethodGet, feedURL, nil)
+	if err != nil {
+		return sponsorFeedSummary{}, err
+	}
+	req.Header.Set("Accept", "application/json")
+
+	resp, err := client.Do(req)
+	if err != nil {
+		return sponsorFeedSummary{}, err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode != http.StatusOK {
+		return sponsorFeedSummary{}, fmt.Errorf("remote status %d", resp.StatusCode)
+	}
+
+	var root map[string]json.RawMessage
+	if err := json.NewDecoder(resp.Body).Decode(&root); err != nil {
+		return sponsorFeedSummary{}, err
+	}
+
+	var summary sponsorFeedSummary
+	if raw, ok := root["data"]; ok && len(raw) > 0 && string(raw) != "null" {
+		if err := json.Unmarshal(raw, &summary); err != nil {
+			return sponsorFeedSummary{}, err
+		}
+	} else if raw, ok := root["sponsors"]; ok && len(raw) > 0 && string(raw) != "null" {
+		if err := json.Unmarshal(raw, &summary.Sponsors); err != nil {
+			return sponsorFeedSummary{}, err
+		}
+		if rawCount, ok := root["count"]; ok && len(rawCount) > 0 && string(rawCount) != "null" {
+			_ = json.Unmarshal(rawCount, &summary.Count)
+		}
+		if rawTotal, ok := root["total_amount"]; ok && len(rawTotal) > 0 && string(rawTotal) != "null" {
+			_ = json.Unmarshal(rawTotal, &summary.TotalAmount)
+		}
+		if rawUpdatedAt, ok := root["updated_at"]; ok && len(rawUpdatedAt) > 0 && string(rawUpdatedAt) != "null" {
+			_ = json.Unmarshal(rawUpdatedAt, &summary.UpdatedAt)
+		}
+	} else {
+		body, err := json.Marshal(root)
+		if err != nil {
+			return sponsorFeedSummary{}, err
+		}
+		if err := json.Unmarshal(body, &summary); err != nil {
+			return sponsorFeedSummary{}, err
+		}
+	}
+
+	if summary.Sponsors == nil {
+		summary.Sponsors = []sponsorFeedItem{}
+	}
+	if summary.Count == 0 {
+		summary.Count = len(summary.Sponsors)
+	}
+
+	for i := range summary.Sponsors {
+		summary.Sponsors[i].AvatarURL = resolveRemoteURL(feedURL, summary.Sponsors[i].AvatarURL)
+		if strings.TrimSpace(summary.Sponsors[i].Initial) == "" {
+			summary.Sponsors[i].Initial = sponsorInitial(summary.Sponsors[i].Name)
+		}
+	}
+
+	return summary, nil
+}
+
+func resolveRemoteURL(feedURL, target string) string {
+	target = strings.TrimSpace(target)
+	if target == "" {
+		return ""
+	}
+	lower := strings.ToLower(target)
+	if strings.HasPrefix(lower, "data:") {
+		return target
+	}
+
+	base, err := url.Parse(feedURL)
+	if err != nil {
+		return target
+	}
+	ref, err := url.Parse(target)
+	if err != nil {
+		return target
+	}
+
+	if ref.IsAbs() {
+		return normalizeResolvedRemoteURL(base, ref)
+	}
+
+	return normalizeResolvedRemoteURL(base, base.ResolveReference(ref))
+}
+
+func normalizeResolvedRemoteURL(base, resolved *url.URL) string {
+	if base == nil || resolved == nil {
+		return ""
+	}
+
+	if strings.EqualFold(base.Scheme, "https") &&
+		strings.EqualFold(resolved.Scheme, "http") &&
+		strings.EqualFold(base.Hostname(), resolved.Hostname()) &&
+		base.Hostname() != "" {
+		cloned := *resolved
+		cloned.Scheme = "https"
+		return cloned.String()
+	}
+
+	return resolved.String()
+}
+
+func sponsorInitial(name string) string {
+	trimmed := strings.TrimSpace(name)
+	if trimmed == "" {
+		return "?"
+	}
+	r, _ := utf8.DecodeRuneInString(trimmed)
+	if r == utf8.RuneError {
+		return "?"
+	}
+	return string(r)
+}

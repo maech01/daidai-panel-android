@@ -1,1 +1,155 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKZnVuYyAoaCAqU2NyaXB0SGFuZGxlcikgUnVuQ29kZShjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCUNvZGUgICAgIHN0cmluZyBganNvbjoiY29kZSIgYmluZGluZzoicmVxdWlyZWQiYAoJCUxhbmd1YWdlIHN0cmluZyBganNvbjoibGFuZ3VhZ2UiIGJpbmRpbmc6InJlcXVpcmVkImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWV4dCwgb2sgOj0gc2NyaXB0TGFuZ3VhZ2VFeHRNYXBbcmVxLkxhbmd1YWdlXQoJaWYgIW9rIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLkuI3mlK/mjIHnmoTor63oqIDnsbvlnosiKQoJCXJldHVybgoJfQoKCXRtcERpciA6PSBmaWxlcGF0aC5Kb2luKG9zLlRlbXBEaXIoKSwgImRhaWRhaS1kZWJ1ZyIpCglvcy5Na2RpckFsbCh0bXBEaXIsIDA3NTUpCgoJdG1wRmlsZSA6PSBmaWxlcGF0aC5Kb2luKHRtcERpciwgZm10LlNwcmludGYoImNvZGVfJWQlcyIsIHRpbWUuTm93KCkuVW5peE1pbGxpKCksIGV4dCkpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHRtcEZpbGUsIFtdYnl0ZShyZXEuQ29kZSksIDA2NDQpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLliJvlu7rkuLTml7bmlofku7blpLHotKUiKQoJCXJldHVybgoJfQoKCWludGVycHJldGVyLCBlcnIgOj0gc2NyaXB0UnVudGltZUludGVycHJldGVyKGV4dCkKCWlmIGVyciAhPSBuaWwgewoJCW9zLlJlbW92ZSh0bXBGaWxlKQoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CgllbnZNYXAgOj0gYnVpbGRTY3JpcHRFeGVjRW52KHRtcERpcikKCWNtZCwgY2xlYW51cCwgZXJyIDo9IG5ld1NjcmlwdENvbW1hbmQoaW50ZXJwcmV0ZXIsIHRtcEZpbGUsIG5pbCwgdG1wRGlyLCBlbnZNYXApCglpZiBlcnIgIT0gbmlsIHsKCQlvcy5SZW1vdmUodG1wRmlsZSkKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsIGZtdC5TcHJpbnRmKCLlkK/liqjlpLHotKU6ICVzIiwgZXJyKSkKCQlyZXR1cm4KCX0KCglydW4gOj0gbmV3RGVidWdSdW4oKQoJcGlwZVdyaXRlciwgc2NhbkRvbmUsIGVyciA6PSBzdGFydFRyYWNrZWRDb21tYW5kKGNtZCwgcnVuKQoJaWYgZXJyICE9IG5pbCB7CgkJY2xlYW51cCgpCgkJb3MuUmVtb3ZlKHRtcEZpbGUpCgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCBmbXQuU3ByaW50Zigi5ZCv5Yqo5aSx6LSlOiAlcyIsIGVycikpCgkJcmV0dXJuCgl9CgoJcnVuSUQgOj0gZm10LlNwcmludGYoImNvZGVfJWQiLCB0aW1lLk5vdygpLlVuaXhNaWxsaSgpKQoJaC5zdG9yZVJ1bihydW5JRCwgcnVuKQoKCXN0YXJ0VGltZSA6PSB0aW1lLk5vdygpCgoJZ28gZnVuYygpIHsKCQl3YWl0RXJyIDo9IHdhaXRUcmFja2VkQ29tbWFuZChjbWQsIHBpcGVXcml0ZXIsIHNjYW5Eb25lKQoJCWNsZWFudXAoKQoJCWVsYXBzZWQgOj0gdGltZS5TaW5jZShzdGFydFRpbWUpLlNlY29uZHMoKQoJCWV4aXRDb2RlIDo9IHJlc29sdmVFeGl0Q29kZSh3YWl0RXJyKQoKCQlpZiBydW4uaXNTdG9wcGVkKCkgewoJCQlvcy5SZW1vdmUodG1wRmlsZSkKCQkJcmV0dXJuCgkJfQoKCQlpZiBleGl0Q29kZSAhPSAwICYmIG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWdCb29sKCJhdXRvX2luc3RhbGxfZGVwcyIpIHsKCQkJaW5zdGFsbGVkIDo9IG1hcFtzdHJpbmddYm9vbHt9CgkJCWNvbnN0IG1heFJldHJpZXMgPSA1CgkJCWxvZ09mZnNldCA6PSAwCgkJCWZvciBpIDo9IDA7IGkgPCBtYXhSZXRyaWVzICYmIGV4aXRDb2RlICE9IDA7IGkrKyB7CgkJCQlpZiBydW4uaXNTdG9wcGVkKCkgewoJCQkJCW9zLlJlbW92ZSh0bXBGaWxlKQoJCQkJCXJldHVybgoJCQkJfQoJCQkJY2FuZGlkYXRlIDo9IGRldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKGV4dCwgcnVuLmxvZ091dHB1dFNpbmNlKGxvZ09mZnNldCksIHRtcERpcikKCQkJCWlmIGNhbmRpZGF0ZSA9PSBuaWwgewoJCQkJCWJyZWFrCgkJCQl9CgkJCQlpZiBpbnN0YWxsZWRbY2FuZGlkYXRlLlBhY2thZ2VOYW1lXSB7CgkJCQkJcnVuLmFwcGVuZExvZyhmbXQuU3ByaW50ZigiWyVzIOW3suWuieijheS9huS7jeeEtuaKpemUme+8jOWPr+iDveaYr+aooeWdl+eJiOacrOS4jeWFvOWuueaIluWGhemDqOS+nei1luW8guW4uO+8jOivt+WwneivleaJi+WKqOWuieijheaMh+WumueJiOacrF0iLCBjYW5kaWRhdGUuRGlzcGxheU5hbWUpKQoJCQkJCWJyZWFrCgkJCQl9CgkJCQlydW4uYXBwZW5kTG9nKGZtdC5TcHJpbnRmKCJb5qOA5rWL5Yiw57y65aSx5L6d6LWWOiAlc++8jOato+WcqOiHquWKqOWuieijhS4uLl0iLCBjYW5kaWRhdGUuRGlzcGxheU5hbWUpKQoJCQkJaWYgY2FuZGlkYXRlLk1hbmFnZXIgPT0gIm5vZGVqcyIgewoJCQkJCWlmIG5vdGljZSA6PSBzZXJ2aWNlLk5vZGVJbnN0YWxsQ29tcGF0aWJpbGl0eU5vdGljZShjYW5kaWRhdGUuUGFja2FnZU5hbWUpOyBub3RpY2UgIT0gIiIgewoJCQkJCQlydW4uYXBwZW5kTG9nKG5vdGljZSkKCQkJCQl9CgkJCQl9CgkJCQlpbnN0YWxsUmVzdWx0IDo9IGluc3RhbGxEZXBGb3JEZWJ1ZyhjYW5kaWRhdGUsIGVudk1hcCkKCQkJCWluc3RhbGxlZFtjYW5kaWRhdGUuUGFja2FnZU5hbWVdID0gdHJ1ZQoJCQkJaWYgcnVuLmlzU3RvcHBlZCgpIHsKCQkJCQlvcy5SZW1vdmUodG1wRmlsZSkKCQkJCQlyZXR1cm4KCQkJCX0KCQkJCWlmICFpbnN0YWxsUmVzdWx0LlN1Y2Nlc3MgewoJCQkJCWZhaWx1cmVSZWFzb24gOj0gc3RyaW5ncy5UcmltU3BhY2UoaW5zdGFsbFJlc3VsdC5FcnJvcikKCQkJCQlpZiBmYWlsdXJlUmVhc29uID09ICIiIHsKCQkJCQkJZmFpbHVyZVJlYXNvbiA9IGNhbmRpZGF0ZS5EaXNwbGF5TmFtZQoJCQkJCX0KCQkJCQlydW4uYXBwZW5kTG9nKGZtdC5TcHJpbnRmKCJb5a6J6KOF5aSx6LSlOiAlc10iLCBmYWlsdXJlUmVhc29uKSkKCQkJCQlicmVhawoJCQkJfQoJCQkJcnVuLmFwcGVuZExvZyhmbXQuU3ByaW50ZigiW+WuieijheaIkOWKnzogJXPvvIzoh6rliqjph43or5XmiafooYxdIiwgY2FuZGlkYXRlLkRpc3BsYXlOYW1lKSkKCQkJCWxvZ09mZnNldCA9IHJ1bi5sb2dMZW4oKQoJCQkJcmV0cnlDbWQsIHJldHJ5Q2xlYW51cCwgcmV0cnlQcmVwYXJlRXJyIDo9IG5ld1NjcmlwdENvbW1hbmQoaW50ZXJwcmV0ZXIsIHRtcEZpbGUsIG5pbCwgdG1wRGlyLCBlbnZNYXApCgkJCQlpZiByZXRyeVByZXBhcmVFcnIgIT0gbmlsIHsKCQkJCQlydW4uYXBwZW5kTG9nKGZtdC5TcHJpbnRmKCJb6YeN6K+V5ZCv5Yqo5aSx6LSlOiAlc10iLCByZXRyeVByZXBhcmVFcnIpKQoJCQkJCWJyZWFrCgkJCQl9CgkJCQlyZXRyeVBpcGVXcml0ZXIsIHJldHJ5U2NhbkRvbmUsIHN0YXJ0RXJyIDo9IHN0YXJ0VHJhY2tlZENvbW1hbmQocmV0cnlDbWQsIHJ1bikKCQkJCWlmIHN0YXJ0RXJyICE9IG5pbCB7CgkJCQkJcmV0cnlDbGVhbnVwKCkKCQkJCQlydW4uYXBwZW5kTG9nKGZtdC5TcHJpbnRmKCJb6YeN6K+V5ZCv5Yqo5aSx6LSlOiAlc10iLCBzdGFydEVycikpCgkJCQkJYnJlYWsKCQkJCX0KCQkJCXdhaXRFcnIgPSB3YWl0VHJhY2tlZENvbW1hbmQocmV0cnlDbWQsIHJldHJ5UGlwZVdyaXRlciwgcmV0cnlTY2FuRG9uZSkKCQkJCXJldHJ5Q2xlYW51cCgpCgkJCQllbGFwc2VkID0gdGltZS5TaW5jZShzdGFydFRpbWUpLlNlY29uZHMoKQoJCQkJZXhpdENvZGUgPSByZXNvbHZlRXhpdENvZGUod2FpdEVycikKCQkJfQoJCX0KCgkJaWYgaGludCA6PSBzZXJ2aWNlLkJ1aWxkTW9kdWxlQ29tcGF0aWJpbGl0eUhpbnQocnVuLmxvZ091dHB1dCgpKTsgaGludCAhPSAiIiB7CgkJCXJ1bi5hcHBlbmRMb2coaGludCkKCQl9CgoJCW9zLlJlbW92ZSh0bXBGaWxlKQoJCXJ1bi5maW5pc2goZXhpdENvZGUsIHdhaXRFcnIsIGVsYXBzZWQpCgl9KCkKCglyZXNwb25zZS5DcmVhdGVkKGMsIGdpbi5IeyJtZXNzYWdlIjogIuS7o+eggeW3suWQr+WKqCIsICJydW5faWQiOiBydW5JRH0pCn0KCmZ1bmMgZGV0ZWN0QXV0b0luc3RhbGxDYW5kaWRhdGUoZXh0LCBvdXRwdXQsIHdvcmtEaXIgc3RyaW5nKSAqc2VydmljZS5BdXRvSW5zdGFsbENhbmRpZGF0ZSB7CglyZXR1cm4gc2VydmljZS5EZXRlY3RBdXRvSW5zdGFsbENhbmRpZGF0ZShleHQsIG91dHB1dCwgd29ya0RpcikKfQoKZnVuYyBpbnN0YWxsRGVwRm9yRGVidWcoY2FuZGlkYXRlICpzZXJ2aWNlLkF1dG9JbnN0YWxsQ2FuZGlkYXRlLCBlbnZNYXAgbWFwW3N0cmluZ11zdHJpbmcpIHNlcnZpY2UuQXV0b0luc3RhbGxSZXN1bHQgewoJcmV0dXJuIHNlcnZpY2UuSW5zdGFsbEF1dG9EZXBlbmRlbmN5KGNhbmRpZGF0ZSwgZW52TWFwKQp9Cg==
+package handler
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+func (h *ScriptHandler) RunCode(c *gin.Context) {
+	var req struct {
+		Code     string `json:"code" binding:"required"`
+		Language string `json:"language" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	ext, ok := scriptLanguageExtMap[req.Language]
+	if !ok {
+		response.BadRequest(c, "????????")
+		return
+	}
+
+	tmpDir := filepath.Join(os.TempDir(), "daidai-debug")
+	os.MkdirAll(tmpDir, 0755)
+
+	tmpFile := filepath.Join(tmpDir, fmt.Sprintf("code_%d%s", time.Now().UnixMilli(), ext))
+	if err := os.WriteFile(tmpFile, []byte(req.Code), 0644); err != nil {
+		response.InternalError(c, "????????")
+		return
+	}
+
+	interpreter, err := scriptRuntimeInterpreter(ext)
+	if err != nil {
+		os.Remove(tmpFile)
+		response.BadRequest(c, err.Error())
+		return
+	}
+	envMap := buildScriptExecEnv(tmpDir)
+	cmd, cleanup, err := newScriptCommand(interpreter, tmpFile, nil, tmpDir, envMap)
+	if err != nil {
+		os.Remove(tmpFile)
+		response.InternalError(c, fmt.Sprintf("????: %s", err))
+		return
+	}
+
+	run := newDebugRun()
+	pipeWriter, scanDone, err := startTrackedCommand(cmd, run)
+	if err != nil {
+		cleanup()
+		os.Remove(tmpFile)
+		response.InternalError(c, fmt.Sprintf("????: %s", err))
+		return
+	}
+
+	runID := fmt.Sprintf("code_%d", time.Now().UnixMilli())
+	h.storeRun(runID, run)
+
+	startTime := time.Now()
+
+	go func() {
+		waitErr := waitTrackedCommand(cmd, pipeWriter, scanDone)
+		cleanup()
+		elapsed := time.Since(startTime).Seconds()
+		exitCode := resolveExitCode(waitErr)
+
+		if run.isStopped() {
+			os.Remove(tmpFile)
+			return
+		}
+
+		if exitCode != 0 && model.GetRegisteredConfigBool("auto_install_deps") {
+			installed := map[string]bool{}
+			const maxRetries = 5
+			logOffset := 0
+			for i := 0; i < maxRetries && exitCode != 0; i++ {
+				if run.isStopped() {
+					os.Remove(tmpFile)
+					return
+				}
+				candidate := detectAutoInstallCandidate(ext, run.logOutputSince(logOffset), tmpDir)
+				if candidate == nil {
+					break
+				}
+				if installed[candidate.PackageName] {
+					run.appendLog(fmt.Sprintf("[%s ????????,?????????????????,???????????]", candidate.DisplayName))
+					break
+				}
+				run.appendLog(fmt.Sprintf("[???????: %s,??????...]", candidate.DisplayName))
+				if candidate.Manager == "nodejs" {
+					if notice := service.NodeInstallCompatibilityNotice(candidate.PackageName); notice != "" {
+						run.appendLog(notice)
+					}
+				}
+				installResult := installDepForDebug(candidate, envMap)
+				installed[candidate.PackageName] = true
+				if run.isStopped() {
+					os.Remove(tmpFile)
+					return
+				}
+				if !installResult.Success {
+					failureReason := strings.TrimSpace(installResult.Error)
+					if failureReason == "" {
+						failureReason = candidate.DisplayName
+					}
+					run.appendLog(fmt.Sprintf("[????: %s]", failureReason))
+					break
+				}
+				run.appendLog(fmt.Sprintf("[????: %s,??????]", candidate.DisplayName))
+				logOffset = run.logLen()
+				retryCmd, retryCleanup, retryPrepareErr := newScriptCommand(interpreter, tmpFile, nil, tmpDir, envMap)
+				if retryPrepareErr != nil {
+					run.appendLog(fmt.Sprintf("[??????: %s]", retryPrepareErr))
+					break
+				}
+				retryPipeWriter, retryScanDone, startErr := startTrackedCommand(retryCmd, run)
+				if startErr != nil {
+					retryCleanup()
+					run.appendLog(fmt.Sprintf("[??????: %s]", startErr))
+					break
+				}
+				waitErr = waitTrackedCommand(retryCmd, retryPipeWriter, retryScanDone)
+				retryCleanup()
+				elapsed = time.Since(startTime).Seconds()
+				exitCode = resolveExitCode(waitErr)
+			}
+		}
+
+		if hint := service.BuildModuleCompatibilityHint(run.logOutput()); hint != "" {
+			run.appendLog(hint)
+		}
+
+		os.Remove(tmpFile)
+		run.finish(exitCode, waitErr, elapsed)
+	}()
+
+	response.Created(c, gin.H{"message": "?????", "run_id": runID})
+}
+
+func detectAutoInstallCandidate(ext, output, workDir string) *service.AutoInstallCandidate {
+	return service.DetectAutoInstallCandidate(ext, output, workDir)
+}
+
+func installDepForDebug(candidate *service.AutoInstallCandidate, envMap map[string]string) service.AutoInstallResult {
+	return service.InstallAutoDependency(candidate, envMap)
+}

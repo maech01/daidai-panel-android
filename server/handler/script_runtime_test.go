@@ -1,1 +1,182 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTY3JpcHRDb21tYW5kUGFydHModCAqdGVzdGluZy5UKSB7CglwYXJ0cywgZXJyIDo9IHNjcmlwdENvbW1hbmRQYXJ0cygiLnB5IiwgImRlbW8ucHkiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHB5dGhvbiBjb21tYW5kLCBnb3QgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgbGVuKHBhcnRzKSAhPSAzIHx8IHBhcnRzWzBdICE9ICJweXRob24iIHx8IHBhcnRzWzFdICE9ICItdSIgfHwgcGFydHNbMl0gIT0gImRlbW8ucHkiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCBjb21tYW5kIHBhcnRzOiAlI3YiLCBwYXJ0cykKCX0KfQoKZnVuYyBUZXN0U2NyaXB0Q29tbWFuZFBhcnRzU3VwcG9ydHNHbyh0ICp0ZXN0aW5nLlQpIHsKCXBhcnRzLCBlcnIgOj0gc2NyaXB0Q29tbWFuZFBhcnRzKCIuZ28iLCAiZGVtby5nbyIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZ28gY29tbWFuZCwgZ290IGVycm9yOiAldiIsIGVycikKCX0KCWlmIGxlbihwYXJ0cykgIT0gMyB8fCBwYXJ0c1swXSAhPSAiZ28iIHx8IHBhcnRzWzFdICE9ICJydW4iIHx8IHBhcnRzWzJdICE9ICJkZW1vLmdvIiB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgZ28gY29tbWFuZCBwYXJ0czogJSN2IiwgcGFydHMpCgl9Cn0KCmZ1bmMgVGVzdFNjcmlwdENvbW1hbmRQYXJ0c1N1cHBvcnRzTUpTKHQgKnRlc3RpbmcuVCkgewoJcGFydHMsIGVyciA6PSBzY3JpcHRDb21tYW5kUGFydHMoIi5tanMiLCAiZGVtby5tanMiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG1qcyBjb21tYW5kLCBnb3QgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgbGVuKHBhcnRzKSAhPSAyIHx8IHBhcnRzWzBdICE9ICJub2RlIiB8fCBwYXJ0c1sxXSAhPSAiZGVtby5tanMiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCBtanMgY29tbWFuZCBwYXJ0czogJSN2IiwgcGFydHMpCgl9Cn0KCmZ1bmMgVGVzdFNjcmlwdENvbW1hbmRQYXJ0c1JlamVjdHNVbnN1cHBvcnRlZEV4dGVuc2lvbih0ICp0ZXN0aW5nLlQpIHsKCWlmIF8sIGVyciA6PSBzY3JpcHRDb21tYW5kUGFydHMoIi5yYiIsICJkZW1vLnJiIik7IGVyciA9PSBuaWwgewoJCXQuRmF0YWwoImV4cGVjdGVkIHVuc3VwcG9ydGVkIGV4dGVuc2lvbiBlcnJvciIpCgl9Cn0KCmZ1bmMgVGVzdFNjcmlwdExhbmd1YWdlRXh0TWFwU3VwcG9ydHNHbyh0ICp0ZXN0aW5nLlQpIHsKCWlmIGdvdCA6PSBzY3JpcHRMYW5ndWFnZUV4dE1hcFsiZ28iXTsgZ290ICE9ICIuZ28iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZ28gbGFuZ3VhZ2UgbWFwIHRvIC5nbywgZ290ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3RTY3JpcHRMYW5ndWFnZUV4dE1hcFN1cHBvcnRzTm9kZU1KUyh0ICp0ZXN0aW5nLlQpIHsKCWlmIGdvdCA6PSBzY3JpcHRMYW5ndWFnZUV4dE1hcFsibm9kZSJdOyBnb3QgIT0gIi5tanMiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm9kZSBsYW5ndWFnZSBtYXAgdG8gLm1qcywgZ290ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3REZWJ1Z1J1bkZpbmlzaERvZXNOb3RPdmVycmlkZVN0b3BwZWRTdGF0dXModCAqdGVzdGluZy5UKSB7CglleGl0Q29kZSA6PSAtMQoJcnVuIDo9ICZkZWJ1Z1J1bnsKCQlMb2dzOiAgICAgW11zdHJpbmd7ImJlZm9yZSJ9LAoJCURvbmU6ICAgICB0cnVlLAoJCUV4aXRDb2RlOiAmZXhpdENvZGUsCgkJU3RhdHVzOiAgICJzdG9wcGVkIiwKCX0KCglydW4uZmluaXNoKDEsIG5pbCwgMC4yNSkKCglpZiBydW4uU3RhdHVzICE9ICJzdG9wcGVkIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0b3BwZWQgc3RhdHVzIHRvIGJlIHByZXNlcnZlZCwgZ290ICVxIiwgcnVuLlN0YXR1cykKCX0KCWlmICFydW4uRG9uZSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgZG9uZSBmbGFnIHRvIHN0YXkgdHJ1ZSIpCgl9CglpZiBnb3QgOj0gbGVuKHJ1bi5Mb2dzKTsgZ290ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmaW5pc2ggdG8gYXZvaWQgYXBwZW5kaW5nIGxvZ3MgZm9yIHN0b3BwZWQgcnVuLCBnb3QgJWQgZW50cmllcyIsIGdvdCkKCX0KfQoKZnVuYyByZXF1aXJlVXNhYmxlQmFzaCh0ICp0ZXN0aW5nLlQpIHsKCXQuSGVscGVyKCkKCgliYXNoUGF0aCwgZXJyIDo9IGV4ZWMuTG9va1BhdGgoImJhc2giKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5Ta2lwZigiYmFzaCB1bmF2YWlsYWJsZTogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gZXhlYy5Db21tYW5kKGJhc2hQYXRoLCAiLS12ZXJzaW9uIikuUnVuKCk7IGVyciAhPSBuaWwgewoJCXQuU2tpcGYoImJhc2ggaXMgcHJlc2VudCBidXQgbm90IHVzYWJsZTogJXYiLCBlcnIpCgl9Cn0KCmZ1bmMgVGVzdE5ld1NjcmlwdENvbW1hbmRMb2Fkc0xhcmdlU2hlbGxFbnZGcm9tRmlsZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXJlcXVpcmVVc2FibGVCYXNoKHQpCgoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImxhcmdlLWVudi5zaCIpCglvdXRwdXRQYXRoIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAibGFyZ2UtZW52Lm91dCIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShgcHJpbnRmICclcycgIiR7I0JJR19FTlZ9IiA+IGxhcmdlLWVudi5vdXRgKyJcbiIpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBzY3JpcHQ6ICV2IiwgZXJyKQoJfQoKCWNtZCwgY2xlYW51cCwgZXJyIDo9IG5ld1NjcmlwdENvbW1hbmQoCgkJImJhc2giLAoJCXNjcmlwdFBhdGgsCgkJbmlsLAoJCWNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwKCQltYXBbc3RyaW5nXXN0cmluZ3siQklHX0VOViI6IHN0cmluZ3MuUmVwZWF0KCJ4IiwgMyoxMDI0KjEwMjQpfSwKCSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJuZXcgc2NyaXB0IGNvbW1hbmQ6ICV2IiwgZXJyKQoJfQoJZGVmZXIgY2xlYW51cCgpCgoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGNtZC5FbnYgewoJCWlmIHN0cmluZ3MuSGFzUHJlZml4KGVudHJ5LCAiQklHX0VOVj0iKSB7CgkJCXQuRmF0YWxmKCJsYXJnZSBlbnYgbXVzdCBub3QgYmUgcGFzc2VkIHRocm91Z2ggcHJvY2VzcyBlbnZpcm9ubWVudCIpCgkJfQoJfQoKCWlmIG91dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicnVuIHNjcmlwdDogJXY6ICVzIiwgZXJyLCBvdXQpCgl9Cgljb250ZW50LCBlcnIgOj0gb3MuUmVhZEZpbGUob3V0cHV0UGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWFkIG91dHB1dDogJXYiLCBlcnIpCgl9CglpZiBnb3QgOj0gc3RyaW5nKGNvbnRlbnQpOyBnb3QgIT0gIjMxNDU3MjgiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbGFyZ2UgZW52IGxlbmd0aCAzMTQ1NzI4LCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdE5ld1NjcmlwdENvbW1hbmREb2VzTm90RXhwb3J0TGFyZ2VTaGVsbEVudlRvQ2hpbGRyZW4odCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglyZXF1aXJlVXNhYmxlQmFzaCh0KQoJaWYgXywgZXJyIDo9IGV4ZWMuTG9va1BhdGgoIm1rdGVtcCIpOyBlcnIgIT0gbmlsIHsKCQl0LlNraXBmKCJta3RlbXAgdW5hdmFpbGFibGU6ICV2IiwgZXJyKQoJfQoKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsICJsYXJnZS1lbnYtY2hpbGQuc2giKQoJb3V0cHV0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImxhcmdlLWVudi1jaGlsZC5vdXQiKQoJc2NyaXB0IDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQlgdG1wPSIkKG1rdGVtcCkiYCwKCQlgcHJpbnRmICclczolcycgIiR7I0JJR19FTlZ9IiAiJFNNQUxMX0VOViIgPiBsYXJnZS1lbnYtY2hpbGQub3V0YCwKCQlgcm0gLWYgIiR0bXAiYCwKCQkiIiwKCX0sICJcbiIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShzY3JpcHQpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBzY3JpcHQ6ICV2IiwgZXJyKQoJfQoKCWNtZCwgY2xlYW51cCwgZXJyIDo9IG5ld1NjcmlwdENvbW1hbmQoCgkJImJhc2giLAoJCXNjcmlwdFBhdGgsCgkJbmlsLAoJCWNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwKCQltYXBbc3RyaW5nXXN0cmluZ3sKCQkJIkJJR19FTlYiOiAgIHN0cmluZ3MuUmVwZWF0KCJ4IiwgMyoxMDI0KjEwMjQpLAoJCQkiU01BTExfRU5WIjogIm9rIiwKCQl9LAoJKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm5ldyBzY3JpcHQgY29tbWFuZDogJXYiLCBlcnIpCgl9CglkZWZlciBjbGVhbnVwKCkKCglpZiBvdXQsIGVyciA6PSBjbWQuQ29tYmluZWRPdXRwdXQoKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJ1biBzY3JpcHQgd2l0aCBjaGlsZCBwcm9jZXNzOiAldjogJXMiLCBlcnIsIG91dCkKCX0KCWNvbnRlbnQsIGVyciA6PSBvcy5SZWFkRmlsZShvdXRwdXRQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgb3V0cHV0OiAldiIsIGVycikKCX0KCWlmIGdvdCA6PSBzdHJpbmcoY29udGVudCk7IGdvdCAhPSAiMzE0NTcyODpvayIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsYXJnZSBlbnYgYW5kIHNtYWxsIGVudiBpbiBzaGVsbCwgZ290ICVxIiwgZ290KQoJfQp9Cg==
+package handler
+
+import (
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestScriptCommandParts(t *testing.T) {
+	parts, err := scriptCommandParts(".py", "demo.py")
+	if err != nil {
+		t.Fatalf("expected python command, got error: %v", err)
+	}
+	if len(parts) != 3 || parts[0] != "python" || parts[1] != "-u" || parts[2] != "demo.py" {
+		t.Fatalf("unexpected command parts: %#v", parts)
+	}
+}
+
+func TestScriptCommandPartsSupportsGo(t *testing.T) {
+	parts, err := scriptCommandParts(".go", "demo.go")
+	if err != nil {
+		t.Fatalf("expected go command, got error: %v", err)
+	}
+	if len(parts) != 3 || parts[0] != "go" || parts[1] != "run" || parts[2] != "demo.go" {
+		t.Fatalf("unexpected go command parts: %#v", parts)
+	}
+}
+
+func TestScriptCommandPartsSupportsMJS(t *testing.T) {
+	parts, err := scriptCommandParts(".mjs", "demo.mjs")
+	if err != nil {
+		t.Fatalf("expected mjs command, got error: %v", err)
+	}
+	if len(parts) != 2 || parts[0] != "node" || parts[1] != "demo.mjs" {
+		t.Fatalf("unexpected mjs command parts: %#v", parts)
+	}
+}
+
+func TestScriptCommandPartsRejectsUnsupportedExtension(t *testing.T) {
+	if _, err := scriptCommandParts(".rb", "demo.rb"); err == nil {
+		t.Fatal("expected unsupported extension error")
+	}
+}
+
+func TestScriptLanguageExtMapSupportsGo(t *testing.T) {
+	if got := scriptLanguageExtMap["go"]; got != ".go" {
+		t.Fatalf("expected go language map to .go, got %q", got)
+	}
+}
+
+func TestScriptLanguageExtMapSupportsNodeMJS(t *testing.T) {
+	if got := scriptLanguageExtMap["node"]; got != ".mjs" {
+		t.Fatalf("expected node language map to .mjs, got %q", got)
+	}
+}
+
+func TestDebugRunFinishDoesNotOverrideStoppedStatus(t *testing.T) {
+	exitCode := -1
+	run := &debugRun{
+		Logs:     []string{"before"},
+		Done:     true,
+		ExitCode: &exitCode,
+		Status:   "stopped",
+	}
+
+	run.finish(1, nil, 0.25)
+
+	if run.Status != "stopped" {
+		t.Fatalf("expected stopped status to be preserved, got %q", run.Status)
+	}
+	if !run.Done {
+		t.Fatal("expected done flag to stay true")
+	}
+	if got := len(run.Logs); got != 1 {
+		t.Fatalf("expected finish to avoid appending logs for stopped run, got %d entries", got)
+	}
+}
+
+func requireUsableBash(t *testing.T) {
+	t.Helper()
+
+	bashPath, err := exec.LookPath("bash")
+	if err != nil {
+		t.Skipf("bash unavailable: %v", err)
+	}
+	if err := exec.Command(bashPath, "--version").Run(); err != nil {
+		t.Skipf("bash is present but not usable: %v", err)
+	}
+}
+
+func TestNewScriptCommandLoadsLargeShellEnvFromFile(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	requireUsableBash(t)
+
+	scriptPath := filepath.Join(config.C.Data.ScriptsDir, "large-env.sh")
+	outputPath := filepath.Join(config.C.Data.ScriptsDir, "large-env.out")
+	if err := os.WriteFile(scriptPath, []byte(`printf '%s' "${#BIG_ENV}" > large-env.out`+"\n"), 0o755); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	cmd, cleanup, err := newScriptCommand(
+		"bash",
+		scriptPath,
+		nil,
+		config.C.Data.ScriptsDir,
+		map[string]string{"BIG_ENV": strings.Repeat("x", 3*1024*1024)},
+	)
+	if err != nil {
+		t.Fatalf("new script command: %v", err)
+	}
+	defer cleanup()
+
+	for _, entry := range cmd.Env {
+		if strings.HasPrefix(entry, "BIG_ENV=") {
+			t.Fatalf("large env must not be passed through process environment")
+		}
+	}
+
+	if out, err := cmd.CombinedOutput(); err != nil {
+		t.Fatalf("run script: %v: %s", err, out)
+	}
+	content, err := os.ReadFile(outputPath)
+	if err != nil {
+		t.Fatalf("read output: %v", err)
+	}
+	if got := string(content); got != "3145728" {
+		t.Fatalf("expected large env length 3145728, got %q", got)
+	}
+}
+
+func TestNewScriptCommandDoesNotExportLargeShellEnvToChildren(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	requireUsableBash(t)
+	if _, err := exec.LookPath("mktemp"); err != nil {
+		t.Skipf("mktemp unavailable: %v", err)
+	}
+
+	scriptPath := filepath.Join(config.C.Data.ScriptsDir, "large-env-child.sh")
+	outputPath := filepath.Join(config.C.Data.ScriptsDir, "large-env-child.out")
+	script := strings.Join([]string{
+		`tmp="$(mktemp)"`,
+		`printf '%s:%s' "${#BIG_ENV}" "$SMALL_ENV" > large-env-child.out`,
+		`rm -f "$tmp"`,
+		"",
+	}, "\n")
+	if err := os.WriteFile(scriptPath, []byte(script), 0o755); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	cmd, cleanup, err := newScriptCommand(
+		"bash",
+		scriptPath,
+		nil,
+		config.C.Data.ScriptsDir,
+		map[string]string{
+			"BIG_ENV":   strings.Repeat("x", 3*1024*1024),
+			"SMALL_ENV": "ok",
+		},
+	)
+	if err != nil {
+		t.Fatalf("new script command: %v", err)
+	}
+	defer cleanup()
+
+	if out, err := cmd.CombinedOutput(); err != nil {
+		t.Fatalf("run script with child process: %v: %s", err, out)
+	}
+	content, err := os.ReadFile(outputPath)
+	if err != nil {
+		t.Fatalf("read output: %v", err)
+	}
+	if got := string(content); got != "3145728:ok" {
+		t.Fatalf("expected large env and small env in shell, got %q", got)
+	}
+}

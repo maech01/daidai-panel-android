@@ -1,1 +1,46 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2hhbmRsZXIiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCmZ1bmMgVGVzdFNTSEtleVJvdXRlc1JlcXVpcmVBZG1pblVzZXJUb2tlbih0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBnaW4uTmV3KCkKCWFwaSA6PSBlbmdpbmUuR3JvdXAoIi9hcGkvdjEiKQoJaGFuZGxlci5OZXdTU0hLZXlIYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoKCXZpZXdlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic3NoLXZpZXdlciIsICJ2aWV3ZXIiKQoJdmlld2VyVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHZpZXdlci5Vc2VybmFtZSwgdmlld2VyLlJvbGUpCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic3NoLWFkbWluIiwgImFkbWluIikKCWFkbWluVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIGFkbWluLlVzZXJuYW1lLCBhZG1pbi5Sb2xlKQoJYXBwVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFwcFRva2VuKHQsICJzc2gtYXBwIiwgIioiKQoKCXZpZXdlclJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9zc2gta2V5cyIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdmlld2VyVG9rZW4sCgl9KQoJaWYgdmlld2VyUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNGb3JiaWRkZW4gewoJCXQuRmF0YWxmKCJleHBlY3RlZCB2aWV3ZXIgc3NoIGtleSBsaXN0IHRvIGJlIGZvcmJpZGRlbiwgZ290ICVkLCBib2R5PSVzIiwgdmlld2VyUmVjLkNvZGUsIHZpZXdlclJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWFwcFJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9zc2gta2V5cyIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYXBwVG9rZW4sCgl9KQoJaWYgYXBwUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNGb3JiaWRkZW4gewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhcHAgdG9rZW4gc3NoIGtleSBsaXN0IHRvIGJlIGZvcmJpZGRlbiwgZ290ICVkLCBib2R5PSVzIiwgYXBwUmVjLkNvZGUsIGFwcFJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWFkbWluUmVjIDo9IHBlcmZvcm1SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RHZXQsICIvYXBpL3YxL3NzaC1rZXlzIiwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBhZG1pblRva2VuLAoJfSkKCWlmIGFkbWluUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGFkbWluIHNzaCBrZXkgbGlzdCB0byBzdWNjZWVkLCBnb3QgJWQsIGJvZHk9JXMiLCBhZG1pblJlYy5Db2RlLCBhZG1pblJlYy5Cb2R5LlN0cmluZygpKQoJfQp9Cg==
+package handler_test
+
+import (
+	"net/http"
+	"testing"
+
+	"daidai-panel/handler"
+	"daidai-panel/testutil"
+
+	"github.com/gin-gonic/gin"
+)
+
+func TestSSHKeyRoutesRequireAdminUserToken(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := gin.New()
+	api := engine.Group("/api/v1")
+	handler.NewSSHKeyHandler().RegisterRoutes(api)
+
+	viewer := testutil.MustCreateUser(t, "ssh-viewer", "viewer")
+	viewerToken := testutil.MustCreateAccessToken(t, viewer.Username, viewer.Role)
+	admin := testutil.MustCreateUser(t, "ssh-admin", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	appToken := testutil.MustCreateAppToken(t, "ssh-app", "*")
+
+	viewerRec := performRequest(engine, http.MethodGet, "/api/v1/ssh-keys", map[string]string{
+		"Authorization": "Bearer " + viewerToken,
+	})
+	if viewerRec.Code != http.StatusForbidden {
+		t.Fatalf("expected viewer ssh key list to be forbidden, got %d, body=%s", viewerRec.Code, viewerRec.Body.String())
+	}
+
+	appRec := performRequest(engine, http.MethodGet, "/api/v1/ssh-keys", map[string]string{
+		"Authorization": "Bearer " + appToken,
+	})
+	if appRec.Code != http.StatusForbidden {
+		t.Fatalf("expected app token ssh key list to be forbidden, got %d, body=%s", appRec.Code, appRec.Body.String())
+	}
+
+	adminRec := performRequest(engine, http.MethodGet, "/api/v1/ssh-keys", map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	})
+	if adminRec.Code != http.StatusOK {
+		t.Fatalf("expected admin ssh key list to succeed, got %d, body=%s", adminRec.Code, adminRec.Body.String())
+	}
+}

@@ -1,1 +1,118 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0U3lzdGVtRGFzaGJvYXJkQW5kU3RhdHNSZXBvcnRBYm9ydGVkU2VwYXJhdGVseSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic3lzdGVtLWFib3J0ZWQtc3RhdHMiLCAidmlld2VyIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJdGFzayA6PSAmbW9kZWwuVGFza3sKCQlOYW1lOiAgICAgImFib3J0ZWQgc3RhdHMgdGFzayIsCgkJQ29tbWFuZDogICJlY2hvIG9rIiwKCQlUYXNrVHlwZTogbW9kZWwuVGFza1R5cGVNYW51YWwsCgkJU3RhdHVzOiAgIG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkLAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrOiAldiIsIGVycikKCX0KCglub3cgOj0gdGltZS5Ob3coKQoJZm9yIF8sIHN0YXR1cyA6PSByYW5nZSBbXWludHttb2RlbC5Mb2dTdGF0dXNTdWNjZXNzLCBtb2RlbC5Mb2dTdGF0dXNGYWlsZWQsIG1vZGVsLkxvZ1N0YXR1c0Fib3J0ZWR9IHsKCQlzdGF0dXMgOj0gc3RhdHVzCgkJZHVyYXRpb24gOj0gMS4wCgkJbG9nUmVjb3JkIDo9ICZtb2RlbC5UYXNrTG9newoJCQlUYXNrSUQ6ICAgIHRhc2suSUQsCgkJCVN0YXR1czogICAgJnN0YXR1cywKCQkJRHVyYXRpb246ICAmZHVyYXRpb24sCgkJCVN0YXJ0ZWRBdDogbm93LkFkZCgtdGltZS5EdXJhdGlvbihzdGF0dXMrMSkgKiB0aW1lLk1pbnV0ZSksCgkJCUVuZGVkQXQ6ICAgJm5vdywKCQl9CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShsb2dSZWNvcmQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrIGxvZzogJXYiLCBlcnIpCgkJfQoJfQoKCWRhc2hib2FyZFJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kR2V0LAoJCSIvYXBpL3YxL3N5c3RlbS9kYXNoYm9hcmQiLAoJCWB7fWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiBkYXNoYm9hcmRSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGFzaGJvYXJkIDIwMCwgZ290ICVkIGJvZHk9JXMiLCBkYXNoYm9hcmRSZWMuQ29kZSwgZGFzaGJvYXJkUmVjLkJvZHkuU3RyaW5nKCkpCgl9CglkYXNoYm9hcmRQYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgZGFzaGJvYXJkUmVjKQoJZGFzaGJvYXJkRGF0YSwgb2sgOj0gZGFzaGJvYXJkUGF5bG9hZFsiZGF0YSJdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGFzaGJvYXJkIGRhdGEgb2JqZWN0LCBnb3QgJSN2IiwgZGFzaGJvYXJkUGF5bG9hZFsiZGF0YSJdKQoJfQoJaWYgZ290IDo9IGRhc2hib2FyZERhdGFbInN1Y2Nlc3NfbG9ncyJdOyBnb3QgIT0gZmxvYXQ2NCgxKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN1Y2Nlc3NfbG9ncz0xLCBnb3QgJSN2IiwgZ290KQoJfQoJaWYgZ290IDo9IGRhc2hib2FyZERhdGFbImZhaWxlZF9sb2dzIl07IGdvdCAhPSBmbG9hdDY0KDEpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmFpbGVkX2xvZ3M9MSwgZ290ICUjdiIsIGdvdCkKCX0KCWlmIGdvdCA6PSBkYXNoYm9hcmREYXRhWyJhYm9ydGVkX2xvZ3MiXTsgZ290ICE9IGZsb2F0NjQoMSkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhYm9ydGVkX2xvZ3M9MSwgZ290ICUjdiIsIGdvdCkKCX0KCgkvLyDmr4/ml6Xotovlir/kuZ/lv4Xpobvov5Tlm54gYWJvcnRlZO+8jOWJjeerr+aKmOe6v+WbvuWSjOeOr+W9oue7n+iuoeS+nei1lui/meS4quWtl+auteOAggoJZGFpbHlTdGF0cywgb2sgOj0gZGFzaGJvYXJkRGF0YVsiZGFpbHlfc3RhdHMiXS4oW11pbnRlcmZhY2V7fSkKCWlmICFvayB8fCBsZW4oZGFpbHlTdGF0cykgPT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5vbi1lbXB0eSBkYWlseV9zdGF0cywgZ290ICUjdiIsIGRhc2hib2FyZERhdGFbImRhaWx5X3N0YXRzIl0pCgl9Cglmb3VuZEFib3J0ZWREYXkgOj0gZmFsc2UKCWZvciBfLCBpdGVtIDo9IHJhbmdlIGRhaWx5U3RhdHMgewoJCWRheSwgb2sgOj0gaXRlbS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCQlpZiAhb2sgewoJCQljb250aW51ZQoJCX0KCQlpZiBkYXlbImFib3J0ZWQiXSA9PSBmbG9hdDY0KDEpIHsKCQkJZm91bmRBYm9ydGVkRGF5ID0gdHJ1ZQoJCQlicmVhawoJCX0KCX0KCWlmICFmb3VuZEFib3J0ZWREYXkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbmUgZGFpbHkgc3RhdCB3aXRoIGFib3J0ZWQ9MSwgZ290ICUjdiIsIGRhaWx5U3RhdHMpCgl9CgoJc3RhdHNSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZEdldCwKCQkiL2FwaS92MS9zeXN0ZW0vc3RhdHMiLAoJCWB7fWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiBzdGF0c1JlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdGF0cyAyMDAsIGdvdCAlZCBib2R5PSVzIiwgc3RhdHNSZWMuQ29kZSwgc3RhdHNSZWMuQm9keS5TdHJpbmcoKSkKCX0KCXN0YXRzUGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHN0YXRzUmVjKQoJc3RhdHNEYXRhLCBvayA6PSBzdGF0c1BheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0YXRzIGRhdGEgb2JqZWN0LCBnb3QgJSN2Iiwgc3RhdHNQYXlsb2FkWyJkYXRhIl0pCgl9Cglsb2dzRGF0YSwgb2sgOj0gc3RhdHNEYXRhWyJsb2dzIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsb2dzIG9iamVjdCwgZ290ICUjdiIsIHN0YXRzRGF0YVsibG9ncyJdKQoJfQoJaWYgZ290IDo9IGxvZ3NEYXRhWyJhYm9ydGVkIl07IGdvdCAhPSBmbG9hdDY0KDEpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RhdHMgbG9ncyBhYm9ydGVkPTEsIGdvdCAlI3YiLCBnb3QpCgl9CglpZiBnb3QgOj0gbG9nc0RhdGFbInN1Y2Nlc3NfcmF0ZSJdOyBnb3QgIT0gZmxvYXQ2NCg1MCkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdWNjZXNzX3JhdGU9NTAgd2hlbiBhYm9ydGVkIGlzIGV4Y2x1ZGVkLCBnb3QgJSN2IiwgZ290KQoJfQp9Cg==
+package handler_test
+
+import (
+	"net/http"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestSystemDashboardAndStatsReportAbortedSeparately(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "system-aborted-stats", "viewer")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	task := &model.Task{
+		Name:     "aborted stats task",
+		Command:  "echo ok",
+		TaskType: model.TaskTypeManual,
+		Status:   model.TaskStatusEnabled,
+	}
+	if err := database.DB.Create(task).Error; err != nil {
+		t.Fatalf("create task: %v", err)
+	}
+
+	now := time.Now()
+	for _, status := range []int{model.LogStatusSuccess, model.LogStatusFailed, model.LogStatusAborted} {
+		status := status
+		duration := 1.0
+		logRecord := &model.TaskLog{
+			TaskID:    task.ID,
+			Status:    &status,
+			Duration:  &duration,
+			StartedAt: now.Add(-time.Duration(status+1) * time.Minute),
+			EndedAt:   &now,
+		}
+		if err := database.DB.Create(logRecord).Error; err != nil {
+			t.Fatalf("create task log: %v", err)
+		}
+	}
+
+	dashboardRec := performJSONRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/system/dashboard",
+		`{}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if dashboardRec.Code != http.StatusOK {
+		t.Fatalf("expected dashboard 200, got %d body=%s", dashboardRec.Code, dashboardRec.Body.String())
+	}
+	dashboardPayload := decodeJSONMap(t, dashboardRec)
+	dashboardData, ok := dashboardPayload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected dashboard data object, got %#v", dashboardPayload["data"])
+	}
+	if got := dashboardData["success_logs"]; got != float64(1) {
+		t.Fatalf("expected success_logs=1, got %#v", got)
+	}
+	if got := dashboardData["failed_logs"]; got != float64(1) {
+		t.Fatalf("expected failed_logs=1, got %#v", got)
+	}
+	if got := dashboardData["aborted_logs"]; got != float64(1) {
+		t.Fatalf("expected aborted_logs=1, got %#v", got)
+	}
+
+	// ????????? aborted,?????????????????
+	dailyStats, ok := dashboardData["daily_stats"].([]interface{})
+	if !ok || len(dailyStats) == 0 {
+		t.Fatalf("expected non-empty daily_stats, got %#v", dashboardData["daily_stats"])
+	}
+	foundAbortedDay := false
+	for _, item := range dailyStats {
+		day, ok := item.(map[string]interface{})
+		if !ok {
+			continue
+		}
+		if day["aborted"] == float64(1) {
+			foundAbortedDay = true
+			break
+		}
+	}
+	if !foundAbortedDay {
+		t.Fatalf("expected one daily stat with aborted=1, got %#v", dailyStats)
+	}
+
+	statsRec := performJSONRequest(
+		engine,
+		http.MethodGet,
+		"/api/v1/system/stats",
+		`{}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if statsRec.Code != http.StatusOK {
+		t.Fatalf("expected stats 200, got %d body=%s", statsRec.Code, statsRec.Body.String())
+	}
+	statsPayload := decodeJSONMap(t, statsRec)
+	statsData, ok := statsPayload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected stats data object, got %#v", statsPayload["data"])
+	}
+	logsData, ok := statsData["logs"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected logs object, got %#v", statsData["logs"])
+	}
+	if got := logsData["aborted"]; got != float64(1) {
+		t.Fatalf("expected stats logs aborted=1, got %#v", got)
+	}
+	if got := logsData["success_rate"]; got != float64(50) {
+		t.Fatalf("expected success_rate=50 when aborted is excluded, got %#v", got)
+	}
+}

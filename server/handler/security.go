@@ -1,1 +1,326 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9taWRkbGV3YXJlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvcGtnL25ldHV0aWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgp0eXBlIFNlY3VyaXR5SGFuZGxlciBzdHJ1Y3R7fQoKZnVuYyBOZXdTZWN1cml0eUhhbmRsZXIoKSAqU2VjdXJpdHlIYW5kbGVyIHsKCXJldHVybiAmU2VjdXJpdHlIYW5kbGVye30KfQoKZnVuYyAoaCAqU2VjdXJpdHlIYW5kbGVyKSBMb2dpbkxvZ3MoYyAqZ2luLkNvbnRleHQpIHsKCXBhZ2UsIF8gOj0gc3RyY29udi5BdG9pKGMuRGVmYXVsdFF1ZXJ5KCJwYWdlIiwgIjEiKSkKCXBhZ2VTaXplLCBfIDo9IHN0cmNvbnYuQXRvaShjLkRlZmF1bHRRdWVyeSgicGFnZV9zaXplIiwgIjIwIikpCgl1c2VybmFtZSA6PSBjLlF1ZXJ5KCJ1c2VybmFtZSIpCgoJaWYgcGFnZSA8IDEgewoJCXBhZ2UgPSAxCgl9CglpZiBwYWdlU2l6ZSA8IDEgfHwgcGFnZVNpemUgPiAxMDAgewoJCXBhZ2VTaXplID0gMjAKCX0KCglxdWVyeSA6PSBkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuTG9naW5Mb2d7fSkKCWlmIHVzZXJuYW1lICE9ICIiIHsKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJ1c2VybmFtZSA9ID8iLCB1c2VybmFtZSkKCX0KCgl2YXIgdG90YWwgaW50NjQKCXF1ZXJ5LkNvdW50KCZ0b3RhbCkKCgl2YXIgbG9ncyBbXW1vZGVsLkxvZ2luTG9nCglxdWVyeS5PcmRlcigiY3JlYXRlZF9hdCBERVNDIikuCgkJT2Zmc2V0KChwYWdlIC0gMSkgKiBwYWdlU2l6ZSkuTGltaXQocGFnZVNpemUpLkZpbmQoJmxvZ3MpCgoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKGxvZ3MpKQoJZm9yIGksIGwgOj0gcmFuZ2UgbG9ncyB7CgkJaXRlbSA6PSBsLlRvRGljdCgpCgkJY2xpZW50VHlwZSA6PSBzZXJ2aWNlLkRldGVjdFNlc3Npb25DbGllbnRUeXBlKCIiLCAiIiwgbC5Vc2VyQWdlbnQpCgkJaXRlbVsiY2xpZW50X3R5cGUiXSA9IGNsaWVudFR5cGUKCQlpdGVtWyJjbGllbnRfdHlwZV9sYWJlbCJdID0gc2VydmljZS5TZXNzaW9uQ2xpZW50TGFiZWwoY2xpZW50VHlwZSkKCQlpdGVtWyJjbGllbnRfbmFtZSJdID0gc2VydmljZS5SZXNvbHZlU3RvcmVkU2Vzc2lvbkNsaWVudE5hbWUoY2xpZW50VHlwZSwgbC5DbGllbnROYW1lLCBsLlVzZXJBZ2VudCkKCQlkYXRhW2ldID0gaXRlbQoJfQoKCXJlc3BvbnNlLlBhZ2luYXRlZChjLCBkYXRhLCB0b3RhbCwgcGFnZSwgcGFnZVNpemUpCn0KCmZ1bmMgKGggKlNlY3VyaXR5SGFuZGxlcikgU2Vzc2lvbnMoYyAqZ2luLkNvbnRleHQpIHsKCXNlcnZpY2UuQ2xlYW5FeHBpcmVkU2Vzc2lvbnMoKQoKCXZhciBzZXNzaW9ucyBbXW1vZGVsLlVzZXJTZXNzaW9uCglkYXRhYmFzZS5EQi5XaGVyZSgiZXhwaXJlc19hdCA+ID8iLCB0aW1lLk5vdygpKS4KCQlPcmRlcigiY3JlYXRlZF9hdCBERVNDIikuRmluZCgmc2Vzc2lvbnMpCgoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKHNlc3Npb25zKSkKCWZvciBpLCBzIDo9IHJhbmdlIHNlc3Npb25zIHsKCQlpdGVtIDo9IHMuVG9EaWN0KCkKCQljbGllbnRUeXBlIDo9IHNlcnZpY2UuRGV0ZWN0U2Vzc2lvbkNsaWVudFR5cGUocy5DbGllbnRUeXBlLCAiIiwgcy5Vc2VyQWdlbnQpCgkJaXRlbVsiY2xpZW50X3R5cGUiXSA9IGNsaWVudFR5cGUKCQlpdGVtWyJjbGllbnRfdHlwZV9sYWJlbCJdID0gc2VydmljZS5TZXNzaW9uQ2xpZW50TGFiZWwoY2xpZW50VHlwZSkKCQlpdGVtWyJjbGllbnRfbmFtZSJdID0gc2VydmljZS5SZXNvbHZlU3RvcmVkU2Vzc2lvbkNsaWVudE5hbWUoY2xpZW50VHlwZSwgcy5DbGllbnROYW1lLCBzLlVzZXJBZ2VudCkKCQlkYXRhW2ldID0gaXRlbQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBkYXRhfSkKfQoKZnVuYyAoaCAqU2VjdXJpdHlIYW5kbGVyKSBSZXZva2VTZXNzaW9uKGMgKmdpbi5Db250ZXh0KSB7CglzZXNzaW9uSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoKCXZhciBzZXNzaW9uIG1vZGVsLlVzZXJTZXNzaW9uCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnNlc3Npb24sIHNlc3Npb25JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLkvJror53kuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXNlcnZpY2UuQmxvY2tTZXNzaW9uVG9rZW5zKCZzZXNzaW9uKQoJZGF0YWJhc2UuREIuRGVsZXRlKCZzZXNzaW9uKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLkvJror53lt7LmkqTplIAifSkKfQoKZnVuYyAoaCAqU2VjdXJpdHlIYW5kbGVyKSBSZXZva2VBbGxTZXNzaW9ucyhjICpnaW4uQ29udGV4dCkgewoJdXNlcklELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oInVzZXJfaWQiKSwgMTAsIDMyKQoKCWNvdW50IDo9IHNlcnZpY2UuUmV2b2tlQWxsVXNlclNlc3Npb25zKHVpbnQodXNlcklEKSkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiBmbXQuU3ByaW50Zigi5bey5pKk6ZSAICVkIOS4quS8muivnSIsIGNvdW50KX0pCn0KCmZ1bmMgKGggKlNlY3VyaXR5SGFuZGxlcikgUmV2b2tlT3RoZXJTZXNzaW9ucyhjICpnaW4uQ29udGV4dCkgewoJdXNlcm5hbWUsIF8gOj0gYy5HZXQoInVzZXJuYW1lIikKCWN1cnJlbnRKVEksIF8gOj0gYy5HZXQoImp0aSIpCgoJdmFyIHVzZXIgbW9kZWwuVXNlcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJ1c2VybmFtZSA9ID8iLCB1c2VybmFtZSkuRmlyc3QoJnVzZXIpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi55So5oi35LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCgljb3VudCA6PSBzZXJ2aWNlLlJldm9rZU90aGVyVXNlclNlc3Npb25zKHVzZXIuSUQsIGN1cnJlbnRKVEkuKHN0cmluZykpCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogZm10LlNwcmludGYoIuW3suaSpOmUgCAlZCDkuKrlhbbku5bkvJror50iLCBjb3VudCl9KQp9CgpmdW5jIChoICpTZWN1cml0eUhhbmRsZXIpIElQV2hpdGVsaXN0KGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgd2hpdGVsaXN0IFtdbW9kZWwuSVBXaGl0ZWxpc3QKCWRhdGFiYXNlLkRCLk9yZGVyKCJjcmVhdGVkX2F0IERFU0MiKS5GaW5kKCZ3aGl0ZWxpc3QpCgoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKHdoaXRlbGlzdCkpCglmb3IgaSwgdyA6PSByYW5nZSB3aGl0ZWxpc3QgewoJCWRhdGFbaV0gPSB3LlRvRGljdCgpCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsiZGF0YSI6IGRhdGF9KQp9CgpmdW5jIChoICpTZWN1cml0eUhhbmRsZXIpIEFkZElQV2hpdGVsaXN0KGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJSVAgICAgICBzdHJpbmcgYGpzb246ImlwIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgkJUmVtYXJrcyBzdHJpbmcgYGpzb246InJlbWFya3MiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJbm9ybWFsaXplZElQLCBlcnIgOj0gbmV0dXRpbC5Ob3JtYWxpemVJUFdoaXRlbGlzdEVudHJ5KHJlcS5JUCkKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CgoJZW50cnkgOj0gbW9kZWwuSVBXaGl0ZWxpc3R7CgkJSVA6ICAgICAgbm9ybWFsaXplZElQLAoJCVJlbWFya3M6IHN0cmluZ3MuVHJpbVNwYWNlKHJlcS5SZW1hcmtzKSwKCX0KCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZlbnRyeSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivpSBJUCDmiJbnvZHmrrXlt7LlnKjnmb3lkI3ljZXkuK0iKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLkNyZWF0ZWQoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5re75Yqg5oiQ5YqfIiwgImRhdGEiOiBlbnRyeS5Ub0RpY3QoKX0pCn0KCmZ1bmMgKGggKlNlY3VyaXR5SGFuZGxlcikgUmVtb3ZlSVBXaGl0ZWxpc3QoYyAqZ2luLkNvbnRleHQpIHsKCWVudHJ5SUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJZGF0YWJhc2UuREIuV2hlcmUoImlkID0gPyIsIGVudHJ5SUQpLkRlbGV0ZSgmbW9kZWwuSVBXaGl0ZWxpc3R7fSkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Yig6Zmk5oiQ5YqfIn0pCn0KCmZ1bmMgKGggKlNlY3VyaXR5SGFuZGxlcikgQXVkaXRMb2dzKGMgKmdpbi5Db250ZXh0KSB7CglwYWdlLCBfIDo9IHN0cmNvbnYuQXRvaShjLkRlZmF1bHRRdWVyeSgicGFnZSIsICIxIikpCglwYWdlU2l6ZSwgXyA6PSBzdHJjb252LkF0b2koYy5EZWZhdWx0UXVlcnkoInBhZ2Vfc2l6ZSIsICIyMCIpKQoJYWN0aW9uIDo9IGMuUXVlcnkoImFjdGlvbiIpCgoJaWYgcGFnZSA8IDEgewoJCXBhZ2UgPSAxCgl9CglpZiBwYWdlU2l6ZSA8IDEgfHwgcGFnZVNpemUgPiAxMDAgewoJCXBhZ2VTaXplID0gMjAKCX0KCglxdWVyeSA6PSBkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuU2VjdXJpdHlBdWRpdHt9KQoJaWYgYWN0aW9uICE9ICIiIHsKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJhY3Rpb24gPSA/IiwgYWN0aW9uKQoJfQoKCXZhciB0b3RhbCBpbnQ2NAoJcXVlcnkuQ291bnQoJnRvdGFsKQoKCXZhciBhdWRpdHMgW11tb2RlbC5TZWN1cml0eUF1ZGl0CglxdWVyeS5PcmRlcigiY3JlYXRlZF9hdCBERVNDIikuCgkJT2Zmc2V0KChwYWdlIC0gMSkgKiBwYWdlU2l6ZSkuTGltaXQocGFnZVNpemUpLkZpbmQoJmF1ZGl0cykKCglkYXRhIDo9IG1ha2UoW11tYXBbc3RyaW5nXWludGVyZmFjZXt9LCBsZW4oYXVkaXRzKSkKCWZvciBpLCBhIDo9IHJhbmdlIGF1ZGl0cyB7CgkJZGF0YVtpXSA9IGEuVG9EaWN0KCkKCX0KCglyZXNwb25zZS5QYWdpbmF0ZWQoYywgZGF0YSwgdG90YWwsIHBhZ2UsIHBhZ2VTaXplKQp9CgpmdW5jIChoICpTZWN1cml0eUhhbmRsZXIpIExvZ2luU3RhdHMoYyAqZ2luLkNvbnRleHQpIHsKCWRheXMsIF8gOj0gc3RyY29udi5BdG9pKGMuRGVmYXVsdFF1ZXJ5KCJkYXlzIiwgIjciKSkKCWlmIGRheXMgPCAxIHx8IGRheXMgPiA5MCB7CgkJZGF5cyA9IDcKCX0KCglzdGF0cyA6PSBzZXJ2aWNlLkdldExvZ2luU3RhdHMoZGF5cykKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBzdGF0c30pCn0KCmZ1bmMgKGggKlNlY3VyaXR5SGFuZGxlcikgQ2xlYXJMb2dpbkxvZ3MoYyAqZ2luLkNvbnRleHQpIHsKCXJlc3VsdCA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiMSA9IDEiKS5EZWxldGUoJm1vZGVsLkxvZ2luTG9ne30pCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IewoJCSJtZXNzYWdlIjogZm10LlNwcmludGYoIuW3sua4hemZpCAlZCDmnaHnmbvlvZXml6Xlv5ciLCByZXN1bHQuUm93c0FmZmVjdGVkKSwKCX0pCn0KCmZ1bmMgKGggKlNlY3VyaXR5SGFuZGxlcikgU2V0dXAyRkEoYyAqZ2luLkNvbnRleHQpIHsKCXVzZXJuYW1lIDo9IGMuR2V0U3RyaW5nKCJ1c2VybmFtZSIpCgl2YXIgdXNlciBtb2RlbC5Vc2VyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInVzZXJuYW1lID0gPyIsIHVzZXJuYW1lKS5GaXJzdCgmdXNlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLnlKjmiLfkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXNlY3JldCwgdXJpLCBlcnIgOj0gc2VydmljZS5TZXR1cFR3b0ZhY3Rvcih1c2VyLklEKQoJaWYgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi6K6+572uIDJGQSDlpLHotKUiKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7CgkJImRhdGEiOiBnaW4uSHsKCQkJInNlY3JldCI6IHNlY3JldCwKCQkJInVyaSI6ICAgIHVyaSwKCQl9LAoJfSkKfQoKZnVuYyAoaCAqU2VjdXJpdHlIYW5kbGVyKSBWZXJpZnkyRkEoYyAqZ2luLkNvbnRleHQpIHsKCXVzZXJuYW1lIDo9IGMuR2V0U3RyaW5nKCJ1c2VybmFtZSIpCgl2YXIgdXNlciBtb2RlbC5Vc2VyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInVzZXJuYW1lID0gPyIsIHVzZXJuYW1lKS5GaXJzdCgmdXNlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLnlKjmiLfkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXZhciByZXEgc3RydWN0IHsKCQlDb2RlIHN0cmluZyBganNvbjoiY29kZSIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJaWYgZXJyIDo9IHNlcnZpY2UuVmVyaWZ5QW5kRW5hYmxlVHdvRmFjdG9yKHVzZXIuSUQsIHJlcS5Db2RlKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIjJGQSDlt7LlkK/nlKgifSkKfQoKZnVuYyAoaCAqU2VjdXJpdHlIYW5kbGVyKSBEaXNhYmxlMkZBKGMgKmdpbi5Db250ZXh0KSB7Cgl1c2VybmFtZSA6PSBjLkdldFN0cmluZygidXNlcm5hbWUiKQoJdmFyIHVzZXIgbW9kZWwuVXNlcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJ1c2VybmFtZSA9ID8iLCB1c2VybmFtZSkuRmlyc3QoJnVzZXIpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi55So5oi35LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCgkvLyBCZWZvcmUgdHVybmluZyAyRkEgb2ZmIHdlIG11c3QgcHJvdmUgdGhlIHVzZXIgc3RpbGwgY29udHJvbHMgdGhlCgkvLyBhdXRoZW50aWNhdG9yIOKAlCBvdGhlcndpc2UgYSBoaWphY2tlZCBzZXNzaW9uIGFsb25lIHdvdWxkIGJlIGVub3VnaCB0bwoJLy8gc3RyaXAgMkZBIGZyb20gdGhlIGFjY291bnQuCglpZiAhc2VydmljZS5Jc1R3b0ZhY3RvckVuYWJsZWQodXNlci5JRCkgewoJCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAiMkZBIOacquWQr+eUqCJ9KQoJCXJldHVybgoJfQoKCXZhciByZXEgc3RydWN0IHsKCQlDb2RlIHN0cmluZyBganNvbjoiY29kZSJgCgl9CglfID0gYy5TaG91bGRCaW5kSlNPTigmcmVxKQoKCWNvZGUgOj0gc3RyaW5ncy5UcmltU3BhY2UocmVxLkNvZGUpCglpZiBjb2RlID09ICIiIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fovpPlhaXlvZPliY3nmoTliqjmgIHpqozor4HnoIEiKQoJCXJldHVybgoJfQoJaWYgIXNlcnZpY2UuVmFsaWRhdGVVc2VyVE9UUCh1c2VyLklELCBjb2RlKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Yqo5oCB6aqM6K+B56CB6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCglzZXJ2aWNlLkRpc2FibGVUd29GYWN0b3IodXNlci5JRCkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAiMkZBIOW3suemgeeUqCJ9KQp9CgpmdW5jIChoICpTZWN1cml0eUhhbmRsZXIpIEdldDJGQVN0YXR1cyhjICpnaW4uQ29udGV4dCkgewoJdXNlcm5hbWUgOj0gYy5HZXRTdHJpbmcoInVzZXJuYW1lIikKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IiwgdXNlcm5hbWUpLkZpcnN0KCZ1c2VyKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIueUqOaIt+S4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJZW5hYmxlZCA6PSBzZXJ2aWNlLklzVHdvRmFjdG9yRW5hYmxlZCh1c2VyLklEKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsiZGF0YSI6IGdpbi5IeyJlbmFibGVkIjogZW5hYmxlZH19KQp9CgpmdW5jIChoICpTZWN1cml0eUhhbmRsZXIpIFJlZ2lzdGVyUm91dGVzKHIgKmdpbi5Sb3V0ZXJHcm91cCkgewoJc2VjdXJpdHkgOj0gci5Hcm91cCgiL3NlY3VyaXR5IiwgbWlkZGxld2FyZS5KV1RBdXRoKCkpCgl7CgkJc2VjdXJpdHkuR0VUKCIvbG9naW4tbG9ncyIsIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCksIGguTG9naW5Mb2dzKQoJCXNlY3VyaXR5LkRFTEVURSgiL2xvZ2luLWxvZ3MiLCBtaWRkbGV3YXJlLlJlcXVpcmVBZG1pbigpLCBoLkNsZWFyTG9naW5Mb2dzKQoJCXNlY3VyaXR5LkdFVCgiL3Nlc3Npb25zIiwgbWlkZGxld2FyZS5SZXF1aXJlQWRtaW4oKSwgaC5TZXNzaW9ucykKCQlzZWN1cml0eS5ERUxFVEUoIi9zZXNzaW9ucy9vdGhlcnMiLCBtaWRkbGV3YXJlLlJlcXVpcmVBZG1pbigpLCBoLlJldm9rZU90aGVyU2Vzc2lvbnMpCgkJc2VjdXJpdHkuREVMRVRFKCIvc2Vzc2lvbnMvOmlkIiwgbWlkZGxld2FyZS5SZXF1aXJlQWRtaW4oKSwgaC5SZXZva2VTZXNzaW9uKQoJCXNlY3VyaXR5LkRFTEVURSgiL3Nlc3Npb25zL3VzZXIvOnVzZXJfaWQiLCBtaWRkbGV3YXJlLlJlcXVpcmVBZG1pbigpLCBoLlJldm9rZUFsbFNlc3Npb25zKQoJCXNlY3VyaXR5LkdFVCgiL2lwLXdoaXRlbGlzdCIsIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCksIGguSVBXaGl0ZWxpc3QpCgkJc2VjdXJpdHkuUE9TVCgiL2lwLXdoaXRlbGlzdCIsIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCksIGguQWRkSVBXaGl0ZWxpc3QpCgkJc2VjdXJpdHkuREVMRVRFKCIvaXAtd2hpdGVsaXN0LzppZCIsIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCksIGguUmVtb3ZlSVBXaGl0ZWxpc3QpCgkJc2VjdXJpdHkuR0VUKCIvYXVkaXQtbG9ncyIsIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCksIGguQXVkaXRMb2dzKQoJCXNlY3VyaXR5LkdFVCgiL2xvZ2luLXN0YXRzIiwgbWlkZGxld2FyZS5SZXF1aXJlQWRtaW4oKSwgaC5Mb2dpblN0YXRzKQoKCQlzZWN1cml0eS5QT1NUKCIvMmZhL3NldHVwIiwgaC5TZXR1cDJGQSkKCQlzZWN1cml0eS5QT1NUKCIvMmZhL3ZlcmlmeSIsIGguVmVyaWZ5MkZBKQoJCXNlY3VyaXR5LkRFTEVURSgiLzJmYSIsIGguRGlzYWJsZTJGQSkKCQlzZWN1cml0eS5HRVQoIi8yZmEvc3RhdHVzIiwgaC5HZXQyRkFTdGF0dXMpCgl9Cn0K
+package handler
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/netutil"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+type SecurityHandler struct{}
+
+func NewSecurityHandler() *SecurityHandler {
+	return &SecurityHandler{}
+}
+
+func (h *SecurityHandler) LoginLogs(c *gin.Context) {
+	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
+	pageSize, _ := strconv.Atoi(c.DefaultQuery("page_size", "20"))
+	username := c.Query("username")
+
+	if page < 1 {
+		page = 1
+	}
+	if pageSize < 1 || pageSize > 100 {
+		pageSize = 20
+	}
+
+	query := database.DB.Model(&model.LoginLog{})
+	if username != "" {
+		query = query.Where("username = ?", username)
+	}
+
+	var total int64
+	query.Count(&total)
+
+	var logs []model.LoginLog
+	query.Order("created_at DESC").
+		Offset((page - 1) * pageSize).Limit(pageSize).Find(&logs)
+
+	data := make([]map[string]interface{}, len(logs))
+	for i, l := range logs {
+		item := l.ToDict()
+		clientType := service.DetectSessionClientType("", "", l.UserAgent)
+		item["client_type"] = clientType
+		item["client_type_label"] = service.SessionClientLabel(clientType)
+		item["client_name"] = service.ResolveStoredSessionClientName(clientType, l.ClientName, l.UserAgent)
+		data[i] = item
+	}
+
+	response.Paginated(c, data, total, page, pageSize)
+}
+
+func (h *SecurityHandler) Sessions(c *gin.Context) {
+	service.CleanExpiredSessions()
+
+	var sessions []model.UserSession
+	database.DB.Where("expires_at > ?", time.Now()).
+		Order("created_at DESC").Find(&sessions)
+
+	data := make([]map[string]interface{}, len(sessions))
+	for i, s := range sessions {
+		item := s.ToDict()
+		clientType := service.DetectSessionClientType(s.ClientType, "", s.UserAgent)
+		item["client_type"] = clientType
+		item["client_type_label"] = service.SessionClientLabel(clientType)
+		item["client_name"] = service.ResolveStoredSessionClientName(clientType, s.ClientName, s.UserAgent)
+		data[i] = item
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *SecurityHandler) RevokeSession(c *gin.Context) {
+	sessionID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var session model.UserSession
+	if err := database.DB.First(&session, sessionID).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	service.BlockSessionTokens(&session)
+	database.DB.Delete(&session)
+	response.Success(c, gin.H{"message": "?????"})
+}
+
+func (h *SecurityHandler) RevokeAllSessions(c *gin.Context) {
+	userID, _ := strconv.ParseUint(c.Param("user_id"), 10, 32)
+
+	count := service.RevokeAllUserSessions(uint(userID))
+	response.Success(c, gin.H{"message": fmt.Sprintf("??? %d ???", count)})
+}
+
+func (h *SecurityHandler) RevokeOtherSessions(c *gin.Context) {
+	username, _ := c.Get("username")
+	currentJTI, _ := c.Get("jti")
+
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	count := service.RevokeOtherUserSessions(user.ID, currentJTI.(string))
+	response.Success(c, gin.H{"message": fmt.Sprintf("??? %d ?????", count)})
+}
+
+func (h *SecurityHandler) IPWhitelist(c *gin.Context) {
+	var whitelist []model.IPWhitelist
+	database.DB.Order("created_at DESC").Find(&whitelist)
+
+	data := make([]map[string]interface{}, len(whitelist))
+	for i, w := range whitelist {
+		data[i] = w.ToDict()
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *SecurityHandler) AddIPWhitelist(c *gin.Context) {
+	var req struct {
+		IP      string `json:"ip" binding:"required"`
+		Remarks string `json:"remarks"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	normalizedIP, err := netutil.NormalizeIPWhitelistEntry(req.IP)
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	entry := model.IPWhitelist{
+		IP:      normalizedIP,
+		Remarks: strings.TrimSpace(req.Remarks),
+	}
+
+	if err := database.DB.Create(&entry).Error; err != nil {
+		response.BadRequest(c, "? IP ?????????")
+		return
+	}
+
+	response.Created(c, gin.H{"message": "????", "data": entry.ToDict()})
+}
+
+func (h *SecurityHandler) RemoveIPWhitelist(c *gin.Context) {
+	entryID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	database.DB.Where("id = ?", entryID).Delete(&model.IPWhitelist{})
+	response.Success(c, gin.H{"message": "????"})
+}
+
+func (h *SecurityHandler) AuditLogs(c *gin.Context) {
+	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
+	pageSize, _ := strconv.Atoi(c.DefaultQuery("page_size", "20"))
+	action := c.Query("action")
+
+	if page < 1 {
+		page = 1
+	}
+	if pageSize < 1 || pageSize > 100 {
+		pageSize = 20
+	}
+
+	query := database.DB.Model(&model.SecurityAudit{})
+	if action != "" {
+		query = query.Where("action = ?", action)
+	}
+
+	var total int64
+	query.Count(&total)
+
+	var audits []model.SecurityAudit
+	query.Order("created_at DESC").
+		Offset((page - 1) * pageSize).Limit(pageSize).Find(&audits)
+
+	data := make([]map[string]interface{}, len(audits))
+	for i, a := range audits {
+		data[i] = a.ToDict()
+	}
+
+	response.Paginated(c, data, total, page, pageSize)
+}
+
+func (h *SecurityHandler) LoginStats(c *gin.Context) {
+	days, _ := strconv.Atoi(c.DefaultQuery("days", "7"))
+	if days < 1 || days > 90 {
+		days = 7
+	}
+
+	stats := service.GetLoginStats(days)
+	response.Success(c, gin.H{"data": stats})
+}
+
+func (h *SecurityHandler) ClearLoginLogs(c *gin.Context) {
+	result := database.DB.Where("1 = 1").Delete(&model.LoginLog{})
+	response.Success(c, gin.H{
+		"message": fmt.Sprintf("??? %d ?????", result.RowsAffected),
+	})
+}
+
+func (h *SecurityHandler) Setup2FA(c *gin.Context) {
+	username := c.GetString("username")
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	secret, uri, err := service.SetupTwoFactor(user.ID)
+	if err != nil {
+		response.InternalError(c, "?? 2FA ??")
+		return
+	}
+
+	response.Success(c, gin.H{
+		"data": gin.H{
+			"secret": secret,
+			"uri":    uri,
+		},
+	})
+}
+
+func (h *SecurityHandler) Verify2FA(c *gin.Context) {
+	username := c.GetString("username")
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	var req struct {
+		Code string `json:"code" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "??????")
+		return
+	}
+
+	if err := service.VerifyAndEnableTwoFactor(user.ID, req.Code); err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+
+	response.Success(c, gin.H{"message": "2FA ???"})
+}
+
+func (h *SecurityHandler) Disable2FA(c *gin.Context) {
+	username := c.GetString("username")
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	// Before turning 2FA off we must prove the user still controls the
+	// authenticator - otherwise a hijacked session alone would be enough to
+	// strip 2FA from the account.
+	if !service.IsTwoFactorEnabled(user.ID) {
+		response.Success(c, gin.H{"message": "2FA ???"})
+		return
+	}
+
+	var req struct {
+		Code string `json:"code"`
+	}
+	_ = c.ShouldBindJSON(&req)
+
+	code := strings.TrimSpace(req.Code)
+	if code == "" {
+		response.BadRequest(c, "???????????")
+		return
+	}
+	if !service.ValidateUserTOTP(user.ID, code) {
+		response.BadRequest(c, "???????")
+		return
+	}
+
+	service.DisableTwoFactor(user.ID)
+	response.Success(c, gin.H{"message": "2FA ???"})
+}
+
+func (h *SecurityHandler) Get2FAStatus(c *gin.Context) {
+	username := c.GetString("username")
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		response.NotFound(c, "?????")
+		return
+	}
+
+	enabled := service.IsTwoFactorEnabled(user.ID)
+	response.Success(c, gin.H{"data": gin.H{"enabled": enabled}})
+}
+
+func (h *SecurityHandler) RegisterRoutes(r *gin.RouterGroup) {
+	security := r.Group("/security", middleware.JWTAuth())
+	{
+		security.GET("/login-logs", middleware.RequireAdmin(), h.LoginLogs)
+		security.DELETE("/login-logs", middleware.RequireAdmin(), h.ClearLoginLogs)
+		security.GET("/sessions", middleware.RequireAdmin(), h.Sessions)
+		security.DELETE("/sessions/others", middleware.RequireAdmin(), h.RevokeOtherSessions)
+		security.DELETE("/sessions/:id", middleware.RequireAdmin(), h.RevokeSession)
+		security.DELETE("/sessions/user/:user_id", middleware.RequireAdmin(), h.RevokeAllSessions)
+		security.GET("/ip-whitelist", middleware.RequireAdmin(), h.IPWhitelist)
+		security.POST("/ip-whitelist", middleware.RequireAdmin(), h.AddIPWhitelist)
+		security.DELETE("/ip-whitelist/:id", middleware.RequireAdmin(), h.RemoveIPWhitelist)
+		security.GET("/audit-logs", middleware.RequireAdmin(), h.AuditLogs)
+		security.GET("/login-stats", middleware.RequireAdmin(), h.LoginStats)
+
+		security.POST("/2fa/setup", h.Setup2FA)
+		security.POST("/2fa/verify", h.Verify2FA)
+		security.DELETE("/2fa", h.Disable2FA)
+		security.GET("/2fa/status", h.Get2FAStatus)
+	}
+}
