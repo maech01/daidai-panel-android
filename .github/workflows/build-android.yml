@@ -1,1 +1,292 @@
-bmFtZTogQnVpbGQgQW5kcm9pZCBBUEsKCm9uOgogIHB1c2g6CiAgICB0YWdzOgogICAgICAtICd2KicKICB3b3JrZmxvd19kaXNwYXRjaDoKCmVudjoKICBHT19WRVJTSU9OOiAnMS4yNScKICBOT0RFX1ZFUlNJT046ICcyMCcKICBWRVJTSU9OOiAnMi4zLjknCgpqb2JzOgogIGJ1aWxkLWdvLXNlcnZlcjoKICAgIG5hbWU6IEJ1aWxkIEdvIFNlcnZlciAoYXJtNjQpCiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY0CgogICAgICAtIHVzZXM6IGFjdGlvbnMvc2V0dXAtZ29AdjUKICAgICAgICB3aXRoOgogICAgICAgICAgZ28tdmVyc2lvbjogJHt7IGVudi5HT19WRVJTSU9OIH19CgogICAgICAtIG5hbWU6IEJ1aWxkIGRhaWRhaS1zZXJ2ZXIgZm9yIGFybTY0CiAgICAgICAgd29ya2luZy1kaXJlY3Rvcnk6IHNlcnZlcgogICAgICAgIGVudjoKICAgICAgICAgIENHT19FTkFCTEVEOiAnMCcKICAgICAgICAgIEdPT1M6IGxpbnV4CiAgICAgICAgICBHT0FSQ0g6IGFybTY0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnbyBtb2QgZG93bmxvYWQKICAgICAgICAgIGdvIGJ1aWxkIC10cmltcGF0aCAtbGRmbGFncz0iLXMgLXcgLVggZGFpZGFpLXBhbmVsL2hhbmRsZXIuVmVyc2lvbj0ke3sgZW52LlZFUlNJT04gfX0iIFwKICAgICAgICAgICAgLW8gZGFpZGFpLXNlcnZlciAuCgogICAgICAtIG5hbWU6IEJ1aWxkIGRkcCBDTEkgZm9yIGFybTY0CiAgICAgICAgd29ya2luZy1kaXJlY3Rvcnk6IHNlcnZlcgogICAgICAgIGVudjoKICAgICAgICAgIENHT19FTkFCTEVEOiAnMCcKICAgICAgICAgIEdPT1M6IGxpbnV4CiAgICAgICAgICBHT0FSQ0g6IGFybTY0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnbyBidWlsZCAtdHJpbXBhdGggLWxkZmxhZ3M9Ii1zIC13IiAtbyBkZHAgLi9jbWQvZGRwCgogICAgICAtIG5hbWU6IFVwbG9hZCBHbyBiaW5hcmllcwogICAgICAgIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IGdvLWJpbmFyaWVzCiAgICAgICAgICBwYXRoOiB8CiAgICAgICAgICAgIHNlcnZlci9kYWlkYWktc2VydmVyCiAgICAgICAgICAgIHNlcnZlci9kZHAKCiAgYnVpbGQtZnJvbnRlbmQ6CiAgICBuYW1lOiBCdWlsZCBGcm9udGVuZAogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gdXNlczogYWN0aW9ucy9jaGVja291dEB2NAoKICAgICAgLSB1c2VzOiBhY3Rpb25zL3NldHVwLW5vZGVAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbm9kZS12ZXJzaW9uOiAke3sgZW52Lk5PREVfVkVSU0lPTiB9fQogICAgICAgICAgY2FjaGU6IG5wbQogICAgICAgICAgY2FjaGUtZGVwZW5kZW5jeS1wYXRoOiB3ZWIvcGFja2FnZS1sb2NrLmpzb24KCiAgICAgIC0gbmFtZTogSW5zdGFsbCBkZXBlbmRlbmNpZXMKICAgICAgICB3b3JraW5nLWRpcmVjdG9yeTogd2ViCiAgICAgICAgcnVuOiBucG0gY2kKCiAgICAgIC0gbmFtZTogQnVpbGQgZnJvbnRlbmQKICAgICAgICB3b3JraW5nLWRpcmVjdG9yeTogd2ViCiAgICAgICAgcnVuOiBucG0gcnVuIGJ1aWxkCgogICAgICAtIG5hbWU6IFVwbG9hZCBmcm9udGVuZCBkaXN0CiAgICAgICAgdXNlczogYWN0aW9ucy91cGxvYWQtYXJ0aWZhY3RAdjQKICAgICAgICB3aXRoOgogICAgICAgICAgbmFtZTogZnJvbnRlbmQtZGlzdAogICAgICAgICAgcGF0aDogd2ViL2Rpc3QvCgogIHBhY2thZ2UtcnVudGltZXM6CiAgICBuYW1lOiBQYWNrYWdlIFRlcm11eCBSdW50aW1lcwogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgc3RlcHM6CiAgICAgIC0gbmFtZTogSW5zdGFsbCBkcGtnIHRvb2xzCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzdWRvIGFwdC1nZXQgdXBkYXRlCiAgICAgICAgICBzdWRvIGFwdC1nZXQgaW5zdGFsbCAteSBkcGtnLWRldiBwYXRjaGVsZgoKICAgICAgLSBuYW1lOiBEb3dubG9hZCBhbmQgZXh0cmFjdCBUZXJtdXggcGFja2FnZXMKICAgICAgICBydW46IHwKICAgICAgICAgIG1rZGlyIC1wIHJ1bnRpbWUvdGVybXV4LXByZWZpeAogICAgICAgICAgY2QgcnVudGltZQoKICAgICAgICAgICMgTGlzdCBvZiBUZXJtdXggcGFja2FnZXMgdG8gZG93bmxvYWQgKGFhcmNoNjQpCiAgICAgICAgICAjIFdlIG5lZWQ6IHB5dGhvbiwgbm9kZWpzLCBiYXNoLCBjb3JldXRpbHMsIGFuZCB0aGVpciBkZXBlbmRlbmNpZXMKICAgICAgICAgIFRFUk1VWF9NSVJST1I9Imh0dHBzOi8vcGFja2FnZXMudGVybXV4LmRldi9hcHQvdGVybXV4LW1haW4vcG9vbC9tYWluIgoKICAgICAgICAgICMgRG93bmxvYWQgcGFja2FnZXMKICAgICAgICAgIGRlY2xhcmUgLUEgcGFja2FnZXM9KAogICAgICAgICAgICBbImxpYmFuZHJvaWQtc3VwcG9ydCJdPSIiCiAgICAgICAgICAgIFsibGliYysrIl09IiIKICAgICAgICAgICAgWyJsaWJhbmRyb2lkLXNwYXduIl09IiIKICAgICAgICAgICAgWyJuZGstc3lzcm9vdCJdPSIiCiAgICAgICAgICAgIFsiY2EtY2VydGlmaWNhdGVzIl09IiIKICAgICAgICAgICAgWyJsaWJiejIiXT0iIgogICAgICAgICAgICBbImxpYmV4cGF0Il09IiIKICAgICAgICAgICAgWyJsaWJmZmkiXT0iIgogICAgICAgICAgICBbImxpYmx6bWEiXT0iIgogICAgICAgICAgICBbImxpYnNxbGl0ZSJdPSIiCiAgICAgICAgICAgIFsibGlic3NsIl09IjMiCiAgICAgICAgICAgIFsib3BlbnNzbC10b29sIl09IjMiCiAgICAgICAgICAgIFsibGlidXVpZCJdPSIiCiAgICAgICAgICAgIFsibGlieG1sMiJdPSIiCiAgICAgICAgICAgIFsibGlieHNsdCJdPSIiCiAgICAgICAgICAgIFsiemxpYiJdPSIiCiAgICAgICAgICAgIFsicmVhZGxpbmUiXT0iIgogICAgICAgICAgICBbInNxbGl0ZSJdPSIiCiAgICAgICAgICAgIFsidGNsIl09IiIKICAgICAgICAgICAgWyJ0ayJdPSIiCiAgICAgICAgICAgIFsicHl0aG9uIl09IiIKICAgICAgICAgICAgWyJub2RlanMiXT0iIgogICAgICAgICAgICBbImJhc2giXT0iIgogICAgICAgICAgICBbImNvcmV1dGlscyJdPSIiCiAgICAgICAgICAgIFsiZmluZHV0aWxzIl09IiIKICAgICAgICAgICAgWyJncmVwIl09IiIKICAgICAgICAgICAgWyJzZWQiXT0iIgogICAgICAgICAgICBbInRhciJdPSIiCiAgICAgICAgICAgIFsiZ3ppcCJdPSIiCiAgICAgICAgICAgIFsiZ2F3ayJdPSIiCiAgICAgICAgICAgIFsid2hpY2giXT0iIgogICAgICAgICAgICBbInRlcm11eC1leGVjIl09IiIKICAgICAgICAgICAgWyJ0ZXJtdXgtdG9vbHMiXT0iIgogICAgICAgICAgKQoKICAgICAgICAgIGZvciBwa2cgaW4gIiR7IXBhY2thZ2VzW0BdfSI7IGRvCiAgICAgICAgICAgIHN1YmRpcj0iJHtwa2c6MDoxfSIKICAgICAgICAgICAgIyBUcnkgdG8gZmluZCB0aGUgcGFja2FnZSBpbiB0aGUgcG9vbAogICAgICAgICAgICBlY2hvICJEb3dubG9hZGluZyAkcGtnLi4uIgogICAgICAgICAgICAjIFVzZSB0aGUgUGFja2FnZXMgaW5kZXggdG8gZmluZCBleGFjdCBmaWxlbmFtZQogICAgICAgICAgICBjdXJsIC1zTCAiJFRFUk1VWF9NSVJST1IvLi4vLi4vZGlzdHMvc3RhYmxlL21haW4vYmluYXJ5LWFhcmNoNjQvUGFja2FnZXMiIHwgXAogICAgICAgICAgICAgIGF3ayAiL15QYWNrYWdlOiAkcGtnJC8sL15GaWxlbmFtZTogL3twcmludH0iIHwgZ3JlcCAiXkZpbGVuYW1lOiIgfCBcCiAgICAgICAgICAgICAgaGVhZCAtMSB8IGF3ayAne3ByaW50ICQyfScKICAgICAgICAgIGRvbmUKCiAgICAgICAgICAjIFNpbXBsZXIgYXBwcm9hY2g6IGRvd25sb2FkIGRpcmVjdGx5IGZyb20ga25vd24gcG9vbCBwYXRocwogICAgICAgICAgIyBEb3dubG9hZCBlYWNoIHBhY2thZ2UncyAuZGViIGZpbGUKICAgICAgICAgIGRvd25sb2FkX2RlYigpIHsKICAgICAgICAgICAgbG9jYWwgbmFtZT0kMQogICAgICAgICAgICBsb2NhbCBzdWJkaXI9JDIKICAgICAgICAgICAgIyBTZWFyY2ggdGhlIHBvb2wgZGlyZWN0b3J5IGZvciBtYXRjaGluZyBhYXJjaDY0IGRlYgogICAgICAgICAgICBsb2NhbCBsaXN0aW5nPSQoY3VybCAtc0wgIiRURVJNVVhfTUlSUk9SLyRzdWJkaXIvJG5hbWUvIikKICAgICAgICAgICAgbG9jYWwgZGViX2ZpbGU9JChlY2hvICIkbGlzdGluZyIgfCBncmVwIC1vUCAiJHtuYW1lfV9bXiBdKl9hYXJjaDY0XC5kZWIiIHwgaGVhZCAtMSkKICAgICAgICAgICAgaWYgWyAtbiAiJGRlYl9maWxlIiBdOyB0aGVuCiAgICAgICAgICAgICAgZWNobyAiICBGb3VuZDogJGRlYl9maWxlIgogICAgICAgICAgICAgIGN1cmwgLUwgIiRURVJNVVhfTUlSUk9SLyRzdWJkaXIvJG5hbWUvJGRlYl9maWxlIiAtbyAiJG5hbWUuZGViIgogICAgICAgICAgICAgIHJldHVybiAwCiAgICAgICAgICAgIGZpCiAgICAgICAgICAgIGVjaG8gIiAgV0FSTklORzogQ291bGQgbm90IGZpbmQgJG5hbWUgaW4gcG9vbCIKICAgICAgICAgICAgcmV0dXJuIDEKICAgICAgICAgIH0KCiAgICAgICAgICAjIERvd25sb2FkIGFsbCBwYWNrYWdlcwogICAgICAgICAgZm9yIHBrZ19maXJzdCBpbiBhIGIgYyBkIGUgZiBnIGggaSBqIGsgbCBtIG4gbyBwIHEgciBzIHQgdSB2IHcgeCB5IHo7IGRvCiAgICAgICAgICAgIGRvd25sb2FkX2RlYiAiJHBrZ19maXJzdCIgIiRwa2dfZmlyc3QiIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgIGRvbmUKCiAgICAgICAgICAjIEJldHRlciBhcHByb2FjaDogZG93bmxvYWQgdGhlIFBhY2thZ2VzIGluZGV4IGFuZCBwYXJzZSBpdAogICAgICAgICAgZWNobyAiPT09IERvd25sb2FkaW5nIFBhY2thZ2VzIGluZGV4ID09PSIKICAgICAgICAgIGN1cmwgLXNMICJodHRwczovL3BhY2thZ2VzLnRlcm11eC5kZXYvYXB0L3Rlcm11eC1tYWluL2Rpc3RzL3N0YWJsZS9tYWluL2JpbmFyeS1hYXJjaDY0L1BhY2thZ2VzLmd6IiB8IFwKICAgICAgICAgICAgZ3VuemlwID4gUGFja2FnZXMKCiAgICAgICAgICAjIEZ1bmN0aW9uIHRvIGRvd25sb2FkIGEgcGFja2FnZSBhbmQgaXRzIGRlcGVuZGVuY2llcwogICAgICAgICAgZG93bmxvYWRfcGtnKCkgewogICAgICAgICAgICBsb2NhbCBwa2duYW1lPSQxCiAgICAgICAgICAgIGxvY2FsIGZpbGVuYW1lPSQoYXdrIC12IHBrZz0iJHBrZ25hbWUiICcKICAgICAgICAgICAgICAvXlBhY2thZ2U6IC8geyBwPSQyIH0KICAgICAgICAgICAgICAvXkZpbGVuYW1lOiAvIHsgaWYgKHA9PXBrZykgcHJpbnQgJDIgfQogICAgICAgICAgICAnIFBhY2thZ2VzKQogICAgICAgICAgICBpZiBbIC1uICIkZmlsZW5hbWUiIF07IHRoZW4KICAgICAgICAgICAgICBsb2NhbCBiYXNlPSQoYmFzZW5hbWUgIiRmaWxlbmFtZSIpCiAgICAgICAgICAgICAgaWYgWyAhIC1mICIkYmFzZSIgXTsgdGhlbgogICAgICAgICAgICAgICAgZWNobyAiRG93bmxvYWRpbmcgJHBrZ25hbWUgLT4gJGZpbGVuYW1lIgogICAgICAgICAgICAgICAgY3VybCAtTCAiaHR0cHM6Ly9wYWNrYWdlcy50ZXJtdXguZGV2L2FwdC90ZXJtdXgtbWFpbi8kZmlsZW5hbWUiIC1vICIkYmFzZSIKICAgICAgICAgICAgICBmaQogICAgICAgICAgICAgICMgRXh0cmFjdCB0byBwcmVmaXgKICAgICAgICAgICAgICBkcGtnLWRlYiAteCAiJGJhc2UiIHRlcm11eC1wcmVmaXgvCiAgICAgICAgICAgIGVsc2UKICAgICAgICAgICAgICBlY2hvICJXQVJOSU5HOiBQYWNrYWdlICRwa2duYW1lIG5vdCBmb3VuZCIKICAgICAgICAgICAgZmkKICAgICAgICAgIH0KCiAgICAgICAgICAjIERvd25sb2FkIGFuZCBleHRyYWN0IGFsbCBuZWVkZWQgcGFja2FnZXMKICAgICAgICAgIGZvciBwa2cgaW4gXAogICAgICAgICAgICBsaWJhbmRyb2lkLXN1cHBvcnQgXAogICAgICAgICAgICBsaWJjKysgXAogICAgICAgICAgICBuZGstc3lzcm9vdCBcCiAgICAgICAgICAgIHRlcm11eC1leGVjIFwKICAgICAgICAgICAgY2EtY2VydGlmaWNhdGVzIFwKICAgICAgICAgICAgbGliYnoyIFwKICAgICAgICAgICAgbGliZXhwYXQgXAogICAgICAgICAgICBsaWJmZmkgXAogICAgICAgICAgICBsaWJsem1hIFwKICAgICAgICAgICAgbGlic3FsaXRlIFwKICAgICAgICAgICAgbGlic3NsMyBcCiAgICAgICAgICAgIGxpYnV1aWQgXAogICAgICAgICAgICBsaWJ4bWwyIFwKICAgICAgICAgICAgemxpYiBcCiAgICAgICAgICAgIHJlYWRsaW5lIFwKICAgICAgICAgICAgc3FsaXRlIFwKICAgICAgICAgICAgdGNsIFwKICAgICAgICAgICAgcHl0aG9uIFwKICAgICAgICAgICAgbm9kZWpzIFwKICAgICAgICAgICAgYmFzaCBcCiAgICAgICAgICAgIGNvcmV1dGlscyBcCiAgICAgICAgICAgIGZpbmR1dGlscyBcCiAgICAgICAgICAgIGdyZXAgXAogICAgICAgICAgICBzZWQgXAogICAgICAgICAgICB0YXIgXAogICAgICAgICAgICBnemlwIFwKICAgICAgICAgICAgZ2F3ayBcCiAgICAgICAgICAgIHdoaWNoOyBkbwogICAgICAgICAgICBkb3dubG9hZF9wa2cgIiRwa2ciCiAgICAgICAgICBkb25lCgogICAgICAgICAgZWNobyAiPT09IEV4dHJhY3RlZCBwYWNrYWdlcyA9PT0iCiAgICAgICAgICBscyAtbGEgdGVybXV4LXByZWZpeC8KICAgICAgICAgIGxzIC1sYSB0ZXJtdXgtcHJlZml4L3Vzci9iaW4vIDI+L2Rldi9udWxsIHwgaGVhZCAtMzAKCiAgICAgIC0gbmFtZTogT3B0aW1pemUgcnVudGltZSBzaXplCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBjZCBydW50aW1lL3Rlcm11eC1wcmVmaXgKICAgICAgICAgICMgUmVtb3ZlIHVubmVjZXNzYXJ5IGZpbGVzCiAgICAgICAgICBybSAtcmYgdXNyL3NoYXJlL3ttYW4sZG9jLGluZm8sbG9jYWxlLHRhYnNldCx0ZXJtaW5mb30gMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgICAgcm0gLXJmIHVzci9pbmNsdWRlIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgICMgUmVtb3ZlIFB5dGhvbiB0ZXN0IHN1aXRlCiAgICAgICAgICBmaW5kIHVzci9saWIvcHl0aG9uKiAtbmFtZSAidGVzdCIgLXR5cGUgZCAtZXhlYyBybSAtcmYge30gKyAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICAgICAgICBmaW5kIHVzci9saWIvcHl0aG9uKiAtbmFtZSAidGVzdHMiIC10eXBlIGQgLWV4ZWMgcm0gLXJmIHt9ICsgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgICAgZmluZCB1c3IvbGliL3B5dGhvbiogLW5hbWUgIl9fcHljYWNoZV9fIiAtdHlwZSBkIC1leGVjIHJtIC1yZiB7fSArIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgIGZpbmQgdXNyL2xpYi9weXRob24qIC1uYW1lICIqLnB5YyIgLWRlbGV0ZSAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICAgICAgICAjIFJlbW92ZSBub2RlIG5wbSBkb2NzCiAgICAgICAgICBybSAtcmYgdXNyL2xpYi9ub2RlX21vZHVsZXMvbnBtL2RvY3MgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgICAgcm0gLXJmIHVzci9saWIvbm9kZV9tb2R1bGVzL25wbS9odG1sIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgICMgU3RyaXAgYmluYXJpZXMKICAgICAgICAgIGZpbmQgdXNyL2JpbiAtdHlwZSBmIC1leGVjIHN0cmlwIHt9ICsgMj4vZGV2L251bGwgfHwgdHJ1ZQogICAgICAgICAgZmluZCB1c3IvbGliIC1uYW1lICIqLnNvIiAtZXhlYyBzdHJpcCB7fSArIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgIGVjaG8gIj09PSBTaXplIGFmdGVyIG9wdGltaXphdGlvbiA9PT0iCiAgICAgICAgICBkdSAtc2ggLgoKICAgICAgLSBuYW1lOiBDcmVhdGUgcmVsb2NhdGlvbiBzY3JpcHQKICAgICAgICBydW46IHwKICAgICAgICAgIGNhdCA+IHJ1bnRpbWUvc2V0dXAtcnVudGltZS5zaCA8PCAnUkVMT0NBVEVfRU9GJwogICAgICAgICAgIyEvc3lzdGVtL2Jpbi9zaAogICAgICAgICAgIyBUaGlzIHNjcmlwdCBzZXRzIHVwIGVudmlyb25tZW50IHZhcmlhYmxlcyBmb3IgVGVybXV4LWNvbXBhdGlibGUgcnVudGltZQogICAgICAgICAgIyBleHRyYWN0ZWQgaW50byB0aGUgYXBwJ3MgcHJpdmF0ZSBkaXJlY3RvcnkuCiAgICAgICAgICAjCiAgICAgICAgICAjIFVzYWdlOiAuIC9wYXRoL3RvL3NldHVwLXJ1bnRpbWUuc2gKICAgICAgICAgIAogICAgICAgICAgUlVOVElNRV9ESVI9IiQxIgogICAgICAgICAgaWYgWyAteiAiJFJVTlRJTUVfRElSIiBdOyB0aGVuCiAgICAgICAgICAgIFJVTlRJTUVfRElSPSIkKGRpcm5hbWUgIiQwIikiCiAgICAgICAgICBmaQogICAgICAgICAgCiAgICAgICAgICBleHBvcnQgUFJFRklYPSIkUlVOVElNRV9ESVIvdGVybXV4LXByZWZpeC91c3IiCiAgICAgICAgICBleHBvcnQgUEFUSD0iJFBSRUZJWC9iaW46JFBBVEgiCiAgICAgICAgICBleHBvcnQgTERfTElCUkFSWV9QQVRIPSIkUFJFRklYL2xpYjokUFJFRklYL2xpYjY0IgogICAgICAgICAgZXhwb3J0IFBZVEhPTkhPTUU9IiRQUkVGSVgiCiAgICAgICAgICBleHBvcnQgUFlUSE9OUEFUSD0iJFBSRUZJWC9saWIvcHl0aG9uMy4xNCIKICAgICAgICAgIGV4cG9ydCBOT0RFX1BBVEg9IiRQUkVGSVgvbGliL25vZGVfbW9kdWxlcyIKICAgICAgICAgIGV4cG9ydCBIT01FPSIkUlVOVElNRV9ESVIiCiAgICAgICAgICBleHBvcnQgVEVSTVVYX1BSRUZJWD0iJFBSRUZJWCIKICAgICAgICAgIGV4cG9ydCBUTVBESVI9IiRSVU5USU1FX0RJUi90bXAiCiAgICAgICAgICBleHBvcnQgTEFORz1lbl9VUy5VVEYtOAogICAgICAgICAgZXhwb3J0IExDX0FMTD1lbl9VUy5VVEYtOAogICAgICAgICAgCiAgICAgICAgICBta2RpciAtcCAiJFRNUERJUiIKICAgICAgICAgIFJFTE9DQVRFX0VPRgogICAgICAgICAgY2htb2QgK3ggcnVudGltZS9zZXR1cC1ydW50aW1lLnNoCgogICAgICAtIG5hbWU6IENyZWF0ZSBydW50aW1lIGFyY2hpdmUKICAgICAgICBydW46IHwKICAgICAgICAgIGNkIHJ1bnRpbWUKICAgICAgICAgIHRhciBjemYgLi4vcnVudGltZS1hcm02NC50YXIuZ3ogdGVybXV4LXByZWZpeCBzZXR1cC1ydW50aW1lLnNoCiAgICAgICAgICBscyAtbGggLi4vcnVudGltZS1hcm02NC50YXIuZ3oKCiAgICAgIC0gbmFtZTogVXBsb2FkIHJ1bnRpbWUgYXJjaGl2ZQogICAgICAgIHVzZXM6IGFjdGlvbnMvdXBsb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IHJ1bnRpbWUtYXJjaGl2ZQogICAgICAgICAgcGF0aDogcnVudGltZS1hcm02NC50YXIuZ3oKCiAgYnVpbGQtYXBrOgogICAgbmFtZTogQnVpbGQgQW5kcm9pZCBBUEsKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIG5lZWRzOiBbYnVpbGQtZ28tc2VydmVyLCBidWlsZC1mcm9udGVuZCwgcGFja2FnZS1ydW50aW1lc10KICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjQKCiAgICAgIC0gbmFtZTogU2V0IHVwIEpESyAxNwogICAgICAgIHVzZXM6IGFjdGlvbnMvc2V0dXAtamF2YUB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBqYXZhLXZlcnNpb246ICcxNycKICAgICAgICAgIGRpc3RyaWJ1dGlvbjogJ3RlbXVyaW4nCgogICAgICAtIG5hbWU6IFNldHVwIEFuZHJvaWQgU0RLCiAgICAgICAgdXNlczogYW5kcm9pZC1hY3Rpb25zL3NldHVwLWFuZHJvaWRAdjMKICAgICAgICB3aXRoOgogICAgICAgICAgcGFja2FnZXM6ICdwbGF0Zm9ybS10b29scyBwbGF0Zm9ybXM7YW5kcm9pZC0zNCBidWlsZC10b29sczszNC4wLjAnCgogICAgICAtIG5hbWU6IERvd25sb2FkIEdvIGJpbmFyaWVzCiAgICAgICAgdXNlczogYWN0aW9ucy9kb3dubG9hZC1hcnRpZmFjdEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBnby1iaW5hcmllcwogICAgICAgICAgcGF0aDogYXJ0aWZhY3RzL2dvCgogICAgICAtIG5hbWU6IERvd25sb2FkIGZyb250ZW5kIGRpc3QKICAgICAgICB1c2VzOiBhY3Rpb25zL2Rvd25sb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IGZyb250ZW5kLWRpc3QKICAgICAgICAgIHBhdGg6IGFydGlmYWN0cy93ZWItZGlzdAoKICAgICAgLSBuYW1lOiBEb3dubG9hZCBydW50aW1lIGFyY2hpdmUKICAgICAgICB1c2VzOiBhY3Rpb25zL2Rvd25sb2FkLWFydGlmYWN0QHY0CiAgICAgICAgd2l0aDoKICAgICAgICAgIG5hbWU6IHJ1bnRpbWUtYXJjaGl2ZQogICAgICAgICAgcGF0aDogYXJ0aWZhY3RzLwoKICAgICAgLSBuYW1lOiBQcmVwYXJlIGFzc2V0cwogICAgICAgIHJ1bjogfAogICAgICAgICAgIyBDcmVhdGUgYXNzZXQgZGlyZWN0b3JpZXMKICAgICAgICAgIG1rZGlyIC1wIGFuZHJvaWQtYXBwL2FwcC9zcmMvbWFpbi9hc3NldHMKICAgICAgICAgIG1rZGlyIC1wIGFuZHJvaWQtYXBwL2FwcC9zcmMvbWFpbi9qbmlMaWJzL2FybTY0LXY4YQoKICAgICAgICAgICMgQ29weSBHbyBzZXJ2ZXIgYmluYXJ5IGFzIGEgLmRhdCBmaWxlIChBbmRyb2lkIHdvbid0IHRyeSB0byBjb21wcmVzcy9pbnRlcnByZXQgaXQpCiAgICAgICAgICBjcCBhcnRpZmFjdHMvZ28vZGFpZGFpLXNlcnZlciBhbmRyb2lkLWFwcC9hcHAvc3JjL21haW4vam5pTGlicy9hcm02NC12OGEvbGliZGFpZGFpLXNlcnZlci5kYXQKICAgICAgICAgIGNobW9kICt4IGFuZHJvaWQtYXBwL2FwcC9zcmMvbWFpbi9qbmlMaWJzL2FybTY0LXY4YS9saWJkYWlkYWktc2VydmVyLmRhdAoKICAgICAgICAgICMgUGFja2FnZSBmcm9udGVuZCBkaXN0IGFzIHppcCBmb3IgZXh0cmFjdGlvbiBhdCBydW50aW1lCiAgICAgICAgICBjZCBhcnRpZmFjdHMvd2ViLWRpc3QKICAgICAgICAgIHppcCAtciAuLi8uLi9hbmRyb2lkLWFwcC9hcHAvc3JjL21haW4vYXNzZXRzL3dlYi1kaXN0LnppcCAuCiAgICAgICAgICBjZCAuLi8uLgoKICAgICAgICAgICMgUGFja2FnZSBydW50aW1lIGFyY2hpdmUKICAgICAgICAgIGNwIGFydGlmYWN0cy9ydW50aW1lLWFybTY0LnRhci5neiBhbmRyb2lkLWFwcC9hcHAvc3JjL21haW4vYXNzZXRzL3J1bnRpbWUtYXJtNjQudGFyLmd6CgogICAgICAgICAgbHMgLWxhIGFuZHJvaWQtYXBwL2FwcC9zcmMvbWFpbi9hc3NldHMvCiAgICAgICAgICBscyAtbGEgYW5kcm9pZC1hcHAvYXBwL3NyYy9tYWluL2puaUxpYnMvYXJtNjQtdjhhLwoKICAgICAgLSBuYW1lOiBTZXR1cCBHcmFkbGUKICAgICAgICB1c2VzOiBncmFkbGUvYWN0aW9ucy9zZXR1cC1ncmFkbGVAdjMKICAgICAgICB3aXRoOgogICAgICAgICAgZ3JhZGxlLXZlcnNpb246ICc4LjUnCgogICAgICAtIG5hbWU6IEJ1aWxkIEFQSwogICAgICAgIHdvcmtpbmctZGlyZWN0b3J5OiBhbmRyb2lkLWFwcAogICAgICAgIHJ1bjogfAogICAgICAgICAgZ3JhZGxlIGFzc2VtYmxlRGVidWcgLS1uby1kYWVtb24gLS1zdGFja3RyYWNlCgogICAgICAtIG5hbWU6IFNpZ24gQVBLCiAgICAgICAgcnVuOiB8CiAgICAgICAgICAjIENyZWF0ZSBhIGRlYnVnIGtleXN0b3JlIGZvciBzaWduaW5nCiAgICAgICAgICBrZXl0b29sIC1nZW5rZXlwYWlyIC12IC1rZXlzdG9yZSBkZWJ1Zy5rZXlzdG9yZSBcCiAgICAgICAgICAgIC1zdG9yZXBhc3MgYW5kcm9pZCAta2V5cGFzcyBhbmRyb2lkIFwKICAgICAgICAgICAgLWFsaWFzIGFuZHJvaWRkZWJ1Z2tleSAta2V5YWxnIFJTQSAta2V5c2l6ZSAyMDQ4IC12YWxpZGl0eSAxMDAwMCBcCiAgICAgICAgICAgIC1kbmFtZSAiQ049QW5kcm9pZCBEZWJ1ZyxPPUFuZHJvaWQsQz1VUyIKCiAgICAgICAgICAjIEZpbmQgdGhlIGJ1aWx0IEFQSwogICAgICAgICAgQVBLX0ZJTEU9JChmaW5kIGFuZHJvaWQtYXBwL2FwcC9idWlsZC9vdXRwdXRzL2FwayAtbmFtZSAiKi5hcGsiIHwgaGVhZCAtMSkKICAgICAgICAgIGVjaG8gIkZvdW5kIEFQSzogJEFQS19GSUxFIgoKICAgICAgICAgICMgU2lnbiB0aGUgQVBLCiAgICAgICAgICBqYXJzaWduZXIgLXZlcmJvc2UgLXNpZ2FsZyBTSEEyNTZ3aXRoUlNBIC1kaWdlc3RhbGcgU0hBLTI1NiBcCiAgICAgICAgICAgIC1rZXlzdG9yZSBkZWJ1Zy5rZXlzdG9yZSBcCiAgICAgICAgICAgIC1zdG9yZXBhc3MgYW5kcm9pZCAta2V5cGFzcyBhbmRyb2lkIFwKICAgICAgICAgICAgIiRBUEtfRklMRSIgYW5kcm9pZGRlYnVna2V5CgogICAgICAgICAgIyBBbGlnbiB0aGUgQVBLCiAgICAgICAgICAke0FORFJPSURfU0RLX1JPT1R9L2J1aWxkLXRvb2xzLzM0LjAuMC96aXBhbGlnbiAtdiA0IFwKICAgICAgICAgICAgIiRBUEtfRklMRSIgXAogICAgICAgICAgICBhbmRyb2lkLWFwcC9hcHAvYnVpbGQvb3V0cHV0cy9hcGsvZGFpZGFpLXBhbmVsLWFuZHJvaWQuYXBrCgogICAgICAtIG5hbWU6IFVwbG9hZCBBUEsKICAgICAgICB1c2VzOiBhY3Rpb25zL3VwbG9hZC1hcnRpZmFjdEB2NAogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBkYWlkYWktcGFuZWwtYW5kcm9pZC1hcGsKICAgICAgICAgIHBhdGg6IGFuZHJvaWQtYXBwL2FwcC9idWlsZC9vdXRwdXRzL2Fway9kYWlkYWktcGFuZWwtYW5kcm9pZC5hcGsKCiAgICAgIC0gbmFtZTogQ3JlYXRlIFJlbGVhc2UKICAgICAgICBpZjogc3RhcnRzV2l0aChnaXRodWIucmVmLCAncmVmcy90YWdzL3YnKQogICAgICAgIHVzZXM6IHNvZnRwcm9wcy9hY3Rpb24tZ2gtcmVsZWFzZUB2MQogICAgICAgIHdpdGg6CiAgICAgICAgICBmaWxlczogYW5kcm9pZC1hcHAvYXBwL2J1aWxkL291dHB1dHMvYXBrL2RhaWRhaS1wYW5lbC1hbmRyb2lkLmFwawogICAgICAgICAgZ2VuZXJhdGVfcmVsZWFzZV9ub3RlczogdHJ1ZQogICAgICAgIGVudjoKICAgICAgICAgIEdJVEhVQl9UT0tFTjogJHt7IHNlY3JldHMuR0lUSFVCX1RPS0VOIH19Cg==
+name: Build Android APK
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+env:
+  GO_VERSION: '1.25'
+  NODE_VERSION: '20'
+  VERSION: '2.3.9'
+  SRC_ARCHIVE_URL: 'https://github.com/tall-1997/daidai-panel-android/releases/download/untagged-67fc52d5996bd7f94932/daidai-panel-src.tar.gz'
+
+jobs:
+  build-go-server:
+    name: Build Go Server (arm64)
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download source code
+        run: |
+          curl -L "${{ env.SRC_ARCHIVE_URL }}" -o src.tar.gz
+          mkdir -p workspace
+          tar xzf src.tar.gz -C workspace
+          ls workspace/
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ env.GO_VERSION }}
+
+      - name: Build daidai-server for arm64
+        working-directory: workspace/server
+        env:
+          CGO_ENABLED: '0'
+          GOOS: linux
+          GOARCH: arm64
+        run: |
+          go mod download
+          go build -trimpath -ldflags="-s -w -X daidai-panel/handler.Version=${{ env.VERSION }}" \
+            -o daidai-server .
+
+      - name: Build ddp CLI for arm64
+        working-directory: workspace/server
+        env:
+          CGO_ENABLED: '0'
+          GOOS: linux
+          GOARCH: arm64
+        run: |
+          go build -trimpath -ldflags="-s -w" -o ddp ./cmd/ddp
+
+      - name: Upload Go binaries
+        uses: actions/upload-artifact@v4
+        with:
+          name: go-binaries
+          path: |
+            workspace/server/daidai-server
+            workspace/server/ddp
+
+  build-frontend:
+    name: Build Frontend
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download source code
+        run: |
+          curl -L "${{ env.SRC_ARCHIVE_URL }}" -o src.tar.gz
+          mkdir -p workspace
+          tar xzf src.tar.gz -C workspace
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install dependencies
+        working-directory: workspace/web
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: workspace/web
+        run: npm run build
+
+      - name: Upload frontend dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: frontend-dist
+          path: workspace/web/dist/
+
+  package-runtimes:
+    name: Package Termux Runtimes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install dpkg tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev patchelf
+
+      - name: Download and extract Termux packages
+        run: |
+          mkdir -p runtime/termux-prefix
+          cd runtime
+
+          # Download the Packages index
+          curl -sL "https://packages.termux.dev/apt/termux-main/dists/stable/main/binary-aarch64/Packages.gz" | \
+            gunzip > Packages
+
+          # Function to download a package and extract it
+          download_pkg() {
+            local pkgname=$1
+            local filename=$(awk -v pkg="$pkgname" '
+              /^Package: / { p=$2 }
+              /^Filename: / { if (p==pkg) print $2 }
+            ' Packages)
+            if [ -n "$filename" ]; then
+              local base=$(basename "$filename")
+              if [ ! -f "$base" ]; then
+                echo "  Downloading $pkgname..."
+                curl -sL "https://packages.termux.dev/apt/termux-main/$filename" -o "$base"
+              fi
+              dpkg-deb -x "$base" termux-prefix/
+            else
+              echo "  WARNING: Package $pkgname not found in index"
+            fi
+          }
+
+          # Download and extract all needed packages in dependency order
+          for pkg in \
+            libandroid-support \
+            libc++ \
+            ndk-sysroot \
+            termux-exec \
+            ca-certificates \
+            libbz2 \
+            libexpat \
+            libffi \
+            liblzma \
+            libsqlite \
+            libssl3 \
+            libuuid \
+            libxml2 \
+            zlib \
+            readline \
+            sqlite \
+            tcl \
+            python \
+            nodejs \
+            bash \
+            coreutils \
+            findutils \
+            grep \
+            sed \
+            tar \
+            gzip \
+            gawk \
+            which; do
+            download_pkg "$pkg"
+          done
+
+          echo "=== Extracted packages ==="
+          ls -la termux-prefix/
+          ls termux-prefix/usr/bin/ 2>/dev/null | head -30
+
+      - name: Optimize runtime size
+        run: |
+          cd runtime/termux-prefix
+          rm -rf usr/share/{man,doc,info,locale,tabset,terminfo} 2>/dev/null || true
+          rm -rf usr/include 2>/dev/null || true
+          find usr/lib/python* -name "test" -type d -exec rm -rf {} + 2>/dev/null || true
+          find usr/lib/python* -name "tests" -type d -exec rm -rf {} + 2>/dev/null || true
+          find usr/lib/python* -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
+          find usr/lib/python* -name "*.pyc" -delete 2>/dev/null || true
+          rm -rf usr/lib/node_modules/npm/docs 2>/dev/null || true
+          rm -rf usr/lib/node_modules/npm/html 2>/dev/null || true
+          find usr/bin -type f -exec strip {} + 2>/dev/null || true
+          find usr/lib -name "*.so" -exec strip {} + 2>/dev/null || true
+          echo "=== Size after optimization ==="
+          du -sh .
+
+      - name: Create runtime archive
+        run: |
+          cd runtime
+          tar czf ../runtime-arm64.tar.gz termux-prefix
+          ls -lh ../runtime-arm64.tar.gz
+
+      - name: Upload runtime archive
+        uses: actions/upload-artifact@v4
+        with:
+          name: runtime-archive
+          path: runtime-arm64.tar.gz
+
+  build-apk:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+    needs: [build-go-server, build-frontend, package-runtimes]
+    steps:
+      - name: Download source code
+        run: |
+          curl -L "${{ env.SRC_ARCHIVE_URL }}" -o src.tar.gz
+          mkdir -p workspace
+          tar xzf src.tar.gz -C workspace
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+        with:
+          packages: 'platform-tools platforms;android-34 build-tools;34.0.0'
+
+      - name: Download Go binaries
+        uses: actions/download-artifact@v4
+        with:
+          name: go-binaries
+          path: artifacts/go
+
+      - name: Download frontend dist
+        uses: actions/download-artifact@v4
+        with:
+          name: frontend-dist
+          path: artifacts/web-dist
+
+      - name: Download runtime archive
+        uses: actions/download-artifact@v4
+        with:
+          name: runtime-archive
+          path: artifacts/
+
+      - name: Prepare assets
+        run: |
+          cd workspace
+          mkdir -p android-app/app/src/main/assets
+          mkdir -p android-app/app/src/main/jniLibs/arm64-v8a
+
+          # Copy Go server binary as .dat file
+          cp ../artifacts/go/daidai-server android-app/app/src/main/jniLibs/arm64-v8a/libdaidai-server.dat
+          chmod +x android-app/app/src/main/jniLibs/arm64-v8a/libdaidai-server.dat
+
+          # Package frontend dist as zip
+          cd ../artifacts/web-dist
+          zip -r ../../workspace/android-app/app/src/main/assets/web-dist.zip .
+          cd ../../workspace
+
+          # Copy runtime archive
+          cp ../artifacts/runtime-arm64.tar.gz android-app/app/src/main/assets/
+
+          ls -la android-app/app/src/main/assets/
+          ls -la android-app/app/src/main/jniLibs/arm64-v8a/
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: '8.5'
+
+      - name: Build APK
+        working-directory: workspace/android-app
+        run: |
+          gradle assembleDebug --no-daemon --stacktrace
+
+      - name: Sign APK
+        run: |
+          keytool -genkeypair -v -keystore debug.keystore \
+            -storepass android -keypass android \
+            -alias androiddebugkey -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+
+          APK_FILE=$(find workspace/android-app/app/build/outputs/apk -name "*.apk" | head -1)
+          echo "Found APK: $APK_FILE"
+
+          jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 \
+            -keystore debug.keystore \
+            -storepass android -keypass android \
+            "$APK_FILE" androiddebugkey
+
+          ${ANDROID_SDK_ROOT}/build-tools/34.0.0/zipalign -v 4 \
+            "$APK_FILE" \
+            daidai-panel-android.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: daidai-panel-android-apk
+          path: daidai-panel-android.apk
+
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: daidai-panel-android.apk
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
