@@ -10,7 +10,7 @@ env:
   GO_VERSION: '1.25'
   NODE_VERSION: '20'
   VERSION: '2.3.9'
-  SRC_ARCHIVE_URL: 'https://github.com/tall-1997/daidai-panel-android/releases/download/untagged-67fc52d5996bd7f94932/daidai-panel-src.tar.gz'
+  SRC_ARCHIVE_URL: 'https://github.com/tall-1997/daidai-panel-android/releases/download/v1.0.0-src/daidai-panel-src.tar.gz'
 
 jobs:
   build-go-server:
