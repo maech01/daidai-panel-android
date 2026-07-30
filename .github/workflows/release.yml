@@ -1,1 +1,479 @@
-bmFtZTogUmVsZWFzZQoKb246CiAgcHVzaDoKICAgIHRhZ3M6CiAgICAgIC0gJ3YqJwoKZW52OgogIEZPUkNFX0pBVkFTQ1JJUFRfQUNUSU9OU19UT19OT0RFMjQ6ICd0cnVlJwoKcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHdyaXRlCgpqb2JzOgogIHJlbGVhc2U6CiAgICBydW5zLW9uOiB1YnVudHUtbGF0ZXN0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY1CgogICAgICAtIHVzZXM6IGFjdGlvbnMvc2V0dXAtbm9kZUB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246ICcyMCcKCiAgICAgIC0gdXNlczogYWN0aW9ucy9zZXR1cC1nb0B2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBnby12ZXJzaW9uLWZpbGU6IHNlcnZlci9nby5tb2QKICAgICAgICAgIGNhY2hlLWRlcGVuZGVuY3ktcGF0aDogc2VydmVyL2dvLnN1bQoKICAgICAgLSBuYW1lOiBCdWlsZCBGcm9udGVuZAogICAgICAgIHdvcmtpbmctZGlyZWN0b3J5OiB3ZWIKICAgICAgICBydW46IHwKICAgICAgICAgIG5wbSBjaQogICAgICAgICAgbnBtIHJ1biBidWlsZAoKICAgICAgLSBuYW1lOiBHZXQgdmVyc2lvbiBmcm9tIHRhZwogICAgICAgIGlkOiB2ZXJzaW9uCiAgICAgICAgcnVuOiBlY2hvICJWRVJTSU9OPSR7R0lUSFVCX1JFRl9OQU1FI3Z9IiA+PiAkR0lUSFVCX09VVFBVVAoKICAgICAgLSBuYW1lOiBSZXNvbHZlIHJlbGVhc2Ugbm90ZXMKICAgICAgICBpZDogcmVsZWFzZV9ub3RlcwogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBSRUxFQVNFX1RJVExFPSIke0dJVEhVQl9SRUZfTkFNRX0iCiAgICAgICAgICBjYW5kaWRhdGVzPSgKICAgICAgICAgICAgImRvY3MvcmVsZWFzZS1ub3Rlcy8ke0dJVEhVQl9SRUZfTkFNRX0ubWQiCiAgICAgICAgICAgICJkb2NzL3JlbGVhc2Utbm90ZXMvJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19Lm1kIgogICAgICAgICAgKQoKICAgICAgICAgIGZvciBjYW5kaWRhdGUgaW4gIiR7Y2FuZGlkYXRlc1tAXX0iOyBkbwogICAgICAgICAgICBpZiBbWyAtZiAiJGNhbmRpZGF0ZSIgXV07IHRoZW4KICAgICAgICAgICAgICBzdW1tYXJ5PSIkKGdyZXAgLW9QbTEgJyg/PD08IS0tXHMqcmVsZWFzZS10aXRsZTpccykuKj8oPz1ccyotLT4pJyAiJGNhbmRpZGF0ZSIgfHwgdHJ1ZSkiCiAgICAgICAgICAgICAgaWYgW1sgLW4gIiRzdW1tYXJ5IiBdXTsgdGhlbgogICAgICAgICAgICAgICAgUkVMRUFTRV9USVRMRT0iJHtHSVRIVUJfUkVGX05BTUV977yaJHtzdW1tYXJ5fSIKICAgICAgICAgICAgICBmaQogICAgICAgICAgICAgIGVjaG8gImZpbGU9JGNhbmRpZGF0ZSIgPj4gIiRHSVRIVUJfT1VUUFVUIgogICAgICAgICAgICAgIGVjaG8gInRpdGxlPSRSRUxFQVNFX1RJVExFIiA+PiAiJEdJVEhVQl9PVVRQVVQiCiAgICAgICAgICAgICAgZXhpdCAwCiAgICAgICAgICAgIGZpCiAgICAgICAgICBkb25lCgogICAgICAgICAgZWNobyAiOjplcnJvcjo657y65bCR5pu05paw5pel5b+X5paH5Lu277yM6K+35YWI5Yib5bu6IGRvY3MvcmVsZWFzZS1ub3Rlcy8ke0dJVEhVQl9SRUZfTkFNRX0ubWQiCiAgICAgICAgICBleGl0IDEKCiAgICAgIC0gbmFtZTogQnVpbGQgTGludXggYW1kNjQKICAgICAgICB3b3JraW5nLWRpcmVjdG9yeTogc2VydmVyCiAgICAgICAgZW52OgogICAgICAgICAgQ0dPX0VOQUJMRUQ6ICcwJwogICAgICAgICAgR09PUzogbGludXgKICAgICAgICAgIEdPQVJDSDogYW1kNjQKICAgICAgICBydW46IGdvIGJ1aWxkIC1sZGZsYWdzPSItcyAtdyAtWCBkYWlkYWktcGFuZWwvaGFuZGxlci5WZXJzaW9uPSR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fSIgLW8gZGFpZGFpLWxpbnV4LWFtZDY0IC4KCiAgICAgIC0gbmFtZTogQnVpbGQgTGludXggYXJtNjQKICAgICAgICB3b3JraW5nLWRpcmVjdG9yeTogc2VydmVyCiAgICAgICAgZW52OgogICAgICAgICAgQ0dPX0VOQUJMRUQ6ICcwJwogICAgICAgICAgR09PUzogbGludXgKICAgICAgICAgIEdPQVJDSDogYXJtNjQKICAgICAgICBydW46IGdvIGJ1aWxkIC1sZGZsYWdzPSItcyAtdyAtWCBkYWlkYWktcGFuZWwvaGFuZGxlci5WZXJzaW9uPSR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fSIgLW8gZGFpZGFpLWxpbnV4LWFybTY0IC4KCiAgICAgIC0gbmFtZTogQnVpbGQgTGludXggMzg2CiAgICAgICAgd29ya2luZy1kaXJlY3Rvcnk6IHNlcnZlcgogICAgICAgIGVudjoKICAgICAgICAgIENHT19FTkFCTEVEOiAnMCcKICAgICAgICAgIEdPT1M6IGxpbnV4CiAgICAgICAgICBHT0FSQ0g6ICczODYnCiAgICAgICAgcnVuOiBnbyBidWlsZCAtbGRmbGFncz0iLXMgLXcgLVggZGFpZGFpLXBhbmVsL2hhbmRsZXIuVmVyc2lvbj0ke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0iIC1vIGRhaWRhaS1saW51eC0zODYgLgoKICAgICAgLSBuYW1lOiBCdWlsZCBMaW51eCBhcm12NwogICAgICAgIHdvcmtpbmctZGlyZWN0b3J5OiBzZXJ2ZXIKICAgICAgICBlbnY6CiAgICAgICAgICBDR09fRU5BQkxFRDogJzAnCiAgICAgICAgICBHT09TOiBsaW51eAogICAgICAgICAgR09BUkNIOiBhcm0KICAgICAgICAgIEdPQVJNOiAnNycKICAgICAgICBydW46IGdvIGJ1aWxkIC1sZGZsYWdzPSItcyAtdyAtWCBkYWlkYWktcGFuZWwvaGFuZGxlci5WZXJzaW9uPSR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fSIgLW8gZGFpZGFpLWxpbnV4LWFybXY3IC4KCiAgICAgIC0gbmFtZTogQnVpbGQgV2luZG93cyBhbWQ2NAogICAgICAgIHdvcmtpbmctZGlyZWN0b3J5OiBzZXJ2ZXIKICAgICAgICBlbnY6CiAgICAgICAgICBDR09fRU5BQkxFRDogJzAnCiAgICAgICAgICBHT09TOiB3aW5kb3dzCiAgICAgICAgICBHT0FSQ0g6IGFtZDY0CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBnbyBidWlsZCAtbGRmbGFncz0iLXMgLXcgLVggZGFpZGFpLXBhbmVsL2hhbmRsZXIuVmVyc2lvbj0ke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0iIC1vIGRhaWRhaS1zZXJ2ZXIuZXhlIC4KICAgICAgICAgIGdvIGJ1aWxkIC1sZGZsYWdzPSItcyAtdyAtWCBkYWlkYWktcGFuZWwvaGFuZGxlci5WZXJzaW9uPSR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fSIgLW8gZGRwLmV4ZSAuL2NtZC9kZHAKCiAgICAgIC0gbmFtZTogUGFja2FnZQogICAgICAgIHJ1bjogfAogICAgICAgICAgbWtkaXIgLXAgcmVsZWFzZQogICAgICAgICAgY3Agc2VydmVyL2NvbmZpZy55YW1sIHJlbGVhc2UvIDI+L2Rldi9udWxsIHx8IHRydWUKICAgICAgICAgIGNwIC1yIHdlYi9kaXN0IHJlbGVhc2Uvd2ViCgogICAgICAgICAgY3Agc2VydmVyL2RhaWRhaS1saW51eC1hbWQ2NCByZWxlYXNlLwogICAgICAgICAgY2QgcmVsZWFzZSAmJiB0YXIgLWN6dmYgLi4vZGFpZGFpLWxpbnV4LWFtZDY0LnRhci5neiBkYWlkYWktbGludXgtYW1kNjQgY29uZmlnLnlhbWwgd2ViLwogICAgICAgICAgcm0gZGFpZGFpLWxpbnV4LWFtZDY0CgogICAgICAgICAgY3AgLi4vc2VydmVyL2RhaWRhaS1saW51eC1hcm02NCAuCiAgICAgICAgICB0YXIgLWN6dmYgLi4vZGFpZGFpLWxpbnV4LWFybTY0LnRhci5neiBkYWlkYWktbGludXgtYXJtNjQgY29uZmlnLnlhbWwgd2ViLwogICAgICAgICAgcm0gZGFpZGFpLWxpbnV4LWFybTY0CgogICAgICAgICAgY3AgLi4vc2VydmVyL2RhaWRhaS1saW51eC0zODYgLgogICAgICAgICAgdGFyIC1jenZmIC4uL2RhaWRhaS1saW51eC0zODYudGFyLmd6IGRhaWRhaS1saW51eC0zODYgY29uZmlnLnlhbWwgd2ViLwogICAgICAgICAgcm0gZGFpZGFpLWxpbnV4LTM4NgoKICAgICAgICAgIGNwIC4uL3NlcnZlci9kYWlkYWktbGludXgtYXJtdjcgLgogICAgICAgICAgdGFyIC1jenZmIC4uL2RhaWRhaS1saW51eC1hcm12Ny50YXIuZ3ogZGFpZGFpLWxpbnV4LWFybXY3IGNvbmZpZy55YW1sIHdlYi8KICAgICAgICAgIGNkIC4uCgogICAgICAgICAgIyBXaW5kb3dzIOWNleacuueJiO+8muS6jOi/m+WItiArIOeLrOeriyBjb25maWcueWFtbCArIHN0YXJ0LmJhdCArIFJFQURNRe+8jAogICAgICAgICAgIyDlkIzmorHliY3nq68gZGlzdO+8jOaVtOS4quino+WOi+WNs+eUqO+8m0dvIOWQjuerr+mAmui/hyBzZXJ2ZXIud2ViX2RpciDnm7TmjqXmiZjnrqHliY3nq6/jgIIKICAgICAgICAgIHdpbl9zdGFnaW5nPSJyZWxlYXNlLXdpbmRvd3MvZGFpZGFpLXBhbmVsLXdpbmRvd3MtYW1kNjQiCiAgICAgICAgICBta2RpciAtcCAiJHdpbl9zdGFnaW5nL3dlYiIKICAgICAgICAgIGNwIHNlcnZlci9kYWlkYWktc2VydmVyLmV4ZSAiJHdpbl9zdGFnaW5nLyIKICAgICAgICAgIGNwIHNlcnZlci9kZHAuZXhlICIkd2luX3N0YWdpbmcvIgogICAgICAgICAgY3AgLXIgd2ViL2Rpc3QvLiAiJHdpbl9zdGFnaW5nL3dlYi8iCiAgICAgICAgICBjcCBwYWNrYWdpbmcvd2luZG93cy9jb25maWcueWFtbCAiJHdpbl9zdGFnaW5nL2NvbmZpZy55YW1sIgogICAgICAgICAgY3AgcGFja2FnaW5nL3dpbmRvd3Mvc3RhcnQuYmF0ICIkd2luX3N0YWdpbmcvc3RhcnQuYmF0IgogICAgICAgICAgIyBHaXRIdWIgQWN0aW9ucyDlnKggTGludXgg5LiK5omTIFdpbmRvd3Mgemlw77yM6L+Z6YeM5Y+M5L+d6Zmp5oqK5om55aSE55CG6ISa5pys6L2s5oiQIENSTEbjgIIKICAgICAgICAgIHB5dGhvbjMgLSAiJHdpbl9zdGFnaW5nL3N0YXJ0LmJhdCIgPDwnUFknCiAgICAgICAgICBmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKICAgICAgICAgIGltcG9ydCBzeXMKICAgICAgICAgIHBhdGggPSBQYXRoKHN5cy5hcmd2WzFdKQogICAgICAgICAgdGV4dCA9IHBhdGgucmVhZF90ZXh0KGVuY29kaW5nPSJ1dGYtOCIpLnJlcGxhY2UoIlxyXG4iLCAiXG4iKS5yZXBsYWNlKCJcciIsICJcbiIpCiAgICAgICAgICBwYXRoLndyaXRlX2J5dGVzKHRleHQucmVwbGFjZSgiXG4iLCAiXHJcbiIpLmVuY29kZSgidXRmLTgiKSkKICAgICAgICAgIFBZCiAgICAgICAgICBjcCBwYWNrYWdpbmcvd2luZG93cy9SRUFETUUudHh0ICIkd2luX3N0YWdpbmcvUkVBRE1FLnR4dCIKICAgICAgICAgIChjZCByZWxlYXNlLXdpbmRvd3MgJiYgemlwIC1ycSAuLi9kYWlkYWktd2luZG93cy1hbWQ2NC56aXAgZGFpZGFpLXBhbmVsLXdpbmRvd3MtYW1kNjQpCgogICAgICAtIG5hbWU6IENyZWF0ZSBPciBVcGRhdGUgUmVsZWFzZQogICAgICAgIGVudjoKICAgICAgICAgIEdIX1RPS0VOOiAke3sgZ2l0aHViLnRva2VuIH19CiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIE5PVEVTX0ZJTEU9IiR7eyBzdGVwcy5yZWxlYXNlX25vdGVzLm91dHB1dHMuZmlsZSB9fSIKICAgICAgICAgIGlmIGdoIHJlbGVhc2UgdmlldyAiJHtHSVRIVUJfUkVGX05BTUV9IiA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgICAgICAgICAgZ2ggcmVsZWFzZSBlZGl0ICIke0dJVEhVQl9SRUZfTkFNRX0iIFwKICAgICAgICAgICAgICAtLXRpdGxlICIke3sgc3RlcHMucmVsZWFzZV9ub3Rlcy5vdXRwdXRzLnRpdGxlIH19IiBcCiAgICAgICAgICAgICAgLS1ub3Rlcy1maWxlICIkTk9URVNfRklMRSIKICAgICAgICAgICAgZ2ggcmVsZWFzZSB1cGxvYWQgIiR7R0lUSFVCX1JFRl9OQU1FfSIgXAogICAgICAgICAgICAgIGRhaWRhaS1saW51eC1hbWQ2NC50YXIuZ3ogXAogICAgICAgICAgICAgIGRhaWRhaS1saW51eC1hcm02NC50YXIuZ3ogXAogICAgICAgICAgICAgIGRhaWRhaS1saW51eC0zODYudGFyLmd6IFwKICAgICAgICAgICAgICBkYWlkYWktbGludXgtYXJtdjcudGFyLmd6IFwKICAgICAgICAgICAgICBkYWlkYWktd2luZG93cy1hbWQ2NC56aXAgXAogICAgICAgICAgICAgIC0tY2xvYmJlcgogICAgICAgICAgZWxzZQogICAgICAgICAgICBnaCByZWxlYXNlIGNyZWF0ZSAiJHtHSVRIVUJfUkVGX05BTUV9IiBcCiAgICAgICAgICAgICAgZGFpZGFpLWxpbnV4LWFtZDY0LnRhci5neiBcCiAgICAgICAgICAgICAgZGFpZGFpLWxpbnV4LWFybTY0LnRhci5neiBcCiAgICAgICAgICAgICAgZGFpZGFpLWxpbnV4LTM4Ni50YXIuZ3ogXAogICAgICAgICAgICAgIGRhaWRhaS1saW51eC1hcm12Ny50YXIuZ3ogXAogICAgICAgICAgICAgIGRhaWRhaS13aW5kb3dzLWFtZDY0LnppcCBcCiAgICAgICAgICAgICAgLS10aXRsZSAiJHt7IHN0ZXBzLnJlbGVhc2Vfbm90ZXMub3V0cHV0cy50aXRsZSB9fSIgXAogICAgICAgICAgICAgIC0tbm90ZXMtZmlsZSAiJE5PVEVTX0ZJTEUiCiAgICAgICAgICBmaQoKICBtYWdpc2stbW9kdWxlOgogICAgcnVucy1vbjogdWJ1bnR1LWxhdGVzdAogICAgbmVlZHM6IHJlbGVhc2UKICAgIHN0ZXBzOgogICAgICAtIHVzZXM6IGFjdGlvbnMvY2hlY2tvdXRAdjUKCiAgICAgIC0gbmFtZTogR2V0IHZlcnNpb24gZnJvbSB0YWcKICAgICAgICBpZDogdmVyc2lvbgogICAgICAgIHJ1bjogZWNobyAiVkVSU0lPTj0ke0dJVEhVQl9SRUZfTkFNRSN2fSIgPj4gJEdJVEhVQl9PVVRQVVQKCiAgICAgIC0gbmFtZTogU2V0IHVwIEdvCiAgICAgICAgdXNlczogYWN0aW9ucy9zZXR1cC1nb0B2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBnby12ZXJzaW9uLWZpbGU6IHNlcnZlci9nby5tb2QKICAgICAgICAgIGNhY2hlLWRlcGVuZGVuY3ktcGF0aDogc2VydmVyL2dvLnN1bQoKICAgICAgLSBuYW1lOiBTZXQgdXAgTm9kZS5qcwogICAgICAgIHVzZXM6IGFjdGlvbnMvc2V0dXAtbm9kZUB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBub2RlLXZlcnNpb246ICcyMCcKICAgICAgICAgIGNhY2hlOiAnbnBtJwogICAgICAgICAgY2FjaGUtZGVwZW5kZW5jeS1wYXRoOiB3ZWIvcGFja2FnZS1sb2NrLmpzb24KCiAgICAgIC0gbmFtZTogQnVpbGQgRnJvbnRlbmQKICAgICAgICB3b3JraW5nLWRpcmVjdG9yeTogd2ViCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBucG0gY2kKICAgICAgICAgIG5wbSBydW4gYnVpbGQKCiAgICAgIC0gbmFtZTogQ29tcHV0ZSB2ZXJzaW9uQ29kZQogICAgICAgIGlkOiB2ZXJjb2RlCiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgICMg5oqKICIyLjAuNiIgLT4gIjIwMDA2IiDov5nmoLfnmoQgdmVyc2lvbkNvZGXvvIzmlrnkvr8gTWFnaXNrIOavlOi+gwogICAgICAgICAgVj0iJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19IgogICAgICAgICAgSUZTPScuJyByZWFkIC1yIE1BSiBNSU4gUEFUQ0ggPDw8ICIkViIKICAgICAgICAgIE1BSj0ke01BSjotMH07IE1JTj0ke01JTjotMH07IFBBVENIPSR7UEFUQ0g6LTB9CiAgICAgICAgICBDT0RFPSQoKCBNQUogKiAxMDAwMCArIE1JTiAqIDEwMCArIFBBVENIICkpCiAgICAgICAgICBlY2hvICJWRVJTSU9OQ09ERT0ke0NPREV9IiA+PiAiJEdJVEhVQl9PVVRQVVQiCgogICAgICAtIG5hbWU6IEJ1aWxkIE1hZ2lzayBNb2R1bGUgKHVuaXZlcnNhbCBhcm02NCArIGFtZDY0KQogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgVkVSU0lPTj0iJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19IgoKICAgICAgICAgICMg55u05o6l5aSN55SoIE1hZ2lzay9idWlsZC5zaCDigJTigJQg5L+d6K+B5pys5Zyw5omT5YyF5LiOIENJIOS6p+eJqee7k+aehOS4gOiHtAogICAgICAgICAgIyDor6XohJrmnKzkvJrlkIzml7bnvJbor5EgYXJtNjQgLyBhbWQ2NCDlkI7nq6/jgIHmi7fotJ0gc3lzdGVtL2Jpbi9ydXJpbWHjgIFhcGsv44CBCiAgICAgICAgICAjIOWQjOatpSB2ZXJzaW9uIOS4jiB2ZXJzaW9uQ29kZeOAgeaJk+WMhSBaSVAg5YiwIGRpc3QvIOebruW9leOAggogICAgICAgICAgYmFzaCBNYWdpc2svYnVpbGQuc2ggIiRWRVJTSU9OIiBhbGwKCiAgICAgICAgICBPVVQ9ImRhaWRhaS1wYW5lbC1tYWdpc2stdiR7VkVSU0lPTn0uemlwIgogICAgICAgICAgY3AgLWYgImRpc3QvJHtPVVR9IiAiJHtPVVR9IgoKICAgICAgICAgIGxzIC1saCAiJHtPVVR9IgogICAgICAgICAgZWNobyAiWklQRklMRT0ke09VVH0iID4+ICIkR0lUSFVCX0VOViIKCiAgICAgIC0gbmFtZTogU3luYyB1cGRhdGUuanNvbgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgVkVSU0lPTj0iJHt7IHN0ZXBzLnZlcnNpb24ub3V0cHV0cy5WRVJTSU9OIH19IgogICAgICAgICAgVkVSU0lPTkNPREU9IiR7eyBzdGVwcy52ZXJjb2RlLm91dHB1dHMuVkVSU0lPTkNPREUgfX0iCiAgICAgICAgICBSRVBPPSIke0dJVEhVQl9SRVBPU0lUT1JZfSIKCiAgICAgICAgICAjIOS8mOWFiOS9v+eUqOS7k+W6k+WGheeahCByZWxlYXNlIG5vdGVz77yM6Iul57y65aSx5YiZ5Zue6YCA5YiwIEdpdEh1YiBSZWxlYXNlIOmhtQogICAgICAgICAgQ0hBTkdFTE9HX1VSTD0iaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tLyR7UkVQT30vbWFpbi9kb2NzL3JlbGVhc2Utbm90ZXMvdiR7VkVSU0lPTn0ubWQiCiAgICAgICAgICBpZiBbICEgLWYgImRvY3MvcmVsZWFzZS1ub3Rlcy92JHtWRVJTSU9OfS5tZCIgXTsgdGhlbgogICAgICAgICAgICBDSEFOR0VMT0dfVVJMPSJodHRwczovL2dpdGh1Yi5jb20vJHtSRVBPfS9yZWxlYXNlcy90YWcvdiR7VkVSU0lPTn0iCiAgICAgICAgICBmaQoKICAgICAgICAgIGNhdCA+IE1hZ2lzay91cGRhdGUuanNvbiA8PEVPRgogICAgICAgICAgewogICAgICAgICAgICAidmVyc2lvbiI6ICJ2JHtWRVJTSU9OfSIsCiAgICAgICAgICAgICJ2ZXJzaW9uQ29kZSI6ICR7VkVSU0lPTkNPREV9LAogICAgICAgICAgICAiemlwVXJsIjogImh0dHBzOi8vZ2l0aHViLmNvbS8ke1JFUE99L3JlbGVhc2VzL2Rvd25sb2FkL3Yke1ZFUlNJT059L2RhaWRhaS1wYW5lbC1tYWdpc2stdiR7VkVSU0lPTn0uemlwIiwKICAgICAgICAgICAgImNoYW5nZWxvZyI6ICIke0NIQU5HRUxPR19VUkx9IgogICAgICAgICAgfQogICAgICAgICAgRU9GCiAgICAgICAgICBlY2hvICItLSB1cGRhdGUuanNvbiAtLSIKICAgICAgICAgIGNhdCBNYWdpc2svdXBkYXRlLmpzb24KCiAgICAgIC0gbmFtZTogVXBsb2FkIE1hZ2lzayBNb2R1bGUgdG8gUmVsZWFzZQogICAgICAgIGVudjoKICAgICAgICAgIEdIX1RPS0VOOiAke3sgZ2l0aHViLnRva2VuIH19CiAgICAgICAgc2hlbGw6IGJhc2gKICAgICAgICBydW46IHwKICAgICAgICAgIGdoIHJlbGVhc2UgdXBsb2FkICIke0dJVEhVQl9SRUZfTkFNRX0iIFwKICAgICAgICAgICAgIiR7WklQRklMRX0iIFwKICAgICAgICAgICAgTWFnaXNrL3VwZGF0ZS5qc29uIFwKICAgICAgICAgICAgLS1jbG9iYmVyCiAgICAgICAgICBlY2hvICJNYWdpc2sg5qih5Z2X5LiOIHVwZGF0ZS5qc29uIOW3suS4iuS8oOWIsCBSZWxlYXNlICR7R0lUSFVCX1JFRl9OQU1FfSIKCiAgZG9ja2VyLWFscGluZToKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIG5lZWRzOiByZWxlYXNlCiAgICBuYW1lOiBEb2NrZXIgQWxwaW5lICgke3sgbWF0cml4LnRhZ19jaGFubmVsIH19KQogICAgc3RyYXRlZ3k6CiAgICAgIGZhaWwtZmFzdDogZmFsc2UKICAgICAgbWF0cml4OgogICAgICAgIGluY2x1ZGU6CiAgICAgICAgICAtIHRhZ19jaGFubmVsOiBsYXRlc3QKICAgICAgICAgICAgcHl0aG9uX21vZGU6IHNpbmdsZQogICAgICAgICAgICBweXRob25fdmVyc2lvbjogJzMuMTInCiAgICAgICAgICAgIHZlcnNpb25fc3VmZml4OiAnJwogICAgICAgICAgICBwbGF0Zm9ybXM6IGxpbnV4L2FtZDY0LGxpbnV4L2FybTY0LGxpbnV4LzM4NixsaW51eC9hcm0vdjcKICAgICAgICAgIC0gdGFnX2NoYW5uZWw6IGxhdGVzdDMuMTAKICAgICAgICAgICAgcHl0aG9uX21vZGU6IHNpbmdsZQogICAgICAgICAgICBweXRob25fdmVyc2lvbjogJzMuMTAnCiAgICAgICAgICAgIHZlcnNpb25fc3VmZml4OiAnLTMuMTAnCiAgICAgICAgICAgIHBsYXRmb3JtczogbGludXgvYW1kNjQsbGludXgvYXJtNjQKICAgICAgICAgIC0gdGFnX2NoYW5uZWw6IGxhdGVzdDMuMTEKICAgICAgICAgICAgcHl0aG9uX21vZGU6IHNpbmdsZQogICAgICAgICAgICBweXRob25fdmVyc2lvbjogJzMuMTEnCiAgICAgICAgICAgIHZlcnNpb25fc3VmZml4OiAnLTMuMTEnCiAgICAgICAgICAgIHBsYXRmb3JtczogbGludXgvYW1kNjQsbGludXgvYXJtNjQKICAgICAgICAgIC0gdGFnX2NoYW5uZWw6IGxhdGVzdGFsbAogICAgICAgICAgICBweXRob25fbW9kZTogYWxsCiAgICAgICAgICAgIHB5dGhvbl92ZXJzaW9uOiAnMy4xMicKICAgICAgICAgICAgdmVyc2lvbl9zdWZmaXg6ICctYWxsJwogICAgICAgICAgICBwbGF0Zm9ybXM6IGxpbnV4L2FtZDY0LGxpbnV4L2FybTY0CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY1CgogICAgICAtIG5hbWU6IEdldCB2ZXJzaW9uIGZyb20gdGFnCiAgICAgICAgaWQ6IHZlcnNpb24KICAgICAgICBydW46IGVjaG8gIlZFUlNJT049JHtHSVRIVUJfUkVGX05BTUUjdn0iID4+ICRHSVRIVUJfT1VUUFVUCgogICAgICAtIG5hbWU6IFJlc29sdmUgRG9ja2VyIHRhZ3MKICAgICAgICBpZDogZG9ja2VyX3RhZ3MKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgc2V0IC1ldW8gcGlwZWZhaWwKICAgICAgICAgIHsKICAgICAgICAgICAgZWNobyAidGFnczw8RU9GIgogICAgICAgICAgICBlY2hvICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6JHt7IG1hdHJpeC50YWdfY2hhbm5lbCB9fSIKICAgICAgICAgICAgZWNobyAibGlueml4dWFuenovZGFpZGFpLXBhbmVsOiR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fSR7eyBtYXRyaXgudmVyc2lvbl9zdWZmaXggfX0iCiAgICAgICAgICAgIGVjaG8gIkVPRiIKICAgICAgICAgIH0gPj4gIiRHSVRIVUJfT1VUUFVUIgoKICAgICAgLSB1c2VzOiBkb2NrZXIvc2V0dXAtcWVtdS1hY3Rpb25AdjMKCiAgICAgIC0gbmFtZTogUHJlLXB1bGwgQnVpbGRLaXQgaW1hZ2UKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgc2V0IC1ldW8gcGlwZWZhaWwKICAgICAgICAgIGZvciBhdHRlbXB0IGluIDEgMiAzOyBkbwogICAgICAgICAgICBpZiBkb2NrZXIgcHVsbCBtb2J5L2J1aWxka2l0OmJ1aWxkeC1zdGFibGUtMTsgdGhlbgogICAgICAgICAgICAgIGV4aXQgMAogICAgICAgICAgICBmaQogICAgICAgICAgICBzbGVlcCAkKChhdHRlbXB0ICogMTUpKQogICAgICAgICAgZG9uZQogICAgICAgICAgZG9ja2VyIHB1bGwgbW9ieS9idWlsZGtpdDpidWlsZHgtc3RhYmxlLTEKCiAgICAgIC0gdXNlczogZG9ja2VyL3NldHVwLWJ1aWxkeC1hY3Rpb25AdjMKCiAgICAgIC0gbmFtZTogRG9ja2VyIEh1YiBsb2dpbgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgZW52OgogICAgICAgICAgRE9DS0VSSFVCX1VTRVJOQU1FOiAke3sgc2VjcmV0cy5ET0NLRVJIVUJfVVNFUk5BTUUgfX0KICAgICAgICAgIERPQ0tFUkhVQl9UT0tFTjogJHt7IHNlY3JldHMuRE9DS0VSSFVCX1RPS0VOIH19CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgZm9yIGF0dGVtcHQgaW4gMSAyIDM7IGRvCiAgICAgICAgICAgIGlmIHByaW50ZiAnJXMnICIkRE9DS0VSSFVCX1RPS0VOIiB8IGRvY2tlciBsb2dpbiAtLXVzZXJuYW1lICIkRE9DS0VSSFVCX1VTRVJOQU1FIiAtLXBhc3N3b3JkLXN0ZGluOyB0aGVuCiAgICAgICAgICAgICAgZXhpdCAwCiAgICAgICAgICAgIGZpCiAgICAgICAgICAgIHNsZWVwICQoKGF0dGVtcHQgKiAxNSkpCiAgICAgICAgICBkb25lCiAgICAgICAgICBwcmludGYgJyVzJyAiJERPQ0tFUkhVQl9UT0tFTiIgfCBkb2NrZXIgbG9naW4gLS11c2VybmFtZSAiJERPQ0tFUkhVQl9VU0VSTkFNRSIgLS1wYXNzd29yZC1zdGRpbgoKICAgICAgLSBuYW1lOiBCdWlsZCBhbmQgcHVzaCBtdWx0aS1hcmNoIGltYWdlCiAgICAgICAgdXNlczogZG9ja2VyL2J1aWxkLXB1c2gtYWN0aW9uQHY2CiAgICAgICAgd2l0aDoKICAgICAgICAgIGNvbnRleHQ6IC4KICAgICAgICAgIGZpbGU6IERvY2tlcmZpbGUKICAgICAgICAgICMgQWxwaW5lIGxhdGVzdCBrZWVwcyAzMi1iaXQgcGxhdGZvcm1zOyAzLjEwIC8gMy4xMSAvIGFsbCBvbmx5IHB1Ymxpc2ggYW1kNjQgLyBhcm02NCB3aXRoIHN0YW5kYWxvbmUgUHl0aG9uIGFzc2V0cy4KICAgICAgICAgIHBsYXRmb3JtczogJHt7IG1hdHJpeC5wbGF0Zm9ybXMgfX0KICAgICAgICAgIHB1c2g6IHRydWUKICAgICAgICAgIGJ1aWxkLWFyZ3M6IHwKICAgICAgICAgICAgVkVSU0lPTj0ke3sgc3RlcHMudmVyc2lvbi5vdXRwdXRzLlZFUlNJT04gfX0KICAgICAgICAgICAgUFlUSE9OX1JVTlRJTUVfTU9ERT0ke3sgbWF0cml4LnB5dGhvbl9tb2RlIH19CiAgICAgICAgICAgIFBZVEhPTl9SVU5USU1FX1ZFUlNJT049JHt7IG1hdHJpeC5weXRob25fdmVyc2lvbiB9fQogICAgICAgICAgIyBHSEEgY2FjaGUg5a+85Ye65YG25Y+RIDUwNCDml7bvvIzkvJrlh7rnjrDigJzplZzlg4/lhbblrp7lt7Lnu48gcHVzaCDmiJDlip/vvIzkvYYgam9iIOacgOe7iOS7jeWksei0peKAneeahOWBh+e6ouOAggogICAgICAgICAgIyDov5nph4zmlLnmiJAgcmVnaXN0cnkgKyBpbmxpbmUgY2FjaGXvvIznibrnibLkuIDngrnnvJPlrZjmlYjnjofvvIzmjaLlj5blj5HluIPpk77nqLPlrprmgKfjgIIKICAgICAgICAgIGNhY2hlLWZyb206IHR5cGU9cmVnaXN0cnkscmVmPWxpbnppeHVhbnp6L2RhaWRhaS1wYW5lbDoke3sgbWF0cml4LnRhZ19jaGFubmVsIH19CiAgICAgICAgICBjYWNoZS10bzogdHlwZT1pbmxpbmUKICAgICAgICAgIHRhZ3M6ICR7eyBzdGVwcy5kb2NrZXJfdGFncy5vdXRwdXRzLnRhZ3MgfX0KCiAgZG9ja2VyLWRlYmlhbjoKICAgIHJ1bnMtb246IHVidW50dS1sYXRlc3QKICAgIG5lZWRzOiBkb2NrZXItYWxwaW5lCiAgICBuYW1lOiBEb2NrZXIgRGViaWFuICgke3sgbWF0cml4LnRhZ19jaGFubmVsIH19KQogICAgc3RyYXRlZ3k6CiAgICAgIGZhaWwtZmFzdDogZmFsc2UKICAgICAgbWF0cml4OgogICAgICAgIGluY2x1ZGU6CiAgICAgICAgICAtIHRhZ19jaGFubmVsOiBkZWJpYW4KICAgICAgICAgICAgcHl0aG9uX21vZGU6IHNpbmdsZQogICAgICAgICAgICBweXRob25fdmVyc2lvbjogJzMuMTInCiAgICAgICAgICAgIHZlcnNpb25fc3VmZml4OiAnLWRlYmlhbicKICAgICAgICAgICAgcGxhdGZvcm1zOiBsaW51eC9hbWQ2NCxsaW51eC9hcm02NCxsaW51eC9hcm0vdjcKICAgICAgICAgIC0gdGFnX2NoYW5uZWw6IGRlYmlhbjMuMTAKICAgICAgICAgICAgcHl0aG9uX21vZGU6IHNpbmdsZQogICAgICAgICAgICBweXRob25fdmVyc2lvbjogJzMuMTAnCiAgICAgICAgICAgIHZlcnNpb25fc3VmZml4OiAnLWRlYmlhbjMuMTAnCiAgICAgICAgICAgIHBsYXRmb3JtczogbGludXgvYW1kNjQsbGludXgvYXJtNjQsbGludXgvYXJtL3Y3CiAgICAgICAgICAtIHRhZ19jaGFubmVsOiBkZWJpYW4zLjExCiAgICAgICAgICAgIHB5dGhvbl9tb2RlOiBzaW5nbGUKICAgICAgICAgICAgcHl0aG9uX3ZlcnNpb246ICczLjExJwogICAgICAgICAgICB2ZXJzaW9uX3N1ZmZpeDogJy1kZWJpYW4zLjExJwogICAgICAgICAgICBwbGF0Zm9ybXM6IGxpbnV4L2FtZDY0LGxpbnV4L2FybTY0LGxpbnV4L2FybS92NwogICAgICAgICAgLSB0YWdfY2hhbm5lbDogZGViaWFuYWxsCiAgICAgICAgICAgIHB5dGhvbl9tb2RlOiBhbGwKICAgICAgICAgICAgcHl0aG9uX3ZlcnNpb246ICczLjEyJwogICAgICAgICAgICB2ZXJzaW9uX3N1ZmZpeDogJy1kZWJpYW5hbGwnCiAgICAgICAgICAgIHBsYXRmb3JtczogbGludXgvYW1kNjQsbGludXgvYXJtNjQsbGludXgvYXJtL3Y3CiAgICBzdGVwczoKICAgICAgLSB1c2VzOiBhY3Rpb25zL2NoZWNrb3V0QHY1CgogICAgICAtIG5hbWU6IEdldCB2ZXJzaW9uIGZyb20gdGFnCiAgICAgICAgaWQ6IHZlcnNpb24KICAgICAgICBydW46IGVjaG8gIlZFUlNJT049JHtHSVRIVUJfUkVGX05BTUUjdn0iID4+ICRHSVRIVUJfT1VUUFVUCgogICAgICAtIG5hbWU6IFJlc29sdmUgRG9ja2VyIHRhZ3MKICAgICAgICBpZDogZG9ja2VyX3RhZ3MKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgc2V0IC1ldW8gcGlwZWZhaWwKICAgICAgICAgIHsKICAgICAgICAgICAgZWNobyAidGFnczw8RU9GIgogICAgICAgICAgICBlY2hvICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6JHt7IG1hdHJpeC50YWdfY2hhbm5lbCB9fSIKICAgICAgICAgICAgZWNobyAibGlueml4dWFuenovZGFpZGFpLXBhbmVsOiR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fSR7eyBtYXRyaXgudmVyc2lvbl9zdWZmaXggfX0iCiAgICAgICAgICAgIGVjaG8gIkVPRiIKICAgICAgICAgIH0gPj4gIiRHSVRIVUJfT1VUUFVUIgoKICAgICAgLSB1c2VzOiBkb2NrZXIvc2V0dXAtcWVtdS1hY3Rpb25AdjMKCiAgICAgIC0gbmFtZTogUHJlLXB1bGwgQnVpbGRLaXQgaW1hZ2UKICAgICAgICBzaGVsbDogYmFzaAogICAgICAgIHJ1bjogfAogICAgICAgICAgc2V0IC1ldW8gcGlwZWZhaWwKICAgICAgICAgIGZvciBhdHRlbXB0IGluIDEgMiAzOyBkbwogICAgICAgICAgICBpZiBkb2NrZXIgcHVsbCBtb2J5L2J1aWxka2l0OmJ1aWxkeC1zdGFibGUtMTsgdGhlbgogICAgICAgICAgICAgIGV4aXQgMAogICAgICAgICAgICBmaQogICAgICAgICAgICBzbGVlcCAkKChhdHRlbXB0ICogMTUpKQogICAgICAgICAgZG9uZQogICAgICAgICAgZG9ja2VyIHB1bGwgbW9ieS9idWlsZGtpdDpidWlsZHgtc3RhYmxlLTEKCiAgICAgIC0gdXNlczogZG9ja2VyL3NldHVwLWJ1aWxkeC1hY3Rpb25AdjMKCiAgICAgIC0gbmFtZTogRG9ja2VyIEh1YiBsb2dpbgogICAgICAgIHNoZWxsOiBiYXNoCiAgICAgICAgZW52OgogICAgICAgICAgRE9DS0VSSFVCX1VTRVJOQU1FOiAke3sgc2VjcmV0cy5ET0NLRVJIVUJfVVNFUk5BTUUgfX0KICAgICAgICAgIERPQ0tFUkhVQl9UT0tFTjogJHt7IHNlY3JldHMuRE9DS0VSSFVCX1RPS0VOIH19CiAgICAgICAgcnVuOiB8CiAgICAgICAgICBzZXQgLWV1byBwaXBlZmFpbAogICAgICAgICAgZm9yIGF0dGVtcHQgaW4gMSAyIDM7IGRvCiAgICAgICAgICAgIGlmIHByaW50ZiAnJXMnICIkRE9DS0VSSFVCX1RPS0VOIiB8IGRvY2tlciBsb2dpbiAtLXVzZXJuYW1lICIkRE9DS0VSSFVCX1VTRVJOQU1FIiAtLXBhc3N3b3JkLXN0ZGluOyB0aGVuCiAgICAgICAgICAgICAgZXhpdCAwCiAgICAgICAgICAgIGZpCiAgICAgICAgICAgIHNsZWVwICQoKGF0dGVtcHQgKiAxNSkpCiAgICAgICAgICBkb25lCiAgICAgICAgICBwcmludGYgJyVzJyAiJERPQ0tFUkhVQl9UT0tFTiIgfCBkb2NrZXIgbG9naW4gLS11c2VybmFtZSAiJERPQ0tFUkhVQl9VU0VSTkFNRSIgLS1wYXNzd29yZC1zdGRpbgoKICAgICAgLSBuYW1lOiBCdWlsZCBhbmQgcHVzaCBEZWJpYW4gbXVsdGktYXJjaCBpbWFnZQogICAgICAgIHVzZXM6IGRvY2tlci9idWlsZC1wdXNoLWFjdGlvbkB2NgogICAgICAgIHdpdGg6CiAgICAgICAgICBjb250ZXh0OiAuCiAgICAgICAgICBmaWxlOiBEb2NrZXJmaWxlLmRlYmlhbgogICAgICAgICAgIyBEZWJpYW4gcnVudGltZSB1c2VzIG5vZGU6MjAuMTkuMC1ib29rd29ybS1zbGltLCB3aGljaCBoYXMgbm8gbGludXgvMzg2IG1hbmlmZXN0LgogICAgICAgICAgcGxhdGZvcm1zOiAke3sgbWF0cml4LnBsYXRmb3JtcyB9fQogICAgICAgICAgcHVzaDogdHJ1ZQogICAgICAgICAgYnVpbGQtYXJnczogfAogICAgICAgICAgICBWRVJTSU9OPSR7eyBzdGVwcy52ZXJzaW9uLm91dHB1dHMuVkVSU0lPTiB9fQogICAgICAgICAgICBQWVRIT05fUlVOVElNRV9NT0RFPSR7eyBtYXRyaXgucHl0aG9uX21vZGUgfX0KICAgICAgICAgICAgUFlUSE9OX1JVTlRJTUVfVkVSU0lPTj0ke3sgbWF0cml4LnB5dGhvbl92ZXJzaW9uIH19CiAgICAgICAgICBjYWNoZS1mcm9tOiB0eXBlPXJlZ2lzdHJ5LHJlZj1saW56aXh1YW56ei9kYWlkYWktcGFuZWw6JHt7IG1hdHJpeC50YWdfY2hhbm5lbCB9fQogICAgICAgICAgY2FjaGUtdG86IHR5cGU9aW5saW5lCiAgICAgICAgICB0YWdzOiAke3sgc3RlcHMuZG9ja2VyX3RhZ3Mub3V0cHV0cy50YWdzIH19Cg==
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+# 防同 tag 二次触发覆盖（即使 GitHub 阻拦，手动重跑也走同一 group）
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: 'true'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+
+      - uses: actions/setup-go@v6
+        with:
+          go-version-file: server/go.mod
+          cache-dependency-path: server/go.sum
+
+      - name: Build Frontend
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Resolve release notes
+        id: release_notes
+        shell: bash
+        run: |
+          RELEASE_TITLE="${GITHUB_REF_NAME}"
+          candidates=(
+            "docs/release-notes/${GITHUB_REF_NAME}.md"
+            "docs/release-notes/${{ steps.version.outputs.VERSION }}.md"
+          )
+
+          for candidate in "${candidates[@]}"; do
+            if [[ -f "$candidate" ]]; then
+              summary="$(grep -oPm1 '(?<=<!--\s*release-title:\s).*?(?=\s*-->)' "$candidate" || true)"
+              if [[ -n "$summary" ]]; then
+                RELEASE_TITLE="${GITHUB_REF_NAME}：${summary}"
+              fi
+              echo "file=$candidate" >> "$GITHUB_OUTPUT"
+              echo "title=$RELEASE_TITLE" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+          done
+
+          echo "::error::缺少更新日志文件，请先创建 docs/release-notes/${GITHUB_REF_NAME}.md"
+          exit 1
+
+      - name: Build binaries
+        env:
+          VERSION: ${{ steps.version.outputs.VERSION }}
+          CGO_ENABLED: '0'
+          GOOS: ${{ matrix.goos }}
+          GOARCH: ${{ matrix.goarch }}
+          GOARM: ${{ matrix.goarm }}
+        strategy:
+          fail-fast: false
+          matrix:
+            include:
+              - target: linux-amd64
+                goos: linux
+                goarch: amd64
+                binary: daidai-linux-amd64
+                ddp: false
+              - target: linux-arm64
+                goos: linux
+                goarch: arm64
+                binary: daidai-linux-arm64
+                ddp: false
+              - target: linux-386
+                goos: linux
+                goarch: "386"
+                binary: daidai-linux-386
+                ddp: false
+              - target: linux-armv7
+                goos: linux
+                goarch: arm
+                goarm: "7"
+                binary: daidai-linux-armv7
+                ddp: false
+              - target: windows-amd64
+                goos: windows
+                goarch: amd64
+                binary: daidai-server.exe
+                ddp: true
+        working-directory: server
+        run: |
+          go build -trimpath -ldflags="-s -w -X daidai-panel/handler.Version=${VERSION}" -o ${{ matrix.binary }} .
+          if [ "${{ matrix.ddp }}" = "true" ]; then
+            go build -trimpath -ldflags="-s -w" -o ddp.exe ./cmd/ddp
+          fi
+          ls -lh ${{ matrix.binary }} ddp.exe 2>/dev/null || true
+
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-${{ matrix.target }}
+          path: |
+            server/${{ matrix.binary }}
+            server/ddp.exe
+          if-no-files-found: warn
+
+      - name: Download all build artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+          merge-multiple: true
+
+      - name: Package
+        run: |
+          mkdir -p release
+          cp server/config.yaml release/ 2>/dev/null || true
+          cp -r web/dist release/web
+
+          for target in linux-amd64 linux-arm64 linux-386 linux-armv7; do
+            binary="daidai-${target}"
+            if [ ! -f "artifacts/${binary}" ]; then
+              echo "::error::Missing artifact for ${target}"
+              exit 1
+            fi
+            cp "artifacts/${binary}" release/
+            (cd release && tar -czvf "../daidai-${target}.tar.gz" "${binary}" config.yaml web/)
+            rm "release/${binary}"
+          done
+
+          # Windows 单机版：二进制 + 独立 config.yaml + start.bat + README，
+          # 同梱前端 dist，整个解压即用；Go 后端通过 server.web_dir 直接托管前端。
+          win_staging="release-windows/daidai-panel-windows-amd64"
+          mkdir -p "$win_staging/web"
+          if [ ! -f "artifacts/daidai-server.exe" ] || [ ! -f "artifacts/ddp.exe" ]; then
+            echo "::error::Missing Windows artifacts"
+            exit 1
+          fi
+          cp artifacts/daidai-server.exe "$win_staging/"
+          cp artifacts/ddp.exe "$win_staging/"
+          cp -r web/dist/. "$win_staging/web/"
+          cp packaging/windows/config.yaml "$win_staging/config.yaml"
+          cp packaging/windows/start.bat "$win_staging/start.bat"
+          # GitHub Actions 在 Linux 上打 Windows zip，这里双保险把批处理脚本转成 CRLF。
+          python3 - "$win_staging/start.bat" <<'PY'
+          from pathlib import Path
+          import sys
+          path = Path(sys.argv[1])
+          text = path.read_text(encoding="utf-8").replace("\r\n", "\n").replace("\r", "\n")
+          path.write_bytes(text.replace("\n", "\r\n").encode("utf-8"))
+          PY
+          cp packaging/windows/README.txt "$win_staging/README.txt"
+          (cd release-windows && zip -rq ../daidai-windows-amd64.zip daidai-panel-windows-amd64)
+
+      - name: Create Or Update Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          NOTES_FILE="${{ steps.release_notes.outputs.file }}"
+          if gh release view "${GITHUB_REF_NAME}" >/dev/null 2>&1; then
+            gh release edit "${GITHUB_REF_NAME}" \
+              --title "${{ steps.release_notes.outputs.title }}" \
+              --notes-file "$NOTES_FILE"
+            gh release upload "${GITHUB_REF_NAME}" \
+              daidai-linux-amd64.tar.gz \
+              daidai-linux-arm64.tar.gz \
+              daidai-linux-386.tar.gz \
+              daidai-linux-armv7.tar.gz \
+              daidai-windows-amd64.zip \
+              --clobber
+          else
+            gh release create "${GITHUB_REF_NAME}" \
+              daidai-linux-amd64.tar.gz \
+              daidai-linux-arm64.tar.gz \
+              daidai-linux-386.tar.gz \
+              daidai-linux-armv7.tar.gz \
+              daidai-windows-amd64.zip \
+              --title "${{ steps.release_notes.outputs.title }}" \
+              --notes-file "$NOTES_FILE"
+          fi
+
+  magisk-module:
+    runs-on: ubuntu-latest
+    needs: release
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: server/go.mod
+          cache-dependency-path: server/go.sum
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: web/package-lock.json
+
+      - name: Build Frontend
+        working-directory: web
+        run: |
+          npm ci
+          npm run build
+
+      - name: Compute versionCode
+        id: vercode
+        shell: bash
+        run: |
+          # 把 "2.0.6" -> "20006" 这样的 versionCode，方便 Magisk 比较
+          V="${{ steps.version.outputs.VERSION }}"
+          IFS='.' read -r MAJ MIN PATCH <<< "$V"
+          MAJ=${MAJ:-0}; MIN=${MIN:-0}; PATCH=${PATCH:-0}
+          CODE=$(( MAJ * 10000 + MIN * 100 + PATCH ))
+          echo "VERSIONCODE=${CODE}" >> "$GITHUB_OUTPUT"
+
+      - name: Build Magisk Module (universal arm64 + amd64)
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.VERSION }}"
+
+          # 直接复用 Magisk/build.sh —— 保证本地打包与 CI 产物结构一致
+          # 该脚本会同时编译 arm64 / amd64 后端、拷贝 system/bin/rurima、apk/、
+          # 同步 version 与 versionCode、打包 ZIP 到 dist/ 目录。
+          bash Magisk/build.sh "$VERSION" all
+
+          OUT="daidai-panel-magisk-v${VERSION}.zip"
+          cp -f "dist/${OUT}" "${OUT}"
+
+          ls -lh "${OUT}"
+          echo "ZIPFILE=${OUT}" >> "$GITHUB_ENV"
+
+      - name: Sync update.json
+        shell: bash
+        run: |
+          set -euo pipefail
+          VERSION="${{ steps.version.outputs.VERSION }}"
+          VERSIONCODE="${{ steps.vercode.outputs.VERSIONCODE }}"
+          REPO="${GITHUB_REPOSITORY}"
+
+          # 优先使用仓库内的 release notes，若缺失则回退到 GitHub Release 页
+          CHANGELOG_URL="https://raw.githubusercontent.com/${REPO}/main/docs/release-notes/v${VERSION}.md"
+          if [ ! -f "docs/release-notes/v${VERSION}.md" ]; then
+            CHANGELOG_URL="https://github.com/${REPO}/releases/tag/v${VERSION}"
+          fi
+
+          cat > Magisk/update.json <<EOF
+          {
+            "version": "v${VERSION}",
+            "versionCode": ${VERSIONCODE},
+            "zipUrl": "https://github.com/${REPO}/releases/download/v${VERSION}/daidai-panel-magisk-v${VERSION}.zip",
+            "changelog": "${CHANGELOG_URL}"
+          }
+          EOF
+          echo "-- update.json --"
+          cat Magisk/update.json
+
+      - name: Upload Magisk Module to Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          gh release upload "${GITHUB_REF_NAME}" \
+            "${ZIPFILE}" \
+            Magisk/update.json \
+            --clobber
+          echo "Magisk 模块与 update.json 已上传到 Release ${GITHUB_REF_NAME}"
+
+  docker-alpine:
+    runs-on: ubuntu-latest
+    needs: release
+    name: Docker Alpine (${{ matrix.tag_channel }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - tag_channel: latest
+            python_mode: single
+            python_version: '3.12'
+            version_suffix: ''
+            platforms: linux/amd64,linux/arm64,linux/386,linux/arm/v7
+          - tag_channel: latest3.10
+            python_mode: single
+            python_version: '3.10'
+            version_suffix: '-3.10'
+            platforms: linux/amd64,linux/arm64
+          - tag_channel: latest3.11
+            python_mode: single
+            python_version: '3.11'
+            version_suffix: '-3.11'
+            platforms: linux/amd64,linux/arm64
+          - tag_channel: latestall
+            python_mode: all
+            python_version: '3.12'
+            version_suffix: '-all'
+            platforms: linux/amd64,linux/arm64
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Resolve Docker tags
+        id: docker_tags
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            echo "tags<<EOF"
+            echo "linzixuanzz/daidai-panel:${{ matrix.tag_channel }}"
+            echo "linzixuanzz/daidai-panel:${{ steps.version.outputs.VERSION }}${{ matrix.version_suffix }}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: docker/setup-qemu-action@v3
+
+      - name: Pre-pull BuildKit image
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if docker pull moby/buildkit:buildx-stable-1; then
+              exit 0
+            fi
+            sleep $((attempt * 15))
+          done
+          docker pull moby/buildkit:buildx-stable-1
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Docker Hub login
+        shell: bash
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if printf '%s' "$DOCKERHUB_TOKEN" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin; then
+              exit 0
+            fi
+            sleep $((attempt * 15))
+          done
+          printf '%s' "$DOCKERHUB_TOKEN" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin
+
+      - name: Build and push multi-arch image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile
+          # Alpine latest keeps 32-bit platforms; 3.10 / 3.11 / all only publish amd64 / arm64 with standalone Python assets.
+          platforms: ${{ matrix.platforms }}
+          push: true
+          build-args: |
+            VERSION=${{ steps.version.outputs.VERSION }}
+            PYTHON_RUNTIME_MODE=${{ matrix.python_mode }}
+            PYTHON_RUNTIME_VERSION=${{ matrix.python_version }}
+          # GHA cache 导出偶发 504 时，会出现“镜像其实已经 push 成功，但 job 最终仍失败”的假红。
+          # 这里改成 registry + inline cache，牺牲一点缓存效率，换取发布链稳定性。
+          cache-from: type=registry,ref=linzixuanzz/daidai-panel:${{ matrix.tag_channel }}
+          cache-to: type=inline
+          tags: ${{ steps.docker_tags.outputs.tags }}
+
+  docker-debian:
+    runs-on: ubuntu-latest
+    needs: docker-alpine
+    name: Docker Debian (${{ matrix.tag_channel }})
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - tag_channel: debian
+            python_mode: single
+            python_version: '3.12'
+            version_suffix: '-debian'
+            platforms: linux/amd64,linux/arm64,linux/arm/v7
+          - tag_channel: debian3.10
+            python_mode: single
+            python_version: '3.10'
+            version_suffix: '-debian3.10'
+            platforms: linux/amd64,linux/arm64,linux/arm/v7
+          - tag_channel: debian3.11
+            python_mode: single
+            python_version: '3.11'
+            version_suffix: '-debian3.11'
+            platforms: linux/amd64,linux/arm64,linux/arm/v7
+          - tag_channel: debianall
+            python_mode: all
+            python_version: '3.12'
+            version_suffix: '-debianall'
+            platforms: linux/amd64,linux/arm64,linux/arm/v7
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Get version from tag
+        id: version
+        run: echo "VERSION=${GITHUB_REF_NAME#v}" >> $GITHUB_OUTPUT
+
+      - name: Resolve Docker tags
+        id: docker_tags
+        shell: bash
+        run: |
+          set -euo pipefail
+          {
+            echo "tags<<EOF"
+            echo "linzixuanzz/daidai-panel:${{ matrix.tag_channel }}"
+            echo "linzixuanzz/daidai-panel:${{ steps.version.outputs.VERSION }}${{ matrix.version_suffix }}"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: docker/setup-qemu-action@v3
+
+      - name: Pre-pull BuildKit image
+        shell: bash
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if docker pull moby/buildkit:buildx-stable-1; then
+              exit 0
+            fi
+            sleep $((attempt * 15))
+          done
+          docker pull moby/buildkit:buildx-stable-1
+
+      - uses: docker/setup-buildx-action@v3
+
+      - name: Docker Hub login
+        shell: bash
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          for attempt in 1 2 3; do
+            if printf '%s' "$DOCKERHUB_TOKEN" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin; then
+              exit 0
+            fi
+            sleep $((attempt * 15))
+          done
+          printf '%s' "$DOCKERHUB_TOKEN" | docker login --username "$DOCKERHUB_USERNAME" --password-stdin
+
+      - name: Build and push Debian multi-arch image
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.debian
+          # Debian runtime uses node:20.19.0-bookworm-slim, which has no linux/386 manifest.
+          platforms: ${{ matrix.platforms }}
+          push: true
+          build-args: |
+            VERSION=${{ steps.version.outputs.VERSION }}
+            PYTHON_RUNTIME_MODE=${{ matrix.python_mode }}
+            PYTHON_RUNTIME_VERSION=${{ matrix.python_version }}
+          cache-from: type=registry,ref=linzixuanzz/daidai-panel:${{ matrix.tag_channel }}
+          cache-to: type=inline
+          tags: ${{ steps.docker_tags.outputs.tags }}
