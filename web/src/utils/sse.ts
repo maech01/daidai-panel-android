@@ -1,1 +1,259 @@
-aW1wb3J0IHJvdXRlciBmcm9tICdAL3JvdXRlcicKaW1wb3J0IHsgdXNlQXV0aFN0b3JlIH0gZnJvbSAnQC9zdG9yZXMvYXV0aCcKCmV4cG9ydCBpbnRlcmZhY2UgRXZlbnRTdHJlYW1FdmVudCB7CiAgZXZlbnQ6IHN0cmluZwogIGRhdGE6IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIEV2ZW50U3RyZWFtSGFuZGxlcnMgewogIG9uT3Blbj86ICgpID0+IHZvaWQKICBvbk1lc3NhZ2U/OiAoZGF0YTogc3RyaW5nLCBldmVudDogRXZlbnRTdHJlYW1FdmVudCkgPT4gdm9pZAogIG9uRXZlbnQ/OiAoZXZlbnQ6IEV2ZW50U3RyZWFtRXZlbnQpID0+IHZvaWQKICBvbkVycm9yPzogKGVycm9yOiBFcnJvcikgPT4gdm9pZAp9CgpleHBvcnQgaW50ZXJmYWNlIEV2ZW50U3RyZWFtQ29ubmVjdGlvbiB7CiAgY2xvc2U6ICgpID0+IHZvaWQKfQoKZXhwb3J0IGludGVyZmFjZSBFdmVudFN0cmVhbVJlcXVlc3RPcHRpb25zIHsKICBtZXRob2Q/OiBzdHJpbmcKICBoZWFkZXJzPzogUmVjb3JkPHN0cmluZywgc3RyaW5nPgogIGJvZHk/OiBCb2R5SW5pdCB8IG51bGwKfQoKZXhwb3J0IGZ1bmN0aW9uIG9wZW5BdXRob3JpemVkRXZlbnRTdHJlYW0oCiAgdXJsOiBzdHJpbmcsCiAgaGFuZGxlcnM6IEV2ZW50U3RyZWFtSGFuZGxlcnMgPSB7fSwKICByZXF1ZXN0T3B0aW9uczogRXZlbnRTdHJlYW1SZXF1ZXN0T3B0aW9ucyA9IHt9Cik6IEV2ZW50U3RyZWFtQ29ubmVjdGlvbiB7CiAgY29uc3QgYXV0aFN0b3JlID0gdXNlQXV0aFN0b3JlKCkKICBjb25zdCBjb250cm9sbGVyID0gbmV3IEFib3J0Q29udHJvbGxlcigpCiAgbGV0IGNsb3NlZCA9IGZhbHNlCiAgbGV0IHJldHJpZWQgPSBmYWxzZQoKICBjb25zdCBjbG9zZSA9ICgpID0+IHsKICAgIGlmIChjbG9zZWQpIHsKICAgICAgcmV0dXJuCiAgICB9CiAgICBjbG9zZWQgPSB0cnVlCiAgICBjb250cm9sbGVyLmFib3J0KCkKICB9CgogIGNvbnN0IGNvbm5lY3QgPSBhc3luYyAoKSA9PiB7CiAgICB0cnkgewogICAgICBjb25zdCBoZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICAgICAgIEFjY2VwdDogJ3RleHQvZXZlbnQtc3RyZWFtJywKICAgICAgICBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7YXV0aFN0b3JlLmFjY2Vzc1Rva2VufWAsCiAgICAgICAgJ1gtQ2xpZW50LVR5cGUnOiAnd2ViJywKICAgICAgICAnWC1DbGllbnQtQXBwJzogJ2RhaWRhaS1wYW5lbC13ZWInLAogICAgICAgIC4uLihyZXF1ZXN0T3B0aW9ucy5oZWFkZXJzIHx8IHt9KQogICAgICB9CgogICAgICBjb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKHVybCwgewogICAgICAgIG1ldGhvZDogcmVxdWVzdE9wdGlvbnMubWV0aG9kIHx8ICdHRVQnLAogICAgICAgIGhlYWRlcnMsCiAgICAgICAgYm9keTogcmVxdWVzdE9wdGlvbnMuYm9keSwKICAgICAgICBjYWNoZTogJ25vLXN0b3JlJywKICAgICAgICBzaWduYWw6IGNvbnRyb2xsZXIuc2lnbmFsCiAgICAgIH0pCgogICAgICBpZiAocmVzcG9uc2Uuc3RhdHVzID09PSA0MDEgJiYgIXJldHJpZWQgJiYgYXV0aFN0b3JlLnJlZnJlc2hUb2tlbikgewogICAgICAgIHJldHJpZWQgPSB0cnVlCiAgICAgICAgdHJ5IHsKICAgICAgICAgIGF3YWl0IGF1dGhTdG9yZS5yZWZyZXNoQWNjZXNzVG9rZW4oKQogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgYXV0aFN0b3JlLmNsZWFyQXV0aCgpCiAgICAgICAgICByb3V0ZXIucHVzaCgnL2xvZ2luJykKICAgICAgICAgIHRocm93IG5ldyBFcnJvcign55m75b2V5bey6L+H5pyf77yM6K+36YeN5paw55m75b2VJykKICAgICAgICB9CiAgICAgICAgaWYgKCFjbG9zZWQpIHsKICAgICAgICAgIGF3YWl0IGNvbm5lY3QoKQogICAgICAgIH0KICAgICAgICByZXR1cm4KICAgICAgfQoKICAgICAgaWYgKHJlc3BvbnNlLnN0YXR1cyA9PT0gNDAxKSB7CiAgICAgICAgYXV0aFN0b3JlLmNsZWFyQXV0aCgpCiAgICAgICAgcm91dGVyLnB1c2goJy9sb2dpbicpCiAgICAgICAgdGhyb3cgbmV3IEVycm9yKCfnmbvlvZXlt7Lov4fmnJ/vvIzor7fph43mlrDnmbvlvZUnKQogICAgICB9CgogICAgICBpZiAoIXJlc3BvbnNlLm9rIHx8ICFyZXNwb25zZS5ib2R5KSB7CiAgICAgICAgdGhyb3cgYXdhaXQgYnVpbGRSZXNwb25zZUVycm9yKHJlc3BvbnNlKQogICAgICB9CgogICAgICBoYW5kbGVycy5vbk9wZW4/LigpCiAgICAgIGF3YWl0IGNvbnN1bWVFdmVudFN0cmVhbShyZXNwb25zZS5ib2R5LCBoYW5kbGVycywgY29udHJvbGxlci5zaWduYWwpCiAgICB9IGNhdGNoIChlcnJvcikgewogICAgICBpZiAoY2xvc2VkIHx8IGNvbnRyb2xsZXIuc2lnbmFsLmFib3J0ZWQpIHsKICAgICAgICByZXR1cm4KICAgICAgfQogICAgICBoYW5kbGVycy5vbkVycm9yPy4odG9FcnJvcihlcnJvcikpCiAgICB9CiAgfQoKICB2b2lkIGNvbm5lY3QoKQoKICByZXR1cm4geyBjbG9zZSB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGNvbnN1bWVFdmVudFN0cmVhbSgKICBib2R5OiBSZWFkYWJsZVN0cmVhbTxVaW50OEFycmF5PiwKICBoYW5kbGVyczogRXZlbnRTdHJlYW1IYW5kbGVycywKICBzaWduYWw6IEFib3J0U2lnbmFsCikgewogIGNvbnN0IHJlYWRlciA9IGJvZHkuZ2V0UmVhZGVyKCkKICBjb25zdCBkZWNvZGVyID0gbmV3IFRleHREZWNvZGVyKCkKICBsZXQgYnVmZmVyID0gJycKCiAgd2hpbGUgKCFzaWduYWwuYWJvcnRlZCkgewogICAgY29uc3QgeyB2YWx1ZSwgZG9uZSB9ID0gYXdhaXQgcmVhZGVyLnJlYWQoKQogICAgaWYgKGRvbmUpIHsKICAgICAgYnJlYWsKICAgIH0KCiAgICBidWZmZXIgKz0gZGVjb2Rlci5kZWNvZGUodmFsdWUsIHsgc3RyZWFtOiB0cnVlIH0pCgogICAgY29uc3Qgc2VnbWVudHMgPSBidWZmZXIuc3BsaXQoJ1xuXG4nKQogICAgYnVmZmVyID0gc2VnbWVudHMucG9wKCkgfHwgJycKCiAgICBmb3IgKGNvbnN0IHNlZ21lbnQgb2Ygc2VnbWVudHMpIHsKICAgICAgZGlzcGF0Y2hFdmVudFNlZ21lbnQoc2VnbWVudCwgaGFuZGxlcnMpCiAgICB9CiAgfQoKICBidWZmZXIgKz0gZGVjb2Rlci5kZWNvZGUoKQogIGlmIChidWZmZXIudHJpbSgpKSB7CiAgICBkaXNwYXRjaEV2ZW50U2VnbWVudChidWZmZXIsIGhhbmRsZXJzKQogIH0KfQoKZnVuY3Rpb24gZGlzcGF0Y2hFdmVudFNlZ21lbnQoc2VnbWVudDogc3RyaW5nLCBoYW5kbGVyczogRXZlbnRTdHJlYW1IYW5kbGVycykgewogIGxldCBldmVudE5hbWUgPSAnbWVzc2FnZScKICBjb25zdCBkYXRhTGluZXM6IHN0cmluZ1tdID0gW10KCiAgZm9yIChjb25zdCByYXdMaW5lIG9mIHNlZ21lbnQuc3BsaXQoJ1xuJykpIHsKICAgIC8vIOazqOaEj++8mui/memHjOS4jeiDveWvuSBkYXRhIOihjOebtOaOpSB0cmltRW5kKCnjgIIKICAgIC8vIOS7u+WKoeaXpeW/l+mHjOeahOi/m+W6puadoeS8muaKiuijuCBcciDmlL7lnKggZGF0YSDlhoXlrrnmnKvlsL7vvIznlKjmnaXooajnpLrigJzlm57liLDlvZPliY3ooYzlvIDlpLTopobnm5bigJ3jgIIKICAgIC8vIOWmguaenOi/memHjOaKiiBcciDlvZPmma7pgJrnqbrnmb3liKDmjonvvIzliY3nq6/ml6Xlv5fnu4Tku7blsLHlho3kuZ/liIbkuI3muIXigJzopobnm5bliLfmlrDigJ3lkozigJzmlrDlop7kuIDooYzigJ3kuobjgIIKICAgIGxldCBsaW5lID0gcmF3TGluZQogICAgaWYgKGxpbmUuZW5kc1dpdGgoJ1xyJykgJiYgIWxpbmUuc3RhcnRzV2l0aCgnZGF0YTonKSkgewogICAgICBsaW5lID0gbGluZS5zbGljZSgwLCAtMSkKICAgIH0KICAgIGlmICghbGluZSB8fCBsaW5lLnN0YXJ0c1dpdGgoJzonKSkgewogICAgICBjb250aW51ZQogICAgfQoKICAgIGNvbnN0IGNvbG9uSW5kZXggPSBsaW5lLmluZGV4T2YoJzonKQogICAgY29uc3QgZmllbGQgPSBjb2xvbkluZGV4ID09PSAtMSA/IGxpbmUgOiBsaW5lLnNsaWNlKDAsIGNvbG9uSW5kZXgpCiAgICBsZXQgdmFsdWUgPSBjb2xvbkluZGV4ID09PSAtMSA/ICcnIDogbGluZS5zbGljZShjb2xvbkluZGV4ICsgMSkKICAgIGlmICh2YWx1ZS5zdGFydHNXaXRoKCcgJykpIHsKICAgICAgdmFsdWUgPSB2YWx1ZS5zbGljZSgxKQogICAgfQoKICAgIGlmIChmaWVsZCA9PT0gJ2V2ZW50JykgewogICAgICBldmVudE5hbWUgPSB2YWx1ZSB8fCAnbWVzc2FnZScKICAgIH0gZWxzZSBpZiAoZmllbGQgPT09ICdkYXRhJykgewogICAgICBkYXRhTGluZXMucHVzaCh2YWx1ZSkKICAgIH0KICB9CgogIGNvbnN0IGV2ZW50ID0gewogICAgZXZlbnQ6IGV2ZW50TmFtZSwKICAgIGRhdGE6IGRhdGFMaW5lcy5qb2luKCdcbicpCiAgfQoKICBoYW5kbGVycy5vbkV2ZW50Py4oZXZlbnQpCiAgaWYgKGV2ZW50LmV2ZW50ID09PSAnbWVzc2FnZScpIHsKICAgIGhhbmRsZXJzLm9uTWVzc2FnZT8uKGV2ZW50LmRhdGEsIGV2ZW50KQogIH0KfQoKYXN5bmMgZnVuY3Rpb24gYnVpbGRSZXNwb25zZUVycm9yKHJlc3BvbnNlOiBSZXNwb25zZSkgewogIGNvbnN0IGNvbnRlbnRUeXBlID0gcmVzcG9uc2UuaGVhZGVycy5nZXQoJ2NvbnRlbnQtdHlwZScpIHx8ICcnCgogIGlmIChjb250ZW50VHlwZS5pbmNsdWRlcygnYXBwbGljYXRpb24vanNvbicpKSB7CiAgICB0cnkgewogICAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzcG9uc2UuanNvbigpIGFzIHsgZXJyb3I/OiBzdHJpbmc7IG1lc3NhZ2U/OiBzdHJpbmcgfQogICAgICByZXR1cm4gbmV3IEVycm9yKGRhdGEuZXJyb3IgfHwgZGF0YS5tZXNzYWdlIHx8IGDor7fmsYLlpLHotKXvvIgke3Jlc3BvbnNlLnN0YXR1c33vvIlgKQogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybiBuZXcgRXJyb3IoYOivt+axguWksei0pe+8iCR7cmVzcG9uc2Uuc3RhdHVzfe+8iWApCiAgICB9CiAgfQoKICB0cnkgewogICAgY29uc3QgdGV4dCA9IChhd2FpdCByZXNwb25zZS50ZXh0KCkpLnRyaW0oKQogICAgcmV0dXJuIG5ldyBFcnJvcih0ZXh0IHx8IGDor7fmsYLlpLHotKXvvIgke3Jlc3BvbnNlLnN0YXR1c33vvIlgKQogIH0gY2F0Y2ggewogICAgcmV0dXJuIG5ldyBFcnJvcihg6K+35rGC5aSx6LSl77yIJHtyZXNwb25zZS5zdGF0dXN977yJYCkKICB9Cn0KCmZ1bmN0aW9uIHRvRXJyb3IoZXJyb3I6IHVua25vd24pIHsKICBpZiAoZXJyb3IgaW5zdGFuY2VvZiBFcnJvcikgewogICAgcmV0dXJuIGVycm9yCiAgfQogIHJldHVybiBuZXcgRXJyb3IoU3RyaW5nKGVycm9yIHx8ICfmnKrnn6XplJnor68nKSkKfQo=
+import router from '@/router'
+import { useAuthStore } from '@/stores/auth'
+
+export interface EventStreamEvent {
+  event: string
+  data: string
+}
+
+export interface EventStreamHandlers {
+  onOpen?: () => void
+  onMessage?: (data: string, event: EventStreamEvent) => void
+  onEvent?: (event: EventStreamEvent) => void
+  onError?: (error: Error) => void
+  /** 每次重连尝试触发（不含首次连接）。可用来在 UI 显示「正在重连 n/5」。 */
+  onReconnect?: (attempt: number, nextDelayMs: number) => void
+}
+
+export interface EventStreamConnection {
+  close: () => void
+}
+
+export interface EventStreamRequestOptions {
+  method?: string
+  headers?: Record<string, string>
+  body?: BodyInit | null
+  /**
+   * 网络层重试（TCP 断开、5xx 等非 401 错误）。默认 5 次、指数退避 500ms→8s。
+   * 401 走 token 刷新路径，不计在内。
+   * 设为 0 关闭重试。
+   */
+  retry?: {
+    maxAttempts?: number
+    baseDelayMs?: number
+    maxDelayMs?: number
+  }
+}
+
+const DEFAULT_RETRY_MAX = 5
+const DEFAULT_RETRY_BASE_MS = 500
+const DEFAULT_RETRY_MAX_MS = 8000
+
+export function openAuthorizedEventStream(
+  url: string,
+  handlers: EventStreamHandlers = {},
+  requestOptions: EventStreamRequestOptions = {}
+): EventStreamConnection {
+  const authStore = useAuthStore()
+  const controller = new AbortController()
+  const retryCfg = {
+    maxAttempts: requestOptions.retry?.maxAttempts ?? DEFAULT_RETRY_MAX,
+    baseDelayMs: requestOptions.retry?.baseDelayMs ?? DEFAULT_RETRY_BASE_MS,
+    maxDelayMs: requestOptions.retry?.maxDelayMs ?? DEFAULT_RETRY_MAX_MS,
+  }
+  let closed = false
+  let retried = false
+  let networkAttempt = 0
+
+  const close = () => {
+    if (closed) {
+      return
+    }
+    closed = true
+    controller.abort()
+  }
+
+  const connect = async () => {
+    try {
+      const headers: Record<string, string> = {
+        Accept: 'text/event-stream',
+        Authorization: `Bearer ${authStore.accessToken}`,
+        'X-Client-Type': 'web',
+        'X-Client-App': 'daidai-panel-web',
+        ...(requestOptions.headers || {})
+      }
+
+      const response = await fetch(url, {
+        method: requestOptions.method || 'GET',
+        headers,
+        body: requestOptions.body,
+        cache: 'no-store',
+        signal: controller.signal
+      })
+
+      if (response.status === 401 && !retried && authStore.refreshToken) {
+        retried = true
+        try {
+          await authStore.refreshAccessToken()
+        } catch {
+          authStore.clearAuth()
+          router.push('/login')
+          handlers.onError?.(new Error('登录已过期，请重新登录'))
+          return
+        }
+        if (!closed) {
+          await connect()
+        }
+        return
+      }
+
+      if (response.status === 401) {
+        authStore.clearAuth()
+        router.push('/login')
+        handlers.onError?.(new Error('登录已过期，请重新登录'))
+        return
+      }
+
+      if (!response.ok || !response.body) {
+        throw await buildResponseError(response)
+      }
+
+      // 连接成功，重置重试计数
+      networkAttempt = 0
+      handlers.onOpen?.()
+      await consumeEventStream(response.body, handlers, controller.signal)
+      // 流正常结束：不在重试，调用方决定
+    } catch (error) {
+      if (closed || controller.signal.aborted) {
+        return
+      }
+      const err = toError(error)
+      // 401 已经单独处理过，到这里一般是非 401 网络/HTTP 错误
+      if (networkAttempt < retryCfg.maxAttempts) {
+        networkAttempt++
+        const delay = Math.min(
+          retryCfg.baseDelayMs * 2 ** (networkAttempt - 1),
+          retryCfg.maxDelayMs
+        )
+        handlers.onReconnect?.(networkAttempt, delay)
+        await sleep(delay, controller.signal)
+        if (!closed) {
+          await connect()
+        }
+        return
+      }
+      handlers.onError?.(err)
+    }
+  }
+
+  void connect()
+
+  return { close }
+}
+
+function sleep(ms: number, signal: AbortSignal): Promise<void> {
+  return new Promise((resolve) => {
+    if (signal.aborted) {
+      resolve()
+      return
+    }
+    const t = setTimeout(() => resolve(), ms)
+    signal.addEventListener('abort', () => {
+      clearTimeout(t)
+      resolve()
+    }, { once: true })
+  })
+}
+
+async function consumeEventStream(
+  body: ReadableStream<Uint8Array>,
+  handlers: EventStreamHandlers,
+  signal: AbortSignal
+) {
+  const reader = body.getReader()
+  const decoder = new TextDecoder()
+  let buffer = ''
+
+  while (!signal.aborted) {
+    const { value, done } = await reader.read()
+    if (done) {
+      break
+    }
+
+    buffer += decoder.decode(value, { stream: true })
+
+    const segments = buffer.split('\n\n')
+    buffer = segments.pop() || ''
+
+    for (const segment of segments) {
+      dispatchEventSegment(segment, handlers)
+    }
+  }
+
+  buffer += decoder.decode()
+  // close() 触发 abort 后，不再 dispatch 残余 buffer（避免 close 后还触发回调）
+  if (signal.aborted) {
+    return
+  }
+  if (buffer.trim()) {
+    dispatchEventSegment(buffer, handlers)
+  }
+}
+
+function dispatchEventSegment(segment: string, handlers: EventStreamHandlers) {
+  let eventName = 'message'
+  const dataLines: string[] = []
+
+  for (const rawLine of segment.split('\n')) {
+    // 注意：这里不能对 data 行直接 trimEnd()。
+    // 任务日志里的进度条会把裸 \r 放在 data 内容末尾，用来表示“回到当前行开头覆盖”。
+    // 如果这里把 \r 当普通空白删掉，前端日志组件就再也分不清“覆盖刷新”和“新增一行”了。
+    let line = rawLine
+    if (line.endsWith('\r') && !line.startsWith('data:')) {
+      line = line.slice(0, -1)
+    }
+    if (!line || line.startsWith(':')) {
+      continue
+    }
+
+    const colonIndex = line.indexOf(':')
+    const field = colonIndex === -1 ? line : line.slice(0, colonIndex)
+    let value = colonIndex === -1 ? '' : line.slice(colonIndex + 1)
+    if (value.startsWith(' ')) {
+      value = value.slice(1)
+    }
+
+    if (field === 'event') {
+      eventName = value || 'message'
+    } else if (field === 'data') {
+      dataLines.push(value)
+    }
+  }
+
+  const event = {
+    event: eventName,
+    data: dataLines.join('\n')
+  }
+
+  handlers.onEvent?.(event)
+  if (event.event === 'message') {
+    handlers.onMessage?.(event.data, event)
+  }
+}
+
+async function buildResponseError(response: Response) {
+  const contentType = response.headers.get('content-type') || ''
+
+  if (contentType.includes('application/json')) {
+    try {
+      const data = await response.json() as { error?: string; message?: string }
+      return new Error(data.error || data.message || `请求失败（${response.status}）`)
+    } catch {
+      return new Error(`请求失败（${response.status}）`)
+    }
+  }
+
+  try {
+    const text = (await response.text()).trim()
+    return new Error(text || `请求失败（${response.status}）`)
+  } catch {
+    return new Error(`请求失败（${response.status}）`)
+  }
+}
+
+function toError(error: unknown) {
+  if (error instanceof Error) {
+    return error
+  }
+  return new Error(String(error || '未知错误'))
+}
