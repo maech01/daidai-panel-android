@@ -1,1 +1,187 @@
-Y29uc3QgQU5TSV9DT0xPUlM6IFJlY29yZDxudW1iZXIsIHN0cmluZz4gPSB7CiAgMzA6ICcjNGQ0ZDRkJywgMzE6ICcjY2QzMTMxJywgMzI6ICcjMGRiYzc5JywgMzM6ICcjZTVlNTEwJywKICAzNDogJyMyNDcyYzgnLCAzNTogJyNiYzNmYmMnLCAzNjogJyMxMWE4Y2QnLCAzNzogJyNlNWU1ZTUnLAogIDkwOiAnIzY2NjY2NicsIDkxOiAnI2YxNGM0YycsIDkyOiAnIzIzZDE4YicsIDkzOiAnI2Y1ZjU0MycsCiAgOTQ6ICcjM2I4ZWVhJywgOTU6ICcjZDY3MGQ2JywgOTY6ICcjMjliOGRiJywgOTc6ICcjZmZmZmZmJywKfQoKY29uc3QgQU5TSV9CR19DT0xPUlM6IFJlY29yZDxudW1iZXIsIHN0cmluZz4gPSB7CiAgNDA6ICcjNGQ0ZDRkJywgNDE6ICcjY2QzMTMxJywgNDI6ICcjMGRiYzc5JywgNDM6ICcjZTVlNTEwJywKICA0NDogJyMyNDcyYzgnLCA0NTogJyNiYzNmYmMnLCA0NjogJyMxMWE4Y2QnLCA0NzogJyNlNWU1ZTUnLAogIDEwMDogJyM2NjY2NjYnLCAxMDE6ICcjZjE0YzRjJywgMTAyOiAnIzIzZDE4YicsIDEwMzogJyNmNWY1NDMnLAogIDEwNDogJyMzYjhlZWEnLCAxMDU6ICcjZDY3MGQ2JywgMTA2OiAnIzI5YjhkYicsIDEwNzogJyNmZmZmZmYnLAp9Cgpjb25zdCBBTlNJXzI1Nl9CQVNFX0NPTE9SUyA9IFsKICAnIzAwMDAwMCcsICcjODAwMDAwJywgJyMwMDgwMDAnLCAnIzgwODAwMCcsICcjMDAwMDgwJywgJyM4MDAwODAnLCAnIzAwODA4MCcsICcjYzBjMGMwJywKICAnIzgwODA4MCcsICcjZmYwMDAwJywgJyMwMGZmMDAnLCAnI2ZmZmYwMCcsICcjMDAwMGZmJywgJyNmZjAwZmYnLCAnIzAwZmZmZicsICcjZmZmZmZmJywKXSBhcyBjb25zdAoKZnVuY3Rpb24gZXNjYXBlSHRtbCh0ZXh0OiBzdHJpbmcpOiBzdHJpbmcgewogIHJldHVybiB0ZXh0CiAgICAucmVwbGFjZSgvJi9nLCAnJmFtcDsnKQogICAgLnJlcGxhY2UoLzwvZywgJyZsdDsnKQogICAgLnJlcGxhY2UoLz4vZywgJyZndDsnKQogICAgLnJlcGxhY2UoLyIvZywgJyZxdW90OycpCn0KCmZ1bmN0aW9uIHNhbml0aXplTG9nU2VnbWVudCh0ZXh0OiBzdHJpbmcpOiBzdHJpbmcgewogIC8vIERyb3AgdW5zdXBwb3J0ZWQgQU5TSSBjdXJzb3IvY29udHJvbCBzZXF1ZW5jZXMgc28gdGhleSBkbyBub3QgbGVhayBpbnRvIHRoZSBVSS4KICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29udHJvbC1yZWdleAogIHJldHVybiB0ZXh0CiAgICAucmVwbGFjZSgvXHgxYlxdW15ceDA3XSooPzpceDA3fFx4MWJcXCk/L2csICcnKQogICAgLnJlcGxhY2UoL1x4MWJcW1swLT9dKlsgLS9dKltALX5dfFx4MWJbQC1fXS9nLCAnJykKfQoKZnVuY3Rpb24gYW5zaTI1NlRvSGV4KGNvZGU6IG51bWJlcik6IHN0cmluZyB7CiAgaWYgKGNvZGUgPj0gMCAmJiBjb2RlIDw9IDE1KSB7CiAgICByZXR1cm4gQU5TSV8yNTZfQkFTRV9DT0xPUlNbY29kZV0gPz8gJycKICB9CgogIGlmIChjb2RlID49IDE2ICYmIGNvZGUgPD0gMjMxKSB7CiAgICBjb25zdCB2YWx1ZSA9IGNvZGUgLSAxNgogICAgY29uc3QgcmVkID0gTWF0aC5mbG9vcih2YWx1ZSAvIDM2KQogICAgY29uc3QgZ3JlZW4gPSBNYXRoLmZsb29yKCh2YWx1ZSAlIDM2KSAvIDYpCiAgICBjb25zdCBibHVlID0gdmFsdWUgJSA2CiAgICBjb25zdCB0b0NoYW5uZWwgPSAobjogbnVtYmVyKSA9PiBuID09PSAwID8gMCA6IDU1ICsgbiAqIDQwCiAgICByZXR1cm4gcmdiVG9IZXgodG9DaGFubmVsKHJlZCksIHRvQ2hhbm5lbChncmVlbiksIHRvQ2hhbm5lbChibHVlKSkKICB9CgogIGlmIChjb2RlID49IDIzMiAmJiBjb2RlIDw9IDI1NSkgewogICAgY29uc3QgY2hhbm5lbCA9IDggKyAoY29kZSAtIDIzMikgKiAxMAogICAgcmV0dXJuIHJnYlRvSGV4KGNoYW5uZWwsIGNoYW5uZWwsIGNoYW5uZWwpCiAgfQoKICByZXR1cm4gJycKfQoKZnVuY3Rpb24gcmdiVG9IZXgocmVkOiBudW1iZXIsIGdyZWVuOiBudW1iZXIsIGJsdWU6IG51bWJlcik6IHN0cmluZyB7CiAgY29uc3QgdG9IZXggPSAodmFsdWU6IG51bWJlcikgPT4gTWF0aC5tYXgoMCwgTWF0aC5taW4oMjU1LCB2YWx1ZSkpLnRvU3RyaW5nKDE2KS5wYWRTdGFydCgyLCAnMCcpCiAgcmV0dXJuIGAjJHt0b0hleChyZWQpfSR7dG9IZXgoZ3JlZW4pfSR7dG9IZXgoYmx1ZSl9YAp9CgpleHBvcnQgZnVuY3Rpb24gYW5zaVRvSHRtbCh0ZXh0OiBzdHJpbmcpOiBzdHJpbmcgewogIC8vIGVzbGludC1kaXNhYmxlLW5leHQtbGluZSBuby1jb250cm9sLXJlZ2V4CiAgY29uc3QgYW5zaVJlZ2V4ID0gL1x4MWJcWyhbMC05O10qKW0vZwoKICBsZXQgcmVzdWx0ID0gJycKICBsZXQgbGFzdEluZGV4ID0gMAogIGxldCBvcGVuU3BhbnMgPSAwCiAgbGV0IGZnID0gJycKICBsZXQgYmcgPSAnJwogIGxldCBib2xkID0gZmFsc2UKICBsZXQgZGltID0gZmFsc2UKICBsZXQgaXRhbGljID0gZmFsc2UKICBsZXQgdW5kZXJsaW5lID0gZmFsc2UKCiAgZnVuY3Rpb24gYnVpbGRTcGFuKCk6IHN0cmluZyB7CiAgICBjb25zdCBzdHlsZXM6IHN0cmluZ1tdID0gW10KICAgIGlmIChmZykgc3R5bGVzLnB1c2goYGNvbG9yOiR7Zmd9YCkKICAgIGlmIChiZykgc3R5bGVzLnB1c2goYGJhY2tncm91bmQtY29sb3I6JHtiZ31gKQogICAgaWYgKGJvbGQpIHN0eWxlcy5wdXNoKCdmb250LXdlaWdodDpib2xkJykKICAgIGlmIChkaW0pIHN0eWxlcy5wdXNoKCdvcGFjaXR5OjAuNycpCiAgICBpZiAoaXRhbGljKSBzdHlsZXMucHVzaCgnZm9udC1zdHlsZTppdGFsaWMnKQogICAgaWYgKHVuZGVybGluZSkgc3R5bGVzLnB1c2goJ3RleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmUnKQogICAgaWYgKHN0eWxlcy5sZW5ndGggPT09IDApIHJldHVybiAnJwogICAgcmV0dXJuIGA8c3BhbiBzdHlsZT0iJHtzdHlsZXMuam9pbignOycpfSI+YAogIH0KCiAgbGV0IG1hdGNoOiBSZWdFeHBFeGVjQXJyYXkgfCBudWxsCiAgd2hpbGUgKChtYXRjaCA9IGFuc2lSZWdleC5leGVjKHRleHQpKSAhPT0gbnVsbCkgewogICAgY29uc3QgYmVmb3JlID0gdGV4dC5zbGljZShsYXN0SW5kZXgsIG1hdGNoLmluZGV4KQogICAgaWYgKGJlZm9yZSkgcmVzdWx0ICs9IGVzY2FwZUh0bWwoc2FuaXRpemVMb2dTZWdtZW50KGJlZm9yZSkpCiAgICBsYXN0SW5kZXggPSBtYXRjaC5pbmRleCArIG1hdGNoWzBdLmxlbmd0aAoKICAgIGNvbnN0IGNvZGVzID0gbWF0Y2hbMV0KICAgICAgPyBtYXRjaFsxXS5zcGxpdCgnOycpLm1hcChOdW1iZXIpCiAgICAgIDogWzBdCgogICAgZm9yIChsZXQgaW5kZXggPSAwOyBpbmRleCA8IGNvZGVzLmxlbmd0aDsgaW5kZXgrKykgewogICAgICBjb25zdCBjb2RlID0gY29kZXNbaW5kZXhdID8/IDAKICAgICAgaWYgKGNvZGUgPT09IDApIHsKICAgICAgICBmZyA9ICcnOyBiZyA9ICcnOyBib2xkID0gZmFsc2U7IGRpbSA9IGZhbHNlOyBpdGFsaWMgPSBmYWxzZTsgdW5kZXJsaW5lID0gZmFsc2UKICAgICAgfSBlbHNlIGlmIChjb2RlID09PSAxKSB7CiAgICAgICAgYm9sZCA9IHRydWUKICAgICAgfSBlbHNlIGlmIChjb2RlID09PSAyKSB7CiAgICAgICAgZGltID0gdHJ1ZQogICAgICB9IGVsc2UgaWYgKGNvZGUgPT09IDMpIHsKICAgICAgICBpdGFsaWMgPSB0cnVlCiAgICAgIH0gZWxzZSBpZiAoY29kZSA9PT0gNCkgewogICAgICAgIHVuZGVybGluZSA9IHRydWUKICAgICAgfSBlbHNlIGlmIChjb2RlID09PSAyMikgewogICAgICAgIGJvbGQgPSBmYWxzZTsgZGltID0gZmFsc2UKICAgICAgfSBlbHNlIGlmIChjb2RlID09PSAyMykgewogICAgICAgIGl0YWxpYyA9IGZhbHNlCiAgICAgIH0gZWxzZSBpZiAoY29kZSA9PT0gMjQpIHsKICAgICAgICB1bmRlcmxpbmUgPSBmYWxzZQogICAgICB9IGVsc2UgaWYgKGNvZGUgPT09IDM5KSB7CiAgICAgICAgZmcgPSAnJwogICAgICB9IGVsc2UgaWYgKGNvZGUgPT09IDQ5KSB7CiAgICAgICAgYmcgPSAnJwogICAgICB9IGVsc2UgaWYgKEFOU0lfQ09MT1JTW2NvZGVdKSB7CiAgICAgICAgZmcgPSBBTlNJX0NPTE9SU1tjb2RlXQogICAgICB9IGVsc2UgaWYgKEFOU0lfQkdfQ09MT1JTW2NvZGVdKSB7CiAgICAgICAgYmcgPSBBTlNJX0JHX0NPTE9SU1tjb2RlXQogICAgICB9IGVsc2UgaWYgKChjb2RlID09PSAzOCB8fCBjb2RlID09PSA0OCkgJiYgY29kZXNbaW5kZXggKyAxXSA9PT0gNSkgewogICAgICAgIGNvbnN0IGNvbG9yID0gYW5zaTI1NlRvSGV4KGNvZGVzW2luZGV4ICsgMl0gPz8gLTEpCiAgICAgICAgaWYgKGNvbG9yICYmIGNvZGUgPT09IDM4KSBmZyA9IGNvbG9yCiAgICAgICAgaWYgKGNvbG9yICYmIGNvZGUgPT09IDQ4KSBiZyA9IGNvbG9yCiAgICAgICAgaW5kZXggKz0gMgogICAgICB9IGVsc2UgaWYgKChjb2RlID09PSAzOCB8fCBjb2RlID09PSA0OCkgJiYgY29kZXNbaW5kZXggKyAxXSA9PT0gMikgewogICAgICAgIGNvbnN0IHJlZCA9IGNvZGVzW2luZGV4ICsgMl0KICAgICAgICBjb25zdCBncmVlbiA9IGNvZGVzW2luZGV4ICsgM10KICAgICAgICBjb25zdCBibHVlID0gY29kZXNbaW5kZXggKyA0XQogICAgICAgIGlmICh0eXBlb2YgcmVkID09PSAnbnVtYmVyJyAmJiB0eXBlb2YgZ3JlZW4gPT09ICdudW1iZXInICYmIHR5cGVvZiBibHVlID09PSAnbnVtYmVyJykgewogICAgICAgICAgY29uc3QgY29sb3IgPSByZ2JUb0hleChyZWQsIGdyZWVuLCBibHVlKQogICAgICAgICAgaWYgKGNvZGUgPT09IDM4KSBmZyA9IGNvbG9yCiAgICAgICAgICBpZiAoY29kZSA9PT0gNDgpIGJnID0gY29sb3IKICAgICAgICB9CiAgICAgICAgaW5kZXggKz0gNAogICAgICB9CiAgICB9CgogICAgaWYgKG9wZW5TcGFucyA+IDApIHsKICAgICAgcmVzdWx0ICs9ICc8L3NwYW4+JwogICAgICBvcGVuU3BhbnMtLQogICAgfQoKICAgIGNvbnN0IHNwYW4gPSBidWlsZFNwYW4oKQogICAgaWYgKHNwYW4pIHsKICAgICAgcmVzdWx0ICs9IHNwYW4KICAgICAgb3BlblNwYW5zKysKICAgIH0KICB9CgogIGNvbnN0IHJlbWFpbmluZyA9IHRleHQuc2xpY2UobGFzdEluZGV4KQogIGlmIChyZW1haW5pbmcpIHJlc3VsdCArPSBlc2NhcGVIdG1sKHNhbml0aXplTG9nU2VnbWVudChyZW1haW5pbmcpKQoKICB3aGlsZSAob3BlblNwYW5zID4gMCkgewogICAgcmVzdWx0ICs9ICc8L3NwYW4+JwogICAgb3BlblNwYW5zLS0KICB9CgogIHJldHVybiByZXN1bHQKfQoKLyoqCiAqIENoZWNrIGlmIHRleHQgY29udGFpbnMgQU5TSSBlc2NhcGUgc2VxdWVuY2VzLgogKiBBbHNvIG1hdGNoZXMgaW5jb21wbGV0ZSBzZXF1ZW5jZXMgbGlrZSBbMzRtIHRoYXQgbG9zdCB0aGUgRVNDIGJ5dGUKICogZHVyaW5nIHRyYW5zcG9ydCAoY29tbW9uIGluIFNTRS9XZWJTb2NrZXQpLgogKi8KZXhwb3J0IGZ1bmN0aW9uIGNvbnRhaW5zQW5zaSh0ZXh0OiBzdHJpbmcpOiBib29sZWFuIHsKICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29udHJvbC1yZWdleAogIHJldHVybiAvXHgxYlxbLy50ZXN0KHRleHQpIHx8IC9cWyhbMC05O10rKW0vLnRlc3QodGV4dCkKfQoKLyoqCiAqIE5vcm1hbGl6ZSBicm9rZW4gQU5TSSBjb2RlcyB3aGVyZSB0aGUgRVNDIChceDFiKSBieXRlIHdhcyBzdHJpcHBlZCwKICogbGVhdmluZyBiYXJlIHNlcXVlbmNlcyBsaWtlIFszNG0uCiAqLwpleHBvcnQgZnVuY3Rpb24gbm9ybWFsaXplQW5zaSh0ZXh0OiBzdHJpbmcpOiBzdHJpbmcgewogIC8vIFJlcGxhY2UgYmFyZSBbPGRpZ2l0cz5tIHBhdHRlcm5zIHdpdGggcHJvcGVyIEVTQyBzZXF1ZW5jZXMKICAvLyB3aXRob3V0IHRvdWNoaW5nIGFscmVhZHkgdmFsaWQgRVNDLXByZWZpeGVkIHNlcXVlbmNlcy4KICAvLyBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgbm8tY29udHJvbC1yZWdleAogIHJldHVybiB0ZXh0LnJlcGxhY2UoLyhefFteXHgxYl0pXFsoWzAtOTtdKyltL2csICckMVx4MWJbJDJtJykKfQo=
+const ANSI_COLORS: Record<number, string> = {
+  30: '#4d4d4d', 31: '#cd3131', 32: '#0dbc79', 33: '#e5e510',
+  34: '#2472c8', 35: '#bc3fbc', 36: '#11a8cd', 37: '#e5e5e5',
+  90: '#666666', 91: '#f14c4c', 92: '#23d18b', 93: '#f5f543',
+  94: '#3b8eea', 95: '#d670d6', 96: '#29b8db', 97: '#ffffff',
+}
+
+const ANSI_BG_COLORS: Record<number, string> = {
+  40: '#4d4d4d', 41: '#cd3131', 42: '#0dbc79', 43: '#e5e510',
+  44: '#2472c8', 45: '#bc3fbc', 46: '#11a8cd', 47: '#e5e5e5',
+  100: '#666666', 101: '#f14c4c', 102: '#23d18b', 103: '#f5f543',
+  104: '#3b8eea', 105: '#d670d6', 106: '#29b8db', 107: '#ffffff',
+}
+
+const ANSI_256_BASE_COLORS = [
+  '#000000', '#800000', '#008000', '#808000', '#000080', '#800080', '#008080', '#c0c0c0',
+  '#808080', '#ff0000', '#00ff00', '#ffff00', '#0000ff', '#ff00ff', '#00ffff', '#ffffff',
+] as const
+
+function escapeHtml(text: string): string {
+  return text
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+}
+
+function sanitizeLogSegment(text: string): string {
+  // Drop unsupported ANSI cursor/control sequences so they do not leak into the UI.
+  // eslint-disable-next-line no-control-regex
+  return text
+    .replace(/\x1b\][^\x07]*(?:\x07|\x1b\\)?/g, '')
+    .replace(/\x1b\[[0-?]*[ -/]*[@-~]|\x1b[@-_]/g, '')
+}
+
+function ansi256ToHex(code: number): string {
+  if (code >= 0 && code <= 15) {
+    return ANSI_256_BASE_COLORS[code] ?? ''
+  }
+
+  if (code >= 16 && code <= 231) {
+    const value = code - 16
+    const red = Math.floor(value / 36)
+    const green = Math.floor((value % 36) / 6)
+    const blue = value % 6
+    const toChannel = (n: number) => n === 0 ? 0 : 55 + n * 40
+    return rgbToHex(toChannel(red), toChannel(green), toChannel(blue))
+  }
+
+  if (code >= 232 && code <= 255) {
+    const channel = 8 + (code - 232) * 10
+    return rgbToHex(channel, channel, channel)
+  }
+
+  return ''
+}
+
+function rgbToHex(red: number, green: number, blue: number): string {
+  const toHex = (value: number) => Math.max(0, Math.min(255, value)).toString(16).padStart(2, '0')
+  return `#${toHex(red)}${toHex(green)}${toHex(blue)}`
+}
+
+export function ansiToHtml(text: string): string {
+  // SECURITY: 任何 raw text 都先经过 escapeHtml 转义，再插 <span style="..."> 标签。
+  // 不要在本函数里直接拼 raw text 到 result 上。
+  // eslint-disable-next-line no-control-regex
+  const ansiRegex = /\x1b\[([0-9;]*)m/g
+
+  let result = ''
+  let lastIndex = 0
+  let openSpans = 0
+  let fg = ''
+  let bg = ''
+  let bold = false
+  let dim = false
+  let italic = false
+  let underline = false
+
+  function buildSpan(): string {
+    const styles: string[] = []
+    if (fg) styles.push(`color:${fg}`)
+    if (bg) styles.push(`background-color:${bg}`)
+    if (bold) styles.push('font-weight:bold')
+    if (dim) styles.push('opacity:0.7')
+    if (italic) styles.push('font-style:italic')
+    if (underline) styles.push('text-decoration:underline')
+    if (styles.length === 0) return ''
+    return `<span style="${styles.join(';')}">`
+  }
+
+  let match: RegExpExecArray | null
+  while ((match = ansiRegex.exec(text)) !== null) {
+    const before = text.slice(lastIndex, match.index)
+    if (before) result += escapeHtml(sanitizeLogSegment(before))
+    lastIndex = match.index + match[0].length
+
+    const codes = match[1]
+      ? match[1].split(';').map(Number)
+      : [0]
+
+    for (let index = 0; index < codes.length; index++) {
+      const code = codes[index] ?? 0
+      if (code === 0) {
+        fg = ''; bg = ''; bold = false; dim = false; italic = false; underline = false
+      } else if (code === 1) {
+        bold = true
+      } else if (code === 2) {
+        dim = true
+      } else if (code === 3) {
+        italic = true
+      } else if (code === 4) {
+        underline = true
+      } else if (code === 22) {
+        bold = false; dim = false
+      } else if (code === 23) {
+        italic = false
+      } else if (code === 24) {
+        underline = false
+      } else if (code === 39) {
+        fg = ''
+      } else if (code === 49) {
+        bg = ''
+      } else if (ANSI_COLORS[code]) {
+        fg = ANSI_COLORS[code]
+      } else if (ANSI_BG_COLORS[code]) {
+        bg = ANSI_BG_COLORS[code]
+      } else if ((code === 38 || code === 48) && codes[index + 1] === 5) {
+        const color = ansi256ToHex(codes[index + 2] ?? -1)
+        if (color && code === 38) fg = color
+        if (color && code === 48) bg = color
+        index += 2
+      } else if ((code === 38 || code === 48) && codes[index + 1] === 2) {
+        const red = codes[index + 2]
+        const green = codes[index + 3]
+        const blue = codes[index + 4]
+        if (typeof red === 'number' && typeof green === 'number' && typeof blue === 'number') {
+          const color = rgbToHex(red, green, blue)
+          if (code === 38) fg = color
+          if (code === 48) bg = color
+        }
+        index += 4
+      }
+    }
+
+    if (openSpans > 0) {
+      result += '</span>'
+      openSpans--
+    }
+
+    const span = buildSpan()
+    if (span) {
+      result += span
+      openSpans++
+    }
+  }
+
+  const remaining = text.slice(lastIndex)
+  if (remaining) result += escapeHtml(sanitizeLogSegment(remaining))
+
+  while (openSpans > 0) {
+    result += '</span>'
+    openSpans--
+  }
+
+  return result
+}
+
+/**
+ * Check if text contains ANSI escape sequences.
+ * Also matches incomplete sequences like [34m that lost the ESC byte
+ * during transport (common in SSE/WebSocket).
+ */
+export function containsAnsi(text: string): boolean {
+  // eslint-disable-next-line no-control-regex
+  return /\x1b\[/.test(text) || /\[([0-9;]+)m/.test(text)
+}
+
+/**
+ * Normalize broken ANSI codes where the ESC (\x1b) byte was stripped,
+ * leaving bare sequences like [34m.
+ */
+export function normalizeAnsi(text: string): string {
+  // Replace bare [<digits>m patterns with proper ESC sequences
+  // without touching already valid ESC-prefixed sequences.
+  // eslint-disable-next-line no-control-regex
+  return text.replace(/(^|[^\x1b])\[([0-9;]+)m/g, '$1\x1b[$2m')
+}
