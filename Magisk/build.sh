@@ -1,1 +1,186 @@
-IyEvdXNyL2Jpbi9lbnYgYmFzaAojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIOWRhuWRhumdouadvyBNYWdpc2sg5qih5Z2X5omT5YyF6ISa5pysICjlrrnlmajmlrnmoYggdjIuMC42KykKIwojIOeUqOazlToKIyAgIGJhc2ggTWFnaXNrL2J1aWxkLnNoICAgICAgICAgICAgIyDpu5jorqTmiZPljIUgYXJtNjQKIyAgIGJhc2ggTWFnaXNrL2J1aWxkLnNoIDIuMy4xICAgICAjIOaMh+WumueJiOacrOWPtwojICAgYmFzaCBNYWdpc2svYnVpbGQuc2ggMi4zLjEgYWxsICMg5ZCM5pe25omT5YyFIGFybTY0ICsgYW1kNjQKIwojIOS6p+eJqTogZGlzdC9kYWlkYWktcGFuZWwtbWFnaXNrLXY854mI5pysPi56aXAKIwojIOaooeWdl+WGhemDqOS4jeWGjeWGhee9riBQeXRob24vTm9kZe+8m+aUueS4uuWcqCBjdXN0b21pemUuc2gg6YeM55SoIHJ1cmltYSArIEFscGluZQojIG1pbmlyb290ZnMg5p6E5bu65LiA5LiqIG11c2wg5a655Zmo77yMYXBrIGFkZCDlh7ogcHl0aG9uMyAvIG5vZGVqcyAvIG5wbSAvIGdpdCDnrYnjgIIKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKCnNldCAtZXVvIHBpcGVmYWlsCgpWRVJTSU9OPSIkezE6LTIuMy4xfSIKVEFSR0VUUz0iJHsyOi1hcm02NH0iICAgICAjIGFybTY0IC8gYW1kNjQgLyBhbGwKCmNkICIkKGRpcm5hbWUgIiQwIikvLi4iClJPT1Q9IiQocHdkKSIKCk1PRERJUj0iJFJPT1QvTWFnaXNrIgpESVNUPSIkUk9PVC9kaXN0IgpTVEFHSU5HPSIkRElTVC9tYWdpc2stc3RhZ2luZyIKT1VUWklQPSIkRElTVC9kYWlkYWktcGFuZWwtbWFnaXNrLXYke1ZFUlNJT059LnppcCIKCmluZm8oKSAgeyBwcmludGYgIlwwMzNbMTszMm1bSU5GT11cMDMzWzBtICVzXG4iICIkKiIgPiYyOyB9Cndhcm4oKSAgeyBwcmludGYgIlwwMzNbMTszM21bV0FSTl1cMDMzWzBtICVzXG4iICIkKiIgPiYyOyB9CmVycm9yKCkgeyBwcmludGYgIlwwMzNbMTszMW1bRVJSIF1cMDMzWzBtICVzXG4iICIkKiIgPiYyOyB9Cgpjb21tYW5kIC12IGdvICAgPi9kZXYvbnVsbCB8fCB7IGVycm9yICLnvLrlsJEgZ28iOyBleGl0IDE7IH0KY29tbWFuZCAtdiBucG0gID4vZGV2L251bGwgfHwgeyBlcnJvciAi57y65bCRIG5wbSI7IGV4aXQgMTsgfQoKIyBXaW5kb3dzIEdpdCBCYXNoIOS4i+mAmuW4uOayoeaciSB6aXDvvIznlKggcHl0aG9uIOWFnOW6leaJk+WMhQpQWV9GQUxMQkFDSz0iIgppZiBjb21tYW5kIC12IHB5ID4vZGV2L251bGw7IHRoZW4KICBQWV9GQUxMQkFDSz0icHkiCmVsaWYgY29tbWFuZCAtdiBweXRob24zID4vZGV2L251bGw7IHRoZW4KICBQWV9GQUxMQkFDSz0icHl0aG9uMyIKZWxpZiBjb21tYW5kIC12IHB5dGhvbiA+L2Rldi9udWxsOyB0aGVuCiAgaWYgcHl0aG9uIC1jICJwcmludCgxKSIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBQWV9GQUxMQkFDSz0icHl0aG9uIgogIGZpCmZpCmlmICEgY29tbWFuZCAtdiB6aXAgPi9kZXYvbnVsbDsgdGhlbgogIGlmIFsgLXogIiRQWV9GQUxMQkFDSyIgXTsgdGhlbgogICAgZXJyb3IgIue8uuWwkSB6aXAg5LiU5pyq5om+5Yiw5Y+v55SoIHB5dGhvbu+8jOivt+WuieijheWFtuS4gCIKICAgIGV4aXQgMQogIGZpCiAgd2FybiAi5pyq5om+5YiwIHppcO+8jOWwhuS9v+eUqCAkUFlfRkFMTEJBQ0sg5YGaIFpJUCDmiZPljIUiCmZpCgojIDEuIOWJjeerr+aehOW7ugppZiBbICEgLWQgIiRST09UL3dlYi9kaXN0IiBdOyB0aGVuCiAgaW5mbyAi5YmN56uvIGRpc3Qg5LiN5a2Y5Zyo77yM5byA5aeL5p6E5bu6Li4uIgogIChjZCAiJFJPT1Qvd2ViIiAmJiBucG0gY2kgJiYgbnBtIHJ1biBidWlsZCkKZWxzZQogIGluZm8gIuW3suWtmOWcqCB3ZWIvZGlzdO+8jOi3s+i/h+WJjeerr+aehOW7uu+8iOWmgumcgOW8uuWItumHjeW7uuivt+WFiOWIoOmZpCB3ZWIvZGlzdO+8iSIKZmkKCiMgMi4g5ZCO56uv5Lqk5Y+J57yW6K+R77yIQWxwaW5lIG11c2wg546v5aKD5LiL5Lmf6IO96LeRIENHT19FTkFCTEVEPTAg55qEIEdvIOmdmeaAgeS6jOi/m+WItu+8iQpybSAtcmYgIiRTVEFHSU5HIgpta2RpciAtcCAiJFNUQUdJTkcvc3lzdGVtL2JpbiIgIiRTVEFHSU5HL3dlYiIgIiRESVNUIgoKYnVpbGRfYmFja2VuZCgpIHsKICBsb2NhbCBnb19hcmNoPSIkMSIKICBsb2NhbCBzdWZmaXg9IiQyIgogIGluZm8gIue8luivkeWQjuerrzogR09PUz1saW51eCBHT0FSQ0g9JHtnb19hcmNofSIKICAoY2QgIiRST09UL3NlcnZlciIgJiYgXAogICAgQ0dPX0VOQUJMRUQ9MCBHT09TPWxpbnV4IEdPQVJDSD0iJHtnb19hcmNofSIgXAogICAgZ28gYnVpbGQgLXRyaW1wYXRoIFwKICAgICAgLWxkZmxhZ3M9Ii1zIC13IC1YIGRhaWRhaS1wYW5lbC9oYW5kbGVyLlZlcnNpb249JHtWRVJTSU9OfSIgXAogICAgICAtbyAiJFNUQUdJTkcvc3lzdGVtL2Jpbi9kYWlkYWktc2VydmVyLSR7c3VmZml4fSIgLikKICAoY2QgIiRST09UL3NlcnZlciIgJiYgXAogICAgQ0dPX0VOQUJMRUQ9MCBHT09TPWxpbnV4IEdPQVJDSD0iJHtnb19hcmNofSIgXAogICAgZ28gYnVpbGQgLXRyaW1wYXRoIFwKICAgICAgLWxkZmxhZ3M9Ii1zIC13IC1YIGRhaWRhaS1wYW5lbC9oYW5kbGVyLlZlcnNpb249JHtWRVJTSU9OfSIgXAogICAgICAtbyAiJFNUQUdJTkcvc3lzdGVtL2Jpbi9kZHAtJHtzdWZmaXh9IiAuL2NtZC9kZHApCn0KCmNhc2UgIiRUQVJHRVRTIiBpbgogIGFybTY0KSBidWlsZF9iYWNrZW5kIGFybTY0IGFybTY0IDs7CiAgYW1kNjQpIGJ1aWxkX2JhY2tlbmQgYW1kNjQgYW1kNjQgOzsKICBhbGwpCiAgICBidWlsZF9iYWNrZW5kIGFybTY0IGFybTY0CiAgICBidWlsZF9iYWNrZW5kIGFtZDY0IGFtZDY0CiAgICA7OwogICopIGVycm9yICLmnKrnn6XmnrbmnoQ6ICRUQVJHRVRTIO+8iOaUr+aMgTogYXJtNjQgLyBhbWQ2NCAvIGFsbO+8iSI7IGV4aXQgMSA7Owplc2FjCgojIDMuIOaLt+i0neaooeWdl+aWh+S7tu+8iEdpdCBCYXNoIOS4iiAqLnNoIOWPr+iDveW4piBDUkxG77yMQnVzeUJveCBzaCDop6PmnpDkuI3kuobvvIznu5/kuIDov4cgdHIg5LiA6YGN77yJCmluZm8gIuaJk+WMheaooeWdl+aWh+S7ti4uLiIKY29weV9zaCgpIHsKICB0ciAtZCAnXHInIDwgIiQxIiA+ICIkMiIKICBjaG1vZCAreCAiJDIiIDI+L2Rldi9udWxsIHx8IHRydWUKfQoKY29weV9zaCAiJE1PRERJUi9jdXN0b21pemUuc2giICAgICAgICAgICAgICAgICAgICAgICAiJFNUQUdJTkcvY3VzdG9taXplLnNoIgpjb3B5X3NoICIkTU9ERElSL3NlcnZpY2Uuc2giICAgICAgICAgICAgICAgICAgICAgICAgICIkU1RBR0lORy9zZXJ2aWNlLnNoIgpjb3B5X3NoICIkTU9ERElSL3VuaW5zdGFsbC5zaCIgICAgICAgICAgICAgICAgICAgICAgICIkU1RBR0lORy91bmluc3RhbGwuc2giCmNvcHlfc2ggIiRNT0RESVIvYWN0aW9uLnNoIiAgICAgICAgICAgICAgICAgICAgICAgICAgIiRTVEFHSU5HL2FjdGlvbi5zaCIKY3AgLWYgICAiJE1PRERJUi9tb2R1bGUucHJvcCIgICAgICAgICAgICAgICAgICAgICAgICAiJFNUQUdJTkcvbW9kdWxlLnByb3AiClsgLWYgIiRNT0RESVIvUkVBRE1FLm1kIiBdICYmIGNwIC1mICIkTU9ERElSL1JFQURNRS5tZCIgIiRTVEFHSU5HL1JFQURNRS5tZCIKCiMg5a655Zmo5LqM6L+b5Yi277yIcnVyaW1h77yJ4oCU4oCUIOS7jiBNYWdpc2svc3lzdGVtL2Jpbi8g5ou35YiwIHN0YWdpbmcvc3lzdGVtL2Jpbi8KaWYgWyAtZiAiJE1PRERJUi9zeXN0ZW0vYmluL3J1cmltYSIgXTsgdGhlbgogIGNwIC1mICIkTU9ERElSL3N5c3RlbS9iaW4vcnVyaW1hIiAiJFNUQUdJTkcvc3lzdGVtL2Jpbi9ydXJpbWEiCiAgY2htb2QgK3ggIiRTVEFHSU5HL3N5c3RlbS9iaW4vcnVyaW1hIgplbHNlCiAgZXJyb3IgIue8uuWwkSAkTU9ERElSL3N5c3RlbS9iaW4vcnVyaW1h77yI5a655Zmo6L+Q6KGM5pe277yJ77yM6K+35YWI5pS+572u6Z2Z5oCBIHJ1cmltYSDkuozov5vliLYiCiAgZXhpdCAxCmZpCgojIOemu+e6vyBhcGvvvIhsaW51eC1wYW0gLyBzaGFkb3fvvIkKaWYgWyAtZCAiJE1PRERJUi9hcGsiIF07IHRoZW4KICBta2RpciAtcCAiJFNUQUdJTkcvYXBrIgogIGNwIC1mICIkTU9ERElSL2Fway8iKi5hcGsgIiRTVEFHSU5HL2Fway8iIDI+L2Rldi9udWxsIHx8IHRydWUKZmkKCiMgc2NyaXB0cy8KaWYgWyAtZCAiJE1PRERJUi9zY3JpcHRzIiBdOyB0aGVuCiAgbWtkaXIgLXAgIiRTVEFHSU5HL3NjcmlwdHMiCiAgZm9yIGYgaW4gIiRNT0RESVIiL3NjcmlwdHMvKjsgZG8KICAgIFsgLWYgIiRmIiBdIHx8IGNvbnRpbnVlCiAgICBuYW1lPSIkKGJhc2VuYW1lICIkZiIpIgogICAgY2FzZSAiJG5hbWUiIGluCiAgICAgICouc2gpIGNvcHlfc2ggIiRmIiAiJFNUQUdJTkcvc2NyaXB0cy8kbmFtZSIgOzsKICAgICAgKikgICAgY3AgLWYgIiRmIiAiJFNUQUdJTkcvc2NyaXB0cy8kbmFtZSIgOzsKICAgIGVzYWMKICBkb25lCmZpCgojIE1FVEEtSU5GLwppZiBbIC1kICIkTU9ERElSL01FVEEtSU5GIiBdOyB0aGVuCiAgbWtkaXIgLXAgIiRTVEFHSU5HL01FVEEtSU5GL2NvbS9nb29nbGUvYW5kcm9pZCIKICBmb3IgZiBpbiAiJE1PRERJUiIvTUVUQS1JTkYvY29tL2dvb2dsZS9hbmRyb2lkLyo7IGRvCiAgICBbIC1mICIkZiIgXSB8fCBjb250aW51ZQogICAgbmFtZT0iJChiYXNlbmFtZSAiJGYiKSIKICAgIGNvcHlfc2ggIiRmIiAiJFNUQUdJTkcvTUVUQS1JTkYvY29tL2dvb2dsZS9hbmRyb2lkLyRuYW1lIgogIGRvbmUKZmkKCiMg5ZCM5q2l54mI5pys5Y+35YiwIG1vZHVsZS5wcm9wCiMgdmVyc2lvbkNvZGU6IDIuMC42IC0+IDIwMDA2IChNQUoqMTAwMDAgKyBNSU4qMTAwICsgUEFUQ0gp77yM5LiOIENJIOS/neaMgeS4gOiHtApJRlM9Jy4nIHJlYWQgLXIgX01BSiBfTUlOIF9QQVRDSCA8PDwiJFZFUlNJT04iCl9NQUo9JHtfTUFKOi0wfTsgX01JTj0ke19NSU46LTB9OyBfUEFUQ0g9JHtfUEFUQ0g6LTB9ClZFUlNJT05DT0RFPSQoKCBfTUFKICogMTAwMDAgKyBfTUlOICogMTAwICsgX1BBVENIICkpCnNlZCAtaS5iYWsgXAogIC1lICJzfF52ZXJzaW9uPS4qfHZlcnNpb249diR7VkVSU0lPTn18IiBcCiAgLWUgInN8XnZlcnNpb25Db2RlPS4qfHZlcnNpb25Db2RlPSR7VkVSU0lPTkNPREV9fCIgXAogICIkU1RBR0lORy9tb2R1bGUucHJvcCIKcm0gLWYgIiRTVEFHSU5HL21vZHVsZS5wcm9wLmJhayIKCiMg5YmN56uv6Z2Z5oCB6LWE5rqQCmNwIC1yZiAiJFJPT1Qvd2ViL2Rpc3QvIiogIiRTVEFHSU5HL3dlYi8iCgojIDQuIOaJk+WMhSBaSVAKcm0gLWYgIiRPVVRaSVAiCmluZm8gIueUn+aIkCBaSVA6ICRPVVRaSVAiCmlmIGNvbW1hbmQgLXYgemlwID4vZGV2L251bGw7IHRoZW4KICAoY2QgIiRTVEFHSU5HIiAmJiB6aXAgLXI5ICIkT1VUWklQIiAuIC14ICIqLkRTX1N0b3JlIikKZWxzZQogICRQWV9GQUxMQkFDSyAtICIkU1RBR0lORyIgIiRPVVRaSVAiIDw8J1BZJwppbXBvcnQgb3MsIHN5cywgemlwZmlsZQpzdGFnaW5nLCBvdXQgPSBzeXMuYXJndlsxXSwgc3lzLmFyZ3ZbMl0Kd2l0aCB6aXBmaWxlLlppcEZpbGUob3V0LCAndycsIHppcGZpbGUuWklQX0RFRkxBVEVELCBjb21wcmVzc2xldmVsPTkpIGFzIHo6CiAgICBmb3Igcm9vdCwgZGlycywgZmlsZXMgaW4gb3Mud2FsayhzdGFnaW5nKToKICAgICAgICBmb3IgZiBpbiBmaWxlczoKICAgICAgICAgICAgaWYgZiA9PSAnLkRTX1N0b3JlJzoKICAgICAgICAgICAgICAgIGNvbnRpbnVlCiAgICAgICAgICAgIGZ1bGwgPSBvcy5wYXRoLmpvaW4ocm9vdCwgZikKICAgICAgICAgICAgcmVsID0gb3MucGF0aC5yZWxwYXRoKGZ1bGwsIHN0YWdpbmcpLnJlcGxhY2UoJ1xcJywgJy8nKQogICAgICAgICAgICB6LndyaXRlKGZ1bGwsIHJlbCkKcHJpbnQoZiJ3cm90ZSB7b3V0fSIpClBZCmZpCgppbmZvICLlrozmiJA6ICRPVVRaSVAiCmluZm8gIueUqOazlTog5ZyoIE1hZ2lzayAvIEtlcm5lbFNVIC8gQVBhdGNoIOeuoeeQhuWZqOS4remAieaLqeatpCBaSVAg5a6J6KOF5Y2z5Y+v44CCIgo=
+#!/usr/bin/env bash
+##########################################################################
+# 呆呆面板 Magisk 模块打包脚本 (容器方案 v2.0.6+)
+#
+# 用法:
+#   bash Magisk/build.sh            # 默认打包 arm64
+#   bash Magisk/build.sh 2.3.1     # 指定版本号
+#   bash Magisk/build.sh 2.3.1 all # 同时打包 arm64 + amd64
+#
+# 产物: dist/daidai-panel-magisk-v<版本>.zip
+#
+# 模块内部不再内置 Python/Node；改为在 customize.sh 里用 rurima + Alpine
+# minirootfs 构建一个 musl 容器，apk add 出 python3 / nodejs / npm / git 等。
+##########################################################################
+
+set -euo pipefail
+
+# 默认版本号优先从 VERSION 文件读（CI 维护），其次参数，最后 dev
+if [ -r "VERSION" ]; then
+    VERSION="${1:-$(cat VERSION)}"
+else
+    VERSION="${1:-dev}"
+fi
+TARGETS="${2:-all}"     # arm64 / amd64 / all
+
+cd "$(dirname "$0")/.."
+ROOT="$(pwd)"
+
+MODDIR="$ROOT/Magisk"
+DIST="$ROOT/dist"
+STAGING="$DIST/magisk-staging"
+OUTZIP="$DIST/daidai-panel-magisk-v${VERSION}.zip"
+
+info()  { printf "\033[1;32m[INFO]\033[0m %s\n" "$*" >&2; }
+warn()  { printf "\033[1;33m[WARN]\033[0m %s\n" "$*" >&2; }
+error() { printf "\033[1;31m[ERR ]\033[0m %s\n" "$*" >&2; }
+
+command -v go   >/dev/null || { error "缺少 go"; exit 1; }
+command -v npm  >/dev/null || { error "缺少 npm"; exit 1; }
+
+# Windows Git Bash 下通常没有 zip，用 python 兜底打包
+PY_FALLBACK=""
+if command -v py >/dev/null; then
+  PY_FALLBACK="py"
+elif command -v python3 >/dev/null; then
+  PY_FALLBACK="python3"
+elif command -v python >/dev/null; then
+  if python -c "print(1)" >/dev/null 2>&1; then
+    PY_FALLBACK="python"
+  fi
+fi
+if ! command -v zip >/dev/null; then
+  if [ -z "$PY_FALLBACK" ]; then
+    error "缺少 zip 且未找到可用 python，请安装其一"
+    exit 1
+  fi
+  warn "未找到 zip，将使用 $PY_FALLBACK 做 ZIP 打包"
+fi
+
+# 1. 前端构建
+if [ ! -d "$ROOT/web/dist" ]; then
+  info "前端 dist 不存在，开始构建..."
+  (cd "$ROOT/web" && npm ci && npm run build)
+else
+  info "已存在 web/dist，跳过前端构建（如需强制重建请先删除 web/dist）"
+fi
+
+# 2. 后端交叉编译（Alpine musl 环境下也能跑 CGO_ENABLED=0 的 Go 静态二进制）
+rm -rf "$STAGING"
+mkdir -p "$STAGING/system/bin" "$STAGING/web" "$DIST"
+
+build_backend() {
+  local go_arch="$1"
+  local suffix="$2"
+  info "编译后端: GOOS=linux GOARCH=${go_arch}"
+  (cd "$ROOT/server" && \
+    CGO_ENABLED=0 GOOS=linux GOARCH="${go_arch}" \
+    go build -trimpath \
+      -ldflags="-s -w -X daidai-panel/handler.Version=${VERSION}" \
+      -o "$STAGING/system/bin/daidai-server-${suffix}" .)
+  (cd "$ROOT/server" && \
+    CGO_ENABLED=0 GOOS=linux GOARCH="${go_arch}" \
+    go build -trimpath \
+      -ldflags="-s -w -X daidai-panel/handler.Version=${VERSION}" \
+      -o "$STAGING/system/bin/ddp-${suffix}" ./cmd/ddp)
+}
+
+case "$TARGETS" in
+  arm64) build_backend arm64 arm64 ;;
+  amd64) build_backend amd64 amd64 ;;
+  all)
+    build_backend arm64 arm64
+    build_backend amd64 amd64
+    ;;
+  *) error "未知架构: $TARGETS （支持: arm64 / amd64 / all）"; exit 1 ;;
+esac
+
+# 3. 拷贝模块文件（Git Bash 上 *.sh 可能带 CRLF，BusyBox sh 解析不了，统一过 tr 一遍）
+info "打包模块文件..."
+copy_sh() {
+  tr -d '\r' < "$1" > "$2"
+  chmod +x "$2" 2>/dev/null || true
+}
+
+copy_sh "$MODDIR/customize.sh"                       "$STAGING/customize.sh"
+copy_sh "$MODDIR/service.sh"                         "$STAGING/service.sh"
+copy_sh "$MODDIR/uninstall.sh"                       "$STAGING/uninstall.sh"
+copy_sh "$MODDIR/action.sh"                          "$STAGING/action.sh"
+cp -f   "$MODDIR/module.prop"                        "$STAGING/module.prop"
+[ -f "$MODDIR/README.md" ] && cp -f "$MODDIR/README.md" "$STAGING/README.md"
+
+# 容器二进制（rurima）—— 从 Magisk/system/bin/ 拷到 staging/system/bin/
+if [ -f "$MODDIR/system/bin/rurima" ]; then
+  cp -f "$MODDIR/system/bin/rurima" "$STAGING/system/bin/rurima"
+  chmod +x "$STAGING/system/bin/rurima"
+else
+  error "缺少 $MODDIR/system/bin/rurima（容器运行时），请先放置静态 rurima 二进制"
+  exit 1
+fi
+
+# 离线 apk（linux-pam / shadow）
+if [ -d "$MODDIR/apk" ]; then
+  mkdir -p "$STAGING/apk"
+  cp -f "$MODDIR/apk/"*.apk "$STAGING/apk/" 2>/dev/null || true
+fi
+
+# scripts/
+if [ -d "$MODDIR/scripts" ]; then
+  mkdir -p "$STAGING/scripts"
+  for f in "$MODDIR"/scripts/*; do
+    [ -f "$f" ] || continue
+    name="$(basename "$f")"
+    case "$name" in
+      *.sh) copy_sh "$f" "$STAGING/scripts/$name" ;;
+      *)    cp -f "$f" "$STAGING/scripts/$name" ;;
+    esac
+  done
+fi
+
+# META-INF/
+if [ -d "$MODDIR/META-INF" ]; then
+  mkdir -p "$STAGING/META-INF/com/google/android"
+  for f in "$MODDIR"/META-INF/com/google/android/*; do
+    [ -f "$f" ] || continue
+    name="$(basename "$f")"
+    copy_sh "$f" "$STAGING/META-INF/com/google/android/$name"
+  done
+fi
+
+# 同步版本号到 module.prop
+# versionCode: 2.0.6 -> 20006 (MAJ*10000 + MIN*100 + PATCH)，与 CI 保持一致
+IFS='.' read -r _MAJ _MIN _PATCH <<<"$VERSION"
+_MAJ=${_MAJ:-0}; _MIN=${_MIN:-0}; _PATCH=${_PATCH:-0}
+VERSIONCODE=$(( _MAJ * 10000 + _MIN * 100 + _PATCH ))
+sed -i.bak \
+  -e "s|^version=.*|version=v${VERSION}|" \
+  -e "s|^versionCode=.*|versionCode=${VERSIONCODE}|" \
+  "$STAGING/module.prop"
+rm -f "$STAGING/module.prop.bak"
+
+# 前端静态资源
+cp -rf "$ROOT/web/dist/"* "$STAGING/web/"
+
+# 4. 打包 ZIP
+rm -f "$OUTZIP"
+info "生成 ZIP: $OUTZIP"
+if command -v zip >/dev/null; then
+  (cd "$STAGING" && zip -r9 "$OUTZIP" . -x "*.DS_Store")
+else
+  $PY_FALLBACK - "$STAGING" "$OUTZIP" <<'PY'
+import os, sys, zipfile
+staging, out = sys.argv[1], sys.argv[2]
+with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED, compresslevel=9) as z:
+    for root, dirs, files in os.walk(staging):
+        for f in files:
+            if f == '.DS_Store':
+                continue
+            full = os.path.join(root, f)
+            rel = os.path.relpath(full, staging).replace('\\', '/')
+            z.write(full, rel)
+print(f"wrote {out}")
+PY
+fi
+
+info "完成: $OUTZIP"
+info "用法: 在 Magisk / KernelSU / APatch 管理器中选择此 ZIP 安装即可。"
