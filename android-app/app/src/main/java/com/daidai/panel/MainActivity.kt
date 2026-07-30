@@ -1,1 +1,244 @@
-cGFja2FnZSBjb20uZGFpZGFpLnBhbmVsCgppbXBvcnQgYW5kcm9pZC5hbm5vdGF0aW9uLlN1cHByZXNzTGludAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5uZXQuVXJpCmltcG9ydCBhbmRyb2lkLm9zLkJ1aWxkCmltcG9ydCBhbmRyb2lkLm9zLkJ1bmRsZQppbXBvcnQgYW5kcm9pZC5wcm92aWRlci5TZXR0aW5ncwppbXBvcnQgYW5kcm9pZC53ZWJraXQuV2ViQ2hyb21lQ2xpZW50CmltcG9ydCBhbmRyb2lkLndlYmtpdC5XZWJSZXNvdXJjZVJlcXVlc3QKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXcKaW1wb3J0IGFuZHJvaWQud2Via2l0LldlYlZpZXdDbGllbnQKaW1wb3J0IGFuZHJvaWQud2lkZ2V0LlRvYXN0CmltcG9ydCBhbmRyb2lkeC5hcHBjb21wYXQuYXBwLkFwcENvbXBhdEFjdGl2aXR5CgpjbGFzcyBNYWluQWN0aXZpdHkgOiBBcHBDb21wYXRBY3Rpdml0eSgpIHsKCiAgICBwcml2YXRlIGxhdGVpbml0IHZhciB3ZWJWaWV3OiBXZWJWaWV3CgogICAgQFN1cHByZXNzTGludCgiU2V0SmF2YVNjcmlwdEVuYWJsZWQiKQogICAgb3ZlcnJpZGUgZnVuIG9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZTogQnVuZGxlPykgewogICAgICAgIHN1cGVyLm9uQ3JlYXRlKHNhdmVkSW5zdGFuY2VTdGF0ZSkKCiAgICAgICAgLy8gU3RhcnQgdGhlIHBhbmVsIGZvcmVncm91bmQgc2VydmljZQogICAgICAgIHZhbCBzZXJ2aWNlSW50ZW50ID0gSW50ZW50KHRoaXMsIFBhbmVsU2VydmljZTo6Y2xhc3MuamF2YSkKICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICBzdGFydEZvcmVncm91bmRTZXJ2aWNlKHNlcnZpY2VJbnRlbnQpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgc3RhcnRTZXJ2aWNlKHNlcnZpY2VJbnRlbnQpCiAgICAgICAgfQoKICAgICAgICAvLyBSZXF1ZXN0IGJhdHRlcnkgb3B0aW1pemF0aW9uIGV4Y2x1c2lvbgogICAgICAgIHJlcXVlc3RCYXR0ZXJ5T3B0aW1pemF0aW9uRXhlbXB0aW9uKCkKCiAgICAgICAgd2ViVmlldyA9IFdlYlZpZXcodGhpcykKICAgICAgICBzZXRDb250ZW50Vmlldyh3ZWJWaWV3KQoKICAgICAgICB3ZWJWaWV3LnNldHRpbmdzLmFwcGx5IHsKICAgICAgICAgICAgamF2YVNjcmlwdEVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgIGRvbVN0b3JhZ2VFbmFibGVkID0gdHJ1ZQogICAgICAgICAgICBkYXRhYmFzZUVuYWJsZWQgPSB0cnVlCiAgICAgICAgICAgIGFsbG93RmlsZUFjY2VzcyA9IGZhbHNlCiAgICAgICAgICAgIGFsbG93Q29udGVudEFjY2VzcyA9IGZhbHNlCiAgICAgICAgICAgIGNhY2hlTW9kZSA9IGFuZHJvaWQud2Via2l0LldlYlNldHRpbmdzLkxPQURfREVGQVVMVAogICAgICAgICAgICB1c2VyQWdlbnRTdHJpbmcgPSAiRGFpZGFpUGFuZWwtQW5kcm9pZC8xLjAiCiAgICAgICAgICAgIHNldFN1cHBvcnRab29tKHRydWUpCiAgICAgICAgICAgIGJ1aWx0SW5ab29tQ29udHJvbHMgPSB0cnVlCiAgICAgICAgICAgIGRpc3BsYXlab29tQ29udHJvbHMgPSBmYWxzZQogICAgICAgICAgICBsb2FkV2l0aE92ZXJ2aWV3TW9kZSA9IHRydWUKICAgICAgICAgICAgdXNlV2lkZVZpZXdQb3J0ID0gdHJ1ZQogICAgICAgICAgICBtaXhlZENvbnRlbnRNb2RlID0gYW5kcm9pZC53ZWJraXQuV2ViU2V0dGluZ3MuTUlYRURfQ09OVEVOVF9ORVZFUl9BTExPVwogICAgICAgIH0KCiAgICAgICAgd2ViVmlldy53ZWJWaWV3Q2xpZW50ID0gb2JqZWN0IDogV2ViVmlld0NsaWVudCgpIHsKICAgICAgICAgICAgb3ZlcnJpZGUgZnVuIHNob3VsZE92ZXJyaWRlVXJsTG9hZGluZygKICAgICAgICAgICAgICAgIHZpZXc6IFdlYlZpZXcsCiAgICAgICAgICAgICAgICByZXF1ZXN0OiBXZWJSZXNvdXJjZVJlcXVlc3QKICAgICAgICAgICAgKTogQm9vbGVhbiB7CiAgICAgICAgICAgICAgICB2YWwgdXJsID0gcmVxdWVzdC51cmwudG9TdHJpbmcoKQogICAgICAgICAgICAgICAgLy8gT25seSBhbGxvdyBsb2NhbGhvc3QKICAgICAgICAgICAgICAgIGlmICh1cmwuc3RhcnRzV2l0aCgiaHR0cDovLzEyNy4wLjAuMSIpIHx8IHVybC5zdGFydHNXaXRoKCJodHRwOi8vbG9jYWxob3N0IikpIHsKICAgICAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIC8vIEV4dGVybmFsIGxpbmtzIG9wZW4gaW4gYnJvd3NlcgogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICB2YWwgaW50ZW50ID0gSW50ZW50KEludGVudC5BQ1RJT05fVklFVywgVXJpLnBhcnNlKHVybCkpCiAgICAgICAgICAgICAgICAgICAgc3RhcnRBY3Rpdml0eShpbnRlbnQpCiAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBFeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiB0cnVlCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIHdlYlZpZXcud2ViQ2hyb21lQ2xpZW50ID0gV2ViQ2hyb21lQ2xpZW50KCkKCiAgICAgICAgLy8gTG9hZCB0aGUgcGFuZWwgLSB3YWl0IGZvciB0aGUgc2VydmVyIHRvIGJlIHJlYWR5CiAgICAgICAgbG9hZFBhbmVsV2hlblJlYWR5KCkKICAgIH0KCiAgICBwcml2YXRlIGZ1biBsb2FkUGFuZWxXaGVuUmVhZHkoKSB7CiAgICAgICAgVGhyZWFkIHsKICAgICAgICAgICAgdmFyIGF0dGVtcHRzID0gMAogICAgICAgICAgICB2YWwgbWF4QXR0ZW1wdHMgPSA2MCAvLyA2MCBzZWNvbmRzIHRvdGFsCiAgICAgICAgICAgIHdoaWxlIChhdHRlbXB0cyA8IG1heEF0dGVtcHRzKSB7CiAgICAgICAgICAgICAgICBpZiAoUGFuZWxTZXJ2aWNlLmlzU2VydmVyUnVubmluZygpKSB7CiAgICAgICAgICAgICAgICAgICAgYnJlYWsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgVGhyZWFkLnNsZWVwKDEwMDApCiAgICAgICAgICAgICAgICB9IGNhdGNoIChfOiBJbnRlcnJ1cHRlZEV4Y2VwdGlvbikgewogICAgICAgICAgICAgICAgICAgIHJldHVybkBUaHJlYWQKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGF0dGVtcHRzKysKICAgICAgICAgICAgfQoKICAgICAgICAgICAgcnVuT25VaVRocmVhZCB7CiAgICAgICAgICAgICAgICBpZiAoUGFuZWxTZXJ2aWNlLmlzU2VydmVyUnVubmluZygpKSB7CiAgICAgICAgICAgICAgICAgICAgd2ViVmlldy5sb2FkVXJsKCJodHRwOi8vMTI3LjAuMC4xOiR7UGFuZWxTZXJ2aWNlLlBBTkVMX1BPUlR9IikKICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgVG9hc3QubWFrZVRleHQoCiAgICAgICAgICAgICAgICAgICAgICAgIHRoaXMsCiAgICAgICAgICAgICAgICAgICAgICAgICLpnaLmnb/lkK/liqjlpLHotKXvvIzor7fmo4Dmn6Xml6Xlv5ciLAogICAgICAgICAgICAgICAgICAgICAgICBUb2FzdC5MRU5HVEhfTE9ORwogICAgICAgICAgICAgICAgICAgICkuc2hvdygpCiAgICAgICAgICAgICAgICAgICAgLy8gUmV0cnkgYWZ0ZXIgYSBkZWxheQogICAgICAgICAgICAgICAgICAgIHdlYlZpZXcucG9zdERlbGF5ZWQoeyBsb2FkUGFuZWxXaGVuUmVhZHkoKSB9LCAzMDAwKQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgfS5zdGFydCgpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gcmVxdWVzdEJhdHRlcnlPcHRpbWl6YXRpb25FeGVtcHRpb24oKSB7CiAgICAgICAgaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk0pIHsKICAgICAgICAgICAgdmFsIHBtID0gZ2V0U3lzdGVtU2VydmljZShQT1dFUl9TRVJWSUNFKSBhcyBhbmRyb2lkLm9zLlBvd2VyTWFuYWdlcgogICAgICAgICAgICBpZiAoIXBtLmlzSWdub3JpbmdCYXR0ZXJ5T3B0aW1pemF0aW9ucyhwYWNrYWdlTmFtZSkpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgdmFsIGludGVudCA9IEludGVudCgpCiAgICAgICAgICAgICAgICAgICAgaW50ZW50LmFjdGlvbiA9IFNldHRpbmdzLkFDVElPTl9SRVFVRVNUX0lHTk9SRV9CQVRURVJZX09QVElNSVpBVElPTlMKICAgICAgICAgICAgICAgICAgICBpbnRlbnQuZGF0YSA9IFVyaS5wYXJzZSgicGFja2FnZTokcGFja2FnZU5hbWUiKQogICAgICAgICAgICAgICAgICAgIHN0YXJ0QWN0aXZpdHkoaW50ZW50KQogICAgICAgICAgICAgICAgfSBjYXRjaCAoXzogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CgogICAgQERlcHJlY2F0ZWQoIlVzZSBvbkJhY2tQcmVzc2VkRGlzcGF0Y2hlciIpCiAgICBvdmVycmlkZSBmdW4gb25CYWNrUHJlc3NlZCgpIHsKICAgICAgICBpZiAod2ViVmlldy5jYW5Hb0JhY2soKSkgewogICAgICAgICAgICB3ZWJWaWV3LmdvQmFjaygpCiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgICAgQFN1cHByZXNzKCJERVBSRUNBVElPTiIpCiAgICAgICAgICAgIHN1cGVyLm9uQmFja1ByZXNzZWQoKQogICAgICAgIH0KICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25QYXVzZSgpIHsKICAgICAgICBzdXBlci5vblBhdXNlKCkKICAgICAgICB3ZWJWaWV3Lm9uUGF1c2UoKQogICAgfQoKICAgIG92ZXJyaWRlIGZ1biBvblJlc3VtZSgpIHsKICAgICAgICBzdXBlci5vblJlc3VtZSgpCiAgICAgICAgd2ViVmlldy5vblJlc3VtZSgpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uRGVzdHJveSgpIHsKICAgICAgICB3ZWJWaWV3LmRlc3Ryb3koKQogICAgICAgIHN1cGVyLm9uRGVzdHJveSgpCiAgICB9Cn0K
+package com.daidai.panel
+
+import android.annotation.SuppressLint
+import android.content.Intent
+import android.net.Uri
+import android.os.Build
+import android.os.Bundle
+import android.provider.Settings
+import android.view.View
+import android.webkit.WebChromeClient
+import android.webkit.WebResourceRequest
+import android.webkit.WebView
+import android.webkit.WebViewClient
+import android.widget.LinearLayout
+import android.widget.ProgressBar
+import android.widget.TextView
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
+import androidx.appcompat.app.AppCompatActivity
+
+class MainActivity : AppCompatActivity() {
+
+    private lateinit var webView: WebView
+    private lateinit var loadingLayout: LinearLayout
+    private lateinit var loadingText: TextView
+    private lateinit var progressBar: ProgressBar
+
+    /**
+     * 接收悬浮窗权限授权结果。
+     * 用户从系统设置页授予后回到 App，触发此回调，刷新 Service 的悬浮窗状态。
+     * 注：Service 自己内部用 registerReceiver 接收 REFRESH_OVERLAY，所以这里只需要
+     * 触发 Service onStartCommand 重新走一遍启动逻辑。
+     */
+    private val overlayPermissionLauncher = registerForActivityResult(
+        ActivityResultContracts.StartActivityForResult()
+    ) { _ ->
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && Settings.canDrawOverlays(this)) {
+            Toast.makeText(this, "悬浮窗权限已授予", Toast.LENGTH_SHORT).show()
+            // 让 Service 重启并显示悬浮窗。PanelService.onStartCommand 每次会检查权限并尝试 show
+            try {
+                val intent = Intent(this, PanelService::class.java)
+                startForegroundService(intent)
+            } catch (e: Exception) {
+                // ignore
+            }
+        } else {
+            Toast.makeText(this, "未授予悬浮窗权限，日志悬浮窗将无法显示", Toast.LENGTH_LONG).show()
+        }
+    }
+
+    @SuppressLint("SetJavaScriptEnabled")
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        // Request overlay permission for log floating window
+        requestOverlayPermission()
+
+        // Create a loading screen
+        loadingLayout = LinearLayout(this).apply {
+            orientation = LinearLayout.VERTICAL
+            gravity = android.view.Gravity.CENTER
+            setPadding(48, 48, 48, 48)
+        }
+        progressBar = ProgressBar(this).apply {
+            isIndeterminate = true
+            val params = LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+            )
+            params.bottomMargin = 24
+            loadingLayout.addView(this, params)
+        }
+        loadingText = TextView(this).apply {
+            text = "正在启动呆呆面板..."
+            textSize = 16f
+            gravity = android.view.Gravity.CENTER
+        }
+        loadingLayout.addView(loadingText)
+        setContentView(loadingLayout)
+
+        // Start the panel foreground service
+        val serviceIntent = Intent(this, PanelService::class.java)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent)
+        } else {
+            startService(serviceIntent)
+        }
+
+        // Request battery optimization exclusion
+        requestBatteryOptimizationExemption()
+
+        // Create WebView but don't set as content yet
+        webView = WebView(this)
+        webView.settings.apply {
+            javaScriptEnabled = true
+            domStorageEnabled = true
+            databaseEnabled = true
+            allowFileAccess = false
+            allowContentAccess = false
+            cacheMode = android.webkit.WebSettings.LOAD_DEFAULT
+            userAgentString = "DaidaiPanel-Android/1.0"
+            setSupportZoom(true)
+            builtInZoomControls = true
+            displayZoomControls = false
+            loadWithOverviewMode = true
+            useWideViewPort = true
+            mixedContentMode = android.webkit.WebSettings.MIXED_CONTENT_NEVER_ALLOW
+        }
+
+        webView.webViewClient = object : WebViewClient() {
+            override fun shouldOverrideUrlLoading(
+                view: WebView,
+                request: WebResourceRequest
+            ): Boolean {
+                val url = request.url.toString()
+                if (url.startsWith("http://127.0.0.1") || url.startsWith("http://localhost")) {
+                    return false
+                }
+                try {
+                    val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+                    startActivity(intent)
+                } catch (_: Exception) {
+                }
+                return true
+            }
+
+            override fun onPageFinished(view: WebView?, url: String?) {
+                super.onPageFinished(view, url)
+                // Hide loading screen and show WebView
+                if (loadingLayout.visibility != View.GONE) {
+                    loadingLayout.visibility = View.GONE
+                    setContentView(webView)
+                }
+            }
+        }
+
+        webView.webChromeClient = WebChromeClient()
+
+        // Load the panel - wait for the server to be ready
+        loadPanelWhenReady()
+    }
+
+    private fun loadPanelWhenReady() {
+        Thread {
+            var attempts = 0
+            val maxAttempts = 120 // 120 seconds total (runtime extraction takes time)
+            while (attempts < maxAttempts) {
+                if (PanelService.isServerRunning()) {
+                    break
+                }
+                try {
+                    Thread.sleep(1000)
+                } catch (_: InterruptedException) {
+                    return@Thread
+                }
+                attempts++
+
+                // Update loading text with progress
+                val msg = when {
+                    attempts < 10 -> "正在启动呆呆面板..."
+                    attempts < 30 -> "正在解压运行时环境..."
+                    attempts < 60 -> "正在初始化后端服务..."
+                    attempts < 90 -> "正在加载前端资源..."
+                    else -> "启动时间较长，请耐心等待..."
+                }
+                runOnUiThread { loadingText.text = "$msg (${attempts}s)" }
+            }
+
+            runOnUiThread {
+                if (PanelService.isServerRunning()) {
+                    webView.loadUrl("http://127.0.0.1:${PanelService.PANEL_PORT}")
+                } else {
+                    Toast.makeText(
+                        this,
+                        "面板启动失败，请检查日志或重启App",
+                        Toast.LENGTH_LONG
+                    ).show()
+                    loadingText.text = "启动失败，正在重试..."
+                    // Retry after a delay
+                    webView.postDelayed({ loadPanelWhenReady() }, 5000)
+                }
+            }
+        }.start()
+    }
+
+    private fun requestBatteryOptimizationExemption() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            val pm = getSystemService(POWER_SERVICE) as android.os.PowerManager
+            if (!pm.isIgnoringBatteryOptimizations(packageName)) {
+                try {
+                    val intent = Intent()
+                    intent.action = Settings.ACTION_REQUEST_IGNORE_BATTERY_OPTIMIZATIONS
+                    intent.data = Uri.parse("package:$packageName")
+                    startActivity(intent)
+                } catch (_: Exception) {
+                }
+            }
+        }
+    }
+
+    private fun requestOverlayPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && !Settings.canDrawOverlays(this)) {
+            try {
+                val intent = Intent(
+                    Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
+                    Uri.parse("package:$packageName")
+                )
+                // 用 ActivityResultLauncher 接回调，用户授权回来后刷新悬浮窗
+                overlayPermissionLauncher.launch(intent)
+                Toast.makeText(
+                    this,
+                    "请授予悬浮窗权限以查看日志",
+                    Toast.LENGTH_LONG
+                ).show()
+            } catch (_: Exception) {
+            }
+        }
+    }
+
+    @Deprecated("Use onBackPressedDispatcher")
+    override fun onBackPressed() {
+        if (webView.parent != null && webView.canGoBack()) {
+            webView.goBack()
+        } else {
+            @Suppress("DEPRECATION")
+            super.onBackPressed()
+        }
+    }
+
+    override fun onPause() {
+        super.onPause()
+        webView.onPause()
+    }
+
+    override fun onResume() {
+        super.onResume()
+        webView.onResume()
+    }
+
+    override fun onDestroy() {
+        webView.destroy()
+        super.onDestroy()
+    }
+}
