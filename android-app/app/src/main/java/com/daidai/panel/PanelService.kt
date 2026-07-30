@@ -1,1 +1,505 @@
-cGFja2FnZSBjb20uZGFpZGFpLnBhbmVsCgppbXBvcnQgYW5kcm9pZC5hcHAuTm90aWZpY2F0aW9uCmltcG9ydCBhbmRyb2lkLmFwcC5Ob3RpZmljYXRpb25DaGFubmVsCmltcG9ydCBhbmRyb2lkLmFwcC5Ob3RpZmljYXRpb25NYW5hZ2VyCmltcG9ydCBhbmRyb2lkLmFwcC5QZW5kaW5nSW50ZW50CmltcG9ydCBhbmRyb2lkLmFwcC5TZXJ2aWNlCmltcG9ydCBhbmRyb2lkLmNvbnRlbnQuQ29udGV4dAppbXBvcnQgYW5kcm9pZC5jb250ZW50LkludGVudAppbXBvcnQgYW5kcm9pZC5vcy5CdWlsZAppbXBvcnQgYW5kcm9pZC5vcy5JQmluZGVyCmltcG9ydCBhbmRyb2lkLm9zLlBvd2VyTWFuYWdlcgppbXBvcnQgYW5kcm9pZC51dGlsLkxvZwppbXBvcnQgamF2YS5pby5GaWxlCmltcG9ydCBqYXZhLmlvLkZpbGVPdXRwdXRTdHJlYW0KaW1wb3J0IGphdmEuaW8uSU9FeGNlcHRpb24KaW1wb3J0IGphdmEubmV0Lkh0dHBVUkxDb25uZWN0aW9uCmltcG9ydCBqYXZhLm5ldC5VUkwKaW1wb3J0IGphdmEudXRpbC56aXAuWmlwSW5wdXRTdHJlYW0KaW1wb3J0IGphdmEudXRpbC56aXAuWmlwRW50cnkKCmNsYXNzIFBhbmVsU2VydmljZSA6IFNlcnZpY2UoKSB7CgogICAgY29tcGFuaW9uIG9iamVjdCB7CiAgICAgICAgcHJpdmF0ZSBjb25zdCB2YWwgVEFHID0gIkRhaWRhaVBhbmVsIgogICAgICAgIHByaXZhdGUgY29uc3QgdmFsIE5PVElGSUNBVElPTl9JRCA9IDEKICAgICAgICBwcml2YXRlIGNvbnN0IHZhbCBDSEFOTkVMX0lEID0gImRhaWRhaV9wYW5lbF9zZXJ2aWNlIgoKICAgICAgICBjb25zdCB2YWwgUEFORUxfUE9SVCA9IDU3MDAKCiAgICAgICAgQFZvbGF0aWxlCiAgICAgICAgcHJpdmF0ZSB2YXIgc2VydmVyUnVubmluZyA9IGZhbHNlCgogICAgICAgIEBWb2xhdGlsZQogICAgICAgIHByaXZhdGUgdmFyIHNlcnZlclByb2Nlc3M6IFByb2Nlc3M/ID0gbnVsbAoKICAgICAgICBmdW4gaXNTZXJ2ZXJSdW5uaW5nKCk6IEJvb2xlYW4gewogICAgICAgICAgICByZXR1cm4gdHJ5IHsKICAgICAgICAgICAgICAgIHZhbCB1cmwgPSBVUkwoImh0dHA6Ly8xMjcuMC4wLjE6JFBBTkVMX1BPUlQvYXBpL3YxL2hlYWx0aCIpCiAgICAgICAgICAgICAgICB2YWwgY29ubiA9IHVybC5vcGVuQ29ubmVjdGlvbigpIGFzIEh0dHBVUkxDb25uZWN0aW9uCiAgICAgICAgICAgICAgICBjb25uLmNvbm5lY3RUaW1lb3V0ID0gMjAwMAogICAgICAgICAgICAgICAgY29ubi5yZWFkVGltZW91dCA9IDIwMDAKICAgICAgICAgICAgICAgIGNvbm4ucmVxdWVzdE1ldGhvZCA9ICJHRVQiCiAgICAgICAgICAgICAgICB2YWwgY29kZSA9IGNvbm4ucmVzcG9uc2VDb2RlCiAgICAgICAgICAgICAgICBjb25uLmRpc2Nvbm5lY3QoKQogICAgICAgICAgICAgICAgY29kZSA9PSAyMDAKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBmYWxzZQogICAgICAgICAgICB9CiAgICAgICAgfQogICAgfQoKICAgIHByaXZhdGUgdmFyIHdha2VMb2NrOiBQb3dlck1hbmFnZXIuV2FrZUxvY2s/ID0gbnVsbAoKICAgIG92ZXJyaWRlIGZ1biBvbkNyZWF0ZSgpIHsKICAgICAgICBzdXBlci5vbkNyZWF0ZSgpCiAgICAgICAgY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbCgpCiAgICAgICAgYWNxdWlyZVdha2VMb2NrKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25TdGFydENvbW1hbmQoaW50ZW50OiBJbnRlbnQ/LCBmbGFnczogSW50LCBzdGFydElkOiBJbnQpOiBJbnQgewogICAgICAgIHN0YXJ0Rm9yZWdyb3VuZChOT1RJRklDQVRJT05fSUQsIGNyZWF0ZU5vdGlmaWNhdGlvbigi5ZGG5ZGG6Z2i5p2/5q2j5Zyo5ZCv5YqoLi4uIikpCgogICAgICAgIFRocmVhZCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBzZXR1cEVudmlyb25tZW50KCkKICAgICAgICAgICAgICAgIHN0YXJ0U2VydmVyKCkKICAgICAgICAgICAgfSBjYXRjaCAoZTogRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZShUQUcsICJGYWlsZWQgdG8gc3RhcnQgcGFuZWwiLCBlKQogICAgICAgICAgICAgICAgdXBkYXRlTm90aWZpY2F0aW9uKCLlkYblkYbpnaLmnb/lkK/liqjlpLHotKU6ICR7ZS5tZXNzYWdlfSIpCiAgICAgICAgICAgIH0KICAgICAgICB9LnN0YXJ0KCkKCiAgICAgICAgcmV0dXJuIFNUQVJUX1NUSUNLWQogICAgfQoKICAgIHByaXZhdGUgZnVuIHNldHVwRW52aXJvbm1lbnQoKSB7CiAgICAgICAgdmFsIG5hdGl2ZUxpYkRpciA9IGFwcGxpY2F0aW9uSW5mby5uYXRpdmVMaWJyYXJ5RGlyCiAgICAgICAgdmFsIGZpbGVzRGlyID0gZmlsZXNEaXIuYWJzb2x1dGVQYXRoCiAgICAgICAgdmFsIHBhbmVsRGlyID0gRmlsZShmaWxlc0RpciwgInBhbmVsIikKICAgICAgICB2YWwgYmluRGlyID0gRmlsZShwYW5lbERpciwgImJpbiIpCiAgICAgICAgdmFsIHdlYkRpciA9IEZpbGUocGFuZWxEaXIsICJ3ZWIiKQogICAgICAgIHZhbCBkYXRhRGlyID0gRmlsZShwYW5lbERpciwgImRhdGEiKQoKICAgICAgICBiaW5EaXIubWtkaXJzKCkKICAgICAgICB3ZWJEaXIubWtkaXJzKCkKICAgICAgICBkYXRhRGlyLm1rZGlycygpCgogICAgICAgIC8vIEV4dHJhY3QgdGhlIEdvIGJpbmFyeSBmcm9tIG5hdGl2ZSBsaWJyYXJ5IChsaWJkYWlkYWktc2VydmVyLnNvIHBhY2thZ2VkIGFzIC5kYXQgYXNzZXQpCiAgICAgICAgdmFsIHNlcnZlckJpbmFyeSA9IEZpbGUoYmluRGlyLCAiZGFpZGFpLXNlcnZlciIpCiAgICAgICAgdmFsIGFzc2V0RmlsZSA9IEZpbGUobmF0aXZlTGliRGlyLCAibGliZGFpZGFpLXNlcnZlci5kYXQiKQogICAgICAgIGlmICghc2VydmVyQmluYXJ5LmV4aXN0cygpICYmIGFzc2V0RmlsZS5leGlzdHMoKSkgewogICAgICAgICAgICBMb2cuaShUQUcsICJFeHRyYWN0aW5nIHNlcnZlciBiaW5hcnkgZnJvbSAke2Fzc2V0RmlsZS5hYnNvbHV0ZVBhdGh9IikKICAgICAgICAgICAgYXNzZXRGaWxlLmNvcHlUbyhzZXJ2ZXJCaW5hcnksIG92ZXJ3cml0ZSA9IHRydWUpCiAgICAgICAgICAgIHNlcnZlckJpbmFyeS5zZXRFeGVjdXRhYmxlKHRydWUsIHRydWUpCiAgICAgICAgfQoKICAgICAgICAvLyBBbHNvIGNoZWNrIGFzc2V0cyBkaXJlY3RvcnkgZm9yIHRoZSBiaW5hcnkKICAgICAgICBpZiAoIXNlcnZlckJpbmFyeS5leGlzdHMoKSkgewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgdmFsIGFzc2V0U3RyZWFtID0gYXNzZXRzLm9wZW4oImRhaWRhaS1zZXJ2ZXIiKQogICAgICAgICAgICAgICAgYXNzZXRTdHJlYW0udXNlIHsgaW5wdXQgLT4KICAgICAgICAgICAgICAgICAgICBGaWxlT3V0cHV0U3RyZWFtKHNlcnZlckJpbmFyeSkudXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0LmNvcHlUbyhvdXRwdXQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgc2VydmVyQmluYXJ5LnNldEV4ZWN1dGFibGUodHJ1ZSwgdHJ1ZSkKICAgICAgICAgICAgICAgIExvZy5pKFRBRywgIkV4dHJhY3RlZCBzZXJ2ZXIgYmluYXJ5IGZyb20gYXNzZXRzIikKICAgICAgICAgICAgfSBjYXRjaCAoZTogSU9FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5lKFRBRywgIlNlcnZlciBiaW5hcnkgbm90IGZvdW5kIGluIGFzc2V0cyIsIGUpCiAgICAgICAgICAgIH0KICAgICAgICB9CgogICAgICAgIC8vIEV4dHJhY3Qgd2ViIGZyb250ZW5kIGFzc2V0cwogICAgICAgIHZhbCB3ZWJJbmRleEZpbGUgPSBGaWxlKHdlYkRpciwgImluZGV4Lmh0bWwiKQogICAgICAgIGlmICghd2ViSW5kZXhGaWxlLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgd2ViWmlwU3RyZWFtID0gYXNzZXRzLm9wZW4oIndlYi1kaXN0LnppcCIpCiAgICAgICAgICAgICAgICBaaXBJbnB1dFN0cmVhbSh3ZWJaaXBTdHJlYW0pLnVzZSB7IHppcyAtPgogICAgICAgICAgICAgICAgICAgIHZhciBlbnRyeTogWmlwRW50cnk/CiAgICAgICAgICAgICAgICAgICAgd2hpbGUgKHppcy5uZXh0RW50cnkuYWxzbyB7IGVudHJ5ID0gaXQgfSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIHZhbCBlbnRyeUZpbGUgPSBGaWxlKHdlYkRpciwgZW50cnkhIS5uYW1lKQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZW50cnkhIS5pc0RpcmVjdG9yeSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZW50cnlGaWxlLm1rZGlycygpCiAgICAgICAgICAgICAgICAgICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBlbnRyeUZpbGUucGFyZW50RmlsZT8ubWtkaXJzKCkKICAgICAgICAgICAgICAgICAgICAgICAgICAgIEZpbGVPdXRwdXRTdHJlYW0oZW50cnlGaWxlKS51c2UgeyBmb3MgLT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB6aXMuY29weVRvKGZvcykKICAgICAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIExvZy5pKFRBRywgIkV4dHJhY3RlZCB3ZWIgYXNzZXRzIikKICAgICAgICAgICAgfSBjYXRjaCAoZTogSU9FeGNlcHRpb24pIHsKICAgICAgICAgICAgICAgIExvZy5lKFRBRywgIkZhaWxlZCB0byBleHRyYWN0IHdlYiBhc3NldHMiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfQoKICAgICAgICAvLyBFeHRyYWN0IGJ1aWx0LWluIHJ1bnRpbWVzIChUZXJtdXgtY29tcGF0aWJsZSBwcmVmaXgpIGZyb20gcnVudGltZS1hcm02NC50YXIuZ3oKICAgICAgICB2YWwgcnVudGltZURpciA9IEZpbGUocGFuZWxEaXIsICJydW50aW1lIikKICAgICAgICB2YWwgdGVybXV4UHJlZml4ID0gRmlsZShydW50aW1lRGlyLCAidGVybXV4LXByZWZpeC91c3IiKQogICAgICAgIHZhbCB0ZXJtdXhCaW4gPSBGaWxlKHRlcm11eFByZWZpeCwgImJpbiIpCgogICAgICAgIGlmICghdGVybXV4QmluLmV4aXN0cygpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcnVudGltZVN0cmVhbSA9IGFzc2V0cy5vcGVuKCJydW50aW1lLWFybTY0LnRhci5neiIpCiAgICAgICAgICAgICAgICBydW50aW1lRGlyLm1rZGlycygpCiAgICAgICAgICAgICAgICAvLyBVc2UgdGFyIGNvbW1hbmQgdG8gZXh0cmFjdCAoYXZhaWxhYmxlIHZpYSBBbmRyb2lkJ3MgdG95Ym94KQogICAgICAgICAgICAgICAgdmFsIHRhclByb2Nlc3MgPSBQcm9jZXNzQnVpbGRlcigKICAgICAgICAgICAgICAgICAgICAiL3N5c3RlbS9iaW4vdGFyIiwgInh6ZiIsICItIiwgIi1DIiwgcnVudGltZURpci5hYnNvbHV0ZVBhdGgKICAgICAgICAgICAgICAgICkucmVkaXJlY3RFcnJvclN0cmVhbSh0cnVlKS5zdGFydCgpCiAgICAgICAgICAgICAgICBydW50aW1lU3RyZWFtLnVzZSB7IGlucHV0IC0+CiAgICAgICAgICAgICAgICAgICAgdGFyUHJvY2Vzcy5vdXRwdXRTdHJlYW0udXNlIHsgb3V0cHV0IC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGlucHV0LmNvcHlUbyhvdXRwdXQpCiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgdGFyUHJvY2Vzcy53YWl0Rm9yKCkKICAgICAgICAgICAgICAgIHZhbCB0YXJPdXRwdXQgPSB0YXJQcm9jZXNzLmlucHV0U3RyZWFtLmJ1ZmZlcmVkUmVhZGVyKCkucmVhZFRleHQoKQogICAgICAgICAgICAgICAgaWYgKHRhck91dHB1dC5pc05vdEVtcHR5KCkpIHsKICAgICAgICAgICAgICAgICAgICBMb2cuaShUQUcsICJSdW50aW1lIGV4dHJhY3Rpb24gb3V0cHV0OiAkdGFyT3V0cHV0IikKICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBNYWtlIGFsbCBiaW5hcmllcyBpbiBiaW4vIGV4ZWN1dGFibGUKICAgICAgICAgICAgICAgIGlmICh0ZXJtdXhCaW4uZXhpc3RzKCkpIHsKICAgICAgICAgICAgICAgICAgICB0ZXJtdXhCaW4ubGlzdEZpbGVzKCk/LmZvckVhY2ggeyBmaWxlIC0+CiAgICAgICAgICAgICAgICAgICAgICAgIGZpbGUuc2V0RXhlY3V0YWJsZSh0cnVlLCB0cnVlKQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KCiAgICAgICAgICAgICAgICAvLyBBbHNvIG1ha2UgbGlicmFyaWVzIGFjY2Vzc2libGUKICAgICAgICAgICAgICAgIHZhbCB0ZXJtdXhMaWIgPSBGaWxlKHRlcm11eFByZWZpeCwgImxpYiIpCiAgICAgICAgICAgICAgICBpZiAodGVybXV4TGliLmV4aXN0cygpKSB7CiAgICAgICAgICAgICAgICAgICAgdGVybXV4TGliLmxpc3RGaWxlcygpPy5mb3JFYWNoIHsgZmlsZSAtPgogICAgICAgICAgICAgICAgICAgICAgICBpZiAoZmlsZS5uYW1lLmVuZHNXaXRoKCIuc28iKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsZS5zZXRSZWFkYWJsZSh0cnVlLCB0cnVlKQogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQoKICAgICAgICAgICAgICAgIExvZy5pKFRBRywgIlRlcm11eCBydW50aW1lIGV4dHJhY3Rpb24gY29tcGxldGUgYXQgJHt0ZXJtdXhQcmVmaXguYWJzb2x1dGVQYXRofSIpCiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZShUQUcsICJGYWlsZWQgdG8gZXh0cmFjdCBydW50aW1lIiwgZSkKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0KCiAgICBwcml2YXRlIGZ1biBzdGFydFNlcnZlcigpIHsKICAgICAgICB2YWwgZmlsZXNEaXIgPSBmaWxlc0Rpci5hYnNvbHV0ZVBhdGgKICAgICAgICB2YWwgcGFuZWxEaXIgPSBGaWxlKGZpbGVzRGlyLCAicGFuZWwiKQogICAgICAgIHZhbCBiaW5EaXIgPSBGaWxlKHBhbmVsRGlyLCAiYmluIikKICAgICAgICB2YWwgd2ViRGlyID0gRmlsZShwYW5lbERpciwgIndlYiIpCiAgICAgICAgdmFsIGRhdGFEaXIgPSBGaWxlKHBhbmVsRGlyLCAiZGF0YSIpCiAgICAgICAgdmFsIHNjcmlwdHNEaXIgPSBGaWxlKGRhdGFEaXIsICJzY3JpcHRzIikKICAgICAgICB2YWwgbG9nRGlyID0gRmlsZShkYXRhRGlyLCAibG9ncyIpCgogICAgICAgIHNjcmlwdHNEaXIubWtkaXJzKCkKICAgICAgICBsb2dEaXIubWtkaXJzKCkKICAgICAgICBGaWxlKHBhbmVsRGlyLCAidG1wIikubWtkaXJzKCkKCiAgICAgICAgdmFsIHNlcnZlckJpbmFyeSA9IEZpbGUoYmluRGlyLCAiZGFpZGFpLXNlcnZlciIpCiAgICAgICAgaWYgKCFzZXJ2ZXJCaW5hcnkuZXhpc3RzKCkpIHsKICAgICAgICAgICAgdGhyb3cgSU9FeGNlcHRpb24oIlNlcnZlciBiaW5hcnkgbm90IGZvdW5kIGF0ICR7c2VydmVyQmluYXJ5LmFic29sdXRlUGF0aH0iKQogICAgICAgIH0KCiAgICAgICAgLy8gQnVpbGQgUEFUSCBmb3IgcnVudGltZSB1c2luZyBUZXJtdXgtY29tcGF0aWJsZSBwcmVmaXgKICAgICAgICAvLyBUaGUgVGVybXV4IHByZWZpeCBpcyBleHRyYWN0ZWQgdG8gcnVudGltZS90ZXJtdXgtcHJlZml4L3Vzci8KICAgICAgICB2YWwgcnVudGltZURpciA9IEZpbGUocGFuZWxEaXIsICJydW50aW1lIikKICAgICAgICB2YWwgdGVybXV4UHJlZml4ID0gRmlsZShydW50aW1lRGlyLCAidGVybXV4LXByZWZpeC91c3IiKQogICAgICAgIHZhbCB0ZXJtdXhCaW4gPSBGaWxlKHRlcm11eFByZWZpeCwgImJpbiIpCiAgICAgICAgdmFsIHRlcm11eExpYiA9IEZpbGUodGVybXV4UHJlZml4LCAibGliIikKCiAgICAgICAgdmFsIHBhdGhFbnYgPSBsaXN0T2YoCiAgICAgICAgICAgIGJpbkRpci5hYnNvbHV0ZVBhdGgsCiAgICAgICAgICAgIHRlcm11eEJpbi5hYnNvbHV0ZVBhdGgsCiAgICAgICAgICAgICIvc3lzdGVtL2JpbiIsCiAgICAgICAgICAgICIvc3lzdGVtL3hiaW4iLAogICAgICAgICAgICAiL3ZlbmRvci9iaW4iCiAgICAgICAgKS5qb2luVG9TdHJpbmcoIjoiKQoKICAgICAgICB2YWwgbGRMaWJyYXJ5UGF0aCA9IGxpc3RPZigKICAgICAgICAgICAgdGVybXV4TGliLmFic29sdXRlUGF0aCwKICAgICAgICAgICAgIi9zeXN0ZW0vbGliNjQiLAogICAgICAgICAgICAiL3N5c3RlbS9saWIiLAogICAgICAgICAgICAiL3ZlbmRvci9saWI2NCIsCiAgICAgICAgICAgICIvdmVuZG9yL2xpYiIKICAgICAgICApLmpvaW5Ub1N0cmluZygiOiIpCgogICAgICAgIC8vIFNldCB1cCBlbnZpcm9ubWVudCB2YXJpYWJsZXMgZm9yIHRoZSBHbyBzZXJ2ZXIKICAgICAgICB2YWwgZW52ID0gU3lzdGVtLmdldGVudigpLnRvTXV0YWJsZU1hcCgpCiAgICAgICAgZW52WyJEQUlEQUlfQ09ORklHIl0gPSAiIiAvLyBMZXQgc2VydmVyIHVzZSBjb25maWcueWFtbCBpbiBzYW1lIGRpcgogICAgICAgIGVudlsiU0VSVkVSX1BPUlQiXSA9IFBBTkVMX1BPUlQudG9TdHJpbmcoKQogICAgICAgIGVudlsiREJfUEFUSCJdID0gRmlsZShkYXRhRGlyLCAiZGFpZGFpLmRiIikuYWJzb2x1dGVQYXRoCiAgICAgICAgZW52WyJXRUJfRElSIl0gPSB3ZWJEaXIuYWJzb2x1dGVQYXRoCiAgICAgICAgZW52WyJQQVRIIl0gPSBwYXRoRW52CiAgICAgICAgZW52WyJMRF9MSUJSQVJZX1BBVEgiXSA9IGxkTGlicmFyeVBhdGgKICAgICAgICBlbnZbIkhPTUUiXSA9IHBhbmVsRGlyLmFic29sdXRlUGF0aAogICAgICAgIGVudlsiUFJFRklYIl0gPSB0ZXJtdXhQcmVmaXguYWJzb2x1dGVQYXRoCiAgICAgICAgZW52WyJURVJNVVhfUFJFRklYIl0gPSB0ZXJtdXhQcmVmaXguYWJzb2x1dGVQYXRoCiAgICAgICAgZW52WyJQWVRIT05IT01FIl0gPSB0ZXJtdXhQcmVmaXguYWJzb2x1dGVQYXRoCiAgICAgICAgZW52WyJOT0RFX1BBVEgiXSA9IEZpbGUodGVybXV4UHJlZml4LCAibGliL25vZGVfbW9kdWxlcyIpLmFic29sdXRlUGF0aAogICAgICAgIGVudlsiVE1QRElSIl0gPSBGaWxlKHBhbmVsRGlyLCAidG1wIikuYWJzb2x1dGVQYXRoCiAgICAgICAgZW52WyJUWiJdID0gIkFzaWEvU2hhbmdoYWkiCiAgICAgICAgZW52WyJMQU5HIl0gPSAiQy5VVEYtOCIKICAgICAgICBlbnZbIkxDX0FMTCJdID0gIkMuVVRGLTgiCiAgICAgICAgZW52WyJEQUlEQUlfQU5EUk9JRF9BUFAiXSA9ICIxIgogICAgICAgIGVudlsiREFJREFJX0RBVEFfRElSIl0gPSBkYXRhRGlyLmFic29sdXRlUGF0aAogICAgICAgIGVudlsiREFJREFJX1NDUklQVFNfRElSIl0gPSBzY3JpcHRzRGlyLmFic29sdXRlUGF0aAogICAgICAgIGVudlsiREFJREFJX0xPR19ESVIiXSA9IGxvZ0Rpci5hYnNvbHV0ZVBhdGgKICAgICAgICBlbnZbIkRBSURBSV9SVU5USU1FX0JJTl9ESVIiXSA9IHRlcm11eEJpbi5hYnNvbHV0ZVBhdGgKCiAgICAgICAgLy8gV3JpdGUgY29uZmlnLnlhbWwKICAgICAgICB2YWwgY29uZmlnRmlsZSA9IEZpbGUocGFuZWxEaXIsICJjb25maWcueWFtbCIpCiAgICAgICAgY29uZmlnRmlsZS53cml0ZVRleHQoIiIiCiAgICAgICAgICAgIHNlcnZlcjoKICAgICAgICAgICAgICBwb3J0OiAkUEFORUxfUE9SVAogICAgICAgICAgICAgIG1vZGU6IHJlbGVhc2UKICAgICAgICAgICAgICB3ZWJfZGlyOiAke3dlYkRpci5hYnNvbHV0ZVBhdGh9CiAgICAgICAgICAgIGRhdGFiYXNlOgogICAgICAgICAgICAgIHBhdGg6ICR7ZGF0YURpci5hYnNvbHV0ZVBhdGh9L2RhaWRhaS5kYgogICAgICAgICAgICBqd3Q6CiAgICAgICAgICAgICAgc2VjcmV0OiAiIgogICAgICAgICAgICAgIGFjY2Vzc190b2tlbl9leHBpcmU6IDQ4MGgKICAgICAgICAgICAgICByZWZyZXNoX3Rva2VuX2V4cGlyZTogMTQ0MGgKICAgICAgICAgICAgZGF0YToKICAgICAgICAgICAgICBkaXI6ICR7ZGF0YURpci5hYnNvbHV0ZVBhdGh9CiAgICAgICAgICAgICAgc2NyaXB0c19kaXI6ICR7c2NyaXB0c0Rpci5hYnNvbHV0ZVBhdGh9CiAgICAgICAgICAgICAgbG9nX2RpcjogJHtsb2dEaXIuYWJzb2x1dGVQYXRofQogICAgICAgICAgICBjb3JzOgogICAgICAgICAgICAgIG9yaWdpbnM6CiAgICAgICAgICAgICAgICAtICJodHRwOi8vMTI3LjAuMC4xOiRQQU5FTF9QT1JUIgogICAgICAgICAgICAgICAgLSAiaHR0cDovL2xvY2FsaG9zdDokUEFORUxfUE9SVCIKICAgICAgICAiIiIudHJpbUluZGVudCgpKQoKICAgICAgICAvLyBTdGFydCB0aGUgR28gc2VydmVyIHByb2Nlc3MKICAgICAgICB2YWwgcGIgPSBQcm9jZXNzQnVpbGRlcihzZXJ2ZXJCaW5hcnkuYWJzb2x1dGVQYXRoKQogICAgICAgIHBiLmRpcmVjdG9yeShwYW5lbERpcikKICAgICAgICBwYi5yZWRpcmVjdEVycm9yU3RyZWFtKHRydWUpCgogICAgICAgIC8vIEJ1aWxkIGVudmlyb25tZW50IGFycmF5CiAgICAgICAgdmFsIGVudkxpc3QgPSBlbnYubWFwIHsgIiR7aXQua2V5fT0ke2l0LnZhbHVlfSIgfS50b1R5cGVkQXJyYXkoKQogICAgICAgIHZhbCBwcm9jZXNzQnVpbGRlciA9IFByb2Nlc3NCdWlsZGVyKAogICAgICAgICAgICBsaXN0T2Yoc2VydmVyQmluYXJ5LmFic29sdXRlUGF0aCkKICAgICAgICApCiAgICAgICAgcHJvY2Vzc0J1aWxkZXIuZGlyZWN0b3J5KHBhbmVsRGlyKQogICAgICAgIHByb2Nlc3NCdWlsZGVyLnJlZGlyZWN0RXJyb3JTdHJlYW0odHJ1ZSkKICAgICAgICBwcm9jZXNzQnVpbGRlci5lbnZpcm9ubWVudCgpLmNsZWFyKCkKICAgICAgICBwcm9jZXNzQnVpbGRlci5lbnZpcm9ubWVudCgpLnB1dEFsbChlbnYpCgogICAgICAgIExvZy5pKFRBRywgIlN0YXJ0aW5nIHNlcnZlcjogJHtzZXJ2ZXJCaW5hcnkuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgTG9nLmkoVEFHLCAiV29ya2luZyBkaXI6ICR7cGFuZWxEaXIuYWJzb2x1dGVQYXRofSIpCiAgICAgICAgTG9nLmkoVEFHLCAiUEFUSDogJHBhdGhFbnYiKQoKICAgICAgICB2YWwgcHJvY2VzcyA9IHByb2Nlc3NCdWlsZGVyLnN0YXJ0KCkKICAgICAgICBzZXJ2ZXJQcm9jZXNzID0gcHJvY2VzcwoKICAgICAgICAvLyBTdGFydCBhIHRocmVhZCB0byByZWFkIG91dHB1dAogICAgICAgIFRocmVhZCB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICB2YWwgcmVhZGVyID0gcHJvY2Vzcy5pbnB1dFN0cmVhbS5idWZmZXJlZFJlYWRlcigpCiAgICAgICAgICAgICAgICB2YXIgbGluZTogU3RyaW5nPwogICAgICAgICAgICAgICAgd2hpbGUgKHJlYWRlci5yZWFkTGluZSgpLmFsc28geyBsaW5lID0gaXQgfSAhPSBudWxsKSB7CiAgICAgICAgICAgICAgICAgICAgTG9nLmkoVEFHLCAic2VydmVyOiAkbGluZSIpCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0gY2F0Y2ggKGU6IElPRXhjZXB0aW9uKSB7CiAgICAgICAgICAgICAgICBMb2cuZShUQUcsICJFcnJvciByZWFkaW5nIHNlcnZlciBvdXRwdXQiLCBlKQogICAgICAgICAgICB9CiAgICAgICAgfS5zdGFydCgpCgogICAgICAgIC8vIFdhaXQgZm9yIHNlcnZlciB0byBiZSByZWFkeQogICAgICAgIHZhciBhdHRlbXB0cyA9IDAKICAgICAgICB3aGlsZSAoYXR0ZW1wdHMgPCA2MCkgewogICAgICAgICAgICBpZiAoaXNTZXJ2ZXJSdW5uaW5nKCkpIHsKICAgICAgICAgICAgICAgIHNlcnZlclJ1bm5pbmcgPSB0cnVlCiAgICAgICAgICAgICAgICB1cGRhdGVOb3RpZmljYXRpb24oIuWRhuWRhumdouadv+i/kOihjOS4rSAo56uv5Y+jICRQQU5FTF9QT1JUKSIpCiAgICAgICAgICAgICAgICBMb2cuaShUQUcsICJTZXJ2ZXIgaXMgcnVubmluZyBvbiBwb3J0ICRQQU5FTF9QT1JUIikKICAgICAgICAgICAgICAgIHJldHVybgogICAgICAgICAgICB9CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBUaHJlYWQuc2xlZXAoMTAwMCkKICAgICAgICAgICAgfSBjYXRjaCAoXzogSW50ZXJydXB0ZWRFeGNlcHRpb24pIHsKICAgICAgICAgICAgfQogICAgICAgICAgICBhdHRlbXB0cysrCiAgICAgICAgfQoKICAgICAgICB2YWwgZXhpdENvZGUgPSBpZiAocHJvY2Vzcy5pc0FsaXZlKSAtMSBlbHNlIHByb2Nlc3MuZXhpdFZhbHVlKCkKICAgICAgICB1cGRhdGVOb3RpZmljYXRpb24oIuWRhuWRhumdouadv+WQr+WKqOWksei0pSAoZXhpdD0kZXhpdENvZGUpIikKICAgICAgICBMb2cuZShUQUcsICJTZXJ2ZXIgZmFpbGVkIHRvIHN0YXJ0IHdpdGhpbiA2MCBzZWNvbmRzLCBleGl0IGNvZGU6ICRleGl0Q29kZSIpCiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5lbCgpIHsKICAgICAgICBpZiAoQnVpbGQuVkVSU0lPTi5TREtfSU5UID49IEJ1aWxkLlZFUlNJT05fQ09ERVMuTykgewogICAgICAgICAgICB2YWwgY2hhbm5lbCA9IE5vdGlmaWNhdGlvbkNoYW5uZWwoCiAgICAgICAgICAgICAgICBDSEFOTkVMX0lELAogICAgICAgICAgICAgICAgIuWRhuWRhumdouadv+acjeWKoSIsCiAgICAgICAgICAgICAgICBOb3RpZmljYXRpb25NYW5hZ2VyLklNUE9SVEFOQ0VfTE9XCiAgICAgICAgICAgICkuYXBwbHkgewogICAgICAgICAgICAgICAgZGVzY3JpcHRpb24gPSAi5L+d5oyB5ZGG5ZGG6Z2i5p2/5ZCO5Y+w6L+Q6KGMIgogICAgICAgICAgICAgICAgc2V0U2hvd0JhZGdlKGZhbHNlKQogICAgICAgICAgICB9CiAgICAgICAgICAgIHZhbCBtYW5hZ2VyID0gZ2V0U3lzdGVtU2VydmljZShOb3RpZmljYXRpb25NYW5hZ2VyOjpjbGFzcy5qYXZhKQogICAgICAgICAgICBtYW5hZ2VyLmNyZWF0ZU5vdGlmaWNhdGlvbkNoYW5uZWwoY2hhbm5lbCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gY3JlYXRlTm90aWZpY2F0aW9uKHRleHQ6IFN0cmluZyk6IE5vdGlmaWNhdGlvbiB7CiAgICAgICAgdmFsIGludGVudCA9IEludGVudCh0aGlzLCBNYWluQWN0aXZpdHk6OmNsYXNzLmphdmEpCiAgICAgICAgdmFsIHBlbmRpbmdJbnRlbnQgPSBQZW5kaW5nSW50ZW50LmdldEFjdGl2aXR5KAogICAgICAgICAgICB0aGlzLCAwLCBpbnRlbnQsCiAgICAgICAgICAgIFBlbmRpbmdJbnRlbnQuRkxBR19VUERBVEVfQ1VSUkVOVCBvciBQZW5kaW5nSW50ZW50LkZMQUdfSU1NVVRBQkxFCiAgICAgICAgKQoKICAgICAgICByZXR1cm4gaWYgKEJ1aWxkLlZFUlNJT04uU0RLX0lOVCA+PSBCdWlsZC5WRVJTSU9OX0NPREVTLk8pIHsKICAgICAgICAgICAgTm90aWZpY2F0aW9uLkJ1aWxkZXIodGhpcywgQ0hBTk5FTF9JRCkKICAgICAgICAgICAgICAgIC5zZXRDb250ZW50VGl0bGUoIuWRhuWRhumdouadvyIpCiAgICAgICAgICAgICAgICAuc2V0Q29udGVudFRleHQodGV4dCkKICAgICAgICAgICAgICAgIC5zZXRTbWFsbEljb24oYW5kcm9pZC5SLmRyYXdhYmxlLmljX2RpYWxvZ19pbmZvKQogICAgICAgICAgICAgICAgLnNldENvbnRlbnRJbnRlbnQocGVuZGluZ0ludGVudCkKICAgICAgICAgICAgICAgIC5zZXRPbmdvaW5nKHRydWUpCiAgICAgICAgICAgICAgICAuYnVpbGQoKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICAgIE5vdGlmaWNhdGlvbi5CdWlsZGVyKHRoaXMpCiAgICAgICAgICAgICAgICAuc2V0Q29udGVudFRpdGxlKCLlkYblkYbpnaLmnb8iKQogICAgICAgICAgICAgICAgLnNldENvbnRlbnRUZXh0KHRleHQpCiAgICAgICAgICAgICAgICAuc2V0U21hbGxJY29uKGFuZHJvaWQuUi5kcmF3YWJsZS5pY19kaWFsb2dfaW5mbykKICAgICAgICAgICAgICAgIC5zZXRDb250ZW50SW50ZW50KHBlbmRpbmdJbnRlbnQpCiAgICAgICAgICAgICAgICAuc2V0T25nb2luZyh0cnVlKQogICAgICAgICAgICAgICAgLmJ1aWxkKCkKICAgICAgICB9CiAgICB9CgogICAgcHJpdmF0ZSBmdW4gdXBkYXRlTm90aWZpY2F0aW9uKHRleHQ6IFN0cmluZykgewogICAgICAgIHZhbCBtYW5hZ2VyID0gZ2V0U3lzdGVtU2VydmljZShOb3RpZmljYXRpb25NYW5hZ2VyOjpjbGFzcy5qYXZhKQogICAgICAgIG1hbmFnZXIubm90aWZ5KE5PVElGSUNBVElPTl9JRCwgY3JlYXRlTm90aWZpY2F0aW9uKHRleHQpKQogICAgfQoKICAgIHByaXZhdGUgZnVuIGFjcXVpcmVXYWtlTG9jaygpIHsKICAgICAgICB2YWwgcG0gPSBnZXRTeXN0ZW1TZXJ2aWNlKFBPV0VSX1NFUlZJQ0UpIGFzIFBvd2VyTWFuYWdlcgogICAgICAgIHdha2VMb2NrID0gcG0ubmV3V2FrZUxvY2soCiAgICAgICAgICAgIFBvd2VyTWFuYWdlci5QQVJUSUFMX1dBS0VfTE9DSywKICAgICAgICAgICAgIkRhaWRhaVBhbmVsOjpQYW5lbFNlcnZpY2UiCiAgICAgICAgKQogICAgICAgIHdha2VMb2NrPy5hY3F1aXJlKCkKICAgIH0KCiAgICBvdmVycmlkZSBmdW4gb25EZXN0cm95KCkgewogICAgICAgIHNlcnZlclByb2Nlc3M/LmRlc3Ryb3koKQogICAgICAgIHNlcnZlclByb2Nlc3MgPSBudWxsCiAgICAgICAgc2VydmVyUnVubmluZyA9IGZhbHNlCiAgICAgICAgd2FrZUxvY2s/LnJlbGVhc2UoKQogICAgICAgIHN1cGVyLm9uRGVzdHJveSgpCiAgICB9CgogICAgb3ZlcnJpZGUgZnVuIG9uQmluZChpbnRlbnQ6IEludGVudD8pOiBJQmluZGVyPyA9IG51bGwKfQo=
+package com.daidai.panel
+
+import android.app.Notification
+import android.app.NotificationChannel
+import android.app.NotificationManager
+import android.app.PendingIntent
+import android.app.Service
+import android.content.Intent
+import android.os.Build
+import android.os.Handler
+import android.os.IBinder
+import android.os.Looper
+import android.os.PowerManager
+import android.os.SystemClock
+import android.provider.Settings
+import android.util.Log
+import java.io.BufferedReader
+import java.io.File
+import java.io.FileOutputStream
+import java.io.IOException
+import java.io.InputStreamReader
+import java.net.HttpURLConnection
+import java.net.URL
+import java.util.zip.ZipInputStream
+import java.util.zip.ZipEntry
+
+class PanelService : Service() {
+
+    companion object {
+        private const val TAG = "DaidaiPanel"
+        private const val NOTIFICATION_ID = 1
+        private const val CHANNEL_ID = "daidai_panel_service"
+        // WakeLock 续期：每 5 分钟刷新一次 10 分钟 timeout。
+        // 这样如果 service 异常没走 onDestroy，10 分钟后仍会释放。
+        private const val WAKE_LOCK_TIMEOUT_MS = 10L * 60 * 1000
+        private const val WAKE_LOCK_RENEW_MS = 5L * 60 * 1000
+
+        const val PANEL_PORT = 5700
+
+        @Volatile
+        private var serverProcess: Process? = null
+
+        @Volatile
+        private var logOverlay: LogOverlayWindow? = null
+
+        fun isServerRunning(): Boolean {
+            return try {
+                val url = URL("http://127.0.0.1:$PANEL_PORT/api/v1/health")
+                val conn = url.openConnection() as HttpURLConnection
+                conn.connectTimeout = 2000
+                conn.readTimeout = 2000
+                conn.requestMethod = "GET"
+                val code = conn.responseCode
+                conn.disconnect()
+                code == 200
+            } catch (e: Exception) {
+                false
+            }
+        }
+    }
+
+    private var wakeLock: PowerManager.WakeLock? = null
+    private val mainHandler = Handler(Looper.getMainLooper())
+    private val wakeLockRenewer = object : Runnable {
+        override fun run() {
+            val lock = wakeLock ?: return
+            if (lock.isHeld) {
+                // 续期：释放旧锁再重新获取（acquire with timeout 不支持 in-place 续期）
+                lock.release()
+            }
+            lock.acquire(WAKE_LOCK_TIMEOUT_MS)
+            mainHandler.postDelayed(this, WAKE_LOCK_RENEW_MS)
+        }
+    }
+
+    override fun onCreate() {
+        super.onCreate()
+        createNotificationChannel()
+        acquireWakeLock()
+    }
+
+    override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        startForeground(NOTIFICATION_ID, createNotification("呆呆面板正在启动..."))
+
+        // Show log overlay for debugging (requires overlay permission)
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M && Settings.canDrawOverlays(this)) {
+            logOverlay = LogOverlayWindow(this)
+            logOverlay?.show()
+        }
+
+        Thread {
+            try {
+                setupEnvironment()
+                startServer()
+            } catch (e: Exception) {
+                Log.e(TAG, "Failed to start panel", e)
+                appendOverlay("E", TAG, "Failed to start panel: ${e.message}")
+                updateNotification("呆呆面板启动失败: ${e.message}")
+            }
+        }.start()
+
+        return START_STICKY
+    }
+
+    private fun appendOverlay(level: String, tag: String, msg: String) {
+        logOverlay?.appendLog(level, tag, msg)
+    }
+
+    private fun setupEnvironment() {
+        val nativeLibDir = applicationInfo.nativeLibraryDir
+        val filesDir = filesDir.absolutePath
+        val panelDir = File(filesDir, "panel")
+        val binDir = File(panelDir, "bin")
+        val webDir = File(panelDir, "web")
+        val dataDir = File(panelDir, "data")
+
+        binDir.mkdirs()
+        webDir.mkdirs()
+        dataDir.mkdirs()
+
+        Log.i(TAG, "nativeLibDir: $nativeLibDir")
+        appendOverlay("I", TAG, "nativeLibDir: $nativeLibDir")
+        Log.i(TAG, "filesDir: $filesDir")
+        appendOverlay("I", TAG, "filesDir: $filesDir")
+        Log.i(TAG, "panelDir: ${panelDir.absolutePath}")
+        appendOverlay("I", TAG, "panelDir: ${panelDir.absolutePath}")
+
+        // The Go binary is packaged as libdaidai-server.so in jniLibs.
+        // Android automatically extracts lib*.so files to nativeLibraryDir.
+        val nativeServer = File(nativeLibDir, "libdaidai-server.so")
+        val serverBinary = File(binDir, "daidai-server")
+
+        if (nativeServer.exists()) {
+            Log.i(TAG, "Found native server: ${nativeServer.absolutePath} (${nativeServer.length()} bytes)")
+            appendOverlay("I", TAG, "Native server found: ${nativeServer.length()} bytes")
+            nativeServer.copyTo(serverBinary, overwrite = true)
+            serverBinary.setExecutable(true, true)
+            Log.i(TAG, "Server binary copied to ${serverBinary.absolutePath}")
+            appendOverlay("I", TAG, "Server binary copied to bin/")
+        } else {
+            Log.e(TAG, "Native server not found at ${nativeServer.absolutePath}")
+            appendOverlay("E", TAG, "Native server NOT FOUND at $nativeLibDir")
+            File(nativeLibDir).listFiles()?.forEach { f ->
+                Log.i(TAG, "  nativeLibDir contains: ${f.name} (${f.length()} bytes)")
+                appendOverlay("I", TAG, "  nativeLib: ${f.name} (${f.length()}B)")
+            }
+        }
+
+        // Fallback: check assets for the binary
+        if (!serverBinary.exists() || serverBinary.length() < 100000) {
+            try {
+                Log.i(TAG, "Trying assets for server binary...")
+                appendOverlay("I", TAG, "Trying assets for server binary...")
+                val assetStream = assets.open("daidai-server")
+                assetStream.use { input ->
+                    FileOutputStream(serverBinary).use { output ->
+                        input.copyTo(output)
+                    }
+                }
+                serverBinary.setExecutable(true, true)
+                Log.i(TAG, "Extracted server binary from assets (${serverBinary.length()} bytes)")
+                appendOverlay("I", TAG, "Server binary from assets: ${serverBinary.length()}B")
+            } catch (e: IOException) {
+                Log.e(TAG, "Server binary not found in assets either", e)
+                appendOverlay("E", TAG, "Server binary not in assets: ${e.message}")
+            }
+        }
+
+        // Extract web frontend assets
+        val webIndexFile = File(webDir, "index.html")
+        if (!webIndexFile.exists()) {
+            try {
+                Log.i(TAG, "Extracting web assets from web-dist.zip...")
+                appendOverlay("I", TAG, "Extracting web assets...")
+                val webZipStream = assets.open("web-dist.zip")
+                ZipInputStream(webZipStream).use { zis ->
+                    var entry: ZipEntry?
+                    while (zis.nextEntry.also { entry = it } != null) {
+                        val entryFile = File(webDir, entry!!.name)
+                        if (entry!!.isDirectory) {
+                            entryFile.mkdirs()
+                        } else {
+                            entryFile.parentFile?.mkdirs()
+                            FileOutputStream(entryFile).use { fos ->
+                                zis.copyTo(fos)
+                            }
+                        }
+                    }
+                }
+                Log.i(TAG, "Extracted web assets to ${webDir.absolutePath}")
+                appendOverlay("I", TAG, "Web assets extracted OK")
+            } catch (e: IOException) {
+                Log.e(TAG, "Failed to extract web assets", e)
+                appendOverlay("E", TAG, "Web extraction failed: ${e.message}")
+            }
+        } else {
+            Log.i(TAG, "Web assets already exist at ${webDir.absolutePath}")
+            appendOverlay("I", TAG, "Web assets already exist")
+        }
+
+        // Extract built-in runtimes
+        val runtimeDir = File(panelDir, "runtime")
+        val termuxPrefix = File(runtimeDir, "termux-prefix/usr")
+        val termuxBin = File(termuxPrefix, "bin")
+
+        if (!termuxBin.exists()) {
+            extractRuntime(runtimeDir, termuxPrefix, termuxBin)
+        } else {
+            Log.i(TAG, "Runtime already exists at ${termuxPrefix.absolutePath}")
+            appendOverlay("I", TAG, "Runtime already exists")
+            makeBinariesExecutable(termuxBin, termuxPrefix)
+        }
+    }
+
+    private fun extractRuntime(runtimeDir: File, termuxPrefix: File, termuxBin: File) {
+        try {
+            Log.i(TAG, "Extracting runtime from runtime-arm64.tar.gz...")
+            appendOverlay("I", TAG, "Extracting runtime (37.9MB)...")
+            val runtimeStream = assets.open("runtime-arm64.tar.gz")
+            runtimeDir.mkdirs()
+
+            val tempArchive = File(runtimeDir, "runtime-arm64.tar.gz")
+            runtimeStream.use { input ->
+                FileOutputStream(tempArchive).use { output ->
+                    input.copyTo(output)
+                }
+            }
+            Log.i(TAG, "Runtime archive written to ${tempArchive.absolutePath} (${tempArchive.length()} bytes)")
+            appendOverlay("I", TAG, "Archive written: ${tempArchive.length()}B")
+
+            val tarProcess = ProcessBuilder(
+                "/system/bin/tar", "xzf", tempArchive.absolutePath, "-C", runtimeDir.absolutePath
+            ).redirectErrorStream(true).start()
+            val tarExit = tarProcess.waitFor()
+            val tarOutput = tarProcess.inputStream.bufferedReader().readText()
+            Log.i(TAG, "Tar exit code: $tarExit, output: $tarOutput")
+            appendOverlay("I", TAG, "Tar exit=$tarExit")
+
+            tempArchive.delete()
+            makeBinariesExecutable(termuxBin, termuxPrefix)
+
+            Log.i(TAG, "Termux runtime extraction complete at ${termuxPrefix.absolutePath}")
+            appendOverlay("I", TAG, "Runtime extraction complete")
+            if (termuxBin.exists()) {
+                val bins = termuxBin.listFiles()
+                Log.i(TAG, "Bin directory contains ${bins?.size ?: 0} files")
+                appendOverlay("I", TAG, "Bin dir: ${bins?.size ?: 0} files")
+                bins?.take(10)?.forEach { f ->
+                    Log.i(TAG, "  bin/${f.name}")
+                    appendOverlay("I", TAG, "  bin/${f.name}")
+                }
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "Failed to extract runtime", e)
+            appendOverlay("E", TAG, "Runtime extraction failed: ${e.message}")
+        }
+    }
+
+    private fun makeBinariesExecutable(termuxBin: File, termuxPrefix: File) {
+        if (termuxBin.exists()) {
+            termuxBin.listFiles()?.forEach { file ->
+                file.setExecutable(true, true)
+            }
+        }
+        val termuxLib = File(termuxPrefix, "lib")
+        if (termuxLib.exists()) {
+            termuxLib.listFiles()?.forEach { file ->
+                file.setReadable(true, true)
+                if (file.name.endsWith(".so")) {
+                    file.setExecutable(true, true)
+                }
+            }
+        }
+    }
+
+    private fun startServer() {
+        val filesDir = filesDir.absolutePath
+        val panelDir = File(filesDir, "panel")
+        val binDir = File(panelDir, "bin")
+        val webDir = File(panelDir, "web")
+        val dataDir = File(panelDir, "data")
+        val scriptsDir = File(dataDir, "scripts")
+        val logDir = File(dataDir, "logs")
+
+        scriptsDir.mkdirs()
+        logDir.mkdirs()
+        File(panelDir, "tmp").mkdirs()
+
+        val serverBinary = File(binDir, "daidai-server")
+        if (!serverBinary.exists() || serverBinary.length() < 100000) {
+            Log.e(TAG, "Server binary not found or too small: ${serverBinary.absolutePath} (${if (serverBinary.exists()) serverBinary.length() else 0} bytes)")
+            appendOverlay("E", TAG, "Server binary not found!")
+            throw IOException("Server binary not found at ${serverBinary.absolutePath}")
+        }
+
+        Log.i(TAG, "Server binary: ${serverBinary.absolutePath} (${serverBinary.length()} bytes)")
+        appendOverlay("I", TAG, "Server binary: ${serverBinary.length()}B OK")
+
+        val runtimeDir = File(panelDir, "runtime")
+        val termuxPrefix = File(runtimeDir, "termux-prefix/usr")
+        val termuxBin = File(termuxPrefix, "bin")
+        val termuxLib = File(termuxPrefix, "lib")
+
+        val pathEnv = listOf(
+            binDir.absolutePath,
+            termuxBin.absolutePath,
+            "/system/bin",
+            "/system/xbin",
+            "/vendor/bin"
+        ).joinToString(":")
+
+        val ldLibraryPath = listOf(
+            termuxLib.absolutePath,
+            "/system/lib64",
+            "/system/lib",
+            "/vendor/lib64",
+            "/vendor/lib"
+        ).joinToString(":")
+
+        val env = mutableMapOf<String, String>()
+        env["DAIDAI_CONFIG"] = ""
+        env["SERVER_PORT"] = PANEL_PORT.toString()
+        env["DB_PATH"] = File(dataDir, "daidai.db").absolutePath
+        env["WEB_DIR"] = webDir.absolutePath
+        env["PATH"] = pathEnv
+        env["LD_LIBRARY_PATH"] = ldLibraryPath
+        env["HOME"] = panelDir.absolutePath
+        env["PREFIX"] = termuxPrefix.absolutePath
+        env["TERMUX_PREFIX"] = termuxPrefix.absolutePath
+        env["PYTHONHOME"] = termuxPrefix.absolutePath
+        env["NODE_PATH"] = File(termuxPrefix, "lib/node_modules").absolutePath
+        env["TMPDIR"] = File(panelDir, "tmp").absolutePath
+        env["TZ"] = "Asia/Shanghai"
+        env["LANG"] = "C.UTF-8"
+        env["LC_ALL"] = "C.UTF-8"
+        env["DAIDAI_ANDROID_APP"] = "1"
+        env["DAIDAI_DATA_DIR"] = dataDir.absolutePath
+        env["DAIDAI_SCRIPTS_DIR"] = scriptsDir.absolutePath
+        env["DAIDAI_LOG_DIR"] = logDir.absolutePath
+        env["DAIDAI_RUNTIME_BIN_DIR"] = termuxBin.absolutePath
+
+        val configFile = File(panelDir, "config.yaml")
+        configFile.writeText("""
+server:
+  port: $PANEL_PORT
+  mode: release
+  web_dir: ${webDir.absolutePath}
+database:
+  path: ${dataDir.absolutePath}/daidai.db
+jwt:
+  secret: ""
+  access_token_expire: 480h
+  refresh_token_expire: 1440h
+data:
+  dir: ${dataDir.absolutePath}
+  scripts_dir: ${scriptsDir.absolutePath}
+  log_dir: ${logDir.absolutePath}
+cors:
+  origins:
+    - "http://127.0.0.1:$PANEL_PORT"
+    - "http://localhost:$PANEL_PORT"
+        """.trimIndent())
+
+        Log.i(TAG, "Config written to ${configFile.absolutePath}")
+        appendOverlay("I", TAG, "Config written OK")
+        Log.i(TAG, "Starting server: ${serverBinary.absolutePath}")
+        appendOverlay("I", TAG, "Starting server...")
+        Log.i(TAG, "PATH: $pathEnv")
+        appendOverlay("I", TAG, "PATH=$pathEnv")
+        Log.i(TAG, "LD_LIBRARY_PATH: $ldLibraryPath")
+        appendOverlay("I", TAG, "LD_LIB_PATH=$ldLibraryPath")
+
+        val processBuilder = ProcessBuilder(listOf(serverBinary.absolutePath))
+        processBuilder.directory(panelDir)
+        processBuilder.redirectErrorStream(true)
+        processBuilder.environment().clear()
+        processBuilder.environment().putAll(env)
+
+        val process = processBuilder.start()
+        serverProcess = process
+
+        // Read server output and forward to both logcat and overlay
+        Thread {
+            try {
+                val reader = BufferedReader(InputStreamReader(process.inputStream))
+                var line: String?
+                while (reader.readLine().also { line = it } != null) {
+                    Log.i(TAG, "server: $line")
+                    appendOverlay("I", "server", line ?: "")
+                }
+            } catch (e: IOException) {
+                Log.e(TAG, "Error reading server output", e)
+                appendOverlay("E", TAG, "Read error: ${e.message}")
+            }
+        }.start()
+
+        // Wait for server to be ready
+        var attempts = 0
+        while (attempts < 120) {
+            if (isServerRunning()) {
+                updateNotification("呆呆面板运行中 (端口 $PANEL_PORT)")
+                Log.i(TAG, "Server is running on port $PANEL_PORT")
+                appendOverlay("I", TAG, "Server running on :$PANEL_PORT ✓")
+                return
+            }
+
+            if (!process.isAlive) {
+                val exitCode = process.exitValue()
+                Log.e(TAG, "Server process exited with code $exitCode")
+                appendOverlay("E", TAG, "Server EXITED code=$exitCode")
+                updateNotification("呆呆面板启动失败 (exit=$exitCode)")
+                return
+            }
+
+            try {
+                Thread.sleep(1000)
+            } catch (_: InterruptedException) {
+            }
+            attempts++
+            if (attempts % 10 == 0) {
+                Log.i(TAG, "Waiting for server... ($attempts seconds)")
+                appendOverlay("I", TAG, "Waiting... ${attempts}s")
+            }
+        }
+
+        val exitCode = if (process.isAlive) -1 else process.exitValue()
+        updateNotification("呆呆面板启动超时 (exit=$exitCode)")
+        Log.e(TAG, "Server failed to start within 120 seconds, exit code: $exitCode")
+        appendOverlay("E", TAG, "Server timeout after 120s, exit=$exitCode")
+    }
+
+    private fun createNotificationChannel() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            val channel = NotificationChannel(
+                CHANNEL_ID,
+                "呆呆面板服务",
+                NotificationManager.IMPORTANCE_LOW
+            ).apply {
+                description = "保持呆呆面板后台运行"
+                setShowBadge(false)
+            }
+            val manager = getSystemService(NotificationManager::class.java)
+            manager.createNotificationChannel(channel)
+        }
+    }
+
+    private fun createNotification(text: String): Notification {
+        val intent = Intent(this, MainActivity::class.java)
+        val pendingIntent = PendingIntent.getActivity(
+            this, 0, intent,
+            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+        )
+
+        return if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+            Notification.Builder(this, CHANNEL_ID)
+                .setContentTitle("呆呆面板")
+                .setContentText(text)
+                .setSmallIcon(android.R.drawable.ic_dialog_info)
+                .setContentIntent(pendingIntent)
+                .setOngoing(true)
+                .build()
+        } else {
+            @Suppress("DEPRECATION")
+            Notification.Builder(this)
+                .setContentTitle("呆呆面板")
+                .setContentText(text)
+                .setSmallIcon(android.R.drawable.ic_dialog_info)
+                .setContentIntent(pendingIntent)
+                .setOngoing(true)
+                .build()
+        }
+    }
+
+    private fun updateNotification(text: String) {
+        val manager = getSystemService(NotificationManager::class.java)
+        manager.notify(NOTIFICATION_ID, createNotification(text))
+    }
+
+    private fun acquireWakeLock() {
+        val pm = getSystemService(POWER_SERVICE) as PowerManager
+        wakeLock = pm.newWakeLock(
+            PowerManager.PARTIAL_WAKE_LOCK,
+            "DaidaiPanel::PanelService"
+        ).apply {
+            setReferenceCounted(false)
+            // 10 分钟超时 + 5 分钟自动续期。即使 service 异常没走 onDestroy，10 分钟后也会自动释放。
+            acquire(WAKE_LOCK_TIMEOUT_MS)
+        }
+        mainHandler.removeCallbacks(wakeLockRenewer)
+        mainHandler.postDelayed(wakeLockRenewer, WAKE_LOCK_RENEW_MS)
+    }
+
+    override fun onDestroy() {
+        logOverlay?.hide()
+        logOverlay = null
+        serverProcess?.destroy()
+        serverProcess = null
+        mainHandler.removeCallbacks(wakeLockRenewer)
+        wakeLock?.let { if (it.isHeld) it.release() }
+        wakeLock = null
+        super.onDestroy()
+    }
+
+    override fun onBind(intent: Intent?): IBinder? = null
+}
