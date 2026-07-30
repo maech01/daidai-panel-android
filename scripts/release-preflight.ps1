@@ -1,1 +1,174 @@
-cGFyYW0oDQogICAgW1BhcmFtZXRlcihNYW5kYXRvcnkgPSAkdHJ1ZSldDQogICAgW3N0cmluZ10kVmVyc2lvbg0KKQ0KDQokRXJyb3JBY3Rpb25QcmVmZXJlbmNlID0gIlN0b3AiDQoNCmZ1bmN0aW9uIFdyaXRlLVN0ZXAgew0KICAgIHBhcmFtKFtzdHJpbmddJE1lc3NhZ2UpDQogICAgV3JpdGUtSG9zdCAiIg0KICAgIFdyaXRlLUhvc3QgIj09PiAkTWVzc2FnZSIgLUZvcmVncm91bmRDb2xvciBDeWFuDQp9DQoNCmZ1bmN0aW9uIEZhaWwtU3RlcCB7DQogICAgcGFyYW0oW3N0cmluZ10kTWVzc2FnZSkNCiAgICBXcml0ZS1Ib3N0ICIiDQogICAgV3JpdGUtSG9zdCAiW0ZBSUxdICRNZXNzYWdlIiAtRm9yZWdyb3VuZENvbG9yIFJlZA0KICAgIGV4aXQgMQ0KfQ0KDQpmdW5jdGlvbiBBc3NlcnQtRmlsZUNvbnRhaW5zIHsNCiAgICBwYXJhbSgNCiAgICAgICAgW3N0cmluZ10kUGF0aCwNCiAgICAgICAgW3N0cmluZ10kUGF0dGVybiwNCiAgICAgICAgW3N0cmluZ10kRGVzY3JpcHRpb24NCiAgICApDQoNCiAgICAkdGV4dCA9IEdldC1Db250ZW50IC1QYXRoICRQYXRoIC1SYXcgLUVuY29kaW5nIFVURjgNCiAgICBpZiAoJHRleHQgLW5vdG1hdGNoICRQYXR0ZXJuKSB7DQogICAgICAgIEZhaWwtU3RlcCAiJERlc2NyaXB0aW9uIG5vdCBzeW5jZWQ6ICRQYXRoIg0KICAgIH0NCn0NCg0KZnVuY3Rpb24gQXNzZXJ0LUZpbGVUZXh0Q29udGFpbnMgew0KICAgIHBhcmFtKA0KICAgICAgICBbc3RyaW5nXSRQYXRoLA0KICAgICAgICBbc3RyaW5nXSRUZXh0LA0KICAgICAgICBbc3RyaW5nXSREZXNjcmlwdGlvbg0KICAgICkNCg0KICAgICRjb250ZW50ID0gR2V0LUNvbnRlbnQgLVBhdGggJFBhdGggLVJhdyAtRW5jb2RpbmcgVVRGOA0KICAgIGlmICgtbm90ICRjb250ZW50LkNvbnRhaW5zKCRUZXh0KSkgew0KICAgICAgICBGYWlsLVN0ZXAgIiREZXNjcmlwdGlvbiBub3Qgc3luY2VkOiAkUGF0aCINCiAgICB9DQp9DQoNCiRyZXBvUm9vdCA9IFNwbGl0LVBhdGggLVBhcmVudCAkUFNTY3JpcHRSb290DQokbm9ybWFsaXplZFZlcnNpb24gPSAkVmVyc2lvbi5UcmltKCkNCmlmICgkbm9ybWFsaXplZFZlcnNpb24gLW5vdG1hdGNoICdeXGQrXC5cZCtcLlxkKyQnKSB7DQogICAgRmFpbC1TdGVwICJWZXJzaW9uIG11c3QgdXNlIFguWS5aIGZvcm1hdCwgZm9yIGV4YW1wbGUgMi4yLjIwIg0KfQ0KDQokdGFnVmVyc2lvbiA9ICJ2JG5vcm1hbGl6ZWRWZXJzaW9uIg0KJHZlcnNpb25Db2RlID0gJG51bGwNCnRyeSB7DQogICAgJHBhcnRzID0gJG5vcm1hbGl6ZWRWZXJzaW9uLlNwbGl0KCIuIikNCiAgICAkdmVyc2lvbkNvZGUgPSAoW2ludF0kcGFydHNbMF0gKiAxMDAwMCkgKyAoW2ludF0kcGFydHNbMV0gKiAxMDApICsgKFtpbnRdJHBhcnRzWzJdKQ0KfSBjYXRjaCB7DQogICAgRmFpbC1TdGVwICJVbmFibGUgdG8gY29tcHV0ZSB2ZXJzaW9uQ29kZSBmb3IgJG5vcm1hbGl6ZWRWZXJzaW9uIg0KfQ0KDQpTZXQtTG9jYXRpb24gJHJlcG9Sb290DQoNCldyaXRlLVN0ZXAgIkNoZWNrIGdpdCB3b3JrdHJlZSINCiRzdGF0dXMgPSBnaXQgc3RhdHVzIC0tc2hvcnQNCmlmICgkc3RhdHVzKSB7DQogICAgRmFpbC1TdGVwICJXb3JrdHJlZSBpcyBkaXJ0eS4gQ29tbWl0IG9yIGNsZWFuIGNoYW5nZXMgYmVmb3JlIHJlbGVhc2UuYG4kc3RhdHVzIg0KfQ0KDQpXcml0ZS1TdGVwICJDaGVjayB2ZXJzaW9uIGZpbGUgc3luYyINCiRyZWxlYXNlTm90ZVBhdGggPSBKb2luLVBhdGggJHJlcG9Sb290ICJkb2NzXHJlbGVhc2Utbm90ZXNcJHRhZ1ZlcnNpb24ubWQiDQppZiAoLW5vdCAoVGVzdC1QYXRoICRyZWxlYXNlTm90ZVBhdGgpKSB7DQogICAgRmFpbC1TdGVwICJNaXNzaW5nIHJlbGVhc2Ugbm90ZXMgZmlsZTogJHJlbGVhc2VOb3RlUGF0aCINCn0NCg0KQXNzZXJ0LUZpbGVDb250YWlucyAtUGF0aCAkcmVsZWFzZU5vdGVQYXRoIC1QYXR0ZXJuICc8IS0tXHMqcmVsZWFzZS10aXRsZTpccyouKz9ccyotLT4nIC1EZXNjcmlwdGlvbiAicmVsZWFzZSBub3RlcyB0aXRsZSBtYXJrZXIiDQokcmVhZG1lQ29udGVudCA9IEdldC1Db250ZW50IC1QYXRoIChKb2luLVBhdGggJHJlcG9Sb290ICJSRUFETUUubWQiKSAtUmF3IC1FbmNvZGluZyBVVEY4DQppZiAoKCRyZWFkbWVDb250ZW50IC1ub3RtYXRjaCBbcmVnZXhdOjpFc2NhcGUoJHRhZ1ZlcnNpb24pKSAtb3IgKCRyZWFkbWVDb250ZW50IC1ub3RtYXRjaCBbcmVnZXhdOjpFc2NhcGUoIi4vZG9jcy9yZWxlYXNlLW5vdGVzLyR0YWdWZXJzaW9uLm1kIikpKSB7DQogICAgRmFpbC1TdGVwICJSRUFETUUgbGF0ZXN0IHZlcnNpb24gYmxvY2sgbm90IHN5bmNlZC4iDQp9DQokbW9kdWxlUHJvcCA9IEdldC1Db250ZW50IC1QYXRoIChKb2luLVBhdGggJHJlcG9Sb290ICJNYWdpc2tcbW9kdWxlLnByb3AiKSAtUmF3IC1FbmNvZGluZyBVVEY4DQppZiAoKCRtb2R1bGVQcm9wIC1ub3RtYXRjaCBbcmVnZXhdOjpFc2NhcGUoInZlcnNpb249JHRhZ1ZlcnNpb24iKSkgLW9yICgkbW9kdWxlUHJvcCAtbm90bWF0Y2ggW3JlZ2V4XTo6RXNjYXBlKCJ2ZXJzaW9uQ29kZT0kdmVyc2lvbkNvZGUiKSkpIHsNCiAgICBGYWlsLVN0ZXAgIk1hZ2lzayBtb2R1bGUucHJvcCB2ZXJzaW9uIG5vdCBzeW5jZWQuIg0KfQ0KJHVwZGF0ZUpzb24gPSBHZXQtQ29udGVudCAtUGF0aCAoSm9pbi1QYXRoICRyZXBvUm9vdCAiTWFnaXNrXHVwZGF0ZS5qc29uIikgLVJhdyAtRW5jb2RpbmcgVVRGOA0KaWYgKCgkdXBkYXRlSnNvbiAtbm90bWF0Y2ggW3JlZ2V4XTo6RXNjYXBlKCcidmVyc2lvbiI6ICInICsgJHRhZ1ZlcnNpb24gKyAnIicpKSBgDQogICAgLW9yICgkdXBkYXRlSnNvbiAtbm90bWF0Y2ggW3JlZ2V4XTo6RXNjYXBlKCcidmVyc2lvbkNvZGUiOiAnICsgJHZlcnNpb25Db2RlKSkgYA0KICAgIC1vciAoJHVwZGF0ZUpzb24gLW5vdG1hdGNoIFtyZWdleF06OkVzY2FwZSgiL3JlbGVhc2VzL2Rvd25sb2FkLyR0YWdWZXJzaW9uL2RhaWRhaS1wYW5lbC1tYWdpc2stJHRhZ1ZlcnNpb24uemlwIikpIGANCiAgICAtb3IgKCR1cGRhdGVKc29uIC1ub3RtYXRjaCBbcmVnZXhdOjpFc2NhcGUoIi9kb2NzL3JlbGVhc2Utbm90ZXMvJHRhZ1ZlcnNpb24ubWQiKSkpIHsNCiAgICBGYWlsLVN0ZXAgIk1hZ2lzayB1cGRhdGUuanNvbiB2ZXJzaW9uIGJsb2NrIG5vdCBzeW5jZWQuIg0KfQ0KDQpXcml0ZS1TdGVwICJDaGVjayBXaW5kb3dzIHN0YXJ0LmJhdCBsaW5lIGVuZGluZ3MiDQokc3RhcnRCYXRQYXRoID0gSm9pbi1QYXRoICRyZXBvUm9vdCAicGFja2FnaW5nXHdpbmRvd3Ncc3RhcnQuYmF0Ig0KaWYgKC1ub3QgKFRlc3QtUGF0aCAkc3RhcnRCYXRQYXRoKSkgew0KICAgIEZhaWwtU3RlcCAiTWlzc2luZyBXaW5kb3dzIHN0YXJ0IHNjcmlwdDogJHN0YXJ0QmF0UGF0aCINCn0NCiRzdGFydEJhdEJ5dGVzID0gW1N5c3RlbS5JTy5GaWxlXTo6UmVhZEFsbEJ5dGVzKCRzdGFydEJhdFBhdGgpDQpmb3IgKCRpID0gMDsgJGkgLWx0ICRzdGFydEJhdEJ5dGVzLkxlbmd0aDsgJGkrKykgew0KICAgICMgV2luZG93cyDnlKjmiLfkvJrnm7TmjqXlj4zlh7sgc3RhcnQuYmF077yM5Y+R5biD5YmN5b+F6aG76Zi75q2iIExGIOaNouihjOi/m+WFpSB6aXAg5YyF44CCDQogICAgaWYgKCgkc3RhcnRCYXRCeXRlc1skaV0gLWVxIDEwKSAtYW5kICgoJGkgLWVxIDApIC1vciAoJHN0YXJ0QmF0Qnl0ZXNbKCRpIC0gMSldIC1uZSAxMykpKSB7DQogICAgICAgIEZhaWwtU3RlcCAicGFja2FnaW5nL3dpbmRvd3Mvc3RhcnQuYmF0IG11c3QgdXNlIFdpbmRvd3MgQ1JMRiBsaW5lIGVuZGluZ3MuIg0KICAgIH0NCn0NCg0KV3JpdGUtU3RlcCAiUnVuIGJhY2tlbmQgdGVzdHMiDQpQdXNoLUxvY2F0aW9uIChKb2luLVBhdGggJHJlcG9Sb290ICJzZXJ2ZXIiKQ0KdHJ5IHsNCiAgICBnbyB0ZXN0IC4vLi4uDQp9IGZpbmFsbHkgew0KICAgIFBvcC1Mb2NhdGlvbg0KfQ0KDQpXcml0ZS1TdGVwICJSdW4gZnJvbnRlbmQgYnVpbGQiDQpQdXNoLUxvY2F0aW9uIChKb2luLVBhdGggJHJlcG9Sb290ICJ3ZWIiKQ0KdHJ5IHsNCiAgICBucG0gcnVuIGJ1aWxkDQp9IGZpbmFsbHkgew0KICAgIFBvcC1Mb2NhdGlvbg0KfQ0KDQpXcml0ZS1TdGVwICJDaGVjayByZWxlYXNlIHdvcmtmbG93IFlBTUwiDQokd29ya2Zsb3dQYXRoID0gSm9pbi1QYXRoICRyZXBvUm9vdCAiLmdpdGh1Ylx3b3JrZmxvd3NccmVsZWFzZS55bWwiDQppZiAoLW5vdCAoVGVzdC1QYXRoICR3b3JrZmxvd1BhdGgpKSB7DQogICAgRmFpbC1TdGVwICJNaXNzaW5nIHJlbGVhc2Ugd29ya2Zsb3c6ICR3b3JrZmxvd1BhdGgiDQp9DQoNCldyaXRlLVN0ZXAgIkNoZWNrIERvY2tlciBQeXRob24gcnVudGltZSBpbWFnZSB0YWdzIg0KZm9yZWFjaCAoJGRvY2tlclRhZyBpbiBAKA0KICAgICJsYXRlc3QzLjEwIiwNCiAgICAibGF0ZXN0My4xMSIsDQogICAgImxhdGVzdGFsbCIsDQogICAgImRlYmlhbjMuMTAiLA0KICAgICJkZWJpYW4zLjExIiwNCiAgICAiZGViaWFuYWxsIg0KKSkgew0KICAgIEFzc2VydC1GaWxlVGV4dENvbnRhaW5zIC1QYXRoICR3b3JrZmxvd1BhdGggLVRleHQgJGRvY2tlclRhZyAtRGVzY3JpcHRpb24gIkRvY2tlciBQeXRob24gcnVudGltZSB0YWcgJGRvY2tlclRhZyINCn0NCkFzc2VydC1GaWxlVGV4dENvbnRhaW5zIC1QYXRoICR3b3JrZmxvd1BhdGggLVRleHQgJ3BsYXRmb3JtczogJHt7IG1hdHJpeC5wbGF0Zm9ybXMgfX0nIC1EZXNjcmlwdGlvbiAiRG9ja2VyIG1hdHJpeC1zcGVjaWZpYyBwbGF0Zm9ybSBsaXN0Ig0KQXNzZXJ0LUZpbGVUZXh0Q29udGFpbnMgLVBhdGggJHdvcmtmbG93UGF0aCAtVGV4dCAicGxhdGZvcm1zOiBsaW51eC9hbWQ2NCxsaW51eC9hcm02NCIgLURlc2NyaXB0aW9uICJBbHBpbmUgUHl0aG9uIDMuMTAvMy4xMS9hbGwgcGxhdGZvcm0gbGltaXQiDQpBc3NlcnQtRmlsZVRleHRDb250YWlucyAtUGF0aCAkd29ya2Zsb3dQYXRoIC1UZXh0ICJwbGF0Zm9ybXM6IGxpbnV4L2FtZDY0LGxpbnV4L2FybTY0LGxpbnV4LzM4NixsaW51eC9hcm0vdjciIC1EZXNjcmlwdGlvbiAiQWxwaW5lIGRlZmF1bHQgUHl0aG9uIDMuMTIga2VlcHMgMzItYml0IHBsYXRmb3JtcyINCkFzc2VydC1GaWxlVGV4dENvbnRhaW5zIC1QYXRoIChKb2luLVBhdGggJHJlcG9Sb290ICJEb2NrZXJmaWxlIikgLVRleHQgIlBZVEhPTl9SVU5USU1FX01PREUiIC1EZXNjcmlwdGlvbiAiQWxwaW5lIERvY2tlciBQeXRob24gcnVudGltZSBidWlsZCBhcmdzIg0KQXNzZXJ0LUZpbGVUZXh0Q29udGFpbnMgLVBhdGggKEpvaW4tUGF0aCAkcmVwb1Jvb3QgIkRvY2tlcmZpbGUuZGViaWFuIikgLVRleHQgIlBZVEhPTl9SVU5USU1FX01PREUiIC1EZXNjcmlwdGlvbiAiRGViaWFuIERvY2tlciBQeXRob24gcnVudGltZSBidWlsZCBhcmdzIg0KDQokYWN0aW9ubGludCA9IEdldC1Db21tYW5kIGFjdGlvbmxpbnQgLUVycm9yQWN0aW9uIFNpbGVudGx5Q29udGludWUNCmlmICgkYWN0aW9ubGludCkgew0KICAgICYgJGFjdGlvbmxpbnQuU291cmNlICR3b3JrZmxvd1BhdGgNCn0gZWxzZSB7DQogICAgV3JpdGUtSG9zdCAiW1dBUk5dIGFjdGlvbmxpbnQgbm90IGZvdW5kLCBza2lwIGxvY2FsIHdvcmtmbG93IGxpbnQuIiAtRm9yZWdyb3VuZENvbG9yIFllbGxvdw0KfQ0KDQpXcml0ZS1TdGVwICJDaGVjayByZW1vdGUgdGFnIGNvbmZsaWN0Ig0KJHJlbW90ZVRhZ0V4aXN0cyA9IGdpdCBscy1yZW1vdGUgLS10YWdzIG9yaWdpbiAoInJlZnMvdGFncy8iICsgJHRhZ1ZlcnNpb24pDQppZiAoJHJlbW90ZVRhZ0V4aXN0cykgew0KICAgIEZhaWwtU3RlcCAiUmVtb3RlIHRhZyBhbHJlYWR5IGV4aXN0czogJHRhZ1ZlcnNpb24uIENvbmZpcm0gd2hldGhlciB5b3UgcmVhbGx5IHdhbnQgdG8gcmUtcmVsZWFzZS4iDQp9DQoNCldyaXRlLVN0ZXAgIkNoZWNrIGJyYW5jaCBzdGF0dXMiDQokY3VycmVudEJyYW5jaCA9IGdpdCBicmFuY2ggLS1zaG93LWN1cnJlbnQNCmlmICgkY3VycmVudEJyYW5jaCAtbmUgIm1haW4iKSB7DQogICAgV3JpdGUtSG9zdCAiW1dBUk5dIEN1cnJlbnQgYnJhbmNoIGlzICRjdXJyZW50QnJhbmNoLCBub3QgbWFpbi4iIC1Gb3JlZ3JvdW5kQ29sb3IgWWVsbG93DQp9DQoNCiRhaGVhZEJlaGluZCA9IGdpdCByZXYtbGlzdCAtLWxlZnQtcmlnaHQgLS1jb3VudCBvcmlnaW4vbWFpbi4uLkhFQUQNCldyaXRlLUhvc3QgIm9yaWdpbi9tYWluLi4uSEVBRCA9ICRhaGVhZEJlaGluZCINCg0KV3JpdGUtSG9zdCAiIg0KV3JpdGUtSG9zdCAiW09LXSBSZWxlYXNlIHByZWZsaWdodCBwYXNzZWQ6ICR0YWdWZXJzaW9uIiAtRm9yZWdyb3VuZENvbG9yIEdyZWVuDQo=
+﻿param(
+    [Parameter(Mandatory = $true)]
+    [string]$Version
+)
+
+$ErrorActionPreference = "Stop"
+
+function Write-Step {
+    param([string]$Message)
+    Write-Host ""
+    Write-Host "==> $Message" -ForegroundColor Cyan
+}
+
+function Fail-Step {
+    param([string]$Message)
+    Write-Host ""
+    Write-Host "[FAIL] $Message" -ForegroundColor Red
+    exit 1
+}
+
+function Assert-FileContains {
+    param(
+        [string]$Path,
+        [string]$Pattern,
+        [string]$Description
+    )
+
+    $text = Get-Content -Path $Path -Raw -Encoding UTF8
+    if ($text -notmatch $Pattern) {
+        Fail-Step "$Description not synced: $Path"
+    }
+}
+
+function Assert-FileTextContains {
+    param(
+        [string]$Path,
+        [string]$Text,
+        [string]$Description
+    )
+
+    $content = Get-Content -Path $Path -Raw -Encoding UTF8
+    if (-not $content.Contains($Text)) {
+        Fail-Step "$Description not synced: $Path"
+    }
+}
+
+$repoRoot = Split-Path -Parent $PSScriptRoot
+$normalizedVersion = $Version.Trim()
+if ($normalizedVersion -notmatch '^\d+\.\d+\.\d+$') {
+    Fail-Step "Version must use X.Y.Z format, for example 2.2.20"
+}
+
+$tagVersion = "v$normalizedVersion"
+$versionCode = $null
+try {
+    $parts = $normalizedVersion.Split(".")
+    $versionCode = ([int]$parts[0] * 10000) + ([int]$parts[1] * 100) + ([int]$parts[2])
+} catch {
+    Fail-Step "Unable to compute versionCode for $normalizedVersion"
+}
+
+Set-Location $repoRoot
+
+Write-Step "Check git worktree"
+$status = git status --short
+if ($status) {
+    Fail-Step "Worktree is dirty. Commit or clean changes before release.`n$status"
+}
+
+Write-Step "Check version file sync"
+$releaseNotePath = Join-Path $repoRoot "docs\release-notes\$tagVersion.md"
+if (-not (Test-Path $releaseNotePath)) {
+    Fail-Step "Missing release notes file: $releaseNotePath"
+}
+
+Assert-FileContains -Path $releaseNotePath -Pattern '<!--\s*release-title:\s*.+?\s*-->' -Description "release notes title marker"
+$readmeContent = Get-Content -Path (Join-Path $repoRoot "README.md") -Raw -Encoding UTF8
+if (($readmeContent -notmatch [regex]::Escape($tagVersion)) -or ($readmeContent -notmatch [regex]::Escape("./docs/release-notes/$tagVersion.md"))) {
+    Fail-Step "README latest version block not synced."
+}
+$moduleProp = Get-Content -Path (Join-Path $repoRoot "Magisk\module.prop") -Raw -Encoding UTF8
+if (($moduleProp -notmatch [regex]::Escape("version=$tagVersion")) -or ($moduleProp -notmatch [regex]::Escape("versionCode=$versionCode"))) {
+    Fail-Step "Magisk module.prop version not synced."
+}
+$updateJson = Get-Content -Path (Join-Path $repoRoot "Magisk\update.json") -Raw -Encoding UTF8
+if (($updateJson -notmatch [regex]::Escape('"version": "' + $tagVersion + '"')) `
+    -or ($updateJson -notmatch [regex]::Escape('"versionCode": ' + $versionCode)) `
+    -or ($updateJson -notmatch [regex]::Escape("/releases/download/$tagVersion/daidai-panel-magisk-$tagVersion.zip")) `
+    -or ($updateJson -notmatch [regex]::Escape("/docs/release-notes/$tagVersion.md"))) {
+    Fail-Step "Magisk update.json version block not synced."
+}
+
+Write-Step "Check Windows start.bat line endings"
+$startBatPath = Join-Path $repoRoot "packaging\windows\start.bat"
+if (-not (Test-Path $startBatPath)) {
+    Fail-Step "Missing Windows start script: $startBatPath"
+}
+$startBatBytes = [System.IO.File]::ReadAllBytes($startBatPath)
+for ($i = 0; $i -lt $startBatBytes.Length; $i++) {
+    # Windows 用户会直接双击 start.bat，发布前必须阻止 LF 换行进入 zip 包。
+    if (($startBatBytes[$i] -eq 10) -and (($i -eq 0) -or ($startBatBytes[($i - 1)] -ne 13))) {
+        Fail-Step "packaging/windows/start.bat must use Windows CRLF line endings."
+    }
+}
+
+Write-Step "Run backend tests"
+Push-Location (Join-Path $repoRoot "server")
+try {
+    go test ./...
+} finally {
+    Pop-Location
+}
+
+Write-Step "Run frontend build"
+Push-Location (Join-Path $repoRoot "web")
+try {
+    npm run build
+} finally {
+    Pop-Location
+}
+
+Write-Step "Check release workflow YAML"
+$workflowPath = Join-Path $repoRoot ".github\workflows\release.yml"
+if (-not (Test-Path $workflowPath)) {
+    Fail-Step "Missing release workflow: $workflowPath"
+}
+
+Write-Step "Check Docker Python runtime image tags"
+foreach ($dockerTag in @(
+    "latest3.10",
+    "latest3.11",
+    "latestall",
+    "debian3.10",
+    "debian3.11",
+    "debianall"
+)) {
+    Assert-FileTextContains -Path $workflowPath -Text $dockerTag -Description "Docker Python runtime tag $dockerTag"
+}
+Assert-FileTextContains -Path $workflowPath -Text 'platforms: ${{ matrix.platforms }}' -Description "Docker matrix-specific platform list"
+Assert-FileTextContains -Path $workflowPath -Text "platforms: linux/amd64,linux/arm64" -Description "Alpine Python 3.10/3.11/all platform limit"
+Assert-FileTextContains -Path $workflowPath -Text "platforms: linux/amd64,linux/arm64,linux/386,linux/arm/v7" -Description "Alpine default Python 3.12 keeps 32-bit platforms"
+Assert-FileTextContains -Path (Join-Path $repoRoot "Dockerfile") -Text "PYTHON_RUNTIME_MODE" -Description "Alpine Docker Python runtime build args"
+Assert-FileTextContains -Path (Join-Path $repoRoot "Dockerfile.debian") -Text "PYTHON_RUNTIME_MODE" -Description "Debian Docker Python runtime build args"
+
+$actionlint = Get-Command actionlint -ErrorAction SilentlyContinue
+if ($actionlint) {
+    & $actionlint.Source $workflowPath
+} else {
+    Write-Host "[WARN] actionlint not found, skip local workflow lint." -ForegroundColor Yellow
+}
+
+Write-Step "Check remote tag conflict"
+$remoteTagExists = git ls-remote --tags origin ("refs/tags/" + $tagVersion)
+if ($remoteTagExists) {
+    Fail-Step "Remote tag already exists: $tagVersion. Confirm whether you really want to re-release."
+
+# Local tag conflict check: avoid re-release when local tag already exists
+$localTagExists = git tag -l ("refs/tags/" + $tagVersion)
+if ($localTagExists) {
+    Fail-Step "Local tag already exists: $tagVersion. Run 'git tag -d $tagVersion' if you want to recreate it."
+}
+
+
+Write-Step "Check branch status"
+$currentBranch = git branch --show-current
+if ($currentBranch -ne "main") {
+    Write-Host "[WARN] Current branch is $currentBranch, not main." -ForegroundColor Yellow
+}
+
+$aheadBehind = git rev-list --left-right --count origin/main...HEAD
+Write-Host "origin/main...HEAD = $aheadBehind"
+
+Write-Host ""
+Write-Host "[OK] Release preflight passed: $tagVersion" -ForegroundColor Green
