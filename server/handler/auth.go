@@ -1,1 +1,483 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJpbWFnZSIKCV8gImltYWdlL2dpZiIKCV8gImltYWdlL2pwZWciCglfICJpbWFnZS9wbmciCgkiaW8iCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9taWRkbGV3YXJlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoJImRhaWRhaS1wYW5lbC9wa2cvdmFsaWRhdG9yIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCgkiZ2l0aHViLmNvbS9nb29nbGUvdXVpZCIKKQoKdHlwZSBBdXRoSGFuZGxlciBzdHJ1Y3QgewoJYXV0aFNlcnZpY2UgICpzZXJ2aWNlLkF1dGhTZXJ2aWNlCglsb2dpbkxpbWl0ZXIgZ2luLkhhbmRsZXJGdW5jCn0KCmZ1bmMgTmV3QXV0aEhhbmRsZXIoKSAqQXV0aEhhbmRsZXIgewoJcmV0dXJuICZBdXRoSGFuZGxlcnsKCQlhdXRoU2VydmljZTogIHNlcnZpY2UuTmV3QXV0aFNlcnZpY2UoKSwKCQlsb2dpbkxpbWl0ZXI6IG1pZGRsZXdhcmUuUmF0ZUxpbWl0KDUsIHRpbWUuTWludXRlKSwKCX0KfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIENoZWNrSW5pdChjICpnaW4uQ29udGV4dCkgewoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibmVlZF9pbml0IjogaC5hdXRoU2VydmljZS5OZWVkSW5pdCgpfSkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIEluaXQoYyAqZ2luLkNvbnRleHQpIHsKCXZhciByZXEgc3RydWN0IHsKCQlVc2VybmFtZSBzdHJpbmcgYGpzb246InVzZXJuYW1lIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgkJUGFzc3dvcmQgc3RyaW5nIGBqc29uOiJwYXNzd29yZCIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJdXNlciwgZXJyIDo9IGguYXV0aFNlcnZpY2UuSW5pdEFkbWluKHJlcS5Vc2VybmFtZSwgcmVxLlBhc3N3b3JkKQoJaWYgZXJyICE9IG5pbCB7CgkJc3dpdGNoIGVyciB7CgkJY2FzZSBzZXJ2aWNlLkVyckludmFsaWRVc2VybmFtZToKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi55So5oi35ZCN6ZyAIDEtMzIg5L2N77yM5pSv5oyB5Lit5paH44CB5a2X5q+N44CB5pWw5a2X5ZKM5LiL5YiS57q/IikKCQljYXNlIHNlcnZpY2UuRXJyUGFzc3dvcmRUb29TaG9ydDoKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5a+G56CB6ZW/5bqm6ZyAIDYtMTI4IOS9jSIpCgkJZGVmYXVsdDoKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQl9CgkJcmV0dXJuCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6ICLliJ3lp4vljJbmiJDlip8iLAoJCSJ1c2VyIjogICAgdXNlci5Ub0RpY3QoKSwKCX0pCn0KCmZ1bmMgKGggKkF1dGhIYW5kbGVyKSBMb2dpbihjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCVVzZXJuYW1lIHN0cmluZyAgICAgICAgICAgICAgICAgYGpzb246InVzZXJuYW1lIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgkJUGFzc3dvcmQgc3RyaW5nICAgICAgICAgICAgICAgICBganNvbjoicGFzc3dvcmQiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlUT1RQQ29kZSBzdHJpbmcgICAgICAgICAgICAgICAgIGBqc29uOiJ0b3RwX2NvZGUiYAoJCUNhcHRjaGEgIHNlcnZpY2UuQ2FwdGNoYVBheWxvYWQgYGpzb246ImNhcHRjaGEiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJaXAgOj0gbWlkZGxld2FyZS5SZXNvbHZlQ2xpZW50SVAoYykKCXVhIDo9IGMuR2V0SGVhZGVyKCJVc2VyLUFnZW50IikKCWNsaWVudEluZm8gOj0gc2VydmljZS5EZXRlY3RTZXNzaW9uQ2xpZW50SW5mbygKCQljLkdldEhlYWRlcigiWC1DbGllbnQtVHlwZSIpLAoJCWMuR2V0SGVhZGVyKCJYLUNsaWVudC1BcHAiKSwKCQljLkdldEhlYWRlcigiWC1DbGllbnQtUGxhdGZvcm0iKSwKCQljLkdldEhlYWRlcigiWC1EZXZpY2UtTW9kZWwiKSwKCQljLkdldEhlYWRlcigiWC1EZXZpY2UtTmFtZSIpLAoJCWMuR2V0SGVhZGVyKCJYLU9TLVZlcnNpb24iKSwKCQl1YSwKCSkKCWNsaWVudFR5cGUgOj0gY2xpZW50SW5mby5UeXBlCgljbGllbnROYW1lIDo9IHNlcnZpY2UuU2Vzc2lvbkNsaWVudERpc3BsYXlOYW1lKGNsaWVudEluZm8pCgoJbG9ja2VkLCByZW1haW5pbmcgOj0gc2VydmljZS5DaGVja0xvZ2luTG9jayhpcCwgcmVxLlVzZXJuYW1lKQoJaWYgbG9ja2VkIHsKCQlzZXJ2aWNlLlJlY29yZExvZ2luTG9nKDAsIHJlcS5Vc2VybmFtZSwgaXAsIGNsaWVudE5hbWUsIHVhLCAxLCAi6LSm5Y+35bey6ZSB5a6aIikKCQlyZW1haW5TZWMgOj0gaW50KHJlbWFpbmluZy5TZWNvbmRzKCkpCgkJYy5KU09OKDQyOSwgZ2luLkh7CgkJCSJlcnJvciI6ICAgICAgICAgICAgIGZtdC5TcHJpbnRmKCLotKblj7flt7LplIHlrprvvIzor7cgJS4wZiDliIbpkp/lkI7ph43or5UiLCByZW1haW5pbmcuTWludXRlcygpKSwKCQkJImxvY2tlZCI6ICAgICAgICAgICAgdHJ1ZSwKCQkJInJlbWFpbmluZ19zZWNvbmRzIjogcmVtYWluU2VjLAoJCX0pCgkJcmV0dXJuCgl9CgoJaWYgIXNlcnZpY2UuSXNJUFdoaXRlbGlzdGVkKGlwKSB7CgkJc2VydmljZS5SZWNvcmRMb2dpbkxvZygwLCByZXEuVXNlcm5hbWUsIGlwLCBjbGllbnROYW1lLCB1YSwgMSwgIklQIOS4jeWcqOeZveWQjeWNlSIpCgkJcmVzcG9uc2UuRm9yYmlkZGVuKGMsICLlvZPliY0gSVAg5LiN5Zyo55m75b2V55m95ZCN5Y2V5LitIikKCQlyZXR1cm4KCX0KCgljYXB0Y2hhQ2ZnIDo9IHNlcnZpY2UuR2V0Q2FwdGNoYVJ1bnRpbWVDb25maWcoKQoJaWYgc2VydmljZS5Jc0NhcHRjaGFSZXF1aXJlZChpcCwgcmVxLlVzZXJuYW1lKSB7CgkJdmVyaWZ5UmVzdWx0LCBlcnIgOj0gc2VydmljZS5WZXJpZnlMb2dpbkNhcHRjaGEocmVxLkNhcHRjaGEpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXN3aXRjaCBlcnIgewoJCQljYXNlIHNlcnZpY2UuRXJyQ2FwdGNoYVJlcXVpcmVkOgoJCQkJYy5KU09OKDQwMSwgZ2luLkh7CgkJCQkJImVycm9yIjogICAgICAgICAgICAgICAgICBlcnIuRXJyb3IoKSwKCQkJCQkiY2FwdGNoYV9yZXF1aXJlZCI6ICAgICAgIHRydWUsCgkJCQkJImNhcHRjaGFfaWQiOiAgICAgICAgICAgICBjYXB0Y2hhQ2ZnLkNhcHRjaGFJRCwKCQkJCQkiY2FwdGNoYV90aHJlc2hvbGQiOiAgICAgIGNhcHRjaGFDZmcuUmVxdWlyZUFmdGVyRmFpbHVyZXMsCgkJCQkJInJlcXVpcmVfYWZ0ZXJfZmFpbHVyZXMiOiBjYXB0Y2hhQ2ZnLlJlcXVpcmVBZnRlckZhaWx1cmVzLAoJCQkJfSkKCQkJZGVmYXVsdDoKCQkJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIumqjOivgeeggeagoemqjOWksei0pe+8jOivt+eojeWQjumHjeivlSIpCgkJCX0KCQkJcmV0dXJuCgkJfQoJCWlmICF2ZXJpZnlSZXN1bHQuUGFzc2VkIHsKCQkJaWYgdmVyaWZ5UmVzdWx0LlVwc3RyZWFtRXJyb3IgewoJCQkJYy5KU09OKDUwMywgZ2luLkh7CgkJCQkJImVycm9yIjogICAgICAgICAgICAgICAgICAgICAgICLpqozor4HnoIHmnI3liqHmmoLml7bkuI3lj6/nlKjvvIzor7fnqI3lkI7ph43or5UiLAoJCQkJCSJjYXB0Y2hhX3JlcXVpcmVkIjogICAgICAgICAgICB0cnVlLAoJCQkJCSJjYXB0Y2hhX3NlcnZpY2VfdW5hdmFpbGFibGUiOiB0cnVlLAoJCQkJCSJjYXB0Y2hhX2lkIjogICAgICAgICAgICAgICAgICBjYXB0Y2hhQ2ZnLkNhcHRjaGFJRCwKCQkJCQkiY2FwdGNoYV9yZWFzb24iOiAgICAgICAgICAgICAgdmVyaWZ5UmVzdWx0LlJlYXNvbiwKCQkJCQkiY2FwdGNoYV9mYWlsX21vZGUiOiAgICAgICAgICAgY2FwdGNoYUNmZy5GYWlsTW9kZSwKCQkJCQkiY2FwdGNoYV90aHJlc2hvbGQiOiAgICAgICAgICAgY2FwdGNoYUNmZy5SZXF1aXJlQWZ0ZXJGYWlsdXJlcywKCQkJCQkicmVxdWlyZV9hZnRlcl9mYWlsdXJlcyI6ICAgICAgY2FwdGNoYUNmZy5SZXF1aXJlQWZ0ZXJGYWlsdXJlcywKCQkJCX0pCgkJCQlyZXR1cm4KCQkJfQoKCQkJYy5KU09OKDQwMSwgZ2luLkh7CgkJCQkiZXJyb3IiOiAgICAgICAgICAgICAgICAgICLpqozor4HnoIHmoKHpqozlpLHotKXvvIzor7fph43mlrDlrozmiJDkurrmnLrpqozor4EiLAoJCQkJImNhcHRjaGFfcmVxdWlyZWQiOiAgICAgICB0cnVlLAoJCQkJImNhcHRjaGFfaW52YWxpZCI6ICAgICAgICB0cnVlLAoJCQkJImNhcHRjaGFfaWQiOiAgICAgICAgICAgICBjYXB0Y2hhQ2ZnLkNhcHRjaGFJRCwKCQkJCSJjYXB0Y2hhX3JlYXNvbiI6ICAgICAgICAgdmVyaWZ5UmVzdWx0LlJlYXNvbiwKCQkJCSJjYXB0Y2hhX3RocmVzaG9sZCI6ICAgICAgY2FwdGNoYUNmZy5SZXF1aXJlQWZ0ZXJGYWlsdXJlcywKCQkJCSJyZXF1aXJlX2FmdGVyX2ZhaWx1cmVzIjogY2FwdGNoYUNmZy5SZXF1aXJlQWZ0ZXJGYWlsdXJlcywKCQkJfSkKCQkJcmV0dXJuCgkJfQoJfQoKCXVzZXIsIGFjY2Vzc1Rva2VuLCByZWZyZXNoVG9rZW4sIGFjY2Vzc0luZm8sIHJlZnJlc2hJbmZvLCBlcnIgOj0gaC5hdXRoU2VydmljZS5Mb2dpbihyZXEuVXNlcm5hbWUsIHJlcS5QYXNzd29yZCwgcmVxLlRPVFBDb2RlKQoJaWYgZXJyICE9IG5pbCB7CgkJc3dpdGNoIGVyciB7CgkJY2FzZSBzZXJ2aWNlLkVyclVzZXJOb3RGb3VuZCwgc2VydmljZS5FcnJJbnZhbGlkUGFzc3dvcmQ6CgkJCWZhaWxlZEF0dGVtcHRzIDo9IHNlcnZpY2UuUmVjb3JkRmFpbGVkTG9naW4oaXAsIHJlcS5Vc2VybmFtZSkKCQkJc2VydmljZS5SZWNvcmRMb2dpbkxvZygwLCByZXEuVXNlcm5hbWUsIGlwLCBjbGllbnROYW1lLCB1YSwgMSwgIueZu+W9leWksei0pSIpCgkJCWMuSlNPTig0MDEsIGdpbi5IewoJCQkJImVycm9yIjogICAgICAgICAgICAgICAgICAi55So5oi35ZCN5oiW5a+G56CB6ZSZ6K+vIiwKCQkJCSJmYWlsZWRfYXR0ZW1wdHMiOiAgICAgICAgZmFpbGVkQXR0ZW1wdHMsCgkJCQkiY2FwdGNoYV9yZXF1aXJlZCI6ICAgICAgIGNhcHRjaGFDZmcuRW5hYmxlZCwKCQkJCSJjYXB0Y2hhX2lkIjogICAgICAgICAgICAgY2FwdGNoYUNmZy5DYXB0Y2hhSUQsCgkJCQkiY2FwdGNoYV90aHJlc2hvbGQiOiAgICAgIGNhcHRjaGFDZmcuUmVxdWlyZUFmdGVyRmFpbHVyZXMsCgkJCQkicmVxdWlyZV9hZnRlcl9mYWlsdXJlcyI6IGNhcHRjaGFDZmcuUmVxdWlyZUFmdGVyRmFpbHVyZXMsCgkJCX0pCgkJY2FzZSBzZXJ2aWNlLkVyclVzZXJEaXNhYmxlZDoKCQkJc2VydmljZS5SZWNvcmRMb2dpbkxvZygwLCByZXEuVXNlcm5hbWUsIGlwLCBjbGllbnROYW1lLCB1YSwgMSwgIueZu+W9leWksei0pSIpCgkJCXJlc3BvbnNlLkZvcmJpZGRlbihjLCAi6LSm5Y+35bey6KKr56aB55SoIikKCQljYXNlIHNlcnZpY2UuRXJyVE9UUFJlcXVpcmVkOgoJCQlzZXJ2aWNlLlJlY29yZExvZ2luTG9nKDAsIHJlcS5Vc2VybmFtZSwgaXAsIGNsaWVudE5hbWUsIHVhLCAxLCAi55m75b2V5aSx6LSlIikKCQkJYy5KU09OKDQwMSwgZ2luLkh7CgkJCQkiZXJyb3IiOiAgICAgICAgICAgICAgICLor7fovpPlhaXkuKTmraXpqozor4HnoIEiLAoJCQkJInR3b19mYWN0b3JfcmVxdWlyZWQiOiB0cnVlLAoJCQl9KQoJCWNhc2Ugc2VydmljZS5FcnJJbnZhbGlkVE9UUDoKCQkJc2VydmljZS5SZWNvcmRMb2dpbkxvZygwLCByZXEuVXNlcm5hbWUsIGlwLCBjbGllbnROYW1lLCB1YSwgMSwgIueZu+W9leWksei0pSIpCgkJCWMuSlNPTig0MDEsIGdpbi5IewoJCQkJImVycm9yIjogICAgICAgICAgICAgICAi5Lik5q2l6aqM6K+B56CB6ZSZ6K+vIiwKCQkJCSJ0d29fZmFjdG9yX3JlcXVpcmVkIjogdHJ1ZSwKCQkJfSkKCQlkZWZhdWx0OgoJCQlzZXJ2aWNlLlJlY29yZEZhaWxlZExvZ2luKGlwLCByZXEuVXNlcm5hbWUpCgkJCXNlcnZpY2UuUmVjb3JkTG9naW5Mb2coMCwgcmVxLlVzZXJuYW1lLCBpcCwgY2xpZW50TmFtZSwgdWEsIDEsICLnmbvlvZXlpLHotKUiKQoJCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLnmbvlvZXlpLHotKUiKQoJCX0KCQlyZXR1cm4KCX0KCglzZXJ2aWNlLkNsZWFyTG9naW5BdHRlbXB0cyhpcCwgcmVxLlVzZXJuYW1lKQoJc2VydmljZS5SZWNvcmRMb2dpbkxvZyh1c2VyLklELCB1c2VyLlVzZXJuYW1lLCBpcCwgY2xpZW50TmFtZSwgdWEsIDAsICLnmbvlvZXmiJDlip8iKQoJaWYgbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZ0Jvb2woIm5vdGlmeV9vbl9sb2dpbiIpIHsKCQlnbyBzZXJ2aWNlLlNlbmROb3RpZmljYXRpb24oCgkJCSLnmbvlvZXmiJDlip/pgJrnn6UiLAoJCQlmbXQuU3ByaW50Zigi55So5oi3ICVzIOS6jiAlcyDku44gSVAgJXMg55m75b2V5oiQ5Yqf44CCIiwKCQkJCXVzZXIuVXNlcm5hbWUsIHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2LTAxLTAyIDE1OjA0OjA1IiksIGlwKSwKCQkpCgl9CglzZXJ2aWNlLkNyZWF0ZVNlc3Npb25XaXRoUmVmcmVzaCh1c2VyLklELCB1c2VyLlVzZXJuYW1lLCBhY2Nlc3NJbmZvLkpUSSwgcmVmcmVzaEluZm8uSlRJLCBjbGllbnRUeXBlLCBjbGllbnROYW1lLCBpcCwgdWEsIGFjY2Vzc0luZm8uRXhwaXJlc0F0LCByZWZyZXNoSW5mby5FeHBpcmVzQXQpCgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6ICAgICAgICLnmbvlvZXmiJDlip8iLAoJCSJhY2Nlc3NfdG9rZW4iOiAgYWNjZXNzVG9rZW4sCgkJInJlZnJlc2hfdG9rZW4iOiByZWZyZXNoVG9rZW4sCgkJInVzZXIiOiAgICAgICAgICB1c2VyLlRvRGljdCgpLAoJfSkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIExvZ291dChjICpnaW4uQ29udGV4dCkgewoJanRpLCBfIDo9IGMuR2V0KCJqdGkiKQoJc2VydmljZS5SZXZva2VTZXNzaW9uKGp0aS4oc3RyaW5nKSkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey6YCA5Ye655m75b2VIn0pCn0KCmZ1bmMgKGggKkF1dGhIYW5kbGVyKSBSZWZyZXNoKGMgKmdpbi5Db250ZXh0KSB7Cgl0b2tlblN0ciA6PSBtaWRkbGV3YXJlLkV4dHJhY3RCZWFyZXJUb2tlbihjLkdldEhlYWRlcigiQXV0aG9yaXphdGlvbiIpKQoKCW5ld1Rva2VuLCBlcnIgOj0gaC5hdXRoU2VydmljZS5SZWZyZXNoVG9rZW4odG9rZW5TdHIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5VbmF1dGhvcml6ZWQoYywgIuS7pOeJjOaXoOaViOaIluW3sui/h+acnyIpCgkJcmV0dXJuCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsiYWNjZXNzX3Rva2VuIjogbmV3VG9rZW59KQp9CgpmdW5jIChoICpBdXRoSGFuZGxlcikgR2V0VXNlcihjICpnaW4uQ29udGV4dCkgewoJdXNlcm5hbWUsIF8gOj0gYy5HZXQoInVzZXJuYW1lIikKCXVzZXIsIGVyciA6PSBoLmF1dGhTZXJ2aWNlLkdldFVzZXIodXNlcm5hbWUuKHN0cmluZykpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi55So5oi35LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7InVzZXIiOiB1c2VyLlRvRGljdCgpfSkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIENoYW5nZVBhc3N3b3JkKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJT2xkUGFzc3dvcmQgc3RyaW5nIGBqc29uOiJvbGRfcGFzc3dvcmQiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlOZXdQYXNzd29yZCBzdHJpbmcgYGpzb246Im5ld19wYXNzd29yZCIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJdXNlcm5hbWUsIF8gOj0gYy5HZXQoInVzZXJuYW1lIikKCWlmIGVyciA6PSBoLmF1dGhTZXJ2aWNlLkNoYW5nZVBhc3N3b3JkKHVzZXJuYW1lLihzdHJpbmcpLCByZXEuT2xkUGFzc3dvcmQsIHJlcS5OZXdQYXNzd29yZCk7IGVyciAhPSBuaWwgewoJCXN3aXRjaCBlcnIgewoJCWNhc2Ugc2VydmljZS5FcnJJbnZhbGlkUGFzc3dvcmQ6CgkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuW9k+WJjeWvhueggeS4jeato+ehriIpCgkJY2FzZSBzZXJ2aWNlLkVyclBhc3N3b3JkVG9vU2hvcnQ6CgkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuaWsOWvhueggemVv+W6pumcgCA2LTEyOCDkvY0iKQoJCWRlZmF1bHQ6CgkJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuS/ruaUueWvhueggeWksei0pSIpCgkJfQoJCXJldHVybgoJfQoKCXVzZXIsIF8gOj0gaC5hdXRoU2VydmljZS5HZXRVc2VyKHVzZXJuYW1lLihzdHJpbmcpKQoJaWYgdXNlciAhPSBuaWwgewoJCXNlcnZpY2UuUmV2b2tlQWxsVXNlclNlc3Npb25zKHVzZXIuSUQpCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLlr4bnoIHkv67mlLnmiJDlip/vvIzor7fph43mlrDnmbvlvZUifSkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIENoYW5nZVVzZXJuYW1lKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJVXNlcm5hbWUgc3RyaW5nIGBqc29uOiJ1c2VybmFtZSIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJbmV3VXNlcm5hbWUgOj0gc3RyaW5ncy5UcmltU3BhY2UocmVxLlVzZXJuYW1lKQoJaWYgIXZhbGlkYXRvci5WYWxpZGF0ZVVzZXJuYW1lKG5ld1VzZXJuYW1lKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi55So5oi35ZCN6ZyAIDEtMzIg5L2N77yM5pSv5oyB5Lit5paH44CB5a2X5q+N44CB5pWw5a2X5ZKM5LiL5YiS57q/IikKCQlyZXR1cm4KCX0KCgljdXJyZW50VXNlcm5hbWUsIF8gOj0gYy5HZXQoInVzZXJuYW1lIikKCWlmIG5ld1VzZXJuYW1lID09IGN1cnJlbnRVc2VybmFtZS4oc3RyaW5nKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5paw55So5oi35ZCN5LiO5b2T5YmN55So5oi35ZCN55u45ZCMIikKCQlyZXR1cm4KCX0KCgl2YXIgZXhpc3RpbmcgbW9kZWwuVXNlcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJ1c2VybmFtZSA9ID8iLCBuZXdVc2VybmFtZSkuRmlyc3QoJmV4aXN0aW5nKS5FcnJvcjsgZXJyID09IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6K+l55So5oi35ZCN5bey6KKr5L2/55SoIikKCQlyZXR1cm4KCX0KCgl2YXIgdXNlciBtb2RlbC5Vc2VyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInVzZXJuYW1lID0gPyIsIGN1cnJlbnRVc2VybmFtZSkuRmlyc3QoJnVzZXIpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi55So5oi35LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuTW9kZWwoJnVzZXIpLlVwZGF0ZSgidXNlcm5hbWUiLCBuZXdVc2VybmFtZSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuS/ruaUueeUqOaIt+WQjeWksei0pSIpCgkJcmV0dXJuCgl9CgoJc2VydmljZS5SZXZva2VBbGxVc2VyU2Vzc2lvbnModXNlci5JRCkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi55So5oi35ZCN5L+u5pS55oiQ5Yqf77yM6K+36YeN5paw55m75b2VIiwgInVzZXIiOiB1c2VyLlRvRGljdCgpfSkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIENhcHRjaGFDb25maWcoYyAqZ2luLkNvbnRleHQpIHsKCWNmZyA6PSBzZXJ2aWNlLkdldENhcHRjaGFSdW50aW1lQ29uZmlnKCkKCXVzZXJuYW1lIDo9IGMuUXVlcnkoInVzZXJuYW1lIikKCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IewoJCSJlbmFibGVkIjogICAgICAgICAgICAgICAgY2ZnLkVuYWJsZWQsCgkJImNhcHRjaGFfaWQiOiAgICAgICAgICAgICBjZmcuQ2FwdGNoYUlELAoJCSJjb25maWd1cmVkIjogICAgICAgICAgICAgY2ZnLkNvbmZpZ3VyZWQsCgkJImltcGxlbWVudGVkIjogICAgICAgICAgICB0cnVlLAoJCSJyZXF1aXJlZCI6ICAgICAgICAgICAgICAgc2VydmljZS5Jc0NhcHRjaGFSZXF1aXJlZChtaWRkbGV3YXJlLlJlc29sdmVDbGllbnRJUChjKSwgdXNlcm5hbWUpLAoJCSJjYXB0Y2hhX2ZhaWxfbW9kZSI6ICAgICAgY2ZnLkZhaWxNb2RlLAoJCSJyZXF1aXJlX2FmdGVyX2ZhaWx1cmVzIjogY2ZnLlJlcXVpcmVBZnRlckZhaWx1cmVzLAoJCSJtZXNzYWdlIjogICAgICAgICAgICAgICAgc2VydmljZS5CdWlsZENhcHRjaGFTdGF0dXNNZXNzYWdlKGNmZyksCgl9KQp9Cgpjb25zdCBhdmF0YXJNYXhCeXRlcyA9IDIgKiAxMDI0ICogMTAyNAoKdmFyIGF2YXRhckFsbG93ZWRFeHRzID0gbWFwW3N0cmluZ11ib29sewoJIi5qcGciOiB0cnVlLCAiLmpwZWciOiB0cnVlLCAiLnBuZyI6IHRydWUsICIuZ2lmIjogdHJ1ZSwgIi53ZWJwIjogdHJ1ZSwKfQoKZnVuYyBhdmF0YXJEaXIoKSBzdHJpbmcgewoJcmV0dXJuIGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5EaXIsICJhdmF0YXJzIikKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIFVwbG9hZEF2YXRhcihjICpnaW4uQ29udGV4dCkgewoJdXNlcm5hbWUsIF8gOj0gYy5HZXQoInVzZXJuYW1lIikKCWZpbGUsIGhlYWRlciwgZXJyIDo9IGMuUmVxdWVzdC5Gb3JtRmlsZSgiYXZhdGFyIikKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+mAieaLqeimgeS4iuS8oOeahOWktOWDj+aWh+S7tiIpCgkJcmV0dXJuCgl9CglkZWZlciBmaWxlLkNsb3NlKCkKCglpZiBoZWFkZXIuU2l6ZSA+IGF2YXRhck1heEJ5dGVzIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLlpLTlg4/mlofku7bkuI3og73otoXov4cgMk1CIikKCQlyZXR1cm4KCX0KCglleHQgOj0gc3RyaW5ncy5Ub0xvd2VyKGZpbGVwYXRoLkV4dChoZWFkZXIuRmlsZW5hbWUpKQoJaWYgIWF2YXRhckFsbG93ZWRFeHRzW2V4dF0gewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuS7heaUr+aMgSBKUEfjgIFQTkfjgIFHSUbjgIFXZWJQIOagvOW8jyIpCgkJcmV0dXJuCgl9CgoJaWYgZXh0ICE9ICIud2VicCIgewoJCWlmIF8sIF8sIGVyciA6PSBpbWFnZS5EZWNvZGVDb25maWcoZmlsZSk7IGVyciAhPSBuaWwgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLmlofku7bkuI3mmK/mnInmlYjnmoTlm77niYciKQoJCQlyZXR1cm4KCQl9CgkJZmlsZS5TZWVrKDAsIGlvLlNlZWtTdGFydCkKCX0KCglkaXIgOj0gYXZhdGFyRGlyKCkKCW9zLk1rZGlyQWxsKGRpciwgMDc1NSkKCglmaWxlbmFtZSA6PSB1dWlkLk5ldygpLlN0cmluZygpICsgZXh0CglzYXZlUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGRpciwgZmlsZW5hbWUpCgoJZHN0LCBlcnIgOj0gb3MuQ3JlYXRlKHNhdmVQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi5L+d5a2Y5aS05YOP5aSx6LSlIikKCQlyZXR1cm4KCX0KCWRlZmVyIGRzdC5DbG9zZSgpCgoJaWYgXywgZXJyIDo9IGlvLkNvcHkoZHN0LCBmaWxlKTsgZXJyICE9IG5pbCB7CgkJb3MuUmVtb3ZlKHNhdmVQYXRoKQoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuS/neWtmOWktOWDj+Wksei0pSIpCgkJcmV0dXJuCgl9CgoJYXZhdGFyVVJMIDo9ICIvYXBpL3YxL2F1dGgvYXZhdGFyLyIgKyBmaWxlbmFtZQoKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IiwgdXNlcm5hbWUpLkZpcnN0KCZ1c2VyKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJb3MuUmVtb3ZlKHNhdmVQYXRoKQoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLnlKjmiLfkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCWlmIHVzZXIuQXZhdGFyVVJMICE9ICIiIHsKCQlvbGRGaWxlIDo9IHN0cmluZ3MuVHJpbVByZWZpeCh1c2VyLkF2YXRhclVSTCwgIi9hcGkvdjEvYXV0aC9hdmF0YXIvIikKCQlvbGRGaWxlID0gc3RyaW5ncy5UcmltUHJlZml4KG9sZEZpbGUsICIvYXBpL2F1dGgvYXZhdGFyLyIpCgkJaWYgb2xkRmlsZSAhPSAiIiB7CgkJCW9zLlJlbW92ZShmaWxlcGF0aC5Kb2luKGRpciwgZmlsZXBhdGguQmFzZShvbGRGaWxlKSkpCgkJfQoJfQoKCWRhdGFiYXNlLkRCLk1vZGVsKCZ1c2VyKS5VcGRhdGUoImF2YXRhcl91cmwiLCBhdmF0YXJVUkwpCgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6ICAgICLlpLTlg4/kuIrkvKDmiJDlip8iLAoJCSJhdmF0YXJfdXJsIjogYXZhdGFyVVJMLAoJfSkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIERlbGV0ZUF2YXRhcihjICpnaW4uQ29udGV4dCkgewoJdXNlcm5hbWUsIF8gOj0gYy5HZXQoInVzZXJuYW1lIikKCgl2YXIgdXNlciBtb2RlbC5Vc2VyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInVzZXJuYW1lID0gPyIsIHVzZXJuYW1lKS5GaXJzdCgmdXNlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLnlKjmiLfkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCWlmIHVzZXIuQXZhdGFyVVJMID09ICIiIHsKCQlyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIuW9k+WJjeayoeacieiuvue9ruWktOWDjyJ9KQoJCXJldHVybgoJfQoKCW9sZEZpbGUgOj0gc3RyaW5ncy5UcmltUHJlZml4KHVzZXIuQXZhdGFyVVJMLCAiL2FwaS92MS9hdXRoL2F2YXRhci8iKQoJb2xkRmlsZSA9IHN0cmluZ3MuVHJpbVByZWZpeChvbGRGaWxlLCAiL2FwaS9hdXRoL2F2YXRhci8iKQoJaWYgb2xkRmlsZSAhPSAiIiB7CgkJb3MuUmVtb3ZlKGZpbGVwYXRoLkpvaW4oYXZhdGFyRGlyKCksIGZpbGVwYXRoLkJhc2Uob2xkRmlsZSkpKQoJfQoKCWRhdGFiYXNlLkRCLk1vZGVsKCZ1c2VyKS5VcGRhdGUoImF2YXRhcl91cmwiLCAiIikKCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIuWktOWDj+W3suWIoOmZpCJ9KQp9CgpmdW5jIChoICpBdXRoSGFuZGxlcikgU2VydmVBdmF0YXIoYyAqZ2luLkNvbnRleHQpIHsKCWZpbGVuYW1lIDo9IGZpbGVwYXRoLkJhc2UoYy5QYXJhbSgiZmlsZW5hbWUiKSkKCWlmIGZpbGVuYW1lID09ICIiIHx8IGZpbGVuYW1lID09ICIuIiB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5peg5pWI55qE5paH5Lu25ZCNIikKCQlyZXR1cm4KCX0KCglmaWxlUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGF2YXRhckRpcigpLCBmaWxlbmFtZSkKCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVQYXRoKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuWktOWDj+S4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJYy5IZWFkZXIoIkNhY2hlLUNvbnRyb2wiLCAicHVibGljLCBtYXgtYWdlPTg2NDAwIikKCWMuRmlsZShmaWxlUGF0aCkKfQoKZnVuYyAoaCAqQXV0aEhhbmRsZXIpIFJlZ2lzdGVyUm91dGVzKHIgKmdpbi5Sb3V0ZXJHcm91cCkgewoJYXV0aCA6PSByLkdyb3VwKCIvYXV0aCIpCgl7CgkJYXV0aC5HRVQoIi9jaGVjay1pbml0IiwgaC5DaGVja0luaXQpCgkJYXV0aC5QT1NUKCIvaW5pdCIsIGguSW5pdCkKCQlhdXRoLlBPU1QoIi9sb2dpbiIsIGgubG9naW5MaW1pdGVyLCBoLkxvZ2luKQoJCWF1dGguUE9TVCgiL2xvZ291dCIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBoLkxvZ291dCkKCQlhdXRoLlBPU1QoIi9yZWZyZXNoIiwgaC5SZWZyZXNoKQoJCWF1dGguR0VUKCIvdXNlciIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBoLkdldFVzZXIpCgkJYXV0aC5QVVQoIi9wYXNzd29yZCIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBoLkNoYW5nZVBhc3N3b3JkKQoJCWF1dGguUFVUKCIvdXNlcm5hbWUiLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgaC5DaGFuZ2VVc2VybmFtZSkKCQlhdXRoLkdFVCgiL2NhcHRjaGEtY29uZmlnIiwgaC5DYXB0Y2hhQ29uZmlnKQoJCWF1dGguUE9TVCgiL2F2YXRhciIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBoLlVwbG9hZEF2YXRhcikKCQlhdXRoLkRFTEVURSgiL2F2YXRhciIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBoLkRlbGV0ZUF2YXRhcikKCQlhdXRoLkdFVCgiL2F2YXRhci86ZmlsZW5hbWUiLCBoLlNlcnZlQXZhdGFyKQoJfQp9Cg==
+package handler
+
+import (
+	"fmt"
+	"image"
+	_ "image/gif"
+	_ "image/jpeg"
+	_ "image/png"
+	"io"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/pathutil"
+	"daidai-panel/pkg/response"
+	"daidai-panel/pkg/validator"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+	"github.com/google/uuid"
+)
+
+type AuthHandler struct {
+	authService  *service.AuthService
+	loginLimiter gin.HandlerFunc
+}
+
+func NewAuthHandler() *AuthHandler {
+	return &AuthHandler{
+		authService:  service.NewAuthService(),
+		loginLimiter: middleware.RateLimit(5, time.Minute),
+	}
+}
+
+func (h *AuthHandler) CheckInit(c *gin.Context) {
+	response.Success(c, gin.H{"need_init": h.authService.NeedInit()})
+}
+
+func (h *AuthHandler) Init(c *gin.Context) {
+	var req struct {
+		Username string `json:"username" binding:"required"`
+		Password string `json:"password" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	user, err := h.authService.InitAdmin(req.Username, req.Password)
+	if err != nil {
+		switch err {
+		case service.ErrInvalidUsername:
+			response.BadRequest(c, "用户名需 1-32 位，支持中文、字母、数字和下划线")
+		case service.ErrPasswordTooShort:
+			response.BadRequest(c, "密码长度需 6-128 位")
+		default:
+			response.BadRequest(c, err.Error())
+		}
+		return
+	}
+
+	response.Success(c, gin.H{
+		"message": "初始化成功",
+		"user":    user.ToDict(),
+	})
+}
+
+func (h *AuthHandler) Login(c *gin.Context) {
+	var req struct {
+		Username string                 `json:"username" binding:"required"`
+		Password string                 `json:"password" binding:"required"`
+		TOTPCode string                 `json:"totp_code"`
+		Captcha  service.CaptchaPayload `json:"captcha"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	ip := middleware.ResolveClientIP(c)
+	ua := c.GetHeader("User-Agent")
+	clientInfo := service.DetectSessionClientInfo(
+		c.GetHeader("X-Client-Type"),
+		c.GetHeader("X-Client-App"),
+		c.GetHeader("X-Client-Platform"),
+		c.GetHeader("X-Device-Model"),
+		c.GetHeader("X-Device-Name"),
+		c.GetHeader("X-OS-Version"),
+		ua,
+	)
+	clientType := clientInfo.Type
+	clientName := service.SessionClientDisplayName(clientInfo)
+
+	locked, remaining := service.CheckLoginLock(ip, req.Username)
+	if locked {
+		service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "账号已锁定")
+		remainSec := int(remaining.Seconds())
+		c.JSON(429, gin.H{
+			"error":             fmt.Sprintf("账号已锁定，请 %.0f 分钟后重试", remaining.Minutes()),
+			"locked":            true,
+			"remaining_seconds": remainSec,
+		})
+		return
+	}
+
+	if !service.IsIPWhitelisted(ip) {
+		service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "IP 不在白名单")
+		response.Forbidden(c, "当前 IP 不在登录白名单中")
+		return
+	}
+
+	captchaCfg := service.GetCaptchaRuntimeConfig()
+	if service.IsCaptchaRequired(ip, req.Username) {
+		verifyResult, err := service.VerifyLoginCaptcha(req.Captcha)
+		if err != nil {
+			switch err {
+			case service.ErrCaptchaRequired:
+				c.JSON(401, gin.H{
+					"error":                  err.Error(),
+					"captcha_required":       true,
+					"captcha_id":             captchaCfg.CaptchaID,
+					"captcha_threshold":      captchaCfg.RequireAfterFailures,
+					"require_after_failures": captchaCfg.RequireAfterFailures,
+				})
+			default:
+				response.InternalError(c, "验证码校验失败，请稍后重试")
+			}
+			return
+		}
+		if !verifyResult.Passed {
+			if verifyResult.UpstreamError {
+				c.JSON(503, gin.H{
+					"error":                       "验证码服务暂时不可用，请稍后重试",
+					"captcha_required":            true,
+					"captcha_service_unavailable": true,
+					"captcha_id":                  captchaCfg.CaptchaID,
+					"captcha_reason":              verifyResult.Reason,
+					"captcha_fail_mode":           captchaCfg.FailMode,
+					"captcha_threshold":           captchaCfg.RequireAfterFailures,
+					"require_after_failures":      captchaCfg.RequireAfterFailures,
+				})
+				return
+			}
+
+			c.JSON(401, gin.H{
+				"error":                  "验证码校验失败，请重新完成人机验证",
+				"captcha_required":       true,
+				"captcha_invalid":        true,
+				"captcha_id":             captchaCfg.CaptchaID,
+				"captcha_reason":         verifyResult.Reason,
+				"captcha_threshold":      captchaCfg.RequireAfterFailures,
+				"require_after_failures": captchaCfg.RequireAfterFailures,
+			})
+			return
+		}
+	}
+
+	user, accessToken, refreshToken, accessInfo, refreshInfo, err := h.authService.Login(req.Username, req.Password, req.TOTPCode)
+	if err != nil {
+		switch err {
+		case service.ErrUserNotFound, service.ErrInvalidPassword:
+			failedAttempts := service.RecordFailedLogin(ip, req.Username)
+			service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "登录失败")
+			c.JSON(401, gin.H{
+				"error":                  "用户名或密码错误",
+				"failed_attempts":        failedAttempts,
+				"captcha_required":       captchaCfg.Enabled,
+				"captcha_id":             captchaCfg.CaptchaID,
+				"captcha_threshold":      captchaCfg.RequireAfterFailures,
+				"require_after_failures": captchaCfg.RequireAfterFailures,
+			})
+		case service.ErrUserDisabled:
+			service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "登录失败")
+			response.Forbidden(c, "账号已被禁用")
+		case service.ErrTOTPRequired:
+			service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "登录失败")
+			c.JSON(401, gin.H{
+				"error":               "请输入两步验证码",
+				"two_factor_required": true,
+			})
+		case service.ErrInvalidTOTP:
+			service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "登录失败")
+			c.JSON(401, gin.H{
+				"error":               "两步验证码错误",
+				"two_factor_required": true,
+			})
+		default:
+			service.RecordFailedLogin(ip, req.Username)
+			service.RecordLoginLog(0, req.Username, ip, clientName, ua, 1, "登录失败")
+			response.InternalError(c, "登录失败")
+		}
+		return
+	}
+
+	service.ClearLoginAttempts(ip, req.Username)
+	service.RecordLoginLog(user.ID, user.Username, ip, clientName, ua, 0, "登录成功")
+	if model.GetRegisteredConfigBool("notify_on_login") {
+		go service.SendNotification(
+			"登录成功通知",
+			fmt.Sprintf("用户 %s 于 %s 从 IP %s 登录成功。",
+				user.Username, time.Now().Format("2006-01-02 15:04:05"), ip),
+		)
+	}
+	service.CreateSessionWithRefresh(user.ID, user.Username, accessInfo.JTI, refreshInfo.JTI, clientType, clientName, ip, ua, accessInfo.ExpiresAt, refreshInfo.ExpiresAt)
+
+	response.Success(c, gin.H{
+		"message":       "登录成功",
+		"access_token":  accessToken,
+		"refresh_token": refreshToken,
+		"user":          user.ToDict(),
+	})
+}
+
+func (h *AuthHandler) Logout(c *gin.Context) {
+	jti, _ := c.Get("jti")
+	service.RevokeSession(jti.(string))
+	response.Success(c, gin.H{"message": "已退出登录"})
+}
+
+func (h *AuthHandler) Refresh(c *gin.Context) {
+	tokenStr := middleware.ExtractBearerToken(c.GetHeader("Authorization"))
+
+	newToken, err := h.authService.RefreshToken(tokenStr)
+	if err != nil {
+		response.Unauthorized(c, "令牌无效或已过期")
+		return
+	}
+
+	response.Success(c, gin.H{"access_token": newToken})
+}
+
+func (h *AuthHandler) GetUser(c *gin.Context) {
+	username, _ := c.Get("username")
+	user, err := h.authService.GetUser(username.(string))
+	if err != nil {
+		response.NotFound(c, "用户不存在")
+		return
+	}
+	response.Success(c, gin.H{"user": user.ToDict()})
+}
+
+func (h *AuthHandler) ChangePassword(c *gin.Context) {
+	var req struct {
+		OldPassword string `json:"old_password" binding:"required"`
+		NewPassword string `json:"new_password" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	username, _ := c.Get("username")
+	if err := h.authService.ChangePassword(username.(string), req.OldPassword, req.NewPassword); err != nil {
+		switch err {
+		case service.ErrInvalidPassword:
+			response.BadRequest(c, "当前密码不正确")
+		case service.ErrPasswordTooShort:
+			response.BadRequest(c, "新密码长度需 6-128 位")
+		default:
+			response.InternalError(c, "修改密码失败")
+		}
+		return
+	}
+
+	user, _ := h.authService.GetUser(username.(string))
+	if user != nil {
+		service.RevokeAllUserSessions(user.ID)
+	}
+
+	response.Success(c, gin.H{"message": "密码修改成功，请重新登录"})
+}
+
+func (h *AuthHandler) ChangeUsername(c *gin.Context) {
+	var req struct {
+		Username string `json:"username" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	newUsername := strings.TrimSpace(req.Username)
+	if !validator.ValidateUsername(newUsername) {
+		response.BadRequest(c, "用户名需 1-32 位，支持中文、字母、数字和下划线")
+		return
+	}
+
+	currentUsername, _ := c.Get("username")
+	if newUsername == currentUsername.(string) {
+		response.BadRequest(c, "新用户名与当前用户名相同")
+		return
+	}
+
+	var existing model.User
+	if err := database.DB.Where("username = ?", newUsername).First(&existing).Error; err == nil {
+		response.BadRequest(c, "该用户名已被使用")
+		return
+	}
+
+	var user model.User
+	if err := database.DB.Where("username = ?", currentUsername).First(&user).Error; err != nil {
+		response.NotFound(c, "用户不存在")
+		return
+	}
+
+	if err := database.DB.Model(&user).Update("username", newUsername).Error; err != nil {
+		response.InternalError(c, "修改用户名失败")
+		return
+	}
+
+	service.RevokeAllUserSessions(user.ID)
+	response.Success(c, gin.H{"message": "用户名修改成功，请重新登录", "user": user.ToDict()})
+}
+
+func (h *AuthHandler) CaptchaConfig(c *gin.Context) {
+	cfg := service.GetCaptchaRuntimeConfig()
+	username := c.Query("username")
+
+	response.Success(c, gin.H{
+		"enabled":                cfg.Enabled,
+		"captcha_id":             cfg.CaptchaID,
+		"configured":             cfg.Configured,
+		"implemented":            true,
+		"required":               service.IsCaptchaRequired(middleware.ResolveClientIP(c), username),
+		"captcha_fail_mode":      cfg.FailMode,
+		"require_after_failures": cfg.RequireAfterFailures,
+		"message":                service.BuildCaptchaStatusMessage(cfg),
+	})
+}
+
+const avatarMaxBytes = 2 * 1024 * 1024
+
+var avatarAllowedExts = map[string]bool{
+	".jpg": true, ".jpeg": true, ".png": true, ".gif": true, ".webp": true,
+}
+
+func avatarDir() string {
+	return filepath.Join(config.C.Data.Dir, "avatars")
+}
+
+func (h *AuthHandler) UploadAvatar(c *gin.Context) {
+	username, _ := c.Get("username")
+	file, header, err := c.Request.FormFile("avatar")
+	if err != nil {
+		response.BadRequest(c, "请选择要上传的头像文件")
+		return
+	}
+	defer file.Close()
+
+	if header.Size > avatarMaxBytes {
+		response.BadRequest(c, "头像文件不能超过 2MB")
+		return
+	}
+
+	ext := strings.ToLower(filepath.Ext(header.Filename))
+	if !avatarAllowedExts[ext] {
+		response.BadRequest(c, "仅支持 JPG、PNG、GIF、WebP 格式")
+		return
+	}
+
+	if ext != ".webp" {
+		if _, _, err := image.DecodeConfig(file); err != nil {
+			response.BadRequest(c, "文件不是有效的图片")
+			return
+		}
+		file.Seek(0, io.SeekStart)
+	}
+
+	dir := avatarDir()
+	os.MkdirAll(dir, 0755)
+
+	filename := uuid.New().String() + ext
+	savePath := filepath.Join(dir, filename)
+
+	dst, err := os.Create(savePath)
+	if err != nil {
+		response.InternalError(c, "保存头像失败")
+		return
+	}
+	defer dst.Close()
+
+	if _, err := io.Copy(dst, file); err != nil {
+		os.Remove(savePath)
+		response.InternalError(c, "保存头像失败")
+		return
+	}
+
+	avatarURL := "/api/v1/auth/avatar/" + filename
+
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		os.Remove(savePath)
+		response.NotFound(c, "用户不存在")
+		return
+	}
+
+	if user.AvatarURL != "" {
+		oldFile := strings.TrimPrefix(user.AvatarURL, "/api/v1/auth/avatar/")
+		oldFile = strings.TrimPrefix(oldFile, "/api/auth/avatar/")
+		if oldFile != "" {
+			// 走 pathutil 沙箱，避免 user.AvatarURL 被恶意构造后越权删文件
+			if oldPath, err := pathutil.ResolveWithinBase(avatarDir(), oldFile, false); err == nil {
+				os.Remove(oldPath)
+			}
+		}
+	}
+
+	database.DB.Model(&user).Update("avatar_url", avatarURL)
+
+	response.Success(c, gin.H{
+		"message":    "头像上传成功",
+		"avatar_url": avatarURL,
+	})
+}
+
+func (h *AuthHandler) DeleteAvatar(c *gin.Context) {
+	username, _ := c.Get("username")
+
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		response.NotFound(c, "用户不存在")
+		return
+	}
+
+	if user.AvatarURL == "" {
+		response.Success(c, gin.H{"message": "当前没有设置头像"})
+		return
+	}
+
+	oldFile := strings.TrimPrefix(user.AvatarURL, "/api/v1/auth/avatar/")
+	oldFile = strings.TrimPrefix(oldFile, "/api/auth/avatar/")
+	if oldFile != "" {
+		// 走 pathutil 沙箱
+		if oldPath, err := pathutil.ResolveWithinBase(avatarDir(), oldFile, false); err == nil {
+			os.Remove(oldPath)
+		}
+	}
+
+	database.DB.Model(&user).Update("avatar_url", "")
+
+	response.Success(c, gin.H{"message": "头像已删除"})
+}
+
+func (h *AuthHandler) ServeAvatar(c *gin.Context) {
+	filename := c.Param("filename")
+	if filename == "" {
+		response.BadRequest(c, "无效的文件名")
+		return
+	}
+
+	// 走 pathutil 沙箱，校验路径穿越 / symlink 逃逸
+	filePath, err := pathutil.ResolveWithinBase(avatarDir(), filename, true)
+	if err != nil {
+		response.NotFound(c, "头像不存在")
+		return
+	}
+
+	c.Header("Cache-Control", "public, max-age=86400")
+	c.File(filePath)
+}
+
+func (h *AuthHandler) RegisterRoutes(r *gin.RouterGroup) {
+	auth := r.Group("/auth")
+	{
+		auth.GET("/check-init", h.CheckInit)
+		auth.POST("/init", h.Init)
+		auth.POST("/login", h.loginLimiter, h.Login)
+		auth.POST("/logout", middleware.JWTAuth(), h.Logout)
+		auth.POST("/refresh", h.Refresh)
+		auth.GET("/user", middleware.JWTAuth(), h.GetUser)
+		auth.PUT("/password", middleware.JWTAuth(), h.ChangePassword)
+		auth.PUT("/username", middleware.JWTAuth(), h.ChangeUsername)
+		auth.GET("/captcha-config", h.CaptchaConfig)
+		auth.POST("/avatar", middleware.JWTAuth(), h.UploadAvatar)
+		auth.DELETE("/avatar", middleware.JWTAuth(), h.DeleteAvatar)
+		auth.GET("/avatar/:filename", h.ServeAvatar)
+	}
+}
