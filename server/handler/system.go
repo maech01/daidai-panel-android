@@ -42,13 +42,13 @@ type systemHealthSnapshot struct {
 }
 
 var (
-	// systemHealthCheckHTTPClient ??? nil,?????? service.NewHTTPClient ??,
-	// ??????? system_configs.proxy_url,? "????" ??????????????
-	// ?????????? nil ????? mock?
+	// systemHealthCheckHTTPClient 默认为 nil，运行时按需用 service.NewHTTPClient 构建，
+	// 这样能实时读取 system_configs.proxy_url，让 "网络代理" 配置变更立即对健康检查生效。
+	// 单元测试可直接赋值非 nil 客户端进行 mock。
 	systemHealthCheckHTTPClient *http.Client
 	systemHealthCheckURL        = "https://www.baidu.com"
-	// systemHealthGetResourceInfo ?????????,
-	// ??????????,????????????????????
+	// systemHealthGetResourceInfo 默认走真实资源采集，
+	// 测试里可替换成固定值，避免健康检查回归用例受当前机器状态影响。
 	systemHealthGetResourceInfo = service.GetResourceInfo
 )
 
@@ -70,7 +70,7 @@ func (h *SystemHandler) Info(c *gin.Context) {
 	response.Success(c, gin.H{"data": info})
 }
 
-// MachineCode ?????????,??????????????(??????????)?
+// MachineCode 单独返回面板机器码，便于外部工具通过接口直接获取（无需解析完整系统信息）。
 func (h *SystemHandler) MachineCode(c *gin.Context) {
 	code := service.EnsureMachineCode()
 	response.Success(c, gin.H{"data": gin.H{"machine_code": code}})
@@ -192,7 +192,7 @@ func (h *SystemHandler) Stats(c *gin.Context) {
 	database.DB.Model(&model.TaskLog{}).Where("status = ?", model.LogStatusAborted).Count(&abortedLogs)
 
 	successRate := 0.0
-	// ????????????? / ??,Aborted ????,???????
+	// 成功率只统计自然完成的成功 / 失败，Aborted 单独统计，不拉低成功率。
 	finishedLogs := successLogs + failedLogs
 	if finishedLogs > 0 {
 		successRate = float64(successLogs) / float64(finishedLogs) * 100
@@ -236,16 +236,16 @@ func (h *SystemHandler) Backup(c *gin.Context) {
 		Selection: req.Selection.NormalizeDefaults(),
 	})
 	if err != nil {
-		response.InternalError(c, "????: "+err.Error())
+		response.InternalError(c, "备份失败: "+err.Error())
 		return
 	}
-	response.Success(c, gin.H{"message": "????", "data": gin.H{"path": filePath}})
+	response.Success(c, gin.H{"message": "备份成功", "data": gin.H{"path": filePath}})
 }
 
 func (h *SystemHandler) BackupList(c *gin.Context) {
 	backups, err := service.ListBackups()
 	if err != nil {
-		response.InternalError(c, "????????")
+		response.InternalError(c, "获取备份列表失败")
 		return
 	}
 	response.Success(c, gin.H{"data": backups})
@@ -257,15 +257,15 @@ func (h *SystemHandler) Restore(c *gin.Context) {
 		Password string `json:"password"`
 	}
 	if err := c.ShouldBindJSON(&req); err != nil {
-		response.BadRequest(c, "??????")
+		response.BadRequest(c, "请求参数错误")
 		return
 	}
 
 	if err := service.RestoreBackup(req.Filename, req.Password); err != nil {
-		response.InternalError(c, "????: "+err.Error())
+		response.InternalError(c, "恢复失败: "+err.Error())
 		return
 	}
-	response.Success(c, gin.H{"message": "????"})
+	response.Success(c, gin.H{"message": "恢复成功"})
 }
 
 func (h *SystemHandler) RestoreProgress(c *gin.Context) {
@@ -275,22 +275,22 @@ func (h *SystemHandler) RestoreProgress(c *gin.Context) {
 func (h *SystemHandler) DeleteBackup(c *gin.Context) {
 	filename := c.Query("filename")
 	if filename == "" {
-		response.BadRequest(c, "???????")
+		response.BadRequest(c, "文件名不能为空")
 		return
 	}
 	service.DeleteBackup(filename)
-	response.Success(c, gin.H{"message": "????"})
+	response.Success(c, gin.H{"message": "删除成功"})
 }
 
 func (h *SystemHandler) UploadBackup(c *gin.Context) {
 	file, err := c.FormFile("file")
 	if err != nil {
-		response.BadRequest(c, "???????")
+		response.BadRequest(c, "请选择备份文件")
 		return
 	}
 
 	if file.Size > 512*1024*1024 {
-		response.BadRequest(c, "????,?? 512MB")
+		response.BadRequest(c, "文件过大，最大 512MB")
 		return
 	}
 
@@ -300,7 +300,7 @@ func (h *SystemHandler) UploadBackup(c *gin.Context) {
 		!strings.HasSuffix(lowerName, ".enc") &&
 		!strings.HasSuffix(lowerName, ".tgz") &&
 		!strings.HasSuffix(lowerName, ".tar.gz") {
-		response.BadRequest(c, "??? .json?.enc?.tgz ? .tar.gz ????")
+		response.BadRequest(c, "仅支持 .json、.enc、.tgz 或 .tar.gz 备份文件")
 		return
 	}
 
@@ -309,11 +309,11 @@ func (h *SystemHandler) UploadBackup(c *gin.Context) {
 	dst := filepath.Join(backupDir, filename)
 
 	if err := c.SaveUploadedFile(file, dst); err != nil {
-		response.InternalError(c, "??????")
+		response.InternalError(c, "保存文件失败")
 		return
 	}
 
-	response.Success(c, gin.H{"message": "????", "data": gin.H{"filename": filename}})
+	response.Success(c, gin.H{"message": "上传成功", "data": gin.H{"filename": filename}})
 }
 
 func (h *SystemHandler) DownloadBackup(c *gin.Context) {
@@ -322,13 +322,13 @@ func (h *SystemHandler) DownloadBackup(c *gin.Context) {
 		filename = c.Query("filename")
 	}
 	if filename == "" {
-		response.BadRequest(c, "???????")
+		response.BadRequest(c, "文件名不能为空")
 		return
 	}
 
 	baseName := filepath.Base(filename)
 	if baseName != filename || strings.TrimSpace(baseName) == "." || strings.TrimSpace(baseName) == string(filepath.Separator) {
-		response.BadRequest(c, "???????")
+		response.BadRequest(c, "备份文件名无效")
 		return
 	}
 
@@ -337,7 +337,7 @@ func (h *SystemHandler) DownloadBackup(c *gin.Context) {
 		!strings.HasSuffix(lowerName, ".enc") &&
 		!strings.HasSuffix(lowerName, ".tgz") &&
 		!strings.HasSuffix(lowerName, ".tar.gz") {
-		response.BadRequest(c, "????? .json?.enc?.tgz ? .tar.gz ????")
+		response.BadRequest(c, "仅支持下载 .json、.enc、.tgz 或 .tar.gz 备份文件")
 		return
 	}
 
@@ -346,14 +346,14 @@ func (h *SystemHandler) DownloadBackup(c *gin.Context) {
 	info, err := os.Stat(filePath)
 	if err != nil {
 		if os.IsNotExist(err) {
-			response.NotFound(c, "???????")
+			response.NotFound(c, "备份文件不存在")
 			return
 		}
-		response.InternalError(c, "????????")
+		response.InternalError(c, "读取备份文件失败")
 		return
 	}
 	if info.IsDir() {
-		response.BadRequest(c, "???????")
+		response.BadRequest(c, "备份文件名无效")
 		return
 	}
 
@@ -417,7 +417,8 @@ func (h *SystemHandler) CheckUpdate(c *gin.Context) {
 	}
 
 	latestVersion := release.version()
-	hasUpdate := compareVersions(currentVersion, latestVersion)
+	// dev build 永远不报"有新版本"，避免误导开发者去升级本地构建
+	hasUpdate := !IsDevBuild() && compareVersions(currentVersion, latestVersion)
 	autoUpdateSupported := true
 	updateDisabledReason := ""
 	updateTarget := gin.H{}
@@ -426,7 +427,7 @@ func (h *SystemHandler) CheckUpdate(c *gin.Context) {
 	if watchtowerCfg.Managed {
 		autoUpdateSupported = watchtowerCfg.ManualTriggerSupported
 		if !watchtowerCfg.ManualTriggerSupported {
-			updateDisabledReason = "??? Watchtower ??????;?????????,???? Watchtower HTTP API ??????"
+			updateDisabledReason = "当前由 Watchtower 托管自动更新；面板可展示更新状态，但未配置 Watchtower HTTP API 手动触发能力"
 		}
 		updateTarget = buildWatchtowerUpdateTarget(watchtowerCfg)
 	} else {
@@ -464,11 +465,11 @@ func (h *SystemHandler) UpdatePanel(c *gin.Context) {
 		}
 
 		response.Success(c, gin.H{
-			"message": "??? Watchtower ????",
+			"message": "已触发 Watchtower 检查更新",
 			"data": gin.H{
 				"status":              "running",
 				"phase":               "watchtower-triggered",
-				"message":             "??? Watchtower ???????????",
+				"message":             "已请求 Watchtower 立即检查并执行容器更新",
 				"deployment_type":     "docker",
 				"update_manager":      panelUpdateManagerWatchtower,
 				"watchtower_response": result,
@@ -496,7 +497,7 @@ func (h *SystemHandler) UpdatePanel(c *gin.Context) {
 }
 
 func (h *SystemHandler) Restart(c *gin.Context) {
-	response.Success(c, gin.H{"message": "???? 2 ????"})
+	response.Success(c, gin.H{"message": "面板将在 2 秒后重启"})
 
 	go func() {
 		time.Sleep(2 * time.Second)
@@ -564,7 +565,7 @@ func runSystemHealthChecks() []systemHealthCheckItem {
 		memThreshold = 80
 	}
 	if info.MemoryTotal == 0 {
-		items = append(items, systemHealthCheckItem{Name: "memory", Status: "warning", Message: "???????"})
+		items = append(items, systemHealthCheckItem{Name: "memory", Status: "warning", Message: "资源采集不可用"})
 	} else if info.MemoryUsage > memThreshold {
 		items = append(items, systemHealthCheckItem{Name: "memory", Status: "warning", Message: strconv.FormatFloat(info.MemoryUsage, 'f', 1, 64) + "%"})
 	} else {
@@ -572,19 +573,19 @@ func runSystemHealthChecks() []systemHealthCheckItem {
 	}
 
 	if sched := service.GetScheduler(); sched != nil {
-		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "???"})
+		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "运行中"})
 	} else if schedV2 := service.GetSchedulerV2(); schedV2 != nil {
-		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "???"})
+		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "运行中"})
 	} else {
-		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "??"})
+		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "空闲"})
 	}
 
 	if resp, err := resolveSystemHealthCheckClient().Get(systemHealthCheckURL); err != nil {
-		items = append(items, systemHealthCheckItem{Name: "network", Status: "error", Message: "????????"})
+		items = append(items, systemHealthCheckItem{Name: "network", Status: "error", Message: "无法连接外部网络"})
 	} else {
 		resp.Body.Close()
 		if resp.StatusCode >= http.StatusBadRequest {
-			items = append(items, systemHealthCheckItem{Name: "network", Status: "error", Message: "??????????"})
+			items = append(items, systemHealthCheckItem{Name: "network", Status: "error", Message: "网络检查返回状态异常"})
 		} else {
 			items = append(items, systemHealthCheckItem{Name: "network", Status: "ok"})
 		}
@@ -643,7 +644,7 @@ func (h *SystemHandler) RunHealthCheck(c *gin.Context) {
 	checkedAt := time.Now()
 
 	if err := saveSystemHealthSnapshot(items, checkedAt); err != nil {
-		response.InternalError(c, "??????????: "+err.Error())
+		response.InternalError(c, "保存健康检查结果失败: "+err.Error())
 		return
 	}
 
@@ -658,7 +659,7 @@ func (h *SystemHandler) GetConfigScript(c *gin.Context) {
 			response.Success(c, gin.H{"content": "", "path": "config.sh"})
 			return
 		}
-		response.InternalError(c, "????????")
+		response.InternalError(c, "读取配置文件失败")
 		return
 	}
 	response.Success(c, gin.H{"content": string(data), "path": "config.sh"})
@@ -669,15 +670,15 @@ func (h *SystemHandler) SaveConfigScript(c *gin.Context) {
 		Content string `json:"content"`
 	}
 	if err := c.ShouldBindJSON(&req); err != nil {
-		response.BadRequest(c, "??????")
+		response.BadRequest(c, "请求参数错误")
 		return
 	}
 	filePath := filepath.Join(config.C.Data.Dir, "config.sh")
 	if err := os.WriteFile(filePath, []byte(req.Content), 0755); err != nil {
-		response.InternalError(c, "????????")
+		response.InternalError(c, "保存配置文件失败")
 		return
 	}
-	response.Success(c, gin.H{"message": "???????"})
+	response.Success(c, gin.H{"message": "配置文件已保存"})
 }
 
 func (h *SystemHandler) RegisterRoutes(r *gin.RouterGroup) {

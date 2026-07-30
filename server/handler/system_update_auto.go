@@ -1,1 +1,164 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkic3RyaW5ncyIKCSJzeW5jIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKKQoKY29uc3QgKAoJYXV0b1VwZGF0ZUxhc3RDaGVja2VkQXRLZXkgICAgPSAiYXV0b191cGRhdGVfbGFzdF9jaGVja2VkX2F0IgoJYXV0b1VwZGF0ZVBlbmRpbmdWZXJzaW9uS2V5ICAgPSAiYXV0b191cGRhdGVfcGVuZGluZ192ZXJzaW9uIgoJYXV0b1VwZGF0ZVBlbmRpbmdTdGFydGVkQXRLZXkgPSAiYXV0b191cGRhdGVfcGVuZGluZ19zdGFydGVkX2F0IgopCgp2YXIgKAoJYXV0b1VwZGF0ZVdhdGNoZXJPbmNlIHN5bmMuT25jZQoJYXV0b1VwZGF0ZVdhdGNoZXJTdG9wIGNoYW4gc3RydWN0e30KKQoKdHlwZSBwYW5lbFVwZGF0ZUV4ZWN1dGlvbk9wdGlvbnMgc3RydWN0IHsKCUF1dG9VcGRhdGUgICAgYm9vbAoJVGFyZ2V0VmVyc2lvbiBzdHJpbmcKfQoKZnVuYyBTdGFydFBhbmVsQXV0b1VwZGF0ZVdhdGNoZXIoKSB7CglhdXRvVXBkYXRlV2F0Y2hlck9uY2UuRG8oZnVuYygpIHsKCQlhdXRvVXBkYXRlV2F0Y2hlclN0b3AgPSBtYWtlKGNoYW4gc3RydWN0e30pCgkJZ28gcGFuZWxBdXRvVXBkYXRlTG9vcCgpCgkJbG9nLlByaW50bG4oInBhbmVsIGF1dG8gdXBkYXRlIHdhdGNoZXIgc3RhcnRlZCAoaW50ZXJ2YWw6IDFoKSIpCgl9KQp9CgpmdW5jIFN0b3BQYW5lbEF1dG9VcGRhdGVXYXRjaGVyKCkgewoJaWYgYXV0b1VwZGF0ZVdhdGNoZXJTdG9wICE9IG5pbCB7CgkJY2xvc2UoYXV0b1VwZGF0ZVdhdGNoZXJTdG9wKQoJfQp9CgpmdW5jIEZpbmFsaXplUGVuZGluZ0F1dG9VcGRhdGVPblN0YXJ0dXAoKSB7Cgl0YXJnZXRWZXJzaW9uIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG1vZGVsLkdldENvbmZpZyhhdXRvVXBkYXRlUGVuZGluZ1ZlcnNpb25LZXksICIiKSkKCWlmIHRhcmdldFZlcnNpb24gPT0gIiIgewoJCXJldHVybgoJfQoKCXN0YXJ0ZWRBdCA6PSBzdHJpbmdzLlRyaW1TcGFjZShtb2RlbC5HZXRDb25maWcoYXV0b1VwZGF0ZVBlbmRpbmdTdGFydGVkQXRLZXksICIiKSkKCWNsZWFyUGVuZGluZ0F1dG9VcGRhdGVTdGF0ZSgpCgoJaWYgVmVyc2lvbiA9PSB0YXJnZXRWZXJzaW9uIHsKCQlzZXJ2aWNlLlNlbmROb3RpZmljYXRpb24oCgkJCSLpnZnpu5jmm7TmlrDmiJDlip8iLAoJCQlmbXQuU3ByaW50Zigi6Z2i5p2/5bey6Ieq5Yqo5pu05paw5YiwIHYlc+OAglxu5a6M5oiQ5pe26Ze077yaJXMiLCB0YXJnZXRWZXJzaW9uLCB0aW1lLk5vdygpLkZvcm1hdCh0aW1lLkRhdGVUaW1lKSksCgkJKQoJCXJldHVybgoJfQoKCWNvbnRlbnQgOj0gZm10LlNwcmludGYoIumdmem7mOabtOaWsOiuoeWIkuebruagh+eJiOacrOS4uiB2JXPvvIzkvYblvZPliY3lkK/liqjniYjmnKzku43kuLogdiVz44CCIiwgdGFyZ2V0VmVyc2lvbiwgVmVyc2lvbikKCWlmIHN0YXJ0ZWRBdCAhPSAiIiB7CgkJY29udGVudCArPSAiXG7lj5Hotbfml7bpl7TvvJoiICsgc3RhcnRlZEF0Cgl9CglzZXJ2aWNlLlNlbmROb3RpZmljYXRpb24oIumdmem7mOabtOaWsOWksei0pSIsIGNvbnRlbnQpCn0KCmZ1bmMgcGFuZWxBdXRvVXBkYXRlTG9vcCgpIHsKCXRpY2tlciA6PSB0aW1lLk5ld1RpY2tlcih0aW1lLkhvdXIpCglkZWZlciB0aWNrZXIuU3RvcCgpCgoJdGltZS5TbGVlcCh0aW1lLk1pbnV0ZSkKCXJ1blBhbmVsQXV0b1VwZGF0ZUNoZWNrKCkKCglmb3IgewoJCXNlbGVjdCB7CgkJY2FzZSA8LXRpY2tlci5DOgoJCQlydW5QYW5lbEF1dG9VcGRhdGVDaGVjaygpCgkJY2FzZSA8LWF1dG9VcGRhdGVXYXRjaGVyU3RvcDoKCQkJcmV0dXJuCgkJfQoJfQp9CgpmdW5jIHJ1blBhbmVsQXV0b1VwZGF0ZUNoZWNrKCkgewoJaWYgIW1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWdCb29sKCJhdXRvX3VwZGF0ZV9lbmFibGVkIikgewoJCXJldHVybgoJfQoKCWxhc3RDaGVja2VkQXQgOj0gcGFyc2VBdXRvVXBkYXRlVGltZShtb2RlbC5HZXRDb25maWcoYXV0b1VwZGF0ZUxhc3RDaGVja2VkQXRLZXksICIiKSkKCWlmICFsYXN0Q2hlY2tlZEF0LklzWmVybygpICYmIHRpbWUuU2luY2UobGFzdENoZWNrZWRBdCkgPCAyNCp0aW1lLkhvdXIgewoJCXJldHVybgoJfQoKCV8gPSBtb2RlbC5TZXRDb25maWcoYXV0b1VwZGF0ZUxhc3RDaGVja2VkQXRLZXksIHRpbWUuTm93KCkuRm9ybWF0KHRpbWUuUkZDMzMzOSkpCgoJcmVsZWFzZSwgZXJyIDo9IGZldGNoTGF0ZXN0UGFuZWxSZWxlYXNlKCkKCWlmIGVyciAhPSBuaWwgewoJCXNlcnZpY2UuU2VuZE5vdGlmaWNhdGlvbigi6Z2Z6buY5pu05paw5aSx6LSlIiwgIuiHquWKqOajgOafpeabtOaWsOWksei0pe+8miIrZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CgoJbGF0ZXN0VmVyc2lvbiA6PSByZWxlYXNlLnZlcnNpb24oKQoJaWYgIWNvbXBhcmVWZXJzaW9ucyhWZXJzaW9uLCBsYXRlc3RWZXJzaW9uKSB7CgkJcmV0dXJuCgl9CgoJcGxhbiwgZXJyIDo9IGJ1aWxkUGFuZWxVcGRhdGVQbGFuRm9yUmVsZWFzZShyZWxlYXNlKQoJaWYgZXJyICE9IG5pbCB7CgkJc2VydmljZS5TZW5kTm90aWZpY2F0aW9uKCLpnZnpu5jmm7TmlrDlpLHotKUiLCAi6Ieq5Yqo5pu05paw5YeG5aSH5aSx6LSl77yaIitlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCglpZiBlcnIgOj0gcGFuZWxVcGRhdGVyLmJlZ2luKHBsYW4pOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4KCX0KCglyZWNvcmRQZW5kaW5nQXV0b1VwZGF0ZShsYXRlc3RWZXJzaW9uKQoJZ28gZXhlY3V0ZVBhbmVsVXBkYXRlV2l0aE9wdGlvbnMocGxhbiwgcGFuZWxVcGRhdGVFeGVjdXRpb25PcHRpb25zewoJCUF1dG9VcGRhdGU6ICAgIHRydWUsCgkJVGFyZ2V0VmVyc2lvbjogbGF0ZXN0VmVyc2lvbiwKCX0pCn0KCmZ1bmMgcmVjb3JkUGVuZGluZ0F1dG9VcGRhdGUodmVyc2lvbiBzdHJpbmcpIHsKCWlmIHN0cmluZ3MuVHJpbVNwYWNlKHZlcnNpb24pID09ICIiIHsKCQlyZXR1cm4KCX0KCV8gPSBtb2RlbC5TZXRDb25maWcoYXV0b1VwZGF0ZVBlbmRpbmdWZXJzaW9uS2V5LCBzdHJpbmdzLlRyaW1TcGFjZSh2ZXJzaW9uKSkKCV8gPSBtb2RlbC5TZXRDb25maWcoYXV0b1VwZGF0ZVBlbmRpbmdTdGFydGVkQXRLZXksIHRpbWUuTm93KCkuRm9ybWF0KHRpbWUuUkZDMzMzOSkpCn0KCmZ1bmMgY2xlYXJQZW5kaW5nQXV0b1VwZGF0ZVN0YXRlKCkgewoJXyA9IG1vZGVsLlNldENvbmZpZyhhdXRvVXBkYXRlUGVuZGluZ1ZlcnNpb25LZXksICIiKQoJXyA9IG1vZGVsLlNldENvbmZpZyhhdXRvVXBkYXRlUGVuZGluZ1N0YXJ0ZWRBdEtleSwgIiIpCn0KCmZ1bmMgcGFyc2VBdXRvVXBkYXRlVGltZShyYXcgc3RyaW5nKSB0aW1lLlRpbWUgewoJcmF3ID0gc3RyaW5ncy5UcmltU3BhY2UocmF3KQoJaWYgcmF3ID09ICIiIHsKCQlyZXR1cm4gdGltZS5UaW1le30KCX0KCXBhcnNlZCwgZXJyIDo9IHRpbWUuUGFyc2UodGltZS5SRkMzMzM5LCByYXcpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gdGltZS5UaW1le30KCX0KCXJldHVybiBwYXJzZWQKfQoKZnVuYyBub3RpZnlBdXRvVXBkYXRlRmFpbHVyZSh0YXJnZXRWZXJzaW9uIHN0cmluZywgZXJyIGVycm9yKSB7CgljbGVhclBlbmRpbmdBdXRvVXBkYXRlU3RhdGUoKQoJbWVzc2FnZSA6PSAi6Z2Z6buY5pu05paw5omn6KGM5aSx6LSlIgoJaWYgc3RyaW5ncy5UcmltU3BhY2UodGFyZ2V0VmVyc2lvbikgIT0gIiIgewoJCW1lc3NhZ2UgPSBmbXQuU3ByaW50Zigi6Z2Z6buY5pu05paw5YiwIHYlcyDlpLHotKUiLCB0YXJnZXRWZXJzaW9uKQoJfQoJaWYgZXJyICE9IG5pbCB7CgkJbWVzc2FnZSArPSAi77yaIiArIGVyci5FcnJvcigpCgl9CglzZXJ2aWNlLlNlbmROb3RpZmljYXRpb24oIumdmem7mOabtOaWsOWksei0pSIsIG1lc3NhZ2UpCn0K
+package handler
+
+import (
+	"fmt"
+	"log"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/model"
+	"daidai-panel/service"
+)
+
+const (
+	autoUpdateLastCheckedAtKey    = "auto_update_last_checked_at"
+	autoUpdatePendingVersionKey   = "auto_update_pending_version"
+	autoUpdatePendingStartedAtKey = "auto_update_pending_started_at"
+)
+
+var (
+	autoUpdateWatcherOnce sync.Once
+	autoUpdateWatcherStop chan struct{}
+)
+
+type panelUpdateExecutionOptions struct {
+	AutoUpdate    bool
+	TargetVersion string
+}
+
+func StartPanelAutoUpdateWatcher() {
+	autoUpdateWatcherOnce.Do(func() {
+		autoUpdateWatcherStop = make(chan struct{})
+		go panelAutoUpdateLoop()
+		log.Println("panel auto update watcher started (interval: 1h)")
+	})
+}
+
+func StopPanelAutoUpdateWatcher() {
+	if autoUpdateWatcherStop != nil {
+		close(autoUpdateWatcherStop)
+	}
+}
+
+func FinalizePendingAutoUpdateOnStartup() {
+	targetVersion := strings.TrimSpace(model.GetConfig(autoUpdatePendingVersionKey, ""))
+	if targetVersion == "" {
+		return
+	}
+
+	startedAt := strings.TrimSpace(model.GetConfig(autoUpdatePendingStartedAtKey, ""))
+	clearPendingAutoUpdateState()
+
+	if Version == targetVersion {
+		service.SendNotification(
+			"静默更新成功",
+			fmt.Sprintf("面板已自动更新到 v%s。\n完成时间：%s", targetVersion, time.Now().Format(time.DateTime)),
+		)
+		return
+	}
+
+	content := fmt.Sprintf("静默更新计划目标版本为 v%s，但当前启动版本仍为 v%s。", targetVersion, Version)
+	if startedAt != "" {
+		content += "\n发起时间：" + startedAt
+	}
+	service.SendNotification("静默更新失败", content)
+}
+
+func panelAutoUpdateLoop() {
+	ticker := time.NewTicker(time.Hour)
+	defer ticker.Stop()
+
+	time.Sleep(time.Minute)
+	runPanelAutoUpdateCheck()
+
+	for {
+		select {
+		case <-ticker.C:
+			runPanelAutoUpdateCheck()
+		case <-autoUpdateWatcherStop:
+			return
+		}
+	}
+}
+
+func runPanelAutoUpdateCheck() {
+	if !model.GetRegisteredConfigBool("auto_update_enabled") {
+		return
+	}
+
+	lastCheckedAt := parseAutoUpdateTime(model.GetConfig(autoUpdateLastCheckedAtKey, ""))
+	if !lastCheckedAt.IsZero() && time.Since(lastCheckedAt) < 24*time.Hour {
+		return
+	}
+
+	_ = model.SetConfig(autoUpdateLastCheckedAtKey, time.Now().Format(time.RFC3339))
+
+	release, err := fetchLatestPanelRelease()
+	if err != nil {
+		service.SendNotification("静默更新失败", "自动检查更新失败："+err.Error())
+		return
+	}
+
+	latestVersion := release.version()
+	// dev build 不参与 auto-update，避免本地 `go run` 被静默覆盖成 release
+	if IsDevBuild() {
+		return
+	}
+	if !compareVersions(Version, latestVersion) {
+		return
+	}
+
+	plan, err := buildPanelUpdatePlanForRelease(release)
+	if err != nil {
+		service.SendNotification("静默更新失败", "自动更新准备失败："+err.Error())
+		return
+	}
+
+	if err := panelUpdater.begin(plan); err != nil {
+		return
+	}
+
+	recordPendingAutoUpdate(latestVersion)
+	go executePanelUpdateWithOptions(plan, panelUpdateExecutionOptions{
+		AutoUpdate:    true,
+		TargetVersion: latestVersion,
+	})
+}
+
+func recordPendingAutoUpdate(version string) {
+	if strings.TrimSpace(version) == "" {
+		return
+	}
+	_ = model.SetConfig(autoUpdatePendingVersionKey, strings.TrimSpace(version))
+	_ = model.SetConfig(autoUpdatePendingStartedAtKey, time.Now().Format(time.RFC3339))
+}
+
+func clearPendingAutoUpdateState() {
+	_ = model.SetConfig(autoUpdatePendingVersionKey, "")
+	_ = model.SetConfig(autoUpdatePendingStartedAtKey, "")
+}
+
+func parseAutoUpdateTime(raw string) time.Time {
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return time.Time{}
+	}
+	parsed, err := time.Parse(time.RFC3339, raw)
+	if err != nil {
+		return time.Time{}
+	}
+	return parsed
+}
+
+func notifyAutoUpdateFailure(targetVersion string, err error) {
+	clearPendingAutoUpdateState()
+	message := "静默更新执行失败"
+	if strings.TrimSpace(targetVersion) != "" {
+		message = fmt.Sprintf("静默更新到 v%s 失败", targetVersion)
+	}
+	if err != nil {
+		message += "：" + err.Error()
+	}
+	service.SendNotification("静默更新失败", message)
+}
