@@ -1,0 +1,65 @@
+version: 2
+updates:
+  # Go 后端主模块
+  - package-ecosystem: gomod
+    directory: /server
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "deps(server)"
+    labels:
+      - "dependencies"
+      - "go"
+    open-pull-requests-limit: 5
+
+  # 前端 npm
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "deps(web)"
+    labels:
+      - "dependencies"
+      - "frontend"
+    open-pull-requests-limit: 10
+
+  # GitHub Actions
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    commit-message:
+      prefix: "ci"
+    labels:
+      - "ci"
+    open-pull-requests-limit: 5
+
+  # Dockerfile（Alpine）
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci(docker)"
+    labels:
+      - "ci"
+      - "docker"
+    open-pull-requests-limit: 5
+
+  # Dockerfile.debian
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: monthly
+    commit-message:
+      prefix: "ci(docker-debian)"
+    labels:
+      - "ci"
+      - "docker"
+    open-pull-requests-limit: 5
+    ignore:
+      # base 镜像用 pin-digests.sh 手动更新，避免 dependabot 自动改 digest
+      - dependency-name: "node*"
+      - dependency-name: "golang*"
+      - dependency-name: "alpine*"
