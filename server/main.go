@@ -1,1 +1,339 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgKAoJImNvbnRleHQiCgkiZXJyb3JzIgoJImZtdCIKCSJpbyIKCSJsb2ciCgkibmV0IgoJIm5ldC9odHRwIgoJIm9zIgoJIm9zL3NpZ25hbCIKCSJwYXRoL2ZpbGVwYXRoIgoJInNvcnQiCgkic3RyaW5ncyIKCSJzeXNjYWxsIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9hcHBib290IgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL2hhbmRsZXIiCgkiZGFpZGFpLXBhbmVsL21pZGRsZXdhcmUiCgkiZGFpZGFpLXBhbmVsL3JvdXRlciIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgpmdW5jIGJ1aWxkQWNjZXNzVVJMcyhwb3J0IGludCkgW11zdHJpbmcgewoJaWYgcG9ydCA8PSAwIHsKCQlyZXR1cm4gbmlsCgl9CgoJc2VlbiA6PSBtYXBbc3RyaW5nXXN0cnVjdHt9e30KCXZhciB1cmxzIFtdc3RyaW5nCgoJYWRkVVJMIDo9IGZ1bmMoaG9zdCBzdHJpbmcpIHsKCQlob3N0ID0gc3RyaW5ncy5UcmltU3BhY2UoaG9zdCkKCQlpZiBob3N0ID09ICIiIHsKCQkJcmV0dXJuCgkJfQoJCXVybCA6PSBmbXQuU3ByaW50ZigiaHR0cDovLyVzOiVkIiwgaG9zdCwgcG9ydCkKCQlpZiBfLCBleGlzdHMgOj0gc2Vlblt1cmxdOyBleGlzdHMgewoJCQlyZXR1cm4KCQl9CgkJc2Vlblt1cmxdID0gc3RydWN0e317fQoJCXVybHMgPSBhcHBlbmQodXJscywgdXJsKQoJfQoKCWFkZFVSTCgiMTI3LjAuMC4xIikKCWFkZFVSTCgibG9jYWxob3N0IikKCglpZmFjZXMsIGVyciA6PSBuZXQuSW50ZXJmYWNlcygpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gdXJscwoJfQoKCXZhciBsb2NhbElQcyBbXXN0cmluZwoJZm9yIF8sIGlmYWNlIDo9IHJhbmdlIGlmYWNlcyB7CgkJaWYgaWZhY2UuRmxhZ3MmbmV0LkZsYWdVcCA9PSAwIHx8IGlmYWNlLkZsYWdzJm5ldC5GbGFnTG9vcGJhY2sgIT0gMCB7CgkJCWNvbnRpbnVlCgkJfQoKCQlhZGRycywgZXJyIDo9IGlmYWNlLkFkZHJzKCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJY29udGludWUKCQl9CgoJCWZvciBfLCBhZGRyIDo9IHJhbmdlIGFkZHJzIHsKCQkJdmFyIGlwIG5ldC5JUAoJCQlzd2l0Y2ggdiA6PSBhZGRyLih0eXBlKSB7CgkJCWNhc2UgKm5ldC5JUE5ldDoKCQkJCWlwID0gdi5JUAoJCQljYXNlICpuZXQuSVBBZGRyOgoJCQkJaXAgPSB2LklQCgkJCX0KCgkJCWlwID0gaXAuVG80KCkKCQkJaWYgaXAgPT0gbmlsIHx8IGlwLklzTG9vcGJhY2soKSB7CgkJCQljb250aW51ZQoJCQl9CgoJCQlsb2NhbElQcyA9IGFwcGVuZChsb2NhbElQcywgaXAuU3RyaW5nKCkpCgkJfQoJfQoKCXNvcnQuU3RyaW5ncyhsb2NhbElQcykKCWZvciBfLCBpcCA6PSByYW5nZSBsb2NhbElQcyB7CgkJYWRkVVJMKGlwKQoJfQoKCXJldHVybiB1cmxzCn0KCmZ1bmMgcHJpbnRTdGFydHVwU3VtbWFyeShwb3J0IGludCkgewoJdXJscyA6PSBidWlsZEFjY2Vzc1VSTHMocG9ydCkKCWZtdC5QcmludGxuKCLlkYblkYbpnaLmnb/lt7Lnu4/lkK/liqgiKQoJaWYgbGVuKHVybHMpID09IDAgewoJCWZtdC5QcmludGYoIuiuv+mXruWcsOWdgO+8mmh0dHA6Ly8xMjcuMC4wLjE6JWRcbiIsIHBvcnQpCgkJcmV0dXJuCgl9CgoJZm10LlByaW50bG4oIuiuv+mXruWcsOWdgO+8miIpCglmb3IgXywgdXJsIDo9IHJhbmdlIHVybHMgewoJCWZtdC5QcmludGxuKHVybCkKCX0KCWZtdC5QcmludGYoIuivt+S9v+eUqOS4iumdouaYvuekuueahOWuv+S4u+acuuiuv+mXruWcsOWdgO+8jOS4jeimgeebtOaOpeS9v+eUqOWuueWZqOWGheerr+WPoyAlZC8lZOOAglxuIiwgNTcwMCwgNTcwMSkKfQoKZnVuYyBzZXR1cFBhbmVsTG9nKGRhdGFEaXIgc3RyaW5nKSBpby5Xcml0ZXIgewoJbG9nRmlsZVBhdGggOj0gZmlsZXBhdGguSm9pbihkYXRhRGlyLCAicGFuZWwubG9nIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChmaWxlcGF0aC5EaXIobG9nRmlsZVBhdGgpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBvcy5TdGRvdXQKCX0KCglsb2dGaWxlLCBlcnIgOj0gb3MuT3BlbkZpbGUobG9nRmlsZVBhdGgsIG9zLk9fQ1JFQVRFfG9zLk9fV1JPTkxZfG9zLk9fQVBQRU5ELCAwbzY0NCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBvcy5TdGRvdXQKCX0KCglzd2l0Y2ggc2VydmljZS5SZXNvbHZlUGFuZWxSdW50aW1lTW9kZSgpIHsKCWNhc2Ugc2VydmljZS5QYW5lbFJ1bnRpbWVNb2RlU3Rkb3V0OgoJCXJldHVybiBpby5NdWx0aVdyaXRlcihvcy5TdGRvdXQsIGxvZ0ZpbGUpCglkZWZhdWx0OgoJCXJldHVybiBsb2dGaWxlCgl9Cn0KCmZ1bmMgd3JpdGVTZXJ2ZXJQSURGaWxlKGRhdGFEaXIgc3RyaW5nKSBmdW5jKCkgewoJaWYgc3RyaW5ncy5UcmltU3BhY2UoZGF0YURpcikgPT0gIiIgewoJCXJldHVybiBmdW5jKCkge30KCX0KCglwaWREaXIgOj0gZmlsZXBhdGguSm9pbihkYXRhRGlyLCAicnVuIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChwaWREaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50Zigid3JpdGUgcGlkIGRpciBmYWlsZWQ6ICV2IiwgZXJyKQoJCXJldHVybiBmdW5jKCkge30KCX0KCglwaWRGaWxlIDo9IGZpbGVwYXRoLkpvaW4ocGlkRGlyLCAiZGFpZGFpLXNlcnZlci5waWQiKQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShwaWRGaWxlLCBbXWJ5dGUoZm10LlNwcmludGYoIiVkXG4iLCBvcy5HZXRwaWQoKSkpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoIndyaXRlIHBpZCBmaWxlIGZhaWxlZDogJXYiLCBlcnIpCgkJcmV0dXJuIGZ1bmMoKSB7fQoJfQoKCXJldHVybiBmdW5jKCkgewoJCV8gPSBvcy5SZW1vdmUocGlkRmlsZSkKCX0KfQoKZnVuYyBtYWluKCkgewoJLy8g55SoIFJlc29sdmVDb25maWdQYXRoIOiAjOS4jeaYr+ehrOe8lueggSAiY29uZmlnLnlhbWwi77yaCgkvLyDkuozov5vliLbpg6jnvbLoi6UgY3dkIOKJoCBleGUg55uu5b2V77yIV2luZG93cyDlj4zlh7vjgIHnlKjmiLcgY2Qg5Yiw5YW25LuW55uu5b2V5ZCO57ud5a+56Lev5b6E5ZCv5Yqo44CBCgkvLyBzeXN0ZW1kIFdvcmtpbmdEaXJlY3Rvcnkg5ryP6YWN562J5Zy65pmv77yJ77yM56Gs57yW56CB55u45a+56Lev5b6E5Lya5om+5LiN5YiwIGNvbmZpZyDnm7TmjqUgZmF0YWzjgIIKCWNmZywgZXJyIDo9IGNvbmZpZy5Mb2FkKGFwcGJvb3QuUmVzb2x2ZUNvbmZpZ1BhdGgoKSkKCWlmIGVyciAhPSBuaWwgewoJCWxvZy5GYXRhbGYoImZhaWxlZCB0byBsb2FkIGNvbmZpZzogJXYiLCBlcnIpCgl9CgoJcGFuZWxXcml0ZXIgOj0gc2V0dXBQYW5lbExvZyhjZmcuRGF0YS5EaXIpCglsb2cuU2V0T3V0cHV0KHNlcnZpY2UuTmV3UGFuZWxMb2dGaWx0ZXJXcml0ZXIocGFuZWxXcml0ZXIpKQoJZ2luLkRlZmF1bHRXcml0ZXIgPSBzZXJ2aWNlLk5ld1BhbmVsTG9nRmlsdGVyV3JpdGVyKHBhbmVsV3JpdGVyKQoJZ2luLkRlZmF1bHRFcnJvcldyaXRlciA9IHNlcnZpY2UuTmV3UGFuZWxMb2dGaWx0ZXJXcml0ZXIocGFuZWxXcml0ZXIpCgljbGVhbnVwUElERmlsZSA6PSB3cml0ZVNlcnZlclBJREZpbGUoY2ZnLkRhdGEuRGlyKQoJZGVmZXIgY2xlYW51cFBJREZpbGUoKQoKCWlmIGVyciA6PSBhcHBib290LkluaXRXaXRoQ29uZmlnKGNmZyk7IGVyciAhPSBuaWwgewoJCWxvZy5GYXRhbGYoImJvb3RzdHJhcCBmYWlsZWQ6ICV2IiwgZXJyKQoJfQoKCXZlcmlmeUluc3RhbGxlZERlcHMoKQoJaGFuZGxlci5GaW5hbGl6ZVBlbmRpbmdBdXRvVXBkYXRlT25TdGFydHVwKCkKCWlmIGVyciA6PSBzZXJ2aWNlLkVuc3VyZUJ1aWx0aW5Ob3RpZnlIZWxwZXJzKGNmZy5EYXRhLlNjcmlwdHNEaXIpOyBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJwcmVwYXJlIGJ1aWx0aW4gbm90aWZ5IGhlbHBlcnMgZmFpbGVkOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBzZXJ2aWNlLkNsZWFudXBNYW5hZ2VkSGVscGVyQ29waWVzVW5kZXJSb290KGNmZy5EYXRhLlNjcmlwdHNEaXIpOyBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJjbGVhbnVwIGR1cGxpY2F0ZWQgbm90aWZ5IGhlbHBlcnMgZmFpbGVkOiAldiIsIGVycikKCX0KCS8vIOWQr+WKqOaXtuWFiOmalOemu+iEmuacrOebruW9leS4reeahOW8guW4uOaxoeafk+ebruW9le+8jOmBv+WFjee7p+e7reW9seWTjeiEmuacrOeuoeeQhuOAgeWkh+S7veWSjOe7n+iuoemTvui3r+OAggoJc2VydmljZS5RdWFyYW50aW5lVW5leHBlY3RlZFNjcmlwdEVudHJpZXNPblN0YXJ0dXAoKQoJc2VydmljZS5DbGVhbnVwTWFuYWdlZFB5dGhvbkFydGlmYWN0c09uU3RhcnR1cCgpCgoJc2VydmljZS5Jbml0U2NoZWR1bGVyVjIoKQoJZGVmZXIgc2VydmljZS5TaHV0ZG93blNjaGVkdWxlclYyKCkKCglzZXJ2aWNlLkluaXRTdWJzY3JpcHRpb25TY2hlZHVsZXIoKQoJZGVmZXIgc2VydmljZS5TaHV0ZG93blN1YnNjcmlwdGlvblNjaGVkdWxlcigpCgoJc2VydmljZS5Jbml0QmFja3VwU2NoZWR1bGVyKCkKCWRlZmVyIHNlcnZpY2UuU2h1dGRvd25CYWNrdXBTY2hlZHVsZXIoKQoKCXNlcnZpY2UuU3RhcnRSZXNvdXJjZVdhdGNoZXIoKQoJZGVmZXIgc2VydmljZS5TdG9wUmVzb3VyY2VXYXRjaGVyKCkKCglzZXJ2aWNlLlN0YXJ0TG9nQ2xlYW51cFdvcmtlcigpCglkZWZlciBzZXJ2aWNlLlN0b3BMb2dDbGVhbnVwV29ya2VyKCkKCgloYW5kbGVyLlN0YXJ0UGFuZWxBdXRvVXBkYXRlV2F0Y2hlcigpCglkZWZlciBoYW5kbGVyLlN0b3BQYW5lbEF1dG9VcGRhdGVXYXRjaGVyKCkKCglpZiBjZmcuU2VydmVyLk1vZGUgPT0gInJlbGVhc2UiIHsKCQlnaW4uU2V0TW9kZShnaW4uUmVsZWFzZU1vZGUpCgl9CgoJZW5naW5lIDo9IGdpbi5OZXcoKQoJaWYgZXJyIDo9IGVuZ2luZS5TZXRUcnVzdGVkUHJveGllcyhtaWRkbGV3YXJlLkN1cnJlbnRUcnVzdGVkUHJveHlDSURScygpKTsgZXJyICE9IG5pbCB7CgkJbG9nLkZhdGFsZigiZmFpbGVkIHRvIGFwcGx5IHRydXN0ZWQgcHJveGllcyB0byBnaW4gZW5naW5lOiAldiIsIGVycikKCX0KCWVuZ2luZS5SZW1vdGVJUEhlYWRlcnMgPSBbXXN0cmluZ3siWC1SZWFsLUlQIiwgIlgtRm9yd2FyZGVkLUZvciJ9CgllbmdpbmUuVXNlKGdpbi5Mb2dnZXJXaXRoQ29uZmlnKGdpbi5Mb2dnZXJDb25maWd7CgkJT3V0cHV0OiAgICBzZXJ2aWNlLk5ld0dJTkxvZ2dlcldyaXRlcihzZXJ2aWNlLk5ld1BhbmVsTG9nRmlsdGVyV3JpdGVyKHBhbmVsV3JpdGVyKSksCgkJU2tpcFBhdGhzOiBbXXN0cmluZ3siL2FwaS92MS9oZWFsdGgiLCAiL2FwaS9oZWFsdGgifSwKCX0pKQoJZW5naW5lLlVzZShnaW4uUmVjb3ZlcnkoKSkKCglyb3V0ZXIuU2V0dXAoZW5naW5lKQoJc2V0dXBTdGF0aWNGcm9udGVuZChlbmdpbmUsIGNmZy5TZXJ2ZXIuV2ViRGlyKQoKCWFkZHIgOj0gZm10LlNwcmludGYoIjolZCIsIGNmZy5TZXJ2ZXIuUG9ydCkKCWxpc3RlbmVyLCBlcnIgOj0gbmV0Lkxpc3RlbigidGNwIiwgYWRkcikKCWlmIGVyciAhPSBuaWwgewoJCWxvZy5GYXRhbGYoInNlcnZlciBmYWlsZWQ6ICV2IiwgZXJyKQoJfQoKCWxvZy5TZXRPdXRwdXQoc2VydmljZS5OZXdQYW5lbExvZ0ZpbHRlcldyaXRlcihwYW5lbFdyaXRlcikpCglwcmludFN0YXJ0dXBTdW1tYXJ5KGNmZy5TZXJ2ZXIuUG9ydCkKCglzZXJ2ZXIgOj0gJmh0dHAuU2VydmVye0hhbmRsZXI6IGVuZ2luZX0KCXNlcnZlckVyciA6PSBtYWtlKGNoYW4gZXJyb3IsIDEpCglnbyBmdW5jKCkgewoJCXNlcnZlckVyciA8LSBzZXJ2ZXIuU2VydmUobGlzdGVuZXIpCgl9KCkKCglzaHV0ZG93blNpZ25hbHMgOj0gbWFrZShjaGFuIG9zLlNpZ25hbCwgMSkKCXNpZ25hbC5Ob3RpZnkoc2h1dGRvd25TaWduYWxzLCBvcy5JbnRlcnJ1cHQsIHN5c2NhbGwuU0lHVEVSTSkKCWRlZmVyIHNpZ25hbC5TdG9wKHNodXRkb3duU2lnbmFscykKCglzZWxlY3QgewoJY2FzZSBlcnIgOj0gPC1zZXJ2ZXJFcnI6CgkJaWYgZXJyICE9IG5pbCAmJiAhZXJyb3JzLklzKGVyciwgaHR0cC5FcnJTZXJ2ZXJDbG9zZWQpIHsKCQkJbG9nLkZhdGFsZigic2VydmVyIGZhaWxlZDogJXYiLCBlcnIpCgkJfQoJY2FzZSBzaWcgOj0gPC1zaHV0ZG93blNpZ25hbHM6CgkJbG9nLlByaW50ZigicmVjZWl2ZWQgJXMsIHNodXR0aW5nIGRvd24gcGFuZWwiLCBzaWcpCgkJY3R4LCBjYW5jZWwgOj0gY29udGV4dC5XaXRoVGltZW91dChjb250ZXh0LkJhY2tncm91bmQoKSwgMTUqdGltZS5TZWNvbmQpCgkJZGVmZXIgY2FuY2VsKCkKCQlpZiBlcnIgOj0gc2VydmVyLlNodXRkb3duKGN0eCk7IGVyciAhPSBuaWwgewoJCQlsb2cuUHJpbnRmKCJzZXJ2ZXIgZ3JhY2VmdWwgc2h1dGRvd24gZmFpbGVkOiAldiIsIGVycikKCQkJXyA9IHNlcnZlci5DbG9zZSgpCgkJfQoJfQp9CgpmdW5jIHZlcmlmeUluc3RhbGxlZERlcHMoKSB7CglzZXJ2aWNlLlJlY29uY2lsZURlcGVuZGVuY2llc0FmdGVyUmVzdGFydCgpCn0KCi8vIHNldHVwU3RhdGljRnJvbnRlbmQgbGV0cyB0aGUgR28gYmFja2VuZCBkb3VibGUgYXMgYSBmcm9udGVuZCBob3N0IHdoZW4gYQovLyB3ZWIgZGlyZWN0b3J5IGlzIGNvbmZpZ3VyZWQgKGUuZy4gdGhlIE1hZ2lzayBtb2R1bGUgYnVuZGxlcyBgd2ViL2AgbmV4dCB0bwovLyB0aGUgYmluYXJ5IGFuZCBoYXMgbm8gbmdpbngpLiBEb2NrZXIgZGVwbG95bWVudHMgbGVhdmUgV2ViRGlyIGVtcHR5IGFuZAovLyBrZWVwIHVzaW5nIG5naW54LgpmdW5jIHNldHVwU3RhdGljRnJvbnRlbmQoZW5naW5lICpnaW4uRW5naW5lLCB3ZWJEaXIgc3RyaW5nKSB7CglpZiBzdHJpbmdzLlRyaW1TcGFjZSh3ZWJEaXIpID09ICIiIHsKCQl3ZWJEaXIgPSBhdXRvRGV0ZWN0V2ViRGlyKCkKCQlpZiB3ZWJEaXIgPT0gIiIgewoJCQlyZXR1cm4KCQl9Cgl9CgoJYWJzRGlyLCBlcnIgOj0gZmlsZXBhdGguQWJzKHdlYkRpcikKCWlmIGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoIndlYl9kaXIg6Kej5p6Q5aSx6LSlOiAldiIsIGVycikKCQlyZXR1cm4KCX0KCglpbmRleFBhdGggOj0gZmlsZXBhdGguSm9pbihhYnNEaXIsICJpbmRleC5odG1sIikKCWlmIF8sIGVyciA6PSBvcy5TdGF0KGluZGV4UGF0aCk7IGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoIndlYl9kaXI9JXMg57y65bCRIGluZGV4Lmh0bWzvvIzot7Pov4fliY3nq6/miZjnrqEiLCBhYnNEaXIpCgkJcmV0dXJuCgl9CgoJZW5naW5lLlN0YXRpY0ZpbGUoIi8iLCBpbmRleFBhdGgpCgllbmdpbmUuU3RhdGljRmlsZSgiL2Zhdmljb24uc3ZnIiwgZmlsZXBhdGguSm9pbihhYnNEaXIsICJmYXZpY29uLnN2ZyIpKQoKCWZvciBfLCBzdWIgOj0gcmFuZ2UgW11zdHJpbmd7ImFzc2V0cyIsICJtb25hY28iLCAic3BvbnNvci1wb3J0YWwifSB7CgkJc3ViRGlyIDo9IGZpbGVwYXRoLkpvaW4oYWJzRGlyLCBzdWIpCgkJaWYgaW5mbywgZXJyIDo9IG9zLlN0YXQoc3ViRGlyKTsgZXJyID09IG5pbCAmJiBpbmZvLklzRGlyKCkgewoJCQllbmdpbmUuU3RhdGljKCIvIitzdWIsIHN1YkRpcikKCQl9Cgl9CgoJLy8gU1BBIGZhbGxiYWNrOiDpnZ4gQVBJIOeahOi3r+W+hOWcqOWQjuerr+ayoeacieWRveS4reaXtuS4gOW+i+WbniBpbmRleC5odG1s77yMCgkvLyDkuqTnu5nliY3nq68gdnVlLXJvdXRlciDlpITnkIbjgIIKCWVuZ2luZS5Ob1JvdXRlKGZ1bmMoYyAqZ2luLkNvbnRleHQpIHsKCQlwIDo9IGMuUmVxdWVzdC5VUkwuUGF0aAoJCWlmIHN0cmluZ3MuSGFzUHJlZml4KHAsICIvYXBpLyIpIHsKCQkJYy5KU09OKDQwNCwgZ2luLkh7ImVycm9yIjogInJvdXRlIG5vdCBmb3VuZCJ9KQoJCQlyZXR1cm4KCQl9CgkJYy5GaWxlKGluZGV4UGF0aCkKCX0pCgoJbG9nLlByaW50Zigi5YmN56uv6Z2Z5oCB55uu5b2V5bey5oyC6L29OiAlcyIsIGFic0RpcikKfQoKZnVuYyBhdXRvRGV0ZWN0V2ViRGlyKCkgc3RyaW5nIHsKCWV4ZVBhdGgsIGVyciA6PSBvcy5FeGVjdXRhYmxlKCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIgoJfQoJZXhlRGlyIDo9IGZpbGVwYXRoLkRpcihleGVQYXRoKQoKCWNhbmRpZGF0ZXMgOj0gW11zdHJpbmd7CgkJZmlsZXBhdGguSm9pbihleGVEaXIsICJ3ZWIiKSwKCQlmaWxlcGF0aC5Kb2luKGV4ZURpciwgImRpc3QiKSwKCQlmaWxlcGF0aC5Kb2luKCIuIiwgIndlYiIpLAoJCWZpbGVwYXRoLkpvaW4oIi4iLCAiZGlzdCIpLAoJfQoKCWZvciBfLCBkaXIgOj0gcmFuZ2UgY2FuZGlkYXRlcyB7CgkJaW5kZXggOj0gZmlsZXBhdGguSm9pbihkaXIsICJpbmRleC5odG1sIikKCQlpZiBfLCBlcnIgOj0gb3MuU3RhdChpbmRleCk7IGVyciA9PSBuaWwgewoJCQlsb2cuUHJpbnRmKCLoh6rliqjmo4DmtYvliLDliY3nq6/nm67lvZU6ICVzIiwgZGlyKQoJCQlyZXR1cm4gZGlyCgkJfQoJfQoJcmV0dXJuICIiCn0K
+package main
+
+import (
+	"context"
+	"errors"
+	"fmt"
+	"io"
+	"log"
+	"net"
+	"net/http"
+	"os"
+	"os/signal"
+	"path/filepath"
+	"sort"
+	"strings"
+	"syscall"
+	"time"
+
+	"daidai-panel/appboot"
+	"daidai-panel/config"
+	"daidai-panel/handler"
+	"daidai-panel/middleware"
+	"daidai-panel/router"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+func buildAccessURLs(port int) []string {
+	if port <= 0 {
+		return nil
+	}
+
+	seen := map[string]struct{}{}
+	var urls []string
+
+	addURL := func(host string) {
+		host = strings.TrimSpace(host)
+		if host == "" {
+			return
+		}
+		url := fmt.Sprintf("http://%s:%d", host, port)
+		if _, exists := seen[url]; exists {
+			return
+		}
+		seen[url] = struct{}{}
+		urls = append(urls, url)
+	}
+
+	addURL("127.0.0.1")
+	addURL("localhost")
+
+	ifaces, err := net.Interfaces()
+	if err != nil {
+		return urls
+	}
+
+	var localIPs []string
+	for _, iface := range ifaces {
+		if iface.Flags&net.FlagUp == 0 || iface.Flags&net.FlagLoopback != 0 {
+			continue
+		}
+
+		addrs, err := iface.Addrs()
+		if err != nil {
+			continue
+		}
+
+		for _, addr := range addrs {
+			var ip net.IP
+			switch v := addr.(type) {
+			case *net.IPNet:
+				ip = v.IP
+			case *net.IPAddr:
+				ip = v.IP
+			}
+
+			ip = ip.To4()
+			if ip == nil || ip.IsLoopback() {
+				continue
+			}
+
+			localIPs = append(localIPs, ip.String())
+		}
+	}
+
+	sort.Strings(localIPs)
+	for _, ip := range localIPs {
+		addURL(ip)
+	}
+
+	return urls
+}
+
+func printStartupSummary(port int) {
+	urls := buildAccessURLs(port)
+	fmt.Println("呆呆面板已经启动")
+	if len(urls) == 0 {
+		fmt.Printf("访问地址：http://127.0.0.1:%d\n", port)
+		return
+	}
+
+	fmt.Println("访问地址：")
+	for _, url := range urls {
+		fmt.Println(url)
+	}
+	fmt.Printf("请使用上面显示的宿主机访问地址，不要直接使用容器内端口 %d/%d。\n", 5700, 5701)
+}
+
+func setupPanelLog(dataDir string) io.Writer {
+	logFilePath := filepath.Join(dataDir, "panel.log")
+	if err := os.MkdirAll(filepath.Dir(logFilePath), 0o755); err != nil {
+		return os.Stdout
+	}
+
+	logFile, err := os.OpenFile(logFilePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644)
+	if err != nil {
+		return os.Stdout
+	}
+
+	switch service.ResolvePanelRuntimeMode() {
+	case service.PanelRuntimeModeStdout:
+		return io.MultiWriter(os.Stdout, logFile)
+	default:
+		return logFile
+	}
+}
+
+func writeServerPIDFile(dataDir string) func() {
+	if strings.TrimSpace(dataDir) == "" {
+		return func() {}
+	}
+
+	pidDir := filepath.Join(dataDir, "run")
+	if err := os.MkdirAll(pidDir, 0o755); err != nil {
+		log.Printf("write pid dir failed: %v", err)
+		return func() {}
+	}
+
+	pidFile := filepath.Join(pidDir, "daidai-server.pid")
+	if err := os.WriteFile(pidFile, []byte(fmt.Sprintf("%d\n", os.Getpid())), 0o644); err != nil {
+		log.Printf("write pid file failed: %v", err)
+		return func() {}
+	}
+
+	return func() {
+		_ = os.Remove(pidFile)
+	}
+}
+
+func main() {
+	// 用 ResolveConfigPath 而不是硬编码 "config.yaml"：
+	// 二进制部署若 cwd ≠ exe 目录（Windows 双击、用户 cd 到其他目录后绝对路径启动、
+	// systemd WorkingDirectory 漏配等场景），硬编码相对路径会找不到 config 直接 fatal。
+	cfg, err := config.Load(appboot.ResolveConfigPath())
+	if err != nil {
+		log.Fatalf("failed to load config: %v", err)
+	}
+
+	panelWriter := setupPanelLog(cfg.Data.Dir)
+	log.SetOutput(service.NewPanelLogFilterWriter(panelWriter))
+	gin.DefaultWriter = service.NewPanelLogFilterWriter(panelWriter)
+	gin.DefaultErrorWriter = service.NewPanelLogFilterWriter(panelWriter)
+	cleanupPIDFile := writeServerPIDFile(cfg.Data.Dir)
+	defer cleanupPIDFile()
+
+	if err := appboot.InitWithConfig(cfg); err != nil {
+		log.Fatalf("bootstrap failed: %v", err)
+	}
+
+	verifyInstalledDeps()
+	handler.FinalizePendingAutoUpdateOnStartup()
+	if err := service.EnsureBuiltinNotifyHelpers(cfg.Data.ScriptsDir); err != nil {
+		log.Printf("prepare builtin notify helpers failed: %v", err)
+	}
+	if err := service.CleanupManagedHelperCopiesUnderRoot(cfg.Data.ScriptsDir); err != nil {
+		log.Printf("cleanup duplicated notify helpers failed: %v", err)
+	}
+	// 启动时先隔离脚本目录中的异常污染目录，避免继续影响脚本管理、备份和统计链路。
+	service.QuarantineUnexpectedScriptEntriesOnStartup()
+	service.CleanupManagedPythonArtifactsOnStartup()
+
+	service.InitSchedulerV2()
+	defer service.ShutdownSchedulerV2()
+
+	service.InitSubscriptionScheduler()
+	defer service.ShutdownSubscriptionScheduler()
+
+	service.InitBackupScheduler()
+	defer service.ShutdownBackupScheduler()
+
+	service.StartResourceWatcher()
+	defer service.StopResourceWatcher()
+
+	service.StartLogCleanupWorker()
+	defer service.StopLogCleanupWorker()
+
+	handler.StartPanelAutoUpdateWatcher()
+	defer handler.StopPanelAutoUpdateWatcher()
+
+	if cfg.Server.Mode == "release" {
+		gin.SetMode(gin.ReleaseMode)
+	}
+
+	engine := gin.New()
+	if err := engine.SetTrustedProxies(middleware.CurrentTrustedProxyCIDRs()); err != nil {
+		log.Fatalf("failed to apply trusted proxies to gin engine: %v", err)
+	}
+	engine.RemoteIPHeaders = []string{"X-Real-IP", "X-Forwarded-For"}
+	engine.Use(gin.LoggerWithConfig(gin.LoggerConfig{
+		Output:    service.NewGINLoggerWriter(service.NewPanelLogFilterWriter(panelWriter)),
+		SkipPaths: []string{"/api/v1/health", "/api/health"},
+	}))
+	engine.Use(gin.Recovery())
+
+	router.Setup(engine)
+	setupStaticFrontend(engine, cfg.Server.WebDir)
+
+	addr := fmt.Sprintf(":%d", cfg.Server.Port)
+	listener, err := net.Listen("tcp", addr)
+	if err != nil {
+		log.Fatalf("server failed: %v", err)
+	}
+
+	log.SetOutput(service.NewPanelLogFilterWriter(panelWriter))
+	printStartupSummary(cfg.Server.Port)
+
+	// HTTP server timeouts:
+	//   - ReadHeaderTimeout 防止 Slowloris 等慢请求头攻击
+	//   - ReadTimeout 限制整体请求读取（SSE 走 flush，body 较小）
+	//   - WriteTimeout 留 0：SSE / log streaming 长连接需要永久写
+	//   - IdleTimeout keep-alive 连接空闲上限
+	server := &http.Server{
+		Handler:           engine,
+		ReadHeaderTimeout: 10 * time.Second,
+		ReadTimeout:       60 * time.Second,
+		WriteTimeout:      0,
+		IdleTimeout:       120 * time.Second,
+	}
+	serverErr := make(chan error, 1)
+	go func() {
+		serverErr <- server.Serve(listener)
+	}()
+
+	shutdownSignals := make(chan os.Signal, 1)
+	signal.Notify(shutdownSignals, os.Interrupt, syscall.SIGTERM)
+	defer signal.Stop(shutdownSignals)
+
+	select {
+	case err := <-serverErr:
+		if err != nil && !errors.Is(err, http.ErrServerClosed) {
+			log.Fatalf("server failed: %v", err)
+		}
+	case sig := <-shutdownSignals:
+		log.Printf("received %s, shutting down panel", sig)
+		ctx, cancel := context.WithTimeout(context.Background(), 15*time.Second)
+		defer cancel()
+		if err := server.Shutdown(ctx); err != nil {
+			log.Printf("server graceful shutdown failed: %v", err)
+			_ = server.Close()
+		}
+	}
+}
+
+func verifyInstalledDeps() {
+	service.ReconcileDependenciesAfterRestart()
+}
+
+// setupStaticFrontend lets the Go backend double as a frontend host when a
+// web directory is configured (e.g. the Magisk module bundles `web/` next to
+// the binary and has no nginx). Docker deployments leave WebDir empty and
+// keep using nginx.
+func setupStaticFrontend(engine *gin.Engine, webDir string) {
+	if strings.TrimSpace(webDir) == "" {
+		webDir = autoDetectWebDir()
+		if webDir == "" {
+			return
+		}
+	}
+
+	absDir, err := filepath.Abs(webDir)
+	if err != nil {
+		log.Printf("web_dir 解析失败: %v", err)
+		return
+	}
+
+	indexPath := filepath.Join(absDir, "index.html")
+	if _, err := os.Stat(indexPath); err != nil {
+		log.Printf("web_dir=%s 缺少 index.html，跳过前端托管", absDir)
+		return
+	}
+
+	engine.StaticFile("/", indexPath)
+	engine.StaticFile("/favicon.svg", filepath.Join(absDir, "favicon.svg"))
+
+	for _, sub := range []string{"assets", "monaco", "sponsor-portal"} {
+		subDir := filepath.Join(absDir, sub)
+		if info, err := os.Stat(subDir); err == nil && info.IsDir() {
+			engine.Static("/"+sub, subDir)
+		}
+	}
+
+	// SPA fallback: 非 API 的路径在后端没有命中时一律回 index.html，
+	// 交给前端 vue-router 处理。
+	engine.NoRoute(func(c *gin.Context) {
+		p := c.Request.URL.Path
+		if strings.HasPrefix(p, "/api/") {
+			c.JSON(404, gin.H{"error": "route not found"})
+			return
+		}
+		c.File(indexPath)
+	})
+
+	log.Printf("前端静态目录已挂载: %s", absDir)
+}
+
+func autoDetectWebDir() string {
+	exePath, err := os.Executable()
+	if err != nil {
+		return ""
+	}
+	exeDir := filepath.Dir(exePath)
+
+	candidates := []string{
+		filepath.Join(exeDir, "web"),
+		filepath.Join(exeDir, "dist"),
+		filepath.Join(".", "web"),
+		filepath.Join(".", "dist"),
+	}
+
+	for _, dir := range candidates {
+		index := filepath.Join(dir, "index.html")
+		if _, err := os.Stat(index); err == nil {
+			log.Printf("自动检测到前端目录: %s", dir)
+			return dir
+		}
+	}
+	return ""
+}
