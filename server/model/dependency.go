@@ -1,1 +1,48 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICJ0aW1lIgoKdHlwZSBEZXBlbmRlbmN5IHN0cnVjdCB7CglJRCAgICAgICAgICAgIHVpbnQgICAgICBganNvbjoiaWQiIGdvcm06InByaW1hcnlLZXkiYAoJVHlwZSAgICAgICAgICBzdHJpbmcgICAgYGpzb246InR5cGUiIGdvcm06InR5cGU6dmFyY2hhcigyMCk7bm90IG51bGw7aW5kZXgiYAoJTmFtZSAgICAgICAgICBzdHJpbmcgICAgYGpzb246Im5hbWUiIGdvcm06InR5cGU6dmFyY2hhcigyNTUpO25vdCBudWxsImAKCVB5dGhvblZlcnNpb24gc3RyaW5nICAgIGBqc29uOiJweXRob25fdmVyc2lvbiIgZ29ybToidHlwZTp2YXJjaGFyKDE2KTtkZWZhdWx0OicnO2luZGV4ImAKCVN0YXR1cyAgICAgICAgc3RyaW5nICAgIGBqc29uOiJzdGF0dXMiIGdvcm06InR5cGU6dmFyY2hhcigyMCk7ZGVmYXVsdDppbnN0YWxsaW5nImAKCUxvZyAgICAgICAgICAgc3RyaW5nICAgIGBqc29uOiItIiBnb3JtOiJ0eXBlOnRleHQiYAoJQ3JlYXRlZEF0ICAgICB0aW1lLlRpbWUgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0ICAgICB0aW1lLlRpbWUgYGpzb246InVwZGF0ZWRfYXQiYAp9CgpmdW5jIChEZXBlbmRlbmN5KSBUYWJsZU5hbWUoKSBzdHJpbmcgewoJcmV0dXJuICJkZXBlbmRlbmNpZXMiCn0KCmZ1bmMgKGQgKkRlcGVuZGVuY3kpIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICAgICAgZC5JRCwKCQkidHlwZSI6ICAgICAgICAgICBkLlR5cGUsCgkJIm5hbWUiOiAgICAgICAgICAgZC5OYW1lLAoJCSJweXRob25fdmVyc2lvbiI6IGQuUHl0aG9uVmVyc2lvbiwKCQkic3RhdHVzIjogICAgICAgICBkLlN0YXR1cywKCQkiY3JlYXRlZF9hdCI6ICAgICBkLkNyZWF0ZWRBdCwKCQkidXBkYXRlZF9hdCI6ICAgICBkLlVwZGF0ZWRBdCwKCX0KfQoKZnVuYyAoZCAqRGVwZW5kZW5jeSkgVG9EaWN0V2l0aExvZygpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJbSA6PSBkLlRvRGljdCgpCgltWyJsb2ciXSA9IGQuTG9nCglyZXR1cm4gbQp9Cgpjb25zdCAoCglEZXBUeXBlTm9kZUpTICAgICAgID0gIm5vZGVqcyIKCURlcFR5cGVQeXRob24gICAgICAgPSAicHl0aG9uIgoJRGVwVHlwZUxpbnV4ICAgICAgICA9ICJsaW51eCIKCURlcFN0YXR1c1F1ZXVlZCAgICAgPSAicXVldWVkIgoJRGVwU3RhdHVzSW5zdGFsbGluZyA9ICJpbnN0YWxsaW5nIgoJRGVwU3RhdHVzSW5zdGFsbGVkICA9ICJpbnN0YWxsZWQiCglEZXBTdGF0dXNGYWlsZWQgICAgID0gImZhaWxlZCIKCURlcFN0YXR1c1JlbW92aW5nICAgPSAicmVtb3ZpbmciCglEZXBTdGF0dXNDYW5jZWxsZWQgID0gImNhbmNlbGxlZCIKKQo=
+package model
+
+import "time"
+
+type Dependency struct {
+	ID            uint      `json:"id" gorm:"primaryKey"`
+	Type          string    `json:"type" gorm:"type:varchar(20);not null;index"`
+	Name          string    `json:"name" gorm:"type:varchar(255);not null"`
+	PythonVersion string    `json:"python_version" gorm:"type:varchar(16);default:'';index"`
+	Status        string    `json:"status" gorm:"type:varchar(20);default:installing"`
+	Log           string    `json:"-" gorm:"type:text"`
+	CreatedAt     time.Time `json:"created_at"`
+	UpdatedAt     time.Time `json:"updated_at"`
+}
+
+func (Dependency) TableName() string {
+	return "dependencies"
+}
+
+func (d *Dependency) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":             d.ID,
+		"type":           d.Type,
+		"name":           d.Name,
+		"python_version": d.PythonVersion,
+		"status":         d.Status,
+		"created_at":     d.CreatedAt,
+		"updated_at":     d.UpdatedAt,
+	}
+}
+
+func (d *Dependency) ToDictWithLog() map[string]interface{} {
+	m := d.ToDict()
+	m["log"] = d.Log
+	return m
+}
+
+const (
+	DepTypeNodeJS       = "nodejs"
+	DepTypePython       = "python"
+	DepTypeLinux        = "linux"
+	DepStatusQueued     = "queued"
+	DepStatusInstalling = "installing"
+	DepStatusInstalled  = "installed"
+	DepStatusFailed     = "failed"
+	DepStatusRemoving   = "removing"
+	DepStatusCancelled  = "cancelled"
+)

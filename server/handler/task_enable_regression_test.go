@@ -1,1 +1,113 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RFbmFibGVUYXNrQWNjZXB0c011bHRpcGxlQ3JvbkV4cHJlc3Npb25zKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglzZXJ2aWNlLkluaXRTY2hlZHVsZXJWMigpCgl0LkNsZWFudXAoc2VydmljZS5TaHV0ZG93blNjaGVkdWxlclYyKQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidGFzay1lbmFibGUtbXVsdGkiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgl0YXNrIDo9IG1vZGVsLlRhc2t7CgkJTmFtZTogICAgICAgICAgICJtdWx0aSBjcm9uIHRhc2siLAoJCUNvbW1hbmQ6ICAgICAgICAiZWNobyBvayIsCgkJQ3JvbkV4cHJlc3Npb246ICI1NSA1OSA5ICogKiAqXG41NSA1OSAxNyAqICogKlxuNTUgNTkgMTkgKiAqICoiLAoJCVRhc2tUeXBlOiAgICAgICBtb2RlbC5UYXNrVHlwZUNyb24sCgkJU3RhdHVzOiAgICAgICAgIG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZCwKCQlUaW1lb3V0OiAgICAgICAgMzAwLAoJCVJldHJ5SW50ZXJ2YWw6ICA2MCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5TZWxlY3QoIioiKS5DcmVhdGUoJnRhc2spLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHRhc2s6ICV2IiwgZXJyKQoJfQoKCXJlYyA6PSBwZXJmb3JtUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJZm10LlNwcmludGYoIi9hcGkvdjEvdGFza3MvJWQvZW5hYmxlIiwgdGFzay5JRCksCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglpZiBzY2hlZHVsZXIgOj0gc2VydmljZS5HZXRTY2hlZHVsZXJWMigpOyBzY2hlZHVsZXIgPT0gbmlsIHx8ICFzY2hlZHVsZXIuSGFzSm9iKHRhc2suSUQpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5hYmxlZCB0YXNrIHRvIGJlIHJlZ2lzdGVyZWQgaW4gc2NoZWR1bGVyIikKCX0KfQoKZnVuYyBUZXN0QmF0Y2hFbmFibGVTa2lwc0ludmFsaWRDcm9uQW5kRW5hYmxlc1ZhbGlkTXVsdGlDcm9uVGFzayh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJc2VydmljZS5Jbml0U2NoZWR1bGVyVjIoKQoJdC5DbGVhbnVwKHNlcnZpY2UuU2h1dGRvd25TY2hlZHVsZXJWMikKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInRhc2stYmF0Y2gtZW5hYmxlIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJdmFsaWRUYXNrIDo9IG1vZGVsLlRhc2t7CgkJTmFtZTogICAgICAgICAgICJ2YWxpZCBtdWx0aSBjcm9uIHRhc2siLAoJCUNvbW1hbmQ6ICAgICAgICAiZWNobyB2YWxpZCIsCgkJQ3JvbkV4cHJlc3Npb246ICIwIDAgMTIgKiAqICpcbjAgMCAxOCAqICogKiIsCgkJVGFza1R5cGU6ICAgICAgIG1vZGVsLlRhc2tUeXBlQ3JvbiwKCQlTdGF0dXM6ICAgICAgICAgbW9kZWwuVGFza1N0YXR1c0Rpc2FibGVkLAoJCVRpbWVvdXQ6ICAgICAgICAzMDAsCgkJUmV0cnlJbnRlcnZhbDogIDYwLAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLlNlbGVjdCgiKiIpLkNyZWF0ZSgmdmFsaWRUYXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB2YWxpZCB0YXNrOiAldiIsIGVycikKCX0KCglpbnZhbGlkVGFzayA6PSBtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAgICAgICAiaW52YWxpZCB0YXNrIiwKCQlDb21tYW5kOiAgICAgICAgImVjaG8gaW52YWxpZCIsCgkJQ3JvbkV4cHJlc3Npb246ICJpbnZhbGlkIGNyb24iLAoJCVRhc2tUeXBlOiAgICAgICBtb2RlbC5UYXNrVHlwZUNyb24sCgkJU3RhdHVzOiAgICAgICAgIG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZCwKCQlUaW1lb3V0OiAgICAgICAgMzAwLAoJCVJldHJ5SW50ZXJ2YWw6ICA2MCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5TZWxlY3QoIioiKS5DcmVhdGUoJmludmFsaWRUYXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBpbnZhbGlkIHRhc2s6ICV2IiwgZXJyKQoJfQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUHV0LAoJCSIvYXBpL3YxL3Rhc2tzL2JhdGNoL2VuYWJsZSIsCgkJZm10LlNwcmludGYoYHsidGFza19pZHMiOlslZCwlZF19YCwgdmFsaWRUYXNrLklELCBpbnZhbGlkVGFzay5JRCksCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgcmVsb2FkZWRWYWxpZCBtb2RlbC5UYXNrCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnJlbG9hZGVkVmFsaWQsIHZhbGlkVGFzay5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdmFsaWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiByZWxvYWRlZFZhbGlkLlN0YXR1cyAhPSBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHZhbGlkIHRhc2sgZW5hYmxlZCwgZ290IHN0YXR1cz0ldiIsIHJlbG9hZGVkVmFsaWQuU3RhdHVzKQoJfQoKCXZhciByZWxvYWRlZEludmFsaWQgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZEludmFsaWQsIGludmFsaWRUYXNrLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCBpbnZhbGlkIHRhc2s6ICV2IiwgZXJyKQoJfQoJaWYgcmVsb2FkZWRJbnZhbGlkLlN0YXR1cyAhPSBtb2RlbC5UYXNrU3RhdHVzRGlzYWJsZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBpbnZhbGlkIHRhc2sgdG8gc3RheSBkaXNhYmxlZCwgZ290IHN0YXR1cz0ldiIsIHJlbG9hZGVkSW52YWxpZC5TdGF0dXMpCgl9Cn0K
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/service"
+	"daidai-panel/testutil"
+)
+
+func TestEnableTaskAcceptsMultipleCronExpressions(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	service.InitSchedulerV2()
+	t.Cleanup(service.ShutdownSchedulerV2)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-enable-multi", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	task := model.Task{
+		Name:           "multi cron task",
+		Command:        "echo ok",
+		CronExpression: "55 59 9 * * *\n55 59 17 * * *\n55 59 19 * * *",
+		TaskType:       model.TaskTypeCron,
+		Status:         model.TaskStatusDisabled,
+		Timeout:        300,
+		RetryInterval:  60,
+	}
+	if err := database.DB.Select("*").Create(&task).Error; err != nil {
+		t.Fatalf("create task: %v", err)
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodPut,
+		fmt.Sprintf("/api/v1/tasks/%d/enable", task.ID),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	if scheduler := service.GetSchedulerV2(); scheduler == nil || !scheduler.HasJob(task.ID) {
+		t.Fatalf("expected enabled task to be registered in scheduler")
+	}
+}
+
+func TestBatchEnableSkipsInvalidCronAndEnablesValidMultiCronTask(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	service.InitSchedulerV2()
+	t.Cleanup(service.ShutdownSchedulerV2)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-batch-enable", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	validTask := model.Task{
+		Name:           "valid multi cron task",
+		Command:        "echo valid",
+		CronExpression: "0 0 12 * * *\n0 0 18 * * *",
+		TaskType:       model.TaskTypeCron,
+		Status:         model.TaskStatusDisabled,
+		Timeout:        300,
+		RetryInterval:  60,
+	}
+	if err := database.DB.Select("*").Create(&validTask).Error; err != nil {
+		t.Fatalf("create valid task: %v", err)
+	}
+
+	invalidTask := model.Task{
+		Name:           "invalid task",
+		Command:        "echo invalid",
+		CronExpression: "invalid cron",
+		TaskType:       model.TaskTypeCron,
+		Status:         model.TaskStatusDisabled,
+		Timeout:        300,
+		RetryInterval:  60,
+	}
+	if err := database.DB.Select("*").Create(&invalidTask).Error; err != nil {
+		t.Fatalf("create invalid task: %v", err)
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/tasks/batch/enable",
+		fmt.Sprintf(`{"task_ids":[%d,%d]}`, validTask.ID, invalidTask.ID),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	var reloadedValid model.Task
+	if err := database.DB.First(&reloadedValid, validTask.ID).Error; err != nil {
+		t.Fatalf("reload valid task: %v", err)
+	}
+	if reloadedValid.Status != model.TaskStatusEnabled {
+		t.Fatalf("expected valid task enabled, got status=%v", reloadedValid.Status)
+	}
+
+	var reloadedInvalid model.Task
+	if err := database.DB.First(&reloadedInvalid, invalidTask.ID).Error; err != nil {
+		t.Fatalf("reload invalid task: %v", err)
+	}
+	if reloadedInvalid.Status != model.TaskStatusDisabled {
+		t.Fatalf("expected invalid task to stay disabled, got status=%v", reloadedInvalid.Status)
+	}
+}

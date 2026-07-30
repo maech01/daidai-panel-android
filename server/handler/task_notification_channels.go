@@ -1,1 +1,173 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgoJImdvcm0uaW8vZ29ybSIKKQoKdHlwZSB0YXNrTm90aWZpY2F0aW9uQ2hhbm5lbEluZm8gc3RydWN0IHsKCUlEICAgICAgdWludAoJTmFtZSAgICBzdHJpbmcKCVR5cGUgICAgc3RyaW5nCglFbmFibGVkIGJvb2wKfQoKZnVuYyBsaXN0VGFza05vdGlmaWNhdGlvbkNoYW5uZWxzKCkgKFtddGFza05vdGlmaWNhdGlvbkNoYW5uZWxJbmZvLCBlcnJvcikgewoJdmFyIGNoYW5uZWxzIFtdbW9kZWwuTm90aWZ5Q2hhbm5lbAoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLgoJCU9yZGVyKCJlbmFibGVkIERFU0MsIGNyZWF0ZWRfYXQgREVTQywgaWQgREVTQyIpLgoJCUZpbmQoJmNoYW5uZWxzKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CgoJaXRlbXMgOj0gbWFrZShbXXRhc2tOb3RpZmljYXRpb25DaGFubmVsSW5mbywgMCwgbGVuKGNoYW5uZWxzKSkKCWZvciBfLCBjaCA6PSByYW5nZSBjaGFubmVscyB7CgkJaXRlbXMgPSBhcHBlbmQoaXRlbXMsIHRhc2tOb3RpZmljYXRpb25DaGFubmVsSW5mb3sKCQkJSUQ6ICAgICAgY2guSUQsCgkJCU5hbWU6ICAgIHN0cmluZ3MuVHJpbVNwYWNlKGNoLk5hbWUpLAoJCQlUeXBlOiAgICBzdHJpbmdzLlRyaW1TcGFjZShjaC5UeXBlKSwKCQkJRW5hYmxlZDogY2guRW5hYmxlZCwKCQl9KQoJfQoJcmV0dXJuIGl0ZW1zLCBuaWwKfQoKZnVuYyBsb2FkVGFza05vdGlmaWNhdGlvbkNoYW5uZWxNYXAodGFza3MgW11tb2RlbC5UYXNrKSBtYXBbdWludF10YXNrTm90aWZpY2F0aW9uQ2hhbm5lbEluZm8gewoJY2hhbm5lbElEcyA6PSBtYWtlKG1hcFt1aW50XXN0cnVjdHt9KQoJZm9yIF8sIHRhc2sgOj0gcmFuZ2UgdGFza3MgewoJCWlmIHRhc2suTm90aWZpY2F0aW9uQ2hhbm5lbElEICE9IG5pbCAmJiAqdGFzay5Ob3RpZmljYXRpb25DaGFubmVsSUQgPiAwIHsKCQkJY2hhbm5lbElEc1sqdGFzay5Ob3RpZmljYXRpb25DaGFubmVsSURdID0gc3RydWN0e317fQoJCX0KCX0KCglpZiBsZW4oY2hhbm5lbElEcykgPT0gMCB7CgkJcmV0dXJuIG1hcFt1aW50XXRhc2tOb3RpZmljYXRpb25DaGFubmVsSW5mb3t9Cgl9CgoJaWRzIDo9IG1ha2UoW111aW50LCAwLCBsZW4oY2hhbm5lbElEcykpCglmb3IgaWQgOj0gcmFuZ2UgY2hhbm5lbElEcyB7CgkJaWRzID0gYXBwZW5kKGlkcywgaWQpCgl9CgoJdmFyIGNoYW5uZWxzIFtdbW9kZWwuTm90aWZ5Q2hhbm5lbAoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLk5vdGlmeUNoYW5uZWx7fSkuV2hlcmUoImlkIElOID8iLCBpZHMpLkZpbmQoJmNoYW5uZWxzKQoKCXJlc3VsdCA6PSBtYWtlKG1hcFt1aW50XXRhc2tOb3RpZmljYXRpb25DaGFubmVsSW5mbywgbGVuKGNoYW5uZWxzKSkKCWZvciBfLCBjaCA6PSByYW5nZSBjaGFubmVscyB7CgkJcmVzdWx0W2NoLklEXSA9IHRhc2tOb3RpZmljYXRpb25DaGFubmVsSW5mb3sKCQkJSUQ6ICAgICAgY2guSUQsCgkJCU5hbWU6ICAgIHN0cmluZ3MuVHJpbVNwYWNlKGNoLk5hbWUpLAoJCQlUeXBlOiAgICBzdHJpbmdzLlRyaW1TcGFjZShjaC5UeXBlKSwKCQkJRW5hYmxlZDogY2guRW5hYmxlZCwKCQl9Cgl9CglyZXR1cm4gcmVzdWx0Cn0KCmZ1bmMgdmFsaWRhdGVUYXNrTm90aWZpY2F0aW9uQ2hhbm5lbElEKGNoYW5uZWxJRCAqdWludCkgZXJyb3IgewoJaWYgY2hhbm5lbElEID09IG5pbCB8fCAqY2hhbm5lbElEID09IDAgewoJCXJldHVybiBuaWwKCX0KCgl2YXIgY291bnQgaW50NjQKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuTm90aWZ5Q2hhbm5lbHt9KS5XaGVyZSgiaWQgPSA/IiwgKmNoYW5uZWxJRCkuQ291bnQoJmNvdW50KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJaWYgY291bnQgPT0gMCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIumAmuefpea4oOmBk+S4jeWtmOWcqCIpCgl9CglyZXR1cm4gbmlsCn0KCmZ1bmMgbm9ybWFsaXplVGFza05vdGlmaWNhdGlvbkNoYW5uZWxJRFZhbHVlKHZhbHVlIGludGVyZmFjZXt9KSAoKnVpbnQsIGVycm9yKSB7Cglzd2l0Y2ggdiA6PSB2YWx1ZS4odHlwZSkgewoJY2FzZSBuaWw6CgkJcmV0dXJuIG5pbCwgbmlsCgljYXNlIGZsb2F0NjQ6CgkJaWYgdiA8PSAwIHsKCQkJcmV0dXJuIG5pbCwgbmlsCgkJfQoJCWlkIDo9IHVpbnQodikKCQlpZiBlcnIgOj0gdmFsaWRhdGVUYXNrTm90aWZpY2F0aW9uQ2hhbm5lbElEKCZpZCk7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gbmlsLCBlcnIKCQl9CgkJcmV0dXJuICZpZCwgbmlsCgljYXNlIGludDoKCQlpZiB2IDw9IDAgewoJCQlyZXR1cm4gbmlsLCBuaWwKCQl9CgkJaWQgOj0gdWludCh2KQoJCWlmIGVyciA6PSB2YWxpZGF0ZVRhc2tOb3RpZmljYXRpb25DaGFubmVsSUQoJmlkKTsgZXJyICE9IG5pbCB7CgkJCXJldHVybiBuaWwsIGVycgoJCX0KCQlyZXR1cm4gJmlkLCBuaWwKCWNhc2Ugc3RyaW5nOgoJCXJhdyA6PSBzdHJpbmdzLlRyaW1TcGFjZSh2KQoJCWlmIHJhdyA9PSAiIiB7CgkJCXJldHVybiBuaWwsIG5pbAoJCX0KCQlwYXJzZWQsIGVyciA6PSBzdHJjb252LlBhcnNlVWludChyYXcsIDEwLCAzMikKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigi6YCa55+l5rig6YGT5qC85byP6ZSZ6K+vIikKCQl9CgkJaWQgOj0gdWludChwYXJzZWQpCgkJaWYgZXJyIDo9IHZhbGlkYXRlVGFza05vdGlmaWNhdGlvbkNoYW5uZWxJRCgmaWQpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgZXJyCgkJfQoJCXJldHVybiAmaWQsIG5pbAoJZGVmYXVsdDoKCQlyZXR1cm4gbmlsLCBmbXQuRXJyb3JmKCLpgJrnn6XmuKDpgZPmoLzlvI/plJnor68iKQoJfQp9CgpmdW5jIHJlc29sdmVJbXBvcnRlZFRhc2tOb3RpZmljYXRpb25DaGFubmVsKHRhc2tEYXRhIG1hcFtzdHJpbmddaW50ZXJmYWNle30pICgqdWludCwgc3RyaW5nLCBlcnJvcikgewoJaWYgcmF3LCBleGlzdHMgOj0gdGFza0RhdGFbIm5vdGlmaWNhdGlvbl9jaGFubmVsX2lkIl07IGV4aXN0cyB7CgkJY2hhbm5lbElELCBlcnIgOj0gbm9ybWFsaXplVGFza05vdGlmaWNhdGlvbkNoYW5uZWxJRFZhbHVlKHJhdykKCQlpZiBlcnIgPT0gbmlsIHsKCQkJcmV0dXJuIGNoYW5uZWxJRCwgIiIsIG5pbAoJCX0KCX0KCglyYXdOYW1lLCBfIDo9IHRhc2tEYXRhWyJub3RpZmljYXRpb25fY2hhbm5lbF9uYW1lIl0uKHN0cmluZykKCW5hbWUgOj0gc3RyaW5ncy5UcmltU3BhY2UocmF3TmFtZSkKCWlmIG5hbWUgPT0gIiIgewoJCXJldHVybiBuaWwsICIiLCBuaWwKCX0KCgl2YXIgY2hhbm5lbCBtb2RlbC5Ob3RpZnlDaGFubmVsCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoIm5hbWUgPSA/IiwgbmFtZSkuRmlyc3QoJmNoYW5uZWwpLkVycm9yOyBlcnIgPT0gbmlsIHsKCQlyZXR1cm4gJmNoYW5uZWwuSUQsICIiLCBuaWwKCX0gZWxzZSBpZiBlcnIgIT0gZ29ybS5FcnJSZWNvcmROb3RGb3VuZCB7CgkJcmV0dXJuIG5pbCwgIiIsIGVycgoJfQoKCXJldHVybiBuaWwsIGZtdC5TcHJpbnRmKCLpgJrnn6XmuKDpgZMgJXEg5LiN5a2Y5Zyo77yM5bey5oyJ5YWo6YOo5ZCv55So5rig6YGT5a+85YWlIiwgbmFtZSksIG5pbAp9CgpmdW5jIChoICpUYXNrSGFuZGxlcikgTm90aWZpY2F0aW9uQ2hhbm5lbHMoYyAqZ2luLkNvbnRleHQpIHsKCWNoYW5uZWxzLCBlcnIgOj0gbGlzdFRhc2tOb3RpZmljYXRpb25DaGFubmVscygpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLliqDovb3pgJrnn6XmuKDpgZPlpLHotKUiKQoJCXJldHVybgoJfQoKCWRhdGEgOj0gbWFrZShbXW1hcFtzdHJpbmddaW50ZXJmYWNle30sIDAsIGxlbihjaGFubmVscykpCglmb3IgXywgY2ggOj0gcmFuZ2UgY2hhbm5lbHMgewoJCWRhdGEgPSBhcHBlbmQoZGF0YSwgbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJImlkIjogICAgICBjaC5JRCwKCQkJIm5hbWUiOiAgICBjaC5OYW1lLAoJCQkidHlwZSI6ICAgIGNoLlR5cGUsCgkJCSJlbmFibGVkIjogY2guRW5hYmxlZCwKCQl9KQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBkYXRhfSkKfQo=
+package handler
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
+)
+
+type taskNotificationChannelInfo struct {
+	ID      uint
+	Name    string
+	Type    string
+	Enabled bool
+}
+
+func listTaskNotificationChannels() ([]taskNotificationChannelInfo, error) {
+	var channels []model.NotifyChannel
+	if err := database.DB.
+		Order("enabled DESC, created_at DESC, id DESC").
+		Find(&channels).Error; err != nil {
+		return nil, err
+	}
+
+	items := make([]taskNotificationChannelInfo, 0, len(channels))
+	for _, ch := range channels {
+		items = append(items, taskNotificationChannelInfo{
+			ID:      ch.ID,
+			Name:    strings.TrimSpace(ch.Name),
+			Type:    strings.TrimSpace(ch.Type),
+			Enabled: ch.Enabled,
+		})
+	}
+	return items, nil
+}
+
+func loadTaskNotificationChannelMap(tasks []model.Task) map[uint]taskNotificationChannelInfo {
+	channelIDs := make(map[uint]struct{})
+	for _, task := range tasks {
+		if task.NotificationChannelID != nil && *task.NotificationChannelID > 0 {
+			channelIDs[*task.NotificationChannelID] = struct{}{}
+		}
+	}
+
+	if len(channelIDs) == 0 {
+		return map[uint]taskNotificationChannelInfo{}
+	}
+
+	ids := make([]uint, 0, len(channelIDs))
+	for id := range channelIDs {
+		ids = append(ids, id)
+	}
+
+	var channels []model.NotifyChannel
+	database.DB.Model(&model.NotifyChannel{}).Where("id IN ?", ids).Find(&channels)
+
+	result := make(map[uint]taskNotificationChannelInfo, len(channels))
+	for _, ch := range channels {
+		result[ch.ID] = taskNotificationChannelInfo{
+			ID:      ch.ID,
+			Name:    strings.TrimSpace(ch.Name),
+			Type:    strings.TrimSpace(ch.Type),
+			Enabled: ch.Enabled,
+		}
+	}
+	return result
+}
+
+func validateTaskNotificationChannelID(channelID *uint) error {
+	if channelID == nil || *channelID == 0 {
+		return nil
+	}
+
+	var count int64
+	if err := database.DB.Model(&model.NotifyChannel{}).Where("id = ?", *channelID).Count(&count).Error; err != nil {
+		return err
+	}
+	if count == 0 {
+		return fmt.Errorf("通知渠道不存在")
+	}
+	return nil
+}
+
+func normalizeTaskNotificationChannelIDValue(value interface{}) (*uint, error) {
+	switch v := value.(type) {
+	case nil:
+		return nil, nil
+	case float64:
+		if v <= 0 {
+			return nil, nil
+		}
+		id := uint(v)
+		if err := validateTaskNotificationChannelID(&id); err != nil {
+			return nil, err
+		}
+		return &id, nil
+	case int:
+		if v <= 0 {
+			return nil, nil
+		}
+		id := uint(v)
+		if err := validateTaskNotificationChannelID(&id); err != nil {
+			return nil, err
+		}
+		return &id, nil
+	case string:
+		raw := strings.TrimSpace(v)
+		if raw == "" {
+			return nil, nil
+		}
+		parsed, err := strconv.ParseUint(raw, 10, 32)
+		if err != nil {
+			return nil, fmt.Errorf("通知渠道格式错误")
+		}
+		id := uint(parsed)
+		if err := validateTaskNotificationChannelID(&id); err != nil {
+			return nil, err
+		}
+		return &id, nil
+	default:
+		return nil, fmt.Errorf("通知渠道格式错误")
+	}
+}
+
+func resolveImportedTaskNotificationChannel(taskData map[string]interface{}) (*uint, string, error) {
+	if raw, exists := taskData["notification_channel_id"]; exists {
+		channelID, err := normalizeTaskNotificationChannelIDValue(raw)
+		if err == nil {
+			return channelID, "", nil
+		}
+	}
+
+	rawName, _ := taskData["notification_channel_name"].(string)
+	name := strings.TrimSpace(rawName)
+	if name == "" {
+		return nil, "", nil
+	}
+
+	var channel model.NotifyChannel
+	if err := database.DB.Where("name = ?", name).First(&channel).Error; err == nil {
+		return &channel.ID, "", nil
+	} else if err != gorm.ErrRecordNotFound {
+		return nil, "", err
+	}
+
+	return nil, fmt.Sprintf("通知渠道 %q 不存在，已按全部启用渠道导入", name), nil
+}
+
+func (h *TaskHandler) NotificationChannels(c *gin.Context) {
+	channels, err := listTaskNotificationChannels()
+	if err != nil {
+		response.InternalError(c, "加载通知渠道失败")
+		return
+	}
+
+	data := make([]map[string]interface{}, 0, len(channels))
+	for _, ch := range channels {
+		data = append(data, map[string]interface{}{
+			"id":      ch.ID,
+			"name":    ch.Name,
+			"type":    ch.Type,
+			"enabled": ch.Enabled,
+		})
+	}
+
+	response.Success(c, gin.H{"data": data})
+}

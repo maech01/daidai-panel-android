@@ -1,1 +1,22 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJInN0cmluZ3MiCgkidGVzdGluZyIKKQoKZnVuYyBUZXN0V3JpdGVTU0VEYXRhUHJlc2VydmVzQmFyZUNhcnJpYWdlUmV0dXJuKHQgKnRlc3RpbmcuVCkgewoJdmFyIGJ1aWxkZXIgc3RyaW5ncy5CdWlsZGVyCgoJLy8g57uI56uv6L+b5bqm5p2h5bi455So6KO4IFxyIOWbnuWIsOihjOmmluimhuebluWGheWuue+8jOi/memHjOW/hemhu+S/neeVmeS4i+adpe+8jAoJLy8g5LiN6IO95ZyoIFNTRSDlsYLnm7TmjqXmtJfmiJAgXG7vvIzlkKbliJnliY3nq6/msLjov5zmi7/kuI3liLDigJzljZXooYzopobnm5bliLfmlrDigJ3nmoTor63kuYnjgIIKCXdyaXRlU1NFRGF0YSgmYnVpbGRlciwgIjFzLzEwcyAoMTAlKSBbPT5dXHIycy8xMHMgKDIwJSkgWz09Pl1cbuWujOaIkCIpCgoJZ290IDo9IGJ1aWxkZXIuU3RyaW5nKCkKCWlmICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIlxyIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBTU0UgcGF5bG9hZCB0byBrZWVwIGJhcmUgY2FycmlhZ2UgcmV0dXJuLCBnb3QgJXEiLCBnb3QpCgl9CglpZiBzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIjFzLzEwcyAoMTAlKSBbPT5dXG4ycy8xMHMgKDIwJSkgWz09Pl0iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGJhcmUgY2FycmlhZ2UgcmV0dXJuIHRvIGF2b2lkIGZvcmNlZCBsaW5lIHNwbGl0LCBnb3QgJXEiLCBnb3QpCgl9Cn0K
+package handler
+
+import (
+	"strings"
+	"testing"
+)
+
+func TestWriteSSEDataPreservesBareCarriageReturn(t *testing.T) {
+	var builder strings.Builder
+
+	// 终端进度条常用裸 \r 回到行首覆盖内容，这里必须保留下来，
+	// 不能在 SSE 层直接洗成 \n，否则前端永远拿不到“单行覆盖刷新”的语义。
+	writeSSEData(&builder, "1s/10s (10%) [=>]\r2s/10s (20%) [==>]\n完成")
+
+	got := builder.String()
+	if !strings.Contains(got, "\r") {
+		t.Fatalf("expected SSE payload to keep bare carriage return, got %q", got)
+	}
+	if strings.Contains(got, "1s/10s (10%) [=>]\n2s/10s (20%) [==>]") {
+		t.Fatalf("expected bare carriage return to avoid forced line split, got %q", got)
+	}
+}

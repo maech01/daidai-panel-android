@@ -1,1 +1,176 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImxvZyIKCSJyZWdleHAiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKLy8gcGVwNTAzU2VwYXJhdG9yUGF0dGVybiDmiorov57nu63nmoQgLSBfIC4g5oqY5Y+g5oiQ5Y2V5LiqIC3vvIhQRVAgNTAzIOinhOiMg+WMlu+8ieOAggp2YXIgcGVwNTAzU2VwYXJhdG9yUGF0dGVybiA9IHJlZ2V4cC5NdXN0Q29tcGlsZShgWy1fLl0rYCkKCi8vIENhbm9uaWNhbGl6ZVB5dGhvblBhY2thZ2VOYW1lIOaKiueUqOaIt+i+k+WFpeeahCBQeXRob24g5L6d6LWWIHNwZWMg5b2S5LiA5YyW5oiQIFBFUCA1MDMg5Y676YeN6ZSu44CCCi8vCi8vIOatpemqpO+8mgovLyAgMS4g5Yml56a7IFBFUCA1MDgg546v5aKD5qCH6K6w77yIYDtgIOS5i+WQju+8ieOAgWV4dHJhc++8iGBbLi4uXWDvvInjgIHniYjmnKznrpfnrKblj4rlhbblkI7nmoTniYjmnKzlj7fjgIIKLy8gIDIuIOWvueWJqeS4i+eahOWMheWQjemDqOWIhuWBmiBQRVAgNTAzIOinhOiMg+WMlu+8mui9rOWwj+WGmSArIOaKiui/nue7reeahCAtXy4g5oqY5Y+g5oiQ5Y2V5LiqIC3jgIIKLy8KLy8g5YWz6ZSu77ya5b+F6aG75YWI5ouG5Ye65YyF5ZCN6YOo5YiG5YaN5oqY5Y+g77yM57ud5LiN6IO95a+55pW05Liy5aWX5oqY5Y+g5q2j5YiZ77yMCi8vIOWQpuWImSBgcmVxdWVzdHM9PTIuMzEuMGAg6YeM54mI5pys5Y+355qEIGAuYCDkvJrooqvmipjmiJAgYC1g44CCCi8vCi8vIOS+i++8mlJlcXVlc3RzLT5yZXF1ZXN0c++8jEZsYXNrX1NRTEFsY2hlbXktPmZsYXNrLXNxbGFsY2hlbXnvvIwKLy8gcmVxdWVzdHM9PTIuMzEuMC0+cmVxdWVzdHPvvIx6b3BlLmludGVyZmFjZVt0ZXN0XS0+em9wZS1pbnRlcmZhY2XjgIIKLy8KLy8g5LuF5L6bIFB5dGhvbi9waXAg5L6d6LWW5Y676YeN5L2/55So77yM5LiN6KaB55So5LqOIG5wbSAvIExpbnV444CCCmZ1bmMgQ2Fub25pY2FsaXplUHl0aG9uUGFja2FnZU5hbWUoc3BlYyBzdHJpbmcpIHN0cmluZyB7CgluYW1lIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHNwZWMpCglpZiBuYW1lID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCgkvLyAxLiDljrvmjokgUEVQIDUwOCDnjq/looPmoIforrDvvIhgcmVxdWVzdHM7IHB5dGhvbl92ZXJzaW9uIDwgIjMiYO+8ieOAggoJaWYgaWR4IDo9IHN0cmluZ3MuSW5kZXhCeXRlKG5hbWUsICc7Jyk7IGlkeCA+PSAwIHsKCQluYW1lID0gbmFtZVs6aWR4XQoJfQoJLy8gMi4g5Y675o6JIGV4dHJhc++8iGByZXF1ZXN0c1tzZWN1cml0eV1g77yJ44CCCglpZiBpZHggOj0gc3RyaW5ncy5JbmRleEJ5dGUobmFtZSwgJ1snKTsgaWR4ID49IDAgewoJCW5hbWUgPSBuYW1lWzppZHhdCgl9CgkvLyAzLiDljrvmjonniYjmnKznrpfnrKblj4rlhbblkI7nmoTniYjmnKzlj7fvvIg9PSA+PSA8PSB+PSAhPSA9PT0gPCA+IOS7peWPiuepuueZvS/mi6zlj7cv6YCX5Y+377yJ44CCCgluYW1lID0gc3RyaXBQeXRob25WZXJzaW9uU3BlY2lmaWVyKG5hbWUpCgluYW1lID0gc3RyaW5ncy5UcmltU3BhY2UobmFtZSkKCWlmIG5hbWUgPT0gIiIgewoJCXJldHVybiAiIgoJfQoKCS8vIDQuIFBFUCA1MDMg6KeE6IyD5YyW77ya5YWI5Y+W5Yiw57qv5YyF5ZCN5ZCO5YaNIGxvd2VyICsg5oqY5Y+g5YiG6ZqU56ym44CCCgluYW1lID0gc3RyaW5ncy5Ub0xvd2VyKG5hbWUpCgluYW1lID0gcGVwNTAzU2VwYXJhdG9yUGF0dGVybi5SZXBsYWNlQWxsU3RyaW5nKG5hbWUsICItIikKCXJldHVybiBuYW1lCn0KCi8vIHN0cmlwUHl0aG9uVmVyc2lvblNwZWNpZmllciDlnKjnrKzkuIDkuKrniYjmnKznrpfnrKYgLyDnqbrnmb0gLyDmi6zlj7cgLyDpgJflj7flpITmiKrmlq3vvIzku4Xkv53nlZnljIXlkI3pg6jliIbjgIIKZnVuYyBzdHJpcFB5dGhvblZlcnNpb25TcGVjaWZpZXIobmFtZSBzdHJpbmcpIHN0cmluZyB7Cglmb3IgaSA6PSAwOyBpIDwgbGVuKG5hbWUpOyBpKysgewoJCXN3aXRjaCBuYW1lW2ldIHsKCQljYXNlICc9JywgJzwnLCAnPicsICchJywgJ34nLCAnICcsICdcdCcsICdccicsICdcbicsICcoJywgJywnOgoJCQlyZXR1cm4gbmFtZVs6aV0KCQl9Cgl9CglyZXR1cm4gbmFtZQp9CgovLyBweXRob25EZXBlbmRlbmN5U3RhdHVzTWVyZ2VQcmlvcml0eSDnu5nkvp3otZbnirbmgIHmiZPkvJjlhYjnuqfvvIznlKjkuo7lrZjph4/lkIjlubbml7bmjJHpgInkv53nlZnooYzjgIIKLy8gaW5zdGFsbGVkID4gaW5zdGFsbGluZy9xdWV1ZWQgPiBmYWlsZWQv5YW25a6D44CCCmZ1bmMgcHl0aG9uRGVwZW5kZW5jeVN0YXR1c01lcmdlUHJpb3JpdHkoc3RhdHVzIHN0cmluZykgaW50IHsKCXN3aXRjaCBzdGF0dXMgewoJY2FzZSBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsZWQ6CgkJcmV0dXJuIDMKCWNhc2UgbW9kZWwuRGVwU3RhdHVzSW5zdGFsbGluZywgbW9kZWwuRGVwU3RhdHVzUXVldWVkOgoJCXJldHVybiAyCglkZWZhdWx0OgoJCXJldHVybiAxCgl9Cn0KCi8vIHB5dGhvbkRlcGVuZGVuY3lNZXJnZVByZWZlcnMg5Yik5patIGNhbmRpZGF0ZSDmmK/lkKblupTlj5bku6MgY3VycmVudCDmiJDkuLrkv53nlZnooYzjgIIKLy8g5YWI5q+U54q25oCB5LyY5YWI57qn77yM5YaN5q+U5pyA6L+RIHVwZGF0ZWRfYXTvvIzmnIDlkI7mr5QgSUTvvIjlj5bovoPlpKfvvInjgIIKZnVuYyBweXRob25EZXBlbmRlbmN5TWVyZ2VQcmVmZXJzKGNhbmRpZGF0ZSwgY3VycmVudCBtb2RlbC5EZXBlbmRlbmN5KSBib29sIHsKCWNwIDo9IHB5dGhvbkRlcGVuZGVuY3lTdGF0dXNNZXJnZVByaW9yaXR5KGNhbmRpZGF0ZS5TdGF0dXMpCgl3cCA6PSBweXRob25EZXBlbmRlbmN5U3RhdHVzTWVyZ2VQcmlvcml0eShjdXJyZW50LlN0YXR1cykKCWlmIGNwICE9IHdwIHsKCQlyZXR1cm4gY3AgPiB3cAoJfQoJaWYgIWNhbmRpZGF0ZS5VcGRhdGVkQXQuRXF1YWwoY3VycmVudC5VcGRhdGVkQXQpIHsKCQlyZXR1cm4gY2FuZGlkYXRlLlVwZGF0ZWRBdC5BZnRlcihjdXJyZW50LlVwZGF0ZWRBdCkKCX0KCXJldHVybiBjYW5kaWRhdGUuSUQgPiBjdXJyZW50LklECn0KCi8vIEZpbmRFeGlzdGluZ1B5dGhvbkRlcGVuZGVuY3kg5ZyoIFB5dGhvbiDkvp3otZbph4zmjInlvZLkuIDljJbplK4gKyBweXRob24g54mI5pys5p+l5om+5bey5a2Y5Zyo6K6w5b2V44CCCi8vIHN0YXR1c2VzIOS4uuepuuihqOekuuS4jemZkOeKtuaAgeOAgui/lOWbnuWRveS4reeahOesrOS4gOadoeiusOW9leOAggpmdW5jIEZpbmRFeGlzdGluZ1B5dGhvbkRlcGVuZGVuY3kobmFtZSwgcHl0aG9uVmVyc2lvbiBzdHJpbmcsIHN0YXR1c2VzIC4uLnN0cmluZykgKG1vZGVsLkRlcGVuZGVuY3ksIGJvb2wpIHsKCWNhbm9uaWNhbCA6PSBDYW5vbmljYWxpemVQeXRob25QYWNrYWdlTmFtZShuYW1lKQoJaWYgY2Fub25pY2FsID09ICIiIHsKCQlyZXR1cm4gbW9kZWwuRGVwZW5kZW5jeXt9LCBmYWxzZQoJfQoKCXF1ZXJ5IDo9IGRhdGFiYXNlLkRCLgoJCVdoZXJlKCJ0eXBlID0gPyIsIG1vZGVsLkRlcFR5cGVQeXRob24pLgoJCVdoZXJlKCJDT0FMRVNDRShOVUxMSUYocHl0aG9uX3ZlcnNpb24sICcnKSwgPykgPSA/IiwgTGVnYWN5UHl0aG9uVmVyc2lvbigpLCBweXRob25WZXJzaW9uKQoJaWYgbGVuKHN0YXR1c2VzKSA+IDAgewoJCXF1ZXJ5ID0gcXVlcnkuV2hlcmUoInN0YXR1cyBJTiA/Iiwgc3RhdHVzZXMpCgl9CgoJdmFyIGNhbmRpZGF0ZXMgW11tb2RlbC5EZXBlbmRlbmN5CglpZiBlcnIgOj0gcXVlcnkuRmluZCgmY2FuZGlkYXRlcykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJldHVybiBtb2RlbC5EZXBlbmRlbmN5e30sIGZhbHNlCgl9Cglmb3IgXywgY2FuZGlkYXRlIDo9IHJhbmdlIGNhbmRpZGF0ZXMgewoJCWlmIENhbm9uaWNhbGl6ZVB5dGhvblBhY2thZ2VOYW1lKGNhbmRpZGF0ZS5OYW1lKSA9PSBjYW5vbmljYWwgewoJCQlyZXR1cm4gY2FuZGlkYXRlLCB0cnVlCgkJfQoJfQoJcmV0dXJuIG1vZGVsLkRlcGVuZGVuY3l7fSwgZmFsc2UKfQoKLy8gTWVyZ2VEdXBsaWNhdGVQeXRob25EZXBlbmRlbmNpZXMg5Zyo5ZCv5Yqo5pyf5LiA5qyh5oCn5ZCI5bm2IFB5dGhvbiDkvp3otZbnmoTph43lpI3ooYzjgIIKLy8KLy8g5oyJ77yI5b2S5LiA5YyWIHB5dGhvbiDniYjmnKwsIFBFUCA1MDMg5b2S5LiA5YyW6ZSu77yJ5YiG57uE77yM57uE5YaF5aSa6KGM5Y+q5L+d55WZ54q25oCB5LyY5YWI57qn5pyA6auYIC8g5pyA5paw5LiA5p2h77yMCi8vIOWIoOmZpOWFtuS9meihjOOAguW5guetie+8mumHjeWkjeaJp+ihjOaXoOWJr+S9nOeUqO+8iOavj+e7hOWPquWJqeS4gOihjOWQjuS4jeWGjeWIoOmZpO+8ieOAguWksei0peWPquiusOaXpeW/l+S4jSBwYW5pY+OAggpmdW5jIE1lcmdlRHVwbGljYXRlUHl0aG9uRGVwZW5kZW5jaWVzKCkgewoJaWYgZGF0YWJhc2UuREIgPT0gbmlsIHsKCQlyZXR1cm4KCX0KCgl2YXIgZGVwcyBbXW1vZGVsLkRlcGVuZGVuY3kKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidHlwZSA9ID8iLCBtb2RlbC5EZXBUeXBlUHl0aG9uKS5GaW5kKCZkZXBzKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50Zigid2FybjogZmFpbGVkIHRvIGxvYWQgcHl0aG9uIGRlcGVuZGVuY2llcyBmb3IgZGVkdXAgbWVyZ2U6ICV2IiwgZXJyKQoJCXJldHVybgoJfQoJaWYgbGVuKGRlcHMpIDw9IDEgewoJCXJldHVybgoJfQoKCWdyb3VwcyA6PSBtYWtlKG1hcFtzdHJpbmddW11tb2RlbC5EZXBlbmRlbmN5KQoJZm9yIF8sIGRlcCA6PSByYW5nZSBkZXBzIHsKCQkvLyDlkI3np7Dml6Dms5Xop6PmnpDlh7rlvZLkuIDljJbplK7vvIjnqbrlkI0v57qv54mI5pys566X56ym562J5byC5bi46KGM77yJ5LiA5b6L6Lez6L+H77yM57ud5LiN5Y+C5LiO5ZCI5bm25Yig6Zmk77yM6YG/5YWN6K+v5Yig44CCCgkJY2Fub25pY2FsIDo9IENhbm9uaWNhbGl6ZVB5dGhvblBhY2thZ2VOYW1lKGRlcC5OYW1lKQoJCWlmIGNhbm9uaWNhbCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCXZlcnNpb24gOj0gTm9ybWFsaXplRGVwZW5kZW5jeVB5dGhvblZlcnNpb24oZGVwLlB5dGhvblZlcnNpb24pCgkJa2V5IDo9IHZlcnNpb24gKyAiXHgwMCIgKyBjYW5vbmljYWwKCQlncm91cHNba2V5XSA9IGFwcGVuZChncm91cHNba2V5XSwgZGVwKQoJfQoKCXZhciByZW1vdmVJRHMgW111aW50Cglmb3IgXywgZ3JvdXAgOj0gcmFuZ2UgZ3JvdXBzIHsKCQlpZiBsZW4oZ3JvdXApIDw9IDEgewoJCQljb250aW51ZQoJCX0KCQl3aW5uZXIgOj0gZ3JvdXBbMF0KCQlmb3IgXywgY2FuZGlkYXRlIDo9IHJhbmdlIGdyb3VwWzE6XSB7CgkJCWlmIHB5dGhvbkRlcGVuZGVuY3lNZXJnZVByZWZlcnMoY2FuZGlkYXRlLCB3aW5uZXIpIHsKCQkJCXdpbm5lciA9IGNhbmRpZGF0ZQoJCQl9CgkJfQoJCWZvciBfLCBkZXAgOj0gcmFuZ2UgZ3JvdXAgewoJCQlpZiBkZXAuSUQgIT0gd2lubmVyLklEIHsKCQkJCXJlbW92ZUlEcyA9IGFwcGVuZChyZW1vdmVJRHMsIGRlcC5JRCkKCQkJfQoJCX0KCX0KCglpZiBsZW4ocmVtb3ZlSURzKSA9PSAwIHsKCQlyZXR1cm4KCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiaWQgSU4gPyIsIHJlbW92ZUlEcykuRGVsZXRlKCZtb2RlbC5EZXBlbmRlbmN5e30pLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJ3YXJuOiBmYWlsZWQgdG8gcmVtb3ZlIGR1cGxpY2F0ZSBweXRob24gZGVwZW5kZW5jaWVzOiAldiIsIGVycikKCQlyZXR1cm4KCX0KCWxvZy5QcmludGYoImluZm86IG1lcmdlZCBkdXBsaWNhdGUgcHl0aG9uIGRlcGVuZGVuY2llcywgcmVtb3ZlZCAlZCByZWR1bmRhbnQgcm93cyIsIGxlbihyZW1vdmVJRHMpKQp9Cg==
+package service
+
+import (
+	"log"
+	"regexp"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+)
+
+// pep503SeparatorPattern 把连续的 - _ . 折叠成单个 -（PEP 503 规范化）。
+var pep503SeparatorPattern = regexp.MustCompile(`[-_.]+`)
+
+// CanonicalizePythonPackageName 把用户输入的 Python 依赖 spec 归一化成 PEP 503 去重键。
+//
+// 步骤：
+//  1. 剥离 PEP 508 环境标记（`;` 之后）、extras（`[...]`）、版本算符及其后的版本号。
+//  2. 对剩下的包名部分做 PEP 503 规范化：转小写 + 把连续的 -_. 折叠成单个 -。
+//
+// 关键：必须先拆出包名部分再折叠，绝不能对整串套折叠正则，
+// 否则 `requests==2.31.0` 里版本号的 `.` 会被折成 `-`。
+//
+// 例：Requests->requests，Flask_SQLAlchemy->flask-sqlalchemy，
+// requests==2.31.0->requests，zope.interface[test]->zope-interface。
+//
+// 仅供 Python/pip 依赖去重使用，不要用于 npm / Linux。
+func CanonicalizePythonPackageName(spec string) string {
+	name := strings.TrimSpace(spec)
+	if name == "" {
+		return ""
+	}
+
+	// 1. 去掉 PEP 508 环境标记（`requests; python_version < "3"`）。
+	if idx := strings.IndexByte(name, ';'); idx >= 0 {
+		name = name[:idx]
+	}
+	// 2. 去掉 extras（`requests[security]`）。
+	if idx := strings.IndexByte(name, '['); idx >= 0 {
+		name = name[:idx]
+	}
+	// 3. 去掉版本算符及其后的版本号（== >= <= ~= != === < > 以及空白/括号/逗号）。
+	name = stripPythonVersionSpecifier(name)
+	name = strings.TrimSpace(name)
+	if name == "" {
+		return ""
+	}
+
+	// 4. PEP 503 规范化：先取到纯包名后再 lower + 折叠分隔符。
+	name = strings.ToLower(name)
+	name = pep503SeparatorPattern.ReplaceAllString(name, "-")
+	return name
+}
+
+// stripPythonVersionSpecifier 在第一个版本算符 / 空白 / 括号 / 逗号处截断，仅保留包名部分。
+func stripPythonVersionSpecifier(name string) string {
+	for i := 0; i < len(name); i++ {
+		switch name[i] {
+		case '=', '<', '>', '!', '~', ' ', '\t', '\r', '\n', '(', ',':
+			return name[:i]
+		}
+	}
+	return name
+}
+
+// pythonDependencyStatusMergePriority 给依赖状态打优先级，用于存量合并时挑选保留行。
+// installed > installing/queued > failed/其它。
+func pythonDependencyStatusMergePriority(status string) int {
+	switch status {
+	case model.DepStatusInstalled:
+		return 3
+	case model.DepStatusInstalling, model.DepStatusQueued:
+		return 2
+	default:
+		return 1
+	}
+}
+
+// pythonDependencyMergePrefers 判断 candidate 是否应取代 current 成为保留行。
+// 先比状态优先级，再比最近 updated_at，最后比 ID（取较大）。
+func pythonDependencyMergePrefers(candidate, current model.Dependency) bool {
+	cp := pythonDependencyStatusMergePriority(candidate.Status)
+	wp := pythonDependencyStatusMergePriority(current.Status)
+	if cp != wp {
+		return cp > wp
+	}
+	if !candidate.UpdatedAt.Equal(current.UpdatedAt) {
+		return candidate.UpdatedAt.After(current.UpdatedAt)
+	}
+	return candidate.ID > current.ID
+}
+
+// FindExistingPythonDependency 在 Python 依赖里按归一化键 + python 版本查找已存在记录。
+// statuses 为空表示不限状态。返回命中的第一条记录。
+func FindExistingPythonDependency(name, pythonVersion string, statuses ...string) (model.Dependency, bool) {
+	canonical := CanonicalizePythonPackageName(name)
+	if canonical == "" {
+		return model.Dependency{}, false
+	}
+
+	query := database.DB.
+		Where("type = ?", model.DepTypePython).
+		Where("COALESCE(NULLIF(python_version, ''), ?) = ?", LegacyPythonVersion(), pythonVersion)
+	if len(statuses) > 0 {
+		query = query.Where("status IN ?", statuses)
+	}
+
+	var candidates []model.Dependency
+	if err := query.Find(&candidates).Error; err != nil {
+		return model.Dependency{}, false
+	}
+	for _, candidate := range candidates {
+		if CanonicalizePythonPackageName(candidate.Name) == canonical {
+			return candidate, true
+		}
+	}
+	return model.Dependency{}, false
+}
+
+// MergeDuplicatePythonDependencies 在启动期一次性合并 Python 依赖的重复行。
+//
+// 按（归一化 python 版本, PEP 503 归一化键）分组，组内多行只保留状态优先级最高 / 最新一条，
+// 删除其余行。幂等：重复执行无副作用（每组只剩一行后不再删除）。失败只记日志不 panic。
+func MergeDuplicatePythonDependencies() {
+	if database.DB == nil {
+		return
+	}
+
+	var deps []model.Dependency
+	if err := database.DB.Where("type = ?", model.DepTypePython).Find(&deps).Error; err != nil {
+		log.Printf("warn: failed to load python dependencies for dedup merge: %v", err)
+		return
+	}
+	if len(deps) <= 1 {
+		return
+	}
+
+	groups := make(map[string][]model.Dependency)
+	for _, dep := range deps {
+		// 名称无法解析出归一化键（空名/纯版本算符等异常行）一律跳过，绝不参与合并删除，避免误删。
+		canonical := CanonicalizePythonPackageName(dep.Name)
+		if canonical == "" {
+			continue
+		}
+		version := NormalizeDependencyPythonVersion(dep.PythonVersion)
+		key := version + "\x00" + canonical
+		groups[key] = append(groups[key], dep)
+	}
+
+	var removeIDs []uint
+	for _, group := range groups {
+		if len(group) <= 1 {
+			continue
+		}
+		winner := group[0]
+		for _, candidate := range group[1:] {
+			if pythonDependencyMergePrefers(candidate, winner) {
+				winner = candidate
+			}
+		}
+		for _, dep := range group {
+			if dep.ID != winner.ID {
+				removeIDs = append(removeIDs, dep.ID)
+			}
+		}
+	}
+
+	if len(removeIDs) == 0 {
+		return
+	}
+	if err := database.DB.Where("id IN ?", removeIDs).Delete(&model.Dependency{}).Error; err != nil {
+		log.Printf("warn: failed to remove duplicate python dependencies: %v", err)
+		return
+	}
+	log.Printf("info: merged duplicate python dependencies, removed %d redundant rows", len(removeIDs))
+}

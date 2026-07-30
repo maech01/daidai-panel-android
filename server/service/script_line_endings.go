@@ -1,1 +1,41 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImJ5dGVzIgoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKKQoKZnVuYyBOb3JtYWxpemVTaGVsbExpbmVFbmRpbmdzKGNvbnRlbnQgW11ieXRlKSBbXWJ5dGUgewoJaWYgIWJ5dGVzLkNvbnRhaW5zUnVuZShjb250ZW50LCAnXHInKSB7CgkJcmV0dXJuIGNvbnRlbnQKCX0KCglub3JtYWxpemVkIDo9IGJ5dGVzLlJlcGxhY2VBbGwoY29udGVudCwgW11ieXRlKCJcclxuIiksIFtdYnl0ZSgiXG4iKSkKCW5vcm1hbGl6ZWQgPSBieXRlcy5SZXBsYWNlQWxsKG5vcm1hbGl6ZWQsIFtdYnl0ZSgiXHIiKSwgW11ieXRlKCJcbiIpKQoJcmV0dXJuIG5vcm1hbGl6ZWQKfQoKZnVuYyBOb3JtYWxpemVTaGVsbFNjcmlwdEZpbGUoZnVsbFBhdGggc3RyaW5nKSBlcnJvciB7CglpZiBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguRXh0KGZ1bGxQYXRoKSkgIT0gIi5zaCIgewoJCXJldHVybiBuaWwKCX0KCgljb250ZW50LCBlcnIgOj0gb3MuUmVhZEZpbGUoZnVsbFBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJbm9ybWFsaXplZCA6PSBOb3JtYWxpemVTaGVsbExpbmVFbmRpbmdzKGNvbnRlbnQpCglpZiBieXRlcy5FcXVhbChjb250ZW50LCBub3JtYWxpemVkKSB7CgkJcmV0dXJuIG5pbAoJfQoKCWluZm8sIGVyciA6PSBvcy5TdGF0KGZ1bGxQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXJldHVybiBvcy5Xcml0ZUZpbGUoZnVsbFBhdGgsIG5vcm1hbGl6ZWQsIGluZm8uTW9kZSgpKQp9Cg==
+package service
+
+import (
+	"bytes"
+	"os"
+	"path/filepath"
+	"strings"
+)
+
+func NormalizeShellLineEndings(content []byte) []byte {
+	if !bytes.ContainsRune(content, '\r') {
+		return content
+	}
+
+	normalized := bytes.ReplaceAll(content, []byte("\r\n"), []byte("\n"))
+	normalized = bytes.ReplaceAll(normalized, []byte("\r"), []byte("\n"))
+	return normalized
+}
+
+func NormalizeShellScriptFile(fullPath string) error {
+	if strings.ToLower(filepath.Ext(fullPath)) != ".sh" {
+		return nil
+	}
+
+	content, err := os.ReadFile(fullPath)
+	if err != nil {
+		return err
+	}
+
+	normalized := NormalizeShellLineEndings(content)
+	if bytes.Equal(content, normalized) {
+		return nil
+	}
+
+	info, err := os.Stat(fullPath)
+	if err != nil {
+		return err
+	}
+
+	return os.WriteFile(fullPath, normalized, info.Mode())
+}

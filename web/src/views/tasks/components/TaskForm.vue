@@ -1,1 +1,458 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAndnVlJwppbXBvcnQgeyBFbE1lc3NhZ2UgfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCBDcm9uSW5wdXQgZnJvbSAnLi9Dcm9uSW5wdXQudnVlJwppbXBvcnQgU3RvcFNjaGVkdWxlSW5wdXQgZnJvbSAnLi9TdG9wU2NoZWR1bGVJbnB1dC52dWUnCmltcG9ydCB7IG1lcmdlVGFza0xhYmVscywgc3BsaXRUYXNrTGFiZWxzIH0gZnJvbSAnLi4vdGFza0xhYmVscycKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKaW1wb3J0IHR5cGUgeyBQeXRob25SdW50aW1lSW5mbyB9IGZyb20gJ0AvYXBpL2RlcHMnCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICB2aXNpYmxlOiBib29sZWFuCiAgdGFzaz86IGFueQogIHByZWZpbGw/OiBhbnkKICBkZWZhdWx0UHl0aG9uVmVyc2lvbj86IHN0cmluZwogIHB5dGhvblJ1bnRpbWVzPzogUHl0aG9uUnVudGltZUluZm9bXQogIG5vdGlmaWNhdGlvbkNoYW5uZWxzPzogeyBpZDogbnVtYmVyOyBuYW1lOiBzdHJpbmc7IHR5cGU6IHN0cmluZzsgZW5hYmxlZDogYm9vbGVhbiB9W10KfT4oKQoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAndXBkYXRlOnZpc2libGUnOiBbdmFsdWU6IGJvb2xlYW5dCiAgJ3N1Ym1pdCc6IFtkYXRhOiBhbnldCn0+KCkKCmNvbnN0IGZvcm0gPSByZWYoewogIG5hbWU6ICcnLAogIGNvbW1hbmQ6ICcnLAogIHB5dGhvbl92ZXJzaW9uOiAnMy4xMicsCiAgY3Jvbl9leHByZXNzaW9uOiAnMCAwICogKiAqJywKICB0YXNrX3R5cGU6ICdjcm9uJywKICB0aW1lb3V0OiAwLAogIHN1Y2Nlc3NfZXhpdF9jb2RlczogJzAnLAogIHJhbmRvbV9kZWxheV9zZWNvbmRzOiBudWxsIGFzIG51bWJlciB8IG51bGwsCiAgbWF4X3JldHJpZXM6IDAsCiAgcmV0cnlfaW50ZXJ2YWw6IDYwLAogIG5vdGlmeV9vbl9mYWlsdXJlOiBmYWxzZSwKICBub3RpZnlfb25fc3VjY2VzczogZmFsc2UsCiAgbm90aWZpY2F0aW9uX2NoYW5uZWxfaWQ6IG51bGwgYXMgbnVtYmVyIHwgbnVsbCwKICBsYWJlbHM6IFtdIGFzIHN0cmluZ1tdLAogIGRlcGVuZHNfb246IG51bGwgYXMgbnVtYmVyIHwgbnVsbCwKICB0YXNrX2JlZm9yZTogJycsCiAgdGFza19hZnRlcjogJycsCiAgYWxsb3dfbXVsdGlwbGVfaW5zdGFuY2VzOiBmYWxzZSwKICBzdG9wX3NjaGVkdWxlOiAnJywKICBub3RpZnlfb25fYWJvcnQ6IGZhbHNlLAogIGdyb3VwX25hbWU6ICcnLAp9KQoKY29uc3QgbGFiZWxJbnB1dCA9IHJlZignJykKY29uc3QgYWN0aXZlVGFiID0gcmVmKCdiYXNpYycpCmNvbnN0IGludGVybmFsTGFiZWxzID0gcmVmPHN0cmluZ1tdPihbXSkKY29uc3QgcmFuZG9tRGVsYXlNb2RlID0gcmVmPCdpbmhlcml0JyB8ICdkaXNhYmxlZCcgfCAnY3VzdG9tJz4oJ2luaGVyaXQnKQpjb25zdCB7IGRpYWxvZ0Z1bGxzY3JlZW4gfSA9IHVzZVJlc3BvbnNpdmUoKQpjb25zdCBhbGxQeXRob25WZXJzaW9ucyA9IFsnMy4xMCcsICczLjExJywgJzMuMTInXQoKLy8gUHl0aG9uIOeJiOacrOS4i+aLiemAiemhue+8muW4puS4iuWQjuerr+eul+WlveeahCBhdmFpbGFibGUvbWVzc2FnZe+8jAovLyDmnKrlronoo4XniYjmnKzku43lsZXnpLrkvYbkvJrooqvmoIfms6gv56aB55So77yM6YG/5YWN5Lu75Yqh6buY6K6k5oiW6K+v6YCJ5Yiw5pys5py65LiN5a2Y5Zyo55qE6Kej6YeK5Zmo44CCCmNvbnN0IHB5dGhvblZlcnNpb25PcHRpb25zID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IHJ1bnRpbWVzID0gKHByb3BzLnB5dGhvblJ1bnRpbWVzIHx8IFtdKQogICAgLmZpbHRlcihpdGVtID0+IGFsbFB5dGhvblZlcnNpb25zLmluY2x1ZGVzKGl0ZW0udmVyc2lvbikpCiAgICAubWFwKGl0ZW0gPT4gKHsgdmVyc2lvbjogaXRlbS52ZXJzaW9uLCBhdmFpbGFibGU6IGl0ZW0uYXZhaWxhYmxlLCBtZXNzYWdlOiBpdGVtLm1lc3NhZ2UgfSkpCiAgLy8g5ZCO56uv5pyq6L+U5Zue6L+Q6KGM5pe25L+h5oGv5pe26YCA5Zue5YWo6YeP5YCZ6YCJ77yM5LiU6buY6K6k6KeG5Li65Y+v55So77yI5peg5LuO5Yik5pat5Y+v55So5oCn77yJCiAgcmV0dXJuIHJ1bnRpbWVzLmxlbmd0aCA+IDAKICAgID8gcnVudGltZXMKICAgIDogYWxsUHl0aG9uVmVyc2lvbnMubWFwKHZlcnNpb24gPT4gKHsgdmVyc2lvbiwgYXZhaWxhYmxlOiB0cnVlLCBtZXNzYWdlOiAnJyB9KSkKfSkKCi8vIOW9k+WJjemAieS4reeJiOacrOiLpeacquWuieijhe+8jOWxleekuuWQjuerr+e7meeahOaPkOekuu+8jOiuqeeUqOaIt+efpemBk+ivpeeJiOacrOS4jeWPr+eUqOWPiuWmguS9leWkhOeQhgpjb25zdCBzZWxlY3RlZFB5dGhvblJ1bnRpbWVNZXNzYWdlID0gY29tcHV0ZWQoKCkgPT4gewogIGNvbnN0IGN1cnJlbnQgPSBweXRob25WZXJzaW9uT3B0aW9ucy52YWx1ZS5maW5kKGl0ZW0gPT4gaXRlbS52ZXJzaW9uID09PSBmb3JtLnZhbHVlLnB5dGhvbl92ZXJzaW9uKQogIHJldHVybiBjdXJyZW50ICYmICFjdXJyZW50LmF2YWlsYWJsZSA/IGN1cnJlbnQubWVzc2FnZSA6ICcnCn0pCgpmdW5jdGlvbiBnZXREZWZhdWx0UHl0aG9uVmVyc2lvbigpIHsKICAvLyDpu5jorqTlgLzkvJjlhYjokL3lnKjlt7Llronoo4XvvIhhdmFpbGFibGXvvInnmoTniYjmnKzkuIrvvIzkuI3opoHpu5jorqTliLDmnKrlronoo4XniYjmnKzvvJsKICAvLyDljZXniYjmnKwgRG9ja2VyIOmVnOWDj+S5n+WPquS8mui/lOWbnuW9k+WJjemVnOWDj+aUr+aMgeeahOWwj+eJiOacrOOAggogIGNvbnN0IG9wdGlvbnMgPSBweXRob25WZXJzaW9uT3B0aW9ucy52YWx1ZQogIGNvbnN0IHByZWZlcnJlZCA9IHByb3BzLmRlZmF1bHRQeXRob25WZXJzaW9uIHx8ICcnCiAgY29uc3QgZGVmYXVsdE9wdGlvbiA9IG9wdGlvbnMuZmluZChpdGVtID0+IGl0ZW0udmVyc2lvbiA9PT0gcHJlZmVycmVkKQogIGlmIChkZWZhdWx0T3B0aW9uPy5hdmFpbGFibGUpIHJldHVybiBkZWZhdWx0T3B0aW9uLnZlcnNpb24KICBjb25zdCBmaXJzdEF2YWlsYWJsZSA9IG9wdGlvbnMuZmluZChpdGVtID0+IGl0ZW0uYXZhaWxhYmxlKQogIGlmIChmaXJzdEF2YWlsYWJsZSkgcmV0dXJuIGZpcnN0QXZhaWxhYmxlLnZlcnNpb24KICAvLyDlhajpg6jmnKrlronoo4Xml7bpgIDlm57lkI7nq6/pu5jorqQv6aaW5Liq5YCZ6YCJCiAgcmV0dXJuIGRlZmF1bHRPcHRpb24/LnZlcnNpb24gfHwgb3B0aW9uc1swXT8udmVyc2lvbiB8fCBwcmVmZXJyZWQgfHwgJzMuMTInCn0KCndhdGNoKCgpID0+IHByb3BzLnZpc2libGUsICh2YWwpID0+IHsKICBpZiAodmFsICYmIHByb3BzLnRhc2spIHsKICAgIGNvbnN0IHsgZWRpdGFibGVMYWJlbHMsIGludGVybmFsTGFiZWxzOiBoaWRkZW5MYWJlbHMsIGdyb3VwTmFtZSB9ID0gc3BsaXRUYXNrTGFiZWxzKHByb3BzLnRhc2subGFiZWxzIHx8IFtdKQogICAgaW50ZXJuYWxMYWJlbHMudmFsdWUgPSBoaWRkZW5MYWJlbHMKICAgIGNvbnN0IHRhc2tSYW5kb21EZWxheSA9IHR5cGVvZiBwcm9wcy50YXNrLnJhbmRvbV9kZWxheV9zZWNvbmRzID09PSAnbnVtYmVyJwogICAgICA/IHByb3BzLnRhc2sucmFuZG9tX2RlbGF5X3NlY29uZHMKICAgICAgOiBwcm9wcy50YXNrLnJhbmRvbV9kZWxheV9zZWNvbmRzID09IG51bGwKICAgICAgICA/IG51bGwKICAgICAgICA6IE51bWJlcihwcm9wcy50YXNrLnJhbmRvbV9kZWxheV9zZWNvbmRzKQogICAgaWYgKHRhc2tSYW5kb21EZWxheSA9PSBudWxsKSB7CiAgICAgIHJhbmRvbURlbGF5TW9kZS52YWx1ZSA9ICdpbmhlcml0JwogICAgfSBlbHNlIGlmICh0YXNrUmFuZG9tRGVsYXkgPD0gMCkgewogICAgICByYW5kb21EZWxheU1vZGUudmFsdWUgPSAnZGlzYWJsZWQnCiAgICB9IGVsc2UgewogICAgICByYW5kb21EZWxheU1vZGUudmFsdWUgPSAnY3VzdG9tJwogICAgfQogICAgZm9ybS52YWx1ZSA9IHsKICAgICAgbmFtZTogcHJvcHMudGFzay5uYW1lIHx8ICcnLAogICAgICBjb21tYW5kOiBwcm9wcy50YXNrLmNvbW1hbmQgfHwgJycsCiAgICAgIHB5dGhvbl92ZXJzaW9uOiBwcm9wcy50YXNrLnB5dGhvbl92ZXJzaW9uIHx8IGdldERlZmF1bHRQeXRob25WZXJzaW9uKCksCiAgICAgIGNyb25fZXhwcmVzc2lvbjogcHJvcHMudGFzay5jcm9uX2V4cHJlc3Npb24gfHwgJyogKiAqICogKicsCiAgICAgIHRhc2tfdHlwZTogcHJvcHMudGFzay50YXNrX3R5cGUgfHwgJ2Nyb24nLAogICAgICB0aW1lb3V0OiBwcm9wcy50YXNrLnRpbWVvdXQgPz8gMCwKICAgICAgc3VjY2Vzc19leGl0X2NvZGVzOiBwcm9wcy50YXNrLnN1Y2Nlc3NfZXhpdF9jb2RlcyB8fCAnMCcsCiAgICAgIHJhbmRvbV9kZWxheV9zZWNvbmRzOiB0YXNrUmFuZG9tRGVsYXksCiAgICAgIG1heF9yZXRyaWVzOiBwcm9wcy50YXNrLm1heF9yZXRyaWVzID8/IDAsCiAgICAgIHJldHJ5X2ludGVydmFsOiBwcm9wcy50YXNrLnJldHJ5X2ludGVydmFsID8/IDYwLAogICAgICBub3RpZnlfb25fZmFpbHVyZTogcHJvcHMudGFzay5ub3RpZnlfb25fZmFpbHVyZSA/PyBmYWxzZSwKICAgICAgbm90aWZ5X29uX3N1Y2Nlc3M6IHByb3BzLnRhc2subm90aWZ5X29uX3N1Y2Nlc3MgPz8gZmFsc2UsCiAgICAgIG5vdGlmaWNhdGlvbl9jaGFubmVsX2lkOiBwcm9wcy50YXNrLm5vdGlmaWNhdGlvbl9jaGFubmVsX2lkID8/IG51bGwsCiAgICAgIGxhYmVsczogZWRpdGFibGVMYWJlbHMsCiAgICAgIGdyb3VwX25hbWU6IGdyb3VwTmFtZSwKICAgICAgZGVwZW5kc19vbjogcHJvcHMudGFzay5kZXBlbmRzX29uIHx8IG51bGwsCiAgICAgIHRhc2tfYmVmb3JlOiBwcm9wcy50YXNrLnRhc2tfYmVmb3JlIHx8ICcnLAogICAgICB0YXNrX2FmdGVyOiBwcm9wcy50YXNrLnRhc2tfYWZ0ZXIgfHwgJycsCiAgICAgIGFsbG93X211bHRpcGxlX2luc3RhbmNlczogcHJvcHMudGFzay5hbGxvd19tdWx0aXBsZV9pbnN0YW5jZXMgPz8gZmFsc2UsCiAgICAgIHN0b3Bfc2NoZWR1bGU6IHByb3BzLnRhc2suc3RvcF9zY2hlZHVsZSB8fCAnJywKICAgICAgbm90aWZ5X29uX2Fib3J0OiBwcm9wcy50YXNrLm5vdGlmeV9vbl9hYm9ydCA/PyBmYWxzZSwKICAgIH0KICB9IGVsc2UgaWYgKHZhbCkgewogICAgY29uc3QgcCA9IHByb3BzLnByZWZpbGwKICAgIGludGVybmFsTGFiZWxzLnZhbHVlID0gW10KICAgIHJhbmRvbURlbGF5TW9kZS52YWx1ZSA9ICdpbmhlcml0JwogICAgZm9ybS52YWx1ZSA9IHsKICAgICAgbmFtZTogcD8ubmFtZSB8fCAnJywgY29tbWFuZDogcD8uY29tbWFuZCB8fCAnJywKICAgICAgcHl0aG9uX3ZlcnNpb246IHA/LnB5dGhvbl92ZXJzaW9uIHx8IGdldERlZmF1bHRQeXRob25WZXJzaW9uKCksCiAgICAgIGNyb25fZXhwcmVzc2lvbjogcD8uY3Jvbl9leHByZXNzaW9uIHx8ICcqICogKiAqIConLAogICAgICB0YXNrX3R5cGU6IHA/LnRhc2tfdHlwZSB8fCAnY3JvbicsCiAgICAgIHRpbWVvdXQ6IDAsIHN1Y2Nlc3NfZXhpdF9jb2RlczogJzAnLCByYW5kb21fZGVsYXlfc2Vjb25kczogbnVsbCwgbWF4X3JldHJpZXM6IDAsIHJldHJ5X2ludGVydmFsOiA2MCwKICAgICAgbm90aWZ5X29uX2ZhaWx1cmU6IGZhbHNlLCBub3RpZnlfb25fc3VjY2VzczogZmFsc2UsIG5vdGlmaWNhdGlvbl9jaGFubmVsX2lkOiBudWxsLCBsYWJlbHM6IFtdLCBkZXBlbmRzX29uOiBudWxsLAogICAgICB0YXNrX2JlZm9yZTogJycsIHRhc2tfYWZ0ZXI6ICcnLCBhbGxvd19tdWx0aXBsZV9pbnN0YW5jZXM6IGZhbHNlLCBncm91cF9uYW1lOiAnJywgc3RvcF9zY2hlZHVsZTogJycsIG5vdGlmeV9vbl9hYm9ydDogZmFsc2UsCiAgICB9CiAgfQogIGFjdGl2ZVRhYi52YWx1ZSA9ICdiYXNpYycKfSkKCi8vIOWQjuerr+m7mOiupOeJiOacrOaIlui/kOihjOaXtuWPr+eUqOaAp+WPmOWMluaXtu+8jOiLpeato+WcqOaWsOW7uuS7u+WKoeWImemHjeaWsOiuoeeul+m7mOiupCBQeXRob24g54mI5pysCndhdGNoKFsoKSA9PiBwcm9wcy5kZWZhdWx0UHl0aG9uVmVyc2lvbiwgKCkgPT4gcHJvcHMucHl0aG9uUnVudGltZXNdLCAoKSA9PiB7CiAgaWYgKHByb3BzLnZpc2libGUgJiYgIXByb3BzLnRhc2sgJiYgIXByb3BzLnByZWZpbGw/LnB5dGhvbl92ZXJzaW9uKSB7CiAgICBmb3JtLnZhbHVlLnB5dGhvbl92ZXJzaW9uID0gZ2V0RGVmYXVsdFB5dGhvblZlcnNpb24oKQogIH0KfSkKCndhdGNoKCgpID0+IGZvcm0udmFsdWUudGFza190eXBlLCAodmFsdWUpID0+IHsKICBpZiAodmFsdWUgPT09ICdjcm9uJyAmJiAhZm9ybS52YWx1ZS5jcm9uX2V4cHJlc3Npb24pIHsKICAgIGZvcm0udmFsdWUuY3Jvbl9leHByZXNzaW9uID0gJzAgMCAqICogKicKICB9Cn0pCgp3YXRjaChyYW5kb21EZWxheU1vZGUsIChtb2RlKSA9PiB7CiAgaWYgKG1vZGUgPT09ICdpbmhlcml0JykgewogICAgZm9ybS52YWx1ZS5yYW5kb21fZGVsYXlfc2Vjb25kcyA9IG51bGwKICAgIHJldHVybgogIH0KICBpZiAobW9kZSA9PT0gJ2Rpc2FibGVkJykgewogICAgZm9ybS52YWx1ZS5yYW5kb21fZGVsYXlfc2Vjb25kcyA9IDAKICAgIHJldHVybgogIH0KICBpZiAoZm9ybS52YWx1ZS5yYW5kb21fZGVsYXlfc2Vjb25kcyA9PSBudWxsIHx8IGZvcm0udmFsdWUucmFuZG9tX2RlbGF5X3NlY29uZHMgPD0gMCkgewogICAgZm9ybS52YWx1ZS5yYW5kb21fZGVsYXlfc2Vjb25kcyA9IDYwCiAgfQp9KQoKZnVuY3Rpb24gYWRkTGFiZWwoKSB7CiAgY29uc3QgdmFsID0gbGFiZWxJbnB1dC52YWx1ZS50cmltKCkKICBpZiAodmFsICYmICFmb3JtLnZhbHVlLmxhYmVscy5pbmNsdWRlcyh2YWwpKSB7CiAgICBmb3JtLnZhbHVlLmxhYmVscy5wdXNoKHZhbCkKICB9CiAgbGFiZWxJbnB1dC52YWx1ZSA9ICcnCn0KCmZ1bmN0aW9uIHJlbW92ZUxhYmVsKGxhYmVsOiBzdHJpbmcpIHsKICBmb3JtLnZhbHVlLmxhYmVscyA9IGZvcm0udmFsdWUubGFiZWxzLmZpbHRlcihsID0+IGwgIT09IGxhYmVsKQp9CgpmdW5jdGlvbiBoYW5kbGVTdWJtaXQoKSB7CiAgaWYgKCFmb3JtLnZhbHVlLm5hbWUgfHwgIWZvcm0udmFsdWUuY29tbWFuZCkgewogICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivt+Whq+WGmeS7u+WKoeWQjeensOWSjOaJp+ihjOWRveS7pCcpCiAgICByZXR1cm4KICB9CiAgaWYgKHJhbmRvbURlbGF5TW9kZS52YWx1ZSA9PT0gJ2N1c3RvbScpIHsKICAgIGlmIChmb3JtLnZhbHVlLnJhbmRvbV9kZWxheV9zZWNvbmRzID09IG51bGwgfHwgZm9ybS52YWx1ZS5yYW5kb21fZGVsYXlfc2Vjb25kcyA8PSAwKSB7CiAgICAgIEVsTWVzc2FnZS53YXJuaW5nKCfor7fovpPlhaXlpKfkuo4gMCDnmoTpmo/mnLrlu7bov5/np5LmlbAnKQogICAgICByZXR1cm4KICAgIH0KICB9CiAgY29uc3Qgc3VjY2Vzc0V4aXRDb2RlcyA9IGZvcm0udmFsdWUuc3VjY2Vzc19leGl0X2NvZGVzCiAgICAudHJpbSgpCiAgICAuc3BsaXQoL1ss77yMXHNdKy8pCiAgICAuZmlsdGVyKEJvb2xlYW4pCiAgaWYgKHN1Y2Nlc3NFeGl0Q29kZXMubGVuZ3RoID09PSAwIHx8IHN1Y2Nlc3NFeGl0Q29kZXMuc29tZShjb2RlID0+ICEvXlxkKyQvLnRlc3QoY29kZSkgfHwgTnVtYmVyKGNvZGUpID4gMjU1KSkgewogICAgRWxNZXNzYWdlLndhcm5pbmcoJ+aIkOWKn+mAgOWHuueggeWPquiDveWhq+WGmSAwLTI1NSDnmoTmlbTmlbDvvIzlpJrkuKrlgLzor7fnlKjpgJflj7fliIbpmpQnKQogICAgcmV0dXJuCiAgfQogIGNvbnN0IGRhdGEgPSB7IC4uLmZvcm0udmFsdWUgfQogIC8vIOaPkOS6pOWJjee7n+S4gOS4uuiLseaWh+mAl+WPt+W5tuWOu+mHje+8jOWQjuerr+S7jeS8muWGjeasoeagoemqjO+8jOmBv+WFjeW8guW4uOaVsOaNruWGmeWFpeaVsOaNruW6k+OAggogIGRhdGEuc3VjY2Vzc19leGl0X2NvZGVzID0gWy4uLm5ldyBTZXQoc3VjY2Vzc0V4aXRDb2Rlcy5tYXAoY29kZSA9PiBTdHJpbmcoTnVtYmVyKGNvZGUpKSkpXS5qb2luKCcsJykKICBpZiAoZGF0YS50YXNrX3R5cGUgPT09ICdjcm9uJykgewogICAgaWYgKCFkYXRhLmNyb25fZXhwcmVzc2lvbikgcmV0dXJuCiAgfSBlbHNlIHsKICAgIGRhdGEuY3Jvbl9leHByZXNzaW9uID0gJycKICB9CiAgZGF0YS5sYWJlbHMgPSBtZXJnZVRhc2tMYWJlbHMoZm9ybS52YWx1ZS5sYWJlbHMsIGludGVybmFsTGFiZWxzLnZhbHVlLCBmb3JtLnZhbHVlLmdyb3VwX25hbWUpCiAgaWYgKCFkYXRhLnRhc2tfYmVmb3JlKSBkYXRhLnRhc2tfYmVmb3JlID0gJycKICBpZiAoIWRhdGEudGFza19hZnRlcikgZGF0YS50YXNrX2FmdGVyID0gJycKICBlbWl0KCdzdWJtaXQnLCBkYXRhKQp9Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1kaWFsb2cKICAgIDptb2RlbC12YWx1ZT0idmlzaWJsZSIKICAgIDp0aXRsZT0idGFzayA/ICfnvJbovpHku7vliqEnIDogJ+aWsOW7uuS7u+WKoSciCiAgICB3aWR0aD0iNjQwcHgiCiAgICA6ZnVsbHNjcmVlbj0iZGlhbG9nRnVsbHNjcmVlbiIKICAgIDpsb2NrLXNjcm9sbD0iZmFsc2UiCiAgICBkZXN0cm95LW9uLWNsb3NlCiAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCd1cGRhdGU6dmlzaWJsZScsICRldmVudCkiCiAgPgogICAgPGVsLXRhYnMgdi1tb2RlbD0iYWN0aXZlVGFiIj4KICAgICAgPGVsLXRhYi1wYW5lIGxhYmVsPSLln7rmnKzkv6Hmga8iIG5hbWU9ImJhc2ljIj4KICAgICAgICA8ZWwtZm9ybSA6bW9kZWw9ImZvcm0iIDpsYWJlbC13aWR0aD0iZGlhbG9nRnVsbHNjcmVlbiA/ICdhdXRvJyA6ICcxMDBweCciIDpsYWJlbC1wb3NpdGlvbj0iZGlhbG9nRnVsbHNjcmVlbiA/ICd0b3AnIDogJ3JpZ2h0JyI+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLku7vliqHlkI3np7AiIHJlcXVpcmVkPgogICAgICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5uYW1lIiBwbGFjZWhvbGRlcj0i5Lu75Yqh5ZCN56ewIiAvPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLmiafooYzlkb3ku6QiIHJlcXVpcmVkPgogICAgICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5jb21tYW5kIiBwbGFjZWhvbGRlcj0i5aaCOiBzY3JpcHQucHkg5oiWIHB5dGhvbjMgc2NyaXB0LnB5IiAvPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7IG1hcmdpbi10b3A6IDRweCI+CiAgICAgICAgICAgICAg5pSv5oyBIHRhc2sg6ISa5pys5ZCNIOagvOW8jyzoh6rliqjmoLnmja7mianlsZXlkI3pgInmi6nop6Pph4rlmaggKC5weS8uanMvLnRzLy5zaCkKICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IlB5dGhvbueJiOacrCI+CiAgICAgICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0iZm9ybS5weXRob25fdmVyc2lvbiIgc3R5bGU9IndpZHRoOiAxMDAlIj4KICAgICAgICAgICAgICA8ZWwtb3B0aW9uCiAgICAgICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIHB5dGhvblZlcnNpb25PcHRpb25zIgogICAgICAgICAgICAgICAgOmtleT0ib3B0aW9uLnZlcnNpb24iCiAgICAgICAgICAgICAgICA6bGFiZWw9Im9wdGlvbi5hdmFpbGFibGUgPyBgUHl0aG9uICR7b3B0aW9uLnZlcnNpb259YCA6IGBQeXRob24gJHtvcHRpb24udmVyc2lvbn3vvIjmnKrlronoo4XvvIlgIgogICAgICAgICAgICAgICAgOnZhbHVlPSJvcHRpb24udmVyc2lvbiIKICAgICAgICAgICAgICAgIDpkaXNhYmxlZD0iIW9wdGlvbi5hdmFpbGFibGUiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9lbC1zZWxlY3Q+CiAgICAgICAgICAgIDxkaXYKICAgICAgICAgICAgICB2LWlmPSJzZWxlY3RlZFB5dGhvblJ1bnRpbWVNZXNzYWdlIgogICAgICAgICAgICAgIHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiB2YXIoLS1lbC1jb2xvci13YXJuaW5nKTsgbWFyZ2luLXRvcDogNHB4IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAge3sgc2VsZWN0ZWRQeXRob25SdW50aW1lTWVzc2FnZSB9fQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5a6a5pe257G75Z6LIiByZXF1aXJlZD4KICAgICAgICAgICAgPGVsLXNlbGVjdCB2LW1vZGVsPSJmb3JtLnRhc2tfdHlwZSIgc3R5bGU9IndpZHRoOiAxMDAlIj4KICAgICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLluLjop4Tlrprml7YiIHZhbHVlPSJjcm9uIiAvPgogICAgICAgICAgICAgIDxlbC1vcHRpb24gbGFiZWw9IuaJi+WKqOi/kOihjCIgdmFsdWU9Im1hbnVhbCIgLz4KICAgICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlvIDmnLrov5DooYwiIHZhbHVlPSJzdGFydHVwIiAvPgogICAgICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSB2LWlmPSJmb3JtLnRhc2tfdHlwZSA9PT0gJ2Nyb24nIiBsYWJlbD0i5a6a5pe26KeE5YiZIiByZXF1aXJlZD4KICAgICAgICAgICAgPENyb25JbnB1dCB2LW1vZGVsPSJmb3JtLmNyb25fZXhwcmVzc2lvbiIgLz4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSB2LWlmPSJmb3JtLnRhc2tfdHlwZSA9PT0gJ2Nyb24nIiBsYWJlbD0i5a6a5pe25YGc5q2iIj4KICAgICAgICAgICAgPFN0b3BTY2hlZHVsZUlucHV0IHYtbW9kZWw9ImZvcm0uc3RvcF9zY2hlZHVsZSIgLz4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSB2LWVsc2UgbGFiZWw9IuaJp+ihjOivtOaYjiI+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9ImZvbnQtc2l6ZTogMTJweDsgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsgbGluZS1oZWlnaHQ6IDEuNyI+CiAgICAgICAgICAgICAgPHRlbXBsYXRlIHYtaWY9ImZvcm0udGFza190eXBlID09PSAnbWFudWFsJyI+CiAgICAgICAgICAgICAgICDkuI3oh6rliqjosIPluqbvvIzku4XlnKjkvaDmiYvliqjngrnlh7vigJzov5DooYzigJ3miJbmibnph4/ov5DooYzml7bmiafooYzjgIIKICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICAgICAgICDmr4/lpKnpppbmrKHlkK/liqjpnaLmnb/ml7boh6rliqjmiafooYzkuIDmrKHvvJvlvZPlpKnlho3mrKHph43lkK/kuI3kvJrph43lpI3oh6rliqjmiafooYzvvIzmiYvliqjngrnlh7vigJzov5DooYzigJ3kuI3lj5fpmZDliLbjgIIKICAgICAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5qCH562+Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibGFiZWwtYXJlYSI+CiAgICAgICAgICAgICAgPGVsLXRhZwogICAgICAgICAgICAgICAgdi1mb3I9ImxhYmVsIGluIGZvcm0ubGFiZWxzIgogICAgICAgICAgICAgICAgOmtleT0ibGFiZWwiCiAgICAgICAgICAgICAgICBjbG9zYWJsZQogICAgICAgICAgICAgICAgQGNsb3NlPSJyZW1vdmVMYWJlbChsYWJlbCkiCiAgICAgICAgICAgICAgPnt7IGxhYmVsIH19PC9lbC10YWc+CiAgICAgICAgICAgICAgPGVsLWlucHV0CiAgICAgICAgICAgICAgICB2LW1vZGVsPSJsYWJlbElucHV0IgogICAgICAgICAgICAgICAgc2l6ZT0ic21hbGwiCiAgICAgICAgICAgICAgICBzdHlsZT0id2lkdGg6IDEyMHB4IgogICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9Iua3u+WKoOagh+etviIKICAgICAgICAgICAgICAgIEBrZXl1cC5lbnRlcj0iYWRkTGFiZWwiCiAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IuS7u+WKoeWIhue7hCI+CiAgICAgICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJmb3JtLmdyb3VwX25hbWUiIHBsYWNlaG9sZGVyPSLkvovlpoIg5Lqs5LicIC8g5pel5bi4IC8g5Lit5Zu96IGU6YCaIiAvPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgPC9lbC1mb3JtPgogICAgICA8L2VsLXRhYi1wYW5lPgoKICAgICAgPGVsLXRhYi1wYW5lIGxhYmVsPSLpq5jnuqforr7nva4iIG5hbWU9ImFkdmFuY2VkIj4KICAgICAgICA8ZWwtZm9ybSA6bW9kZWw9ImZvcm0iIDpsYWJlbC13aWR0aD0iZGlhbG9nRnVsbHNjcmVlbiA/ICdhdXRvJyA6ICcxMjBweCciIDpsYWJlbC1wb3NpdGlvbj0iZGlhbG9nRnVsbHNjcmVlbiA/ICd0b3AnIDogJ3JpZ2h0JyI+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLotoXml7Yo56eSKSI+CiAgICAgICAgICAgIDxlbC1pbnB1dC1udW1iZXIgdi1tb2RlbD0iZm9ybS50aW1lb3V0IiA6bWluPSIwIiA6bWF4PSI2MDQ4MDAiIC8+CiAgICAgICAgICAgIDxkaXYgdi1pZj0iZm9ybS50aW1lb3V0ID09PSAwIiBzdHlsZT0iZm9udC1zaXplOiAxMXB4OyBjb2xvcjogdmFyKC0tZWwtY29sb3Itd2FybmluZyk7IG1hcmdpbi10b3A6IDRweCI+CiAgICAgICAgICAgICAg6K6+572u5Li6IDAg6KGo56S65rC45LiN6LaF5pe277yM5Lu75Yqh5bCG5oyB57ut6L+Q6KGM55u05Yiw5omL5Yqo5YGc5q2i5oiW5a6a5pe25YGc5q2i44CCCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLmiJDlip/pgIDlh7rnoIEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJhZHZhbmNlZC1maWVsZC1ibG9jayI+CiAgICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9ImZvcm0uc3VjY2Vzc19leGl0X2NvZGVzIiBtYXhsZW5ndGg9IjEyOCIgcGxhY2Vob2xkZXI9IjAiIC8+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iYWR2YW5jZWQtZmllbGQtaGludCI+CiAgICAgICAgICAgICAgICDmma7pgJrku7vliqHkv53mjIEgMOOAguWPquacieiEmuacrOS4muWKoeaIkOWKn+S9huWbuuWumui/lOWbniAxIOaXtuaJjeWhq+WGmSAwLDHvvJvotoXml7bjgIHlkK/liqjplJnor6/lkozkuLvliqjlgZzmraLkuI3kvJrlm6DmraTlj5jmiJDmiJDlip/jgIIKICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Iumaj+acuuW7tui/nyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImFkdmFuY2VkLWZpZWxkLWJsb2NrIj4KICAgICAgICAgICAgICA8ZWwtcmFkaW8tZ3JvdXAgdi1tb2RlbD0icmFuZG9tRGVsYXlNb2RlIj4KICAgICAgICAgICAgICAgIDxlbC1yYWRpbyB2YWx1ZT0iaW5oZXJpdCI+57un5om/57O757uf6K6+572uPC9lbC1yYWRpbz4KICAgICAgICAgICAgICAgIDxlbC1yYWRpbyB2YWx1ZT0iZGlzYWJsZWQiPuS4jemaj+acuuW7tui/nzwvZWwtcmFkaW8+CiAgICAgICAgICAgICAgICA8ZWwtcmFkaW8gdmFsdWU9ImN1c3RvbSI+5Lu75Yqh5Y2V54us6K6+572uPC9lbC1yYWRpbz4KICAgICAgICAgICAgICA8L2VsLXJhZGlvLWdyb3VwPgogICAgICAgICAgICAgIDxkaXYgdi1pZj0icmFuZG9tRGVsYXlNb2RlID09PSAnY3VzdG9tJyIgY2xhc3M9ImFkdmFuY2VkLWlubGluZS1pbnB1dCI+CiAgICAgICAgICAgICAgICA8ZWwtaW5wdXQtbnVtYmVyIHYtbW9kZWw9ImZvcm0ucmFuZG9tX2RlbGF5X3NlY29uZHMiIDptaW49IjEiIDptYXg9Ijg2NDAwIiAvPgogICAgICAgICAgICAgICAgPHNwYW4+56eSPC9zcGFuPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9ImFkdmFuY2VkLWZpZWxkLWhpbnQiPgogICAgICAgICAgICAgICAg5LuF5b2T5YmN5Lu75Yqh55Sf5pWI44CC5pyq5Y2V54us6K6+572u5pe257un57ut5rK/55So57O757uf6K6+572u6YeM55qE5YWo5bGA6ZqP5py65bu26L+f77yb6K6+572u5Li64oCc5LiN6ZqP5py65bu26L+f4oCd5Y+v5piO56Gu6Lez6L+H5YWo5bGA6KeE5YiZ44CCCiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLmnIDlpKfph43or5XmrKHmlbAiPgogICAgICAgICAgICA8ZWwtaW5wdXQtbnVtYmVyIHYtbW9kZWw9ImZvcm0ubWF4X3JldHJpZXMiIDptaW49IjAiIDptYXg9IjEwIiAvPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLph43or5Xpl7TpmpQo56eSKSI+CiAgICAgICAgICAgIDxlbC1pbnB1dC1udW1iZXIgdi1tb2RlbD0iZm9ybS5yZXRyeV9pbnRlcnZhbCIgOm1pbj0iMCIgOm1heD0iMzYwMCIgLz4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5L6d6LWW5Lu75YqhSUQiPgogICAgICAgICAgICA8ZWwtaW5wdXQtbnVtYmVyIHYtbW9kZWw9ImZvcm0uZGVwZW5kc19vbiIgOm1pbj0iMCIgY29udHJvbHMtcG9zaXRpb249InJpZ2h0IiBwbGFjZWhvbGRlcj0i5Y+v6YCJIiAvPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLlpLHotKXml7bpgJrnn6UiPgogICAgICAgICAgICA8ZWwtc3dpdGNoIHYtbW9kZWw9ImZvcm0ubm90aWZ5X29uX2ZhaWx1cmUiIC8+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IuaIkOWKn+aXtumAmuefpSI+CiAgICAgICAgICAgIDxlbC1zd2l0Y2ggdi1tb2RlbD0iZm9ybS5ub3RpZnlfb25fc3VjY2VzcyIgLz4KICAgICAgICAgICAgPHNwYW4gc3R5bGU9ImZvbnQtc2l6ZTogMTJweDsgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsgbWFyZ2luLWxlZnQ6IDhweCI+5Lu75Yqh5omn6KGM5oiQ5Yqf5ZCO5Y+R6YCB6YCa55+lPC9zcGFuPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLpgJrnn6XmuKDpgZMiPgogICAgICAgICAgICA8ZGl2IHN0eWxlPSJ3aWR0aDogMTAwJSI+CiAgICAgICAgICAgICAgPGVsLXNlbGVjdAogICAgICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS5ub3RpZmljYXRpb25fY2hhbm5lbF9pZCIKICAgICAgICAgICAgICAgIGNsZWFyYWJsZQogICAgICAgICAgICAgICAgZmlsdGVyYWJsZQogICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IueVmeepuuWImeWPkemAgeWIsOWFqOmDqOWQr+eUqOa4oOmBkyIKICAgICAgICAgICAgICAgIHN0eWxlPSJ3aWR0aDogMTAwJSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZWwtb3B0aW9uCiAgICAgICAgICAgICAgICAgIHYtZm9yPSJjaGFubmVsIGluIChwcm9wcy5ub3RpZmljYXRpb25DaGFubmVscyB8fCBbXSkiCiAgICAgICAgICAgICAgICAgIDprZXk9ImNoYW5uZWwuaWQiCiAgICAgICAgICAgICAgICAgIDpsYWJlbD0iY2hhbm5lbC5lbmFibGVkID8gYCR7Y2hhbm5lbC5uYW1lfSAoJHtjaGFubmVsLnR5cGV9KWAgOiBgJHtjaGFubmVsLm5hbWV9ICgke2NoYW5uZWwudHlwZX3vvIzlt7LnpoHnlKgpYCIKICAgICAgICAgICAgICAgICAgOnZhbHVlPSJjaGFubmVsLmlkIgogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgICAgICAgICA8ZGl2IHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7IG1hcmdpbi10b3A6IDRweCI+CiAgICAgICAgICAgICAgICDlj6/nu5HlrprljZXkuKrpgJrnn6XmuKDpgZPvvJvnlZnnqbrml7bku43mjInlhajpg6jlt7LlkK/nlKjmuKDpgZPlj5HpgIHjgIIKICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Iue7iOatouaXtumAmuefpSI+CiAgICAgICAgICAgIDxlbC1zd2l0Y2ggdi1tb2RlbD0iZm9ybS5ub3RpZnlfb25fYWJvcnQiIC8+CiAgICAgICAgICAgIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7IG1hcmdpbi1sZWZ0OiA4cHgiPuS7u+WKoeiiq+aJi+WKqOWBnOatouaIluWumuaXtuWBnOatouWQjuWPkemAgee7iOatoumAmuefpe+8m+e7iOatoueKtuaAgeS8muWNleeLrOe7n+iuoe+8jOS4jeWGjeeul+aIkOWKn+aIluWksei0peOAgjwvc3Bhbj4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5YWB6K645aSa5a6e5L6LIj4KICAgICAgICAgICAgPGVsLXN3aXRjaCB2LW1vZGVsPSJmb3JtLmFsbG93X211bHRpcGxlX2luc3RhbmNlcyIgLz4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgIDwvZWwtZm9ybT4KICAgICAgPC9lbC10YWItcGFuZT4KCiAgICAgIDxlbC10YWItcGFuZSBsYWJlbD0i5YmN5ZCO572u6ISa5pysIiBuYW1lPSJob29rcyI+CiAgICAgICAgPGVsLWZvcm0gOm1vZGVsPSJmb3JtIiA6bGFiZWwtd2lkdGg9ImRpYWxvZ0Z1bGxzY3JlZW4gPyAnYXV0bycgOiAnMTAwcHgnIiA6bGFiZWwtcG9zaXRpb249ImRpYWxvZ0Z1bGxzY3JlZW4gPyAndG9wJyA6ICdyaWdodCciPgogICAgICAgICAgPGRpdiBjbGFzcz0iaG9va3MtaGVscCI+CiAgICAgICAgICAgIOW9k+WJjeS7u+WKoeS4k+WxnueahCBzaGVsbCDohJrmnKzjgILliY3nva7ohJrmnKzkvJrlnKjnm67moIfohJrmnKzmiafooYzliY3ov5DooYzvvIzlkI7nva7ohJrmnKzkvJrlnKjnm67moIfohJrmnKznu5PmnZ/lkI7ov5DooYzvvJvlpoLmnpzku7vliqHlkb3ku6TkvKDlhaXkuoblj4LmlbDvvIzov5nph4zkuZ/lj6/ku6XpgJrov4cgJDHjgIEkMiDnrYnor7vlj5blkIzkuIDku73lj4LmlbDjgIIKICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5YmN572u6ISa5pysIj4KICAgICAgICAgICAgPGVsLWlucHV0CiAgICAgICAgICAgICAgdi1tb2RlbD0iZm9ybS50YXNrX2JlZm9yZSIKICAgICAgICAgICAgICB0eXBlPSJ0ZXh0YXJlYSIKICAgICAgICAgICAgICA6cm93cz0iNCIKICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i5Lu75Yqh5omn6KGM5YmN6L+Q6KGM77yM5L6L5aaC6K6+572u5Luj55CG44CB5YeG5aSH546v5aKD5Y+Y6YeP44CB5Yib5bu65Li05pe255uu5b2V77yb5Y+v55SoICQx44CBJDIg6K+75Y+W5Lu75Yqh5Y+C5pWwIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLlkI7nva7ohJrmnKwiPgogICAgICAgICAgICA8ZWwtaW5wdXQKICAgICAgICAgICAgICB2LW1vZGVsPSJmb3JtLnRhc2tfYWZ0ZXIiCiAgICAgICAgICAgICAgdHlwZT0idGV4dGFyZWEiCiAgICAgICAgICAgICAgOnJvd3M9IjQiCiAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IuS7u+WKoeaJp+ihjOWQjui/kOihjO+8jOS+i+Wmgua4heeQhuS4tOaXtuaWh+S7tuOAgei+k+WHuuaUtuWwvuaXpeW/l+OAgeaBouWkjeeOr+Wig++8m+WPr+eUqCAkMeOAgSQyIOivu+WPluS7u+WKoeWPguaVsCIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICAgIDwvZWwtZm9ybT4KICAgICAgPC9lbC10YWItcGFuZT4KICAgIDwvZWwtdGFicz4KCiAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgPGVsLWJ1dHRvbiBAY2xpY2s9ImVtaXQoJ3VwZGF0ZTp2aXNpYmxlJywgZmFsc2UpIj7lj5bmtog8L2VsLWJ1dHRvbj4KICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJwcmltYXJ5IiBAY2xpY2s9ImhhbmRsZVN1Ym1pdCI+e3sgdGFzayA/ICfmm7TmlrAnIDogJ+WIm+W7uicgfX08L2VsLWJ1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgoubGFiZWwtYXJlYSB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LXdyYXA6IHdyYXA7CiAgZ2FwOiA2cHg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKfQoKLmFkdmFuY2VkLWZpZWxkLWJsb2NrIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgZ2FwOiAxMHB4OwogIHdpZHRoOiAxMDAlOwp9CgouYWR2YW5jZWQtaW5saW5lLWlucHV0IHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA4cHg7Cn0KCi5hZHZhbmNlZC1maWVsZC1oaW50IHsKICBmb250LXNpemU6IDEycHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBsaW5lLWhlaWdodDogMS42Owp9CgouaG9va3MtaGVscCB7CiAgbWFyZ2luOiAwIDAgMTRweDsKICBwYWRkaW5nOiAxMHB4IDEycHg7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwogIGJvcmRlci1yYWRpdXM6IDhweDsKICBiYWNrZ3JvdW5kOiB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0ZXIpOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXJlZ3VsYXIpOwogIGZvbnQtc2l6ZTogMTNweDsKICBsaW5lLWhlaWdodDogMS43Owp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAubGFiZWwtYXJlYSB7CiAgICBhbGlnbi1pdGVtczogc3RyZXRjaDsKICB9CgogIC5hZHZhbmNlZC1pbmxpbmUtaW5wdXQgewogICAgZmxleC13cmFwOiB3cmFwOwogIH0KfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import { computed, ref, watch } from 'vue'
+import { ElMessage } from 'element-plus'
+import CronInput from './CronInput.vue'
+import StopScheduleInput from './StopScheduleInput.vue'
+import { mergeTaskLabels, splitTaskLabels } from '../taskLabels'
+import { useResponsive } from '@/composables/useResponsive'
+import type { PythonRuntimeInfo } from '@/api/deps'
+
+const props = defineProps<{
+  visible: boolean
+  task?: any
+  prefill?: any
+  defaultPythonVersion?: string
+  pythonRuntimes?: PythonRuntimeInfo[]
+  notificationChannels?: { id: number; name: string; type: string; enabled: boolean }[]
+}>()
+
+const emit = defineEmits<{
+  'update:visible': [value: boolean]
+  'submit': [data: any]
+}>()
+
+const form = ref({
+  name: '',
+  command: '',
+  python_version: '3.12',
+  cron_expression: '0 0 * * *',
+  task_type: 'cron',
+  timeout: 0,
+  success_exit_codes: '0',
+  random_delay_seconds: null as number | null,
+  max_retries: 0,
+  retry_interval: 60,
+  notify_on_failure: false,
+  notify_on_success: false,
+  notification_channel_id: null as number | null,
+  labels: [] as string[],
+  depends_on: null as number | null,
+  task_before: '',
+  task_after: '',
+  allow_multiple_instances: false,
+  stop_schedule: '',
+  notify_on_abort: false,
+  group_name: '',
+})
+
+const labelInput = ref('')
+const activeTab = ref('basic')
+const internalLabels = ref<string[]>([])
+const randomDelayMode = ref<'inherit' | 'disabled' | 'custom'>('inherit')
+const { dialogFullscreen } = useResponsive()
+const allPythonVersions = ['3.10', '3.11', '3.12']
+
+// Python 版本下拉选项：带上后端算好的 available/message，
+// 未安装版本仍展示但会被标注/禁用，避免任务默认或误选到本机不存在的解释器。
+const pythonVersionOptions = computed(() => {
+  const runtimes = (props.pythonRuntimes || [])
+    .filter(item => allPythonVersions.includes(item.version))
+    .map(item => ({ version: item.version, available: item.available, message: item.message }))
+  // 后端未返回运行时信息时退回全量候选，且默认视为可用（无从判断可用性）
+  return runtimes.length > 0
+    ? runtimes
+    : allPythonVersions.map(version => ({ version, available: true, message: '' }))
+})
+
+// 当前选中版本若未安装，展示后端给的提示，让用户知道该版本不可用及如何处理
+const selectedPythonRuntimeMessage = computed(() => {
+  const current = pythonVersionOptions.value.find(item => item.version === form.value.python_version)
+  return current && !current.available ? current.message : ''
+})
+
+function getDefaultPythonVersion() {
+  // 默认值优先落在已安装（available）的版本上，不要默认到未安装版本；
+  // 单版本 Docker 镜像也只会返回当前镜像支持的小版本。
+  const options = pythonVersionOptions.value
+  const preferred = props.defaultPythonVersion || ''
+  const defaultOption = options.find(item => item.version === preferred)
+  if (defaultOption?.available) return defaultOption.version
+  const firstAvailable = options.find(item => item.available)
+  if (firstAvailable) return firstAvailable.version
+  // 全部未安装时退回后端默认/首个候选
+  return defaultOption?.version || options[0]?.version || preferred || '3.12'
+}
+
+watch(() => props.visible, (val) => {
+  if (val && props.task) {
+    const { editableLabels, internalLabels: hiddenLabels, groupName } = splitTaskLabels(props.task.labels || [])
+    internalLabels.value = hiddenLabels
+    const taskRandomDelay = typeof props.task.random_delay_seconds === 'number'
+      ? props.task.random_delay_seconds
+      : props.task.random_delay_seconds == null
+        ? null
+        : Number(props.task.random_delay_seconds)
+    if (taskRandomDelay == null) {
+      randomDelayMode.value = 'inherit'
+    } else if (taskRandomDelay <= 0) {
+      randomDelayMode.value = 'disabled'
+    } else {
+      randomDelayMode.value = 'custom'
+    }
+    form.value = {
+      name: props.task.name || '',
+      command: props.task.command || '',
+      python_version: props.task.python_version || getDefaultPythonVersion(),
+      cron_expression: props.task.cron_expression || '* * * * *',
+      task_type: props.task.task_type || 'cron',
+      timeout: props.task.timeout ?? 0,
+      success_exit_codes: props.task.success_exit_codes || '0',
+      random_delay_seconds: taskRandomDelay,
+      max_retries: props.task.max_retries ?? 0,
+      retry_interval: props.task.retry_interval ?? 60,
+      notify_on_failure: props.task.notify_on_failure ?? false,
+      notify_on_success: props.task.notify_on_success ?? false,
+      notification_channel_id: props.task.notification_channel_id ?? null,
+      labels: editableLabels,
+      group_name: groupName,
+      depends_on: props.task.depends_on || null,
+      task_before: props.task.task_before || '',
+      task_after: props.task.task_after || '',
+      allow_multiple_instances: props.task.allow_multiple_instances ?? false,
+      stop_schedule: props.task.stop_schedule || '',
+      notify_on_abort: props.task.notify_on_abort ?? false,
+    }
+  } else if (val) {
+    const p = props.prefill
+    internalLabels.value = []
+    randomDelayMode.value = 'inherit'
+    form.value = {
+      name: p?.name || '', command: p?.command || '',
+      python_version: p?.python_version || getDefaultPythonVersion(),
+      cron_expression: p?.cron_expression || '* * * * *',
+      task_type: p?.task_type || 'cron',
+      timeout: 0, success_exit_codes: '0', random_delay_seconds: null, max_retries: 0, retry_interval: 60,
+      notify_on_failure: false, notify_on_success: false, notification_channel_id: null, labels: [], depends_on: null,
+      task_before: '', task_after: '', allow_multiple_instances: false, group_name: '', stop_schedule: '', notify_on_abort: false,
+    }
+  }
+  activeTab.value = 'basic'
+})
+
+// 后端默认版本或运行时可用性变化时，若正在新建任务则重新计算默认 Python 版本
+watch([() => props.defaultPythonVersion, () => props.pythonRuntimes], () => {
+  if (props.visible && !props.task && !props.prefill?.python_version) {
+    form.value.python_version = getDefaultPythonVersion()
+  }
+})
+
+watch(() => form.value.task_type, (value) => {
+  if (value === 'cron' && !form.value.cron_expression) {
+    form.value.cron_expression = '0 0 * * *'
+  }
+})
+
+watch(randomDelayMode, (mode) => {
+  if (mode === 'inherit') {
+    form.value.random_delay_seconds = null
+    return
+  }
+  if (mode === 'disabled') {
+    form.value.random_delay_seconds = 0
+    return
+  }
+  if (form.value.random_delay_seconds == null || form.value.random_delay_seconds <= 0) {
+    form.value.random_delay_seconds = 60
+  }
+})
+
+function addLabel() {
+  const val = labelInput.value.trim()
+  if (val && !form.value.labels.includes(val)) {
+    form.value.labels.push(val)
+  }
+  labelInput.value = ''
+}
+
+function removeLabel(label: string) {
+  form.value.labels = form.value.labels.filter(l => l !== label)
+}
+
+function handleSubmit() {
+  if (!form.value.name || !form.value.command) {
+    ElMessage.warning('请填写任务名称和执行命令')
+    return
+  }
+  if (randomDelayMode.value === 'custom') {
+    if (form.value.random_delay_seconds == null || form.value.random_delay_seconds <= 0) {
+      ElMessage.warning('请输入大于 0 的随机延迟秒数')
+      return
+    }
+  }
+  const successExitCodes = form.value.success_exit_codes
+    .trim()
+    .split(/[,，\s]+/)
+    .filter(Boolean)
+  if (successExitCodes.length === 0 || successExitCodes.some(code => !/^\d+$/.test(code) || Number(code) > 255)) {
+    ElMessage.warning('成功退出码只能填写 0-255 的整数，多个值请用逗号分隔')
+    return
+  }
+  const data = { ...form.value }
+  // 提交前统一为英文逗号并去重，后端仍会再次校验，避免异常数据写入数据库。
+  data.success_exit_codes = [...new Set(successExitCodes.map(code => String(Number(code))))].join(',')
+  if (data.task_type === 'cron') {
+    if (!data.cron_expression) return
+  } else {
+    data.cron_expression = ''
+  }
+  data.labels = mergeTaskLabels(form.value.labels, internalLabels.value, form.value.group_name)
+  if (!data.task_before) data.task_before = ''
+  if (!data.task_after) data.task_after = ''
+  emit('submit', data)
+}
+</script>
+
+<template>
+  <el-dialog
+    :model-value="visible"
+    :title="task ? '编辑任务' : '新建任务'"
+    width="640px"
+    :fullscreen="dialogFullscreen"
+    :lock-scroll="false"
+    destroy-on-close
+    @update:model-value="emit('update:visible', $event)"
+  >
+    <el-tabs v-model="activeTab">
+      <el-tab-pane label="基本信息" name="basic">
+        <el-form :model="form" :label-width="dialogFullscreen ? 'auto' : '100px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+          <el-form-item label="任务名称" required>
+            <el-input v-model="form.name" placeholder="任务名称" />
+          </el-form-item>
+          <el-form-item label="执行命令" required>
+            <el-input v-model="form.command" placeholder="如: script.py 或 python3 script.py" />
+            <div style="font-size: 12px; color: var(--el-text-color-secondary); margin-top: 4px">
+              支持 task 脚本名 格式,自动根据扩展名选择解释器 (.py/.js/.ts/.sh)
+            </div>
+          </el-form-item>
+          <el-form-item label="Python版本">
+            <el-select v-model="form.python_version" style="width: 100%">
+              <el-option
+                v-for="option in pythonVersionOptions"
+                :key="option.version"
+                :label="option.available ? `Python ${option.version}` : `Python ${option.version}（未安装）`"
+                :value="option.version"
+                :disabled="!option.available"
+              />
+            </el-select>
+            <div
+              v-if="selectedPythonRuntimeMessage"
+              style="font-size: 12px; color: var(--el-color-warning); margin-top: 4px"
+            >
+              {{ selectedPythonRuntimeMessage }}
+            </div>
+          </el-form-item>
+          <el-form-item label="定时类型" required>
+            <el-select v-model="form.task_type" style="width: 100%">
+              <el-option label="常规定时" value="cron" />
+              <el-option label="手动运行" value="manual" />
+              <el-option label="开机运行" value="startup" />
+            </el-select>
+          </el-form-item>
+          <el-form-item v-if="form.task_type === 'cron'" label="定时规则" required>
+            <CronInput v-model="form.cron_expression" />
+          </el-form-item>
+          <el-form-item v-if="form.task_type === 'cron'" label="定时停止">
+            <StopScheduleInput v-model="form.stop_schedule" />
+          </el-form-item>
+          <el-form-item v-else label="执行说明">
+            <div style="font-size: 12px; color: var(--el-text-color-secondary); line-height: 1.7">
+              <template v-if="form.task_type === 'manual'">
+                不自动调度，仅在你手动点击“运行”或批量运行时执行。
+              </template>
+              <template v-else>
+                每天首次启动面板时自动执行一次；当天再次重启不会重复自动执行，手动点击“运行”不受限制。
+              </template>
+            </div>
+          </el-form-item>
+          <el-form-item label="标签">
+            <div class="label-area">
+              <el-tag
+                v-for="label in form.labels"
+                :key="label"
+                closable
+                @close="removeLabel(label)"
+              >{{ label }}</el-tag>
+              <el-input
+                v-model="labelInput"
+                size="small"
+                style="width: 120px"
+                placeholder="添加标签"
+                @keyup.enter="addLabel"
+              />
+            </div>
+          </el-form-item>
+          <el-form-item label="任务分组">
+            <el-input v-model="form.group_name" placeholder="例如 京东 / 日常 / 中国联通" />
+          </el-form-item>
+        </el-form>
+      </el-tab-pane>
+
+      <el-tab-pane label="高级设置" name="advanced">
+        <el-form :model="form" :label-width="dialogFullscreen ? 'auto' : '120px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+          <el-form-item label="超时(秒)">
+            <el-input-number v-model="form.timeout" :min="0" :max="604800" />
+            <div v-if="form.timeout === 0" style="font-size: 11px; color: var(--el-color-warning); margin-top: 4px">
+              设置为 0 表示永不超时，任务将持续运行直到手动停止或定时停止。
+            </div>
+          </el-form-item>
+          <el-form-item label="成功退出码">
+            <div class="advanced-field-block">
+              <el-input v-model="form.success_exit_codes" maxlength="128" placeholder="0" />
+              <div class="advanced-field-hint">
+                普通任务保持 0。只有脚本业务成功但固定返回 1 时才填写 0,1；超时、启动错误和主动停止不会因此变成成功。
+              </div>
+            </div>
+          </el-form-item>
+          <el-form-item label="随机延迟">
+            <div class="advanced-field-block">
+              <el-radio-group v-model="randomDelayMode">
+                <el-radio value="inherit">继承系统设置</el-radio>
+                <el-radio value="disabled">不随机延迟</el-radio>
+                <el-radio value="custom">任务单独设置</el-radio>
+              </el-radio-group>
+              <div v-if="randomDelayMode === 'custom'" class="advanced-inline-input">
+                <el-input-number v-model="form.random_delay_seconds" :min="1" :max="86400" />
+                <span>秒</span>
+              </div>
+              <div class="advanced-field-hint">
+                仅当前任务生效。未单独设置时继续沿用系统设置里的全局随机延迟；设置为“不随机延迟”可明确跳过全局规则。
+              </div>
+            </div>
+          </el-form-item>
+          <el-form-item label="最大重试次数">
+            <el-input-number v-model="form.max_retries" :min="0" :max="10" />
+          </el-form-item>
+          <el-form-item label="重试间隔(秒)">
+            <el-input-number v-model="form.retry_interval" :min="0" :max="3600" />
+          </el-form-item>
+          <el-form-item label="依赖任务ID">
+            <el-input-number v-model="form.depends_on" :min="0" controls-position="right" placeholder="可选" />
+          </el-form-item>
+          <el-form-item label="失败时通知">
+            <el-switch v-model="form.notify_on_failure" />
+          </el-form-item>
+          <el-form-item label="成功时通知">
+            <el-switch v-model="form.notify_on_success" />
+            <span style="font-size: 12px; color: var(--el-text-color-secondary); margin-left: 8px">任务执行成功后发送通知</span>
+          </el-form-item>
+          <el-form-item label="通知渠道">
+            <div style="width: 100%">
+              <el-select
+                v-model="form.notification_channel_id"
+                clearable
+                filterable
+                placeholder="留空则发送到全部启用渠道"
+                style="width: 100%"
+              >
+                <el-option
+                  v-for="channel in (props.notificationChannels || [])"
+                  :key="channel.id"
+                  :label="channel.enabled ? `${channel.name} (${channel.type})` : `${channel.name} (${channel.type}，已禁用)`"
+                  :value="channel.id"
+                />
+              </el-select>
+              <div style="font-size: 12px; color: var(--el-text-color-secondary); margin-top: 4px">
+                可绑定单个通知渠道；留空时仍按全部已启用渠道发送。
+              </div>
+            </div>
+          </el-form-item>
+          <el-form-item label="终止时通知">
+            <el-switch v-model="form.notify_on_abort" />
+            <span style="font-size: 12px; color: var(--el-text-color-secondary); margin-left: 8px">任务被手动停止或定时停止后发送终止通知；终止状态会单独统计，不再算成功或失败。</span>
+          </el-form-item>
+          <el-form-item label="允许多实例">
+            <el-switch v-model="form.allow_multiple_instances" />
+          </el-form-item>
+        </el-form>
+      </el-tab-pane>
+
+      <el-tab-pane label="前后置脚本" name="hooks">
+        <el-form :model="form" :label-width="dialogFullscreen ? 'auto' : '100px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+          <div class="hooks-help">
+            当前任务专属的 shell 脚本。前置脚本会在目标脚本执行前运行，后置脚本会在目标脚本结束后运行；如果任务命令传入了参数，这里也可以通过 $1、$2 等读取同一份参数。
+          </div>
+          <el-form-item label="前置脚本">
+            <el-input
+              v-model="form.task_before"
+              type="textarea"
+              :rows="4"
+              placeholder="任务执行前运行，例如设置代理、准备环境变量、创建临时目录；可用 $1、$2 读取任务参数"
+            />
+          </el-form-item>
+          <el-form-item label="后置脚本">
+            <el-input
+              v-model="form.task_after"
+              type="textarea"
+              :rows="4"
+              placeholder="任务执行后运行，例如清理临时文件、输出收尾日志、恢复环境；可用 $1、$2 读取任务参数"
+            />
+          </el-form-item>
+        </el-form>
+      </el-tab-pane>
+    </el-tabs>
+
+    <template #footer>
+      <el-button @click="emit('update:visible', false)">取消</el-button>
+      <el-button type="primary" @click="handleSubmit">{{ task ? '更新' : '创建' }}</el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+.label-area {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.advanced-field-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.advanced-inline-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.advanced-field-hint {
+  font-size: 12px;
+  color: var(--el-text-color-secondary);
+  line-height: 1.6;
+}
+
+.hooks-help {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border: 1px solid var(--el-border-color-lighter);
+  border-radius: 8px;
+  background: var(--el-fill-color-lighter);
+  color: var(--el-text-color-regular);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+@media (max-width: 768px) {
+  .label-area {
+    align-items: stretch;
+  }
+
+  .advanced-inline-input {
+    flex-wrap: wrap;
+  }
+}
+</style>

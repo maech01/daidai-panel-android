@@ -1,1 +1,338 @@
-aW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJwppbXBvcnQgeyBjb25maWdBcGkgfSBmcm9tICdAL2FwaS9zeXN0ZW0nCmltcG9ydCB7IEVsTWVzc2FnZSB9IGZyb20gJ2VsZW1lbnQtcGx1cycKaW1wb3J0IHsgYXBwbHlQYW5lbEFwcGVhcmFuY2UgfSBmcm9tICdAL3V0aWxzL3BhbmVsQXBwZWFyYW5jZScKaW1wb3J0IHR5cGUgeyBTZXR0aW5nc0NvbmZpZ0Zvcm0gfSBmcm9tICcuL3R5cGVzJwoKY29uc3QgbG9nQmFja2dyb3VuZEltYWdlTWF4Qnl0ZXMgPSAxMCAqIDEwMjQgKiAxMDI0CmNvbnN0IGxvZ0JhY2tncm91bmRJbWFnZVRhcmdldERhdGFVcmxCeXRlcyA9IDE2MDAgKiAxMDI0CmNvbnN0IGxvZ0JhY2tncm91bmRJbWFnZU1heERpbWVuc2lvbnMgPSBbMTkyMCwgMTYwMCwgMTI4MCwgMTAyNCwgOTAwLCA3NjgsIDY0MF0KY29uc3QgbG9nQmFja2dyb3VuZEltYWdlUXVhbGl0aWVzID0gWzAuODIsIDAuNzIsIDAuNjIsIDAuNTIsIDAuNDIsIDAuMzQsIDAuMjhdCgpmdW5jdGlvbiBnZXRUZXh0Qnl0ZXModmFsdWU6IHN0cmluZykgewogIHJldHVybiBuZXcgQmxvYihbdmFsdWVdKS5zaXplCn0KCmZ1bmN0aW9uIHJlYWRGaWxlQXNEYXRhVVJMKGZpbGU6IEZpbGUpOiBQcm9taXNlPHN0cmluZz4gewogIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICBjb25zdCByZWFkZXIgPSBuZXcgRmlsZVJlYWRlcigpCiAgICByZWFkZXIub25sb2FkID0gKCkgPT4gcmVzb2x2ZShTdHJpbmcocmVhZGVyLnJlc3VsdCB8fCAnJykpCiAgICByZWFkZXIub25lcnJvciA9ICgpID0+IHJlamVjdChyZWFkZXIuZXJyb3IgfHwgbmV3IEVycm9yKCdyZWFkIGZhaWxlZCcpKQogICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoZmlsZSkKICB9KQp9CgpmdW5jdGlvbiBsb2FkSW1hZ2UoZGF0YVVybDogc3RyaW5nKTogUHJvbWlzZTxIVE1MSW1hZ2VFbGVtZW50PiB7CiAgcmV0dXJuIG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgIGNvbnN0IGltYWdlID0gbmV3IEltYWdlKCkKICAgIGltYWdlLm9ubG9hZCA9ICgpID0+IHJlc29sdmUoaW1hZ2UpCiAgICBpbWFnZS5vbmVycm9yID0gKCkgPT4gcmVqZWN0KG5ldyBFcnJvcignaW1hZ2UgbG9hZCBmYWlsZWQnKSkKICAgIGltYWdlLnNyYyA9IGRhdGFVcmwKICB9KQp9CgpmdW5jdGlvbiBjYW52YXNUb0RhdGFVUkwoY2FudmFzOiBIVE1MQ2FudmFzRWxlbWVudCwgbWltZVR5cGU6IHN0cmluZywgcXVhbGl0eTogbnVtYmVyKSB7CiAgY29uc3QgZGF0YVVybCA9IGNhbnZhcy50b0RhdGFVUkwobWltZVR5cGUsIHF1YWxpdHkpCiAgaWYgKG1pbWVUeXBlID09PSAnaW1hZ2Uvd2VicCcgJiYgIWRhdGFVcmwuc3RhcnRzV2l0aCgnZGF0YTppbWFnZS93ZWJwJykpIHsKICAgIHJldHVybiBjYW52YXMudG9EYXRhVVJMKCdpbWFnZS9qcGVnJywgcXVhbGl0eSkKICB9CiAgcmV0dXJuIGRhdGFVcmwKfQoKYXN5bmMgZnVuY3Rpb24gY29tcHJlc3NMb2dCYWNrZ3JvdW5kSW1hZ2UoZmlsZTogRmlsZSkgewogIGNvbnN0IG9yaWdpbmFsRGF0YVVybCA9IGF3YWl0IHJlYWRGaWxlQXNEYXRhVVJMKGZpbGUpCiAgaWYgKGdldFRleHRCeXRlcyhvcmlnaW5hbERhdGFVcmwpIDw9IGxvZ0JhY2tncm91bmRJbWFnZVRhcmdldERhdGFVcmxCeXRlcykgewogICAgcmV0dXJuIHsgZGF0YVVybDogb3JpZ2luYWxEYXRhVXJsLCBjb21wcmVzc2VkOiBmYWxzZSB9CiAgfQoKICBjb25zdCBpbWFnZSA9IGF3YWl0IGxvYWRJbWFnZShvcmlnaW5hbERhdGFVcmwpCiAgY29uc3Qgc291cmNlV2lkdGggPSBpbWFnZS5uYXR1cmFsV2lkdGggfHwgaW1hZ2Uud2lkdGgKICBjb25zdCBzb3VyY2VIZWlnaHQgPSBpbWFnZS5uYXR1cmFsSGVpZ2h0IHx8IGltYWdlLmhlaWdodAogIGlmICghc291cmNlV2lkdGggfHwgIXNvdXJjZUhlaWdodCkgewogICAgdGhyb3cgbmV3IEVycm9yKCdpbnZhbGlkIGltYWdlJykKICB9CgogIGZvciAoY29uc3QgbWF4RGltZW5zaW9uIG9mIGxvZ0JhY2tncm91bmRJbWFnZU1heERpbWVuc2lvbnMpIHsKICAgIGNvbnN0IHNjYWxlID0gTWF0aC5taW4oMSwgbWF4RGltZW5zaW9uIC8gTWF0aC5tYXgoc291cmNlV2lkdGgsIHNvdXJjZUhlaWdodCkpCiAgICBjb25zdCB3aWR0aCA9IE1hdGgubWF4KDEsIE1hdGgucm91bmQoc291cmNlV2lkdGggKiBzY2FsZSkpCiAgICBjb25zdCBoZWlnaHQgPSBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKHNvdXJjZUhlaWdodCAqIHNjYWxlKSkKICAgIGNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2NhbnZhcycpCiAgICBjYW52YXMud2lkdGggPSB3aWR0aAogICAgY2FudmFzLmhlaWdodCA9IGhlaWdodAoKICAgIGNvbnN0IGNvbnRleHQgPSBjYW52YXMuZ2V0Q29udGV4dCgnMmQnLCB7IGFscGhhOiB0cnVlIH0pCiAgICBpZiAoIWNvbnRleHQpIHsKICAgICAgdGhyb3cgbmV3IEVycm9yKCdjYW52YXMgdW5zdXBwb3J0ZWQnKQogICAgfQogICAgY29udGV4dC5jbGVhclJlY3QoMCwgMCwgd2lkdGgsIGhlaWdodCkKICAgIGNvbnRleHQuZHJhd0ltYWdlKGltYWdlLCAwLCAwLCB3aWR0aCwgaGVpZ2h0KQoKICAgIGZvciAoY29uc3QgcXVhbGl0eSBvZiBsb2dCYWNrZ3JvdW5kSW1hZ2VRdWFsaXRpZXMpIHsKICAgICAgY29uc3QgZGF0YVVybCA9IGNhbnZhc1RvRGF0YVVSTChjYW52YXMsICdpbWFnZS93ZWJwJywgcXVhbGl0eSkKICAgICAgY29uc3Qgc2l6ZSA9IGdldFRleHRCeXRlcyhkYXRhVXJsKQogICAgICBpZiAoc2l6ZSA8PSBsb2dCYWNrZ3JvdW5kSW1hZ2VUYXJnZXREYXRhVXJsQnl0ZXMpIHsKICAgICAgICByZXR1cm4geyBkYXRhVXJsLCBjb21wcmVzc2VkOiB0cnVlIH0KICAgICAgfQogICAgfQogIH0KCiAgdGhyb3cgbmV3IEVycm9yKCdjb21wcmVzc2VkIGltYWdlIHRvbyBsYXJnZScpCn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VTZXR0aW5nc0NvbmZpZygpIHsKICAvLyDmraTlvIDlhbPljp/kuLrlip/og73kuIrnur/pl6jmjqfvvIzlvZPliY3lt7Llhajph4/lkK/nlKjvvIjkv53nlZnluLjph4/ku6XlhbzlrrnmtojotLnmlrnvvIkKICBjb25zdCBjYXB0Y2hhRmVhdHVyZUltcGxlbWVudGVkID0gdHJ1ZQogIGNvbnN0IGNvbmZpZ3NMb2FkaW5nID0gcmVmKGZhbHNlKQogIGNvbnN0IGNvbmZpZ3NTYXZpbmcgPSByZWYoZmFsc2UpCgogIGNvbnN0IGNvbmZpZ0Zvcm0gPSByZWY8U2V0dGluZ3NDb25maWdGb3JtPih7CiAgICBtYXhfY29uY3VycmVudF90YXNrczogNSwKICAgIGxvZ19yZXRlbnRpb25fZGF5czogNywKICAgIG1heF9sb2dfY29udGVudF9zaXplOiAxMDI0MDAwMDAsCiAgICByYW5kb21fZGVsYXk6ICcnLAogICAgcmFuZG9tX2RlbGF5X2V4dGVuc2lvbnM6ICcnLAogICAgYXV0b19pbnN0YWxsX2RlcHM6IHRydWUsCiAgICBhdXRvX2FkZF9jcm9uOiB0cnVlLAogICAgYXV0b19kZWxfY3JvbjogdHJ1ZSwKICAgIGRlZmF1bHRfY3Jvbl9ydWxlOiAnJywKICAgIHJlcG9fZmlsZV9leHRlbnNpb25zOiAnJywKICAgIGNwdV93YXJuOiA4MCwKICAgIG1lbW9yeV93YXJuOiA4MCwKICAgIGRpc2tfd2FybjogOTAsCiAgICBub3RpZnlfb25fcmVzb3VyY2Vfd2FybjogZmFsc2UsCiAgICBub3RpZnlfcGFuZWxfbGFiZWw6ICcnLAogICAgbm90aWZ5X29uX2xvZ2luOiBmYWxzZSwKICAgIHByb3h5X3VybDogJycsCiAgICB1cGRhdGVfaW1hZ2VfbWlycm9yOiAnJywKICAgIGJpbmFyeV91cGRhdGVfcHJveHk6ICcnLAogICAgYXV0b191cGRhdGVfZW5hYmxlZDogZmFsc2UsCiAgICB0cnVzdGVkX3Byb3h5X2NpZHJzOiAnJywKICAgIGNhcHRjaGFfZW5hYmxlZDogZmFsc2UsCiAgICBjYXB0Y2hhX2lkOiAnJywKICAgIGNhcHRjaGFfa2V5OiAnJywKICAgIGNhcHRjaGFfZmFpbF9tb2RlOiAnb3BlbicsCiAgICBwYW5lbF90aXRsZTogJycsCiAgICB0aW1lem9uZTogJ0FzaWEvU2hhbmdoYWknLAogICAgcGFuZWxfaWNvbjogJycsCiAgICBlZGl0b3JfYmFja2dyb3VuZF9jb2xvcjogJycsCiAgICBsb2dfYmFja2dyb3VuZF9jb2xvcjogJycsCiAgICBsb2dfYmFja2dyb3VuZF9pbWFnZTogJycsCiAgICBiYWNrdXBfc2NoZWR1bGVfZW5hYmxlZDogZmFsc2UsCiAgICBiYWNrdXBfc2NoZWR1bGVfZnJlcXVlbmN5OiAnZGFpbHknLAogICAgYmFja3VwX3NjaGVkdWxlX3RpbWU6ICcwMzowMCcsCiAgICBiYWNrdXBfc2NoZWR1bGVfd2Vla2RheTogJzEnLAogICAgYmFja3VwX3NjaGVkdWxlX21vbnRoZGF5OiAxLAogICAgYmFja3VwX3NjaGVkdWxlX25hbWU6ICcnLAogICAgYmFja3VwX3NjaGVkdWxlX3Bhc3N3b3JkOiAnJywKICAgIGJhY2t1cF9zY2hlZHVsZV9zZWxlY3Rpb246ICdjb25maWdzLHRhc2tzLHN1YnNjcmlwdGlvbnMsZW52X3ZhcnMsbG9ncyxzY3JpcHRzLGRlcGVuZGVuY2llcyx0YXNrX3ZpZXdzJywKICAgIG1heF93ZWJfc2Vzc2lvbnM6IDEsCiAgICBtYXhfYXBwX3Nlc3Npb25zOiAxCiAgfSkKCiAgZnVuY3Rpb24gcmVhZENvbmZpZ1N0cmluZyhjZmdzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+LCBrZXk6IHN0cmluZywgZmFsbGJhY2sgPSAnJyk6IHN0cmluZyB7CiAgICBjb25zdCBlbnRyeSA9IGNmZ3Nba2V5XQogICAgY29uc3QgcmF3ID0gZW50cnk/LnZhbHVlID8/IGVudHJ5Py5kZWZhdWx0X3ZhbHVlID8/IGZhbGxiYWNrCiAgICBpZiAocmF3ID09PSBudWxsIHx8IHJhdyA9PT0gdW5kZWZpbmVkKSByZXR1cm4gZmFsbGJhY2sKICAgIHJldHVybiBTdHJpbmcocmF3KQogIH0KCiAgZnVuY3Rpb24gcmVhZENvbmZpZ051bWJlcihjZmdzOiBSZWNvcmQ8c3RyaW5nLCBhbnk+LCBrZXk6IHN0cmluZywgZmFsbGJhY2s6IG51bWJlcik6IG51bWJlciB7CiAgICBjb25zdCByYXcgPSByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsIGtleSwgU3RyaW5nKGZhbGxiYWNrKSkKICAgIGNvbnN0IHBhcnNlZCA9IE51bWJlcihyYXcpCiAgICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKHBhcnNlZCkgPyBwYXJzZWQgOiBmYWxsYmFjawogIH0KCiAgZnVuY3Rpb24gcmVhZENvbmZpZ0Jvb2woY2ZnczogUmVjb3JkPHN0cmluZywgYW55Piwga2V5OiBzdHJpbmcsIGZhbGxiYWNrOiBib29sZWFuKTogYm9vbGVhbiB7CiAgICBjb25zdCByYXcgPSByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsIGtleSwgZmFsbGJhY2sgPyAndHJ1ZScgOiAnZmFsc2UnKS50cmltKCkudG9Mb3dlckNhc2UoKQogICAgaWYgKFsndHJ1ZScsICcxJywgJ3llcycsICdvbiddLmluY2x1ZGVzKHJhdykpIHJldHVybiB0cnVlCiAgICBpZiAoWydmYWxzZScsICcwJywgJ25vJywgJ29mZiddLmluY2x1ZGVzKHJhdykpIHJldHVybiBmYWxzZQogICAgcmV0dXJuIGZhbGxiYWNrCiAgfQoKICBhc3luYyBmdW5jdGlvbiBsb2FkU3lzdGVtQ29uZmlncygpIHsKICAgIGNvbmZpZ3NMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgY29uZmlnQXBpLmxpc3QoKQogICAgICBjb25zdCBjZmdzID0gcmVzLmRhdGEgfHwge30KCiAgICAgIGNvbmZpZ0Zvcm0udmFsdWUgPSB7CiAgICAgICAgbWF4X2NvbmN1cnJlbnRfdGFza3M6IHJlYWRDb25maWdOdW1iZXIoY2ZncywgJ21heF9jb25jdXJyZW50X3Rhc2tzJywgNSksCiAgICAgICAgbG9nX3JldGVudGlvbl9kYXlzOiByZWFkQ29uZmlnTnVtYmVyKGNmZ3MsICdsb2dfcmV0ZW50aW9uX2RheXMnLCA3KSwKICAgICAgICBtYXhfbG9nX2NvbnRlbnRfc2l6ZTogcmVhZENvbmZpZ051bWJlcihjZmdzLCAnbWF4X2xvZ19jb250ZW50X3NpemUnLCAxMDI0MDAwMDApLAogICAgICAgIHJhbmRvbV9kZWxheTogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAncmFuZG9tX2RlbGF5JywgJycpLAogICAgICAgIHJhbmRvbV9kZWxheV9leHRlbnNpb25zOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdyYW5kb21fZGVsYXlfZXh0ZW5zaW9ucycsICcnKSwKICAgICAgICBhdXRvX2luc3RhbGxfZGVwczogcmVhZENvbmZpZ0Jvb2woY2ZncywgJ2F1dG9faW5zdGFsbF9kZXBzJywgdHJ1ZSksCiAgICAgICAgYXV0b19hZGRfY3JvbjogcmVhZENvbmZpZ0Jvb2woY2ZncywgJ2F1dG9fYWRkX2Nyb24nLCB0cnVlKSwKICAgICAgICBhdXRvX2RlbF9jcm9uOiByZWFkQ29uZmlnQm9vbChjZmdzLCAnYXV0b19kZWxfY3JvbicsIHRydWUpLAogICAgICAgIGRlZmF1bHRfY3Jvbl9ydWxlOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdkZWZhdWx0X2Nyb25fcnVsZScsICcnKSwKICAgICAgICByZXBvX2ZpbGVfZXh0ZW5zaW9uczogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAncmVwb19maWxlX2V4dGVuc2lvbnMnLCAnJyksCiAgICAgICAgY3B1X3dhcm46IHJlYWRDb25maWdOdW1iZXIoY2ZncywgJ2NwdV93YXJuJywgODApLAogICAgICAgIG1lbW9yeV93YXJuOiByZWFkQ29uZmlnTnVtYmVyKGNmZ3MsICdtZW1vcnlfd2FybicsIDgwKSwKICAgICAgICBkaXNrX3dhcm46IHJlYWRDb25maWdOdW1iZXIoY2ZncywgJ2Rpc2tfd2FybicsIDkwKSwKICAgICAgICBub3RpZnlfb25fcmVzb3VyY2Vfd2FybjogcmVhZENvbmZpZ0Jvb2woY2ZncywgJ25vdGlmeV9vbl9yZXNvdXJjZV93YXJuJywgZmFsc2UpLAogICAgICAgIG5vdGlmeV9wYW5lbF9sYWJlbDogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnbm90aWZ5X3BhbmVsX2xhYmVsJywgJycpLAogICAgICAgIG5vdGlmeV9vbl9sb2dpbjogcmVhZENvbmZpZ0Jvb2woY2ZncywgJ25vdGlmeV9vbl9sb2dpbicsIGZhbHNlKSwKICAgICAgICBwcm94eV91cmw6IHJlYWRDb25maWdTdHJpbmcoY2ZncywgJ3Byb3h5X3VybCcsICcnKSwKICAgICAgICB1cGRhdGVfaW1hZ2VfbWlycm9yOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICd1cGRhdGVfaW1hZ2VfbWlycm9yJywgJycpLAogICAgICAgIGJpbmFyeV91cGRhdGVfcHJveHk6IHJlYWRDb25maWdTdHJpbmcoY2ZncywgJ2JpbmFyeV91cGRhdGVfcHJveHknLCAnJyksCiAgICAgICAgYXV0b191cGRhdGVfZW5hYmxlZDogcmVhZENvbmZpZ0Jvb2woY2ZncywgJ2F1dG9fdXBkYXRlX2VuYWJsZWQnLCBmYWxzZSksCiAgICAgICAgdHJ1c3RlZF9wcm94eV9jaWRyczogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAndHJ1c3RlZF9wcm94eV9jaWRycycsICcnKSwKICAgICAgICBjYXB0Y2hhX2VuYWJsZWQ6IHJlYWRDb25maWdCb29sKGNmZ3MsICdjYXB0Y2hhX2VuYWJsZWQnLCBmYWxzZSksCiAgICAgICAgY2FwdGNoYV9pZDogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnY2FwdGNoYV9pZCcsICcnKSwKICAgICAgICBjYXB0Y2hhX2tleTogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnY2FwdGNoYV9rZXknLCAnJyksCiAgICAgICAgY2FwdGNoYV9mYWlsX21vZGU6IHJlYWRDb25maWdTdHJpbmcoY2ZncywgJ2NhcHRjaGFfZmFpbF9tb2RlJywgJ29wZW4nKSwKICAgICAgICBwYW5lbF90aXRsZTogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAncGFuZWxfdGl0bGUnLCAnJyksCiAgICAgICAgdGltZXpvbmU6IHJlYWRDb25maWdTdHJpbmcoY2ZncywgJ3RpbWV6b25lJywgJ0FzaWEvU2hhbmdoYWknKSwKICAgICAgICBwYW5lbF9pY29uOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdwYW5lbF9pY29uJywgJycpLAogICAgICAgIGVkaXRvcl9iYWNrZ3JvdW5kX2NvbG9yOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdlZGl0b3JfYmFja2dyb3VuZF9jb2xvcicsICcnKSwKICAgICAgICBsb2dfYmFja2dyb3VuZF9jb2xvcjogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnbG9nX2JhY2tncm91bmRfY29sb3InLCAnJyksCiAgICAgICAgbG9nX2JhY2tncm91bmRfaW1hZ2U6IHJlYWRDb25maWdTdHJpbmcoY2ZncywgJ2xvZ19iYWNrZ3JvdW5kX2ltYWdlJywgJycpLAogICAgICAgIGJhY2t1cF9zY2hlZHVsZV9lbmFibGVkOiByZWFkQ29uZmlnQm9vbChjZmdzLCAnYmFja3VwX3NjaGVkdWxlX2VuYWJsZWQnLCBmYWxzZSksCiAgICAgICAgYmFja3VwX3NjaGVkdWxlX2ZyZXF1ZW5jeTogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnYmFja3VwX3NjaGVkdWxlX2ZyZXF1ZW5jeScsICdkYWlseScpLAogICAgICAgIGJhY2t1cF9zY2hlZHVsZV90aW1lOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdiYWNrdXBfc2NoZWR1bGVfdGltZScsICcwMzowMCcpLAogICAgICAgIGJhY2t1cF9zY2hlZHVsZV93ZWVrZGF5OiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdiYWNrdXBfc2NoZWR1bGVfd2Vla2RheScsICcxJyksCiAgICAgICAgYmFja3VwX3NjaGVkdWxlX21vbnRoZGF5OiByZWFkQ29uZmlnTnVtYmVyKGNmZ3MsICdiYWNrdXBfc2NoZWR1bGVfbW9udGhkYXknLCAxKSwKICAgICAgICBiYWNrdXBfc2NoZWR1bGVfbmFtZTogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnYmFja3VwX3NjaGVkdWxlX25hbWUnLCAnJyksCiAgICAgICAgYmFja3VwX3NjaGVkdWxlX3Bhc3N3b3JkOiByZWFkQ29uZmlnU3RyaW5nKGNmZ3MsICdiYWNrdXBfc2NoZWR1bGVfcGFzc3dvcmQnLCAnJyksCiAgICAgICAgYmFja3VwX3NjaGVkdWxlX3NlbGVjdGlvbjogcmVhZENvbmZpZ1N0cmluZyhjZmdzLCAnYmFja3VwX3NjaGVkdWxlX3NlbGVjdGlvbicsICdjb25maWdzLHRhc2tzLHN1YnNjcmlwdGlvbnMsZW52X3ZhcnMsbG9ncyxzY3JpcHRzLGRlcGVuZGVuY2llcyx0YXNrX3ZpZXdzJyksCiAgICAgICAgbWF4X3dlYl9zZXNzaW9uczogcmVhZENvbmZpZ051bWJlcihjZmdzLCAnbWF4X3dlYl9zZXNzaW9ucycsIDEpLAogICAgICAgIG1heF9hcHBfc2Vzc2lvbnM6IHJlYWRDb25maWdOdW1iZXIoY2ZncywgJ21heF9hcHBfc2Vzc2lvbnMnLCAxKQogICAgICB9CiAgICAgIGFwcGx5UGFuZWxBcHBlYXJhbmNlKGNvbmZpZ0Zvcm0udmFsdWUpCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgJ+WKoOi9vemFjee9ruWksei0pScpCiAgICB9IGZpbmFsbHkgewogICAgICBjb25maWdzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBzYXZlQ29uZmlnS2V5cyhrZXlzOiBzdHJpbmdbXSkgewogICAgY29uZmlnc1NhdmluZy52YWx1ZSA9IHRydWUKICAgIHRyeSB7CiAgICAgIGNvbnN0IGNvbmZpZ3M6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7fQogICAgICBmb3IgKGNvbnN0IGtleSBvZiBrZXlzKSB7CiAgICAgICAgY29uc3QgdmFsID0gKGNvbmZpZ0Zvcm0udmFsdWUgYXMgYW55KVtrZXldCiAgICAgICAgY29uZmlnc1trZXldID0gdHlwZW9mIHZhbCA9PT0gJ2Jvb2xlYW4nID8gKHZhbCA/ICd0cnVlJyA6ICdmYWxzZScpIDogU3RyaW5nKHZhbCA/PyAnJykKICAgICAgfQogICAgICBhd2FpdCBjb25maWdBcGkuYmF0Y2hTZXQoY29uZmlncykKICAgICAgYXBwbHlQYW5lbEFwcGVhcmFuY2UoY29uZmlnRm9ybS52YWx1ZSkKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+mFjee9ruW3suS/neWtmCcpCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgJ+S/neWtmOWksei0pScpCiAgICAgIC8vIOS/neWtmOWksei0peWQjuS7juWQjuerr+mHjeaWsOaLieWPluivpee7hOeahOecn+WunuWAvO+8jOmBv+WFjemZiOaXp+acrOWcsOeKtuaAgeiiq+S4i+S4gOasoeS/neWtmOWGjeasoeW4puWHugogICAgICB2b2lkIGxvYWRTeXN0ZW1Db25maWdzKCkKICAgIH0gZmluYWxseSB7CiAgICAgIGNvbmZpZ3NTYXZpbmcudmFsdWUgPSBmYWxzZQogICAgfQogIH0KCiAgZnVuY3Rpb24gaGFuZGxlU2F2ZVN5c3RlbUNvbmZpZygpIHsKICAgIHZvaWQgc2F2ZUNvbmZpZ0tleXMoWwogICAgICAncGFuZWxfdGl0bGUnLCAndGltZXpvbmUnLCAncGFuZWxfaWNvbicsICdlZGl0b3JfYmFja2dyb3VuZF9jb2xvcicsICdsb2dfYmFja2dyb3VuZF9jb2xvcicsICdsb2dfYmFja2dyb3VuZF9pbWFnZScKICAgIF0pCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVTYXZlQWxlcnRDb25maWcoKSB7CiAgICB2b2lkIHNhdmVDb25maWdLZXlzKFsKICAgICAgJ2NwdV93YXJuJywgJ21lbW9yeV93YXJuJywgJ2Rpc2tfd2FybicsICdub3RpZnlfb25fcmVzb3VyY2Vfd2FybicsICdub3RpZnlfcGFuZWxfbGFiZWwnLCAnbm90aWZ5X29uX2xvZ2luJwogICAgXSkKICB9CgogIGZ1bmN0aW9uIGhhbmRsZUljb25VcGxvYWQoZmlsZTogRmlsZSkgewogICAgaWYgKCFmaWxlLm5hbWUuZW5kc1dpdGgoJy5zdmcnKSkgewogICAgICBFbE1lc3NhZ2Uud2FybmluZygn5LuF5pSv5oyBIFNWRyDmoLzlvI/lm77moIcnKQogICAgICByZXR1cm4gZmFsc2UKICAgIH0KICAgIGlmIChmaWxlLnNpemUgPiAxMDAgKiAxMDI0KSB7CiAgICAgIEVsTWVzc2FnZS53YXJuaW5nKCflm77moIfmlofku7bkuI3og73otoXov4cgMTAwS0InKQogICAgICByZXR1cm4gZmFsc2UKICAgIH0KICAgIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCkKICAgIHJlYWRlci5vbmxvYWQgPSAoZSkgPT4gewogICAgICBjb25maWdGb3JtLnZhbHVlLnBhbmVsX2ljb24gPSBlLnRhcmdldD8ucmVzdWx0IGFzIHN0cmluZwogICAgfQogICAgcmVhZGVyLnJlYWRBc0RhdGFVUkwoZmlsZSkKICAgIHJldHVybiBmYWxzZQogIH0KCiAgZnVuY3Rpb24gaGFuZGxlTG9nQmFja2dyb3VuZFVwbG9hZChmaWxlOiBGaWxlKSB7CiAgICBpZiAoIWZpbGUudHlwZS5zdGFydHNXaXRoKCdpbWFnZS8nKSkgewogICAgICBFbE1lc3NhZ2Uud2FybmluZygn5LuF5pSv5oyB5Zu+54mH5qC85byP6IOM5pmvJykKICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CiAgICBpZiAoZmlsZS5zaXplID4gbG9nQmFja2dyb3VuZEltYWdlTWF4Qnl0ZXMpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+iDjOaZr+WbvueJh+S4jeiDvei2hei/hyAxME1CJykKICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgdm9pZCAoYXN5bmMgKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGNvbXByZXNzTG9nQmFja2dyb3VuZEltYWdlKGZpbGUpCiAgICAgICAgY29uZmlnRm9ybS52YWx1ZS5sb2dfYmFja2dyb3VuZF9pbWFnZSA9IHJlc3VsdC5kYXRhVXJsCiAgICAgICAgYXBwbHlQYW5lbEFwcGVhcmFuY2UoY29uZmlnRm9ybS52YWx1ZSkKICAgICAgICBpZiAocmVzdWx0LmNvbXByZXNzZWQpIHsKICAgICAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfog4zmma/lm77niYflt7Loh6rliqjljovnvKnvvIzor7fkv53lrZjphY3nva7lkI7nlJ/mlYgnKQogICAgICAgIH0KICAgICAgfSBjYXRjaCB7CiAgICAgICAgRWxNZXNzYWdlLmVycm9yKCfog4zmma/lm77niYfljovnvKnlpLHotKXvvIzor7fmjaLkuIDlvKDlsLrlr7jmm7TlsI/nmoTlm77niYcnKQogICAgICB9CiAgICB9KSgpCiAgICByZXR1cm4gZmFsc2UKICB9CgogIGZ1bmN0aW9uIHByZXZpZXdQYW5lbEFwcGVhcmFuY2UoKSB7CiAgICBhcHBseVBhbmVsQXBwZWFyYW5jZShjb25maWdGb3JtLnZhbHVlKQogIH0KCiAgZnVuY3Rpb24gaGFuZGxlU2F2ZVRhc2tDb25maWcoKSB7CiAgICB2b2lkIHNhdmVDb25maWdLZXlzKFsKICAgICAgJ21heF9jb25jdXJyZW50X3Rhc2tzJywgJ2xvZ19yZXRlbnRpb25fZGF5cycsCiAgICAgICdtYXhfbG9nX2NvbnRlbnRfc2l6ZScsICdyYW5kb21fZGVsYXknLCAncmFuZG9tX2RlbGF5X2V4dGVuc2lvbnMnLCAnYXV0b19pbnN0YWxsX2RlcHMnCiAgICBdKQogIH0KCiAgZnVuY3Rpb24gaGFuZGxlU2F2ZVByb3h5KCkgewogICAgdm9pZCBzYXZlQ29uZmlnS2V5cyhbJ3Byb3h5X3VybCcsICd1cGRhdGVfaW1hZ2VfbWlycm9yJywgJ2JpbmFyeV91cGRhdGVfcHJveHknLCAnYXV0b191cGRhdGVfZW5hYmxlZCcsICd0cnVzdGVkX3Byb3h5X2NpZHJzJ10pCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVTYXZlQ2FwdGNoYSgpIHsKICAgIHZvaWQgc2F2ZUNvbmZpZ0tleXMoWydjYXB0Y2hhX2VuYWJsZWQnLCAnY2FwdGNoYV9pZCcsICdjYXB0Y2hhX2tleScsICdjYXB0Y2hhX2ZhaWxfbW9kZSddKQogIH0KCiAgZnVuY3Rpb24gaGFuZGxlU2F2ZVNlc3Npb25Db25maWcoKSB7CiAgICB2b2lkIHNhdmVDb25maWdLZXlzKFsnbWF4X3dlYl9zZXNzaW9ucycsICdtYXhfYXBwX3Nlc3Npb25zJ10pCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVTYXZlQmFja3VwU2NoZWR1bGUoc2VsZWN0aW9uQ1NWPzogc3RyaW5nKSB7CiAgICBjb25zdCBub3JtYWxpemVkU2VsZWN0aW9uID0gc2VsZWN0aW9uQ1NWPy50cmltKCkgfHwgY29uZmlnRm9ybS52YWx1ZS5iYWNrdXBfc2NoZWR1bGVfc2VsZWN0aW9uCiAgICBjb25maWdGb3JtLnZhbHVlLmJhY2t1cF9zY2hlZHVsZV9zZWxlY3Rpb24gPSBub3JtYWxpemVkU2VsZWN0aW9uCiAgICB2b2lkIHNhdmVDb25maWdLZXlzKFsKICAgICAgJ2JhY2t1cF9zY2hlZHVsZV9lbmFibGVkJywKICAgICAgJ2JhY2t1cF9zY2hlZHVsZV9mcmVxdWVuY3knLAogICAgICAnYmFja3VwX3NjaGVkdWxlX3RpbWUnLAogICAgICAnYmFja3VwX3NjaGVkdWxlX3dlZWtkYXknLAogICAgICAnYmFja3VwX3NjaGVkdWxlX21vbnRoZGF5JywKICAgICAgJ2JhY2t1cF9zY2hlZHVsZV9uYW1lJywKICAgICAgJ2JhY2t1cF9zY2hlZHVsZV9wYXNzd29yZCcsCiAgICAgICdiYWNrdXBfc2NoZWR1bGVfc2VsZWN0aW9uJwogICAgXSkKICB9CgogIHJldHVybiB7CiAgICBjYXB0Y2hhRmVhdHVyZUltcGxlbWVudGVkLAogICAgY29uZmlnc0xvYWRpbmcsCiAgICBjb25maWdzU2F2aW5nLAogICAgY29uZmlnRm9ybSwKICAgIGxvYWRTeXN0ZW1Db25maWdzLAogICAgaGFuZGxlU2F2ZVN5c3RlbUNvbmZpZywKICAgIGhhbmRsZVNhdmVBbGVydENvbmZpZywKICAgIGhhbmRsZUljb25VcGxvYWQsCiAgICBoYW5kbGVMb2dCYWNrZ3JvdW5kVXBsb2FkLAogICAgcHJldmlld1BhbmVsQXBwZWFyYW5jZSwKICAgIGhhbmRsZVNhdmVUYXNrQ29uZmlnLAogICAgaGFuZGxlU2F2ZVByb3h5LAogICAgaGFuZGxlU2F2ZUNhcHRjaGEsCiAgICBoYW5kbGVTYXZlU2Vzc2lvbkNvbmZpZywKICAgIGhhbmRsZVNhdmVCYWNrdXBTY2hlZHVsZQogIH0KfQo=
+import { ref } from 'vue'
+import { configApi } from '@/api/system'
+import { ElMessage } from 'element-plus'
+import { applyPanelAppearance } from '@/utils/panelAppearance'
+import type { SettingsConfigForm } from './types'
+
+const logBackgroundImageMaxBytes = 10 * 1024 * 1024
+const logBackgroundImageTargetDataUrlBytes = 1600 * 1024
+const logBackgroundImageMaxDimensions = [1920, 1600, 1280, 1024, 900, 768, 640]
+const logBackgroundImageQualities = [0.82, 0.72, 0.62, 0.52, 0.42, 0.34, 0.28]
+
+function getTextBytes(value: string) {
+  return new Blob([value]).size
+}
+
+function readFileAsDataURL(file: File): Promise<string> {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader()
+    reader.onload = () => resolve(String(reader.result || ''))
+    reader.onerror = () => reject(reader.error || new Error('read failed'))
+    reader.readAsDataURL(file)
+  })
+}
+
+function loadImage(dataUrl: string): Promise<HTMLImageElement> {
+  return new Promise((resolve, reject) => {
+    const image = new Image()
+    image.onload = () => resolve(image)
+    image.onerror = () => reject(new Error('image load failed'))
+    image.src = dataUrl
+  })
+}
+
+function canvasToDataURL(canvas: HTMLCanvasElement, mimeType: string, quality: number) {
+  const dataUrl = canvas.toDataURL(mimeType, quality)
+  if (mimeType === 'image/webp' && !dataUrl.startsWith('data:image/webp')) {
+    return canvas.toDataURL('image/jpeg', quality)
+  }
+  return dataUrl
+}
+
+async function compressLogBackgroundImage(file: File) {
+  const originalDataUrl = await readFileAsDataURL(file)
+  if (getTextBytes(originalDataUrl) <= logBackgroundImageTargetDataUrlBytes) {
+    return { dataUrl: originalDataUrl, compressed: false }
+  }
+
+  const image = await loadImage(originalDataUrl)
+  const sourceWidth = image.naturalWidth || image.width
+  const sourceHeight = image.naturalHeight || image.height
+  if (!sourceWidth || !sourceHeight) {
+    throw new Error('invalid image')
+  }
+
+  for (const maxDimension of logBackgroundImageMaxDimensions) {
+    const scale = Math.min(1, maxDimension / Math.max(sourceWidth, sourceHeight))
+    const width = Math.max(1, Math.round(sourceWidth * scale))
+    const height = Math.max(1, Math.round(sourceHeight * scale))
+    const canvas = document.createElement('canvas')
+    canvas.width = width
+    canvas.height = height
+
+    const context = canvas.getContext('2d', { alpha: true })
+    if (!context) {
+      throw new Error('canvas unsupported')
+    }
+    context.clearRect(0, 0, width, height)
+    context.drawImage(image, 0, 0, width, height)
+
+    for (const quality of logBackgroundImageQualities) {
+      const dataUrl = canvasToDataURL(canvas, 'image/webp', quality)
+      const size = getTextBytes(dataUrl)
+      if (size <= logBackgroundImageTargetDataUrlBytes) {
+        return { dataUrl, compressed: true }
+      }
+    }
+  }
+
+  throw new Error('compressed image too large')
+}
+
+export function useSettingsConfig() {
+  // 此开关原为功能上线门控，当前已全量启用（保留常量以兼容消费方）
+  const captchaFeatureImplemented = true
+  const configsLoading = ref(false)
+  const configsSaving = ref(false)
+
+  const configForm = ref<SettingsConfigForm>({
+    max_concurrent_tasks: 5,
+    log_retention_days: 7,
+    max_log_content_size: 102400000,
+    random_delay: '',
+    random_delay_extensions: '',
+    auto_install_deps: true,
+    auto_add_cron: true,
+    auto_del_cron: true,
+    default_cron_rule: '',
+    repo_file_extensions: '',
+    cpu_warn: 80,
+    memory_warn: 80,
+    disk_warn: 90,
+    notify_on_resource_warn: false,
+    notify_panel_label: '',
+    notify_on_login: false,
+    proxy_url: '',
+    update_image_mirror: '',
+    binary_update_proxy: '',
+    auto_update_enabled: false,
+    trusted_proxy_cidrs: '',
+    captcha_enabled: false,
+    captcha_id: '',
+    captcha_key: '',
+    captcha_fail_mode: 'open',
+    panel_title: '',
+    timezone: 'Asia/Shanghai',
+    panel_icon: '',
+    editor_background_color: '',
+    log_background_color: '',
+    log_background_image: '',
+    backup_schedule_enabled: false,
+    backup_schedule_frequency: 'daily',
+    backup_schedule_time: '03:00',
+    backup_schedule_weekday: '1',
+    backup_schedule_monthday: 1,
+    backup_schedule_name: '',
+    backup_schedule_password: '',
+    backup_schedule_selection: 'configs,tasks,subscriptions,env_vars,logs,scripts,dependencies,task_views',
+    max_web_sessions: 1,
+    max_app_sessions: 1
+  })
+
+  function readConfigString(cfgs: Record<string, any>, key: string, fallback = ''): string {
+    const entry = cfgs[key]
+    const raw = entry?.value ?? entry?.default_value ?? fallback
+    if (raw === null || raw === undefined) return fallback
+    return String(raw)
+  }
+
+  function readConfigNumber(cfgs: Record<string, any>, key: string, fallback: number): number {
+    const raw = readConfigString(cfgs, key, String(fallback))
+    const parsed = Number(raw)
+    return Number.isFinite(parsed) ? parsed : fallback
+  }
+
+  function readConfigBool(cfgs: Record<string, any>, key: string, fallback: boolean): boolean {
+    const raw = readConfigString(cfgs, key, fallback ? 'true' : 'false').trim().toLowerCase()
+    if (['true', '1', 'yes', 'on'].includes(raw)) return true
+    if (['false', '0', 'no', 'off'].includes(raw)) return false
+    return fallback
+  }
+
+  async function loadSystemConfigs() {
+    configsLoading.value = true
+    try {
+      const res = await configApi.list()
+      const cfgs = res.data || {}
+
+      configForm.value = {
+        max_concurrent_tasks: readConfigNumber(cfgs, 'max_concurrent_tasks', 5),
+        log_retention_days: readConfigNumber(cfgs, 'log_retention_days', 7),
+        max_log_content_size: readConfigNumber(cfgs, 'max_log_content_size', 102400000),
+        random_delay: readConfigString(cfgs, 'random_delay', ''),
+        random_delay_extensions: readConfigString(cfgs, 'random_delay_extensions', ''),
+        auto_install_deps: readConfigBool(cfgs, 'auto_install_deps', true),
+        auto_add_cron: readConfigBool(cfgs, 'auto_add_cron', true),
+        auto_del_cron: readConfigBool(cfgs, 'auto_del_cron', true),
+        default_cron_rule: readConfigString(cfgs, 'default_cron_rule', ''),
+        repo_file_extensions: readConfigString(cfgs, 'repo_file_extensions', ''),
+        cpu_warn: readConfigNumber(cfgs, 'cpu_warn', 80),
+        memory_warn: readConfigNumber(cfgs, 'memory_warn', 80),
+        disk_warn: readConfigNumber(cfgs, 'disk_warn', 90),
+        notify_on_resource_warn: readConfigBool(cfgs, 'notify_on_resource_warn', false),
+        notify_panel_label: readConfigString(cfgs, 'notify_panel_label', ''),
+        notify_on_login: readConfigBool(cfgs, 'notify_on_login', false),
+        proxy_url: readConfigString(cfgs, 'proxy_url', ''),
+        update_image_mirror: readConfigString(cfgs, 'update_image_mirror', ''),
+        binary_update_proxy: readConfigString(cfgs, 'binary_update_proxy', ''),
+        auto_update_enabled: readConfigBool(cfgs, 'auto_update_enabled', false),
+        trusted_proxy_cidrs: readConfigString(cfgs, 'trusted_proxy_cidrs', ''),
+        captcha_enabled: readConfigBool(cfgs, 'captcha_enabled', false),
+        captcha_id: readConfigString(cfgs, 'captcha_id', ''),
+        captcha_key: readConfigString(cfgs, 'captcha_key', ''),
+        captcha_fail_mode: readConfigString(cfgs, 'captcha_fail_mode', 'open'),
+        panel_title: readConfigString(cfgs, 'panel_title', ''),
+        timezone: readConfigString(cfgs, 'timezone', 'Asia/Shanghai'),
+        panel_icon: readConfigString(cfgs, 'panel_icon', ''),
+        editor_background_color: readConfigString(cfgs, 'editor_background_color', ''),
+        log_background_color: readConfigString(cfgs, 'log_background_color', ''),
+        log_background_image: readConfigString(cfgs, 'log_background_image', ''),
+        backup_schedule_enabled: readConfigBool(cfgs, 'backup_schedule_enabled', false),
+        backup_schedule_frequency: readConfigString(cfgs, 'backup_schedule_frequency', 'daily'),
+        backup_schedule_time: readConfigString(cfgs, 'backup_schedule_time', '03:00'),
+        backup_schedule_weekday: readConfigString(cfgs, 'backup_schedule_weekday', '1'),
+        backup_schedule_monthday: readConfigNumber(cfgs, 'backup_schedule_monthday', 1),
+        backup_schedule_name: readConfigString(cfgs, 'backup_schedule_name', ''),
+        backup_schedule_password: readConfigString(cfgs, 'backup_schedule_password', ''),
+        backup_schedule_selection: readConfigString(cfgs, 'backup_schedule_selection', 'configs,tasks,subscriptions,env_vars,logs,scripts,dependencies,task_views'),
+        max_web_sessions: readConfigNumber(cfgs, 'max_web_sessions', 1),
+        max_app_sessions: readConfigNumber(cfgs, 'max_app_sessions', 1)
+      }
+      applyPanelAppearance(configForm.value)
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || '加载配置失败')
+    } finally {
+      configsLoading.value = false
+    }
+  }
+
+  async function saveConfigKeys(keys: string[]) {
+    configsSaving.value = true
+    try {
+      const configs: Record<string, string> = {}
+      for (const key of keys) {
+        const val = (configForm.value as any)[key]
+        configs[key] = typeof val === 'boolean' ? (val ? 'true' : 'false') : String(val ?? '')
+      }
+      await configApi.batchSet(configs)
+      applyPanelAppearance(configForm.value)
+      ElMessage.success('配置已保存')
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || '保存失败')
+      // 保存失败后从后端重新拉取该组的真实值，避免陈旧本地状态被下一次保存再次带出
+      void loadSystemConfigs()
+    } finally {
+      configsSaving.value = false
+    }
+  }
+
+  function handleSaveSystemConfig() {
+    void saveConfigKeys([
+      'panel_title', 'timezone', 'panel_icon', 'editor_background_color', 'log_background_color', 'log_background_image'
+    ])
+  }
+
+  function handleSaveAlertConfig() {
+    void saveConfigKeys([
+      'cpu_warn', 'memory_warn', 'disk_warn', 'notify_on_resource_warn', 'notify_panel_label', 'notify_on_login'
+    ])
+  }
+
+  function handleIconUpload(file: File) {
+    if (!file.name.endsWith('.svg')) {
+      ElMessage.warning('仅支持 SVG 格式图标')
+      return false
+    }
+    if (file.size > 100 * 1024) {
+      ElMessage.warning('图标文件不能超过 100KB')
+      return false
+    }
+    const reader = new FileReader()
+    reader.onload = (e) => {
+      configForm.value.panel_icon = e.target?.result as string
+    }
+    reader.readAsDataURL(file)
+    return false
+  }
+
+  function handleLogBackgroundUpload(file: File) {
+    if (!file.type.startsWith('image/')) {
+      ElMessage.warning('仅支持图片格式背景')
+      return false
+    }
+    if (file.size > logBackgroundImageMaxBytes) {
+      ElMessage.warning('背景图片不能超过 10MB')
+      return false
+    }
+
+    void (async () => {
+      try {
+        const result = await compressLogBackgroundImage(file)
+        configForm.value.log_background_image = result.dataUrl
+        applyPanelAppearance(configForm.value)
+        if (result.compressed) {
+          ElMessage.success('背景图片已自动压缩，请保存配置后生效')
+        }
+      } catch {
+        ElMessage.error('背景图片压缩失败，请换一张尺寸更小的图片')
+      }
+    })()
+    return false
+  }
+
+  function previewPanelAppearance() {
+    applyPanelAppearance(configForm.value)
+  }
+
+  function handleSaveTaskConfig() {
+    void saveConfigKeys([
+      'max_concurrent_tasks', 'log_retention_days',
+      'max_log_content_size', 'random_delay', 'random_delay_extensions', 'auto_install_deps'
+    ])
+  }
+
+  function handleSaveProxy() {
+    void saveConfigKeys(['proxy_url', 'update_image_mirror', 'binary_update_proxy', 'auto_update_enabled', 'trusted_proxy_cidrs'])
+  }
+
+  function handleSaveCaptcha() {
+    void saveConfigKeys(['captcha_enabled', 'captcha_id', 'captcha_key', 'captcha_fail_mode'])
+  }
+
+  function handleSaveSessionConfig() {
+    void saveConfigKeys(['max_web_sessions', 'max_app_sessions'])
+  }
+
+  function handleSaveBackupSchedule(selectionCSV?: string) {
+    const normalizedSelection = selectionCSV?.trim() || configForm.value.backup_schedule_selection
+    configForm.value.backup_schedule_selection = normalizedSelection
+    void saveConfigKeys([
+      'backup_schedule_enabled',
+      'backup_schedule_frequency',
+      'backup_schedule_time',
+      'backup_schedule_weekday',
+      'backup_schedule_monthday',
+      'backup_schedule_name',
+      'backup_schedule_password',
+      'backup_schedule_selection'
+    ])
+  }
+
+  return {
+    captchaFeatureImplemented,
+    configsLoading,
+    configsSaving,
+    configForm,
+    loadSystemConfigs,
+    handleSaveSystemConfig,
+    handleSaveAlertConfig,
+    handleIconUpload,
+    handleLogBackgroundUpload,
+    previewPanelAppearance,
+    handleSaveTaskConfig,
+    handleSaveProxy,
+    handleSaveCaptcha,
+    handleSaveSessionConfig,
+    handleSaveBackupSchedule
+  }
+}

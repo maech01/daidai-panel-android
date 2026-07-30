@@ -1,1 +1,303 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAndnVlJwppbXBvcnQgeyB0YXNrQXBpIH0gZnJvbSAnQC9hcGkvdGFzaycKaW1wb3J0IHsgRWxNZXNzYWdlLCBFbE1lc3NhZ2VCb3ggfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IHVzZVJlc3BvbnNpdmUgfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZVJlc3BvbnNpdmUnCmltcG9ydCB7IGFuc2lUb0h0bWwsIG5vcm1hbGl6ZUFuc2kgfSBmcm9tICdAL3V0aWxzL2Fuc2knCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICB2aXNpYmxlOiBib29sZWFuCiAgdGFza0lkOiBudW1iZXIgfCBudWxsCiAgdGFza05hbWU6IHN0cmluZwp9PigpCgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICd1cGRhdGU6dmlzaWJsZSc6IFt2YWx1ZTogYm9vbGVhbl0KfT4oKQoKY29uc3QgbG9nRmlsZXMgPSByZWY8YW55W10+KFtdKQpjb25zdCBsb2FkaW5nID0gcmVmKGZhbHNlKQpjb25zdCBzZWxlY3RlZEZpbGUgPSByZWY8c3RyaW5nIHwgbnVsbD4obnVsbCkKY29uc3QgZmlsZUNvbnRlbnQgPSByZWYoJycpCmNvbnN0IGNvbnRlbnRMb2FkaW5nID0gcmVmKGZhbHNlKQpjb25zdCB7IGRpYWxvZ0Z1bGxzY3JlZW4gfSA9IHVzZVJlc3BvbnNpdmUoKQoKZnVuY3Rpb24gZ2V0RmlsZUtleShmaWxlOiBhbnkpIHsKICByZXR1cm4gZmlsZT8ucGF0aCB8fCBmaWxlPy5maWxlbmFtZQp9Cgpjb25zdCByZW5kZXJlZEZpbGVDb250ZW50ID0gY29tcHV0ZWQoKCkgPT4gewogIGxldCBjdXJyZW50TGluZSA9ICcnCiAgbGV0IHBlbmRpbmdDYXJyaWFnZVJldHVybiA9IGZhbHNlCiAgY29uc3QgbGluZXM6IHN0cmluZ1tdID0gW10KCiAgZm9yIChsZXQgaSA9IDA7IGkgPCBmaWxlQ29udGVudC52YWx1ZS5sZW5ndGg7IGkrKykgewogICAgY29uc3QgY2hhciA9IGZpbGVDb250ZW50LnZhbHVlW2ldCiAgICBpZiAoY2hhciA9PT0gJ1xyJykgewogICAgICBpZiAoZmlsZUNvbnRlbnQudmFsdWVbaSArIDFdID09PSAnXG4nKSB7CiAgICAgICAgbGluZXMucHVzaChjdXJyZW50TGluZSkKICAgICAgICBjdXJyZW50TGluZSA9ICcnCiAgICAgICAgcGVuZGluZ0NhcnJpYWdlUmV0dXJuID0gZmFsc2UKICAgICAgICBpKysKICAgICAgICBjb250aW51ZQogICAgICB9CiAgICAgIC8vIOijuCBcciDku6PooajlhYnmoIflm57liLDooYzpppbvvJvnrYnlkI7nu63mma7pgJrlrZfnrKbliLDmnaXml7blho3opobnm5blvZPliY3ooYzjgIIKICAgICAgLy8g6L+Z5qC35pel5b+X5paH5Lu26aKE6KeI5ZKM5a6e5pe25pel5b+X5by556qX55qE6L+b5bqm5p2h5pi+56S65L+d5oyB5LiA6Ie044CCCiAgICAgIHBlbmRpbmdDYXJyaWFnZVJldHVybiA9IHRydWUKICAgICAgY29udGludWUKICAgIH0KCiAgICBpZiAoY2hhciA9PT0gJ1xuJykgewogICAgICBsaW5lcy5wdXNoKGN1cnJlbnRMaW5lKQogICAgICBjdXJyZW50TGluZSA9ICcnCiAgICAgIHBlbmRpbmdDYXJyaWFnZVJldHVybiA9IGZhbHNlCiAgICAgIGNvbnRpbnVlCiAgICB9CgogICAgaWYgKHBlbmRpbmdDYXJyaWFnZVJldHVybikgewogICAgICBjdXJyZW50TGluZSA9ICcnCiAgICAgIHBlbmRpbmdDYXJyaWFnZVJldHVybiA9IGZhbHNlCiAgICB9CiAgICBjdXJyZW50TGluZSArPSBjaGFyCiAgfQoKICBpZiAoY3VycmVudExpbmUgIT09ICcnIHx8IGxpbmVzLmxlbmd0aCA9PT0gMCkgewogICAgbGluZXMucHVzaChjdXJyZW50TGluZSkKICB9CgogIHJldHVybiBsaW5lcy5qb2luKCdcbicpCn0pCgpjb25zdCByZW5kZXJlZEZpbGVIdG1sID0gY29tcHV0ZWQoKCkgPT4gewogIHJldHVybiBhbnNpVG9IdG1sKG5vcm1hbGl6ZUFuc2kocmVuZGVyZWRGaWxlQ29udGVudC52YWx1ZSkpCn0pCgp3YXRjaCgoKSA9PiBwcm9wcy52aXNpYmxlLCAodmlzaWJsZSkgPT4gewogIGlmICh2aXNpYmxlICYmIHByb3BzLnRhc2tJZCkgewogICAgbG9hZExvZ0ZpbGVzKCkKICB9IGVsc2UgewogICAgbG9nRmlsZXMudmFsdWUgPSBbXQogICAgc2VsZWN0ZWRGaWxlLnZhbHVlID0gbnVsbAogICAgZmlsZUNvbnRlbnQudmFsdWUgPSAnJwogIH0KfSkKCmFzeW5jIGZ1bmN0aW9uIGxvYWRMb2dGaWxlcygpIHsKICBsb2FkaW5nLnZhbHVlID0gdHJ1ZQogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCB0YXNrQXBpLmxvZ0ZpbGVzKHByb3BzLnRhc2tJZCEpCiAgICBsb2dGaWxlcy52YWx1ZSA9IHJlcyB8fCBbXQogIH0gY2F0Y2ggewogICAgRWxNZXNzYWdlLmVycm9yKCfliqDovb3ml6Xlv5fmlofku7bliJfooajlpLHotKUnKQogIH0gZmluYWxseSB7CiAgICBsb2FkaW5nLnZhbHVlID0gZmFsc2UKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIHZpZXdGaWxlKGZpbGU6IGFueSkgewogIGNvbnN0IGZpbGVuYW1lID0gZmlsZS5maWxlbmFtZQogIGNvbnN0IGZpbGVLZXkgPSBnZXRGaWxlS2V5KGZpbGUpCiAgc2VsZWN0ZWRGaWxlLnZhbHVlID0gZmlsZUtleQogIGNvbnRlbnRMb2FkaW5nLnZhbHVlID0gdHJ1ZQogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCB0YXNrQXBpLmxvZ0ZpbGVDb250ZW50KHByb3BzLnRhc2tJZCEsIGZpbGVuYW1lLCBmaWxlLnBhdGgpCiAgICBmaWxlQ29udGVudC52YWx1ZSA9IHJlcy5jb250ZW50IHx8ICcnCiAgfSBjYXRjaCB7CiAgICBFbE1lc3NhZ2UuZXJyb3IoJ+WKoOi9veaWh+S7tuWGheWuueWksei0pScpCiAgICBmaWxlQ29udGVudC52YWx1ZSA9ICcnCiAgfSBmaW5hbGx5IHsKICAgIGNvbnRlbnRMb2FkaW5nLnZhbHVlID0gZmFsc2UKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGRlbGV0ZUZpbGUoZmlsZTogYW55KSB7CiAgY29uc3QgZmlsZW5hbWUgPSBmaWxlLmZpbGVuYW1lCiAgY29uc3QgZmlsZUtleSA9IGdldEZpbGVLZXkoZmlsZSkKICB0cnkgewogICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oYOehruWumuWIoOmZpOaXpeW/l+aWh+S7tiAiJHtmaWxlbmFtZX0i77yfYCwgJ+ehruiupOWIoOmZpCcsIHsgdHlwZTogJ3dhcm5pbmcnIH0pCiAgICBhd2FpdCB0YXNrQXBpLmRlbGV0ZUxvZ0ZpbGUocHJvcHMudGFza0lkISwgZmlsZW5hbWUsIGZpbGUucGF0aCkKICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfliKDpmaTmiJDlip8nKQogICAgbG9hZExvZ0ZpbGVzKCkKICAgIGlmIChzZWxlY3RlZEZpbGUudmFsdWUgPT09IGZpbGVLZXkpIHsKICAgICAgc2VsZWN0ZWRGaWxlLnZhbHVlID0gbnVsbAogICAgICBmaWxlQ29udGVudC52YWx1ZSA9ICcnCiAgICB9CiAgfSBjYXRjaCB7fQp9CgpmdW5jdGlvbiBmb3JtYXRCeXRlcyhieXRlczogbnVtYmVyKSB7CiAgaWYgKCFieXRlcykgcmV0dXJuICcwIEInCiAgY29uc3QgdW5pdHMgPSBbJ0InLCAnS0InLCAnTUInLCAnR0InXQogIGxldCBpID0gMAogIGxldCB2YWwgPSBieXRlcwogIHdoaWxlICh2YWwgPj0gMTAyNCAmJiBpIDwgdW5pdHMubGVuZ3RoIC0gMSkgeyB2YWwgLz0gMTAyNDsgaSsrIH0KICByZXR1cm4gdmFsLnRvRml4ZWQoMSkgKyAnICcgKyB1bml0c1tpXQp9CgpmdW5jdGlvbiBoYW5kbGVDbG9zZSgpIHsKICBlbWl0KCd1cGRhdGU6dmlzaWJsZScsIGZhbHNlKQp9Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1kaWFsb2cKICAgIDptb2RlbC12YWx1ZT0idmlzaWJsZSIKICAgIDp0aXRsZT0iYOaXpeW/l+aWh+S7tiAtICR7dGFza05hbWV9YCIKICAgIHdpZHRoPSIxMjAwcHgiCiAgICA6ZnVsbHNjcmVlbj0iZGlhbG9nRnVsbHNjcmVlbiIKICAgIDpsb2NrLXNjcm9sbD0iZmFsc2UiCiAgICBAY2xvc2U9ImhhbmRsZUNsb3NlIgogID4KICAgIDxkaXYgY2xhc3M9ImxvZy1maWxlcy1icm93c2VyIj4KICAgICAgPGRpdiBjbGFzcz0iZmlsZS1saXN0IiB2LWxvYWRpbmc9ImxvYWRpbmciPgogICAgICAgIDxkaXYgdi1pZj0ibG9nRmlsZXMubGVuZ3RoID09PSAwIiBjbGFzcz0iZW1wdHktaGludCI+5pqC5peg5pel5b+X5paH5Lu2PC9kaXY+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1mb3I9ImZpbGUgaW4gbG9nRmlsZXMiCiAgICAgICAgICA6a2V5PSJnZXRGaWxlS2V5KGZpbGUpIgogICAgICAgICAgY2xhc3M9ImZpbGUtaXRlbSIKICAgICAgICAgIDpjbGFzcz0ieyBhY3RpdmU6IHNlbGVjdGVkRmlsZSA9PT0gZ2V0RmlsZUtleShmaWxlKSB9IgogICAgICAgICAgQGNsaWNrPSJ2aWV3RmlsZShmaWxlKSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWxlLWluZm8iPgogICAgICAgICAgICA8ZWwtaWNvbj48RG9jdW1lbnQgLz48L2VsLWljb24+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmaWxlLW5hbWUiPnt7IGZpbGUuZmlsZW5hbWUgfX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZpbGUtYWN0aW9ucyI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJmaWxlLXNpemUiPnt7IGZvcm1hdEJ5dGVzKGZpbGUuc2l6ZSkgfX08L3NwYW4+CiAgICAgICAgICAgIDxlbC1idXR0b24KICAgICAgICAgICAgICB0eXBlPSJkYW5nZXIiCiAgICAgICAgICAgICAgdGV4dAogICAgICAgICAgICAgIHNpemU9InNtYWxsIgogICAgICAgICAgICAgIEBjbGljay5zdG9wPSJkZWxldGVGaWxlKGZpbGUpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGVsLWljb24+PERlbGV0ZSAvPjwvZWwtaWNvbj4KICAgICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJmaWxlLWNvbnRlbnQiIHYtbG9hZGluZz0iY29udGVudExvYWRpbmciPgogICAgICAgIDxkaXYgdi1pZj0iIXNlbGVjdGVkRmlsZSIgY2xhc3M9ImNvbnRlbnQtcGxhY2Vob2xkZXIiPgogICAgICAgICAgPGVsLWljb24gOnNpemU9IjQ4IiBjb2xvcj0idmFyKC0tZWwtdGV4dC1jb2xvci1wbGFjZWhvbGRlcikiPjxEb2N1bWVudCAvPjwvZWwtaWNvbj4KICAgICAgICAgIDxzcGFuPumAieaLqeaWh+S7tuafpeeci+WGheWuuTwvc3Bhbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cHJlIHYtZWxzZSBjbGFzcz0iY29udGVudC10ZXh0IGRkLWxvZy1zdXJmYWNlIiB2LWh0bWw9InJlbmRlcmVkRmlsZUh0bWwgfHwgJyjnqbrmlofku7YpJyI+PC9wcmU+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgoubG9nLWZpbGVzLWJyb3dzZXIgewogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiAxNnB4OwogIGhlaWdodDogNzAwcHg7Cn0KCi5maWxlLWxpc3QgewogIHdpZHRoOiAyODBweDsKICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1lbC1ib3JkZXItY29sb3IpOwogIGJvcmRlci1yYWRpdXM6IDRweDsKICBvdmVyZmxvdy15OiBhdXRvOwogIGZsZXgtc2hyaW5rOiAwOwp9CgouZmlsZS1pdGVtIHsKICBkaXNwbGF5OiBmbGV4OwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIHBhZGRpbmc6IDEwcHggMTJweDsKICBjdXJzb3I6IHBvaW50ZXI7CiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodGVyKTsKICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kIDAuMnM7CgogICY6aG92ZXIgewogICAgYmFja2dyb3VuZDogdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCk7CiAgfQoKICAmLmFjdGl2ZSB7CiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1lbC1jb2xvci1wcmltYXJ5LWxpZ2h0LTkpOwogICAgYm9yZGVyLWxlZnQ6IDNweCBzb2xpZCB2YXIoLS1lbC1jb2xvci1wcmltYXJ5KTsKICB9CgogICY6bGFzdC1jaGlsZCB7CiAgICBib3JkZXItYm90dG9tOiBub25lOwogIH0KfQoKLmZpbGUtaW5mbyB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogOHB4OwogIGZsZXg6IDE7CiAgbWluLXdpZHRoOiAwOwp9CgouZmlsZS1uYW1lIHsKICBmb250LXNpemU6IDEzcHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKICB0ZXh0LW92ZXJmbG93OiBlbGxpcHNpczsKICB3aGl0ZS1zcGFjZTogbm93cmFwOwp9CgouZmlsZS1hY3Rpb25zIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA4cHg7Cn0KCi5maWxlLXNpemUgewogIGZvbnQtc2l6ZTogMTJweDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwp9CgouZmlsZS1jb250ZW50IHsKICBmbGV4OiAxOwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvcik7CiAgYm9yZGVyLXJhZGl1czogNHB4OwogIG92ZXJmbG93OiBoaWRkZW47CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwp9CgouY29udGVudC1wbGFjZWhvbGRlciB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgaGVpZ2h0OiAxMDAlOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXBsYWNlaG9sZGVyKTsKICBnYXA6IDEycHg7Cn0KCi5jb250ZW50LXRleHQgewogIGZsZXg6IDE7CiAgbWFyZ2luOiAwOwogIHBhZGRpbmc6IDEycHg7CiAgb3ZlcmZsb3cteTogYXV0bzsKICBmb250LWZhbWlseTogdmFyKC0tZGQtZm9udC1tb25vKTsKICBmb250LXNpemU6IDEzcHg7CiAgbGluZS1oZWlnaHQ6IDEuNjsKICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7CiAgd29yZC1icmVhazogYnJlYWstYWxsOwp9CgouZW1wdHktaGludCB7CiAgcGFkZGluZzogNDBweCAyMHB4OwogIHRleHQtYWxpZ246IGNlbnRlcjsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wbGFjZWhvbGRlcik7Cn0KCkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgewogIC5sb2ctZmlsZXMtYnJvd3NlciB7CiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogICAgaGVpZ2h0OiBjYWxjKDEwMGR2aCAtIDE0MHB4KTsKICAgIGdhcDogMTJweDsKICB9CgogIC5maWxlLWxpc3QgewogICAgd2lkdGg6IDEwMCU7CiAgICBtYXgtaGVpZ2h0OiAyMjBweDsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { computed, ref, watch } from 'vue'
+import { taskApi } from '@/api/task'
+import { ElMessage, ElMessageBox } from 'element-plus'
+import { useResponsive } from '@/composables/useResponsive'
+import { ansiToHtml, normalizeAnsi } from '@/utils/ansi'
+
+const props = defineProps<{
+  visible: boolean
+  taskId: number | null
+  taskName: string
+}>()
+
+const emit = defineEmits<{
+  'update:visible': [value: boolean]
+}>()
+
+const logFiles = ref<any[]>([])
+const loading = ref(false)
+const selectedFile = ref<string | null>(null)
+const fileContent = ref('')
+const contentLoading = ref(false)
+const { dialogFullscreen } = useResponsive()
+
+function getFileKey(file: any) {
+  return file?.path || file?.filename
+}
+
+const renderedFileContent = computed(() => {
+  let currentLine = ''
+  let pendingCarriageReturn = false
+  const lines: string[] = []
+
+  for (let i = 0; i < fileContent.value.length; i++) {
+    const char = fileContent.value[i]
+    if (char === '\r') {
+      if (fileContent.value[i + 1] === '\n') {
+        lines.push(currentLine)
+        currentLine = ''
+        pendingCarriageReturn = false
+        i++
+        continue
+      }
+      // 裸 \r 代表光标回到行首；等后续普通字符到来时再覆盖当前行。
+      // 这样日志文件预览和实时日志弹窗的进度条显示保持一致。
+      pendingCarriageReturn = true
+      continue
+    }
+
+    if (char === '\n') {
+      lines.push(currentLine)
+      currentLine = ''
+      pendingCarriageReturn = false
+      continue
+    }
+
+    if (pendingCarriageReturn) {
+      currentLine = ''
+      pendingCarriageReturn = false
+    }
+    currentLine += char
+  }
+
+  if (currentLine !== '' || lines.length === 0) {
+    lines.push(currentLine)
+  }
+
+  return lines.join('\n')
+})
+
+const renderedFileHtml = computed(() => {
+  return ansiToHtml(normalizeAnsi(renderedFileContent.value))
+})
+
+watch(() => props.visible, (visible) => {
+  if (visible && props.taskId) {
+    loadLogFiles()
+  } else {
+    logFiles.value = []
+    selectedFile.value = null
+    fileContent.value = ''
+  }
+})
+
+async function loadLogFiles() {
+  loading.value = true
+  try {
+    const res = await taskApi.logFiles(props.taskId!)
+    logFiles.value = res || []
+  } catch {
+    ElMessage.error('加载日志文件列表失败')
+  } finally {
+    loading.value = false
+  }
+}
+
+async function viewFile(file: any) {
+  const filename = file.filename
+  const fileKey = getFileKey(file)
+  selectedFile.value = fileKey
+  contentLoading.value = true
+  try {
+    const res = await taskApi.logFileContent(props.taskId!, filename, file.path)
+    fileContent.value = res.content || ''
+  } catch {
+    ElMessage.error('加载文件内容失败')
+    fileContent.value = ''
+  } finally {
+    contentLoading.value = false
+  }
+}
+
+async function deleteFile(file: any) {
+  const filename = file.filename
+  const fileKey = getFileKey(file)
+  try {
+    await ElMessageBox.confirm(`确定删除日志文件 "${filename}"？`, '确认删除', { type: 'warning' })
+    await taskApi.deleteLogFile(props.taskId!, filename, file.path)
+    ElMessage.success('删除成功')
+    loadLogFiles()
+    if (selectedFile.value === fileKey) {
+      selectedFile.value = null
+      fileContent.value = ''
+    }
+  } catch {}
+}
+
+function formatBytes(bytes: number) {
+  if (!bytes) return '0 B'
+  const units = ['B', 'KB', 'MB', 'GB']
+  let i = 0
+  let val = bytes
+  while (val >= 1024 && i < units.length - 1) { val /= 1024; i++ }
+  return val.toFixed(1) + ' ' + units[i]
+}
+
+function handleClose() {
+  emit('update:visible', false)
+}
+</script>
+
+<template>
+  <el-dialog
+    :model-value="visible"
+    :title="`日志文件 - ${taskName}`"
+    width="1200px"
+    :fullscreen="dialogFullscreen"
+    :lock-scroll="false"
+    @close="handleClose"
+  >
+    <div class="log-files-browser">
+      <div class="file-list" v-loading="loading">
+        <div v-if="logFiles.length === 0" class="empty-hint">暂无日志文件</div>
+        <div
+          v-for="file in logFiles"
+          :key="getFileKey(file)"
+          class="file-item"
+          :class="{ active: selectedFile === getFileKey(file) }"
+          @click="viewFile(file)"
+        >
+          <div class="file-info">
+            <el-icon><Document /></el-icon>
+            <span class="file-name">{{ file.filename }}</span>
+          </div>
+          <div class="file-actions">
+            <span class="file-size">{{ formatBytes(file.size) }}</span>
+            <el-button
+              type="danger"
+              text
+              size="small"
+              @click.stop="deleteFile(file)"
+            >
+              <el-icon><Delete /></el-icon>
+            </el-button>
+          </div>
+        </div>
+      </div>
+
+      <div class="file-content" v-loading="contentLoading">
+        <div v-if="!selectedFile" class="content-placeholder">
+          <el-icon :size="48" color="var(--el-text-color-placeholder)"><Document /></el-icon>
+          <span>选择文件查看内容</span>
+        </div>
+        <pre v-else class="content-text dd-log-surface" v-html="renderedFileHtml || '(空文件)'"></pre>
+      </div>
+    </div>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+.log-files-browser {
+  display: flex;
+  gap: 16px;
+  height: 700px;
+}
+
+.file-list {
+  width: 280px;
+  border: 1px solid var(--el-border-color);
+  border-radius: 4px;
+  overflow-y: auto;
+  flex-shrink: 0;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 12px;
+  cursor: pointer;
+  border-bottom: 1px solid var(--el-border-color-lighter);
+  transition: background 0.2s;
+
+  &:hover {
+    background: var(--el-fill-color-light);
+  }
+
+  &.active {
+    background: var(--el-color-primary-light-9);
+    border-left: 3px solid var(--el-color-primary);
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.file-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.file-name {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.file-size {
+  font-size: 12px;
+  color: var(--el-text-color-secondary);
+}
+
+.file-content {
+  flex: 1;
+  border: 1px solid var(--el-border-color);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--el-text-color-placeholder);
+  gap: 12px;
+}
+
+.content-text {
+  flex: 1;
+  margin: 0;
+  padding: 12px;
+  overflow-y: auto;
+  font-family: var(--dd-font-mono);
+  font-size: 13px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.empty-hint {
+  padding: 40px 20px;
+  text-align: center;
+  color: var(--el-text-color-placeholder);
+}
+
+@media (max-width: 768px) {
+  .log-files-browser {
+    flex-direction: column;
+    height: calc(100dvh - 140px);
+    gap: 12px;
+  }
+
+  .file-list {
+    width: 100%;
+    max-height: 220px;
+  }
+}
+</style>

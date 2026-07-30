@@ -1,1 +1,122 @@
-IyEvc3lzdGVtL2Jpbi9zaAojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIOWRhuWRhumdouadvyBNYWdpc2sg5qih5Z2XIC0g5b+r5o235pON5L2c6ISa5pysCiMKIyDngrnlh7vnrqHnkIblmajljaHniYfkuIrnmoTjgIzov5DooYzjgI3mjInpkq7op6blj5HjgIIKIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMKCk1PRERJUj0kezAlLyp9ClBFUlNJU1RfRElSPS9kYXRhL2FkYi9kYWlkYWktcGFuZWwKU0VSVklDRV9MT0c9IiRQRVJTSVNUX0RJUi9zZXJ2aWNlLmxvZyIKUE9SVFNfQ09ORj0iJFBFUlNJU1RfRElSL3BvcnRzLmNvbmYiClJVUklNQT0kTU9ERElSL3N5c3RlbS9iaW4vcnVyaW1hCgpyb290ZnM9L2RhdGEvZGFpZGFpClsgISAtZCAiJHJvb3RmcyIgXSAmJiByb290ZnM9L2RhdGEvbG9jYWwvZGFpZGFpCgpTRVJWRVJfTE9HPSIkcm9vdGZzL2FwcC9EdW1iLVBhbmVsL2RhaWRhaS5sb2ciClRBSUxfTElORVM9NjAKCiMg56uv5Y+j6YWN572u77yI5pyJ5YiZ6K+777yM5peg5YiZ6buY6K6k77yJClBBTkVMX1BPUlQ9NTcwMApTU0hfUE9SVD0yMgpTU0hfVVNFUj1yb290ClNTSF9QQVNTV09SRD0xMjM0NTYKRVhUUkFfQ09SU19PUklHSU5TPSIiCiMgc2hlbGxjaGVjayBkaXNhYmxlPVNDMTA5MApbIC1mICIkUE9SVFNfQ09ORiIgXSAmJiAuICIkUE9SVFNfQ09ORiIgMj4vZGV2L251bGwKCmlmICEgY29tbWFuZCAtdiB1aV9wcmludCA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICB1aV9wcmludCgpIHsgZWNobyAiJDEiOyB9CmZpCgp1aV9wcmludCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCnVpX3ByaW50ICIg5ZGG5ZGG6Z2i5p2/IC0g6L+Q6KGM54q25oCBIgp1aV9wcmludCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCnVpX3ByaW50ICItIOerr+WPo+mFjee9rjogUEFORUw9JHtQQU5FTF9QT1JUfSAo57uR5a6aIDAuMC4wLjApICBTU0g9JHtTU0hfUE9SVH0iCnVpX3ByaW50ICItIFNTSCDlh63mja46IOeUqOaItz0ke1NTSF9VU0VSfSAg5a+G56CBPSR7U1NIX1BBU1NXT1JEfSIKdWlfcHJpbnQgIiAgICAgICAgICAgKCRQT1JUU19DT05GKSIKaWYgWyAtbiAiJEVYVFJBX0NPUlNfT1JJR0lOUyIgXTsgdGhlbgogIHVpX3ByaW50ICItIOmineWkliBDT1JTOiAkRVhUUkFfQ09SU19PUklHSU5TIgpmaQoKIyAtLS0tIOi/m+eoi+eKtuaAge+8iOWuueWZqOWGhe+8iSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tClBJRD0iIgppZiBbIC14ICIkUlVSSU1BIiBdICYmIFsgLWQgIiRyb290ZnMiIF07IHRoZW4KICBQSUQ9JCgiJFJVUklNQSIgcnVyaSAtcCAtTiAtUyAtQSAiJHJvb3RmcyIgL2Jpbi9hc2ggLWMgInBncmVwIC1mIC91c3IvbG9jYWwvYmluL2RhaWRhaS1zZXJ2ZXIgfCBoZWFkIC1uMSIgMj4vZGV2L251bGwpCmZpCgppZiBbIC1uICIkUElEIiBdOyB0aGVuCiAgdWlfcHJpbnQgIi0g54q25oCBOiDov5DooYzkuK0iCiAgdWlfcHJpbnQgIi0gUElEIDogJFBJRCAo5a655Zmo5YaFKSIKZWxzZQogIHVpX3ByaW50ICItIOeKtuaAgTog5pyq6L+Q6KGMIgpmaQoKIyAtLS0tIOerr+WPo+ebkeWQrO+8iOWuv+S4u+S+pyBQQU5FTF9QT1JU77yJIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KUE9SVF9JTkZPPSQobmV0c3RhdCAtbHRuIDI+L2Rldi9udWxsIHwgZ3JlcCAiOiR7UEFORUxfUE9SVH1cYiIgfCBoZWFkIC1uMikKaWYgWyAtbiAiJFBPUlRfSU5GTyIgXTsgdGhlbgogIHVpX3ByaW50ICItIOebkeWQrOerr+WPozoiCiAgZWNobyAiJFBPUlRfSU5GTyIgfCB3aGlsZSBJRlM9IHJlYWQgLXIgbGluZTsgZG8KICAgIHVpX3ByaW50ICIgICAgJGxpbmUiCiAgZG9uZQplbHNlCiAgdWlfcHJpbnQgIi0g55uR5ZCs56uv5Y+jOiDmnKrmo4DmtYvliLAgKCR7UEFORUxfUE9SVH0g5pyq55uR5ZCsKSIKZmkKCnVpX3ByaW50ICItIOiuv+mXruWcsOWdgDogaHR0cDovLzEyNy4wLjAuMToke1BBTkVMX1BPUlR9Igp1aV9wcmludCAiLSByb290ZnMgIDogJHJvb3RmcyIKdWlfcHJpbnQgIi0g5pWw5o2u55uu5b2VOiAkcm9vdGZzL2FwcC9EdW1iLVBhbmVsIgoKIyAtLS0tIOWuueWZqOi/kOihjOaXtuiHquajgCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmlmIFsgLXggIiRSVVJJTUEiIF0gJiYgWyAtZCAiJHJvb3RmcyIgXTsgdGhlbgogIHVpX3ByaW50ICIgIgogIHVpX3ByaW50ICItLS0g5a655Zmo6L+Q6KGM5pe2IC0tLSIKICAiJFJVUklNQSIgcnVyaSAtcCAtTiAtUyAtQSAiJHJvb3RmcyIgL2Jpbi9hc2ggLWMgJwogICAgZXhwb3J0IERBSURBSV9NQUdJU0tfTU9EVUxFPTEKICAgIGV4cG9ydCBEQUlEQUlfQU5EUk9JRF9SVU5USU1FX0JJTl9ESVI9L2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW4KICAgIGV4cG9ydCBQQVRIPS9kYXRhL2FkYi9kYWlkYWktcGFuZWwvYmluL3B5dGhvbi9iaW46L2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW4vbm9kZS9iaW46L2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW46L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluOi9hcHAKICAgIGZvciBjIGluIHB5dGhvbjMgbm9kZSBucG0gZ2l0IGN1cmwgYmFzaDsgZG8KICAgICAgcD0kKGNvbW1hbmQgLXYgJGMgMj4vZGV2L251bGwpCiAgICAgIGlmIFsgLW4gIiRwIiBdOyB0aGVuCiAgICAgICAgdj0kKCRjIC0tdmVyc2lvbiAyPiYxIHwgaGVhZCAtbjEpCiAgICAgICAgZWNobyAiJGM6ICRwIHwgJHYiCiAgICAgIGVsc2UKICAgICAgICBlY2hvICIkYzog57y65aSxIgogICAgICBmaQogICAgZG9uZQogICcgMj4vZGV2L251bGwgfCB3aGlsZSBJRlM9IHJlYWQgLXIgbGluZTsgZG8KICAgIHVpX3ByaW50ICIkbGluZSIKICBkb25lCmZpCgojIC0tLS0gc2VydmljZS5sb2cgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KdWlfcHJpbnQgIiAiCnVpX3ByaW50ICItLS0gc2VydmljZS5sb2cgKOacgOi/kSAke1RBSUxfTElORVN9IOihjCkgLS0tIgppZiBbIC1mICIkU0VSVklDRV9MT0ciIF07IHRoZW4KICB0YWlsIC1uICIkVEFJTF9MSU5FUyIgIiRTRVJWSUNFX0xPRyIgMj4vZGV2L251bGwgfCB3aGlsZSBJRlM9IHJlYWQgLXIgbGluZTsgZG8KICAgIHVpX3ByaW50ICIkbGluZSIKICBkb25lCmVsc2UKICB1aV9wcmludCAiKOaaguaXoCAkU0VSVklDRV9MT0cpIgpmaQoKIyAtLS0tIGRhaWRhaS5sb2cgKOWuueWZqOWGheWQjuerr+aXpeW/lykgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQp1aV9wcmludCAiICIKdWlfcHJpbnQgIi0tLSBkYWlkYWkubG9nICjmnIDov5EgJHtUQUlMX0xJTkVTfSDooYwpIC0tLSIKaWYgWyAtZiAiJFNFUlZFUl9MT0ciIF07IHRoZW4KICB0YWlsIC1uICIkVEFJTF9MSU5FUyIgIiRTRVJWRVJfTE9HIiAyPi9kZXYvbnVsbCB8IHdoaWxlIElGUz0gcmVhZCAtciBsaW5lOyBkbwogICAgdWlfcHJpbnQgIiRsaW5lIgogIGRvbmUKZWxzZQogIHVpX3ByaW50ICIo5pqC5pegICRTRVJWRVJfTE9HKSIKZmkKCnVpX3ByaW50ICIgIgp1aV9wcmludCAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCnVpX3ByaW50ICIg5bi455So5ZG95LukIChhZGIgc2hlbGwgLyBUZXJtdXgpOiIKdWlfcHJpbnQgIiAgIOi/m+WFpeWuueWZqDoiCnVpX3ByaW50ICIgICAgIHN1IC1jIFwiJFJVUklNQSBydXJpIC1wIC1OIC1TIC1BICRyb290ZnMgL2Jpbi9iYXNoXCIiCnVpX3ByaW50ICIgICDph43lkK/pnaLmnb86Igp1aV9wcmludCAiICAgICBzdSAtYyBcInBraWxsIC1mIGRhaWRhaS1zZXJ2ZXI7IHNoICRNT0RESVIvc2VydmljZS5zaCAmXCIiCnVpX3ByaW50ICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIK
+#!/system/bin/sh
+##########################################################################
+# 呆呆面板 Magisk 模块 - 快捷操作脚本
+#
+# 点击管理器卡片上的「运行」按钮触发。
+##########################################################################
+
+MODDIR=${0%/*}
+PERSIST_DIR=/data/adb/daidai-panel
+SERVICE_LOG="$PERSIST_DIR/service.log"
+PORTS_CONF="$PERSIST_DIR/ports.conf"
+RURIMA=$MODDIR/system/bin/rurima
+
+rootfs=/data/daidai
+[ ! -d "$rootfs" ] && rootfs=/data/local/daidai
+
+SERVER_LOG="$rootfs/app/Dumb-Panel/daidai.log"
+TAIL_LINES=60
+
+# 端口配置（有则读，无则默认）
+PANEL_PORT=5700
+SSH_PORT=22
+SSH_USER=root
+SSH_PASSWORD=123456
+EXTRA_CORS_ORIGINS=""
+# shellcheck disable=SC1090
+[ -f "$PORTS_CONF" ] && . "$PORTS_CONF" 2>/dev/null
+
+if ! command -v ui_print >/dev/null 2>&1; then
+  ui_print() { echo "$1"; }
+fi
+
+ui_print "========================================="
+ui_print " 呆呆面板 - 运行状态"
+ui_print "========================================="
+ui_print "- 端口配置: PANEL=${PANEL_PORT} (绑定 0.0.0.0)  SSH=${SSH_PORT}"
+ui_print "- SSH 凭据: 用户=${SSH_USER}  密码=${SSH_PASSWORD}"
+ui_print "           ($PORTS_CONF)"
+if [ -n "$EXTRA_CORS_ORIGINS" ]; then
+  ui_print "- 额外 CORS: $EXTRA_CORS_ORIGINS"
+fi
+
+# ---- 进程状态（容器内） -------------------------------------------------
+PID=""
+if [ -x "$RURIMA" ] && [ -d "$rootfs" ]; then
+  PID=$("$RURIMA" ruri -p -N -S -A "$rootfs" /bin/ash -c "pgrep -f /usr/local/bin/daidai-server | head -n1" 2>/dev/null)
+fi
+
+if [ -n "$PID" ]; then
+  ui_print "- 状态: 运行中"
+  ui_print "- PID : $PID (容器内)"
+else
+  ui_print "- 状态: 未运行"
+fi
+
+# ---- 端口监听（宿主侧 PANEL_PORT） -------------------------------------
+PORT_INFO=$(netstat -ltn 2>/dev/null | grep ":${PANEL_PORT}\b" | head -n2)
+if [ -n "$PORT_INFO" ]; then
+  ui_print "- 监听端口:"
+  echo "$PORT_INFO" | while IFS= read -r line; do
+    ui_print "    $line"
+  done
+else
+  ui_print "- 监听端口: 未检测到 (${PANEL_PORT} 未监听)"
+fi
+
+ui_print "- 访问地址: http://127.0.0.1:${PANEL_PORT}"
+ui_print "- rootfs  : $rootfs"
+ui_print "- 数据目录: $rootfs/app/Dumb-Panel"
+
+# ---- 容器运行时自检 ----------------------------------------------------
+if [ -x "$RURIMA" ] && [ -d "$rootfs" ]; then
+  ui_print " "
+  ui_print "--- 容器运行时 ---"
+  "$RURIMA" ruri -p -N -S -A "$rootfs" /bin/ash -c '
+    export DAIDAI_MAGISK_MODULE=1
+    export DAIDAI_ANDROID_RUNTIME_BIN_DIR=/data/adb/daidai-panel/bin
+    export PATH=/data/adb/daidai-panel/bin/python/bin:/data/adb/daidai-panel/bin/node/bin:/data/adb/daidai-panel/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/app
+    for c in python3 node npm git curl bash; do
+      p=$(command -v $c 2>/dev/null)
+      if [ -n "$p" ]; then
+        v=$($c --version 2>&1 | head -n1)
+        echo "$c: $p | $v"
+      else
+        echo "$c: 缺失"
+      fi
+    done
+  ' 2>/dev/null | while IFS= read -r line; do
+    ui_print "$line"
+  done
+fi
+
+# ---- service.log --------------------------------------------------------
+ui_print " "
+ui_print "--- service.log (最近 ${TAIL_LINES} 行) ---"
+if [ -f "$SERVICE_LOG" ]; then
+  tail -n "$TAIL_LINES" "$SERVICE_LOG" 2>/dev/null | while IFS= read -r line; do
+    ui_print "$line"
+  done
+else
+  ui_print "(暂无 $SERVICE_LOG)"
+fi
+
+# ---- daidai.log (容器内后端日志) ----------------------------------------
+ui_print " "
+ui_print "--- daidai.log (最近 ${TAIL_LINES} 行) ---"
+if [ -f "$SERVER_LOG" ]; then
+  tail -n "$TAIL_LINES" "$SERVER_LOG" 2>/dev/null | while IFS= read -r line; do
+    ui_print "$line"
+  done
+else
+  ui_print "(暂无 $SERVER_LOG)"
+fi
+
+ui_print " "
+ui_print "========================================="
+ui_print " 常用命令 (adb shell / Termux):"
+ui_print "   进入容器:"
+ui_print "     su -c \"$RURIMA ruri -p -N -S -A $rootfs /bin/bash\""
+ui_print "   重启面板:"
+ui_print "     su -c \"pkill -f daidai-server; sh $MODDIR/service.sh &\""
+ui_print "========================================="

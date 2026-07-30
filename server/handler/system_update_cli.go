@@ -1,1 +1,91 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgImZtdCIKCnR5cGUgUGFuZWxVcGRhdGVQbGFuSW5mbyBzdHJ1Y3QgewoJRGVwbG95bWVudFR5cGUgc3RyaW5nCglDb250YWluZXJOYW1lICBzdHJpbmcKCUltYWdlTmFtZSAgICAgIHN0cmluZwoJUHVsbEltYWdlTmFtZSAgc3RyaW5nCglDaGFubmVsICAgICAgICBzdHJpbmcKCU1pcnJvckhvc3QgICAgIHN0cmluZwoJUmVnaXN0cnlVUkwgICAgc3RyaW5nCglSZWxlYXNlVmVyc2lvbiBzdHJpbmcKCUFzc2V0TmFtZSAgICAgIHN0cmluZwoJSW5zdGFsbERpciAgICAgc3RyaW5nCglCaW5hcnlOYW1lICAgICBzdHJpbmcKfQoKdHlwZSBQYW5lbFVwZGF0ZVN0YXR1c0luZm8gc3RydWN0IHsKCVN0YXR1cyAgICAgICAgIHN0cmluZwoJUGhhc2UgICAgICAgICAgc3RyaW5nCglNZXNzYWdlICAgICAgICBzdHJpbmcKCUVycm9yICAgICAgICAgIHN0cmluZwoJRGVwbG95bWVudFR5cGUgc3RyaW5nCglDb250YWluZXJOYW1lICBzdHJpbmcKCUltYWdlTmFtZSAgICAgIHN0cmluZwoJUHVsbEltYWdlTmFtZSAgc3RyaW5nCglNaXJyb3JIb3N0ICAgICBzdHJpbmcKCVJlZ2lzdHJ5VVJMICAgIHN0cmluZwoJUmVsZWFzZVZlcnNpb24gc3RyaW5nCglBc3NldE5hbWUgICAgICBzdHJpbmcKCUluc3RhbGxEaXIgICAgIHN0cmluZwoJQmluYXJ5TmFtZSAgICAgc3RyaW5nCn0KCmZ1bmMgQnVpbGRQYW5lbFVwZGF0ZVBsYW5JbmZvKCkgKFBhbmVsVXBkYXRlUGxhbkluZm8sIGVycm9yKSB7CglwbGFuLCBlcnIgOj0gYnVpbGRQYW5lbFVwZGF0ZVBsYW4oKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIFBhbmVsVXBkYXRlUGxhbkluZm97fSwgZXJyCgl9CgoJcmV0dXJuIFBhbmVsVXBkYXRlUGxhbkluZm97CgkJRGVwbG95bWVudFR5cGU6IHBsYW4uRGVwbG95bWVudFR5cGUsCgkJQ29udGFpbmVyTmFtZTogIHBsYW4uQ29udGFpbmVyTmFtZSwKCQlJbWFnZU5hbWU6ICAgICAgcGxhbi5JbWFnZU5hbWUsCgkJUHVsbEltYWdlTmFtZTogIHBsYW4uUHVsbEltYWdlTmFtZSwKCQlDaGFubmVsOiAgICAgICAgcGxhbi5DaGFubmVsLAoJCU1pcnJvckhvc3Q6ICAgICBwbGFuLk1pcnJvckhvc3QsCgkJUmVnaXN0cnlVUkw6ICAgIHBsYW4uUmVnaXN0cnlVUkwsCgkJUmVsZWFzZVZlcnNpb246IHBsYW4uUmVsZWFzZVZlcnNpb24sCgkJQXNzZXROYW1lOiAgICAgIHBsYW4uQXNzZXROYW1lLAoJCUluc3RhbGxEaXI6ICAgICBwbGFuLkluc3RhbGxEaXIsCgkJQmluYXJ5TmFtZTogICAgIHBsYW4uQmluYXJ5TmFtZSwKCX0sIG5pbAp9CgpmdW5jIEV4ZWN1dGVQYW5lbFVwZGF0ZUZvckNMSSgpIChQYW5lbFVwZGF0ZVN0YXR1c0luZm8sIGVycm9yKSB7CglwbGFuLCBlcnIgOj0gYnVpbGRQYW5lbFVwZGF0ZVBsYW4oKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIFBhbmVsVXBkYXRlU3RhdHVzSW5mb3t9LCBlcnIKCX0KCglleGVjdXRlUGFuZWxVcGRhdGUocGxhbikKCglzbmFwc2hvdCA6PSBwYW5lbFVwZGF0ZXIuc25hcHNob3RDb3B5KCkKCXN0YXR1cyA6PSBQYW5lbFVwZGF0ZVN0YXR1c0luZm97CgkJU3RhdHVzOiAgICAgICAgIHNuYXBzaG90LlN0YXR1cywKCQlQaGFzZTogICAgICAgICAgc25hcHNob3QuUGhhc2UsCgkJTWVzc2FnZTogICAgICAgIHNuYXBzaG90Lk1lc3NhZ2UsCgkJRXJyb3I6ICAgICAgICAgIHNuYXBzaG90LkVycm9yLAoJCURlcGxveW1lbnRUeXBlOiBzbmFwc2hvdC5EZXBsb3ltZW50VHlwZSwKCQlDb250YWluZXJOYW1lOiAgc25hcHNob3QuQ29udGFpbmVyTmFtZSwKCQlJbWFnZU5hbWU6ICAgICAgc25hcHNob3QuSW1hZ2VOYW1lLAoJCVB1bGxJbWFnZU5hbWU6ICBzbmFwc2hvdC5QdWxsSW1hZ2VOYW1lLAoJCU1pcnJvckhvc3Q6ICAgICBzbmFwc2hvdC5NaXJyb3JIb3N0LAoJCVJlZ2lzdHJ5VVJMOiAgICBzbmFwc2hvdC5SZWdpc3RyeVVSTCwKCQlSZWxlYXNlVmVyc2lvbjogc25hcHNob3QuUmVsZWFzZVZlcnNpb24sCgkJQXNzZXROYW1lOiAgICAgIHNuYXBzaG90LkFzc2V0TmFtZSwKCQlJbnN0YWxsRGlyOiAgICAgc25hcHNob3QuSW5zdGFsbERpciwKCQlCaW5hcnlOYW1lOiAgICAgc25hcHNob3QuQmluYXJ5TmFtZSwKCX0KCglpZiBzbmFwc2hvdC5TdGF0dXMgPT0gImZhaWxlZCIgewoJCWlmIHNuYXBzaG90LkVycm9yICE9ICIiIHsKCQkJcmV0dXJuIHN0YXR1cywgZm10LkVycm9yZigiJXMiLCBzbmFwc2hvdC5FcnJvcikKCQl9CgkJcmV0dXJuIHN0YXR1cywgZm10LkVycm9yZigiJXMiLCBzbmFwc2hvdC5NZXNzYWdlKQoJfQoKCXJldHVybiBzdGF0dXMsIG5pbAp9Cg==
+package handler
+
+import "fmt"
+
+type PanelUpdatePlanInfo struct {
+	DeploymentType string
+	ContainerName  string
+	ImageName      string
+	PullImageName  string
+	Channel        string
+	MirrorHost     string
+	RegistryURL    string
+	ReleaseVersion string
+	AssetName      string
+	InstallDir     string
+	BinaryName     string
+}
+
+type PanelUpdateStatusInfo struct {
+	Status         string
+	Phase          string
+	Message        string
+	Error          string
+	DeploymentType string
+	ContainerName  string
+	ImageName      string
+	PullImageName  string
+	MirrorHost     string
+	RegistryURL    string
+	ReleaseVersion string
+	AssetName      string
+	InstallDir     string
+	BinaryName     string
+}
+
+func BuildPanelUpdatePlanInfo() (PanelUpdatePlanInfo, error) {
+	plan, err := buildPanelUpdatePlan()
+	if err != nil {
+		return PanelUpdatePlanInfo{}, err
+	}
+
+	return PanelUpdatePlanInfo{
+		DeploymentType: plan.DeploymentType,
+		ContainerName:  plan.ContainerName,
+		ImageName:      plan.ImageName,
+		PullImageName:  plan.PullImageName,
+		Channel:        plan.Channel,
+		MirrorHost:     plan.MirrorHost,
+		RegistryURL:    plan.RegistryURL,
+		ReleaseVersion: plan.ReleaseVersion,
+		AssetName:      plan.AssetName,
+		InstallDir:     plan.InstallDir,
+		BinaryName:     plan.BinaryName,
+	}, nil
+}
+
+func ExecutePanelUpdateForCLI() (PanelUpdateStatusInfo, error) {
+	plan, err := buildPanelUpdatePlan()
+	if err != nil {
+		return PanelUpdateStatusInfo{}, err
+	}
+
+	executePanelUpdate(plan)
+
+	snapshot := panelUpdater.snapshotCopy()
+	status := PanelUpdateStatusInfo{
+		Status:         snapshot.Status,
+		Phase:          snapshot.Phase,
+		Message:        snapshot.Message,
+		Error:          snapshot.Error,
+		DeploymentType: snapshot.DeploymentType,
+		ContainerName:  snapshot.ContainerName,
+		ImageName:      snapshot.ImageName,
+		PullImageName:  snapshot.PullImageName,
+		MirrorHost:     snapshot.MirrorHost,
+		RegistryURL:    snapshot.RegistryURL,
+		ReleaseVersion: snapshot.ReleaseVersion,
+		AssetName:      snapshot.AssetName,
+		InstallDir:     snapshot.InstallDir,
+		BinaryName:     snapshot.BinaryName,
+	}
+
+	if snapshot.Status == "failed" {
+		if snapshot.Error != "" {
+			return status, fmt.Errorf("%s", snapshot.Error)
+		}
+		return status, fmt.Errorf("%s", snapshot.Message)
+	}
+
+	return status, nil
+}

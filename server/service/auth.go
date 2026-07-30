@@ -1,1 +1,175 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVycm9ycyIKCSJzdHJpbmdzIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbWlkZGxld2FyZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9jcnlwdG8iCgkiZGFpZGFpLXBhbmVsL3BrZy92YWxpZGF0b3IiCikKCnZhciAoCglFcnJVc2VyTm90Rm91bmQgICAgID0gZXJyb3JzLk5ldygi55So5oi35LiN5a2Y5ZyoIikKCUVyckludmFsaWRQYXNzd29yZCAgPSBlcnJvcnMuTmV3KCLlr4bnoIHplJnor68iKQoJRXJyVXNlckRpc2FibGVkICAgICA9IGVycm9ycy5OZXcoIui0puWPt+W3suiiq+emgeeUqCIpCglFcnJVc2VyRXhpc3RzICAgICAgID0gZXJyb3JzLk5ldygi55So5oi35ZCN5bey5a2Y5ZyoIikKCUVyckludmFsaWRVc2VybmFtZSAgPSBlcnJvcnMuTmV3KCLnlKjmiLflkI3moLzlvI/ml6DmlYgiKQoJRXJyUGFzc3dvcmRUb29TaG9ydCA9IGVycm9ycy5OZXcoIuWvhueggei/h+efrSIpCglFcnJUT1RQUmVxdWlyZWQgICAgID0gZXJyb3JzLk5ldygi6ZyA6KaB5Lik5q2l6aqM6K+B56CBIikKCUVyckludmFsaWRUT1RQICAgICAgPSBlcnJvcnMuTmV3KCLkuKTmraXpqozor4HnoIHplJnor68iKQopCgp0eXBlIEF1dGhTZXJ2aWNlIHN0cnVjdHt9CgpmdW5jIE5ld0F1dGhTZXJ2aWNlKCkgKkF1dGhTZXJ2aWNlIHsKCXJldHVybiAmQXV0aFNlcnZpY2V7fQp9CgpmdW5jIChzICpBdXRoU2VydmljZSkgTmVlZEluaXQoKSBib29sIHsKCXZhciBjb3VudCBpbnQ2NAoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlVzZXJ7fSkuQ291bnQoJmNvdW50KQoJcmV0dXJuIGNvdW50ID09IDAKfQoKZnVuYyAocyAqQXV0aFNlcnZpY2UpIEluaXRBZG1pbih1c2VybmFtZSwgcGFzc3dvcmQgc3RyaW5nKSAoKm1vZGVsLlVzZXIsIGVycm9yKSB7CglpZiAhcy5OZWVkSW5pdCgpIHsKCQlyZXR1cm4gbmlsLCBlcnJvcnMuTmV3KCLns7vnu5/lt7LliJ3lp4vljJYiKQoJfQoKCWlmICF2YWxpZGF0b3IuVmFsaWRhdGVVc2VybmFtZSh1c2VybmFtZSkgewoJCXJldHVybiBuaWwsIEVyckludmFsaWRVc2VybmFtZQoJfQoJaWYgIXZhbGlkYXRvci5WYWxpZGF0ZVBhc3N3b3JkKHBhc3N3b3JkKSB7CgkJcmV0dXJuIG5pbCwgRXJyUGFzc3dvcmRUb29TaG9ydAoJfQoKCWhhc2gsIGVyciA6PSBjcnlwdG8uSGFzaFBhc3N3b3JkKHBhc3N3b3JkKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CgoJdXNlciA6PSAmbW9kZWwuVXNlcnsKCQlVc2VybmFtZTogdXNlcm5hbWUsCgkJUGFzc3dvcmQ6IGhhc2gsCgkJUm9sZTogICAgICJhZG1pbiIsCgkJRW5hYmxlZDogIHRydWUsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKHVzZXIpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCXJldHVybiB1c2VyLCBuaWwKfQoKZnVuYyAocyAqQXV0aFNlcnZpY2UpIExvZ2luKHVzZXJuYW1lLCBwYXNzd29yZCwgdG90cENvZGUgc3RyaW5nKSAoKm1vZGVsLlVzZXIsIHN0cmluZywgc3RyaW5nLCAqbWlkZGxld2FyZS5Ub2tlbkluZm8sICptaWRkbGV3YXJlLlRva2VuSW5mbywgZXJyb3IpIHsKCXVzZXJuYW1lID0gdmFsaWRhdG9yLlNhbml0aXplU3RyaW5nKHVzZXJuYW1lKQoJdG90cENvZGUgPSBzdHJpbmdzLlRyaW1TcGFjZSh0b3RwQ29kZSkKCgl2YXIgdXNlciBtb2RlbC5Vc2VyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInVzZXJuYW1lID0gPyIsIHVzZXJuYW1lKS5GaXJzdCgmdXNlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsICIiLCAiIiwgbmlsLCBuaWwsIEVyclVzZXJOb3RGb3VuZAoJfQoKCWlmICF1c2VyLkVuYWJsZWQgewoJCXJldHVybiBuaWwsICIiLCAiIiwgbmlsLCBuaWwsIEVyclVzZXJEaXNhYmxlZAoJfQoKCWlmICFjcnlwdG8uQ2hlY2tQYXNzd29yZChwYXNzd29yZCwgdXNlci5QYXNzd29yZCkgewoJCXJldHVybiBuaWwsICIiLCAiIiwgbmlsLCBuaWwsIEVyckludmFsaWRQYXNzd29yZAoJfQoKCWlmIElzVHdvRmFjdG9yRW5hYmxlZCh1c2VyLklEKSB7CgkJaWYgdG90cENvZGUgPT0gIiIgewoJCQlyZXR1cm4gbmlsLCAiIiwgIiIsIG5pbCwgbmlsLCBFcnJUT1RQUmVxdWlyZWQKCQl9CgkJaWYgIVZhbGlkYXRlVXNlclRPVFAodXNlci5JRCwgdG90cENvZGUpIHsKCQkJcmV0dXJuIG5pbCwgIiIsICIiLCBuaWwsIG5pbCwgRXJySW52YWxpZFRPVFAKCQl9Cgl9CgoJbm93IDo9IHRpbWUuTm93KCkKCXVzZXIuTGFzdExvZ2luQXQgPSAmbm93CglkYXRhYmFzZS5EQi5TYXZlKCZ1c2VyKQoKCXRva2VuSW5mbywgZXJyIDo9IG1pZGRsZXdhcmUuR2VuZXJhdGVBY2Nlc3NUb2tlbkluZm8odXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgIiIsICIiLCBuaWwsIG5pbCwgZXJyCgl9CgoJcmVmcmVzaEluZm8sIGVyciA6PSBtaWRkbGV3YXJlLkdlbmVyYXRlUmVmcmVzaFRva2VuSW5mbyh1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCAiIiwgIiIsIG5pbCwgbmlsLCBlcnIKCX0KCglyZXR1cm4gJnVzZXIsIHRva2VuSW5mby5Ub2tlbiwgcmVmcmVzaEluZm8uVG9rZW4sIHRva2VuSW5mbywgcmVmcmVzaEluZm8sIG5pbAp9CgpmdW5jIChzICpBdXRoU2VydmljZSkgUmVmcmVzaFRva2VuKHRva2VuU3RyIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCWNsYWltcywgZXJyIDo9IG1pZGRsZXdhcmUuUGFyc2VUb2tlbih0b2tlblN0cikKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZXJyb3JzLk5ldygi5Yi35paw5Luk54mM5peg5pWIIikKCX0KCglpZiBjbGFpbXMuVG9rZW5UeXBlICE9ICJyZWZyZXNoIiB7CgkJcmV0dXJuICIiLCBlcnJvcnMuTmV3KCLkuI3mmK/liLfmlrDku6TniYwiKQoJfQoKCWlmIG1pZGRsZXdhcmUuSXNUb2tlbkJsb2NrZWQoY2xhaW1zLklEKSB7CgkJcmV0dXJuICIiLCBlcnJvcnMuTmV3KCLliLfmlrDku6TniYzlt7LooqvmkqTplIAiKQoJfQoKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IiwgY2xhaW1zLlVzZXJuYW1lKS5GaXJzdCgmdXNlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgRXJyVXNlck5vdEZvdW5kCgl9CgoJaWYgIXVzZXIuRW5hYmxlZCB7CgkJcmV0dXJuICIiLCBFcnJVc2VyRGlzYWJsZWQKCX0KCglyZXR1cm4gbWlkZGxld2FyZS5HZW5lcmF0ZUFjY2Vzc1Rva2VuKHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKfQoKZnVuYyAocyAqQXV0aFNlcnZpY2UpIExvZ291dChqdGkgc3RyaW5nLCB1c2VySUQgKnVpbnQpIGVycm9yIHsKCWJsb2NrZWQgOj0gbW9kZWwuVG9rZW5CbG9ja2xpc3R7CgkJSlRJOiAgICAgICBqdGksCgkJVG9rZW5UeXBlOiAiYWNjZXNzIiwKCQlVc2VySUQ6ICAgIHVzZXJJRCwKCQlSZXZva2VkQXQ6IHRpbWUuTm93KCksCgkJRXhwaXJlc0F0OiB0aW1lLk5vdygpLkFkZCgyNCAqIHRpbWUuSG91ciksCgl9CglyZXR1cm4gZGF0YWJhc2UuREIuQ3JlYXRlKCZibG9ja2VkKS5FcnJvcgp9CgpmdW5jIChzICpBdXRoU2VydmljZSkgR2V0VXNlcih1c2VybmFtZSBzdHJpbmcpICgqbW9kZWwuVXNlciwgZXJyb3IpIHsKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IiwgdXNlcm5hbWUpLkZpcnN0KCZ1c2VyKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgRXJyVXNlck5vdEZvdW5kCgl9CglyZXR1cm4gJnVzZXIsIG5pbAp9CgpmdW5jIChzICpBdXRoU2VydmljZSkgQ2hhbmdlUGFzc3dvcmQodXNlcm5hbWUsIG9sZFBhc3N3b3JkLCBuZXdQYXNzd29yZCBzdHJpbmcpIGVycm9yIHsKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IiwgdXNlcm5hbWUpLkZpcnN0KCZ1c2VyKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIEVyclVzZXJOb3RGb3VuZAoJfQoKCWlmICFjcnlwdG8uQ2hlY2tQYXNzd29yZChvbGRQYXNzd29yZCwgdXNlci5QYXNzd29yZCkgewoJCXJldHVybiBFcnJJbnZhbGlkUGFzc3dvcmQKCX0KCglpZiAhdmFsaWRhdG9yLlZhbGlkYXRlUGFzc3dvcmQobmV3UGFzc3dvcmQpIHsKCQlyZXR1cm4gRXJyUGFzc3dvcmRUb29TaG9ydAoJfQoKCWhhc2gsIGVyciA6PSBjcnlwdG8uSGFzaFBhc3N3b3JkKG5ld1Bhc3N3b3JkKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXJldHVybiBkYXRhYmFzZS5EQi5Nb2RlbCgmdXNlcikuVXBkYXRlKCJwYXNzd29yZCIsIGhhc2gpLkVycm9yCn0K
+package service
+
+import (
+	"errors"
+	"strings"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/crypto"
+	"daidai-panel/pkg/validator"
+)
+
+var (
+	ErrUserNotFound     = errors.New("用户不存在")
+	ErrInvalidPassword  = errors.New("密码错误")
+	ErrUserDisabled     = errors.New("账号已被禁用")
+	ErrUserExists       = errors.New("用户名已存在")
+	ErrInvalidUsername  = errors.New("用户名格式无效")
+	ErrPasswordTooShort = errors.New("密码过短")
+	ErrTOTPRequired     = errors.New("需要两步验证码")
+	ErrInvalidTOTP      = errors.New("两步验证码错误")
+)
+
+type AuthService struct{}
+
+func NewAuthService() *AuthService {
+	return &AuthService{}
+}
+
+func (s *AuthService) NeedInit() bool {
+	var count int64
+	database.DB.Model(&model.User{}).Count(&count)
+	return count == 0
+}
+
+func (s *AuthService) InitAdmin(username, password string) (*model.User, error) {
+	if !s.NeedInit() {
+		return nil, errors.New("系统已初始化")
+	}
+
+	if !validator.ValidateUsername(username) {
+		return nil, ErrInvalidUsername
+	}
+	if !validator.ValidatePassword(password) {
+		return nil, ErrPasswordTooShort
+	}
+
+	hash, err := crypto.HashPassword(password)
+	if err != nil {
+		return nil, err
+	}
+
+	user := &model.User{
+		Username: username,
+		Password: hash,
+		Role:     "admin",
+		Enabled:  true,
+	}
+	if err := database.DB.Create(user).Error; err != nil {
+		return nil, err
+	}
+	return user, nil
+}
+
+func (s *AuthService) Login(username, password, totpCode string) (*model.User, string, string, *middleware.TokenInfo, *middleware.TokenInfo, error) {
+	username = validator.SanitizeString(username)
+	totpCode = strings.TrimSpace(totpCode)
+
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		return nil, "", "", nil, nil, ErrUserNotFound
+	}
+
+	if !user.Enabled {
+		return nil, "", "", nil, nil, ErrUserDisabled
+	}
+
+	if !crypto.CheckPassword(password, user.Password) {
+		return nil, "", "", nil, nil, ErrInvalidPassword
+	}
+
+	if IsTwoFactorEnabled(user.ID) {
+		if totpCode == "" {
+			return nil, "", "", nil, nil, ErrTOTPRequired
+		}
+		if !ValidateUserTOTP(user.ID, totpCode) {
+			return nil, "", "", nil, nil, ErrInvalidTOTP
+		}
+	}
+
+	now := time.Now()
+	user.LastLoginAt = &now
+	database.DB.Save(&user)
+
+	tokenInfo, err := middleware.GenerateAccessTokenInfo(user.Username, user.Role)
+	if err != nil {
+		return nil, "", "", nil, nil, err
+	}
+
+	refreshInfo, err := middleware.GenerateRefreshTokenInfo(user.Username, user.Role)
+	if err != nil {
+		return nil, "", "", nil, nil, err
+	}
+
+	return &user, tokenInfo.Token, refreshInfo.Token, tokenInfo, refreshInfo, nil
+}
+
+func (s *AuthService) RefreshToken(tokenStr string) (string, error) {
+	claims, err := middleware.ParseToken(tokenStr)
+	if err != nil {
+		return "", errors.New("刷新令牌无效")
+	}
+
+	if claims.TokenType != "refresh" {
+		return "", errors.New("不是刷新令牌")
+	}
+
+	if middleware.IsTokenBlocked(claims.ID) {
+		return "", errors.New("刷新令牌已被撤销")
+	}
+
+	var user model.User
+	if err := database.DB.Where("username = ?", claims.Username).First(&user).Error; err != nil {
+		return "", ErrUserNotFound
+	}
+
+	if !user.Enabled {
+		return "", ErrUserDisabled
+	}
+
+	return middleware.GenerateAccessToken(user.Username, user.Role)
+}
+
+func (s *AuthService) Logout(jti string, userID *uint) error {
+	blocked := model.TokenBlocklist{
+		JTI:       jti,
+		TokenType: "access",
+		UserID:    userID,
+		RevokedAt: time.Now(),
+		ExpiresAt: time.Now().Add(24 * time.Hour),
+	}
+	return database.DB.Create(&blocked).Error
+}
+
+func (s *AuthService) GetUser(username string) (*model.User, error) {
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		return nil, ErrUserNotFound
+	}
+	return &user, nil
+}
+
+func (s *AuthService) ChangePassword(username, oldPassword, newPassword string) error {
+	var user model.User
+	if err := database.DB.Where("username = ?", username).First(&user).Error; err != nil {
+		return ErrUserNotFound
+	}
+
+	if !crypto.CheckPassword(oldPassword, user.Password) {
+		return ErrInvalidPassword
+	}
+
+	if !validator.ValidatePassword(newPassword) {
+		return ErrPasswordTooShort
+	}
+
+	hash, err := crypto.HashPassword(newPassword)
+	if err != nil {
+		return err
+	}
+
+	return database.DB.Model(&user).Update("password", hash).Error
+}

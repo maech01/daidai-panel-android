@@ -1,1 +1,27 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3RBbmRyb2lkU3VwcG9ydGVkUmVjb2duaXplc01hZ2lza0Vudk1hcmtlcih0ICp0ZXN0aW5nLlQpIHsKCXQuU2V0ZW52KCJEQUlEQUlfTUFHSVNLX01PRFVMRSIsICIxIikKCglpZiAhYW5kcm9pZFN1cHBvcnRlZCgpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBhbmRyb2lkU3VwcG9ydGVkIHRvIHJlY29nbml6ZSBNYWdpc2sgZW52IG1hcmtlciIpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVBbmRyb2lkUnVudGltZUJpbkRpclByZWZlcnNFbnZPdmVycmlkZSh0ICp0ZXN0aW5nLlQpIHsKCXQuU2V0ZW52KCJEQUlEQUlfQU5EUk9JRF9SVU5USU1FX0JJTl9ESVIiLCAiL2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9jdXN0b20tYmluIikKCglnb3QgOj0gcmVzb2x2ZUFuZHJvaWRSdW50aW1lQmluRGlyKCkKCWlmIGdvdCAhPSAiL2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9jdXN0b20tYmluIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGVudiBvdmVycmlkZSBiaW4gZGlyLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVBbmRyb2lkUnVudGltZUJpbkRpckZhbGxzQmFja1RvRGVmYXVsdCh0ICp0ZXN0aW5nLlQpIHsKCWdvdCA6PSByZXNvbHZlQW5kcm9pZFJ1bnRpbWVCaW5EaXIoKQoJaWYgZ290ICE9IGRlZmF1bHRBbmRyb2lkUnVudGltZUJpbkRpciB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRlZmF1bHQgYW5kcm9pZCBydW50aW1lIGJpbiBkaXIgJXEsIGdvdCAlcSIsIGRlZmF1bHRBbmRyb2lkUnVudGltZUJpbkRpciwgZ290KQoJfQp9Cg==
+package handler
+
+import "testing"
+
+func TestAndroidSupportedRecognizesMagiskEnvMarker(t *testing.T) {
+	t.Setenv("DAIDAI_MAGISK_MODULE", "1")
+
+	if !androidSupported() {
+		t.Fatal("expected androidSupported to recognize Magisk env marker")
+	}
+}
+
+func TestResolveAndroidRuntimeBinDirPrefersEnvOverride(t *testing.T) {
+	t.Setenv("DAIDAI_ANDROID_RUNTIME_BIN_DIR", "/data/adb/daidai-panel/custom-bin")
+
+	got := resolveAndroidRuntimeBinDir()
+	if got != "/data/adb/daidai-panel/custom-bin" {
+		t.Fatalf("expected env override bin dir, got %q", got)
+	}
+}
+
+func TestResolveAndroidRuntimeBinDirFallsBackToDefault(t *testing.T) {
+	got := resolveAndroidRuntimeBinDir()
+	if got != defaultAndroidRuntimeBinDir {
+		t.Fatalf("expected default android runtime bin dir %q, got %q", defaultAndroidRuntimeBinDir, got)
+	}
+}

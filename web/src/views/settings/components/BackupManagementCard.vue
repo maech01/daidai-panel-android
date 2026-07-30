@@ -1,1 +1,540 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENsb2NrLCBDb25uZWN0aW9uLCBEZWxldGUsIERvY3VtZW50LCBEb3dubG9hZCwgRmlsZXMsIFNldHRpbmcsIFRpbWVyLCBVcGxvYWQsIFZpZXcgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHsgcmVmIH0gZnJvbSAndnVlJwppbXBvcnQgdHlwZSB7IEJhY2t1cFNlbGVjdGlvbiB9IGZyb20gJ0AvYXBpL3N5c3RlbScKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKaW1wb3J0IFJlc3RvcmVQcm9ncmVzc0RpYWxvZyBmcm9tICcuL1Jlc3RvcmVQcm9ncmVzc0RpYWxvZy52dWUnCgpjb25zdCBzaG93QmFja3VwRGlhbG9nID0gZGVmaW5lTW9kZWw8Ym9vbGVhbj4oJ3Nob3dCYWNrdXBEaWFsb2cnLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IGJhY2t1cE5hbWUgPSBkZWZpbmVNb2RlbDxzdHJpbmc+KCdiYWNrdXBOYW1lJywgeyByZXF1aXJlZDogdHJ1ZSB9KQpjb25zdCBiYWNrdXBQYXNzd29yZCA9IGRlZmluZU1vZGVsPHN0cmluZz4oJ2JhY2t1cFBhc3N3b3JkJywgeyByZXF1aXJlZDogdHJ1ZSB9KQpjb25zdCBiYWNrdXBTZWxlY3Rpb24gPSBkZWZpbmVNb2RlbDxCYWNrdXBTZWxlY3Rpb24+KCdiYWNrdXBTZWxlY3Rpb24nLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IGJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uID0gZGVmaW5lTW9kZWw8QmFja3VwU2VsZWN0aW9uPignYmFja3VwU2NoZWR1bGVTZWxlY3Rpb24nLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IHNob3dSZXN0b3JlRGlhbG9nID0gZGVmaW5lTW9kZWw8Ym9vbGVhbj4oJ3Nob3dSZXN0b3JlRGlhbG9nJywgeyByZXF1aXJlZDogdHJ1ZSB9KQpjb25zdCByZXN0b3JlUGFzc3dvcmQgPSBkZWZpbmVNb2RlbDxzdHJpbmc+KCdyZXN0b3JlUGFzc3dvcmQnLCB7IHJlcXVpcmVkOiB0cnVlIH0pCgpkZWZpbmVQcm9wczx7CiAgc2V0dGluZ3NGb3JtOiB7CiAgICBiYWNrdXBfc2NoZWR1bGVfZW5hYmxlZDogYm9vbGVhbgogICAgYmFja3VwX3NjaGVkdWxlX2ZyZXF1ZW5jeTogJ2RhaWx5JyB8ICd3ZWVrbHknIHwgJ21vbnRobHknIHwgc3RyaW5nCiAgICBiYWNrdXBfc2NoZWR1bGVfdGltZTogc3RyaW5nCiAgICBiYWNrdXBfc2NoZWR1bGVfd2Vla2RheTogc3RyaW5nCiAgICBiYWNrdXBfc2NoZWR1bGVfbW9udGhkYXk6IG51bWJlcgogICAgYmFja3VwX3NjaGVkdWxlX25hbWU6IHN0cmluZwogICAgYmFja3VwX3NjaGVkdWxlX3Bhc3N3b3JkOiBzdHJpbmcKICB9CiAgY29uZmlnc1NhdmluZzogYm9vbGVhbgogIGJhY2t1cHM6IEFycmF5PHsgbmFtZTogc3RyaW5nOyBzaXplOiBudW1iZXI7IGNyZWF0ZWRfYXQ6IHN0cmluZyB9PgogIGJhY2t1cHNMb2FkaW5nOiBib29sZWFuCiAgcmVzdG9yZUZpbGVuYW1lOiBzdHJpbmcKICByZXN0b3JlUHJvZ3Jlc3NWaXNpYmxlOiBib29sZWFuCiAgcmVzdG9yZVByb2dyZXNzU3RhdHVzOiBzdHJpbmcKICByZXN0b3JlUHJvZ3Jlc3NTdGFnZTogc3RyaW5nCiAgcmVzdG9yZVByb2dyZXNzTWVzc2FnZTogc3RyaW5nCiAgcmVzdG9yZVByb2dyZXNzUGVyY2VudDogbnVtYmVyCiAgcmVzdG9yZVByb2dyZXNzU291cmNlOiBzdHJpbmcKICByZXN0b3JlUHJvZ3Jlc3NTZWxlY3Rpb246IFBhcnRpYWw8QmFja3VwU2VsZWN0aW9uPgogIHJlc3RvcmVQcm9ncmVzc1N0YXJ0ZWRBdD86IHN0cmluZwogIHJlc3RvcmVSZXN0YXJ0Q291bnRkb3duOiBudW1iZXIKICByZXN0b3JlUHJvZ3Jlc3NFcnJvcjogc3RyaW5nCiAgdXBsb2FkUHJvZ3Jlc3M6IG51bWJlcgogIHVwbG9hZFVwbG9hZGluZzogYm9vbGVhbgogIG9uQ3JlYXRlQmFja3VwOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uVXBsb2FkQmFja3VwOiAoZXZlbnQ6IEV2ZW50KSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uU2F2ZVNjaGVkdWxlOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uQ29uZmlybUNyZWF0ZUJhY2t1cDogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvbkRvd25sb2FkQmFja3VwOiAoZmlsZW5hbWU6IHN0cmluZykgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvblJlc3RvcmVCYWNrdXA6IChmaWxlbmFtZTogc3RyaW5nKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uQ29uZmlybVJlc3RvcmU6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25DbG9zZVJlc3RvcmVQcm9ncmVzczogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvblJlc3RhcnRSZXN0b3JlTm93OiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uRGVsZXRlQmFja3VwOiAoZmlsZW5hbWU6IHN0cmluZykgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KfT4oKQoKY29uc3QgYmFja3VwRmlsZUlucHV0ID0gcmVmPEhUTUxJbnB1dEVsZW1lbnQgfCBudWxsPihudWxsKQpjb25zdCB7IGlzTW9iaWxlLCBkaWFsb2dGdWxsc2NyZWVuIH0gPSB1c2VSZXNwb25zaXZlKCkKCmNvbnN0IGJhY2t1cFNlbGVjdGlvbk9wdGlvbnM6IEFycmF5PHsga2V5OiBrZXlvZiBCYWNrdXBTZWxlY3Rpb247IHRpdGxlOiBzdHJpbmc7IGRlc2NyaXB0aW9uOiBzdHJpbmc7IGljb246IGFueSB9PiA9IFsKICB7CiAgICBrZXk6ICdjb25maWdzJywKICAgIHRpdGxlOiAn6YWN572u6aG5JywKICAgIGRlc2NyaXB0aW9uOiAn57O757uf6K6+572u44CBT3BlbiBBUEnjgIHpgJrnn6XmuKDpgZPkuI7lronlhajphY3nva4nLAogICAgaWNvbjogU2V0dGluZywKICB9LAogIHsKICAgIGtleTogJ3Rhc2tzJywKICAgIHRpdGxlOiAn5a6a5pe25Lu75YqhJywKICAgIGRlc2NyaXB0aW9uOiAn5Lu75Yqh5a6a5LmJ44CB5qCH562+44CB5omn6KGM5Y+C5pWw5LiO5L6d6LWW5YWz57O7JywKICAgIGljb246IFRpbWVyLAogIH0sCiAgewogICAga2V5OiAnc3Vic2NyaXB0aW9ucycsCiAgICB0aXRsZTogJ+iuoumYheeuoeeQhicsCiAgICBkZXNjcmlwdGlvbjogJ+iuoumYhemFjee9ruS4jiBTU0gg5a+G6ZKlJywKICAgIGljb246IENvbm5lY3Rpb24sCiAgfSwKICB7CiAgICBrZXk6ICdlbnZfdmFycycsCiAgICB0aXRsZTogJ+eOr+Wig+WPmOmHjycsCiAgICBkZXNjcmlwdGlvbjogJ+mdouadv+eOr+Wig+WPmOmHj+S4juWIhue7hOS/oeaBrycsCiAgICBpY29uOiBEb2N1bWVudCwKICB9LAogIHsKICAgIGtleTogJ2xvZ3MnLAogICAgdGl0bGU6ICfml6Xlv5fmlofku7YnLAogICAgZGVzY3JpcHRpb246ICfku7vliqHml6Xlv5forrDlvZXkuI7pnaLmnb/ov5DooYzml6Xlv5cnLAogICAgaWNvbjogRmlsZXMsCiAgfSwKICB7CiAgICBrZXk6ICdzY3JpcHRzJywKICAgIHRpdGxlOiAn6ISa5pys5paH5Lu2JywKICAgIGRlc2NyaXB0aW9uOiAn6ISa5pys55uu5b2V5YaF55qE5rqQ56CB5LiO5Y+v5omn6KGM5paH5Lu2JywKICAgIGljb246IERvY3VtZW50LAogIH0sCiAgewogICAga2V5OiAnZGVwZW5kZW5jaWVzJywKICAgIHRpdGxlOiAn5L6d6LWW6K6w5b2VJywKICAgIGRlc2NyaXB0aW9uOiAn5bey5a6J6KOF5L6d6LWW77yM5oGi5aSN5pe26Ieq5Yqo6YeN6KOFJywKICAgIGljb246IEZpbGVzLAogIH0sCiAgewogICAga2V5OiAndGFza192aWV3cycsCiAgICB0aXRsZTogJ+S7u+WKoeinhuWbvicsCiAgICBkZXNjcmlwdGlvbjogJ+WIhue7hOinhuWbvuS4juiHquWumuS5ieetm+mAieaOkuW6jycsCiAgICBpY29uOiBWaWV3LAogIH0sCl0KCmZ1bmN0aW9uIHRyaWdnZXJVcGxvYWRCYWNrdXAoKSB7CiAgYmFja3VwRmlsZUlucHV0LnZhbHVlPy5jbGljaygpCn0KCmZ1bmN0aW9uIHVwZGF0ZUJhY2t1cFNlbGVjdGlvbihrZXk6IGtleW9mIEJhY2t1cFNlbGVjdGlvbiwgdmFsdWU6IGJvb2xlYW4pIHsKICBiYWNrdXBTZWxlY3Rpb24udmFsdWUgPSB7CiAgICAuLi5iYWNrdXBTZWxlY3Rpb24udmFsdWUsCiAgICBba2V5XTogdmFsdWUKICB9Cn0KCmZ1bmN0aW9uIGZvcm1hdFNpemUoYnl0ZXM6IG51bWJlcik6IHN0cmluZyB7CiAgaWYgKGJ5dGVzIDwgMTAyNCkgcmV0dXJuIGJ5dGVzICsgJyBCJwogIGlmIChieXRlcyA8IDEwMjQgKiAxMDI0KSByZXR1cm4gKGJ5dGVzIC8gMTAyNCkudG9GaXhlZCgxKSArICcgS0InCiAgaWYgKGJ5dGVzIDwgMTAyNCAqIDEwMjQgKiAxMDI0KSByZXR1cm4gKGJ5dGVzIC8gKDEwMjQgKiAxMDI0KSkudG9GaXhlZCgyKSArICcgTUInCiAgcmV0dXJuIChieXRlcyAvICgxMDI0ICogMTAyNCAqIDEwMjQpKS50b0ZpeGVkKDIpICsgJyBHQicKfQoKZnVuY3Rpb24gdXBkYXRlQmFja3VwU2NoZWR1bGVTZWxlY3Rpb24oa2V5OiBrZXlvZiBCYWNrdXBTZWxlY3Rpb24sIHZhbHVlOiBib29sZWFuKSB7CiAgYmFja3VwU2NoZWR1bGVTZWxlY3Rpb24udmFsdWUgPSB7CiAgICAuLi5iYWNrdXBTY2hlZHVsZVNlbGVjdGlvbi52YWx1ZSwKICAgIFtrZXldOiB2YWx1ZQogIH0KfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZWwtY2FyZCBzaGFkb3c9Im5ldmVyIj4KICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJjYXJkLWhlYWRlciI+CiAgICAgICAgPHNwYW4gY2xhc3M9ImNhcmQtdGl0bGUiPjxlbC1pY29uPjxDbG9jayAvPjwvZWwtaWNvbj4g5pWw5o2u5aSH5Lu95LiO5oGi5aSNPC9zcGFuPgogICAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyLWJ1dHRvbnMiPgogICAgICAgICAgPGVsLWJ1dHRvbiBAY2xpY2s9InRyaWdnZXJVcGxvYWRCYWNrdXAiIDpsb2FkaW5nPSJ1cGxvYWRVcGxvYWRpbmciPgogICAgICAgICAgICA8ZWwtaWNvbiB2LWlmPSIhdXBsb2FkVXBsb2FkaW5nIj48RG93bmxvYWQgLz48L2VsLWljb24+e3sgdXBsb2FkVXBsb2FkaW5nID8gYOWvvOWFpeS4rSAke3VwbG9hZFByb2dyZXNzfSVgIDogJ+WvvOWFpeWkh+S7vScgfX0KICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJwcmltYXJ5IiBAY2xpY2s9Im9uQ3JlYXRlQmFja3VwIj4KICAgICAgICAgICAgPGVsLWljb24+PFVwbG9hZCAvPjwvZWwtaWNvbj7liJvlu7rlpIfku70KICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgPGlucHV0IHJlZj0iYmFja3VwRmlsZUlucHV0IiB0eXBlPSJmaWxlIiBhY2NlcHQ9Ii5qc29uLC5lbmMsLnRneiwudGFyLmd6IiBzdHlsZT0iZGlzcGxheTogbm9uZSIgQGNoYW5nZT0ib25VcGxvYWRCYWNrdXAiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KCiAgICA8ZWwtcHJvZ3Jlc3MKICAgICAgdi1pZj0idXBsb2FkVXBsb2FkaW5nIgogICAgICA6cGVyY2VudGFnZT0idXBsb2FkUHJvZ3Jlc3MiCiAgICAgIDpzdHJva2Utd2lkdGg9IjYiCiAgICAgIDpzaG93LXRleHQ9ImZhbHNlIgogICAgICBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMTJweCIKICAgIC8+CgogICAgPGRpdiB2LWlmPSJpc01vYmlsZSIgY2xhc3M9ImRkLW1vYmlsZS1saXN0Ij4KICAgICAgPGRpdgogICAgICAgIHYtZm9yPSJyb3cgaW4gYmFja3VwcyIKICAgICAgICA6a2V5PSJyb3cubmFtZSIKICAgICAgICBjbGFzcz0iZGQtbW9iaWxlLWNhcmQiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9faGVhZGVyIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX190aXRsZS13cmFwIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX190aXRsZSI+e3sgcm93Lm5hbWUgfX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fc3VidGl0bGUiPnt7IG5ldyBEYXRlKHJvdy5jcmVhdGVkX2F0KS50b0xvY2FsZVN0cmluZygpIH19PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2JvZHkiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2dyaWQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fZmllbGQiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fbGFiZWwiPuWkp+Wwjzwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3ZhbHVlIj57eyBmb3JtYXRTaXplKHJvdy5zaXplKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19hY3Rpb25zIGJhY2t1cC1hY3Rpb25zIj4KICAgICAgICAgICAgPGVsLWJ1dHRvbiBzaXplPSJzbWFsbCIgdHlwZT0icHJpbWFyeSIgcGxhaW4gQGNsaWNrPSJvbkRvd25sb2FkQmFja3VwKHJvdy5uYW1lKSI+5LiL6L29PC9lbC1idXR0b24+CiAgICAgICAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIHR5cGU9InN1Y2Nlc3MiIHBsYWluIEBjbGljaz0ib25SZXN0b3JlQmFja3VwKHJvdy5uYW1lKSI+5oGi5aSNPC9lbC1idXR0b24+CiAgICAgICAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIHR5cGU9ImRhbmdlciIgcGxhaW4gQGNsaWNrPSJvbkRlbGV0ZUJhY2t1cChyb3cubmFtZSkiPuWIoOmZpDwvZWwtYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZWwtZW1wdHkgdi1pZj0iIWJhY2t1cHNMb2FkaW5nICYmIGJhY2t1cHMubGVuZ3RoID09PSAwIiBkZXNjcmlwdGlvbj0i5pqC5peg5aSH5Lu9IiAvPgogICAgPC9kaXY+CgogICAgPGVsLXRhYmxlIHYtZWxzZSA6ZGF0YT0iYmFja3VwcyIgdi1sb2FkaW5nPSJiYWNrdXBzTG9hZGluZyIgZW1wdHktdGV4dD0i5pqC5peg5aSH5Lu9Ij4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJuYW1lIiBsYWJlbD0i5paH5Lu25ZCNIiBtaW4td2lkdGg9IjIwMCIgLz4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0i5aSn5bCPIiB3aWR0aD0iMTIwIj4KICAgICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ9Insgcm93IH0iPnt7IGZvcm1hdFNpemUocm93LnNpemUpIH19PC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gcHJvcD0iY3JlYXRlZF9hdCIgbGFiZWw9IuWIm+W7uuaXtumXtCIgd2lkdGg9IjE3MCI+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJ7IHJvdyB9Ij57eyBuZXcgRGF0ZShyb3cuY3JlYXRlZF9hdCkudG9Mb2NhbGVTdHJpbmcoKSB9fTwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLmk43kvZwiIHdpZHRoPSIyNjAiIGZpeGVkPSJyaWdodCIgYWxpZ249ImNlbnRlciI+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJ7IHJvdyB9Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImJhY2t1cC1hY3Rpb25zIj4KICAgICAgICAgICAgPGVsLWJ1dHRvbiBzaXplPSJzbWFsbCIgdHlwZT0icHJpbWFyeSIgcGxhaW4gQGNsaWNrPSJvbkRvd25sb2FkQmFja3VwKHJvdy5uYW1lKSI+CiAgICAgICAgICAgICAgPGVsLWljb24+PERvd25sb2FkIC8+PC9lbC1pY29uPuS4i+i9vQogICAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICAgICAgPGVsLWJ1dHRvbiBzaXplPSJzbWFsbCIgdHlwZT0ic3VjY2VzcyIgcGxhaW4gQGNsaWNrPSJvblJlc3RvcmVCYWNrdXAocm93Lm5hbWUpIj4KICAgICAgICAgICAgICA8ZWwtaWNvbj48VXBsb2FkIC8+PC9lbC1pY29uPuaBouWkjQogICAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICAgICAgPGVsLWJ1dHRvbiBzaXplPSJzbWFsbCIgdHlwZT0iZGFuZ2VyIiBwbGFpbiBAY2xpY2s9Im9uRGVsZXRlQmFja3VwKHJvdy5uYW1lKSI+CiAgICAgICAgICAgICAgPGVsLWljb24+PERlbGV0ZSAvPjwvZWwtaWNvbj7liKDpmaQKICAgICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgIDwvZWwtdGFibGU+CgogICAgPGVsLWFsZXJ0IHR5cGU9ImluZm8iIDpjbG9zYWJsZT0iZmFsc2UiIHNob3ctaWNvbiBzdHlsZT0ibWFyZ2luLXRvcDogMTZweCI+CiAgICAgIOaUr+aMgeWvvOWFpeWRhuWRhumdouadv+Wkh+S7ve+8iGAudGd6YCAvIGAuZW5jYCAvIOaXp+eJiCBgLmpzb25g77yJ5Lul5Y+K6Z2S6b6Z6Z2i5p2/5a+85Ye655qEIGAudGd6YCDlpIfku73ljIUKICAgIDwvZWwtYWxlcnQ+CgogICAgPGVsLWRpdmlkZXIgLz4KCiAgICA8c2VjdGlvbiBjbGFzcz0ic2NoZWR1bGUtc2VjdGlvbiI+CiAgICAgIDxkaXYgY2xhc3M9InNjaGVkdWxlLWhlYWRlciI+CiAgICAgICAgPGRpdj4KICAgICAgICAgIDxoND7lrprml7blpIfku708L2g0PgogICAgICAgICAgPHA+5oyJ5q+P5aSp44CB5q+P5ZGo5oiW5q+P5pyI6Ieq5Yqo5Yib5bu66Z2i5p2/5aSH5Lu977yM5L6/5LqO6ZW/5pyf5L+d55WZ5ZKM54G+5aSH5oGi5aSN44CCPC9wPgogICAgICAgIDwvZGl2PgogICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgOmxvYWRpbmc9ImNvbmZpZ3NTYXZpbmciIEBjbGljaz0ib25TYXZlU2NoZWR1bGUiPgogICAgICAgICAg5L+d5a2Y5a6a5pe26YWN572uCiAgICAgICAgPC9lbC1idXR0b24+CiAgICAgIDwvZGl2PgoKICAgICAgPGRpdiBjbGFzcz0ic2NoZWR1bGUtZ3JpZCI+CiAgICAgICAgPGRpdiBjbGFzcz0ic2NoZWR1bGUtZmllbGQgc2NoZWR1bGUtZmllbGQtLXN3aXRjaCI+CiAgICAgICAgICA8bGFiZWw+5ZCv55So5a6a5pe25aSH5Lu9PC9sYWJlbD4KICAgICAgICAgIDxlbC1zd2l0Y2ggdi1tb2RlbD0ic2V0dGluZ3NGb3JtLmJhY2t1cF9zY2hlZHVsZV9lbmFibGVkIiBpbmxpbmUtcHJvbXB0IGFjdGl2ZS10ZXh0PSLlvIAiIGluYWN0aXZlLXRleHQ9IuWFsyIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzY2hlZHVsZS1maWVsZCI+CiAgICAgICAgICA8bGFiZWw+5aSH5Lu96aKR546HPC9sYWJlbD4KICAgICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0ic2V0dGluZ3NGb3JtLmJhY2t1cF9zY2hlZHVsZV9mcmVxdWVuY3kiIHN0eWxlPSJ3aWR0aDogMTAwJSI+CiAgICAgICAgICAgIDxlbC1vcHRpb24gbGFiZWw9Iuavj+WkqSIgdmFsdWU9ImRhaWx5IiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLmr4/lkagiIHZhbHVlPSJ3ZWVrbHkiIC8+CiAgICAgICAgICAgIDxlbC1vcHRpb24gbGFiZWw9Iuavj+aciCIgdmFsdWU9Im1vbnRobHkiIC8+CiAgICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzY2hlZHVsZS1maWVsZCI+CiAgICAgICAgICA8bGFiZWw+5omn6KGM5pe26Ze0PC9sYWJlbD4KICAgICAgICAgIDxlbC10aW1lLXNlbGVjdAogICAgICAgICAgICB2LW1vZGVsPSJzZXR0aW5nc0Zvcm0uYmFja3VwX3NjaGVkdWxlX3RpbWUiCiAgICAgICAgICAgIHN0eWxlPSJ3aWR0aDogMTAwJSIKICAgICAgICAgICAgc3RhcnQ9IjAwOjAwIgogICAgICAgICAgICBzdGVwPSIwMDozMCIKICAgICAgICAgICAgZW5kPSIyMzozMCIKICAgICAgICAgICAgcGxhY2Vob2xkZXI9IumAieaLqeaJp+ihjOaXtumXtCIKICAgICAgICAgIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiB2LWlmPSJzZXR0aW5nc0Zvcm0uYmFja3VwX3NjaGVkdWxlX2ZyZXF1ZW5jeSA9PT0gJ3dlZWtseSciIGNsYXNzPSJzY2hlZHVsZS1maWVsZCI+CiAgICAgICAgICA8bGFiZWw+5q+P5ZGo5omn6KGM5pelPC9sYWJlbD4KICAgICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0ic2V0dGluZ3NGb3JtLmJhY2t1cF9zY2hlZHVsZV93ZWVrZGF5IiBzdHlsZT0id2lkdGg6IDEwMCUiPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajml6UiIHZhbHVlPSIwIiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajkuIAiIHZhbHVlPSIxIiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajkuowiIHZhbHVlPSIyIiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajkuIkiIHZhbHVlPSIzIiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajlm5siIHZhbHVlPSI0IiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajkupQiIHZhbHVlPSI1IiAvPgogICAgICAgICAgICA8ZWwtb3B0aW9uIGxhYmVsPSLlkajlha0iIHZhbHVlPSI2IiAvPgogICAgICAgICAgPC9lbC1zZWxlY3Q+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiB2LWlmPSJzZXR0aW5nc0Zvcm0uYmFja3VwX3NjaGVkdWxlX2ZyZXF1ZW5jeSA9PT0gJ21vbnRobHknIiBjbGFzcz0ic2NoZWR1bGUtZmllbGQiPgogICAgICAgICAgPGxhYmVsPuavj+aciOaJp+ihjOaXpTwvbGFiZWw+CiAgICAgICAgICA8ZWwtaW5wdXQtbnVtYmVyIHYtbW9kZWw9InNldHRpbmdzRm9ybS5iYWNrdXBfc2NoZWR1bGVfbW9udGhkYXkiIDptaW49IjEiIDptYXg9IjI4IiBzdHlsZT0id2lkdGg6IDEwMCUiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2NoZWR1bGUtZmllbGQiPgogICAgICAgICAgPGxhYmVsPuaWh+S7tuWQjeWJjee8gDwvbGFiZWw+CiAgICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0ic2V0dGluZ3NGb3JtLmJhY2t1cF9zY2hlZHVsZV9uYW1lIiBwbGFjZWhvbGRlcj0i5Y+v6YCJ77yM5L6L5aaC77yaZGFpbHktYXV0by1iYWNrdXAiIC8+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2NoZWR1bGUtZmllbGQiPgogICAgICAgICAgPGxhYmVsPuWKoOWvhuWvhueggTwvbGFiZWw+CiAgICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0ic2V0dGluZ3NGb3JtLmJhY2t1cF9zY2hlZHVsZV9wYXNzd29yZCIgdHlwZT0icGFzc3dvcmQiIHNob3ctcGFzc3dvcmQgcGxhY2Vob2xkZXI9IuWPr+mAie+8jOeVmeepuuWImeS4jeWKoOWvhiIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJzY2hlZHVsZS1zZWxlY3Rpb24iPgogICAgICAgIDxsYWJlbCBjbGFzcz0ic2NoZWR1bGUtc2VsZWN0aW9uLXRpdGxlIj7lrprml7blpIfku73lhoXlrrk8L2xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9ImJhY2t1cC1zZWxlY3Rpb24tZ3JpZCI+CiAgICAgICAgICA8bGFiZWwKICAgICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBiYWNrdXBTZWxlY3Rpb25PcHRpb25zIgogICAgICAgICAgICA6a2V5PSJgc2NoZWR1bGUtJHtvcHRpb24ua2V5fWAiCiAgICAgICAgICAgIGNsYXNzPSJiYWNrdXAtc2VsZWN0aW9uLWNhcmQiCiAgICAgICAgICAgIDpjbGFzcz0ieyAnaXMtYWN0aXZlJzogYmFja3VwU2NoZWR1bGVTZWxlY3Rpb25bb3B0aW9uLmtleV0gfSIKICAgICAgICAgID4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iYmFja3VwLXNlbGVjdGlvbi1jYXJkLWhlYWRlciI+CiAgICAgICAgICAgICAgPGVsLWljb24gY2xhc3M9ImJhY2t1cC1zZWxlY3Rpb24taWNvbiIgOnNpemU9IjE2Ij48Y29tcG9uZW50IDppcz0ib3B0aW9uLmljb24iIC8+PC9lbC1pY29uPgogICAgICAgICAgICAgIDxlbC1jaGVja2JveAogICAgICAgICAgICAgICAgOm1vZGVsLXZhbHVlPSJiYWNrdXBTY2hlZHVsZVNlbGVjdGlvbltvcHRpb24ua2V5XSIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InVwZGF0ZUJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uKG9wdGlvbi5rZXksIEJvb2xlYW4oJGV2ZW50KSkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgb3B0aW9uLnRpdGxlIH19CiAgICAgICAgICAgICAgPC9lbC1jaGVja2JveD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJiYWNrdXAtc2VsZWN0aW9uLWhpbnQiPnt7IG9wdGlvbi5kZXNjcmlwdGlvbiB9fTwvc3Bhbj4KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogIDwvZWwtY2FyZD4KCiAgPGVsLWRpYWxvZyB2LW1vZGVsPSJzaG93QmFja3VwRGlhbG9nIiB0aXRsZT0i5Yib5bu65aSH5Lu9IiB3aWR0aD0iNTYwcHgiIDpmdWxsc2NyZWVuPSJkaWFsb2dGdWxsc2NyZWVuIj4KICAgIDxlbC1mb3JtIDpsYWJlbC13aWR0aD0iZGlhbG9nRnVsbHNjcmVlbiA/ICdhdXRvJyA6ICcxMDBweCciIDpsYWJlbC1wb3NpdGlvbj0iZGlhbG9nRnVsbHNjcmVlbiA/ICd0b3AnIDogJ3JpZ2h0JyI+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IuWkh+S7veWGheWuuSI+CiAgICAgICAgPGRpdiBjbGFzcz0iYmFja3VwLXNlbGVjdGlvbi1ncmlkIj4KICAgICAgICAgIDxsYWJlbAogICAgICAgICAgICB2LWZvcj0ib3B0aW9uIGluIGJhY2t1cFNlbGVjdGlvbk9wdGlvbnMiCiAgICAgICAgICAgIDprZXk9Im9wdGlvbi5rZXkiCiAgICAgICAgICAgIGNsYXNzPSJiYWNrdXAtc2VsZWN0aW9uLWNhcmQiCiAgICAgICAgICAgIDpjbGFzcz0ieyAnaXMtYWN0aXZlJzogYmFja3VwU2VsZWN0aW9uW29wdGlvbi5rZXldIH0iCiAgICAgICAgICA+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImJhY2t1cC1zZWxlY3Rpb24tY2FyZC1oZWFkZXIiPgogICAgICAgICAgICAgIDxlbC1pY29uIGNsYXNzPSJiYWNrdXAtc2VsZWN0aW9uLWljb24iIDpzaXplPSIxNiI+PGNvbXBvbmVudCA6aXM9Im9wdGlvbi5pY29uIiAvPjwvZWwtaWNvbj4KICAgICAgICAgICAgICA8ZWwtY2hlY2tib3gKICAgICAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iYmFja3VwU2VsZWN0aW9uW29wdGlvbi5rZXldIgogICAgICAgICAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0idXBkYXRlQmFja3VwU2VsZWN0aW9uKG9wdGlvbi5rZXksIEJvb2xlYW4oJGV2ZW50KSkiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAge3sgb3B0aW9uLnRpdGxlIH19CiAgICAgICAgICAgICAgPC9lbC1jaGVja2JveD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJiYWNrdXAtc2VsZWN0aW9uLWhpbnQiPnt7IG9wdGlvbi5kZXNjcmlwdGlvbiB9fTwvc3Bhbj4KICAgICAgICAgIDwvbGFiZWw+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLlpIfku73lr4bnoIEiPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJiYWNrdXBQYXNzd29yZCIgdHlwZT0icGFzc3dvcmQiIHBsYWNlaG9sZGVyPSLlj6/pgInvvIznlZnnqbrliJnkuI3liqDlr4YiIHNob3ctcGFzc3dvcmQgLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IuWkh+S7veaWh+S7tuWQjSI+CiAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9ImJhY2t1cE5hbWUiIHBsYWNlaG9sZGVyPSLlj6/pgInvvIzkvovlpoLvvJrlkajkupTlhajph4/lpIfku70iIC8+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8ZWwtYWxlcnQgdHlwZT0iaW5mbyIgOmNsb3NhYmxlPSJmYWxzZSIgc2hvdy1pY29uPgogICAgICAgIOWIm+W7uueahOWkh+S7vem7mOiupOWvvOWHuuS4uiBgLnRnemDvvIzorr7nva7lr4bnoIHlkI7kvJrliqDlr4bkuLogYC5lbmNg77yb5aaC5p6c5aGr5YaZ5ZCN56ew77yM57O757uf5Lya6Ieq5Yqo6KGl5YWo5q2j56Gu5omp5bGV5ZCN44CCCiAgICAgIDwvZWwtYWxlcnQ+CiAgICA8L2VsLWZvcm0+CiAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgPGVsLWJ1dHRvbiBAY2xpY2s9InNob3dCYWNrdXBEaWFsb2cgPSBmYWxzZSI+5Y+W5raIPC9lbC1idXR0b24+CiAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgQGNsaWNrPSJvbkNvbmZpcm1DcmVhdGVCYWNrdXAiPuWIm+W7ujwvZWwtYnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICA8L2VsLWRpYWxvZz4KCiAgPGVsLWRpYWxvZyB2LW1vZGVsPSJzaG93UmVzdG9yZURpYWxvZyIgdGl0bGU9IuaBouWkjeWkh+S7vSIgd2lkdGg9IjQwMHB4IiA6ZnVsbHNjcmVlbj0iZGlhbG9nRnVsbHNjcmVlbiI+CiAgICA8ZWwtZm9ybSA6bGFiZWwtd2lkdGg9ImRpYWxvZ0Z1bGxzY3JlZW4gPyAnYXV0bycgOiAnMTAwcHgnIiA6bGFiZWwtcG9zaXRpb249ImRpYWxvZ0Z1bGxzY3JlZW4gPyAndG9wJyA6ICdyaWdodCciPgogICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLlpIfku73mlofku7YiPgogICAgICAgIDxlbC1pbnB1dCA6bW9kZWwtdmFsdWU9InJlc3RvcmVGaWxlbmFtZSIgZGlzYWJsZWQgLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gdi1pZj0icmVzdG9yZUZpbGVuYW1lLmVuZHNXaXRoKCcuZW5jJykiIGxhYmVsPSLlpIfku73lr4bnoIEiPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJyZXN0b3JlUGFzc3dvcmQiIHR5cGU9InBhc3N3b3JkIiBwbGFjZWhvbGRlcj0i6K+36L6T5YWl5aSH5Lu95a+G56CBIiBzaG93LXBhc3N3b3JkIC8+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8ZWwtYWxlcnQgdHlwZT0id2FybmluZyIgOmNsb3NhYmxlPSJmYWxzZSIgc2hvdy1pY29uPgogICAgICAgIOaBouWkjeWwhuimhuebluW9k+WJjeaVsOaNru+8jOivt+iwqOaFjuaTjeS9nO+8gQogICAgICA8L2VsLWFsZXJ0PgogICAgPC9lbC1mb3JtPgogICAgPHRlbXBsYXRlICNmb290ZXI+CiAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJzaG93UmVzdG9yZURpYWxvZyA9IGZhbHNlIj7lj5bmtog8L2VsLWJ1dHRvbj4KICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJkYW5nZXIiIEBjbGljaz0ib25Db25maXJtUmVzdG9yZSI+56Gu6K6k5oGi5aSNPC9lbC1idXR0b24+CiAgICA8L3RlbXBsYXRlPgogIDwvZWwtZGlhbG9nPgoKICA8UmVzdG9yZVByb2dyZXNzRGlhbG9nCiAgICA6dmlzaWJsZT0icmVzdG9yZVByb2dyZXNzVmlzaWJsZSIKICAgIDpmdWxsc2NyZWVuPSJkaWFsb2dGdWxsc2NyZWVuIgogICAgOmZpbGVuYW1lPSJyZXN0b3JlRmlsZW5hbWUiCiAgICA6c3RhdHVzPSJyZXN0b3JlUHJvZ3Jlc3NTdGF0dXMiCiAgICA6c3RhZ2U9InJlc3RvcmVQcm9ncmVzc1N0YWdlIgogICAgOm1lc3NhZ2U9InJlc3RvcmVQcm9ncmVzc01lc3NhZ2UiCiAgICA6cGVyY2VudD0icmVzdG9yZVByb2dyZXNzUGVyY2VudCIKICAgIDpzb3VyY2U9InJlc3RvcmVQcm9ncmVzc1NvdXJjZSIKICAgIDpzZWxlY3Rpb249InJlc3RvcmVQcm9ncmVzc1NlbGVjdGlvbiIKICAgIDpzdGFydGVkLWF0PSJyZXN0b3JlUHJvZ3Jlc3NTdGFydGVkQXQiCiAgICA6Y291bnRkb3duPSJyZXN0b3JlUmVzdGFydENvdW50ZG93biIKICAgIDplcnJvci1tZXNzYWdlPSJyZXN0b3JlUHJvZ3Jlc3NFcnJvciIKICAgIDpvbi1jbG9zZT0ib25DbG9zZVJlc3RvcmVQcm9ncmVzcyIKICAgIDpvbi1yZXN0YXJ0LW5vdz0ib25SZXN0YXJ0UmVzdG9yZU5vdyIKICAvPgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZCBsYW5nPSJzY3NzIj4KQHVzZSAnLi9jb25maWctY2FyZC1zaGFyZWQuc2NzcycgYXMgKjsKCi5jYXJkLWhlYWRlci1idXR0b25zLAouYmFja3VwLWFjdGlvbnMgewogIHBhZGRpbmc6IDJweDsKICBib3JkZXItcmFkaXVzOiAxMnB4OwogIGJhY2tncm91bmQ6IGNvbG9yLW1peChpbiBzcmdiLCB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0KSA4NCUsIHRyYW5zcGFyZW50KTsKICBkaXNwbGF5OiBmbGV4OwogIGdhcDogOHB4OwogIGZsZXgtd3JhcDogd3JhcDsKfQoKLmJhY2t1cC1hY3Rpb25zIHsKICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICBmbGV4LXdyYXA6IG5vd3JhcDsKfQoKLmJhY2t1cC1zZWxlY3Rpb24tZ3JpZCB7CiAgZGlzcGxheTogZ3JpZDsKICBnYXA6IDEwcHg7CiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMiwgbWlubWF4KDAsIDFmcikpOwp9CgouYmFja3VwLXNlbGVjdGlvbi1jYXJkIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgZ2FwOiA0cHg7CiAgcGFkZGluZzogMTJweCAxNHB4OwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodCk7CiAgYm9yZGVyLXJhZGl1czogOHB4OwogIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3ItZXh0cmEtbGlnaHQpOwogIHRyYW5zaXRpb246IGJvcmRlci1jb2xvciAwLjJzIGVhc2UsIGJhY2tncm91bmQgMC4ycyBlYXNlOwogIGN1cnNvcjogcG9pbnRlcjsKCiAgJjpob3ZlciB7CiAgICBib3JkZXItY29sb3I6IHJnYmEoNTksIDEzMCwgMjQ2LCAwLjM1KTsKICAgIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3ItbGlnaHQpOwogIH0KCiAgJi5pcy1hY3RpdmUgewogICAgYm9yZGVyLWNvbG9yOiByZ2JhKDU5LCAxMzAsIDI0NiwgMC40OCk7CiAgICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtY29sb3ItcHJpbWFyeSkgNiUsIHZhcigtLWVsLWJnLWNvbG9yKSk7CiAgfQoKICA6ZGVlcCguZWwtY2hlY2tib3gpIHsKICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgICBsaW5lLWhlaWdodDogMS40OwogIH0KCiAgOmRlZXAoLmVsLWNoZWNrYm94X19sYWJlbCkgewogICAgZm9udC13ZWlnaHQ6IDYwMDsKICAgIGZvbnQtc2l6ZTogMTNweDsKICAgIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwogICAgcGFkZGluZy1sZWZ0OiA2cHg7CiAgfQp9CgouYmFja3VwLXNlbGVjdGlvbi1jYXJkLWhlYWRlciB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogNnB4Owp9CgouYmFja3VwLXNlbGVjdGlvbi1pY29uIHsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogIGZsZXgtc2hyaW5rOiAwOwp9CgouYmFja3VwLXNlbGVjdGlvbi1jYXJkLmlzLWFjdGl2ZSAuYmFja3VwLXNlbGVjdGlvbi1pY29uIHsKICBjb2xvcjogdmFyKC0tZWwtY29sb3ItcHJpbWFyeSk7Cn0KCi5iYWNrdXAtc2VsZWN0aW9uLWhpbnQgewogIGRpc3BsYXk6IGJsb2NrOwogIGZvbnQtc2l6ZTogMTFweDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogIGxpbmUtaGVpZ2h0OiAxLjU7CiAgbWFyZ2luLWxlZnQ6IDQ2cHg7CiAgd2hpdGUtc3BhY2U6IG5vcm1hbDsKfQoKLnNjaGVkdWxlLXNlY3Rpb24gewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDE4cHg7Cn0KCi5zY2hlZHVsZS1oZWFkZXIgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGZsZXgtc3RhcnQ7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIGdhcDogMTZweDsKICBmbGV4LXdyYXA6IHdyYXA7CgogIGg0IHsKICAgIG1hcmdpbjogMCAwIDZweDsKICAgIGZvbnQtc2l6ZTogMTZweDsKICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKICB9CgogIHAgewogICAgbWFyZ2luOiAwOwogICAgZm9udC1zaXplOiAxM3B4OwogICAgbGluZS1oZWlnaHQ6IDEuNzsKICAgIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7CiAgfQp9Cgouc2NoZWR1bGUtZ3JpZCB7CiAgZGlzcGxheTogZ3JpZDsKICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCBtaW5tYXgoMCwgMWZyKSk7CiAgZ2FwOiAxNnB4IDE4cHg7Cn0KCi5zY2hlZHVsZS1maWVsZCB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGdhcDogOHB4OwoKICBsYWJlbCB7CiAgICBmb250LXNpemU6IDEzcHg7CiAgICBmb250LXdlaWdodDogNjAwOwogICAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7CiAgfQp9Cgouc2NoZWR1bGUtZmllbGQtLXN3aXRjaCB7CiAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDsKfQoKLnNjaGVkdWxlLXNlbGVjdGlvbiB7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGdhcDogMTJweDsKfQoKLnNjaGVkdWxlLXNlbGVjdGlvbi10aXRsZSB7CiAgZm9udC1zaXplOiAxM3B4OwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7Cn0KCkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgewogIC5jYXJkLWhlYWRlci1idXR0b25zIHsKICBwYWRkaW5nOiAycHg7CiAgYm9yZGVyLXJhZGl1czogMTJweDsKICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCkgODQlLCB0cmFuc3BhcmVudCk7CiAgICB3aWR0aDogMTAwJTsKICB9CgogIC5iYWNrdXAtc2VsZWN0aW9uLWdyaWQgewogICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7CiAgfQoKICAuc2NoZWR1bGUtZ3JpZCB7CiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { Clock, Connection, Delete, Document, Download, Files, Setting, Timer, Upload, View } from '@element-plus/icons-vue'
+import { ref } from 'vue'
+import type { BackupSelection } from '@/api/system'
+import { useResponsive } from '@/composables/useResponsive'
+import RestoreProgressDialog from './RestoreProgressDialog.vue'
+
+const showBackupDialog = defineModel<boolean>('showBackupDialog', { required: true })
+const backupName = defineModel<string>('backupName', { required: true })
+const backupPassword = defineModel<string>('backupPassword', { required: true })
+const backupSelection = defineModel<BackupSelection>('backupSelection', { required: true })
+const backupScheduleSelection = defineModel<BackupSelection>('backupScheduleSelection', { required: true })
+const showRestoreDialog = defineModel<boolean>('showRestoreDialog', { required: true })
+const restorePassword = defineModel<string>('restorePassword', { required: true })
+
+defineProps<{
+  settingsForm: {
+    backup_schedule_enabled: boolean
+    backup_schedule_frequency: 'daily' | 'weekly' | 'monthly' | string
+    backup_schedule_time: string
+    backup_schedule_weekday: string
+    backup_schedule_monthday: number
+    backup_schedule_name: string
+    backup_schedule_password: string
+  }
+  configsSaving: boolean
+  backups: Array<{ name: string; size: number; created_at: string }>
+  backupsLoading: boolean
+  restoreFilename: string
+  restoreProgressVisible: boolean
+  restoreProgressStatus: string
+  restoreProgressStage: string
+  restoreProgressMessage: string
+  restoreProgressPercent: number
+  restoreProgressSource: string
+  restoreProgressSelection: Partial<BackupSelection>
+  restoreProgressStartedAt?: string
+  restoreRestartCountdown: number
+  restoreProgressError: string
+  uploadProgress: number
+  uploadUploading: boolean
+  onCreateBackup: () => void | Promise<void>
+  onUploadBackup: (event: Event) => void | Promise<void>
+  onSaveSchedule: () => void | Promise<void>
+  onConfirmCreateBackup: () => void | Promise<void>
+  onDownloadBackup: (filename: string) => void | Promise<void>
+  onRestoreBackup: (filename: string) => void | Promise<void>
+  onConfirmRestore: () => void | Promise<void>
+  onCloseRestoreProgress: () => void | Promise<void>
+  onRestartRestoreNow: () => void | Promise<void>
+  onDeleteBackup: (filename: string) => void | Promise<void>
+}>()
+
+const backupFileInput = ref<HTMLInputElement | null>(null)
+const { isMobile, dialogFullscreen } = useResponsive()
+
+const backupSelectionOptions: Array<{ key: keyof BackupSelection; title: string; description: string; icon: any }> = [
+  {
+    key: 'configs',
+    title: '配置项',
+    description: '系统设置、Open API、通知渠道与安全配置',
+    icon: Setting,
+  },
+  {
+    key: 'tasks',
+    title: '定时任务',
+    description: '任务定义、标签、执行参数与依赖关系',
+    icon: Timer,
+  },
+  {
+    key: 'subscriptions',
+    title: '订阅管理',
+    description: '订阅配置与 SSH 密钥',
+    icon: Connection,
+  },
+  {
+    key: 'env_vars',
+    title: '环境变量',
+    description: '面板环境变量与分组信息',
+    icon: Document,
+  },
+  {
+    key: 'logs',
+    title: '日志文件',
+    description: '任务日志记录与面板运行日志',
+    icon: Files,
+  },
+  {
+    key: 'scripts',
+    title: '脚本文件',
+    description: '脚本目录内的源码与可执行文件',
+    icon: Document,
+  },
+  {
+    key: 'dependencies',
+    title: '依赖记录',
+    description: '已安装依赖，恢复时自动重装',
+    icon: Files,
+  },
+  {
+    key: 'task_views',
+    title: '任务视图',
+    description: '分组视图与自定义筛选排序',
+    icon: View,
+  },
+]
+
+function triggerUploadBackup() {
+  backupFileInput.value?.click()
+}
+
+function updateBackupSelection(key: keyof BackupSelection, value: boolean) {
+  backupSelection.value = {
+    ...backupSelection.value,
+    [key]: value
+  }
+}
+
+function formatSize(bytes: number): string {
+  if (bytes < 1024) return bytes + ' B'
+  if (bytes < 1024 * 1024) return (bytes / 1024).toFixed(1) + ' KB'
+  if (bytes < 1024 * 1024 * 1024) return (bytes / (1024 * 1024)).toFixed(2) + ' MB'
+  return (bytes / (1024 * 1024 * 1024)).toFixed(2) + ' GB'
+}
+
+function updateBackupScheduleSelection(key: keyof BackupSelection, value: boolean) {
+  backupScheduleSelection.value = {
+    ...backupScheduleSelection.value,
+    [key]: value
+  }
+}
+</script>
+
+<template>
+  <el-card shadow="never">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Clock /></el-icon> 数据备份与恢复</span>
+        <div class="card-header-buttons">
+          <el-button @click="triggerUploadBackup" :loading="uploadUploading">
+            <el-icon v-if="!uploadUploading"><Download /></el-icon>{{ uploadUploading ? `导入中 ${uploadProgress}%` : '导入备份' }}
+          </el-button>
+          <el-button type="primary" @click="onCreateBackup">
+            <el-icon><Upload /></el-icon>创建备份
+          </el-button>
+          <input ref="backupFileInput" type="file" accept=".json,.enc,.tgz,.tar.gz" style="display: none" @change="onUploadBackup" />
+        </div>
+      </div>
+    </template>
+
+    <el-progress
+      v-if="uploadUploading"
+      :percentage="uploadProgress"
+      :stroke-width="6"
+      :show-text="false"
+      style="margin-bottom: 12px"
+    />
+
+    <div v-if="isMobile" class="dd-mobile-list">
+      <div
+        v-for="row in backups"
+        :key="row.name"
+        class="dd-mobile-card"
+      >
+        <div class="dd-mobile-card__header">
+          <div class="dd-mobile-card__title-wrap">
+            <span class="dd-mobile-card__title">{{ row.name }}</span>
+            <span class="dd-mobile-card__subtitle">{{ new Date(row.created_at).toLocaleString() }}</span>
+          </div>
+        </div>
+        <div class="dd-mobile-card__body">
+          <div class="dd-mobile-card__grid">
+            <div class="dd-mobile-card__field">
+              <span class="dd-mobile-card__label">大小</span>
+              <span class="dd-mobile-card__value">{{ formatSize(row.size) }}</span>
+            </div>
+          </div>
+          <div class="dd-mobile-card__actions backup-actions">
+            <el-button size="small" type="primary" plain @click="onDownloadBackup(row.name)">下载</el-button>
+            <el-button size="small" type="success" plain @click="onRestoreBackup(row.name)">恢复</el-button>
+            <el-button size="small" type="danger" plain @click="onDeleteBackup(row.name)">删除</el-button>
+          </div>
+        </div>
+      </div>
+      <el-empty v-if="!backupsLoading && backups.length === 0" description="暂无备份" />
+    </div>
+
+    <el-table v-else :data="backups" v-loading="backupsLoading" empty-text="暂无备份">
+      <el-table-column prop="name" label="文件名" min-width="200" />
+      <el-table-column label="大小" width="120">
+        <template #default="{ row }">{{ formatSize(row.size) }}</template>
+      </el-table-column>
+      <el-table-column prop="created_at" label="创建时间" width="170">
+        <template #default="{ row }">{{ new Date(row.created_at).toLocaleString() }}</template>
+      </el-table-column>
+      <el-table-column label="操作" width="260" fixed="right" align="center">
+        <template #default="{ row }">
+          <div class="backup-actions">
+            <el-button size="small" type="primary" plain @click="onDownloadBackup(row.name)">
+              <el-icon><Download /></el-icon>下载
+            </el-button>
+            <el-button size="small" type="success" plain @click="onRestoreBackup(row.name)">
+              <el-icon><Upload /></el-icon>恢复
+            </el-button>
+            <el-button size="small" type="danger" plain @click="onDeleteBackup(row.name)">
+              <el-icon><Delete /></el-icon>删除
+            </el-button>
+          </div>
+        </template>
+      </el-table-column>
+    </el-table>
+
+    <el-alert type="info" :closable="false" show-icon style="margin-top: 16px">
+      支持导入呆呆面板备份（`.tgz` / `.enc` / 旧版 `.json`）以及青龙面板导出的 `.tgz` 备份包
+    </el-alert>
+
+    <el-divider />
+
+    <section class="schedule-section">
+      <div class="schedule-header">
+        <div>
+          <h4>定时备份</h4>
+          <p>按每天、每周或每月自动创建面板备份，便于长期保留和灾备恢复。</p>
+        </div>
+        <el-button type="primary" :loading="configsSaving" @click="onSaveSchedule">
+          保存定时配置
+        </el-button>
+      </div>
+
+      <div class="schedule-grid">
+        <div class="schedule-field schedule-field--switch">
+          <label>启用定时备份</label>
+          <el-switch v-model="settingsForm.backup_schedule_enabled" inline-prompt active-text="开" inactive-text="关" />
+        </div>
+        <div class="schedule-field">
+          <label>备份频率</label>
+          <el-select v-model="settingsForm.backup_schedule_frequency" style="width: 100%">
+            <el-option label="每天" value="daily" />
+            <el-option label="每周" value="weekly" />
+            <el-option label="每月" value="monthly" />
+          </el-select>
+        </div>
+        <div class="schedule-field">
+          <label>执行时间</label>
+          <el-time-select
+            v-model="settingsForm.backup_schedule_time"
+            style="width: 100%"
+            start="00:00"
+            step="00:30"
+            end="23:30"
+            placeholder="选择执行时间"
+          />
+        </div>
+        <div v-if="settingsForm.backup_schedule_frequency === 'weekly'" class="schedule-field">
+          <label>每周执行日</label>
+          <el-select v-model="settingsForm.backup_schedule_weekday" style="width: 100%">
+            <el-option label="周日" value="0" />
+            <el-option label="周一" value="1" />
+            <el-option label="周二" value="2" />
+            <el-option label="周三" value="3" />
+            <el-option label="周四" value="4" />
+            <el-option label="周五" value="5" />
+            <el-option label="周六" value="6" />
+          </el-select>
+        </div>
+        <div v-if="settingsForm.backup_schedule_frequency === 'monthly'" class="schedule-field">
+          <label>每月执行日</label>
+          <el-input-number v-model="settingsForm.backup_schedule_monthday" :min="1" :max="28" style="width: 100%" />
+        </div>
+        <div class="schedule-field">
+          <label>文件名前缀</label>
+          <el-input v-model="settingsForm.backup_schedule_name" placeholder="可选，例如：daily-auto-backup" />
+        </div>
+        <div class="schedule-field">
+          <label>加密密码</label>
+          <el-input v-model="settingsForm.backup_schedule_password" type="password" show-password placeholder="可选，留空则不加密" />
+        </div>
+      </div>
+
+      <div class="schedule-selection">
+        <label class="schedule-selection-title">定时备份内容</label>
+        <div class="backup-selection-grid">
+          <label
+            v-for="option in backupSelectionOptions"
+            :key="`schedule-${option.key}`"
+            class="backup-selection-card"
+            :class="{ 'is-active': backupScheduleSelection[option.key] }"
+          >
+            <div class="backup-selection-card-header">
+              <el-icon class="backup-selection-icon" :size="16"><component :is="option.icon" /></el-icon>
+              <el-checkbox
+                :model-value="backupScheduleSelection[option.key]"
+                @update:model-value="updateBackupScheduleSelection(option.key, Boolean($event))"
+              >
+                {{ option.title }}
+              </el-checkbox>
+            </div>
+            <span class="backup-selection-hint">{{ option.description }}</span>
+          </label>
+        </div>
+      </div>
+    </section>
+  </el-card>
+
+  <el-dialog v-model="showBackupDialog" title="创建备份" width="560px" :fullscreen="dialogFullscreen">
+    <el-form :label-width="dialogFullscreen ? 'auto' : '100px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+      <el-form-item label="备份内容">
+        <div class="backup-selection-grid">
+          <label
+            v-for="option in backupSelectionOptions"
+            :key="option.key"
+            class="backup-selection-card"
+            :class="{ 'is-active': backupSelection[option.key] }"
+          >
+            <div class="backup-selection-card-header">
+              <el-icon class="backup-selection-icon" :size="16"><component :is="option.icon" /></el-icon>
+              <el-checkbox
+                :model-value="backupSelection[option.key]"
+                @update:model-value="updateBackupSelection(option.key, Boolean($event))"
+              >
+                {{ option.title }}
+              </el-checkbox>
+            </div>
+            <span class="backup-selection-hint">{{ option.description }}</span>
+          </label>
+        </div>
+      </el-form-item>
+      <el-form-item label="备份密码">
+        <el-input v-model="backupPassword" type="password" placeholder="可选，留空则不加密" show-password />
+      </el-form-item>
+      <el-form-item label="备份文件名">
+        <el-input v-model="backupName" placeholder="可选，例如：周五全量备份" />
+      </el-form-item>
+      <el-alert type="info" :closable="false" show-icon>
+        创建的备份默认导出为 `.tgz`，设置密码后会加密为 `.enc`；如果填写名称，系统会自动补全正确扩展名。
+      </el-alert>
+    </el-form>
+    <template #footer>
+      <el-button @click="showBackupDialog = false">取消</el-button>
+      <el-button type="primary" @click="onConfirmCreateBackup">创建</el-button>
+    </template>
+  </el-dialog>
+
+  <el-dialog v-model="showRestoreDialog" title="恢复备份" width="400px" :fullscreen="dialogFullscreen">
+    <el-form :label-width="dialogFullscreen ? 'auto' : '100px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+      <el-form-item label="备份文件">
+        <el-input :model-value="restoreFilename" disabled />
+      </el-form-item>
+      <el-form-item v-if="restoreFilename.endsWith('.enc')" label="备份密码">
+        <el-input v-model="restorePassword" type="password" placeholder="请输入备份密码" show-password />
+      </el-form-item>
+      <el-alert type="warning" :closable="false" show-icon>
+        恢复将覆盖当前数据，请谨慎操作！
+      </el-alert>
+    </el-form>
+    <template #footer>
+      <el-button @click="showRestoreDialog = false">取消</el-button>
+      <el-button type="danger" @click="onConfirmRestore">确认恢复</el-button>
+    </template>
+  </el-dialog>
+
+  <RestoreProgressDialog
+    :visible="restoreProgressVisible"
+    :fullscreen="dialogFullscreen"
+    :filename="restoreFilename"
+    :status="restoreProgressStatus"
+    :stage="restoreProgressStage"
+    :message="restoreProgressMessage"
+    :percent="restoreProgressPercent"
+    :source="restoreProgressSource"
+    :selection="restoreProgressSelection"
+    :started-at="restoreProgressStartedAt"
+    :countdown="restoreRestartCountdown"
+    :error-message="restoreProgressError"
+    :on-close="onCloseRestoreProgress"
+    :on-restart-now="onRestartRestoreNow"
+  />
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.card-header-buttons,
+.backup-actions {
+  padding: 2px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.backup-actions {
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.backup-selection-grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.backup-selection-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid var(--el-border-color-light);
+  border-radius: 8px;
+  background: var(--el-fill-color-extra-light);
+  transition: border-color 0.2s ease, background 0.2s ease;
+  cursor: pointer;
+
+  &:hover {
+    border-color: rgba(59, 130, 246, 0.35);
+    background: var(--el-fill-color-light);
+  }
+
+  &.is-active {
+    border-color: rgba(59, 130, 246, 0.48);
+    background: color-mix(in srgb, var(--el-color-primary) 6%, var(--el-bg-color));
+  }
+
+  :deep(.el-checkbox) {
+    align-items: center;
+    line-height: 1.4;
+  }
+
+  :deep(.el-checkbox__label) {
+    font-weight: 600;
+    font-size: 13px;
+    color: var(--el-text-color-primary);
+    padding-left: 6px;
+  }
+}
+
+.backup-selection-card-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.backup-selection-icon {
+  color: var(--el-text-color-secondary);
+  flex-shrink: 0;
+}
+
+.backup-selection-card.is-active .backup-selection-icon {
+  color: var(--el-color-primary);
+}
+
+.backup-selection-hint {
+  display: block;
+  font-size: 11px;
+  color: var(--el-text-color-secondary);
+  line-height: 1.5;
+  margin-left: 46px;
+  white-space: normal;
+}
+
+.schedule-section {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.schedule-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+
+  h4 {
+    margin: 0 0 6px;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--el-text-color-primary);
+  }
+
+  p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--el-text-color-secondary);
+  }
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px 18px;
+}
+
+.schedule-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--el-text-color-primary);
+  }
+}
+
+.schedule-field--switch {
+  justify-content: flex-end;
+}
+
+.schedule-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.schedule-selection-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--el-text-color-primary);
+}
+
+@media (max-width: 768px) {
+  .card-header-buttons {
+  padding: 2px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+    width: 100%;
+  }
+
+  .backup-selection-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .schedule-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

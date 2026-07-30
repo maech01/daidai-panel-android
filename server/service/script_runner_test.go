@@ -1,1 +1,27 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJ0ZXN0aW5nIgopCgpmdW5jIFRlc3RJc0JlbmlnblByb2Nlc3NQaXBlUmVhZEVycm9yKHQgKnRlc3RpbmcuVCkgewoJdGVzdHMgOj0gW11zdHJ1Y3QgewoJCW5hbWUgc3RyaW5nCgkJZXJyICBlcnJvcgoJCXdhbnQgYm9vbAoJfXsKCQl7bmFtZTogIm5pbCIsIGVycjogbmlsLCB3YW50OiB0cnVlfSwKCQl7bmFtZTogImNsb3NlZCBmaWxlIiwgZXJyOiBmbXQuRXJyb3JmKCJyZWFkIHwwOiBmaWxlIGFscmVhZHkgY2xvc2VkIiksIHdhbnQ6IHRydWV9LAoJCXtuYW1lOiAiY2xvc2VkIHBpcGUiLCBlcnI6IGZtdC5FcnJvcmYoImlvOiByZWFkL3dyaXRlIG9uIGNsb3NlZCBwaXBlIiksIHdhbnQ6IHRydWV9LAoJCXtuYW1lOiAicmVhbCBlcnJvciIsIGVycjogZm10LkVycm9yZigicGVybWlzc2lvbiBkZW5pZWQiKSwgd2FudDogZmFsc2V9LAoJfQoKCWZvciBfLCB0dCA6PSByYW5nZSB0ZXN0cyB7CgkJdC5SdW4odHQubmFtZSwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQkJaWYgZ290IDo9IGlzQmVuaWduUHJvY2Vzc1BpcGVSZWFkRXJyb3IodHQuZXJyKTsgZ290ICE9IHR0LndhbnQgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkICV2LCBnb3QgJXYiLCB0dC53YW50LCBnb3QpCgkJCX0KCQl9KQoJfQp9Cg==
+package service
+
+import (
+	"fmt"
+	"testing"
+)
+
+func TestIsBenignProcessPipeReadError(t *testing.T) {
+	tests := []struct {
+		name string
+		err  error
+		want bool
+	}{
+		{name: "nil", err: nil, want: true},
+		{name: "closed file", err: fmt.Errorf("read |0: file already closed"), want: true},
+		{name: "closed pipe", err: fmt.Errorf("io: read/write on closed pipe"), want: true},
+		{name: "real error", err: fmt.Errorf("permission denied"), want: false},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := isBenignProcessPipeReadError(tt.err); got != tt.want {
+				t.Fatalf("expected %v, got %v", tt.want, got)
+			}
+		})
+	}
+}

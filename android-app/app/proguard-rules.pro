@@ -1,1 +1,1 @@
-IyBBZGQgcHJvamVjdCBzcGVjaWZpYyBQcm9HdWFyZCBydWxlcyBoZXJlLgo=
+# Add project specific ProGuard rules here.

@@ -1,1 +1,15 @@
-cGFja2FnZSBjcnlwdG8KCmltcG9ydCAoCgkiZ29sYW5nLm9yZy94L2NyeXB0by9iY3J5cHQiCikKCmZ1bmMgSGFzaFBhc3N3b3JkKHBhc3N3b3JkIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCWJ5dGVzLCBlcnIgOj0gYmNyeXB0LkdlbmVyYXRlRnJvbVBhc3N3b3JkKFtdYnl0ZShwYXNzd29yZCksIGJjcnlwdC5EZWZhdWx0Q29zdCkKCXJldHVybiBzdHJpbmcoYnl0ZXMpLCBlcnIKfQoKZnVuYyBDaGVja1Bhc3N3b3JkKHBhc3N3b3JkLCBoYXNoIHN0cmluZykgYm9vbCB7CgllcnIgOj0gYmNyeXB0LkNvbXBhcmVIYXNoQW5kUGFzc3dvcmQoW11ieXRlKGhhc2gpLCBbXWJ5dGUocGFzc3dvcmQpKQoJcmV0dXJuIGVyciA9PSBuaWwKfQo=
+package crypto
+
+import (
+	"golang.org/x/crypto/bcrypt"
+)
+
+func HashPassword(password string) (string, error) {
+	bytes, err := bcrypt.GenerateFromPassword([]byte(password), bcrypt.DefaultCost)
+	return string(bytes), err
+}
+
+func CheckPassword(password, hash string) bool {
+	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
+	return err == nil
+}

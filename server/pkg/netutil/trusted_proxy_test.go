@@ -1,1 +1,38 @@
-cGFja2FnZSBuZXR1dGlsCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3ROb3JtYWxpemVUcnVzdGVkUHJveHlDSURSc1VzZXNDYW5vbmljYWxDSURScyh0ICp0ZXN0aW5nLlQpIHsKCWdvdCwgZXJyIDo9IE5vcm1hbGl6ZVRydXN0ZWRQcm94eUNJRFJzKCIxMjcuMC4wLjEsIDIwMy4wLjExMy4xMDsgMjAwMTpkYjg6OjEiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm5vcm1hbGl6ZSB0cnVzdGVkIHByb3hpZXM6ICV2IiwgZXJyKQoJfQoKCXdhbnQgOj0gIjEyNy4wLjAuMS8zMlxuMjAzLjAuMTEzLjEwLzMyXG4yMDAxOmRiODo6MS8xMjgiCglpZiBnb3QgIT0gd2FudCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkICVxLCBnb3QgJXEiLCB3YW50LCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFBhcnNlVHJ1c3RlZFByb3h5Q0lEUnNGYWxsc0JhY2tUb0RlZmF1bHRzT25CbGFuayh0ICp0ZXN0aW5nLlQpIHsKCWdvdCwgZXJyIDo9IFBhcnNlVHJ1c3RlZFByb3h5Q0lEUnMoIiBcblx0IikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJwYXJzZSB0cnVzdGVkIHByb3hpZXM6ICV2IiwgZXJyKQoJfQoKCWRlZmF1bHRzIDo9IERlZmF1bHRUcnVzdGVkUHJveHlDSURScygpCglpZiBsZW4oZ290KSAhPSBsZW4oZGVmYXVsdHMpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgJWQgZGVmYXVsdHMsIGdvdCAlZCIsIGxlbihkZWZhdWx0cyksIGxlbihnb3QpKQoJfQoJZm9yIGkgOj0gcmFuZ2UgZGVmYXVsdHMgewoJCWlmIGdvdFtpXSAhPSBkZWZhdWx0c1tpXSB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBkZWZhdWx0ICVxIGF0ICVkLCBnb3QgJXEiLCBkZWZhdWx0c1tpXSwgaSwgZ290W2ldKQoJCX0KCX0KfQoKZnVuYyBUZXN0UGFyc2VUcnVzdGVkUHJveHlDSURSc1JlamVjdHNJbnZhbGlkVmFsdWUodCAqdGVzdGluZy5UKSB7CglpZiBfLCBlcnIgOj0gUGFyc2VUcnVzdGVkUHJveHlDSURScygiaW52YWxpZC1jaWRyIik7IGVyciA9PSBuaWwgewoJCXQuRmF0YWwoImV4cGVjdGVkIGludmFsaWQgdHJ1c3RlZCBwcm94eSBjaWRyIHRvIGJlIHJlamVjdGVkIikKCX0KfQo=
+package netutil
+
+import "testing"
+
+func TestNormalizeTrustedProxyCIDRsUsesCanonicalCIDRs(t *testing.T) {
+	got, err := NormalizeTrustedProxyCIDRs("127.0.0.1, 203.0.113.10; 2001:db8::1")
+	if err != nil {
+		t.Fatalf("normalize trusted proxies: %v", err)
+	}
+
+	want := "127.0.0.1/32\n203.0.113.10/32\n2001:db8::1/128"
+	if got != want {
+		t.Fatalf("expected %q, got %q", want, got)
+	}
+}
+
+func TestParseTrustedProxyCIDRsFallsBackToDefaultsOnBlank(t *testing.T) {
+	got, err := ParseTrustedProxyCIDRs(" \n\t")
+	if err != nil {
+		t.Fatalf("parse trusted proxies: %v", err)
+	}
+
+	defaults := DefaultTrustedProxyCIDRs()
+	if len(got) != len(defaults) {
+		t.Fatalf("expected %d defaults, got %d", len(defaults), len(got))
+	}
+	for i := range defaults {
+		if got[i] != defaults[i] {
+			t.Fatalf("expected default %q at %d, got %q", defaults[i], i, got[i])
+		}
+	}
+}
+
+func TestParseTrustedProxyCIDRsRejectsInvalidValue(t *testing.T) {
+	if _, err := ParseTrustedProxyCIDRs("invalid-cidr"); err == nil {
+		t.Fatal("expected invalid trusted proxy cidr to be rejected")
+	}
+}

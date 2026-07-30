@@ -1,1 +1,318 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2ggfSBmcm9tICd2dWUnCmltcG9ydCB7IHRhc2tBcGkgfSBmcm9tICdAL2FwaS90YXNrJwoKdHlwZSBTdG9wUnVsZVN0YXRlID0gewogIGlkOiBudW1iZXIKICBleHByZXNzaW9uOiBzdHJpbmcKICBwYXJzZVJlc3VsdDogYW55IHwgbnVsbAp9Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBtb2RlbFZhbHVlOiBzdHJpbmcKfT4oKQoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAndXBkYXRlOm1vZGVsVmFsdWUnOiBbdmFsdWU6IHN0cmluZ10KfT4oKQoKY29uc3QgcnVsZXMgPSByZWY8U3RvcFJ1bGVTdGF0ZVtdPihbXSkKCmxldCBuZXh0UnVsZUlkID0gMQoKZnVuY3Rpb24gY3JlYXRlUnVsZShleHByZXNzaW9uID0gJycpOiBTdG9wUnVsZVN0YXRlIHsKICByZXR1cm4gewogICAgaWQ6IG5leHRSdWxlSWQrKywKICAgIGV4cHJlc3Npb24sCiAgICBwYXJzZVJlc3VsdDogbnVsbAogIH0KfQoKZnVuY3Rpb24gc3BsaXRFeHByZXNzaW9ucyh2YWx1ZTogc3RyaW5nKSB7CiAgcmV0dXJuIHZhbHVlCiAgICAuc3BsaXQoL1xyP1xuLykKICAgIC5tYXAoaXRlbSA9PiBpdGVtLnRyaW0oKSkKICAgIC5maWx0ZXIoQm9vbGVhbikKfQoKZnVuY3Rpb24gam9pbkV4cHJlc3Npb25zKGl0ZW1zOiBzdHJpbmdbXSkgewogIHJldHVybiBpdGVtcwogICAgLm1hcChpdGVtID0+IGl0ZW0udHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKQogICAgLmpvaW4oJ1xuJykKfQoKZnVuY3Rpb24gc3luY1J1bGVzRnJvbU1vZGVsKHZhbHVlOiBzdHJpbmcpIHsKICBjb25zdCBleHByZXNzaW9ucyA9IHNwbGl0RXhwcmVzc2lvbnModmFsdWUpCiAgcnVsZXMudmFsdWUgPSBleHByZXNzaW9ucy5sZW5ndGggPiAwCiAgICA/IGV4cHJlc3Npb25zLm1hcChleHByZXNzaW9uID0+IGNyZWF0ZVJ1bGUoZXhwcmVzc2lvbikpCiAgICA6IFtjcmVhdGVSdWxlKCcnKV0KCiAgcnVsZXMudmFsdWUuZm9yRWFjaCgoXywgaW5kZXgpID0+IHsKICAgIHZvaWQgcGFyc2VSdWxlKGluZGV4KQogIH0pCn0KCndhdGNoKAogICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgKHZhbHVlKSA9PiB7CiAgICBjb25zdCBpbmNvbWluZyA9IGpvaW5FeHByZXNzaW9ucyhzcGxpdEV4cHJlc3Npb25zKHZhbHVlKSkKICAgIGNvbnN0IGN1cnJlbnQgPSBqb2luRXhwcmVzc2lvbnMocnVsZXMudmFsdWUubWFwKHJ1bGUgPT4gcnVsZS5leHByZXNzaW9uKSkKICAgIGlmIChpbmNvbWluZyA9PT0gY3VycmVudCAmJiBydWxlcy52YWx1ZS5sZW5ndGggPiAwKSB7CiAgICAgIHJldHVybgogICAgfQogICAgc3luY1J1bGVzRnJvbU1vZGVsKHZhbHVlKQogIH0sCiAgeyBpbW1lZGlhdGU6IHRydWUgfQopCgpmdW5jdGlvbiBlbWl0UnVsZXMoKSB7CiAgZW1pdCgndXBkYXRlOm1vZGVsVmFsdWUnLCBqb2luRXhwcmVzc2lvbnMocnVsZXMudmFsdWUubWFwKHJ1bGUgPT4gcnVsZS5leHByZXNzaW9uKSkpCn0KCmFzeW5jIGZ1bmN0aW9uIHBhcnNlUnVsZShpbmRleDogbnVtYmVyKSB7CiAgY29uc3QgcnVsZSA9IHJ1bGVzLnZhbHVlW2luZGV4XQogIGlmICghcnVsZSkgewogICAgcmV0dXJuCiAgfQoKICBjb25zdCBleHByZXNzaW9uID0gcnVsZS5leHByZXNzaW9uLnRyaW0oKQogIGlmICghZXhwcmVzc2lvbikgewogICAgcnVsZS5wYXJzZVJlc3VsdCA9IG51bGwKICAgIHJldHVybgogIH0KCiAgdHJ5IHsKICAgIHJ1bGUucGFyc2VSZXN1bHQgPSBhd2FpdCB0YXNrQXBpLmNyb25QYXJzZShleHByZXNzaW9uKQogIH0gY2F0Y2ggewogICAgcnVsZS5wYXJzZVJlc3VsdCA9IG51bGwKICB9Cn0KCmZ1bmN0aW9uIGhhbmRsZVJ1bGVJbnB1dChpbmRleDogbnVtYmVyKSB7CiAgZW1pdFJ1bGVzKCkKICB2b2lkIHBhcnNlUnVsZShpbmRleCkKfQoKZnVuY3Rpb24gYWRkUnVsZShhZnRlckluZGV4ID0gcnVsZXMudmFsdWUubGVuZ3RoIC0gMSkgewogIHJ1bGVzLnZhbHVlLnNwbGljZShhZnRlckluZGV4ICsgMSwgMCwgY3JlYXRlUnVsZSgnJykpCiAgZW1pdFJ1bGVzKCkKfQoKZnVuY3Rpb24gcmVtb3ZlUnVsZShpbmRleDogbnVtYmVyKSB7CiAgaWYgKHJ1bGVzLnZhbHVlLmxlbmd0aCA8PSAxKSB7CiAgICBjb25zdCBmaXJzdCA9IHJ1bGVzLnZhbHVlWzBdCiAgICBpZiAoZmlyc3QpIHsKICAgICAgZmlyc3QuZXhwcmVzc2lvbiA9ICcnCiAgICAgIGZpcnN0LnBhcnNlUmVzdWx0ID0gbnVsbAogICAgfQogICAgZW1pdFJ1bGVzKCkKICAgIHJldHVybgogIH0KICBydWxlcy52YWx1ZS5zcGxpY2UoaW5kZXgsIDEpCiAgZW1pdFJ1bGVzKCkKfQoKZnVuY3Rpb24gaGFuZGxlS2V5RG93bihldmVudDogS2V5Ym9hcmRFdmVudCkgewogIGlmIChldmVudC5rZXkgPT09ICcgJykgewogICAgZXZlbnQuc3RvcFByb3BhZ2F0aW9uKCkKICB9Cn0KPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0ic3RvcC1zY2hlZHVsZS1pbnB1dCI+CiAgICA8ZGl2CiAgICAgIHYtZm9yPSIocnVsZSwgaW5kZXgpIGluIHJ1bGVzIgogICAgICA6a2V5PSJydWxlLmlkIgogICAgICBjbGFzcz0ic3RvcC1ydWxlLWJsb2NrIgogICAgPgogICAgICA8ZGl2IGNsYXNzPSJzdG9wLXJ1bGUtcm93Ij4KICAgICAgICA8ZWwtaW5wdXQKICAgICAgICAgIHYtbW9kZWw9InJ1bGUuZXhwcmVzc2lvbiIKICAgICAgICAgIHBsYWNlaG9sZGVyPSJjcm9uIOihqOi+vuW8j++8jOeVmeepuuS4jeiHquWKqOWBnOatou+8iOWmgiAwIDEyICogKiAq77yJIgogICAgICAgICAgY2xlYXJhYmxlCiAgICAgICAgICBAa2V5ZG93bj0iaGFuZGxlS2V5RG93biIKICAgICAgICAgIEBpbnB1dD0iaGFuZGxlUnVsZUlucHV0KGluZGV4KSIKICAgICAgICAvPgogICAgICAgIDxkaXYgY2xhc3M9InN0b3AtcnVsZS1hY3Rpb25zIj4KICAgICAgICAgIDxlbC1idXR0b24KICAgICAgICAgICAgdi1pZj0iaW5kZXggPT09IDAiCiAgICAgICAgICAgIGNsYXNzPSJzdG9wLWFkZC1idG4iCiAgICAgICAgICAgIHNpemU9InNtYWxsIgogICAgICAgICAgICBAY2xpY2s9ImFkZFJ1bGUoaW5kZXgpIgogICAgICAgICAgPgogICAgICAgICAgICDlop7liqDlgZzmraLop4TliJkKICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgPGVsLWJ1dHRvbgogICAgICAgICAgICB2LWVsc2UKICAgICAgICAgICAgdGV4dAogICAgICAgICAgICBzaXplPSJzbWFsbCIKICAgICAgICAgICAgY2xhc3M9InN0b3AtcmVtb3ZlLWJ0biIKICAgICAgICAgICAgQGNsaWNrPSJyZW1vdmVSdWxlKGluZGV4KSIKICAgICAgICAgID4KICAgICAgICAgICAg5Yig6ZmkCiAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgdi1pZj0icnVsZS5wYXJzZVJlc3VsdCIgY2xhc3M9InN0b3AtcnVsZS1pbmZvIj4KICAgICAgICA8dGVtcGxhdGUgdi1pZj0icnVsZS5wYXJzZVJlc3VsdC5pc192YWxpZCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJzdG9wLW1ldGEiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ2YWxpZC1iYWRnZSI+CiAgICAgICAgICAgICAgPGVsLWljb24gY2xhc3M9ImJhZGdlLWljb24iPjxDaXJjbGVDaGVjayAvPjwvZWwtaWNvbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iYmFkZ2UtdGV4dCI+e3sgcnVsZS5wYXJzZVJlc3VsdC5kZXNjcmlwdGlvbiB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgdi1pZj0icnVsZS5wYXJzZVJlc3VsdC5uZXh0X3J1bl90aW1lcz8ubGVuZ3RoIiBjbGFzcz0ibmV4dC10aW1lcyI+CiAgICAgICAgICAgICAgPGVsLWljb24gY2xhc3M9InRpbWUtaWNvbiI+PENsb2NrIC8+PC9lbC1pY29uPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJsYWJlbCI+5LiL5qyh5YGc5q2iPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJ0aW1lLXZhbHVlIj57eyBuZXcgRGF0ZShydWxlLnBhcnNlUmVzdWx0Lm5leHRfcnVuX3RpbWVzWzBdKS50b0xvY2FsZVN0cmluZygpIH19PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPGRpdiB2LWVsc2UgY2xhc3M9InN0b3AtbWV0YSI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJlcnJvci1iYWRnZSI+CiAgICAgICAgICAgIDxlbC1pY29uIGNsYXNzPSJiYWRnZS1pY29uIj48Q2lyY2xlQ2xvc2UgLz48L2VsLWljb24+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJiYWRnZS10ZXh0Ij57eyBydWxlLnBhcnNlUmVzdWx0LmVycm9yIH19PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJzdG9wLXNjaGVkdWxlLWhpbnQiPgogICAgICDliLDovr7orr7lrprml7bpl7TlkI7oh6rliqjlgZzmraLmraPlnKjov5DooYznmoTku7vliqHvvIzpgILlkIjpnIDopoHlnKjnibnlrprml7bmrrXov5DooYznmoTplb/pqbvku7vliqHjgIIKICAgIDwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZCBsYW5nPSJzY3NzIj4KLnN0b3Atc2NoZWR1bGUtaW5wdXQgewogIHdpZHRoOiAxMDAlOwogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDEwcHg7Cn0KCi5zdG9wLXJ1bGUtYmxvY2sgewogIHBhZGRpbmc6IDA7Cn0KCi5zdG9wLXJ1bGUtcm93IHsKICBkaXNwbGF5OiBmbGV4OwogIGdhcDogMTBweDsKICBhbGlnbi1pdGVtczogc3RyZXRjaDsKfQoKLnN0b3AtcnVsZS1hY3Rpb25zIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA4cHg7CiAgZmxleC1zaHJpbms6IDA7Cn0KCi5zdG9wLWFkZC1idG4gewogIGZsZXgtc2hyaW5rOiAwOwp9Cgouc3RvcC1yZW1vdmUtYnRuIHsKICBwYWRkaW5nLWxlZnQ6IDA7CiAgcGFkZGluZy1yaWdodDogMDsKfQoKLnN0b3AtcnVsZS1pbmZvIHsKICBtYXJnaW4tdG9wOiA2cHg7Cn0KCi5zdG9wLW1ldGEgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEwcHg7CiAgZmxleC13cmFwOiB3cmFwOwp9Cgouc3RvcC1zY2hlZHVsZS1oaW50IHsKICBmb250LXNpemU6IDExcHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBsaW5lLWhlaWdodDogMS41Owp9CgoudmFsaWQtYmFkZ2UgewogIGRpc3BsYXk6IGlubGluZS1mbGV4OwogIHdpZHRoOiBmaXQtY29udGVudDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogNHB4OwogIHBhZGRpbmc6IDRweCAxMHB4OwogIGJhY2tncm91bmQ6IGxpbmVhci1ncmFkaWVudCgxMzVkZWcsICM2N2MyM2EgMCUsICM4NWNlNjEgMTAwJSk7CiAgYm9yZGVyLXJhZGl1czogMTRweDsKICBjb2xvcjogI2ZmZjsKICBmb250LXdlaWdodDogNTAwOwogIGJveC1zaGFkb3c6IDAgMnB4IDZweCByZ2JhKDEwMywgMTk0LCA1OCwgMC4yNSk7CgogIC5iYWRnZS1pY29uIHsKICAgIGZvbnQtc2l6ZTogMTRweDsKICB9CgogIC5iYWRnZS10ZXh0IHsKICAgIGZvbnQtc2l6ZTogMTJweDsKICB9Cn0KCi5lcnJvci1iYWRnZSB7CiAgZGlzcGxheTogaW5saW5lLWZsZXg7CiAgd2lkdGg6IGZpdC1jb250ZW50OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA0cHg7CiAgcGFkZGluZzogNHB4IDEwcHg7CiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDEzNWRlZywgI2Y1NmM2YyAwJSwgI2Y3ODk4OSAxMDAlKTsKICBib3JkZXItcmFkaXVzOiAxNHB4OwogIGNvbG9yOiAjZmZmOwogIGZvbnQtd2VpZ2h0OiA1MDA7CiAgYm94LXNoYWRvdzogMCAycHggNnB4IHJnYmEoMjQ1LCAxMDgsIDEwOCwgMC4yNSk7CgogIC5iYWRnZS1pY29uIHsKICAgIGZvbnQtc2l6ZTogMTRweDsKICB9CgogIC5iYWRnZS10ZXh0IHsKICAgIGZvbnQtc2l6ZTogMTJweDsKICB9Cn0KCi5uZXh0LXRpbWVzIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA1cHg7CiAgcGFkZGluZzogNHB4IDEwcHg7CiAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KDEzNWRlZywgdmFyKC0tZWwtY29sb3Itd2FybmluZy1saWdodC05KSAwJSwgdmFyKC0tZWwtY29sb3Itd2FybmluZy1saWdodC04KSAxMDAlKTsKICBib3JkZXItcmFkaXVzOiAxNHB4OwogIGNvbG9yOiB2YXIoLS1lbC1jb2xvci13YXJuaW5nKTsKICBmb250LXdlaWdodDogNTAwOwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWVsLWNvbG9yLXdhcm5pbmctbGlnaHQtNyk7CgogIC50aW1lLWljb24gewogICAgZm9udC1zaXplOiAxM3B4OwogIH0KCiAgLmxhYmVsIHsKICAgIGZvbnQtc2l6ZTogMTFweDsKICB9CgogIC50aW1lLXZhbHVlIHsKICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1kZC1mb250LW1vbm8pOwogICAgZm9udC1zaXplOiAxMXB4OwogIH0KfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLnN0b3AtcnVsZS1yb3cgewogICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICB9CgogIC5zdG9wLXJ1bGUtYWN0aW9ucyB7CiAgICB3aWR0aDogMTAwJTsKICAgIGp1c3RpZnktY29udGVudDogZmxleC1lbmQ7CiAgfQoKICAuc3RvcC1hZGQtYnRuIHsKICAgIHdpZHRoOiAxMDAlOwogIH0KfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import { ref, watch } from 'vue'
+import { taskApi } from '@/api/task'
+
+type StopRuleState = {
+  id: number
+  expression: string
+  parseResult: any | null
+}
+
+const props = defineProps<{
+  modelValue: string
+}>()
+
+const emit = defineEmits<{
+  'update:modelValue': [value: string]
+}>()
+
+const rules = ref<StopRuleState[]>([])
+
+let nextRuleId = 1
+
+function createRule(expression = ''): StopRuleState {
+  return {
+    id: nextRuleId++,
+    expression,
+    parseResult: null
+  }
+}
+
+function splitExpressions(value: string) {
+  return value
+    .split(/\r?\n/)
+    .map(item => item.trim())
+    .filter(Boolean)
+}
+
+function joinExpressions(items: string[]) {
+  return items
+    .map(item => item.trim())
+    .filter(Boolean)
+    .join('\n')
+}
+
+function syncRulesFromModel(value: string) {
+  const expressions = splitExpressions(value)
+  rules.value = expressions.length > 0
+    ? expressions.map(expression => createRule(expression))
+    : [createRule('')]
+
+  rules.value.forEach((_, index) => {
+    void parseRule(index)
+  })
+}
+
+watch(
+  () => props.modelValue,
+  (value) => {
+    const incoming = joinExpressions(splitExpressions(value))
+    const current = joinExpressions(rules.value.map(rule => rule.expression))
+    if (incoming === current && rules.value.length > 0) {
+      return
+    }
+    syncRulesFromModel(value)
+  },
+  { immediate: true }
+)
+
+function emitRules() {
+  emit('update:modelValue', joinExpressions(rules.value.map(rule => rule.expression)))
+}
+
+async function parseRule(index: number) {
+  const rule = rules.value[index]
+  if (!rule) {
+    return
+  }
+
+  const expression = rule.expression.trim()
+  if (!expression) {
+    rule.parseResult = null
+    return
+  }
+
+  try {
+    rule.parseResult = await taskApi.cronParse(expression)
+  } catch {
+    rule.parseResult = null
+  }
+}
+
+function handleRuleInput(index: number) {
+  emitRules()
+  void parseRule(index)
+}
+
+function addRule(afterIndex = rules.value.length - 1) {
+  rules.value.splice(afterIndex + 1, 0, createRule(''))
+  emitRules()
+}
+
+function removeRule(index: number) {
+  if (rules.value.length <= 1) {
+    const first = rules.value[0]
+    if (first) {
+      first.expression = ''
+      first.parseResult = null
+    }
+    emitRules()
+    return
+  }
+  rules.value.splice(index, 1)
+  emitRules()
+}
+
+function handleKeyDown(event: KeyboardEvent) {
+  if (event.key === ' ') {
+    event.stopPropagation()
+  }
+}
+</script>
+
+<template>
+  <div class="stop-schedule-input">
+    <div
+      v-for="(rule, index) in rules"
+      :key="rule.id"
+      class="stop-rule-block"
+    >
+      <div class="stop-rule-row">
+        <el-input
+          v-model="rule.expression"
+          placeholder="cron 表达式，留空不自动停止（如 0 12 * * *）"
+          clearable
+          @keydown="handleKeyDown"
+          @input="handleRuleInput(index)"
+        />
+        <div class="stop-rule-actions">
+          <el-button
+            v-if="index === 0"
+            class="stop-add-btn"
+            size="small"
+            @click="addRule(index)"
+          >
+            增加停止规则
+          </el-button>
+          <el-button
+            v-else
+            text
+            size="small"
+            class="stop-remove-btn"
+            @click="removeRule(index)"
+          >
+            删除
+          </el-button>
+        </div>
+      </div>
+      <div v-if="rule.parseResult" class="stop-rule-info">
+        <template v-if="rule.parseResult.is_valid">
+          <div class="stop-meta">
+            <div class="valid-badge">
+              <el-icon class="badge-icon"><CircleCheck /></el-icon>
+              <span class="badge-text">{{ rule.parseResult.description }}</span>
+            </div>
+            <div v-if="rule.parseResult.next_run_times?.length" class="next-times">
+              <el-icon class="time-icon"><Clock /></el-icon>
+              <span class="label">下次停止</span>
+              <span class="time-value">{{ new Date(rule.parseResult.next_run_times[0]).toLocaleString() }}</span>
+            </div>
+          </div>
+        </template>
+        <div v-else class="stop-meta">
+          <div class="error-badge">
+            <el-icon class="badge-icon"><CircleClose /></el-icon>
+            <span class="badge-text">{{ rule.parseResult.error }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="stop-schedule-hint">
+      到达设定时间后自动停止正在运行的任务，适合需要在特定时段运行的长驻任务。
+    </div>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.stop-schedule-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stop-rule-block {
+  padding: 0;
+}
+
+.stop-rule-row {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+.stop-rule-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.stop-add-btn {
+  flex-shrink: 0;
+}
+
+.stop-remove-btn {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.stop-rule-info {
+  margin-top: 6px;
+}
+
+.stop-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stop-schedule-hint {
+  font-size: 11px;
+  color: var(--el-text-color-secondary);
+  line-height: 1.5;
+}
+
+.valid-badge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, #67c23a 0%, #85ce61 100%);
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(103, 194, 58, 0.25);
+
+  .badge-icon {
+    font-size: 14px;
+  }
+
+  .badge-text {
+    font-size: 12px;
+  }
+}
+
+.error-badge {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, #f56c6c 0%, #f78989 100%);
+  border-radius: 14px;
+  color: #fff;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(245, 108, 108, 0.25);
+
+  .badge-icon {
+    font-size: 14px;
+  }
+
+  .badge-text {
+    font-size: 12px;
+  }
+}
+
+.next-times {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px;
+  background: linear-gradient(135deg, var(--el-color-warning-light-9) 0%, var(--el-color-warning-light-8) 100%);
+  border-radius: 14px;
+  color: var(--el-color-warning);
+  font-weight: 500;
+  border: 1px solid var(--el-color-warning-light-7);
+
+  .time-icon {
+    font-size: 13px;
+  }
+
+  .label {
+    font-size: 11px;
+  }
+
+  .time-value {
+    font-family: var(--dd-font-mono);
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .stop-rule-row {
+    flex-direction: column;
+  }
+
+  .stop-rule-actions {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .stop-add-btn {
+    width: 100%;
+  }
+}
+</style>

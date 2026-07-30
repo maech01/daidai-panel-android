@@ -1,1 +1,80 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIFBsYXRmb3JtIHN0cnVjdCB7CglJRCAgICAgICAgdWludCAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglOYW1lICAgICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0O3VuaXF1ZUluZGV4O25vdCBudWxsIiBqc29uOiJuYW1lImAKCUxhYmVsICAgICBzdHJpbmcgICAgYGdvcm06InNpemU6MTI4IiBqc29uOiJsYWJlbCJgCglJY29uICAgICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjI1NiIganNvbjoiaWNvbiJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKfQoKZnVuYyAoUGxhdGZvcm0pIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInBsYXRmb3JtcyIKfQoKZnVuYyAocCAqUGxhdGZvcm0pIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICBwLklELAoJCSJuYW1lIjogICAgICAgcC5OYW1lLAoJCSJsYWJlbCI6ICAgICAgcC5MYWJlbCwKCQkiaWNvbiI6ICAgICAgIHAuSWNvbiwKCQkiY3JlYXRlZF9hdCI6IHAuQ3JlYXRlZEF0LAoJfQp9Cgp0eXBlIFBsYXRmb3JtVG9rZW4gc3RydWN0IHsKCUlEICAgICAgICAgdWludCAgICAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJUGxhdGZvcm1JRCB1aW50ICAgICAgIGBnb3JtOiJpbmRleDtub3QgbnVsbCIganNvbjoicGxhdGZvcm1faWQiYAoJTmFtZSAgICAgICBzdHJpbmcgICAgIGBnb3JtOiJzaXplOjEyODtub3QgbnVsbCIganNvbjoibmFtZSJgCglUb2tlbiAgICAgIHN0cmluZyAgICAgYGdvcm06InR5cGU6dGV4dDtub3QgbnVsbCIganNvbjoiLSJgCglSZW1hcmtzICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MjU2IiBqc29uOiJyZW1hcmtzImAKCUVuYWJsZWQgICAgYm9vbCAgICAgICBgZ29ybToiZGVmYXVsdDp0cnVlIiBqc29uOiJlbmFibGVkImAKCUV4cGlyZXNBdCAgKnRpbWUuVGltZSBganNvbjoiZXhwaXJlc19hdCJgCglDcmVhdGVkQXQgIHRpbWUuVGltZSAgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0ICB0aW1lLlRpbWUgIGBqc29uOiJ1cGRhdGVkX2F0ImAKCglQbGF0Zm9ybSAqUGxhdGZvcm0gYGdvcm06ImZvcmVpZ25LZXk6UGxhdGZvcm1JRCIganNvbjoiLSJgCn0KCmZ1bmMgKFBsYXRmb3JtVG9rZW4pIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInBsYXRmb3JtX3Rva2VucyIKfQoKZnVuYyAodCAqUGxhdGZvcm1Ub2tlbikgVG9EaWN0KCkgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7CglyZXN1bHQgOj0gbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkiaWQiOiAgICAgICAgICB0LklELAoJCSJwbGF0Zm9ybV9pZCI6IHQuUGxhdGZvcm1JRCwKCQkibmFtZSI6ICAgICAgICB0Lk5hbWUsCgkJInJlbWFya3MiOiAgICAgdC5SZW1hcmtzLAoJCSJlbmFibGVkIjogICAgIHQuRW5hYmxlZCwKCQkiZXhwaXJlc19hdCI6ICB0LkV4cGlyZXNBdCwKCQkiY3JlYXRlZF9hdCI6ICB0LkNyZWF0ZWRBdCwKCQkidXBkYXRlZF9hdCI6ICB0LlVwZGF0ZWRBdCwKCX0KCWlmIHQuUGxhdGZvcm0gIT0gbmlsIHsKCQlyZXN1bHRbInBsYXRmb3JtX25hbWUiXSA9IHQuUGxhdGZvcm0uTGFiZWwKCX0KCXJldHVybiByZXN1bHQKfQoKZnVuYyAodCAqUGxhdGZvcm1Ub2tlbikgVG9EaWN0V2l0aFRva2VuKCkgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7CglyZXN1bHQgOj0gdC5Ub0RpY3QoKQoJcmVzdWx0WyJ0b2tlbiJdID0gdC5Ub2tlbgoJcmV0dXJuIHJlc3VsdAp9Cgp0eXBlIFBsYXRmb3JtVG9rZW5Mb2cgc3RydWN0IHsKCUlEICAgICAgICB1aW50ICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCVRva2VuSUQgICB1aW50ICAgICAgYGdvcm06ImluZGV4IiBqc29uOiJ0b2tlbl9pZCJgCglBY3Rpb24gICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0IiBqc29uOiJhY3Rpb24iYAoJRGV0YWlsICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo1MTIiIGpzb246ImRldGFpbCJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKfQoKZnVuYyAoUGxhdGZvcm1Ub2tlbkxvZykgVGFibGVOYW1lKCkgc3RyaW5nIHsKCXJldHVybiAicGxhdGZvcm1fdG9rZW5fbG9ncyIKfQo=
+package model
+
+import (
+	"time"
+)
+
+type Platform struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	Name      string    `gorm:"size:64;uniqueIndex;not null" json:"name"`
+	Label     string    `gorm:"size:128" json:"label"`
+	Icon      string    `gorm:"size:256" json:"icon"`
+	CreatedAt time.Time `json:"created_at"`
+}
+
+func (Platform) TableName() string {
+	return "platforms"
+}
+
+func (p *Platform) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         p.ID,
+		"name":       p.Name,
+		"label":      p.Label,
+		"icon":       p.Icon,
+		"created_at": p.CreatedAt,
+	}
+}
+
+type PlatformToken struct {
+	ID         uint       `gorm:"primarykey" json:"id"`
+	PlatformID uint       `gorm:"index;not null" json:"platform_id"`
+	Name       string     `gorm:"size:128;not null" json:"name"`
+	Token      string     `gorm:"type:text;not null" json:"-"`
+	Remarks    string     `gorm:"size:256" json:"remarks"`
+	Enabled    bool       `gorm:"default:true" json:"enabled"`
+	ExpiresAt  *time.Time `json:"expires_at"`
+	CreatedAt  time.Time  `json:"created_at"`
+	UpdatedAt  time.Time  `json:"updated_at"`
+
+	Platform *Platform `gorm:"foreignKey:PlatformID" json:"-"`
+}
+
+func (PlatformToken) TableName() string {
+	return "platform_tokens"
+}
+
+func (t *PlatformToken) ToDict() map[string]interface{} {
+	result := map[string]interface{}{
+		"id":          t.ID,
+		"platform_id": t.PlatformID,
+		"name":        t.Name,
+		"remarks":     t.Remarks,
+		"enabled":     t.Enabled,
+		"expires_at":  t.ExpiresAt,
+		"created_at":  t.CreatedAt,
+		"updated_at":  t.UpdatedAt,
+	}
+	if t.Platform != nil {
+		result["platform_name"] = t.Platform.Label
+	}
+	return result
+}
+
+func (t *PlatformToken) ToDictWithToken() map[string]interface{} {
+	result := t.ToDict()
+	result["token"] = t.Token
+	return result
+}
+
+type PlatformTokenLog struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	TokenID   uint      `gorm:"index" json:"token_id"`
+	Action    string    `gorm:"size:64" json:"action"`
+	Detail    string    `gorm:"size:512" json:"detail"`
+	CreatedAt time.Time `json:"created_at"`
+}
+
+func (PlatformTokenLog) TableName() string {
+	return "platform_token_logs"
+}

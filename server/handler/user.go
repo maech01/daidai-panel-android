@@ -1,1 +1,210 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJInN0cmNvbnYiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbWlkZGxld2FyZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9jcnlwdG8iCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCSJkYWlkYWktcGFuZWwvcGtnL3ZhbGlkYXRvciIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgp0eXBlIFVzZXJIYW5kbGVyIHN0cnVjdHt9CgpmdW5jIE5ld1VzZXJIYW5kbGVyKCkgKlVzZXJIYW5kbGVyIHsKCXJldHVybiAmVXNlckhhbmRsZXJ7fQp9CgpmdW5jIChoICpVc2VySGFuZGxlcikgTGlzdChjICpnaW4uQ29udGV4dCkgewoJdmFyIHVzZXJzIFtdbW9kZWwuVXNlcgoJZGF0YWJhc2UuREIuT3JkZXIoImNyZWF0ZWRfYXQgQVNDIikuRmluZCgmdXNlcnMpCgoJdXNlcklEcyA6PSBtYWtlKFtddWludCwgMCwgbGVuKHVzZXJzKSkKCWZvciBfLCB1c2VyIDo9IHJhbmdlIHVzZXJzIHsKCQl1c2VySURzID0gYXBwZW5kKHVzZXJJRHMsIHVzZXIuSUQpCgl9CgoJdHdvRmFjdG9yRW5hYmxlZCA6PSBtYWtlKG1hcFt1aW50XWJvb2wsIGxlbih1c2VySURzKSkKCWlmIGxlbih1c2VySURzKSA+IDAgewoJCXZhciByZWNvcmRzIFtdbW9kZWwuVHdvRmFjdG9yQXV0aAoJCWRhdGFiYXNlLkRCLgoJCQlTZWxlY3QoInVzZXJfaWQiKS4KCQkJV2hlcmUoInVzZXJfaWQgSU4gPyBBTkQgZW5hYmxlZCA9ID8iLCB1c2VySURzLCB0cnVlKS4KCQkJRmluZCgmcmVjb3JkcykKCQlmb3IgXywgcmVjb3JkIDo9IHJhbmdlIHJlY29yZHMgewoJCQl0d29GYWN0b3JFbmFibGVkW3JlY29yZC5Vc2VySURdID0gdHJ1ZQoJCX0KCX0KCglkYXRhIDo9IG1ha2UoW11tYXBbc3RyaW5nXWludGVyZmFjZXt9LCBsZW4odXNlcnMpKQoJZm9yIGksIHUgOj0gcmFuZ2UgdXNlcnMgewoJCWl0ZW0gOj0gdS5Ub0RpY3QoKQoJCWl0ZW1bInR3b19mYWN0b3JfZW5hYmxlZCJdID0gdHdvRmFjdG9yRW5hYmxlZFt1LklEXQoJCWRhdGFbaV0gPSBpdGVtCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsiZGF0YSI6IGRhdGF9KQp9CgpmdW5jIChoICpVc2VySGFuZGxlcikgQ3JlYXRlKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJVXNlcm5hbWUgc3RyaW5nIGBqc29uOiJ1c2VybmFtZSIgYmluZGluZzoicmVxdWlyZWQiYAoJCVBhc3N3b3JkIHN0cmluZyBganNvbjoicGFzc3dvcmQiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlSb2xlICAgICBzdHJpbmcgYGpzb246InJvbGUiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJaWYgIXZhbGlkYXRvci5WYWxpZGF0ZVVzZXJuYW1lKHJlcS5Vc2VybmFtZSkgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIueUqOaIt+WQjemcgCAxLTMyIOS9je+8jOaUr+aMgeS4reaWh+OAgeWtl+avjeOAgeaVsOWtl+WSjOS4i+WIkue6vyIpCgkJcmV0dXJuCgl9CglpZiAhdmFsaWRhdG9yLlZhbGlkYXRlUGFzc3dvcmQocmVxLlBhc3N3b3JkKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5a+G56CB6ZW/5bqm6ZyAIDYtMTI4IOS9jSIpCgkJcmV0dXJuCgl9CglpZiByZXEuUm9sZSA9PSAiIiB7CgkJcmVxLlJvbGUgPSAib3BlcmF0b3IiCgl9CglpZiByZXEuUm9sZSAhPSAiYWRtaW4iICYmIHJlcS5Sb2xlICE9ICJvcGVyYXRvciIgJiYgcmVxLlJvbGUgIT0gInZpZXdlciIgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuinkuiJsuaXoOaViO+8jOWPr+mAiSBhZG1pbi9vcGVyYXRvci92aWV3ZXIiKQoJCXJldHVybgoJfQoKCXZhciBleGlzdGluZyBtb2RlbC5Vc2VyCglpZiBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IiwgcmVxLlVzZXJuYW1lKS5GaXJzdCgmZXhpc3RpbmcpLkVycm9yID09IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi55So5oi35ZCN5bey5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCgloYXNoZWQsIGVyciA6PSBjcnlwdG8uSGFzaFBhc3N3b3JkKHJlcS5QYXNzd29yZCkKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuWvhueggeWKoOWvhuWksei0pSIpCgkJcmV0dXJuCgl9CgoJdXNlciA6PSBtb2RlbC5Vc2VyewoJCVVzZXJuYW1lOiByZXEuVXNlcm5hbWUsCgkJUGFzc3dvcmQ6IGhhc2hlZCwKCQlSb2xlOiAgICAgcmVxLlJvbGUsCgkJRW5hYmxlZDogIHRydWUsCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmdXNlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuWIm+W7uueUqOaIt+Wksei0pSIpCgkJcmV0dXJuCgl9CgoJcmVzcG9uc2UuQ3JlYXRlZChjLCBnaW4uSHsibWVzc2FnZSI6ICLliJvlu7rmiJDlip8iLCAiZGF0YSI6IHVzZXIuVG9EaWN0KCl9KQp9CgpmdW5jIChoICpVc2VySGFuZGxlcikgVXBkYXRlKGMgKmdpbi5Db250ZXh0KSB7Cgl1c2VySUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdXNlciwgdXNlcklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIueUqOaIt+S4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJdmFyIHJlcSBzdHJ1Y3QgewoJCVJvbGUgICAgc3RyaW5nIGBqc29uOiJyb2xlImAKCQlFbmFibGVkICpib29sICBganNvbjoiZW5hYmxlZCJgCgl9CglpZiBlcnIgOj0gYy5TaG91bGRCaW5kSlNPTigmcmVxKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6K+35rGC5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCgl1cGRhdGVzIDo9IG1ha2UobWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmIHJlcS5Sb2xlICE9ICIiIHsKCQlpZiByZXEuUm9sZSAhPSAiYWRtaW4iICYmIHJlcS5Sb2xlICE9ICJvcGVyYXRvciIgJiYgcmVxLlJvbGUgIT0gInZpZXdlciIgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLop5LoibLml6DmlYgiKQoJCQlyZXR1cm4KCQl9CgkJdXBkYXRlc1sicm9sZSJdID0gcmVxLlJvbGUKCX0KCWlmIHJlcS5FbmFibGVkICE9IG5pbCB7CgkJdXBkYXRlc1siZW5hYmxlZCJdID0gKnJlcS5FbmFibGVkCgl9CgoJaWYgbGVuKHVwZGF0ZXMpID4gMCB7CgkJZGF0YWJhc2UuREIuTW9kZWwoJnVzZXIpLlVwZGF0ZXModXBkYXRlcykKCX0KCglkYXRhYmFzZS5EQi5GaXJzdCgmdXNlciwgdXNlcklEKQoJaWYgbGVuKHVwZGF0ZXMpID4gMCB7CgkJc2VydmljZS5SZXZva2VBbGxVc2VyU2Vzc2lvbnModXNlci5JRCkKCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5pu05paw5oiQ5YqfIiwgImRhdGEiOiB1c2VyLlRvRGljdCgpfSkKfQoKZnVuYyAoaCAqVXNlckhhbmRsZXIpIERlbGV0ZShjICpnaW4uQ29udGV4dCkgewoJdXNlcklELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCgljdXJyZW50VXNlciA6PSBjLkdldFN0cmluZygidXNlcm5hbWUiKQoJdmFyIHVzZXIgbW9kZWwuVXNlcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ1c2VyLCB1c2VySUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi55So5oi35LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglpZiB1c2VyLlVzZXJuYW1lID09IGN1cnJlbnRVc2VyIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLkuI3og73liKDpmaToh6rlt7EiKQoJCXJldHVybgoJfQoKCWRhdGFiYXNlLkRCLkRlbGV0ZSgmdXNlcikKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Yig6Zmk5oiQ5YqfIn0pCn0KCmZ1bmMgKGggKlVzZXJIYW5kbGVyKSBSZXNldFBhc3N3b3JkKGMgKmdpbi5Db250ZXh0KSB7Cgl1c2VySUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoKCXZhciB1c2VyIG1vZGVsLlVzZXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdXNlciwgdXNlcklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIueUqOaIt+S4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJdmFyIHJlcSBzdHJ1Y3QgewoJCVBhc3N3b3JkIHN0cmluZyBganNvbjoicGFzc3dvcmQiIGJpbmRpbmc6InJlcXVpcmVkImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWlmICF2YWxpZGF0b3IuVmFsaWRhdGVQYXNzd29yZChyZXEuUGFzc3dvcmQpIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLlr4bnoIHplb/luqbpnIAgNi0xMjgg5L2NIikKCQlyZXR1cm4KCX0KCgloYXNoZWQsIGVyciA6PSBjcnlwdG8uSGFzaFBhc3N3b3JkKHJlcS5QYXNzd29yZCkKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuWvhueggeWKoOWvhuWksei0pSIpCgkJcmV0dXJuCgl9CgoJZGF0YWJhc2UuREIuTW9kZWwoJnVzZXIpLlVwZGF0ZSgicGFzc3dvcmQiLCBoYXNoZWQpCglzZXJ2aWNlLlJldm9rZUFsbFVzZXJTZXNzaW9ucyh1c2VyLklEKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLlr4bnoIHph43nva7miJDlip8ifSkKfQoKZnVuYyAoaCAqVXNlckhhbmRsZXIpIFJlZ2lzdGVyUm91dGVzKHIgKmdpbi5Sb3V0ZXJHcm91cCkgewoJdXNlcnMgOj0gci5Hcm91cCgiL3VzZXJzIiwgbWlkZGxld2FyZS5KV1RBdXRoKCksIG1pZGRsZXdhcmUuUmVxdWlyZUFkbWluKCkpCgl7CgkJdXNlcnMuR0VUKCIiLCBoLkxpc3QpCgkJdXNlcnMuUE9TVCgiIiwgaC5DcmVhdGUpCgkJdXNlcnMuUFVUKCIvOmlkIiwgaC5VcGRhdGUpCgkJdXNlcnMuREVMRVRFKCIvOmlkIiwgaC5EZWxldGUpCgkJdXNlcnMuUFVUKCIvOmlkL3Jlc2V0LXBhc3N3b3JkIiwgaC5SZXNldFBhc3N3b3JkKQoJfQp9Cg==
+package handler
+
+import (
+	"strconv"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/crypto"
+	"daidai-panel/pkg/response"
+	"daidai-panel/pkg/validator"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+type UserHandler struct{}
+
+func NewUserHandler() *UserHandler {
+	return &UserHandler{}
+}
+
+func (h *UserHandler) List(c *gin.Context) {
+	var users []model.User
+	database.DB.Order("created_at ASC").Find(&users)
+
+	userIDs := make([]uint, 0, len(users))
+	for _, user := range users {
+		userIDs = append(userIDs, user.ID)
+	}
+
+	twoFactorEnabled := make(map[uint]bool, len(userIDs))
+	if len(userIDs) > 0 {
+		var records []model.TwoFactorAuth
+		database.DB.
+			Select("user_id").
+			Where("user_id IN ? AND enabled = ?", userIDs, true).
+			Find(&records)
+		for _, record := range records {
+			twoFactorEnabled[record.UserID] = true
+		}
+	}
+
+	data := make([]map[string]interface{}, len(users))
+	for i, u := range users {
+		item := u.ToDict()
+		item["two_factor_enabled"] = twoFactorEnabled[u.ID]
+		data[i] = item
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *UserHandler) Create(c *gin.Context) {
+	var req struct {
+		Username string `json:"username" binding:"required"`
+		Password string `json:"password" binding:"required"`
+		Role     string `json:"role"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	if !validator.ValidateUsername(req.Username) {
+		response.BadRequest(c, "用户名需 1-32 位，支持中文、字母、数字和下划线")
+		return
+	}
+	if !validator.ValidatePassword(req.Password) {
+		response.BadRequest(c, "密码长度需 6-128 位")
+		return
+	}
+	if req.Role == "" {
+		req.Role = "operator"
+	}
+	if req.Role != "admin" && req.Role != "operator" && req.Role != "viewer" {
+		response.BadRequest(c, "角色无效，可选 admin/operator/viewer")
+		return
+	}
+
+	var existing model.User
+	if database.DB.Where("username = ?", req.Username).First(&existing).Error == nil {
+		response.BadRequest(c, "用户名已存在")
+		return
+	}
+
+	hashed, err := crypto.HashPassword(req.Password)
+	if err != nil {
+		response.InternalError(c, "密码加密失败")
+		return
+	}
+
+	user := model.User{
+		Username: req.Username,
+		Password: hashed,
+		Role:     req.Role,
+		Enabled:  true,
+	}
+
+	if err := database.DB.Create(&user).Error; err != nil {
+		response.InternalError(c, "创建用户失败")
+		return
+	}
+
+	response.Created(c, gin.H{"message": "创建成功", "data": user.ToDict()})
+}
+
+func (h *UserHandler) Update(c *gin.Context) {
+	userID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var user model.User
+	if err := database.DB.First(&user, userID).Error; err != nil {
+		response.NotFound(c, "用户不存在")
+		return
+	}
+
+	var req struct {
+		Role    string `json:"role"`
+		Enabled *bool  `json:"enabled"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	updates := make(map[string]interface{})
+	if req.Role != "" {
+		if req.Role != "admin" && req.Role != "operator" && req.Role != "viewer" {
+			response.BadRequest(c, "角色无效")
+			return
+		}
+		updates["role"] = req.Role
+	}
+	if req.Enabled != nil {
+		updates["enabled"] = *req.Enabled
+	}
+
+	if len(updates) > 0 {
+		database.DB.Model(&user).Updates(updates)
+	}
+
+	database.DB.First(&user, userID)
+	if len(updates) > 0 {
+		service.RevokeAllUserSessions(user.ID)
+	}
+	response.Success(c, gin.H{"message": "更新成功", "data": user.ToDict()})
+}
+
+func (h *UserHandler) Delete(c *gin.Context) {
+	userID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	currentUser := c.GetString("username")
+	var user model.User
+	if err := database.DB.First(&user, userID).Error; err != nil {
+		response.NotFound(c, "用户不存在")
+		return
+	}
+
+	if user.Username == currentUser {
+		response.BadRequest(c, "不能删除自己")
+		return
+	}
+
+	database.DB.Delete(&user)
+	response.Success(c, gin.H{"message": "删除成功"})
+}
+
+func (h *UserHandler) ResetPassword(c *gin.Context) {
+	userID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var user model.User
+	if err := database.DB.First(&user, userID).Error; err != nil {
+		response.NotFound(c, "用户不存在")
+		return
+	}
+
+	var req struct {
+		Password string `json:"password" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	if !validator.ValidatePassword(req.Password) {
+		response.BadRequest(c, "密码长度需 6-128 位")
+		return
+	}
+
+	hashed, err := crypto.HashPassword(req.Password)
+	if err != nil {
+		response.InternalError(c, "密码加密失败")
+		return
+	}
+
+	database.DB.Model(&user).Update("password", hashed)
+	service.RevokeAllUserSessions(user.ID)
+	response.Success(c, gin.H{"message": "密码重置成功"})
+}
+
+func (h *UserHandler) RegisterRoutes(r *gin.RouterGroup) {
+	users := r.Group("/users", middleware.JWTAuth(), middleware.RequireAdmin())
+	{
+		users.GET("", h.List)
+		users.POST("", h.Create)
+		users.PUT("/:id", h.Update)
+		users.DELETE("/:id", h.Delete)
+		users.PUT("/:id/reset-password", h.ResetPassword)
+	}
+}

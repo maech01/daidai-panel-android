@@ -1,1 +1,93 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNvbnRleHQiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0UHVsbEdpdFJlcG9XaXRoQ2FsbGJhY2tIYW5kbGVzUmVsYXRpdmVTY3JpcHRzRGlyKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl0LkNoZGlyKHJvb3QpCgoJcmVsU2NyaXB0cyA6PSBmaWxlcGF0aC5Kb2luKCJkYXRhIiwgInNjcmlwdHMiKQoJY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyID0gcmVsU2NyaXB0cwoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKHJlbFNjcmlwdHMsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSByZWxhdGl2ZSBzY3JpcHRzIGRpcjogJXYiLCBlcnIpCgl9CgoJcmVtb3RlRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInJlbW90ZS5naXQiKQoJd29ya3RyZWVEaXIgOj0gZmlsZXBhdGguSm9pbihyb290LCAid29ya3RyZWUiKQoJcnVuR2l0KHQsIHJvb3QsICJpbml0IiwgIi0tYmFyZSIsIHJlbW90ZURpcikKCXJ1bkdpdCh0LCByb290LCAiY2xvbmUiLCByZW1vdGVEaXIsIHdvcmt0cmVlRGlyKQoKCXNjcmlwdENvbnRlbnQgOj0gIm5ldyBFbnYoJ3JlbHBhdGgtdGFzaycpO1xuY3JvbjogMCAxIDIgMyA0XG5jb25zb2xlLmxvZygnaGknKTtcbiIKCXNjcmlwdE5hbWUgOj0gInJlbHBhdGhfdGFzay5qcyIKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbih3b3JrdHJlZURpciwgc2NyaXB0TmFtZSksIFtdYnl0ZShzY3JpcHRDb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgcmVwbyBmaWxlOiAldiIsIGVycikKCX0KCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgImFkZCIsIHNjcmlwdE5hbWUpCglydW5HaXQodCwgd29ya3RyZWVEaXIsICItYyIsICJ1c2VyLm5hbWU9VGVzdCBVc2VyIiwgIi1jIiwgInVzZXIuZW1haWw9dGVzdEBleGFtcGxlLmNvbSIsICJjb21taXQiLCAiLW0iLCAiaW5pdCIpCglydW5HaXQodCwgd29ya3RyZWVEaXIsICJwdXNoIiwgIm9yaWdpbiIsICJIRUFEOm1haW4iKQoKCXN1YiA6PSAmbW9kZWwuU3Vic2NyaXB0aW9uewoJCU5hbWU6ICAgICJyZWxwYXRoLXN1YiIsCgkJVHlwZTogICAgbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAgICAgcmVtb3RlRGlyLAoJCUJyYW5jaDogICJtYWluIiwKCQlTYXZlRGlyOiAicmVscGF0aF9yZXBvIiwKCX0KCglhdXRoQ2ZnLCBlcnIgOj0gYnVpbGRHaXRBdXRoQ29uZmlnKG9zLkVudmlyb24oKSwgc3ViLlVSTCwgc3ViLCAiIikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJidWlsZCBnaXQgYXV0aCBjb25maWc6ICV2IiwgZXJyKQoJfQoJb3V0cHV0LCBlcnIgOj0gcHVsbEdpdFJlcG9XaXRoQ2FsbGJhY2soY29udGV4dC5CYWNrZ3JvdW5kKCksIHN1YiwgYXV0aENmZywgZnVuYyhzdHJpbmcpIHt9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInB1bGwgZmFpbGVkOiAldlxuJXMiLCBlcnIsIG91dHB1dCkKCX0KCglleHBlY3RlZCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJkYXRhIiwgInNjcmlwdHMiLCAicmVscGF0aF9yZXBvIiwgc2NyaXB0TmFtZSkKCWlmIF8sIGVyciA6PSBvcy5TdGF0KGV4cGVjdGVkKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNsb25lZCBmaWxlIGF0ICVzLCBnb3QgZXJyOiAldiIsIGV4cGVjdGVkLCBlcnIpCgl9CgoJZHVwbGljYXRlZCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJkYXRhIiwgInNjcmlwdHMiLCAiZGF0YSIsICJzY3JpcHRzIiwgInJlbHBhdGhfcmVwbyIpCglpZiBfLCBlcnIgOj0gb3MuU3RhdChkdXBsaWNhdGVkKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IGR1cGxpY2F0ZWQgcGF0aCAlcyB0byBleGlzdCAoc3RhdCBlcnI9JXYpIiwgZHVwbGljYXRlZCwgZXJyKQoJfQoKCWVudHJpZXMsIGVyciA6PSBvcy5SZWFkRGlyKGV4cGVjdGVkWzpzdHJpbmdzLkxhc3RJbmRleChleHBlY3RlZCwgc3RyaW5nKGZpbGVwYXRoLlNlcGFyYXRvcikpXSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWFkIHB1bGxlZCByZXBvIGRpcjogJXYiLCBlcnIpCgl9CglpZiBsZW4oZW50cmllcykgPT0gMCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgcHVsbGVkIHJlcG8gZGlyZWN0b3J5IHRvIGJlIG5vbi1lbXB0eSBhZnRlciBjbG9uZSIpCgl9CgoJb3B0aW9ucyA6PSBzdWJzY3JpcHRpb25UYXNrU3luY09wdGlvbnN7CgkJYXV0b0FkZDogICAgIHRydWUsCgkJYWxsb3dlZEV4dHM6IG1hcFtzdHJpbmddYm9vbHsiLmpzIjogdHJ1ZX0sCgl9CgljYW5kaWRhdGVzIDo9IGNvbGxlY3RTdWJzY3JpcHRpb25UYXNrQ2FuZGlkYXRlcyhzdWIsIG9wdGlvbnMpCglpZiBsZW4oY2FuZGlkYXRlcykgPT0gMCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgYXQgbGVhc3Qgb25lIHRhc2sgY2FuZGlkYXRlIGFmdGVyIHB1bGwsIGdvdCBub25lIikKCX0KCXZhciBmb3VuZCBib29sCglmb3IgXywgYyA6PSByYW5nZSBjYW5kaWRhdGVzIHsKCQlpZiBzdHJpbmdzLkhhc1N1ZmZpeChjLkNvbW1hbmQsIHNjcmlwdE5hbWUpICYmIGMuQ3JvbkV4cHJlc3Npb24gPT0gIjAgMSAyIDMgNCIgewoJCQlmb3VuZCA9IHRydWUKCQkJYnJlYWsKCQl9Cgl9CglpZiAhZm91bmQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYW5kaWRhdGUgZm9yICVzIHdpdGggY3JvbiAnMCAxIDIgMyA0JywgZ290ICUrdiIsIHNjcmlwdE5hbWUsIGNhbmRpZGF0ZXMpCgl9Cn0K
+package service
+
+import (
+	"context"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestPullGitRepoWithCallbackHandlesRelativeScriptsDir(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	t.Chdir(root)
+
+	relScripts := filepath.Join("data", "scripts")
+	config.C.Data.ScriptsDir = relScripts
+	if err := os.MkdirAll(relScripts, 0o755); err != nil {
+		t.Fatalf("create relative scripts dir: %v", err)
+	}
+
+	remoteDir := filepath.Join(root, "remote.git")
+	worktreeDir := filepath.Join(root, "worktree")
+	runGit(t, root, "init", "--bare", remoteDir)
+	runGit(t, root, "clone", remoteDir, worktreeDir)
+
+	scriptContent := "new Env('relpath-task');\ncron: 0 1 2 3 4\nconsole.log('hi');\n"
+	scriptName := "relpath_task.js"
+	if err := os.WriteFile(filepath.Join(worktreeDir, scriptName), []byte(scriptContent), 0o644); err != nil {
+		t.Fatalf("write repo file: %v", err)
+	}
+	runGit(t, worktreeDir, "add", scriptName)
+	runGit(t, worktreeDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "init")
+	runGit(t, worktreeDir, "push", "origin", "HEAD:main")
+
+	sub := &model.Subscription{
+		Name:    "relpath-sub",
+		Type:    model.SubTypeGitRepo,
+		URL:     remoteDir,
+		Branch:  "main",
+		SaveDir: "relpath_repo",
+	}
+
+	authCfg, err := buildGitAuthConfig(os.Environ(), sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+	output, err := pullGitRepoWithCallback(context.Background(), sub, authCfg, func(string) {})
+	if err != nil {
+		t.Fatalf("pull failed: %v\n%s", err, output)
+	}
+
+	expected := filepath.Join(root, "data", "scripts", "relpath_repo", scriptName)
+	if _, err := os.Stat(expected); err != nil {
+		t.Fatalf("expected cloned file at %s, got err: %v", expected, err)
+	}
+
+	duplicated := filepath.Join(root, "data", "scripts", "data", "scripts", "relpath_repo")
+	if _, err := os.Stat(duplicated); !os.IsNotExist(err) {
+		t.Fatalf("did not expect duplicated path %s to exist (stat err=%v)", duplicated, err)
+	}
+
+	entries, err := os.ReadDir(expected[:strings.LastIndex(expected, string(filepath.Separator))])
+	if err != nil {
+		t.Fatalf("read pulled repo dir: %v", err)
+	}
+	if len(entries) == 0 {
+		t.Fatal("expected pulled repo directory to be non-empty after clone")
+	}
+
+	options := subscriptionTaskSyncOptions{
+		autoAdd:     true,
+		allowedExts: map[string]bool{".js": true},
+	}
+	candidates := collectSubscriptionTaskCandidates(sub, options)
+	if len(candidates) == 0 {
+		t.Fatal("expected at least one task candidate after pull, got none")
+	}
+	var found bool
+	for _, c := range candidates {
+		if strings.HasSuffix(c.Command, scriptName) && c.CronExpression == "0 1 2 3 4" {
+			found = true
+			break
+		}
+	}
+	if !found {
+		t.Fatalf("expected candidate for %s with cron '0 1 2 3 4', got %+v", scriptName, candidates)
+	}
+}

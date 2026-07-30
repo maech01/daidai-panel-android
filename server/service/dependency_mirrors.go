@@ -1,1 +1,427 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmluZ3MiCikKCmNvbnN0ICgKCURlZmF1bHRQaXBNaXJyb3IgPSAiaHR0cHM6Ly9taXJyb3JzLmFsaXl1bi5jb20vcHlwaS9zaW1wbGUiCglEZWZhdWx0TnBtTWlycm9yID0gImh0dHBzOi8vcmVnaXN0cnkubnBtbWlycm9yLmNvbSIKKQoKdHlwZSBEZXBlbmRlbmN5TWlycm9yU2V0dGluZ3Mgc3RydWN0IHsKCVBpcE1pcnJvciBzdHJpbmcgYGpzb246InBpcF9taXJyb3Isb21pdGVtcHR5ImAKCU5wbU1pcnJvciBzdHJpbmcgYGpzb246Im5wbV9taXJyb3Isb21pdGVtcHR5ImAKfQoKZnVuYyBFZmZlY3RpdmVQaXBNaXJyb3IoY29uZmlndXJlZCBzdHJpbmcpIHN0cmluZyB7CgltaXJyb3IgOj0gc3RyaW5ncy5UcmltU3BhY2UoY29uZmlndXJlZCkKCWlmIG1pcnJvciA9PSAiIiB8fCBpc09mZmljaWFsUGlwTWlycm9yKG1pcnJvcikgewoJCXJldHVybiBEZWZhdWx0UGlwTWlycm9yCgl9CglyZXR1cm4gbWlycm9yCn0KCmZ1bmMgRWZmZWN0aXZlTnBtTWlycm9yKGNvbmZpZ3VyZWQgc3RyaW5nKSBzdHJpbmcgewoJbWlycm9yIDo9IG5vcm1hbGl6ZU5wbU1pcnJvcihjb25maWd1cmVkKQoJaWYgbWlycm9yID09ICIiIHx8IGlzT2ZmaWNpYWxOcG1NaXJyb3IobWlycm9yKSB7CgkJcmV0dXJuIG5vcm1hbGl6ZU5wbU1pcnJvcihEZWZhdWx0TnBtTWlycm9yKQoJfQoJcmV0dXJuIG1pcnJvcgp9CgpmdW5jIFBpcEluc3RhbGxFbnYoYmFzZSBbXXN0cmluZywgY29uZmlndXJlZCBzdHJpbmcpIFtdc3RyaW5nIHsKCWVudiA6PSBTYW5pdGl6ZVBpcEVudihiYXNlKQoJbWlycm9yIDo9IEVmZmVjdGl2ZVBpcE1pcnJvcihjb25maWd1cmVkKQoJaWYgbWlycm9yID09ICIiIHsKCQlyZXR1cm4gZW52Cgl9CgoJZW52ID0gYXBwZW5kKGVudiwgIlBJUF9JTkRFWF9VUkw9IittaXJyb3IpCglpZiBob3N0IDo9IGV4dHJhY3RNaXJyb3JIb3N0KG1pcnJvcik7IGhvc3QgIT0gIiIgewoJCWVudiA9IGFwcGVuZChlbnYsICJQSVBfVFJVU1RFRF9IT1NUPSIraG9zdCkKCX0KCXJldHVybiBlbnYKfQoKLy8gcGlwQ29uZmxpY3RpbmdFbnZLZXlzIOWIl+WHuuS8muS4jumdouadv+WGhemDqCBwaXAg6LCD55So55u45Yay56qB55qE546v5aKD5Y+Y6YeP77yaCi8vICAgLSBQSVBfUFJFRklYIC8gUElQX0hPTUUgLyBQSVBfVEFSR0VUIC8gUElQX1JPT1Qg6YO95Lya6KKrIHBpcCDovazmiJDlr7nlupTlkb3ku6TooYzpgInpobnvvJsKLy8gICAgIOWuv+S4u+acuuWmguaenOWQjOaXtumAmui/hyB+Ly5weWRpc3R1dGlscy5jZmfjgIFzeXN0ZW1kIHVuaXQg562J5Zyw5pa55rOo5YWl5aSa5Liq77yMCi8vICAgICBwaXAg5Lya5oqb5Ye6ICJDYW5ub3Qgc2V0IC0taG9tZSBhbmQgLS1wcmVmaXggdG9nZXRoZXIiIOetieWGsueqgemUmeivr+OAggovLyAgIC0gUElQX1VTRVIg5Lya5by65Yi26LWwIC0tdXNlciDlronoo4XliLDnlKjmiLfnm67lvZXvvIzopobnm5YgdmVudu+8jOegtOWdj+mdouadv+S+nei1lumalOemu+OAggovLyAgIC0gUElQX0lOU1RBTExfT1BUSU9OIOWOhuWPsuS4iuaYr+aKiuS7u+aEjyBzZXR1cC5weSBpbnN0YWxsIOmAiemhuemAj+S8oOe7mSBwaXDvvIwKLy8gICAgIOaYryAtLWhvbWUgLyAtLXByZWZpeCDlhrLnqoHnmoTluLjop4HmnaXmupDjgIIKLy8gICAtIFBZVEhPTlVTRVJCQVNFIOWGs+WumiAtLXVzZXIg5a6J6KOF55qE5qC555uu5b2V77yM5LiOIHZlbnYg5ZCM5qC35Yay56qB44CCCi8vICAgLSBQWVRIT05QQVRIIC8gUFlUSE9OSE9NRSDkvJrmsaHmn5MgcGlwIC8gZW5zdXJlcGlwIOeahOino+mHiuWZqOaQnOe0oui3r+W+hO+8jAovLyAgICAgUHl0aG9uIOWwj+eJiOacrOWNh+e6p+WQjuWPr+iDveiuqSB2ZW52IHBpcCDmib7kuI3liLDoh6rouqsgcGlwIOaooeWdl+OAggovLwovLyDpnaLmnb/osIPnlKjnmoQgcGlwIOWni+e7iOadpeiHquaJmOeuoSB2ZW52IOaIluezu+e7nyBwaXDvvIzoh6rluKbmraPnoa7nmoTlronoo4Xnm67moIfvvIwKLy8g5LiN6ZyA6KaB5Lmf5LiN5bqU6K+l6K6p5LiK6L+w5Y+Y6YeP5Y+C5LiO44CCCnZhciBwaXBDb25mbGljdGluZ0VudktleXMgPSBtYXBbc3RyaW5nXXN0cnVjdHt9ewoJIlBJUF9QUkVGSVgiOiAgICAgICAgIHt9LAoJIlBJUF9IT01FIjogICAgICAgICAgIHt9LAoJIlBJUF9UQVJHRVQiOiAgICAgICAgIHt9LAoJIlBJUF9ST09UIjogICAgICAgICAgIHt9LAoJIlBJUF9VU0VSIjogICAgICAgICAgIHt9LAoJIlBJUF9JTlNUQUxMX09QVElPTiI6IHt9LAoJIlBZVEhPTlVTRVJCQVNFIjogICAgIHt9LAoJIlBZVEhPTlBBVEgiOiAgICAgICAgIHt9LAoJIlBZVEhPTkhPTUUiOiAgICAgICAgIHt9LAp9CgovLyBTYW5pdGl6ZVBpcEVudiDnp7vpmaTmiYDmnInlj6/og73kuI7pnaLmnb/lhoXpg6ggcGlwIOiwg+eUqOebuOWGsueqgeeahOeOr+Wig+WPmOmHj+OAggovLyDlt7LpgJrov4cgUGlwSW5zdGFsbEVudiDmmL7lvI/ms6jlhaXnmoTlj5jph4/vvIjlpoIgUElQX0lOREVYX1VSTO+8ieS4jeS8muiiq+WJpeemu+OAggpmdW5jIFNhbml0aXplUGlwRW52KGJhc2UgW11zdHJpbmcpIFtdc3RyaW5nIHsKCWNsZWFuZWQgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGJhc2UpKQoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGJhc2UgewoJCWlkeCA6PSBzdHJpbmdzLkluZGV4Qnl0ZShlbnRyeSwgJz0nKQoJCWlmIGlkeCA8PSAwIHsKCQkJY2xlYW5lZCA9IGFwcGVuZChjbGVhbmVkLCBlbnRyeSkKCQkJY29udGludWUKCQl9CgkJa2V5IDo9IHN0cmluZ3MuVG9VcHBlcihlbnRyeVs6aWR4XSkKCQlpZiBfLCBjb25mbGljdGluZyA6PSBwaXBDb25mbGljdGluZ0VudktleXNba2V5XTsgY29uZmxpY3RpbmcgewoJCQljb250aW51ZQoJCX0KCQljbGVhbmVkID0gYXBwZW5kKGNsZWFuZWQsIGVudHJ5KQoJfQoJcmV0dXJuIGNsZWFuZWQKfQoKZnVuYyBOcG1JbnN0YWxsRW52KGJhc2UgW11zdHJpbmcsIGNvbmZpZ3VyZWQgc3RyaW5nKSBbXXN0cmluZyB7CgllbnYgOj0gYXBwZW5kKFtdc3RyaW5ne30sIGJhc2UuLi4pCgltaXJyb3IgOj0gRWZmZWN0aXZlTnBtTWlycm9yKGNvbmZpZ3VyZWQpCglpZiBtaXJyb3IgPT0gIiIgewoJCXJldHVybiBlbnYKCX0KCgllbnYgPSBhcHBlbmQoZW52LCAibnBtX2NvbmZpZ19yZWdpc3RyeT0iK21pcnJvcikKCWVudiA9IGFwcGVuZChlbnYsICJOUE1fQ09ORklHX1JFR0lTVFJZPSIrbWlycm9yKQoJcmV0dXJuIGVudgp9CgpmdW5jIEN1cnJlbnREZXBlbmRlbmN5TWlycm9yU2V0dGluZ3MoKSBEZXBlbmRlbmN5TWlycm9yU2V0dGluZ3MgewoJcmV0dXJuIERlcGVuZGVuY3lNaXJyb3JTZXR0aW5nc3sKCQlQaXBNaXJyb3I6IHN0cmluZ3MuVHJpbVNwYWNlKEN1cnJlbnRQaXBNaXJyb3IoKSksCgkJTnBtTWlycm9yOiBzdHJpbmdzLlRyaW1TcGFjZShDdXJyZW50TnBtTWlycm9yKCkpLAoJfQp9CgpmdW5jIEFwcGx5RGVwZW5kZW5jeU1pcnJvclNldHRpbmdzKHNldHRpbmdzIERlcGVuZGVuY3lNaXJyb3JTZXR0aW5ncykgZXJyb3IgewoJdmFyIGVycnMgW11zdHJpbmcKCWlmIGVyciA6PSBTZXRQaXBNaXJyb3Ioc2V0dGluZ3MuUGlwTWlycm9yKTsgZXJyICE9IG5pbCB7CgkJZXJycyA9IGFwcGVuZChlcnJzLCBlcnIuRXJyb3IoKSkKCX0KCWlmIGVyciA6PSBTZXROcG1NaXJyb3Ioc2V0dGluZ3MuTnBtTWlycm9yKTsgZXJyICE9IG5pbCB7CgkJZXJycyA9IGFwcGVuZChlcnJzLCBlcnIuRXJyb3IoKSkKCX0KCWlmIGxlbihlcnJzKSA+IDAgewoJCXJldHVybiBmbXQuRXJyb3JmKCIlcyIsIHN0cmluZ3MuSm9pbihlcnJzLCAiOyAiKSkKCX0KCXJldHVybiBuaWwKfQoKZnVuYyBTZXRQaXBNaXJyb3IobWlycm9yIHN0cmluZykgZXJyb3IgewoJbWlycm9yID0gc3RyaW5ncy5UcmltU3BhY2UobWlycm9yKQoJaWYgbWlycm9yICE9ICIiIHsKCQltaXJyb3IgPSBFZmZlY3RpdmVQaXBNaXJyb3IobWlycm9yKQoJCWlmICFzdHJpbmdzLkhhc1ByZWZpeChtaXJyb3IsICJodHRwOi8vIikgJiYgIXN0cmluZ3MuSGFzUHJlZml4KG1pcnJvciwgImh0dHBzOi8vIikgewoJCQlyZXR1cm4gZm10LkVycm9yZigicGlwIOmVnOWDj+a6kOW/hemhu+S7pSBodHRwOi8vIOaIliBodHRwczovLyDlvIDlpLQiKQoJCX0KCX0KCXJldHVybiB3cml0ZVBpcE1pcnJvckNvbmZpZyhtaXJyb3IpCn0KCmZ1bmMgU2V0TnBtTWlycm9yKG1pcnJvciBzdHJpbmcpIGVycm9yIHsKCW1pcnJvciA9IHN0cmluZ3MuVHJpbVNwYWNlKG1pcnJvcikKCWlmIG1pcnJvciAhPSAiIiB7CgkJbWlycm9yID0gRWZmZWN0aXZlTnBtTWlycm9yKG1pcnJvcikKCQlpZiAhc3RyaW5ncy5IYXNQcmVmaXgobWlycm9yLCAiaHR0cDovLyIpICYmICFzdHJpbmdzLkhhc1ByZWZpeChtaXJyb3IsICJodHRwczovLyIpIHsKCQkJcmV0dXJuIGZtdC5FcnJvcmYoIm5wbSDplZzlg4/mupDlv4Xpobvku6UgaHR0cDovLyDmiJYgaHR0cHM6Ly8g5byA5aS0IikKCQl9Cgl9CglyZXR1cm4gd3JpdGVOcG1NaXJyb3JDb25maWcobWlycm9yKQp9CgpmdW5jIEN1cnJlbnRQaXBNaXJyb3IoKSBzdHJpbmcgewoJaWYgb3V0LCBlcnIgOj0gb3MuUmVhZEZpbGUocGlwTWlycm9yQ29uZmlnUGF0aCgpKTsgZXJyID09IG5pbCB7CgkJZm9yIF8sIGxpbmUgOj0gcmFuZ2Ugc3RyaW5ncy5TcGxpdChzdHJpbmcob3V0KSwgIlxuIikgewoJCQlsaW5lID0gc3RyaW5ncy5UcmltU3BhY2UobGluZSkKCQkJaWYgc3RyaW5ncy5IYXNQcmVmaXgoc3RyaW5ncy5Ub0xvd2VyKGxpbmUpLCAiaW5kZXgtdXJsIikgewoJCQkJcGFydHMgOj0gc3RyaW5ncy5TcGxpdE4obGluZSwgIj0iLCAyKQoJCQkJaWYgbGVuKHBhcnRzKSA9PSAyIHsKCQkJCQlyZXR1cm4gc3RyaW5ncy5UcmltU3BhY2UocGFydHNbMV0pCgkJCQl9CgkJCX0KCQl9Cgl9CglyZXR1cm4gIiIKfQoKZnVuYyBDdXJyZW50TnBtTWlycm9yKCkgc3RyaW5nIHsKCWlmIG91dCwgZXJyIDo9IG9zLlJlYWRGaWxlKG5wbUNvbmZpZ1BhdGgoKSk7IGVyciA9PSBuaWwgewoJCWZvciBfLCBsaW5lIDo9IHJhbmdlIHN0cmluZ3MuU3BsaXQoc3RyaW5nKG91dCksICJcbiIpIHsKCQkJbGluZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCgkJCWlmIHN0cmluZ3MuSGFzUHJlZml4KHN0cmluZ3MuVG9Mb3dlcihsaW5lKSwgInJlZ2lzdHJ5PSIpIHsKCQkJCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXROKGxpbmUsICI9IiwgMikKCQkJCWlmIGxlbihwYXJ0cykgPT0gMiB7CgkJCQkJcmV0dXJuIHN0cmluZ3MuVHJpbVNwYWNlKHBhcnRzWzFdKQoJCQkJfQoJCQl9CgkJfQoJfQoJcmV0dXJuICIiCn0KCmZ1bmMgQ3VycmVudEVmZmVjdGl2ZVBpcE1pcnJvcigpIHN0cmluZyB7CglyZXR1cm4gRWZmZWN0aXZlUGlwTWlycm9yKEN1cnJlbnRQaXBNaXJyb3IoKSkKfQoKZnVuYyBDdXJyZW50RWZmZWN0aXZlTnBtTWlycm9yKCkgc3RyaW5nIHsKCXJldHVybiBFZmZlY3RpdmVOcG1NaXJyb3IoQ3VycmVudE5wbU1pcnJvcigpKQp9CgpmdW5jIGlzT2ZmaWNpYWxQaXBNaXJyb3IobWlycm9yIHN0cmluZykgYm9vbCB7CgltaXJyb3IgPSBzdHJpbmdzLlRyaW1SaWdodChzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UobWlycm9yKSksICIvIikKCXN3aXRjaCBtaXJyb3IgewoJY2FzZSAiaHR0cHM6Ly9weXBpLm9yZy9zaW1wbGUiLCAiaHR0cDovL3B5cGkub3JnL3NpbXBsZSIsCgkJImh0dHBzOi8vcHlwaS5weXRob24ub3JnL3NpbXBsZSIsICJodHRwOi8vcHlwaS5weXRob24ub3JnL3NpbXBsZSI6CgkJcmV0dXJuIHRydWUKCWRlZmF1bHQ6CgkJcmV0dXJuIGZhbHNlCgl9Cn0KCmZ1bmMgaXNPZmZpY2lhbE5wbU1pcnJvcihtaXJyb3Igc3RyaW5nKSBib29sIHsKCW1pcnJvciA9IG5vcm1hbGl6ZU5wbU1pcnJvcihtaXJyb3IpCglyZXR1cm4gbWlycm9yID09ICJodHRwczovL3JlZ2lzdHJ5Lm5wbWpzLm9yZy8iCn0KCmZ1bmMgbm9ybWFsaXplTnBtTWlycm9yKG1pcnJvciBzdHJpbmcpIHN0cmluZyB7CgltaXJyb3IgPSBzdHJpbmdzLlRyaW1TcGFjZShtaXJyb3IpCglpZiBtaXJyb3IgPT0gIiIgewoJCXJldHVybiAiIgoJfQoJaWYgIXN0cmluZ3MuSGFzU3VmZml4KG1pcnJvciwgIi8iKSB7CgkJbWlycm9yICs9ICIvIgoJfQoJcmV0dXJuIG1pcnJvcgp9CgpmdW5jIGV4dHJhY3RNaXJyb3JIb3N0KHVybCBzdHJpbmcpIHN0cmluZyB7Cgl1cmwgPSBzdHJpbmdzLlRyaW1QcmVmaXgodXJsLCAiaHR0cHM6Ly8iKQoJdXJsID0gc3RyaW5ncy5UcmltUHJlZml4KHVybCwgImh0dHA6Ly8iKQoJcGFydHMgOj0gc3RyaW5ncy5TcGxpdE4odXJsLCAiLyIsIDIpCglpZiBsZW4ocGFydHMpID09IDAgewoJCXJldHVybiAiIgoJfQoJaG9zdFBvcnQgOj0gc3RyaW5ncy5TcGxpdE4ocGFydHNbMF0sICI6IiwgMikKCXJldHVybiBzdHJpbmdzLlRyaW1TcGFjZShob3N0UG9ydFswXSkKfQoKZnVuYyBwaXBNaXJyb3JDb25maWdQYXRoKCkgc3RyaW5nIHsKCWlmIHhkZyA6PSBzdHJpbmdzLlRyaW1TcGFjZShvcy5HZXRlbnYoIlhER19DT05GSUdfSE9NRSIpKTsgeGRnICE9ICIiIHsKCQlyZXR1cm4gZmlsZXBhdGguSm9pbih4ZGcsICJwaXAiLCAicGlwLmNvbmYiKQoJfQoJaWYgaG9tZSA6PSBzdHJpbmdzLlRyaW1TcGFjZShvcy5HZXRlbnYoIkhPTUUiKSk7IGhvbWUgIT0gIiIgewoJCXJldHVybiBmaWxlcGF0aC5Kb2luKGhvbWUsICIuY29uZmlnIiwgInBpcCIsICJwaXAuY29uZiIpCgl9CglyZXR1cm4gIiIKfQoKZnVuYyBucG1Db25maWdQYXRoKCkgc3RyaW5nIHsKCWlmIGhvbWUgOj0gc3RyaW5ncy5UcmltU3BhY2Uob3MuR2V0ZW52KCJIT01FIikpOyBob21lICE9ICIiIHsKCQlyZXR1cm4gZmlsZXBhdGguSm9pbihob21lLCAiLm5wbXJjIikKCX0KCXJldHVybiAiIgp9CgpmdW5jIHdyaXRlUGlwTWlycm9yQ29uZmlnKG1pcnJvciBzdHJpbmcpIGVycm9yIHsKCXBhdGggOj0gcGlwTWlycm9yQ29uZmlnUGF0aCgpCglpZiBwYXRoID09ICIiIHsKCQlyZXR1cm4gbmlsCgl9CgoJbGluZXMsIGVyciA6PSByZWFkQ29uZmlnTGluZXMocGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglob3N0IDo9ICIiCglpZiBtaXJyb3IgIT0gIiIgewoJCWhvc3QgPSBleHRyYWN0TWlycm9ySG9zdChtaXJyb3IpCgl9CgoJcmVzdWx0IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihsaW5lcykrNCkKCWluR2xvYmFsIDo9IGZhbHNlCglzZWVuR2xvYmFsIDo9IGZhbHNlCgl3cm90ZUluZGV4VVJMIDo9IGZhbHNlCgl3cm90ZVRydXN0ZWRIb3N0IDo9IGZhbHNlCgoJZm9yIF8sIGxpbmUgOj0gcmFuZ2UgbGluZXMgewoJCXRyaW1tZWQgOj0gc3RyaW5ncy5UcmltU3BhY2UobGluZSkKCQlpZiBpc0lOSVNlY3Rpb25MaW5lKHRyaW1tZWQpIHsKCQkJaWYgaW5HbG9iYWwgewoJCQkJaWYgbWlycm9yICE9ICIiICYmICF3cm90ZUluZGV4VVJMIHsKCQkJCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCAiaW5kZXgtdXJsID0gIittaXJyb3IpCgkJCQkJd3JvdGVJbmRleFVSTCA9IHRydWUKCQkJCX0KCQkJCWlmIGhvc3QgIT0gIiIgJiYgIXdyb3RlVHJ1c3RlZEhvc3QgewoJCQkJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsICJ0cnVzdGVkLWhvc3QgPSAiK2hvc3QpCgkJCQkJd3JvdGVUcnVzdGVkSG9zdCA9IHRydWUKCQkJCX0KCQkJfQoKCQkJaW5HbG9iYWwgPSBpc0dsb2JhbFBpcFNlY3Rpb24odHJpbW1lZCkKCQkJaWYgaW5HbG9iYWwgewoJCQkJc2Vlbkdsb2JhbCA9IHRydWUKCQkJfQoJCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCBsaW5lKQoJCQljb250aW51ZQoJCX0KCgkJaWYgaW5HbG9iYWwgewoJCQlzd2l0Y2ggcGlwQ29uZmlnS2V5KHRyaW1tZWQpIHsKCQkJY2FzZSAiaW5kZXgtdXJsIjoKCQkJCWlmIG1pcnJvciAhPSAiIiAmJiAhd3JvdGVJbmRleFVSTCB7CgkJCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgImluZGV4LXVybCA9ICIrbWlycm9yKQoJCQkJCXdyb3RlSW5kZXhVUkwgPSB0cnVlCgkJCQl9CgkJCQljb250aW51ZQoJCQljYXNlICJ0cnVzdGVkLWhvc3QiOgoJCQkJaWYgaG9zdCAhPSAiIiAmJiAhd3JvdGVUcnVzdGVkSG9zdCB7CgkJCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgInRydXN0ZWQtaG9zdCA9ICIraG9zdCkKCQkJCQl3cm90ZVRydXN0ZWRIb3N0ID0gdHJ1ZQoJCQkJfQoJCQkJY29udGludWUKCQkJfQoJCX0KCgkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgbGluZSkKCX0KCglpZiBzZWVuR2xvYmFsIHsKCQlpZiBpbkdsb2JhbCB7CgkJCWlmIG1pcnJvciAhPSAiIiAmJiAhd3JvdGVJbmRleFVSTCB7CgkJCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCAiaW5kZXgtdXJsID0gIittaXJyb3IpCgkJCQl3cm90ZUluZGV4VVJMID0gdHJ1ZQoJCQl9CgkJCWlmIGhvc3QgIT0gIiIgJiYgIXdyb3RlVHJ1c3RlZEhvc3QgewoJCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgInRydXN0ZWQtaG9zdCA9ICIraG9zdCkKCQkJCXdyb3RlVHJ1c3RlZEhvc3QgPSB0cnVlCgkJCX0KCQl9Cgl9IGVsc2UgaWYgbWlycm9yICE9ICIiIHx8IGhvc3QgIT0gIiIgewoJCWlmIGxlbihyZXN1bHQpID4gMCAmJiBzdHJpbmdzLlRyaW1TcGFjZShyZXN1bHRbbGVuKHJlc3VsdCktMV0pICE9ICIiIHsKCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgIiIpCgkJfQoJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsICJbZ2xvYmFsXSIpCgkJaWYgbWlycm9yICE9ICIiIHsKCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgImluZGV4LXVybCA9ICIrbWlycm9yKQoJCX0KCQlpZiBob3N0ICE9ICIiIHsKCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgInRydXN0ZWQtaG9zdCA9ICIraG9zdCkKCQl9Cgl9CgoJcmV0dXJuIHdyaXRlQ29uZmlnTGluZXMocGF0aCwgcmVzdWx0KQp9CgpmdW5jIHdyaXRlTnBtTWlycm9yQ29uZmlnKG1pcnJvciBzdHJpbmcpIGVycm9yIHsKCXBhdGggOj0gbnBtQ29uZmlnUGF0aCgpCglpZiBwYXRoID09ICIiIHsKCQlyZXR1cm4gbmlsCgl9CgoJbGluZXMsIGVyciA6PSByZWFkQ29uZmlnTGluZXMocGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglyZXN1bHQgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGxpbmVzKSsxKQoJd3JvdGVSZWdpc3RyeSA6PSBmYWxzZQoKCWZvciBfLCBsaW5lIDo9IHJhbmdlIGxpbmVzIHsKCQl0cmltbWVkIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCgkJaWYgc3RyaW5ncy5IYXNQcmVmaXgoc3RyaW5ncy5Ub0xvd2VyKHRyaW1tZWQpLCAicmVnaXN0cnk9IikgewoJCQlpZiBtaXJyb3IgIT0gIiIgJiYgIXdyb3RlUmVnaXN0cnkgewoJCQkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgInJlZ2lzdHJ5PSIrbWlycm9yKQoJCQkJd3JvdGVSZWdpc3RyeSA9IHRydWUKCQkJfQoJCQljb250aW51ZQoJCX0KCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCBsaW5lKQoJfQoKCWlmIG1pcnJvciAhPSAiIiAmJiAhd3JvdGVSZWdpc3RyeSB7CgkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgInJlZ2lzdHJ5PSIrbWlycm9yKQoJfQoKCXJldHVybiB3cml0ZUNvbmZpZ0xpbmVzKHBhdGgsIHJlc3VsdCkKfQoKZnVuYyByZWFkQ29uZmlnTGluZXMocGF0aCBzdHJpbmcpIChbXXN0cmluZywgZXJyb3IpIHsKCWRhdGEsIGVyciA6PSBvcy5SZWFkRmlsZShwYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJaWYgb3MuSXNOb3RFeGlzdChlcnIpIHsKCQkJcmV0dXJuIG5pbCwgbmlsCgkJfQoJCXJldHVybiBuaWwsIGVycgoJfQoJdGV4dCA6PSBzdHJpbmdzLlJlcGxhY2VBbGwoc3RyaW5nKGRhdGEpLCAiXHJcbiIsICJcbiIpCgl0ZXh0ID0gc3RyaW5ncy5UcmltU3VmZml4KHRleHQsICJcbiIpCglpZiB0ZXh0ID09ICIiIHsKCQlyZXR1cm4gbmlsLCBuaWwKCX0KCXJldHVybiBzdHJpbmdzLlNwbGl0KHRleHQsICJcbiIpLCBuaWwKfQoKZnVuYyB3cml0ZUNvbmZpZ0xpbmVzKHBhdGggc3RyaW5nLCBsaW5lcyBbXXN0cmluZykgZXJyb3IgewoJZm9yIGxlbihsaW5lcykgPiAwICYmIHN0cmluZ3MuVHJpbVNwYWNlKGxpbmVzW2xlbihsaW5lcyktMV0pID09ICIiIHsKCQlsaW5lcyA9IGxpbmVzWzpsZW4obGluZXMpLTFdCgl9CgoJaGFzQ29udGVudCA6PSBmYWxzZQoJZm9yIF8sIGxpbmUgOj0gcmFuZ2UgbGluZXMgewoJCWlmIHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpICE9ICIiIHsKCQkJaGFzQ29udGVudCA9IHRydWUKCQkJYnJlYWsKCQl9Cgl9CgoJaWYgIWhhc0NvbnRlbnQgewoJCWlmIGVyciA6PSBvcy5SZW1vdmUocGF0aCk7IGVyciAhPSBuaWwgJiYgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJCXJldHVybiBlcnIKCQl9CgkJcmV0dXJuIG5pbAoJfQoKCWlmIGVyciA6PSBvcy5Na2RpckFsbChmaWxlcGF0aC5EaXIocGF0aCksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJY29udGVudCA6PSBzdHJpbmdzLkpvaW4obGluZXMsICJcbiIpICsgIlxuIgoJcmV0dXJuIG9zLldyaXRlRmlsZShwYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KQp9CgpmdW5jIGlzSU5JU2VjdGlvbkxpbmUobGluZSBzdHJpbmcpIGJvb2wgewoJcmV0dXJuIHN0cmluZ3MuSGFzUHJlZml4KGxpbmUsICJbIikgJiYgc3RyaW5ncy5IYXNTdWZmaXgobGluZSwgIl0iKQp9CgpmdW5jIGlzR2xvYmFsUGlwU2VjdGlvbihsaW5lIHN0cmluZykgYm9vbCB7CgluYW1lIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZ3MuVHJpbVN1ZmZpeChzdHJpbmdzLlRyaW1QcmVmaXgobGluZSwgIlsiKSwgIl0iKSkKCXJldHVybiBzdHJpbmdzLkVxdWFsRm9sZChuYW1lLCAiZ2xvYmFsIikKfQoKZnVuYyBwaXBDb25maWdLZXkobGluZSBzdHJpbmcpIHN0cmluZyB7CglpZiBsaW5lID09ICIiIHx8IHN0cmluZ3MuSGFzUHJlZml4KGxpbmUsICIjIikgfHwgc3RyaW5ncy5IYXNQcmVmaXgobGluZSwgIjsiKSB7CgkJcmV0dXJuICIiCgl9CglwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0TihsaW5lLCAiPSIsIDIpCglpZiBsZW4ocGFydHMpICE9IDIgewoJCXJldHVybiAiIgoJfQoJcmV0dXJuIHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShwYXJ0c1swXSkpCn0K
+package service
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"strings"
+)
+
+const (
+	DefaultPipMirror = "https://mirrors.aliyun.com/pypi/simple"
+	DefaultNpmMirror = "https://registry.npmmirror.com"
+)
+
+type DependencyMirrorSettings struct {
+	PipMirror string `json:"pip_mirror,omitempty"`
+	NpmMirror string `json:"npm_mirror,omitempty"`
+}
+
+func EffectivePipMirror(configured string) string {
+	mirror := strings.TrimSpace(configured)
+	if mirror == "" || isOfficialPipMirror(mirror) {
+		return DefaultPipMirror
+	}
+	return mirror
+}
+
+func EffectiveNpmMirror(configured string) string {
+	mirror := normalizeNpmMirror(configured)
+	if mirror == "" || isOfficialNpmMirror(mirror) {
+		return normalizeNpmMirror(DefaultNpmMirror)
+	}
+	return mirror
+}
+
+func PipInstallEnv(base []string, configured string) []string {
+	env := SanitizePipEnv(base)
+	mirror := EffectivePipMirror(configured)
+	if mirror == "" {
+		return env
+	}
+
+	env = append(env, "PIP_INDEX_URL="+mirror)
+	if host := extractMirrorHost(mirror); host != "" {
+		env = append(env, "PIP_TRUSTED_HOST="+host)
+	}
+	return env
+}
+
+// pipConflictingEnvKeys 列出会与面板内部 pip 调用相冲突的环境变量：
+//   - PIP_PREFIX / PIP_HOME / PIP_TARGET / PIP_ROOT 都会被 pip 转成对应命令行选项；
+//     宿主机如果同时通过 ~/.pydistutils.cfg、systemd unit 等地方注入多个，
+//     pip 会抛出 "Cannot set --home and --prefix together" 等冲突错误。
+//   - PIP_USER 会强制走 --user 安装到用户目录，覆盖 venv，破坏面板依赖隔离。
+//   - PIP_INSTALL_OPTION 历史上是把任意 setup.py install 选项透传给 pip，
+//     是 --home / --prefix 冲突的常见来源。
+//   - PYTHONUSERBASE 决定 --user 安装的根目录，与 venv 同样冲突。
+//   - PYTHONPATH / PYTHONHOME 会污染 pip / ensurepip 的解释器搜索路径，
+//     Python 小版本升级后可能让 venv pip 找不到自身 pip 模块。
+//
+// 面板调用的 pip 始终来自托管 venv 或系统 pip，自带正确的安装目标，
+// 不需要也不应该让上述变量参与。
+var pipConflictingEnvKeys = map[string]struct{}{
+	"PIP_PREFIX":         {},
+	"PIP_HOME":           {},
+	"PIP_TARGET":         {},
+	"PIP_ROOT":           {},
+	"PIP_USER":           {},
+	"PIP_INSTALL_OPTION": {},
+	"PYTHONUSERBASE":     {},
+	"PYTHONPATH":         {},
+	"PYTHONHOME":         {},
+}
+
+// SanitizePipEnv 移除所有可能与面板内部 pip 调用相冲突的环境变量。
+// 已通过 PipInstallEnv 显式注入的变量（如 PIP_INDEX_URL）不会被剥离。
+func SanitizePipEnv(base []string) []string {
+	cleaned := make([]string, 0, len(base))
+	for _, entry := range base {
+		idx := strings.IndexByte(entry, '=')
+		if idx <= 0 {
+			cleaned = append(cleaned, entry)
+			continue
+		}
+		key := strings.ToUpper(entry[:idx])
+		if _, conflicting := pipConflictingEnvKeys[key]; conflicting {
+			continue
+		}
+		cleaned = append(cleaned, entry)
+	}
+	return cleaned
+}
+
+func NpmInstallEnv(base []string, configured string) []string {
+	env := append([]string{}, base...)
+	mirror := EffectiveNpmMirror(configured)
+	if mirror == "" {
+		return env
+	}
+
+	env = append(env, "npm_config_registry="+mirror)
+	env = append(env, "NPM_CONFIG_REGISTRY="+mirror)
+	return env
+}
+
+func CurrentDependencyMirrorSettings() DependencyMirrorSettings {
+	return DependencyMirrorSettings{
+		PipMirror: strings.TrimSpace(CurrentPipMirror()),
+		NpmMirror: strings.TrimSpace(CurrentNpmMirror()),
+	}
+}
+
+func ApplyDependencyMirrorSettings(settings DependencyMirrorSettings) error {
+	var errs []string
+	if err := SetPipMirror(settings.PipMirror); err != nil {
+		errs = append(errs, err.Error())
+	}
+	if err := SetNpmMirror(settings.NpmMirror); err != nil {
+		errs = append(errs, err.Error())
+	}
+	if len(errs) > 0 {
+		return fmt.Errorf("%s", strings.Join(errs, "; "))
+	}
+	return nil
+}
+
+func SetPipMirror(mirror string) error {
+	mirror = strings.TrimSpace(mirror)
+	if mirror != "" {
+		mirror = EffectivePipMirror(mirror)
+		if !strings.HasPrefix(mirror, "http://") && !strings.HasPrefix(mirror, "https://") {
+			return fmt.Errorf("pip 镜像源必须以 http:// 或 https:// 开头")
+		}
+	}
+	return writePipMirrorConfig(mirror)
+}
+
+func SetNpmMirror(mirror string) error {
+	mirror = strings.TrimSpace(mirror)
+	if mirror != "" {
+		mirror = EffectiveNpmMirror(mirror)
+		if !strings.HasPrefix(mirror, "http://") && !strings.HasPrefix(mirror, "https://") {
+			return fmt.Errorf("npm 镜像源必须以 http:// 或 https:// 开头")
+		}
+	}
+	return writeNpmMirrorConfig(mirror)
+}
+
+func CurrentPipMirror() string {
+	if out, err := os.ReadFile(pipMirrorConfigPath()); err == nil {
+		for _, line := range strings.Split(string(out), "\n") {
+			line = strings.TrimSpace(line)
+			if strings.HasPrefix(strings.ToLower(line), "index-url") {
+				parts := strings.SplitN(line, "=", 2)
+				if len(parts) == 2 {
+					return strings.TrimSpace(parts[1])
+				}
+			}
+		}
+	}
+	return ""
+}
+
+func CurrentNpmMirror() string {
+	if out, err := os.ReadFile(npmConfigPath()); err == nil {
+		for _, line := range strings.Split(string(out), "\n") {
+			line = strings.TrimSpace(line)
+			if strings.HasPrefix(strings.ToLower(line), "registry=") {
+				parts := strings.SplitN(line, "=", 2)
+				if len(parts) == 2 {
+					return strings.TrimSpace(parts[1])
+				}
+			}
+		}
+	}
+	return ""
+}
+
+func CurrentEffectivePipMirror() string {
+	return EffectivePipMirror(CurrentPipMirror())
+}
+
+func CurrentEffectiveNpmMirror() string {
+	return EffectiveNpmMirror(CurrentNpmMirror())
+}
+
+func isOfficialPipMirror(mirror string) bool {
+	mirror = strings.TrimRight(strings.ToLower(strings.TrimSpace(mirror)), "/")
+	switch mirror {
+	case "https://pypi.org/simple", "http://pypi.org/simple",
+		"https://pypi.python.org/simple", "http://pypi.python.org/simple":
+		return true
+	default:
+		return false
+	}
+}
+
+func isOfficialNpmMirror(mirror string) bool {
+	mirror = normalizeNpmMirror(mirror)
+	return mirror == "https://registry.npmjs.org/"
+}
+
+func normalizeNpmMirror(mirror string) string {
+	mirror = strings.TrimSpace(mirror)
+	if mirror == "" {
+		return ""
+	}
+	if !strings.HasSuffix(mirror, "/") {
+		mirror += "/"
+	}
+	return mirror
+}
+
+func extractMirrorHost(url string) string {
+	url = strings.TrimPrefix(url, "https://")
+	url = strings.TrimPrefix(url, "http://")
+	parts := strings.SplitN(url, "/", 2)
+	if len(parts) == 0 {
+		return ""
+	}
+	hostPort := strings.SplitN(parts[0], ":", 2)
+	return strings.TrimSpace(hostPort[0])
+}
+
+func pipMirrorConfigPath() string {
+	if xdg := strings.TrimSpace(os.Getenv("XDG_CONFIG_HOME")); xdg != "" {
+		return filepath.Join(xdg, "pip", "pip.conf")
+	}
+	if home := strings.TrimSpace(os.Getenv("HOME")); home != "" {
+		return filepath.Join(home, ".config", "pip", "pip.conf")
+	}
+	return ""
+}
+
+func npmConfigPath() string {
+	if home := strings.TrimSpace(os.Getenv("HOME")); home != "" {
+		return filepath.Join(home, ".npmrc")
+	}
+	return ""
+}
+
+func writePipMirrorConfig(mirror string) error {
+	path := pipMirrorConfigPath()
+	if path == "" {
+		return nil
+	}
+
+	lines, err := readConfigLines(path)
+	if err != nil {
+		return err
+	}
+
+	host := ""
+	if mirror != "" {
+		host = extractMirrorHost(mirror)
+	}
+
+	result := make([]string, 0, len(lines)+4)
+	inGlobal := false
+	seenGlobal := false
+	wroteIndexURL := false
+	wroteTrustedHost := false
+
+	for _, line := range lines {
+		trimmed := strings.TrimSpace(line)
+		if isINISectionLine(trimmed) {
+			if inGlobal {
+				if mirror != "" && !wroteIndexURL {
+					result = append(result, "index-url = "+mirror)
+					wroteIndexURL = true
+				}
+				if host != "" && !wroteTrustedHost {
+					result = append(result, "trusted-host = "+host)
+					wroteTrustedHost = true
+				}
+			}
+
+			inGlobal = isGlobalPipSection(trimmed)
+			if inGlobal {
+				seenGlobal = true
+			}
+			result = append(result, line)
+			continue
+		}
+
+		if inGlobal {
+			switch pipConfigKey(trimmed) {
+			case "index-url":
+				if mirror != "" && !wroteIndexURL {
+					result = append(result, "index-url = "+mirror)
+					wroteIndexURL = true
+				}
+				continue
+			case "trusted-host":
+				if host != "" && !wroteTrustedHost {
+					result = append(result, "trusted-host = "+host)
+					wroteTrustedHost = true
+				}
+				continue
+			}
+		}
+
+		result = append(result, line)
+	}
+
+	if seenGlobal {
+		if inGlobal {
+			if mirror != "" && !wroteIndexURL {
+				result = append(result, "index-url = "+mirror)
+				wroteIndexURL = true
+			}
+			if host != "" && !wroteTrustedHost {
+				result = append(result, "trusted-host = "+host)
+				wroteTrustedHost = true
+			}
+		}
+	} else if mirror != "" || host != "" {
+		if len(result) > 0 && strings.TrimSpace(result[len(result)-1]) != "" {
+			result = append(result, "")
+		}
+		result = append(result, "[global]")
+		if mirror != "" {
+			result = append(result, "index-url = "+mirror)
+		}
+		if host != "" {
+			result = append(result, "trusted-host = "+host)
+		}
+	}
+
+	return writeConfigLines(path, result)
+}
+
+func writeNpmMirrorConfig(mirror string) error {
+	path := npmConfigPath()
+	if path == "" {
+		return nil
+	}
+
+	lines, err := readConfigLines(path)
+	if err != nil {
+		return err
+	}
+
+	result := make([]string, 0, len(lines)+1)
+	wroteRegistry := false
+
+	for _, line := range lines {
+		trimmed := strings.TrimSpace(line)
+		if strings.HasPrefix(strings.ToLower(trimmed), "registry=") {
+			if mirror != "" && !wroteRegistry {
+				result = append(result, "registry="+mirror)
+				wroteRegistry = true
+			}
+			continue
+		}
+		result = append(result, line)
+	}
+
+	if mirror != "" && !wroteRegistry {
+		result = append(result, "registry="+mirror)
+	}
+
+	return writeConfigLines(path, result)
+}
+
+func readConfigLines(path string) ([]string, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return nil, nil
+		}
+		return nil, err
+	}
+	text := strings.ReplaceAll(string(data), "\r\n", "\n")
+	text = strings.TrimSuffix(text, "\n")
+	if text == "" {
+		return nil, nil
+	}
+	return strings.Split(text, "\n"), nil
+}
+
+func writeConfigLines(path string, lines []string) error {
+	for len(lines) > 0 && strings.TrimSpace(lines[len(lines)-1]) == "" {
+		lines = lines[:len(lines)-1]
+	}
+
+	hasContent := false
+	for _, line := range lines {
+		if strings.TrimSpace(line) != "" {
+			hasContent = true
+			break
+		}
+	}
+
+	if !hasContent {
+		if err := os.Remove(path); err != nil && !os.IsNotExist(err) {
+			return err
+		}
+		return nil
+	}
+
+	if err := os.MkdirAll(filepath.Dir(path), 0o755); err != nil {
+		return err
+	}
+	content := strings.Join(lines, "\n") + "\n"
+	return os.WriteFile(path, []byte(content), 0o644)
+}
+
+func isINISectionLine(line string) bool {
+	return strings.HasPrefix(line, "[") && strings.HasSuffix(line, "]")
+}
+
+func isGlobalPipSection(line string) bool {
+	name := strings.TrimSpace(strings.TrimSuffix(strings.TrimPrefix(line, "["), "]"))
+	return strings.EqualFold(name, "global")
+}
+
+func pipConfigKey(line string) string {
+	if line == "" || strings.HasPrefix(line, "#") || strings.HasPrefix(line, ";") {
+		return ""
+	}
+	parts := strings.SplitN(line, "=", 2)
+	if len(parts) != 2 {
+		return ""
+	}
+	return strings.ToLower(strings.TrimSpace(parts[0]))
+}

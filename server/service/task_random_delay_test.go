@@ -1,1 +1,71 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdFJlc29sdmVUYXNrUmFuZG9tRGVsYXlTZWNvbmRzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJbW9kZWwuU2V0Q29uZmlnKCJyYW5kb21fZGVsYXkiLCAiMTUiKQoJbW9kZWwuU2V0Q29uZmlnKCJyYW5kb21fZGVsYXlfZXh0ZW5zaW9ucyIsICIucHksLnNoIikKCgl0LlJ1bigiaW5oZXJpdHMgZ2xvYmFsIGRlbGF5IHdoZW4gdGFzayB2YWx1ZSBpcyBuaWwgYW5kIGV4dGVuc2lvbiBtYXRjaGVzIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQl0YXNrIDo9ICZtb2RlbC5UYXNre0NvbW1hbmQ6ICJ0YXNrIGRlbW8ucHkifQoJCWlmIGdvdCA6PSByZXNvbHZlVGFza1JhbmRvbURlbGF5U2Vjb25kcyh0YXNrLCBuaWwpOyBnb3QgIT0gMTUgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW5oZXJpdGVkIGRlbGF5IDE1LCBnb3QgJWQiLCBnb3QpCgkJfQoJfSkKCgl0LlJ1bigic2tpcHMgaW5oZXJpdGVkIGRlbGF5IHdoZW4gZXh0ZW5zaW9uIGRvZXMgbm90IG1hdGNoIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQl0YXNrIDo9ICZtb2RlbC5UYXNre0NvbW1hbmQ6ICJ0YXNrIGRlbW8uanMifQoJCWlmIGdvdCA6PSByZXNvbHZlVGFza1JhbmRvbURlbGF5U2Vjb25kcyh0YXNrLCBuaWwpOyBnb3QgIT0gMCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBpbmhlcml0ZWQgZGVsYXkgMCwgZ290ICVkIiwgZ290KQoJCX0KCX0pCgoJdC5SdW4oImV4cGxpY2l0IHplcm8gZGlzYWJsZXMgcmFuZG9tIGRlbGF5IiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQl6ZXJvIDo9IDAKCQl0YXNrIDo9ICZtb2RlbC5UYXNre0NvbW1hbmQ6ICJ0YXNrIGRlbW8ucHkiLCBSYW5kb21EZWxheVNlY29uZHM6ICZ6ZXJvfQoJCWlmIGdvdCA6PSByZXNvbHZlVGFza1JhbmRvbURlbGF5U2Vjb25kcyh0YXNrLCBuaWwpOyBnb3QgIT0gMCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBleHBsaWNpdCBkaXNhYmxlIHRvIHJldHVybiAwLCBnb3QgJWQiLCBnb3QpCgkJfQoJfSkKCgl0LlJ1bigiY3VzdG9tIHRhc2sgdmFsdWUgb3ZlcnJpZGVzIGdsb2JhbCBkZWxheSIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJY3VzdG9tIDo9IDQyCgkJdGFzayA6PSAmbW9kZWwuVGFza3tDb21tYW5kOiAiZWNobyBkZW1vIiwgUmFuZG9tRGVsYXlTZWNvbmRzOiAmY3VzdG9tfQoJCWlmIGdvdCA6PSByZXNvbHZlVGFza1JhbmRvbURlbGF5U2Vjb25kcyh0YXNrLCBuaWwpOyBnb3QgIT0gNDIgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3VzdG9tIGRlbGF5IDQyLCBnb3QgJWQiLCBnb3QpCgkJfQoJfSkKCgl0LlJ1bigibm93IG1vZGUgc2tpcHMgaW5oZXJpdGVkIGRlbGF5IiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQl0YXNrIDo9ICZtb2RlbC5UYXNre0NvbW1hbmQ6ICJ0YXNrIGRlbW8ucHkgbm93In0KCQlwbGFuIDo9ICZDb21tYW5kRXhlY3V0aW9uUGxhbntTa2lwUmFuZG9tRGVsYXk6IHRydWV9CgkJaWYgZ290IDo9IHJlc29sdmVUYXNrUmFuZG9tRGVsYXlTZWNvbmRzKHRhc2ssIHBsYW4pOyBnb3QgIT0gMCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBub3cgbW9kZSB0byBza2lwIGRlbGF5LCBnb3QgJWQiLCBnb3QpCgkJfQoJfSkKfQoKZnVuYyBUZXN0U2hvdWxkQXBwbHlSYW5kb21EZWxheUZvclRyaWdnZXIodCAqdGVzdGluZy5UKSB7CgkvLyDpmo/mnLrlu7bov5/lj6rlr7nlrprml7YoY3Jvbinku7vliqHnlJ/mlYjvvJvmiYvliqjjgIHlvIDmnLrnrYnlhbblroPmnaXmupDpg73lupTnq4vljbPmiafooYzjgIHot7Pov4flu7bov5/jgIIKCWNhc2VzIDo9IFtdc3RydWN0IHsKCQl0cmlnZ2VyIHN0cmluZwoJCXdhbnQgICAgYm9vbAoJfXsKCQl7VHJpZ2dlclR5cGVDcm9uLCB0cnVlfSwKCQl7VHJpZ2dlclR5cGVNYW51YWwsIGZhbHNlfSwKCQl7VHJpZ2dlclR5cGVTdGFydHVwLCBmYWxzZX0sCgkJeyIiLCBmYWxzZX0sCgl9Cglmb3IgXywgYyA6PSByYW5nZSBjYXNlcyB7CgkJaWYgZ290IDo9IHNob3VsZEFwcGx5UmFuZG9tRGVsYXlGb3JUcmlnZ2VyKGMudHJpZ2dlcik7IGdvdCAhPSBjLndhbnQgewoJCQl0LkZhdGFsZigidHJpZ2dlciAlcTogZXhwZWN0ZWQgJXYsIGdvdCAldiIsIGMudHJpZ2dlciwgYy53YW50LCBnb3QpCgkJfQoJfQp9Cg==
+package service
+
+import (
+	"testing"
+
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestResolveTaskRandomDelaySeconds(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	model.SetConfig("random_delay", "15")
+	model.SetConfig("random_delay_extensions", ".py,.sh")
+
+	t.Run("inherits global delay when task value is nil and extension matches", func(t *testing.T) {
+		task := &model.Task{Command: "task demo.py"}
+		if got := resolveTaskRandomDelaySeconds(task, nil); got != 15 {
+			t.Fatalf("expected inherited delay 15, got %d", got)
+		}
+	})
+
+	t.Run("skips inherited delay when extension does not match", func(t *testing.T) {
+		task := &model.Task{Command: "task demo.js"}
+		if got := resolveTaskRandomDelaySeconds(task, nil); got != 0 {
+			t.Fatalf("expected inherited delay 0, got %d", got)
+		}
+	})
+
+	t.Run("explicit zero disables random delay", func(t *testing.T) {
+		zero := 0
+		task := &model.Task{Command: "task demo.py", RandomDelaySeconds: &zero}
+		if got := resolveTaskRandomDelaySeconds(task, nil); got != 0 {
+			t.Fatalf("expected explicit disable to return 0, got %d", got)
+		}
+	})
+
+	t.Run("custom task value overrides global delay", func(t *testing.T) {
+		custom := 42
+		task := &model.Task{Command: "echo demo", RandomDelaySeconds: &custom}
+		if got := resolveTaskRandomDelaySeconds(task, nil); got != 42 {
+			t.Fatalf("expected custom delay 42, got %d", got)
+		}
+	})
+
+	t.Run("now mode skips inherited delay", func(t *testing.T) {
+		task := &model.Task{Command: "task demo.py now"}
+		plan := &CommandExecutionPlan{SkipRandomDelay: true}
+		if got := resolveTaskRandomDelaySeconds(task, plan); got != 0 {
+			t.Fatalf("expected now mode to skip delay, got %d", got)
+		}
+	})
+}
+
+func TestShouldApplyRandomDelayForTrigger(t *testing.T) {
+	// 随机延迟只对定时(cron)任务生效；手动、开机等其它来源都应立即执行、跳过延迟。
+	cases := []struct {
+		trigger string
+		want    bool
+	}{
+		{TriggerTypeCron, true},
+		{TriggerTypeManual, false},
+		{TriggerTypeStartup, false},
+		{"", false},
+	}
+	for _, c := range cases {
+		if got := shouldApplyRandomDelayForTrigger(c.trigger); got != c.want {
+			t.Fatalf("trigger %q: expected %v, got %v", c.trigger, c.want, got)
+		}
+	}
+}

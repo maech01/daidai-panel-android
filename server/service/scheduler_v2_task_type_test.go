@@ -1,1 +1,244 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdFNjaGVkdWxlclYyQWRkSm9iUmVnaXN0ZXJzRW5hYmxlZE1hbnVhbFRhc2sodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglzY2hlZHVsZXIgOj0gTmV3U2NoZWR1bGVyVjIoU2NoZWR1bGVyQ29uZmlnewoJCVdvcmtlckNvdW50OiAgMSwKCQlRdWV1ZVNpemU6ICAgIDEwLAoJCVJhdGVJbnRlcnZhbDogdGltZS5Ib3VyLAoJfSwgbmlsKQoKCXRhc2sgOj0gJm1vZGVsLlRhc2t7CgkJTmFtZTogICAgICJtYW51YWwgdGFzayIsCgkJQ29tbWFuZDogICJlY2hvIGhpIiwKCQlUYXNrVHlwZTogbW9kZWwuVGFza1R5cGVNYW51YWwsCgkJU3RhdHVzOiAgIG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkLAoJfQoJaWYgZXJyIDo9IHNjaGVkdWxlci5BZGRKb2IodGFzayk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJhZGQgbWFudWFsIHRhc2sgam9iOiAldiIsIGVycikKCX0KCWlmICFzY2hlZHVsZXIuSGFzSm9iKHRhc2suSUQpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBlbmFibGVkIG1hbnVhbCB0YXNrIHRvIGJlIHJlZ2lzdGVyZWQgZm9yIHN0YXRlIHJlc3RvcmF0aW9uIikKCX0KfQoKZnVuYyBUZXN0U2NoZWR1bGVyVjJFbnF1ZXVlU3RhcnR1cFRhc2tzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJc3RhcnR1cFRhc2sgOj0gJm1vZGVsLlRhc2t7CgkJTmFtZTogICAgICJzdGFydHVwIHRhc2siLAoJCUNvbW1hbmQ6ICAiZWNobyBib290IiwKCQlUYXNrVHlwZTogbW9kZWwuVGFza1R5cGVTdGFydHVwLAoJCVN0YXR1czogICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoc3RhcnR1cFRhc2spLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHN0YXJ0dXAgdGFzazogJXYiLCBlcnIpCgl9CglkaXNhYmxlZFN0YXJ0dXBUYXNrIDo9ICZtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAiZGlzYWJsZWQgc3RhcnR1cCB0YXNrIiwKCQlDb21tYW5kOiAgImVjaG8gbm8iLAoJCVRhc2tUeXBlOiBtb2RlbC5UYXNrVHlwZVN0YXJ0dXAsCgkJU3RhdHVzOiAgIG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZGlzYWJsZWRTdGFydHVwVGFzaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgZGlzYWJsZWQgc3RhcnR1cCB0YXNrOiAldiIsIGVycikKCX0KCglzY2hlZHVsZXIgOj0gTmV3U2NoZWR1bGVyVjIoU2NoZWR1bGVyQ29uZmlnewoJCVdvcmtlckNvdW50OiAgMSwKCQlRdWV1ZVNpemU6ICAgIDEwLAoJCVJhdGVJbnRlcnZhbDogdGltZS5Ib3VyLAoJfSwgbmlsKQoKCWlmIGVyciA6PSBzY2hlZHVsZXIuQWRkSm9iKHN0YXJ0dXBUYXNrKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlZ2lzdGVyIHN0YXJ0dXAgdGFzazogJXYiLCBlcnIpCgl9CgoJY291bnQgOj0gc2NoZWR1bGVyLkVucXVldWVTdGFydHVwVGFza3MoKQoJaWYgY291bnQgIT0gMSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDEgc3RhcnR1cCB0YXNrIHRvIGJlIGVucXVldWVkLCBnb3QgJWQiLCBjb3VudCkKCX0KCWlmIGdvdCA6PSBsZW4oc2NoZWR1bGVyLnRhc2tRdWV1ZSk7IGdvdCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcXVldWUgbGVuZ3RoIDEsIGdvdCAlZCIsIGdvdCkKCX0KCgl2YXIgdXBkYXRlZCBtb2RlbC5UYXNrCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnVwZGF0ZWQsIHN0YXJ0dXBUYXNrLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCBzdGFydHVwIHRhc2s6ICV2IiwgZXJyKQoJfQoJaWYgdXBkYXRlZC5TdGF0dXMgIT0gbW9kZWwuVGFza1N0YXR1c1F1ZXVlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0YXJ0dXAgdGFzayBzdGF0dXMgcXVldWVkLCBnb3QgJXYiLCB1cGRhdGVkLlN0YXR1cykKCX0KfQoKZnVuYyBUZXN0U2NoZWR1bGVyVjJFbnF1ZXVlU3RhcnR1cFRhc2tzT25seU9uY2VQZXJEYXkodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl0b2RheSA6PSB0aW1lLk5vdygpLkZvcm1hdCgiMjAwNi0wMS0wMiIpCglzdGFydHVwVGFzayA6PSAmbW9kZWwuVGFza3sKCQlOYW1lOiAgICAgInN0YXJ0dXAgZGFpbHkgdGFzayIsCgkJQ29tbWFuZDogICJlY2hvIGJvb3Qgb25jZSIsCgkJVGFza1R5cGU6IG1vZGVsLlRhc2tUeXBlU3RhcnR1cCwKCQlTdGF0dXM6ICAgbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKHN0YXJ0dXBUYXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBzdGFydHVwIHRhc2s6ICV2IiwgZXJyKQoJfQoKCXNjaGVkdWxlciA6PSBOZXdTY2hlZHVsZXJWMihTY2hlZHVsZXJDb25maWd7CgkJV29ya2VyQ291bnQ6ICAxLAoJCVF1ZXVlU2l6ZTogICAgMTAsCgkJUmF0ZUludGVydmFsOiB0aW1lLkhvdXIsCgl9LCBuaWwpCgoJaWYgY291bnQgOj0gc2NoZWR1bGVyLkVucXVldWVTdGFydHVwVGFza3MoKTsgY291bnQgIT0gMSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGZpcnN0IHN0YXJ0dXAgZW5xdWV1ZSBjb3VudCAxLCBnb3QgJWQiLCBjb3VudCkKCX0KCgl2YXIgdXBkYXRlZCBtb2RlbC5UYXNrCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnVwZGF0ZWQsIHN0YXJ0dXBUYXNrLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCBzdGFydHVwIHRhc2s6ICV2IiwgZXJyKQoJfQoJaWYgdXBkYXRlZC5MYXN0U3RhcnR1cEF1dG9SdW5EYXRlICE9IHRvZGF5IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RhcnR1cCBhdXRvIHJ1biBkYXRlICVxLCBnb3QgJXEiLCB0b2RheSwgdXBkYXRlZC5MYXN0U3RhcnR1cEF1dG9SdW5EYXRlKQoJfQoKCS8vIOaooeaLn+esrOS4gOasoeW8gOacuui/kOihjOW3sue7j+e7k+adn++8muS7u+WKoeeKtuaAgeS8muWbnuWIsOWQr+eUqO+8jOS9huW9k+WkqeWGjeasoemHjeWQr+mdouadv+S4jeW6lOWGjeiHquWKqOWFpemYn+OAggoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNre30pLldoZXJlKCJpZCA9ID8iLCBzdGFydHVwVGFzay5JRCkuVXBkYXRlKCJzdGF0dXMiLCBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZXNldCBzdGFydHVwIHRhc2sgc3RhdHVzOiAldiIsIGVycikKCX0KCglpZiBjb3VudCA6PSBzY2hlZHVsZXIuRW5xdWV1ZVN0YXJ0dXBUYXNrcygpOyBjb3VudCAhPSAwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc2FtZS1kYXkgc3RhcnR1cCBlbnF1ZXVlIGNvdW50IDAsIGdvdCAlZCIsIGNvdW50KQoJfQoJaWYgZ290IDo9IGxlbihzY2hlZHVsZXIudGFza1F1ZXVlKTsgZ290ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbmx5IHRoZSBmaXJzdCBhdXRvbWF0aWMgcXVldWUgaXRlbSB0byByZW1haW4sIGdvdCBxdWV1ZSBsZW5ndGggJWQiLCBnb3QpCgl9CgoJaWYgZXJyIDo9IHNjaGVkdWxlci5SdW5Ob3coc3RhcnR1cFRhc2suSUQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWFudWFsIHJ1biBzaG91bGQgaWdub3JlIHN0YXJ0dXAgYXV0byBkYXRlOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBzY2hlZHVsZXIuUnVuTm93KHN0YXJ0dXBUYXNrLklEKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNlY29uZCBtYW51YWwgcnVuIHNob3VsZCBpZ25vcmUgc3RhcnR1cCBhdXRvIGRhdGU6ICV2IiwgZXJyKQoJfQoJaWYgZ290IDo9IGxlbihzY2hlZHVsZXIudGFza1F1ZXVlKTsgZ290ICE9IDMgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbmUgYXV0b21hdGljIGl0ZW0gcGx1cyB0d28gbWFudWFsIGl0ZW1zLCBnb3QgcXVldWUgbGVuZ3RoICVkIiwgZ290KQoJfQp9CgpmdW5jIFRlc3RTY2hlZHVsZXJWMkVucXVldWVTdGFydHVwVGFza3NSdW5zQWdhaW5XaGVuU3RvcmVkRGF0ZUlzT2xkKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJeWVzdGVyZGF5IDo9IHRpbWUuTm93KCkuQWRkRGF0ZSgwLCAwLCAtMSkuRm9ybWF0KCIyMDA2LTAxLTAyIikKCXN0YXJ0dXBUYXNrIDo9ICZtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAgICAgICAgICAgICAgICJvbGQgc3RhcnR1cCB0YXNrIiwKCQlDb21tYW5kOiAgICAgICAgICAgICAgICAiZWNobyBib290IGFnYWluIiwKCQlUYXNrVHlwZTogICAgICAgICAgICAgICBtb2RlbC5UYXNrVHlwZVN0YXJ0dXAsCgkJU3RhdHVzOiAgICAgICAgICAgICAgICAgbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQsCgkJTGFzdFN0YXJ0dXBBdXRvUnVuRGF0ZTogeWVzdGVyZGF5LAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShzdGFydHVwVGFzaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgc3RhcnR1cCB0YXNrOiAldiIsIGVycikKCX0KCglzY2hlZHVsZXIgOj0gTmV3U2NoZWR1bGVyVjIoU2NoZWR1bGVyQ29uZmlnewoJCVdvcmtlckNvdW50OiAgMSwKCQlRdWV1ZVNpemU6ICAgIDEwLAoJCVJhdGVJbnRlcnZhbDogdGltZS5Ib3VyLAoJfSwgbmlsKQoKCWlmIGNvdW50IDo9IHNjaGVkdWxlci5FbnF1ZXVlU3RhcnR1cFRhc2tzKCk7IGNvdW50ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbGQtZGF0ZSBzdGFydHVwIHRhc2sgdG8gZW5xdWV1ZSBhZ2FpbiwgZ290ICVkIiwgY291bnQpCgl9Cn0KCmZ1bmMgVGVzdFNjaGVkdWxlclYyUmVqZWN0c0VucXVldWVBZnRlclN0b3AodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglzY2hlZHVsZXIgOj0gTmV3U2NoZWR1bGVyVjIoU2NoZWR1bGVyQ29uZmlnewoJCVdvcmtlckNvdW50OiAgMSwKCQlRdWV1ZVNpemU6ICAgIDEwLAoJCVJhdGVJbnRlcnZhbDogdGltZS5Ib3VyLAoJfSwgbmlsKQoJc2NoZWR1bGVyLlN0YXJ0KCkKCXNjaGVkdWxlci5TdG9wKCkKCgllcnIgOj0gc2NoZWR1bGVyLkVucXVldWUoJkV4ZWN1dGlvblJlcXVlc3R7CgkJVGFza0lEOiAxLAoJCVRhc2s6ICZtb2RlbC5UYXNrewoJCQlJRDogICAgICAxLAoJCQlOYW1lOiAgICAic3RvcHBlZCB0YXNrIiwKCQkJQ29tbWFuZDogImVjaG8gbm8iLAoJCQlTdGF0dXM6ICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCQl9LAoJfSkKCWlmIGVyciA9PSBuaWwgewoJCXQuRmF0YWwoImV4cGVjdGVkIHN0b3BwZWQgc2NoZWR1bGVyIHRvIHJlamVjdCBlbnF1ZXVlIikKCX0KfQoKZnVuYyBUZXN0U2NoZWR1bGVyVjJTdG9wVGFza0J5U2NoZWR1bGVNYXJrc1J1bm5pbmdMb2dBYm9ydGVkKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJLy8g5pys5rWL6K+V5Y+q6aqM6K+B5a6a5pe25YGc5q2i55qE5pWw5o2u5bqT5YWc5bqV5pS25Y+j77yM5LiN6ZyA6KaB55yf5a6e5omn6KGM5Zmo5Y+C5LiO44CCCglvbGRFeGVjdXRvciA6PSBnbG9iYWxFeGVjdXRvcgoJZ2xvYmFsRXhlY3V0b3IgPSBuaWwKCXQuQ2xlYW51cChmdW5jKCkgewoJCWdsb2JhbEV4ZWN1dG9yID0gb2xkRXhlY3V0b3IKCX0pCgoJc2NoZWR1bGVyIDo9IE5ld1NjaGVkdWxlclYyKFNjaGVkdWxlckNvbmZpZ3sKCQlXb3JrZXJDb3VudDogIDEsCgkJUXVldWVTaXplOiAgICAxMCwKCQlSYXRlSW50ZXJ2YWw6IHRpbWUuSG91ciwKCX0sIG5pbCkKCgl0ZXN0cyA6PSBbXXN0cmluZ3si5a6a5pe25YGc5q2i6ZW/6am75Lu75YqhIiwgIuWumuaXtuWBnOatouaZrumAmui/kOihjOS7u+WKoSJ9CgoJZm9yIF8sIG5hbWUgOj0gcmFuZ2UgdGVzdHMgewoJCXQuUnVuKG5hbWUsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJCXRhc2sgOj0gJm1vZGVsLlRhc2t7CgkJCQlOYW1lOiAgICAgbmFtZSwKCQkJCUNvbW1hbmQ6ICAiZWNobyBydW5uaW5nIiwKCQkJCVRhc2tUeXBlOiBtb2RlbC5UYXNrVHlwZUNyb24sCgkJCQlTdGF0dXM6ICAgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcsCgkJCX0KCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigiY3JlYXRlIHRhc2s6ICV2IiwgZXJyKQoJCQl9CgoJCQlydW5uaW5nU3RhdHVzIDo9IG1vZGVsLkxvZ1N0YXR1c1J1bm5pbmcKCQkJbG9nUmVjb3JkIDo9ICZtb2RlbC5UYXNrTG9newoJCQkJVGFza0lEOiAgICB0YXNrLklELAoJCQkJU3RhdHVzOiAgICAmcnVubmluZ1N0YXR1cywKCQkJCVN0YXJ0ZWRBdDogdGltZS5Ob3coKS5BZGQoLXRpbWUuTWludXRlKSwKCQkJfQoJCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGxvZ1JlY29yZCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrIGxvZzogJXYiLCBlcnIpCgkJCX0KCgkJCXNjaGVkdWxlci5zdG9wVGFza0J5U2NoZWR1bGUodGFzay5JRCkKCgkJCXZhciB1cGRhdGVkTG9nIG1vZGVsLlRhc2tMb2cKCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ1cGRhdGVkTG9nLCBsb2dSZWNvcmQuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJyZWxvYWQgdGFzayBsb2c6ICV2IiwgZXJyKQoJCQl9CgkJCWlmIHVwZGF0ZWRMb2cuU3RhdHVzID09IG5pbCB8fCAqdXBkYXRlZExvZy5TdGF0dXMgIT0gbW9kZWwuTG9nU3RhdHVzQWJvcnRlZCB7CgkJCQl0LkZhdGFsZigiZXhwZWN0ZWQgYWJvcnRlZCBsb2cgc3RhdHVzLCBnb3QgJSN2IiwgdXBkYXRlZExvZy5TdGF0dXMpCgkJCX0KCQkJaWYgdXBkYXRlZExvZy5FbmRlZEF0ID09IG5pbCB7CgkJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5kZWRfYXQgYWZ0ZXIgc2NoZWR1bGVkIHN0b3AiKQoJCQl9CgkJfSkKCX0KfQo=
+package service
+
+import (
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestSchedulerV2AddJobRegistersEnabledManualTask(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	scheduler := NewSchedulerV2(SchedulerConfig{
+		WorkerCount:  1,
+		QueueSize:    10,
+		RateInterval: time.Hour,
+	}, nil)
+
+	task := &model.Task{
+		Name:     "manual task",
+		Command:  "echo hi",
+		TaskType: model.TaskTypeManual,
+		Status:   model.TaskStatusEnabled,
+	}
+	if err := scheduler.AddJob(task); err != nil {
+		t.Fatalf("add manual task job: %v", err)
+	}
+	if !scheduler.HasJob(task.ID) {
+		t.Fatal("expected enabled manual task to be registered for state restoration")
+	}
+}
+
+func TestSchedulerV2EnqueueStartupTasks(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	startupTask := &model.Task{
+		Name:     "startup task",
+		Command:  "echo boot",
+		TaskType: model.TaskTypeStartup,
+		Status:   model.TaskStatusEnabled,
+	}
+	if err := database.DB.Create(startupTask).Error; err != nil {
+		t.Fatalf("create startup task: %v", err)
+	}
+	disabledStartupTask := &model.Task{
+		Name:     "disabled startup task",
+		Command:  "echo no",
+		TaskType: model.TaskTypeStartup,
+		Status:   model.TaskStatusDisabled,
+	}
+	if err := database.DB.Create(disabledStartupTask).Error; err != nil {
+		t.Fatalf("create disabled startup task: %v", err)
+	}
+
+	scheduler := NewSchedulerV2(SchedulerConfig{
+		WorkerCount:  1,
+		QueueSize:    10,
+		RateInterval: time.Hour,
+	}, nil)
+
+	if err := scheduler.AddJob(startupTask); err != nil {
+		t.Fatalf("register startup task: %v", err)
+	}
+
+	count := scheduler.EnqueueStartupTasks()
+	if count != 1 {
+		t.Fatalf("expected 1 startup task to be enqueued, got %d", count)
+	}
+	if got := len(scheduler.taskQueue); got != 1 {
+		t.Fatalf("expected queue length 1, got %d", got)
+	}
+
+	var updated model.Task
+	if err := database.DB.First(&updated, startupTask.ID).Error; err != nil {
+		t.Fatalf("reload startup task: %v", err)
+	}
+	if updated.Status != model.TaskStatusQueued {
+		t.Fatalf("expected startup task status queued, got %v", updated.Status)
+	}
+}
+
+func TestSchedulerV2EnqueueStartupTasksOnlyOncePerDay(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	today := time.Now().Format("2006-01-02")
+	startupTask := &model.Task{
+		Name:     "startup daily task",
+		Command:  "echo boot once",
+		TaskType: model.TaskTypeStartup,
+		Status:   model.TaskStatusEnabled,
+	}
+	if err := database.DB.Create(startupTask).Error; err != nil {
+		t.Fatalf("create startup task: %v", err)
+	}
+
+	scheduler := NewSchedulerV2(SchedulerConfig{
+		WorkerCount:  1,
+		QueueSize:    10,
+		RateInterval: time.Hour,
+	}, nil)
+
+	if count := scheduler.EnqueueStartupTasks(); count != 1 {
+		t.Fatalf("expected first startup enqueue count 1, got %d", count)
+	}
+
+	var updated model.Task
+	if err := database.DB.First(&updated, startupTask.ID).Error; err != nil {
+		t.Fatalf("reload startup task: %v", err)
+	}
+	if updated.LastStartupAutoRunDate != today {
+		t.Fatalf("expected startup auto run date %q, got %q", today, updated.LastStartupAutoRunDate)
+	}
+
+	// 模拟第一次开机运行已经结束：任务状态会回到启用，但当天再次重启面板不应再自动入队。
+	if err := database.DB.Model(&model.Task{}).Where("id = ?", startupTask.ID).Update("status", model.TaskStatusEnabled).Error; err != nil {
+		t.Fatalf("reset startup task status: %v", err)
+	}
+
+	if count := scheduler.EnqueueStartupTasks(); count != 0 {
+		t.Fatalf("expected same-day startup enqueue count 0, got %d", count)
+	}
+	if got := len(scheduler.taskQueue); got != 1 {
+		t.Fatalf("expected only the first automatic queue item to remain, got queue length %d", got)
+	}
+
+	if err := scheduler.RunNow(startupTask.ID); err != nil {
+		t.Fatalf("manual run should ignore startup auto date: %v", err)
+	}
+	if err := scheduler.RunNow(startupTask.ID); err != nil {
+		t.Fatalf("second manual run should ignore startup auto date: %v", err)
+	}
+	if got := len(scheduler.taskQueue); got != 3 {
+		t.Fatalf("expected one automatic item plus two manual items, got queue length %d", got)
+	}
+}
+
+func TestSchedulerV2EnqueueStartupTasksRunsAgainWhenStoredDateIsOld(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	yesterday := time.Now().AddDate(0, 0, -1).Format("2006-01-02")
+	startupTask := &model.Task{
+		Name:                   "old startup task",
+		Command:                "echo boot again",
+		TaskType:               model.TaskTypeStartup,
+		Status:                 model.TaskStatusEnabled,
+		LastStartupAutoRunDate: yesterday,
+	}
+	if err := database.DB.Create(startupTask).Error; err != nil {
+		t.Fatalf("create startup task: %v", err)
+	}
+
+	scheduler := NewSchedulerV2(SchedulerConfig{
+		WorkerCount:  1,
+		QueueSize:    10,
+		RateInterval: time.Hour,
+	}, nil)
+
+	if count := scheduler.EnqueueStartupTasks(); count != 1 {
+		t.Fatalf("expected old-date startup task to enqueue again, got %d", count)
+	}
+}
+
+func TestSchedulerV2RejectsEnqueueAfterStop(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	scheduler := NewSchedulerV2(SchedulerConfig{
+		WorkerCount:  1,
+		QueueSize:    10,
+		RateInterval: time.Hour,
+	}, nil)
+	scheduler.Start()
+	scheduler.Stop()
+
+	err := scheduler.Enqueue(&ExecutionRequest{
+		TaskID: 1,
+		Task: &model.Task{
+			ID:      1,
+			Name:    "stopped task",
+			Command: "echo no",
+			Status:  model.TaskStatusEnabled,
+		},
+	})
+	if err == nil {
+		t.Fatal("expected stopped scheduler to reject enqueue")
+	}
+}
+
+func TestSchedulerV2StopTaskByScheduleMarksRunningLogAborted(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	// 本测试只验证定时停止的数据库兜底收口，不需要真实执行器参与。
+	oldExecutor := globalExecutor
+	globalExecutor = nil
+	t.Cleanup(func() {
+		globalExecutor = oldExecutor
+	})
+
+	scheduler := NewSchedulerV2(SchedulerConfig{
+		WorkerCount:  1,
+		QueueSize:    10,
+		RateInterval: time.Hour,
+	}, nil)
+
+	tests := []string{"定时停止长驻任务", "定时停止普通运行任务"}
+
+	for _, name := range tests {
+		t.Run(name, func(t *testing.T) {
+			task := &model.Task{
+				Name:     name,
+				Command:  "echo running",
+				TaskType: model.TaskTypeCron,
+				Status:   model.TaskStatusRunning,
+			}
+			if err := database.DB.Create(task).Error; err != nil {
+				t.Fatalf("create task: %v", err)
+			}
+
+			runningStatus := model.LogStatusRunning
+			logRecord := &model.TaskLog{
+				TaskID:    task.ID,
+				Status:    &runningStatus,
+				StartedAt: time.Now().Add(-time.Minute),
+			}
+			if err := database.DB.Create(logRecord).Error; err != nil {
+				t.Fatalf("create task log: %v", err)
+			}
+
+			scheduler.stopTaskBySchedule(task.ID)
+
+			var updatedLog model.TaskLog
+			if err := database.DB.First(&updatedLog, logRecord.ID).Error; err != nil {
+				t.Fatalf("reload task log: %v", err)
+			}
+			if updatedLog.Status == nil || *updatedLog.Status != model.LogStatusAborted {
+				t.Fatalf("expected aborted log status, got %#v", updatedLog.Status)
+			}
+			if updatedLog.EndedAt == nil {
+				t.Fatalf("expected ended_at after scheduled stop")
+			}
+		})
+	}
+}

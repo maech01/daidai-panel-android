@@ -1,1 +1,33 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKCmNvbnN0IHNvdXJjZURpciA9IHBhdGgucmVzb2x2ZShwcm9jZXNzLmN3ZCgpLCAnbm9kZV9tb2R1bGVzL21vbmFjby1lZGl0b3IvbWluJykKY29uc3QgdGFyZ2V0RGlyID0gcGF0aC5yZXNvbHZlKHByb2Nlc3MuY3dkKCksICdkaXN0L21vbmFjbycpCmNvbnN0IG1vbmFjb1ZzRGlyID0gcGF0aC5qb2luKHNvdXJjZURpciwgJ3ZzJykKY29uc3QgbW9uYWNvVGFyZ2V0VnNEaXIgPSBwYXRoLmpvaW4odGFyZ2V0RGlyLCAndnMnKQoKZnVuY3Rpb24gY29weURpcmVjdG9yeShzb3VyY2UsIHRhcmdldCkgewogIGZzLm1rZGlyU3luYyh0YXJnZXQsIHsgcmVjdXJzaXZlOiB0cnVlIH0pCgogIGZvciAoY29uc3QgZW50cnkgb2YgZnMucmVhZGRpclN5bmMoc291cmNlLCB7IHdpdGhGaWxlVHlwZXM6IHRydWUgfSkpIHsKICAgIGNvbnN0IHNvdXJjZVBhdGggPSBwYXRoLmpvaW4oc291cmNlLCBlbnRyeS5uYW1lKQogICAgY29uc3QgdGFyZ2V0UGF0aCA9IHBhdGguam9pbih0YXJnZXQsIGVudHJ5Lm5hbWUpCgogICAgaWYgKGVudHJ5LmlzRGlyZWN0b3J5KCkpIHsKICAgICAgY29weURpcmVjdG9yeShzb3VyY2VQYXRoLCB0YXJnZXRQYXRoKQogICAgICBjb250aW51ZQogICAgfQoKICAgIGZzLmNvcHlGaWxlU3luYyhzb3VyY2VQYXRoLCB0YXJnZXRQYXRoKQogIH0KfQoKY29weURpcmVjdG9yeShzb3VyY2VEaXIsIHRhcmdldERpcikKLy8g6L+Z6YeM5LiN5YaN55So5bimIGhhc2gg55qE5paH5Lu25ZCN55m95ZCN5Y2V5Y676KOBIE1vbmFjbyDotYTmupDjgIIKLy8g5Y6f5Zug77yaTW9uYWNvIOavj+asoeWNh+e6p+aIluWGhemDqOaehOW7uuiwg+aVtOWQju+8jGhhc2gg5paH5Lu25ZCN6YO95Lya5Y+Y5YyW77yMCi8vIOeZveWQjeWNleW+iOWuueaYk+aKiiBlZGl0b3IgLyBhc3NldHMgLyBiYXNpYy1sYW5ndWFnZXMgLyB3b3JrZXIg562J6L+Q6KGM5pe25b+F6ZyA5paH5Lu26K+v5Yig77yMCi8vIOacgOe7iOihqOeOsOS4uuKAnOaehOW7uuaIkOWKn++8jOS9hua1j+iniOWZqOmHjOe8lui+keWZqOWKoOi9veWksei0peKAneOAggovLwovLyDlvZPliY3nrZbnlaXmlLnmiJDnm7TmjqXkv53nlZnlrozmlbTnmoQgbWluIOebruW9le+8jOS8mOWFiOS/neivgei/kOihjOaXtueos+WumuOAggovLyDmnKrmnaXlpoLmnpzov5jopoHnu6fnu63nmKbouqvvvIzlv4Xpobvln7rkuo7nm67lvZXnuqfkvp3otZblhbPns7vlgZrpqozor4HlkI7lho3oo4HvvIzkuI3og73nu6fnu63mjIkgaGFzaCDnmb3lkI3ljZXotYzmlofku7blkI3jgIIKY29uc29sZS5sb2coJ1tjb3B5LW1vbmFjby1hc3NldHNdIGNvcGllZCBtb25hY28tZWRpdG9yL21pbiAtPiBkaXN0L21vbmFjbycpCg==
+import fs from 'node:fs'
+import path from 'node:path'
+
+const sourceDir = path.resolve(process.cwd(), 'node_modules/monaco-editor/min')
+const targetDir = path.resolve(process.cwd(), 'dist/monaco')
+const monacoVsDir = path.join(sourceDir, 'vs')
+const monacoTargetVsDir = path.join(targetDir, 'vs')
+
+function copyDirectory(source, target) {
+  fs.mkdirSync(target, { recursive: true })
+
+  for (const entry of fs.readdirSync(source, { withFileTypes: true })) {
+    const sourcePath = path.join(source, entry.name)
+    const targetPath = path.join(target, entry.name)
+
+    if (entry.isDirectory()) {
+      copyDirectory(sourcePath, targetPath)
+      continue
+    }
+
+    fs.copyFileSync(sourcePath, targetPath)
+  }
+}
+
+copyDirectory(sourceDir, targetDir)
+// 这里不再用带 hash 的文件名白名单去裁 Monaco 资源。
+// 原因：Monaco 每次升级或内部构建调整后，hash 文件名都会变化，
+// 白名单很容易把 editor / assets / basic-languages / worker 等运行时必需文件误删，
+// 最终表现为“构建成功，但浏览器里编辑器加载失败”。
+//
+// 当前策略改成直接保留完整的 min 目录，优先保证运行时稳定。
+// 未来如果还要继续瘦身，必须基于目录级依赖关系做验证后再裁，不能继续按 hash 白名单赌文件名。
+console.log('[copy-monaco-assets] copied monaco-editor/min -> dist/monaco')

@@ -1,1 +1,180 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgKAoJImJ1ZmlvIgoJImZtdCIKCSJpbyIKCSJsb2ciCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkic3lzY2FsbCIKCgkiZGFpZGFpLXBhbmVsL2FwcGJvb3QiCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKKQoKdHlwZSBjbGlSdW50aW1lIHN0cnVjdCB7CgljZmcgICAgICAqY29uZmlnLkNvbmZpZwoJd2FybmluZ3MgW11zdHJpbmcKfQoKZnVuYyAocnQgKmNsaVJ1bnRpbWUpIGJvb3RzdHJhcCgpIGVycm9yIHsKCWlmIHJ0LmNmZyAhPSBuaWwgewoJCXJldHVybiBuaWwKCX0KCglvbGRXcml0ZXIgOj0gbG9nLldyaXRlcigpCglsb2cuU2V0T3V0cHV0KGlvLkRpc2NhcmQpCglkZWZlciBsb2cuU2V0T3V0cHV0KG9sZFdyaXRlcikKCgljZmcsIGVyciA6PSBhcHBib290LkxvYWRBbmRJbml0KGFwcGJvb3QuUmVzb2x2ZUNvbmZpZ1BhdGgoKSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglpZiBlcnIgOj0gc2VydmljZS5FbnN1cmVCdWlsdGluTm90aWZ5SGVscGVycyhjZmcuRGF0YS5TY3JpcHRzRGlyKTsgZXJyICE9IG5pbCB7CgkJcnQud2FybmluZ3MgPSBhcHBlbmQocnQud2FybmluZ3MsICLlhoXnva7pgJrnn6XovoXliqnohJrmnKzlh4blpIflpLHotKU6ICIrZXJyLkVycm9yKCkpCgl9CglpZiBlcnIgOj0gc2VydmljZS5DbGVhbnVwTWFuYWdlZEhlbHBlckNvcGllc1VuZGVyUm9vdChjZmcuRGF0YS5TY3JpcHRzRGlyKTsgZXJyICE9IG5pbCB7CgkJcnQud2FybmluZ3MgPSBhcHBlbmQocnQud2FybmluZ3MsICLlhoXnva7pgJrnn6XovoXliqnohJrmnKzmuIXnkIblpLHotKU6ICIrZXJyLkVycm9yKCkpCgl9CgoJcnQuY2ZnID0gY2ZnCglyZXR1cm4gbmlsCn0KCmZ1bmMgKHJ0ICpjbGlSdW50aW1lKSBkYXRhRGlyKCkgc3RyaW5nIHsKCWlmIHJ0LmNmZyAhPSBuaWwgJiYgc3RyaW5ncy5UcmltU3BhY2UocnQuY2ZnLkRhdGEuRGlyKSAhPSAiIiB7CgkJcmV0dXJuIHJ0LmNmZy5EYXRhLkRpcgoJfQoJaWYgdmFsdWUgOj0gc3RyaW5ncy5UcmltU3BhY2Uob3MuR2V0ZW52KCJEQVRBX0RJUiIpKTsgdmFsdWUgIT0gIiIgewoJCXJldHVybiB2YWx1ZQoJfQoJcmV0dXJuICIvYXBwL0R1bWItUGFuZWwiCn0KCmZ1bmMgKHJ0ICpjbGlSdW50aW1lKSBwYW5lbExvZ1BhdGgoKSBzdHJpbmcgewoJcmV0dXJuIGZpbGVwYXRoLkpvaW4ocnQuZGF0YURpcigpLCAicGFuZWwubG9nIikKfQoKZnVuYyAocnQgKmNsaVJ1bnRpbWUpIHNlcnZlclBJREZpbGUoKSBzdHJpbmcgewoJcmV0dXJuIGZpbGVwYXRoLkpvaW4ocnQuZGF0YURpcigpLCAicnVuIiwgImRhaWRhaS1zZXJ2ZXIucGlkIikKfQoKZnVuYyAocnQgKmNsaVJ1bnRpbWUpIGJhY2tlbmRQb3J0KCkgaW50IHsKCWlmIHJ0LmNmZyAhPSBuaWwgJiYgcnQuY2ZnLlNlcnZlci5Qb3J0ID4gMCB7CgkJcmV0dXJuIHJ0LmNmZy5TZXJ2ZXIuUG9ydAoJfQoJaWYgdmFsdWUgOj0gc3RyaW5ncy5UcmltU3BhY2Uob3MuR2V0ZW52KCJTRVJWRVJfUE9SVCIpKTsgdmFsdWUgIT0gIiIgewoJCWlmIHBvcnQsIGVyciA6PSBzdHJjb252LkF0b2kodmFsdWUpOyBlcnIgPT0gbmlsICYmIHBvcnQgPiAwIHsKCQkJcmV0dXJuIHBvcnQKCQl9Cgl9CglyZXR1cm4gNTcwMQp9CgpmdW5jIChydCAqY2xpUnVudGltZSkgcGFuZWxQb3J0KCkgaW50IHsKCWlmIHZhbHVlIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG9zLkdldGVudigiUEFORUxfUE9SVCIpKTsgdmFsdWUgIT0gIiIgewoJCWlmIHBvcnQsIGVyciA6PSBzdHJjb252LkF0b2kodmFsdWUpOyBlcnIgPT0gbmlsICYmIHBvcnQgPiAwIHsKCQkJcmV0dXJuIHBvcnQKCQl9Cgl9CglyZXR1cm4gNTcwMAp9CgpmdW5jIChydCAqY2xpUnVudGltZSkgcHJpbnRXYXJuaW5ncygpIHsKCWZvciBfLCB3YXJuaW5nIDo9IHJhbmdlIHJ0Lndhcm5pbmdzIHsKCQlmbXQuRnByaW50Zihvcy5TdGRlcnIsICJbd2FybmluZ10gJXNcbiIsIHdhcm5pbmcpCgl9Cn0KCmZ1bmMgcmVhZExpbmVzRnJvbUZpbGUocGF0aCBzdHJpbmcsIGxpbmVzIGludCwga2V5d29yZCBzdHJpbmcpIChbXXN0cmluZywgZXJyb3IpIHsKCWZpbGUsIGVyciA6PSBvcy5PcGVuKHBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCWRlZmVyIGZpbGUuQ2xvc2UoKQoKCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsaW5lcykKCXNjYW5uZXIgOj0gYnVmaW8uTmV3U2Nhbm5lcihmaWxlKQoJbWF4Q2FwYWNpdHkgOj0gMTAyNCAqIDEwMjQKCXNjYW5uZXIuQnVmZmVyKG1ha2UoW11ieXRlLCAwLCA2NCoxMDI0KSwgbWF4Q2FwYWNpdHkpCglmb3Igc2Nhbm5lci5TY2FuKCkgewoJCWxpbmUgOj0gc2Nhbm5lci5UZXh0KCkKCQlpZiBrZXl3b3JkICE9ICIiICYmICFzdHJpbmdzLkNvbnRhaW5zKGxpbmUsIGtleXdvcmQpIHsKCQkJY29udGludWUKCQl9CgkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgbGluZSkKCX0KCWlmIGVyciA6PSBzY2FubmVyLkVycigpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCglpZiBsaW5lcyA+IDAgJiYgbGVuKHJlc3VsdCkgPiBsaW5lcyB7CgkJcmVzdWx0ID0gcmVzdWx0W2xlbihyZXN1bHQpLWxpbmVzOl0KCX0KCglyZXR1cm4gcmVzdWx0LCBuaWwKfQoKZnVuYyByZWFkU2VydmVyUElEKHBhdGggc3RyaW5nKSAoaW50LCBlcnJvcikgewoJZGF0YSwgZXJyIDo9IG9zLlJlYWRGaWxlKHBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gMCwgZXJyCgl9CgoJcGlkLCBlcnIgOj0gc3RyY29udi5BdG9pKHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhkYXRhKSkpCglpZiBlcnIgIT0gbmlsIHx8IHBpZCA8PSAwIHsKCQlyZXR1cm4gMCwgZm10LkVycm9yZigiUElEIOaWh+S7tuWGheWuueaXoOaViCIpCgl9CglyZXR1cm4gcGlkLCBuaWwKfQoKZnVuYyBpc1Byb2Nlc3NSdW5uaW5nKHBpZCBpbnQpIGJvb2wgewoJaWYgcGlkIDw9IDAgewoJCXJldHVybiBmYWxzZQoJfQoKCXByb2Nlc3MsIGVyciA6PSBvcy5GaW5kUHJvY2VzcyhwaWQpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglyZXR1cm4gcHJvY2Vzcy5TaWduYWwoc3lzY2FsbC5TaWduYWwoMCkpID09IG5pbAp9CgpmdW5jIGZvcm1hdEJ5dGVzKHNpemUgaW50NjQpIHN0cmluZyB7CglpZiBzaXplIDwgMTAyNCB7CgkJcmV0dXJuIGZtdC5TcHJpbnRmKCIlZCBCIiwgc2l6ZSkKCX0KCgl1bml0cyA6PSBbXXN0cmluZ3siS0IiLCAiTUIiLCAiR0IiLCAiVEIifQoJdmFsdWUgOj0gZmxvYXQ2NChzaXplKQoJZm9yIF8sIHVuaXQgOj0gcmFuZ2UgdW5pdHMgewoJCXZhbHVlIC89IDEwMjQKCQlpZiB2YWx1ZSA8IDEwMjQgfHwgdW5pdCA9PSB1bml0c1tsZW4odW5pdHMpLTFdIHsKCQkJcmV0dXJuIGZtdC5TcHJpbnRmKCIlLjFmICVzIiwgdmFsdWUsIHVuaXQpCgkJfQoJfQoKCXJldHVybiBmbXQuU3ByaW50ZigiJWQgQiIsIHNpemUpCn0KCmZ1bmMgdHJ1bmNhdGVUZXh0KHRleHQgc3RyaW5nLCBsaW1pdCBpbnQpIHN0cmluZyB7Cgl0ZXh0ID0gc3RyaW5ncy5UcmltU3BhY2UodGV4dCkKCWlmIHRleHQgPT0gIiIgewoJCXJldHVybiAiIgoJfQoKCXJ1bmVzIDo9IFtdcnVuZSh0ZXh0KQoJaWYgbGVuKHJ1bmVzKSA8PSBsaW1pdCB7CgkJcmV0dXJuIHRleHQKCX0KCWlmIGxpbWl0IDw9IDEgewoJCXJldHVybiBzdHJpbmcocnVuZXNbOmxpbWl0XSkKCX0KCXJldHVybiBzdHJpbmcocnVuZXNbOmxpbWl0LTFdKSArICLigKYiCn0K
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"log"
+	"os"
+	"path/filepath"
+	"strconv"
+	"strings"
+	"syscall"
+
+	"daidai-panel/appboot"
+	"daidai-panel/config"
+	"daidai-panel/service"
+)
+
+type cliRuntime struct {
+	cfg      *config.Config
+	warnings []string
+}
+
+func (rt *cliRuntime) bootstrap() error {
+	if rt.cfg != nil {
+		return nil
+	}
+
+	oldWriter := log.Writer()
+	log.SetOutput(io.Discard)
+	defer log.SetOutput(oldWriter)
+
+	cfg, err := appboot.LoadAndInit(appboot.ResolveConfigPath())
+	if err != nil {
+		return err
+	}
+
+	if err := service.EnsureBuiltinNotifyHelpers(cfg.Data.ScriptsDir); err != nil {
+		rt.warnings = append(rt.warnings, "内置通知辅助脚本准备失败: "+err.Error())
+	}
+	if err := service.CleanupManagedHelperCopiesUnderRoot(cfg.Data.ScriptsDir); err != nil {
+		rt.warnings = append(rt.warnings, "内置通知辅助脚本清理失败: "+err.Error())
+	}
+
+	rt.cfg = cfg
+	return nil
+}
+
+func (rt *cliRuntime) dataDir() string {
+	if rt.cfg != nil && strings.TrimSpace(rt.cfg.Data.Dir) != "" {
+		return rt.cfg.Data.Dir
+	}
+	if value := strings.TrimSpace(os.Getenv("DATA_DIR")); value != "" {
+		return value
+	}
+	return "/app/Dumb-Panel"
+}
+
+func (rt *cliRuntime) panelLogPath() string {
+	return filepath.Join(rt.dataDir(), "panel.log")
+}
+
+func (rt *cliRuntime) serverPIDFile() string {
+	return filepath.Join(rt.dataDir(), "run", "daidai-server.pid")
+}
+
+func (rt *cliRuntime) backendPort() int {
+	if rt.cfg != nil && rt.cfg.Server.Port > 0 {
+		return rt.cfg.Server.Port
+	}
+	if value := strings.TrimSpace(os.Getenv("SERVER_PORT")); value != "" {
+		if port, err := strconv.Atoi(value); err == nil && port > 0 {
+			return port
+		}
+	}
+	return 5701
+}
+
+func (rt *cliRuntime) panelPort() int {
+	if value := strings.TrimSpace(os.Getenv("PANEL_PORT")); value != "" {
+		if port, err := strconv.Atoi(value); err == nil && port > 0 {
+			return port
+		}
+	}
+	return 5700
+}
+
+func (rt *cliRuntime) printWarnings() {
+	for _, warning := range rt.warnings {
+		fmt.Fprintf(os.Stderr, "[warning] %s\n", warning)
+	}
+}
+
+func readLinesFromFile(path string, lines int, keyword string) ([]string, error) {
+	file, err := os.Open(path)
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	result := make([]string, 0, lines)
+	scanner := bufio.NewScanner(file)
+	maxCapacity := 1024 * 1024
+	scanner.Buffer(make([]byte, 0, 64*1024), maxCapacity)
+	for scanner.Scan() {
+		line := scanner.Text()
+		if keyword != "" && !strings.Contains(line, keyword) {
+			continue
+		}
+		result = append(result, line)
+	}
+	if err := scanner.Err(); err != nil {
+		return nil, err
+	}
+
+	if lines > 0 && len(result) > lines {
+		result = result[len(result)-lines:]
+	}
+
+	return result, nil
+}
+
+func readServerPID(path string) (int, error) {
+	data, err := os.ReadFile(path)
+	if err != nil {
+		return 0, err
+	}
+
+	pid, err := strconv.Atoi(strings.TrimSpace(string(data)))
+	if err != nil || pid <= 0 {
+		return 0, fmt.Errorf("PID 文件内容无效")
+	}
+	return pid, nil
+}
+
+func isProcessRunning(pid int) bool {
+	if pid <= 0 {
+		return false
+	}
+
+	process, err := os.FindProcess(pid)
+	if err != nil {
+		return false
+	}
+
+	return process.Signal(syscall.Signal(0)) == nil
+}
+
+func formatBytes(size int64) string {
+	if size < 1024 {
+		return fmt.Sprintf("%d B", size)
+	}
+
+	units := []string{"KB", "MB", "GB", "TB"}
+	value := float64(size)
+	for _, unit := range units {
+		value /= 1024
+		if value < 1024 || unit == units[len(units)-1] {
+			return fmt.Sprintf("%.1f %s", value, unit)
+		}
+	}
+
+	return fmt.Sprintf("%d B", size)
+}
+
+func truncateText(text string, limit int) string {
+	text = strings.TrimSpace(text)
+	if text == "" {
+		return ""
+	}
+
+	runes := []rune(text)
+	if len(runes) <= limit {
+		return text
+	}
+	if limit <= 1 {
+		return string(runes[:limit])
+	}
+	return string(runes[:limit-1]) + "…"
+}

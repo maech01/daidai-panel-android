@@ -1,1 +1,118 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2ggfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZVJlc3BvbnNpdmUgfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZVJlc3BvbnNpdmUnCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBtb2RlbFZhbHVlOiBib29sZWFuCiAgZ3JvdXBzOiBzdHJpbmdbXQp9PigpCgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICd1cGRhdGU6bW9kZWxWYWx1ZSc6IFt2YWx1ZTogYm9vbGVhbl0KICBjb25maXJtOiBbZ3JvdXBzOiBzdHJpbmdbXV0KfT4oKQoKY29uc3QgYmF0Y2hHcm91cHMgPSByZWY8c3RyaW5nW10+KFtdKQpjb25zdCB7IGRpYWxvZ0Z1bGxzY3JlZW4gfSA9IHVzZVJlc3BvbnNpdmUoKQoKZnVuY3Rpb24gc3BsaXRFbnZHcm91cHModmFsdWU6IHN0cmluZyk6IHN0cmluZ1tdIHsKICByZXR1cm4gdmFsdWUKICAgIC5zcGxpdCgvWyzvvIw777ybXG5cclx0XS8pCiAgICAubWFwKGdyb3VwID0+IGdyb3VwLnRyaW0oKSkKICAgIC5maWx0ZXIoKGdyb3VwLCBpbmRleCwgbGlzdCkgPT4gZ3JvdXAgIT09ICcnICYmIGxpc3QuaW5kZXhPZihncm91cCkgPT09IGluZGV4KQp9CgpmdW5jdGlvbiBub3JtYWxpemVHcm91cExpc3QoZ3JvdXBzOiBzdHJpbmdbXSk6IHN0cmluZ1tdIHsKICByZXR1cm4gc3BsaXRFbnZHcm91cHMoZ3JvdXBzLmpvaW4oJywnKSkKfQoKZnVuY3Rpb24gY2xvc2VEaWFsb2coKSB7CiAgZW1pdCgndXBkYXRlOm1vZGVsVmFsdWUnLCBmYWxzZSkKfQoKZnVuY3Rpb24gYXBwbHlCYXRjaEdyb3VwTmFtZShncm91cDogc3RyaW5nKSB7CiAgY29uc3QgbmV4dCA9IG5ldyBTZXQoYmF0Y2hHcm91cHMudmFsdWUpCiAgaWYgKG5leHQuaGFzKGdyb3VwKSkgewogICAgbmV4dC5kZWxldGUoZ3JvdXApCiAgfSBlbHNlIHsKICAgIG5leHQuYWRkKGdyb3VwKQogIH0KICBiYXRjaEdyb3Vwcy52YWx1ZSA9IFsuLi5uZXh0XQp9CgpmdW5jdGlvbiBoYW5kbGVDb25maXJtKCkgewogIGVtaXQoJ2NvbmZpcm0nLCBub3JtYWxpemVHcm91cExpc3QoYmF0Y2hHcm91cHMudmFsdWUpKQp9Cgp3YXRjaCgKICAoKSA9PiBwcm9wcy5tb2RlbFZhbHVlLAogICh2aXNpYmxlKSA9PiB7CiAgICBpZiAoIXZpc2libGUpIHsKICAgICAgYmF0Y2hHcm91cHMudmFsdWUgPSBbXQogICAgfQogIH0KKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZWwtZGlhbG9nCiAgICA6bW9kZWwtdmFsdWU9Im1vZGVsVmFsdWUiCiAgICB0aXRsZT0i5om56YeP6K6+572u5YiG57uEIgogICAgd2lkdGg9IjQwMHB4IgogICAgOmZ1bGxzY3JlZW49ImRpYWxvZ0Z1bGxzY3JlZW4iCiAgICBkZXN0cm95LW9uLWNsb3NlCiAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsICRldmVudCkiCiAgPgogICAgPGVsLWZvcm0gOmxhYmVsLXdpZHRoPSJkaWFsb2dGdWxsc2NyZWVuID8gJ2F1dG8nIDogJzgwcHgnIiA6bGFiZWwtcG9zaXRpb249ImRpYWxvZ0Z1bGxzY3JlZW4gPyAndG9wJyA6ICdyaWdodCciPgogICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLliIbnu4TlkI3np7AiPgogICAgICAgIDxlbC1zZWxlY3QKICAgICAgICAgIHYtbW9kZWw9ImJhdGNoR3JvdXBzIgogICAgICAgICAgbXVsdGlwbGUKICAgICAgICAgIGZpbHRlcmFibGUKICAgICAgICAgIGFsbG93LWNyZWF0ZQogICAgICAgICAgZGVmYXVsdC1maXJzdC1vcHRpb24KICAgICAgICAgIGNvbGxhcHNlLXRhZ3MKICAgICAgICAgIGNvbGxhcHNlLXRhZ3MtdG9vbHRpcAogICAgICAgICAgY2xlYXJhYmxlCiAgICAgICAgICBwbGFjZWhvbGRlcj0i6YCJ5oup5aSa5Liq5YiG57uE77yM5oiW55u05o6l6L6T5YWl5paw5YiG57uEIgogICAgICAgICAgc3R5bGU9IndpZHRoOiAxMDAlIgogICAgICAgID4KICAgICAgICAgIDxlbC1vcHRpb24gdi1mb3I9Imdyb3VwIGluIGdyb3VwcyIgOmtleT0iZ3JvdXAiIDpsYWJlbD0iZ3JvdXAiIDp2YWx1ZT0iZ3JvdXAiIC8+CiAgICAgICAgPC9lbC1zZWxlY3Q+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8ZWwtZm9ybS1pdGVtIHYtaWY9Imdyb3Vwcy5sZW5ndGggPiAwIiBsYWJlbD0i5bey5pyJ5YiG57uEIj4KICAgICAgICA8ZGl2IGNsYXNzPSJiYXRjaC1ncm91cC1vcHRpb25zIj4KICAgICAgICAgIDxlbC10YWcKICAgICAgICAgICAgdi1mb3I9Imdyb3VwIGluIGdyb3VwcyIKICAgICAgICAgICAgOmtleT0iZ3JvdXAiCiAgICAgICAgICAgIGNsYXNzPSJiYXRjaC1ncm91cC10YWciCiAgICAgICAgICAgIDp0eXBlPSJiYXRjaEdyb3Vwcy5pbmNsdWRlcyhncm91cCkgPyAncHJpbWFyeScgOiAnaW5mbyciCiAgICAgICAgICAgIGVmZmVjdD0icGxhaW4iCiAgICAgICAgICAgIEBjbGljaz0iYXBwbHlCYXRjaEdyb3VwTmFtZShncm91cCkiCiAgICAgICAgICA+CiAgICAgICAgICAgIHt7IGdyb3VwIH19CiAgICAgICAgICA8L2VsLXRhZz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1hbGVydCB0eXBlPSJpbmZvIiA6Y2xvc2FibGU9ImZhbHNlIiBzaG93LWljb24+CiAgICAgICAg56Gu6K6k5ZCO5Lya6KaG55uW6YCJ5Lit5Y+Y6YeP55qE5b2T5YmN5YiG57uE77yb55WZ56m65bCG5riF6Zmk5YiG57uECiAgICAgIDwvZWwtYWxlcnQ+CiAgICA8L2VsLWZvcm0+CiAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgPGVsLWJ1dHRvbiBAY2xpY2s9ImNsb3NlRGlhbG9nIj7lj5bmtog8L2VsLWJ1dHRvbj4KICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJwcmltYXJ5IiBAY2xpY2s9ImhhbmRsZUNvbmZpcm0iPuehruWumjwvZWwtYnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICA8L2VsLWRpYWxvZz4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+Ci5iYXRjaC1ncm91cC1vcHRpb25zIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtd3JhcDogd3JhcDsKICBnYXA6IDhweDsKfQoKLmJhdGNoLWdyb3VwLXRhZyB7CiAgY3Vyc29yOiBwb2ludGVyOwp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { ref, watch } from 'vue'
+import { useResponsive } from '@/composables/useResponsive'
+
+const props = defineProps<{
+  modelValue: boolean
+  groups: string[]
+}>()
+
+const emit = defineEmits<{
+  'update:modelValue': [value: boolean]
+  confirm: [groups: string[]]
+}>()
+
+const batchGroups = ref<string[]>([])
+const { dialogFullscreen } = useResponsive()
+
+function splitEnvGroups(value: string): string[] {
+  return value
+    .split(/[,，;；\n\r\t]/)
+    .map(group => group.trim())
+    .filter((group, index, list) => group !== '' && list.indexOf(group) === index)
+}
+
+function normalizeGroupList(groups: string[]): string[] {
+  return splitEnvGroups(groups.join(','))
+}
+
+function closeDialog() {
+  emit('update:modelValue', false)
+}
+
+function applyBatchGroupName(group: string) {
+  const next = new Set(batchGroups.value)
+  if (next.has(group)) {
+    next.delete(group)
+  } else {
+    next.add(group)
+  }
+  batchGroups.value = [...next]
+}
+
+function handleConfirm() {
+  emit('confirm', normalizeGroupList(batchGroups.value))
+}
+
+watch(
+  () => props.modelValue,
+  (visible) => {
+    if (!visible) {
+      batchGroups.value = []
+    }
+  }
+)
+</script>
+
+<template>
+  <el-dialog
+    :model-value="modelValue"
+    title="批量设置分组"
+    width="400px"
+    :fullscreen="dialogFullscreen"
+    destroy-on-close
+    @update:model-value="emit('update:modelValue', $event)"
+  >
+    <el-form :label-width="dialogFullscreen ? 'auto' : '80px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+      <el-form-item label="分组名称">
+        <el-select
+          v-model="batchGroups"
+          multiple
+          filterable
+          allow-create
+          default-first-option
+          collapse-tags
+          collapse-tags-tooltip
+          clearable
+          placeholder="选择多个分组，或直接输入新分组"
+          style="width: 100%"
+        >
+          <el-option v-for="group in groups" :key="group" :label="group" :value="group" />
+        </el-select>
+      </el-form-item>
+      <el-form-item v-if="groups.length > 0" label="已有分组">
+        <div class="batch-group-options">
+          <el-tag
+            v-for="group in groups"
+            :key="group"
+            class="batch-group-tag"
+            :type="batchGroups.includes(group) ? 'primary' : 'info'"
+            effect="plain"
+            @click="applyBatchGroupName(group)"
+          >
+            {{ group }}
+          </el-tag>
+        </div>
+      </el-form-item>
+      <el-alert type="info" :closable="false" show-icon>
+        确认后会覆盖选中变量的当前分组；留空将清除分组
+      </el-alert>
+    </el-form>
+    <template #footer>
+      <el-button @click="closeDialog">取消</el-button>
+      <el-button type="primary" @click="handleConfirm">确定</el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+.batch-group-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.batch-group-tag {
+  cursor: pointer;
+}
+</style>

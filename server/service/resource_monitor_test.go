@@ -1,1 +1,51 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3RQYXJzZVByb2NNZW1pbmZvVXNlc01lbUF2YWlsYWJsZSh0ICp0ZXN0aW5nLlQpIHsKCXRvdGFsLCB1c2VkLCBmcmVlIDo9IHBhcnNlUHJvY01lbWluZm8oW11ieXRlKGAKTWVtVG90YWw6ICAgICAgIDE2Mzg0MjU2IGtCCk1lbUZyZWU6ICAgICAgICAgMTAyNDAwMCBrQgpNZW1BdmFpbGFibGU6ICAgIDgxOTIwMDAga0IKQnVmZmVyczogICAgICAgICAgMjU2MDAwIGtCCkNhY2hlZDogICAgICAgICAgMjA0ODAwMCBrQgpTUmVjbGFpbWFibGU6ICAgICAxMjgwMDAga0IKU2htZW06ICAgICAgICAgICAgIDY0MDAwIGtCCmApKQoKCWNvbnN0IGtpYiA9IDEwMjQKCWlmIHRvdGFsICE9IDE2Mzg0MjU2KmtpYiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRvdGFsIG1lbW9yeSBmcm9tIE1lbVRvdGFsLCBnb3QgJWQiLCB0b3RhbCkKCX0KCWlmIGZyZWUgIT0gODE5MjAwMCpraWIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmcmVlIG1lbW9yeSB0byBmb2xsb3cgTWVtQXZhaWxhYmxlLCBnb3QgJWQiLCBmcmVlKQoJfQoJaWYgdXNlZCAhPSAoMTYzODQyNTYtODE5MjAwMCkqa2liIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXNlZCBtZW1vcnkgdG8gYmUgdG90YWwtYXZhaWxhYmxlLCBnb3QgJWQiLCB1c2VkKQoJfQp9CgpmdW5jIFRlc3RQYXJzZVByb2NNZW1pbmZvRmFsbHNCYWNrV2l0aG91dE1lbUF2YWlsYWJsZSh0ICp0ZXN0aW5nLlQpIHsKCXRvdGFsLCB1c2VkLCBmcmVlIDo9IHBhcnNlUHJvY01lbWluZm8oW11ieXRlKGAKTWVtVG90YWw6ICAgICAgICAxMDAwIGtCCk1lbUZyZWU6ICAgICAgICAgIDEwMCBrQgpCdWZmZXJzOiAgICAgICAgICAyMDAga0IKQ2FjaGVkOiAgICAgICAgICAgMzAwIGtCClNSZWNsYWltYWJsZTogICAgICA1MCBrQgpTaG1lbTogICAgICAgICAgICAgMjUga0IKYCkpCgoJY29uc3Qga2liID0gMTAyNAoJZXhwZWN0ZWRGcmVlIDo9IHVpbnQ2NCg2MjUgKiBraWIpCglleHBlY3RlZFVzZWQgOj0gdWludDY0KDM3NSAqIGtpYikKCglpZiB0b3RhbCAhPSAxMDAwKmtpYiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRvdGFsIG1lbW9yeSBmcm9tIE1lbVRvdGFsLCBnb3QgJWQiLCB0b3RhbCkKCX0KCWlmIGZyZWUgIT0gZXhwZWN0ZWRGcmVlIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmFsbGJhY2sgYXZhaWxhYmxlIG1lbW9yeSAlZCwgZ290ICVkIiwgZXhwZWN0ZWRGcmVlLCBmcmVlKQoJfQoJaWYgdXNlZCAhPSBleHBlY3RlZFVzZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1c2VkIG1lbW9yeSAlZCwgZ290ICVkIiwgZXhwZWN0ZWRVc2VkLCB1c2VkKQoJfQp9Cg==
+package service
+
+import "testing"
+
+func TestParseProcMeminfoUsesMemAvailable(t *testing.T) {
+	total, used, free := parseProcMeminfo([]byte(`
+MemTotal:       16384256 kB
+MemFree:         1024000 kB
+MemAvailable:    8192000 kB
+Buffers:          256000 kB
+Cached:          2048000 kB
+SReclaimable:     128000 kB
+Shmem:             64000 kB
+`))
+
+	const kib = 1024
+	if total != 16384256*kib {
+		t.Fatalf("expected total memory from MemTotal, got %d", total)
+	}
+	if free != 8192000*kib {
+		t.Fatalf("expected free memory to follow MemAvailable, got %d", free)
+	}
+	if used != (16384256-8192000)*kib {
+		t.Fatalf("expected used memory to be total-available, got %d", used)
+	}
+}
+
+func TestParseProcMeminfoFallsBackWithoutMemAvailable(t *testing.T) {
+	total, used, free := parseProcMeminfo([]byte(`
+MemTotal:        1000 kB
+MemFree:          100 kB
+Buffers:          200 kB
+Cached:           300 kB
+SReclaimable:      50 kB
+Shmem:             25 kB
+`))
+
+	const kib = 1024
+	expectedFree := uint64(625 * kib)
+	expectedUsed := uint64(375 * kib)
+
+	if total != 1000*kib {
+		t.Fatalf("expected total memory from MemTotal, got %d", total)
+	}
+	if free != expectedFree {
+		t.Fatalf("expected fallback available memory %d, got %d", expectedFree, free)
+	}
+	if used != expectedUsed {
+		t.Fatalf("expected used memory %d, got %d", expectedUsed, used)
+	}
+}

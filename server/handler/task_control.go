@@ -1,1 +1,168 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJIm5ldC9odHRwIgoJInN0cmNvbnYiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCXBhbmVsY3JvbiAiZGFpZGFpLXBhbmVsL3BrZy9jcm9uIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKCSJnb3JtLmlvL2dvcm0iCikKCmZ1bmMgdmFsaWRhdGVBbmRFbmFibGVUYXNrKHRhc2sgKm1vZGVsLlRhc2spIGVycm9yIHsKCWlmIHRhc2sgPT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJaWYgdGFzay5Vc2VzQ3JvblNjaGVkdWxlKCkgewoJCXRhc2suQ3JvbkV4cHJlc3Npb24gPSBwYW5lbGNyb24uTm9ybWFsaXplRXhwcmVzc2lvbnModGFzay5Dcm9uRXhwcmVzc2lvbikKCQlpZiBlcnIgOj0gcGFuZWxjcm9uLlZhbGlkYXRlRXhwcmVzc2lvbnModGFzay5Dcm9uRXhwcmVzc2lvbik7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJfQoKCXRhc2suU3RhdHVzID0gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5TYXZlKHRhc2spLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJaWYgc2NoZWR1bGVyIDo9IHNlcnZpY2UuR2V0U2NoZWR1bGVyVjIoKTsgc2NoZWR1bGVyICE9IG5pbCB7CgkJaWYgZXJyIDo9IHNjaGVkdWxlci5BZGRKb2IodGFzayk7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJfQoKCXJldHVybiBuaWwKfQoKZnVuYyBkaXNhYmxlVGFza0FuZFJlbW92ZVNjaGVkdWxlKHRhc2sgKm1vZGVsLlRhc2spIHN0cmluZyB7CglpZiB0YXNrID09IG5pbCB7CgkJcmV0dXJuICLlt7LnpoHnlKgiCgl9CgoJaWYgc2NoZWR1bGVyIDo9IHNlcnZpY2UuR2V0U2NoZWR1bGVyVjIoKTsgc2NoZWR1bGVyICE9IG5pbCB7CgkJc2NoZWR1bGVyLlJlbW92ZUpvYih0YXNrLklEKQoJfQoKCWlmIHRhc2suU3RhdHVzID09IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nIHsKCQlyZXR1cm4gIuW3suiuvue9ruS4uuemgeeUqO+8jOW9k+WJjeaJp+ihjOe7k+adn+WQjueUn+aViCIKCX0KCgl0YXNrLlN0YXR1cyA9IG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZAoJZGF0YWJhc2UuREIuU2F2ZSh0YXNrKQoJcmV0dXJuICLlt7LnpoHnlKgiCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBSdW4oYyAqZ2luLkNvbnRleHQpIHsKCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB0YXNrSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi5Lu75Yqh5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglpZiB0YXNrLlN0YXR1cyA9PSBtb2RlbC5UYXNrU3RhdHVzUnVubmluZyB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Lu75Yqh5q2j5Zyo6L+Q6KGM5LitIikKCQlyZXR1cm4KCX0KCglpZiBlcnIgOj0gc2VydmljZS5HZXRTY2hlZHVsZXJWMigpLlJ1bk5vdyh1aW50KHRhc2tJRCkpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5FcnJvcihjLCBodHRwLlN0YXR1c1NlcnZpY2VVbmF2YWlsYWJsZSwgIuS7u+WKoeWFpemYn+Wksei0pTogIitlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Lu75Yqh5bey5ZCv5YqoIn0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBTdG9wKGMgKmdpbi5Db250ZXh0KSB7Cgl0YXNrSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoKCXZhciB0YXNrIG1vZGVsLlRhc2sKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgdGFza0lEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuS7u+WKoeS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJc3RvcHBlZCA6PSBmYWxzZQoJaWYgZXhlY3V0b3IgOj0gc2VydmljZS5HZXRUYXNrRXhlY3V0b3IoKTsgZXhlY3V0b3IgIT0gbmlsIHsKCQlzdG9wcGVkID0gZXhlY3V0b3IuU3RvcFRhc2sodWludCh0YXNrSUQpKQoJfQoJaWYgIXN0b3BwZWQgewoJCWlmIHNjaGVkdWxlciA6PSBzZXJ2aWNlLkdldFNjaGVkdWxlcigpOyBzY2hlZHVsZXIgIT0gbmlsIHsKCQkJc3RvcHBlZCA9IHNjaGVkdWxlci5TdG9wUnVubmluZ1Rhc2sodWludCh0YXNrSUQpKQoJCX0KCX0KCglpZiB0YXNrLlBJRCAhPSBuaWwgJiYgKnRhc2suUElEID4gMCB7CgkJLy8g5YWc5bqV5p2A5a2k5YS/IFBJRCDliY3kuZ/miZMi5omL5Yqo5YGc5q2iIuagh+iusO+8jOimhueblui/m+eoi+acquiiq+WGheWtmOi/vei4queahOWcuuaZr+OAggoJCXNlcnZpY2UuTWFya01hbnVhbFN0b3AodWludCh0YXNrSUQpKQoJCXNlcnZpY2UuS2lsbFByb2Nlc3NCeVBpZCgqdGFzay5QSUQpCgl9CgoJaW5hY3RpdmVTdGF0dXMgOj0gc2VydmljZS5SZXNvbHZlVGFza0luYWN0aXZlU3RhdHVzKCZ0YXNrKQoJYWJvcnRSdW5TdGF0dXMgOj0gbW9kZWwuUnVuQWJvcnRlZAoJZGF0YWJhc2UuREIuTW9kZWwoJnRhc2spLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkic3RhdHVzIjogICAgICAgICAgaW5hY3RpdmVTdGF0dXMsCgkJImxhc3RfcnVuX3N0YXR1cyI6IGFib3J0UnVuU3RhdHVzLAoJCSJwaWQiOiAgICAgICAgICAgICBnb3JtLkV4cHIoIk5VTEwiKSwKCQkibG9nX3BhdGgiOiAgICAgICAgZ29ybS5FeHByKCJOVUxMIiksCgl9KQoKCXZhciBydW5uaW5nTG9nIG1vZGVsLlRhc2tMb2cKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidGFza19pZCA9ID8gQU5EIHN0YXR1cyA9ID8iLCB0YXNrSUQsIG1vZGVsLkxvZ1N0YXR1c1J1bm5pbmcpLgoJCU9yZGVyKCJzdGFydGVkX2F0IERFU0MiKS5GaXJzdCgmcnVubmluZ0xvZykuRXJyb3I7IGVyciA9PSBuaWwgewoJCW5vdyA6PSB0aW1lLk5vdygpCgkJc3RvcExvZ1N0YXR1cyA6PSBtb2RlbC5Mb2dTdGF0dXNBYm9ydGVkCgkJZHVyYXRpb24gOj0gbm93LlN1YihydW5uaW5nTG9nLlN0YXJ0ZWRBdCkuU2Vjb25kcygpCgkJaWYgZHVyYXRpb24gPCAwIHsKCQkJZHVyYXRpb24gPSAwCgkJfQoJCS8vIOS4u+WKqOWBnOatoueri+WNs+agh+iusOS4uiBBYm9ydGVk77yb5aaC5p6c5omn6KGM5Zmo6ZqP5ZCO5a6M5oiQ77yM5Lya5oyJ5ZCM5LiA5Y+j5b6E5YaN5qyh5YaZ5YWl77yM5LiN5Lya5Yay56qB44CCCgkJZGF0YWJhc2UuREIuTW9kZWwoJnJ1bm5pbmdMb2cpLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJInN0YXR1cyI6ICAgc3RvcExvZ1N0YXR1cywKCQkJImVuZGVkX2F0Ijogbm93LAoJCQkiZHVyYXRpb24iOiBkdXJhdGlvbiwKCQl9KQoJCWRhdGFiYXNlLkRCLk1vZGVsKCZ0YXNrKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCSJsYXN0X3J1bl9zdGF0dXMiOiAgIGFib3J0UnVuU3RhdHVzLAoJCQkibGFzdF9ydW5uaW5nX3RpbWUiOiBkdXJhdGlvbiwKCQl9KQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Lu75Yqh5bey5YGc5q2iIn0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBFbmFibGUoYyAqZ2luLkNvbnRleHQpIHsKCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB0YXNrSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi5Lu75Yqh5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglpZiBlcnIgOj0gdmFsaWRhdGVBbmRFbmFibGVUYXNrKCZ0YXNrKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey5ZCv55SoIiwgImRhdGEiOiB0YXNrLlRvRGljdCgpfSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIERpc2FibGUoYyAqZ2luLkNvbnRleHQpIHsKCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB0YXNrSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi5Lu75Yqh5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCgltZXNzYWdlIDo9IGRpc2FibGVUYXNrQW5kUmVtb3ZlU2NoZWR1bGUoJnRhc2spCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogbWVzc2FnZSwgImRhdGEiOiB0YXNrLlRvRGljdCgpfSkKfQo=
+package handler
+
+import (
+	"net/http"
+	"strconv"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	panelcron "daidai-panel/pkg/cron"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
+)
+
+func validateAndEnableTask(task *model.Task) error {
+	if task == nil {
+		return nil
+	}
+
+	if task.UsesCronSchedule() {
+		task.CronExpression = panelcron.NormalizeExpressions(task.CronExpression)
+		if err := panelcron.ValidateExpressions(task.CronExpression); err != nil {
+			return err
+		}
+	}
+
+	task.Status = model.TaskStatusEnabled
+	if err := database.DB.Save(task).Error; err != nil {
+		return err
+	}
+
+	if scheduler := service.GetSchedulerV2(); scheduler != nil {
+		if err := scheduler.AddJob(task); err != nil {
+			return err
+		}
+	}
+
+	return nil
+}
+
+func disableTaskAndRemoveSchedule(task *model.Task) string {
+	if task == nil {
+		return "已禁用"
+	}
+
+	if scheduler := service.GetSchedulerV2(); scheduler != nil {
+		scheduler.RemoveJob(task.ID)
+	}
+
+	if task.Status == model.TaskStatusRunning {
+		return "已设置为禁用，当前执行结束后生效"
+	}
+
+	task.Status = model.TaskStatusDisabled
+	database.DB.Save(task)
+	return "已禁用"
+}
+
+func (h *TaskHandler) Run(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	if task.Status == model.TaskStatusRunning {
+		response.BadRequest(c, "任务正在运行中")
+		return
+	}
+
+	if err := service.GetSchedulerV2().RunNow(uint(taskID)); err != nil {
+		response.Error(c, http.StatusServiceUnavailable, "任务入队失败: "+err.Error())
+		return
+	}
+	response.Success(c, gin.H{"message": "任务已启动"})
+}
+
+func (h *TaskHandler) Stop(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	stopped := false
+	if executor := service.GetTaskExecutor(); executor != nil {
+		stopped = executor.StopTask(uint(taskID))
+	}
+	if !stopped {
+		if scheduler := service.GetScheduler(); scheduler != nil {
+			stopped = scheduler.StopRunningTask(uint(taskID))
+		}
+	}
+
+	if task.PID != nil && *task.PID > 0 {
+		// 兜底杀孤儿 PID 前也打"手动停止"标记，覆盖进程未被内存追踪的场景。
+		service.MarkManualStop(uint(taskID))
+		service.KillProcessByPid(*task.PID)
+	}
+
+	inactiveStatus := service.ResolveTaskInactiveStatus(&task)
+	abortRunStatus := model.RunAborted
+	database.DB.Model(&task).Updates(map[string]interface{}{
+		"status":          inactiveStatus,
+		"last_run_status": abortRunStatus,
+		"pid":             gorm.Expr("NULL"),
+		"log_path":        gorm.Expr("NULL"),
+	})
+
+	var runningLog model.TaskLog
+	if err := database.DB.Where("task_id = ? AND status = ?", taskID, model.LogStatusRunning).
+		Order("started_at DESC").First(&runningLog).Error; err == nil {
+		now := time.Now()
+		stopLogStatus := model.LogStatusAborted
+		duration := now.Sub(runningLog.StartedAt).Seconds()
+		if duration < 0 {
+			duration = 0
+		}
+		// 主动停止立即标记为 Aborted；如果执行器随后完成，会按同一口径再次写入，不会冲突。
+		database.DB.Model(&runningLog).Updates(map[string]interface{}{
+			"status":   stopLogStatus,
+			"ended_at": now,
+			"duration": duration,
+		})
+		database.DB.Model(&task).Updates(map[string]interface{}{
+			"last_run_status":   abortRunStatus,
+			"last_running_time": duration,
+		})
+	}
+
+	response.Success(c, gin.H{"message": "任务已停止"})
+}
+
+func (h *TaskHandler) Enable(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	if err := validateAndEnableTask(&task); err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+	response.Success(c, gin.H{"message": "已启用", "data": task.ToDict()})
+}
+
+func (h *TaskHandler) Disable(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	message := disableTaskAndRemoveSchedule(&task)
+	response.Success(c, gin.H{"message": message, "data": task.ToDict()})
+}

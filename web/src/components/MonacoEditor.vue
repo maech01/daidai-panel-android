@@ -1,1 +1,304 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgb25Nb3VudGVkLCBvbkJlZm9yZVVubW91bnQsIHdhdGNoIH0gZnJvbSAidnVlIjsKaW1wb3J0IHR5cGUgKiBhcyBNb25hY29UeXBlIGZyb20gIm1vbmFjby1lZGl0b3IiOwppbXBvcnQgeyBsb2FkTW9uYWNvRWRpdG9yIH0gZnJvbSAiQC91dGlscy9tb25hY28iOwppbXBvcnQgTG9hZGluZ01vdGlvbiBmcm9tICIuL0xvYWRpbmdNb3Rpb24udnVlIjsKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIG1vZGVsVmFsdWU6IHN0cmluZzsKICBsYW5ndWFnZT86IHN0cmluZzsKICByZWFkb25seT86IGJvb2xlYW47CiAgbWluSGVpZ2h0Pzogc3RyaW5nIHwgbnVtYmVyOwp9PigpOwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAidXBkYXRlOm1vZGVsVmFsdWUiOiBbdmFsdWU6IHN0cmluZ107Cn0+KCk7Cgpjb25zdCBlZGl0b3JSZWYgPSByZWY8SFRNTEVsZW1lbnQ+KCk7CmNvbnN0IGlzTG9hZGluZyA9IHJlZih0cnVlKTsKY29uc3QgbG9hZEVycm9yID0gcmVmKCIiKTsKbGV0IGVkaXRvcjogTW9uYWNvVHlwZS5lZGl0b3IuSVN0YW5kYWxvbmVDb2RlRWRpdG9yIHwgbnVsbCA9IG51bGw7CmxldCBtb25hY29JbnN0YW5jZTogdHlwZW9mIE1vbmFjb1R5cGUgfCBudWxsID0gbnVsbDsKCmNvbnN0IERFRkFVTFRfRURJVE9SX0JBQ0tHUk9VTkQgPSAiIzExMTgyNyI7CmNvbnN0IERFRkFVTFRfRURJVE9SX0ZPUkVHUk9VTkQgPSAiI2U1ZTdlYiI7CgpmdW5jdGlvbiByZWFkUm9vdENzc1ZhcihuYW1lOiBzdHJpbmcsIGZhbGxiYWNrOiBzdHJpbmcpIHsKICBpZiAodHlwZW9mIHdpbmRvdyA9PT0gInVuZGVmaW5lZCIpIHsKICAgIHJldHVybiBmYWxsYmFjazsKICB9CiAgY29uc3QgdmFsdWUgPSB3aW5kb3cKICAgIC5nZXRDb21wdXRlZFN0eWxlKGRvY3VtZW50LmRvY3VtZW50RWxlbWVudCkKICAgIC5nZXRQcm9wZXJ0eVZhbHVlKG5hbWUpCiAgICAudHJpbSgpOwogIHJldHVybiB2YWx1ZSB8fCBmYWxsYmFjazsKfQoKZnVuY3Rpb24gcGFyc2VDb2xvcihjb2xvcjogc3RyaW5nKSB7CiAgY29uc3QgdGV4dCA9IGNvbG9yLnRyaW0oKTsKICBpZiAoIXRleHQpIHJldHVybiBudWxsOwoKICBpZiAodGV4dC5zdGFydHNXaXRoKCIjIikpIHsKICAgIGNvbnN0IGhleCA9IHRleHQuc2xpY2UoMSk7CiAgICBpZiAoaGV4Lmxlbmd0aCA9PT0gMykgewogICAgICBjb25zdCByID0gTnVtYmVyLnBhcnNlSW50KGhleC5jaGFyQXQoMCkgKyBoZXguY2hhckF0KDApLCAxNik7CiAgICAgIGNvbnN0IGcgPSBOdW1iZXIucGFyc2VJbnQoaGV4LmNoYXJBdCgxKSArIGhleC5jaGFyQXQoMSksIDE2KTsKICAgICAgY29uc3QgYiA9IE51bWJlci5wYXJzZUludChoZXguY2hhckF0KDIpICsgaGV4LmNoYXJBdCgyKSwgMTYpOwogICAgICByZXR1cm4gTnVtYmVyLmlzTmFOKHIpIHx8IE51bWJlci5pc05hTihnKSB8fCBOdW1iZXIuaXNOYU4oYikKICAgICAgICA/IG51bGwKICAgICAgICA6IHsgciwgZywgYiB9OwogICAgfQogICAgaWYgKGhleC5sZW5ndGggPT09IDYgfHwgaGV4Lmxlbmd0aCA9PT0gOCkgewogICAgICBjb25zdCBvZmZzZXQgPSBoZXgubGVuZ3RoID09PSA4ID8gMiA6IDA7CiAgICAgIGNvbnN0IHIgPSBOdW1iZXIucGFyc2VJbnQoaGV4LnNsaWNlKG9mZnNldCwgb2Zmc2V0ICsgMiksIDE2KTsKICAgICAgY29uc3QgZyA9IE51bWJlci5wYXJzZUludChoZXguc2xpY2Uob2Zmc2V0ICsgMiwgb2Zmc2V0ICsgNCksIDE2KTsKICAgICAgY29uc3QgYiA9IE51bWJlci5wYXJzZUludChoZXguc2xpY2Uob2Zmc2V0ICsgNCwgb2Zmc2V0ICsgNiksIDE2KTsKICAgICAgcmV0dXJuIE51bWJlci5pc05hTihyKSB8fCBOdW1iZXIuaXNOYU4oZykgfHwgTnVtYmVyLmlzTmFOKGIpCiAgICAgICAgPyBudWxsCiAgICAgICAgOiB7IHIsIGcsIGIgfTsKICAgIH0KICB9CgogIGNvbnN0IG1hdGNoID0gdGV4dC5tYXRjaCgKICAgIC9ecmdiYT9cKFxzKihcZHsxLDN9KVxzKixccyooXGR7MSwzfSlccyosXHMqKFxkezEsM30pKD86XHMqLFxzKlswLTkuXStccyopP1wpJC9pLAogICk7CiAgaWYgKCFtYXRjaCkgcmV0dXJuIG51bGw7CgogIGNvbnN0IHIgPSBOdW1iZXIucGFyc2VJbnQobWF0Y2hbMV0gPz8gIiIsIDEwKTsKICBjb25zdCBnID0gTnVtYmVyLnBhcnNlSW50KG1hdGNoWzJdID8/ICIiLCAxMCk7CiAgY29uc3QgYiA9IE51bWJlci5wYXJzZUludChtYXRjaFszXSA/PyAiIiwgMTApOwogIHJldHVybiBOdW1iZXIuaXNOYU4ocikgfHwgTnVtYmVyLmlzTmFOKGcpIHx8IE51bWJlci5pc05hTihiKQogICAgPyBudWxsCiAgICA6IHsgciwgZywgYiB9Owp9CgpmdW5jdGlvbiBpc0RhcmtDb2xvcihjb2xvcjogc3RyaW5nKSB7CiAgY29uc3QgcmdiID0gcGFyc2VDb2xvcihjb2xvcik7CiAgaWYgKCFyZ2IpIHsKICAgIHJldHVybiB0cnVlOwogIH0KICBjb25zdCB0b0xpbmVhciA9IChjaGFubmVsOiBudW1iZXIpID0+IHsKICAgIGNvbnN0IHZhbHVlID0gY2hhbm5lbCAvIDI1NTsKICAgIHJldHVybiB2YWx1ZSA8PSAwLjAzOTI4ID8gdmFsdWUgLyAxMi45MiA6ICgodmFsdWUgKyAwLjA1NSkgLyAxLjA1NSkgKiogMi40OwogIH07CiAgY29uc3QgbHVtaW5hbmNlID0KICAgIDAuMjEyNiAqIHRvTGluZWFyKHJnYi5yKSArCiAgICAwLjcxNTIgKiB0b0xpbmVhcihyZ2IuZykgKwogICAgMC4wNzIyICogdG9MaW5lYXIocmdiLmIpOwogIHJldHVybiBsdW1pbmFuY2UgPCAwLjQ1Owp9CgpmdW5jdGlvbiByZXNvbHZlRWRpdG9yVGhlbWUoKSB7CiAgY29uc3QgYmFja2dyb3VuZCA9IHJlYWRSb290Q3NzVmFyKAogICAgIi0tZGQtZWRpdG9yLWJnLWNvbG9yIiwKICAgIERFRkFVTFRfRURJVE9SX0JBQ0tHUk9VTkQsCiAgKTsKICBjb25zdCBmb3JlZ3JvdW5kID0gcmVhZFJvb3RDc3NWYXIoCiAgICAiLS1kZC1lZGl0b3ItZmctY29sb3IiLAogICAgREVGQVVMVF9FRElUT1JfRk9SRUdST1VORCwKICApOwogIGNvbnN0IGRhcmtNb2RlID0gaXNEYXJrQ29sb3IoYmFja2dyb3VuZCk7CgogIHJldHVybiB7CiAgICBiYWNrZ3JvdW5kLAogICAgZm9yZWdyb3VuZCwKICAgIGJhc2U6IGRhcmtNb2RlID8gInZzLWRhcmsiIDogInZzIiwKICAgIHRoZW1lTmFtZTogZGFya01vZGUgPyAiZGQtZWRpdG9yLWRhcmsiIDogImRkLWVkaXRvci1saWdodCIsCiAgfTsKfQoKb25Nb3VudGVkKGFzeW5jICgpID0+IHsKICBpZiAoIWVkaXRvclJlZi52YWx1ZSkgcmV0dXJuOwoKICB0cnkgewogICAgbG9hZEVycm9yLnZhbHVlID0gIiI7CiAgICBjb25zdCB7IG1vbmFjbywgc291cmNlIH0gPSBhd2FpdCBsb2FkTW9uYWNvRWRpdG9yKCk7CiAgICBtb25hY29JbnN0YW5jZSA9IG1vbmFjbyBhcyB0eXBlb2YgTW9uYWNvVHlwZTsKICAgIGlmICghZWRpdG9yUmVmLnZhbHVlKSByZXR1cm47CiAgICBjb25zdCB0aGVtZSA9IHJlc29sdmVFZGl0b3JUaGVtZSgpOwogICAgbW9uYWNvSW5zdGFuY2UuZWRpdG9yLmRlZmluZVRoZW1lKHRoZW1lLnRoZW1lTmFtZSwgewogICAgICBiYXNlOiB0aGVtZS5iYXNlIGFzICJ2cyIgfCAidnMtZGFyayIsCiAgICAgIGluaGVyaXQ6IHRydWUsCiAgICAgIHJ1bGVzOiBbXSwKICAgICAgY29sb3JzOiB7CiAgICAgICAgImVkaXRvci5iYWNrZ3JvdW5kIjogdGhlbWUuYmFja2dyb3VuZCwKICAgICAgICAiZWRpdG9yLmZvcmVncm91bmQiOiB0aGVtZS5mb3JlZ3JvdW5kLAogICAgICAgICJlZGl0b3JMaW5lTnVtYmVyLmZvcmVncm91bmQiOiBkYXJrTW9kZUNvbG9yKAogICAgICAgICAgdGhlbWUuYmFja2dyb3VuZCwKICAgICAgICAgICIjNmI3MjgwIiwKICAgICAgICAgICIjOTRhM2I4IiwKICAgICAgICApLAogICAgICAgICJlZGl0b3JDdXJzb3IuZm9yZWdyb3VuZCI6IGRhcmtNb2RlQ29sb3IoCiAgICAgICAgICB0aGVtZS5iYWNrZ3JvdW5kLAogICAgICAgICAgIiMzNGQzOTkiLAogICAgICAgICAgIiMyNTYzZWIiLAogICAgICAgICksCiAgICAgICAgImVkaXRvci5zZWxlY3Rpb25CYWNrZ3JvdW5kIjogZGFya01vZGVDb2xvcigKICAgICAgICAgIHRoZW1lLmJhY2tncm91bmQsCiAgICAgICAgICAiIzEzNGU0YWNjIiwKICAgICAgICAgICIjYmZkYmZlIiwKICAgICAgICApLAogICAgICAgICJlZGl0b3IuaW5hY3RpdmVTZWxlY3Rpb25CYWNrZ3JvdW5kIjogZGFya01vZGVDb2xvcigKICAgICAgICAgIHRoZW1lLmJhY2tncm91bmQsCiAgICAgICAgICAiIzFmMjkzN2FhIiwKICAgICAgICAgICIjZGJlYWZlIiwKICAgICAgICApLAogICAgICB9LAogICAgfSk7CgogICAgZWRpdG9yID0gbW9uYWNvSW5zdGFuY2UuZWRpdG9yLmNyZWF0ZShlZGl0b3JSZWYudmFsdWUsIHsKICAgICAgdmFsdWU6IHByb3BzLm1vZGVsVmFsdWUsCiAgICAgIGxhbmd1YWdlOiBwcm9wcy5sYW5ndWFnZSB8fCAiamF2YXNjcmlwdCIsCiAgICAgIHRoZW1lOiB0aGVtZS50aGVtZU5hbWUsCiAgICAgIGF1dG9tYXRpY0xheW91dDogdHJ1ZSwKICAgICAgZm9udFNpemU6IDE0LAogICAgICBtaW5pbWFwOiB7IGVuYWJsZWQ6IHRydWUgfSwKICAgICAgc2Nyb2xsQmV5b25kTGFzdExpbmU6IGZhbHNlLAogICAgICByZWFkT25seTogcHJvcHMucmVhZG9ubHkgfHwgZmFsc2UsCiAgICAgIHRhYlNpemU6IDIsCiAgICAgIHdvcmRXcmFwOiAib24iLAogICAgfSk7CgogICAgaWYgKHNvdXJjZSA9PT0gImNkbiIpIHsKICAgICAgY29uc29sZS53YXJuKCJNb25hY28g57yW6L6R5Zmo5b2T5YmN5bey5Zue6YCA5YiwIENETiDotYTmupDjgIIiKTsKICAgIH0KCiAgICBlZGl0b3IhLm9uRGlkQ2hhbmdlTW9kZWxDb250ZW50KCgpID0+IHsKICAgICAgaWYgKGVkaXRvcikgewogICAgICAgIGVtaXQoInVwZGF0ZTptb2RlbFZhbHVlIiwgZWRpdG9yLmdldFZhbHVlKCkpOwogICAgICB9CiAgICB9KTsKICB9IGNhdGNoIChlcnJvcikgewogICAgY29uc29sZS5lcnJvcigiTW9uYWNvIOe8lui+keWZqOWIneWni+WMluWksei0pSIsIGVycm9yKTsKICAgIGxvYWRFcnJvci52YWx1ZSA9ICLnvJbovpHlmajliqDovb3lpLHotKXvvIzor7fmo4Dmn6XnvZHnu5zmiJbnqI3lkI7ph43or5XjgIIiOwogIH0gZmluYWxseSB7CiAgICBpc0xvYWRpbmcudmFsdWUgPSBmYWxzZTsKICB9Cn0pOwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMubW9kZWxWYWx1ZSwKICAobmV3VmFsdWUpID0+IHsKICAgIGlmIChlZGl0b3IgJiYgbmV3VmFsdWUgIT09IGVkaXRvci5nZXRWYWx1ZSgpKSB7CiAgICAgIGVkaXRvci5zZXRWYWx1ZShuZXdWYWx1ZSk7CiAgICB9CiAgfSwKKTsKCndhdGNoKAogICgpID0+IHByb3BzLmxhbmd1YWdlLAogIChuZXdMYW5nKSA9PiB7CiAgICBpZiAoZWRpdG9yICYmIG1vbmFjb0luc3RhbmNlKSB7CiAgICAgIGNvbnN0IG1vZGVsID0gZWRpdG9yLmdldE1vZGVsKCk7CiAgICAgIGlmIChtb2RlbCkgewogICAgICAgIG1vbmFjb0luc3RhbmNlLmVkaXRvci5zZXRNb2RlbExhbmd1YWdlKG1vZGVsLCBuZXdMYW5nIHx8ICJqYXZhc2NyaXB0Iik7CiAgICAgIH0KICAgIH0KICB9LAopOwoKd2F0Y2goCiAgKCkgPT4gcHJvcHMucmVhZG9ubHksCiAgKG5ld1JlYWRvbmx5KSA9PiB7CiAgICBpZiAoZWRpdG9yKSB7CiAgICAgIGVkaXRvci51cGRhdGVPcHRpb25zKHsgcmVhZE9ubHk6IG5ld1JlYWRvbmx5IH0pOwogICAgfQogIH0sCik7CgpvbkJlZm9yZVVubW91bnQoKCkgPT4gewogIGVkaXRvcj8uZGlzcG9zZSgpOwogIGVkaXRvciA9IG51bGw7Cn0pOwoKZGVmaW5lRXhwb3NlKHsKICBmb3JtYXQ6ICgpID0+IHsKICAgIGlmIChlZGl0b3IpIHsKICAgICAgZWRpdG9yLmdldEFjdGlvbigiZWRpdG9yLmFjdGlvbi5mb3JtYXREb2N1bWVudCIpPy5ydW4oKTsKICAgIH0KICB9LAogIGZvY3VzOiAoKSA9PiBlZGl0b3I/LmZvY3VzKCksCiAgZ2V0VmFsdWU6ICgpID0+IGVkaXRvcj8uZ2V0VmFsdWUoKSB8fCAiIiwKICBzZXRWYWx1ZTogKHZhbHVlOiBzdHJpbmcpID0+IGVkaXRvcj8uc2V0VmFsdWUodmFsdWUpLAp9KTsKCmZ1bmN0aW9uIGRhcmtNb2RlQ29sb3IoCiAgYmFja2dyb3VuZDogc3RyaW5nLAogIGRhcmtWYWx1ZTogc3RyaW5nLAogIGxpZ2h0VmFsdWU6IHN0cmluZywKKSB7CiAgcmV0dXJuIGlzRGFya0NvbG9yKGJhY2tncm91bmQpID8gZGFya1ZhbHVlIDogbGlnaHRWYWx1ZTsKfQoKZnVuY3Rpb24gcmVzb2x2ZU1pbkhlaWdodCh2YWx1ZTogc3RyaW5nIHwgbnVtYmVyIHwgdW5kZWZpbmVkKSB7CiAgaWYgKHR5cGVvZiB2YWx1ZSA9PT0gIm51bWJlciIpIHsKICAgIHJldHVybiBgJHt2YWx1ZX1weGA7CiAgfQogIGlmICh0eXBlb2YgdmFsdWUgPT09ICJzdHJpbmciICYmIHZhbHVlLnRyaW0oKSkgewogICAgcmV0dXJuIHZhbHVlOwogIH0KICByZXR1cm4gIjQwMHB4IjsKfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2CiAgICBjbGFzcz0ibW9uYWNvLWVkaXRvci13cmFwcGVyIgogICAgOnN0eWxlPSJ7ICctLW1vbmFjby1lZGl0b3ItbWluLWhlaWdodCc6IHJlc29sdmVNaW5IZWlnaHQocHJvcHMubWluSGVpZ2h0KSB9IgogID4KICAgIDxkaXYgdi1pZj0iaXNMb2FkaW5nIiBjbGFzcz0ibW9uYWNvLWxvYWRpbmciPgogICAgICA8TG9hZGluZ01vdGlvbgogICAgICAgIHZhcmlhbnQ9InNwaW5uZXIiCiAgICAgICAgc2l6ZT0ibGciCiAgICAgICAgbGFiZWw9Iue8lui+keWZqOWKoOi9veS4rS4uLiIKICAgICAgICB0b25lPSJwcmltYXJ5IgogICAgICAvPgogICAgPC9kaXY+CiAgICA8ZGl2IHYtZWxzZS1pZj0ibG9hZEVycm9yIiBjbGFzcz0ibW9uYWNvLWxvYWRpbmcgbW9uYWNvLWVycm9yIj4KICAgICAgPHNwYW4+e3sgbG9hZEVycm9yIH19PC9zcGFuPgogICAgPC9kaXY+CiAgICA8ZGl2CiAgICAgIHJlZj0iZWRpdG9yUmVmIgogICAgICBjbGFzcz0ibW9uYWNvLWVkaXRvci1jb250YWluZXIiCiAgICAgIHYtc2hvdz0iIWlzTG9hZGluZyAmJiAhbG9hZEVycm9yIgogICAgPjwvZGl2PgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZD4KLm1vbmFjby1lZGl0b3Itd3JhcHBlciB7CiAgd2lkdGg6IDEwMCU7CiAgbWluLWhlaWdodDogdmFyKC0tbW9uYWNvLWVkaXRvci1taW4taGVpZ2h0LCA0MDBweCk7CiAgaGVpZ2h0OiB2YXIoLS1tb25hY28tZWRpdG9yLW1pbi1oZWlnaHQsIDQwMHB4KTsKICBwb3NpdGlvbjogcmVsYXRpdmU7Cn0KCi5tb25hY28tZWRpdG9yLWNvbnRhaW5lciB7CiAgd2lkdGg6IDEwMCU7CiAgaGVpZ2h0OiAxMDAlOwogIC8qIE1vbmFjbyDliJ3lp4vljJbml7blj6ror7vlj5blrrnlmaggY2xpZW50SGVpZ2h044CCCiAgICAg5pmu6YCa5Y2h54mH5rKh5pyJ5Zu65a6a54i257qn6auY5bqm5pe277yM5YaF5bGC5a655Zmo5b+F6aG757un5om/5pyA5bCP6auY5bqm77yM5ZCm5YiZ5Lya6KKr566X5oiQIDAg6auY5bqm77yM5Y+q5Ymp5LiA5p2h5qiq57q/5LiU5peg5rOV6L6T5YWl44CCICovCiAgbWluLWhlaWdodDogaW5oZXJpdDsKfQoKLm1vbmFjby1sb2FkaW5nIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICBoZWlnaHQ6IDEwMCU7CiAgbWluLWhlaWdodDogdmFyKC0tbW9uYWNvLWVkaXRvci1taW4taGVpZ2h0LCA0MDBweCk7CiAgZ2FwOiAxMnB4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7CiAgZm9udC1zaXplOiAxNHB4OwogIGJhY2tncm91bmQ6IHZhcigtLWRkLWVkaXRvci1iZy1jb2xvciwgIzExMTgyNyk7CiAgY29sb3I6IHZhcigtLWRkLWVkaXRvci1mZy1jb2xvciwgI2U1ZTdlYik7CiAgYm9yZGVyLXJhZGl1czogNHB4Owp9CgoubW9uYWNvLWVycm9yIHsKICBjb2xvcjogI2Y1NmM2YzsKICB0ZXh0LWFsaWduOiBjZW50ZXI7Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { ref, onMounted, onBeforeUnmount, watch } from "vue";
+import type * as MonacoType from "monaco-editor";
+import { loadMonacoEditor } from "@/utils/monaco";
+import LoadingMotion from "./LoadingMotion.vue";
+
+const props = defineProps<{
+  modelValue: string;
+  language?: string;
+  readonly?: boolean;
+  minHeight?: string | number;
+}>();
+
+const emit = defineEmits<{
+  "update:modelValue": [value: string];
+}>();
+
+const editorRef = ref<HTMLElement>();
+const isLoading = ref(true);
+const loadError = ref("");
+let editor: MonacoType.editor.IStandaloneCodeEditor | null = null;
+let monacoInstance: typeof MonacoType | null = null;
+
+const DEFAULT_EDITOR_BACKGROUND = "#111827";
+const DEFAULT_EDITOR_FOREGROUND = "#e5e7eb";
+
+function readRootCssVar(name: string, fallback: string) {
+  if (typeof window === "undefined") {
+    return fallback;
+  }
+  const value = window
+    .getComputedStyle(document.documentElement)
+    .getPropertyValue(name)
+    .trim();
+  return value || fallback;
+}
+
+function parseColor(color: string) {
+  const text = color.trim();
+  if (!text) return null;
+
+  if (text.startsWith("#")) {
+    const hex = text.slice(1);
+    if (hex.length === 3) {
+      const r = Number.parseInt(hex.charAt(0) + hex.charAt(0), 16);
+      const g = Number.parseInt(hex.charAt(1) + hex.charAt(1), 16);
+      const b = Number.parseInt(hex.charAt(2) + hex.charAt(2), 16);
+      return Number.isNaN(r) || Number.isNaN(g) || Number.isNaN(b)
+        ? null
+        : { r, g, b };
+    }
+    if (hex.length === 6 || hex.length === 8) {
+      const offset = hex.length === 8 ? 2 : 0;
+      const r = Number.parseInt(hex.slice(offset, offset + 2), 16);
+      const g = Number.parseInt(hex.slice(offset + 2, offset + 4), 16);
+      const b = Number.parseInt(hex.slice(offset + 4, offset + 6), 16);
+      return Number.isNaN(r) || Number.isNaN(g) || Number.isNaN(b)
+        ? null
+        : { r, g, b };
+    }
+  }
+
+  const match = text.match(
+    /^rgba?\(\s*(\d{1,3})\s*,\s*(\d{1,3})\s*,\s*(\d{1,3})(?:\s*,\s*[0-9.]+\s*)?\)$/i,
+  );
+  if (!match) return null;
+
+  const r = Number.parseInt(match[1] ?? "", 10);
+  const g = Number.parseInt(match[2] ?? "", 10);
+  const b = Number.parseInt(match[3] ?? "", 10);
+  return Number.isNaN(r) || Number.isNaN(g) || Number.isNaN(b)
+    ? null
+    : { r, g, b };
+}
+
+function isDarkColor(color: string) {
+  const rgb = parseColor(color);
+  if (!rgb) {
+    return true;
+  }
+  const toLinear = (channel: number) => {
+    const value = channel / 255;
+    return value <= 0.03928 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+  };
+  const luminance =
+    0.2126 * toLinear(rgb.r) +
+    0.7152 * toLinear(rgb.g) +
+    0.0722 * toLinear(rgb.b);
+  return luminance < 0.45;
+}
+
+function resolveEditorTheme() {
+  const background = readRootCssVar(
+    "--dd-editor-bg-color",
+    DEFAULT_EDITOR_BACKGROUND,
+  );
+  const foreground = readRootCssVar(
+    "--dd-editor-fg-color",
+    DEFAULT_EDITOR_FOREGROUND,
+  );
+  const darkMode = isDarkColor(background);
+
+  return {
+    background,
+    foreground,
+    base: darkMode ? "vs-dark" : "vs",
+    themeName: darkMode ? "dd-editor-dark" : "dd-editor-light",
+  };
+}
+
+onMounted(async () => {
+  if (!editorRef.value) return;
+
+  try {
+    loadError.value = "";
+    const { monaco, source } = await loadMonacoEditor();
+    monacoInstance = monaco as typeof MonacoType;
+    if (!editorRef.value) return;
+    const theme = resolveEditorTheme();
+    monacoInstance.editor.defineTheme(theme.themeName, {
+      base: theme.base as "vs" | "vs-dark",
+      inherit: true,
+      rules: [],
+      colors: {
+        "editor.background": theme.background,
+        "editor.foreground": theme.foreground,
+        "editorLineNumber.foreground": darkModeColor(
+          theme.background,
+          "#6b7280",
+          "#94a3b8",
+        ),
+        "editorCursor.foreground": darkModeColor(
+          theme.background,
+          "#34d399",
+          "#2563eb",
+        ),
+        "editor.selectionBackground": darkModeColor(
+          theme.background,
+          "#134e4acc",
+          "#bfdbfe",
+        ),
+        "editor.inactiveSelectionBackground": darkModeColor(
+          theme.background,
+          "#1f2937aa",
+          "#dbeafe",
+        ),
+      },
+    });
+
+    editor = monacoInstance.editor.create(editorRef.value, {
+      value: props.modelValue,
+      language: props.language || "javascript",
+      theme: theme.themeName,
+      automaticLayout: true,
+      fontSize: 14,
+      minimap: { enabled: true },
+      scrollBeyondLastLine: false,
+      readOnly: props.readonly || false,
+      tabSize: 2,
+      wordWrap: "on",
+    });
+
+    if (source === "cdn") {
+      console.warn("Monaco 编辑器当前已回退到 CDN 资源。");
+    }
+
+    editor!.onDidChangeModelContent(() => {
+      if (editor) {
+        emit("update:modelValue", editor.getValue());
+      }
+    });
+  } catch (error) {
+    console.error("Monaco 编辑器初始化失败", error);
+    loadError.value = "编辑器加载失败，请检查网络或稍后重试。";
+  } finally {
+    isLoading.value = false;
+  }
+});
+
+watch(
+  () => props.modelValue,
+  (newValue) => {
+    if (editor && newValue !== editor.getValue()) {
+      editor.setValue(newValue);
+    }
+  },
+);
+
+watch(
+  () => props.language,
+  (newLang) => {
+    if (editor && monacoInstance) {
+      const model = editor.getModel();
+      if (model) {
+        monacoInstance.editor.setModelLanguage(model, newLang || "javascript");
+      }
+    }
+  },
+);
+
+watch(
+  () => props.readonly,
+  (newReadonly) => {
+    if (editor) {
+      editor.updateOptions({ readOnly: newReadonly });
+    }
+  },
+);
+
+onBeforeUnmount(() => {
+  editor?.dispose();
+  editor = null;
+});
+
+defineExpose({
+  format: () => {
+    if (editor) {
+      editor.getAction("editor.action.formatDocument")?.run();
+    }
+  },
+  focus: () => editor?.focus(),
+  getValue: () => editor?.getValue() || "",
+  setValue: (value: string) => editor?.setValue(value),
+});
+
+function darkModeColor(
+  background: string,
+  darkValue: string,
+  lightValue: string,
+) {
+  return isDarkColor(background) ? darkValue : lightValue;
+}
+
+function resolveMinHeight(value: string | number | undefined) {
+  if (typeof value === "number") {
+    return `${value}px`;
+  }
+  if (typeof value === "string" && value.trim()) {
+    return value;
+  }
+  return "400px";
+}
+</script>
+
+<template>
+  <div
+    class="monaco-editor-wrapper"
+    :style="{ '--monaco-editor-min-height': resolveMinHeight(props.minHeight) }"
+  >
+    <div v-if="isLoading" class="monaco-loading">
+      <LoadingMotion
+        variant="spinner"
+        size="lg"
+        label="编辑器加载中..."
+        tone="primary"
+      />
+    </div>
+    <div v-else-if="loadError" class="monaco-loading monaco-error">
+      <span>{{ loadError }}</span>
+    </div>
+    <div
+      ref="editorRef"
+      class="monaco-editor-container"
+      v-show="!isLoading && !loadError"
+    ></div>
+  </div>
+</template>
+
+<style scoped>
+.monaco-editor-wrapper {
+  width: 100%;
+  min-height: var(--monaco-editor-min-height, 400px);
+  height: var(--monaco-editor-min-height, 400px);
+  position: relative;
+}
+
+.monaco-editor-container {
+  width: 100%;
+  height: 100%;
+  /* Monaco 初始化时只读取容器 clientHeight。
+     普通卡片没有固定父级高度时，内层容器必须继承最小高度，否则会被算成 0 高度，只剩一条横线且无法输入。 */
+  min-height: inherit;
+}
+
+.monaco-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: var(--monaco-editor-min-height, 400px);
+  gap: 12px;
+  color: var(--el-text-color-secondary);
+  font-size: 14px;
+  background: var(--dd-editor-bg-color, #111827);
+  color: var(--dd-editor-fg-color, #e5e7eb);
+  border-radius: 4px;
+}
+
+.monaco-error {
+  color: #f56c6c;
+  text-align: center;
+}
+</style>

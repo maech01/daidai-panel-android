@@ -1,1 +1,134 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGludGVyZmFjZSBCYWNrdXBTZWxlY3Rpb24gewogIGNvbmZpZ3M6IGJvb2xlYW4KICB0YXNrczogYm9vbGVhbgogIHN1YnNjcmlwdGlvbnM6IGJvb2xlYW4KICBlbnZfdmFyczogYm9vbGVhbgogIGxvZ3M6IGJvb2xlYW4KICBzY3JpcHRzOiBib29sZWFuCiAgZGVwZW5kZW5jaWVzOiBib29sZWFuCiAgdGFza192aWV3czogYm9vbGVhbgp9CgpleHBvcnQgaW50ZXJmYWNlIFJlc3RvcmVQcm9ncmVzc1N0YXRlIHsKICBhY3RpdmU6IGJvb2xlYW4KICBzdGF0dXM6ICdpZGxlJyB8ICdydW5uaW5nJyB8ICdjb21wbGV0ZWQnIHwgJ2ZhaWxlZCcKICBmaWxlbmFtZT86IHN0cmluZwogIHNvdXJjZT86IHN0cmluZwogIHNlbGVjdGlvbj86IFBhcnRpYWw8QmFja3VwU2VsZWN0aW9uPgogIHN0YWdlPzogc3RyaW5nCiAgbWVzc2FnZT86IHN0cmluZwogIHBlcmNlbnQ6IG51bWJlcgogIGVycm9yPzogc3RyaW5nCiAgc3RhcnRlZF9hdD86IHN0cmluZwogIHVwZGF0ZWRfYXQ/OiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBQYW5lbFVwZGF0ZVN0YXR1cyB7CiAgc3RhdHVzPzogJ2lkbGUnIHwgJ3J1bm5pbmcnIHwgJ3Jlc3RhcnRpbmcnIHwgJ2ZhaWxlZCcKICBwaGFzZT86IHN0cmluZwogIG1lc3NhZ2U/OiBzdHJpbmcKICBlcnJvcj86IHN0cmluZwogIHN0YXJ0ZWRfYXQ/OiBzdHJpbmcKICB1cGRhdGVkX2F0Pzogc3RyaW5nCiAgZGVwbG95bWVudF90eXBlPzogJ2RvY2tlcicgfCAnYmluYXJ5JwogIGNvbnRhaW5lcl9uYW1lPzogc3RyaW5nCiAgaW1hZ2VfbmFtZT86IHN0cmluZwogIHB1bGxfaW1hZ2VfbmFtZT86IHN0cmluZwogIG1pcnJvcl9ob3N0Pzogc3RyaW5nCiAgcmVnaXN0cnlfdXJsPzogc3RyaW5nCiAgcmVsZWFzZV92ZXJzaW9uPzogc3RyaW5nCiAgYXNzZXRfbmFtZT86IHN0cmluZwogIGFzc2V0X3VybD86IHN0cmluZwogIGluc3RhbGxfZGlyPzogc3RyaW5nCiAgYmluYXJ5X25hbWU/OiBzdHJpbmcKICB1cGRhdGVfbWFuYWdlcj86ICdwYW5lbCcgfCAnd2F0Y2h0b3dlcicKICB3YXRjaHRvd2VyX3Jlc3BvbnNlPzogUmVjb3JkPHN0cmluZywgYW55Pgp9CgpleHBvcnQgaW50ZXJmYWNlIFN5c3RlbUhlYWx0aEl0ZW0gewogIG5hbWU6IHN0cmluZwogIHN0YXR1czogc3RyaW5nCiAgbWVzc2FnZT86IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIFN5c3RlbUhlYWx0aFNuYXBzaG90IHsKICBpdGVtczogU3lzdGVtSGVhbHRoSXRlbVtdCiAgbGFzdF9jaGVja2VkX2F0Pzogc3RyaW5nCn0KCmV4cG9ydCBpbnRlcmZhY2UgQ29uZmlnU2NyaXB0UGF5bG9hZCB7CiAgY29udGVudDogc3RyaW5nCiAgcGF0aDogc3RyaW5nCn0KCmV4cG9ydCBjb25zdCBzeXN0ZW1BcGkgPSB7CiAgaW5mbzogKCkgPT4gcmVxdWVzdC5nZXQoJy9zeXN0ZW0vaW5mbycpLAogIG1hY2hpbmVDb2RlOiAoKSA9PiByZXF1ZXN0LmdldCgnL3N5c3RlbS9tYWNoaW5lLWNvZGUnKSwKICBkYXNoYm9hcmQ6IChyYW5nZT86IG51bWJlcikgPT4gcmVxdWVzdC5nZXQoJy9zeXN0ZW0vZGFzaGJvYXJkJywgeyBwYXJhbXM6IHJhbmdlID8geyByYW5nZSB9IDogdW5kZWZpbmVkIH0pLAogIHN0YXRzOiAoKSA9PiByZXF1ZXN0LmdldCgnL3N5c3RlbS9zdGF0cycpLAogIHZlcnNpb246ICgpID0+IHJlcXVlc3QuZ2V0KCcvc3lzdGVtL3ZlcnNpb24nKSwKICBwdWJsaWNWZXJzaW9uOiAoKSA9PiByZXF1ZXN0LmdldCgnL3N5c3RlbS9wdWJsaWMtdmVyc2lvbicpLAogIHBhbmVsU2V0dGluZ3M6ICgpID0+IHJlcXVlc3QuZ2V0KCcvc3lzdGVtL3BhbmVsLXNldHRpbmdzJyksCiAgY2hlY2tVcGRhdGU6ICgpID0+IHJlcXVlc3QuZ2V0KCcvc3lzdGVtL2NoZWNrLXVwZGF0ZScpLAogIHVwZGF0ZVN0YXR1czogKCkgPT4gcmVxdWVzdC5nZXQoJy9zeXN0ZW0vdXBkYXRlLXN0YXR1cycpLAogIHVwZGF0ZVBhbmVsOiAoKSA9PiByZXF1ZXN0LnBvc3QoJy9zeXN0ZW0vdXBkYXRlJyksCiAgcmVzdGFydDogKCkgPT4gcmVxdWVzdC5wb3N0KCcvc3lzdGVtL3Jlc3RhcnQnKSwKICBwYW5lbExvZzogKHBhcmFtcz86IHsgbGluZXM/OiBudW1iZXI7IGtleXdvcmQ/OiBzdHJpbmc7IGxldmVsPzogJ2RlYnVnJyB8ICdpbmZvJyB8ICd3YXJuJyB8ICdlcnJvcicgfCAnJyB9KSA9PgogICAgcmVxdWVzdC5nZXQoJy9zeXN0ZW0vcGFuZWwtbG9nJywgeyBwYXJhbXMgfSksCiAgYmFja3VwOiAocGFzc3dvcmQ/OiBzdHJpbmcsIHNlbGVjdGlvbj86IFBhcnRpYWw8QmFja3VwU2VsZWN0aW9uPiwgbmFtZT86IHN0cmluZykgPT4gcmVxdWVzdC5wb3N0KCcvc3lzdGVtL2JhY2t1cCcsIHsgcGFzc3dvcmQsIHNlbGVjdGlvbiwgbmFtZSB9KSwKICBiYWNrdXBMaXN0OiAoKSA9PiByZXF1ZXN0LmdldCgnL3N5c3RlbS9iYWNrdXBzJyksCiAgZG93bmxvYWRCYWNrdXA6IChmaWxlbmFtZTogc3RyaW5nKSA9PgogICAgcmVxdWVzdC5nZXQoJy9zeXN0ZW0vYmFja3VwL2Rvd25sb2FkJywgewogICAgICBwYXJhbXM6IHsgZmlsZW5hbWUgfSwKICAgICAgcmVzcG9uc2VUeXBlOiAnYmxvYicsCiAgICB9KSBhcyBQcm9taXNlPEJsb2I+LAogIHJlc3RvcmVQcm9ncmVzczogKCkgPT4gcmVxdWVzdC5nZXQoJy9zeXN0ZW0vcmVzdG9yZS9wcm9ncmVzcycpLAogIHJlc3RvcmU6IChmaWxlbmFtZTogc3RyaW5nLCBwYXNzd29yZD86IHN0cmluZykgPT4KICAgIHJlcXVlc3QucG9zdCgnL3N5c3RlbS9yZXN0b3JlJywgeyBmaWxlbmFtZSwgcGFzc3dvcmQgfSwgeyB0aW1lb3V0OiAwIH0pLAogIGRlbGV0ZUJhY2t1cDogKGZpbGVuYW1lOiBzdHJpbmcpID0+CiAgICByZXF1ZXN0LmRlbGV0ZSgnL3N5c3RlbS9iYWNrdXAnLCB7IHBhcmFtczogeyBmaWxlbmFtZSB9IH0pLAogIGhlYWx0aFN0YXR1czogKCkgPT4gcmVxdWVzdC5nZXQoJy9zeXN0ZW0vaGVhbHRoLWNoZWNrJykgYXMgUHJvbWlzZTxTeXN0ZW1IZWFsdGhTbmFwc2hvdD4sCiAgaGVhbHRoQ2hlY2s6ICgpID0+IHJlcXVlc3QucG9zdCgnL3N5c3RlbS9oZWFsdGgtY2hlY2snKSBhcyBQcm9taXNlPFN5c3RlbUhlYWx0aFNuYXBzaG90PiwKICB1cGxvYWRCYWNrdXA6IChmaWxlOiBGaWxlLCBvblByb2dyZXNzPzogKHBlcmNlbnQ6IG51bWJlcikgPT4gdm9pZCkgPT4gewogICAgY29uc3QgZm9ybURhdGEgPSBuZXcgRm9ybURhdGEoKQogICAgZm9ybURhdGEuYXBwZW5kKCdmaWxlJywgZmlsZSkKICAgIHJldHVybiByZXF1ZXN0LnBvc3QoJy9zeXN0ZW0vYmFja3VwL3VwbG9hZCcsIGZvcm1EYXRhLCB7CiAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdtdWx0aXBhcnQvZm9ybS1kYXRhJyB9LAogICAgICB0aW1lb3V0OiAwLAogICAgICBvblVwbG9hZFByb2dyZXNzOiBvblByb2dyZXNzCiAgICAgICAgPyAoZTogYW55KSA9PiB7IGlmIChlLnRvdGFsKSBvblByb2dyZXNzKE1hdGgucm91bmQoKGUubG9hZGVkICogMTAwKSAvIGUudG90YWwpKSB9CiAgICAgICAgOiB1bmRlZmluZWQsCiAgICB9KQogIH0sCn0KCmV4cG9ydCBjb25zdCBjb25maWdTY3JpcHRBcGkgPSB7CiAgZ2V0OiAoKSA9PiByZXF1ZXN0LmdldCgnL3N5c3RlbS9jb25maWctc2NyaXB0JykgYXMgUHJvbWlzZTxDb25maWdTY3JpcHRQYXlsb2FkPiwKICBzYXZlOiAoY29udGVudDogc3RyaW5nKSA9PiByZXF1ZXN0LnB1dCgnL3N5c3RlbS9jb25maWctc2NyaXB0JywgeyBjb250ZW50IH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4sCn0KCmV4cG9ydCBjb25zdCBjb25maWdBcGkgPSB7CiAgbGlzdDogKCkgPT4gcmVxdWVzdC5nZXQoJy9jb25maWdzJyksCiAgZ2V0OiAoa2V5OiBzdHJpbmcpID0+IHJlcXVlc3QuZ2V0KGAvY29uZmlncy8ke2tleX1gKSwKICBzZXQ6IChkYXRhOiB7IGtleTogc3RyaW5nOyB2YWx1ZTogc3RyaW5nOyBkZXNjcmlwdGlvbj86IHN0cmluZyB9KSA9PiByZXF1ZXN0LnBvc3QoJy9jb25maWdzJywgZGF0YSksCiAgYmF0Y2hTZXQ6IChjb25maWdzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+KSA9PiByZXF1ZXN0LnB1dCgnL2NvbmZpZ3MvYmF0Y2gnLCB7IGNvbmZpZ3MgfSksCiAgZGVsZXRlOiAoa2V5OiBzdHJpbmcpID0+IHJlcXVlc3QuZGVsZXRlKGAvY29uZmlncy8ke2tleX1gKSwKfQoKZXhwb3J0IGNvbnN0IHBsYXRmb3JtVG9rZW5BcGkgPSB7CiAgcGxhdGZvcm1zOiAoKSA9PiByZXF1ZXN0LmdldCgnL3BsYXRmb3JtLXRva2Vucy9wbGF0Zm9ybXMnKSwKICBjcmVhdGVQbGF0Zm9ybTogKGRhdGE6IHsgbmFtZTogc3RyaW5nOyBsYWJlbD86IHN0cmluZzsgaWNvbj86IHN0cmluZyB9KSA9PgogICAgcmVxdWVzdC5wb3N0KCcvcGxhdGZvcm0tdG9rZW5zL3BsYXRmb3JtcycsIGRhdGEpLAogIGRlbGV0ZVBsYXRmb3JtOiAoaWQ6IG51bWJlcikgPT4gcmVxdWVzdC5kZWxldGUoYC9wbGF0Zm9ybS10b2tlbnMvcGxhdGZvcm1zLyR7aWR9YCksCiAgbGlzdDogKHBsYXRmb3JtSWQ/OiBudW1iZXIpID0+CiAgICByZXF1ZXN0LmdldCgnL3BsYXRmb3JtLXRva2VucycsIHsgcGFyYW1zOiBwbGF0Zm9ybUlkID8geyBwbGF0Zm9ybV9pZDogcGxhdGZvcm1JZCB9IDoge30gfSksCiAgY3JlYXRlOiAoZGF0YTogeyBwbGF0Zm9ybV9pZDogbnVtYmVyOyBuYW1lOiBzdHJpbmc7IHRva2VuOiBzdHJpbmc7IHJlbWFya3M/OiBzdHJpbmcgfSkgPT4KICAgIHJlcXVlc3QucG9zdCgnL3BsYXRmb3JtLXRva2VucycsIGRhdGEpLAogIHVwZGF0ZTogKGlkOiBudW1iZXIsIGRhdGE6IHsgbmFtZT86IHN0cmluZzsgdG9rZW4/OiBzdHJpbmc7IHJlbWFya3M/OiBzdHJpbmcgfSkgPT4KICAgIHJlcXVlc3QucHV0KGAvcGxhdGZvcm0tdG9rZW5zLyR7aWR9YCwgZGF0YSksCiAgZGVsZXRlOiAoaWQ6IG51bWJlcikgPT4gcmVxdWVzdC5kZWxldGUoYC9wbGF0Zm9ybS10b2tlbnMvJHtpZH1gKSwKICBlbmFibGU6IChpZDogbnVtYmVyKSA9PiByZXF1ZXN0LnB1dChgL3BsYXRmb3JtLXRva2Vucy8ke2lkfS9lbmFibGVgKSwKICBkaXNhYmxlOiAoaWQ6IG51bWJlcikgPT4gcmVxdWVzdC5wdXQoYC9wbGF0Zm9ybS10b2tlbnMvJHtpZH0vZGlzYWJsZWApLAp9Cg==
+import request from './request'
+
+export interface BackupSelection {
+  configs: boolean
+  tasks: boolean
+  subscriptions: boolean
+  env_vars: boolean
+  logs: boolean
+  scripts: boolean
+  dependencies: boolean
+  task_views: boolean
+}
+
+export interface RestoreProgressState {
+  active: boolean
+  status: 'idle' | 'running' | 'completed' | 'failed'
+  filename?: string
+  source?: string
+  selection?: Partial<BackupSelection>
+  stage?: string
+  message?: string
+  percent: number
+  error?: string
+  started_at?: string
+  updated_at?: string
+}
+
+export interface PanelUpdateStatus {
+  status?: 'idle' | 'running' | 'restarting' | 'failed'
+  phase?: string
+  message?: string
+  error?: string
+  started_at?: string
+  updated_at?: string
+  deployment_type?: 'docker' | 'binary'
+  container_name?: string
+  image_name?: string
+  pull_image_name?: string
+  mirror_host?: string
+  registry_url?: string
+  release_version?: string
+  asset_name?: string
+  asset_url?: string
+  install_dir?: string
+  binary_name?: string
+  update_manager?: 'panel' | 'watchtower'
+  watchtower_response?: Record<string, any>
+}
+
+export interface SystemHealthItem {
+  name: string
+  status: string
+  message?: string
+}
+
+export interface SystemHealthSnapshot {
+  items: SystemHealthItem[]
+  last_checked_at?: string
+}
+
+export interface ConfigScriptPayload {
+  content: string
+  path: string
+}
+
+export const systemApi = {
+  info: () => request.get('/system/info'),
+  machineCode: () => request.get('/system/machine-code'),
+  dashboard: (range?: number) => request.get('/system/dashboard', { params: range ? { range } : undefined }),
+  stats: () => request.get('/system/stats'),
+  version: () => request.get('/system/version'),
+  publicVersion: () => request.get('/system/public-version'),
+  panelSettings: () => request.get('/system/panel-settings'),
+  checkUpdate: () => request.get('/system/check-update'),
+  updateStatus: () => request.get('/system/update-status'),
+  updatePanel: () => request.post('/system/update'),
+  restart: () => request.post('/system/restart'),
+  panelLog: (params?: { lines?: number; keyword?: string; level?: 'debug' | 'info' | 'warn' | 'error' | '' }) =>
+    request.get('/system/panel-log', { params }),
+  backup: (password?: string, selection?: Partial<BackupSelection>, name?: string) => request.post('/system/backup', { password, selection, name }),
+  backupList: () => request.get('/system/backups'),
+  downloadBackup: (filename: string) =>
+    request.get('/system/backup/download', {
+      params: { filename },
+      responseType: 'blob',
+    }) as Promise<Blob>,
+  restoreProgress: () => request.get('/system/restore/progress'),
+  restore: (filename: string, password?: string) =>
+    request.post('/system/restore', { filename, password }, { timeout: 0 }),
+  deleteBackup: (filename: string) =>
+    request.delete('/system/backup', { params: { filename } }),
+  healthStatus: () => request.get('/system/health-check') as Promise<SystemHealthSnapshot>,
+  healthCheck: () => request.post('/system/health-check') as Promise<SystemHealthSnapshot>,
+  uploadBackup: (file: File, onProgress?: (percent: number) => void) => {
+    const formData = new FormData()
+    formData.append('file', file)
+    return request.post('/system/backup/upload', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' },
+      timeout: 0,
+      onUploadProgress: onProgress
+        ? (e: any) => { if (e.total) onProgress(Math.round((e.loaded * 100) / e.total)) }
+        : undefined,
+    })
+  },
+}
+
+export const configScriptApi = {
+  get: () => request.get('/system/config-script') as Promise<ConfigScriptPayload>,
+  save: (content: string) => request.put('/system/config-script', { content }) as Promise<{ message: string }>,
+}
+
+export const configApi = {
+  list: () => request.get('/configs'),
+  get: (key: string) => request.get(`/configs/${key}`),
+  set: (data: { key: string; value: string; description?: string }) => request.post('/configs', data),
+  batchSet: (configs: Record<string, string>) => request.put('/configs/batch', { configs }),
+  delete: (key: string) => request.delete(`/configs/${key}`),
+}
+
+export const platformTokenApi = {
+  platforms: () => request.get('/platform-tokens/platforms'),
+  createPlatform: (data: { name: string; label?: string; icon?: string }) =>
+    request.post('/platform-tokens/platforms', data),
+  deletePlatform: (id: number) => request.delete(`/platform-tokens/platforms/${id}`),
+  list: (platformId?: number) =>
+    request.get('/platform-tokens', { params: platformId ? { platform_id: platformId } : {} }),
+  create: (data: { platform_id: number; name: string; token: string; remarks?: string }) =>
+    request.post('/platform-tokens', data),
+  update: (id: number, data: { name?: string; token?: string; remarks?: string }) =>
+    request.put(`/platform-tokens/${id}`, data),
+  delete: (id: number) => request.delete(`/platform-tokens/${id}`),
+  enable: (id: number) => request.put(`/platform-tokens/${id}/enable`),
+  disable: (id: number) => request.put(`/platform-tokens/${id}/disable`),
+}

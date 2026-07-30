@@ -1,1 +1,51 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJInRpbWUiCgoJcGFuZWxjcm9uICJkYWlkYWktcGFuZWwvcGtnL2Nyb24iCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgpmdW5jIChoICpUYXNrSGFuZGxlcikgQ3JvblBhcnNlKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJRXhwcmVzc2lvbiBzdHJpbmcgYGpzb246ImV4cHJlc3Npb24iIGJpbmRpbmc6InJlcXVpcmVkImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCXJlc3VsdCA6PSBwYW5lbGNyb24uUGFyc2UocmVxLkV4cHJlc3Npb24pCglpZiAhcmVzdWx0LlZhbGlkIHsKCQlyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IewoJCQkiaXNfdmFsaWQiOiBmYWxzZSwKCQkJImVycm9yIjogICAgcmVzdWx0LkVycm9yLAoJCX0pCgkJcmV0dXJuCgl9CgoJbmV4dFRpbWVzIDo9IHBhbmVsY3Jvbi5OZXh0UnVuVGltZXMocmVxLkV4cHJlc3Npb24sIDUpCgl0aW1lU3RycyA6PSBtYWtlKFtdc3RyaW5nLCBsZW4obmV4dFRpbWVzKSkKCWZvciBpLCBuZXh0VGltZSA6PSByYW5nZSBuZXh0VGltZXMgewoJCXRpbWVTdHJzW2ldID0gbmV4dFRpbWUuRm9ybWF0KHRpbWUuUkZDMzMzOSkKCX0KCglmb3JtYXQgOj0gIuagh+WHhuagvOW8jyAoNeS9jSkiCglpZiByZXN1bHQuSGFzU2Vjb25kIHsKCQlmb3JtYXQgPSAi5omp5bGV5qC85byPICg25L2N5ZCr56eSKSIKCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IewoJCSJpc192YWxpZCI6ICAgICAgIHRydWUsCgkJImRlc2NyaXB0aW9uIjogICAgcmVzdWx0LkRlc2NyaXB0aW9uLAoJCSJuZXh0X3J1bl90aW1lcyI6IHRpbWVTdHJzLAoJCSJmb3JtYXQiOiAgICAgICAgIGZvcm1hdCwKCX0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBDcm9uVGVtcGxhdGVzKGMgKmdpbi5Db250ZXh0KSB7CglyZXNwb25zZS5TdWNjZXNzKGMsIHBhbmVsY3Jvbi5HZXRUZW1wbGF0ZXMoKSkKfQo=
+package handler
+
+import (
+	"time"
+
+	panelcron "daidai-panel/pkg/cron"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+)
+
+func (h *TaskHandler) CronParse(c *gin.Context) {
+	var req struct {
+		Expression string `json:"expression" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	result := panelcron.Parse(req.Expression)
+	if !result.Valid {
+		response.Success(c, gin.H{
+			"is_valid": false,
+			"error":    result.Error,
+		})
+		return
+	}
+
+	nextTimes := panelcron.NextRunTimes(req.Expression, 5)
+	timeStrs := make([]string, len(nextTimes))
+	for i, nextTime := range nextTimes {
+		timeStrs[i] = nextTime.Format(time.RFC3339)
+	}
+
+	format := "标准格式 (5位)"
+	if result.HasSecond {
+		format = "扩展格式 (6位含秒)"
+	}
+
+	response.Success(c, gin.H{
+		"is_valid":       true,
+		"description":    result.Description,
+		"next_run_times": timeStrs,
+		"format":         format,
+	})
+}
+
+func (h *TaskHandler) CronTemplates(c *gin.Context) {
+	response.Success(c, panelcron.GetTemplates())
+}

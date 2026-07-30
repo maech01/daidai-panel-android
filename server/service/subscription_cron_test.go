@@ -1,1 +1,306 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkidGVzdGluZyIKKQoKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrU3VwcG9ydHNEb2NzdHJpbmdDcm9uRmlsZW5hbWVIZWFkZXIodCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHQuVGVtcERpcigpCglzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgImJpbGlfdGFza19nZXRfY29va2llLnB5IikKCWNvbnRlbnQgOj0gIicnJ1xuMSA5IDExIDExIDEgYmlsaV90YXNrX2dldF9jb29raWUucHlcbuaJi+WKqOi/kOihjO+8jOafpeeci+aXpeW/l1xuJycnXG5wcmludCgnaGVsbG8nKVxuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMSA5IDExIDExIDEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JvbiBmcm9tIGRvY3N0cmluZyBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrSWdub3Jlc0RvY3N0cmluZ0Nyb25Gb3JPdGhlckZpbGUodCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHQuVGVtcERpcigpCglzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgImFjdHVhbF90YXNrLnB5IikKCWNvbnRlbnQgOj0gIicnJ1xuMSA5IDExIDExIDEgb3RoZXJfdGFzay5weVxu5omL5Yqo6L+Q6KGM77yM5p+l55yL5pel5b+XXG4nJydcbnByaW50KCdoZWxsbycpXG4iCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb3QgOj0gcmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrKHNjcmlwdFBhdGgsICIwIDAgKiAqICoiKQoJaWYgZ290ICE9ICIwIDAgKiAqICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmFsbGJhY2sgY3JvbiBmb3IgbWlzbWF0Y2hlZCBmaWxlbmFtZSwgZ290ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3RSZXNvbHZlU3Vic2NyaXB0aW9uVGFza05hbWVQcmVmZXJzTmV3RW52VGl0bGUodCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHQuVGVtcERpcigpCglzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgIm1haW4ucHkiKQoJY29udGVudCA6PSAiXCJcIlwiXG5uZXcgRW52KCfljY7mmJ/nlLXkv6E5OTnnrZTpopgnKTtcbmNyb246IDEgMSAxIDEgMVxuXCJcIlwiXG5wcmludCgnaGVsbG8nKVxuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVTdWJzY3JpcHRpb25UYXNrTmFtZShzY3JpcHRQYXRoLCAibWFpbiIpCglpZiBnb3QgIT0gIuWNjuaYn+eUteS/oTk5OeetlOmimCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0YXNrIG5hbWUgZnJvbSBuZXcgRW52IHRpdGxlLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVTdWJzY3JpcHRpb25UYXNrTmFtZUZhbGxzQmFja1RvRmlsZW5hbWVXaGVuTm9OZXdFbnZUaXRsZSh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAibWFpbi5weSIpCgljb250ZW50IDo9ICJwcmludCgnaGVsbG8nKVxuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVTdWJzY3JpcHRpb25UYXNrTmFtZShzY3JpcHRQYXRoLCAibWFpbiIpCglpZiBnb3QgIT0gIm1haW4iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmFsbGJhY2sgdGFzayBuYW1lLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCi8vIOimhuebliBKUyDlnZfms6jph4ogYC8qIC4uLiAqL2Ag5LitIGA8Y3Jvbj4gPGZpbGVuYW1lPmAg5b2i5byP77yIamRfT25jZUFwcGx5LmpzIOmjjuagvO+8ieOAggpmdW5jIFRlc3RSZXNvbHZlQ3JvbkZvclN1YnNjcmlwdGlvblRhc2tTdXBwb3J0c0Jsb2NrQ29tbWVudENyb25GaWxlbmFtZUhlYWRlcih0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAiamRfT25jZUFwcGx5LmpzIikKCWNvbnRlbnQgOj0gIi8qXG7ku7fmoLzkv53miqRcbjU1IDExICogKiAqIGpkX09uY2VBcHBseS5qc1xuICovXG5jb25zdCAkID0gbmV3IEVudign5LiA6ZSu5Lu35L+dJyk7XG4iCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb3QgOj0gcmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrKHNjcmlwdFBhdGgsICIiKQoJaWYgZ290ICE9ICI1NSAxMSAqICogKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjcm9uIGZyb20gYmxvY2sgY29tbWVudCBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8g6KaG55uWIFB5dGhvbiBkb2NzdHJpbmcg5LitIGA8Y3Jvbj4gPGZpbGVuYW1lPmAg5b2i5byP77yIamRfYmVhbnNfN2RheXMucHkg6aOO5qC877yJ44CCCmZ1bmMgVGVzdFJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFza1N1cHBvcnRzUHl0aG9uRG9jc3RyaW5nQ3JvbkZpbGVuYW1lSGVhZGVyKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJqZF9iZWFuc183ZGF5cy5weSIpCgljb250ZW50IDo9ICIjICEvdXNyL2Jpbi9lbnYgcHl0aG9uM1xuIyAtKi0gY29kaW5nOiB1dGYtOCAtKi1cbicnJ1xubmV3IEVudign6LGG5a2QN+Wkqee7n+iuoScpO1xuOCA4IDI5IDIgKiBqZF9iZWFuc183ZGF5cy5weVxuJycnXG5wcmludCgnaGVsbG8nKVxuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiOCA4IDI5IDIgKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjcm9uIGZyb20gcHl0aG9uIGRvY3N0cmluZyBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8g6KaG55uW6Z2S6b6Z5Y2V6KGM5aOw5piOIGBjcm9uICJFWFBSIiBmaWxlbmFtZSwgdGFnOnh4eGDvvIhqZF9DaGVja0NLLmpzIOmjjuagvO+8ieOAggpmdW5jIFRlc3RSZXNvbHZlQ3JvbkZvclN1YnNjcmlwdGlvblRhc2tTdXBwb3J0c0Nyb25EaXJlY3RpdmVMaW5lKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJqZF9DaGVja0NLLmpzIikKCWNvbnRlbnQgOj0gIi8qXG5jcm9uIFwiNiA2IDYgNiAqXCIgamRfQ2hlY2tDSy5qcywgdGFnOuS6rOS4nENL5qOA5rWLYnktY2N3YXZcbiAqL1xuY29uc29sZS5sb2coJ2hpJyk7XG4iCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb3QgOj0gcmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrKHNjcmlwdFBhdGgsICIiKQoJaWYgZ290ICE9ICI2IDYgNiA2ICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JvbiBmcm9tIGNyb24gZGlyZWN0aXZlIGxpbmUsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8g6Z2S6b6Z5Y2V6KGM5aOw5piO55qEIGNyb24g5LiO6ISa5pys5paH5Lu25ZCN5LiN5LiA6Ie05pe25bqU5b+955Wl77yM6YG/5YWN6K+v5oqT6YK75o6l6ISa5pys55qE5aOw5piO44CCCmZ1bmMgVGVzdFJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFza0Nyb25EaXJlY3RpdmVJZ25vcmVzT3RoZXJGaWxlKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJqZF9PbmNlQXBwbHkuanMiKQoJY29udGVudCA6PSAiLypcbmNyb24gXCI2IDYgNiA2ICpcIiBqZF9DaGVja0NLLmpzLCB0YWc65Lqs5LicQ0vmo4DmtYtcbiAqL1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiMCAwICogKiAqIikKCWlmIGdvdCAhPSAiMCAwICogKiAqIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGZhbGxiYWNrIGNyb24gd2hlbiBkaXJlY3RpdmUgcG9pbnRzIHRvIG90aGVyIGZpbGUsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8g55yf5a6e5Zy65pmv77yaQiDnq5kgY29va2llIOiEmuacrO+8jGRvY3N0cmluZyDkuK3lkKsgY3JvbiDooYwgKyDlpJrooYzkuK3mlofor7TmmI4gKyDlkKsgPSDnmoTku6PnoIHniYfmrrXvvIwKLy8g5LiN5bqU6KKr5Lit5paH6K+05piOIC8g5ZCrID0g55qE5Luj56CB6KGM6K+v6K+G5Yir5Li6IGNyb27jgIIKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrQmlsaWJpbGlEb2NzdHJpbmdTY2VuYXJpbyh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAiYmlsaV90YXNrX2dldF9jb29raWUucHkiKQoJY29udGVudCA6PSBgJycnCjEgOSAxMSAxMSAxIGJpbGlfdGFza19nZXRfY29va2llLnB5CuaJi+WKqOi/kOihjO+8jOafpeeci+aXpeW/l++8jOW5tuS9v+eUqOaJi+acukLnq5lhcHDmiavmj4/ml6Xlv5fkuK3kuoznu7TnoIHvvIzms6jmhI/vvIzlj6rog73kv67mlLnnrKzkuIDkuKpjb29raWUK5aaC5p6c5Lqn55Sf6ZSZ6K+v77yM6YeN5paw6L+Q6KGM5bm255So5omL5py65omr5o+P5LqM57u056CBCuacieWPr+iDveivhuWIq+S4jeWHuuadpeS6jOe7tOegge+8jOaIkea1i+ivleS6huWHoOasoemDveiDveivhuWIqwoK6buY6K6k546v5aKD5Y+Y6YeP5a2Y5pS+5L2N572u5Li6L3FsL2RhdGEvY29uZmlnL2Vudi5zaArlj6/ku6Xoh6rlt7HpgJrov4dkb2NrZXLlkb3ku6Tov5vlhaXlrrnlmajmn6Xmib7ov5nkuKrmlofku7bkvY3nva7jgIJkb2NrZXIgZXhlYyAtaXQgcWluZ2xvbmcgL2Jpbi9iYXNoLOi/m+WFpemdkum+meWuueWZqO+8jOeEtuWQjuafpeaJvuS4gOS4i+i/meS4quaWh+S7tuS9jee9rgpmaWxlbmFtZSA9ICcuLi9jb25maWcvZW52LnNoJwonJycKcHJpbnQoJ2hlbGxvJykKYAoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMSA5IDExIDExIDEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JvbiBmcm9tIGRvY3N0cmluZyBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8gUUxTY3JpcHRQdWJsaWMg55yf5a6e5qC35L6L77yaSlNEb2Mg5Z2X5rOo6YeK5q+P6KGMIGAqYCDliY3nvIAgKyDntKfot5/lkIzlkI3mlofku7bvvIwKLy8g5L6L77yaYCogY3JvbiAxMSA4ICogKiAqICBzeXN4Yy5qc2DvvIhiYWNrdXAvc3lzeGMuanPvvInjgIIKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrU3VwcG9ydHNKU0RvY1N0YXJDcm9uV2l0aEZpbGVuYW1lKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJzeXN4Yy5qcyIpCgljb250ZW50IDo9ICIvKipcbiAqIOS5puS6pueDp+S7meiNiVxuICogY3JvbiAxMSA4ICogKiAqICBzeXN4Yy5qc1xuICogMjMvMDQvMTUg5YaF6YOo5L2/55SoXG4gKi9cbmNvbnN0ICQgPSBuZXcgRW52KFwi5Lmm5Lqm54On5LuZ6I2JXCIpO1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMTEgOCAqICogKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjcm9uIGZyb20gSlNEb2Mgc3RhciBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8gUUxTY3JpcHRQdWJsaWMg55yf5a6e5qC35L6L77yaSlNEb2MgYCpgIOWJjee8gOS9huaXoOWwvumaj+aWh+S7tuWQje+8jAovLyDkvovvvJpgKiBjcm9uIDggMTAgKiAqICpg77yIZGFpbHkveWR5cC5qc++8ieOAggpmdW5jIFRlc3RSZXNvbHZlQ3JvbkZvclN1YnNjcmlwdGlvblRhc2tTdXBwb3J0c0pTRG9jU3RhckNyb25XaXRob3V0RmlsZW5hbWUodCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHQuVGVtcERpcigpCglzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInlkeXAuanMiKQoJY29udGVudCA6PSAiLyoqXG4gKiBuZXcgRW52KFwi5Lit5Zu956e75Yqo5LqR55uYXCIpXG4gKiDlj5jph4/lkI15ZHlwX2NrXG4gKiBjcm9uIDggMTAgKiAqICpcbiAqL1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiOCAxMCAqICogKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjcm9uIGZyb20gYmFyZSBKU0RvYyBzdGFyLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCi8vIFFMU2NyaXB0UHVibGljIOecn+Wunuagt+S+i++8mmAjY3JvbiA8ZXhwcj5g77yI5LqV5Y+35LiU5peg5YaS5Y+377yJ77yMCi8vIOS+i++8mmAjY3JvbiA4IDksMTAsMTEgKiAqICpg77yIZGFpbHkvQlJFTy5wee+8ieOAggpmdW5jIFRlc3RSZXNvbHZlQ3JvbkZvclN1YnNjcmlwdGlvblRhc2tTdXBwb3J0c0hhc2hDcm9uV2l0aG91dENvbG9uKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJCUkVPLnB5IikKCWNvbnRlbnQgOj0gIiNieTrlk4bllaZB5qKmXG4jY3JvbiA4IDksMTAsMTEgKiAqICpcbnByaW50KCdoaScpXG4iCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb3QgOj0gcmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrKHNjcmlwdFBhdGgsICIiKQoJaWYgZ290ICE9ICI4IDksMTAsMTEgKiAqICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JvbiBmcm9tICNjcm9uIGhlYWRlciB3aXRob3V0IGNvbG9uLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFza1N1cHBvcnRzU2xhc2hTbGFzaENyb24odCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHQuVGVtcERpcigpCglzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgImRhaWx5LmpzIikKCWNvbnRlbnQgOj0gIi8vY3JvbjogMTUgMTIgKiAqICpcbmNvbnN0ICQgPSBuZXcgRW52KCdkYWlseScpO1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMTUgMTIgKiAqICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JvbiBmcm9tIC8vY3JvbiBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8gUUxTY3JpcHRQdWJsaWMg55yf5a6e5qC35L6L77yaUHl0aG9uIGRvY3N0cmluZyDkuK0gYGNyb24gPGV4cHI+YO+8iOaXoOazqOmHiuespuWPt+OAgeaXoOWGkuWPt++8ie+8jAovLyDkvovvvJpgY3JvbiAwIDEyICogKiAqYO+8iGRhaWx5L3Nmc3kucHnvvInjgIIKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrU3VwcG9ydHNCYXJlQ3JvbldpdGhvdXRDb2xvbih0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAic2ZzeS5weSIpCgljb250ZW50IDo9ICJcIlwiXCJcbumhuuS4sOmAn+i/kOaXpeW4uOenr+WIhuS7u+WKoVxuY3JvbiAwIDEyICogKiAqXG5cIlwiXCJcbnByaW50KCdoaScpXG4iCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb3QgOj0gcmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrKHNjcmlwdFBhdGgsICIiKQoJaWYgZ290ICE9ICIwIDEyICogKiAqIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNyb24gZnJvbSBiYXJlIGBjcm9uYCBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8gUUxTY3JpcHRQdWJsaWMg55yf5a6e5qC35L6L77yaYEBjcm9uOmAgSlNEb2Mg6aOO5qC85qCH562+77yMCi8vIOS+i++8mmBAY3JvbjogMzAgOCAqICogKmDvvIhkYWlseS95aHQuanPvvInjgIIKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrU3VwcG9ydHNBdENyb25UYWcodCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHQuVGVtcERpcigpCglzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInlodC5qcyIpCgljb250ZW50IDo9ICIvKlxuQERlc2NyaXB0aW9uOiAg55uK56a+5aCCXG5AY3JvbjogMzAgOCAqICogKlxuKi9cbmNvbnN0ICQgPSBuZXcgRW52KFwi55uK56a+5aCCXCIpO1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMzAgOCAqICogKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjcm9uIGZyb20gQGNyb24gdGFnLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCi8vIFFMU2NyaXB0UHVibGljIOecn+Wunuagt+S+i++8mkpTRG9jIOihjOWwvui3n+maj+S4jeWMuemFjeeahOaWh+S7tuWQje+8iOiEmuacrOS9nOiAheeslOivr++8ie+8jAovLyDkvovvvJpqbGxkLmpzIOWGheWGmeedgCBgKiBjcm9uIDI3IDE3ICogKiAqICBsZWlkYWNhci5qc2DvvIzku43lupTor4bliKsgY3JvbuOAggpmdW5jIFRlc3RSZXNvbHZlQ3JvbkZvclN1YnNjcmlwdGlvblRhc2tKU0RvY0Nyb25BY2NlcHRzTWlzbWF0Y2hlZEZpbGVuYW1lSGludCh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAiamxsZC5qcyIpCgljb250ZW50IDo9ICIvKipcbiAqIG5ldyBFbnYoJ2psbGQnKVxuICogY3JvbiAyNyAxNyAqICogKiAgbGVpZGFjYXIuanNcbiAqL1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMjcgMTcgKiAqICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JvbiBmcm9tIEpTRG9jIGhlYWRlciBldmVuIHdoZW4gdHJhaWxpbmcgZmlsZW5hbWUgbWlzbWF0Y2hlcywgZ290ICVxIiwgZ290KQoJfQp9CgovLyDpmLLlvqHmgKflm57lvZLvvJrnuq/kuK3mloflj5nov7DkuK3ljIXlkKsgImNyb24iIOWNleivjeaXtuS4jeW6lOiiq+ivr+WIpOS4uiBjcm9uIOihqOi+vuW8j++8jAovLyDkvovvvJpgMi4gY3JvbiDku6XpmLJvY3Lor4bliKvlh7rplJnmr4/lpKnov5DooYzkuKTmrKHlt6blj7Ng77yIYmFja3VwL3N5c3hjLnB577yJ44CCCmZ1bmMgVGVzdFJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFza0lnbm9yZXNDaGluZXNlUHJvc2VNZW50aW9uaW5nQ3Jvbih0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAic3lzeGMucHkiKQoJY29udGVudCA6PSAiXCJcIlwiXG4yLiBjcm9uIOS7pemYsm9jcuivhuWIq+WHuumUmeavj+Wkqei/kOihjOS4pOasoeW3puWPs1xuMy4gZGRkZG9jcuaQreW7uuaWueazlS4uLlxuXCJcIlwiXG4iCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb3QgOj0gcmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrKHNjcmlwdFBhdGgsICIwIDAgKiAqICoiKQoJaWYgZ290ICE9ICIwIDAgKiAqICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmFsbGJhY2sgY3JvbiB3aGVuIG9ubHkgQ2hpbmVzZSBwcm9zZSBtZW50aW9ucyBjcm9uLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCi8vIGpkcHJvIOecn+Wunuagt+S+i++8mmBjcm9uOmAg5ZCO5peg56m65qC857Sn6LS05pWw5a2X77yM5L6L77yaYGNyb246MzkgNyAqICogKmDvvIhqZF9kYWthX2JlYW4uanPvvInjgIIKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrU3VwcG9ydHNDb2xvbldpdGhvdXRTcGFjZSh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihyb290LCAiamRfZGFrYV9iZWFuLmpzIikKCWNvbnRlbnQgOj0gIi8qXG7kuqzosYbmiZPljaFcbmNyb246MzkgNyAqICogKlxuKi9cbmNvbnN0ICQgPSBuZXcgRW52KFwi5Lqs6LGG5omT5Y2hXCIpO1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IHJlc29sdmVDcm9uRm9yU3Vic2NyaXB0aW9uVGFzayhzY3JpcHRQYXRoLCAiIikKCWlmIGdvdCAhPSAiMzkgNyAqICogKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjcm9uIGZyb20gY29sb24td2l0aG91dC1zcGFjZSBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCX0KfQoKLy8g6Ziy5b6h5oCn5Zue5b2S77ya5LiN5bqU6KKrIGBjcm9udGFiYCAvIGBjcm9uLXV0aWxzYCDnrYnlhbPplK7or43or6/ljLnphY3jgIIKZnVuYyBUZXN0UmVzb2x2ZUNyb25Gb3JTdWJzY3JpcHRpb25UYXNrSWdub3Jlc0Nyb25LZXl3b3JkV2l0aG91dEJvdW5kYXJ5KHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJtYWluLmpzIikKCWNvbnRlbnQgOj0gIi8vIGNyb250YWIgaXMgYSB0b29sLCBzZWUgaHR0cHM6Ly9jcm9udGFiLmd1cnVcbi8vIGNyb24tdXRpbHMgMCAwICogKiAqXG5jb25zb2xlLmxvZygnaGknKTtcbiIKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoc2NyaXB0UGF0aCwgW11ieXRlKGNvbnRlbnQpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBzY3JpcHQ6ICV2IiwgZXJyKQoJfQoKCWdvdCA6PSByZXNvbHZlQ3JvbkZvclN1YnNjcmlwdGlvblRhc2soc2NyaXB0UGF0aCwgIjAgMCAqICogKiIpCglpZiBnb3QgIT0gIjAgMCAqICogKiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmYWxsYmFjayBjcm9uIGZvciBub24tY3JvbiBrZXl3b3JkcywgZ290ICVxIiwgZ290KQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+)
+
+func TestResolveCronForSubscriptionTaskSupportsDocstringCronFilenameHeader(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "bili_task_get_cookie.py")
+	content := "'''\n1 9 11 11 1 bili_task_get_cookie.py\n手动运行，查看日志\n'''\nprint('hello')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "1 9 11 11 1" {
+		t.Fatalf("expected cron from docstring header, got %q", got)
+	}
+}
+
+func TestResolveCronForSubscriptionTaskIgnoresDocstringCronForOtherFile(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "actual_task.py")
+	content := "'''\n1 9 11 11 1 other_task.py\n手动运行，查看日志\n'''\nprint('hello')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "0 0 * * *")
+	if got != "0 0 * * *" {
+		t.Fatalf("expected fallback cron for mismatched filename, got %q", got)
+	}
+}
+
+func TestResolveSubscriptionTaskNamePrefersNewEnvTitle(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "main.py")
+	content := "\"\"\"\nnew Env('华星电信999答题');\ncron: 1 1 1 1 1\n\"\"\"\nprint('hello')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveSubscriptionTaskName(scriptPath, "main")
+	if got != "华星电信999答题" {
+		t.Fatalf("expected task name from new Env title, got %q", got)
+	}
+}
+
+func TestResolveSubscriptionTaskNameFallsBackToFilenameWhenNoNewEnvTitle(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "main.py")
+	content := "print('hello')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveSubscriptionTaskName(scriptPath, "main")
+	if got != "main" {
+		t.Fatalf("expected fallback task name, got %q", got)
+	}
+}
+
+// 覆盖 JS 块注释 `/* ... */` 中 `<cron> <filename>` 形式（jd_OnceApply.js 风格）。
+func TestResolveCronForSubscriptionTaskSupportsBlockCommentCronFilenameHeader(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "jd_OnceApply.js")
+	content := "/*\n价格保护\n55 11 * * * jd_OnceApply.js\n */\nconst $ = new Env('一键价保');\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "55 11 * * *" {
+		t.Fatalf("expected cron from block comment header, got %q", got)
+	}
+}
+
+// 覆盖 Python docstring 中 `<cron> <filename>` 形式（jd_beans_7days.py 风格）。
+func TestResolveCronForSubscriptionTaskSupportsPythonDocstringCronFilenameHeader(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "jd_beans_7days.py")
+	content := "# !/usr/bin/env python3\n# -*- coding: utf-8 -*-\n'''\nnew Env('豆子7天统计');\n8 8 29 2 * jd_beans_7days.py\n'''\nprint('hello')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "8 8 29 2 *" {
+		t.Fatalf("expected cron from python docstring header, got %q", got)
+	}
+}
+
+// 覆盖青龙单行声明 `cron "EXPR" filename, tag:xxx`（jd_CheckCK.js 风格）。
+func TestResolveCronForSubscriptionTaskSupportsCronDirectiveLine(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "jd_CheckCK.js")
+	content := "/*\ncron \"6 6 6 6 *\" jd_CheckCK.js, tag:京东CK检测by-ccwav\n */\nconsole.log('hi');\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "6 6 6 6 *" {
+		t.Fatalf("expected cron from cron directive line, got %q", got)
+	}
+}
+
+// 青龙单行声明的 cron 与脚本文件名不一致时应忽略，避免误抓邻接脚本的声明。
+func TestResolveCronForSubscriptionTaskCronDirectiveIgnoresOtherFile(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "jd_OnceApply.js")
+	content := "/*\ncron \"6 6 6 6 *\" jd_CheckCK.js, tag:京东CK检测\n */\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "0 0 * * *")
+	if got != "0 0 * * *" {
+		t.Fatalf("expected fallback cron when directive points to other file, got %q", got)
+	}
+}
+
+// 真实场景：B 站 cookie 脚本，docstring 中含 cron 行 + 多行中文说明 + 含 = 的代码片段，
+// 不应被中文说明 / 含 = 的代码行误识别为 cron。
+func TestResolveCronForSubscriptionTaskBilibiliDocstringScenario(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "bili_task_get_cookie.py")
+	content := `'''
+1 9 11 11 1 bili_task_get_cookie.py
+手动运行，查看日志，并使用手机B站app扫描日志中二维码，注意，只能修改第一个cookie
+如果产生错误，重新运行并用手机扫描二维码
+有可能识别不出来二维码，我测试了几次都能识别
+
+默认环境变量存放位置为/ql/data/config/env.sh
+可以自己通过docker命令进入容器查找这个文件位置。docker exec -it qinglong /bin/bash,进入青龙容器，然后查找一下这个文件位置
+filename = '../config/env.sh'
+'''
+print('hello')
+`
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "1 9 11 11 1" {
+		t.Fatalf("expected cron from docstring header, got %q", got)
+	}
+}
+
+// QLScriptPublic 真实样例：JSDoc 块注释每行 `*` 前缀 + 紧跟同名文件，
+// 例：`* cron 11 8 * * *  sysxc.js`（backup/sysxc.js）。
+func TestResolveCronForSubscriptionTaskSupportsJSDocStarCronWithFilename(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "sysxc.js")
+	content := "/**\n * 书亦烧仙草\n * cron 11 8 * * *  sysxc.js\n * 23/04/15 内部使用\n */\nconst $ = new Env(\"书亦烧仙草\");\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "11 8 * * *" {
+		t.Fatalf("expected cron from JSDoc star header, got %q", got)
+	}
+}
+
+// QLScriptPublic 真实样例：JSDoc `*` 前缀但无尾随文件名，
+// 例：`* cron 8 10 * * *`（daily/ydyp.js）。
+func TestResolveCronForSubscriptionTaskSupportsJSDocStarCronWithoutFilename(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "ydyp.js")
+	content := "/**\n * new Env(\"中国移动云盘\")\n * 变量名ydyp_ck\n * cron 8 10 * * *\n */\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "8 10 * * *" {
+		t.Fatalf("expected cron from bare JSDoc star, got %q", got)
+	}
+}
+
+// QLScriptPublic 真实样例：`#cron <expr>`（井号且无冒号），
+// 例：`#cron 8 9,10,11 * * *`（daily/BREO.py）。
+func TestResolveCronForSubscriptionTaskSupportsHashCronWithoutColon(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "BREO.py")
+	content := "#by:哆啦A梦\n#cron 8 9,10,11 * * *\nprint('hi')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "8 9,10,11 * * *" {
+		t.Fatalf("expected cron from #cron header without colon, got %q", got)
+	}
+}
+
+func TestResolveCronForSubscriptionTaskSupportsSlashSlashCron(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "daily.js")
+	content := "//cron: 15 12 * * *\nconst $ = new Env('daily');\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "15 12 * * *" {
+		t.Fatalf("expected cron from //cron header, got %q", got)
+	}
+}
+
+// QLScriptPublic 真实样例：Python docstring 中 `cron <expr>`（无注释符号、无冒号），
+// 例：`cron 0 12 * * *`（daily/sfsy.py）。
+func TestResolveCronForSubscriptionTaskSupportsBareCronWithoutColon(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "sfsy.py")
+	content := "\"\"\"\n顺丰速运日常积分任务\ncron 0 12 * * *\n\"\"\"\nprint('hi')\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "0 12 * * *" {
+		t.Fatalf("expected cron from bare `cron` header, got %q", got)
+	}
+}
+
+// QLScriptPublic 真实样例：`@cron:` JSDoc 风格标签，
+// 例：`@cron: 30 8 * * *`（daily/yht.js）。
+func TestResolveCronForSubscriptionTaskSupportsAtCronTag(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "yht.js")
+	content := "/*\n@Description:  益禾堂\n@cron: 30 8 * * *\n*/\nconst $ = new Env(\"益禾堂\");\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "30 8 * * *" {
+		t.Fatalf("expected cron from @cron tag, got %q", got)
+	}
+}
+
+// QLScriptPublic 真实样例：JSDoc 行尾跟随不匹配的文件名（脚本作者笔误），
+// 例：jlld.js 内写着 `* cron 27 17 * * *  leidacar.js`，仍应识别 cron。
+func TestResolveCronForSubscriptionTaskJSDocCronAcceptsMismatchedFilenameHint(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "jlld.js")
+	content := "/**\n * new Env('jlld')\n * cron 27 17 * * *  leidacar.js\n */\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "27 17 * * *" {
+		t.Fatalf("expected cron from JSDoc header even when trailing filename mismatches, got %q", got)
+	}
+}
+
+// 防御性回归：纯中文叙述中包含 "cron" 单词时不应被误判为 cron 表达式，
+// 例：`2. cron 以防ocr识别出错每天运行两次左右`（backup/sysxc.py）。
+func TestResolveCronForSubscriptionTaskIgnoresChineseProseMentioningCron(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "sysxc.py")
+	content := "\"\"\"\n2. cron 以防ocr识别出错每天运行两次左右\n3. ddddocr搭建方法...\n\"\"\"\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "0 0 * * *")
+	if got != "0 0 * * *" {
+		t.Fatalf("expected fallback cron when only Chinese prose mentions cron, got %q", got)
+	}
+}
+
+// jdpro 真实样例：`cron:` 后无空格紧贴数字，例：`cron:39 7 * * *`（jd_daka_bean.js）。
+func TestResolveCronForSubscriptionTaskSupportsColonWithoutSpace(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "jd_daka_bean.js")
+	content := "/*\n京豆打卡\ncron:39 7 * * *\n*/\nconst $ = new Env(\"京豆打卡\");\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "")
+	if got != "39 7 * * *" {
+		t.Fatalf("expected cron from colon-without-space header, got %q", got)
+	}
+}
+
+// 防御性回归：不应被 `crontab` / `cron-utils` 等关键词误匹配。
+func TestResolveCronForSubscriptionTaskIgnoresCronKeywordWithoutBoundary(t *testing.T) {
+	root := t.TempDir()
+	scriptPath := filepath.Join(root, "main.js")
+	content := "// crontab is a tool, see https://crontab.guru\n// cron-utils 0 0 * * *\nconsole.log('hi');\n"
+	if err := os.WriteFile(scriptPath, []byte(content), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	got := resolveCronForSubscriptionTask(scriptPath, "0 0 * * *")
+	if got != "0 0 * * *" {
+		t.Fatalf("expected fallback cron for non-cron keywords, got %q", got)
+	}
+}

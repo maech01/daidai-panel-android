@@ -1,1 +1,320 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgQ29ubmVjdGlvbiwgRG9jdW1lbnQsIEluZm9GaWxsZWQgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHR5cGUgeyBTZXR0aW5nc0NvbmZpZ0Zvcm0gfSBmcm9tICcuLi90eXBlcycKCmRlZmluZVByb3BzPHsKICBjb25maWdzU2F2aW5nOiBib29sZWFuCiAgZm9ybTogU2V0dGluZ3NDb25maWdGb3JtCiAgb25TYXZlOiAoKSA9PiB2b2lkCn0+KCkKCmNvbnN0IGRvY2tlck1pcnJvckRpYWxvZ1Zpc2libGUgPSByZWYoZmFsc2UpCmNvbnN0IGJpbmFyeVByb3h5RGlhbG9nVmlzaWJsZSA9IHJlZihmYWxzZSkKY29uc3QgcHJveHlIZWxwRGlhbG9nVmlzaWJsZSA9IHJlZihmYWxzZSkKCmNvbnN0IGRvY2tlck1pcnJvck9wdGlvbnMgPSBbCiAgJ2h0dHBzOi8vZG9ja2VyLjFtcy5ydW4nLAogICdodHRwczovL2RvY2tlci4xcGFuZWwubGl2ZScsCiAgJ2h0dHBzOi8vZG9ja2VyLnNwYXJrY3IuY24nLAogICdodHRwczovL2h1Yi5yYXQuZGV2JywKICAnaHR0cHM6Ly9kb2NrZXJwcm94eS5uZXQnLAogICdodHRwczovL21pcnJvci5jY3MudGVuY2VudHl1bi5jb20nCl0KCmNvbnN0IGJpbmFyeVByb3h5T3B0aW9ucyA9IFsKICAnaHR0cHM6Ly9naC1wcm94eS5vcmcvJywKICAnaHR0cHM6Ly92NC5naC1wcm94eS5vcmcvJywKICAnaHR0cDovL2doLjMwMS5lZS8nLAogICdodHRwczovL2docHJveHkuaG9tZWJveWMuY24vJwpdCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1jYXJkIHNoYWRvdz0ibmV2ZXIiPgogICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyIj4KICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PENvbm5lY3Rpb24gLz48L2VsLWljb24+IOe9kee7nOS7o+eQhjwvc3Bhbj4KICAgICAgICA8ZWwtYnV0dG9uIHR5cGU9InByaW1hcnkiIDpsb2FkaW5nPSJjb25maWdzU2F2aW5nIiBAY2xpY2s9Im9uU2F2ZSI+CiAgICAgICAgICA8ZWwtaWNvbj48RG9jdW1lbnQgLz48L2VsLWljb24+5L+d5a2Y6YWN572uCiAgICAgICAgPC9lbC1idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KCiAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgPGRpdiBjbGFzcz0iZmllbGQtbGFiZWwtcm93Ij4KICAgICAgICA8bGFiZWw+5Luj55CG5Zyw5Z2APC9sYWJlbD4KICAgICAgICA8ZWwtYnV0dG9uCiAgICAgICAgICBjbGFzcz0iZmllbGQtaGVscC1idXR0b24iCiAgICAgICAgICB0ZXh0CiAgICAgICAgICB0eXBlPSJwcmltYXJ5IgogICAgICAgICAgc2l6ZT0ic21hbGwiCiAgICAgICAgICBAY2xpY2s9InByb3h5SGVscERpYWxvZ1Zpc2libGUgPSB0cnVlIgogICAgICAgID4KICAgICAgICAgIDxlbC1pY29uPjxJbmZvRmlsbGVkIC8+PC9lbC1pY29uPgogICAgICAgICAg6K+05piOCiAgICAgICAgPC9lbC1idXR0b24+CiAgICAgIDwvZGl2PgogICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5wcm94eV91cmwiIHBsYWNlaG9sZGVyPSJodHRwOi8vMTI3LjAuMC4xOjc4OTAiIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPuacjeWKoeWZqOWHuuermeiuv+mXruWklue9keWbsOmavuaXtuWhq+WGme+8m+aUr+aMgSBIVFRQL1NPQ0tTNe+8jOWmgiBodHRwOi8vMTI3LjAuMC4xOjc4OTA8L3NwYW4+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgPGxhYmVsPuezu+e7n+abtOaWsOmVnOWDj+a6kDwvbGFiZWw+CiAgICAgIDxkaXYgY2xhc3M9Im1pcnJvci1yb3ciPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJmb3JtLnVwZGF0ZV9pbWFnZV9taXJyb3IiIHBsYWNlaG9sZGVyPSJodHRwczovL2RvY2tlci5leGFtcGxlLmNvbSIgLz4KICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0iZG9ja2VyTWlycm9yRGlhbG9nVmlzaWJsZSA9IHRydWUiPgogICAgICAgICAg6YWN572uCiAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgPGVsLWJ1dHRvbgogICAgICAgICAgdi1pZj0iZm9ybS51cGRhdGVfaW1hZ2VfbWlycm9yIgogICAgICAgICAgdGV4dAogICAgICAgICAgdHlwZT0iZGFuZ2VyIgogICAgICAgICAgQGNsaWNrPSJmb3JtLnVwZGF0ZV9pbWFnZV9taXJyb3IgPSAnJyIKICAgICAgICA+CiAgICAgICAgICDmgaLlpI3nm7Tov54KICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgPC9kaXY+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPgogICAgICAgIERvY2tlciDpg6jnvbLmm7TmlrDkvb/nlKjvvIzlj6/loavlhpnplZzlg4/liqDpgJ/lnLDlnYDmiJboh6rlu7rplZzlg4/mupDvvJvkuZ/lj6/ku6XliLAgc3RhdHVzLmFueWUueHl6IOafpeeci+abtOWkmumVnOWDj+a6kOeKtuaAge+8m+eVmeepuuWImeebtOaOpeS7jum7mOiupOmVnOWDj+S7k+W6k+aLieWPluabtOaWsOmVnOWDj+OAggogICAgICA8L3NwYW4+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgPGxhYmVsPuS6jOi/m+WItuabtOaWsOWKoOmAn+a6kDwvbGFiZWw+CiAgICAgIDxkaXYgY2xhc3M9Im1pcnJvci1yb3ciPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJmb3JtLmJpbmFyeV91cGRhdGVfcHJveHkiIHBsYWNlaG9sZGVyPSJodHRwczovL2doLXByb3h5LmV4YW1wbGUuY29tLyIgLz4KICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0iYmluYXJ5UHJveHlEaWFsb2dWaXNpYmxlID0gdHJ1ZSI+CiAgICAgICAgICDphY3nva4KICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICA8ZWwtYnV0dG9uCiAgICAgICAgICB2LWlmPSJmb3JtLmJpbmFyeV91cGRhdGVfcHJveHkiCiAgICAgICAgICB0ZXh0CiAgICAgICAgICB0eXBlPSJkYW5nZXIiCiAgICAgICAgICBAY2xpY2s9ImZvcm0uYmluYXJ5X3VwZGF0ZV9wcm94eSA9ICcnIgogICAgICAgID4KICAgICAgICAgIOaBouWkjeebtOi/ngogICAgICAgIDwvZWwtYnV0dG9uPgogICAgICA8L2Rpdj4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+CiAgICAgICAg5LqM6L+b5Yi26YOo572y5pu05paw5L2/55So77yM55So5LqO5Yqg6YCfIEdpdEh1YiBSZWxlYXNlIOabtOaWsOWMheS4i+i9ve+8m+eVmeepuuWImeebtOi/niBHaXRIdWIg5LiL6L2944CCCiAgICAgIDwvc3Bhbj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9InN3aXRjaC1yb3ciPgogICAgICA8ZGl2IGNsYXNzPSJzd2l0Y2gtaXRlbSI+CiAgICAgICAgPHNwYW4gY2xhc3M9InN3aXRjaC1sYWJlbCI+6Z2Z6buY5pu05pawPC9zcGFuPgogICAgICAgIDxlbC1zd2l0Y2ggdi1tb2RlbD0iZm9ybS5hdXRvX3VwZGF0ZV9lbmFibGVkIiBpbmxpbmUtcHJvbXB0IGFjdGl2ZS10ZXh0PSLlvIAiIGluYWN0aXZlLXRleHQ9IuWFsyIgLz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPuW8gOWQr+WQjuavjyAyNCDlsI/ml7boh6rliqjmo4Dmn6XkuIDmrKHmlrDniYjmnKzvvJvoi6Xmo4DmtYvliLDmm7TmlrDvvIzlsIbmjInlvZPliY3plZzlg4/muKDpgZPoh6rliqjlsJ3or5Xmm7TmlrDlubbpgJrov4fpgJrnn6XmuKDpgZPlj43ppojnu5PmnpzjgII8L3NwYW4+CgogICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgIDxsYWJlbD7lj6/kv6Hku6PnkIYgQ0lEUjwvbGFiZWw+CiAgICAgIDxlbC1pbnB1dAogICAgICAgIHYtbW9kZWw9ImZvcm0udHJ1c3RlZF9wcm94eV9jaWRycyIKICAgICAgICB0eXBlPSJ0ZXh0YXJlYSIKICAgICAgICA6cm93cz0iNSIKICAgICAgICBwbGFjZWhvbGRlcj0iMTI3LjAuMC4xLzMyJiMxMDsxMC4wLjAuMC84JiMxMDsyMDMuMC4xMTMuMTAiCiAgICAgIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPgogICAgICAgIOaUr+aMgSBJUOOAgUNJRFLjgIHpgJflj7fmiJbmjaLooYzliIbpmpTjgILnlZnnqbrkvJrmgaLlpI3pu5jorqTnp4HnvZHmrrXkuI7mnKzmnLrlnLDlnYDvvJvkv53lrZjlkI7lrqLmiLfnq68gSVAg6Kej5p6Q5Lya5oyJ6L+Z5Lu95YiX6KGo5Yik5pat5Y+v5L+h5Luj55CG44CCCiAgICAgIDwvc3Bhbj4KICAgIDwvZGl2PgoKICAgIDxlbC1kaWFsb2cgdi1tb2RlbD0icHJveHlIZWxwRGlhbG9nVmlzaWJsZSIgdGl0bGU9IuS7o+eQhuWcsOWdgOivtOaYjiIgd2lkdGg9IjU2MHB4Ij4KICAgICAgPGRpdiBjbGFzcz0icHJveHktaGVscCI+CiAgICAgICAgPHA+CiAgICAgICAgICDov5nph4zphY3nva7nmoTmmK/pnaLmnb/mnI3liqHlmajnmoTlh7rnq5nku6PnkIbjgILloavlhpnlkI7vvIzpnaLmnb/lkI7lj7Dorr/pl67lpJbpg6jnvZHnu5zml7bkvJrkvJjlhYjnu4/ov4fov5nkuKrku6PnkIbvvIzkvovlpoLmi4nlj5borqLpmIXku5PlupPjgIHkuIvovb3ohJrmnKzjgIHlronoo4UgUHl0aG9uIC8gTm9kZSAvIOezu+e7n+S+nei1luOAgeWBpeW6t+ajgOafpeS7peWPiumDqOWIhumAmuefpeivt+axguOAggogICAgICAgIDwvcD4KICAgICAgICA8cD4KICAgICAgICAgIOWmguaenOacjeWKoeWZqOacrOi6q+iuv+mXriBHaXRIdWLjgIFucG3jgIFQeVBJ44CB6K6i6ZiF5rqQ5oiW5aSW6YOo5o6l5Y+j5q2j5bi477yM5Y+v5Lul55WZ56m677yb5aaC5p6c5pyN5Yqh5Zmo5Zyo5Zu95YaF572R57uc546v5aKD5LiL57uP5bi46L+e5o6l6LaF5pe244CB5LiL6L295aSx6LSl44CB5L6d6LWW5a6J6KOF5aSx6LSl77yM5oiW6ICF5L2g6ZyA6KaB6K6p6Z2i5p2/6YCa6L+H5oyH5a6a5Luj55CG6K6/6Zeu5aSW572R77yM5bCx5aGr5YaZ6L+Z6YeM44CCCiAgICAgICAgPC9wPgogICAgICAgIDxkaXYgY2xhc3M9InByb3h5LWhlbHAtc2VjdGlvbiI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJwcm94eS1oZWxwLXRpdGxlIj7loavlhpnnpLrkvos8L2Rpdj4KICAgICAgICAgIDxjb2RlPmh0dHA6Ly8xMjcuMC4wLjE6Nzg5MDwvY29kZT4KICAgICAgICAgIDxjb2RlPmh0dHA6Ly91c2VyOnBhc3NAMTI3LjAuMC4xOjc4OTA8L2NvZGU+CiAgICAgICAgICA8Y29kZT5zb2NrczU6Ly8xMjcuMC4wLjE6MTA4MDwvY29kZT4KICAgICAgICA8L2Rpdj4KICAgICAgICA8cCBjbGFzcz0icHJveHktaGVscC1ub3RlIj4KICAgICAgICAgIOi/memHjOWhq+WGmeeahOaYr+KAnOmdouadv+acjeWKoeWZqOiDveiuv+mXruWIsOeahOS7o+eQhuWcsOWdgOKAneOAguWmguaenOmdouadv+i/kOihjOWcqCBEb2NrZXIg5a655Zmo5YaF77yMMTI3LjAuMC4xIOaMh+eahOaYr+WuueWZqOWGhemDqO+8jOS4jeaYr+Wuv+S4u+acuu+8m+Wuv+S4u+acuuS7o+eQhumAmuW4uOmcgOimgeWhq+WGmeWuv+S4u+acuuWcqOWuueWZqOWGheWPr+iuv+mXrueahOWcsOWdgOOAggogICAgICAgIDwvcD4KICAgICAgPC9kaXY+CiAgICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgQGNsaWNrPSJwcm94eUhlbHBEaWFsb2dWaXNpYmxlID0gZmFsc2UiPuefpemBk+S6hjwvZWwtYnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9lbC1kaWFsb2c+CgogICAgPGVsLWRpYWxvZyB2LW1vZGVsPSJkb2NrZXJNaXJyb3JEaWFsb2dWaXNpYmxlIiB0aXRsZT0i57O757uf5pu05paw6ZWc5YOP5rqQIiB3aWR0aD0iNTIwcHgiPgogICAgICA8ZGl2IGNsYXNzPSJtaXJyb3Itc291cmNlLXRpcCI+CiAgICAgICAg5Y+v5YiwCiAgICAgICAgPGEgaHJlZj0iaHR0cHM6Ly9zdGF0dXMuYW55ZS54eXovIiB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub29wZW5lciBub3JlZmVycmVyIj4KICAgICAgICAgIOWuueWZqOmVnOWDj+ebkeaOpwogICAgICAgIDwvYT4KICAgICAgICDmn6XnnIvmm7TlpJogRG9ja2VyIEh1YiDplZzlg4/liqDpgJ/mupDnirbmgIHvvIzpgInmi6nlj6/nlKjlnLDlnYDlkI7miYvliqjloavlhaXkuIrmlrnovpPlhaXmoYbjgIIKICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9Im1pcnJvci1vcHRpb24tbGlzdCI+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgdi1mb3I9InVybCBpbiBkb2NrZXJNaXJyb3JPcHRpb25zIgogICAgICAgICAgOmtleT0idXJsIgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgY2xhc3M9Im1pcnJvci1vcHRpb24iCiAgICAgICAgICA6Y2xhc3M9InsgYWN0aXZlOiBmb3JtLnVwZGF0ZV9pbWFnZV9taXJyb3IgPT09IHVybCB9IgogICAgICAgICAgQGNsaWNrPSJmb3JtLnVwZGF0ZV9pbWFnZV9taXJyb3IgPSB1cmw7IGRvY2tlck1pcnJvckRpYWxvZ1Zpc2libGUgPSBmYWxzZSIKICAgICAgICA+CiAgICAgICAgICA8c3Bhbj57eyB1cmwgfX08L3NwYW4+CiAgICAgICAgPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgICA8dGVtcGxhdGUgI2Zvb3Rlcj4KICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0iZG9ja2VyTWlycm9yRGlhbG9nVmlzaWJsZSA9IGZhbHNlIj7lhbPpl608L2VsLWJ1dHRvbj4KICAgICAgPC90ZW1wbGF0ZT4KICAgIDwvZWwtZGlhbG9nPgoKICAgIDxlbC1kaWFsb2cgdi1tb2RlbD0iYmluYXJ5UHJveHlEaWFsb2dWaXNpYmxlIiB0aXRsZT0i5LqM6L+b5Yi25pu05paw5Yqg6YCf5rqQIiB3aWR0aD0iNTIwcHgiPgogICAgICA8ZGl2IGNsYXNzPSJtaXJyb3Itb3B0aW9uLWxpc3QiPgogICAgICAgIDxidXR0b24KICAgICAgICAgIHYtZm9yPSJ1cmwgaW4gYmluYXJ5UHJveHlPcHRpb25zIgogICAgICAgICAgOmtleT0idXJsIgogICAgICAgICAgdHlwZT0iYnV0dG9uIgogICAgICAgICAgY2xhc3M9Im1pcnJvci1vcHRpb24iCiAgICAgICAgICA6Y2xhc3M9InsgYWN0aXZlOiBmb3JtLmJpbmFyeV91cGRhdGVfcHJveHkgPT09IHVybCB9IgogICAgICAgICAgQGNsaWNrPSJmb3JtLmJpbmFyeV91cGRhdGVfcHJveHkgPSB1cmw7IGJpbmFyeVByb3h5RGlhbG9nVmlzaWJsZSA9IGZhbHNlIgogICAgICAgID4KICAgICAgICAgIDxzcGFuPnt7IHVybCB9fTwvc3Bhbj4KICAgICAgICA8L2J1dHRvbj4KICAgICAgPC9kaXY+CiAgICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJiaW5hcnlQcm94eURpYWxvZ1Zpc2libGUgPSBmYWxzZSI+5YWz6ZetPC9lbC1idXR0b24+CiAgICAgIDwvdGVtcGxhdGU+CiAgICA8L2VsLWRpYWxvZz4KICA8L2VsLWNhcmQ+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgpAdXNlICcuL2NvbmZpZy1jYXJkLXNoYXJlZC5zY3NzJyBhcyAqOwoKLm1pcnJvci1yb3cgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEwcHg7CiAgZmxleC13cmFwOiB3cmFwOwp9CgouZmllbGQtbGFiZWwtcm93IHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIGdhcDogMTBweDsKICBtYXJnaW4tYm90dG9tOiA4cHg7CgogIGxhYmVsIHsKICAgIG1hcmdpbi1ib3R0b206IDA7CiAgfQp9CgouZmllbGQtaGVscC1idXR0b24gewogIGZsZXgtc2hyaW5rOiAwOwogIHBhZGRpbmc6IDAgMnB4OwogIGZvbnQtc2l6ZTogMTJweDsKCiAgLmVsLWljb24gewogICAgbWFyZ2luLXJpZ2h0OiAzcHg7CiAgfQp9CgoucHJveHktaGVscCB7CiAgZGlzcGxheTogZ3JpZDsKICBnYXA6IDEycHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcmVndWxhcik7CiAgZm9udC1zaXplOiAxNHB4OwogIGxpbmUtaGVpZ2h0OiAxLjc1OwoKICBwIHsKICAgIG1hcmdpbjogMDsKICB9Cn0KCi5wcm94eS1oZWxwLXNlY3Rpb24gewogIGRpc3BsYXk6IGdyaWQ7CiAgZ2FwOiA4cHg7CiAgcGFkZGluZzogMTJweDsKICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1lbC1ib3JkZXItY29sb3ItbGlnaHRlcik7CiAgYm9yZGVyLXJhZGl1czogOHB4OwogIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3ItbGlnaHRlcik7CgogIGNvZGUgewogICAgZGlzcGxheTogYmxvY2s7CiAgICBwYWRkaW5nOiA3cHggOXB4OwogICAgYm9yZGVyLXJhZGl1czogNnB4OwogICAgYmFja2dyb3VuZDogdmFyKC0tZWwtYmctY29sb3IpOwogICAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7CiAgICBmb250LWZhbWlseTogdmFyKC0tZGQtZm9udC1tb25vKTsKICAgIGZvbnQtc2l6ZTogMTJweDsKICAgIHdvcmQtYnJlYWs6IGJyZWFrLWFsbDsKICB9Cn0KCi5wcm94eS1oZWxwLXRpdGxlIHsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKICBmb250LXdlaWdodDogNjAwOwp9CgoucHJveHktaGVscC1ub3RlIHsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwp9CgoubWlycm9yLW9wdGlvbi1saXN0IHsKICBkaXNwbGF5OiBncmlkOwogIGdhcDogOHB4Owp9CgoubWlycm9yLXNvdXJjZS10aXAgewogIG1hcmdpbi1ib3R0b206IDEycHg7CiAgcGFkZGluZzogMTBweCAxMnB4OwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodGVyKTsKICBib3JkZXItcmFkaXVzOiA4cHg7CiAgYmFja2dyb3VuZDogdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodGVyKTsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogIGZvbnQtc2l6ZTogMTNweDsKICBsaW5lLWhlaWdodDogMS42OwoKICBhIHsKICAgIGNvbG9yOiB2YXIoLS1lbC1jb2xvci1wcmltYXJ5KTsKICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7CgogICAgJjpob3ZlciB7CiAgICAgIHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOwogICAgfQogIH0KfQoKLm1pcnJvci1vcHRpb24gewogIHdpZHRoOiAxMDAlOwogIG1pbi1oZWlnaHQ6IDQwcHg7CiAgcGFkZGluZzogOXB4IDEycHg7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yKTsKICBib3JkZXItcmFkaXVzOiA4cHg7CiAgYmFja2dyb3VuZDogdmFyKC0tZWwtYmctY29sb3IpOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwogIGN1cnNvcjogcG9pbnRlcjsKICB0ZXh0LWFsaWduOiBsZWZ0OwogIGZvbnQtZmFtaWx5OiB2YXIoLS1kZC1mb250LW1vbm8pOwogIGZvbnQtc2l6ZTogMTNweDsKICBsaW5lLWhlaWdodDogMS4zNTsKICB0cmFuc2l0aW9uOiBib3JkZXItY29sb3IgMC4xNnMsIGJhY2tncm91bmQgMC4xNnMsIGNvbG9yIDAuMTZzOwoKICAmOmhvdmVyLAogICYuYWN0aXZlIHsKICAgIGJvcmRlci1jb2xvcjogdmFyKC0tZWwtY29sb3ItcHJpbWFyeSk7CiAgICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtY29sb3ItcHJpbWFyeSkgOCUsIHZhcigtLWVsLWJnLWNvbG9yKSk7CiAgICBjb2xvcjogdmFyKC0tZWwtY29sb3ItcHJpbWFyeSk7CiAgfQp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAubWlycm9yLXJvdyB7CiAgICBhbGlnbi1pdGVtczogc3RyZXRjaDsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { ref } from 'vue'
+import { Connection, Document, InfoFilled } from '@element-plus/icons-vue'
+import type { SettingsConfigForm } from '../types'
+
+defineProps<{
+  configsSaving: boolean
+  form: SettingsConfigForm
+  onSave: () => void
+}>()
+
+const dockerMirrorDialogVisible = ref(false)
+const binaryProxyDialogVisible = ref(false)
+const proxyHelpDialogVisible = ref(false)
+
+const dockerMirrorOptions = [
+  'https://docker.1ms.run',
+  'https://docker.1panel.live',
+  'https://docker.sparkcr.cn',
+  'https://hub.rat.dev',
+  'https://dockerproxy.net',
+  'https://mirror.ccs.tencentyun.com'
+]
+
+const binaryProxyOptions = [
+  'https://gh-proxy.org/',
+  'https://v4.gh-proxy.org/',
+  'http://gh.301.ee/',
+  'https://ghproxy.homeboyc.cn/'
+]
+</script>
+
+<template>
+  <el-card shadow="never">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Connection /></el-icon> 网络代理</span>
+        <el-button type="primary" :loading="configsSaving" @click="onSave">
+          <el-icon><Document /></el-icon>保存配置
+        </el-button>
+      </div>
+    </template>
+
+    <div class="form-field">
+      <div class="field-label-row">
+        <label>代理地址</label>
+        <el-button
+          class="field-help-button"
+          text
+          type="primary"
+          size="small"
+          @click="proxyHelpDialogVisible = true"
+        >
+          <el-icon><InfoFilled /></el-icon>
+          说明
+        </el-button>
+      </div>
+      <el-input v-model="form.proxy_url" placeholder="http://127.0.0.1:7890" />
+      <span class="form-hint">服务器出站访问外网困难时填写；支持 HTTP/SOCKS5，如 http://127.0.0.1:7890</span>
+    </div>
+
+    <div class="form-field">
+      <label>系统更新镜像源</label>
+      <div class="mirror-row">
+        <el-input v-model="form.update_image_mirror" placeholder="https://docker.example.com" />
+        <el-button @click="dockerMirrorDialogVisible = true">
+          配置
+        </el-button>
+        <el-button
+          v-if="form.update_image_mirror"
+          text
+          type="danger"
+          @click="form.update_image_mirror = ''"
+        >
+          恢复直连
+        </el-button>
+      </div>
+      <span class="form-hint">
+        Docker 部署更新使用，可填写镜像加速地址或自建镜像源；也可以到 status.anye.xyz 查看更多镜像源状态；留空则直接从默认镜像仓库拉取更新镜像。
+      </span>
+    </div>
+
+    <div class="form-field">
+      <label>二进制更新加速源</label>
+      <div class="mirror-row">
+        <el-input v-model="form.binary_update_proxy" placeholder="https://gh-proxy.example.com/" />
+        <el-button @click="binaryProxyDialogVisible = true">
+          配置
+        </el-button>
+        <el-button
+          v-if="form.binary_update_proxy"
+          text
+          type="danger"
+          @click="form.binary_update_proxy = ''"
+        >
+          恢复直连
+        </el-button>
+      </div>
+      <span class="form-hint">
+        二进制部署更新使用，用于加速 GitHub Release 更新包下载；留空则直连 GitHub 下载。
+      </span>
+    </div>
+
+    <div class="switch-row">
+      <div class="switch-item">
+        <span class="switch-label">静默更新</span>
+        <el-switch v-model="form.auto_update_enabled" inline-prompt active-text="开" inactive-text="关" />
+      </div>
+    </div>
+    <span class="form-hint">开启后每 24 小时自动检查一次新版本；若检测到更新，将按当前镜像渠道自动尝试更新并通过通知渠道反馈结果。</span>
+
+    <div class="form-field">
+      <label>可信代理 CIDR</label>
+      <el-input
+        v-model="form.trusted_proxy_cidrs"
+        type="textarea"
+        :rows="5"
+        placeholder="127.0.0.1/32&#10;10.0.0.0/8&#10;203.0.113.10"
+      />
+      <span class="form-hint">
+        支持 IP、CIDR、逗号或换行分隔。留空会恢复默认私网段与本机地址；保存后客户端 IP 解析会按这份列表判断可信代理。
+      </span>
+    </div>
+
+    <el-dialog v-model="proxyHelpDialogVisible" title="代理地址说明" width="560px">
+      <div class="proxy-help">
+        <p>
+          这里配置的是面板服务器的出站代理。填写后，面板后台访问外部网络时会优先经过这个代理，例如拉取订阅仓库、下载脚本、安装 Python / Node / 系统依赖、健康检查以及部分通知请求。
+        </p>
+        <p>
+          如果服务器本身访问 GitHub、npm、PyPI、订阅源或外部接口正常，可以留空；如果服务器在国内网络环境下经常连接超时、下载失败、依赖安装失败，或者你需要让面板通过指定代理访问外网，就填写这里。
+        </p>
+        <div class="proxy-help-section">
+          <div class="proxy-help-title">填写示例</div>
+          <code>http://127.0.0.1:7890</code>
+          <code>http://user:pass@127.0.0.1:7890</code>
+          <code>socks5://127.0.0.1:1080</code>
+        </div>
+        <p class="proxy-help-note">
+          这里填写的是“面板服务器能访问到的代理地址”。如果面板运行在 Docker 容器内，127.0.0.1 指的是容器内部，不是宿主机；宿主机代理通常需要填写宿主机在容器内可访问的地址。
+        </p>
+      </div>
+      <template #footer>
+        <el-button type="primary" @click="proxyHelpDialogVisible = false">知道了</el-button>
+      </template>
+    </el-dialog>
+
+    <el-dialog v-model="dockerMirrorDialogVisible" title="系统更新镜像源" width="520px">
+      <div class="mirror-source-tip">
+        可到
+        <a href="https://status.anye.xyz/" target="_blank" rel="noopener noreferrer">
+          容器镜像监控
+        </a>
+        查看更多 Docker Hub 镜像加速源状态，选择可用地址后手动填入上方输入框。
+      </div>
+      <div class="mirror-option-list">
+        <button
+          v-for="url in dockerMirrorOptions"
+          :key="url"
+          type="button"
+          class="mirror-option"
+          :class="{ active: form.update_image_mirror === url }"
+          @click="form.update_image_mirror = url; dockerMirrorDialogVisible = false"
+        >
+          <span>{{ url }}</span>
+        </button>
+      </div>
+      <template #footer>
+        <el-button @click="dockerMirrorDialogVisible = false">关闭</el-button>
+      </template>
+    </el-dialog>
+
+    <el-dialog v-model="binaryProxyDialogVisible" title="二进制更新加速源" width="520px">
+      <div class="mirror-option-list">
+        <button
+          v-for="url in binaryProxyOptions"
+          :key="url"
+          type="button"
+          class="mirror-option"
+          :class="{ active: form.binary_update_proxy === url }"
+          @click="form.binary_update_proxy = url; binaryProxyDialogVisible = false"
+        >
+          <span>{{ url }}</span>
+        </button>
+      </div>
+      <template #footer>
+        <el-button @click="binaryProxyDialogVisible = false">关闭</el-button>
+      </template>
+    </el-dialog>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.mirror-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.field-label-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+
+  label {
+    margin-bottom: 0;
+  }
+}
+
+.field-help-button {
+  flex-shrink: 0;
+  padding: 0 2px;
+  font-size: 12px;
+
+  .el-icon {
+    margin-right: 3px;
+  }
+}
+
+.proxy-help {
+  display: grid;
+  gap: 12px;
+  color: var(--el-text-color-regular);
+  font-size: 14px;
+  line-height: 1.75;
+
+  p {
+    margin: 0;
+  }
+}
+
+.proxy-help-section {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--el-border-color-lighter);
+  border-radius: 8px;
+  background: var(--el-fill-color-lighter);
+
+  code {
+    display: block;
+    padding: 7px 9px;
+    border-radius: 6px;
+    background: var(--el-bg-color);
+    color: var(--el-text-color-primary);
+    font-family: var(--dd-font-mono);
+    font-size: 12px;
+    word-break: break-all;
+  }
+}
+
+.proxy-help-title {
+  color: var(--el-text-color-primary);
+  font-weight: 600;
+}
+
+.proxy-help-note {
+  color: var(--el-text-color-secondary);
+}
+
+.mirror-option-list {
+  display: grid;
+  gap: 8px;
+}
+
+.mirror-source-tip {
+  margin-bottom: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--el-border-color-lighter);
+  border-radius: 8px;
+  background: var(--el-fill-color-lighter);
+  color: var(--el-text-color-secondary);
+  font-size: 13px;
+  line-height: 1.6;
+
+  a {
+    color: var(--el-color-primary);
+    font-weight: 600;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.mirror-option {
+  width: 100%;
+  min-height: 40px;
+  padding: 9px 12px;
+  border: 1px solid var(--el-border-color);
+  border-radius: 8px;
+  background: var(--el-bg-color);
+  color: var(--el-text-color-primary);
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--dd-font-mono);
+  font-size: 13px;
+  line-height: 1.35;
+  transition: border-color 0.16s, background 0.16s, color 0.16s;
+
+  &:hover,
+  &.active {
+    border-color: var(--el-color-primary);
+    background: color-mix(in srgb, var(--el-color-primary) 8%, var(--el-bg-color));
+    color: var(--el-color-primary);
+  }
+}
+
+@media (max-width: 768px) {
+  .mirror-row {
+    align-items: stretch;
+  }
+}
+</style>

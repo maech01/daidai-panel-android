@@ -1,1 +1,151 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IE1vbml0b3IsIFJlZnJlc2ggfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKaW1wb3J0IHR5cGUgeyBTZXR0aW5nc0NvbmZpZ0Zvcm0gfSBmcm9tICcuLi90eXBlcycKCmNvbnN0IHsgaXNNb2JpbGUgfSA9IHVzZVJlc3BvbnNpdmUoKQoKZGVmaW5lUHJvcHM8ewogIHNlc3Npb25zOiBhbnlbXQogIHNlc3Npb25zTG9hZGluZzogYm9vbGVhbgogIGNvbmZpZ0Zvcm06IFNldHRpbmdzQ29uZmlnRm9ybQogIGNvbmZpZ1NhdmluZzogYm9vbGVhbgogIG9uTG9hZFNlc3Npb25zOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uUmV2b2tlQWxsU2Vzc2lvbnM6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25SZXZva2VTZXNzaW9uOiAoaWQ6IG51bWJlcikgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvblNhdmVTZXNzaW9uQ29uZmlnOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1jYXJkIHNoYWRvdz0ibmV2ZXIiPgogICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyIj4KICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PE1vbml0b3IgLz48L2VsLWljb24+IOa0u+WKqOS8muivnTwvc3Bhbj4KICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkLWhlYWRlci1idXR0b25zIj4KICAgICAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJvbkxvYWRTZXNzaW9ucyI+PGVsLWljb24+PFJlZnJlc2ggLz48L2VsLWljb24+5Yi35pawPC9lbC1idXR0b24+CiAgICAgICAgICA8ZWwtYnV0dG9uIHR5cGU9ImRhbmdlciIgcGxhaW4gQGNsaWNrPSJvblJldm9rZUFsbFNlc3Npb25zIj7mkqTplIDmiYDmnInlhbbku5bkvJror508L2VsLWJ1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgogICAgPGRpdiBjbGFzcz0ic2Vzc2lvbi1saW1pdC1zZWN0aW9uIj4KICAgICAgPGVsLWZvcm0gOmxhYmVsLXdpZHRoPSJpc01vYmlsZSA/ICdhdXRvJyA6ICcxMjBweCciIDpsYWJlbC1wb3NpdGlvbj0iaXNNb2JpbGUgPyAndG9wJyA6ICdyaWdodCciPgogICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Iue9kemhteerr+S8muivneS4iumZkCI+CiAgICAgICAgICA8ZWwtaW5wdXQtbnVtYmVyCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iY29uZmlnRm9ybS5tYXhfd2ViX3Nlc3Npb25zIgogICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJjb25maWdGb3JtLm1heF93ZWJfc2Vzc2lvbnMgPSAkZXZlbnQgPz8gMSIKICAgICAgICAgICAgOm1pbj0iMSIKICAgICAgICAgICAgOm1heD0iMjAiCiAgICAgICAgICAgIGNvbnRyb2xzLXBvc2l0aW9uPSJyaWdodCIKICAgICAgICAgIC8+CiAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0iQVBQIOerr+S8muivneS4iumZkCI+CiAgICAgICAgICA8ZWwtaW5wdXQtbnVtYmVyCiAgICAgICAgICAgIDptb2RlbC12YWx1ZT0iY29uZmlnRm9ybS5tYXhfYXBwX3Nlc3Npb25zIgogICAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJjb25maWdGb3JtLm1heF9hcHBfc2Vzc2lvbnMgPSAkZXZlbnQgPz8gMSIKICAgICAgICAgICAgOm1pbj0iMSIKICAgICAgICAgICAgOm1heD0iMjAiCiAgICAgICAgICAgIGNvbnRyb2xzLXBvc2l0aW9uPSJyaWdodCIKICAgICAgICAgIC8+CiAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgPGVsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgOmxvYWRpbmc9ImNvbmZpZ1NhdmluZyIgQGNsaWNrPSJvblNhdmVTZXNzaW9uQ29uZmlnIj7kv53lrZg8L2VsLWJ1dHRvbj4KICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPC9lbC1mb3JtPgogICAgICA8ZGl2IGNsYXNzPSJzZXNzaW9uLWxpbWl0LWhpbnQiPgogICAgICAgIOiuvue9ruWQjOS4gOeUqOaIt+WPr+WQjOaXtuS/neaMgeeahOacgOWkp+S8muivneaVsO+8jOi2heWHuumZkOWItuaXtuacgOaXqeeahOS8muivneWwhuiiq+iHquWKqOi4ouS4i+e6v+OAgum7mOiupCAxIOihqOekuuavj+asoeeZu+W9leS8mumhtuaOieS5i+WJjeeahOS8muivneOAggogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxlbC1kaXZpZGVyIC8+CgogICAgPGRpdiB2LWlmPSJpc01vYmlsZSIgY2xhc3M9ImRkLW1vYmlsZS1saXN0Ij4KICAgICAgPGRpdgogICAgICAgIHYtZm9yPSJyb3cgaW4gc2Vzc2lvbnMiCiAgICAgICAgOmtleT0icm93LmlkIgogICAgICAgIGNsYXNzPSJkZC1tb2JpbGUtY2FyZCIKICAgICAgPgogICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19oZWFkZXIiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3RpdGxlLXdyYXAiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3RpdGxlIj57eyByb3cuaXAgfX08L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fc3VidGl0bGUiPgogICAgICAgICAgICAgIHt7IHJvdy5jbGllbnRfbmFtZSB8fCByb3cuY2xpZW50X3R5cGVfbGFiZWwgfHwgJ+e9kemhteerrycgfX0gwrcge3sgbmV3IERhdGUocm93Lmxhc3RfYWN0aXZlIHx8IHJvdy5jcmVhdGVkX2F0KS50b0xvY2FsZVN0cmluZygpIH19CiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19ib2R5Ij4KICAgICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19ncmlkIj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2ZpZWxkIGRkLW1vYmlsZS1jYXJkX19maWVsZC0tZnVsbCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19sYWJlbCI+5a6i5oi356uvPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fdmFsdWUiPnt7IHJvdy5jbGllbnRfbmFtZSB8fCByb3cuY2xpZW50X3R5cGVfbGFiZWwgfHwgJy0nIH19PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2ZpZWxkIGRkLW1vYmlsZS1jYXJkX19maWVsZC0tZnVsbCI+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19sYWJlbCI+55So5oi35Luj55CGPC9zcGFuPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fdmFsdWUiPnt7IHJvdy51c2VyX2FnZW50IH19PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2FjdGlvbnMgc2Vzc2lvbi1jYXJkX19hY3Rpb25zIj4KICAgICAgICAgICAgPGVsLWJ1dHRvbiBzaXplPSJzbWFsbCIgdHlwZT0iZGFuZ2VyIiBwbGFpbiBAY2xpY2s9Im9uUmV2b2tlU2Vzc2lvbihyb3cuaWQpIj7mkqTplIA8L2VsLWJ1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGVsLWVtcHR5IHYtaWY9IiFzZXNzaW9uc0xvYWRpbmcgJiYgc2Vzc2lvbnMubGVuZ3RoID09PSAwIiBkZXNjcmlwdGlvbj0i5pqC5peg5pWw5o2uIiAvPgogICAgPC9kaXY+CgogICAgPGVsLXRhYmxlIHYtZWxzZSA6ZGF0YT0ic2Vzc2lvbnMiIHYtbG9hZGluZz0ic2Vzc2lvbnNMb2FkaW5nIiBzdHJpcGUgZW1wdHktdGV4dD0i5pqC5peg5pWw5o2uIj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJpcCIgbGFiZWw9IklQ5Zyw5Z2AIiB3aWR0aD0iMTQwIiAvPgogICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9ImNsaWVudF9uYW1lIiBsYWJlbD0i5a6i5oi356uvIiBtaW4td2lkdGg9IjE4MCIgc2hvdy1vdmVyZmxvdy10b29sdGlwPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD0ieyByb3cgfSI+e3sgcm93LmNsaWVudF9uYW1lIHx8IHJvdy5jbGllbnRfdHlwZV9sYWJlbCB8fCAnLScgfX08L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJ1c2VyX2FnZW50IiBsYWJlbD0i55So5oi35Luj55CGIiBzaG93LW92ZXJmbG93LXRvb2x0aXAgLz4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0i5pyA5ZCO5rS75YqoIiB3aWR0aD0iMTcwIj4KICAgICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ9Insgcm93IH0iPnt7IG5ldyBEYXRlKHJvdy5sYXN0X2FjdGl2ZSB8fCByb3cuY3JlYXRlZF9hdCkudG9Mb2NhbGVTdHJpbmcoKSB9fTwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLmk43kvZwiIHdpZHRoPSIxMDAiIGZpeGVkPSJyaWdodCI+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJ7IHJvdyB9Ij4KICAgICAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIHRleHQgdHlwZT0iZGFuZ2VyIiBAY2xpY2s9Im9uUmV2b2tlU2Vzc2lvbihyb3cuaWQpIj7mkqTplIA8L2VsLWJ1dHRvbj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgIDwvZWwtdGFibGU+CiAgPC9lbC1jYXJkPgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZCBsYW5nPSJzY3NzIj4KQHVzZSAnLi9jb25maWctY2FyZC1zaGFyZWQuc2NzcycgYXMgKjsKCi5zZXNzaW9uLWxpbWl0LXNlY3Rpb24gewogIG1hcmdpbi1ib3R0b206IDRweDsKfQoKLnNlc3Npb24tbGltaXQtY29udHJvbCB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTBweDsKfQoKLnNlc3Npb24tbGltaXQtaGludCB7CiAgZm9udC1zaXplOiAxMnB4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7CiAgbGluZS1oZWlnaHQ6IDEuNjsKICBtYXJnaW4tdG9wOiA0cHg7Cn0KCi5jYXJkLWhlYWRlci1idXR0b25zIHsKICBwYWRkaW5nOiAycHg7CiAgYm9yZGVyLXJhZGl1czogMTJweDsKICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCkgODQlLCB0cmFuc3BhcmVudCk7CiAgZGlzcGxheTogZmxleDsKICBnYXA6IDhweDsKfQoKLnNlc3Npb24tY2FyZF9fYWN0aW9ucyA+ICogewogIGZsZXg6IDEgMSBhdXRvOwp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAuY2FyZC1oZWFkZXItYnV0dG9ucyB7CiAgICB3aWR0aDogMTAwJTsKICAgIGZsZXgtd3JhcDogd3JhcDsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { Monitor, Refresh } from '@element-plus/icons-vue'
+import { useResponsive } from '@/composables/useResponsive'
+import type { SettingsConfigForm } from '../types'
+
+const { isMobile } = useResponsive()
+
+defineProps<{
+  sessions: any[]
+  sessionsLoading: boolean
+  configForm: SettingsConfigForm
+  configSaving: boolean
+  onLoadSessions: () => void | Promise<void>
+  onRevokeAllSessions: () => void | Promise<void>
+  onRevokeSession: (id: number) => void | Promise<void>
+  onSaveSessionConfig: () => void | Promise<void>
+}>()
+</script>
+
+<template>
+  <el-card shadow="never">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Monitor /></el-icon> 活动会话</span>
+        <div class="card-header-buttons">
+          <el-button @click="onLoadSessions"><el-icon><Refresh /></el-icon>刷新</el-button>
+          <el-button type="danger" plain @click="onRevokeAllSessions">撤销所有其他会话</el-button>
+        </div>
+      </div>
+    </template>
+    <div class="session-limit-section">
+      <el-form :label-width="isMobile ? 'auto' : '120px'" :label-position="isMobile ? 'top' : 'right'">
+        <el-form-item label="网页端会话上限">
+          <el-input-number
+            :model-value="configForm.max_web_sessions"
+            @update:model-value="configForm.max_web_sessions = $event ?? 1"
+            :min="1"
+            :max="20"
+            controls-position="right"
+          />
+        </el-form-item>
+        <el-form-item label="APP 端会话上限">
+          <el-input-number
+            :model-value="configForm.max_app_sessions"
+            @update:model-value="configForm.max_app_sessions = $event ?? 1"
+            :min="1"
+            :max="20"
+            controls-position="right"
+          />
+        </el-form-item>
+        <el-form-item>
+          <el-button type="primary" :loading="configSaving" @click="onSaveSessionConfig">保存</el-button>
+        </el-form-item>
+      </el-form>
+      <div class="session-limit-hint">
+        设置同一用户可同时保持的最大会话数，超出限制时最早的会话将被自动踢下线。默认 1 表示每次登录会顶掉之前的会话。
+      </div>
+    </div>
+
+    <el-divider />
+
+    <div v-if="isMobile" class="dd-mobile-list">
+      <div
+        v-for="row in sessions"
+        :key="row.id"
+        class="dd-mobile-card"
+      >
+        <div class="dd-mobile-card__header">
+          <div class="dd-mobile-card__title-wrap">
+            <span class="dd-mobile-card__title">{{ row.ip }}</span>
+            <span class="dd-mobile-card__subtitle">
+              {{ row.client_name || row.client_type_label || '网页端' }} · {{ new Date(row.last_active || row.created_at).toLocaleString() }}
+            </span>
+          </div>
+        </div>
+        <div class="dd-mobile-card__body">
+          <div class="dd-mobile-card__grid">
+            <div class="dd-mobile-card__field dd-mobile-card__field--full">
+              <span class="dd-mobile-card__label">客户端</span>
+              <span class="dd-mobile-card__value">{{ row.client_name || row.client_type_label || '-' }}</span>
+            </div>
+            <div class="dd-mobile-card__field dd-mobile-card__field--full">
+              <span class="dd-mobile-card__label">用户代理</span>
+              <span class="dd-mobile-card__value">{{ row.user_agent }}</span>
+            </div>
+          </div>
+          <div class="dd-mobile-card__actions session-card__actions">
+            <el-button size="small" type="danger" plain @click="onRevokeSession(row.id)">撤销</el-button>
+          </div>
+        </div>
+      </div>
+      <el-empty v-if="!sessionsLoading && sessions.length === 0" description="暂无数据" />
+    </div>
+
+    <el-table v-else :data="sessions" v-loading="sessionsLoading" stripe empty-text="暂无数据">
+      <el-table-column prop="ip" label="IP地址" width="140" />
+      <el-table-column prop="client_name" label="客户端" min-width="180" show-overflow-tooltip>
+        <template #default="{ row }">{{ row.client_name || row.client_type_label || '-' }}</template>
+      </el-table-column>
+      <el-table-column prop="user_agent" label="用户代理" show-overflow-tooltip />
+      <el-table-column label="最后活动" width="170">
+        <template #default="{ row }">{{ new Date(row.last_active || row.created_at).toLocaleString() }}</template>
+      </el-table-column>
+      <el-table-column label="操作" width="100" fixed="right">
+        <template #default="{ row }">
+          <el-button size="small" text type="danger" @click="onRevokeSession(row.id)">撤销</el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.session-limit-section {
+  margin-bottom: 4px;
+}
+
+.session-limit-control {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.session-limit-hint {
+  font-size: 12px;
+  color: var(--el-text-color-secondary);
+  line-height: 1.6;
+  margin-top: 4px;
+}
+
+.card-header-buttons {
+  padding: 2px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+  display: flex;
+  gap: 8px;
+}
+
+.session-card__actions > * {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 768px) {
+  .card-header-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+</style>

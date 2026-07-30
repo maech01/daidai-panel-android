@@ -1,1 +1,161 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKdHlwZSBCYWNrdXBTZWxlY3Rpb24gc3RydWN0IHsKCUNvbmZpZ3MgICAgICAgYm9vbCBganNvbjoiY29uZmlncyJgCglUYXNrcyAgICAgICAgIGJvb2wgYGpzb246InRhc2tzImAKCVN1YnNjcmlwdGlvbnMgYm9vbCBganNvbjoic3Vic2NyaXB0aW9ucyJgCglFbnZWYXJzICAgICAgIGJvb2wgYGpzb246ImVudl92YXJzImAKCUxvZ3MgICAgICAgICAgYm9vbCBganNvbjoibG9ncyJgCglTY3JpcHRzICAgICAgIGJvb2wgYGpzb246InNjcmlwdHMiYAoJRGVwZW5kZW5jaWVzICBib29sIGBqc29uOiJkZXBlbmRlbmNpZXMiYAoJVGFza1ZpZXdzICAgICBib29sIGBqc29uOiJ0YXNrX3ZpZXdzImAKfQoKdHlwZSBCYWNrdXBDcmVhdGVPcHRpb25zIHN0cnVjdCB7CglQYXNzd29yZCAgc3RyaW5nCglOYW1lICAgICAgc3RyaW5nCglTZWxlY3Rpb24gQmFja3VwU2VsZWN0aW9uCn0KCnR5cGUgQmFja3VwVXNlciBzdHJ1Y3QgewoJSUQgICAgICAgICAgIHVpbnQgICAgICAgYGpzb246ImlkImAKCVVzZXJuYW1lICAgICBzdHJpbmcgICAgIGBqc29uOiJ1c2VybmFtZSJgCglQYXNzd29yZEhhc2ggc3RyaW5nICAgICBganNvbjoicGFzc3dvcmRfaGFzaCJgCglSb2xlICAgICAgICAgc3RyaW5nICAgICBganNvbjoicm9sZSJgCglFbmFibGVkICAgICAgYm9vbCAgICAgICBganNvbjoiZW5hYmxlZCJgCglMYXN0TG9naW5BdCAgKnRpbWUuVGltZSBganNvbjoibGFzdF9sb2dpbl9hdCJgCglDcmVhdGVkQXQgICAgdGltZS5UaW1lICBganNvbjoiY3JlYXRlZF9hdCJgCglVcGRhdGVkQXQgICAgdGltZS5UaW1lICBganNvbjoidXBkYXRlZF9hdCJgCn0KCnR5cGUgQmFja3VwT3BlbkFwcCBzdHJ1Y3QgewoJSUQgICAgICAgIHVpbnQgICAgICBganNvbjoiaWQiYAoJTmFtZSAgICAgIHN0cmluZyAgICBganNvbjoibmFtZSJgCglBcHBLZXkgICAgc3RyaW5nICAgIGBqc29uOiJhcHBfa2V5ImAKCUFwcFNlY3JldCBzdHJpbmcgICAgYGpzb246ImFwcF9zZWNyZXQiYAoJU2NvcGVzICAgIHN0cmluZyAgICBganNvbjoic2NvcGVzImAKCUVuYWJsZWQgICBib29sICAgICAgYGpzb246ImVuYWJsZWQiYAoJUmF0ZUxpbWl0IGludCAgICAgICBganNvbjoicmF0ZV9saW1pdCJgCglDYWxsQ291bnQgaW50NjQgICAgIGBqc29uOiJjYWxsX2NvdW50LG9taXRlbXB0eSJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKCVVwZGF0ZWRBdCB0aW1lLlRpbWUgYGpzb246InVwZGF0ZWRfYXQiYAp9Cgp0eXBlIEJhY2t1cE5vdGlmeUNoYW5uZWwgc3RydWN0IHsKCUlEICAgICAgICB1aW50ICAgICAgYGpzb246ImlkImAKCU5hbWUgICAgICBzdHJpbmcgICAgYGpzb246Im5hbWUiYAoJVHlwZSAgICAgIHN0cmluZyAgICBganNvbjoidHlwZSJgCglDb25maWcgICAgc3RyaW5nICAgIGBqc29uOiJjb25maWciYAoJRW5hYmxlZCAgIGJvb2wgICAgICBganNvbjoiZW5hYmxlZCJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKCVVwZGF0ZWRBdCB0aW1lLlRpbWUgYGpzb246InVwZGF0ZWRfYXQiYAp9Cgp0eXBlIEJhY2t1cFNTSEtleSBzdHJ1Y3QgewoJSUQgICAgICAgICB1aW50ICAgICAgYGpzb246ImlkImAKCU5hbWUgICAgICAgc3RyaW5nICAgIGBqc29uOiJuYW1lImAKCVByaXZhdGVLZXkgc3RyaW5nICAgIGBqc29uOiJwcml2YXRlX2tleSJgCglDcmVhdGVkQXQgIHRpbWUuVGltZSBganNvbjoiY3JlYXRlZF9hdCJgCglVcGRhdGVkQXQgIHRpbWUuVGltZSBganNvbjoidXBkYXRlZF9hdCJgCn0KCnR5cGUgQmFja3VwVHdvRmFjdG9yQXV0aCBzdHJ1Y3QgewoJVXNlcklEICAgIHVpbnQgICAgICBganNvbjoidXNlcl9pZCJgCglTZWNyZXQgICAgc3RyaW5nICAgIGBqc29uOiJzZWNyZXQiYAoJRW5hYmxlZCAgIGJvb2wgICAgICBganNvbjoiZW5hYmxlZCJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKCVVwZGF0ZWRBdCB0aW1lLlRpbWUgYGpzb246InVwZGF0ZWRfYXQiYAp9CgovLyBCYWNrdXBFbnZWYXIg55So5oyH6ZKI5L+d5a2YIGVuYWJsZWTvvIzljLrliIbjgIzogIHlpIfku73nvLrlsJEgZW5hYmxlZCDlrZfmrrXjgI3lkozjgIzmlrDlpIfku73mmI7noa4gZGlzYWJsZWTjgI3jgIIKdHlwZSBCYWNrdXBFbnZWYXIgc3RydWN0IHsKCUlEICAgICAgICB1aW50ICAgICAgYGpzb246ImlkImAKCU5hbWUgICAgICBzdHJpbmcgICAgYGpzb246Im5hbWUiYAoJVmFsdWUgICAgIHN0cmluZyAgICBganNvbjoidmFsdWUiYAoJUmVtYXJrcyAgIHN0cmluZyAgICBganNvbjoicmVtYXJrcyJgCglFbmFibGVkICAgKmJvb2wgICAgIGBqc29uOiJlbmFibGVkLG9taXRlbXB0eSJgCglQb3NpdGlvbiAgZmxvYXQ2NCAgIGBqc29uOiJwb3NpdGlvbiJgCglTb3J0T3JkZXIgaW50ICAgICAgIGBqc29uOiJzb3J0X29yZGVyImAKCUdyb3VwICAgICBzdHJpbmcgICAgYGpzb246Imdyb3VwImAKCUNyZWF0ZWRBdCB0aW1lLlRpbWUgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0IHRpbWUuVGltZSBganNvbjoidXBkYXRlZF9hdCJgCn0KCnR5cGUgQmFja3VwRGVwZW5kZW5jeSBzdHJ1Y3QgewoJVHlwZSAgICAgICAgICBzdHJpbmcgYGpzb246InR5cGUiYAoJTmFtZSAgICAgICAgICBzdHJpbmcgYGpzb246Im5hbWUiYAoJUHl0aG9uVmVyc2lvbiBzdHJpbmcgYGpzb246InB5dGhvbl92ZXJzaW9uLG9taXRlbXB0eSJgCn0KCnR5cGUgQmFja3VwVGFza0xvZyBzdHJ1Y3QgewoJVGFza0lEICAgIHVpbnQgICAgICAgYGpzb246InRhc2tfaWQiYAoJVGFza05hbWUgIHN0cmluZyAgICAgYGpzb246InRhc2tfbmFtZSJgCglDb250ZW50ICAgc3RyaW5nICAgICBganNvbjoiY29udGVudCJgCglTdGF0dXMgICAgKmludCAgICAgICBganNvbjoic3RhdHVzImAKCUR1cmF0aW9uICAqZmxvYXQ2NCAgIGBqc29uOiJkdXJhdGlvbiJgCglMb2dQYXRoICAgKnN0cmluZyAgICBganNvbjoibG9nX3BhdGgiYAoJU3RhcnRlZEF0IHRpbWUuVGltZSAgYGpzb246InN0YXJ0ZWRfYXQiYAoJRW5kZWRBdCAgICp0aW1lLlRpbWUgYGpzb246ImVuZGVkX2F0ImAKCUNyZWF0ZWRBdCB0aW1lLlRpbWUgIGBqc29uOiJjcmVhdGVkX2F0ImAKCVVwZGF0ZWRBdCB0aW1lLlRpbWUgIGBqc29uOiJ1cGRhdGVkX2F0ImAKfQoKdHlwZSBCYWNrdXBDb25maWdCdW5kbGUgc3RydWN0IHsKCVN5c3RlbUNvbmZpZ3MgICAgIFtdbW9kZWwuU3lzdGVtQ29uZmlnICAgICAgYGpzb246InN5c3RlbV9jb25maWdzLG9taXRlbXB0eSJgCglPcGVuQXBwcyAgICAgICAgICBbXUJhY2t1cE9wZW5BcHAgICAgICAgICAgIGBqc29uOiJvcGVuX2FwcHMsb21pdGVtcHR5ImAKCU5vdGlmeUNoYW5uZWxzICAgIFtdQmFja3VwTm90aWZ5Q2hhbm5lbCAgICAgYGpzb246Im5vdGlmeV9jaGFubmVscyxvbWl0ZW1wdHkiYAoJVXNlcnMgICAgICAgICAgICAgW11CYWNrdXBVc2VyICAgICAgICAgICAgICBganNvbjoidXNlcnMsb21pdGVtcHR5ImAKCUlQV2hpdGVsaXN0cyAgICAgIFtdbW9kZWwuSVBXaGl0ZWxpc3QgICAgICAgYGpzb246ImlwX3doaXRlbGlzdHMsb21pdGVtcHR5ImAKCVR3b0ZhY3RvckF1dGhzICAgIFtdQmFja3VwVHdvRmFjdG9yQXV0aCAgICAgYGpzb246InR3b19mYWN0b3JfYXV0aHMsb21pdGVtcHR5ImAKCURlcGVuZGVuY3lNaXJyb3JzICpEZXBlbmRlbmN5TWlycm9yU2V0dGluZ3MgYGpzb246ImRlcGVuZGVuY3lfbWlycm9ycyxvbWl0ZW1wdHkiYAp9Cgp0eXBlIEJhY2t1cFBheWxvYWQgc3RydWN0IHsKCUNvbmZpZ3MgICAgICAgQmFja3VwQ29uZmlnQnVuZGxlICAgYGpzb246ImNvbmZpZ3Msb21pdGVtcHR5ImAKCVRhc2tzICAgICAgICAgW11tb2RlbC5UYXNrICAgICAgICAgYGpzb246InRhc2tzLG9taXRlbXB0eSJgCglFbnZWYXJzICAgICAgIFtdQmFja3VwRW52VmFyICAgICAgIGBqc29uOiJlbnZfdmFycyxvbWl0ZW1wdHkiYAoJU3Vic2NyaXB0aW9ucyBbXW1vZGVsLlN1YnNjcmlwdGlvbiBganNvbjoic3Vic2NyaXB0aW9ucyxvbWl0ZW1wdHkiYAoJU1NIS2V5cyAgICAgICBbXUJhY2t1cFNTSEtleSAgICAgICBganNvbjoic3NoX2tleXMsb21pdGVtcHR5ImAKCURlcGVuZGVuY2llcyAgW11CYWNrdXBEZXBlbmRlbmN5ICAgYGpzb246ImRlcGVuZGVuY2llcyxvbWl0ZW1wdHkiYAoJVGFza0xvZ3MgICAgICBbXUJhY2t1cFRhc2tMb2cgICAgICBganNvbjoidGFza19sb2dzLG9taXRlbXB0eSJgCglUYXNrVmlld3MgICAgIFtdbW9kZWwuVGFza1ZpZXcgICAgIGBqc29uOiJ0YXNrX3ZpZXdzLG9taXRlbXB0eSJgCn0KCnR5cGUgQmFja3VwTWFuaWZlc3Qgc3RydWN0IHsKCUZvcm1hdCAgICBzdHJpbmcgICAgICAgICAgYGpzb246ImZvcm1hdCJgCglWZXJzaW9uICAgc3RyaW5nICAgICAgICAgIGBqc29uOiJ2ZXJzaW9uImAKCVNvdXJjZSAgICBzdHJpbmcgICAgICAgICAgYGpzb246InNvdXJjZSJgCglDcmVhdGVkQXQgdGltZS5UaW1lICAgICAgIGBqc29uOiJjcmVhdGVkX2F0ImAKCVNlbGVjdGlvbiBCYWNrdXBTZWxlY3Rpb24gYGpzb246InNlbGVjdGlvbiJgCglEYXRhICAgICAgQmFja3VwUGF5bG9hZCAgIGBqc29uOiJkYXRhImAKfQoKZnVuYyBkZWZhdWx0QmFja3VwU2VsZWN0aW9uKCkgQmFja3VwU2VsZWN0aW9uIHsKCXJldHVybiBCYWNrdXBTZWxlY3Rpb257CgkJQ29uZmlnczogICAgICAgdHJ1ZSwKCQlUYXNrczogICAgICAgICB0cnVlLAoJCVN1YnNjcmlwdGlvbnM6IHRydWUsCgkJRW52VmFyczogICAgICAgdHJ1ZSwKCQlMb2dzOiAgICAgICAgICB0cnVlLAoJCVNjcmlwdHM6ICAgICAgIHRydWUsCgkJRGVwZW5kZW5jaWVzOiAgdHJ1ZSwKCQlUYXNrVmlld3M6ICAgICB0cnVlLAoJfQp9CgpmdW5jIChzIEJhY2t1cFNlbGVjdGlvbikgQW55KCkgYm9vbCB7CglyZXR1cm4gcy5Db25maWdzIHx8IHMuVGFza3MgfHwgcy5TdWJzY3JpcHRpb25zIHx8IHMuRW52VmFycyB8fCBzLkxvZ3MgfHwgcy5TY3JpcHRzIHx8IHMuRGVwZW5kZW5jaWVzIHx8IHMuVGFza1ZpZXdzCn0KCmZ1bmMgKHMgQmFja3VwU2VsZWN0aW9uKSBOb3JtYWxpemVEZWZhdWx0cygpIEJhY2t1cFNlbGVjdGlvbiB7CglpZiBzLkFueSgpIHsKCQlyZXR1cm4gcwoJfQoJcmV0dXJuIGRlZmF1bHRCYWNrdXBTZWxlY3Rpb24oKQp9Cg==
+package service
+
+import (
+	"time"
+
+	"daidai-panel/model"
+)
+
+type BackupSelection struct {
+	Configs       bool `json:"configs"`
+	Tasks         bool `json:"tasks"`
+	Subscriptions bool `json:"subscriptions"`
+	EnvVars       bool `json:"env_vars"`
+	Logs          bool `json:"logs"`
+	Scripts       bool `json:"scripts"`
+	Dependencies  bool `json:"dependencies"`
+	TaskViews     bool `json:"task_views"`
+}
+
+type BackupCreateOptions struct {
+	Password  string
+	Name      string
+	Selection BackupSelection
+}
+
+type BackupUser struct {
+	ID           uint       `json:"id"`
+	Username     string     `json:"username"`
+	PasswordHash string     `json:"password_hash"`
+	Role         string     `json:"role"`
+	Enabled      bool       `json:"enabled"`
+	LastLoginAt  *time.Time `json:"last_login_at"`
+	CreatedAt    time.Time  `json:"created_at"`
+	UpdatedAt    time.Time  `json:"updated_at"`
+}
+
+type BackupOpenApp struct {
+	ID        uint      `json:"id"`
+	Name      string    `json:"name"`
+	AppKey    string    `json:"app_key"`
+	AppSecret string    `json:"app_secret"`
+	Scopes    string    `json:"scopes"`
+	Enabled   bool      `json:"enabled"`
+	RateLimit int       `json:"rate_limit"`
+	CallCount int64     `json:"call_count,omitempty"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+type BackupNotifyChannel struct {
+	ID        uint      `json:"id"`
+	Name      string    `json:"name"`
+	Type      string    `json:"type"`
+	Config    string    `json:"config"`
+	Enabled   bool      `json:"enabled"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+type BackupSSHKey struct {
+	ID         uint      `json:"id"`
+	Name       string    `json:"name"`
+	PrivateKey string    `json:"private_key"`
+	CreatedAt  time.Time `json:"created_at"`
+	UpdatedAt  time.Time `json:"updated_at"`
+}
+
+type BackupTwoFactorAuth struct {
+	UserID    uint      `json:"user_id"`
+	Secret    string    `json:"secret"`
+	Enabled   bool      `json:"enabled"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+// BackupEnvVar 用指针保存 enabled，区分「老备份缺少 enabled 字段」和「新备份明确 disabled」。
+type BackupEnvVar struct {
+	ID        uint      `json:"id"`
+	Name      string    `json:"name"`
+	Value     string    `json:"value"`
+	Remarks   string    `json:"remarks"`
+	Enabled   *bool     `json:"enabled,omitempty"`
+	Position  float64   `json:"position"`
+	SortOrder int       `json:"sort_order"`
+	Group     string    `json:"group"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+type BackupDependency struct {
+	Type          string `json:"type"`
+	Name          string `json:"name"`
+	PythonVersion string `json:"python_version,omitempty"`
+}
+
+type BackupTaskLog struct {
+	TaskID    uint       `json:"task_id"`
+	TaskName  string     `json:"task_name"`
+	Content   string     `json:"content"`
+	Status    *int       `json:"status"`
+	Duration  *float64   `json:"duration"`
+	LogPath   *string    `json:"log_path"`
+	StartedAt time.Time  `json:"started_at"`
+	EndedAt   *time.Time `json:"ended_at"`
+	CreatedAt time.Time  `json:"created_at"`
+	UpdatedAt time.Time  `json:"updated_at"`
+}
+
+type BackupConfigBundle struct {
+	SystemConfigs     []model.SystemConfig      `json:"system_configs,omitempty"`
+	OpenApps          []BackupOpenApp           `json:"open_apps,omitempty"`
+	NotifyChannels    []BackupNotifyChannel     `json:"notify_channels,omitempty"`
+	Users             []BackupUser              `json:"users,omitempty"`
+	IPWhitelists      []model.IPWhitelist       `json:"ip_whitelists,omitempty"`
+	TwoFactorAuths    []BackupTwoFactorAuth     `json:"two_factor_auths,omitempty"`
+	DependencyMirrors *DependencyMirrorSettings `json:"dependency_mirrors,omitempty"`
+}
+
+type BackupPayload struct {
+	Configs       BackupConfigBundle   `json:"configs,omitempty"`
+	Tasks         []model.Task         `json:"tasks,omitempty"`
+	EnvVars       []BackupEnvVar       `json:"env_vars,omitempty"`
+	Subscriptions []model.Subscription `json:"subscriptions,omitempty"`
+	SSHKeys       []BackupSSHKey       `json:"ssh_keys,omitempty"`
+	Dependencies  []BackupDependency   `json:"dependencies,omitempty"`
+	TaskLogs      []BackupTaskLog      `json:"task_logs,omitempty"`
+	TaskViews     []model.TaskView     `json:"task_views,omitempty"`
+}
+
+type BackupManifest struct {
+	Format    string          `json:"format"`
+	Version   string          `json:"version"`
+	Source    string          `json:"source"`
+	CreatedAt time.Time       `json:"created_at"`
+	Selection BackupSelection `json:"selection"`
+	Data      BackupPayload   `json:"data"`
+}
+
+func defaultBackupSelection() BackupSelection {
+	return BackupSelection{
+		Configs:       true,
+		Tasks:         true,
+		Subscriptions: true,
+		EnvVars:       true,
+		Logs:          true,
+		Scripts:       true,
+		Dependencies:  true,
+		TaskViews:     true,
+	}
+}
+
+func (s BackupSelection) Any() bool {
+	return s.Configs || s.Tasks || s.Subscriptions || s.EnvVars || s.Logs || s.Scripts || s.Dependencies || s.TaskViews
+}
+
+func (s BackupSelection) NormalizeDefaults() BackupSelection {
+	if s.Any() {
+		return s
+	}
+	return defaultBackupSelection()
+}

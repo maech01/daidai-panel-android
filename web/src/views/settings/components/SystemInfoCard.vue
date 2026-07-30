@@ -1,1 +1,159 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENvcHlEb2N1bWVudCwgSW5mb0ZpbGxlZCB9IGZyb20gJ0BlbGVtZW50LXBsdXMvaWNvbnMtdnVlJwppbXBvcnQgeyBFbE1lc3NhZ2UgfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IGNvcHlUZXh0IH0gZnJvbSAnQC91dGlscy9jbGlwYm9hcmQnCgpkZWZpbmVQcm9wczx7CiAgc3lzdGVtSW5mbzogYW55CiAgZm9ybWF0Qnl0ZXM6IChieXRlczogbnVtYmVyKSA9PiBzdHJpbmcKICBnZXRVc2FnZUNsYXNzOiAocGVyY2VudDogbnVtYmVyKSA9PiBzdHJpbmcKfT4oKQoKYXN5bmMgZnVuY3Rpb24gaGFuZGxlQ29weU1hY2hpbmVDb2RlKGNvZGU6IHN0cmluZykgewogIGlmICghY29kZSkgewogICAgRWxNZXNzYWdlLndhcm5pbmcoJ+acuuWZqOeggeWwmuacqueUn+aIkCcpCiAgICByZXR1cm4KICB9CiAgdHJ5IHsKICAgIGF3YWl0IGNvcHlUZXh0KGNvZGUpCiAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn5bey5aSN5Yi25py65Zmo56CBJykKICB9IGNhdGNoIHsKICAgIEVsTWVzc2FnZS5lcnJvcign5aSN5Yi25aSx6LSl77yM6K+35omL5Yqo6YCJ5Lit5aSN5Yi2JykKICB9Cn0KPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgY2xhc3M9Im10LWNhcmQiIHYtaWY9InN5c3RlbUluZm8iPgogICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyIj4KICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PEluZm9GaWxsZWQgLz48L2VsLWljb24+IOezu+e7n+S/oeaBrzwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgogICAgPGRpdiBjbGFzcz0ic3lzdGVtLWluZm8tZ3JpZCI+CiAgICAgIDxkaXYgY2xhc3M9InNpLWl0ZW0iPgogICAgICAgIDxkaXYgY2xhc3M9InNpLWxhYmVsIj7kuLvmnLrlkI08L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzaS12YWx1ZSI+e3sgc3lzdGVtSW5mby5ob3N0bmFtZSB8fCAnLScgfX08L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InNpLWl0ZW0gc2ktaXRlbS13aWRlIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzaS1sYWJlbCI+5py65Zmo56CBPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktdmFsdWUgc2ktbWFjaGluZS1jb2RlIj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJtYWNoaW5lLWNvZGUtdGV4dCI+e3sgc3lzdGVtSW5mby5tYWNoaW5lX2NvZGUgfHwgJy0nIH19PC9zcGFuPgogICAgICAgICAgPGVsLXRvb2x0aXAgY29udGVudD0i5aSN5Yi25py65Zmo56CBIiBwbGFjZW1lbnQ9InRvcCI+CiAgICAgICAgICAgIDxlbC1idXR0b24KICAgICAgICAgICAgICBsaW5rCiAgICAgICAgICAgICAgOmRpc2FibGVkPSIhc3lzdGVtSW5mby5tYWNoaW5lX2NvZGUiCiAgICAgICAgICAgICAgQGNsaWNrPSJoYW5kbGVDb3B5TWFjaGluZUNvZGUoc3lzdGVtSW5mby5tYWNoaW5lX2NvZGUpIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGVsLWljb24+PENvcHlEb2N1bWVudCAvPjwvZWwtaWNvbj4KICAgICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgICA8L2VsLXRvb2x0aXA+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJzaS1pdGVtIj4KICAgICAgICA8ZGl2IGNsYXNzPSJzaS1sYWJlbCI+5pON5L2c57O757ufPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktdmFsdWUiPnt7IHN5c3RlbUluZm8ub3MgfHwgJy0nIH19IHt7IHN5c3RlbUluZm8uYXJjaCB8fCAnJyB9fTwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic2ktaXRlbSI+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktbGFiZWwiPkdvPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktdmFsdWUiPnt7IHN5c3RlbUluZm8uZ29fdmVyc2lvbiB8fCAnLScgfX08L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InNpLWl0ZW0iPgogICAgICAgIDxkaXYgY2xhc3M9InNpLWxhYmVsIj7mlbDmja7nm67lvZU8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJzaS12YWx1ZSI+e3sgc3lzdGVtSW5mby5kYXRhX2RpciB8fCAnLScgfX08L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9InNpLWl0ZW0iPgogICAgICAgIDxkaXYgY2xhc3M9InNpLWxhYmVsIj5DUFUg5L2/55So546HPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktdmFsdWUiIDpjbGFzcz0iZ2V0VXNhZ2VDbGFzcyhzeXN0ZW1JbmZvLmNwdV91c2FnZSkiPgogICAgICAgICAge3sgc3lzdGVtSW5mby5jcHVfdXNhZ2UgfHwgMCB9fSUmbmJzcDsmbmJzcDsoe3sgc3lzdGVtSW5mby5udW1fY3B1IHx8IDAgfX0g5qC4KQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic2ktaXRlbSI+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktbGFiZWwiPuWGheWtmOS9v+eUqDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNpLXZhbHVlIiA6Y2xhc3M9ImdldFVzYWdlQ2xhc3Moc3lzdGVtSW5mby5tZW1vcnlfdXNhZ2UpIj4KICAgICAgICAgIHt7IHN5c3RlbUluZm8ubWVtb3J5X3VzYWdlIHx8IDAgfX0lJm5ic3A7Jm5ic3A7KHt7IGZvcm1hdEJ5dGVzKHN5c3RlbUluZm8ubWVtb3J5X3VzZWQpIH19IC8ge3sgZm9ybWF0Qnl0ZXMoc3lzdGVtSW5mby5tZW1vcnlfdG90YWwpIH19KQogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ic2ktaXRlbSI+CiAgICAgICAgPGRpdiBjbGFzcz0ic2ktbGFiZWwiPuejgeebmOS9v+eUqDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InNpLXZhbHVlIiA6Y2xhc3M9ImdldFVzYWdlQ2xhc3Moc3lzdGVtSW5mby5kaXNrX3VzYWdlKSI+CiAgICAgICAgICB7eyBzeXN0ZW1JbmZvLmRpc2tfdXNhZ2UgfHwgMCB9fSUmbmJzcDsmbmJzcDsoe3sgZm9ybWF0Qnl0ZXMoc3lzdGVtSW5mby5kaXNrX3VzZWQpIH19IC8ge3sgZm9ybWF0Qnl0ZXMoc3lzdGVtSW5mby5kaXNrX3RvdGFsKSB9fSkKICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICA8L2VsLWNhcmQ+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgpAdXNlICcuL2NvbmZpZy1jYXJkLXNoYXJlZC5zY3NzJyBhcyAqOwoKLm10LWNhcmQgewogIG1hcmdpbi10b3A6IDE2cHg7CiAgLy8g5ZyG6KeSL+i+ueahhi/pmLTlvbHlr7npvZDorr7orqHku6TniYzvvIjlkKvmmpfoibLkv67ooaXvvIzljp/lhpnmrbsgI2YwZjBmMC/pmLTlvbHlnKjmmpfoibLkuIvkuI3mraPnoa7vvIkKICBib3JkZXItcmFkaXVzOiB2YXIoLS1kZC1jYXJkLXJhZGl1cyk7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwogIGJveC1zaGFkb3c6IHZhcigtLWRkLXNoYWRvdy1jYXJkKTsKfQoKLnN5c3RlbS1pbmZvLWdyaWQgewogIGRpc3BsYXk6IGdyaWQ7CiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMywgMWZyKTsKICBnYXA6IDI0cHg7Cn0KCi5zaS1pdGVtIHsKICBwYWRkaW5nOiA4cHggMDsKfQoKLnNpLWxhYmVsIHsKICBmb250LXNpemU6IDEzcHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBtYXJnaW4tYm90dG9tOiA2cHg7Cn0KCi5zaS12YWx1ZSB7CiAgZm9udC1zaXplOiAxNHB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7CiAgd29yZC1icmVhazogYnJlYWstd29yZDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKfQoKLnNpLWl0ZW0td2lkZSB7CiAgZ3JpZC1jb2x1bW46IHNwYW4gMjsKfQoKLnNpLW1hY2hpbmUtY29kZSB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogOHB4Owp9CgoubWFjaGluZS1jb2RlLXRleHQgewogIGZvbnQtZmFtaWx5OiB1aS1tb25vc3BhY2UsIFNGTW9uby1SZWd1bGFyLCBNZW5sbywgQ29uc29sYXMsIG1vbm9zcGFjZTsKICBsZXR0ZXItc3BhY2luZzogMC41cHg7CiAgd29yZC1icmVhazogYnJlYWstYWxsOwp9CgoudXNhZ2Utc3VjY2VzcyB7CiAgY29sb3I6IHZhcigtLWVsLWNvbG9yLXN1Y2Nlc3MpOwp9CgoudXNhZ2Utd2FybmluZyB7CiAgY29sb3I6IHZhcigtLWVsLWNvbG9yLXdhcm5pbmcpOwp9CgoudXNhZ2UtZGFuZ2VyIHsKICBjb2xvcjogdmFyKC0tZWwtY29sb3ItZGFuZ2VyKTsKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLnN5c3RlbS1pbmZvLWdyaWQgewogICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7CiAgICBnYXA6IDE2cHg7CiAgfQoKICAuc2ktaXRlbS13aWRlIHsKICAgIGdyaWQtY29sdW1uOiBzcGFuIDE7CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { CopyDocument, InfoFilled } from '@element-plus/icons-vue'
+import { ElMessage } from 'element-plus'
+import { copyText } from '@/utils/clipboard'
+
+defineProps<{
+  systemInfo: any
+  formatBytes: (bytes: number) => string
+  getUsageClass: (percent: number) => string
+}>()
+
+async function handleCopyMachineCode(code: string) {
+  if (!code) {
+    ElMessage.warning('机器码尚未生成')
+    return
+  }
+  try {
+    await copyText(code)
+    ElMessage.success('已复制机器码')
+  } catch {
+    ElMessage.error('复制失败，请手动选中复制')
+  }
+}
+</script>
+
+<template>
+  <el-card shadow="never" class="mt-card" v-if="systemInfo">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><InfoFilled /></el-icon> 系统信息</span>
+      </div>
+    </template>
+    <div class="system-info-grid">
+      <div class="si-item">
+        <div class="si-label">主机名</div>
+        <div class="si-value">{{ systemInfo.hostname || '-' }}</div>
+      </div>
+      <div class="si-item si-item-wide">
+        <div class="si-label">机器码</div>
+        <div class="si-value si-machine-code">
+          <span class="machine-code-text">{{ systemInfo.machine_code || '-' }}</span>
+          <el-tooltip content="复制机器码" placement="top">
+            <el-button
+              link
+              :disabled="!systemInfo.machine_code"
+              @click="handleCopyMachineCode(systemInfo.machine_code)"
+            >
+              <el-icon><CopyDocument /></el-icon>
+            </el-button>
+          </el-tooltip>
+        </div>
+      </div>
+      <div class="si-item">
+        <div class="si-label">操作系统</div>
+        <div class="si-value">{{ systemInfo.os || '-' }} {{ systemInfo.arch || '' }}</div>
+      </div>
+      <div class="si-item">
+        <div class="si-label">Go</div>
+        <div class="si-value">{{ systemInfo.go_version || '-' }}</div>
+      </div>
+      <div class="si-item">
+        <div class="si-label">数据目录</div>
+        <div class="si-value">{{ systemInfo.data_dir || '-' }}</div>
+      </div>
+      <div class="si-item">
+        <div class="si-label">CPU 使用率</div>
+        <div class="si-value" :class="getUsageClass(systemInfo.cpu_usage)">
+          {{ systemInfo.cpu_usage || 0 }}%&nbsp;&nbsp;({{ systemInfo.num_cpu || 0 }} 核)
+        </div>
+      </div>
+      <div class="si-item">
+        <div class="si-label">内存使用</div>
+        <div class="si-value" :class="getUsageClass(systemInfo.memory_usage)">
+          {{ systemInfo.memory_usage || 0 }}%&nbsp;&nbsp;({{ formatBytes(systemInfo.memory_used) }} / {{ formatBytes(systemInfo.memory_total) }})
+        </div>
+      </div>
+      <div class="si-item">
+        <div class="si-label">磁盘使用</div>
+        <div class="si-value" :class="getUsageClass(systemInfo.disk_usage)">
+          {{ systemInfo.disk_usage || 0 }}%&nbsp;&nbsp;({{ formatBytes(systemInfo.disk_used) }} / {{ formatBytes(systemInfo.disk_total) }})
+        </div>
+      </div>
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.mt-card {
+  margin-top: 16px;
+  // 圆角/边框/阴影对齐设计令牌（含暗色修补，原写死 #f0f0f0/阴影在暗色下不正确）
+  border-radius: var(--dd-card-radius);
+  border: 1px solid var(--el-border-color-lighter);
+  box-shadow: var(--dd-shadow-card);
+}
+
+.system-info-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.si-item {
+  padding: 8px 0;
+}
+
+.si-label {
+  font-size: 13px;
+  color: var(--el-text-color-secondary);
+  margin-bottom: 6px;
+}
+
+.si-value {
+  font-size: 14px;
+  font-weight: 600;
+  word-break: break-word;
+  color: var(--el-text-color-primary);
+}
+
+.si-item-wide {
+  grid-column: span 2;
+}
+
+.si-machine-code {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.machine-code-text {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: 0.5px;
+  word-break: break-all;
+}
+
+.usage-success {
+  color: var(--el-color-success);
+}
+
+.usage-warning {
+  color: var(--el-color-warning);
+}
+
+.usage-danger {
+  color: var(--el-color-danger);
+}
+
+@media (max-width: 768px) {
+  .system-info-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .si-item-wide {
+    grid-column: span 1;
+  }
+}
+</style>

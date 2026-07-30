@@ -1,1 +1,1 @@
-ZGVjbGFyZSBtb2R1bGUgJ3NvcnRhYmxlanMnCg==
+declare module 'sortablejs'

@@ -1,1 +1,200 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKCSJnb3JtLmlvL2dvcm0iCikKCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBCYXRjaChjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCUlEcyAgICBbXXVpbnQgYGpzb246ImlkcyIgYmluZGluZzoicmVxdWlyZWQiYAoJCUFjdGlvbiBzdHJpbmcgYGpzb246ImFjdGlvbiIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJc2NoZWR1bGVyIDo9IHNlcnZpY2UuR2V0U2NoZWR1bGVyVjIoKQoJY291bnQgOj0gMAoKCWZvciBfLCBpZCA6PSByYW5nZSByZXEuSURzIHsKCQl2YXIgdGFzayBtb2RlbC5UYXNrCgkJaWYgZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIGlkKS5FcnJvciAhPSBuaWwgewoJCQljb250aW51ZQoJCX0KCgkJc3dpdGNoIHJlcS5BY3Rpb24gewoJCWNhc2UgImVuYWJsZSI6CgkJCWlmIGVyciA6PSB2YWxpZGF0ZUFuZEVuYWJsZVRhc2soJnRhc2spOyBlcnIgIT0gbmlsIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQljYXNlICJkaXNhYmxlIjoKCQkJZGlzYWJsZVRhc2tBbmRSZW1vdmVTY2hlZHVsZSgmdGFzaykKCQljYXNlICJkZWxldGUiOgoJCQlpZiBzY2hlZHVsZXIgIT0gbmlsIHsKCQkJCXNjaGVkdWxlci5SZW1vdmVKb2IoaWQpCgkJCX0KCQkJZGF0YWJhc2UuREIuV2hlcmUoInRhc2tfaWQgPSA/IiwgaWQpLkRlbGV0ZSgmbW9kZWwuVGFza0xvZ3t9KQoJCQlkYXRhYmFzZS5EQi5EZWxldGUoJnRhc2spCgkJY2FzZSAicnVuIjoKCQkJaWYgdGFzay5TdGF0dXMgIT0gbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcgewoJCQkJaWYgZXJyIDo9IHNjaGVkdWxlci5SdW5Ob3coaWQpOyBlcnIgPT0gbmlsIHsKCQkJCQljb3VudCsrCgkJCQl9CgkJCQljb250aW51ZQoJCQl9CgkJY2FzZSAic3RvcCI6CgkJCWlmIHRhc2suU3RhdHVzID09IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nIHsKCQkJCWlmIGV4ZWN1dG9yIDo9IHNlcnZpY2UuR2V0VGFza0V4ZWN1dG9yKCk7IGV4ZWN1dG9yICE9IG5pbCB7CgkJCQkJZXhlY3V0b3IuU3RvcFRhc2soaWQpCgkJCQl9CgkJCQlpZiB0YXNrLlBJRCAhPSBuaWwgJiYgKnRhc2suUElEID4gMCB7CgkJCQkJLy8gU3RvcFRhc2sg5bey5omT5qCH6K6w77yM6L+Z6YeM5YaN5pi+5byP5qCH6K6w5LiA5qyh6KaG55uW5oyJIFBJRCDlhZzlupXlnLrmma/vvIjluYLnrYnvvInjgIIKCQkJCQlzZXJ2aWNlLk1hcmtNYW51YWxTdG9wKGlkKQoJCQkJCXNlcnZpY2UuS2lsbFByb2Nlc3NCeVBpZCgqdGFzay5QSUQpCgkJCQl9CgkJCQlzdG9wTG9nU3RhdHVzIDo9IG1vZGVsLkxvZ1N0YXR1c0Fib3J0ZWQKCQkJCXZhciBydW5uaW5nTG9nIG1vZGVsLlRhc2tMb2cKCQkJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidGFza19pZCA9ID8gQU5EIHN0YXR1cyA9ID8iLCBpZCwgbW9kZWwuTG9nU3RhdHVzUnVubmluZykuCgkJCQkJT3JkZXIoInN0YXJ0ZWRfYXQgREVTQyIpLkZpcnN0KCZydW5uaW5nTG9nKS5FcnJvcjsgZXJyID09IG5pbCB7CgkJCQkJbm93IDo9IHRpbWUuTm93KCkKCQkJCQlkdXJhdGlvbiA6PSBub3cuU3ViKHJ1bm5pbmdMb2cuU3RhcnRlZEF0KS5TZWNvbmRzKCkKCQkJCQlpZiBkdXJhdGlvbiA8IDAgewoJCQkJCQlkdXJhdGlvbiA9IDAKCQkJCQl9CgkJCQkJLy8g5om56YeP5YGc5q2i5Lmf57uf5LiA5qCH6K6w5Li6IEFib3J0ZWTvvIzpgb/lhY3ov5vlhaXmiJDlip8v5aSx6LSl57uf6K6h44CCCgkJCQkJZGF0YWJhc2UuREIuTW9kZWwoJnJ1bm5pbmdMb2cpLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJCQkJInN0YXR1cyI6ICAgc3RvcExvZ1N0YXR1cywKCQkJCQkJImVuZGVkX2F0Ijogbm93LAoJCQkJCQkiZHVyYXRpb24iOiBkdXJhdGlvbiwKCQkJCQl9KQoJCQkJCWRhdGFiYXNlLkRCLk1vZGVsKCZ0YXNrKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCQkJCSJsYXN0X3J1bl9zdGF0dXMiOiAgIG1vZGVsLlJ1bkFib3J0ZWQsCgkJCQkJCSJsYXN0X3J1bm5pbmdfdGltZSI6IGR1cmF0aW9uLAoJCQkJCX0pCgkJCQl9CgkJCQlpbmFjdGl2ZVN0YXR1cyA6PSBzZXJ2aWNlLlJlc29sdmVUYXNrSW5hY3RpdmVTdGF0dXMoJnRhc2spCgkJCQlkYXRhYmFzZS5EQi5Nb2RlbCgmdGFzaykuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkJCSJzdGF0dXMiOiAgICAgICAgICBpbmFjdGl2ZVN0YXR1cywKCQkJCQkibGFzdF9ydW5fc3RhdHVzIjogbW9kZWwuUnVuQWJvcnRlZCwKCQkJCQkicGlkIjogICAgICAgICAgICAgZ29ybS5FeHByKCJOVUxMIiksCgkJCQkJImxvZ19wYXRoIjogICAgICAgIGdvcm0uRXhwcigiTlVMTCIpLAoJCQkJfSkKCQkJfSBlbHNlIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQljYXNlICJwaW4iOgoJCQlkYXRhYmFzZS5EQi5Nb2RlbCgmdGFzaykuVXBkYXRlKCJpc19waW5uZWQiLCB0cnVlKQoJCWNhc2UgInVucGluIjoKCQkJZGF0YWJhc2UuREIuTW9kZWwoJnRhc2spLlVwZGF0ZSgiaXNfcGlubmVkIiwgZmFsc2UpCgkJfQoJCWNvdW50KysKCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogZm10LlNwcmludGYoIuaJuemHjyVzOiAlZCDkuKrku7vliqEiLCByZXEuQWN0aW9uLCBjb3VudCksICJjb3VudCI6IGNvdW50fSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIEJhdGNoRW5hYmxlKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJVGFza0lEcyBbXXVpbnQgYGpzb246InRhc2tfaWRzIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgl9CglpZiBlcnIgOj0gYy5TaG91bGRCaW5kSlNPTigmcmVxKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6K+35rGC5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCgljb3VudCA6PSAwCglmb3IgXywgaWQgOj0gcmFuZ2UgcmVxLlRhc2tJRHMgewoJCXZhciB0YXNrIG1vZGVsLlRhc2sKCQlpZiBkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgaWQpLkVycm9yICE9IG5pbCB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIGVyciA6PSB2YWxpZGF0ZUFuZEVuYWJsZVRhc2soJnRhc2spOyBlcnIgIT0gbmlsIHsKCQkJY29udGludWUKCQl9CgkJY291bnQrKwoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6IGZtdC5TcHJpbnRmKCLlt7LlkK/nlKggJWQg5Liq5Lu75YqhIiwgY291bnQpLCAic3VjY2Vzc19jb3VudCI6IGNvdW50fSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIEJhdGNoRGlzYWJsZShjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCVRhc2tJRHMgW111aW50IGBqc29uOiJ0YXNrX2lkcyIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJY291bnQgOj0gMAoJZm9yIF8sIGlkIDo9IHJhbmdlIHJlcS5UYXNrSURzIHsKCQl2YXIgdGFzayBtb2RlbC5UYXNrCgkJaWYgZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIGlkKS5FcnJvciAhPSBuaWwgewoJCQljb250aW51ZQoJCX0KCQlkaXNhYmxlVGFza0FuZFJlbW92ZVNjaGVkdWxlKCZ0YXNrKQoJCWNvdW50KysKCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiBmbXQuU3ByaW50Zigi5bey56aB55SoICVkIOS4quS7u+WKoSIsIGNvdW50KSwgInN1Y2Nlc3NfY291bnQiOiBjb3VudH0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBCYXRjaERlbGV0ZShjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCVRhc2tJRHMgW111aW50IGBqc29uOiJ0YXNrX2lkcyIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJc2NoZWR1bGVyIDo9IHNlcnZpY2UuR2V0U2NoZWR1bGVyVjIoKQoJY291bnQgOj0gMAoJZm9yIF8sIGlkIDo9IHJhbmdlIHJlcS5UYXNrSURzIHsKCQlpZiBzY2hlZHVsZXIgIT0gbmlsIHsKCQkJc2NoZWR1bGVyLlJlbW92ZUpvYihpZCkKCQl9CgkJZGF0YWJhc2UuREIuV2hlcmUoInRhc2tfaWQgPSA/IiwgaWQpLkRlbGV0ZSgmbW9kZWwuVGFza0xvZ3t9KQoJCWRhdGFiYXNlLkRCLldoZXJlKCJpZCA9ID8iLCBpZCkuRGVsZXRlKCZtb2RlbC5UYXNre30pCgkJY291bnQrKwoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6IGZtdC5TcHJpbnRmKCLlt7LliKDpmaQgJWQg5Liq5Lu75YqhIiwgY291bnQpLCAiY291bnQiOiBjb3VudH0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBCYXRjaFJ1bihjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCVRhc2tJRHMgW111aW50IGBqc29uOiJ0YXNrX2lkcyIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJaWYgbGVuKHJlcS5UYXNrSURzKSA+IDEwIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLmibnph4/ov5DooYzmnIDlpJogMTAg5Liq5Lu75YqhIikKCQlyZXR1cm4KCX0KCglzY2hlZHVsZXIgOj0gc2VydmljZS5HZXRTY2hlZHVsZXJWMigpCgljb3VudCA6PSAwCglmb3IgXywgaWQgOj0gcmFuZ2UgcmVxLlRhc2tJRHMgewoJCXZhciB0YXNrIG1vZGVsLlRhc2sKCQlpZiBkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgaWQpLkVycm9yICE9IG5pbCB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIHRhc2suU3RhdHVzICE9IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nIHsKCQkJaWYgc2NoZWR1bGVyICE9IG5pbCAmJiBzY2hlZHVsZXIuUnVuTm93KGlkKSA9PSBuaWwgewoJCQkJY291bnQrKwoJCQl9CgkJfQoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6IGZtdC5TcHJpbnRmKCLlt7LlkK/liqggJWQg5Liq5Lu75YqhIiwgY291bnQpLCAiY291bnQiOiBjb3VudH0pCn0K
+package handler
+
+import (
+	"fmt"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
+)
+
+func (h *TaskHandler) Batch(c *gin.Context) {
+	var req struct {
+		IDs    []uint `json:"ids" binding:"required"`
+		Action string `json:"action" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	scheduler := service.GetSchedulerV2()
+	count := 0
+
+	for _, id := range req.IDs {
+		var task model.Task
+		if database.DB.First(&task, id).Error != nil {
+			continue
+		}
+
+		switch req.Action {
+		case "enable":
+			if err := validateAndEnableTask(&task); err != nil {
+				continue
+			}
+		case "disable":
+			disableTaskAndRemoveSchedule(&task)
+		case "delete":
+			if scheduler != nil {
+				scheduler.RemoveJob(id)
+			}
+			database.DB.Where("task_id = ?", id).Delete(&model.TaskLog{})
+			database.DB.Delete(&task)
+		case "run":
+			if task.Status != model.TaskStatusRunning {
+				if err := scheduler.RunNow(id); err == nil {
+					count++
+				}
+				continue
+			}
+		case "stop":
+			if task.Status == model.TaskStatusRunning {
+				if executor := service.GetTaskExecutor(); executor != nil {
+					executor.StopTask(id)
+				}
+				if task.PID != nil && *task.PID > 0 {
+					// StopTask 已打标记，这里再显式标记一次覆盖按 PID 兜底场景（幂等）。
+					service.MarkManualStop(id)
+					service.KillProcessByPid(*task.PID)
+				}
+				stopLogStatus := model.LogStatusAborted
+				var runningLog model.TaskLog
+				if err := database.DB.Where("task_id = ? AND status = ?", id, model.LogStatusRunning).
+					Order("started_at DESC").First(&runningLog).Error; err == nil {
+					now := time.Now()
+					duration := now.Sub(runningLog.StartedAt).Seconds()
+					if duration < 0 {
+						duration = 0
+					}
+					// 批量停止也统一标记为 Aborted，避免进入成功/失败统计。
+					database.DB.Model(&runningLog).Updates(map[string]interface{}{
+						"status":   stopLogStatus,
+						"ended_at": now,
+						"duration": duration,
+					})
+					database.DB.Model(&task).Updates(map[string]interface{}{
+						"last_run_status":   model.RunAborted,
+						"last_running_time": duration,
+					})
+				}
+				inactiveStatus := service.ResolveTaskInactiveStatus(&task)
+				database.DB.Model(&task).Updates(map[string]interface{}{
+					"status":          inactiveStatus,
+					"last_run_status": model.RunAborted,
+					"pid":             gorm.Expr("NULL"),
+					"log_path":        gorm.Expr("NULL"),
+				})
+			} else {
+				continue
+			}
+		case "pin":
+			database.DB.Model(&task).Update("is_pinned", true)
+		case "unpin":
+			database.DB.Model(&task).Update("is_pinned", false)
+		}
+		count++
+	}
+
+	response.Success(c, gin.H{"message": fmt.Sprintf("批量%s: %d 个任务", req.Action, count), "count": count})
+}
+
+func (h *TaskHandler) BatchEnable(c *gin.Context) {
+	var req struct {
+		TaskIDs []uint `json:"task_ids" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	count := 0
+	for _, id := range req.TaskIDs {
+		var task model.Task
+		if database.DB.First(&task, id).Error != nil {
+			continue
+		}
+		if err := validateAndEnableTask(&task); err != nil {
+			continue
+		}
+		count++
+	}
+	response.Success(c, gin.H{"message": fmt.Sprintf("已启用 %d 个任务", count), "success_count": count})
+}
+
+func (h *TaskHandler) BatchDisable(c *gin.Context) {
+	var req struct {
+		TaskIDs []uint `json:"task_ids" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	count := 0
+	for _, id := range req.TaskIDs {
+		var task model.Task
+		if database.DB.First(&task, id).Error != nil {
+			continue
+		}
+		disableTaskAndRemoveSchedule(&task)
+		count++
+	}
+	response.Success(c, gin.H{"message": fmt.Sprintf("已禁用 %d 个任务", count), "success_count": count})
+}
+
+func (h *TaskHandler) BatchDelete(c *gin.Context) {
+	var req struct {
+		TaskIDs []uint `json:"task_ids" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	scheduler := service.GetSchedulerV2()
+	count := 0
+	for _, id := range req.TaskIDs {
+		if scheduler != nil {
+			scheduler.RemoveJob(id)
+		}
+		database.DB.Where("task_id = ?", id).Delete(&model.TaskLog{})
+		database.DB.Where("id = ?", id).Delete(&model.Task{})
+		count++
+	}
+	response.Success(c, gin.H{"message": fmt.Sprintf("已删除 %d 个任务", count), "count": count})
+}
+
+func (h *TaskHandler) BatchRun(c *gin.Context) {
+	var req struct {
+		TaskIDs []uint `json:"task_ids" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	if len(req.TaskIDs) > 10 {
+		response.BadRequest(c, "批量运行最多 10 个任务")
+		return
+	}
+
+	scheduler := service.GetSchedulerV2()
+	count := 0
+	for _, id := range req.TaskIDs {
+		var task model.Task
+		if database.DB.First(&task, id).Error != nil {
+			continue
+		}
+		if task.Status != model.TaskStatusRunning {
+			if scheduler != nil && scheduler.RunNow(id) == nil {
+				count++
+			}
+		}
+	}
+	response.Success(c, gin.H{"message": fmt.Sprintf("已启动 %d 个任务", count), "count": count})
+}

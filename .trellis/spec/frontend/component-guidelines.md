@@ -1,1 +1,212 @@
-IyDnu4Tku7bop4TojIMKCj4g6YCC55So5LqOIGB2aWV3cy8qLyoudnVlYOOAgWBjb21wb25lbnRzLyoudnVlYOOAgWBsYXlvdXRzLyoudnVlYOOAggoKLS0tCgojIyDmgLvljp/liJkKCi0g5LyY5YWI6K6p57uE5Lu2KirkuIDnnLzog73nnIvmh4IqKuOAggotIOe7hOS7tuaLhuWIhuS7peKAnOiBjOi0o+i+ueeVjOaYjuehruKAneS4uuWJjeaPkO+8jOS4jeS7peKAnOaWh+S7tui2iuWwj+i2iuWlveKAneS4uuebruagh+OAggotIOWmguaenOS4gOautemAu+i+keWPquacjeWKoeS6juW9k+WJjee7hOS7tu+8jOW5tuS4jeS8muWkjeeUqO+8jOS8mOWFiOeVmeWcqOW9k+WJjee7hOS7tuWGheOAggotIOWkjeadguS6pOS6kuOAgei+ueeVjOWIhuaUr+OAgeWFvOWuuemAu+i+keW7uuiuruihpeS4reaWh+azqOmHiuOAggoKLS0tCgojIyDnu4Tku7bmi4bliIbovrnnlYwKCiMjIyDpgILlkIjmi4blh7rljrvnmoTmg4XlhrUKCi0g5p+Q5Z2XIFVJIOWcqOWkmuS4qumhtemdoi/lpJrkuKrlvLnnqpfph4zlpI3nlKjjgIIKLSDlvZPliY3pobXpnaLlpKrplb/vvIzmn5DkuKrlsYDpg6jljLrln5/lt7Lnu4/mnInni6znq4vogYzotKPjgIIKLSDmn5DlnZfljLrln5/mnKzouqvlsLHmnInmuIXmmbDovpPlhaXovpPlh7rvvIzmr5TlpoLooajljZXjgIHor6bmg4XpnaLmnb/jgIHml6Xlv5fmn6XnnIvlmajjgIIKCiMjIyDkuI3pgILlkIjmi4blh7rljrvnmoTmg4XlhrUKCi0g5Y+q5piv5Li65LqG4oCc5q+P5Liq5paH5Lu26KGM5pWw5bCR5LiA54K54oCd44CCCi0g6YC76L6R6auY5bqm5L6d6LWW54i257uE5Lu25YaF6YOo54q25oCB77yM5ouG5Ye65Y675Y+N6ICM5Lyg5LiA5aCGIHByb3BzIOWSjCBldmVudHPjgIIKLSDlj6rkvJrlh7rnjrDkuIDmrKHjgIHkuJTmnKzouqvlubbkuI3lpI3mnYLjgIIKCi0tLQoKIyMg5paH5Lu25YaF6YOo57uT5p6E5bu66K6uCgpWdWUg5Y2V5paH5Lu257uE5Lu26YCa5bi45oyJ5LiL6Z2i6aG65bqP57uE57uH77yaCgoxLiBgdGVtcGxhdGVgCjIuIGBzY3JpcHQgc2V0dXBgCjMuIGBzdHlsZWAKCuWcqCBgc2NyaXB0IHNldHVwYCDlhoXpg6jlu7rorq7pobrluo/vvJoKCjEuIGltcG9ydAoyLiDnsbvlnovlrprkuYkKMy4gcHJvcHMgLyBlbWl0cwo0LiDlk43lupTlvI/nirbmgIEKNS4g6K6h566X5bGe5oCnIC8g5L6m5ZCsCjYuIOS6i+S7tuWHveaVsCAvIOS4muWKoeWHveaVsAo3LiDnlJ/lkb3lkajmnJ8KCi0tLQoKIyMgcHJvcHMg5ZKMIGVtaXRzCgotIHByb3BzIOimgeWwvemHj+ivreS5iea4healmu+8jOWIq+eUqOaooeeziuWRveWQjeOAggotIOWmguaenOe7hOS7tuWPquaYr+WxgOmDqOmhtemdoue7hOS7tu+8jOS5n+S4jeimgeS4uuS6huaKveixoeW8uuihjOiuvuiuoeW+iOWkjeadgueahCBwcm9wcyBBUEnjgIIKLSDlr7nlpJbkuovku7blkI3lsL3ph4/nm7TmjqXkvZPnjrDliqjkvZzvvIzkvovlpoLigJzkv53lrZjigJ3igJzlhbPpl63igJ3igJzliLfmlrDigJ3jgIIKLSDlr7nkuJrliqHlr7nosaHovoPlpI3mnYLnmoTlnLrmma/vvIzkvJjlhYjkvKDmmI7noa7nu5PmnoTlr7nosaHvvIzkuI3opoHkvKDlpKfph4/liIbmlaPlrZfmrrXjgIIKCi0tLQoKIyMg5qC35byP5pa55byPCgotIOW9k+WJjemhueebruS7pSBgc2Nzcy9jc3NgIOS4uuS4u++8jOagt+W8j+W6lOWwvemHj+i0tOi/kee7hOS7tuaIlumhtemdouebruW9leOAggotIOmhtemdouS4k+Wxnuagt+W8j+S8mOWFiOWwsei/keaUvue9ruOAggotIOWkmuS4quiuvue9ruWNoeeJh+WFseeUqOagt+W8j+aXtu+8jOWPr+S7peWDj+eOsOaciemhueebruS4gOagt+aPkOWPluWFseS6qyBzY3NzIOaWh+S7tu+8jOS9huWJjeaPkOaYr+ehruWunuWtmOWcqOWkjeeUqOOAggotIOS4jeimgeS4uuS6hue7n+S4gOinhuinieaKiumhtemdouagt+W8j+i/h+W6puaKveixoeaIkOW+iOmavui/vei4queahOWFrOWFseexu+WQjeOAggoKLS0tCgojIyDkuqTkupLkuI7lj6/or7vmgKcKCi0g6KGo5Y2V44CB5by556qX44CB5oq95bGJ44CB6KGo5qC85pON5L2c5bqU5L+d5oyB55So5oi36Lev5b6E5riF5pmw44CCCi0g6ZSZ6K+v5o+Q56S644CB56Gu6K6k5by556qX44CB56m654q25oCB5paH5qGI6KaB55u05o6l5piO56Gu77yM5LiN6KaB5YaZ5b6X5aSq4oCc5oqA5pyv5YyW4oCd44CCCi0g5b2T5Lqk5LqS54q25oCB6L6D5aSa5pe277yM5bu66K6u55So5riF5pmw55qE54q25oCB5Y+Y6YeP5ZCN77yM5LiN6KaB5re35oiQ5LiA5Liq6Zq+5oeC55qE5aSn5a+56LGh44CCCgotLS0KCiMjIOW4uOingemUmeivrwoKLSDkuIDkuKrpobXpnaLmi4blh7rov4flpJroloTnu4Tku7bvvIzlr7zoh7TpmIXor7vopoHmnaXlm57ot7Pmlofku7bjgIIKLSDmiorpobXpnaLlsYDpg6jpgLvovpHnoazlgZrmiJDigJzpgJrnlKjnu4Tku7bigJ3vvIznu5PmnpwgcHJvcHMvZW1pdHMg5Y+Y5b6X5aSN5p2C44CCCi0g5rKh5pyJ5Lit5paH5rOo6YeK77yM5a+86Ie054q25oCB5YiH5o2i5oiW6L6555WM6YC76L6R6Zq+55CG6Kej44CCCi0g5ZCM5LiA57G75by556qX44CB5Y2h54mH44CB6KGo5Y2V5Zyo5LiN5ZCM5Zyw5pa55YaZ5Ye65a6M5YWo5LiN5ZCM55qE5Lqk5LqS6aOO5qC844CCCgojIyBTY2VuYXJpbzog5pel5b+X5p+l55yL5Zmo5Lit55qEIGBccmAg5Y2V6KGM6KaG55uW5Yi35pawCgojIyMgMS4gU2NvcGUgLyBUcmlnZ2VyCi0gVHJpZ2dlcjog5L+u5pS55Lu75Yqh5pel5b+X5p+l55yL5Zmo44CB5omn6KGM5pel5b+X6K+m5oOF44CB5pel5b+X5paH5Lu26aKE6KeI6L+Z57G757uI56uv6aOO5qC85pel5b+X57uE5Lu25pe25b+F6aG755yL5pys6IqC44CCCi0g5Y6f5ZugOiDku7vliqHohJrmnKzluLjovpPlh7rov5vluqbmnaHvvIzoo7ggYFxyYCDkuI3mmK/igJzmjaLooYzigJ3vvIzogIzmmK/igJzmiorlhYnmoIfnp7vlm57lvZPliY3ooYzlvIDlpLTlubbopobnm5bljp/lhoXlrrnigJ3jgILlpoLmnpzml6Xlv5fnu4Tku7blnKjmr4/kuKrmtYHlvI/liIbniYfliLDovr7ml7bpg73lvLrooYzov73liqDmlrDooYzvvIzov5vluqbmnaHlsLHkvJrliLflsY/jgIIKCiMjIyAyLiBTaWduYXR1cmVzCi0g5Lu75Yqh5a6e5pe25pel5b+X57uE5Lu2OiBgd2ViL3NyYy92aWV3cy90YXNrcy9jb21wb25lbnRzL0xvZ1ZpZXdlci52dWVgCi0g5omn6KGM5pel5b+X6K+m5oOF6aG1OiBgd2ViL3NyYy92aWV3cy9sb2dzL2luZGV4LnZ1ZWAKLSDml6Xlv5fmlofku7bpooTop4g6IGB3ZWIvc3JjL3ZpZXdzL3Rhc2tzL2NvbXBvbmVudHMvTG9nRmlsZUJyb3dzZXIudnVlYAoKIyMjIDMuIENvbnRyYWN0cwotIOa4suafk+inhOWImeW/hemhu+WMuuWIhuS4ieexu+i+ueeVjDoKICAtIGBcbmA6IOecn+ato+iQveS4gOaWsOihjAogIC0gYFxyXG5gOiDnnJ/mraPokL3kuIDmlrDooYwKICAtIOijuCBgXHJgOiDmuIXnqbrlvZPliY3ooYzlubbnrYnlvoXlkI7nu63lrZfnrKbopobnm5YKLSDmtYHlvI/ml6Xlv5fnu4Tku7bkuI3og73lnKjigJzmr4/kuKrmlbDmja7liIbniYfnu5PmnZ/igJ3ml7bpu5jorqTmiorlvZPliY0gdGFpbCDlvLrliLYgcHVzaCDmiJDkuIDmlbTooYzjgIIKLSDlj6rmnInnoa7orqTpgYfliLDnnJ/lrp7mjaLooYzvvIzmiJbogIXor6XliIbniYfmnKzouqvmsqHmnInopobnm5bor63kuYnml7bvvIzmiY3lhYHorrjokL3ooYzkuLrljoblj7LooYzjgIIKCiMjIyA0LiBWYWxpZGF0aW9uICYgRXJyb3IgTWF0cml4Ci0g57qv5paH5pys5pel5b+XIC0+IOWxleekuuihjOS4uuS4juWOn+adpeS4gOiHtAotIGDkuIvovb3kuK0gMTAlXHLkuIvovb3kuK0gMjAlXHLkuIvovb3kuK0gMzAlXG5gIC0+IOacgOe7iOWPquS/neeVmeS4gOadoeW9k+WJjei/m+W6puihjAotIOWmguaenOWcqCBgcmVxdWVzdEFuaW1hdGlvbkZyYW1lYCBmbHVzaOOAgWJ1ZmZlciBmbHVzaCDmiJYgY29tcHV0ZWQg5riy5p+T6YeM5oqK5q+P5LiqIGNodW5rIOebtOaOpSBgam9pbignXFxuJylgIC0+IOi/m+W6puadoeWIt+Wxj++8jOWxnuS6jumUmeivr+WunueOsAoKIyMjIDUuIEdvb2QvQmFzZS9CYWQgQ2FzZXMKLSBHb29kOiDlrp7ml7bku7vliqHml6Xlv5fjgIHmiafooYzml6Xlv5for6bmg4XjgIHml6Xlv5fmlofku7bor6bmg4Xlr7nlkIzkuIDku73ljIXlkKvoo7ggYFxyYCDnmoTlhoXlrrnlsZXnpLrnu5PmnpzkuIDoh7QKLSBCYXNlOiDmsqHmnIkgYFxyYCDnmoTmma7pgJrlpJrooYzml6Xlv5fvvIzku43mjInljp/mnIkgYHByZS13cmFwYCDlsZXnpLoKLSBCYWQ6IOS7u+WKoemhteiDveWNleihjOWIt+aWsO+8jOS9huKAnOaJp+ihjOaXpeW/l+KAnemhteWSjOKAnOaXpeW/l+aWh+S7tuKAnemhteWPiOaBouWkjeaIkOWkmuihjOWIt+WxjwoKIyMjIDYuIFRlc3RzIFJlcXVpcmVkCi0g5YmN56uv6aqM6K+BOiBgY2Qgd2ViICYmIG5wbSBydW4gYnVpbGRgCi0g5omL5bel5Zue5b2S54K5OgogIC0g5Lu75Yqh6aG1IGBMb2dWaWV3ZXJgIOS4reafpeeci+i/kOihjOS4reeahOi/m+W6puadoeiEmuacrAogIC0g5omn6KGM5pel5b+X6aG15omT5byA5ZCM5LiA5Lu75Yqh55qE5pel5b+X6K+m5oOFCiAgLSDml6Xlv5fmlofku7blvLnnqpfmn6XnnIvlr7nlupTokL3nm5jmlofku7YKCiMjIyA3LiBXcm9uZyB2cyBDb3JyZWN0CiMjIyMgV3JvbmcKYGBgdHMKZGV0YWlsQ29udGVudC52YWx1ZSArPSBzc2VCdWZmZXIuam9pbignXG4nKSArICdcbicKYGBgCgpgYGB0cwppZiAoY29tbWl0Qm91bmRhcnkpIHsKICBwdXNoTG9nTGluZSgpCn0KYGBgCgojIyMjIENvcnJlY3QKYGBgdHMKZGV0YWlsQ29udGVudC52YWx1ZSA9IG1lcmdlVGVybWluYWxUZXh0KGRldGFpbENvbnRlbnQudmFsdWUsIGNodW5rKQpgYGAKCmBgYHRzCmlmIChjb21taXRCb3VuZGFyeSAmJiAhZW5kZWRXaXRoTGluZUJyZWFrICYmICFzYXdDYXJyaWFnZVJldHVybikgewogIHB1c2hMb2dMaW5lKCkKfQpgYGAKCiMjIFNjZW5hcmlvOiBNb25hY28g5pys5Zyw6Z2Z5oCB6LWE5rqQ5LiO5Yqg6L295o6i5rWLCgojIyMgMS4gU2NvcGUgLyBUcmlnZ2VyCi0gVHJpZ2dlcjog5L+u5pS5IGB3ZWIvc2NyaXB0cy9jb3B5LW1vbmFjby1hc3NldHMubWpzYOOAgWB3ZWIvc3JjL3V0aWxzL21vbmFjby50c2DjgIFgTW9uYWNvRWRpdG9yLnZ1ZWDjgIFgTW9uYWNvRGlmZkVkaXRvci52dWVgIOaXtuW/hemhu+eci+acrOiKguOAggotIOWOn+WboDogTW9uYWNvIOaYr+i/kOihjOaXtuWKqOaAgeWKoOi9vei1hOa6kO+8jOS4jeaYr+aZrumAmueahOKAnOaehOW7uuacnyBpbXBvcnQg5Y2z5Y+v4oCd44CC5aaC5p6c5Y+q5L+d55WZIGBsb2FkZXIuanNg44CB5Y205Yig5o6JIGBlZGl0b3IvYOOAgWBsYW5ndWFnZS9g44CBYGFzc2V0cy9gIOetieebruW9le+8jOaehOW7uuS7jeeEtuS8muaIkOWKn++8jOS9hua1j+iniOWZqOmHjOe8lui+keWZqOS8muebtOaOpeWIneWni+WMluWksei0peOAggoKIyMjIDIuIFNpZ25hdHVyZXMKLSDotYTmupDlpI3liLbohJrmnKw6IGB3ZWIvc2NyaXB0cy9jb3B5LW1vbmFjby1hc3NldHMubWpzYAotIOacrOWcsOi1hOa6kOaOoua1izogYHdlYi9zcmMvdXRpbHMvbW9uYWNvLnRzYAotIOacrOWcsOi1hOa6kOaguei3r+W+hDogYCR7aW1wb3J0Lm1ldGEuZW52LkJBU0VfVVJMfW1vbmFjby92c2AKCiMjIyAzLiBDb250cmFjdHMKLSBgY29weS1tb25hY28tYXNzZXRzLm1qc2Ag5LiN6IO95YaN5oyJ4oCc5bimIGhhc2gg55qE5YW35L2T5paH5Lu25ZCN55m95ZCN5Y2V4oCd5YigIE1vbmFjbyDotYTmupDjgIIKLSDmnKzlnLDotYTmupDmjqLmtYvkuI3og73lj6rmo4Dmn6UgYGxvYWRlci5qc2Ag5piv5ZCm5a2Y5Zyo77yM6Iez5bCR6KaB5qOA5p+l56iz5a6a5YWz6ZSu5YWl5Y+jOgogIC0gYGxvYWRlci5qc2AKICAtIGBlZGl0b3IvZWRpdG9yLm1haW4uanNgCiAgLSBgZWRpdG9yL2VkaXRvci5tYWluLmNzc2AKICAtIGBsYW5ndWFnZS9jc3MvbW9uYWNvLmNvbnRyaWJ1dGlvbi5qc2AKICAtIGBsYW5ndWFnZS9odG1sL21vbmFjby5jb250cmlidXRpb24uanNgCiAgLSBgbGFuZ3VhZ2UvanNvbi9tb25hY28uY29udHJpYnV0aW9uLmpzYAogIC0gYGxhbmd1YWdlL3R5cGVzY3JpcHQvbW9uYWNvLmNvbnRyaWJ1dGlvbi5qc2AKLSDlvZPmnKzlnLDotYTmupDkuI3lrozmlbTml7bvvIzlhYHorrjlm57pgIAgQ0RO77yb5L2G5aaC5p6c5pys5Zyw6LWE5rqQ5a6M5pW077yM5bqU5LyY5YWI5L2/55So5pys5Zyw77yM6YG/5YWN55So5oi3572R57uc5peg5rOV6K6/6ZeuIENETiDml7bnvJbovpHlmajnm7TmjqXmjILmjonjgIIKCiMjIyA0LiBWYWxpZGF0aW9uICYgRXJyb3IgTWF0cml4Ci0gYGxvYWRlci5qc2Ag5a2Y5Zyo77yM5L2GIGBlZGl0b3IvZWRpdG9yLm1haW4uanNgIOaIliBgbGFuZ3VhZ2UvKmAg57y65aSxIC0+IOinhuS4uuacrOWcsOi1hOa6kOS4jeWPr+eUqAotIOaehOW7uumAmui/h++8jOS9hua1j+iniOWZqOmHjOWHuueOsOKAnOe8lui+keWZqOWKoOi9veWksei0pe+8jOivt+ajgOafpee9kee7nOaIlueojeWQjumHjeivleKAnSAtPiDkvJjlhYjmo4Dmn6UgYGRpc3QvbW9uYWNvL3ZzYCDlrozmlbTmgKfvvIzogIzkuI3mmK/lhYjmgIDnlpHnlKjmiLfnvZHnu5wKLSDmnKzlnLDotYTmupDlrozmlbQgKyBDRE4g5LiN5Y+v6L6+IC0+IOe8lui+keWZqOS7jeW6lOiDveato+W4uOWKoOi9vQoKIyMjIDUuIEdvb2QvQmFzZS9CYWQgQ2FzZXMKLSBHb29kOiBgZGlzdC9tb25hY28vdnNgIOWMheWQqyBgZWRpdG9yL2DjgIFgbGFuZ3VhZ2UvYOOAgWBhc3NldHMvYOOAgWBiYXNpYy1sYW5ndWFnZXMvYO+8jOeUqOaIt+emu+e6v+aIluiuv+mXruS4jeS6hiBDRE4g5Lmf6IO95omT5byA57yW6L6R5ZmoCi0gQmFzZTog5pys5Zyw6LWE5rqQ57y65aSx5pe25Zue6YCAIENETu+8jOiHs+WwkeS4jeivr+WIpOKAnOacrOWcsOWPr+eUqOKAnQotIEJhZDog5Y+q5o6i5rWLIGBsb2FkZXIuanNg77yM5oiW6ICF57un57ut5oyJIGhhc2gg55m95ZCN5Y2V6KOB5YmqIGB2c2Ag55uu5b2VCgojIyMgNi4gVGVzdHMgUmVxdWlyZWQKLSDliY3nq6/pqozor4E6IGBjZCB3ZWIgJiYgbnBtIHJ1biBidWlsZGAKLSDmnoTlu7rlkI7mo4Dmn6U6CiAgLSBgd2ViL2Rpc3QvbW9uYWNvL3ZzL2VkaXRvcmAg5a2Y5ZyoCiAgLSBgd2ViL2Rpc3QvbW9uYWNvL3ZzL2xhbmd1YWdlYCDlrZjlnKgKICAtIGB3ZWIvZGlzdC9tb25hY28vdnMvYXNzZXRzYCDlrZjlnKgKLSDmiYvlt6Xlm57lvZLngrk6CiAgLSDohJrmnKznvJbovpHpobXog73mraPluLjmiZPlvIAgTW9uYWNvIOe8lui+keWZqAogIC0g5pat572R5oiW6Zi75patIENETiDml7bvvIzmnKzlnLDnvJbovpHlmajku43og73liqDovb0KCiMjIyA3LiBXcm9uZyB2cyBDb3JyZWN0CiMjIyMgV3JvbmcKYGBganMKY29uc3QgYWxsb3dlZFRvcExldmVsVnNGaWxlcyA9IG5ldyBTZXQoWwogICdlZGl0b3Iud29ya2VyLWFiYzEyMy5qcycsCiAgJ3RzLndvcmtlci1kZWY0NTYuanMnLApdKQpgYGAKCmBgYHRzCnJldHVybiBgJHtpbXBvcnQubWV0YS5lbnYuQkFTRV9VUkx9bW9uYWNvL3ZzL2xvYWRlci5qc2AKYGBgCgojIyMjIENvcnJlY3QKYGBganMKY29weURpcmVjdG9yeShzb3VyY2VEaXIsIHRhcmdldERpcikKYGBgCgpgYGB0cwpjb25zdCBMT0NBTF9NT05BQ09fUkVRVUlSRURfRklMRVMgPSBbCiAgJ2xvYWRlci5qcycsCiAgJ2VkaXRvci9lZGl0b3IubWFpbi5qcycsCiAgJ2VkaXRvci9lZGl0b3IubWFpbi5jc3MnLAogICdsYW5ndWFnZS9jc3MvbW9uYWNvLmNvbnRyaWJ1dGlvbi5qcycsCl0KYGBgCg==
+# 组件规范
+
+> 适用于 `views/*/*.vue`、`components/*.vue`、`layouts/*.vue`。
+
+---
+
+## 总原则
+
+- 优先让组件**一眼能看懂**。
+- 组件拆分以“职责边界明确”为前提，不以“文件越小越好”为目标。
+- 如果一段逻辑只服务于当前组件，并不会复用，优先留在当前组件内。
+- 复杂交互、边界分支、兼容逻辑建议补中文注释。
+
+---
+
+## 组件拆分边界
+
+### 适合拆出去的情况
+
+- 某块 UI 在多个页面/多个弹窗里复用。
+- 当前页面太长，某个局部区域已经有独立职责。
+- 某块区域本身就有清晰输入输出，比如表单、详情面板、日志查看器。
+
+### 不适合拆出去的情况
+
+- 只是为了“每个文件行数少一点”。
+- 逻辑高度依赖父组件内部状态，拆出去反而传一堆 props 和 events。
+- 只会出现一次、且本身并不复杂。
+
+---
+
+## 文件内部结构建议
+
+Vue 单文件组件通常按下面顺序组织：
+
+1. `template`
+2. `script setup`
+3. `style`
+
+在 `script setup` 内部建议顺序：
+
+1. import
+2. 类型定义
+3. props / emits
+4. 响应式状态
+5. 计算属性 / 侦听
+6. 事件函数 / 业务函数
+7. 生命周期
+
+---
+
+## props 和 emits
+
+- props 要尽量语义清楚，别用模糊命名。
+- 如果组件只是局部页面组件，也不要为了抽象强行设计很复杂的 props API。
+- 对外事件名尽量直接体现动作，例如“保存”“关闭”“刷新”。
+- 对业务对象较复杂的场景，优先传明确结构对象，不要传大量分散字段。
+
+---
+
+## 样式方式
+
+- 当前项目以 `scss/css` 为主，样式应尽量贴近组件或页面目录。
+- 页面专属样式优先就近放置。
+- 多个设置卡片共用样式时，可以像现有项目一样提取共享 scss 文件，但前提是确实存在复用。
+- 不要为了统一视觉把页面样式过度抽象成很难追踪的公共类名。
+
+---
+
+## 交互与可读性
+
+- 表单、弹窗、抽屉、表格操作应保持用户路径清晰。
+- 错误提示、确认弹窗、空状态文案要直接明确，不要写得太“技术化”。
+- 当交互状态较多时，建议用清晰的状态变量名，不要混成一个难懂的大对象。
+
+---
+
+## 常见错误
+
+- 一个页面拆出过多薄组件，导致阅读要来回跳文件。
+- 把页面局部逻辑硬做成“通用组件”，结果 props/emits 变得复杂。
+- 没有中文注释，导致状态切换或边界逻辑难理解。
+- 同一类弹窗、卡片、表单在不同地方写出完全不同的交互风格。
+
+## Scenario: 日志查看器中的 `\r` 单行覆盖刷新
+
+### 1. Scope / Trigger
+- Trigger: 修改任务日志查看器、执行日志详情、日志文件预览这类终端风格日志组件时必须看本节。
+- 原因: 任务脚本常输出进度条，裸 `\r` 不是“换行”，而是“把光标移回当前行开头并覆盖原内容”。如果日志组件在每个流式分片到达时都强行追加新行，进度条就会刷屏。
+
+### 2. Signatures
+- 任务实时日志组件: `web/src/views/tasks/components/LogViewer.vue`
+- 执行日志详情页: `web/src/views/logs/index.vue`
+- 日志文件预览: `web/src/views/tasks/components/LogFileBrowser.vue`
+
+### 3. Contracts
+- 渲染规则必须区分三类边界:
+  - `\n`: 真正落一新行
+  - `\r\n`: 真正落一新行
+  - 裸 `\r`: 清空当前行并等待后续字符覆盖
+- 流式日志组件不能在“每个数据分片结束”时默认把当前 tail 强制 push 成一整行。
+- 只有确认遇到真实换行，或者该分片本身没有覆盖语义时，才允许落行为历史行。
+
+### 4. Validation & Error Matrix
+- 纯文本日志 -> 展示行为与原来一致
+- `下载中 10%\r下载中 20%\r下载中 30%\n` -> 最终只保留一条当前进度行
+- 如果在 `requestAnimationFrame` flush、buffer flush 或 computed 渲染里把每个 chunk 直接 `join('\\n')` -> 进度条刷屏，属于错误实现
+
+### 5. Good/Base/Bad Cases
+- Good: 实时任务日志、执行日志详情、日志文件详情对同一份包含裸 `\r` 的内容展示结果一致
+- Base: 没有 `\r` 的普通多行日志，仍按原有 `pre-wrap` 展示
+- Bad: 任务页能单行刷新，但“执行日志”页和“日志文件”页又恢复成多行刷屏
+
+### 6. Tests Required
+- 前端验证: `cd web && npm run build`
+- 手工回归点:
+  - 任务页 `LogViewer` 中查看运行中的进度条脚本
+  - 执行日志页打开同一任务的日志详情
+  - 日志文件弹窗查看对应落盘文件
+
+### 7. Wrong vs Correct
+#### Wrong
+```ts
+detailContent.value += sseBuffer.join('\n') + '\n'
+```
+
+```ts
+if (commitBoundary) {
+  pushLogLine()
+}
+```
+
+#### Correct
+```ts
+detailContent.value = mergeTerminalText(detailContent.value, chunk)
+```
+
+```ts
+if (commitBoundary && !endedWithLineBreak && !sawCarriageReturn) {
+  pushLogLine()
+}
+```
+
+## Scenario: Monaco 本地静态资源与加载探测
+
+### 1. Scope / Trigger
+- Trigger: 修改 `web/scripts/copy-monaco-assets.mjs`、`web/src/utils/monaco.ts`、`MonacoEditor.vue`、`MonacoDiffEditor.vue` 时必须看本节。
+- 原因: Monaco 是运行时动态加载资源，不是普通的“构建期 import 即可”。如果只保留 `loader.js`、却删掉 `editor/`、`language/`、`assets/` 等目录，构建仍然会成功，但浏览器里编辑器会直接初始化失败。
+
+### 2. Signatures
+- 资源复制脚本: `web/scripts/copy-monaco-assets.mjs`
+- 本地资源探测: `web/src/utils/monaco.ts`
+- 本地资源根路径: `${import.meta.env.BASE_URL}monaco/vs`
+
+### 3. Contracts
+- `copy-monaco-assets.mjs` 不能再按“带 hash 的具体文件名白名单”删 Monaco 资源。
+- 本地资源探测不能只检查 `loader.js` 是否存在，至少要检查稳定关键入口:
+  - `loader.js`
+  - `editor/editor.main.js`
+  - `editor/editor.main.css`
+  - `language/css/monaco.contribution.js`
+  - `language/html/monaco.contribution.js`
+  - `language/json/monaco.contribution.js`
+  - `language/typescript/monaco.contribution.js`
+- 当本地资源不完整时，允许回退 CDN；但如果本地资源完整，应优先使用本地，避免用户网络无法访问 CDN 时编辑器直接挂掉。
+
+### 4. Validation & Error Matrix
+- `loader.js` 存在，但 `editor/editor.main.js` 或 `language/*` 缺失 -> 视为本地资源不可用
+- 构建通过，但浏览器里出现“编辑器加载失败，请检查网络或稍后重试” -> 优先检查 `dist/monaco/vs` 完整性，而不是先怀疑用户网络
+- 本地资源完整 + CDN 不可达 -> 编辑器仍应能正常加载
+
+### 5. Good/Base/Bad Cases
+- Good: `dist/monaco/vs` 包含 `editor/`、`language/`、`assets/`、`basic-languages/`，用户离线或访问不了 CDN 也能打开编辑器
+- Base: 本地资源缺失时回退 CDN，至少不误判“本地可用”
+- Bad: 只探测 `loader.js`，或者继续按 hash 白名单裁剪 `vs` 目录
+
+### 6. Tests Required
+- 前端验证: `cd web && npm run build`
+- 构建后检查:
+  - `web/dist/monaco/vs/editor` 存在
+  - `web/dist/monaco/vs/language` 存在
+  - `web/dist/monaco/vs/assets` 存在
+- 手工回归点:
+  - 脚本编辑页能正常打开 Monaco 编辑器
+  - 断网或阻断 CDN 时，本地编辑器仍能加载
+
+### 7. Wrong vs Correct
+#### Wrong
+```js
+const allowedTopLevelVsFiles = new Set([
+  'editor.worker-abc123.js',
+  'ts.worker-def456.js',
+])
+```
+
+```ts
+return `${import.meta.env.BASE_URL}monaco/vs/loader.js`
+```
+
+#### Correct
+```js
+copyDirectory(sourceDir, targetDir)
+```
+
+```ts
+const LOCAL_MONACO_REQUIRED_FILES = [
+  'loader.js',
+  'editor/editor.main.js',
+  'editor/editor.main.css',
+  'language/css/monaco.contribution.js',
+]
+```

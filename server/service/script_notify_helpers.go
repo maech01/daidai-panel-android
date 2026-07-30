@@ -1,1 +1,647 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJpby9mcyIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL21pZGRsZXdhcmUiCikKCmNvbnN0ICgKCW1hbmFnZWROb3RpZnlIZWxwZXJUb2tlbiA9ICJEQUlEQUlfUEFORUxfTUFOQUdFRF9OT1RJRllfSEVMUEVSIHYxIgoJbm90aWZ5UHlGaWxlbmFtZSAgICAgICAgID0gIm5vdGlmeS5weSIKCXNlbmROb3RpZnlKU0ZpbGVuYW1lICAgICA9ICJzZW5kTm90aWZ5LmpzIgopCgp0eXBlIG1hbmFnZWROb3RpZnlBcnRpZmFjdCBzdHJ1Y3QgewoJZmlsZW5hbWUgc3RyaW5nCgljb250ZW50ICBzdHJpbmcKfQoKdmFyIG1hbmFnZWROb3RpZnlQeUNvbnRlbnQgPSBzdHJpbmdzLkpvaW4oW11zdHJpbmd7CgkiIyAiICsgbWFuYWdlZE5vdGlmeUhlbHBlclRva2VuLAoJIiMhL3Vzci9iaW4vZW52IHB5dGhvbjMiLAoJIlwiXCJcIkRhaWRhaSBQYW5lbCBtYW5hZ2VkIG5vdGlmaWNhdGlvbiBoZWxwZXIuIiwKCSIiLAoJIlVzYWdlOiIsCgkiICAgIGZyb20gbm90aWZ5IGltcG9ydCBzZW5kIiwKCSIiLAoJIiAgICBub3RpZnlfbGluZXMgPSBbXSIsCgkiICAgIG5vdGlmeV9saW5lcy5hcHBlbmQoXCLnrb7liLDmiJDlip9cIikiLAoJIiAgICBub3RpZnlfbGluZXMuYXBwZW5kKFwi6LSm5Y+3OiB1c2VyMDFcIikiLAoJIiAgICBzZW5kKFwi56S65L6L5Lu75YqhXCIsIFwiXFxuXCIuam9pbihub3RpZnlfbGluZXMpKSIsCgkiIiwKCSJRaW5nTG9uZyBjb21wYXRpYmlsaXR5OiIsCgkiLSBLZWVwIHNlbmQodGl0bGUsIGNvbnRlbnQsIGlnbm9yZV9kZWZhdWx0X2NvbmZpZz1GYWxzZSwgKiprd2FyZ3MpLiIsCgkiLSBjaGFubmVsX2lkIC8gY2hhbm5lbF9pZHMgc2VsZWN0IHBhbmVsIG5vdGlmaWNhdGlvbiBjaGFubmVscy4iLAoJIi0gRXh0cmEga3dhcmdzIGFyZSBtZXJnZWQgaW50byBjb250ZXh0IGZvciBjb250ZW50X3RlbXBsYXRlIHZhcmlhYmxlcy4iLAoJIi0gaWdub3JlX2RlZmF1bHRfY29uZmlnPVRydWUgc2tpcHMgREFJREFJX05PVElGWV9DSEFOTkVMX0lEIGZhbGxiYWNrLiIsCgkiIiwKCSJSdW50aW1lIGVudmlyb25tZW50IHZhcmlhYmxlczoiLAoJIi0gREFJREFJX05PVElGWV9VUkw6IHBhbmVsIG5vdGlmeSBBUEkgVVJMIiwKCSItIERBSURBSV9OT1RJRllfVE9LRU46IHRlbXBvcmFyeSBiZWFyZXIgdG9rZW4iLAoJIi0gREFJREFJX05PVElGWV9USU1FT1VUOiB0aW1lb3V0IGluIG1zIG9yIHNlY29uZHMsIGRlZmF1bHQgMTUwMDBtcyIsCgkiLSBEQUlEQUlfTk9USUZZX0NIQU5ORUxfSUQ6IGRlZmF1bHQgbm90aWZpY2F0aW9uIGNoYW5uZWwgSUQgZm9yIGN1cnJlbnQgdGFzayIsCgkiXCJcIlwiIiwKCSJpbXBvcnQganNvbiIsCgkiaW1wb3J0IG9zIiwKCSJmcm9tIHR5cGluZyBpbXBvcnQgSXRlcmFibGUiLAoJImltcG9ydCB1cmxsaWIuZXJyb3IiLAoJImltcG9ydCB1cmxsaWIucmVxdWVzdCIsCgkiIiwKCSJERUZBVUxUX1RJTUVPVVRfU0VDT05EUyA9IDE1LjAiLAoJIiIsCgkiZGVmIF9yZXNvbHZlX3RpbWVvdXRfc2Vjb25kcyh0aW1lb3V0PU5vbmUpOiIsCgkiICAgIFwiXCJcIk5vcm1hbGl6ZSB0aW1lb3V0IHZhbHVlcyBmcm9tIG1zL3NlY29uZHMvZW52IHRvIHNlY29uZHMuXCJcIlwiIiwKCSIgICAgcmF3ID0gdGltZW91dCBpZiB0aW1lb3V0IGlzIG5vdCBOb25lIGVsc2Ugb3MuZ2V0ZW52KFwiREFJREFJX05PVElGWV9USU1FT1VUXCIsIFwiMTUwMDBcIikiLAoJIiAgICB0ZXh0ID0gc3RyKHJhdykuc3RyaXAoKS5sb3dlcigpIiwKCSIgICAgaWYgbm90IHRleHQ6IiwKCSIgICAgICAgIHJldHVybiBERUZBVUxUX1RJTUVPVVRfU0VDT05EUyIsCgkiICAgIGlmIHRleHQuZW5kc3dpdGgoXCJtc1wiKToiLAoJIiAgICAgICAgdHJ5OiIsCgkiICAgICAgICAgICAgcmV0dXJuIG1heChmbG9hdCh0ZXh0WzotMl0pIC8gMTAwMC4wLCAwLjEpIiwKCSIgICAgICAgIGV4Y2VwdCBWYWx1ZUVycm9yOiIsCgkiICAgICAgICAgICAgcmV0dXJuIERFRkFVTFRfVElNRU9VVF9TRUNPTkRTIiwKCSIgICAgaWYgdGV4dC5lbmRzd2l0aChcInNcIik6IiwKCSIgICAgICAgIHRyeToiLAoJIiAgICAgICAgICAgIHJldHVybiBtYXgoZmxvYXQodGV4dFs6LTFdKSwgMC4xKSIsCgkiICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoiLAoJIiAgICAgICAgICAgIHJldHVybiBERUZBVUxUX1RJTUVPVVRfU0VDT05EUyIsCgkiICAgIHRyeToiLAoJIiAgICAgICAgdmFsdWUgPSBmbG9hdCh0ZXh0KSIsCgkiICAgIGV4Y2VwdCBWYWx1ZUVycm9yOiIsCgkiICAgICAgICByZXR1cm4gREVGQVVMVF9USU1FT1VUX1NFQ09ORFMiLAoJIiAgICBpZiB2YWx1ZSA+IDMwMDoiLAoJIiAgICAgICAgcmV0dXJuIG1heCh2YWx1ZSAvIDEwMDAuMCwgMC4xKSIsCgkiICAgIHJldHVybiBtYXgodmFsdWUsIDAuMSkiLAoJIiIsCgkiIiwKCSJkZWYgX3Jlc29sdmVfZGVmYXVsdF9jaGFubmVsX2lkKHVzZV9kZWZhdWx0X2NoYW5uZWw9VHJ1ZSk6IiwKCSIgICAgXCJcIlwiUmV0dXJuIHRoZSBjb25maWd1cmVkIGRlZmF1bHQgY2hhbm5lbCBJRCBmb3IgdGhlIHJ1bm5pbmcgdGFzay5cIlwiXCIiLAoJIiAgICBpZiBub3QgdXNlX2RlZmF1bHRfY2hhbm5lbDoiLAoJIiAgICAgICAgcmV0dXJuIE5vbmUiLAoJIiAgICByYXcgPSBvcy5nZXRlbnYoXCJEQUlEQUlfTk9USUZZX0NIQU5ORUxfSURcIiwgXCJcIikuc3RyaXAoKSIsCgkiICAgIGlmIG5vdCByYXc6IiwKCSIgICAgICAgIHJldHVybiBOb25lIiwKCSIgICAgdHJ5OiIsCgkiICAgICAgICByZXR1cm4gaW50KHJhdykiLAoJIiAgICBleGNlcHQgVmFsdWVFcnJvcjoiLAoJIiAgICAgICAgcmV0dXJuIE5vbmUiLAoJIiIsCgkiIiwKCSJkZWYgX25vcm1hbGl6ZV9jaGFubmVsX2lkcyhjaGFubmVsX2lkcyk6IiwKCSIgICAgXCJcIlwiQ29udmVydCBpdGVyYWJsZSBjaGFubmVsIElEcyBpbnRvIGEgSlNPTi1zYWZlIGxpc3QuXCJcIlwiIiwKCSIgICAgaWYgbm90IGNoYW5uZWxfaWRzOiIsCgkiICAgICAgICByZXR1cm4gTm9uZSIsCgkiICAgIGlmIGlzaW5zdGFuY2UoY2hhbm5lbF9pZHMsIChzdHIsIGJ5dGVzKSk6IiwKCSIgICAgICAgIHJldHVybiBbY2hhbm5lbF9pZHNdIiwKCSIgICAgaWYgaXNpbnN0YW5jZShjaGFubmVsX2lkcywgSXRlcmFibGUpOiIsCgkiICAgICAgICByZXR1cm4gbGlzdChjaGFubmVsX2lkcykiLAoJIiAgICByZXR1cm4gW2NoYW5uZWxfaWRzXSIsCgkiIiwKCSIiLAoJImRlZiBfbWVyZ2VfY29udGV4dChjb250ZXh0LCBleHRyYV9rd2FyZ3MpOiIsCgkiICAgIFwiXCJcIk1lcmdlIGN1c3RvbSBjb250ZXh0IHdpdGggZXh0cmEga2V5d29yZCBhcmd1bWVudHMuXCJcIlwiIiwKCSIgICAgaWYgY29udGV4dCBpcyBOb25lOiIsCgkiICAgICAgICByZXR1cm4gZXh0cmFfa3dhcmdzIG9yIE5vbmUiLAoJIiAgICBpZiBpc2luc3RhbmNlKGNvbnRleHQsIGRpY3QpOiIsCgkiICAgICAgICBtZXJnZWQgPSBkaWN0KGNvbnRleHQpIiwKCSIgICAgICAgIG1lcmdlZC51cGRhdGUoZXh0cmFfa3dhcmdzKSIsCgkiICAgICAgICByZXR1cm4gbWVyZ2VkIiwKCSIgICAgaWYgZXh0cmFfa3dhcmdzOiIsCgkiICAgICAgICBtZXJnZWQgPSB7XCJ2YWx1ZVwiOiBjb250ZXh0fSIsCgkiICAgICAgICBtZXJnZWQudXBkYXRlKGV4dHJhX2t3YXJncykiLAoJIiAgICAgICAgcmV0dXJuIG1lcmdlZCIsCgkiICAgIHJldHVybiBjb250ZXh0IiwKCSIiLAoJIiIsCgkiZGVmIF9idWlsZF9wYXlsb2FkKHRpdGxlLCBjb250ZW50LCBjaGFubmVsX2lkPU5vbmUsIGNoYW5uZWxfaWRzPU5vbmUsIGNvbnRleHQ9Tm9uZSwgdXNlX2RlZmF1bHRfY2hhbm5lbD1UcnVlKToiLAoJIiAgICBcIlwiXCJCdWlsZCB0aGUgcmVxdWVzdCBib2R5IGV4cGVjdGVkIGJ5IC9hcGkvdjEvbm90aWZpY2F0aW9ucy9zZW5kLlwiXCJcIiIsCgkiICAgIHBheWxvYWQgPSB7XCJ0aXRsZVwiOiB0aXRsZSwgXCJjb250ZW50XCI6IGNvbnRlbnR9IiwKCSIgICAgZGVmYXVsdF9jaGFubmVsX2lkID0gX3Jlc29sdmVfZGVmYXVsdF9jaGFubmVsX2lkKHVzZV9kZWZhdWx0X2NoYW5uZWwpIiwKCSIgICAgaWYgY2hhbm5lbF9pZCBpcyBub3QgTm9uZToiLAoJIiAgICAgICAgcGF5bG9hZFtcImNoYW5uZWxfaWRcIl0gPSBjaGFubmVsX2lkIiwKCSIgICAgZWxzZToiLAoJIiAgICAgICAgbm9ybWFsaXplZF9jaGFubmVsX2lkcyA9IF9ub3JtYWxpemVfY2hhbm5lbF9pZHMoY2hhbm5lbF9pZHMpIiwKCSIgICAgICAgIGlmIG5vcm1hbGl6ZWRfY2hhbm5lbF9pZHM6IiwKCSIgICAgICAgICAgICBwYXlsb2FkW1wiY2hhbm5lbF9pZHNcIl0gPSBub3JtYWxpemVkX2NoYW5uZWxfaWRzIiwKCSIgICAgICAgIGVsaWYgZGVmYXVsdF9jaGFubmVsX2lkIGlzIG5vdCBOb25lOiIsCgkiICAgICAgICAgICAgcGF5bG9hZFtcImNoYW5uZWxfaWRcIl0gPSBkZWZhdWx0X2NoYW5uZWxfaWQiLAoJIiAgICBpZiBjb250ZXh0IGlzIG5vdCBOb25lIGFuZCBjb250ZXh0ICE9IHt9OiIsCgkiICAgICAgICBwYXlsb2FkW1wiY29udGV4dFwiXSA9IGNvbnRleHQiLAoJIiAgICByZXR1cm4gcGF5bG9hZCIsCgkiIiwKCSIiLAoJImRlZiByZXF1ZXN0X25vdGlmeSh0aXRsZSwgY29udGVudCwgY2hhbm5lbF9pZD1Ob25lLCBjaGFubmVsX2lkcz1Ob25lLCBjb250ZXh0PU5vbmUsIHVzZV9kZWZhdWx0X2NoYW5uZWw9VHJ1ZSwgdXJsPU5vbmUsIHRva2VuPU5vbmUsIHRpbWVvdXQ9Tm9uZSk6IiwKCSIgICAgXCJcIlwiU2VuZCBhIG5vdGlmaWNhdGlvbiByZXF1ZXN0IHRvIHRoZSBwYW5lbCBub3RpZnkgQVBJLiIsCgkiIiwKCSIgICAgQXJnczoiLAoJIiAgICAgICAgdGl0bGU6IE5vdGlmaWNhdGlvbiB0aXRsZS4iLAoJIiAgICAgICAgY29udGVudDogTm90aWZpY2F0aW9uIGJvZHkgdGV4dC4iLAoJIiAgICAgICAgY2hhbm5lbF9pZDogU2luZ2xlIHRhcmdldCBjaGFubmVsIElELiIsCgkiICAgICAgICBjaGFubmVsX2lkczogTXVsdGlwbGUgdGFyZ2V0IGNoYW5uZWwgSURzLiIsCgkiICAgICAgICBjb250ZXh0OiBFeHRyYSB0ZW1wbGF0ZSB2YXJpYWJsZXMgZm9yIGNvbnRlbnRfdGVtcGxhdGUuIiwKCSIgICAgICAgIHVzZV9kZWZhdWx0X2NoYW5uZWw6IFdoZXRoZXIgREFJREFJX05PVElGWV9DSEFOTkVMX0lEIHNob3VsZCBiZSB1c2VkLiIsCgkiICAgICAgICB1cmw6IE92ZXJyaWRlIERBSURBSV9OT1RJRllfVVJMLiIsCgkiICAgICAgICB0b2tlbjogT3ZlcnJpZGUgREFJREFJX05PVElGWV9UT0tFTi4iLAoJIiAgICAgICAgdGltZW91dDogT3ZlcnJpZGUgREFJREFJX05PVElGWV9USU1FT1VULiIsCgkiICAgIFwiXCJcIiIsCgkiICAgIG5vdGlmeV91cmwgPSAodXJsIG9yIG9zLmdldGVudihcIkRBSURBSV9OT1RJRllfVVJMXCIsIFwiXCIpKS5zdHJpcCgpIiwKCSIgICAgbm90aWZ5X3Rva2VuID0gKHRva2VuIG9yIG9zLmdldGVudihcIkRBSURBSV9OT1RJRllfVE9LRU5cIiwgXCJcIikpLnN0cmlwKCkiLAoJIiAgICBpZiBub3Qgbm90aWZ5X3VybCBvciBub3Qgbm90aWZ5X3Rva2VuOiIsCgkiICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoXCJEQUlEQUlfTk9USUZZX1VSTCDmiJYgREFJREFJX05PVElGWV9UT0tFTiDmnKrphY3nva5cIikiLAoJIiIsCgkiICAgIHRpbWVvdXRfc2Vjb25kcyA9IF9yZXNvbHZlX3RpbWVvdXRfc2Vjb25kcyh0aW1lb3V0KSIsCgkiICAgIHBheWxvYWQgPSBfYnVpbGRfcGF5bG9hZCgiLAoJIiAgICAgICAgdGl0bGUsIiwKCSIgICAgICAgIGNvbnRlbnQsIiwKCSIgICAgICAgIGNoYW5uZWxfaWQ9Y2hhbm5lbF9pZCwiLAoJIiAgICAgICAgY2hhbm5lbF9pZHM9Y2hhbm5lbF9pZHMsIiwKCSIgICAgICAgIGNvbnRleHQ9Y29udGV4dCwiLAoJIiAgICAgICAgdXNlX2RlZmF1bHRfY2hhbm5lbD11c2VfZGVmYXVsdF9jaGFubmVsLCIsCgkiICAgICkiLAoJIiAgICByZXF1ZXN0ID0gdXJsbGliLnJlcXVlc3QuUmVxdWVzdCgiLAoJIiAgICAgICAgbm90aWZ5X3VybCwiLAoJIiAgICAgICAgZGF0YT1qc29uLmR1bXBzKHBheWxvYWQpLmVuY29kZShcInV0Zi04XCIpLCIsCgkiICAgICAgICBoZWFkZXJzPXsiLAoJIiAgICAgICAgICAgIFwiQXV0aG9yaXphdGlvblwiOiBmXCJCZWFyZXIge25vdGlmeV90b2tlbn1cIiwiLAoJIiAgICAgICAgICAgIFwiQ29udGVudC1UeXBlXCI6IFwiYXBwbGljYXRpb24vanNvblwiLCIsCgkiICAgICAgICB9LCIsCgkiICAgICAgICBtZXRob2Q9XCJQT1NUXCIsIiwKCSIgICAgKSIsCgkiIiwKCSIgICAgdHJ5OiIsCgkiICAgICAgICB3aXRoIHVybGxpYi5yZXF1ZXN0LnVybG9wZW4ocmVxdWVzdCwgdGltZW91dD10aW1lb3V0X3NlY29uZHMpIGFzIHJlc3BvbnNlOiIsCgkiICAgICAgICAgICAgYm9keSA9IHJlc3BvbnNlLnJlYWQoKS5kZWNvZGUoXCJ1dGYtOFwiKSIsCgkiICAgICAgICAgICAgcmV0dXJuIGpzb24ubG9hZHMoYm9keSkgaWYgYm9keSBlbHNlIHt9IiwKCSIgICAgZXhjZXB0IHVybGxpYi5lcnJvci5IVFRQRXJyb3IgYXMgZXJyOiIsCgkiICAgICAgICBib2R5ID0gZXJyLnJlYWQoKS5kZWNvZGUoXCJ1dGYtOFwiLCBlcnJvcnM9XCJpZ25vcmVcIikiLAoJIiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGZcIumAmuefpeWPkemAgeWksei0pTogSFRUUCB7ZXJyLmNvZGV9OiB7Ym9keX1cIikgZnJvbSBlcnIiLAoJIiAgICBleGNlcHQgdXJsbGliLmVycm9yLlVSTEVycm9yIGFzIGVycjoiLAoJIiAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGZcIumAmuefpeWPkemAgeWksei0pToge2Vycn1cIikgZnJvbSBlcnIiLAoJIiIsCgkiIiwKCSJkZWYgc2VuZCh0aXRsZSwgY29udGVudCwgaWdub3JlX2RlZmF1bHRfY29uZmlnPUZhbHNlLCAqKmt3YXJncyk6IiwKCSIgICAgXCJcIlwiUWluZ0xvbmctc3R5bGUgd3JhcHBlciBhcm91bmQgcmVxdWVzdF9ub3RpZnkuIiwKCSIiLAoJIiAgICBTdXBwb3J0ZWQga3dhcmdzOiIsCgkiICAgICAgICBjaGFubmVsX2lkIC8gY2hhbm5lbF9pZHM6IENob29zZSB0YXJnZXQgY2hhbm5lbHMuIiwKCSIgICAgICAgIGNvbnRleHQ6IEV4dHJhIHRlbXBsYXRlIHZhcmlhYmxlcy4iLAoJIiAgICAgICAgdXJsIC8gdG9rZW4gLyB0aW1lb3V0OiBPdmVycmlkZSBydW50aW1lIGVudmlyb25tZW50IHZhbHVlcy4iLAoJIiAgICAgICAgYW55IG90aGVyIGt3YXJnczogQXV0b21hdGljYWxseSBtZXJnZWQgaW50byBjb250ZXh0LiIsCgkiICAgIFwiXCJcIiIsCgkiICAgIGlmIG5vdCBjb250ZW50OiIsCgkiICAgICAgICBwcmludChmXCJ7dGl0bGV9IOaOqOmAgeWGheWuueS4uuepuu+8gVwiKSIsCgkiICAgICAgICByZXR1cm4gTm9uZSIsCgkiIiwKCSIgICAgcmVxdWVzdF91cmwgPSBrd2FyZ3MucG9wKFwidXJsXCIsIE5vbmUpIiwKCSIgICAgcmVxdWVzdF90b2tlbiA9IGt3YXJncy5wb3AoXCJ0b2tlblwiLCBOb25lKSIsCgkiICAgIHJlcXVlc3RfdGltZW91dCA9IGt3YXJncy5wb3AoXCJ0aW1lb3V0XCIsIE5vbmUpIiwKCSIgICAgY2hhbm5lbF9pZCA9IGt3YXJncy5wb3AoXCJjaGFubmVsX2lkXCIsIE5vbmUpIiwKCSIgICAgY2hhbm5lbF9pZHMgPSBrd2FyZ3MucG9wKFwiY2hhbm5lbF9pZHNcIiwgTm9uZSkiLAoJIiAgICBjb250ZXh0ID0ga3dhcmdzLnBvcChcImNvbnRleHRcIiwgTm9uZSkiLAoJIiAgICBjb250ZXh0ID0gX21lcmdlX2NvbnRleHQoY29udGV4dCwga3dhcmdzKSIsCgkiIiwKCSIgICAgcmVzdWx0ID0gcmVxdWVzdF9ub3RpZnkoIiwKCSIgICAgICAgIHRpdGxlLCIsCgkiICAgICAgICBjb250ZW50LCIsCgkiICAgICAgICBjaGFubmVsX2lkPWNoYW5uZWxfaWQsIiwKCSIgICAgICAgIGNoYW5uZWxfaWRzPWNoYW5uZWxfaWRzLCIsCgkiICAgICAgICBjb250ZXh0PWNvbnRleHQsIiwKCSIgICAgICAgIHVzZV9kZWZhdWx0X2NoYW5uZWw9bm90IGlnbm9yZV9kZWZhdWx0X2NvbmZpZywiLAoJIiAgICAgICAgdXJsPXJlcXVlc3RfdXJsLCIsCgkiICAgICAgICB0b2tlbj1yZXF1ZXN0X3Rva2VuLCIsCgkiICAgICAgICB0aW1lb3V0PXJlcXVlc3RfdGltZW91dCwiLAoJIiAgICApIiwKCSIgICAgcHJpbnQocmVzdWx0LmdldChcIm1lc3NhZ2VcIiwgXCLpgJrnn6Xlj5HpgIHlrozmiJBcIikpIiwKCSIgICAgcmV0dXJuIHJlc3VsdCIsCgkiIiwKCSIiLAoJImRlZiBtYWluKCk6IiwKCSIgICAgc2VuZChcInRpdGxlXCIsIFwiY29udGVudFwiKSIsCgkiIiwKCSIiLAoJImlmIF9fbmFtZV9fID09IFwiX19tYWluX19cIjoiLAoJIiAgICBtYWluKCkiLAoJIiIsCn0sICJcbiIpCgp2YXIgbWFuYWdlZFNlbmROb3RpZnlKU0NvbnRlbnQgPSBzdHJpbmdzLkpvaW4oW11zdHJpbmd7CgkiJ3VzZSBzdHJpY3QnOyIsCgkiLyoqIiwKCSIgKiAiICsgbWFuYWdlZE5vdGlmeUhlbHBlclRva2VuLAoJIiAqIERhaWRhaSBQYW5lbCBtYW5hZ2VkIG5vdGlmaWNhdGlvbiBoZWxwZXIuIiwKCSIgKiIsCgkiICogVXNhZ2U6IiwKCSIgKiAgIGNvbnN0IHsgc2VuZE5vdGlmeSB9ID0gcmVxdWlyZSgnLi9zZW5kTm90aWZ5Jyk7IiwKCSIgKiAgIGNvbnN0IG5vdGlmeVN0ciA9IFtdOyIsCgkiICogICBub3RpZnlTdHIucHVzaCgn562+5Yiw5oiQ5YqfJyk7IiwKCSIgKiAgIG5vdGlmeVN0ci5wdXNoKCfotKblj7c6IHVzZXIwMScpOyIsCgkiICogICBhd2FpdCBzZW5kTm90aWZ5KCfnpLrkvovku7vliqEnLCBub3RpZnlTdHIuam9pbignXFxuJykpOyIsCgkiICoiLAoJIiAqIFFpbmdMb25nIGNvbXBhdGliaWxpdHk6IiwKCSIgKiAtIEtlZXAgc2VuZE5vdGlmeSh0ZXh0LCBkZXNwLCBwYXJhbXMpIGFuZCBzZW5kKHRleHQsIGRlc3AsIHBhcmFtcykuIiwKCSIgKiAtIHBhcmFtcy5jaGFubmVsX2lkIC8gcGFyYW1zLmNoYW5uZWxfaWRzIHNlbGVjdCBwYW5lbCBjaGFubmVscy4iLAoJIiAqIC0gRXh0cmEgcGFyYW1zIGFyZSBtZXJnZWQgaW50byBjb250ZXh0IGZvciBjb250ZW50X3RlbXBsYXRlIHZhcmlhYmxlcy4iLAoJIiAqIC0gcGFyYW1zLmlnbm9yZV9kZWZhdWx0X2NvbmZpZyA9IHRydWUgc2tpcHMgREFJREFJX05PVElGWV9DSEFOTkVMX0lELiIsCgkiICovIiwKCSJjb25zdCBmcyA9IHJlcXVpcmUoJ25vZGU6ZnMnKTsiLAoJImNvbnN0IGh0dHAgPSByZXF1aXJlKCdub2RlOmh0dHAnKTsiLAoJImNvbnN0IGh0dHBzID0gcmVxdWlyZSgnbm9kZTpodHRwcycpOyIsCgkiY29uc3QgcGF0aCA9IHJlcXVpcmUoJ25vZGU6cGF0aCcpOyIsCgkiY29uc3QgTW9kdWxlID0gcmVxdWlyZSgnbm9kZTptb2R1bGUnKTsiLAoJImNvbnN0IHsgVVJMIH0gPSByZXF1aXJlKCdub2RlOnVybCcpOyIsCgkiIiwKCSJjb25zdCBERUZBVUxUX1RJTUVPVVRfTVMgPSAxNTAwMDsiLAoJImNvbnN0IFJFU0VSVkVEX1BBUkFNX0tFWVMgPSBuZXcgU2V0KFsnY2hhbm5lbF9pZCcsICdjaGFubmVsX2lkcycsICdjb250ZXh0JywgJ2lnbm9yZV9kZWZhdWx0X2NvbmZpZycsICd1cmwnLCAndG9rZW4nLCAndGltZW91dCddKTsiLAoJImNvbnN0IFNDUklQVFNfRElSID0gU3RyaW5nKHByb2Nlc3MuZW52LkRBSURBSV9TQ1JJUFRTX0RJUiB8fCBfX2Rpcm5hbWUpLnRyaW0oKSB8fCBfX2Rpcm5hbWU7IiwKCSJjb25zdCBNQU5BR0VEX0hFTFBFUl9QQVRIID0gcGF0aC5qb2luKFNDUklQVFNfRElSLCAnc2VuZE5vdGlmeS5qcycpOyIsCgkiIiwKCSJmdW5jdGlvbiBpc1BsYWluT2JqZWN0KHZhbHVlKSB7IiwKCSIgIHJldHVybiB2YWx1ZSAhPSBudWxsICYmIHR5cGVvZiB2YWx1ZSA9PT0gJ29iamVjdCcgJiYgIUFycmF5LmlzQXJyYXkodmFsdWUpOyIsCgkifSIsCgkiIiwKCSJmdW5jdGlvbiBpbnN0YWxsTWFuYWdlZFNlbmROb3RpZnlBbGlhcygpIHsiLAoJIiAgaWYgKGdsb2JhbC5fX0RBSURBSV9TRU5EX05PVElGWV9BTElBU19QQVRDSEVEX18pIHsiLAoJIiAgICByZXR1cm47IiwKCSIgIH0iLAoJIiAgY29uc3Qgb3JpZ2luYWxSZXNvbHZlRmlsZW5hbWUgPSBNb2R1bGUuX3Jlc29sdmVGaWxlbmFtZTsiLAoJIiAgTW9kdWxlLl9yZXNvbHZlRmlsZW5hbWUgPSBmdW5jdGlvbiBwYXRjaGVkUmVzb2x2ZUZpbGVuYW1lKHJlcXVlc3QsIHBhcmVudCwgaXNNYWluLCBvcHRpb25zKSB7IiwKCSIgICAgaWYgKHJlcXVlc3QgPT09ICdzZW5kTm90aWZ5JyB8fCByZXF1ZXN0ID09PSAnc2VuZE5vdGlmeS5qcycgfHwgcmVxdWVzdCA9PT0gJy4vc2VuZE5vdGlmeScgfHwgcmVxdWVzdCA9PT0gJy4vc2VuZE5vdGlmeS5qcycpIHsiLAoJIiAgICAgIGlmICh0eXBlb2YgcmVxdWVzdCA9PT0gJ3N0cmluZycgJiYgcmVxdWVzdC5zdGFydHNXaXRoKCcuJykgJiYgcGFyZW50ICYmIHBhcmVudC5maWxlbmFtZSkgeyIsCgkiICAgICAgICBjb25zdCBsb2NhbENhbmRpZGF0ZSA9IHBhdGgucmVzb2x2ZShwYXRoLmRpcm5hbWUocGFyZW50LmZpbGVuYW1lKSwgcmVxdWVzdCk7IiwKCSIgICAgICAgIGNvbnN0IGxvY2FsSlMgPSBsb2NhbENhbmRpZGF0ZS5lbmRzV2l0aCgnLmpzJykgPyBsb2NhbENhbmRpZGF0ZSA6IGAke2xvY2FsQ2FuZGlkYXRlfS5qc2A7IiwKCSIgICAgICAgIGlmIChmcy5leGlzdHNTeW5jKGxvY2FsQ2FuZGlkYXRlKSB8fCBmcy5leGlzdHNTeW5jKGxvY2FsSlMpKSB7IiwKCSIgICAgICAgICAgcmV0dXJuIG9yaWdpbmFsUmVzb2x2ZUZpbGVuYW1lLmNhbGwodGhpcywgcmVxdWVzdCwgcGFyZW50LCBpc01haW4sIG9wdGlvbnMpOyIsCgkiICAgICAgICB9IiwKCSIgICAgICB9IiwKCSIgICAgICByZXR1cm4gTUFOQUdFRF9IRUxQRVJfUEFUSDsiLAoJIiAgICB9IiwKCSIgICAgcmV0dXJuIG9yaWdpbmFsUmVzb2x2ZUZpbGVuYW1lLmNhbGwodGhpcywgcmVxdWVzdCwgcGFyZW50LCBpc01haW4sIG9wdGlvbnMpOyIsCgkiICB9OyIsCgkiICBnbG9iYWwuX19EQUlEQUlfU0VORF9OT1RJRllfQUxJQVNfUEFUQ0hFRF9fID0gdHJ1ZTsiLAoJIn0iLAoJIiIsCgkiaW5zdGFsbE1hbmFnZWRTZW5kTm90aWZ5QWxpYXMoKTsiLAoJIiIsCgkiLyoqIiwKCSIgKiBOb3JtYWxpemUgdGltZW91dCB2YWx1ZXMgZnJvbSBlbnYgb3IgcGFyYW1zIGludG8gbWlsbGlzZWNvbmRzLiIsCgkiICovIiwKCSJmdW5jdGlvbiByZXNvbHZlVGltZW91dE1zKHRpbWVvdXQpIHsiLAoJIiAgY29uc3QgcmF3ID0gdGltZW91dCA/PyBwcm9jZXNzLmVudi5EQUlEQUlfTk9USUZZX1RJTUVPVVQgPz8gREVGQVVMVF9USU1FT1VUX01TOyIsCgkiICBjb25zdCB0ZXh0ID0gU3RyaW5nKHJhdykudHJpbSgpLnRvTG93ZXJDYXNlKCk7IiwKCSIgIGlmICghdGV4dCkgcmV0dXJuIERFRkFVTFRfVElNRU9VVF9NUzsiLAoJIiAgaWYgKHRleHQuZW5kc1dpdGgoJ21zJykpIHsiLAoJIiAgICBjb25zdCBwYXJzZWQgPSBOdW1iZXIodGV4dC5zbGljZSgwLCAtMikpOyIsCgkiICAgIHJldHVybiBOdW1iZXIuaXNGaW5pdGUocGFyc2VkKSA/IE1hdGgubWF4KHBhcnNlZCwgMTAwKSA6IERFRkFVTFRfVElNRU9VVF9NUzsiLAoJIiAgfSIsCgkiICBpZiAodGV4dC5lbmRzV2l0aCgncycpKSB7IiwKCSIgICAgY29uc3QgcGFyc2VkID0gTnVtYmVyKHRleHQuc2xpY2UoMCwgLTEpKTsiLAoJIiAgICByZXR1cm4gTnVtYmVyLmlzRmluaXRlKHBhcnNlZCkgPyBNYXRoLm1heChwYXJzZWQgKiAxMDAwLCAxMDApIDogREVGQVVMVF9USU1FT1VUX01TOyIsCgkiICB9IiwKCSIgIGNvbnN0IHBhcnNlZCA9IE51bWJlcih0ZXh0KTsiLAoJIiAgaWYgKCFOdW1iZXIuaXNGaW5pdGUocGFyc2VkKSkgcmV0dXJuIERFRkFVTFRfVElNRU9VVF9NUzsiLAoJIiAgcmV0dXJuIHBhcnNlZCA+IDMwMCA/IE1hdGgubWF4KHBhcnNlZCwgMTAwKSA6IE1hdGgubWF4KHBhcnNlZCAqIDEwMDAsIDEwMCk7IiwKCSJ9IiwKCSIiLAoJIi8qKiIsCgkiICogUmVhZCB0aGUgZGVmYXVsdCB0YXNrLWxldmVsIGNoYW5uZWwgZnJvbSB0aGUgaW5qZWN0ZWQgZW52aXJvbm1lbnQuIiwKCSIgKi8iLAoJImZ1bmN0aW9uIHJlc29sdmVEZWZhdWx0Q2hhbm5lbElkKHBhcmFtcyA9IHt9KSB7IiwKCSIgIGlmIChwYXJhbXMuaWdub3JlX2RlZmF1bHRfY29uZmlnID09PSB0cnVlKSB7IiwKCSIgICAgcmV0dXJuIG51bGw7IiwKCSIgIH0iLAoJIiAgY29uc3QgcmF3ID0gU3RyaW5nKHByb2Nlc3MuZW52LkRBSURBSV9OT1RJRllfQ0hBTk5FTF9JRCB8fCAnJykudHJpbSgpOyIsCgkiICBpZiAoIXJhdykgeyIsCgkiICAgIHJldHVybiBudWxsOyIsCgkiICB9IiwKCSIgIGNvbnN0IHBhcnNlZCA9IE51bWJlcihyYXcpOyIsCgkiICByZXR1cm4gTnVtYmVyLmlzTmFOKHBhcnNlZCkgPyBudWxsIDogcGFyc2VkOyIsCgkifSIsCgkiIiwKCSIvKioiLAoJIiAqIE1lcmdlIHBhcmFtcy5jb250ZXh0IHdpdGggbm9uLXJlc2VydmVkIHBhcmFtcyBpbnRvIG9uZSBjb250ZXh0IG9iamVjdC4iLAoJIiAqLyIsCgkiZnVuY3Rpb24gYnVpbGRDb250ZXh0KHBhcmFtcyA9IHt9KSB7IiwKCSIgIGNvbnN0IGV4dHJhQ29udGV4dCA9IHt9OyIsCgkiICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyhwYXJhbXMpKSB7IiwKCSIgICAgaWYgKCFSRVNFUlZFRF9QQVJBTV9LRVlTLmhhcyhrZXkpKSB7IiwKCSIgICAgICBleHRyYUNvbnRleHRba2V5XSA9IHZhbHVlOyIsCgkiICAgIH0iLAoJIiAgfSIsCgkiIiwKCSIgIGNvbnN0IGJhc2VDb250ZXh0ID0gcGFyYW1zLmNvbnRleHQ7IiwKCSIgIGlmIChpc1BsYWluT2JqZWN0KGJhc2VDb250ZXh0KSkgeyIsCgkiICAgIHJldHVybiB7IC4uLmJhc2VDb250ZXh0LCAuLi5leHRyYUNvbnRleHQgfTsiLAoJIiAgfSIsCgkiICBpZiAoYmFzZUNvbnRleHQgIT0gbnVsbCAmJiBPYmplY3Qua2V5cyhleHRyYUNvbnRleHQpLmxlbmd0aCA+IDApIHsiLAoJIiAgICByZXR1cm4geyB2YWx1ZTogYmFzZUNvbnRleHQsIC4uLmV4dHJhQ29udGV4dCB9OyIsCgkiICB9IiwKCSIgIGlmIChiYXNlQ29udGV4dCAhPSBudWxsKSB7IiwKCSIgICAgcmV0dXJuIGJhc2VDb250ZXh0OyIsCgkiICB9IiwKCSIgIHJldHVybiBPYmplY3Qua2V5cyhleHRyYUNvbnRleHQpLmxlbmd0aCA+IDAgPyBleHRyYUNvbnRleHQgOiBudWxsOyIsCgkifSIsCgkiIiwKCSIvKioiLAoJIiAqIEJ1aWxkIHRoZSByZXF1ZXN0IGJvZHkgZXhwZWN0ZWQgYnkgL2FwaS92MS9ub3RpZmljYXRpb25zL3NlbmQuIiwKCSIgKi8iLAoJImZ1bmN0aW9uIGJ1aWxkUGF5bG9hZCh0aXRsZSwgY29udGVudCwgcGFyYW1zID0ge30pIHsiLAoJIiAgY29uc3QgcGF5bG9hZCA9IHsgdGl0bGUsIGNvbnRlbnQgfTsiLAoJIiAgY29uc3QgZGVmYXVsdENoYW5uZWxJZCA9IHJlc29sdmVEZWZhdWx0Q2hhbm5lbElkKHBhcmFtcyk7IiwKCSIgIGlmIChwYXJhbXMuY2hhbm5lbF9pZCAhPSBudWxsKSB7IiwKCSIgICAgcGF5bG9hZC5jaGFubmVsX2lkID0gcGFyYW1zLmNoYW5uZWxfaWQ7IiwKCSIgIH0gZWxzZSBpZiAoQXJyYXkuaXNBcnJheShwYXJhbXMuY2hhbm5lbF9pZHMpICYmIHBhcmFtcy5jaGFubmVsX2lkcy5sZW5ndGggPiAwKSB7IiwKCSIgICAgcGF5bG9hZC5jaGFubmVsX2lkcyA9IHBhcmFtcy5jaGFubmVsX2lkczsiLAoJIiAgfSBlbHNlIGlmIChkZWZhdWx0Q2hhbm5lbElkICE9IG51bGwpIHsiLAoJIiAgICBwYXlsb2FkLmNoYW5uZWxfaWQgPSBkZWZhdWx0Q2hhbm5lbElkOyIsCgkiICB9IiwKCSIiLAoJIiAgY29uc3QgY29udGV4dCA9IGJ1aWxkQ29udGV4dChwYXJhbXMpOyIsCgkiICBpZiAoY29udGV4dCAhPSBudWxsICYmICghaXNQbGFpbk9iamVjdChjb250ZXh0KSB8fCBPYmplY3Qua2V5cyhjb250ZXh0KS5sZW5ndGggPiAwKSkgeyIsCgkiICAgIHBheWxvYWQuY29udGV4dCA9IGNvbnRleHQ7IiwKCSIgIH0iLAoJIiAgcmV0dXJuIHBheWxvYWQ7IiwKCSJ9IiwKCSIiLAoJIi8qKiIsCgkiICogU2VuZCBhIHJlcXVlc3QgdG8gdGhlIHBhbmVsIG5vdGlmaWNhdGlvbiBBUEkuIiwKCSIgKiIsCgkiICogQHBhcmFtIHtzdHJpbmd9IHRpdGxlIE5vdGlmaWNhdGlvbiB0aXRsZS4iLAoJIiAqIEBwYXJhbSB7c3RyaW5nfSBjb250ZW50IE5vdGlmaWNhdGlvbiBib2R5IHRleHQuIiwKCSIgKiBAcGFyYW0ge29iamVjdH0gcGFyYW1zIE9wdGlvbmFsIHJlcXVlc3Qgb3ZlcnJpZGVzIGFuZCB0ZW1wbGF0ZSB2YXJpYWJsZXMuIiwKCSIgKiBAcmV0dXJucyB7UHJvbWlzZTxvYmplY3Q+fSBQYXJzZWQgSlNPTiByZXNwb25zZSBmcm9tIHRoZSBwYW5lbCBBUEkuIiwKCSIgKi8iLAoJImZ1bmN0aW9uIHJlcXVlc3ROb3RpZnkodGl0bGUsIGNvbnRlbnQsIHBhcmFtcyA9IHt9KSB7IiwKCSIgIGNvbnN0IG5vdGlmeVVybCA9IFN0cmluZyhwYXJhbXMudXJsIHx8IHByb2Nlc3MuZW52LkRBSURBSV9OT1RJRllfVVJMIHx8ICcnKS50cmltKCk7IiwKCSIgIGNvbnN0IG5vdGlmeVRva2VuID0gU3RyaW5nKHBhcmFtcy50b2tlbiB8fCBwcm9jZXNzLmVudi5EQUlEQUlfTk9USUZZX1RPS0VOIHx8ICcnKS50cmltKCk7IiwKCSIgIGNvbnN0IHRpbWVvdXRNcyA9IHJlc29sdmVUaW1lb3V0TXMocGFyYW1zLnRpbWVvdXQpOyIsCgkiICBpZiAoIW5vdGlmeVVybCB8fCAhbm90aWZ5VG9rZW4pIHsiLAoJIiAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QobmV3IEVycm9yKCdEQUlEQUlfTk9USUZZX1VSTCDmiJYgREFJREFJX05PVElGWV9UT0tFTiDmnKrphY3nva4nKSk7IiwKCSIgIH0iLAoJIiIsCgkiICBjb25zdCBwYXlsb2FkID0gSlNPTi5zdHJpbmdpZnkoYnVpbGRQYXlsb2FkKHRpdGxlLCBjb250ZW50LCBwYXJhbXMpKTsiLAoJIiAgY29uc3QgdGFyZ2V0ID0gbmV3IFVSTChub3RpZnlVcmwpOyIsCgkiICBjb25zdCBjbGllbnQgPSB0YXJnZXQucHJvdG9jb2wgPT09ICdodHRwczonID8gaHR0cHMgOiBodHRwOyIsCgkiIiwKCSIgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7IiwKCSIgICAgY29uc3QgcmVxID0gY2xpZW50LnJlcXVlc3QoeyIsCgkiICAgICAgcHJvdG9jb2w6IHRhcmdldC5wcm90b2NvbCwiLAoJIiAgICAgIGhvc3RuYW1lOiB0YXJnZXQuaG9zdG5hbWUsIiwKCSIgICAgICBwb3J0OiB0YXJnZXQucG9ydCB8fCB1bmRlZmluZWQsIiwKCSIgICAgICBwYXRoOiBgJHt0YXJnZXQucGF0aG5hbWV9JHt0YXJnZXQuc2VhcmNofWAsIiwKCSIgICAgICBtZXRob2Q6ICdQT1NUJywiLAoJIiAgICAgIGhlYWRlcnM6IHsiLAoJIiAgICAgICAgJ0F1dGhvcml6YXRpb24nOiBgQmVhcmVyICR7bm90aWZ5VG9rZW59YCwiLAoJIiAgICAgICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywiLAoJIiAgICAgICAgJ0NvbnRlbnQtTGVuZ3RoJzogQnVmZmVyLmJ5dGVMZW5ndGgocGF5bG9hZCksIiwKCSIgICAgICB9LCIsCgkiICAgICAgdGltZW91dDogdGltZW91dE1zLCIsCgkiICAgIH0sIChyZXMpID0+IHsiLAoJIiAgICAgIGxldCBib2R5ID0gJyc7IiwKCSIgICAgICByZXMuc2V0RW5jb2RpbmcoJ3V0ZjgnKTsiLAoJIiAgICAgIHJlcy5vbignZGF0YScsIChjaHVuaykgPT4geyBib2R5ICs9IGNodW5rOyB9KTsiLAoJIiAgICAgIHJlcy5vbignZW5kJywgKCkgPT4geyIsCgkiICAgICAgICBsZXQgcGFyc2VkID0ge307IiwKCSIgICAgICAgIGlmIChib2R5KSB7IiwKCSIgICAgICAgICAgdHJ5IHsiLAoJIiAgICAgICAgICAgIHBhcnNlZCA9IEpTT04ucGFyc2UoYm9keSk7IiwKCSIgICAgICAgICAgfSBjYXRjaCAoZXJyKSB7IiwKCSIgICAgICAgICAgICBwYXJzZWQgPSB7IHJhdzogYm9keSB9OyIsCgkiICAgICAgICAgIH0iLAoJIiAgICAgICAgfSIsCgkiICAgICAgICBpZiAocmVzLnN0YXR1c0NvZGUgPj0gMjAwICYmIHJlcy5zdGF0dXNDb2RlIDwgMzAwKSB7IiwKCSIgICAgICAgICAgcmVzb2x2ZShwYXJzZWQpOyIsCgkiICAgICAgICAgIHJldHVybjsiLAoJIiAgICAgICAgfSIsCgkiICAgICAgICBjb25zdCBtZXNzYWdlID0gcGFyc2VkLmVycm9yIHx8IHBhcnNlZC5tZXNzYWdlIHx8IGJvZHkgfHwgYEhUVFAgJHtyZXMuc3RhdHVzQ29kZX1gOyIsCgkiICAgICAgICByZWplY3QobmV3IEVycm9yKGDpgJrnn6Xlj5HpgIHlpLHotKU6ICR7bWVzc2FnZX1gKSk7IiwKCSIgICAgICB9KTsiLAoJIiAgICB9KTsiLAoJIiIsCgkiICAgIHJlcS5vbigndGltZW91dCcsICgpID0+IHsiLAoJIiAgICAgIHJlcS5kZXN0cm95KG5ldyBFcnJvcign6YCa55+l5Y+R6YCB6LaF5pe2JykpOyIsCgkiICAgIH0pOyIsCgkiICAgIHJlcS5vbignZXJyb3InLCByZWplY3QpOyIsCgkiICAgIHJlcS53cml0ZShwYXlsb2FkKTsiLAoJIiAgICByZXEuZW5kKCk7IiwKCSIgIH0pOyIsCgkifSIsCgkiIiwKCSIvKioiLAoJIiAqIFFpbmdMb25nLXN0eWxlIG5vdGlmeSBlbnRyeSBwb2ludC4iLAoJIiAqIiwKCSIgKiBAcGFyYW0ge3N0cmluZ30gdGV4dCBOb3RpZmljYXRpb24gdGl0bGUuIiwKCSIgKiBAcGFyYW0ge3N0cmluZ30gZGVzcCBOb3RpZmljYXRpb24gYm9keSB0ZXh0LiIsCgkiICogQHBhcmFtIHtvYmplY3R9IHBhcmFtcyBPcHRpb25hbCByZXF1ZXN0IG92ZXJyaWRlcyBhbmQgdGVtcGxhdGUgdmFyaWFibGVzLiIsCgkiICogQHJldHVybnMge1Byb21pc2U8b2JqZWN0fG51bGw+fSIsCgkiICovIiwKCSJhc3luYyBmdW5jdGlvbiBzZW5kTm90aWZ5KHRleHQsIGRlc3AsIHBhcmFtcyA9IHt9KSB7IiwKCSIgIGlmICghZGVzcCkgeyIsCgkiICAgIGNvbnNvbGUubG9nKGAke3RleHR9IOaOqOmAgeWGheWuueS4uuepuu+8gWApOyIsCgkiICAgIHJldHVybiBudWxsOyIsCgkiICB9IiwKCSIgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHJlcXVlc3ROb3RpZnkodGV4dCwgZGVzcCwgcGFyYW1zKTsiLAoJIiAgY29uc29sZS5sb2cocmVzdWx0Lm1lc3NhZ2UgfHwgJ+mAmuefpeWPkemAgeWujOaIkCcpOyIsCgkiICByZXR1cm4gcmVzdWx0OyIsCgkifSIsCgkiIiwKCSIvKioiLAoJIiAqIEFsaWFzIGtlcHQgZm9yIGNvbXBhdGliaWxpdHkgd2l0aCBzb21lIEpTIHNjcmlwdHMgdGhhdCBjYWxsIHNlbmQoKS4iLAoJIiAqLyIsCgkiYXN5bmMgZnVuY3Rpb24gc2VuZCh0ZXh0LCBkZXNwLCBwYXJhbXMgPSB7fSkgeyIsCgkiICByZXR1cm4gc2VuZE5vdGlmeSh0ZXh0LCBkZXNwLCBwYXJhbXMpOyIsCgkifSIsCgkiIiwKCSJtb2R1bGUuZXhwb3J0cyA9IHsiLAoJIiAgc2VuZE5vdGlmeSwiLAoJIiAgc2VuZCwiLAoJIiAgcmVxdWVzdE5vdGlmeSwiLAoJIn07IiwKCSIiLAp9LCAiXG4iKQoKdmFyIG1hbmFnZWROb3RpZnlBcnRpZmFjdHMgPSBbXW1hbmFnZWROb3RpZnlBcnRpZmFjdHsKCXtmaWxlbmFtZTogbm90aWZ5UHlGaWxlbmFtZSwgY29udGVudDogbWFuYWdlZE5vdGlmeVB5Q29udGVudCArICJcbiJ9LAoJe2ZpbGVuYW1lOiBzZW5kTm90aWZ5SlNGaWxlbmFtZSwgY29udGVudDogbWFuYWdlZFNlbmROb3RpZnlKU0NvbnRlbnQgKyAiXG4ifSwKfQoKZnVuYyBFbnN1cmVCdWlsdGluTm90aWZ5SGVscGVycyhkaXJzIC4uLnN0cmluZykgZXJyb3IgewoJZm9yIF8sIGRpciA6PSByYW5nZSBkaXJzIHsKCQlkaXIgPSBzdHJpbmdzLlRyaW1TcGFjZShkaXIpCgkJaWYgZGlyID09ICIiIHsKCQkJY29udGludWUKCQl9CgkJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGRpciwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIGVycgoJCX0KCQlmb3IgXywgYXJ0aWZhY3QgOj0gcmFuZ2UgbWFuYWdlZE5vdGlmeUFydGlmYWN0cyB7CgkJCWlmIGVyciA6PSBlbnN1cmVNYW5hZ2VkSGVscGVyRmlsZShmaWxlcGF0aC5Kb2luKGRpciwgYXJ0aWZhY3QuZmlsZW5hbWUpLCBhcnRpZmFjdC5jb250ZW50KTsgZXJyICE9IG5pbCB7CgkJCQlyZXR1cm4gZXJyCgkJCX0KCQl9Cgl9CglyZXR1cm4gbmlsCn0KCmZ1bmMgY2xlYW51cE1hbmFnZWRIZWxwZXJDb3BpZXMoc2NyaXB0c0Rpciwgd29ya0RpciBzdHJpbmcpIGVycm9yIHsKCXNjcmlwdHNEaXIgPSBzdHJpbmdzLlRyaW1TcGFjZShzY3JpcHRzRGlyKQoJd29ya0RpciA9IHN0cmluZ3MuVHJpbVNwYWNlKHdvcmtEaXIpCglpZiBzY3JpcHRzRGlyID09ICIiIHx8IHdvcmtEaXIgPT0gIiIgewoJCXJldHVybiBuaWwKCX0KCglzY3JpcHRzQ2xlYW4gOj0gZmlsZXBhdGguQ2xlYW4oc2NyaXB0c0RpcikKCXdvcmtDbGVhbiA6PSBmaWxlcGF0aC5DbGVhbih3b3JrRGlyKQoJaWYgc3RyaW5ncy5FcXVhbEZvbGQoc2NyaXB0c0NsZWFuLCB3b3JrQ2xlYW4pIHsKCQlyZXR1cm4gbmlsCgl9CgoJZm9yIF8sIGFydGlmYWN0IDo9IHJhbmdlIG1hbmFnZWROb3RpZnlBcnRpZmFjdHMgewoJCXBhdGggOj0gZmlsZXBhdGguSm9pbih3b3JrQ2xlYW4sIGFydGlmYWN0LmZpbGVuYW1lKQoJCWNvbnRlbnQsIGVyciA6PSBvcy5SZWFkRmlsZShwYXRoKQoJCWlmIG9zLklzTm90RXhpc3QoZXJyKSB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKHN0cmluZyhjb250ZW50KSwgbWFuYWdlZE5vdGlmeUhlbHBlclRva2VuKSB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIGVyciA6PSBvcy5SZW1vdmUocGF0aCk7IGVyciAhPSBuaWwgJiYgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJCXJldHVybiBlcnIKCQl9Cgl9CgoJcmV0dXJuIG5pbAp9CgpmdW5jIENsZWFudXBNYW5hZ2VkSGVscGVyQ29waWVzVW5kZXJSb290KHNjcmlwdHNEaXIgc3RyaW5nKSBlcnJvciB7CglzY3JpcHRzRGlyID0gc3RyaW5ncy5UcmltU3BhY2Uoc2NyaXB0c0RpcikKCWlmIHNjcmlwdHNEaXIgPT0gIiIgewoJCXJldHVybiBuaWwKCX0KCglyb290IDo9IGZpbGVwYXRoLkNsZWFuKHNjcmlwdHNEaXIpCglyZXR1cm4gZmlsZXBhdGguV2Fsa0Rpcihyb290LCBmdW5jKHBhdGggc3RyaW5nLCBkIGZzLkRpckVudHJ5LCBlcnIgZXJyb3IpIGVycm9yIHsKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIGVycgoJCX0KCQlpZiAhZC5Jc0RpcigpIHsKCQkJcmV0dXJuIG5pbAoJCX0KCQlpZiBzdHJpbmdzLkVxdWFsRm9sZChmaWxlcGF0aC5DbGVhbihwYXRoKSwgcm9vdCkgewoJCQlyZXR1cm4gbmlsCgkJfQoJCXJldHVybiBjbGVhbnVwTWFuYWdlZEhlbHBlckNvcGllcyhyb290LCBwYXRoKQoJfSkKfQoKZnVuYyBlbnN1cmVNYW5hZ2VkSGVscGVyRmlsZShwYXRoLCBjb250ZW50IHN0cmluZykgZXJyb3IgewoJZXhpc3RpbmcsIGVyciA6PSBvcy5SZWFkRmlsZShwYXRoKQoJaWYgZXJyID09IG5pbCB7CgkJZXhpc3RpbmdUZXh0IDo9IHN0cmluZyhleGlzdGluZykKCQlpZiBleGlzdGluZ1RleHQgPT0gY29udGVudCB7CgkJCXJldHVybiBuaWwKCQl9CgkJaWYgIXN0cmluZ3MuQ29udGFpbnMoZXhpc3RpbmdUZXh0LCBtYW5hZ2VkTm90aWZ5SGVscGVyVG9rZW4pIHsKCQkJcmV0dXJuIG5pbAoJCX0KCX0gZWxzZSBpZiAhb3MuSXNOb3RFeGlzdChlcnIpIHsKCQlyZXR1cm4gZXJyCgl9CgoJcmV0dXJuIG9zLldyaXRlRmlsZShwYXRoLCBbXWJ5dGUoY29udGVudCksIDBvNjQ0KQp9CgpmdW5jIEJ1aWxkTm90aWZ5SGVscGVyRW52KHNjcmlwdHNEaXIgc3RyaW5nLCB3b3JrRGlyIHN0cmluZywgc2VydmVyUG9ydCBpbnQsIGRlZmF1bHRDaGFubmVsSUQgKnVpbnQsIHR0bCB0aW1lLkR1cmF0aW9uKSAobWFwW3N0cmluZ11zdHJpbmcsIGVycm9yKSB7CglpZiB0dGwgPD0gMCB7CgkJdHRsID0gMiAqIHRpbWUuSG91cgoJfQoJaWYgYWJzU2NyaXB0c0RpciwgZXJyIDo9IGZpbGVwYXRoLkFicyhzdHJpbmdzLlRyaW1TcGFjZShzY3JpcHRzRGlyKSk7IGVyciA9PSBuaWwgewoJCXNjcmlwdHNEaXIgPSBhYnNTY3JpcHRzRGlyCgl9CglpZiBhYnNXb3JrRGlyLCBlcnIgOj0gZmlsZXBhdGguQWJzKHN0cmluZ3MuVHJpbVNwYWNlKHdvcmtEaXIpKTsgZXJyID09IG5pbCB7CgkJd29ya0RpciA9IGFic1dvcmtEaXIKCX0KCWlmIGVyciA6PSBFbnN1cmVCdWlsdGluTm90aWZ5SGVscGVycyhzY3JpcHRzRGlyKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglpZiBlcnIgOj0gY2xlYW51cE1hbmFnZWRIZWxwZXJDb3BpZXMoc2NyaXB0c0Rpciwgd29ya0Rpcik7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCXRva2VuLCBlcnIgOj0gbWlkZGxld2FyZS5HZW5lcmF0ZVRlbXBvcmFyeUFjY2Vzc1Rva2VuKCJpbnRlcm5hbC1zY3JpcHQtbm90aWZ5IiwgIm9wZXJhdG9yIiwgdHRsKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CgoJZW52IDo9IG1hcFtzdHJpbmddc3RyaW5newoJCSJEQUlEQUlfTk9USUZZX1VSTCI6ICAgICBmbXQuU3ByaW50ZigiaHR0cDovLzEyNy4wLjAuMTolZC9hcGkvdjEvbm90aWZpY2F0aW9ucy9zZW5kIiwgc2VydmVyUG9ydCksCgkJIkRBSURBSV9OT1RJRllfVE9LRU4iOiAgIHRva2VuLAoJCSJEQUlEQUlfTk9USUZZX1RJTUVPVVQiOiAiMTUwMDAiLAoJCSJEQUlEQUlfU0NSSVBUU19ESVIiOiAgICBzY3JpcHRzRGlyLAoJCSJEQUlEQUlfTk9USUZZX1BZIjogICAgICBmaWxlcGF0aC5Kb2luKHNjcmlwdHNEaXIsIG5vdGlmeVB5RmlsZW5hbWUpLAoJCSJEQUlEQUlfU0VORF9OT1RJRllfSlMiOiBmaWxlcGF0aC5Kb2luKHNjcmlwdHNEaXIsIHNlbmROb3RpZnlKU0ZpbGVuYW1lKSwKCX0KCWlmIGRlZmF1bHRDaGFubmVsSUQgIT0gbmlsICYmICpkZWZhdWx0Q2hhbm5lbElEID4gMCB7CgkJZW52WyJEQUlEQUlfTk9USUZZX0NIQU5ORUxfSUQiXSA9IGZtdC5TcHJpbnRmKCIlZCIsICpkZWZhdWx0Q2hhbm5lbElEKQoJfQoJcmV0dXJuIGVudiwgbmlsCn0KCmZ1bmMgQXBwZW5kU2NyaXB0SGVscGVyUGF0aHMoZW52TWFwIG1hcFtzdHJpbmddc3RyaW5nLCBzY3JpcHRzRGlyIHN0cmluZykgewoJc2NyaXB0c0RpciA9IHN0cmluZ3MuVHJpbVNwYWNlKHNjcmlwdHNEaXIpCglpZiBzY3JpcHRzRGlyID09ICIiIHsKCQlyZXR1cm4KCX0KCglhcHBlbmRFbnZQYXRoVmFsdWUoZW52TWFwLCAiTk9ERV9QQVRIIiwgc2NyaXB0c0RpcikKCWFwcGVuZEVudlBhdGhWYWx1ZShlbnZNYXAsICJQWVRIT05QQVRIIiwgc2NyaXB0c0RpcikKCWFwcGVuZE5vZGVSZXF1aXJlT3B0aW9uKGVudk1hcCwgZmlsZXBhdGguSm9pbihzY3JpcHRzRGlyLCBzZW5kTm90aWZ5SlNGaWxlbmFtZSkpCn0KCmZ1bmMgYXBwZW5kRW52UGF0aFZhbHVlKGVudk1hcCBtYXBbc3RyaW5nXXN0cmluZywga2V5LCB2YWx1ZSBzdHJpbmcpIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglpZiB2YWx1ZSA9PSAiIiB7CgkJcmV0dXJuCgl9CglleGlzdGluZyA6PSBzdHJpbmdzLlRyaW1TcGFjZShlbnZNYXBba2V5XSkKCWlmIGV4aXN0aW5nID09ICIiIHsKCQllbnZNYXBba2V5XSA9IHZhbHVlCgkJcmV0dXJuCgl9CgoJZm9yIF8sIGl0ZW0gOj0gcmFuZ2Ugc3RyaW5ncy5TcGxpdChleGlzdGluZywgc3RyaW5nKG9zLlBhdGhMaXN0U2VwYXJhdG9yKSkgewoJCWlmIHN0cmluZ3MuRXF1YWxGb2xkKHN0cmluZ3MuVHJpbVNwYWNlKGl0ZW0pLCB2YWx1ZSkgewoJCQlyZXR1cm4KCQl9Cgl9CgoJZW52TWFwW2tleV0gPSBleGlzdGluZyArIHN0cmluZyhvcy5QYXRoTGlzdFNlcGFyYXRvcikgKyB2YWx1ZQp9CgpmdW5jIGFwcGVuZE5vZGVSZXF1aXJlT3B0aW9uKGVudk1hcCBtYXBbc3RyaW5nXXN0cmluZywgaGVscGVyUGF0aCBzdHJpbmcpIHsKCWhlbHBlclBhdGggPSBzdHJpbmdzLlRyaW1TcGFjZShoZWxwZXJQYXRoKQoJaWYgaGVscGVyUGF0aCA9PSAiIiB7CgkJcmV0dXJuCgl9CgloZWxwZXJQYXRoID0gZmlsZXBhdGguVG9TbGFzaChoZWxwZXJQYXRoKQoKCWV4aXN0aW5nIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGVudk1hcFsiTk9ERV9PUFRJT05TIl0pCglpZiBzdHJpbmdzLkNvbnRhaW5zKGV4aXN0aW5nLCBoZWxwZXJQYXRoKSB7CgkJcmV0dXJuCgl9CgoJb3B0aW9uIDo9IGAtLXJlcXVpcmU9ImAgKyBzdHJpbmdzLlJlcGxhY2VBbGwoaGVscGVyUGF0aCwgYCJgLCBgXCJgKSArIGAiYAoJaWYgZXhpc3RpbmcgPT0gIiIgewoJCWVudk1hcFsiTk9ERV9PUFRJT05TIl0gPSBvcHRpb24KCQlyZXR1cm4KCX0KCWVudk1hcFsiTk9ERV9PUFRJT05TIl0gPSBleGlzdGluZyArICIgIiArIG9wdGlvbgp9Cg==
+package service
+
+import (
+	"fmt"
+	"io/fs"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
+	"daidai-panel/middleware"
+)
+
+const (
+	managedNotifyHelperToken = "DAIDAI_PANEL_MANAGED_NOTIFY_HELPER v1"
+	notifyPyFilename         = "notify.py"
+	sendNotifyJSFilename     = "sendNotify.js"
+)
+
+type managedNotifyArtifact struct {
+	filename string
+	content  string
+}
+
+var managedNotifyPyContent = strings.Join([]string{
+	"# " + managedNotifyHelperToken,
+	"#!/usr/bin/env python3",
+	"\"\"\"Daidai Panel managed notification helper.",
+	"",
+	"Usage:",
+	"    from notify import send",
+	"",
+	"    notify_lines = []",
+	"    notify_lines.append(\"签到成功\")",
+	"    notify_lines.append(\"账号: user01\")",
+	"    send(\"示例任务\", \"\\n\".join(notify_lines))",
+	"",
+	"QingLong compatibility:",
+	"- Keep send(title, content, ignore_default_config=False, **kwargs).",
+	"- channel_id / channel_ids select panel notification channels.",
+	"- Extra kwargs are merged into context for content_template variables.",
+	"- ignore_default_config=True skips DAIDAI_NOTIFY_CHANNEL_ID fallback.",
+	"",
+	"Runtime environment variables:",
+	"- DAIDAI_NOTIFY_URL: panel notify API URL",
+	"- DAIDAI_NOTIFY_TOKEN: temporary bearer token",
+	"- DAIDAI_NOTIFY_TIMEOUT: timeout in ms or seconds, default 15000ms",
+	"- DAIDAI_NOTIFY_CHANNEL_ID: default notification channel ID for current task",
+	"\"\"\"",
+	"import json",
+	"import os",
+	"from typing import Iterable",
+	"import urllib.error",
+	"import urllib.request",
+	"",
+	"DEFAULT_TIMEOUT_SECONDS = 15.0",
+	"",
+	"def _resolve_timeout_seconds(timeout=None):",
+	"    \"\"\"Normalize timeout values from ms/seconds/env to seconds.\"\"\"",
+	"    raw = timeout if timeout is not None else os.getenv(\"DAIDAI_NOTIFY_TIMEOUT\", \"15000\")",
+	"    text = str(raw).strip().lower()",
+	"    if not text:",
+	"        return DEFAULT_TIMEOUT_SECONDS",
+	"    if text.endswith(\"ms\"):",
+	"        try:",
+	"            return max(float(text[:-2]) / 1000.0, 0.1)",
+	"        except ValueError:",
+	"            return DEFAULT_TIMEOUT_SECONDS",
+	"    if text.endswith(\"s\"):",
+	"        try:",
+	"            return max(float(text[:-1]), 0.1)",
+	"        except ValueError:",
+	"            return DEFAULT_TIMEOUT_SECONDS",
+	"    try:",
+	"        value = float(text)",
+	"    except ValueError:",
+	"        return DEFAULT_TIMEOUT_SECONDS",
+	"    if value > 300:",
+	"        return max(value / 1000.0, 0.1)",
+	"    return max(value, 0.1)",
+	"",
+	"",
+	"def _resolve_default_channel_id(use_default_channel=True):",
+	"    \"\"\"Return the configured default channel ID for the running task.\"\"\"",
+	"    if not use_default_channel:",
+	"        return None",
+	"    raw = os.getenv(\"DAIDAI_NOTIFY_CHANNEL_ID\", \"\").strip()",
+	"    if not raw:",
+	"        return None",
+	"    try:",
+	"        return int(raw)",
+	"    except ValueError:",
+	"        return None",
+	"",
+	"",
+	"def _normalize_channel_ids(channel_ids):",
+	"    \"\"\"Convert iterable channel IDs into a JSON-safe list.\"\"\"",
+	"    if not channel_ids:",
+	"        return None",
+	"    if isinstance(channel_ids, (str, bytes)):",
+	"        return [channel_ids]",
+	"    if isinstance(channel_ids, Iterable):",
+	"        return list(channel_ids)",
+	"    return [channel_ids]",
+	"",
+	"",
+	"def _merge_context(context, extra_kwargs):",
+	"    \"\"\"Merge custom context with extra keyword arguments.\"\"\"",
+	"    if context is None:",
+	"        return extra_kwargs or None",
+	"    if isinstance(context, dict):",
+	"        merged = dict(context)",
+	"        merged.update(extra_kwargs)",
+	"        return merged",
+	"    if extra_kwargs:",
+	"        merged = {\"value\": context}",
+	"        merged.update(extra_kwargs)",
+	"        return merged",
+	"    return context",
+	"",
+	"",
+	"def _build_payload(title, content, channel_id=None, channel_ids=None, context=None, use_default_channel=True):",
+	"    \"\"\"Build the request body expected by /api/v1/notifications/send.\"\"\"",
+	"    payload = {\"title\": title, \"content\": content}",
+	"    default_channel_id = _resolve_default_channel_id(use_default_channel)",
+	"    if channel_id is not None:",
+	"        payload[\"channel_id\"] = channel_id",
+	"    else:",
+	"        normalized_channel_ids = _normalize_channel_ids(channel_ids)",
+	"        if normalized_channel_ids:",
+	"            payload[\"channel_ids\"] = normalized_channel_ids",
+	"        elif default_channel_id is not None:",
+	"            payload[\"channel_id\"] = default_channel_id",
+	"    if context is not None and context != {}:",
+	"        payload[\"context\"] = context",
+	"    return payload",
+	"",
+	"",
+	"def request_notify(title, content, channel_id=None, channel_ids=None, context=None, use_default_channel=True, url=None, token=None, timeout=None):",
+	"    \"\"\"Send a notification request to the panel notify API.",
+	"",
+	"    Args:",
+	"        title: Notification title.",
+	"        content: Notification body text.",
+	"        channel_id: Single target channel ID.",
+	"        channel_ids: Multiple target channel IDs.",
+	"        context: Extra template variables for content_template.",
+	"        use_default_channel: Whether DAIDAI_NOTIFY_CHANNEL_ID should be used.",
+	"        url: Override DAIDAI_NOTIFY_URL.",
+	"        token: Override DAIDAI_NOTIFY_TOKEN.",
+	"        timeout: Override DAIDAI_NOTIFY_TIMEOUT.",
+	"    \"\"\"",
+	"    notify_url = (url or os.getenv(\"DAIDAI_NOTIFY_URL\", \"\")).strip()",
+	"    notify_token = (token or os.getenv(\"DAIDAI_NOTIFY_TOKEN\", \"\")).strip()",
+	"    if not notify_url or not notify_token:",
+	"        raise RuntimeError(\"DAIDAI_NOTIFY_URL 或 DAIDAI_NOTIFY_TOKEN 未配置\")",
+	"",
+	"    timeout_seconds = _resolve_timeout_seconds(timeout)",
+	"    payload = _build_payload(",
+	"        title,",
+	"        content,",
+	"        channel_id=channel_id,",
+	"        channel_ids=channel_ids,",
+	"        context=context,",
+	"        use_default_channel=use_default_channel,",
+	"    )",
+	"    request = urllib.request.Request(",
+	"        notify_url,",
+	"        data=json.dumps(payload).encode(\"utf-8\"),",
+	"        headers={",
+	"            \"Authorization\": f\"Bearer {notify_token}\",",
+	"            \"Content-Type\": \"application/json\",",
+	"        },",
+	"        method=\"POST\",",
+	"    )",
+	"",
+	"    try:",
+	"        with urllib.request.urlopen(request, timeout=timeout_seconds) as response:",
+	"            body = response.read().decode(\"utf-8\")",
+	"            return json.loads(body) if body else {}",
+	"    except urllib.error.HTTPError as err:",
+	"        body = err.read().decode(\"utf-8\", errors=\"ignore\")",
+	"        raise RuntimeError(f\"通知发送失败: HTTP {err.code}: {body}\") from err",
+	"    except urllib.error.URLError as err:",
+	"        raise RuntimeError(f\"通知发送失败: {err}\") from err",
+	"",
+	"",
+	"def send(title, content, ignore_default_config=False, **kwargs):",
+	"    \"\"\"QingLong-style wrapper around request_notify.",
+	"",
+	"    Supported kwargs:",
+	"        channel_id / channel_ids: Choose target channels.",
+	"        context: Extra template variables.",
+	"        url / token / timeout: Override runtime environment values.",
+	"        any other kwargs: Automatically merged into context.",
+	"    \"\"\"",
+	"    if not content:",
+	"        print(f\"{title} 推送内容为空！\")",
+	"        return None",
+	"",
+	"    request_url = kwargs.pop(\"url\", None)",
+	"    request_token = kwargs.pop(\"token\", None)",
+	"    request_timeout = kwargs.pop(\"timeout\", None)",
+	"    channel_id = kwargs.pop(\"channel_id\", None)",
+	"    channel_ids = kwargs.pop(\"channel_ids\", None)",
+	"    context = kwargs.pop(\"context\", None)",
+	"    context = _merge_context(context, kwargs)",
+	"",
+	"    result = request_notify(",
+	"        title,",
+	"        content,",
+	"        channel_id=channel_id,",
+	"        channel_ids=channel_ids,",
+	"        context=context,",
+	"        use_default_channel=not ignore_default_config,",
+	"        url=request_url,",
+	"        token=request_token,",
+	"        timeout=request_timeout,",
+	"    )",
+	"    print(result.get(\"message\", \"通知发送完成\"))",
+	"    return result",
+	"",
+	"",
+	"def main():",
+	"    send(\"title\", \"content\")",
+	"",
+	"",
+	"if __name__ == \"__main__\":",
+	"    main()",
+	"",
+}, "\n")
+
+var managedSendNotifyJSContent = strings.Join([]string{
+	"'use strict';",
+	"/**",
+	" * " + managedNotifyHelperToken,
+	" * Daidai Panel managed notification helper.",
+	" *",
+	" * Usage:",
+	" *   const { sendNotify } = require('./sendNotify');",
+	" *   const notifyStr = [];",
+	" *   notifyStr.push('签到成功');",
+	" *   notifyStr.push('账号: user01');",
+	" *   await sendNotify('示例任务', notifyStr.join('\\n'));",
+	" *",
+	" * QingLong compatibility:",
+	" * - Keep sendNotify(text, desp, params) and send(text, desp, params).",
+	" * - params.channel_id / params.channel_ids select panel channels.",
+	" * - Extra params are merged into context for content_template variables.",
+	" * - params.ignore_default_config = true skips DAIDAI_NOTIFY_CHANNEL_ID.",
+	" */",
+	"const fs = require('node:fs');",
+	"const http = require('node:http');",
+	"const https = require('node:https');",
+	"const path = require('node:path');",
+	"const Module = require('node:module');",
+	"const { URL } = require('node:url');",
+	"",
+	"const DEFAULT_TIMEOUT_MS = 15000;",
+	"const RESERVED_PARAM_KEYS = new Set(['channel_id', 'channel_ids', 'context', 'ignore_default_config', 'url', 'token', 'timeout']);",
+	"const SCRIPTS_DIR = String(process.env.DAIDAI_SCRIPTS_DIR || __dirname).trim() || __dirname;",
+	"const MANAGED_HELPER_PATH = path.join(SCRIPTS_DIR, 'sendNotify.js');",
+	"",
+	"function isPlainObject(value) {",
+	"  return value != null && typeof value === 'object' && !Array.isArray(value);",
+	"}",
+	"",
+	"function installManagedSendNotifyAlias() {",
+	"  if (global.__DAIDAI_SEND_NOTIFY_ALIAS_PATCHED__) {",
+	"    return;",
+	"  }",
+	"  const originalResolveFilename = Module._resolveFilename;",
+	"  Module._resolveFilename = function patchedResolveFilename(request, parent, isMain, options) {",
+	"    if (request === 'sendNotify' || request === 'sendNotify.js' || request === './sendNotify' || request === './sendNotify.js') {",
+	"      if (typeof request === 'string' && request.startsWith('.') && parent && parent.filename) {",
+	"        const localCandidate = path.resolve(path.dirname(parent.filename), request);",
+	"        const localJS = localCandidate.endsWith('.js') ? localCandidate : `${localCandidate}.js`;",
+	"        if (fs.existsSync(localCandidate) || fs.existsSync(localJS)) {",
+	"          return originalResolveFilename.call(this, request, parent, isMain, options);",
+	"        }",
+	"      }",
+	"      return MANAGED_HELPER_PATH;",
+	"    }",
+	"    return originalResolveFilename.call(this, request, parent, isMain, options);",
+	"  };",
+	"  global.__DAIDAI_SEND_NOTIFY_ALIAS_PATCHED__ = true;",
+	"}",
+	"",
+	"installManagedSendNotifyAlias();",
+	"",
+	"/**",
+	" * Normalize timeout values from env or params into milliseconds.",
+	" */",
+	"function resolveTimeoutMs(timeout) {",
+	"  const raw = timeout ?? process.env.DAIDAI_NOTIFY_TIMEOUT ?? DEFAULT_TIMEOUT_MS;",
+	"  const text = String(raw).trim().toLowerCase();",
+	"  if (!text) return DEFAULT_TIMEOUT_MS;",
+	"  if (text.endsWith('ms')) {",
+	"    const parsed = Number(text.slice(0, -2));",
+	"    return Number.isFinite(parsed) ? Math.max(parsed, 100) : DEFAULT_TIMEOUT_MS;",
+	"  }",
+	"  if (text.endsWith('s')) {",
+	"    const parsed = Number(text.slice(0, -1));",
+	"    return Number.isFinite(parsed) ? Math.max(parsed * 1000, 100) : DEFAULT_TIMEOUT_MS;",
+	"  }",
+	"  const parsed = Number(text);",
+	"  if (!Number.isFinite(parsed)) return DEFAULT_TIMEOUT_MS;",
+	"  return parsed > 300 ? Math.max(parsed, 100) : Math.max(parsed * 1000, 100);",
+	"}",
+	"",
+	"/**",
+	" * Read the default task-level channel from the injected environment.",
+	" */",
+	"function resolveDefaultChannelId(params = {}) {",
+	"  if (params.ignore_default_config === true) {",
+	"    return null;",
+	"  }",
+	"  const raw = String(process.env.DAIDAI_NOTIFY_CHANNEL_ID || '').trim();",
+	"  if (!raw) {",
+	"    return null;",
+	"  }",
+	"  const parsed = Number(raw);",
+	"  return Number.isNaN(parsed) ? null : parsed;",
+	"}",
+	"",
+	"/**",
+	" * Merge params.context with non-reserved params into one context object.",
+	" */",
+	"function buildContext(params = {}) {",
+	"  const extraContext = {};",
+	"  for (const [key, value] of Object.entries(params)) {",
+	"    if (!RESERVED_PARAM_KEYS.has(key)) {",
+	"      extraContext[key] = value;",
+	"    }",
+	"  }",
+	"",
+	"  const baseContext = params.context;",
+	"  if (isPlainObject(baseContext)) {",
+	"    return { ...baseContext, ...extraContext };",
+	"  }",
+	"  if (baseContext != null && Object.keys(extraContext).length > 0) {",
+	"    return { value: baseContext, ...extraContext };",
+	"  }",
+	"  if (baseContext != null) {",
+	"    return baseContext;",
+	"  }",
+	"  return Object.keys(extraContext).length > 0 ? extraContext : null;",
+	"}",
+	"",
+	"/**",
+	" * Build the request body expected by /api/v1/notifications/send.",
+	" */",
+	"function buildPayload(title, content, params = {}) {",
+	"  const payload = { title, content };",
+	"  const defaultChannelId = resolveDefaultChannelId(params);",
+	"  if (params.channel_id != null) {",
+	"    payload.channel_id = params.channel_id;",
+	"  } else if (Array.isArray(params.channel_ids) && params.channel_ids.length > 0) {",
+	"    payload.channel_ids = params.channel_ids;",
+	"  } else if (defaultChannelId != null) {",
+	"    payload.channel_id = defaultChannelId;",
+	"  }",
+	"",
+	"  const context = buildContext(params);",
+	"  if (context != null && (!isPlainObject(context) || Object.keys(context).length > 0)) {",
+	"    payload.context = context;",
+	"  }",
+	"  return payload;",
+	"}",
+	"",
+	"/**",
+	" * Send a request to the panel notification API.",
+	" *",
+	" * @param {string} title Notification title.",
+	" * @param {string} content Notification body text.",
+	" * @param {object} params Optional request overrides and template variables.",
+	" * @returns {Promise<object>} Parsed JSON response from the panel API.",
+	" */",
+	"function requestNotify(title, content, params = {}) {",
+	"  const notifyUrl = String(params.url || process.env.DAIDAI_NOTIFY_URL || '').trim();",
+	"  const notifyToken = String(params.token || process.env.DAIDAI_NOTIFY_TOKEN || '').trim();",
+	"  const timeoutMs = resolveTimeoutMs(params.timeout);",
+	"  if (!notifyUrl || !notifyToken) {",
+	"    return Promise.reject(new Error('DAIDAI_NOTIFY_URL 或 DAIDAI_NOTIFY_TOKEN 未配置'));",
+	"  }",
+	"",
+	"  const payload = JSON.stringify(buildPayload(title, content, params));",
+	"  const target = new URL(notifyUrl);",
+	"  const client = target.protocol === 'https:' ? https : http;",
+	"",
+	"  return new Promise((resolve, reject) => {",
+	"    const req = client.request({",
+	"      protocol: target.protocol,",
+	"      hostname: target.hostname,",
+	"      port: target.port || undefined,",
+	"      path: `${target.pathname}${target.search}`,",
+	"      method: 'POST',",
+	"      headers: {",
+	"        'Authorization': `Bearer ${notifyToken}`,",
+	"        'Content-Type': 'application/json',",
+	"        'Content-Length': Buffer.byteLength(payload),",
+	"      },",
+	"      timeout: timeoutMs,",
+	"    }, (res) => {",
+	"      let body = '';",
+	"      res.setEncoding('utf8');",
+	"      res.on('data', (chunk) => { body += chunk; });",
+	"      res.on('end', () => {",
+	"        let parsed = {};",
+	"        if (body) {",
+	"          try {",
+	"            parsed = JSON.parse(body);",
+	"          } catch (err) {",
+	"            parsed = { raw: body };",
+	"          }",
+	"        }",
+	"        if (res.statusCode >= 200 && res.statusCode < 300) {",
+	"          resolve(parsed);",
+	"          return;",
+	"        }",
+	"        const message = parsed.error || parsed.message || body || `HTTP ${res.statusCode}`;",
+	"        reject(new Error(`通知发送失败: ${message}`));",
+	"      });",
+	"    });",
+	"",
+	"    req.on('timeout', () => {",
+	"      req.destroy(new Error('通知发送超时'));",
+	"    });",
+	"    req.on('error', reject);",
+	"    req.write(payload);",
+	"    req.end();",
+	"  });",
+	"}",
+	"",
+	"/**",
+	" * QingLong-style notify entry point.",
+	" *",
+	" * @param {string} text Notification title.",
+	" * @param {string} desp Notification body text.",
+	" * @param {object} params Optional request overrides and template variables.",
+	" * @returns {Promise<object|null>}",
+	" */",
+	"async function sendNotify(text, desp, params = {}) {",
+	"  if (!desp) {",
+	"    console.log(`${text} 推送内容为空！`);",
+	"    return null;",
+	"  }",
+	"  const result = await requestNotify(text, desp, params);",
+	"  console.log(result.message || '通知发送完成');",
+	"  return result;",
+	"}",
+	"",
+	"/**",
+	" * Alias kept for compatibility with some JS scripts that call send().",
+	" */",
+	"async function send(text, desp, params = {}) {",
+	"  return sendNotify(text, desp, params);",
+	"}",
+	"",
+	"module.exports = {",
+	"  sendNotify,",
+	"  send,",
+	"  requestNotify,",
+	"};",
+	"",
+}, "\n")
+
+var managedNotifyArtifacts = []managedNotifyArtifact{
+	{filename: notifyPyFilename, content: managedNotifyPyContent + "\n"},
+	{filename: sendNotifyJSFilename, content: managedSendNotifyJSContent + "\n"},
+}
+
+func EnsureBuiltinNotifyHelpers(dirs ...string) error {
+	for _, dir := range dirs {
+		dir = strings.TrimSpace(dir)
+		if dir == "" {
+			continue
+		}
+		if err := os.MkdirAll(dir, 0o755); err != nil {
+			return err
+		}
+		for _, artifact := range managedNotifyArtifacts {
+			if err := ensureManagedHelperFile(filepath.Join(dir, artifact.filename), artifact.content); err != nil {
+				return err
+			}
+		}
+	}
+	return nil
+}
+
+func cleanupManagedHelperCopies(scriptsDir, workDir string) error {
+	scriptsDir = strings.TrimSpace(scriptsDir)
+	workDir = strings.TrimSpace(workDir)
+	if scriptsDir == "" || workDir == "" {
+		return nil
+	}
+
+	scriptsClean := filepath.Clean(scriptsDir)
+	workClean := filepath.Clean(workDir)
+	if strings.EqualFold(scriptsClean, workClean) {
+		return nil
+	}
+
+	for _, artifact := range managedNotifyArtifacts {
+		path := filepath.Join(workClean, artifact.filename)
+		content, err := os.ReadFile(path)
+		if os.IsNotExist(err) {
+			continue
+		}
+		if err != nil {
+			return err
+		}
+		if !strings.Contains(string(content), managedNotifyHelperToken) {
+			continue
+		}
+		if err := os.Remove(path); err != nil && !os.IsNotExist(err) {
+			return err
+		}
+	}
+
+	return nil
+}
+
+func CleanupManagedHelperCopiesUnderRoot(scriptsDir string) error {
+	scriptsDir = strings.TrimSpace(scriptsDir)
+	if scriptsDir == "" {
+		return nil
+	}
+
+	root := filepath.Clean(scriptsDir)
+	return filepath.WalkDir(root, func(path string, d fs.DirEntry, err error) error {
+		if err != nil {
+			return err
+		}
+		if !d.IsDir() {
+			return nil
+		}
+		if strings.EqualFold(filepath.Clean(path), root) {
+			return nil
+		}
+		return cleanupManagedHelperCopies(root, path)
+	})
+}
+
+func ensureManagedHelperFile(path, content string) error {
+	existing, err := os.ReadFile(path)
+	if err == nil {
+		existingText := string(existing)
+		if existingText == content {
+			return nil
+		}
+		if !strings.Contains(existingText, managedNotifyHelperToken) {
+			return nil
+		}
+	} else if !os.IsNotExist(err) {
+		return err
+	}
+
+	return os.WriteFile(path, []byte(content), 0o644)
+}
+
+func BuildNotifyHelperEnv(scriptsDir string, workDir string, serverPort int, defaultChannelID *uint, ttl time.Duration) (map[string]string, error) {
+	if ttl <= 0 {
+		ttl = 2 * time.Hour
+	}
+	if absScriptsDir, err := filepath.Abs(strings.TrimSpace(scriptsDir)); err == nil {
+		scriptsDir = absScriptsDir
+	}
+	if absWorkDir, err := filepath.Abs(strings.TrimSpace(workDir)); err == nil {
+		workDir = absWorkDir
+	}
+	if err := EnsureBuiltinNotifyHelpers(scriptsDir); err != nil {
+		return nil, err
+	}
+	if err := cleanupManagedHelperCopies(scriptsDir, workDir); err != nil {
+		return nil, err
+	}
+
+	token, err := middleware.GenerateTemporaryAccessToken("internal-script-notify", "operator", ttl)
+	if err != nil {
+		return nil, err
+	}
+
+	env := map[string]string{
+		"DAIDAI_NOTIFY_URL":     fmt.Sprintf("http://127.0.0.1:%d/api/v1/notifications/send", serverPort),
+		"DAIDAI_NOTIFY_TOKEN":   token,
+		"DAIDAI_NOTIFY_TIMEOUT": "15000",
+		"DAIDAI_SCRIPTS_DIR":    scriptsDir,
+		"DAIDAI_NOTIFY_PY":      filepath.Join(scriptsDir, notifyPyFilename),
+		"DAIDAI_SEND_NOTIFY_JS": filepath.Join(scriptsDir, sendNotifyJSFilename),
+	}
+	if defaultChannelID != nil && *defaultChannelID > 0 {
+		env["DAIDAI_NOTIFY_CHANNEL_ID"] = fmt.Sprintf("%d", *defaultChannelID)
+	}
+	return env, nil
+}
+
+func AppendScriptHelperPaths(envMap map[string]string, scriptsDir string) {
+	scriptsDir = strings.TrimSpace(scriptsDir)
+	if scriptsDir == "" {
+		return
+	}
+
+	appendEnvPathValue(envMap, "NODE_PATH", scriptsDir)
+	appendEnvPathValue(envMap, "PYTHONPATH", scriptsDir)
+	appendNodeRequireOption(envMap, filepath.Join(scriptsDir, sendNotifyJSFilename))
+}
+
+func appendEnvPathValue(envMap map[string]string, key, value string) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return
+	}
+	existing := strings.TrimSpace(envMap[key])
+	if existing == "" {
+		envMap[key] = value
+		return
+	}
+
+	for _, item := range strings.Split(existing, string(os.PathListSeparator)) {
+		if strings.EqualFold(strings.TrimSpace(item), value) {
+			return
+		}
+	}
+
+	envMap[key] = existing + string(os.PathListSeparator) + value
+}
+
+func appendNodeRequireOption(envMap map[string]string, helperPath string) {
+	helperPath = strings.TrimSpace(helperPath)
+	if helperPath == "" {
+		return
+	}
+	helperPath = filepath.ToSlash(helperPath)
+
+	existing := strings.TrimSpace(envMap["NODE_OPTIONS"])
+	if strings.Contains(existing, helperPath) {
+		return
+	}
+
+	option := `--require="` + strings.ReplaceAll(helperPath, `"`, `\"`) + `"`
+	if existing == "" {
+		envMap["NODE_OPTIONS"] = option
+		return
+	}
+	envMap["NODE_OPTIONS"] = existing + " " + option
+}

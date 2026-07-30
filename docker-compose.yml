@@ -1,1 +1,41 @@
-bmFtZTogZGFpZGFpLXBhbmVsCgpzZXJ2aWNlczoKICBkYWlkYWktcGFuZWw6CiAgICBpbWFnZTogbGlueml4dWFuenovZGFpZGFpLXBhbmVsOmxhdGVzdAogICAgY29udGFpbmVyX25hbWU6IGRhaWRhaS1wYW5lbAogICAgcmVzdGFydDogdW5sZXNzLXN0b3BwZWQKICAgIHBvcnRzOgogICAgICAtICI1NzAwOjU3MDAiICMg5a6/5Li75py656uv5Y+jOuWuueWZqOWGhSBOZ2lueCDnq6/lj6MKICAgIHZvbHVtZXM6CiAgICAgIC0gLi9EdW1iLVBhbmVsOi9hcHAvRHVtYi1QYW5lbAogICAgZW52aXJvbm1lbnQ6CiAgICAgIC0gVFo9QXNpYS9TaGFuZ2hhaQogICAgICAtIENPTlRBSU5FUl9OQU1FPWRhaWRhaS1wYW5lbAogICAgICAtIElNQUdFX05BTUU9bGlueml4dWFuenovZGFpZGFpLXBhbmVsOmxhdGVzdAogICAgICAtIFBBTkVMX1VQREFURV9NQU5BR0VSPXdhdGNodG93ZXIKICAgICAgIyA9PT0g6aOe54mbIE9TIC8g576k5pmWIC8g57u/6IGU562JIE5BUyDlj6/pgInnjq/looPlj5jph48gPT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgICAgICMg6K6p5a655Zmo5Lul5a6/5Li75py655So5oi36Lqr5Lu96L+Q6KGM77yM5L2/IFNNQi9ORlMg5YWx5Lqr55qE55uu5b2V5p2D6ZmQ5LiA6Ie044CCCiAgICAgICMg5LiN6K6+5YiZ6buY6K6kIHJvb3TvvIjkuI7ljoblj7LooYzkuLrlhbzlrrnvvInjgILov5DooYwgYGlkYCDmn6XnnIvkvaDnmoQgVUlEL0dJROOAggogICAgICAjIC0gUFVJRD0xMDAwCiAgICAgICMgLSBQR0lEPTEwMDAKICAgICAgIwogICAgICAjIOWFrOe9keWfn+WQjS/lj43ku6Pln5/lkI3orr/pl67pnaLmnb/ml7bpnIDopoHmioogb3JpZ2luIOWKoOWFpSBDT1JTIOeZveWQjeWNleOAggogICAgICAjIOengeaciS/lsYDln5/nvZEgSVAg5bey6Ieq5Yqo5pS+6KGM77yM5peg6ZyA6YWN572u44CC5aSa5Liq55So6YCX5Y+35YiG6ZqU44CCCiAgICAgICMgLSBDT1JTX09SSUdJTlM9aHR0cHM6Ly9wYW5lbC55b3VyLWRvbWFpbi5jb20saHR0cHM6Ly9uYXMueW91ci1kb21haW4uY29tCiAgICBsYWJlbHM6CiAgICAgIC0gY29tLmNlbnR1cnlsaW5rbGFicy53YXRjaHRvd2VyLmVuYWJsZT10cnVlCgogIHdhdGNodG93ZXI6CiAgICBpbWFnZTogbmlja2ZlZG9yL3dhdGNodG93ZXI6bGF0ZXN0CiAgICBjb250YWluZXJfbmFtZTogZGFpZGFpLXdhdGNodG93ZXIKICAgIHJlc3RhcnQ6IHVubGVzcy1zdG9wcGVkCiAgICB2b2x1bWVzOgogICAgICAtIC92YXIvcnVuL2RvY2tlci5zb2NrOi92YXIvcnVuL2RvY2tlci5zb2NrCiAgICBsYWJlbHM6CiAgICAgIC0gY29tLmNlbnR1cnlsaW5rbGFicy53YXRjaHRvd2VyLmVuYWJsZT1mYWxzZQogICAgY29tbWFuZDoKICAgICAgLSAtLWxhYmVsLWVuYWJsZQogICAgICAtIC0tY2xlYW51cAogICAgICAtIC0taW50ZXJ2YWwKICAgICAgLSAiMzYwMCIK
+name: daidai-panel
+
+services:
+  daidai-panel:
+    image: linzixuanzz/daidai-panel:latest
+    container_name: daidai-panel
+    restart: unless-stopped
+    ports:
+      - "5700:5700" # 宿主机端口:容器内 Nginx 端口
+    volumes:
+      - ./Dumb-Panel:/app/Dumb-Panel
+    environment:
+      - TZ=Asia/Shanghai
+      - CONTAINER_NAME=daidai-panel
+      - IMAGE_NAME=linzixuanzz/daidai-panel:latest
+      - PANEL_UPDATE_MANAGER=watchtower
+      # === 飞牛 OS / 群晖 / 绿联等 NAS 可选环境变量 ===========================
+      # 让容器以宿主机用户身份运行，使 SMB/NFS 共享的目录权限一致。
+      # 不设则默认 root（与历史行为兼容）。运行 `id` 查看你的 UID/GID。
+      # - PUID=1000
+      # - PGID=1000
+      #
+      # 公网域名/反代域名访问面板时需要把 origin 加入 CORS 白名单。
+      # 私有/局域网 IP 已自动放行，无需配置。多个用逗号分隔。
+      # - CORS_ORIGINS=https://panel.your-domain.com,https://nas.your-domain.com
+    labels:
+      - com.centurylinklabs.watchtower.enable=true
+
+  watchtower:
+    image: nickfedor/watchtower:latest
+    container_name: daidai-watchtower
+    restart: unless-stopped
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    labels:
+      - com.centurylinklabs.watchtower.enable=false
+    command:
+      - --label-enable
+      - --cleanup
+      - --interval
+      - "3600"

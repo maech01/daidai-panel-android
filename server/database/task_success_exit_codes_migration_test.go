@@ -1,1 +1,44 @@
-cGFja2FnZSBkYXRhYmFzZV90ZXN0CgppbXBvcnQgKAoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RFbnN1cmVDb2x1bW5zQWRkc1Rhc2tTdWNjZXNzRXhpdENvZGVzVG9MZWdhY3lEYXRhYmFzZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWxlZ2FjeVRhc2sgOj0gJm1vZGVsLlRhc2t7CgkJTmFtZTogICAgICAgICAgICAgImxlZ2FjeSB0YXNrIiwKCQlDb21tYW5kOiAgICAgICAgICAidGFzayBsZWdhY3kuanMiLAoJCUNyb25FeHByZXNzaW9uOiAgICIiLAoJCVRhc2tUeXBlOiAgICAgICAgIG1vZGVsLlRhc2tUeXBlTWFudWFsLAoJCVN0YXR1czogICAgICAgICAgIG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkLAoJCVN1Y2Nlc3NFeGl0Q29kZXM6ICIwLDEiLAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShsZWdhY3lUYXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrIGJlZm9yZSBsZWdhY3kgbWlncmF0aW9uOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5NaWdyYXRvcigpLkRyb3BDb2x1bW4oJm1vZGVsLlRhc2t7fSwgIlN1Y2Nlc3NFeGl0Q29kZXMiKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImRyb3Agc3VjY2Vzc19leGl0X2NvZGVzIHRvIHNpbXVsYXRlIGxlZ2FjeSBkYXRhYmFzZTogJXYiLCBlcnIpCgl9CglpZiBkYXRhYmFzZS5EQi5NaWdyYXRvcigpLkhhc0NvbHVtbigmbW9kZWwuVGFza3t9LCAiU3VjY2Vzc0V4aXRDb2RlcyIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBzaW11bGF0ZWQgbGVnYWN5IGRhdGFiYXNlIHRvIGhhdmUgbm8gc3VjY2Vzc19leGl0X2NvZGVzIGNvbHVtbiIpCgl9CgoJZGF0YWJhc2UuRW5zdXJlQ29sdW1ucygpCglpZiAhZGF0YWJhc2UuREIuTWlncmF0b3IoKS5IYXNDb2x1bW4oJm1vZGVsLlRhc2t7fSwgIlN1Y2Nlc3NFeGl0Q29kZXMiKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgRW5zdXJlQ29sdW1ucyB0byBhZGQgc3VjY2Vzc19leGl0X2NvZGVzIikKCX0KCgl2YXIgc3RvcmVkVmFsdWUgc3RyaW5nCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuUmF3KCJTRUxFQ1Qgc3VjY2Vzc19leGl0X2NvZGVzIEZST00gdGFza3MgV0hFUkUgaWQgPSA/IiwgbGVnYWN5VGFzay5JRCkuU2Nhbigmc3RvcmVkVmFsdWUpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVhZCBtaWdyYXRlZCBzdWNjZXNzX2V4aXRfY29kZXM6ICV2IiwgZXJyKQoJfQoJaWYgc3RvcmVkVmFsdWUgIT0gbW9kZWwuRGVmYXVsdFN1Y2Nlc3NFeGl0Q29kZXMgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaWdyYXRlZCBsZWdhY3kgdGFzayBkZWZhdWx0ICVxLCBnb3QgJXEiLCBtb2RlbC5EZWZhdWx0U3VjY2Vzc0V4aXRDb2Rlcywgc3RvcmVkVmFsdWUpCgl9Cn0K
+package database_test
+
+import (
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestEnsureColumnsAddsTaskSuccessExitCodesToLegacyDatabase(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	legacyTask := &model.Task{
+		Name:             "legacy task",
+		Command:          "task legacy.js",
+		CronExpression:   "",
+		TaskType:         model.TaskTypeManual,
+		Status:           model.TaskStatusEnabled,
+		SuccessExitCodes: "0,1",
+	}
+	if err := database.DB.Create(legacyTask).Error; err != nil {
+		t.Fatalf("create task before legacy migration: %v", err)
+	}
+	if err := database.DB.Migrator().DropColumn(&model.Task{}, "SuccessExitCodes"); err != nil {
+		t.Fatalf("drop success_exit_codes to simulate legacy database: %v", err)
+	}
+	if database.DB.Migrator().HasColumn(&model.Task{}, "SuccessExitCodes") {
+		t.Fatal("expected simulated legacy database to have no success_exit_codes column")
+	}
+
+	database.EnsureColumns()
+	if !database.DB.Migrator().HasColumn(&model.Task{}, "SuccessExitCodes") {
+		t.Fatal("expected EnsureColumns to add success_exit_codes")
+	}
+
+	var storedValue string
+	if err := database.DB.Raw("SELECT success_exit_codes FROM tasks WHERE id = ?", legacyTask.ID).Scan(&storedValue).Error; err != nil {
+		t.Fatalf("read migrated success_exit_codes: %v", err)
+	}
+	if storedValue != model.DefaultSuccessExitCodes {
+		t.Fatalf("expected migrated legacy task default %q, got %q", model.DefaultSuccessExitCodes, storedValue)
+	}
+}

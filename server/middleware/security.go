@@ -1,1 +1,17 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKZnVuYyBTZWN1cml0eUhlYWRlcnMoKSBnaW4uSGFuZGxlckZ1bmMgewoJcmV0dXJuIGZ1bmMoYyAqZ2luLkNvbnRleHQpIHsKCQljLkhlYWRlcigiWC1Db250ZW50LVR5cGUtT3B0aW9ucyIsICJub3NuaWZmIikKCQljLkhlYWRlcigiWC1GcmFtZS1PcHRpb25zIiwgIkRFTlkiKQoJCWMuSGVhZGVyKCJYLVhTUy1Qcm90ZWN0aW9uIiwgIjE7IG1vZGU9YmxvY2siKQoJCWMuSGVhZGVyKCJSZWZlcnJlci1Qb2xpY3kiLCAic3RyaWN0LW9yaWdpbi13aGVuLWNyb3NzLW9yaWdpbiIpCgkJYy5IZWFkZXIoIlgtUm9ib3RzLVRhZyIsICJub2luZGV4LCBub2ZvbGxvdywgbm9hcmNoaXZlLCBub3NuaXBwZXQiKQoJCWMuSGVhZGVyKCJDb250ZW50LVNlY3VyaXR5LVBvbGljeSIsICJkZWZhdWx0LXNyYyAnc2VsZic7IHNjcmlwdC1zcmMgJ3NlbGYnICd1bnNhZmUtaW5saW5lJyAndW5zYWZlLWV2YWwnIGh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldDsgc3R5bGUtc3JjICdzZWxmJyAndW5zYWZlLWlubGluZScgaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0OyBpbWctc3JjICdzZWxmJyBkYXRhOiBibG9iOjsgZm9udC1zcmMgJ3NlbGYnIGRhdGE6IGh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldDsgY29ubmVjdC1zcmMgJ3NlbGYnIHdzOiB3c3M6IGh0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldDsgd29ya2VyLXNyYyAnc2VsZicgYmxvYjoiKQoJCWMuTmV4dCgpCgl9Cn0K
+package middleware
+
+import (
+	"github.com/gin-gonic/gin"
+)
+
+func SecurityHeaders() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.Header("X-Content-Type-Options", "nosniff")
+		c.Header("X-Frame-Options", "DENY")
+		c.Header("X-XSS-Protection", "1; mode=block")
+		c.Header("Referrer-Policy", "strict-origin-when-cross-origin")
+		c.Header("X-Robots-Tag", "noindex, nofollow, noarchive, nosnippet")
+		c.Header("Content-Security-Policy", "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; img-src 'self' data: blob:; font-src 'self' data: https://cdn.jsdelivr.net; connect-src 'self' ws: wss: https://cdn.jsdelivr.net; worker-src 'self' blob:")
+		c.Next()
+	}
+}

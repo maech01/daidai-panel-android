@@ -1,1 +1,137 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENvbm5lY3Rpb24sIFBsdXMsIFJlZnJlc2ggfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKCmNvbnN0IHNob3dBZGRJUERpYWxvZyA9IGRlZmluZU1vZGVsPGJvb2xlYW4+KCdzaG93QWRkSVBEaWFsb2cnLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IG5ld0lQID0gZGVmaW5lTW9kZWw8c3RyaW5nPignbmV3SVAnLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IG5ld0lQUmVtYXJrcyA9IGRlZmluZU1vZGVsPHN0cmluZz4oJ25ld0lQUmVtYXJrcycsIHsgcmVxdWlyZWQ6IHRydWUgfSkKCmRlZmluZVByb3BzPHsKICBpcFdoaXRlbGlzdDogYW55W10KICBpcFdoaXRlbGlzdExvYWRpbmc6IGJvb2xlYW4KICBvbkxvYWRJUFdoaXRlbGlzdDogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvbkFkZElQOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uUmVtb3ZlSVA6IChpZDogbnVtYmVyKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgp9PigpCgpjb25zdCB7IGlzTW9iaWxlLCBkaWFsb2dGdWxsc2NyZWVuIH0gPSB1c2VSZXNwb25zaXZlKCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciI+CiAgICA8dGVtcGxhdGUgI2hlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iY2FyZC1oZWFkZXIiPgogICAgICAgIDxzcGFuIGNsYXNzPSJjYXJkLXRpdGxlIj48ZWwtaWNvbj48Q29ubmVjdGlvbiAvPjwvZWwtaWNvbj4gSVDnmb3lkI3ljZU8L3NwYW4+CiAgICAgICAgPGRpdiBjbGFzcz0iY2FyZC1oZWFkZXItYnV0dG9ucyI+CiAgICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0ib25Mb2FkSVBXaGl0ZWxpc3QiPjxlbC1pY29uPjxSZWZyZXNoIC8+PC9lbC1pY29uPuWIt+aWsDwvZWwtYnV0dG9uPgogICAgICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJwcmltYXJ5IiBAY2xpY2s9InNob3dBZGRJUERpYWxvZyA9IHRydWUiPgogICAgICAgICAgICA8ZWwtaWNvbj48UGx1cyAvPjwvZWwtaWNvbj7mt7vliqBJUC/nvZHmrrUKICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CiAgICA8cCBjbGFzcz0iY2FyZC10aXAiPgogICAgICDmlK/mjIHljZXkuKogSVDjgIFDSURSIOe9keaute+8jOS7peWPiuabtOaYk+i+k+WFpeeahCBJUHY0IOmAmumFjeagvOW8j++8jOS+i+WmgiBgMjAzLjAuMTEzLjdg44CBYDIwMy4wLjExMy4wLzI0YOOAgWAyMDMuMC4xMTMuKmDjgIIKICAgIDwvcD4KICAgIDxkaXYgdi1pZj0iaXNNb2JpbGUiIGNsYXNzPSJkZC1tb2JpbGUtbGlzdCI+CiAgICAgIDxkaXYKICAgICAgICB2LWZvcj0icm93IGluIGlwV2hpdGVsaXN0IgogICAgICAgIDprZXk9InJvdy5pZCIKICAgICAgICBjbGFzcz0iZGQtbW9iaWxlLWNhcmQiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9faGVhZGVyIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX190aXRsZS13cmFwIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX190aXRsZSI+e3sgcm93LmlwIH19PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3N1YnRpdGxlIj57eyByb3cucmVtYXJrcyB8fCAn5pyq5aGr5YaZ5o+P6L+wJyB9fTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGVsLXRhZyB0eXBlPSJzdWNjZXNzIiBzaXplPSJzbWFsbCI+5ZCv55SoPC9lbC10YWc+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2JvZHkiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2dyaWQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fZmllbGQiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fbGFiZWwiPuWIm+W7uuaXtumXtDwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3ZhbHVlIj57eyBuZXcgRGF0ZShyb3cuY3JlYXRlZF9hdCkudG9Mb2NhbGVTdHJpbmcoKSB9fTwvc3Bhbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX19hY3Rpb25zIGlwLWNhcmRfX2FjdGlvbnMiPgogICAgICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIiB0eXBlPSJkYW5nZXIiIHBsYWluIEBjbGljaz0ib25SZW1vdmVJUChyb3cuaWQpIj7np7vpmaQ8L2VsLWJ1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGVsLWVtcHR5IHYtaWY9IiFpcFdoaXRlbGlzdExvYWRpbmcgJiYgaXBXaGl0ZWxpc3QubGVuZ3RoID09PSAwIiBkZXNjcmlwdGlvbj0i5pqC5peg5pWw5o2uIiAvPgogICAgPC9kaXY+CgogICAgPGVsLXRhYmxlIHYtZWxzZSA6ZGF0YT0iaXBXaGl0ZWxpc3QiIHYtbG9hZGluZz0iaXBXaGl0ZWxpc3RMb2FkaW5nIiBzdHJpcGUgZW1wdHktdGV4dD0i5pqC5peg5pWw5o2uIj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJpcCIgbGFiZWw9IklQIC8g572R5q61IiBtaW4td2lkdGg9IjIyMCIgLz4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJyZW1hcmtzIiBsYWJlbD0i5o+P6L+wIiBtaW4td2lkdGg9IjIwMCIgLz4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0i54q25oCBIiB3aWR0aD0iODAiPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD4KICAgICAgICAgIDxlbC10YWcgdHlwZT0ic3VjY2VzcyIgc2l6ZT0ic21hbGwiPuWQr+eUqDwvZWwtdGFnPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9ImNyZWF0ZWRfYXQiIGxhYmVsPSLliJvlu7rml7bpl7QiIHdpZHRoPSIxNzAiPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD0ieyByb3cgfSI+e3sgbmV3IERhdGUocm93LmNyZWF0ZWRfYXQpLnRvTG9jYWxlU3RyaW5nKCkgfX08L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBsYWJlbD0i5pON5L2cIiB3aWR0aD0iMTAwIiBmaXhlZD0icmlnaHQiPgogICAgICAgIDx0ZW1wbGF0ZSAjZGVmYXVsdD0ieyByb3cgfSI+CiAgICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIiB0ZXh0IHR5cGU9ImRhbmdlciIgQGNsaWNrPSJvblJlbW92ZUlQKHJvdy5pZCkiPuenu+mZpDwvZWwtYnV0dG9uPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgPC9lbC10YWJsZT4KICA8L2VsLWNhcmQ+CgogIDxlbC1kaWFsb2cgdi1tb2RlbD0ic2hvd0FkZElQRGlhbG9nIiB0aXRsZT0i5re75YqgIElQIOeZveWQjeWNlSIgd2lkdGg9IjQ2MHB4IiA6ZnVsbHNjcmVlbj0iZGlhbG9nRnVsbHNjcmVlbiI+CiAgICA8ZWwtZm9ybSA6bGFiZWwtd2lkdGg9ImRpYWxvZ0Z1bGxzY3JlZW4gPyAnYXV0bycgOiAnODBweCciIDpsYWJlbC1wb3NpdGlvbj0iZGlhbG9nRnVsbHNjcmVlbiA/ICd0b3AnIDogJ3JpZ2h0JyI+CiAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IklQIC8g572R5q61Ij4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0ibmV3SVAiIHBsYWNlaG9sZGVyPSLlpoI6IDIwMy4wLjExMy43IC8gMjAzLjAuMTEzLjAvMjQgLyAyMDMuMC4xMTMuKiIgLz4KICAgICAgICA8ZGl2IGNsYXNzPSJmaWVsZC1oaW50Ij4KICAgICAgICAgIOmAguWQiOWbuuWumuWFrOe9keWhq+WNleS4qiBJUO+8m+WKqOaAgeWFrOe9keS9huWJjee8gOeos+WumuaXtu+8jOWPr+Whq+e9keauteaIliBgKmAg6YCa6YWN5qC85byP44CCCiAgICAgICAgPC9kaXY+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLlpIfms6giPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJuZXdJUFJlbWFya3MiIHBsYWNlaG9sZGVyPSLlpIfms6jor7TmmI4gKOWPr+mAiSkiIC8+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgPC9lbC1mb3JtPgogICAgPHRlbXBsYXRlICNmb290ZXI+CiAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJzaG93QWRkSVBEaWFsb2cgPSBmYWxzZSI+5Y+W5raIPC9lbC1idXR0b24+CiAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgQGNsaWNrPSJvbkFkZElQIj7mt7vliqA8L2VsLWJ1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgpAdXNlICcuL2NvbmZpZy1jYXJkLXNoYXJlZC5zY3NzJyBhcyAqOwoKLmNhcmQtaGVhZGVyLWJ1dHRvbnMgewogIHBhZGRpbmc6IDJweDsKICBib3JkZXItcmFkaXVzOiAxMnB4OwogIGJhY2tncm91bmQ6IGNvbG9yLW1peChpbiBzcmdiLCB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0KSA4NCUsIHRyYW5zcGFyZW50KTsKICBkaXNwbGF5OiBmbGV4OwogIGdhcDogOHB4Owp9CgouY2FyZC10aXAgewogIG1hcmdpbjogMCAwIDEycHg7CiAgZm9udC1zaXplOiAxM3B4OwogIGxpbmUtaGVpZ2h0OiAxLjY7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKfQoKLmZpZWxkLWhpbnQgewogIG1hcmdpbi10b3A6IDZweDsKICBmb250LXNpemU6IDEycHg7CiAgbGluZS1oZWlnaHQ6IDEuNTsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwp9CgouaXAtY2FyZF9fYWN0aW9ucyA+ICogewogIGZsZXg6IDEgMSBhdXRvOwp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAuY2FyZC1oZWFkZXItYnV0dG9ucyB7CiAgICB3aWR0aDogMTAwJTsKICAgIGZsZXgtd3JhcDogd3JhcDsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { Connection, Plus, Refresh } from '@element-plus/icons-vue'
+import { useResponsive } from '@/composables/useResponsive'
+
+const showAddIPDialog = defineModel<boolean>('showAddIPDialog', { required: true })
+const newIP = defineModel<string>('newIP', { required: true })
+const newIPRemarks = defineModel<string>('newIPRemarks', { required: true })
+
+defineProps<{
+  ipWhitelist: any[]
+  ipWhitelistLoading: boolean
+  onLoadIPWhitelist: () => void | Promise<void>
+  onAddIP: () => void | Promise<void>
+  onRemoveIP: (id: number) => void | Promise<void>
+}>()
+
+const { isMobile, dialogFullscreen } = useResponsive()
+</script>
+
+<template>
+  <el-card shadow="never">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Connection /></el-icon> IP白名单</span>
+        <div class="card-header-buttons">
+          <el-button @click="onLoadIPWhitelist"><el-icon><Refresh /></el-icon>刷新</el-button>
+          <el-button type="primary" @click="showAddIPDialog = true">
+            <el-icon><Plus /></el-icon>添加IP/网段
+          </el-button>
+        </div>
+      </div>
+    </template>
+    <p class="card-tip">
+      支持单个 IP、CIDR 网段，以及更易输入的 IPv4 通配格式，例如 `203.0.113.7`、`203.0.113.0/24`、`203.0.113.*`。
+    </p>
+    <div v-if="isMobile" class="dd-mobile-list">
+      <div
+        v-for="row in ipWhitelist"
+        :key="row.id"
+        class="dd-mobile-card"
+      >
+        <div class="dd-mobile-card__header">
+          <div class="dd-mobile-card__title-wrap">
+            <span class="dd-mobile-card__title">{{ row.ip }}</span>
+            <span class="dd-mobile-card__subtitle">{{ row.remarks || '未填写描述' }}</span>
+          </div>
+          <el-tag type="success" size="small">启用</el-tag>
+        </div>
+        <div class="dd-mobile-card__body">
+          <div class="dd-mobile-card__grid">
+            <div class="dd-mobile-card__field">
+              <span class="dd-mobile-card__label">创建时间</span>
+              <span class="dd-mobile-card__value">{{ new Date(row.created_at).toLocaleString() }}</span>
+            </div>
+          </div>
+          <div class="dd-mobile-card__actions ip-card__actions">
+            <el-button size="small" type="danger" plain @click="onRemoveIP(row.id)">移除</el-button>
+          </div>
+        </div>
+      </div>
+      <el-empty v-if="!ipWhitelistLoading && ipWhitelist.length === 0" description="暂无数据" />
+    </div>
+
+    <el-table v-else :data="ipWhitelist" v-loading="ipWhitelistLoading" stripe empty-text="暂无数据">
+      <el-table-column prop="ip" label="IP / 网段" min-width="220" />
+      <el-table-column prop="remarks" label="描述" min-width="200" />
+      <el-table-column label="状态" width="80">
+        <template #default>
+          <el-tag type="success" size="small">启用</el-tag>
+        </template>
+      </el-table-column>
+      <el-table-column prop="created_at" label="创建时间" width="170">
+        <template #default="{ row }">{{ new Date(row.created_at).toLocaleString() }}</template>
+      </el-table-column>
+      <el-table-column label="操作" width="100" fixed="right">
+        <template #default="{ row }">
+          <el-button size="small" text type="danger" @click="onRemoveIP(row.id)">移除</el-button>
+        </template>
+      </el-table-column>
+    </el-table>
+  </el-card>
+
+  <el-dialog v-model="showAddIPDialog" title="添加 IP 白名单" width="460px" :fullscreen="dialogFullscreen">
+    <el-form :label-width="dialogFullscreen ? 'auto' : '80px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+      <el-form-item label="IP / 网段">
+        <el-input v-model="newIP" placeholder="如: 203.0.113.7 / 203.0.113.0/24 / 203.0.113.*" />
+        <div class="field-hint">
+          适合固定公网填单个 IP；动态公网但前缀稳定时，可填网段或 `*` 通配格式。
+        </div>
+      </el-form-item>
+      <el-form-item label="备注">
+        <el-input v-model="newIPRemarks" placeholder="备注说明 (可选)" />
+      </el-form-item>
+    </el-form>
+    <template #footer>
+      <el-button @click="showAddIPDialog = false">取消</el-button>
+      <el-button type="primary" @click="onAddIP">添加</el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.card-header-buttons {
+  padding: 2px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+  display: flex;
+  gap: 8px;
+}
+
+.card-tip {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--el-text-color-secondary);
+}
+
+.field-hint {
+  margin-top: 6px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--el-text-color-secondary);
+}
+
+.ip-card__actions > * {
+  flex: 1 1 auto;
+}
+
+@media (max-width: 768px) {
+  .card-header-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+</style>

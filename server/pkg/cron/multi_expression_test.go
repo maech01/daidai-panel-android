@@ -1,1 +1,63 @@
-cGFja2FnZSBjcm9uCgppbXBvcnQgKAoJInN0cmluZ3MiCgkidGVzdGluZyIKCSJ0aW1lIgopCgpmdW5jIFRlc3RWYWxpZGF0ZUV4cHJlc3Npb25zUmVqZWN0c0ludmFsaWRSdWxlV2l0aEluZGV4KHQgKnRlc3RpbmcuVCkgewoJZXJyIDo9IFZhbGlkYXRlRXhwcmVzc2lvbnMoIjAgMCAqICogKiAqXG5pbnZhbGlkIGNyb24iKQoJaWYgZXJyID09IG5pbCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgaW52YWxpZCBleHByZXNzaW9uIGxpc3QgdG8gcmV0dXJuIGFuIGVycm9yIikKCX0KCWlmIGdvdCA6PSBlcnIuRXJyb3IoKTsgIXN0cmluZ3MuSGFzUHJlZml4KGdvdCwgIuesrCAyIOadoSIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW5kZXhlZCB2YWxpZGF0aW9uIGVycm9yLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdE5leHRSdW5UaW1lc0ZvckV4cHJlc3Npb25zUmV0dXJuc0VhcmxpZXN0TWF0Y2hlcyh0ICp0ZXN0aW5nLlQpIHsKCXRpbWVzIDo9IE5leHRSdW5UaW1lc0ZvckV4cHJlc3Npb25zKCIwICovMzAgKiAqICogKlxuMCAwICovMiAqICogKiIsIDMpCglpZiBsZW4odGltZXMpICE9IDMgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0aHJlZSB1cGNvbWluZyBydW4gdGltZXMsIGdvdCAlZCIsIGxlbih0aW1lcykpCgl9CglpZiAhdGltZXNbMF0uQmVmb3JlKHRpbWVzWzFdKSAmJiAhdGltZXNbMF0uRXF1YWwodGltZXNbMV0pIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc29ydGVkIHJ1biB0aW1lcywgZ290ICV2IHRoZW4gJXYiLCB0aW1lc1swXSwgdGltZXNbMV0pCgl9Cn0KCmZ1bmMgVGVzdE5leHRSdW5UaW1lc0Zyb21TdXBwb3J0c1F1YXJ0elF1ZXN0aW9uTWFya0FuZEhvdXJMaXN0cyh0ICp0ZXN0aW5nLlQpIHsKCWJhc2UgOj0gdGltZS5EYXRlKDIwMjYsIDUsIDE4LCA3LCAxLCAwLCAwLCB0aW1lLkxvY2FsKQoKCWZpcnN0RXhwclRpbWVzIDo9IE5leHRSdW5UaW1lc0Zyb20oIjAgNTggOSwxNyAqICogPyIsIDQsIGJhc2UpCglpZiBsZW4oZmlyc3RFeHByVGltZXMpICE9IDQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0IG5leHQgcnVuIHRpbWVzIGZvciBmaXJzdCBleHByLCBnb3QgJWQiLCBsZW4oZmlyc3RFeHByVGltZXMpKQoJfQoJZmlyc3RXYW50IDo9IFtddGltZS5UaW1lewoJCXRpbWUuRGF0ZSgyMDI2LCA1LCAxOCwgOSwgNTgsIDAsIDAsIHRpbWUuTG9jYWwpLAoJCXRpbWUuRGF0ZSgyMDI2LCA1LCAxOCwgMTcsIDU4LCAwLCAwLCB0aW1lLkxvY2FsKSwKCQl0aW1lLkRhdGUoMjAyNiwgNSwgMTksIDksIDU4LCAwLCAwLCB0aW1lLkxvY2FsKSwKCQl0aW1lLkRhdGUoMjAyNiwgNSwgMTksIDE3LCA1OCwgMCwgMCwgdGltZS5Mb2NhbCksCgl9Cglmb3IgaSwgd2FudCA6PSByYW5nZSBmaXJzdFdhbnQgewoJCWlmICFmaXJzdEV4cHJUaW1lc1tpXS5FcXVhbCh3YW50KSB7CgkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGZpcnN0IGV4cHIgdGltZSBhdCAlZDogZ290ICV2IHdhbnQgJXYiLCBpLCBmaXJzdEV4cHJUaW1lc1tpXSwgd2FudCkKCQl9Cgl9CgoJc2Vjb25kRXhwclRpbWVzIDo9IE5leHRSdW5UaW1lc0Zyb20oIjAgMCA3LDIwICogKiA/IiwgNCwgYmFzZSkKCWlmIGxlbihzZWNvbmRFeHByVGltZXMpICE9IDQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0IG5leHQgcnVuIHRpbWVzIGZvciBzZWNvbmQgZXhwciwgZ290ICVkIiwgbGVuKHNlY29uZEV4cHJUaW1lcykpCgl9CglzZWNvbmRXYW50IDo9IFtddGltZS5UaW1lewoJCXRpbWUuRGF0ZSgyMDI2LCA1LCAxOCwgMjAsIDAsIDAsIDAsIHRpbWUuTG9jYWwpLAoJCXRpbWUuRGF0ZSgyMDI2LCA1LCAxOSwgNywgMCwgMCwgMCwgdGltZS5Mb2NhbCksCgkJdGltZS5EYXRlKDIwMjYsIDUsIDE5LCAyMCwgMCwgMCwgMCwgdGltZS5Mb2NhbCksCgkJdGltZS5EYXRlKDIwMjYsIDUsIDIwLCA3LCAwLCAwLCAwLCB0aW1lLkxvY2FsKSwKCX0KCWZvciBpLCB3YW50IDo9IHJhbmdlIHNlY29uZFdhbnQgewoJCWlmICFzZWNvbmRFeHByVGltZXNbaV0uRXF1YWwod2FudCkgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBzZWNvbmQgZXhwciB0aW1lIGF0ICVkOiBnb3QgJXYgd2FudCAldiIsIGksIHNlY29uZEV4cHJUaW1lc1tpXSwgd2FudCkKCQl9Cgl9Cn0K
+package cron
+
+import (
+	"strings"
+	"testing"
+	"time"
+)
+
+func TestValidateExpressionsRejectsInvalidRuleWithIndex(t *testing.T) {
+	err := ValidateExpressions("0 0 * * * *\ninvalid cron")
+	if err == nil {
+		t.Fatal("expected invalid expression list to return an error")
+	}
+	if got := err.Error(); !strings.HasPrefix(got, "第 2 条") {
+		t.Fatalf("expected indexed validation error, got %q", got)
+	}
+}
+
+func TestNextRunTimesForExpressionsReturnsEarliestMatches(t *testing.T) {
+	times := NextRunTimesForExpressions("0 */30 * * * *\n0 0 */2 * * *", 3)
+	if len(times) != 3 {
+		t.Fatalf("expected three upcoming run times, got %d", len(times))
+	}
+	if !times[0].Before(times[1]) && !times[0].Equal(times[1]) {
+		t.Fatalf("expected sorted run times, got %v then %v", times[0], times[1])
+	}
+}
+
+func TestNextRunTimesFromSupportsQuartzQuestionMarkAndHourLists(t *testing.T) {
+	base := time.Date(2026, 5, 18, 7, 1, 0, 0, time.Local)
+
+	firstExprTimes := NextRunTimesFrom("0 58 9,17 * * ?", 4, base)
+	if len(firstExprTimes) != 4 {
+		t.Fatalf("expected 4 next run times for first expr, got %d", len(firstExprTimes))
+	}
+	firstWant := []time.Time{
+		time.Date(2026, 5, 18, 9, 58, 0, 0, time.Local),
+		time.Date(2026, 5, 18, 17, 58, 0, 0, time.Local),
+		time.Date(2026, 5, 19, 9, 58, 0, 0, time.Local),
+		time.Date(2026, 5, 19, 17, 58, 0, 0, time.Local),
+	}
+	for i, want := range firstWant {
+		if !firstExprTimes[i].Equal(want) {
+			t.Fatalf("unexpected first expr time at %d: got %v want %v", i, firstExprTimes[i], want)
+		}
+	}
+
+	secondExprTimes := NextRunTimesFrom("0 0 7,20 * * ?", 4, base)
+	if len(secondExprTimes) != 4 {
+		t.Fatalf("expected 4 next run times for second expr, got %d", len(secondExprTimes))
+	}
+	secondWant := []time.Time{
+		time.Date(2026, 5, 18, 20, 0, 0, 0, time.Local),
+		time.Date(2026, 5, 19, 7, 0, 0, 0, time.Local),
+		time.Date(2026, 5, 19, 20, 0, 0, 0, time.Local),
+		time.Date(2026, 5, 20, 7, 0, 0, 0, time.Local),
+	}
+	for i, want := range secondWant {
+		if !secondExprTimes[i].Equal(want) {
+			t.Fatalf("unexpected second expr time at %d: got %v want %v", i, secondExprTimes[i], want)
+		}
+	}
+}

@@ -1,1 +1,130 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdEFwcGVuZEdpdFNTSEVudlVzZXNQZXJzaXN0ZW50S25vd25Ib3N0cyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXNzaEtleVBhdGggOj0gZmlsZXBhdGguSm9pbih0LlRlbXBEaXIoKSwgImRlcGxveSBrZXkiKQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzc2hLZXlQYXRoLCBbXWJ5dGUoImR1bW15IiksIDBvNjAwKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNzaCBrZXk6ICV2IiwgZXJyKQoJfQoKCXN1YiA6PSAmbW9kZWwuU3Vic2NyaXB0aW9uewoJCUF1dGhUeXBlOiBtb2RlbC5TdWJBdXRoVHlwZVNTSCwKCX0KCWVudkNmZywgZXJyIDo9IGJ1aWxkR2l0QXV0aENvbmZpZyhbXXN0cmluZ3siQkFTRT0xIn0sICJnaXRAZ2l0aHViLmNvbTpkZW1vL3ByaXZhdGUuZ2l0Iiwgc3ViLCBzc2hLZXlQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIGdpdCBhdXRoIGNvbmZpZzogJXYiLCBlcnIpCgl9CgllbnYgOj0gZW52Q2ZnLkVudgoKCXZhciBzc2hDb21tYW5kIHN0cmluZwoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudiB7CgkJaWYgc3RyaW5ncy5IYXNQcmVmaXgoZW50cnksICJHSVRfU1NIX0NPTU1BTkQ9IikgewoJCQlzc2hDb21tYW5kID0gc3RyaW5ncy5UcmltUHJlZml4KGVudHJ5LCAiR0lUX1NTSF9DT01NQU5EPSIpCgkJCWJyZWFrCgkJfQoJfQoJaWYgc3NoQ29tbWFuZCA9PSAiIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIEdJVF9TU0hfQ09NTUFORCB0byBiZSBzZXQsIGVudj0ldiIsIGVudikKCX0KCglpZiBzdHJpbmdzLkNvbnRhaW5zKHNzaENvbW1hbmQsICJTdHJpY3RIb3N0S2V5Q2hlY2tpbmc9bm8iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGhvc3Qga2V5IGNoZWNraW5nIHRvIHN0YXkgZW5hYmxlZCwgZ290ICVxIiwgc3NoQ29tbWFuZCkKCX0KCWlmIHN0cmluZ3MuQ29udGFpbnMoc3NoQ29tbWFuZCwgIi9kZXYvbnVsbCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcGVyc2lzdGVudCBrbm93bl9ob3N0cyBpbnN0ZWFkIG9mIC9kZXYvbnVsbCwgZ290ICVxIiwgc3NoQ29tbWFuZCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHNzaENvbW1hbmQsICJTdHJpY3RIb3N0S2V5Q2hlY2tpbmc9YWNjZXB0LW5ldyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYWNjZXB0LW5ldyBob3N0IGtleSBwb2xpY3ksIGdvdCAlcSIsIHNzaENvbW1hbmQpCgl9CgoJa25vd25Ib3N0c1BhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLkRpciwgInNzaCIsICJrbm93bl9ob3N0cyIpCglpZiBfLCBlcnIgOj0gb3MuU3RhdChrbm93bkhvc3RzUGF0aCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBrbm93bl9ob3N0cyBmaWxlIHRvIGV4aXN0OiAldiIsIGVycikKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHNzaENvbW1hbmQsIHNoZWxsRXNjYXBlU1NIQXJnKGtub3duSG9zdHNQYXRoKSkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzc2ggY29tbWFuZCB0byByZWZlcmVuY2Uga25vd25faG9zdHMgJXEsIGdvdCAlcSIsIGtub3duSG9zdHNQYXRoLCBzc2hDb21tYW5kKQoJfQp9CgpmdW5jIFRlc3RCdWlsZEdpdEF1dGhDb25maWdFbWJlZHNUb2tlbkludG9VUkwodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglzdWIgOj0gJm1vZGVsLlN1YnNjcmlwdGlvbnsKCQlVUkw6ICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vZXhhbXBsZS9wcml2YXRlLmdpdCIsCgkJQXV0aFR5cGU6ICBtb2RlbC5TdWJBdXRoVHlwZVRva2VuLAoJCUF1dGhUb2tlbjogImdocF90ZXN0X3Rva2VuIiwKCX0KCWNmZywgZXJyIDo9IGJ1aWxkR2l0QXV0aENvbmZpZyhbXXN0cmluZ3siQkFTRT0xIn0sIHN1Yi5VUkwsIHN1YiwgIiIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiYnVpbGQgZ2l0IGF1dGggY29uZmlnIHdpdGggdG9rZW46ICV2IiwgZXJyKQoJfQoKCWlmIGNmZy5EaXNwbGF5VVJMICE9IHN1Yi5VUkwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBEaXNwbGF5VVJMIHRvIHN0YXkgY2xlYW4sIGdvdCAlcSIsIGNmZy5EaXNwbGF5VVJMKQoJfQoJaWYgY2ZnLlJlbW90ZVVSTCA9PSBzdWIuVVJMIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgUmVtb3RlVVJMIHRvIGVtYmVkIGNyZWRlbnRpYWxzLCBnb3QgdW5jaGFuZ2VkICVxIiwgY2ZnLlJlbW90ZVVSTCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNmZy5SZW1vdGVVUkwsICJ4LWFjY2Vzcy10b2tlbjpnaHBfdGVzdF90b2tlbkBnaXRodWIuY29tIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkZWZhdWx0IHgtYWNjZXNzLXRva2VuIHVzZXIgd2l0aCB0b2tlbiBlbWJlZGRlZCwgZ290ICVxIiwgY2ZnLlJlbW90ZVVSTCkKCX0KCWlmIHN0cmluZ3MuQ29udGFpbnMoY2ZnLkRpc3BsYXlVUkwsICJnaHBfdGVzdF90b2tlbiIpIHsKCQl0LkZhdGFsZigiRGlzcGxheVVSTCBzaG91bGQgbm90IGxlYWsgdG9rZW4sIGdvdCAlcSIsIGNmZy5EaXNwbGF5VVJMKQoJfQoKCWZvciBfLCBlbnRyeSA6PSByYW5nZSBjZmcuRW52IHsKCQlpZiBzdHJpbmdzLkhhc1ByZWZpeChlbnRyeSwgIkdJVF9IVFRQX0VYVFJBX0hFQURFUj0iKSB7CgkJCXQuRmF0YWxmKCJ0b2tlbiBhdXRoIHNob3VsZCBub3QgcmVseSBvbiBHSVRfSFRUUF9FWFRSQV9IRUFERVIsIGdvdCAlcSIsIGVudHJ5KQoJCX0KCX0KfQoKZnVuYyBUZXN0QnVpbGRHaXRBdXRoQ29uZmlnVXNlc0N1c3RvbVVzZXJuYW1lRm9yVG9rZW4odCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglzdWIgOj0gJm1vZGVsLlN1YnNjcmlwdGlvbnsKCQlVUkw6ICAgICAgICAgICJodHRwczovL2dpdGVlLmNvbS9leGFtcGxlL3ByaXZhdGUuZ2l0IiwKCQlBdXRoVHlwZTogICAgIG1vZGVsLlN1YkF1dGhUeXBlVG9rZW4sCgkJQXV0aFVzZXJuYW1lOiAiZGVtby11c2VyIiwKCQlBdXRoVG9rZW46ICAgICJzZWNyZXQgdG9rZW4rLz8iLAoJfQoJY2ZnLCBlcnIgOj0gYnVpbGRHaXRBdXRoQ29uZmlnKG5pbCwgc3ViLlVSTCwgc3ViLCAiIikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJidWlsZCBnaXQgYXV0aCBjb25maWc6ICV2IiwgZXJyKQoJfQoKCWlmICFzdHJpbmdzLkhhc1ByZWZpeChjZmcuUmVtb3RlVVJMLCAiaHR0cHM6Ly9kZW1vLXVzZXI6IikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjdXN0b20gdXNlcm5hbWUgaW4gcmVtb3RlIFVSTCwgZ290ICVxIiwgY2ZnLlJlbW90ZVVSTCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNmZy5SZW1vdGVVUkwsICJAZ2l0ZWUuY29tL2V4YW1wbGUvcHJpdmF0ZS5naXQiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGdpdGVlIGhvc3QgcHJlc2VydmVkIGFmdGVyIGNyZWRlbnRpYWxzLCBnb3QgJXEiLCBjZmcuUmVtb3RlVVJMKQoJfQoJaWYgc3RyaW5ncy5Db250YWlucyhjZmcuUmVtb3RlVVJMLCAic2VjcmV0IHRva2VuKy8/IikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0b2tlbiB0byBiZSBVUkwtZW5jb2RlZCwgZ290ICVxIiwgY2ZnLlJlbW90ZVVSTCkKCX0KfQoKZnVuYyBUZXN0QnVpbGRHaXRBdXRoQ29uZmlnUmVqZWN0c1Rva2VuRm9yU1NIUmVtb3RlKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJVVJMOiAgICAgICAiZ2l0QGdpdGh1Yi5jb206ZXhhbXBsZS9wcml2YXRlLmdpdCIsCgkJQXV0aFR5cGU6ICBtb2RlbC5TdWJBdXRoVHlwZVRva2VuLAoJCUF1dGhUb2tlbjogImdocF90ZXN0X3Rva2VuIiwKCX0KCWlmIF8sIGVyciA6PSBidWlsZEdpdEF1dGhDb25maWcoW11zdHJpbmd7IkJBU0U9MSJ9LCBzdWIuVVJMLCBzdWIsICIiKTsgZXJyID09IG5pbCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgdG9rZW4gYXV0aCB0byByZWplY3QgU1NIIHJlbW90ZSBVUkwiKQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestAppendGitSSHEnvUsesPersistentKnownHosts(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	sshKeyPath := filepath.Join(t.TempDir(), "deploy key")
+	if err := os.WriteFile(sshKeyPath, []byte("dummy"), 0o600); err != nil {
+		t.Fatalf("write ssh key: %v", err)
+	}
+
+	sub := &model.Subscription{
+		AuthType: model.SubAuthTypeSSH,
+	}
+	envCfg, err := buildGitAuthConfig([]string{"BASE=1"}, "git@github.com:demo/private.git", sub, sshKeyPath)
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+	env := envCfg.Env
+
+	var sshCommand string
+	for _, entry := range env {
+		if strings.HasPrefix(entry, "GIT_SSH_COMMAND=") {
+			sshCommand = strings.TrimPrefix(entry, "GIT_SSH_COMMAND=")
+			break
+		}
+	}
+	if sshCommand == "" {
+		t.Fatalf("expected GIT_SSH_COMMAND to be set, env=%v", env)
+	}
+
+	if strings.Contains(sshCommand, "StrictHostKeyChecking=no") {
+		t.Fatalf("expected host key checking to stay enabled, got %q", sshCommand)
+	}
+	if strings.Contains(sshCommand, "/dev/null") {
+		t.Fatalf("expected persistent known_hosts instead of /dev/null, got %q", sshCommand)
+	}
+	if !strings.Contains(sshCommand, "StrictHostKeyChecking=accept-new") {
+		t.Fatalf("expected accept-new host key policy, got %q", sshCommand)
+	}
+
+	knownHostsPath := filepath.Join(config.C.Data.Dir, "ssh", "known_hosts")
+	if _, err := os.Stat(knownHostsPath); err != nil {
+		t.Fatalf("expected known_hosts file to exist: %v", err)
+	}
+	if !strings.Contains(sshCommand, shellEscapeSSHArg(knownHostsPath)) {
+		t.Fatalf("expected ssh command to reference known_hosts %q, got %q", knownHostsPath, sshCommand)
+	}
+}
+
+func TestBuildGitAuthConfigEmbedsTokenIntoURL(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	sub := &model.Subscription{
+		URL:       "https://github.com/example/private.git",
+		AuthType:  model.SubAuthTypeToken,
+		AuthToken: "ghp_test_token",
+	}
+	cfg, err := buildGitAuthConfig([]string{"BASE=1"}, sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config with token: %v", err)
+	}
+
+	if cfg.DisplayURL != sub.URL {
+		t.Fatalf("expected DisplayURL to stay clean, got %q", cfg.DisplayURL)
+	}
+	if cfg.RemoteURL == sub.URL {
+		t.Fatalf("expected RemoteURL to embed credentials, got unchanged %q", cfg.RemoteURL)
+	}
+	if !strings.Contains(cfg.RemoteURL, "x-access-token:ghp_test_token@github.com") {
+		t.Fatalf("expected default x-access-token user with token embedded, got %q", cfg.RemoteURL)
+	}
+	if strings.Contains(cfg.DisplayURL, "ghp_test_token") {
+		t.Fatalf("DisplayURL should not leak token, got %q", cfg.DisplayURL)
+	}
+
+	for _, entry := range cfg.Env {
+		if strings.HasPrefix(entry, "GIT_HTTP_EXTRA_HEADER=") {
+			t.Fatalf("token auth should not rely on GIT_HTTP_EXTRA_HEADER, got %q", entry)
+		}
+	}
+}
+
+func TestBuildGitAuthConfigUsesCustomUsernameForToken(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	sub := &model.Subscription{
+		URL:          "https://gitee.com/example/private.git",
+		AuthType:     model.SubAuthTypeToken,
+		AuthUsername: "demo-user",
+		AuthToken:    "secret token+/?",
+	}
+	cfg, err := buildGitAuthConfig(nil, sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+
+	if !strings.HasPrefix(cfg.RemoteURL, "https://demo-user:") {
+		t.Fatalf("expected custom username in remote URL, got %q", cfg.RemoteURL)
+	}
+	if !strings.Contains(cfg.RemoteURL, "@gitee.com/example/private.git") {
+		t.Fatalf("expected gitee host preserved after credentials, got %q", cfg.RemoteURL)
+	}
+	if strings.Contains(cfg.RemoteURL, "secret token+/?") {
+		t.Fatalf("expected token to be URL-encoded, got %q", cfg.RemoteURL)
+	}
+}
+
+func TestBuildGitAuthConfigRejectsTokenForSSHRemote(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	sub := &model.Subscription{
+		URL:       "git@github.com:example/private.git",
+		AuthType:  model.SubAuthTypeToken,
+		AuthToken: "ghp_test_token",
+	}
+	if _, err := buildGitAuthConfig([]string{"BASE=1"}, sub.URL, sub, ""); err == nil {
+		t.Fatal("expected token auth to reject SSH remote URL")
+	}
+}

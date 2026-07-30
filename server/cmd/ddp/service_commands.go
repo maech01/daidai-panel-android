@@ -1,1 +1,156 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJvcy9leGVjIgoJInBhdGgvZmlsZXBhdGgiCgkicnVudGltZSIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvYXBwYm9vdCIKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKKQoKZnVuYyBydW5TZXJ2aWNlKHJ0ICpjbGlSdW50aW1lLCBhcmdzIFtdc3RyaW5nKSBlcnJvciB7CglpZiBsZW4oYXJncykgPT0gMCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIueUqOazlTogZGRwIHNlcnZpY2UgPGluc3RhbGx8dW5pbnN0YWxsfHN0YXJ0fHN0b3B8cmVzdGFydHxzdGF0dXM+IikKCX0KCWlmIGVyciA6PSBydC5ib290c3RyYXAoKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXN3aXRjaCBhcmdzWzBdIHsKCWNhc2UgImluc3RhbGwiOgoJCXJldHVybiBydW5TZXJ2aWNlSW5zdGFsbChydCkKCWNhc2UgInVuaW5zdGFsbCI6CgkJcmV0dXJuIHJ1blNlcnZpY2VVbmluc3RhbGwocnQpCgljYXNlICJzdGFydCIsICJzdG9wIiwgInJlc3RhcnQiOgoJCXJldHVybiBzZXJ2aWNlLkNvbnRyb2xQYW5lbFNlcnZpY2UoYXJnc1swXSkKCWNhc2UgInN0YXR1cyI6CgkJcmV0dXJuIHJ1blNlcnZpY2VTdGF0dXMocnQpCglkZWZhdWx0OgoJCXJldHVybiBmbXQuRXJyb3JmKCLmnKrnn6Ugc2VydmljZSDlrZDlkb3ku6Q6ICVzIiwgYXJnc1swXSkKCX0KfQoKZnVuYyBydW5TZXJ2aWNlSW5zdGFsbChydCAqY2xpUnVudGltZSkgZXJyb3IgewoJaWYgcnVudGltZS5HT09TICE9ICJsaW51eCIgewoJCXJldHVybiBmbXQuRXJyb3JmKCLlvZPliY3ku4XmlK/mjIHlnKggTGludXgg5LiK5a6J6KOFIHN5c3RlbWQg5a6I5oqkIikKCX0KCXNlcnZpY2VOYW1lIDo9IHNlcnZpY2UuUmVzb2x2ZVBhbmVsU2VydmljZU5hbWUoKQoJdW5pdFBhdGggOj0gc2VydmljZS5QYW5lbFNlcnZpY2VVbml0UGF0aChzZXJ2aWNlTmFtZSkKCWNvbmZpZ1BhdGggOj0gYXBwYm9vdC5SZXNvbHZlQ29uZmlnUGF0aCgpCglleGVjdXRhYmxlUGF0aCwgZXJyIDo9IG9zLkV4ZWN1dGFibGUoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuivhuWIq+W9k+WJjeeoi+W6j+i3r+W+hOWksei0pTogJXciLCBlcnIpCgl9CglpZiBjb25maWcuQyA9PSBuaWwgewoJCXJldHVybiBmbXQuRXJyb3JmKCLlvZPliY3phY3nva7mnKrliJ3lp4vljJYiKQoJfQoJd2ViRGlyIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGNvbmZpZy5DLlNlcnZlci5XZWJEaXIpCgllbnZXZWJEaXIgOj0gIiIKCWlmIHdlYkRpciAhPSAiIiB7CgkJZW52V2ViRGlyID0gZm10LlNwcmludGYoIkVudmlyb25tZW50PVdFQl9ESVI9JXNcbiIsIHNoZWxsUXVvdGVTeXN0ZW1kVmFsdWUod2ViRGlyKSkKCX0KCgl1bml0Q29udGVudCA6PSBmbXQuU3ByaW50ZihgW1VuaXRdCkRlc2NyaXB0aW9uPURhaURhaSBQYW5lbCBTZXJ2aWNlCkFmdGVyPW5ldHdvcmsudGFyZ2V0CgpbU2VydmljZV0KVHlwZT1zaW1wbGUKV29ya2luZ0RpcmVjdG9yeT0lcwpFeGVjU3RhcnQ9JXMKUmVzdGFydD1hbHdheXMKUmVzdGFydFNlYz0zCkVudmlyb25tZW50PURBSURBSV9DT05GSUc9JXMKRW52aXJvbm1lbnQ9REFUQV9ESVI9JXMKRW52aXJvbm1lbnQ9U0VSVkVSX1BPUlQ9JWQKJXMKW0luc3RhbGxdCldhbnRlZEJ5PW11bHRpLXVzZXIudGFyZ2V0CmAsCgkJZmlsZXBhdGguRGlyKGV4ZWN1dGFibGVQYXRoKSwKCQlleGVjdXRhYmxlUGF0aCwKCQljb25maWdQYXRoLAoJCWNvbmZpZy5DLkRhdGEuRGlyLAoJCWNvbmZpZy5DLlNlcnZlci5Qb3J0LAoJCWVudldlYkRpciwKCSkKCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHVuaXRQYXRoLCBbXWJ5dGUodW5pdENvbnRlbnQpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBmbXQuRXJyb3JmKCLlhpnlhaUgc3lzdGVtZCDmnI3liqHmlofku7blpLHotKU6ICV3IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygicGFuZWxfc2VydmljZV9tYW5hZ2VyIiwgc2VydmljZS5QYW5lbFNlcnZpY2VNYW5hZ2VyU3lzdGVtZCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoInBhbmVsX3NlcnZpY2VfbmFtZSIsIHNlcnZpY2VOYW1lKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygicGFuZWxfcnVudGltZV9tb2RlIiwgc2VydmljZS5QYW5lbFJ1bnRpbWVNb2RlRmlsZSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCWlmIGVyciA6PSBydW5TeXN0ZW1jdGwoImRhZW1vbi1yZWxvYWQiKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJaWYgZXJyIDo9IHJ1blN5c3RlbWN0bCgiZW5hYmxlIiwgc2VydmljZU5hbWUpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglmbXQuUHJpbnRmKCJzeXN0ZW1kIOacjeWKoeaWh+S7tuW3suWGmeWFpTogJXNcbiIsIHVuaXRQYXRoKQoJZm10LlByaW50Zigi5bey5ZCv55So5pyN5YqhOiAlc1xuIiwgc2VydmljZU5hbWUpCglyZXR1cm4gbmlsCn0KCmZ1bmMgcnVuU2VydmljZVVuaW5zdGFsbChydCAqY2xpUnVudGltZSkgZXJyb3IgewoJc2VydmljZU5hbWUgOj0gc2VydmljZS5SZXNvbHZlUGFuZWxTZXJ2aWNlTmFtZSgpCgl1bml0UGF0aCA6PSBzZXJ2aWNlLlBhbmVsU2VydmljZVVuaXRQYXRoKHNlcnZpY2VOYW1lKQoJXyA9IHJ1blN5c3RlbWN0bCgiZGlzYWJsZSIsIHNlcnZpY2VOYW1lKQoJXyA9IHJ1blN5c3RlbWN0bCgic3RvcCIsIHNlcnZpY2VOYW1lKQoJaWYgZXJyIDo9IG9zLlJlbW92ZSh1bml0UGF0aCk7IGVyciAhPSBuaWwgJiYgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuWIoOmZpCBzeXN0ZW1kIOacjeWKoeaWh+S7tuWksei0pTogJXciLCBlcnIpCgl9CglfID0gcnVuU3lzdGVtY3RsKCJkYWVtb24tcmVsb2FkIikKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoInBhbmVsX3NlcnZpY2VfbWFuYWdlciIsIHNlcnZpY2UuUGFuZWxTZXJ2aWNlTWFuYWdlck5vbmUpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglmbXQuUHJpbnRmKCLlt7Lnp7vpmaQgc3lzdGVtZCDmnI3liqE6ICVzXG4iLCBzZXJ2aWNlTmFtZSkKCXJldHVybiBuaWwKfQoKZnVuYyBydW5TZXJ2aWNlU3RhdHVzKHJ0ICpjbGlSdW50aW1lKSBlcnJvciB7CglmbXQuUHJpbnRmKCLlrojmiqTnrqHnkIblmag6ICVzXG4iLCBzZXJ2aWNlLlJlc29sdmVQYW5lbFNlcnZpY2VNYW5hZ2VyKCkpCglmbXQuUHJpbnRmKCLmnI3liqHlkI3np7A6ICVzXG4iLCBzZXJ2aWNlLlJlc29sdmVQYW5lbFNlcnZpY2VOYW1lKCkpCglpZiBzZXJ2aWNlLlJlc29sdmVQYW5lbFNlcnZpY2VNYW5hZ2VyKCkgPT0gc2VydmljZS5QYW5lbFNlcnZpY2VNYW5hZ2VyU3lzdGVtZCB7CgkJaWYgZXJyIDo9IHJ1blN5c3RlbWN0bCgic3RhdHVzIiwgc2VydmljZS5SZXNvbHZlUGFuZWxTZXJ2aWNlTmFtZSgpKTsgZXJyICE9IG5pbCB7CgkJCXJldHVybiBlcnIKCQl9Cgl9CglyZXR1cm4gbmlsCn0KCmZ1bmMgcnVuU3lzdGVtY3RsKGFyZ3MgLi4uc3RyaW5nKSBlcnJvciB7CglpZiAhc2VydmljZS5DYW5NYW5hZ2VQYW5lbFNlcnZpY2UoKSAmJiBsZW4oYXJncykgPiAwICYmIGFyZ3NbMF0gIT0gImRhZW1vbi1yZWxvYWQiIHsKCQlyZXR1cm4gZm10LkVycm9yZigi5b2T5YmN546v5aKD5pyq5ZCv55SoIHN5c3RlbWQg5a6I5oqk566h55CGIikKCX0KCWNtZCA6PSBleGVjQ29tbWFuZCgic3lzdGVtY3RsIiwgYXJncy4uLikKCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCglpZiBlcnIgIT0gbmlsIHsKCQl0ZXh0IDo9IHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhvdXRwdXQpKQoJCWlmIHRleHQgPT0gIiIgewoJCQl0ZXh0ID0gZXJyLkVycm9yKCkKCQl9CgkJcmV0dXJuIGZtdC5FcnJvcmYoInN5c3RlbWN0bCAlcyDlpLHotKU6ICVzIiwgc3RyaW5ncy5Kb2luKGFyZ3MsICIgIiksIHRleHQpCgl9CglyZXR1cm4gbmlsCn0KCmZ1bmMgc2hlbGxRdW90ZVN5c3RlbWRWYWx1ZSh2YWx1ZSBzdHJpbmcpIHN0cmluZyB7CglyZXR1cm4gc3RyaW5ncy5SZXBsYWNlQWxsKHZhbHVlLCAiICIsICJcXHgyMCIpCn0KCmZ1bmMgZXhlY0NvbW1hbmQobmFtZSBzdHJpbmcsIGFyZ3MgLi4uc3RyaW5nKSAqZXhlYy5DbWQgewoJcmV0dXJuIGV4ZWMuQ29tbWFuZChuYW1lLCBhcmdzLi4uKQp9Cg==
+package main
+
+import (
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strings"
+
+	"daidai-panel/appboot"
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/service"
+)
+
+func runService(rt *cliRuntime, args []string) error {
+	if len(args) == 0 {
+		return fmt.Errorf("用法: ddp service <install|uninstall|start|stop|restart|status>")
+	}
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	switch args[0] {
+	case "install":
+		return runServiceInstall(rt)
+	case "uninstall":
+		return runServiceUninstall(rt)
+	case "start", "stop", "restart":
+		return service.ControlPanelService(args[0])
+	case "status":
+		return runServiceStatus(rt)
+	default:
+		return fmt.Errorf("未知 service 子命令: %s", args[0])
+	}
+}
+
+func runServiceInstall(rt *cliRuntime) error {
+	if runtime.GOOS != "linux" {
+		return fmt.Errorf("当前仅支持在 Linux 上安装 systemd 守护")
+	}
+	serviceName := service.ResolvePanelServiceName()
+	unitPath := service.PanelServiceUnitPath(serviceName)
+	configPath := appboot.ResolveConfigPath()
+	executablePath, err := os.Executable()
+	if err != nil {
+		return fmt.Errorf("识别当前程序路径失败: %w", err)
+	}
+	if config.C == nil {
+		return fmt.Errorf("当前配置未初始化")
+	}
+	webDir := strings.TrimSpace(config.C.Server.WebDir)
+	envWebDir := ""
+	if webDir != "" {
+		envWebDir = fmt.Sprintf("Environment=WEB_DIR=%s\n", shellQuoteSystemdValue(webDir))
+	}
+
+	unitContent := fmt.Sprintf(`[Unit]
+Description=DaiDai Panel Service
+After=network.target
+
+[Service]
+Type=simple
+WorkingDirectory=%s
+ExecStart=%s
+Restart=always
+RestartSec=3
+Environment=DAIDAI_CONFIG=%s
+Environment=DATA_DIR=%s
+Environment=SERVER_PORT=%d
+%s
+[Install]
+WantedBy=multi-user.target
+`,
+		filepath.Dir(executablePath),
+		executablePath,
+		configPath,
+		config.C.Data.Dir,
+		config.C.Server.Port,
+		envWebDir,
+	)
+
+	if err := os.WriteFile(unitPath, []byte(unitContent), 0o644); err != nil {
+		return fmt.Errorf("写入 systemd 服务文件失败: %w", err)
+	}
+	if err := model.SetConfig("panel_service_manager", service.PanelServiceManagerSystemd); err != nil {
+		return err
+	}
+	if err := model.SetConfig("panel_service_name", serviceName); err != nil {
+		return err
+	}
+	if err := model.SetConfig("panel_runtime_mode", service.PanelRuntimeModeFile); err != nil {
+		return err
+	}
+	if err := runSystemctl("daemon-reload"); err != nil {
+		return err
+	}
+	if err := runSystemctl("enable", serviceName); err != nil {
+		return err
+	}
+	fmt.Printf("systemd 服务文件已写入: %s\n", unitPath)
+	fmt.Printf("已启用服务: %s\n", serviceName)
+	return nil
+}
+
+func runServiceUninstall(rt *cliRuntime) error {
+	serviceName := service.ResolvePanelServiceName()
+	unitPath := service.PanelServiceUnitPath(serviceName)
+	_ = runSystemctl("disable", serviceName)
+	_ = runSystemctl("stop", serviceName)
+	if err := os.Remove(unitPath); err != nil && !os.IsNotExist(err) {
+		return fmt.Errorf("删除 systemd 服务文件失败: %w", err)
+	}
+	_ = runSystemctl("daemon-reload")
+	if err := model.SetConfig("panel_service_manager", service.PanelServiceManagerNone); err != nil {
+		return err
+	}
+	fmt.Printf("已移除 systemd 服务: %s\n", serviceName)
+	return nil
+}
+
+func runServiceStatus(rt *cliRuntime) error {
+	fmt.Printf("守护管理器: %s\n", service.ResolvePanelServiceManager())
+	fmt.Printf("服务名称: %s\n", service.ResolvePanelServiceName())
+	if service.ResolvePanelServiceManager() == service.PanelServiceManagerSystemd {
+		if err := runSystemctl("status", service.ResolvePanelServiceName()); err != nil {
+			return err
+		}
+	}
+	return nil
+}
+
+func runSystemctl(args ...string) error {
+	if !service.CanManagePanelService() && len(args) > 0 && args[0] != "daemon-reload" {
+		return fmt.Errorf("当前环境未启用 systemd 守护管理")
+	}
+	cmd := execCommand("systemctl", args...)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		text := strings.TrimSpace(string(output))
+		if text == "" {
+			text = err.Error()
+		}
+		return fmt.Errorf("systemctl %s 失败: %s", strings.Join(args, " "), text)
+	}
+	return nil
+}
+
+func shellQuoteSystemdValue(value string) string {
+	return strings.ReplaceAll(value, " ", "\\x20")
+}
+
+func execCommand(name string, args ...string) *exec.Cmd {
+	return exec.Command(name, args...)
+}

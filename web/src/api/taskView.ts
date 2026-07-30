@@ -1,1 +1,59 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGludGVyZmFjZSBUYXNrVmlld0ZpbHRlciB7CiAgZmllbGQ6IHN0cmluZwogIG9wZXJhdG9yOiBzdHJpbmcKICB2YWx1ZTogc3RyaW5nCn0KCmV4cG9ydCBpbnRlcmZhY2UgVGFza1ZpZXdTb3J0UnVsZSB7CiAgZmllbGQ6IHN0cmluZwogIGRpcmVjdGlvbjogJ2FzYycgfCAnZGVzYycKfQoKZXhwb3J0IGludGVyZmFjZSBUYXNrVmlldyB7CiAgaWQ6IG51bWJlcgogIG5hbWU6IHN0cmluZwogIGZpbHRlcnM6IHN0cmluZwogIHNvcnRfcnVsZXM6IHN0cmluZwogIGhpZGRlbjogYm9vbGVhbgogIHNvcnRfb3JkZXI6IG51bWJlcgogIGNyZWF0ZWRfYXQ6IHN0cmluZwogIHVwZGF0ZWRfYXQ6IHN0cmluZwp9CgpleHBvcnQgaW50ZXJmYWNlIFRhc2tWaWV3UmVvcmRlckl0ZW0gewogIGlkOiBudW1iZXIKICBzb3J0X29yZGVyOiBudW1iZXIKICBoaWRkZW4/OiBib29sZWFuCn0KCmV4cG9ydCBpbnRlcmZhY2UgVGFza1ZpZXdSZW9yZGVyUmVzcG9uc2UgewogIHVwZGF0ZWQ6IG51bWJlcgogIHZpZXdzOiBUYXNrVmlld1tdCn0KCmV4cG9ydCBjb25zdCB0YXNrVmlld0FwaSA9IHsKICBsaXN0KCkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvdGFza3Mvdmlld3MnKSBhcyBQcm9taXNlPFRhc2tWaWV3W10+CiAgfSwKCiAgY3JlYXRlKGRhdGE6IHsgbmFtZTogc3RyaW5nOyBmaWx0ZXJzOiBzdHJpbmc7IHNvcnRfcnVsZXM6IHN0cmluZyB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvdGFza3Mvdmlld3MnLCBkYXRhKSBhcyBQcm9taXNlPFRhc2tWaWV3PgogIH0sCgogIHVwZGF0ZSgKICAgIGlkOiBudW1iZXIsCiAgICBkYXRhOiB7IG5hbWU/OiBzdHJpbmc7IGZpbHRlcnM/OiBzdHJpbmc7IHNvcnRfcnVsZXM/OiBzdHJpbmc7IGhpZGRlbj86IGJvb2xlYW47IHNvcnRfb3JkZXI/OiBudW1iZXIgfQogICkgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KGAvdGFza3Mvdmlld3MvJHtpZH1gLCBkYXRhKSBhcyBQcm9taXNlPFRhc2tWaWV3PgogIH0sCgogIGRlbGV0ZShpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoYC90YXNrcy92aWV3cy8ke2lkfWApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICByZW9yZGVyKHZpZXdzOiBUYXNrVmlld1Jlb3JkZXJJdGVtW10pIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dCgnL3Rhc2tzL3ZpZXdzL3Jlb3JkZXInLCB7IHZpZXdzIH0pIGFzIFByb21pc2U8VGFza1ZpZXdSZW9yZGVyUmVzcG9uc2U+CiAgfQp9Cg==
+import request from './request'
+
+export interface TaskViewFilter {
+  field: string
+  operator: string
+  value: string
+}
+
+export interface TaskViewSortRule {
+  field: string
+  direction: 'asc' | 'desc'
+}
+
+export interface TaskView {
+  id: number
+  name: string
+  filters: string
+  sort_rules: string
+  hidden: boolean
+  sort_order: number
+  created_at: string
+  updated_at: string
+}
+
+export interface TaskViewReorderItem {
+  id: number
+  sort_order: number
+  hidden?: boolean
+}
+
+export interface TaskViewReorderResponse {
+  updated: number
+  views: TaskView[]
+}
+
+export const taskViewApi = {
+  list() {
+    return request.get('/tasks/views') as Promise<TaskView[]>
+  },
+
+  create(data: { name: string; filters: string; sort_rules: string }) {
+    return request.post('/tasks/views', data) as Promise<TaskView>
+  },
+
+  update(
+    id: number,
+    data: { name?: string; filters?: string; sort_rules?: string; hidden?: boolean; sort_order?: number }
+  ) {
+    return request.put(`/tasks/views/${id}`, data) as Promise<TaskView>
+  },
+
+  delete(id: number) {
+    return request.delete(`/tasks/views/${id}`) as Promise<{ message: string }>
+  },
+
+  reorder(views: TaskViewReorderItem[]) {
+    return request.put('/tasks/views/reorder', { views }) as Promise<TaskViewReorderResponse>
+  }
+}

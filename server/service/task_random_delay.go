@@ -1,1 +1,37 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgImRhaWRhaS1wYW5lbC9tb2RlbCIKCi8vIHNob3VsZEFwcGx5UmFuZG9tRGVsYXlGb3JUcmlnZ2VyIOWIpOaWreafkOasoeaJp+ihjOaYr+WQpuW6lOW9k+W6lOeUqOmaj+acuuW7tui/n+OAggovLyDpmo/mnLrlu7bov5/lj6rlr7nlrprml7YoY3Jvbinku7vliqHnlJ/mlYjvvJvmiYvliqjmiafooYzkuI7lvIDmnLroh6rlkK/kuIDlvovnq4vljbPov5DooYzjgIHot7Pov4flu7bov5/jgIIKZnVuYyBzaG91bGRBcHBseVJhbmRvbURlbGF5Rm9yVHJpZ2dlcih0cmlnZ2VyVHlwZSBzdHJpbmcpIGJvb2wgewoJcmV0dXJuIHRyaWdnZXJUeXBlID09IFRyaWdnZXJUeXBlQ3Jvbgp9CgpmdW5jIHJlc29sdmVUYXNrUmFuZG9tRGVsYXlTZWNvbmRzKHRhc2sgKm1vZGVsLlRhc2ssIHBsYW4gKkNvbW1hbmRFeGVjdXRpb25QbGFuKSBpbnQgewoJaWYgdGFzayA9PSBuaWwgewoJCXJldHVybiAwCgl9CglpZiBwbGFuICE9IG5pbCAmJiBwbGFuLlNraXBSYW5kb21EZWxheSB7CgkJcmV0dXJuIDAKCX0KCglpZiB0YXNrLlJhbmRvbURlbGF5U2Vjb25kcyAhPSBuaWwgewoJCWlmICp0YXNrLlJhbmRvbURlbGF5U2Vjb25kcyA8PSAwIHsKCQkJcmV0dXJuIDAKCQl9CgkJcmV0dXJuICp0YXNrLlJhbmRvbURlbGF5U2Vjb25kcwoJfQoKCXJhbmRvbURlbGF5IDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWdJbnQoInJhbmRvbV9kZWxheSIpCglpZiByYW5kb21EZWxheSA8PSAwIHsKCQlyZXR1cm4gMAoJfQoKCWRlbGF5RXh0cyA6PSBwYXJzZVRhc2tFeHRlbnNpb25zKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoInJhbmRvbV9kZWxheV9leHRlbnNpb25zIikpCglpZiAhc2hvdWxkQXBwbHlSYW5kb21EZWxheSh0YXNrLkNvbW1hbmQsIGRlbGF5RXh0cykgewoJCXJldHVybiAwCgl9CgoJcmV0dXJuIHJhbmRvbURlbGF5Cn0K
+package service
+
+import "daidai-panel/model"
+
+// shouldApplyRandomDelayForTrigger 判断某次执行是否应当应用随机延迟。
+// 随机延迟只对定时(cron)任务生效；手动执行与开机自启一律立即运行、跳过延迟。
+func shouldApplyRandomDelayForTrigger(triggerType string) bool {
+	return triggerType == TriggerTypeCron
+}
+
+func resolveTaskRandomDelaySeconds(task *model.Task, plan *CommandExecutionPlan) int {
+	if task == nil {
+		return 0
+	}
+	if plan != nil && plan.SkipRandomDelay {
+		return 0
+	}
+
+	if task.RandomDelaySeconds != nil {
+		if *task.RandomDelaySeconds <= 0 {
+			return 0
+		}
+		return *task.RandomDelaySeconds
+	}
+
+	randomDelay := model.GetRegisteredConfigInt("random_delay")
+	if randomDelay <= 0 {
+		return 0
+	}
+
+	delayExts := parseTaskExtensions(model.GetRegisteredConfig("random_delay_extensions"))
+	if !shouldApplyRandomDelay(task.Command, delayExts) {
+		return 0
+	}
+
+	return randomDelay
+}

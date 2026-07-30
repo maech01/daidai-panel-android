@@ -1,1 +1,599 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkic29ydCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCglwYW5lbGNyb24gImRhaWRhaS1wYW5lbC9wa2cvY3JvbiIKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCgkiZ29ybS5pby9nb3JtIgopCgp0eXBlIHRhc2tMaXN0RmlsdGVyIHN0cnVjdCB7CglGaWVsZCAgICBzdHJpbmcgYGpzb246ImZpZWxkImAKCU9wZXJhdG9yIHN0cmluZyBganNvbjoib3BlcmF0b3IiYAoJVmFsdWUgICAgc3RyaW5nIGBqc29uOiJ2YWx1ZSJgCn0KCnR5cGUgdGFza0xpc3RTb3J0UnVsZSBzdHJ1Y3QgewoJRmllbGQgICAgIHN0cmluZyBganNvbjoiZmllbGQiYAoJRGlyZWN0aW9uIHN0cmluZyBganNvbjoiZGlyZWN0aW9uImAKfQoKdHlwZSBwcmVwYXJlZFRhc2tMaXN0SXRlbSBzdHJ1Y3QgewoJdGFzayAgICAgICAgICAgICAgICAgICBtb2RlbC5UYXNrCglpdGVtICAgICAgICAgICAgICAgICAgIG1hcFtzdHJpbmddaW50ZXJmYWNle30KCWRpc3BsYXlMYWJlbHMgICAgICAgICAgW11zdHJpbmcKCXN1YnNjcmlwdGlvbkxhYmVscyAgICAgW11zdHJpbmcKCW5vdGlmaWNhdGlvbkNoYW5uZWxNYXAgbWFwW3VpbnRddGFza05vdGlmaWNhdGlvbkNoYW5uZWxJbmZvCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBMaXN0KGMgKmdpbi5Db250ZXh0KSB7CglrZXl3b3JkIDo9IGMuUXVlcnkoImtleXdvcmQiKQoJc3RhdHVzU3RyIDo9IGMuUXVlcnkoInN0YXR1cyIpCglsYWJlbCA6PSBjLlF1ZXJ5KCJsYWJlbCIpCglmaWx0ZXJzIDo9IHBhcnNlVGFza0xpc3RGaWx0ZXJzKGMuUXVlcnkoImZpbHRlcnMiKSkKCXNvcnRSdWxlcyA6PSBwYXJzZVRhc2tMaXN0U29ydFJ1bGVzKGMuUXVlcnkoInNvcnRfcnVsZXMiKSkKCXBhZ2UsIF8gOj0gc3RyY29udi5BdG9pKGMuRGVmYXVsdFF1ZXJ5KCJwYWdlIiwgIjEiKSkKCXBhZ2VTaXplLCBfIDo9IHN0cmNvbnYuQXRvaShjLkRlZmF1bHRRdWVyeSgicGFnZV9zaXplIiwgIjIwIikpCglhbGxSYXcgOj0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKGMuUXVlcnkoImFsbCIpKSkKCXdhbnRBbGwgOj0gYWxsUmF3ID09ICIxIiB8fCBhbGxSYXcgPT0gInRydWUiIHx8IGFsbFJhdyA9PSAieWVzIgoKCWlmIHBhZ2UgPCAxIHsKCQlwYWdlID0gMQoJfQoJaWYgcGFnZVNpemUgPCAxIHx8IHBhZ2VTaXplID4gMTAwIHsKCQlwYWdlU2l6ZSA9IDIwCgl9CgoJcXVlcnkgOj0gZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlRhc2t7fSkKCglpZiBrZXl3b3JkICE9ICIiIHsKCQlsaWtlIDo9ICIlIiArIGtleXdvcmQgKyAiJSIKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJuYW1lIExJS0UgPyBPUiBjb21tYW5kIExJS0UgPyIsIGxpa2UsIGxpa2UpCgl9CglpZiBzdGF0dXNTdHIgIT0gIiIgewoJCXN0YXR1cywgZXJyIDo9IHN0cmNvbnYuUGFyc2VGbG9hdChzdGF0dXNTdHIsIDY0KQoJCWlmIGVyciA9PSBuaWwgewoJCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJzdGF0dXMgPSA/Iiwgc3RhdHVzKQoJCX0KCX0KCWlmIGxhYmVsICE9ICIiIHsKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJsYWJlbHMgTElLRSA/IiwgIiUiK2xhYmVsKyIlIikKCX0KCglpZiBsZW4oZmlsdGVycykgPT0gMCAmJiBsZW4oc29ydFJ1bGVzKSA9PSAwIHsKCQl2YXIgdG90YWwgaW50NjQKCQlpZiBlcnIgOj0gcXVlcnkuQ291bnQoJnRvdGFsKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuWKoOi9veS7u+WKoeWIl+ihqOWksei0pSIpCgkJCXJldHVybgoJCX0KCgkJb3JkZXJlZCA6PSBhcHBseURlZmF1bHRUYXNrTGlzdE9yZGVyaW5nKHF1ZXJ5LlNlc3Npb24oJmdvcm0uU2Vzc2lvbnt9KSkKCQl2YXIgdGFza3MgW11tb2RlbC5UYXNrCgkJaWYgd2FudEFsbCB7CgkJCWNvbnN0IHRhc2tBbGxTYWZlTGltaXQgPSA1MDAwCgkJCWlmIGVyciA6PSBvcmRlcmVkLkxpbWl0KHRhc2tBbGxTYWZlTGltaXQpLkZpbmQoJnRhc2tzKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLliqDovb3ku7vliqHliJfooajlpLHotKUiKQoJCQkJcmV0dXJuCgkJCX0KCQkJcmVzcG9uZFRhc2tMaXN0KGMsIHRhc2tzLCB0b3RhbCwgMSwgbGVuKHRhc2tzKSkKCQkJcmV0dXJuCgkJfQoKCQlpZiBlcnIgOj0gb3JkZXJlZC4KCQkJT2Zmc2V0KChwYWdlIC0gMSkgKiBwYWdlU2l6ZSkuCgkJCUxpbWl0KHBhZ2VTaXplKS4KCQkJRmluZCgmdGFza3MpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJcmVzcG9uc2UuSW50ZXJuYWxFcnJvcihjLCAi5Yqg6L295Lu75Yqh5YiX6KGo5aSx6LSlIikKCQkJcmV0dXJuCgkJfQoKCQlyZXNwb25kVGFza0xpc3QoYywgdGFza3MsIHRvdGFsLCBwYWdlLCBwYWdlU2l6ZSkKCQlyZXR1cm4KCX0KCgl2YXIgdGFza3MgW11tb2RlbC5UYXNrCglpZiBlcnIgOj0gcXVlcnkuRmluZCgmdGFza3MpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLliqDovb3ku7vliqHliJfooajlpLHotKUiKQoJCXJldHVybgoJfQoKCXN1YnNjcmlwdGlvbk5hbWVzIDo9IGxvYWRTdWJzY3JpcHRpb25OYW1lTWFwKHRhc2tzKQoJbm90aWZpY2F0aW9uQ2hhbm5lbHMgOj0gbG9hZFRhc2tOb3RpZmljYXRpb25DaGFubmVsTWFwKHRhc2tzKQoJcHJlcGFyZWQgOj0gcHJlcGFyZVRhc2tMaXN0SXRlbXModGFza3MsIHN1YnNjcmlwdGlvbk5hbWVzLCBub3RpZmljYXRpb25DaGFubmVscykKCXByZXBhcmVkID0gZmlsdGVyUHJlcGFyZWRUYXNrTGlzdEl0ZW1zKHByZXBhcmVkLCBmaWx0ZXJzKQoJc29ydFByZXBhcmVkVGFza0xpc3RJdGVtcyhwcmVwYXJlZCwgc29ydFJ1bGVzKQoKCXRvdGFsIDo9IGludDY0KGxlbihwcmVwYXJlZCkpCglpZiB3YW50QWxsIHsKCQlyZXNwb25kUHJlcGFyZWRUYXNrTGlzdChjLCBwcmVwYXJlZCwgdG90YWwsIDEsIGxlbihwcmVwYXJlZCkpCgkJcmV0dXJuCgl9CgoJc3RhcnQgOj0gKHBhZ2UgLSAxKSAqIHBhZ2VTaXplCglpZiBzdGFydCA+IGxlbihwcmVwYXJlZCkgewoJCXN0YXJ0ID0gbGVuKHByZXBhcmVkKQoJfQoJZW5kIDo9IHN0YXJ0ICsgcGFnZVNpemUKCWlmIGVuZCA+IGxlbihwcmVwYXJlZCkgewoJCWVuZCA9IGxlbihwcmVwYXJlZCkKCX0KCXByZXBhcmVkID0gcHJlcGFyZWRbc3RhcnQ6ZW5kXQoKCXJlc3BvbmRQcmVwYXJlZFRhc2tMaXN0KGMsIHByZXBhcmVkLCB0b3RhbCwgcGFnZSwgcGFnZVNpemUpCn0KCmZ1bmMgYXBwbHlEZWZhdWx0VGFza0xpc3RPcmRlcmluZyhxdWVyeSAqZ29ybS5EQikgKmdvcm0uREIgewoJcmV0dXJuIHF1ZXJ5LgoJCS8vIOe9rumhtuaYr+eUqOaIt+S4u+WKqOiuvue9rueahOWxleekuuS8mOWFiOe6p++8jOemgeeUqOS7u+WKoeWmguaenOW3sue7j+e9rumhtu+8jOS5n+W/hemhu+e7p+e7reeVmeWcqOe9rumhtuWMuuOAggoJCU9yZGVyKCJpc19waW5uZWQgREVTQyIpLgoJCU9yZGVyKCJDQVNFIFdIRU4gc3RhdHVzIElOICgxLCAwLjUsIDIpIFRIRU4gMCBXSEVOIHN0YXR1cyA9IDAgVEhFTiAxIEVMU0UgMiBFTkQgQVNDIikuCgkJT3JkZXIoInNvcnRfb3JkZXIgQVNDIikuCgkJT3JkZXIoImNyZWF0ZWRfYXQgREVTQyIpLgoJCU9yZGVyKCJpZCBERVNDIikKfQoKZnVuYyByZXNwb25kVGFza0xpc3QoYyAqZ2luLkNvbnRleHQsIHRhc2tzIFtdbW9kZWwuVGFzaywgdG90YWwgaW50NjQsIHBhZ2UsIHBhZ2VTaXplIGludCkgewoJc3Vic2NyaXB0aW9uTmFtZXMgOj0gbG9hZFN1YnNjcmlwdGlvbk5hbWVNYXAodGFza3MpCglub3RpZmljYXRpb25DaGFubmVscyA6PSBsb2FkVGFza05vdGlmaWNhdGlvbkNoYW5uZWxNYXAodGFza3MpCglwcmVwYXJlZCA6PSBwcmVwYXJlVGFza0xpc3RJdGVtcyh0YXNrcywgc3Vic2NyaXB0aW9uTmFtZXMsIG5vdGlmaWNhdGlvbkNoYW5uZWxzKQoJcmVzcG9uZFByZXBhcmVkVGFza0xpc3QoYywgcHJlcGFyZWQsIHRvdGFsLCBwYWdlLCBwYWdlU2l6ZSkKfQoKZnVuYyByZXNwb25kUHJlcGFyZWRUYXNrTGlzdChjICpnaW4uQ29udGV4dCwgcHJlcGFyZWQgW11wcmVwYXJlZFRhc2tMaXN0SXRlbSwgdG90YWwgaW50NjQsIHBhZ2UsIHBhZ2VTaXplIGludCkgewoJZGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKHByZXBhcmVkKSkKCWZvciBpIDo9IHJhbmdlIHByZXBhcmVkIHsKCQlkYXRhW2ldID0gcHJlcGFyZWRbaV0uaXRlbQoJfQoKCXJlc3BvbnNlLlBhZ2luYXRlZChjLCBkYXRhLCB0b3RhbCwgcGFnZSwgcGFnZVNpemUpCn0KCmZ1bmMgcHJlcGFyZVRhc2tMaXN0SXRlbXModGFza3MgW11tb2RlbC5UYXNrLCBzdWJzY3JpcHRpb25OYW1lcyBtYXBbdWludF1zdHJpbmcsIG5vdGlmaWNhdGlvbkNoYW5uZWxzIG1hcFt1aW50XXRhc2tOb3RpZmljYXRpb25DaGFubmVsSW5mbykgW11wcmVwYXJlZFRhc2tMaXN0SXRlbSB7CglwcmVwYXJlZCA6PSBtYWtlKFtdcHJlcGFyZWRUYXNrTGlzdEl0ZW0sIDAsIGxlbih0YXNrcykpCglmb3IgXywgdGFzayA6PSByYW5nZSB0YXNrcyB7CgkJZGlzcGxheUxhYmVscywgc3Vic2NyaXB0aW9uTGFiZWxzIDo9IGJ1aWxkUHJlcGFyZWRUYXNrTGFiZWxzKHRhc2suR2V0TGFiZWxzKCksIHN1YnNjcmlwdGlvbk5hbWVzKQoKCQlpdGVtIDo9IHRhc2suVG9EaWN0KCkKCQlpdGVtWyJkaXNwbGF5X2xhYmVscyJdID0gZGlzcGxheUxhYmVscwoJCWlmIHRhc2suTm90aWZpY2F0aW9uQ2hhbm5lbElEICE9IG5pbCB7CgkJCWlmIGNoYW5uZWwsIGV4aXN0cyA6PSBub3RpZmljYXRpb25DaGFubmVsc1sqdGFzay5Ob3RpZmljYXRpb25DaGFubmVsSURdOyBleGlzdHMgewoJCQkJaXRlbVsibm90aWZpY2F0aW9uX2NoYW5uZWxfbmFtZSJdID0gY2hhbm5lbC5OYW1lCgkJCQlpdGVtWyJub3RpZmljYXRpb25fY2hhbm5lbF9lbmFibGVkIl0gPSBjaGFubmVsLkVuYWJsZWQKCQkJfQoJCX0KCQlpZiB0YXNrLlN0YXR1cyAhPSBtb2RlbC5UYXNrU3RhdHVzRGlzYWJsZWQgJiYgdGFzay5Vc2VzQ3JvblNjaGVkdWxlKCkgJiYgdGFzay5Dcm9uRXhwcmVzc2lvbiAhPSAiIiB7CgkJCW5leHRUaW1lcyA6PSBwYW5lbGNyb24uTmV4dFJ1blRpbWVzRm9yRXhwcmVzc2lvbnModGFzay5Dcm9uRXhwcmVzc2lvbiwgMSkKCQkJaWYgbGVuKG5leHRUaW1lcykgPiAwIHsKCQkJCWl0ZW1bIm5leHRfcnVuX2F0Il0gPSBuZXh0VGltZXNbMF0KCQkJfQoJCX0KCgkJcHJlcGFyZWQgPSBhcHBlbmQocHJlcGFyZWQsIHByZXBhcmVkVGFza0xpc3RJdGVtewoJCQl0YXNrOiAgICAgICAgICAgICAgIHRhc2ssCgkJCWl0ZW06ICAgICAgICAgICAgICAgaXRlbSwKCQkJZGlzcGxheUxhYmVsczogICAgICBkaXNwbGF5TGFiZWxzLAoJCQlzdWJzY3JpcHRpb25MYWJlbHM6IHN1YnNjcmlwdGlvbkxhYmVscywKCQl9KQoJfQoJcmV0dXJuIHByZXBhcmVkCn0KCmZ1bmMgdGFza1NvcnRHcm91cChzdGF0dXMgZmxvYXQ2NCkgaW50IHsKCXN3aXRjaCBzdGF0dXMgewoJY2FzZSBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwgbW9kZWwuVGFza1N0YXR1c1F1ZXVlZCwgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmc6CgkJcmV0dXJuIDAKCWNhc2UgbW9kZWwuVGFza1N0YXR1c0Rpc2FibGVkOgoJCXJldHVybiAxCglkZWZhdWx0OgoJCXJldHVybiAyCgl9Cn0KCmZ1bmMgZGVmYXVsdFRhc2tMaXN0TGVzcyhsZWZ0LCByaWdodCBtb2RlbC5UYXNrKSBib29sIHsKCS8vIOe9rumhtuS8mOWFiOe6p+imgemrmOS6juS7u+WKoeeKtuaAge+8jOmBv+WFjee9rumhtuS7u+WKoeS4gOemgeeUqOWwseiiq+aZrumAmuWQr+eUqOS7u+WKoeaMpOS4i+WOu+OAggoJaWYgbGVmdC5Jc1Bpbm5lZCAhPSByaWdodC5Jc1Bpbm5lZCB7CgkJcmV0dXJuIGxlZnQuSXNQaW5uZWQKCX0KCWxlZnRHcm91cCA6PSB0YXNrU29ydEdyb3VwKGxlZnQuU3RhdHVzKQoJcmlnaHRHcm91cCA6PSB0YXNrU29ydEdyb3VwKHJpZ2h0LlN0YXR1cykKCWlmIGxlZnRHcm91cCAhPSByaWdodEdyb3VwIHsKCQlyZXR1cm4gbGVmdEdyb3VwIDwgcmlnaHRHcm91cAoJfQoJaWYgbGVmdC5Tb3J0T3JkZXIgIT0gcmlnaHQuU29ydE9yZGVyIHsKCQlyZXR1cm4gbGVmdC5Tb3J0T3JkZXIgPCByaWdodC5Tb3J0T3JkZXIKCX0KCWlmICFsZWZ0LkNyZWF0ZWRBdC5FcXVhbChyaWdodC5DcmVhdGVkQXQpIHsKCQlyZXR1cm4gbGVmdC5DcmVhdGVkQXQuQWZ0ZXIocmlnaHQuQ3JlYXRlZEF0KQoJfQoJcmV0dXJuIGxlZnQuSUQgPiByaWdodC5JRAp9CgpmdW5jIGxvYWRTdWJzY3JpcHRpb25OYW1lTWFwKHRhc2tzIFtdbW9kZWwuVGFzaykgbWFwW3VpbnRdc3RyaW5nIHsKCXN1YnNjcmlwdGlvbklEcyA6PSBtYWtlKG1hcFt1aW50XXN0cnVjdHt9KQoJZm9yIF8sIHRhc2sgOj0gcmFuZ2UgdGFza3MgewoJCWZvciBfLCBsYWJlbCA6PSByYW5nZSB0YXNrLkdldExhYmVscygpIHsKCQkJaWYgIXN0cmluZ3MuSGFzUHJlZml4KGxhYmVsLCAic3Vic2NyaXB0aW9uOiIpIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJcmF3SUQgOj0gc3RyaW5ncy5UcmltU3BhY2Uoc3RyaW5ncy5UcmltUHJlZml4KGxhYmVsLCAic3Vic2NyaXB0aW9uOiIpKQoJCQlzdWJJRCwgZXJyIDo9IHN0cmNvbnYuUGFyc2VVaW50KHJhd0lELCAxMCwgMzIpCgkJCWlmIGVyciAhPSBuaWwgewoJCQkJY29udGludWUKCQkJfQoJCQlzdWJzY3JpcHRpb25JRHNbdWludChzdWJJRCldID0gc3RydWN0e317fQoJCX0KCX0KCglpZiBsZW4oc3Vic2NyaXB0aW9uSURzKSA9PSAwIHsKCQlyZXR1cm4gbWFwW3VpbnRdc3RyaW5ne30KCX0KCglpZHMgOj0gbWFrZShbXXVpbnQsIDAsIGxlbihzdWJzY3JpcHRpb25JRHMpKQoJZm9yIGlkIDo9IHJhbmdlIHN1YnNjcmlwdGlvbklEcyB7CgkJaWRzID0gYXBwZW5kKGlkcywgaWQpCgl9CgoJdmFyIHN1YnNjcmlwdGlvbnMgW11tb2RlbC5TdWJzY3JpcHRpb24KCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5TdWJzY3JpcHRpb257fSkuCgkJV2hlcmUoImlkIElOID8iLCBpZHMpLgoJCUZpbmQoJnN1YnNjcmlwdGlvbnMpCgoJcmVzdWx0IDo9IG1ha2UobWFwW3VpbnRdc3RyaW5nLCBsZW4oc3Vic2NyaXB0aW9ucykpCglmb3IgXywgc3ViIDo9IHJhbmdlIHN1YnNjcmlwdGlvbnMgewoJCXJlc3VsdFtzdWIuSURdID0gc3RyaW5ncy5UcmltU3BhY2Uoc3ViLk5hbWUpCgl9CglyZXR1cm4gcmVzdWx0Cn0KCmZ1bmMgYnVpbGRUYXNrRGlzcGxheUxhYmVscyhsYWJlbHMgW11zdHJpbmcsIHN1YnNjcmlwdGlvbk5hbWVzIG1hcFt1aW50XXN0cmluZykgW11zdHJpbmcgewoJZGlzcGxheUxhYmVscywgXyA6PSBidWlsZFByZXBhcmVkVGFza0xhYmVscyhsYWJlbHMsIHN1YnNjcmlwdGlvbk5hbWVzKQoJcmV0dXJuIGRpc3BsYXlMYWJlbHMKfQoKY29uc3QgdGFza0dyb3VwTGFiZWxQcmVmaXggPSAi5YiG57uEOiIKCmZ1bmMgYnVpbGRQcmVwYXJlZFRhc2tMYWJlbHMobGFiZWxzIFtdc3RyaW5nLCBzdWJzY3JpcHRpb25OYW1lcyBtYXBbdWludF1zdHJpbmcpIChbXXN0cmluZywgW11zdHJpbmcpIHsKCWRpc3BsYXlMYWJlbHMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGxhYmVscykpCglzdWJzY3JpcHRpb25MYWJlbHMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGxhYmVscykpCglzZWVuIDo9IG1ha2UobWFwW3N0cmluZ11zdHJ1Y3R7fSkKCXNlZW5TdWJzY3JpcHRpb25zIDo9IG1ha2UobWFwW3N0cmluZ11zdHJ1Y3R7fSkKCWdyb3VwTmFtZSA6PSAiIgoKCWFkZExhYmVsIDo9IGZ1bmMobGFiZWwgc3RyaW5nKSB7CgkJbGFiZWwgPSBzdHJpbmdzLlRyaW1TcGFjZShsYWJlbCkKCQlpZiBsYWJlbCA9PSAiIiB7CgkJCXJldHVybgoJCX0KCQlpZiBfLCBleGlzdHMgOj0gc2VlbltsYWJlbF07IGV4aXN0cyB7CgkJCXJldHVybgoJCX0KCQlzZWVuW2xhYmVsXSA9IHN0cnVjdHt9e30KCQlkaXNwbGF5TGFiZWxzID0gYXBwZW5kKGRpc3BsYXlMYWJlbHMsIGxhYmVsKQoJfQoJYWRkU3Vic2NyaXB0aW9uTGFiZWwgOj0gZnVuYyhsYWJlbCBzdHJpbmcpIHsKCQlsYWJlbCA9IHN0cmluZ3MuVHJpbVNwYWNlKGxhYmVsKQoJCWlmIGxhYmVsID09ICIiIHsKCQkJcmV0dXJuCgkJfQoJCWlmIF8sIGV4aXN0cyA6PSBzZWVuU3Vic2NyaXB0aW9uc1tsYWJlbF07IGV4aXN0cyB7CgkJCXJldHVybgoJCX0KCQlzZWVuU3Vic2NyaXB0aW9uc1tsYWJlbF0gPSBzdHJ1Y3R7fXt9CgkJc3Vic2NyaXB0aW9uTGFiZWxzID0gYXBwZW5kKHN1YnNjcmlwdGlvbkxhYmVscywgbGFiZWwpCgl9CgoJZm9yIF8sIGxhYmVsIDo9IHJhbmdlIGxhYmVscyB7CgkJdHJpbW1lZCA6PSBzdHJpbmdzLlRyaW1TcGFjZShsYWJlbCkKCQlpZiBzdHJpbmdzLkhhc1ByZWZpeCh0cmltbWVkLCB0YXNrR3JvdXBMYWJlbFByZWZpeCkgewoJCQlncm91cCA6PSBzdHJpbmdzLlRyaW1TcGFjZShzdHJpbmdzLlRyaW1QcmVmaXgodHJpbW1lZCwgdGFza0dyb3VwTGFiZWxQcmVmaXgpKQoJCQlpZiBncm91cCAhPSAiIiAmJiBncm91cE5hbWUgPT0gIiIgewoJCQkJZ3JvdXBOYW1lID0gZ3JvdXAKCQkJfQoJCQljb250aW51ZQoJCX0KCgkJaWYgIXN0cmluZ3MuSGFzUHJlZml4KGxhYmVsLCAic3Vic2NyaXB0aW9uOiIpIHsKCQkJYWRkTGFiZWwobGFiZWwpCgkJCWNvbnRpbnVlCgkJfQoKCQlyYXdJRCA6PSBzdHJpbmdzLlRyaW1TcGFjZShzdHJpbmdzLlRyaW1QcmVmaXgobGFiZWwsICJzdWJzY3JpcHRpb246IikpCgkJc3ViSUQsIGVyciA6PSBzdHJjb252LlBhcnNlVWludChyYXdJRCwgMTAsIDMyKQoJCWlmIGVyciAhPSBuaWwgewoJCQljb250aW51ZQoJCX0KCgkJaWYgc3ViTmFtZSA6PSBzdWJzY3JpcHRpb25OYW1lc1t1aW50KHN1YklEKV07IHN1Yk5hbWUgIT0gIiIgewoJCQlhZGRMYWJlbChzdWJOYW1lKQoJCQlhZGRTdWJzY3JpcHRpb25MYWJlbChzdWJOYW1lKQoJCQljb250aW51ZQoJCX0KCgkJYWRkTGFiZWwoIuiuoumYheS7u+WKoSIpCgkJYWRkU3Vic2NyaXB0aW9uTGFiZWwoIuiuoumYheS7u+WKoSIpCgl9CgoJaWYgZ3JvdXBOYW1lICE9ICIiIHsKCQlkaXNwbGF5TGFiZWxzID0gYXBwZW5kKFtdc3RyaW5ne2dyb3VwTmFtZX0sIGRpc3BsYXlMYWJlbHMuLi4pCgl9CgoJcmV0dXJuIGRpc3BsYXlMYWJlbHMsIHN1YnNjcmlwdGlvbkxhYmVscwp9CgpmdW5jIHBhcnNlVGFza0xpc3RGaWx0ZXJzKHJhdyBzdHJpbmcpIFtddGFza0xpc3RGaWx0ZXIgewoJcmF3ID0gc3RyaW5ncy5UcmltU3BhY2UocmF3KQoJaWYgcmF3ID09ICIiIHsKCQlyZXR1cm4gbmlsCgl9CgoJdmFyIGZpbHRlcnMgW110YXNrTGlzdEZpbHRlcgoJaWYgZXJyIDo9IGpzb24uVW5tYXJzaGFsKFtdYnl0ZShyYXcpLCAmZmlsdGVycyk7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwKCX0KCgl2YWxpZCA6PSBtYWtlKFtddGFza0xpc3RGaWx0ZXIsIDAsIGxlbihmaWx0ZXJzKSkKCWZvciBfLCBmaWx0ZXIgOj0gcmFuZ2UgZmlsdGVycyB7CgkJZmlsdGVyLkZpZWxkID0gc3RyaW5ncy5UcmltU3BhY2UoZmlsdGVyLkZpZWxkKQoJCWZpbHRlci5PcGVyYXRvciA9IHN0cmluZ3MuVHJpbVNwYWNlKGZpbHRlci5PcGVyYXRvcikKCQlmaWx0ZXIuVmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZShmaWx0ZXIuVmFsdWUpCgkJaWYgZmlsdGVyLkZpZWxkID09ICIiIHx8IGZpbHRlci5PcGVyYXRvciA9PSAiIiB8fCBmaWx0ZXIuVmFsdWUgPT0gIiIgewoJCQljb250aW51ZQoJCX0KCQl2YWxpZCA9IGFwcGVuZCh2YWxpZCwgZmlsdGVyKQoJfQoJcmV0dXJuIHZhbGlkCn0KCmZ1bmMgcGFyc2VUYXNrTGlzdFNvcnRSdWxlcyhyYXcgc3RyaW5nKSBbXXRhc2tMaXN0U29ydFJ1bGUgewoJcmF3ID0gc3RyaW5ncy5UcmltU3BhY2UocmF3KQoJaWYgcmF3ID09ICIiIHsKCQlyZXR1cm4gbmlsCgl9CgoJdmFyIHJ1bGVzIFtddGFza0xpc3RTb3J0UnVsZQoJaWYgZXJyIDo9IGpzb24uVW5tYXJzaGFsKFtdYnl0ZShyYXcpLCAmcnVsZXMpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJdmFsaWQgOj0gbWFrZShbXXRhc2tMaXN0U29ydFJ1bGUsIDAsIGxlbihydWxlcykpCglmb3IgXywgcnVsZSA6PSByYW5nZSBydWxlcyB7CgkJcnVsZS5GaWVsZCA9IHN0cmluZ3MuVHJpbVNwYWNlKHJ1bGUuRmllbGQpCgkJcnVsZS5EaXJlY3Rpb24gPSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UocnVsZS5EaXJlY3Rpb24pKQoJCWlmIHJ1bGUuRmllbGQgPT0gIiIgewoJCQljb250aW51ZQoJCX0KCQlpZiBydWxlLkRpcmVjdGlvbiAhPSAiZGVzYyIgewoJCQlydWxlLkRpcmVjdGlvbiA9ICJhc2MiCgkJfQoJCXZhbGlkID0gYXBwZW5kKHZhbGlkLCBydWxlKQoJfQoJcmV0dXJuIHZhbGlkCn0KCmZ1bmMgZmlsdGVyUHJlcGFyZWRUYXNrTGlzdEl0ZW1zKGl0ZW1zIFtdcHJlcGFyZWRUYXNrTGlzdEl0ZW0sIGZpbHRlcnMgW110YXNrTGlzdEZpbHRlcikgW11wcmVwYXJlZFRhc2tMaXN0SXRlbSB7CglpZiBsZW4oZmlsdGVycykgPT0gMCB7CgkJcmV0dXJuIGl0ZW1zCgl9CgoJZmlsdGVyZWQgOj0gbWFrZShbXXByZXBhcmVkVGFza0xpc3RJdGVtLCAwLCBsZW4oaXRlbXMpKQoJZm9yIF8sIGl0ZW0gOj0gcmFuZ2UgaXRlbXMgewoJCWlmIHByZXBhcmVkVGFza01hdGNoZXNGaWx0ZXJzKGl0ZW0sIGZpbHRlcnMpIHsKCQkJZmlsdGVyZWQgPSBhcHBlbmQoZmlsdGVyZWQsIGl0ZW0pCgkJfQoJfQoJcmV0dXJuIGZpbHRlcmVkCn0KCmZ1bmMgcHJlcGFyZWRUYXNrTWF0Y2hlc0ZpbHRlcnMoaXRlbSBwcmVwYXJlZFRhc2tMaXN0SXRlbSwgZmlsdGVycyBbXXRhc2tMaXN0RmlsdGVyKSBib29sIHsKCWZvciBfLCBmaWx0ZXIgOj0gcmFuZ2UgZmlsdGVycyB7CgkJdmFsdWVzIDo9IHByZXBhcmVkVGFza0ZpbHRlclZhbHVlcyhpdGVtLCBmaWx0ZXIuRmllbGQpCgkJaWYgIW1hdGNoVGFza0ZpbHRlclZhbHVlcyh2YWx1ZXMsIGZpbHRlci5PcGVyYXRvciwgZmlsdGVyLlZhbHVlKSB7CgkJCXJldHVybiBmYWxzZQoJCX0KCX0KCXJldHVybiB0cnVlCn0KCmZ1bmMgcHJlcGFyZWRUYXNrRmlsdGVyVmFsdWVzKGl0ZW0gcHJlcGFyZWRUYXNrTGlzdEl0ZW0sIGZpZWxkIHN0cmluZykgW11zdHJpbmcgewoJc3dpdGNoIGZpZWxkIHsKCWNhc2UgImNvbW1hbmQiOgoJCXJldHVybiBbXXN0cmluZ3tzdHJpbmdzLlRyaW1TcGFjZShpdGVtLnRhc2suQ29tbWFuZCl9CgljYXNlICJuYW1lIjoKCQlyZXR1cm4gW11zdHJpbmd7c3RyaW5ncy5UcmltU3BhY2UoaXRlbS50YXNrLk5hbWUpfQoJY2FzZSAiY3Jvbl9leHByZXNzaW9uIjoKCQlyYXcgOj0gc3RyaW5ncy5UcmltU3BhY2UoaXRlbS50YXNrLkNyb25FeHByZXNzaW9uKQoJCWlmIHJhdyA9PSAiIiB7CgkJCXJldHVybiBuaWwKCQl9CgkJdmFsdWVzIDo9IG1ha2UoW11zdHJpbmcsIDAsIDIpCgkJdmFsdWVzID0gYXBwZW5kKHZhbHVlcywgcmF3KQoJCWZvciBfLCBleHByZXNzaW9uIDo9IHJhbmdlIHNwbGl0VGFza0Nyb25FeHByZXNzaW9uTGluZXMocmF3KSB7CgkJCXZhbHVlcyA9IGFwcGVuZCh2YWx1ZXMsIGV4cHJlc3Npb24pCgkJfQoJCXJldHVybiB2YWx1ZXMKCWNhc2UgInN0YXR1cyI6CgkJcmV0dXJuIFtdc3RyaW5newoJCQlzdHJjb252LkZvcm1hdEZsb2F0KGl0ZW0udGFzay5TdGF0dXMsICdmJywgLTEsIDY0KSwKCQkJdGFza1N0YXR1c0ZpbHRlclRleHQoaXRlbS50YXNrLlN0YXR1cyksCgkJCXRhc2tTdGF0dXNGaWx0ZXJBbGlhcyhpdGVtLnRhc2suU3RhdHVzKSwKCQl9CgljYXNlICJsYWJlbHMiOgoJCXJldHVybiBpdGVtLmRpc3BsYXlMYWJlbHMKCWNhc2UgInN1YnNjcmlwdGlvbiI6CgkJcmV0dXJuIGl0ZW0uc3Vic2NyaXB0aW9uTGFiZWxzCglkZWZhdWx0OgoJCXJldHVybiBuaWwKCX0KfQoKZnVuYyBtYXRjaFRhc2tGaWx0ZXJWYWx1ZXModmFsdWVzIFtdc3RyaW5nLCBvcGVyYXRvciwgdGFyZ2V0IHN0cmluZykgYm9vbCB7Cgl0YXJnZXQgPSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UodGFyZ2V0KSkKCWlmIHRhcmdldCA9PSAiIiB7CgkJcmV0dXJuIHRydWUKCX0KCglub3JtYWxpemVkIDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbih2YWx1ZXMpKQoJZm9yIF8sIHZhbHVlIDo9IHJhbmdlIHZhbHVlcyB7CgkJdmFsdWUgPSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpKQoJCWlmIHZhbHVlICE9ICIiIHsKCQkJbm9ybWFsaXplZCA9IGFwcGVuZChub3JtYWxpemVkLCB2YWx1ZSkKCQl9Cgl9CgoJc3dpdGNoIG9wZXJhdG9yIHsKCWNhc2UgImNvbnRhaW5zIjoKCQlmb3IgXywgdmFsdWUgOj0gcmFuZ2Ugbm9ybWFsaXplZCB7CgkJCWlmIHN0cmluZ3MuQ29udGFpbnModmFsdWUsIHRhcmdldCkgewoJCQkJcmV0dXJuIHRydWUKCQkJfQoJCX0KCQlyZXR1cm4gZmFsc2UKCWNhc2UgIm5vdF9jb250YWlucyI6CgkJZm9yIF8sIHZhbHVlIDo9IHJhbmdlIG5vcm1hbGl6ZWQgewoJCQlpZiBzdHJpbmdzLkNvbnRhaW5zKHZhbHVlLCB0YXJnZXQpIHsKCQkJCXJldHVybiBmYWxzZQoJCQl9CgkJfQoJCXJldHVybiB0cnVlCgljYXNlICJlcXVhbHMiOgoJCWZvciBfLCB2YWx1ZSA6PSByYW5nZSBub3JtYWxpemVkIHsKCQkJaWYgdmFsdWUgPT0gdGFyZ2V0IHsKCQkJCXJldHVybiB0cnVlCgkJCX0KCQl9CgkJcmV0dXJuIGZhbHNlCgljYXNlICJub3RfZXF1YWxzIjoKCQlmb3IgXywgdmFsdWUgOj0gcmFuZ2Ugbm9ybWFsaXplZCB7CgkJCWlmIHZhbHVlID09IHRhcmdldCB7CgkJCQlyZXR1cm4gZmFsc2UKCQkJfQoJCX0KCQlyZXR1cm4gdHJ1ZQoJZGVmYXVsdDoKCQlyZXR1cm4gdHJ1ZQoJfQp9CgpmdW5jIHRhc2tTdGF0dXNGaWx0ZXJUZXh0KHN0YXR1cyBmbG9hdDY0KSBzdHJpbmcgewoJc3dpdGNoIHN0YXR1cyB7CgljYXNlIG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZDoKCQlyZXR1cm4gIuemgeeUqOS4rSIKCWNhc2UgbW9kZWwuVGFza1N0YXR1c1F1ZXVlZDoKCQlyZXR1cm4gIuaOkumYn+S4rSIKCWNhc2UgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmc6CgkJcmV0dXJuICLov5DooYzkuK0iCglkZWZhdWx0OgoJCXJldHVybiAi56m66Zey5LitIgoJfQp9CgpmdW5jIHRhc2tTdGF0dXNGaWx0ZXJBbGlhcyhzdGF0dXMgZmxvYXQ2NCkgc3RyaW5nIHsKCXN3aXRjaCBzdGF0dXMgewoJY2FzZSBtb2RlbC5UYXNrU3RhdHVzRGlzYWJsZWQ6CgkJcmV0dXJuICLlt7LnpoHnlKgiCgljYXNlIG1vZGVsLlRhc2tTdGF0dXNRdWV1ZWQ6CgkJcmV0dXJuICLmjpLpmJ/kuK0iCgljYXNlIG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nOgoJCXJldHVybiAi6L+Q6KGM5LitIgoJZGVmYXVsdDoKCQlyZXR1cm4gIuW3suWQr+eUqCIKCX0KfQoKZnVuYyBzb3J0UHJlcGFyZWRUYXNrTGlzdEl0ZW1zKGl0ZW1zIFtdcHJlcGFyZWRUYXNrTGlzdEl0ZW0sIHNvcnRSdWxlcyBbXXRhc2tMaXN0U29ydFJ1bGUpIHsKCXNvcnQuU2xpY2VTdGFibGUoaXRlbXMsIGZ1bmMoaSwgaiBpbnQpIGJvb2wgewoJCWxlZnQgOj0gaXRlbXNbaV0KCQlyaWdodCA6PSBpdGVtc1tqXQoKCQlmb3IgXywgcnVsZSA6PSByYW5nZSBzb3J0UnVsZXMgewoJCQljb21wYXJpc29uIDo9IGNvbXBhcmVQcmVwYXJlZFRhc2tCeVJ1bGUobGVmdCwgcmlnaHQsIHJ1bGUpCgkJCWlmIGNvbXBhcmlzb24gPT0gMCB7CgkJCQljb250aW51ZQoJCQl9CgkJCWlmIHJ1bGUuRGlyZWN0aW9uID09ICJkZXNjIiB7CgkJCQlyZXR1cm4gY29tcGFyaXNvbiA+IDAKCQkJfQoJCQlyZXR1cm4gY29tcGFyaXNvbiA8IDAKCQl9CgoJCXJldHVybiBkZWZhdWx0VGFza0xpc3RMZXNzKGxlZnQudGFzaywgcmlnaHQudGFzaykKCX0pCn0KCmZ1bmMgY29tcGFyZVByZXBhcmVkVGFza0J5UnVsZShsZWZ0LCByaWdodCBwcmVwYXJlZFRhc2tMaXN0SXRlbSwgcnVsZSB0YXNrTGlzdFNvcnRSdWxlKSBpbnQgewoJc3dpdGNoIHJ1bGUuRmllbGQgewoJY2FzZSAibmFtZSI6CgkJcmV0dXJuIHN0cmluZ3MuQ29tcGFyZShzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UobGVmdC50YXNrLk5hbWUpKSwgc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHJpZ2h0LnRhc2suTmFtZSkpKQoJY2FzZSAiY29tbWFuZCI6CgkJcmV0dXJuIHN0cmluZ3MuQ29tcGFyZShzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UobGVmdC50YXNrLkNvbW1hbmQpKSwgc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHJpZ2h0LnRhc2suQ29tbWFuZCkpKQoJY2FzZSAiY3Jvbl9leHByZXNzaW9uIjoKCQlyZXR1cm4gc3RyaW5ncy5Db21wYXJlKHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShsZWZ0LnRhc2suQ3JvbkV4cHJlc3Npb24pKSwgc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHJpZ2h0LnRhc2suQ3JvbkV4cHJlc3Npb24pKSkKCWNhc2UgInN0YXR1cyI6CgkJcmV0dXJuIGNvbXBhcmVGbG9hdDY0KGxlZnQudGFzay5TdGF0dXMsIHJpZ2h0LnRhc2suU3RhdHVzKQoJY2FzZSAibGFiZWxzIjoKCQlyZXR1cm4gc3RyaW5ncy5Db21wYXJlKHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLkpvaW4obGVmdC5kaXNwbGF5TGFiZWxzLCAiLCIpKSwgc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuSm9pbihyaWdodC5kaXNwbGF5TGFiZWxzLCAiLCIpKSkKCWNhc2UgInN1YnNjcmlwdGlvbiI6CgkJcmV0dXJuIHN0cmluZ3MuQ29tcGFyZShzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5Kb2luKGxlZnQuc3Vic2NyaXB0aW9uTGFiZWxzLCAiLCIpKSwgc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuSm9pbihyaWdodC5zdWJzY3JpcHRpb25MYWJlbHMsICIsIikpKQoJY2FzZSAiY3JlYXRlZF9hdCI6CgkJLy8g5oyJ5Yib5bu65pe26Ze05q+U6L6D77ya5pep5LqO5Li6IC0x44CB5pma5LqO5Li6IDHvvIznm7jnrYnov5Tlm54gMO+8jGRpcmVjdGlvbiDnlLHkuIrlsYIgc29ydFByZXBhcmVkVGFza0xpc3RJdGVtcyDnv7vovawKCQlpZiBsZWZ0LnRhc2suQ3JlYXRlZEF0LkJlZm9yZShyaWdodC50YXNrLkNyZWF0ZWRBdCkgewoJCQlyZXR1cm4gLTEKCQl9CgkJaWYgbGVmdC50YXNrLkNyZWF0ZWRBdC5BZnRlcihyaWdodC50YXNrLkNyZWF0ZWRBdCkgewoJCQlyZXR1cm4gMQoJCX0KCQlyZXR1cm4gMAoJZGVmYXVsdDoKCQlyZXR1cm4gMAoJfQp9CgpmdW5jIGNvbXBhcmVGbG9hdDY0KGxlZnQsIHJpZ2h0IGZsb2F0NjQpIGludCB7Cglzd2l0Y2ggewoJY2FzZSBsZWZ0IDwgcmlnaHQ6CgkJcmV0dXJuIC0xCgljYXNlIGxlZnQgPiByaWdodDoKCQlyZXR1cm4gMQoJZGVmYXVsdDoKCQlyZXR1cm4gMAoJfQp9CgpmdW5jIHNwbGl0VGFza0Nyb25FeHByZXNzaW9uTGluZXMocmF3IHN0cmluZykgW11zdHJpbmcgewoJbGluZXMgOj0gc3RyaW5ncy5GaWVsZHNGdW5jKHJhdywgZnVuYyhyIHJ1bmUpIGJvb2wgewoJCXJldHVybiByID09ICdcbicgfHwgciA9PSAnXHInCgl9KQoJcmVzdWx0IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihsaW5lcykpCglmb3IgXywgbGluZSA6PSByYW5nZSBsaW5lcyB7CgkJbGluZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCgkJaWYgbGluZSAhPSAiIiB7CgkJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIGxpbmUpCgkJfQoJfQoJcmV0dXJuIHJlc3VsdAp9CgpmdW5jIChoICpUYXNrSGFuZGxlcikgU3RhdHMoYyAqZ2luLkNvbnRleHQpIHsKCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCglkYXlzU3RyIDo9IGMuRGVmYXVsdFF1ZXJ5KCJkYXlzIiwgIjciKQoJZGF5cywgXyA6PSBzdHJjb252LkF0b2koZGF5c1N0cikKCWlmIGRheXMgPCAxIHsKCQlkYXlzID0gNwoJfQoKCXN0YXRzIDo9IHNlcnZpY2UuR2V0VGFza1N0YXRzKHVpbnQodGFza0lEKSwgZGF5cykKCWlmIHN0YXRzID09IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuS7u+WKoeS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CglyZXNwb25zZS5TdWNjZXNzKGMsIHN0YXRzKQp9Cg==
+package handler
+
+import (
+	"encoding/json"
+	"sort"
+	"strconv"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	panelcron "daidai-panel/pkg/cron"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
+)
+
+type taskListFilter struct {
+	Field    string `json:"field"`
+	Operator string `json:"operator"`
+	Value    string `json:"value"`
+}
+
+type taskListSortRule struct {
+	Field     string `json:"field"`
+	Direction string `json:"direction"`
+}
+
+type preparedTaskListItem struct {
+	task                   model.Task
+	item                   map[string]interface{}
+	displayLabels          []string
+	subscriptionLabels     []string
+	notificationChannelMap map[uint]taskNotificationChannelInfo
+}
+
+func (h *TaskHandler) List(c *gin.Context) {
+	keyword := c.Query("keyword")
+	statusStr := c.Query("status")
+	label := c.Query("label")
+	filters := parseTaskListFilters(c.Query("filters"))
+	sortRules := parseTaskListSortRules(c.Query("sort_rules"))
+	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
+	pageSize, _ := strconv.Atoi(c.DefaultQuery("page_size", "20"))
+	allRaw := strings.ToLower(strings.TrimSpace(c.Query("all")))
+	wantAll := allRaw == "1" || allRaw == "true" || allRaw == "yes"
+
+	if page < 1 {
+		page = 1
+	}
+	if pageSize < 1 || pageSize > 100 {
+		pageSize = 20
+	}
+
+	query := database.DB.Model(&model.Task{})
+
+	if keyword != "" {
+		like := "%" + keyword + "%"
+		query = query.Where("name LIKE ? OR command LIKE ?", like, like)
+	}
+	if statusStr != "" {
+		status, err := strconv.ParseFloat(statusStr, 64)
+		if err == nil {
+			query = query.Where("status = ?", status)
+		}
+	}
+	if label != "" {
+		query = query.Where("labels LIKE ?", "%"+label+"%")
+	}
+
+	if len(filters) == 0 && len(sortRules) == 0 {
+		var total int64
+		if err := query.Count(&total).Error; err != nil {
+			response.InternalError(c, "加载任务列表失败")
+			return
+		}
+
+		ordered := applyDefaultTaskListOrdering(query.Session(&gorm.Session{}))
+		var tasks []model.Task
+		if wantAll {
+			const taskAllSafeLimit = 5000
+			if err := ordered.Limit(taskAllSafeLimit).Find(&tasks).Error; err != nil {
+				response.InternalError(c, "加载任务列表失败")
+				return
+			}
+			respondTaskList(c, tasks, total, 1, len(tasks))
+			return
+		}
+
+		if err := ordered.
+			Offset((page - 1) * pageSize).
+			Limit(pageSize).
+			Find(&tasks).Error; err != nil {
+			response.InternalError(c, "加载任务列表失败")
+			return
+		}
+
+		respondTaskList(c, tasks, total, page, pageSize)
+		return
+	}
+
+	var tasks []model.Task
+	if err := query.Find(&tasks).Error; err != nil {
+		response.InternalError(c, "加载任务列表失败")
+		return
+	}
+
+	subscriptionNames := loadSubscriptionNameMap(tasks)
+	notificationChannels := loadTaskNotificationChannelMap(tasks)
+	prepared := prepareTaskListItems(tasks, subscriptionNames, notificationChannels)
+	prepared = filterPreparedTaskListItems(prepared, filters)
+	sortPreparedTaskListItems(prepared, sortRules)
+
+	total := int64(len(prepared))
+	if wantAll {
+		respondPreparedTaskList(c, prepared, total, 1, len(prepared))
+		return
+	}
+
+	start := (page - 1) * pageSize
+	if start > len(prepared) {
+		start = len(prepared)
+	}
+	end := start + pageSize
+	if end > len(prepared) {
+		end = len(prepared)
+	}
+	prepared = prepared[start:end]
+
+	respondPreparedTaskList(c, prepared, total, page, pageSize)
+}
+
+func applyDefaultTaskListOrdering(query *gorm.DB) *gorm.DB {
+	return query.
+		// 置顶是用户主动设置的展示优先级，禁用任务如果已经置顶，也必须继续留在置顶区。
+		Order("is_pinned DESC").
+		Order("CASE WHEN status IN (1, 0.5, 2) THEN 0 WHEN status = 0 THEN 1 ELSE 2 END ASC").
+		Order("sort_order ASC").
+		Order("created_at DESC").
+		Order("id DESC")
+}
+
+func respondTaskList(c *gin.Context, tasks []model.Task, total int64, page, pageSize int) {
+	subscriptionNames := loadSubscriptionNameMap(tasks)
+	notificationChannels := loadTaskNotificationChannelMap(tasks)
+	prepared := prepareTaskListItems(tasks, subscriptionNames, notificationChannels)
+	respondPreparedTaskList(c, prepared, total, page, pageSize)
+}
+
+func respondPreparedTaskList(c *gin.Context, prepared []preparedTaskListItem, total int64, page, pageSize int) {
+	data := make([]map[string]interface{}, len(prepared))
+	for i := range prepared {
+		data[i] = prepared[i].item
+	}
+
+	response.Paginated(c, data, total, page, pageSize)
+}
+
+func prepareTaskListItems(tasks []model.Task, subscriptionNames map[uint]string, notificationChannels map[uint]taskNotificationChannelInfo) []preparedTaskListItem {
+	prepared := make([]preparedTaskListItem, 0, len(tasks))
+	for _, task := range tasks {
+		displayLabels, subscriptionLabels := buildPreparedTaskLabels(task.GetLabels(), subscriptionNames)
+
+		item := task.ToDict()
+		item["display_labels"] = displayLabels
+		if task.NotificationChannelID != nil {
+			if channel, exists := notificationChannels[*task.NotificationChannelID]; exists {
+				item["notification_channel_name"] = channel.Name
+				item["notification_channel_enabled"] = channel.Enabled
+			}
+		}
+		if task.Status != model.TaskStatusDisabled && task.UsesCronSchedule() && task.CronExpression != "" {
+			nextTimes := panelcron.NextRunTimesForExpressions(task.CronExpression, 1)
+			if len(nextTimes) > 0 {
+				item["next_run_at"] = nextTimes[0]
+			}
+		}
+
+		prepared = append(prepared, preparedTaskListItem{
+			task:               task,
+			item:               item,
+			displayLabels:      displayLabels,
+			subscriptionLabels: subscriptionLabels,
+		})
+	}
+	return prepared
+}
+
+func taskSortGroup(status float64) int {
+	switch status {
+	case model.TaskStatusEnabled, model.TaskStatusQueued, model.TaskStatusRunning:
+		return 0
+	case model.TaskStatusDisabled:
+		return 1
+	default:
+		return 2
+	}
+}
+
+func defaultTaskListLess(left, right model.Task) bool {
+	// 置顶优先级要高于任务状态，避免置顶任务一禁用就被普通启用任务挤下去。
+	if left.IsPinned != right.IsPinned {
+		return left.IsPinned
+	}
+	leftGroup := taskSortGroup(left.Status)
+	rightGroup := taskSortGroup(right.Status)
+	if leftGroup != rightGroup {
+		return leftGroup < rightGroup
+	}
+	if left.SortOrder != right.SortOrder {
+		return left.SortOrder < right.SortOrder
+	}
+	if !left.CreatedAt.Equal(right.CreatedAt) {
+		return left.CreatedAt.After(right.CreatedAt)
+	}
+	return left.ID > right.ID
+}
+
+func loadSubscriptionNameMap(tasks []model.Task) map[uint]string {
+	subscriptionIDs := make(map[uint]struct{})
+	for _, task := range tasks {
+		for _, label := range task.GetLabels() {
+			if !strings.HasPrefix(label, "subscription:") {
+				continue
+			}
+			rawID := strings.TrimSpace(strings.TrimPrefix(label, "subscription:"))
+			subID, err := strconv.ParseUint(rawID, 10, 32)
+			if err != nil {
+				continue
+			}
+			subscriptionIDs[uint(subID)] = struct{}{}
+		}
+	}
+
+	if len(subscriptionIDs) == 0 {
+		return map[uint]string{}
+	}
+
+	ids := make([]uint, 0, len(subscriptionIDs))
+	for id := range subscriptionIDs {
+		ids = append(ids, id)
+	}
+
+	var subscriptions []model.Subscription
+	database.DB.Model(&model.Subscription{}).
+		Where("id IN ?", ids).
+		Find(&subscriptions)
+
+	result := make(map[uint]string, len(subscriptions))
+	for _, sub := range subscriptions {
+		result[sub.ID] = strings.TrimSpace(sub.Name)
+	}
+	return result
+}
+
+func buildTaskDisplayLabels(labels []string, subscriptionNames map[uint]string) []string {
+	displayLabels, _ := buildPreparedTaskLabels(labels, subscriptionNames)
+	return displayLabels
+}
+
+const taskGroupLabelPrefix = "分组:"
+
+func buildPreparedTaskLabels(labels []string, subscriptionNames map[uint]string) ([]string, []string) {
+	displayLabels := make([]string, 0, len(labels))
+	subscriptionLabels := make([]string, 0, len(labels))
+	seen := make(map[string]struct{})
+	seenSubscriptions := make(map[string]struct{})
+	groupName := ""
+
+	addLabel := func(label string) {
+		label = strings.TrimSpace(label)
+		if label == "" {
+			return
+		}
+		if _, exists := seen[label]; exists {
+			return
+		}
+		seen[label] = struct{}{}
+		displayLabels = append(displayLabels, label)
+	}
+	addSubscriptionLabel := func(label string) {
+		label = strings.TrimSpace(label)
+		if label == "" {
+			return
+		}
+		if _, exists := seenSubscriptions[label]; exists {
+			return
+		}
+		seenSubscriptions[label] = struct{}{}
+		subscriptionLabels = append(subscriptionLabels, label)
+	}
+
+	for _, label := range labels {
+		trimmed := strings.TrimSpace(label)
+		if strings.HasPrefix(trimmed, taskGroupLabelPrefix) {
+			group := strings.TrimSpace(strings.TrimPrefix(trimmed, taskGroupLabelPrefix))
+			if group != "" && groupName == "" {
+				groupName = group
+			}
+			continue
+		}
+
+		if !strings.HasPrefix(label, "subscription:") {
+			addLabel(label)
+			continue
+		}
+
+		rawID := strings.TrimSpace(strings.TrimPrefix(label, "subscription:"))
+		subID, err := strconv.ParseUint(rawID, 10, 32)
+		if err != nil {
+			continue
+		}
+
+		if subName := subscriptionNames[uint(subID)]; subName != "" {
+			addLabel(subName)
+			addSubscriptionLabel(subName)
+			continue
+		}
+
+		addLabel("订阅任务")
+		addSubscriptionLabel("订阅任务")
+	}
+
+	if groupName != "" {
+		displayLabels = append([]string{groupName}, displayLabels...)
+	}
+
+	return displayLabels, subscriptionLabels
+}
+
+func parseTaskListFilters(raw string) []taskListFilter {
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return nil
+	}
+
+	var filters []taskListFilter
+	if err := json.Unmarshal([]byte(raw), &filters); err != nil {
+		return nil
+	}
+
+	valid := make([]taskListFilter, 0, len(filters))
+	for _, filter := range filters {
+		filter.Field = strings.TrimSpace(filter.Field)
+		filter.Operator = strings.TrimSpace(filter.Operator)
+		filter.Value = strings.TrimSpace(filter.Value)
+		if filter.Field == "" || filter.Operator == "" || filter.Value == "" {
+			continue
+		}
+		valid = append(valid, filter)
+	}
+	return valid
+}
+
+func parseTaskListSortRules(raw string) []taskListSortRule {
+	raw = strings.TrimSpace(raw)
+	if raw == "" {
+		return nil
+	}
+
+	var rules []taskListSortRule
+	if err := json.Unmarshal([]byte(raw), &rules); err != nil {
+		return nil
+	}
+
+	valid := make([]taskListSortRule, 0, len(rules))
+	for _, rule := range rules {
+		rule.Field = strings.TrimSpace(rule.Field)
+		rule.Direction = strings.ToLower(strings.TrimSpace(rule.Direction))
+		if rule.Field == "" {
+			continue
+		}
+		if rule.Direction != "desc" {
+			rule.Direction = "asc"
+		}
+		valid = append(valid, rule)
+	}
+	return valid
+}
+
+func filterPreparedTaskListItems(items []preparedTaskListItem, filters []taskListFilter) []preparedTaskListItem {
+	if len(filters) == 0 {
+		return items
+	}
+
+	filtered := make([]preparedTaskListItem, 0, len(items))
+	for _, item := range items {
+		if preparedTaskMatchesFilters(item, filters) {
+			filtered = append(filtered, item)
+		}
+	}
+	return filtered
+}
+
+func preparedTaskMatchesFilters(item preparedTaskListItem, filters []taskListFilter) bool {
+	for _, filter := range filters {
+		values := preparedTaskFilterValues(item, filter.Field)
+		if !matchTaskFilterValues(values, filter.Operator, filter.Value) {
+			return false
+		}
+	}
+	return true
+}
+
+func preparedTaskFilterValues(item preparedTaskListItem, field string) []string {
+	switch field {
+	case "command":
+		return []string{strings.TrimSpace(item.task.Command)}
+	case "name":
+		return []string{strings.TrimSpace(item.task.Name)}
+	case "cron_expression":
+		raw := strings.TrimSpace(item.task.CronExpression)
+		if raw == "" {
+			return nil
+		}
+		values := make([]string, 0, 2)
+		values = append(values, raw)
+		for _, expression := range splitTaskCronExpressionLines(raw) {
+			values = append(values, expression)
+		}
+		return values
+	case "status":
+		return []string{
+			strconv.FormatFloat(item.task.Status, 'f', -1, 64),
+			taskStatusFilterText(item.task.Status),
+			taskStatusFilterAlias(item.task.Status),
+		}
+	case "labels":
+		return item.displayLabels
+	case "subscription":
+		return item.subscriptionLabels
+	default:
+		return nil
+	}
+}
+
+func matchTaskFilterValues(values []string, operator, target string) bool {
+	target = strings.ToLower(strings.TrimSpace(target))
+	if target == "" {
+		return true
+	}
+
+	normalized := make([]string, 0, len(values))
+	for _, value := range values {
+		value = strings.ToLower(strings.TrimSpace(value))
+		if value != "" {
+			normalized = append(normalized, value)
+		}
+	}
+
+	switch operator {
+	case "contains":
+		for _, value := range normalized {
+			if strings.Contains(value, target) {
+				return true
+			}
+		}
+		return false
+	case "not_contains":
+		for _, value := range normalized {
+			if strings.Contains(value, target) {
+				return false
+			}
+		}
+		return true
+	case "equals":
+		for _, value := range normalized {
+			if value == target {
+				return true
+			}
+		}
+		return false
+	case "not_equals":
+		for _, value := range normalized {
+			if value == target {
+				return false
+			}
+		}
+		return true
+	default:
+		return true
+	}
+}
+
+func taskStatusFilterText(status float64) string {
+	switch status {
+	case model.TaskStatusDisabled:
+		return "禁用中"
+	case model.TaskStatusQueued:
+		return "排队中"
+	case model.TaskStatusRunning:
+		return "运行中"
+	default:
+		return "空闲中"
+	}
+}
+
+func taskStatusFilterAlias(status float64) string {
+	switch status {
+	case model.TaskStatusDisabled:
+		return "已禁用"
+	case model.TaskStatusQueued:
+		return "排队中"
+	case model.TaskStatusRunning:
+		return "运行中"
+	default:
+		return "已启用"
+	}
+}
+
+func sortPreparedTaskListItems(items []preparedTaskListItem, sortRules []taskListSortRule) {
+	sort.SliceStable(items, func(i, j int) bool {
+		left := items[i]
+		right := items[j]
+
+		for _, rule := range sortRules {
+			comparison := comparePreparedTaskByRule(left, right, rule)
+			if comparison == 0 {
+				continue
+			}
+			if rule.Direction == "desc" {
+				return comparison > 0
+			}
+			return comparison < 0
+		}
+
+		return defaultTaskListLess(left.task, right.task)
+	})
+}
+
+func comparePreparedTaskByRule(left, right preparedTaskListItem, rule taskListSortRule) int {
+	switch rule.Field {
+	case "name":
+		return strings.Compare(strings.ToLower(strings.TrimSpace(left.task.Name)), strings.ToLower(strings.TrimSpace(right.task.Name)))
+	case "command":
+		return strings.Compare(strings.ToLower(strings.TrimSpace(left.task.Command)), strings.ToLower(strings.TrimSpace(right.task.Command)))
+	case "cron_expression":
+		return strings.Compare(strings.ToLower(strings.TrimSpace(left.task.CronExpression)), strings.ToLower(strings.TrimSpace(right.task.CronExpression)))
+	case "status":
+		return compareFloat64(left.task.Status, right.task.Status)
+	case "labels":
+		return strings.Compare(strings.ToLower(strings.Join(left.displayLabels, ",")), strings.ToLower(strings.Join(right.displayLabels, ",")))
+	case "subscription":
+		return strings.Compare(strings.ToLower(strings.Join(left.subscriptionLabels, ",")), strings.ToLower(strings.Join(right.subscriptionLabels, ",")))
+	case "created_at":
+		// 按创建时间比较：早于为 -1、晚于为 1，相等返回 0，direction 由上层 sortPreparedTaskListItems 翻转
+		if left.task.CreatedAt.Before(right.task.CreatedAt) {
+			return -1
+		}
+		if left.task.CreatedAt.After(right.task.CreatedAt) {
+			return 1
+		}
+		return 0
+	default:
+		return 0
+	}
+}
+
+func compareFloat64(left, right float64) int {
+	switch {
+	case left < right:
+		return -1
+	case left > right:
+		return 1
+	default:
+		return 0
+	}
+}
+
+func splitTaskCronExpressionLines(raw string) []string {
+	lines := strings.FieldsFunc(raw, func(r rune) bool {
+		return r == '\n' || r == '\r'
+	})
+	result := make([]string, 0, len(lines))
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if line != "" {
+			result = append(result, line)
+		}
+	}
+	return result
+}
+
+func (h *TaskHandler) Stats(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	daysStr := c.DefaultQuery("days", "7")
+	days, _ := strconv.Atoi(daysStr)
+	if days < 1 {
+		days = 7
+	}
+
+	stats := service.GetTaskStats(uint(taskID), days)
+	if stats == nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+	response.Success(c, stats)
+}

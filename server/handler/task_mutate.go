@@ -1,1 +1,388 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCglwYW5lbGNyb24gImRhaWRhaS1wYW5lbC9wa2cvY3JvbiIKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCmZ1bmMgbm9ybWFsaXplVGFza1JhbmRvbURlbGF5U2Vjb25kc1ZhbHVlKHZhbHVlIGludGVyZmFjZXt9KSAoKmludCwgZXJyb3IpIHsKCWlmIHZhbHVlID09IG5pbCB7CgkJcmV0dXJuIG5pbCwgbmlsCgl9CgoJc3dpdGNoIHR5cGVkIDo9IHZhbHVlLih0eXBlKSB7CgljYXNlIGZsb2F0NjQ6CgkJZGVsYXkgOj0gaW50KHR5cGVkKQoJCWlmIGZsb2F0NjQoZGVsYXkpICE9IHR5cGVkIHsKCQkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigi6ZqP5py65bu26L+f5pyA5aSn56eS5pWw5b+F6aG75Li65pW05pWwIikKCQl9CgkJaWYgZGVsYXkgPCAwIHx8IGRlbGF5ID4gODY0MDAgewoJCQlyZXR1cm4gbmlsLCBmbXQuRXJyb3JmKCLpmo/mnLrlu7bov5/mnIDlpKfnp5LmlbDpnIDlnKggMC04NjQwMCDkuYvpl7QiKQoJCX0KCQlyZXR1cm4gJmRlbGF5LCBuaWwKCWNhc2UgaW50OgoJCWlmIHR5cGVkIDwgMCB8fCB0eXBlZCA+IDg2NDAwIHsKCQkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigi6ZqP5py65bu26L+f5pyA5aSn56eS5pWw6ZyA5ZyoIDAtODY0MDAg5LmL6Ze0IikKCQl9CgkJZGVsYXkgOj0gdHlwZWQKCQlyZXR1cm4gJmRlbGF5LCBuaWwKCWRlZmF1bHQ6CgkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigi6ZqP5py65bu26L+f5pyA5aSn56eS5pWw5peg5pWIIikKCX0KfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIENyZWF0ZShjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCU5hbWUgICAgICAgICAgICAgICAgICAgc3RyaW5nICAgYGpzb246Im5hbWUiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlDb21tYW5kICAgICAgICAgICAgICAgIHN0cmluZyAgIGBqc29uOiJjb21tYW5kIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgkJUHl0aG9uVmVyc2lvbiAgICAgICAgICBzdHJpbmcgICBganNvbjoicHl0aG9uX3ZlcnNpb24iYAoJCUNyb25FeHByZXNzaW9uICAgICAgICAgc3RyaW5nICAgYGpzb246ImNyb25fZXhwcmVzc2lvbiJgCgkJVGFza1R5cGUgICAgICAgICAgICAgICBzdHJpbmcgICBganNvbjoidGFza190eXBlImAKCQlUaW1lb3V0ICAgICAgICAgICAgICAgICppbnQgICAgIGBqc29uOiJ0aW1lb3V0ImAKCQlTdWNjZXNzRXhpdENvZGVzICAgICAgICpzdHJpbmcgIGBqc29uOiJzdWNjZXNzX2V4aXRfY29kZXMiYAoJCVJhbmRvbURlbGF5U2Vjb25kcyAgICAgKmludCAgICAgYGpzb246InJhbmRvbV9kZWxheV9zZWNvbmRzImAKCQlNYXhSZXRyaWVzICAgICAgICAgICAgICppbnQgICAgIGBqc29uOiJtYXhfcmV0cmllcyJgCgkJUmV0cnlJbnRlcnZhbCAgICAgICAgICAqaW50ICAgICBganNvbjoicmV0cnlfaW50ZXJ2YWwiYAoJCU5vdGlmeU9uRmFpbHVyZSAgICAgICAgKmJvb2wgICAgYGpzb246Im5vdGlmeV9vbl9mYWlsdXJlImAKCQlOb3RpZnlPblN1Y2Nlc3MgICAgICAgICpib29sICAgIGBqc29uOiJub3RpZnlfb25fc3VjY2VzcyJgCgkJTm90aWZ5T25BYm9ydCAgICAgICAgICAqYm9vbCAgICBganNvbjoibm90aWZ5X29uX2Fib3J0ImAKCQlOb3RpZmljYXRpb25DaGFubmVsSUQgICp1aW50ICAgIGBqc29uOiJub3RpZmljYXRpb25fY2hhbm5lbF9pZCJgCgkJTGFiZWxzICAgICAgICAgICAgICAgICBbXXN0cmluZyBganNvbjoibGFiZWxzImAKCQlEZXBlbmRzT24gICAgICAgICAgICAgICp1aW50ICAgIGBqc29uOiJkZXBlbmRzX29uImAKCQlUYXNrQmVmb3JlICAgICAgICAgICAgICpzdHJpbmcgIGBqc29uOiJ0YXNrX2JlZm9yZSJgCgkJVGFza0FmdGVyICAgICAgICAgICAgICAqc3RyaW5nICBganNvbjoidGFza19hZnRlciJgCgkJQWxsb3dNdWx0aXBsZUluc3RhbmNlcyAqYm9vbCAgICBganNvbjoiYWxsb3dfbXVsdGlwbGVfaW5zdGFuY2VzImAKCQlTdG9wU2NoZWR1bGUgICAgICAgICAgICpzdHJpbmcgIGBqc29uOiJzdG9wX3NjaGVkdWxlImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCXRhc2tUeXBlIDo9IG1vZGVsLk5vcm1hbGl6ZVRhc2tUeXBlKHJlcS5UYXNrVHlwZSkKCWlmIHRhc2tUeXBlID09ICIiIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLml6DmlYjnmoTku7vliqHnsbvlnosiKQoJCXJldHVybgoJfQoJaWYgdGFza1R5cGUgPT0gbW9kZWwuVGFza1R5cGVDcm9uIHsKCQlyZXEuQ3JvbkV4cHJlc3Npb24gPSBwYW5lbGNyb24uTm9ybWFsaXplRXhwcmVzc2lvbnMocmVxLkNyb25FeHByZXNzaW9uKQoJCWlmIGVyciA6PSBwYW5lbGNyb24uVmFsaWRhdGVFeHByZXNzaW9ucyhyZXEuQ3JvbkV4cHJlc3Npb24pOyBlcnIgIT0gbmlsIHsKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQkJcmV0dXJuCgkJfQoJfSBlbHNlIHsKCQlyZXEuQ3JvbkV4cHJlc3Npb24gPSAiIgoJfQoJcHl0aG9uVmVyc2lvbiwgZXJyIDo9IHNlcnZpY2UuTm9ybWFsaXplUHl0aG9uVmVyc2lvblN0cmljdChyZXEuUHl0aG9uVmVyc2lvbikKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CglpZiAhc2VydmljZS5QeXRob25WZXJzaW9uU3VwcG9ydGVkQnlDdXJyZW50UnVudGltZShweXRob25WZXJzaW9uKSB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBmbXQuU3ByaW50Zigi5b2T5YmN6ZWc5YOP5LiN5pSv5oyBIFB5dGhvbiAlc++8jOivt+WIh+aNouWIsOWvueW6lCBQeXRob24g54mI5pys6ZWc5YOP5oiWIGFsbCDplZzlg48iLCBweXRob25WZXJzaW9uKSkKCQlyZXR1cm4KCX0KCgl0YXNrIDo9IG1vZGVsLlRhc2t7CgkJTmFtZTogICAgICAgICAgICAgcmVxLk5hbWUsCgkJQ29tbWFuZDogICAgICAgICAgcmVxLkNvbW1hbmQsCgkJUHl0aG9uVmVyc2lvbjogICAgcHl0aG9uVmVyc2lvbiwKCQlDcm9uRXhwcmVzc2lvbjogICByZXEuQ3JvbkV4cHJlc3Npb24sCgkJVGFza1R5cGU6ICAgICAgICAgdGFza1R5cGUsCgkJU3RhdHVzOiAgICAgICAgICAgbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQsCgkJVGltZW91dDogICAgICAgICAgMCwKCQlTdWNjZXNzRXhpdENvZGVzOiBtb2RlbC5EZWZhdWx0U3VjY2Vzc0V4aXRDb2RlcywKCQlSZXRyeUludGVydmFsOiAgICA2MCwKCQlOb3RpZnlPbkZhaWx1cmU6ICBmYWxzZSwKCX0KCglpZiByZXEuVGltZW91dCAhPSBuaWwgewoJCXRhc2suVGltZW91dCA9ICpyZXEuVGltZW91dAoJfQoJaWYgcmVxLlN1Y2Nlc3NFeGl0Q29kZXMgIT0gbmlsIHsKCQlub3JtYWxpemVkLCBlcnIgOj0gbW9kZWwuTm9ybWFsaXplU3VjY2Vzc0V4aXRDb2RlcygqcmVxLlN1Y2Nlc3NFeGl0Q29kZXMpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJCXJldHVybgoJCX0KCQl0YXNrLlN1Y2Nlc3NFeGl0Q29kZXMgPSBub3JtYWxpemVkCgl9CglpZiByZXEuUmFuZG9tRGVsYXlTZWNvbmRzICE9IG5pbCB7CgkJcmFuZG9tRGVsYXlWYWx1ZSwgZXJyIDo9IG5vcm1hbGl6ZVRhc2tSYW5kb21EZWxheVNlY29uZHNWYWx1ZSgqcmVxLlJhbmRvbURlbGF5U2Vjb25kcykKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQkJcmV0dXJuCgkJfQoJCXRhc2suUmFuZG9tRGVsYXlTZWNvbmRzID0gcmFuZG9tRGVsYXlWYWx1ZQoJfQoJaWYgcmVxLk1heFJldHJpZXMgIT0gbmlsIHsKCQl0YXNrLk1heFJldHJpZXMgPSAqcmVxLk1heFJldHJpZXMKCX0KCWlmIHJlcS5SZXRyeUludGVydmFsICE9IG5pbCB7CgkJdGFzay5SZXRyeUludGVydmFsID0gKnJlcS5SZXRyeUludGVydmFsCgl9CglpZiByZXEuTm90aWZ5T25GYWlsdXJlICE9IG5pbCB7CgkJdGFzay5Ob3RpZnlPbkZhaWx1cmUgPSAqcmVxLk5vdGlmeU9uRmFpbHVyZQoJfQoJaWYgcmVxLk5vdGlmeU9uU3VjY2VzcyAhPSBuaWwgewoJCXRhc2suTm90aWZ5T25TdWNjZXNzID0gKnJlcS5Ob3RpZnlPblN1Y2Nlc3MKCX0KCWlmIHJlcS5Ob3RpZnlPbkFib3J0ICE9IG5pbCB7CgkJdGFzay5Ob3RpZnlPbkFib3J0ID0gKnJlcS5Ob3RpZnlPbkFib3J0Cgl9CglpZiByZXEuTm90aWZpY2F0aW9uQ2hhbm5lbElEICE9IG5pbCB7CgkJaWYgKnJlcS5Ob3RpZmljYXRpb25DaGFubmVsSUQgPT0gMCB7CgkJCXRhc2suTm90aWZpY2F0aW9uQ2hhbm5lbElEID0gbmlsCgkJfSBlbHNlIGlmIGVyciA6PSB2YWxpZGF0ZVRhc2tOb3RpZmljYXRpb25DaGFubmVsSUQocmVxLk5vdGlmaWNhdGlvbkNoYW5uZWxJRCk7IGVyciAhPSBuaWwgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsIGVyci5FcnJvcigpKQoJCQlyZXR1cm4KCQl9IGVsc2UgewoJCQl0YXNrLk5vdGlmaWNhdGlvbkNoYW5uZWxJRCA9IHJlcS5Ob3RpZmljYXRpb25DaGFubmVsSUQKCQl9Cgl9CglpZiByZXEuTGFiZWxzICE9IG5pbCB7CgkJdGFzay5TZXRMYWJlbHNGcm9tU2xpY2UocmVxLkxhYmVscykKCX0KCWlmIHJlcS5EZXBlbmRzT24gIT0gbmlsIHsKCQl0YXNrLkRlcGVuZHNPbiA9IHJlcS5EZXBlbmRzT24KCX0KCWlmIHJlcS5UYXNrQmVmb3JlICE9IG5pbCB7CgkJdGFzay5UYXNrQmVmb3JlID0gcmVxLlRhc2tCZWZvcmUKCX0KCWlmIHJlcS5UYXNrQWZ0ZXIgIT0gbmlsIHsKCQl0YXNrLlRhc2tBZnRlciA9IHJlcS5UYXNrQWZ0ZXIKCX0KCWlmIHJlcS5BbGxvd011bHRpcGxlSW5zdGFuY2VzICE9IG5pbCB7CgkJdGFzay5BbGxvd011bHRpcGxlSW5zdGFuY2VzID0gKnJlcS5BbGxvd011bHRpcGxlSW5zdGFuY2VzCgl9CglpZiByZXEuU3RvcFNjaGVkdWxlICE9IG5pbCB7CgkJdGFzay5TdG9wU2NoZWR1bGUgPSAqcmVxLlN0b3BTY2hlZHVsZQoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLlNlbGVjdCgiKiIpLkNyZWF0ZSgmdGFzaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuWIm+W7uuS7u+WKoeWksei0pSIpCgkJcmV0dXJuCgl9CgoJaWYgc2NoZWR1bGVyIDo9IHNlcnZpY2UuR2V0U2NoZWR1bGVyVjIoKTsgc2NoZWR1bGVyICE9IG5pbCB7CgkJc2NoZWR1bGVyLkFkZEpvYigmdGFzaykKCX0KCglyZXNwb25zZS5DcmVhdGVkKGMsIGdpbi5IewoJCSJtZXNzYWdlIjogIuWIm+W7uuaIkOWKnyIsCgkJImRhdGEiOiAgICB0YXNrLlRvRGljdCgpLAoJfSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIFVwZGF0ZShjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCgl2YXIgdGFzayBtb2RlbC5UYXNrCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIHRhc2tJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLku7vliqHkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXZhciByZXEgbWFwW3N0cmluZ11pbnRlcmZhY2V7fQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJaWYgbGFiZWxzLCBvayA6PSByZXFbImxhYmVscyJdLihbXWludGVyZmFjZXt9KTsgb2sgewoJCXZhbHVlcyA6PSBtYWtlKFtdc3RyaW5nLCBsZW4obGFiZWxzKSkKCQlmb3IgaSwgbGFiZWwgOj0gcmFuZ2UgbGFiZWxzIHsKCQkJdmFsdWVzW2ldID0gZm10LlNwcmludGYoIiV2IiwgbGFiZWwpCgkJfQoJCXJlcVsibGFiZWxzIl0gPSBzdHJpbmdzLkpvaW4odmFsdWVzLCAiLCIpCgl9CgoJcmVzb2x2ZWRUYXNrVHlwZSA6PSB0YXNrLkdldFRhc2tUeXBlKCkKCWlmIHJhd1Rhc2tUeXBlLCBleGlzdHMgOj0gcmVxWyJ0YXNrX3R5cGUiXTsgZXhpc3RzIHsKCQl2YWx1ZSwgb2sgOj0gcmF3VGFza1R5cGUuKHN0cmluZykKCQlpZiAhb2sgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLml6DmlYjnmoTku7vliqHnsbvlnosiKQoJCQlyZXR1cm4KCQl9CgkJcmVzb2x2ZWRUYXNrVHlwZSA9IG1vZGVsLk5vcm1hbGl6ZVRhc2tUeXBlKHZhbHVlKQoJCWlmIHJlc29sdmVkVGFza1R5cGUgPT0gIiIgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLml6DmlYjnmoTku7vliqHnsbvlnosiKQoJCQlyZXR1cm4KCQl9CgkJcmVxWyJ0YXNrX3R5cGUiXSA9IHJlc29sdmVkVGFza1R5cGUKCX0KCglpZiByZXNvbHZlZFRhc2tUeXBlID09IG1vZGVsLlRhc2tUeXBlQ3JvbiB7CgkJY3JvbkV4cHIgOj0gdGFzay5Dcm9uRXhwcmVzc2lvbgoJCWlmIHZhbHVlLCBvayA6PSByZXFbImNyb25fZXhwcmVzc2lvbiJdLihzdHJpbmcpOyBvayB7CgkJCWNyb25FeHByID0gcGFuZWxjcm9uLk5vcm1hbGl6ZUV4cHJlc3Npb25zKHZhbHVlKQoJCQlyZXFbImNyb25fZXhwcmVzc2lvbiJdID0gY3JvbkV4cHIKCQl9CgkJaWYgZXJyIDo9IHBhbmVsY3Jvbi5WYWxpZGF0ZUV4cHJlc3Npb25zKGNyb25FeHByKTsgZXJyICE9IG5pbCB7CgkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJCXJldHVybgoJCX0KCX0gZWxzZSB7CgkJcmVxWyJjcm9uX2V4cHJlc3Npb24iXSA9ICIiCgl9CglpZiByYXdQeXRob25WZXJzaW9uLCBleGlzdHMgOj0gcmVxWyJweXRob25fdmVyc2lvbiJdOyBleGlzdHMgewoJCXZhbHVlLCBvayA6PSByYXdQeXRob25WZXJzaW9uLihzdHJpbmcpCgkJaWYgIW9rIHsKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5peg5pWI55qEIFB5dGhvbiDniYjmnKwiKQoJCQlyZXR1cm4KCQl9CgkJcHl0aG9uVmVyc2lvbiwgZXJyIDo9IHNlcnZpY2UuTm9ybWFsaXplUHl0aG9uVmVyc2lvblN0cmljdCh2YWx1ZSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQkJcmV0dXJuCgkJfQoJCWlmICFzZXJ2aWNlLlB5dGhvblZlcnNpb25TdXBwb3J0ZWRCeUN1cnJlbnRSdW50aW1lKHB5dGhvblZlcnNpb24pIHsKCQkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBmbXQuU3ByaW50Zigi5b2T5YmN6ZWc5YOP5LiN5pSv5oyBIFB5dGhvbiAlc++8jOivt+WIh+aNouWIsOWvueW6lCBQeXRob24g54mI5pys6ZWc5YOP5oiWIGFsbCDplZzlg48iLCBweXRob25WZXJzaW9uKSkKCQkJcmV0dXJuCgkJfQoJCXJlcVsicHl0aG9uX3ZlcnNpb24iXSA9IHB5dGhvblZlcnNpb24KCX0KCWlmIHJhd1N1Y2Nlc3NFeGl0Q29kZXMsIGV4aXN0cyA6PSByZXFbInN1Y2Nlc3NfZXhpdF9jb2RlcyJdOyBleGlzdHMgewoJCXZhbHVlIDo9ICIiCgkJaWYgcmF3U3VjY2Vzc0V4aXRDb2RlcyAhPSBuaWwgewoJCQl2YXIgb2sgYm9vbAoJCQl2YWx1ZSwgb2sgPSByYXdTdWNjZXNzRXhpdENvZGVzLihzdHJpbmcpCgkJCWlmICFvayB7CgkJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLmiJDlip/pgIDlh7rnoIHmoLzlvI/ml6DmlYgiKQoJCQkJcmV0dXJuCgkJCX0KCQl9CgkJbm9ybWFsaXplZCwgZXJyIDo9IG1vZGVsLk5vcm1hbGl6ZVN1Y2Nlc3NFeGl0Q29kZXModmFsdWUpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJCXJldHVybgoJCX0KCQlyZXFbInN1Y2Nlc3NfZXhpdF9jb2RlcyJdID0gbm9ybWFsaXplZAoJfQoKCWFsbG93ZWRGaWVsZHMgOj0gbWFwW3N0cmluZ11ib29sewoJCSJuYW1lIjogdHJ1ZSwgImNvbW1hbmQiOiB0cnVlLCAicHl0aG9uX3ZlcnNpb24iOiB0cnVlLCAiY3Jvbl9leHByZXNzaW9uIjogdHJ1ZSwKCQkidGFza190eXBlIjogdHJ1ZSwKCQkidGltZW91dCI6ICAgdHJ1ZSwgInN1Y2Nlc3NfZXhpdF9jb2RlcyI6IHRydWUsICJyYW5kb21fZGVsYXlfc2Vjb25kcyI6IHRydWUsICJtYXhfcmV0cmllcyI6IHRydWUsICJyZXRyeV9pbnRlcnZhbCI6IHRydWUsCgkJIm5vdGlmeV9vbl9mYWlsdXJlIjogdHJ1ZSwgIm5vdGlmeV9vbl9zdWNjZXNzIjogdHJ1ZSwgIm5vdGlmeV9vbl9hYm9ydCI6IHRydWUsICJub3RpZmljYXRpb25fY2hhbm5lbF9pZCI6IHRydWUsICJsYWJlbHMiOiB0cnVlLCAiZGVwZW5kc19vbiI6IHRydWUsCgkJInNvcnRfb3JkZXIiOiB0cnVlLCAidGFza19iZWZvcmUiOiB0cnVlLCAidGFza19hZnRlciI6IHRydWUsCgkJImFsbG93X211bHRpcGxlX2luc3RhbmNlcyI6IHRydWUsICJzdG9wX3NjaGVkdWxlIjogdHJ1ZSwKCX0KCgl1cGRhdGVzIDo9IG1ha2UobWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWZvciBrZXksIHZhbHVlIDo9IHJhbmdlIHJlcSB7CgkJaWYga2V5ID09ICJyYW5kb21fZGVsYXlfc2Vjb25kcyIgewoJCQlyYW5kb21EZWxheVZhbHVlLCBlcnIgOj0gbm9ybWFsaXplVGFza1JhbmRvbURlbGF5U2Vjb25kc1ZhbHVlKHZhbHVlKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJCQlyZXR1cm4KCQkJfQoJCQl1cGRhdGVzW2tleV0gPSByYW5kb21EZWxheVZhbHVlCgkJCWNvbnRpbnVlCgkJfQoJCWlmIGtleSA9PSAibm90aWZpY2F0aW9uX2NoYW5uZWxfaWQiIHsKCQkJY2hhbm5lbElELCBlcnIgOj0gbm9ybWFsaXplVGFza05vdGlmaWNhdGlvbkNoYW5uZWxJRFZhbHVlKHZhbHVlKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgZXJyLkVycm9yKCkpCgkJCQlyZXR1cm4KCQkJfQoJCQlpZiBjaGFubmVsSUQgPT0gbmlsIHsKCQkJCXVwZGF0ZXNba2V5XSA9IG5pbAoJCQl9IGVsc2UgewoJCQkJdXBkYXRlc1trZXldID0gKmNoYW5uZWxJRAoJCQl9CgkJCWNvbnRpbnVlCgkJfQoJCWlmIGFsbG93ZWRGaWVsZHNba2V5XSB7CgkJCXVwZGF0ZXNba2V5XSA9IHZhbHVlCgkJfQoJfQoKCWlmIGxlbih1cGRhdGVzKSA+IDAgewoJCWRhdGFiYXNlLkRCLk1vZGVsKCZ0YXNrKS5VcGRhdGVzKHVwZGF0ZXMpCgl9CgoJZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIHRhc2tJRCkKCWlmIHNjaGVkdWxlciA6PSBzZXJ2aWNlLkdldFNjaGVkdWxlclYyKCk7IHNjaGVkdWxlciAhPSBuaWwgewoJCXNjaGVkdWxlci5VcGRhdGVKb2IoJnRhc2spCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6ICJ0YXNrIHVwZGF0ZWQiLAoJCSJkYXRhIjogICAgdGFzay5Ub0RpY3QoKSwKCX0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBEZWxldGUoYyAqZ2luLkNvbnRleHQpIHsKCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB0YXNrSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi5Lu75Yqh5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCglpZiBzY2hlZHVsZXIgOj0gc2VydmljZS5HZXRTY2hlZHVsZXJWMigpOyBzY2hlZHVsZXIgIT0gbmlsIHsKCQlzY2hlZHVsZXIuUmVtb3ZlSm9iKHVpbnQodGFza0lEKSkKCX0KCWRhdGFiYXNlLkRCLldoZXJlKCJ0YXNrX2lkID0gPyIsIHRhc2tJRCkuRGVsZXRlKCZtb2RlbC5UYXNrTG9ne30pCglkYXRhYmFzZS5EQi5EZWxldGUoJnRhc2spCgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLliKDpmaTmiJDlip8ifSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIFBpbihjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNre30pLldoZXJlKCJpZCA9ID8iLCB0YXNrSUQpLlVwZGF0ZSgiaXNfcGlubmVkIiwgdHJ1ZSkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey572u6aG2In0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBVbnBpbihjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNre30pLldoZXJlKCJpZCA9ID8iLCB0YXNrSUQpLlVwZGF0ZSgiaXNfcGlubmVkIiwgZmFsc2UpCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIuW3suWPlua2iOe9rumhtiJ9KQp9CgpmdW5jIChoICpUYXNrSGFuZGxlcikgQ29weShjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCgl2YXIgdGFzayBtb2RlbC5UYXNrCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIHRhc2tJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLku7vliqHkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCW5ld1Rhc2sgOj0gbW9kZWwuVGFza3sKCQlOYW1lOiAgICAgICAgICAgICAgICAgICB0YXNrLk5hbWUgKyAiICjlia/mnKwpIiwKCQlDb21tYW5kOiAgICAgICAgICAgICAgICB0YXNrLkNvbW1hbmQsCgkJUHl0aG9uVmVyc2lvbjogICAgICAgICAgdGFzay5QeXRob25WZXJzaW9uLAoJCUNyb25FeHByZXNzaW9uOiAgICAgICAgIHRhc2suQ3JvbkV4cHJlc3Npb24sCgkJVGFza1R5cGU6ICAgICAgICAgICAgICAgdGFzay5HZXRUYXNrVHlwZSgpLAoJCVN0YXR1czogICAgICAgICAgICAgICAgIG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZCwKCQlMYWJlbHM6ICAgICAgICAgICAgICAgICB0YXNrLkxhYmVscywKCQlUaW1lb3V0OiAgICAgICAgICAgICAgICB0YXNrLlRpbWVvdXQsCgkJU3VjY2Vzc0V4aXRDb2RlczogICAgICAgdGFzay5HZXRTdWNjZXNzRXhpdENvZGVzKCksCgkJUmFuZG9tRGVsYXlTZWNvbmRzOiAgICAgdGFzay5SYW5kb21EZWxheVNlY29uZHMsCgkJTWF4UmV0cmllczogICAgICAgICAgICAgdGFzay5NYXhSZXRyaWVzLAoJCVJldHJ5SW50ZXJ2YWw6ICAgICAgICAgIHRhc2suUmV0cnlJbnRlcnZhbCwKCQlOb3RpZnlPbkZhaWx1cmU6ICAgICAgICB0YXNrLk5vdGlmeU9uRmFpbHVyZSwKCQlOb3RpZnlPblN1Y2Nlc3M6ICAgICAgICB0YXNrLk5vdGlmeU9uU3VjY2VzcywKCQlOb3RpZnlPbkFib3J0OiAgICAgICAgICB0YXNrLk5vdGlmeU9uQWJvcnQsCgkJTm90aWZpY2F0aW9uQ2hhbm5lbElEOiAgdGFzay5Ob3RpZmljYXRpb25DaGFubmVsSUQsCgkJRGVwZW5kc09uOiAgICAgICAgICAgICAgdGFzay5EZXBlbmRzT24sCgkJVGFza0JlZm9yZTogICAgICAgICAgICAgdGFzay5UYXNrQmVmb3JlLAoJCVRhc2tBZnRlcjogICAgICAgICAgICAgIHRhc2suVGFza0FmdGVyLAoJCUFsbG93TXVsdGlwbGVJbnN0YW5jZXM6IHRhc2suQWxsb3dNdWx0aXBsZUluc3RhbmNlcywKCQlTdG9wU2NoZWR1bGU6ICAgICAgICAgICB0YXNrLlN0b3BTY2hlZHVsZSwKCX0KCWRhdGFiYXNlLkRCLlNlbGVjdCgiKiIpLkNyZWF0ZSgmbmV3VGFzaykKCXJlc3BvbnNlLkNyZWF0ZWQoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5aSN5Yi25oiQ5YqfIiwgImRhdGEiOiBuZXdUYXNrLlRvRGljdCgpfSkKfQo=
+package handler
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	panelcron "daidai-panel/pkg/cron"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+func normalizeTaskRandomDelaySecondsValue(value interface{}) (*int, error) {
+	if value == nil {
+		return nil, nil
+	}
+
+	switch typed := value.(type) {
+	case float64:
+		delay := int(typed)
+		if float64(delay) != typed {
+			return nil, fmt.Errorf("随机延迟最大秒数必须为整数")
+		}
+		if delay < 0 || delay > 86400 {
+			return nil, fmt.Errorf("随机延迟最大秒数需在 0-86400 之间")
+		}
+		return &delay, nil
+	case int:
+		if typed < 0 || typed > 86400 {
+			return nil, fmt.Errorf("随机延迟最大秒数需在 0-86400 之间")
+		}
+		delay := typed
+		return &delay, nil
+	default:
+		return nil, fmt.Errorf("随机延迟最大秒数无效")
+	}
+}
+
+func (h *TaskHandler) Create(c *gin.Context) {
+	var req struct {
+		Name                   string   `json:"name" binding:"required"`
+		Command                string   `json:"command" binding:"required"`
+		PythonVersion          string   `json:"python_version"`
+		CronExpression         string   `json:"cron_expression"`
+		TaskType               string   `json:"task_type"`
+		Timeout                *int     `json:"timeout"`
+		SuccessExitCodes       *string  `json:"success_exit_codes"`
+		RandomDelaySeconds     *int     `json:"random_delay_seconds"`
+		MaxRetries             *int     `json:"max_retries"`
+		RetryInterval          *int     `json:"retry_interval"`
+		NotifyOnFailure        *bool    `json:"notify_on_failure"`
+		NotifyOnSuccess        *bool    `json:"notify_on_success"`
+		NotifyOnAbort          *bool    `json:"notify_on_abort"`
+		NotificationChannelID  *uint    `json:"notification_channel_id"`
+		Labels                 []string `json:"labels"`
+		DependsOn              *uint    `json:"depends_on"`
+		TaskBefore             *string  `json:"task_before"`
+		TaskAfter              *string  `json:"task_after"`
+		AllowMultipleInstances *bool    `json:"allow_multiple_instances"`
+		StopSchedule           *string  `json:"stop_schedule"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	taskType := model.NormalizeTaskType(req.TaskType)
+	if taskType == "" {
+		response.BadRequest(c, "无效的任务类型")
+		return
+	}
+	if taskType == model.TaskTypeCron {
+		req.CronExpression = panelcron.NormalizeExpressions(req.CronExpression)
+		if err := panelcron.ValidateExpressions(req.CronExpression); err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+	} else {
+		req.CronExpression = ""
+	}
+	pythonVersion, err := service.NormalizePythonVersionStrict(req.PythonVersion)
+	if err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+	if !service.PythonVersionSupportedByCurrentRuntime(pythonVersion) {
+		response.BadRequest(c, fmt.Sprintf("当前镜像不支持 Python %s，请切换到对应 Python 版本镜像或 all 镜像", pythonVersion))
+		return
+	}
+
+	task := model.Task{
+		Name:             req.Name,
+		Command:          req.Command,
+		PythonVersion:    pythonVersion,
+		CronExpression:   req.CronExpression,
+		TaskType:         taskType,
+		Status:           model.TaskStatusEnabled,
+		Timeout:          0,
+		SuccessExitCodes: model.DefaultSuccessExitCodes,
+		RetryInterval:    60,
+		NotifyOnFailure:  false,
+	}
+
+	if req.Timeout != nil {
+		task.Timeout = *req.Timeout
+	}
+	if req.SuccessExitCodes != nil {
+		normalized, err := model.NormalizeSuccessExitCodes(*req.SuccessExitCodes)
+		if err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+		task.SuccessExitCodes = normalized
+	}
+	if req.RandomDelaySeconds != nil {
+		randomDelayValue, err := normalizeTaskRandomDelaySecondsValue(*req.RandomDelaySeconds)
+		if err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+		task.RandomDelaySeconds = randomDelayValue
+	}
+	if req.MaxRetries != nil {
+		task.MaxRetries = *req.MaxRetries
+	}
+	if req.RetryInterval != nil {
+		task.RetryInterval = *req.RetryInterval
+	}
+	if req.NotifyOnFailure != nil {
+		task.NotifyOnFailure = *req.NotifyOnFailure
+	}
+	if req.NotifyOnSuccess != nil {
+		task.NotifyOnSuccess = *req.NotifyOnSuccess
+	}
+	if req.NotifyOnAbort != nil {
+		task.NotifyOnAbort = *req.NotifyOnAbort
+	}
+	if req.NotificationChannelID != nil {
+		if *req.NotificationChannelID == 0 {
+			task.NotificationChannelID = nil
+		} else if err := validateTaskNotificationChannelID(req.NotificationChannelID); err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		} else {
+			task.NotificationChannelID = req.NotificationChannelID
+		}
+	}
+	if req.Labels != nil {
+		task.SetLabelsFromSlice(req.Labels)
+	}
+	if req.DependsOn != nil {
+		task.DependsOn = req.DependsOn
+	}
+	if req.TaskBefore != nil {
+		task.TaskBefore = req.TaskBefore
+	}
+	if req.TaskAfter != nil {
+		task.TaskAfter = req.TaskAfter
+	}
+	if req.AllowMultipleInstances != nil {
+		task.AllowMultipleInstances = *req.AllowMultipleInstances
+	}
+	if req.StopSchedule != nil {
+		task.StopSchedule = *req.StopSchedule
+	}
+	if err := database.DB.Select("*").Create(&task).Error; err != nil {
+		response.InternalError(c, "创建任务失败")
+		return
+	}
+
+	if scheduler := service.GetSchedulerV2(); scheduler != nil {
+		scheduler.AddJob(&task)
+	}
+
+	response.Created(c, gin.H{
+		"message": "创建成功",
+		"data":    task.ToDict(),
+	})
+}
+
+func (h *TaskHandler) Update(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	var req map[string]interface{}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	if labels, ok := req["labels"].([]interface{}); ok {
+		values := make([]string, len(labels))
+		for i, label := range labels {
+			values[i] = fmt.Sprintf("%v", label)
+		}
+		req["labels"] = strings.Join(values, ",")
+	}
+
+	resolvedTaskType := task.GetTaskType()
+	if rawTaskType, exists := req["task_type"]; exists {
+		value, ok := rawTaskType.(string)
+		if !ok {
+			response.BadRequest(c, "无效的任务类型")
+			return
+		}
+		resolvedTaskType = model.NormalizeTaskType(value)
+		if resolvedTaskType == "" {
+			response.BadRequest(c, "无效的任务类型")
+			return
+		}
+		req["task_type"] = resolvedTaskType
+	}
+
+	if resolvedTaskType == model.TaskTypeCron {
+		cronExpr := task.CronExpression
+		if value, ok := req["cron_expression"].(string); ok {
+			cronExpr = panelcron.NormalizeExpressions(value)
+			req["cron_expression"] = cronExpr
+		}
+		if err := panelcron.ValidateExpressions(cronExpr); err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+	} else {
+		req["cron_expression"] = ""
+	}
+	if rawPythonVersion, exists := req["python_version"]; exists {
+		value, ok := rawPythonVersion.(string)
+		if !ok {
+			response.BadRequest(c, "无效的 Python 版本")
+			return
+		}
+		pythonVersion, err := service.NormalizePythonVersionStrict(value)
+		if err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+		if !service.PythonVersionSupportedByCurrentRuntime(pythonVersion) {
+			response.BadRequest(c, fmt.Sprintf("当前镜像不支持 Python %s，请切换到对应 Python 版本镜像或 all 镜像", pythonVersion))
+			return
+		}
+		req["python_version"] = pythonVersion
+	}
+	if rawSuccessExitCodes, exists := req["success_exit_codes"]; exists {
+		value := ""
+		if rawSuccessExitCodes != nil {
+			var ok bool
+			value, ok = rawSuccessExitCodes.(string)
+			if !ok {
+				response.BadRequest(c, "成功退出码格式无效")
+				return
+			}
+		}
+		normalized, err := model.NormalizeSuccessExitCodes(value)
+		if err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+		req["success_exit_codes"] = normalized
+	}
+
+	allowedFields := map[string]bool{
+		"name": true, "command": true, "python_version": true, "cron_expression": true,
+		"task_type": true,
+		"timeout":   true, "success_exit_codes": true, "random_delay_seconds": true, "max_retries": true, "retry_interval": true,
+		"notify_on_failure": true, "notify_on_success": true, "notify_on_abort": true, "notification_channel_id": true, "labels": true, "depends_on": true,
+		"sort_order": true, "task_before": true, "task_after": true,
+		"allow_multiple_instances": true, "stop_schedule": true,
+	}
+
+	updates := make(map[string]interface{})
+	for key, value := range req {
+		if key == "random_delay_seconds" {
+			randomDelayValue, err := normalizeTaskRandomDelaySecondsValue(value)
+			if err != nil {
+				response.BadRequest(c, err.Error())
+				return
+			}
+			updates[key] = randomDelayValue
+			continue
+		}
+		if key == "notification_channel_id" {
+			channelID, err := normalizeTaskNotificationChannelIDValue(value)
+			if err != nil {
+				response.BadRequest(c, err.Error())
+				return
+			}
+			if channelID == nil {
+				updates[key] = nil
+			} else {
+				updates[key] = *channelID
+			}
+			continue
+		}
+		if allowedFields[key] {
+			updates[key] = value
+		}
+	}
+
+	if len(updates) > 0 {
+		database.DB.Model(&task).Updates(updates)
+	}
+
+	database.DB.First(&task, taskID)
+	if scheduler := service.GetSchedulerV2(); scheduler != nil {
+		scheduler.UpdateJob(&task)
+	}
+
+	response.Success(c, gin.H{
+		"message": "task updated",
+		"data":    task.ToDict(),
+	})
+}
+
+func (h *TaskHandler) Delete(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	if scheduler := service.GetSchedulerV2(); scheduler != nil {
+		scheduler.RemoveJob(uint(taskID))
+	}
+	database.DB.Where("task_id = ?", taskID).Delete(&model.TaskLog{})
+	database.DB.Delete(&task)
+
+	response.Success(c, gin.H{"message": "删除成功"})
+}
+
+func (h *TaskHandler) Pin(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	database.DB.Model(&model.Task{}).Where("id = ?", taskID).Update("is_pinned", true)
+	response.Success(c, gin.H{"message": "已置顶"})
+}
+
+func (h *TaskHandler) Unpin(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	database.DB.Model(&model.Task{}).Where("id = ?", taskID).Update("is_pinned", false)
+	response.Success(c, gin.H{"message": "已取消置顶"})
+}
+
+func (h *TaskHandler) Copy(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		response.NotFound(c, "任务不存在")
+		return
+	}
+
+	newTask := model.Task{
+		Name:                   task.Name + " (副本)",
+		Command:                task.Command,
+		PythonVersion:          task.PythonVersion,
+		CronExpression:         task.CronExpression,
+		TaskType:               task.GetTaskType(),
+		Status:                 model.TaskStatusDisabled,
+		Labels:                 task.Labels,
+		Timeout:                task.Timeout,
+		SuccessExitCodes:       task.GetSuccessExitCodes(),
+		RandomDelaySeconds:     task.RandomDelaySeconds,
+		MaxRetries:             task.MaxRetries,
+		RetryInterval:          task.RetryInterval,
+		NotifyOnFailure:        task.NotifyOnFailure,
+		NotifyOnSuccess:        task.NotifyOnSuccess,
+		NotifyOnAbort:          task.NotifyOnAbort,
+		NotificationChannelID:  task.NotificationChannelID,
+		DependsOn:              task.DependsOn,
+		TaskBefore:             task.TaskBefore,
+		TaskAfter:              task.TaskAfter,
+		AllowMultipleInstances: task.AllowMultipleInstances,
+		StopSchedule:           task.StopSchedule,
+	}
+	database.DB.Select("*").Create(&newTask)
+	response.Created(c, gin.H{"message": "复制成功", "data": newTask.ToDict()})
+}

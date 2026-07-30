@@ -1,1 +1,81 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgImZtdCIKCmZ1bmMgcHJpbnRIZWxwKCkgewoJZm10LlByaW50bG4oYGRkcCAtIOWRhuWRhumdouadv+WuueWZqOWGhee9ruWRveS7pAoK55So5rOVOgogIGRkcCBoZWxwCiAgZGRwIHZlcnNpb24KICBkZHAgc3RhdHVzCiAgZGRwIGNoZWNrCiAgZGRwIGxvZ3MgWy0tbGluZXMgMjAwXSBbLS1ncmVwIOWFs+mUruWtl10gWy0tbGV2ZWwgZGVidWd8aW5mb3x3YXJufGVycm9yXQogIGRkcCByZXN0YXJ0CiAgZGRwIHVwZGF0ZQogIGRkcCBzZXJ2aWNlIDxpbnN0YWxsfHVuaW5zdGFsbHxzdGFydHxzdG9wfHJlc3RhcnR8c3RhdHVzPgogIGRkcCBweXRob24gPOiEmuacrOi3r+W+hD4gW+WPguaVsC4uLl0KICBkZHAgc2hlbGwKICBkZHAgc2NyaXB0IGxpc3QKICBkZHAgc2NyaXB0IGNhdCA855u45a+56Lev5b6EPgogIGRkcCBzY3JpcHQgZmV0Y2ggPHVybD4gWy0tcGF0aCDnm7jlr7not6/lvoRdIFstLWZvcmNlXQogIGRkcCBlbnYgbGlzdCBbLS1ncm91cCDliIbnu4RdIFstLWtleXdvcmQg5YWz6ZSu5a2XXQogIGRkcCBlbnYgZ2V0IDzlkI3np7DmiJZJRD4KICBkZHAgZW52IHNldCA85ZCN56ewPiA85YC8PiBbLS1ncm91cCDliIbnu4RdIFstLXJlbWFya3Mg5aSH5rOoXSBbLS1kaXNhYmxlZF0KICBkZHAgZW52IGRlbGV0ZSA85ZCN56ew5oiWSUQ+IFstLWFsbF0KICBkZHAgY2xlYW4tbG9ncyBbZGF5c10KICBkZHAgYmFja3VwIGNyZWF0ZSBbLS1uYW1lIOWQjeensF0gWy0tcGFzc3dvcmQg5a+G56CBXSBbLS1vbmx5IGNvbmZpZ3MsdGFza3MsZW52cywuLi5dCiAgZGRwIGJhY2t1cCBsaXN0CiAgZGRwIGJhY2t1cCByZXN0b3JlIDxmaWxlbmFtZT4gWy0tcGFzc3dvcmQg5a+G56CBXQogIGRkcCBiYWNrdXAgZGVsZXRlIDxmaWxlbmFtZT4KICBkZHAgdGFzayBsaXN0IFstLXN0YXR1cyBydW5uaW5nfGVuYWJsZWR8ZGlzYWJsZWR8cXVldWVkXSBbLS1rZXl3b3JkIOWFs+mUruWtl10KICBkZHAgdGFzayBsb2dzIDzku7vliqFJROaIluWQjeensD4gWy0tbGluZXMgTl0KICBkZHAgdGFzayBydW4gPOS7u+WKoUlE5oiW5ZCN56ewPgogIGRkcCB0YXNrIHN0b3AgPOS7u+WKoUlE5oiW5ZCN56ewPgogIGRkcCBzdWIgbGlzdCBbLS10eXBlIGdpdC1yZXBvfHNpbmdsZS1maWxlXSBbLS1rZXl3b3JkIOWFs+mUruWtl10KICBkZHAgc3ViIGxvZ3MgPOiuoumYhUlE5oiW5ZCN56ewPiBbLS1saW5lcyBOXQogIGRkcCBzdWIgcHVsbCA86K6i6ZiFSUTmiJblkI3np7A+CiAgZGRwIHJlc2V0LWxvZ2luIFvnlKjmiLflkI1dIFstLWlwIElQXSBbLS1hbGxdCiAgZGRwIHJlc2V0LXBhc3N3b3JkIFs855So5oi35ZCNPl0gPOaWsOWvhueggT4KICBkZHAgcmVzZXQtdXNlcm5hbWUgWzzml6fnlKjmiLflkI0+XSA85paw55So5oi35ZCNPgogIGRkcCBsaXN0LXVzZXJzCiAgZGRwIGRpc2FibGUtMmZhIDznlKjmiLflkI0+CiAgZGRwIGRpc2FibGUtMmZhIC0tYWxsCiAgZGRwIGlwLXdoaXRlbGlzdCBsaXN0CiAgZGRwIGlwLXdoaXRlbGlzdCBhZGQgPElQ5oiWQ0lEUj4gWy0tcmVtYXJrcyDlpIfms6hdCiAgZGRwIGlwLXdoaXRlbGlzdCBkZWxldGUgPElE5oiWSVAvQ0lEUj4KICBkZHAgaXAtd2hpdGVsaXN0IGNsZWFyCiAgZGRwIGlwLXdoaXRlbGlzdCBzZXQgPElQ5oiWQ0lEUj4gW+abtOWkmklQ5oiWQ0lEUi4uLl0KCuivtOaYjjoKICAxLiDmsqHmnInkvb/nlKggZGQg5L2c5Li65ZG95Luk5ZCN77yM5Zug5Li6IExpbnV4IOW3suiHquW4piBkZCDlkb3ku6TvvIzlrrnmmJPlhrLnqoHjgIIKICAyLiB0YXNrIHJ1biDkvJrlnKjlvZPliY3nu4jnq6/ph4zlkIzmraXmiafooYzlubbnrYnlvoXnu5PmnpzjgIIKICAyLjEgcHl0aG9uIC8gc2hlbGwg5L2/55So6Z2i5p2/5omY566hIFB5dGhvbiDnjq/looPvvIh2ZW52ICsg5bey6KOF5L6d6LWWICsg6Z2i5p2/546v5aKD5Y+Y6YeP77yJ77yM5Zyo5b2T5YmN57uI56uv5YmN5Y+wCiAgICAgIOS6pOS6kuaJp+ihjO+8jOWPr+i+k+WFpeaJi+acuuWPty/pqozor4HnoIHnrYnvvJvop6PlhrMgZG9ja2VyIGV4ZWMg57uI56uvIHB5dGhvbjMg5om+5LiN5Yiw6Z2i5p2/5L6d6LWW55qE6Zeu6aKY44CCCiAgICAgIHB5dGhvbiDnmoTohJrmnKzot6/lvoTnm7jlr7nohJrmnKznm67lvZXvvIjkuZ/lj6/nu5nnu53lr7not6/lvoTvvInvvJtzaGVsbCDov5vlhaXlkI4gcHl0aG9uMyDljbPpnaLmnb/op6Pph4rlmajjgIIKICAzLiBzdWIgcHVsbCDkvJrlnKjlvZPliY3nu4jnq6/ph4zlrp7ml7bovpPlh7rmi4nlupPml6Xlv5fjgIIKICA0LiB1cGRhdGUg5Lya6Ieq5Yqo6K+G5YirIERvY2tlciDmiJbkuozov5vliLbpg6jnvbLvvJtEb2NrZXIg5qih5byP5L6d6LWWIC92YXIvcnVuL2RvY2tlci5zb2NrIOaMgui9veOAggogIDUuIHNlcnZpY2UgaW5zdGFsbCDnm67liY3kvJrlnKggTGludXgg5LiK5a6J6KOFIHN5c3RlbWQg5a6I5oqk77yM5bm26K6p5LqM6L+b5Yi25pu05paw5pe26Ieq5Yqo5YGc5ZCv6K+l5pyN5Yqh44CCCiAgNi4gc2NyaXB0IC8gZW52IC8gbGlzdCAvIGxvZ3Mg6L+Z57G75ZG95Luk5LiN5Lya5L6d6LWW6Z2i5p2/5YmN56uv77yM5a655Zmo6YeM55u05o6l5Y+v55So44CCCgrnpLrkvos6CiAgZGRwIHN0YXR1cwogIGRkcCBweXRob24gdGcv6aaW5qyh55m75b2VLnB5CiAgZGRwIHNoZWxsCiAgZGRwIHNjcmlwdCBmZXRjaCBodHRwczovL2V4YW1wbGUuY29tL2RlbW8ucHkgLS1wYXRoIHRvb2xzL2RlbW8ucHkKICBkZHAgZW52IHNldCBKRF9DT09LSUUgInB0X2tleT14eHg7cHRfcGluPXl5eTsiIC0tZ3JvdXAg5Lqs5LicCiAgZGRwIHRhc2sgbGlzdCAtLXN0YXR1cyBydW5uaW5nCiAgZGRwIGxvZ3MgLS1saW5lcyAyMDAgLS1ncmVwIGZhaWxlZCAtLWxldmVsIGVycm9yCiAgZGRwIHNlcnZpY2UgaW5zdGFsbAogIGRkcCBiYWNrdXAgY3JlYXRlIC0tbmFtZSBuaWdodGx5IC0tb25seSBjb25maWdzLHRhc2tzLGVudnMsc2NyaXB0cwogIGRkcCB0YXNrIHJ1biAxMgogIGRkcCBzdWIgbGlzdCAtLXR5cGUgZ2l0LXJlcG8KICBkZHAgc3ViIHB1bGwg5oiR55qE6K6i6ZiFCiAgZGRwIHJlc2V0LWxvZ2luIC0tYWxsCiAgZGRwIHJlc2V0LXBhc3N3b3JkIGFkbWluIE5ld1Bhc3MxMjMKICBkZHAgcmVzZXQtdXNlcm5hbWUgYWRtaW4gbmV3YWRtaW4KICBkZHAgbGlzdC11c2VycwogIGRkcCBkaXNhYmxlLTJmYSBhZG1pbgogIGRkcCBpcC13aGl0ZWxpc3QgY2xlYXIKICBkZHAgaXAtd2hpdGVsaXN0IHNldCAyMDMuMC4xMTMuMTAgMjAzLjAuMTEzLjAvMjRgKQp9Cg==
+package main
+
+import "fmt"
+
+func printHelp() {
+	fmt.Println(`ddp - 呆呆面板容器内置命令
+
+用法:
+  ddp help
+  ddp version
+  ddp status
+  ddp check
+  ddp logs [--lines 200] [--grep 关键字] [--level debug|info|warn|error]
+  ddp restart
+  ddp update
+  ddp service <install|uninstall|start|stop|restart|status>
+  ddp python <脚本路径> [参数...]
+  ddp shell
+  ddp script list
+  ddp script cat <相对路径>
+  ddp script fetch <url> [--path 相对路径] [--force]
+  ddp env list [--group 分组] [--keyword 关键字]
+  ddp env get <名称或ID>
+  ddp env set <名称> <值> [--group 分组] [--remarks 备注] [--disabled]
+  ddp env delete <名称或ID> [--all]
+  ddp clean-logs [days]
+  ddp backup create [--name 名称] [--password 密码] [--only configs,tasks,envs,...]
+  ddp backup list
+  ddp backup restore <filename> [--password 密码]
+  ddp backup delete <filename>
+  ddp task list [--status running|enabled|disabled|queued] [--keyword 关键字]
+  ddp task logs <任务ID或名称> [--lines N]
+  ddp task run <任务ID或名称>
+  ddp task stop <任务ID或名称>
+  ddp sub list [--type git-repo|single-file] [--keyword 关键字]
+  ddp sub logs <订阅ID或名称> [--lines N]
+  ddp sub pull <订阅ID或名称>
+  ddp reset-login [用户名] [--ip IP] [--all]
+  ddp reset-password [<用户名>] <新密码>
+  ddp reset-username [<旧用户名>] <新用户名>
+  ddp list-users
+  ddp disable-2fa <用户名>
+  ddp disable-2fa --all
+  ddp ip-whitelist list
+  ddp ip-whitelist add <IP或CIDR> [--remarks 备注]
+  ddp ip-whitelist delete <ID或IP/CIDR>
+  ddp ip-whitelist clear
+  ddp ip-whitelist set <IP或CIDR> [更多IP或CIDR...]
+
+说明:
+  1. 没有使用 dd 作为命令名，因为 Linux 已自带 dd 命令，容易冲突。
+  2. task run 会在当前终端里同步执行并等待结果。
+  2.1 python / shell 使用面板托管 Python 环境（venv + 已装依赖 + 面板环境变量），在当前终端前台
+      交互执行，可输入手机号/验证码等；解决 docker exec 终端 python3 找不到面板依赖的问题。
+      python 的脚本路径相对脚本目录（也可给绝对路径）；shell 进入后 python3 即面板解释器。
+  3. sub pull 会在当前终端里实时输出拉库日志。
+  4. update 会自动识别 Docker 或二进制部署；Docker 模式依赖 /var/run/docker.sock 挂载。
+  5. service install 目前会在 Linux 上安装 systemd 守护，并让二进制更新时自动停启该服务。
+  6. script / env / list / logs 这类命令不会依赖面板前端，容器里直接可用。
+
+示例:
+  ddp status
+  ddp python tg/首次登录.py
+  ddp shell
+  ddp script fetch https://example.com/demo.py --path tools/demo.py
+  ddp env set JD_COOKIE "pt_key=xxx;pt_pin=yyy;" --group 京东
+  ddp task list --status running
+  ddp logs --lines 200 --grep failed --level error
+  ddp service install
+  ddp backup create --name nightly --only configs,tasks,envs,scripts
+  ddp task run 12
+  ddp sub list --type git-repo
+  ddp sub pull 我的订阅
+  ddp reset-login --all
+  ddp reset-password admin NewPass123
+  ddp reset-username admin newadmin
+  ddp list-users
+  ddp disable-2fa admin
+  ddp ip-whitelist clear
+  ddp ip-whitelist set 203.0.113.10 203.0.113.0/24`)
+}

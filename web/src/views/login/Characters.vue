@@ -1,1 +1,322 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAidnVlIjsKCmV4cG9ydCB0eXBlIENoYXJhY3Rlck1vb2QgPQogIHwgImlkbGUiCiAgfCAidHlwaW5nIgogIHwgInBhc3N3b3JkIgogIHwgInBlZWsiCiAgfCAic3VjY2VzcyIKICB8ICJlcnJvciI7Cgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBtb3VzZVg6IG51bWJlcjsKICBtb3VzZVk6IG51bWJlcjsKICBtb29kOiBDaGFyYWN0ZXJNb29kOwp9PigpOwoKY29uc3QgcHggPSBjb21wdXRlZCgoKSA9PiBwcm9wcy5tb3VzZVggKiA1KTsKY29uc3QgcHkgPSBjb21wdXRlZCgoKSA9PiBwcm9wcy5tb3VzZVkgKiA0KTsKCmNvbnN0IGNvdmVyRXllcyA9IGNvbXB1dGVkKCgpID0+IHByb3BzLm1vb2QgPT09ICJwYXNzd29yZCIpOwpjb25zdCBsb29rQXdheSA9IGNvbXB1dGVkKCgpID0+IHByb3BzLm1vb2QgPT09ICJwZWVrIik7CmNvbnN0IHNtaWxlID0gY29tcHV0ZWQoKCkgPT4gcHJvcHMubW9vZCA9PT0gInN1Y2Nlc3MiKTsKY29uc3Qgc2FkID0gY29tcHV0ZWQoKCkgPT4gcHJvcHMubW9vZCA9PT0gImVycm9yIik7Cgpjb25zdCBoZWFkVGlsdCA9IGNvbXB1dGVkKCgpID0+IChsb29rQXdheS52YWx1ZSA/IC0yNSA6IHByb3BzLm1vdXNlWCAqIDMpKTsKY29uc3QgaGVhZFNoaWZ0ID0gY29tcHV0ZWQoKCkgPT4gKGxvb2tBd2F5LnZhbHVlID8gLTIwIDogMCkpOwpjb25zdCBib2R5VGlsdCA9IGNvbXB1dGVkKCgpID0+IChsb29rQXdheS52YWx1ZSA/IC04IDogcHJvcHMubW91c2VYICogMikpOwoKY29uc3QgYmx1ZUJvZHkgPSBjb21wdXRlZCgKICAoKSA9PiBgdHJhbnNsYXRlKDExNSwgMjUpIHJvdGF0ZSgke2JvZHlUaWx0LnZhbHVlICogMC43fSwgNjAsIDE1MClgLAopOwpjb25zdCBibHVlRmFjZSA9IGNvbXB1dGVkKAogICgpID0+CiAgICBgdHJhbnNsYXRlKCR7aGVhZFNoaWZ0LnZhbHVlICogMC44fSwgMCkgcm90YXRlKCR7aGVhZFRpbHQudmFsdWUgKiAwLjN9LCA2MCwgNzApYCwKKTsKCmNvbnN0IGJsYWNrQm9keSA9IGNvbXB1dGVkKAogICgpID0+IGB0cmFuc2xhdGUoMjE1LCAxMTUpIHJvdGF0ZSgke2JvZHlUaWx0LnZhbHVlICogMC40fSwgNDgsIDEwNSlgLAopOwpjb25zdCBibGFja0ZhY2UgPSBjb21wdXRlZCgKICAoKSA9PgogICAgYHRyYW5zbGF0ZSgke2hlYWRTaGlmdC52YWx1ZSAqIDAuNn0sIDApIHJvdGF0ZSgke2hlYWRUaWx0LnZhbHVlICogMC4yNX0sIDQ4LCA1NSlgLAopOwoKY29uc3QgeWVsbG93Qm9keSA9IGNvbXB1dGVkKAogICgpID0+IGB0cmFuc2xhdGUoMjc1LCAyMDApIHJvdGF0ZSgke2JvZHlUaWx0LnZhbHVlICogMC41fSwgNTUsIDcwKWAsCik7CmNvbnN0IHllbGxvd0ZhY2UgPSBjb21wdXRlZCgKICAoKSA9PgogICAgYHRyYW5zbGF0ZSgke2hlYWRTaGlmdC52YWx1ZSAqIDAuNX0sIDApIHJvdGF0ZSgke2hlYWRUaWx0LnZhbHVlICogMC4zNX0sIDU1LCA1MClgLAopOwoKY29uc3Qgb3JhbmdlQm9keSA9IGNvbXB1dGVkKAogICgpID0+IGB0cmFuc2xhdGUoNTAsIDIxMCkgcm90YXRlKCR7Ym9keVRpbHQudmFsdWUgKiAwLjN9LCAxNDAsIDEwMClgLAopOwpjb25zdCBvcmFuZ2VGYWNlID0gY29tcHV0ZWQoCiAgKCkgPT4KICAgIGB0cmFuc2xhdGUoJHtoZWFkU2hpZnQudmFsdWUgKiAwLjN9LCAwKSByb3RhdGUoJHtoZWFkVGlsdC52YWx1ZSAqIDAuMn0sIDE0MCwgMTIwKWAsCik7Cjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxzdmcKICAgIHZpZXdCb3g9IjAgMCA0MjAgNDEwIgogICAgd2lkdGg9IjEwMCUiCiAgICBoZWlnaHQ9IjEwMCUiCiAgICBzdHlsZT0ib3ZlcmZsb3c6IHZpc2libGUiCiAgPgogICAgPGcgY2xhc3M9ImNoYXItYm9keSIgOnRyYW5zZm9ybT0iYmx1ZUJvZHkiPgogICAgICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTIwIiBoZWlnaHQ9IjI5MCIgcng9IjIwIiBmaWxsPSIjMTg5MEZGIiAvPgogICAgICA8ZyBjbGFzcz0iY2hhci1mYWNlIiA6dHJhbnNmb3JtPSJibHVlRmFjZSI+CiAgICAgICAgPHRlbXBsYXRlIHYtaWY9ImNvdmVyRXllcyI+CiAgICAgICAgICA8bGluZQogICAgICAgICAgICA6eDE9IjI1IgogICAgICAgICAgICA6eTE9IjY4IgogICAgICAgICAgICA6eDI9IjQ1IgogICAgICAgICAgICA6eTI9IjY4IgogICAgICAgICAgICBzdHJva2U9IiNmZmYiCiAgICAgICAgICAgIDpzdHJva2Utd2lkdGg9IjYiCiAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgICA8bGluZQogICAgICAgICAgICA6eDE9Ijc1IgogICAgICAgICAgICA6eTE9IjY4IgogICAgICAgICAgICA6eDI9Ijk1IgogICAgICAgICAgICA6eTI9IjY4IgogICAgICAgICAgICBzdHJva2U9IiNmZmYiCiAgICAgICAgICAgIDpzdHJva2Utd2lkdGg9IjYiCiAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgPGNpcmNsZSBjeD0iMzUiIGN5PSI2OCIgcj0iMTAiIGZpbGw9IiNmZmYiIC8+CiAgICAgICAgICA8Y2lyY2xlCiAgICAgICAgICAgIDpjeD0iMzUgKyBweCAqIDAuOSIKICAgICAgICAgICAgOmN5PSI2OCArIHB5ICogMC45IgogICAgICAgICAgICByPSI0LjUiCiAgICAgICAgICAgIGZpbGw9IiMxYTFhMWEiCiAgICAgICAgICAvPgogICAgICAgICAgPGNpcmNsZSBjeD0iODUiIGN5PSI2OCIgcj0iMTAiIGZpbGw9IiNmZmYiIC8+CiAgICAgICAgICA8Y2lyY2xlCiAgICAgICAgICAgIDpjeD0iODUgKyBweCAqIDAuOSIKICAgICAgICAgICAgOmN5PSI2OCArIHB5ICogMC45IgogICAgICAgICAgICByPSI0LjUiCiAgICAgICAgICAgIGZpbGw9IiMxYTFhMWEiCiAgICAgICAgICAvPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPHBhdGgKICAgICAgICAgIHYtaWY9InNtaWxlIgogICAgICAgICAgZD0iTSAzNSwxMDggUSA2MCwxMzIgODUsMTA4IgogICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgIHN0cm9rZT0iI2ZmZiIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iMyIKICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICB2LWVsc2UtaWY9InNhZCIKICAgICAgICAgIGQ9Ik0gMzUsMTI1IFEgNjAsMTA1IDg1LDEyNSIKICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICBzdHJva2U9IiNmZmYiCiAgICAgICAgICBzdHJva2Utd2lkdGg9IjMiCiAgICAgICAgICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgICAgICAgLz4KICAgICAgICA8bGluZQogICAgICAgICAgdi1lbHNlCiAgICAgICAgICB4MT0iNDAiCiAgICAgICAgICB5MT0iMTEyIgogICAgICAgICAgeDI9IjgwIgogICAgICAgICAgeTI9IjExMiIKICAgICAgICAgIHN0cm9rZT0iI2ZmZiIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iMyIKICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAvPgogICAgICA8L2c+CiAgICA8L2c+CgogICAgPGcgY2xhc3M9ImNoYXItYm9keSIgOnRyYW5zZm9ybT0iYmxhY2tCb2R5Ij4KICAgICAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9Ijk1IiBoZWlnaHQ9IjIxMCIgcng9IjE2IiBmaWxsPSIjMkQyRDJEIiAvPgogICAgICA8ZyBjbGFzcz0iY2hhci1mYWNlIiA6dHJhbnNmb3JtPSJibGFja0ZhY2UiPgogICAgICAgIDx0ZW1wbGF0ZSB2LWlmPSJjb3ZlckV5ZXMiPgogICAgICAgICAgPGxpbmUKICAgICAgICAgICAgOngxPSIxOSIKICAgICAgICAgICAgOnkxPSI1NSIKICAgICAgICAgICAgOngyPSIzNyIKICAgICAgICAgICAgOnkyPSI1NSIKICAgICAgICAgICAgc3Ryb2tlPSIjZmZmIgogICAgICAgICAgICA6c3Ryb2tlLXdpZHRoPSI1LjQiCiAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgICA8bGluZQogICAgICAgICAgICA6eDE9IjU4IgogICAgICAgICAgICA6eTE9IjU1IgogICAgICAgICAgICA6eDI9Ijc2IgogICAgICAgICAgICA6eTI9IjU1IgogICAgICAgICAgICBzdHJva2U9IiNmZmYiCiAgICAgICAgICAgIDpzdHJva2Utd2lkdGg9IjUuNCIKICAgICAgICAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogICAgICAgICAgLz4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDx0ZW1wbGF0ZSB2LWVsc2U+CiAgICAgICAgICA8Y2lyY2xlIGN4PSIyOCIgY3k9IjU1IiByPSI5IiBmaWxsPSIjZmZmIiAvPgogICAgICAgICAgPGNpcmNsZQogICAgICAgICAgICA6Y3g9IjI4ICsgcHggKiAwLjgiCiAgICAgICAgICAgIDpjeT0iNTUgKyBweSAqIDAuOCIKICAgICAgICAgICAgcj0iNC4wNSIKICAgICAgICAgICAgZmlsbD0iIzFhMWExYSIKICAgICAgICAgIC8+CiAgICAgICAgICA8Y2lyY2xlIGN4PSI2NyIgY3k9IjU1IiByPSI5IiBmaWxsPSIjZmZmIiAvPgogICAgICAgICAgPGNpcmNsZQogICAgICAgICAgICA6Y3g9IjY3ICsgcHggKiAwLjgiCiAgICAgICAgICAgIDpjeT0iNTUgKyBweSAqIDAuOCIKICAgICAgICAgICAgcj0iNC4wNSIKICAgICAgICAgICAgZmlsbD0iIzFhMWExYSIKICAgICAgICAgIC8+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8cGF0aAogICAgICAgICAgdi1pZj0ic21pbGUiCiAgICAgICAgICBkPSJNIDMwLDkwIFEgNDgsMTEwIDY2LDkwIgogICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgIHN0cm9rZT0iI2ZmZiIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iMyIKICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICB2LWVsc2UtaWY9InNhZCIKICAgICAgICAgIGQ9Ik0gMzAsMTA1IFEgNDgsODggNjYsMTA1IgogICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgIHN0cm9rZT0iI2ZmZiIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iMyIKICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAvPgogICAgICAgIDxsaW5lCiAgICAgICAgICB2LWVsc2UKICAgICAgICAgIHgxPSIzMyIKICAgICAgICAgIHkxPSI5NSIKICAgICAgICAgIHgyPSI2MiIKICAgICAgICAgIHkyPSI5NSIKICAgICAgICAgIHN0cm9rZT0iI2ZmZiIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iMi41IgogICAgICAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogICAgICAgIC8+CiAgICAgIDwvZz4KICAgIDwvZz4KCiAgICA8ZyBjbGFzcz0iY2hhci1ib2R5IiA6dHJhbnNmb3JtPSJ5ZWxsb3dCb2R5Ij4KICAgICAgPHBhdGggZD0iTSAwLDE0MCBRIDAsLTE1IDU1LC0xNSBRIDExMCwtMTUgMTEwLDE0MCBaIiBmaWxsPSIjRjVDNTQyIiAvPgogICAgICA8ZyBjbGFzcz0iY2hhci1mYWNlIiA6dHJhbnNmb3JtPSJ5ZWxsb3dGYWNlIj4KICAgICAgICA8dGVtcGxhdGUgdi1pZj0iY292ZXJFeWVzIj4KICAgICAgICAgIDxsaW5lCiAgICAgICAgICAgIDp4MT0iMjIiCiAgICAgICAgICAgIDp5MT0iNTUiCiAgICAgICAgICAgIDp4Mj0iMzgiCiAgICAgICAgICAgIDp5Mj0iNTUiCiAgICAgICAgICAgIHN0cm9rZT0iIzMzMyIKICAgICAgICAgICAgOnN0cm9rZS13aWR0aD0iNC44IgogICAgICAgICAgICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgICAgICAgICAvPgogICAgICAgICAgPGxpbmUKICAgICAgICAgICAgOngxPSI3MiIKICAgICAgICAgICAgOnkxPSI1NSIKICAgICAgICAgICAgOngyPSI4OCIKICAgICAgICAgICAgOnkyPSI1NSIKICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIgogICAgICAgICAgICA6c3Ryb2tlLXdpZHRoPSI0LjgiCiAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgPGNpcmNsZSBjeD0iMzAiIGN5PSI1NSIgcj0iOCIgZmlsbD0iIzFhMWExYSIgLz4KICAgICAgICAgIDxjaXJjbGUgOmN4PSIzMCArIHB4ICogMC43IiA6Y3k9IjU1ICsgcHkgKiAwLjciIHI9IjMuNiIgZmlsbD0iI2ZmZiIgLz4KICAgICAgICAgIDxjaXJjbGUgY3g9IjgwIiBjeT0iNTUiIHI9IjgiIGZpbGw9IiMxYTFhMWEiIC8+CiAgICAgICAgICA8Y2lyY2xlIDpjeD0iODAgKyBweCAqIDAuNyIgOmN5PSI1NSArIHB5ICogMC43IiByPSIzLjYiIGZpbGw9IiNmZmYiIC8+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8cGF0aAogICAgICAgICAgdi1pZj0ic21pbGUiCiAgICAgICAgICBkPSJNIDMzLDg4IFEgNTUsMTA4IDc3LDg4IgogICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgIHN0cm9rZT0iIzMzMyIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iMi41IgogICAgICAgICAgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIgogICAgICAgIC8+CiAgICAgICAgPHBhdGgKICAgICAgICAgIHYtZWxzZS1pZj0ic2FkIgogICAgICAgICAgZD0iTSAzMywxMDIgUSA1NSw4NSA3NywxMDIiCiAgICAgICAgICBmaWxsPSJub25lIgogICAgICAgICAgc3Ryb2tlPSIjMzMzIgogICAgICAgICAgc3Ryb2tlLXdpZHRoPSIyLjUiCiAgICAgICAgICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgICAgICAgLz4KICAgICAgICA8bGluZQogICAgICAgICAgdi1lbHNlCiAgICAgICAgICB4MT0iMzgiCiAgICAgICAgICB5MT0iOTIiCiAgICAgICAgICB4Mj0iNzIiCiAgICAgICAgICB5Mj0iOTIiCiAgICAgICAgICBzdHJva2U9IiMzMzMiCiAgICAgICAgICBzdHJva2Utd2lkdGg9IjIuNSIKICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAvPgogICAgICA8L2c+CiAgICA8L2c+CgogICAgPGcgY2xhc3M9ImNoYXItYm9keSIgOnRyYW5zZm9ybT0ib3JhbmdlQm9keSI+CiAgICAgIDxwYXRoIGQ9Ik0gMCwyMDAgQSAxNDAsMTQwIDAgMCwxIDI4MCwyMDAgTCAwLDIwMCBaIiBmaWxsPSIjRjU4MTFGIiAvPgogICAgICA8ZyBjbGFzcz0iY2hhci1mYWNlIiA6dHJhbnNmb3JtPSJvcmFuZ2VGYWNlIj4KICAgICAgICA8dGVtcGxhdGUgdi1pZj0iY292ZXJFeWVzIj4KICAgICAgICAgIDxsaW5lCiAgICAgICAgICAgIDp4MT0iNzQiCiAgICAgICAgICAgIDp5MT0iMTE4IgogICAgICAgICAgICA6eDI9Ijk2IgogICAgICAgICAgICA6eTI9IjExOCIKICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIgogICAgICAgICAgICA6c3Ryb2tlLXdpZHRoPSI2LjYiCiAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgICA8bGluZQogICAgICAgICAgICA6eDE9IjE4NCIKICAgICAgICAgICAgOnkxPSIxMTgiCiAgICAgICAgICAgIDp4Mj0iMjA2IgogICAgICAgICAgICA6eTI9IjExOCIKICAgICAgICAgICAgc3Ryb2tlPSIjMzMzIgogICAgICAgICAgICA6c3Ryb2tlLXdpZHRoPSI2LjYiCiAgICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAgIC8+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8dGVtcGxhdGUgdi1lbHNlPgogICAgICAgICAgPGNpcmNsZSBjeD0iODUiIGN5PSIxMTgiIHI9IjExIiBmaWxsPSIjMWExYTFhIiAvPgogICAgICAgICAgPGNpcmNsZSA6Y3g9Ijg1ICsgcHgiIDpjeT0iMTE4ICsgcHkiIHI9IjQuOTUiIGZpbGw9IiNmZmYiIC8+CiAgICAgICAgICA8Y2lyY2xlIGN4PSIxOTUiIGN5PSIxMTgiIHI9IjExIiBmaWxsPSIjMWExYTFhIiAvPgogICAgICAgICAgPGNpcmNsZSA6Y3g9IjE5NSArIHB4IiA6Y3k9IjExOCArIHB5IiByPSI0Ljk1IiBmaWxsPSIjZmZmIiAvPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPHBhdGgKICAgICAgICAgIHYtaWY9InNtaWxlIgogICAgICAgICAgZD0iTSAxMDUsMTYwIFEgMTQwLDE5MiAxNzUsMTYwIgogICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgIHN0cm9rZT0iIzMzMyIKICAgICAgICAgIHN0cm9rZS13aWR0aD0iNCIKICAgICAgICAgIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICAgICAgICAvPgogICAgICAgIDxwYXRoCiAgICAgICAgICB2LWVsc2UtaWY9InNhZCIKICAgICAgICAgIGQ9Ik0gMTA1LDE4MCBRIDE0MCwxNTUgMTc1LDE4MCIKICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICBzdHJva2U9IiMzMzMiCiAgICAgICAgICBzdHJva2Utd2lkdGg9IjQiCiAgICAgICAgICBzdHJva2UtbGluZWNhcD0icm91bmQiCiAgICAgICAgLz4KICAgICAgICA8ZWxsaXBzZSB2LWVsc2UgY3g9IjE0MCIgY3k9IjE2NSIgcng9IjciIHJ5PSI2IiBmaWxsPSIjMzMzIiAvPgogICAgICA8L2c+CiAgICA8L2c+CiAgPC9zdmc+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkPgo6ZGVlcCguY2hhci1ib2R5KSB7CiAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuNHMgY3ViaWMtYmV6aWVyKDAuMjUsIDAuNDYsIDAuNDUsIDAuOTQpOwp9CjpkZWVwKC5jaGFyLWZhY2UpIHsKICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4yNXMgZWFzZS1vdXQ7Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { computed } from "vue";
+
+export type CharacterMood =
+  | "idle"
+  | "typing"
+  | "password"
+  | "peek"
+  | "success"
+  | "error";
+
+const props = defineProps<{
+  mouseX: number;
+  mouseY: number;
+  mood: CharacterMood;
+}>();
+
+const px = computed(() => props.mouseX * 5);
+const py = computed(() => props.mouseY * 4);
+
+const coverEyes = computed(() => props.mood === "password");
+const lookAway = computed(() => props.mood === "peek");
+const smile = computed(() => props.mood === "success");
+const sad = computed(() => props.mood === "error");
+
+const headTilt = computed(() => (lookAway.value ? -25 : props.mouseX * 3));
+const headShift = computed(() => (lookAway.value ? -20 : 0));
+const bodyTilt = computed(() => (lookAway.value ? -8 : props.mouseX * 2));
+
+const blueBody = computed(
+  () => `translate(115, 25) rotate(${bodyTilt.value * 0.7}, 60, 150)`,
+);
+const blueFace = computed(
+  () =>
+    `translate(${headShift.value * 0.8}, 0) rotate(${headTilt.value * 0.3}, 60, 70)`,
+);
+
+const blackBody = computed(
+  () => `translate(215, 115) rotate(${bodyTilt.value * 0.4}, 48, 105)`,
+);
+const blackFace = computed(
+  () =>
+    `translate(${headShift.value * 0.6}, 0) rotate(${headTilt.value * 0.25}, 48, 55)`,
+);
+
+const yellowBody = computed(
+  () => `translate(275, 200) rotate(${bodyTilt.value * 0.5}, 55, 70)`,
+);
+const yellowFace = computed(
+  () =>
+    `translate(${headShift.value * 0.5}, 0) rotate(${headTilt.value * 0.35}, 55, 50)`,
+);
+
+const orangeBody = computed(
+  () => `translate(50, 210) rotate(${bodyTilt.value * 0.3}, 140, 100)`,
+);
+const orangeFace = computed(
+  () =>
+    `translate(${headShift.value * 0.3}, 0) rotate(${headTilt.value * 0.2}, 140, 120)`,
+);
+</script>
+
+<template>
+  <svg
+    viewBox="0 0 420 410"
+    width="100%"
+    height="100%"
+    style="overflow: visible"
+  >
+    <g class="char-body" :transform="blueBody">
+      <rect x="0" y="0" width="120" height="290" rx="20" fill="#1890FF" />
+      <g class="char-face" :transform="blueFace">
+        <template v-if="coverEyes">
+          <line
+            :x1="25"
+            :y1="68"
+            :x2="45"
+            :y2="68"
+            stroke="#fff"
+            :stroke-width="6"
+            stroke-linecap="round"
+          />
+          <line
+            :x1="75"
+            :y1="68"
+            :x2="95"
+            :y2="68"
+            stroke="#fff"
+            :stroke-width="6"
+            stroke-linecap="round"
+          />
+        </template>
+        <template v-else>
+          <circle cx="35" cy="68" r="10" fill="#fff" />
+          <circle
+            :cx="35 + px * 0.9"
+            :cy="68 + py * 0.9"
+            r="4.5"
+            fill="#1a1a1a"
+          />
+          <circle cx="85" cy="68" r="10" fill="#fff" />
+          <circle
+            :cx="85 + px * 0.9"
+            :cy="68 + py * 0.9"
+            r="4.5"
+            fill="#1a1a1a"
+          />
+        </template>
+        <path
+          v-if="smile"
+          d="M 35,108 Q 60,132 85,108"
+          fill="none"
+          stroke="#fff"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <path
+          v-else-if="sad"
+          d="M 35,125 Q 60,105 85,125"
+          fill="none"
+          stroke="#fff"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <line
+          v-else
+          x1="40"
+          y1="112"
+          x2="80"
+          y2="112"
+          stroke="#fff"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+      </g>
+    </g>
+
+    <g class="char-body" :transform="blackBody">
+      <rect x="0" y="0" width="95" height="210" rx="16" fill="#2D2D2D" />
+      <g class="char-face" :transform="blackFace">
+        <template v-if="coverEyes">
+          <line
+            :x1="19"
+            :y1="55"
+            :x2="37"
+            :y2="55"
+            stroke="#fff"
+            :stroke-width="5.4"
+            stroke-linecap="round"
+          />
+          <line
+            :x1="58"
+            :y1="55"
+            :x2="76"
+            :y2="55"
+            stroke="#fff"
+            :stroke-width="5.4"
+            stroke-linecap="round"
+          />
+        </template>
+        <template v-else>
+          <circle cx="28" cy="55" r="9" fill="#fff" />
+          <circle
+            :cx="28 + px * 0.8"
+            :cy="55 + py * 0.8"
+            r="4.05"
+            fill="#1a1a1a"
+          />
+          <circle cx="67" cy="55" r="9" fill="#fff" />
+          <circle
+            :cx="67 + px * 0.8"
+            :cy="55 + py * 0.8"
+            r="4.05"
+            fill="#1a1a1a"
+          />
+        </template>
+        <path
+          v-if="smile"
+          d="M 30,90 Q 48,110 66,90"
+          fill="none"
+          stroke="#fff"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <path
+          v-else-if="sad"
+          d="M 30,105 Q 48,88 66,105"
+          fill="none"
+          stroke="#fff"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+        <line
+          v-else
+          x1="33"
+          y1="95"
+          x2="62"
+          y2="95"
+          stroke="#fff"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+      </g>
+    </g>
+
+    <g class="char-body" :transform="yellowBody">
+      <path d="M 0,140 Q 0,-15 55,-15 Q 110,-15 110,140 Z" fill="#F5C542" />
+      <g class="char-face" :transform="yellowFace">
+        <template v-if="coverEyes">
+          <line
+            :x1="22"
+            :y1="55"
+            :x2="38"
+            :y2="55"
+            stroke="#333"
+            :stroke-width="4.8"
+            stroke-linecap="round"
+          />
+          <line
+            :x1="72"
+            :y1="55"
+            :x2="88"
+            :y2="55"
+            stroke="#333"
+            :stroke-width="4.8"
+            stroke-linecap="round"
+          />
+        </template>
+        <template v-else>
+          <circle cx="30" cy="55" r="8" fill="#1a1a1a" />
+          <circle :cx="30 + px * 0.7" :cy="55 + py * 0.7" r="3.6" fill="#fff" />
+          <circle cx="80" cy="55" r="8" fill="#1a1a1a" />
+          <circle :cx="80 + px * 0.7" :cy="55 + py * 0.7" r="3.6" fill="#fff" />
+        </template>
+        <path
+          v-if="smile"
+          d="M 33,88 Q 55,108 77,88"
+          fill="none"
+          stroke="#333"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+        <path
+          v-else-if="sad"
+          d="M 33,102 Q 55,85 77,102"
+          fill="none"
+          stroke="#333"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+        <line
+          v-else
+          x1="38"
+          y1="92"
+          x2="72"
+          y2="92"
+          stroke="#333"
+          stroke-width="2.5"
+          stroke-linecap="round"
+        />
+      </g>
+    </g>
+
+    <g class="char-body" :transform="orangeBody">
+      <path d="M 0,200 A 140,140 0 0,1 280,200 L 0,200 Z" fill="#F5811F" />
+      <g class="char-face" :transform="orangeFace">
+        <template v-if="coverEyes">
+          <line
+            :x1="74"
+            :y1="118"
+            :x2="96"
+            :y2="118"
+            stroke="#333"
+            :stroke-width="6.6"
+            stroke-linecap="round"
+          />
+          <line
+            :x1="184"
+            :y1="118"
+            :x2="206"
+            :y2="118"
+            stroke="#333"
+            :stroke-width="6.6"
+            stroke-linecap="round"
+          />
+        </template>
+        <template v-else>
+          <circle cx="85" cy="118" r="11" fill="#1a1a1a" />
+          <circle :cx="85 + px" :cy="118 + py" r="4.95" fill="#fff" />
+          <circle cx="195" cy="118" r="11" fill="#1a1a1a" />
+          <circle :cx="195 + px" :cy="118 + py" r="4.95" fill="#fff" />
+        </template>
+        <path
+          v-if="smile"
+          d="M 105,160 Q 140,192 175,160"
+          fill="none"
+          stroke="#333"
+          stroke-width="4"
+          stroke-linecap="round"
+        />
+        <path
+          v-else-if="sad"
+          d="M 105,180 Q 140,155 175,180"
+          fill="none"
+          stroke="#333"
+          stroke-width="4"
+          stroke-linecap="round"
+        />
+        <ellipse v-else cx="140" cy="165" rx="7" ry="6" fill="#333" />
+      </g>
+    </g>
+  </svg>
+</template>
+
+<style scoped>
+:deep(.char-body) {
+  transition: transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+:deep(.char-face) {
+  transition: transform 0.25s ease-out;
+}
+</style>

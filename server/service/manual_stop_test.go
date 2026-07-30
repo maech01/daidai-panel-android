@@ -1,1 +1,114 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInN5bmMiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgopCgovLyDmiYvliqjlgZzmraLmoIforrDvvJrmiZPmoIforrDlkI7mtojotLnkuIDmrKHov5Tlm54gdHJ1Ze+8jOWGjeasoea2iOi0uei/lOWbniBmYWxzZe+8iOivu+WNs+a4heOAgeW5guetiemYsuaui+eVme+8ieOAggpmdW5jIFRlc3RDb25zdW1lTWFudWFsU3RvcE1hcmtBbmRJZGVtcG90ZW50KHQgKnRlc3RpbmcuVCkgewoJY29uc3QgdGFza0lEIHVpbnQgPSA5MDAwMQoKCS8vIOacquaJk+agh+iusOaXtua2iOi0ueW6lOS4uiBmYWxzZeOAggoJaWYgY29uc3VtZU1hbnVhbFN0b3AodGFza0lEKSB7CgkJdC5GYXRhbGYoIuacquaJk+agh+iusOeahOS7u+WKoea2iOi0ueW6lOi/lOWbniBmYWxzZSIpCgl9CgoJbWFya01hbnVhbFN0b3AodGFza0lEKQoJaWYgIWNvbnN1bWVNYW51YWxTdG9wKHRhc2tJRCkgewoJCXQuRmF0YWxmKCLmiZPmoIforrDlkI7pppbmrKHmtojotLnlupTov5Tlm54gdHJ1ZSIpCgl9CgkvLyDor7vljbPmuIXvvJrlho3mrKHmtojotLnlupTkuLogZmFsc2XvvIzpgb/lhY3mrovnlZnor6/kvKTlkI7nu63ov5DooYzjgIIKCWlmIGNvbnN1bWVNYW51YWxTdG9wKHRhc2tJRCkgewoJCXQuRmF0YWxmKCLmoIforrDlt7LooqvmtojotLnvvIzlho3mrKHmtojotLnlupTov5Tlm54gZmFsc2UiKQoJfQp9CgovLyDmoIforrDkupLkuI3kuLLmibDvvJrmoIforrDku7vliqEgQSDkuI3lupTlvbHlk43ku7vliqEgQiDnmoTliKTlrprjgIIKZnVuYyBUZXN0Q29uc3VtZU1hbnVhbFN0b3BJc29sYXRlZFBlclRhc2sodCAqdGVzdGluZy5UKSB7Cgljb25zdCB0YXNrQSB1aW50ID0gOTAwMDIKCWNvbnN0IHRhc2tCIHVpbnQgPSA5MDAwMwoKCW1hcmtNYW51YWxTdG9wKHRhc2tBKQoJaWYgY29uc3VtZU1hbnVhbFN0b3AodGFza0IpIHsKCQl0LkZhdGFsZigi5Lu75YqhIEIg5pyq5omT5qCH6K6w77yM5LiN5bqU6KKr5Lu75YqhIEEg55qE5qCH6K6w5b2x5ZONIikKCX0KCWlmICFjb25zdW1lTWFudWFsU3RvcCh0YXNrQSkgewoJCXQuRmF0YWxmKCLku7vliqEgQSDlupTlkb3kuK3oh6rlt7HnmoTmoIforrAiKQoJfQp9CgovLyDkuLvliqjlgZzmraLliKTnu4jmraLvvJrlkb3kuK3moIforrAgLT4g5by65Yi2IEFib3J0ZWQgKyDlhYHorrjosIPnlKjmlrnlj5HpgIHnu4jmraLpgJrnn6XvvJsKLy8g55yf5a6e5oiQ5YqfIC8g5aSx6LSl5LuN5oyJ5Y6f57uT5p6c57uT566X77yM5LiN5Y+X5Li75Yqo5YGc5q2i6KeE5YiZ5b2x5ZON44CCCmZ1bmMgVGVzdEFwcGx5TWFudWFsU3RvcE92ZXJyaWRlKHQgKnRlc3RpbmcuVCkgewoJY29uc3Qgc3RvcHBlZElEIHVpbnQgPSA5MDAwNAoJY29uc3QgZmFpbGVkSUQgdWludCA9IDkwMDA1Cgljb25zdCBzdWNjZXNzSUQgdWludCA9IDkwMDA2CgoJLy8g5Li75Yqo5YGc5q2i77ya5Y2z5L6/5bqV5bGC6L+b56iL6KGo546w5Li65aSx6LSl77yM5Lmf57uf5LiA57uT566X5Li6IEFib3J0ZWTjgIIKCW1hcmtNYW51YWxTdG9wKHN0b3BwZWRJRCkKCXJ1biwgbG9nU3RhdHVzLCBhYm9ydGVkIDo9IGFwcGx5TWFudWFsU3RvcE92ZXJyaWRlKHN0b3BwZWRJRCwgbW9kZWwuUnVuRmFpbGVkLCBtb2RlbC5Mb2dTdGF0dXNGYWlsZWQpCglpZiBydW4gIT0gbW9kZWwuUnVuQWJvcnRlZCB8fCBsb2dTdGF0dXMgIT0gbW9kZWwuTG9nU3RhdHVzQWJvcnRlZCB8fCAhYWJvcnRlZCB7CgkJdC5GYXRhbGYoIuS4u+WKqOWBnOatouW6lOWIpCBBYm9ydGVk77yMZ290IHJ1bj0lZCBsb2c9JWQgYWJvcnRlZD0ldiIsIHJ1biwgbG9nU3RhdHVzLCBhYm9ydGVkKQoJfQoJLy8g5qCH6K6w5bqU5bey6KKr5raI6LS577ya5YaN5qyh6LCD55So5oyJ5YWl5Y+C5Y6f5qC36L+U5Zue44CCCglydW4sIGxvZ1N0YXR1cywgYWJvcnRlZCA9IGFwcGx5TWFudWFsU3RvcE92ZXJyaWRlKHN0b3BwZWRJRCwgbW9kZWwuUnVuRmFpbGVkLCBtb2RlbC5Mb2dTdGF0dXNGYWlsZWQpCglpZiBydW4gIT0gbW9kZWwuUnVuRmFpbGVkIHx8IGxvZ1N0YXR1cyAhPSBtb2RlbC5Mb2dTdGF0dXNGYWlsZWQgfHwgYWJvcnRlZCB7CgkJdC5GYXRhbGYoIuagh+iusOW3sua2iOi0ueWQjuW6lOWOn+agt+i/lOWbnuWksei0peOAgeS4jeagh+iusOe7iOatou+8jGdvdCBydW49JWQgbG9nPSVkIGFib3J0ZWQ9JXYiLCBydW4sIGxvZ1N0YXR1cywgYWJvcnRlZCkKCX0KCgkvLyDnnJ/lrp7lpLHotKXvvIjmnKrmiZPmoIforrDvvInvvJrkv53mjIHlpLHotKXjgIHkuI3mipHliLbpgJrnn6XjgIIKCXJ1biwgbG9nU3RhdHVzLCBhYm9ydGVkID0gYXBwbHlNYW51YWxTdG9wT3ZlcnJpZGUoZmFpbGVkSUQsIG1vZGVsLlJ1bkZhaWxlZCwgbW9kZWwuTG9nU3RhdHVzRmFpbGVkKQoJaWYgcnVuICE9IG1vZGVsLlJ1bkZhaWxlZCB8fCBsb2dTdGF0dXMgIT0gbW9kZWwuTG9nU3RhdHVzRmFpbGVkIHx8IGFib3J0ZWQgewoJCXQuRmF0YWxmKCLnnJ/lrp7lpLHotKXlupTkv53mjIHlpLHotKXjgIHkuI3moIforrDnu4jmraLvvIxnb3QgcnVuPSVkIGxvZz0lZCBhYm9ydGVkPSV2IiwgcnVuLCBsb2dTdGF0dXMsIGFib3J0ZWQpCgl9CgoJLy8g6Ieq54S25oiQ5Yqf77yI5pyq5omT5qCH6K6w77yJ77ya5L+d5oyB5oiQ5Yqf44CB5LiN5qCH6K6w57uI5q2i44CCCglydW4sIGxvZ1N0YXR1cywgYWJvcnRlZCA9IGFwcGx5TWFudWFsU3RvcE92ZXJyaWRlKHN1Y2Nlc3NJRCwgbW9kZWwuUnVuU3VjY2VzcywgbW9kZWwuTG9nU3RhdHVzU3VjY2VzcykKCWlmIHJ1biAhPSBtb2RlbC5SdW5TdWNjZXNzIHx8IGxvZ1N0YXR1cyAhPSBtb2RlbC5Mb2dTdGF0dXNTdWNjZXNzIHx8IGFib3J0ZWQgewoJCXQuRmF0YWxmKCLoh6rnhLbmiJDlip/lupTkv53mjIHmiJDlip/jgIHkuI3moIforrDnu4jmraLvvIxnb3QgcnVuPSVkIGxvZz0lZCBhYm9ydGVkPSV2IiwgcnVuLCBsb2dTdGF0dXMsIGFib3J0ZWQpCgl9Cn0KCi8vIOW5tuWPkeaJk+agh+iusC/mtojotLnlupTlronlhajvvIhzeW5jLk1hcCDkv53or4HvvInvvIzkuJTmr4/kuKrmoIforrDmnIDlpJrooqvmtojotLnkuIDmrKHjgIIKZnVuYyBUZXN0TWFudWFsU3RvcENvbmN1cnJlbnRNYXJrQ29uc3VtZSh0ICp0ZXN0aW5nLlQpIHsKCWNvbnN0IGJhc2UgdWludCA9IDkxMDAwCgljb25zdCBuID0gMjAwCgoJdmFyIHdnIHN5bmMuV2FpdEdyb3VwCglmb3IgaSA6PSAwOyBpIDwgbjsgaSsrIHsKCQl3Zy5BZGQoMSkKCQlnbyBmdW5jKGlkIHVpbnQpIHsKCQkJZGVmZXIgd2cuRG9uZSgpCgkJCW1hcmtNYW51YWxTdG9wKGlkKQoJCX0oYmFzZSArIHVpbnQoaSkpCgl9Cgl3Zy5XYWl0KCkKCgl2YXIgY29uc3VtZWQgaW50Cgl2YXIgbXUgc3luYy5NdXRleAoJZm9yIGkgOj0gMDsgaSA8IG47IGkrKyB7CgkJd2cuQWRkKDEpCgkJZ28gZnVuYyhpZCB1aW50KSB7CgkJCWRlZmVyIHdnLkRvbmUoKQoJCQkvLyDmr4/kuKogaWQg5Lik5qyh5raI6LS577yM5pyA5aSa5ZG95Lit5LiA5qyh44CCCgkJCWhpdCA6PSAwCgkJCWlmIGNvbnN1bWVNYW51YWxTdG9wKGlkKSB7CgkJCQloaXQrKwoJCQl9CgkJCWlmIGNvbnN1bWVNYW51YWxTdG9wKGlkKSB7CgkJCQloaXQrKwoJCQl9CgkJCW11LkxvY2soKQoJCQljb25zdW1lZCArPSBoaXQKCQkJbXUuVW5sb2NrKCkKCQl9KGJhc2UgKyB1aW50KGkpKQoJfQoJd2cuV2FpdCgpCgoJaWYgY29uc3VtZWQgIT0gbiB7CgkJdC5GYXRhbGYoIuavj+S4quagh+iusOW6lOaBsOWlveiiq+a2iOi0ueS4gOasoe+8jOacn+acmyAlZO+8jOWunumZhSAlZCIsIG4sIGNvbnN1bWVkKQoJfQp9Cg==
+package service
+
+import (
+	"sync"
+	"testing"
+
+	"daidai-panel/model"
+)
+
+// 手动停止标记：打标记后消费一次返回 true，再次消费返回 false（读即清、幂等防残留）。
+func TestConsumeManualStopMarkAndIdempotent(t *testing.T) {
+	const taskID uint = 90001
+
+	// 未打标记时消费应为 false。
+	if consumeManualStop(taskID) {
+		t.Fatalf("未打标记的任务消费应返回 false")
+	}
+
+	markManualStop(taskID)
+	if !consumeManualStop(taskID) {
+		t.Fatalf("打标记后首次消费应返回 true")
+	}
+	// 读即清：再次消费应为 false，避免残留误伤后续运行。
+	if consumeManualStop(taskID) {
+		t.Fatalf("标记已被消费，再次消费应返回 false")
+	}
+}
+
+// 标记互不串扰：标记任务 A 不应影响任务 B 的判定。
+func TestConsumeManualStopIsolatedPerTask(t *testing.T) {
+	const taskA uint = 90002
+	const taskB uint = 90003
+
+	markManualStop(taskA)
+	if consumeManualStop(taskB) {
+		t.Fatalf("任务 B 未打标记，不应被任务 A 的标记影响")
+	}
+	if !consumeManualStop(taskA) {
+		t.Fatalf("任务 A 应命中自己的标记")
+	}
+}
+
+// 主动停止判终止：命中标记 -> 强制 Aborted + 允许调用方发送终止通知；
+// 真实成功 / 失败仍按原结果结算，不受主动停止规则影响。
+func TestApplyManualStopOverride(t *testing.T) {
+	const stoppedID uint = 90004
+	const failedID uint = 90005
+	const successID uint = 90006
+
+	// 主动停止：即便底层进程表现为失败，也统一结算为 Aborted。
+	markManualStop(stoppedID)
+	run, logStatus, aborted := applyManualStopOverride(stoppedID, model.RunFailed, model.LogStatusFailed)
+	if run != model.RunAborted || logStatus != model.LogStatusAborted || !aborted {
+		t.Fatalf("主动停止应判 Aborted，got run=%d log=%d aborted=%v", run, logStatus, aborted)
+	}
+	// 标记应已被消费：再次调用按入参原样返回。
+	run, logStatus, aborted = applyManualStopOverride(stoppedID, model.RunFailed, model.LogStatusFailed)
+	if run != model.RunFailed || logStatus != model.LogStatusFailed || aborted {
+		t.Fatalf("标记已消费后应原样返回失败、不标记终止，got run=%d log=%d aborted=%v", run, logStatus, aborted)
+	}
+
+	// 真实失败（未打标记）：保持失败、不抑制通知。
+	run, logStatus, aborted = applyManualStopOverride(failedID, model.RunFailed, model.LogStatusFailed)
+	if run != model.RunFailed || logStatus != model.LogStatusFailed || aborted {
+		t.Fatalf("真实失败应保持失败、不标记终止，got run=%d log=%d aborted=%v", run, logStatus, aborted)
+	}
+
+	// 自然成功（未打标记）：保持成功、不标记终止。
+	run, logStatus, aborted = applyManualStopOverride(successID, model.RunSuccess, model.LogStatusSuccess)
+	if run != model.RunSuccess || logStatus != model.LogStatusSuccess || aborted {
+		t.Fatalf("自然成功应保持成功、不标记终止，got run=%d log=%d aborted=%v", run, logStatus, aborted)
+	}
+}
+
+// 并发打标记/消费应安全（sync.Map 保证），且每个标记最多被消费一次。
+func TestManualStopConcurrentMarkConsume(t *testing.T) {
+	const base uint = 91000
+	const n = 200
+
+	var wg sync.WaitGroup
+	for i := 0; i < n; i++ {
+		wg.Add(1)
+		go func(id uint) {
+			defer wg.Done()
+			markManualStop(id)
+		}(base + uint(i))
+	}
+	wg.Wait()
+
+	var consumed int
+	var mu sync.Mutex
+	for i := 0; i < n; i++ {
+		wg.Add(1)
+		go func(id uint) {
+			defer wg.Done()
+			// 每个 id 两次消费，最多命中一次。
+			hit := 0
+			if consumeManualStop(id) {
+				hit++
+			}
+			if consumeManualStop(id) {
+				hit++
+			}
+			mu.Lock()
+			consumed += hit
+			mu.Unlock()
+		}(base + uint(i))
+	}
+	wg.Wait()
+
+	if consumed != n {
+		t.Fatalf("每个标记应恰好被消费一次，期望 %d，实际 %d", n, consumed)
+	}
+}

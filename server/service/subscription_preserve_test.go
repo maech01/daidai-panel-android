@@ -1,1 +1,153 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNvbnRleHQiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0R2l0SGFzV29ya2luZ1RyZWVDaGFuZ2VzRGV0ZWN0c1RyYWNrZWRBbmRVbnRyYWNrZWRGaWxlcyh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglyZXBvRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInJlcG8iKQoKCXJ1bkdpdCh0LCByb290LCAiaW5pdCIsIHJlcG9EaXIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4ocmVwb0RpciwgInRyYWNrZWQuanMiKSwgW11ieXRlKCJjb25zb2xlLmxvZygndjEnKVxuIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHRyYWNrZWQgZmlsZTogJXYiLCBlcnIpCgl9CglydW5HaXQodCwgcmVwb0RpciwgImFkZCIsICJ0cmFja2VkLmpzIikKCXJ1bkdpdCh0LCByZXBvRGlyLCAiLWMiLCAidXNlci5uYW1lPVRlc3QgVXNlciIsICItYyIsICJ1c2VyLmVtYWlsPXRlc3RAZXhhbXBsZS5jb20iLCAiY29tbWl0IiwgIi1tIiwgImluaXQiKQoKCWhhc0NoYW5nZXMsIGVyciA6PSBnaXRIYXNXb3JraW5nVHJlZUNoYW5nZXMoY29udGV4dC5CYWNrZ3JvdW5kKCksIHJlcG9EaXIsIG9zLkVudmlyb24oKSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjaGVjayBjbGVhbiByZXBvIGNoYW5nZXM6ICV2IiwgZXJyKQoJfQoJaWYgaGFzQ2hhbmdlcyB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgY2xlYW4gcmVwbyB0byByZXBvcnQgbm8gd29ya2luZyB0cmVlIGNoYW5nZXMiKQoJfQoKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihyZXBvRGlyLCAidHJhY2tlZC5qcyIpLCBbXWJ5dGUoImNvbnNvbGUubG9nKCd2MicpXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigidXBkYXRlIHRyYWNrZWQgZmlsZTogJXYiLCBlcnIpCgl9CgloYXNDaGFuZ2VzLCBlcnIgPSBnaXRIYXNXb3JraW5nVHJlZUNoYW5nZXMoY29udGV4dC5CYWNrZ3JvdW5kKCksIHJlcG9EaXIsIG9zLkVudmlyb24oKSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjaGVjayB0cmFja2VkIGNoYW5nZXM6ICV2IiwgZXJyKQoJfQoJaWYgIWhhc0NoYW5nZXMgewoJCXQuRmF0YWwoImV4cGVjdGVkIG1vZGlmaWVkIHRyYWNrZWQgZmlsZSB0byBiZSBkZXRlY3RlZCBhcyB3b3JraW5nIHRyZWUgY2hhbmdlIikKCX0KCglydW5HaXQodCwgcmVwb0RpciwgImNoZWNrb3V0IiwgIi0tIiwgInRyYWNrZWQuanMiKQoKCWhhc0NoYW5nZXMsIGVyciA9IGdpdEhhc1dvcmtpbmdUcmVlQ2hhbmdlcyhjb250ZXh0LkJhY2tncm91bmQoKSwgcmVwb0Rpciwgb3MuRW52aXJvbigpKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNoZWNrIHJlcG8gYWZ0ZXIgcmV2ZXJ0aW5nIHRyYWNrZWQgY2hhbmdlczogJXYiLCBlcnIpCgl9CglpZiBoYXNDaGFuZ2VzIHsKCQl0LkZhdGFsKCJleHBlY3RlZCByZXBvIHRvIGJlIGNsZWFuIGFmdGVyIHJldmVydGluZyB0cmFja2VkIGNoYW5nZXMiKQoJfQoKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihyZXBvRGlyLCAibG9jYWwtb25seS5qcyIpLCBbXWJ5dGUoImNvbnNvbGUubG9nKCdsb2NhbCcpXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgdW50cmFja2VkIGZpbGU6ICV2IiwgZXJyKQoJfQoJaGFzQ2hhbmdlcywgZXJyID0gZ2l0SGFzV29ya2luZ1RyZWVDaGFuZ2VzKGNvbnRleHQuQmFja2dyb3VuZCgpLCByZXBvRGlyLCBvcy5FbnZpcm9uKCkpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY2hlY2sgdW50cmFja2VkIGNoYW5nZXM6ICV2IiwgZXJyKQoJfQoJaWYgIWhhc0NoYW5nZXMgewoJCXQuRmF0YWwoImV4cGVjdGVkIHVudHJhY2tlZCBmaWxlIHRvIGJlIGRldGVjdGVkIGFzIHdvcmtpbmcgdHJlZSBjaGFuZ2UiKQoJfQp9CgpmdW5jIFRlc3RBcHBseVN1YnNjcmlwdGlvbkZvcmNlT3ZlcndyaXRlU2V0dGluZ1VzZXNHbG9iYWxDb25maWcodCAqdGVzdGluZy5UKSB7CglfID0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZm9yY2VPdmVyd3JpdGUgOj0gdHJ1ZQoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJVHlwZTogICAgICAgICAgIG1vZGVsLlN1YlR5cGVHaXRSZXBvLAoJCUZvcmNlT3ZlcndyaXRlOiAmZm9yY2VPdmVyd3JpdGUsCgl9CgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygic3Vic2NyaXB0aW9uX2ZvcmNlX292ZXJ3cml0ZSIsICJmYWxzZSIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IHN1YnNjcmlwdGlvbl9mb3JjZV9vdmVyd3JpdGU6ICV2IiwgZXJyKQoJfQoJYXBwbHlTdWJzY3JpcHRpb25Gb3JjZU92ZXJ3cml0ZVNldHRpbmcoc3ViKQoKCWlmIHN1Yi5Gb3JjZU92ZXJ3cml0ZSA9PSBuaWwgfHwgKnN1Yi5Gb3JjZU92ZXJ3cml0ZSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGdsb2JhbCBzdWJzY3JpcHRpb25fZm9yY2Vfb3ZlcndyaXRlPWZhbHNlIHRvIG92ZXJyaWRlIHN1YnNjcmlwdGlvbiBmaWVsZCwgZ290ICUjdiIsIHN1Yi5Gb3JjZU92ZXJ3cml0ZSkKCX0KfQoKZnVuYyBUZXN0UHVsbEdpdFJlcG9XaXRoQ2FsbGJhY2tQcmVzZXJ2ZU1vZGVTa2lwc0ZhbHNlQ29uZmxpY3RXaGVuUmVwb0lzQ2xlYW4odCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJcmVtb3RlRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInJlbW90ZS5naXQiKQoJd29ya3RyZWVEaXIgOj0gZmlsZXBhdGguSm9pbihyb290LCAid29ya3RyZWUiKQoKCXJ1bkdpdCh0LCByb290LCAiaW5pdCIsICItLWJhcmUiLCByZW1vdGVEaXIpCglydW5HaXQodCwgcm9vdCwgImNsb25lIiwgcmVtb3RlRGlyLCB3b3JrdHJlZURpcikKCglyZXBvRmlsZSA6PSBmaWxlcGF0aC5Kb2luKHdvcmt0cmVlRGlyLCAicmVwby5qcyIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHJlcG9GaWxlLCBbXWJ5dGUoImNvbnNvbGUubG9nKCd2MScpXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgaW5pdGlhbCByZXBvIGZpbGU6ICV2IiwgZXJyKQoJfQoJcnVuR2l0KHQsIHdvcmt0cmVlRGlyLCAiYWRkIiwgInJlcG8uanMiKQoJcnVuR2l0KHQsIHdvcmt0cmVlRGlyLCAiLWMiLCAidXNlci5uYW1lPVRlc3QgVXNlciIsICItYyIsICJ1c2VyLmVtYWlsPXRlc3RAZXhhbXBsZS5jb20iLCAiY29tbWl0IiwgIi1tIiwgImluaXQiKQoJcnVuR2l0KHQsIHdvcmt0cmVlRGlyLCAicHVzaCIsICJvcmlnaW4iLCAiSEVBRDptYWluIikKCglmb3JjZU92ZXJ3cml0ZSA6PSBmYWxzZQoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJTmFtZTogICAgICAgICAgICJwcmVzZXJ2ZS1zdWIiLAoJCVR5cGU6ICAgICAgICAgICBtb2RlbC5TdWJUeXBlR2l0UmVwbywKCQlVUkw6ICAgICAgICAgICAgcmVtb3RlRGlyLAoJCUJyYW5jaDogICAgICAgICAibWFpbiIsCgkJU2F2ZURpcjogICAgICAgICJwcmVzZXJ2ZS1yZXBvIiwKCQlGb3JjZU92ZXJ3cml0ZTogJmZvcmNlT3ZlcndyaXRlLAoJfQoKCWF1dGhDZmcsIGVyciA6PSBidWlsZEdpdEF1dGhDb25maWcob3MuRW52aXJvbigpLCBzdWIuVVJMLCBzdWIsICIiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIGdpdCBhdXRoIGNvbmZpZzogJXYiLCBlcnIpCgl9CglvdXRwdXQsIGVyciA6PSBwdWxsR2l0UmVwb1dpdGhDYWxsYmFjayhjb250ZXh0LkJhY2tncm91bmQoKSwgc3ViLCBhdXRoQ2ZnLCBmdW5jKHN0cmluZykge30pCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiaW5pdGlhbCBwdWxsIGZhaWxlZDogJXZcbiVzIiwgZXJyLCBvdXRwdXQpCgl9CgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShyZXBvRmlsZSwgW11ieXRlKCJjb25zb2xlLmxvZygndjInKVxuIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHVwZGF0ZWQgcmVwbyBmaWxlOiAldiIsIGVycikKCX0KCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgImFkZCIsICJyZXBvLmpzIikKCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgIi1jIiwgInVzZXIubmFtZT1UZXN0IFVzZXIiLCAiLWMiLCAidXNlci5lbWFpbD10ZXN0QGV4YW1wbGUuY29tIiwgImNvbW1pdCIsICItbSIsICJ1cGRhdGUiKQoJcnVuR2l0KHQsIHdvcmt0cmVlRGlyLCAicHVzaCIsICJvcmlnaW4iLCAiSEVBRDptYWluIikKCglhdXRoQ2ZnLCBlcnIgPSBidWlsZEdpdEF1dGhDb25maWcob3MuRW52aXJvbigpLCBzdWIuVVJMLCBzdWIsICIiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIGdpdCBhdXRoIGNvbmZpZyBmb3IgdXBkYXRlOiAldiIsIGVycikKCX0KCW91dHB1dCwgZXJyID0gcHVsbEdpdFJlcG9XaXRoQ2FsbGJhY2soY29udGV4dC5CYWNrZ3JvdW5kKCksIHN1YiwgYXV0aENmZywgZnVuYyhzdHJpbmcpIHt9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInByZXNlcnZlLW1vZGUgdXBkYXRlIGZhaWxlZDogJXZcbiVzIiwgZXJyLCBvdXRwdXQpCgl9CgoJaWYgc3RyaW5ncy5Db250YWlucyhvdXRwdXQsICLmnKzlnLDkv67mlLnkuI7ov5znq6/mm7TmlrDlrZjlnKjlhrLnqoEiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNsZWFuIHJlcG8gcHJlc2VydmUgdXBkYXRlIHRvIGF2b2lkIGZhbHNlIGNvbmZsaWN0LCBnb3Qgb3V0cHV0OlxuJXMiLCBvdXRwdXQpCgl9CglpZiBzdHJpbmdzLkNvbnRhaW5zKG91dHB1dCwgIuacquWPkeeOsOi0ruiXj+adoeebriIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2xlYW4gcmVwbyBwcmVzZXJ2ZSB1cGRhdGUgdG8gc2tpcCBzdGFzaCBwb3AsIGdvdCBvdXRwdXQ6XG4lcyIsIG91dHB1dCkKCX0KCglkZXN0RmlsZSA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0Rpciwgc3ViLlNhdmVEaXIsICJyZXBvLmpzIikKCWNvbnRlbnQsIHJlYWRFcnIgOj0gb3MuUmVhZEZpbGUoZGVzdEZpbGUpCglpZiByZWFkRXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgcHVsbGVkIHJlcG8gZmlsZTogJXYiLCByZWFkRXJyKQoJfQoJbm9ybWFsaXplZCA6PSBzdHJpbmdzLlJlcGxhY2VBbGwoc3RyaW5nKGNvbnRlbnQpLCAiXHJcbiIsICJcbiIpCglpZiBub3JtYWxpemVkICE9ICJjb25zb2xlLmxvZygndjInKVxuIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHB1bGxlZCByZXBvIGZpbGUgdG8gdXBkYXRlIHRvIHYyLCBnb3QgJXEiLCBzdHJpbmcoY29udGVudCkpCgl9Cn0K
+package service
+
+import (
+	"context"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestGitHasWorkingTreeChangesDetectsTrackedAndUntrackedFiles(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	repoDir := filepath.Join(root, "repo")
+
+	runGit(t, root, "init", repoDir)
+	if err := os.WriteFile(filepath.Join(repoDir, "tracked.js"), []byte("console.log('v1')\n"), 0o644); err != nil {
+		t.Fatalf("write tracked file: %v", err)
+	}
+	runGit(t, repoDir, "add", "tracked.js")
+	runGit(t, repoDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "init")
+
+	hasChanges, err := gitHasWorkingTreeChanges(context.Background(), repoDir, os.Environ())
+	if err != nil {
+		t.Fatalf("check clean repo changes: %v", err)
+	}
+	if hasChanges {
+		t.Fatal("expected clean repo to report no working tree changes")
+	}
+
+	if err := os.WriteFile(filepath.Join(repoDir, "tracked.js"), []byte("console.log('v2')\n"), 0o644); err != nil {
+		t.Fatalf("update tracked file: %v", err)
+	}
+	hasChanges, err = gitHasWorkingTreeChanges(context.Background(), repoDir, os.Environ())
+	if err != nil {
+		t.Fatalf("check tracked changes: %v", err)
+	}
+	if !hasChanges {
+		t.Fatal("expected modified tracked file to be detected as working tree change")
+	}
+
+	runGit(t, repoDir, "checkout", "--", "tracked.js")
+
+	hasChanges, err = gitHasWorkingTreeChanges(context.Background(), repoDir, os.Environ())
+	if err != nil {
+		t.Fatalf("check repo after reverting tracked changes: %v", err)
+	}
+	if hasChanges {
+		t.Fatal("expected repo to be clean after reverting tracked changes")
+	}
+
+	if err := os.WriteFile(filepath.Join(repoDir, "local-only.js"), []byte("console.log('local')\n"), 0o644); err != nil {
+		t.Fatalf("write untracked file: %v", err)
+	}
+	hasChanges, err = gitHasWorkingTreeChanges(context.Background(), repoDir, os.Environ())
+	if err != nil {
+		t.Fatalf("check untracked changes: %v", err)
+	}
+	if !hasChanges {
+		t.Fatal("expected untracked file to be detected as working tree change")
+	}
+}
+
+func TestApplySubscriptionForceOverwriteSettingUsesGlobalConfig(t *testing.T) {
+	_ = testutil.SetupTestEnv(t)
+
+	forceOverwrite := true
+	sub := &model.Subscription{
+		Type:           model.SubTypeGitRepo,
+		ForceOverwrite: &forceOverwrite,
+	}
+
+	if err := model.SetConfig("subscription_force_overwrite", "false"); err != nil {
+		t.Fatalf("set subscription_force_overwrite: %v", err)
+	}
+	applySubscriptionForceOverwriteSetting(sub)
+
+	if sub.ForceOverwrite == nil || *sub.ForceOverwrite {
+		t.Fatalf("expected global subscription_force_overwrite=false to override subscription field, got %#v", sub.ForceOverwrite)
+	}
+}
+
+func TestPullGitRepoWithCallbackPreserveModeSkipsFalseConflictWhenRepoIsClean(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	remoteDir := filepath.Join(root, "remote.git")
+	worktreeDir := filepath.Join(root, "worktree")
+
+	runGit(t, root, "init", "--bare", remoteDir)
+	runGit(t, root, "clone", remoteDir, worktreeDir)
+
+	repoFile := filepath.Join(worktreeDir, "repo.js")
+	if err := os.WriteFile(repoFile, []byte("console.log('v1')\n"), 0o644); err != nil {
+		t.Fatalf("write initial repo file: %v", err)
+	}
+	runGit(t, worktreeDir, "add", "repo.js")
+	runGit(t, worktreeDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "init")
+	runGit(t, worktreeDir, "push", "origin", "HEAD:main")
+
+	forceOverwrite := false
+	sub := &model.Subscription{
+		Name:           "preserve-sub",
+		Type:           model.SubTypeGitRepo,
+		URL:            remoteDir,
+		Branch:         "main",
+		SaveDir:        "preserve-repo",
+		ForceOverwrite: &forceOverwrite,
+	}
+
+	authCfg, err := buildGitAuthConfig(os.Environ(), sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+	output, err := pullGitRepoWithCallback(context.Background(), sub, authCfg, func(string) {})
+	if err != nil {
+		t.Fatalf("initial pull failed: %v\n%s", err, output)
+	}
+
+	if err := os.WriteFile(repoFile, []byte("console.log('v2')\n"), 0o644); err != nil {
+		t.Fatalf("write updated repo file: %v", err)
+	}
+	runGit(t, worktreeDir, "add", "repo.js")
+	runGit(t, worktreeDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "update")
+	runGit(t, worktreeDir, "push", "origin", "HEAD:main")
+
+	authCfg, err = buildGitAuthConfig(os.Environ(), sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config for update: %v", err)
+	}
+	output, err = pullGitRepoWithCallback(context.Background(), sub, authCfg, func(string) {})
+	if err != nil {
+		t.Fatalf("preserve-mode update failed: %v\n%s", err, output)
+	}
+
+	if strings.Contains(output, "本地修改与远端更新存在冲突") {
+		t.Fatalf("expected clean repo preserve update to avoid false conflict, got output:\n%s", output)
+	}
+	if strings.Contains(output, "未发现贮藏条目") {
+		t.Fatalf("expected clean repo preserve update to skip stash pop, got output:\n%s", output)
+	}
+
+	destFile := filepath.Join(config.C.Data.ScriptsDir, sub.SaveDir, "repo.js")
+	content, readErr := os.ReadFile(destFile)
+	if readErr != nil {
+		t.Fatalf("read pulled repo file: %v", readErr)
+	}
+	normalized := strings.ReplaceAll(string(content), "\r\n", "\n")
+	if normalized != "console.log('v2')\n" {
+		t.Fatalf("expected pulled repo file to update to v2, got %q", string(content))
+	}
+}

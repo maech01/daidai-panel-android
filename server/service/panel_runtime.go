@@ -1,1 +1,115 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJvcy9leGVjIgoJInBhdGgvZmlsZXBhdGgiCgkicnVudGltZSIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgopCgpjb25zdCAoCglQYW5lbFJ1bnRpbWVNb2RlQXV0byAgICA9ICJhdXRvIgoJUGFuZWxSdW50aW1lTW9kZVN0ZG91dCAgPSAic3Rkb3V0IgoJUGFuZWxSdW50aW1lTW9kZUZpbGUgICAgPSAiZmlsZSIKCVBhbmVsU2VydmljZU1hbmFnZXJOb25lID0gIm5vbmUiCglQYW5lbFNlcnZpY2VNYW5hZ2VyU3lzdGVtZCA9ICJzeXN0ZW1kIgopCgpmdW5jIFJlc29sdmVQYW5lbFJ1bnRpbWVNb2RlKCkgc3RyaW5nIHsKCWlmIGVudk1vZGUgOj0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKG9zLkdldGVudigiUEFORUxfUlVOVElNRV9NT0RFIikpKTsgZW52TW9kZSA9PSBQYW5lbFJ1bnRpbWVNb2RlU3Rkb3V0IHx8IGVudk1vZGUgPT0gUGFuZWxSdW50aW1lTW9kZUZpbGUgewoJCXJldHVybiBlbnZNb2RlCgl9CgoJaWYgZGF0YWJhc2UuREIgPT0gbmlsIHsKCQlyZXR1cm4gZGV0ZWN0RGVmYXVsdFBhbmVsUnVudGltZU1vZGUoKQoJfQoKCW1vZGUgOj0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoInBhbmVsX3J1bnRpbWVfbW9kZSIpKSkKCXN3aXRjaCBtb2RlIHsKCWNhc2UgUGFuZWxSdW50aW1lTW9kZVN0ZG91dCwgUGFuZWxSdW50aW1lTW9kZUZpbGU6CgkJcmV0dXJuIG1vZGUKCWRlZmF1bHQ6CgkJcmV0dXJuIGRldGVjdERlZmF1bHRQYW5lbFJ1bnRpbWVNb2RlKCkKCX0KfQoKZnVuYyBkZXRlY3REZWZhdWx0UGFuZWxSdW50aW1lTW9kZSgpIHN0cmluZyB7CglpZiBfLCBlcnIgOj0gb3MuU3RhdCgiLy5kb2NrZXJlbnYiKTsgZXJyID09IG5pbCB7CgkJcmV0dXJuIFBhbmVsUnVudGltZU1vZGVTdGRvdXQKCX0KCWlmIHN0cmluZ3MuVHJpbVNwYWNlKG9zLkdldGVudigiSU1BR0VfTkFNRSIpKSAhPSAiIiB8fCBzdHJpbmdzLlRyaW1TcGFjZShvcy5HZXRlbnYoIkNPTlRBSU5FUl9OQU1FIikpICE9ICIiIHsKCQlyZXR1cm4gUGFuZWxSdW50aW1lTW9kZVN0ZG91dAoJfQoJcmV0dXJuIFBhbmVsUnVudGltZU1vZGVGaWxlCn0KCmZ1bmMgUmVzb2x2ZVBhbmVsU2VydmljZU1hbmFnZXIoKSBzdHJpbmcgewoJaWYgZW52TWFuYWdlciA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2Uob3MuR2V0ZW52KCJQQU5FTF9TRVJWSUNFX01BTkFHRVIiKSkpOyBlbnZNYW5hZ2VyID09IFBhbmVsU2VydmljZU1hbmFnZXJTeXN0ZW1kIHsKCQlyZXR1cm4gZW52TWFuYWdlcgoJfQoKCWlmIGRhdGFiYXNlLkRCID09IG5pbCB7CgkJcmV0dXJuIFBhbmVsU2VydmljZU1hbmFnZXJOb25lCgl9CgoJbWFuYWdlciA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UobW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygicGFuZWxfc2VydmljZV9tYW5hZ2VyIikpKQoJc3dpdGNoIG1hbmFnZXIgewoJY2FzZSBQYW5lbFNlcnZpY2VNYW5hZ2VyU3lzdGVtZDoKCQlyZXR1cm4gbWFuYWdlcgoJZGVmYXVsdDoKCQlyZXR1cm4gUGFuZWxTZXJ2aWNlTWFuYWdlck5vbmUKCX0KfQoKZnVuYyBSZXNvbHZlUGFuZWxTZXJ2aWNlTmFtZSgpIHN0cmluZyB7CglpZiBlbnZOYW1lIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG9zLkdldGVudigiUEFORUxfU0VSVklDRV9OQU1FIikpOyBlbnZOYW1lICE9ICIiIHsKCQlyZXR1cm4gZW52TmFtZQoJfQoKCWlmIGRhdGFiYXNlLkRCID09IG5pbCB7CgkJcmV0dXJuICJkYWlkYWktcGFuZWwiCgl9CgoJbmFtZSA6PSBzdHJpbmdzLlRyaW1TcGFjZShtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKCJwYW5lbF9zZXJ2aWNlX25hbWUiKSkKCWlmIG5hbWUgPT0gIiIgewoJCXJldHVybiAiZGFpZGFpLXBhbmVsIgoJfQoJcmV0dXJuIG5hbWUKfQoKZnVuYyBDYW5NYW5hZ2VQYW5lbFNlcnZpY2UoKSBib29sIHsKCWlmIHJ1bnRpbWUuR09PUyAhPSAibGludXgiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCWlmIFJlc29sdmVQYW5lbFNlcnZpY2VNYW5hZ2VyKCkgIT0gUGFuZWxTZXJ2aWNlTWFuYWdlclN5c3RlbWQgewoJCXJldHVybiBmYWxzZQoJfQoJXywgZXJyIDo9IGV4ZWMuTG9va1BhdGgoInN5c3RlbWN0bCIpCglyZXR1cm4gZXJyID09IG5pbAp9CgpmdW5jIFBhbmVsU2VydmljZVVuaXRQYXRoKHNlcnZpY2VOYW1lIHN0cmluZykgc3RyaW5nIHsKCXJldHVybiBmaWxlcGF0aC5Kb2luKCIvZXRjL3N5c3RlbWQvc3lzdGVtIiwgc2VydmljZU5hbWUrIi5zZXJ2aWNlIikKfQoKZnVuYyBDb250cm9sUGFuZWxTZXJ2aWNlKGFjdGlvbiBzdHJpbmcpIGVycm9yIHsKCXNlcnZpY2VOYW1lIDo9IFJlc29sdmVQYW5lbFNlcnZpY2VOYW1lKCkKCWlmICFDYW5NYW5hZ2VQYW5lbFNlcnZpY2UoKSB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuW9k+WJjeacquWQr+eUqCBzeXN0ZW1kIOWuiOaKpOeuoeeQhiIpCgl9CgljbWQgOj0gZXhlYy5Db21tYW5kKCJzeXN0ZW1jdGwiLCBhY3Rpb24sIHNlcnZpY2VOYW1lKQoJb3V0cHV0LCBlcnIgOj0gY21kLkNvbWJpbmVkT3V0cHV0KCkKCWlmIGVyciAhPSBuaWwgewoJCXRleHQgOj0gc3RyaW5ncy5UcmltU3BhY2Uoc3RyaW5nKG91dHB1dCkpCgkJaWYgdGV4dCA9PSAiIiB7CgkJCXRleHQgPSBlcnIuRXJyb3IoKQoJCX0KCQlyZXR1cm4gZm10LkVycm9yZigic3lzdGVtY3RsICVzICVzIOWksei0pTogJXMiLCBhY3Rpb24sIHNlcnZpY2VOYW1lLCB0ZXh0KQoJfQoJcmV0dXJuIG5pbAp9Cg==
+package service
+
+import (
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+)
+
+const (
+	PanelRuntimeModeAuto    = "auto"
+	PanelRuntimeModeStdout  = "stdout"
+	PanelRuntimeModeFile    = "file"
+	PanelServiceManagerNone = "none"
+	PanelServiceManagerSystemd = "systemd"
+)
+
+func ResolvePanelRuntimeMode() string {
+	if envMode := strings.ToLower(strings.TrimSpace(os.Getenv("PANEL_RUNTIME_MODE"))); envMode == PanelRuntimeModeStdout || envMode == PanelRuntimeModeFile {
+		return envMode
+	}
+
+	if database.DB == nil {
+		return detectDefaultPanelRuntimeMode()
+	}
+
+	mode := strings.ToLower(strings.TrimSpace(model.GetRegisteredConfig("panel_runtime_mode")))
+	switch mode {
+	case PanelRuntimeModeStdout, PanelRuntimeModeFile:
+		return mode
+	default:
+		return detectDefaultPanelRuntimeMode()
+	}
+}
+
+func detectDefaultPanelRuntimeMode() string {
+	if _, err := os.Stat("/.dockerenv"); err == nil {
+		return PanelRuntimeModeStdout
+	}
+	if strings.TrimSpace(os.Getenv("IMAGE_NAME")) != "" || strings.TrimSpace(os.Getenv("CONTAINER_NAME")) != "" {
+		return PanelRuntimeModeStdout
+	}
+	return PanelRuntimeModeFile
+}
+
+func ResolvePanelServiceManager() string {
+	if envManager := strings.ToLower(strings.TrimSpace(os.Getenv("PANEL_SERVICE_MANAGER"))); envManager == PanelServiceManagerSystemd {
+		return envManager
+	}
+
+	if database.DB == nil {
+		return PanelServiceManagerNone
+	}
+
+	manager := strings.ToLower(strings.TrimSpace(model.GetRegisteredConfig("panel_service_manager")))
+	switch manager {
+	case PanelServiceManagerSystemd:
+		return manager
+	default:
+		return PanelServiceManagerNone
+	}
+}
+
+func ResolvePanelServiceName() string {
+	if envName := strings.TrimSpace(os.Getenv("PANEL_SERVICE_NAME")); envName != "" {
+		return envName
+	}
+
+	if database.DB == nil {
+		return "daidai-panel"
+	}
+
+	name := strings.TrimSpace(model.GetRegisteredConfig("panel_service_name"))
+	if name == "" {
+		return "daidai-panel"
+	}
+	return name
+}
+
+func CanManagePanelService() bool {
+	if runtime.GOOS != "linux" {
+		return false
+	}
+	if ResolvePanelServiceManager() != PanelServiceManagerSystemd {
+		return false
+	}
+	_, err := exec.LookPath("systemctl")
+	return err == nil
+}
+
+func PanelServiceUnitPath(serviceName string) string {
+	return filepath.Join("/etc/systemd/system", serviceName+".service")
+}
+
+func ControlPanelService(action string) error {
+	serviceName := ResolvePanelServiceName()
+	if !CanManagePanelService() {
+		return fmt.Errorf("当前未启用 systemd 守护管理")
+	}
+	cmd := exec.Command("systemctl", action, serviceName)
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		text := strings.TrimSpace(string(output))
+		if text == "" {
+			text = err.Error()
+		}
+		return fmt.Errorf("systemctl %s %s 失败: %s", action, serviceName, text)
+	}
+	return nil
+}

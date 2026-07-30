@@ -1,1 +1,385 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkibWF0aCIKCSJvcyIKCSJvcy9leGVjIgoJInBhdGgvZmlsZXBhdGgiCgkicnVudGltZSIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkic3luYyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKdmFyIHBhbmVsU3RhcnRUaW1lID0gdGltZS5Ob3coKQoKdHlwZSBSZXNvdXJjZUluZm8gc3RydWN0IHsKCUhvc3RuYW1lICAgIHN0cmluZyAgYGpzb246Imhvc3RuYW1lImAKCU1hY2hpbmVDb2RlIHN0cmluZyAgYGpzb246Im1hY2hpbmVfY29kZSJgCglDUFVVc2FnZSAgICBmbG9hdDY0IGBqc29uOiJjcHVfdXNhZ2UiYAoJTWVtb3J5VG90YWwgdWludDY0ICBganNvbjoibWVtb3J5X3RvdGFsImAKCU1lbW9yeVVzZWQgIHVpbnQ2NCAgYGpzb246Im1lbW9yeV91c2VkImAKCU1lbW9yeUZyZWUgIHVpbnQ2NCAgYGpzb246Im1lbW9yeV9mcmVlImAKCU1lbW9yeVVzYWdlIGZsb2F0NjQgYGpzb246Im1lbW9yeV91c2FnZSJgCglEaXNrVG90YWwgICB1aW50NjQgIGBqc29uOiJkaXNrX3RvdGFsImAKCURpc2tVc2VkICAgIHVpbnQ2NCAgYGpzb246ImRpc2tfdXNlZCJgCglEaXNrRnJlZSAgICB1aW50NjQgIGBqc29uOiJkaXNrX2ZyZWUiYAoJRGlza1VzYWdlICAgZmxvYXQ2NCBganNvbjoiZGlza191c2FnZSJgCglVcHRpbWUgICAgICBzdHJpbmcgIGBqc29uOiJ1cHRpbWUiYAoJR29Sb3V0aW5lcyAgaW50ICAgICBganNvbjoiZ29yb3V0aW5lcyJgCglHb1ZlcnNpb24gICBzdHJpbmcgIGBqc29uOiJnb192ZXJzaW9uImAKCU9TICAgICAgICAgIHN0cmluZyAgYGpzb246Im9zImAKCUFyY2ggICAgICAgIHN0cmluZyAgYGpzb246ImFyY2giYAoJTnVtQ1BVICAgICAgaW50ICAgICBganNvbjoibnVtX2NwdSJgCglEYXRhRGlyICAgICBzdHJpbmcgIGBqc29uOiJkYXRhX2RpciJgCglOZXRSeEJ5dGVzICB1aW50NjQgIGBqc29uOiJuZXRfcnhfYnl0ZXMiYAoJTmV0VHhCeXRlcyAgdWludDY0ICBganNvbjoibmV0X3R4X2J5dGVzImAKCU5ldFJ4U3BlZWQgIGZsb2F0NjQgYGpzb246Im5ldF9yeF9zcGVlZCJgCglOZXRUeFNwZWVkICBmbG9hdDY0IGBqc29uOiJuZXRfdHhfc3BlZWQiYAp9CgpmdW5jIEdldFJlc291cmNlSW5mbygpIFJlc291cmNlSW5mbyB7CglpbmZvIDo9IFJlc291cmNlSW5mb3sKCQlIb3N0bmFtZTogICAgIi0iLAoJCU1hY2hpbmVDb2RlOiBFbnN1cmVNYWNoaW5lQ29kZSgpLAoJCUdvUm91dGluZXM6ICBydW50aW1lLk51bUdvcm91dGluZSgpLAoJCUdvVmVyc2lvbjogICBydW50aW1lLlZlcnNpb24oKSwKCQlPUzogICAgICAgICAgcnVudGltZS5HT09TLAoJCUFyY2g6ICAgICAgICBydW50aW1lLkdPQVJDSCwKCQlOdW1DUFU6ICAgICAgcnVudGltZS5OdW1DUFUoKSwKCQlVcHRpbWU6ICAgICAgZ2V0UGFuZWxVcHRpbWUoKSwKCX0KCglpZiBob3N0bmFtZSwgZXJyIDo9IG9zLkhvc3RuYW1lKCk7IGVyciA9PSBuaWwgJiYgaG9zdG5hbWUgIT0gIiIgewoJCWluZm8uSG9zdG5hbWUgPSBob3N0bmFtZQoJfQoKCWlmIGNvbmZpZy5DICE9IG5pbCB7CgkJYWJzRGlyLCBlcnIgOj0gZmlsZXBhdGguQWJzKGNvbmZpZy5DLkRhdGEuRGlyKQoJCWlmIGVyciA9PSBuaWwgewoJCQlpbmZvLkRhdGFEaXIgPSBhYnNEaXIKCQl9IGVsc2UgewoJCQlpbmZvLkRhdGFEaXIgPSBjb25maWcuQy5EYXRhLkRpcgoJCX0KCX0KCglpZiBydW50aW1lLkdPT1MgPT0gImxpbnV4IiB7CgkJaW5mby5NZW1vcnlUb3RhbCwgaW5mby5NZW1vcnlVc2VkLCBpbmZvLk1lbW9yeUZyZWUgPSBnZXRMaW51eE1lbW9yeSgpCgkJaWYgaW5mby5NZW1vcnlUb3RhbCA+IDAgewoJCQlpbmZvLk1lbW9yeVVzYWdlID0gbWF0aC5Sb3VuZChmbG9hdDY0KGluZm8uTWVtb3J5VXNlZCkvZmxvYXQ2NChpbmZvLk1lbW9yeVRvdGFsKSoxMDAwMCkgLyAxMDAKCQl9CgoJCWluZm8uRGlza1RvdGFsLCBpbmZvLkRpc2tVc2VkLCBpbmZvLkRpc2tGcmVlID0gZ2V0TGludXhEaXNrKCkKCQlpZiBpbmZvLkRpc2tUb3RhbCA+IDAgewoJCQlpbmZvLkRpc2tVc2FnZSA9IG1hdGguUm91bmQoZmxvYXQ2NChpbmZvLkRpc2tVc2VkKS9mbG9hdDY0KGluZm8uRGlza1RvdGFsKSoxMDAwMCkgLyAxMDAKCQl9CgoJCWluZm8uQ1BVVXNhZ2UsIGluZm8uTmV0UnhCeXRlcywgaW5mby5OZXRUeEJ5dGVzLCBpbmZvLk5ldFJ4U3BlZWQsIGluZm8uTmV0VHhTcGVlZCA9IGdldExpbnV4Q1BVQW5kTmV0KCkKCX0KCWlmIHJ1bnRpbWUuR09PUyA9PSAid2luZG93cyIgewoJCWZpbGxXaW5kb3dzUmVzb3VyY2VJbmZvKCZpbmZvKQoJfQoKCXJldHVybiBpbmZvCn0KCmZ1bmMgQ291bnRTY3JpcHRGaWxlcyhzY3JpcHRzRGlyIHN0cmluZykgaW50NjQgewoJdmFyIGNvdW50IGludDY0CglmaWxlcGF0aC5XYWxrKHNjcmlwdHNEaXIsIGZ1bmMocGF0aCBzdHJpbmcsIGluZm8gb3MuRmlsZUluZm8sIGVyciBlcnJvcikgZXJyb3IgewoJCWlmIGVyciAhPSBuaWwgfHwgaW5mbyA9PSBuaWwgewoJCQlyZXR1cm4gbmlsCgkJfQoJCWlmIGluZm8uSXNEaXIoKSB7CgkJCWlmIFNob3VsZElnbm9yZVNjcmlwdFBhdGgoc2NyaXB0c0RpciwgcGF0aCkgewoJCQkJcmV0dXJuIGZpbGVwYXRoLlNraXBEaXIKCQkJfQoJCQlyZXR1cm4gbmlsCgkJfQoJCWlmIFNob3VsZElnbm9yZVNjcmlwdFBhdGgoc2NyaXB0c0RpciwgcGF0aCkgewoJCQlyZXR1cm4gbmlsCgkJfQoJCWNvdW50KysKCQlyZXR1cm4gbmlsCgl9KQoJcmV0dXJuIGNvdW50Cn0KCmZ1bmMgZ2V0UGFuZWxVcHRpbWUoKSBzdHJpbmcgewoJZHVyIDo9IHRpbWUuU2luY2UocGFuZWxTdGFydFRpbWUpCglkYXlzIDo9IGludChkdXIuSG91cnMoKSAvIDI0KQoJaG91cnMgOj0gaW50KGR1ci5Ib3VycygpKSAlIDI0CgltaW5zIDo9IGludChkdXIuTWludXRlcygpKSAlIDYwCgoJaWYgZGF5cyA+IDAgewoJCXJldHVybiBzdHJjb252Lkl0b2EoZGF5cykgKyAi5aSpIiArIHN0cmNvbnYuSXRvYShob3VycykgKyAi5pe2IiArIHN0cmNvbnYuSXRvYShtaW5zKSArICLliIYiCgl9CglpZiBob3VycyA+IDAgewoJCXJldHVybiBzdHJjb252Lkl0b2EoaG91cnMpICsgIuaXtiIgKyBzdHJjb252Lkl0b2EobWlucykgKyAi5YiGIgoJfQoJcmV0dXJuIHN0cmNvbnYuSXRvYShtaW5zKSArICLliIYiCn0KCmZ1bmMgZ2V0TGludXhNZW1vcnkoKSAodG90YWwsIHVzZWQsIGZyZWUgdWludDY0KSB7Cgljb250ZW50LCBlcnIgOj0gb3MuUmVhZEZpbGUoIi9wcm9jL21lbWluZm8iKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuCgl9CglyZXR1cm4gcGFyc2VQcm9jTWVtaW5mbyhjb250ZW50KQp9CgpmdW5jIHBhcnNlUHJvY01lbWluZm8oY29udGVudCBbXWJ5dGUpICh0b3RhbCwgdXNlZCwgZnJlZSB1aW50NjQpIHsKCXZhbHVlcyA6PSBtYWtlKG1hcFtzdHJpbmdddWludDY0KQoJZm9yIF8sIGxpbmUgOj0gcmFuZ2Ugc3RyaW5ncy5TcGxpdChzdHJpbmcoY29udGVudCksICJcbiIpIHsKCQlsaW5lID0gc3RyaW5ncy5UcmltU3BhY2UobGluZSkKCQlpZiBsaW5lID09ICIiIHsKCQkJY29udGludWUKCQl9CgoJCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXROKGxpbmUsICI6IiwgMikKCQlpZiBsZW4ocGFydHMpICE9IDIgewoJCQljb250aW51ZQoJCX0KCgkJZmllbGRzIDo9IHN0cmluZ3MuRmllbGRzKHN0cmluZ3MuVHJpbVNwYWNlKHBhcnRzWzFdKSkKCQlpZiBsZW4oZmllbGRzKSA9PSAwIHsKCQkJY29udGludWUKCQl9CgoJCXZhbHVlLCBlcnIgOj0gc3RyY29udi5QYXJzZVVpbnQoZmllbGRzWzBdLCAxMCwgNjQpCgkJaWYgZXJyICE9IG5pbCB7CgkJCWNvbnRpbnVlCgkJfQoKCQkvLyAvcHJvYy9tZW1pbmZvIHZhbHVlcyBhcmUgcmVwb3J0ZWQgaW4gS2lCLgoJCXZhbHVlc1tzdHJpbmdzLlRyaW1TcGFjZShwYXJ0c1swXSldID0gdmFsdWUgKiAxMDI0Cgl9CgoJdG90YWwgPSB2YWx1ZXNbIk1lbVRvdGFsIl0KCWlmIHRvdGFsID09IDAgewoJCXJldHVybiAwLCAwLCAwCgl9CgoJYXZhaWxhYmxlIDo9IHZhbHVlc1siTWVtQXZhaWxhYmxlIl0KCWlmIGF2YWlsYWJsZSA9PSAwIHsKCQlhdmFpbGFibGUgPSB2YWx1ZXNbIk1lbUZyZWUiXSArIHZhbHVlc1siQnVmZmVycyJdICsgdmFsdWVzWyJDYWNoZWQiXSArIHZhbHVlc1siU1JlY2xhaW1hYmxlIl0KCQlpZiBzaG1lbSA6PSB2YWx1ZXNbIlNobWVtIl07IGF2YWlsYWJsZSA+IHNobWVtIHsKCQkJYXZhaWxhYmxlIC09IHNobWVtCgkJfQoJfQoJaWYgYXZhaWxhYmxlID4gdG90YWwgewoJCWF2YWlsYWJsZSA9IHRvdGFsCgl9CgoJZnJlZSA9IGF2YWlsYWJsZQoJdXNlZCA9IHRvdGFsIC0gYXZhaWxhYmxlCglyZXR1cm4gdG90YWwsIHVzZWQsIGZyZWUKfQoKZnVuYyBnZXRMaW51eERpc2soKSAodG90YWwsIHVzZWQsIGZyZWUgdWludDY0KSB7CglvdXQsIGVyciA6PSBleGVjLkNvbW1hbmQoImRmIiwgIi1CMSIsICIvIikuT3V0cHV0KCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybgoJfQoJbGluZXMgOj0gc3RyaW5ncy5TcGxpdChzdHJpbmcob3V0KSwgIlxuIikKCWlmIGxlbihsaW5lcykgPCAyIHsKCQlyZXR1cm4KCX0KCWZpZWxkcyA6PSBzdHJpbmdzLkZpZWxkcyhsaW5lc1sxXSkKCWlmIGxlbihmaWVsZHMpIDwgNCB7CgkJcmV0dXJuCgl9Cgl0b3RhbCwgXyA9IHN0cmNvbnYuUGFyc2VVaW50KGZpZWxkc1sxXSwgMTAsIDY0KQoJdXNlZCwgXyA9IHN0cmNvbnYuUGFyc2VVaW50KGZpZWxkc1syXSwgMTAsIDY0KQoJZnJlZSwgXyA9IHN0cmNvbnYuUGFyc2VVaW50KGZpZWxkc1szXSwgMTAsIDY0KQoJcmV0dXJuCn0KCmZ1bmMgZ2V0TGludXhDUFUoKSBmbG9hdDY0IHsKCXJlYWRTdGF0IDo9IGZ1bmMoKSAoaWRsZSwgdG90YWwgdWludDY0KSB7CgkJb3V0LCBlcnIgOj0gb3MuUmVhZEZpbGUoIi9wcm9jL3N0YXQiKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4KCQl9CgkJbGluZXMgOj0gc3RyaW5ncy5TcGxpdChzdHJpbmcob3V0KSwgIlxuIikKCQlmb3IgXywgbGluZSA6PSByYW5nZSBsaW5lcyB7CgkJCWlmIHN0cmluZ3MuSGFzUHJlZml4KGxpbmUsICJjcHUgIikgewoJCQkJZmllbGRzIDo9IHN0cmluZ3MuRmllbGRzKGxpbmUpCgkJCQlpZiBsZW4oZmllbGRzKSA8IDUgewoJCQkJCXJldHVybgoJCQkJfQoJCQkJdmFyIHN1bSB1aW50NjQKCQkJCWZvciBfLCBmIDo9IHJhbmdlIGZpZWxkc1sxOl0gewoJCQkJCXYsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoZiwgMTAsIDY0KQoJCQkJCXN1bSArPSB2CgkJCQl9CgkJCQlpZGxlVmFsLCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGZpZWxkc1s0XSwgMTAsIDY0KQoJCQkJcmV0dXJuIGlkbGVWYWwsIHN1bQoJCQl9CgkJfQoJCXJldHVybgoJfQoKCWlkbGUxLCB0b3RhbDEgOj0gcmVhZFN0YXQoKQoJdGltZS5TbGVlcCg1MDAgKiB0aW1lLk1pbGxpc2Vjb25kKQoJaWRsZTIsIHRvdGFsMiA6PSByZWFkU3RhdCgpCgoJdG90YWxEZWx0YSA6PSB0b3RhbDIgLSB0b3RhbDEKCWlkbGVEZWx0YSA6PSBpZGxlMiAtIGlkbGUxCglpZiB0b3RhbERlbHRhID09IDAgewoJCXJldHVybiAwCgl9Cgl1c2FnZSA6PSBmbG9hdDY0KHRvdGFsRGVsdGEtaWRsZURlbHRhKSAvIGZsb2F0NjQodG90YWxEZWx0YSkgKiAxMDAKCXJldHVybiBtYXRoLlJvdW5kKHVzYWdlKjEwMCkgLyAxMDAKfQoKZnVuYyBnZXRMaW51eENQVUFuZE5ldCgpIChjcHVVc2FnZSBmbG9hdDY0LCBuZXRSeCwgbmV0VHggdWludDY0LCByeFNwZWVkLCB0eFNwZWVkIGZsb2F0NjQpIHsKCXJlYWRDUFVTdGF0IDo9IGZ1bmMoKSAoaWRsZSwgdG90YWwgdWludDY0KSB7CgkJb3V0LCBlcnIgOj0gb3MuUmVhZEZpbGUoIi9wcm9jL3N0YXQiKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4KCQl9CgkJZm9yIF8sIGxpbmUgOj0gcmFuZ2Ugc3RyaW5ncy5TcGxpdChzdHJpbmcob3V0KSwgIlxuIikgewoJCQlpZiBzdHJpbmdzLkhhc1ByZWZpeChsaW5lLCAiY3B1ICIpIHsKCQkJCWZpZWxkcyA6PSBzdHJpbmdzLkZpZWxkcyhsaW5lKQoJCQkJaWYgbGVuKGZpZWxkcykgPCA1IHsKCQkJCQlyZXR1cm4KCQkJCX0KCQkJCXZhciBzdW0gdWludDY0CgkJCQlmb3IgXywgZiA6PSByYW5nZSBmaWVsZHNbMTpdIHsKCQkJCQl2LCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGYsIDEwLCA2NCkKCQkJCQlzdW0gKz0gdgoJCQkJfQoJCQkJaWRsZVZhbCwgXyA6PSBzdHJjb252LlBhcnNlVWludChmaWVsZHNbNF0sIDEwLCA2NCkKCQkJCXJldHVybiBpZGxlVmFsLCBzdW0KCQkJfQoJCX0KCQlyZXR1cm4KCX0KCglpZGxlMSwgdG90YWwxIDo9IHJlYWRDUFVTdGF0KCkKCXJ4MSwgdHgxIDo9IGdldExpbnV4TmV0Qnl0ZXMoKQoKCXRpbWUuU2xlZXAoNTAwICogdGltZS5NaWxsaXNlY29uZCkKCglpZGxlMiwgdG90YWwyIDo9IHJlYWRDUFVTdGF0KCkKCXJ4MiwgdHgyIDo9IGdldExpbnV4TmV0Qnl0ZXMoKQoKCXRvdGFsRGVsdGEgOj0gdG90YWwyIC0gdG90YWwxCglpZGxlRGVsdGEgOj0gaWRsZTIgLSBpZGxlMQoJaWYgdG90YWxEZWx0YSA+IDAgewoJCWNwdVVzYWdlID0gbWF0aC5Sb3VuZChmbG9hdDY0KHRvdGFsRGVsdGEtaWRsZURlbHRhKS9mbG9hdDY0KHRvdGFsRGVsdGEpKjEwMDAwKSAvIDEwMAoJfQoKCW5ldFJ4ID0gcngyCgluZXRUeCA9IHR4MgoJaWYgcngyID49IHJ4MSB7CgkJcnhTcGVlZCA9IGZsb2F0NjQocngyLXJ4MSkgKiAyCgl9CglpZiB0eDIgPj0gdHgxIHsKCQl0eFNwZWVkID0gZmxvYXQ2NCh0eDItdHgxKSAqIDIKCX0KCXJldHVybgp9CgpmdW5jIGdldExpbnV4TmV0Qnl0ZXMoKSAocngsIHR4IHVpbnQ2NCkgewoJY29udGVudCwgZXJyIDo9IG9zLlJlYWRGaWxlKCIvcHJvYy9uZXQvZGV2IikKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybgoJfQoJbGluZXMgOj0gc3RyaW5ncy5TcGxpdChzdHJpbmcoY29udGVudCksICJcbiIpCglmb3IgXywgbGluZSA6PSByYW5nZSBsaW5lcyB7CgkJbGluZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCgkJaWYgIXN0cmluZ3MuQ29udGFpbnMobGluZSwgIjoiKSB8fCBzdHJpbmdzLkhhc1ByZWZpeChsaW5lLCAibG86IikgewoJCQljb250aW51ZQoJCX0KCQlwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0TihsaW5lLCAiOiIsIDIpCgkJaWYgbGVuKHBhcnRzKSAhPSAyIHsKCQkJY29udGludWUKCQl9CgkJZmllbGRzIDo9IHN0cmluZ3MuRmllbGRzKHBhcnRzWzFdKQoJCWlmIGxlbihmaWVsZHMpIDwgOSB7CgkJCWNvbnRpbnVlCgkJfQoJCXIsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoZmllbGRzWzBdLCAxMCwgNjQpCgkJdCwgXyA6PSBzdHJjb252LlBhcnNlVWludChmaWVsZHNbOF0sIDEwLCA2NCkKCQlyeCArPSByCgkJdHggKz0gdAoJfQoJcmV0dXJuCn0KCnZhciAoCglyZXNvdXJjZUNoZWNrT25jZSBzeW5jLk9uY2UKCXJlc291cmNlQ2hlY2tTdG9wIGNoYW4gc3RydWN0e30KCWxhc3RXYXJuVGltZSAgICAgIHRpbWUuVGltZQopCgpmdW5jIFN0YXJ0UmVzb3VyY2VXYXRjaGVyKCkgewoJcmVzb3VyY2VDaGVja09uY2UuRG8oZnVuYygpIHsKCQlyZXNvdXJjZUNoZWNrU3RvcCA9IG1ha2UoY2hhbiBzdHJ1Y3R7fSkKCQlnbyByZXNvdXJjZVdhdGNoTG9vcCgpCgkJbG9nLlByaW50bG4oInJlc291cmNlIHdhdGNoZXIgc3RhcnRlZCAoaW50ZXJ2YWw6IDVtaW4pIikKCX0pCn0KCmZ1bmMgU3RvcFJlc291cmNlV2F0Y2hlcigpIHsKCWlmIHJlc291cmNlQ2hlY2tTdG9wICE9IG5pbCB7CgkJY2xvc2UocmVzb3VyY2VDaGVja1N0b3ApCgl9Cn0KCmZ1bmMgcmVzb3VyY2VXYXRjaExvb3AoKSB7Cgl0aWNrZXIgOj0gdGltZS5OZXdUaWNrZXIoNSAqIHRpbWUuTWludXRlKQoJZGVmZXIgdGlja2VyLlN0b3AoKQoKCXRpbWUuU2xlZXAoMzAgKiB0aW1lLlNlY29uZCkKCWNoZWNrUmVzb3VyY2VUaHJlc2hvbGRzKCkKCglmb3IgewoJCXNlbGVjdCB7CgkJY2FzZSA8LXRpY2tlci5DOgoJCQljaGVja1Jlc291cmNlVGhyZXNob2xkcygpCgkJY2FzZSA8LXJlc291cmNlQ2hlY2tTdG9wOgoJCQlyZXR1cm4KCQl9Cgl9Cn0KCmZ1bmMgY2hlY2tSZXNvdXJjZVRocmVzaG9sZHMoKSB7CglpZiAhbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZ0Jvb2woIm5vdGlmeV9vbl9yZXNvdXJjZV93YXJuIikgewoJCXJldHVybgoJfQoKCWlmIHRpbWUuU2luY2UobGFzdFdhcm5UaW1lKSA8IDMwKnRpbWUuTWludXRlIHsKCQlyZXR1cm4KCX0KCglpbmZvIDo9IEdldFJlc291cmNlSW5mbygpCgljcHVUaHJlc2hvbGQgOj0gZmxvYXQ2NChtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnSW50KCJjcHVfd2FybiIpKQoJbWVtVGhyZXNob2xkIDo9IGZsb2F0NjQobW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZ0ludCgibWVtb3J5X3dhcm4iKSkKCWRpc2tUaHJlc2hvbGQgOj0gZmxvYXQ2NChtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnSW50KCJkaXNrX3dhcm4iKSkKCgl2YXIgd2FybmluZ3MgW11zdHJpbmcKCWlmIGluZm8uQ1BVVXNhZ2UgPiBjcHVUaHJlc2hvbGQgewoJCXdhcm5pbmdzID0gYXBwZW5kKHdhcm5pbmdzLCBmbXQuU3ByaW50ZigiQ1BVIOS9v+eUqOeOhyAlLjFmJSUgKOmYiOWAvCAlLjBmJSUpIiwgaW5mby5DUFVVc2FnZSwgY3B1VGhyZXNob2xkKSkKCX0KCWlmIGluZm8uTWVtb3J5VXNhZ2UgPiBtZW1UaHJlc2hvbGQgewoJCXdhcm5pbmdzID0gYXBwZW5kKHdhcm5pbmdzLCBmbXQuU3ByaW50Zigi5YaF5a2Y5L2/55So546HICUuMWYlJSAo6ZiI5YC8ICUuMGYlJSkiLCBpbmZvLk1lbW9yeVVzYWdlLCBtZW1UaHJlc2hvbGQpKQoJfQoJaWYgaW5mby5EaXNrVXNhZ2UgPiBkaXNrVGhyZXNob2xkIHsKCQl3YXJuaW5ncyA9IGFwcGVuZCh3YXJuaW5ncywgZm10LlNwcmludGYoIuejgeebmOS9v+eUqOeOhyAlLjFmJSUgKOmYiOWAvCAlLjBmJSUpIiwgaW5mby5EaXNrVXNhZ2UsIGRpc2tUaHJlc2hvbGQpKQoJfQoKCWlmIGxlbih3YXJuaW5ncykgPiAwIHsKCQlsYXN0V2FyblRpbWUgPSB0aW1lLk5vdygpCgkJY29udGVudCA6PSAi5Lul5LiL6LWE5rqQ5L2/55So6LaF6L+H5ZGK6K2m6ZiI5YC877yaXG5cbiIgKyBzdHJpbmdzLkpvaW4od2FybmluZ3MsICJcbiIpCgkJZ28gU2VuZE5vdGlmaWNhdGlvbigi57O757uf6LWE5rqQ5ZGK6K2mIiwgY29udGVudCkKCQlsb2cuUHJpbnRmKCJyZXNvdXJjZSB3YXJuOiAlcyIsIHN0cmluZ3MuSm9pbih3YXJuaW5ncywgIjsgIikpCgl9Cn0K
+package service
+
+import (
+	"fmt"
+	"log"
+	"math"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strconv"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+)
+
+var panelStartTime = time.Now()
+
+type ResourceInfo struct {
+	Hostname    string  `json:"hostname"`
+	MachineCode string  `json:"machine_code"`
+	CPUUsage    float64 `json:"cpu_usage"`
+	MemoryTotal uint64  `json:"memory_total"`
+	MemoryUsed  uint64  `json:"memory_used"`
+	MemoryFree  uint64  `json:"memory_free"`
+	MemoryUsage float64 `json:"memory_usage"`
+	DiskTotal   uint64  `json:"disk_total"`
+	DiskUsed    uint64  `json:"disk_used"`
+	DiskFree    uint64  `json:"disk_free"`
+	DiskUsage   float64 `json:"disk_usage"`
+	Uptime      string  `json:"uptime"`
+	GoRoutines  int     `json:"goroutines"`
+	GoVersion   string  `json:"go_version"`
+	OS          string  `json:"os"`
+	Arch        string  `json:"arch"`
+	NumCPU      int     `json:"num_cpu"`
+	DataDir     string  `json:"data_dir"`
+	NetRxBytes  uint64  `json:"net_rx_bytes"`
+	NetTxBytes  uint64  `json:"net_tx_bytes"`
+	NetRxSpeed  float64 `json:"net_rx_speed"`
+	NetTxSpeed  float64 `json:"net_tx_speed"`
+}
+
+func GetResourceInfo() ResourceInfo {
+	info := ResourceInfo{
+		Hostname:    "-",
+		MachineCode: EnsureMachineCode(),
+		GoRoutines:  runtime.NumGoroutine(),
+		GoVersion:   runtime.Version(),
+		OS:          runtime.GOOS,
+		Arch:        runtime.GOARCH,
+		NumCPU:      runtime.NumCPU(),
+		Uptime:      getPanelUptime(),
+	}
+
+	if hostname, err := os.Hostname(); err == nil && hostname != "" {
+		info.Hostname = hostname
+	}
+
+	if config.C != nil {
+		absDir, err := filepath.Abs(config.C.Data.Dir)
+		if err == nil {
+			info.DataDir = absDir
+		} else {
+			info.DataDir = config.C.Data.Dir
+		}
+	}
+
+	if runtime.GOOS == "linux" {
+		info.MemoryTotal, info.MemoryUsed, info.MemoryFree = getLinuxMemory()
+		if info.MemoryTotal > 0 {
+			info.MemoryUsage = math.Round(float64(info.MemoryUsed)/float64(info.MemoryTotal)*10000) / 100
+		}
+
+		info.DiskTotal, info.DiskUsed, info.DiskFree = getLinuxDisk()
+		if info.DiskTotal > 0 {
+			info.DiskUsage = math.Round(float64(info.DiskUsed)/float64(info.DiskTotal)*10000) / 100
+		}
+
+		info.CPUUsage, info.NetRxBytes, info.NetTxBytes, info.NetRxSpeed, info.NetTxSpeed = getLinuxCPUAndNet()
+	}
+	if runtime.GOOS == "windows" {
+		fillWindowsResourceInfo(&info)
+	}
+
+	return info
+}
+
+func CountScriptFiles(scriptsDir string) int64 {
+	var count int64
+	filepath.Walk(scriptsDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info == nil {
+			return nil
+		}
+		if info.IsDir() {
+			if ShouldIgnoreScriptPath(scriptsDir, path) {
+				return filepath.SkipDir
+			}
+			return nil
+		}
+		if ShouldIgnoreScriptPath(scriptsDir, path) {
+			return nil
+		}
+		count++
+		return nil
+	})
+	return count
+}
+
+func getPanelUptime() string {
+	dur := time.Since(panelStartTime)
+	days := int(dur.Hours() / 24)
+	hours := int(dur.Hours()) % 24
+	mins := int(dur.Minutes()) % 60
+
+	if days > 0 {
+		return strconv.Itoa(days) + "天" + strconv.Itoa(hours) + "时" + strconv.Itoa(mins) + "分"
+	}
+	if hours > 0 {
+		return strconv.Itoa(hours) + "时" + strconv.Itoa(mins) + "分"
+	}
+	return strconv.Itoa(mins) + "分"
+}
+
+func getLinuxMemory() (total, used, free uint64) {
+	content, err := os.ReadFile("/proc/meminfo")
+	if err != nil {
+		return
+	}
+	return parseProcMeminfo(content)
+}
+
+func parseProcMeminfo(content []byte) (total, used, free uint64) {
+	values := make(map[string]uint64)
+	for _, line := range strings.Split(string(content), "\n") {
+		line = strings.TrimSpace(line)
+		if line == "" {
+			continue
+		}
+
+		parts := strings.SplitN(line, ":", 2)
+		if len(parts) != 2 {
+			continue
+		}
+
+		fields := strings.Fields(strings.TrimSpace(parts[1]))
+		if len(fields) == 0 {
+			continue
+		}
+
+		value, err := strconv.ParseUint(fields[0], 10, 64)
+		if err != nil {
+			continue
+		}
+
+		// /proc/meminfo values are reported in KiB.
+		values[strings.TrimSpace(parts[0])] = value * 1024
+	}
+
+	total = values["MemTotal"]
+	if total == 0 {
+		return 0, 0, 0
+	}
+
+	available := values["MemAvailable"]
+	if available == 0 {
+		available = values["MemFree"] + values["Buffers"] + values["Cached"] + values["SReclaimable"]
+		if shmem := values["Shmem"]; available > shmem {
+			available -= shmem
+		}
+	}
+	if available > total {
+		available = total
+	}
+
+	free = available
+	used = total - available
+	return total, used, free
+}
+
+func getLinuxDisk() (total, used, free uint64) {
+	out, err := exec.Command("df", "-B1", "/").Output()
+	if err != nil {
+		return
+	}
+	lines := strings.Split(string(out), "\n")
+	if len(lines) < 2 {
+		return
+	}
+	fields := strings.Fields(lines[1])
+	if len(fields) < 4 {
+		return
+	}
+	total, _ = strconv.ParseUint(fields[1], 10, 64)
+	used, _ = strconv.ParseUint(fields[2], 10, 64)
+	free, _ = strconv.ParseUint(fields[3], 10, 64)
+	return
+}
+
+func getLinuxCPU() float64 {
+	readStat := func() (idle, total uint64) {
+		out, err := os.ReadFile("/proc/stat")
+		if err != nil {
+			return
+		}
+		lines := strings.Split(string(out), "\n")
+		for _, line := range lines {
+			if strings.HasPrefix(line, "cpu ") {
+				fields := strings.Fields(line)
+				if len(fields) < 5 {
+					return
+				}
+				var sum uint64
+				for _, f := range fields[1:] {
+					v, _ := strconv.ParseUint(f, 10, 64)
+					sum += v
+				}
+				idleVal, _ := strconv.ParseUint(fields[4], 10, 64)
+				return idleVal, sum
+			}
+		}
+		return
+	}
+
+	idle1, total1 := readStat()
+	time.Sleep(500 * time.Millisecond)
+	idle2, total2 := readStat()
+
+	totalDelta := total2 - total1
+	idleDelta := idle2 - idle1
+	if totalDelta == 0 {
+		return 0
+	}
+	usage := float64(totalDelta-idleDelta) / float64(totalDelta) * 100
+	return math.Round(usage*100) / 100
+}
+
+func getLinuxCPUAndNet() (cpuUsage float64, netRx, netTx uint64, rxSpeed, txSpeed float64) {
+	readCPUStat := func() (idle, total uint64) {
+		out, err := os.ReadFile("/proc/stat")
+		if err != nil {
+			return
+		}
+		for _, line := range strings.Split(string(out), "\n") {
+			if strings.HasPrefix(line, "cpu ") {
+				fields := strings.Fields(line)
+				if len(fields) < 5 {
+					return
+				}
+				var sum uint64
+				for _, f := range fields[1:] {
+					v, _ := strconv.ParseUint(f, 10, 64)
+					sum += v
+				}
+				idleVal, _ := strconv.ParseUint(fields[4], 10, 64)
+				return idleVal, sum
+			}
+		}
+		return
+	}
+
+	idle1, total1 := readCPUStat()
+	rx1, tx1 := getLinuxNetBytes()
+
+	time.Sleep(500 * time.Millisecond)
+
+	idle2, total2 := readCPUStat()
+	rx2, tx2 := getLinuxNetBytes()
+
+	totalDelta := total2 - total1
+	idleDelta := idle2 - idle1
+	if totalDelta > 0 {
+		cpuUsage = math.Round(float64(totalDelta-idleDelta)/float64(totalDelta)*10000) / 100
+	}
+
+	netRx = rx2
+	netTx = tx2
+	if rx2 >= rx1 {
+		rxSpeed = float64(rx2-rx1) * 2
+	}
+	if tx2 >= tx1 {
+		txSpeed = float64(tx2-tx1) * 2
+	}
+	return
+}
+
+func getLinuxNetBytes() (rx, tx uint64) {
+	content, err := os.ReadFile("/proc/net/dev")
+	if err != nil {
+		return
+	}
+	lines := strings.Split(string(content), "\n")
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if !strings.Contains(line, ":") || strings.HasPrefix(line, "lo:") {
+			continue
+		}
+		parts := strings.SplitN(line, ":", 2)
+		if len(parts) != 2 {
+			continue
+		}
+		fields := strings.Fields(parts[1])
+		if len(fields) < 9 {
+			continue
+		}
+		r, _ := strconv.ParseUint(fields[0], 10, 64)
+		t, _ := strconv.ParseUint(fields[8], 10, 64)
+		rx += r
+		tx += t
+	}
+	return
+}
+
+var (
+	resourceCheckOnce sync.Once
+	resourceCheckStop chan struct{}
+	lastWarnTime      time.Time
+)
+
+func StartResourceWatcher() {
+	resourceCheckOnce.Do(func() {
+		resourceCheckStop = make(chan struct{})
+		go resourceWatchLoop()
+		log.Println("resource watcher started (interval: 5min)")
+	})
+}
+
+func StopResourceWatcher() {
+	if resourceCheckStop != nil {
+		close(resourceCheckStop)
+	}
+}
+
+func resourceWatchLoop() {
+	ticker := time.NewTicker(5 * time.Minute)
+	defer ticker.Stop()
+
+	time.Sleep(30 * time.Second)
+	checkResourceThresholds()
+
+	for {
+		select {
+		case <-ticker.C:
+			checkResourceThresholds()
+		case <-resourceCheckStop:
+			return
+		}
+	}
+}
+
+func checkResourceThresholds() {
+	if !model.GetRegisteredConfigBool("notify_on_resource_warn") {
+		return
+	}
+
+	if time.Since(lastWarnTime) < 30*time.Minute {
+		return
+	}
+
+	info := GetResourceInfo()
+	cpuThreshold := float64(model.GetRegisteredConfigInt("cpu_warn"))
+	memThreshold := float64(model.GetRegisteredConfigInt("memory_warn"))
+	diskThreshold := float64(model.GetRegisteredConfigInt("disk_warn"))
+
+	var warnings []string
+	if info.CPUUsage > cpuThreshold {
+		warnings = append(warnings, fmt.Sprintf("CPU 使用率 %.1f%% (阈值 %.0f%%)", info.CPUUsage, cpuThreshold))
+	}
+	if info.MemoryUsage > memThreshold {
+		warnings = append(warnings, fmt.Sprintf("内存使用率 %.1f%% (阈值 %.0f%%)", info.MemoryUsage, memThreshold))
+	}
+	if info.DiskUsage > diskThreshold {
+		warnings = append(warnings, fmt.Sprintf("磁盘使用率 %.1f%% (阈值 %.0f%%)", info.DiskUsage, diskThreshold))
+	}
+
+	if len(warnings) > 0 {
+		lastWarnTime = time.Now()
+		content := "以下资源使用超过告警阈值：\n\n" + strings.Join(warnings, "\n")
+		go SendNotification("系统资源告警", content)
+		log.Printf("resource warn: %s", strings.Join(warnings, "; "))
+	}
+}

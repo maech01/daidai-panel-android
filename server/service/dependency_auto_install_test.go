@@ -1,1 +1,210 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKHQgKnRlc3RpbmcuVCkgewoJdC5SdW4oInB5dGhvbiBhbGlhcyIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJY2FuZGlkYXRlIDo9IERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKCIucHkiLCAiTW9kdWxlTm90Rm91bmRFcnJvcjogTm8gbW9kdWxlIG5hbWVkICdDcnlwdG8uSGFzaCciLCB0LlRlbXBEaXIoKSkKCQlpZiBjYW5kaWRhdGUgPT0gbmlsIHsKCQkJdC5GYXRhbCgiZXhwZWN0ZWQgcHl0aG9uIGNhbmRpZGF0ZSIpCgkJfQoJCWlmIGNhbmRpZGF0ZS5NYW5hZ2VyICE9ICJweXRob24iIHx8IGNhbmRpZGF0ZS5QYWNrYWdlTmFtZSAhPSAicHljcnlwdG9kb21lIiB7CgkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIHB5dGhvbiBjYW5kaWRhdGU6ICUrdiIsIGNhbmRpZGF0ZSkKCQl9Cgl9KQoKCXQuUnVuKCJweXRob24gQ3J5cHRvZG9tZSBhbGlhcyBtYXBzIHRvIHB5Y3J5cHRvZG9tZXgiLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCS8vIOWbnuW9ku+8mmZyb20gQ3J5cHRvZG9tZS5QdWJsaWNLZXkgaW1wb3J0IFJTQSDlpLHotKXml7bvvIzlv4XpobsgcGlwIGluc3RhbGwgcHljcnlwdG9kb21leO+8jAoJCS8vIOS4jeiDveWOn+agtyBpbnN0YWxsIENyeXB0b2RvbWXvvIhQeVBJIOayoei/meS4quWQjeWtl++8jOS8muebtOaOpSA0MDTvvInjgIIKCQljYW5kaWRhdGUgOj0gRGV0ZWN0QXV0b0luc3RhbGxDYW5kaWRhdGUoIi5weSIsICJNb2R1bGVOb3RGb3VuZEVycm9yOiBObyBtb2R1bGUgbmFtZWQgJ0NyeXB0b2RvbWUnIiwgdC5UZW1wRGlyKCkpCgkJaWYgY2FuZGlkYXRlID09IG5pbCB7CgkJCXQuRmF0YWwoImV4cGVjdGVkIHB5dGhvbiBjYW5kaWRhdGUiKQoJCX0KCQlpZiBjYW5kaWRhdGUuTWFuYWdlciAhPSAicHl0aG9uIiB8fCBjYW5kaWRhdGUuUGFja2FnZU5hbWUgIT0gInB5Y3J5cHRvZG9tZXgiIHsKCQkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgcHl0aG9uIGNhbmRpZGF0ZTogJSt2IiwgY2FuZGlkYXRlKQoJCX0KCX0pCgoJdC5SdW4oIm5vZGUgcGFja2FnZSIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJY2FuZGlkYXRlIDo9IERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKCIuanMiLCAiRXJyb3I6IENhbm5vdCBmaW5kIG1vZHVsZSAnYXhpb3MnIiwgdC5UZW1wRGlyKCkpCgkJaWYgY2FuZGlkYXRlID09IG5pbCB7CgkJCXQuRmF0YWwoImV4cGVjdGVkIG5vZGUgY2FuZGlkYXRlIikKCQl9CgkJaWYgY2FuZGlkYXRlLk1hbmFnZXIgIT0gIm5vZGVqcyIgfHwgY2FuZGlkYXRlLlBhY2thZ2VOYW1lICE9ICJheGlvcyIgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBub2RlIGNhbmRpZGF0ZTogJSt2IiwgY2FuZGlkYXRlKQoJCX0KCX0pCgoJdC5SdW4oIm5vZGUgcmVsYXRpdmUgbW9kdWxlIGlnbm9yZWQiLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCWNhbmRpZGF0ZSA6PSBEZXRlY3RBdXRvSW5zdGFsbENhbmRpZGF0ZSgiLmpzIiwgIkVycm9yOiBDYW5ub3QgZmluZCBtb2R1bGUgJy4vbG9jYWwtaGVscGVyJyIsIHQuVGVtcERpcigpKQoJCWlmIGNhbmRpZGF0ZSAhPSBuaWwgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgbmlsIGNhbmRpZGF0ZSwgZ290ICUrdiIsIGNhbmRpZGF0ZSkKCQl9Cgl9KQoKCXQuUnVuKCJnbyBtb2R1bGUgcmVxdWlyZXMgZ28ubW9kIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQl3b3JrRGlyIDo9IHQuVGVtcERpcigpCgkJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHdvcmtEaXIsICJnby5tb2QiKSwgW11ieXRlKCJtb2R1bGUgZXhhbXBsZS5jb20vZGVtb1xuXG5nbyAxLjI1XG4iKSwgMDY0NCk7IGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigid3JpdGUgZ28ubW9kOiAldiIsIGVycikKCQl9CgkJY2FuZGlkYXRlIDo9IERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKCIuZ28iLCAibWFpbi5nbzo1OjI6IG5vIHJlcXVpcmVkIG1vZHVsZSBwcm92aWRlcyBwYWNrYWdlIGdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbjsgdG8gYWRkIGl0OlxuXHRnbyBnZXQgZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIiwgd29ya0RpcikKCQlpZiBjYW5kaWRhdGUgPT0gbmlsIHsKCQkJdC5GYXRhbCgiZXhwZWN0ZWQgZ28gY2FuZGlkYXRlIikKCQl9CgkJaWYgY2FuZGlkYXRlLk1hbmFnZXIgIT0gImdvIiB8fCBjYW5kaWRhdGUuUGFja2FnZU5hbWUgIT0gImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBnbyBjYW5kaWRhdGU6ICUrdiIsIGNhbmRpZGF0ZSkKCQl9Cgl9KQoKCXQuUnVuKCJnbyB3aXRob3V0IG1vZHVsZSBtYW5pZmVzdCBpcyBpZ25vcmVkIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQljYW5kaWRhdGUgOj0gRGV0ZWN0QXV0b0luc3RhbGxDYW5kaWRhdGUoIi5nbyIsICJtYWluLmdvOjU6Mjogbm8gcmVxdWlyZWQgbW9kdWxlIHByb3ZpZGVzIHBhY2thZ2UgZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIiwgdC5UZW1wRGlyKCkpCgkJaWYgY2FuZGlkYXRlICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBuaWwgY2FuZGlkYXRlLCBnb3QgJSt2IiwgY2FuZGlkYXRlKQoJCX0KCX0pCgoJdC5SdW4oIm5vZGUgaGludCBucG0gaW5zdGFsbCIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJY2FuZGlkYXRlIDo9IERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKCIuanMiLCBg57y65bCR5pyJ5pWIIGh0dHBzLXByb3h5LWFnZW50IOaooeWdl++8geivt+i/kOihjDogbnBtIGluc3RhbGwgaHR0cHMtcHJveHktYWdlbnRgLCB0LlRlbXBEaXIoKSkKCQlpZiBjYW5kaWRhdGUgPT0gbmlsIHsKCQkJdC5GYXRhbCgiZXhwZWN0ZWQgbm9kZSBjYW5kaWRhdGUgZnJvbSBucG0gaW5zdGFsbCBoaW50IikKCQl9CgkJaWYgY2FuZGlkYXRlLk1hbmFnZXIgIT0gIm5vZGVqcyIgfHwgY2FuZGlkYXRlLlBhY2thZ2VOYW1lICE9ICJodHRwcy1wcm94eS1hZ2VudCIgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBjYW5kaWRhdGU6ICUrdiIsIGNhbmRpZGF0ZSkKCQl9Cgl9KQoKCXQuUnVuKCJweXRob24gaGludCBwaXAgaW5zdGFsbCIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJY2FuZGlkYXRlIDo9IERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKCIucHkiLCBg6K+35YWI5a6J6KOF5L6d6LWWOiBwaXAgaW5zdGFsbCBiZWF1dGlmdWxzb3VwNGAsIHQuVGVtcERpcigpKQoJCWlmIGNhbmRpZGF0ZSA9PSBuaWwgewoJCQl0LkZhdGFsKCJleHBlY3RlZCBweXRob24gY2FuZGlkYXRlIGZyb20gcGlwIGluc3RhbGwgaGludCIpCgkJfQoJCWlmIGNhbmRpZGF0ZS5NYW5hZ2VyICE9ICJweXRob24iIHx8IGNhbmRpZGF0ZS5QYWNrYWdlTmFtZSAhPSAiYmVhdXRpZnVsc291cDQiIHsKCQkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgY2FuZGlkYXRlOiAlK3YiLCBjYW5kaWRhdGUpCgkJfQoJfSkKCgl0LlJ1bigibm9kZSBuYXRpdmUgZXJyb3IgdGFrZXMgcHJpb3JpdHkgb3ZlciBoaW50IiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQlvdXRwdXQgOj0gIkVycm9yOiBDYW5ub3QgZmluZCBtb2R1bGUgJ2F4aW9zJ1xubnBtIGluc3RhbGwgYXhpb3MgdG8gZml4IgoJCWNhbmRpZGF0ZSA6PSBEZXRlY3RBdXRvSW5zdGFsbENhbmRpZGF0ZSgiLmpzIiwgb3V0cHV0LCB0LlRlbXBEaXIoKSkKCQlpZiBjYW5kaWRhdGUgPT0gbmlsIHsKCQkJdC5GYXRhbCgiZXhwZWN0ZWQgY2FuZGlkYXRlIikKCQl9CgkJaWYgY2FuZGlkYXRlLlBhY2thZ2VOYW1lICE9ICJheGlvcyIgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXhpb3MsIGdvdCAlcyIsIGNhbmRpZGF0ZS5QYWNrYWdlTmFtZSkKCQl9Cgl9KQoKCXQuUnVuKCJweXRob24gbG9jYWwgc28gbm90IGluc3RhbGxlZCIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJd29ya0RpciA6PSB0LlRlbXBEaXIoKQoJCW9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHdvcmtEaXIsICJsb2FkZXJfdjIuc28iKSwgW11ieXRle30sIDA2NDQpCgkJY2FuZGlkYXRlIDo9IERldGVjdEF1dG9JbnN0YWxsQ2FuZGlkYXRlKCIucHkiLCAiTW9kdWxlTm90Rm91bmRFcnJvcjogTm8gbW9kdWxlIG5hbWVkICdsb2FkZXJfdjInIiwgd29ya0RpcikKCQlpZiBjYW5kaWRhdGUgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIG5pbCBmb3IgbG9jYWwgLnNvIGZpbGUsIGdvdCAlK3YiLCBjYW5kaWRhdGUpCgkJfQoJfSkKfQoKLy8g5Zue5b2S77yadjIuMi40IOmHjeaehOaJmOeuoSB2ZW52IGJvb3RzdHJhcCDml7bmvI/kuoYgdmVudkRpciDlj4LmlbDvvIzlr7zoh7QgdmVudiDmsLjov5zlu7rkuI3lh7rmnaXvvIwKLy8g6Ieq5Yqo5a6J6KOF6LWw5Yiw57O757ufIHBpcCDop6blj5EgQWxwaW5lL0RlYmlhbiDnmoQgUEVQIDY2OCAiZXh0ZXJuYWxseS1tYW5hZ2VkLWVudmlyb25tZW50IuOAggovLyDkv67lpI3lkI4gUmVzb2x2ZVBpcEluc3RhbGxDb21tYW5kIOW/hemhu+WcqCB2ZW52IOe8uuWkseaXtuWbniBmYWxsYmFjayBmbGFn44CCCmZ1bmMgVGVzdElzRXh0ZXJuYWxseU1hbmFnZWRFcnJvck1hdGNoZXModCAqdGVzdGluZy5UKSB7CglzYW1wbGVzIDo9IFtdc3RyaW5newoJCSJlcnJvcjogZXh0ZXJuYWxseS1tYW5hZ2VkLWVudmlyb25tZW50XG5cblRoaXMgZW52aXJvbm1lbnQgaXMgZXh0ZXJuYWxseSBtYW5hZ2VkIiwKCQkiw5cgVGhpcyBlbnZpcm9ubWVudCBpcyBleHRlcm5hbGx5IG1hbmFnZWQiLAoJCSIgIGV4dGVybmFsbHktbWFuYWdlZC1lbnZpcm9ubWVudFxuIiwKCX0KCWZvciBfLCBzIDo9IHJhbmdlIHNhbXBsZXMgewoJCWlmICFJc0V4dGVybmFsbHlNYW5hZ2VkRXJyb3IoW11ieXRlKHMpKSB7CgkJCXQuRmF0YWxmKCJzaG91bGQgZGV0ZWN0IFBFUCA2NjggaW46ICVxIiwgcykKCQl9Cgl9CgoJbmVnYXRpdmVzIDo9IFtdc3RyaW5newoJCSJFUlJPUjogQ291bGQgbm90IGZpbmQgYSB2ZXJzaW9uIHRoYXQgc2F0aXNmaWVzIHRoZSByZXF1aXJlbWVudCBmb28iLAoJCSJXQVJOSU5HOiBwaXAgaXMgY29uZmlndXJlZCB3aXRoIGxvY2F0aW9ucyB0aGF0IHJlcXVpcmUgVExTL1NTTCIsCgkJIiIsCgl9Cglmb3IgXywgcyA6PSByYW5nZSBuZWdhdGl2ZXMgewoJCWlmIElzRXh0ZXJuYWxseU1hbmFnZWRFcnJvcihbXWJ5dGUocykpIHsKCQkJdC5GYXRhbGYoInNob3VsZCBOT1QgZGV0ZWN0IFBFUCA2NjggaW46ICVxIiwgcykKCQl9Cgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkUGlwSW5zdGFsbEFyZ3NLZWVwc09yZGVyKHQgKnRlc3RpbmcuVCkgewoJZ290IDo9IEJ1aWxkUGlwSW5zdGFsbEFyZ3MoW11zdHJpbmd7Ii0tYnJlYWstc3lzdGVtLXBhY2thZ2VzIiwgIi0tdXNlciJ9LCAicmVxdWVzdHMiKQoJd2FudCA6PSBbXXN0cmluZ3siaW5zdGFsbCIsICItLWJyZWFrLXN5c3RlbS1wYWNrYWdlcyIsICItLXVzZXIiLCAicmVxdWVzdHMifQoJaWYgbGVuKGdvdCkgIT0gbGVuKHdhbnQpIHsKCQl0LkZhdGFsZigibGVuIG1pc21hdGNoOiBnb3Q9JXYgd2FudD0ldiIsIGdvdCwgd2FudCkKCX0KCWZvciBpIDo9IHJhbmdlIGdvdCB7CgkJaWYgZ290W2ldICE9IHdhbnRbaV0gewoJCQl0LkZhdGFsZigiYXJnICVkIG1pc21hdGNoOiBnb3Q9JXEgd2FudD0lcSIsIGksIGdvdFtpXSwgd2FudFtpXSkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkUGlwVW5pbnN0YWxsQXJnc0Ryb3BzVXNlckZsYWcodCAqdGVzdGluZy5UKSB7CgkvLyAtLXVzZXIg5ZyoIHVuaW5zdGFsbCDml7bmmK/pnZ7ms5XnmoTvvIzlv4XpobvooqvliaXnprvvvJstLWJyZWFrLXN5c3RlbS1wYWNrYWdlcyDku43opoHkv53nlZnjgIIKCWdvdCA6PSBCdWlsZFBpcFVuaW5zdGFsbEFyZ3MoW11zdHJpbmd7Ii0tYnJlYWstc3lzdGVtLXBhY2thZ2VzIiwgIi0tdXNlciJ9LCAicmVxdWVzdHMiLCAiLS1uby1kZXBzIikKCWZvciBfLCBhcmcgOj0gcmFuZ2UgZ290IHsKCQlpZiBhcmcgPT0gIi0tdXNlciIgewoJCQl0LkZhdGFsZigiLS11c2VyIHNob3VsZCBiZSBzdHJpcHBlZCBmcm9tIHVuaW5zdGFsbCBhcmdzLCBnb3QgJXYiLCBnb3QpCgkJfQoJfQoJaWYgZ290WzBdICE9ICJ1bmluc3RhbGwiIHx8IGdvdFsxXSAhPSAiLXkiIHsKCQl0LkZhdGFsZigidW5pbnN0YWxsIGFyZ3Mgc2hvdWxkIHN0YXJ0IHdpdGggYHVuaW5zdGFsbCAteWAsIGdvdCAldiIsIGdvdCkKCX0KCgloYXNCcmVhayA6PSBmYWxzZQoJaGFzTm9EZXBzIDo9IGZhbHNlCgloYXNQa2cgOj0gZmFsc2UKCWZvciBfLCBhcmcgOj0gcmFuZ2UgZ290IHsKCQlzd2l0Y2ggYXJnIHsKCQljYXNlICItLWJyZWFrLXN5c3RlbS1wYWNrYWdlcyI6CgkJCWhhc0JyZWFrID0gdHJ1ZQoJCWNhc2UgIi0tbm8tZGVwcyI6CgkJCWhhc05vRGVwcyA9IHRydWUKCQljYXNlICJyZXF1ZXN0cyI6CgkJCWhhc1BrZyA9IHRydWUKCQl9Cgl9CglpZiAhaGFzQnJlYWsgfHwgIWhhc05vRGVwcyB8fCAhaGFzUGtnIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgLS1icmVhay1zeXN0ZW0tcGFja2FnZXMsIC0tbm8tZGVwcywgcmVxdWVzdHMgYWxsIHByZXNlbnQsIGdvdCAldiIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0UGlwQ29tbWFuZEZvclJlcXVlc3RlZFZlcnNpb25Eb2VzTm90RmFsbGJhY2tUb1BpcDModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCXQuU2V0ZW52KCJQQVRIIiwgdC5UZW1wRGlyKCkpCgoJaWYgXywgZXJyIDo9IE5ld1BpcENvbW1hbmRGb3JQeXRob25WZXJzaW9uKCIzLjEwIiwgW11zdHJpbmd7Imxpc3QifSk7IGVyciA9PSBuaWwgewoJCXQuRmF0YWwoImV4cGVjdGVkIG1pc3NpbmcgUHl0aG9uIDMuMTAgdG8gcmV0dXJuIGFuIGVycm9yIGluc3RlYWQgb2YgZmFsbGluZyBiYWNrIHRvIHBpcDMiKQoJfQoJaWYgYmluYXJ5LCBfLCBfIDo9IFJlc29sdmVQaXBJbnN0YWxsQ29tbWFuZEZvclB5dGhvblZlcnNpb24oIjMuMTAiKTsgYmluYXJ5ICE9ICIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm8gcGlwIGJpbmFyeSBmb3IgbWlzc2luZyBQeXRob24gMy4xMCwgZ290ICVxIiwgYmluYXJ5KQoJfQp9CgpmdW5jIFRlc3RQaXBDb21tYW5kUmVqZWN0c1Vuc3VwcG9ydGVkU2luZ2xlUnVudGltZVZlcnNpb24odCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCXQuU2V0ZW52KCJEQUlEQUlfUFlUSE9OX1JVTlRJTUVfTU9ERSIsICJzaW5nbGUiKQoJdC5TZXRlbnYoIkRBSURBSV9QWVRIT05fVkVSU0lPTiIsICIzLjEyIikKCgkvLyDljZXniYjmnKzplZzlg4/ph4zkuI3og73lgbflgbfmioogMy4xMCDnmoTlronoo4Xor7fmsYIgZmFsbGJhY2sg5YiwIHBpcDPvvIwKCS8vIOWQpuWImeeUqOaIt+eci+WIsOeahOaYryAzLjEwIOS+nei1lu+8jOWunumZheWNtOijhei/m+S6hiAzLjEyIOeOr+Wig+OAggoJXywgZXJyIDo9IE5ld1BpcENvbW1hbmRGb3JQeXRob25WZXJzaW9uKCIzLjEwIiwgW11zdHJpbmd7Imxpc3QifSkKCWlmIGVyciA9PSBuaWwgewoJCXQuRmF0YWwoImV4cGVjdGVkIHVuc3VwcG9ydGVkIFB5dGhvbiAzLjEwIHRvIHJldHVybiBhbiBlcnJvciBpbiBzaW5nbGUgMy4xMiBpbWFnZSIpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhlcnIuRXJyb3IoKSwgIuW9k+WJjemVnOWDj+S4jeaUr+aMgSBQeXRob24gMy4xMCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdW5zdXBwb3J0ZWQgcnVudGltZSBlcnJvciwgZ290ICV2IiwgZXJyKQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/testutil"
+)
+
+func TestDetectAutoInstallCandidate(t *testing.T) {
+	t.Run("python alias", func(t *testing.T) {
+		candidate := DetectAutoInstallCandidate(".py", "ModuleNotFoundError: No module named 'Crypto.Hash'", t.TempDir())
+		if candidate == nil {
+			t.Fatal("expected python candidate")
+		}
+		if candidate.Manager != "python" || candidate.PackageName != "pycryptodome" {
+			t.Fatalf("unexpected python candidate: %+v", candidate)
+		}
+	})
+
+	t.Run("python Cryptodome alias maps to pycryptodomex", func(t *testing.T) {
+		// 回归：from Cryptodome.PublicKey import RSA 失败时，必须 pip install pycryptodomex，
+		// 不能原样 install Cryptodome（PyPI 没这个名字，会直接 404）。
+		candidate := DetectAutoInstallCandidate(".py", "ModuleNotFoundError: No module named 'Cryptodome'", t.TempDir())
+		if candidate == nil {
+			t.Fatal("expected python candidate")
+		}
+		if candidate.Manager != "python" || candidate.PackageName != "pycryptodomex" {
+			t.Fatalf("unexpected python candidate: %+v", candidate)
+		}
+	})
+
+	t.Run("node package", func(t *testing.T) {
+		candidate := DetectAutoInstallCandidate(".js", "Error: Cannot find module 'axios'", t.TempDir())
+		if candidate == nil {
+			t.Fatal("expected node candidate")
+		}
+		if candidate.Manager != "nodejs" || candidate.PackageName != "axios" {
+			t.Fatalf("unexpected node candidate: %+v", candidate)
+		}
+	})
+
+	t.Run("node relative module ignored", func(t *testing.T) {
+		candidate := DetectAutoInstallCandidate(".js", "Error: Cannot find module './local-helper'", t.TempDir())
+		if candidate != nil {
+			t.Fatalf("expected nil candidate, got %+v", candidate)
+		}
+	})
+
+	t.Run("go module requires go.mod", func(t *testing.T) {
+		workDir := t.TempDir()
+		if err := os.WriteFile(filepath.Join(workDir, "go.mod"), []byte("module example.com/demo\n\ngo 1.25\n"), 0644); err != nil {
+			t.Fatalf("write go.mod: %v", err)
+		}
+		candidate := DetectAutoInstallCandidate(".go", "main.go:5:2: no required module provides package github.com/gin-gonic/gin; to add it:\n\tgo get github.com/gin-gonic/gin", workDir)
+		if candidate == nil {
+			t.Fatal("expected go candidate")
+		}
+		if candidate.Manager != "go" || candidate.PackageName != "github.com/gin-gonic/gin" {
+			t.Fatalf("unexpected go candidate: %+v", candidate)
+		}
+	})
+
+	t.Run("go without module manifest is ignored", func(t *testing.T) {
+		candidate := DetectAutoInstallCandidate(".go", "main.go:5:2: no required module provides package github.com/gin-gonic/gin", t.TempDir())
+		if candidate != nil {
+			t.Fatalf("expected nil candidate, got %+v", candidate)
+		}
+	})
+
+	t.Run("node hint npm install", func(t *testing.T) {
+		candidate := DetectAutoInstallCandidate(".js", `缺少有效 https-proxy-agent 模块！请运行: npm install https-proxy-agent`, t.TempDir())
+		if candidate == nil {
+			t.Fatal("expected node candidate from npm install hint")
+		}
+		if candidate.Manager != "nodejs" || candidate.PackageName != "https-proxy-agent" {
+			t.Fatalf("unexpected candidate: %+v", candidate)
+		}
+	})
+
+	t.Run("python hint pip install", func(t *testing.T) {
+		candidate := DetectAutoInstallCandidate(".py", `请先安装依赖: pip install beautifulsoup4`, t.TempDir())
+		if candidate == nil {
+			t.Fatal("expected python candidate from pip install hint")
+		}
+		if candidate.Manager != "python" || candidate.PackageName != "beautifulsoup4" {
+			t.Fatalf("unexpected candidate: %+v", candidate)
+		}
+	})
+
+	t.Run("node native error takes priority over hint", func(t *testing.T) {
+		output := "Error: Cannot find module 'axios'\nnpm install axios to fix"
+		candidate := DetectAutoInstallCandidate(".js", output, t.TempDir())
+		if candidate == nil {
+			t.Fatal("expected candidate")
+		}
+		if candidate.PackageName != "axios" {
+			t.Fatalf("expected axios, got %s", candidate.PackageName)
+		}
+	})
+
+	t.Run("python local so not installed", func(t *testing.T) {
+		workDir := t.TempDir()
+		os.WriteFile(filepath.Join(workDir, "loader_v2.so"), []byte{}, 0644)
+		candidate := DetectAutoInstallCandidate(".py", "ModuleNotFoundError: No module named 'loader_v2'", workDir)
+		if candidate != nil {
+			t.Fatalf("expected nil for local .so file, got %+v", candidate)
+		}
+	})
+}
+
+// 回归：v2.2.4 重构托管 venv bootstrap 时漏了 venvDir 参数，导致 venv 永远建不出来，
+// 自动安装走到系统 pip 触发 Alpine/Debian 的 PEP 668 "externally-managed-environment"。
+// 修复后 ResolvePipInstallCommand 必须在 venv 缺失时回 fallback flag。
+func TestIsExternallyManagedErrorMatches(t *testing.T) {
+	samples := []string{
+		"error: externally-managed-environment\n\nThis environment is externally managed",
+		"× This environment is externally managed",
+		"  externally-managed-environment\n",
+	}
+	for _, s := range samples {
+		if !IsExternallyManagedError([]byte(s)) {
+			t.Fatalf("should detect PEP 668 in: %q", s)
+		}
+	}
+
+	negatives := []string{
+		"ERROR: Could not find a version that satisfies the requirement foo",
+		"WARNING: pip is configured with locations that require TLS/SSL",
+		"",
+	}
+	for _, s := range negatives {
+		if IsExternallyManagedError([]byte(s)) {
+			t.Fatalf("should NOT detect PEP 668 in: %q", s)
+		}
+	}
+}
+
+func TestBuildPipInstallArgsKeepsOrder(t *testing.T) {
+	got := BuildPipInstallArgs([]string{"--break-system-packages", "--user"}, "requests")
+	want := []string{"install", "--break-system-packages", "--user", "requests"}
+	if len(got) != len(want) {
+		t.Fatalf("len mismatch: got=%v want=%v", got, want)
+	}
+	for i := range got {
+		if got[i] != want[i] {
+			t.Fatalf("arg %d mismatch: got=%q want=%q", i, got[i], want[i])
+		}
+	}
+}
+
+func TestBuildPipUninstallArgsDropsUserFlag(t *testing.T) {
+	// --user 在 uninstall 时是非法的，必须被剥离；--break-system-packages 仍要保留。
+	got := BuildPipUninstallArgs([]string{"--break-system-packages", "--user"}, "requests", "--no-deps")
+	for _, arg := range got {
+		if arg == "--user" {
+			t.Fatalf("--user should be stripped from uninstall args, got %v", got)
+		}
+	}
+	if got[0] != "uninstall" || got[1] != "-y" {
+		t.Fatalf("uninstall args should start with `uninstall -y`, got %v", got)
+	}
+
+	hasBreak := false
+	hasNoDeps := false
+	hasPkg := false
+	for _, arg := range got {
+		switch arg {
+		case "--break-system-packages":
+			hasBreak = true
+		case "--no-deps":
+			hasNoDeps = true
+		case "requests":
+			hasPkg = true
+		}
+	}
+	if !hasBreak || !hasNoDeps || !hasPkg {
+		t.Fatalf("expected --break-system-packages, --no-deps, requests all present, got %v", got)
+	}
+}
+
+func TestPipCommandForRequestedVersionDoesNotFallbackToPip3(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	t.Setenv("PATH", t.TempDir())
+
+	if _, err := NewPipCommandForPythonVersion("3.10", []string{"list"}); err == nil {
+		t.Fatal("expected missing Python 3.10 to return an error instead of falling back to pip3")
+	}
+	if binary, _, _ := ResolvePipInstallCommandForPythonVersion("3.10"); binary != "" {
+		t.Fatalf("expected no pip binary for missing Python 3.10, got %q", binary)
+	}
+}
+
+func TestPipCommandRejectsUnsupportedSingleRuntimeVersion(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	t.Setenv("DAIDAI_PYTHON_RUNTIME_MODE", "single")
+	t.Setenv("DAIDAI_PYTHON_VERSION", "3.12")
+
+	// 单版本镜像里不能偷偷把 3.10 的安装请求 fallback 到 pip3，
+	// 否则用户看到的是 3.10 依赖，实际却装进了 3.12 环境。
+	_, err := NewPipCommandForPythonVersion("3.10", []string{"list"})
+	if err == nil {
+		t.Fatal("expected unsupported Python 3.10 to return an error in single 3.12 image")
+	}
+	if !strings.Contains(err.Error(), "当前镜像不支持 Python 3.10") {
+		t.Fatalf("expected unsupported runtime error, got %v", err)
+	}
+}

@@ -1,1 +1,120 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInJlZ2V4cCIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKLy8gTWF0Y2hlcyBhbiBSRkMgNDEyMiB2NCBVVUlEIGluIHVwcGVyY2FzZSBmb3JtLCBlLmcuIEExQjJDM0Q0LUU1RjYtNDc4OS1BQkNELTEyMzQ1Njc4OTBBQi4KdmFyIG1hY2hpbmVDb2RlRm9ybWF0UmUgPSByZWdleHAuTXVzdENvbXBpbGUoYF5bMC05QS1GXXs4fS1bMC05QS1GXXs0fS00WzAtOUEtRl17M30tWzg5QUJdWzAtOUEtRl17M30tWzAtOUEtRl17MTJ9JGApCgpmdW5jIFRlc3RFbnN1cmVNYWNoaW5lQ29kZUdlbmVyYXRlc0FuZFBlcnNpc3RzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglSZXNldE1hY2hpbmVDb2RlQ2FjaGVGb3JUZXN0KCkKCglmaXJzdCA6PSBFbnN1cmVNYWNoaW5lQ29kZSgpCglpZiAhbWFjaGluZUNvZGVGb3JtYXRSZS5NYXRjaFN0cmluZyhmaXJzdCkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1cHBlcmNhc2UgVVVJRCB2NCBtYWNoaW5lIGNvZGUsIGdvdCAlcSIsIGZpcnN0KQoJfQoKCXNlY29uZCA6PSBFbnN1cmVNYWNoaW5lQ29kZSgpCglpZiBzZWNvbmQgIT0gZmlyc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXBlYXRlZCBjYWxscyB0byByZXR1cm4gdGhlIHNhbWUgY29kZSwgZ290ICVxIHZzICVxIiwgZmlyc3QsIHNlY29uZCkKCX0KCgl2YXIgcm93IG1vZGVsLlN5c3RlbUNvbmZpZwoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJga2V5YCA9ID8iLCAibWFjaGluZV9jb2RlIikuRmlyc3QoJnJvdykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJxdWVyeSBwZXJzaXN0ZWQgbWFjaGluZV9jb2RlIHJvdzogJXYiLCBlcnIpCgl9CglpZiByb3cuVmFsdWUgIT0gZmlyc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwZXJzaXN0ZWQgdmFsdWUgJXEsIGdvdCAlcSIsIGZpcnN0LCByb3cuVmFsdWUpCgl9Cn0KCmZ1bmMgVGVzdEVuc3VyZU1hY2hpbmVDb2RlU3Vydml2ZXNDYWNoZVJlc2V0QW5kUmV0dXJuc1N0b3JlZFZhbHVlKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglSZXNldE1hY2hpbmVDb2RlQ2FjaGVGb3JUZXN0KCkKCglvcmlnaW5hbCA6PSBFbnN1cmVNYWNoaW5lQ29kZSgpCgoJLy8gU2ltdWxhdGUgYSBwcm9jZXNzIHJlc3RhcnQ6IGRyb3AgaW4tbWVtb3J5IGNhY2hlLCBrZWVwIERCIHJvdy4KCVJlc2V0TWFjaGluZUNvZGVDYWNoZUZvclRlc3QoKQoKCXJlbG9hZGVkIDo9IEVuc3VyZU1hY2hpbmVDb2RlKCkKCWlmIHJlbG9hZGVkICE9IG9yaWdpbmFsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RvcmVkIGNvZGUgdG8gc3Vydml2ZSBjYWNoZSByZXNldCwgZ290ICVxIG9yaWdpbmFsbHksICVxIGFmdGVyIHJlc2V0Iiwgb3JpZ2luYWwsIHJlbG9hZGVkKQoJfQp9CgpmdW5jIFRlc3RFbnN1cmVNYWNoaW5lQ29kZUZpbGxzQmxhbmtFeGlzdGluZ1Jvdyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJUmVzZXRNYWNoaW5lQ29kZUNhY2hlRm9yVGVzdCgpCgoJYmxhbmsgOj0gbW9kZWwuU3lzdGVtQ29uZmlne0tleTogIm1hY2hpbmVfY29kZSIsIFZhbHVlOiAiIiwgRGVzY3JpcHRpb246ICJibGFuayJ9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZibGFuaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZWVkIGJsYW5rIHJvdzogJXYiLCBlcnIpCgl9CgoJY29kZSA6PSBFbnN1cmVNYWNoaW5lQ29kZSgpCglpZiAhbWFjaGluZUNvZGVGb3JtYXRSZS5NYXRjaFN0cmluZyhjb2RlKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGdlbmVyYXRlZCBjb2RlIGZvciBibGFuayByb3csIGdvdCAlcSIsIGNvZGUpCgl9CgoJdmFyIHJvdyBtb2RlbC5TeXN0ZW1Db25maWcKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiYGtleWAgPSA/IiwgIm1hY2hpbmVfY29kZSIpLkZpcnN0KCZyb3cpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicXVlcnkgcm93OiAldiIsIGVycikKCX0KCWlmIHJvdy5WYWx1ZSAhPSBjb2RlIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYmxhbmsgcm93IGZpbGxlZCB3aXRoICVxLCBnb3QgJXEiLCBjb2RlLCByb3cuVmFsdWUpCgl9Cn0KCmZ1bmMgVGVzdEVuc3VyZU1hY2hpbmVDb2RlTWlncmF0ZXNMZWdhY3lWYWx1ZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJUmVzZXRNYWNoaW5lQ29kZUNhY2hlRm9yVGVzdCgpCgoJbGVnYWN5VmFsdWUgOj0gIjAxMjMtNDU2Ny04OUFCLUNERUYtMTAzMi01NDc2LTk4QkEtRENGRSIKCWlmIG1hY2hpbmVDb2RlRm9ybWF0UmUuTWF0Y2hTdHJpbmcobGVnYWN5VmFsdWUpIHsKCQl0LkZhdGFsZigidGVzdCBzZXR1cCBlcnJvcjogbGVnYWN5IHZhbHVlICVxIHVuZXhwZWN0ZWRseSBtYXRjaGVzIFVVSUQgdjQgcGF0dGVybiIsIGxlZ2FjeVZhbHVlKQoJfQoJbGVnYWN5IDo9IG1vZGVsLlN5c3RlbUNvbmZpZ3tLZXk6ICJtYWNoaW5lX2NvZGUiLCBWYWx1ZTogbGVnYWN5VmFsdWUsIERlc2NyaXB0aW9uOiAibGVnYWN5In0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJmxlZ2FjeSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZWVkIGxlZ2FjeSByb3c6ICV2IiwgZXJyKQoJfQoKCWNvZGUgOj0gRW5zdXJlTWFjaGluZUNvZGUoKQoJaWYgIW1hY2hpbmVDb2RlRm9ybWF0UmUuTWF0Y2hTdHJpbmcoY29kZSkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaWdyYXRlZCBjb2RlIHRvIGJlIHVwcGVyY2FzZSBVVUlEIHY0LCBnb3QgJXEiLCBjb2RlKQoJfQoJaWYgY29kZSA9PSBsZWdhY3lWYWx1ZSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGxlZ2FjeSB2YWx1ZSB0byBiZSByZXBsYWNlZCwgc3RpbGwgZ290ICVxIiwgY29kZSkKCX0KCgl2YXIgcm93IG1vZGVsLlN5c3RlbUNvbmZpZwoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJga2V5YCA9ID8iLCAibWFjaGluZV9jb2RlIikuRmlyc3QoJnJvdykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJxdWVyeSByb3c6ICV2IiwgZXJyKQoJfQoJaWYgcm93LlZhbHVlICE9IGNvZGUgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwZXJzaXN0ZWQgdmFsdWUgJXEgYWZ0ZXIgbWlncmF0aW9uLCBnb3QgJXEiLCBjb2RlLCByb3cuVmFsdWUpCgl9Cn0KCmZ1bmMgVGVzdEdlbmVyYXRlTWFjaGluZUNvZGVGb3JtYXQodCAqdGVzdGluZy5UKSB7CglmaXJzdCA6PSBnZW5lcmF0ZU1hY2hpbmVDb2RlKCkKCWlmICFtYWNoaW5lQ29kZUZvcm1hdFJlLk1hdGNoU3RyaW5nKGZpcnN0KSB7CgkJdC5GYXRhbGYoImdlbmVyYXRlTWFjaGluZUNvZGU6IGV4cGVjdGVkIHVwcGVyY2FzZSBVVUlEIHY0LCBnb3QgJXEiLCBmaXJzdCkKCX0KCglzZWNvbmQgOj0gZ2VuZXJhdGVNYWNoaW5lQ29kZSgpCglpZiAhbWFjaGluZUNvZGVGb3JtYXRSZS5NYXRjaFN0cmluZyhzZWNvbmQpIHsKCQl0LkZhdGFsZigiZ2VuZXJhdGVNYWNoaW5lQ29kZTogZXhwZWN0ZWQgdXBwZXJjYXNlIFVVSUQgdjQgb24gc2Vjb25kIGNhbGwsIGdvdCAlcSIsIHNlY29uZCkKCX0KCglpZiBmaXJzdCA9PSBzZWNvbmQgewoJCXQuRmF0YWxmKCJnZW5lcmF0ZU1hY2hpbmVDb2RlIHNob3VsZCBwcm9kdWNlIGRpc3RpbmN0IHJhbmRvbSB2YWx1ZXMsIGdvdCBkdXBsaWNhdGUgJXEiLCBmaXJzdCkKCX0KfQo=
+package service
+
+import (
+	"regexp"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+// Matches an RFC 4122 v4 UUID in uppercase form, e.g. A1B2C3D4-E5F6-4789-ABCD-1234567890AB.
+var machineCodeFormatRe = regexp.MustCompile(`^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$`)
+
+func TestEnsureMachineCodeGeneratesAndPersists(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	ResetMachineCodeCacheForTest()
+
+	first := EnsureMachineCode()
+	if !machineCodeFormatRe.MatchString(first) {
+		t.Fatalf("expected uppercase UUID v4 machine code, got %q", first)
+	}
+
+	second := EnsureMachineCode()
+	if second != first {
+		t.Fatalf("expected repeated calls to return the same code, got %q vs %q", first, second)
+	}
+
+	var row model.SystemConfig
+	if err := database.DB.Where("`key` = ?", "machine_code").First(&row).Error; err != nil {
+		t.Fatalf("query persisted machine_code row: %v", err)
+	}
+	if row.Value != first {
+		t.Fatalf("expected persisted value %q, got %q", first, row.Value)
+	}
+}
+
+func TestEnsureMachineCodeSurvivesCacheResetAndReturnsStoredValue(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	ResetMachineCodeCacheForTest()
+
+	original := EnsureMachineCode()
+
+	// Simulate a process restart: drop in-memory cache, keep DB row.
+	ResetMachineCodeCacheForTest()
+
+	reloaded := EnsureMachineCode()
+	if reloaded != original {
+		t.Fatalf("expected stored code to survive cache reset, got %q originally, %q after reset", original, reloaded)
+	}
+}
+
+func TestEnsureMachineCodeFillsBlankExistingRow(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	ResetMachineCodeCacheForTest()
+
+	blank := model.SystemConfig{Key: "machine_code", Value: "", Description: "blank"}
+	if err := database.DB.Create(&blank).Error; err != nil {
+		t.Fatalf("seed blank row: %v", err)
+	}
+
+	code := EnsureMachineCode()
+	if !machineCodeFormatRe.MatchString(code) {
+		t.Fatalf("expected generated code for blank row, got %q", code)
+	}
+
+	var row model.SystemConfig
+	if err := database.DB.Where("`key` = ?", "machine_code").First(&row).Error; err != nil {
+		t.Fatalf("query row: %v", err)
+	}
+	if row.Value != code {
+		t.Fatalf("expected blank row filled with %q, got %q", code, row.Value)
+	}
+}
+
+func TestEnsureMachineCodeMigratesLegacyValue(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	ResetMachineCodeCacheForTest()
+
+	legacyValue := "0123-4567-89AB-CDEF-1032-5476-98BA-DCFE"
+	if machineCodeFormatRe.MatchString(legacyValue) {
+		t.Fatalf("test setup error: legacy value %q unexpectedly matches UUID v4 pattern", legacyValue)
+	}
+	legacy := model.SystemConfig{Key: "machine_code", Value: legacyValue, Description: "legacy"}
+	if err := database.DB.Create(&legacy).Error; err != nil {
+		t.Fatalf("seed legacy row: %v", err)
+	}
+
+	code := EnsureMachineCode()
+	if !machineCodeFormatRe.MatchString(code) {
+		t.Fatalf("expected migrated code to be uppercase UUID v4, got %q", code)
+	}
+	if code == legacyValue {
+		t.Fatalf("expected legacy value to be replaced, still got %q", code)
+	}
+
+	var row model.SystemConfig
+	if err := database.DB.Where("`key` = ?", "machine_code").First(&row).Error; err != nil {
+		t.Fatalf("query row: %v", err)
+	}
+	if row.Value != code {
+		t.Fatalf("expected persisted value %q after migration, got %q", code, row.Value)
+	}
+}
+
+func TestGenerateMachineCodeFormat(t *testing.T) {
+	first := generateMachineCode()
+	if !machineCodeFormatRe.MatchString(first) {
+		t.Fatalf("generateMachineCode: expected uppercase UUID v4, got %q", first)
+	}
+
+	second := generateMachineCode()
+	if !machineCodeFormatRe.MatchString(second) {
+		t.Fatalf("generateMachineCode: expected uppercase UUID v4 on second call, got %q", second)
+	}
+
+	if first == second {
+		t.Fatalf("generateMachineCode should produce distinct random values, got duplicate %q", first)
+	}
+}

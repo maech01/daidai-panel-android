@@ -1,1 +1,67 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3ROb3JtYWxpemVOb2RlRGVwZW5kZW5jeVBhY2thZ2VOYW1lKHQgKnRlc3RpbmcuVCkgewoJdGVzdHMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJImNoYWxrIjogICAgICAgICAgICAgICAgICAgICJjaGFsayIsCgkJImNoYWxrQDQuMS4yIjogICAgICAgICAgICAgICJjaGFsayIsCgkJImh0dHAtcHJveHktYWdlbnRANy4wLjAiOiAgICJodHRwLXByb3h5LWFnZW50IiwKCQkiQHNjb3BlL3BrZyI6ICAgICAgICAgICAgICAgIkBzY29wZS9wa2ciLAoJCSJAc2NvcGUvcGtnQDEuMi4zIjogICAgICAgICAiQHNjb3BlL3BrZyIsCgkJIkBzY29wZS9wa2ctYmV0YUBeMi4wLjAiOiAgICJAc2NvcGUvcGtnLWJldGEiLAoJCSJAc2NvcGUvcGtnL3N1YnBhdGhAMS4yLjMiOiAiQHNjb3BlL3BrZy9zdWJwYXRoIiwKCX0KCglmb3IgaW5wdXQsIGV4cGVjdGVkIDo9IHJhbmdlIHRlc3RzIHsKCQlpZiBnb3QgOj0gTm9ybWFsaXplTm9kZURlcGVuZGVuY3lQYWNrYWdlTmFtZShpbnB1dCk7IGdvdCAhPSBleHBlY3RlZCB7CgkJCXQuRmF0YWxmKCJOb3JtYWxpemVOb2RlRGVwZW5kZW5jeVBhY2thZ2VOYW1lKCVxKSA9ICVxLCB3YW50ICVxIiwgaW5wdXQsIGdvdCwgZXhwZWN0ZWQpCgkJfQoJfQp9CgpmdW5jIFRlc3REZXBlbmRlbmN5SW5zdGFsbGVkTm9kZUpTQWNjZXB0c1ZlcnNpb25TcGVjKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZm9yIF8sIHBrZyA6PSByYW5nZSBbXXN0cmluZ3sKCQlmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiZGVwcyIsICJub2RlanMiLCAibm9kZV9tb2R1bGVzIiwgImh0dHAtcHJveHktYWdlbnQiKSwKCQlmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiZGVwcyIsICJub2RlanMiLCAibm9kZV9tb2R1bGVzIiwgIkBzY29wZSIsICJwa2ciKSwKCX0gewoJCWlmIGVyciA6PSBvcy5Na2RpckFsbChwa2csIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJta2RpciBub2RlIGRlcGVuZGVuY3k6ICV2IiwgZXJyKQoJCX0KCX0KCglpZiAhRGVwZW5kZW5jeUluc3RhbGxlZEZvclB5dGhvblZlcnNpb24obW9kZWwuRGVwVHlwZU5vZGVKUywgImh0dHAtcHJveHktYWdlbnRANy4wLjAiLCAiIikgewoJCXQuRmF0YWwoImV4cGVjdGVkIHZlcnNpb25lZCBub2RlIGRlcGVuZGVuY3kgdG8gYmUgZGV0ZWN0ZWQgYXMgaW5zdGFsbGVkIikKCX0KCWlmICFEZXBlbmRlbmN5SW5zdGFsbGVkRm9yUHl0aG9uVmVyc2lvbihtb2RlbC5EZXBUeXBlTm9kZUpTLCAiQHNjb3BlL3BrZ0AxLjIuMyIsICIiKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgc2NvcGVkIHZlcnNpb25lZCBub2RlIGRlcGVuZGVuY3kgdG8gYmUgZGV0ZWN0ZWQgYXMgaW5zdGFsbGVkIikKCX0KfQoKZnVuYyBUZXN0RGVwZW5kZW5jeUluc3RhbGxlZExpbnV4QWNjZXB0c0Rwa2dRdWVyeUluc3RhbGxlZFN0YXR1cyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWRpciA6PSB0LlRlbXBEaXIoKQoJZHBrZ1F1ZXJ5IDo9IGZpbGVwYXRoLkpvaW4oZGlyLCAiZHBrZy1xdWVyeSIpCglzY3JpcHQgOj0gIiMhL2Jpbi9zaFxuaWYgWyBcIiQxXCIgPSBcIi1XXCIgXTsgdGhlblxuICBwcmludGYgJ2luc3RhbGwgb2sgaW5zdGFsbGVkJ1xuICBleGl0IDBcbmZpXG5leGl0IDFcbiIKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZHBrZ1F1ZXJ5LCBbXWJ5dGUoc2NyaXB0KSwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgZmFrZSBkcGtnLXF1ZXJ5OiAldiIsIGVycikKCX0KCglvcmlnaW5hbFBhdGggOj0gb3MuR2V0ZW52KCJQQVRIIikKCXQuU2V0ZW52KCJQQVRIIiwgZGlyK3N0cmluZyhvcy5QYXRoTGlzdFNlcGFyYXRvcikrb3JpZ2luYWxQYXRoKQoKCWlmICFEZXBlbmRlbmN5SW5zdGFsbGVkRm9yUHl0aG9uVmVyc2lvbihtb2RlbC5EZXBUeXBlTGludXgsICJjdXJsIiwgIiIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBsaW51eCBkZXBlbmRlbmN5IHRvIGJlIGRldGVjdGVkIGFzIGluc3RhbGxlZCBmcm9tIGRwa2ctcXVlcnkiKQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestNormalizeNodeDependencyPackageName(t *testing.T) {
+	tests := map[string]string{
+		"chalk":                    "chalk",
+		"chalk@4.1.2":              "chalk",
+		"http-proxy-agent@7.0.0":   "http-proxy-agent",
+		"@scope/pkg":               "@scope/pkg",
+		"@scope/pkg@1.2.3":         "@scope/pkg",
+		"@scope/pkg-beta@^2.0.0":   "@scope/pkg-beta",
+		"@scope/pkg/subpath@1.2.3": "@scope/pkg/subpath",
+	}
+
+	for input, expected := range tests {
+		if got := NormalizeNodeDependencyPackageName(input); got != expected {
+			t.Fatalf("NormalizeNodeDependencyPackageName(%q) = %q, want %q", input, got, expected)
+		}
+	}
+}
+
+func TestDependencyInstalledNodeJSAcceptsVersionSpec(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	for _, pkg := range []string{
+		filepath.Join(config.C.Data.Dir, "deps", "nodejs", "node_modules", "http-proxy-agent"),
+		filepath.Join(config.C.Data.Dir, "deps", "nodejs", "node_modules", "@scope", "pkg"),
+	} {
+		if err := os.MkdirAll(pkg, 0o755); err != nil {
+			t.Fatalf("mkdir node dependency: %v", err)
+		}
+	}
+
+	if !DependencyInstalledForPythonVersion(model.DepTypeNodeJS, "http-proxy-agent@7.0.0", "") {
+		t.Fatal("expected versioned node dependency to be detected as installed")
+	}
+	if !DependencyInstalledForPythonVersion(model.DepTypeNodeJS, "@scope/pkg@1.2.3", "") {
+		t.Fatal("expected scoped versioned node dependency to be detected as installed")
+	}
+}
+
+func TestDependencyInstalledLinuxAcceptsDpkgQueryInstalledStatus(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	dir := t.TempDir()
+	dpkgQuery := filepath.Join(dir, "dpkg-query")
+	script := "#!/bin/sh\nif [ \"$1\" = \"-W\" ]; then\n  printf 'install ok installed'\n  exit 0\nfi\nexit 1\n"
+	if err := os.WriteFile(dpkgQuery, []byte(script), 0o755); err != nil {
+		t.Fatalf("write fake dpkg-query: %v", err)
+	}
+
+	originalPath := os.Getenv("PATH")
+	t.Setenv("PATH", dir+string(os.PathListSeparator)+originalPath)
+
+	if !DependencyInstalledForPythonVersion(model.DepTypeLinux, "curl", "") {
+		t.Fatal("expected linux dependency to be detected as installed from dpkg-query")
+	}
+}

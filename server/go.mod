@@ -1,1 +1,53 @@
-bW9kdWxlIGRhaWRhaS1wYW5lbAoKZ28gMS4yNS4wCgpyZXF1aXJlICgKCWdpdGh1Yi5jb20vZ2luLWNvbnRyaWIvY29ycyB2MS43LjMKCWdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiB2MS4xMC4wCglnaXRodWIuY29tL2dsZWJhcmV6L3NxbGl0ZSB2MS4xMS4wCglnaXRodWIuY29tL2dvbGFuZy1qd3Qvand0L3Y1IHY1LjIuMQoJZ2l0aHViLmNvbS9nb29nbGUvdXVpZCB2MS42LjAKCWdpdGh1Yi5jb20vcm9iZmlnL2Nyb24vdjMgdjMuMC4xCglnb2xhbmcub3JnL3gvY3J5cHRvIHYwLjMxLjAKCWdvbGFuZy5vcmcveC9uZXQgdjAuMzMuMAoJZ29wa2cuaW4veWFtbC52MyB2My4wLjEKCWdvcm0uaW8vZ29ybSB2MS4zMS4xCikKCnJlcXVpcmUgKAoJZ2l0aHViLmNvbS9ieXRlZGFuY2Uvc29uaWMgdjEuMTIuNiAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9ieXRlZGFuY2Uvc29uaWMvbG9hZGVyIHYwLjIuMSAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9jbG91ZHdlZ28vYmFzZTY0eCB2MC4xLjQgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vY2xvdWR3ZWdvL2lhc20gdjAuMi4wIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2R1c3Rpbi9nby1odW1hbml6ZSB2MS4wLjEgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ2FicmllbC12YXNpbGUvbWltZXR5cGUgdjEuNC43IC8vIGluZGlyZWN0CglnaXRodWIuY29tL2dpbi1jb250cmliL3NzZSB2MC4xLjAgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ2xlYmFyZXovZ28tc3FsaXRlIHYxLjIxLjIgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ28tcGxheWdyb3VuZC9sb2NhbGVzIHYwLjE0LjEgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ28tcGxheWdyb3VuZC91bml2ZXJzYWwtdHJhbnNsYXRvciB2MC4xOC4xIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2dvLXBsYXlncm91bmQvdmFsaWRhdG9yL3YxMCB2MTAuMjMuMCAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9nb2NjeS9nby1qc29uIHYwLjEwLjQgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vZ29vZ2xlL2dvLWNtcCB2MC41LjYgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vamluemh1L2luZmxlY3Rpb24gdjEuMC4wIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2ppbnpodS9ub3cgdjEuMS41IC8vIGluZGlyZWN0CglnaXRodWIuY29tL2pzb24taXRlcmF0b3IvZ28gdjEuMS4xMiAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9rbGF1c3Bvc3QvY3B1aWQvdjIgdjIuMi45IC8vIGluZGlyZWN0CglnaXRodWIuY29tL2tyL3RleHQgdjAuMi4wIC8vIGluZGlyZWN0CglnaXRodWIuY29tL2xlb2RpZG8vZ28tdXJuIHYxLjQuMCAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9tYXR0bi9nby1pc2F0dHkgdjAuMC4yMCAvLyBpbmRpcmVjdAoJZ2l0aHViLmNvbS9tb2Rlcm4tZ28vY29uY3VycmVudCB2MC4wLjAtMjAxODAzMDYwMTI2NDQtYmFjZDljN2VmMWRkIC8vIGluZGlyZWN0CglnaXRodWIuY29tL21vZGVybi1nby9yZWZsZWN0MiB2MS4wLjIgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vcGVsbGV0aWVyL2dvLXRvbWwvdjIgdjIuMi4zIC8vIGluZGlyZWN0CglnaXRodWIuY29tL3JlbXlvdWRvbXBoZW5nL2JpZ2ZmdCB2MC4wLjAtMjAyMzAxMjkwOTI3NDgtMjRkNGE2ZjhkYWVjIC8vIGluZGlyZWN0CglnaXRodWIuY29tL3R3aXRjaHlsaXF1aWQ2NC9nb2xhbmctYXNtIHYwLjE1LjEgLy8gaW5kaXJlY3QKCWdpdGh1Yi5jb20vdWdvcmppL2dvL2NvZGVjIHYxLjIuMTIgLy8gaW5kaXJlY3QKCWdvbGFuZy5vcmcveC9hcmNoIHYwLjEyLjAgLy8gaW5kaXJlY3QKCWdvbGFuZy5vcmcveC9zeXMgdjAuMjguMCAvLyBpbmRpcmVjdAoJZ29sYW5nLm9yZy94L3RleHQgdjAuMzUuMCAvLyBpbmRpcmVjdAoJZ29vZ2xlLmdvbGFuZy5vcmcvcHJvdG9idWYgdjEuMzYuMSAvLyBpbmRpcmVjdAoJbW9kZXJuYy5vcmcvbGliYyB2MS4yMi41IC8vIGluZGlyZWN0Cgltb2Rlcm5jLm9yZy9tYXRodXRpbCB2MS41LjAgLy8gaW5kaXJlY3QKCW1vZGVybmMub3JnL21lbW9yeSB2MS41LjAgLy8gaW5kaXJlY3QKCW1vZGVybmMub3JnL3NxbGl0ZSB2MS4yMy4xIC8vIGluZGlyZWN0CikK
+module daidai-panel
+
+go 1.25.0
+
+require (
+	github.com/gin-contrib/cors v1.7.3
+	github.com/gin-gonic/gin v1.10.0
+	github.com/glebarez/sqlite v1.11.0
+	github.com/golang-jwt/jwt/v5 v5.2.1
+	github.com/google/uuid v1.6.0
+	github.com/robfig/cron/v3 v3.0.1
+	golang.org/x/crypto v0.31.0
+	golang.org/x/net v0.33.0
+	gopkg.in/yaml.v3 v3.0.1
+	gorm.io/gorm v1.31.1
+)
+
+require (
+	github.com/bytedance/sonic v1.12.6 // indirect
+	github.com/bytedance/sonic/loader v0.2.1 // indirect
+	github.com/cloudwego/base64x v0.1.4 // indirect
+	github.com/cloudwego/iasm v0.2.0 // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
+	github.com/gabriel-vasile/mimetype v1.4.7 // indirect
+	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/glebarez/go-sqlite v1.21.2 // indirect
+	github.com/go-playground/locales v0.14.1 // indirect
+	github.com/go-playground/universal-translator v0.18.1 // indirect
+	github.com/go-playground/validator/v10 v10.23.0 // indirect
+	github.com/goccy/go-json v0.10.4 // indirect
+	github.com/google/go-cmp v0.5.6 // indirect
+	github.com/jinzhu/inflection v1.0.0 // indirect
+	github.com/jinzhu/now v1.1.5 // indirect
+	github.com/json-iterator/go v1.1.12 // indirect
+	github.com/klauspost/cpuid/v2 v2.2.9 // indirect
+	github.com/kr/text v0.2.0 // indirect
+	github.com/leodido/go-urn v1.4.0 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
+	github.com/modern-go/reflect2 v1.0.2 // indirect
+	github.com/pelletier/go-toml/v2 v2.2.3 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
+	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
+	github.com/ugorji/go/codec v1.2.12 // indirect
+	golang.org/x/arch v0.12.0 // indirect
+	golang.org/x/sys v0.28.0 // indirect
+	golang.org/x/text v0.35.0 // indirect
+	google.golang.org/protobuf v1.36.1 // indirect
+	modernc.org/libc v1.22.5 // indirect
+	modernc.org/mathutil v1.5.0 // indirect
+	modernc.org/memory v1.5.0 // indirect
+	modernc.org/sqlite v1.23.1 // indirect
+)

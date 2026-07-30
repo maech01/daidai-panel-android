@@ -1,1 +1,269 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImJ1ZmlvIgoJImJ5dGVzIgoJImNvbXByZXNzL3psaWIiCgkiZW5jb2RpbmcvYmFzZTY0IgoJImZtdCIKCSJpbyIKCSJvcyIKCSJzeW5jIgoJInVuaWNvZGUvdXRmOCIKKQoKdHlwZSBUaW55TG9nIHN0cnVjdCB7CglMb2dJRCAgICAgICBzdHJpbmcKCWZpbGUgICAgICAgICpvcy5GaWxlCgl3cml0ZXIgICAgICAqYnVmaW8uV3JpdGVyCglzdWJzY3JpYmVycyBbXWNoYW4gW11ieXRlCglzdWJMb2NrICAgICBzeW5jLlJXTXV0ZXgKCXJlbWFpbmRlciAgIFtdYnl0ZQoJY2xvc2VkICAgICAgYm9vbAoJbXUgICAgICAgICAgc3luYy5NdXRleAp9CgpmdW5jIE5ld1RpbnlMb2cobG9nSUQgc3RyaW5nKSAoKlRpbnlMb2csIGVycm9yKSB7Cgl0bXBGaWxlLCBlcnIgOj0gb3MuQ3JlYXRlVGVtcCgiIiwgImRhaWRhaS1sb2ctIitsb2dJRCsiLSoubG9nIikKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCXJldHVybiAmVGlueUxvZ3sKCQlMb2dJRDogICAgICAgbG9nSUQsCgkJZmlsZTogICAgICAgIHRtcEZpbGUsCgkJd3JpdGVyOiAgICAgIGJ1ZmlvLk5ld1dyaXRlcih0bXBGaWxlKSwKCQlzdWJzY3JpYmVyczogbWFrZShbXWNoYW4gW11ieXRlLCAwKSwKCQlyZW1haW5kZXI6ICAgbWFrZShbXWJ5dGUsIDApLAoJfSwgbmlsCn0KCmZ1bmMgKGwgKlRpbnlMb2cpIFdyaXRlKHAgW11ieXRlKSAobiBpbnQsIGVyciBlcnJvcikgewoJbC5tdS5Mb2NrKCkKCWRlZmVyIGwubXUuVW5sb2NrKCkKCglpZiBsLmNsb3NlZCB7CgkJcmV0dXJuIDAsIGlvLkVyckNsb3NlZFBpcGUKCX0KCglkYXRhIDo9IGFwcGVuZChsLnJlbWFpbmRlciwgcC4uLikKCWwucmVtYWluZGVyID0gbC5yZW1haW5kZXJbOjBdCgoJaWYgbGVuKGRhdGEpID4gMCAmJiAhdXRmOC5WYWxpZChkYXRhKSB7CgkJZm9yIGkgOj0gbGVuKGRhdGEpIC0gMTsgaSA+PSAwICYmIGkgPj0gbGVuKGRhdGEpLTQ7IGktLSB7CgkJCWlmIHV0ZjguUnVuZVN0YXJ0KGRhdGFbaV0pIHsKCQkJCWlmICF1dGY4LlZhbGlkKGRhdGFbaTpdKSB7CgkJCQkJbC5yZW1haW5kZXIgPSBhcHBlbmQobC5yZW1haW5kZXIsIGRhdGFbaTpdLi4uKQoJCQkJCWRhdGEgPSBkYXRhWzppXQoJCQkJCWJyZWFrCgkJCQl9CgkJCX0KCQl9Cgl9CgoJaWYgbGVuKGRhdGEpID4gMCB7CgkJaWYgXywgZXJyIDo9IGwud3JpdGVyLldyaXRlKGRhdGEpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIDAsIGVycgoJCX0KCgkJbC5icm9hZGNhc3QoZGF0YSkKCX0KCglyZXR1cm4gbGVuKHApLCBuaWwKfQoKZnVuYyAobCAqVGlueUxvZykgYnJvYWRjYXN0KGRhdGEgW11ieXRlKSB7CglsLnN1YkxvY2suUkxvY2soKQoJZGVmZXIgbC5zdWJMb2NrLlJVbmxvY2soKQoKCWZvciBfLCBjaCA6PSByYW5nZSBsLnN1YnNjcmliZXJzIHsKCQlzZWxlY3QgewoJCWNhc2UgY2ggPC0gZGF0YToKCQlkZWZhdWx0OgoJCX0KCX0KfQoKZnVuYyAobCAqVGlueUxvZykgU3Vic2NyaWJlKCkgY2hhbiBbXWJ5dGUgewoJbC5zdWJMb2NrLkxvY2soKQoJZGVmZXIgbC5zdWJMb2NrLlVubG9jaygpCgoJY2ggOj0gbWFrZShjaGFuIFtdYnl0ZSwgMTAwKQoJbC5zdWJzY3JpYmVycyA9IGFwcGVuZChsLnN1YnNjcmliZXJzLCBjaCkKCXJldHVybiBjaAp9CgpmdW5jIChsICpUaW55TG9nKSBVbnN1YnNjcmliZShjaCBjaGFuIFtdYnl0ZSkgewoJbC5zdWJMb2NrLkxvY2soKQoJZGVmZXIgbC5zdWJMb2NrLlVubG9jaygpCgoJZm9yIGksIHN1YiA6PSByYW5nZSBsLnN1YnNjcmliZXJzIHsKCQlpZiBzdWIgPT0gY2ggewoJCQlsLnN1YnNjcmliZXJzID0gYXBwZW5kKGwuc3Vic2NyaWJlcnNbOmldLCBsLnN1YnNjcmliZXJzW2krMTpdLi4uKQoJCQljbG9zZShjaCkKCQkJYnJlYWsKCQl9Cgl9Cn0KCmZ1bmMgKGwgKlRpbnlMb2cpIFJlYWRBbGwoKSAoW11ieXRlLCBlcnJvcikgewoJbC5tdS5Mb2NrKCkKCWwud3JpdGVyLkZsdXNoKCkKCWwubXUuVW5sb2NrKCkKCglyZXR1cm4gb3MuUmVhZEZpbGUobC5maWxlLk5hbWUoKSkKfQoKZnVuYyAobCAqVGlueUxvZykgUmVhZExhc3RMaW5lcyhuIGludCkgKFtdYnl0ZSwgZXJyb3IpIHsKCWwubXUuTG9jaygpCglsLndyaXRlci5GbHVzaCgpCglsLm11LlVubG9jaygpCgoJZmlsZSwgZXJyIDo9IG9zLk9wZW4obC5maWxlLk5hbWUoKSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJZGVmZXIgZmlsZS5DbG9zZSgpCgoJc3RhdCwgZXJyIDo9IGZpbGUuU3RhdCgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCglzaXplIDo9IHN0YXQuU2l6ZSgpCglpZiBzaXplID09IDAgewoJCXJldHVybiBbXWJ5dGV7fSwgbmlsCgl9CgoJYnVmU2l6ZSA6PSBpbnQ2NCg0MDk2KQoJaWYgc2l6ZSA8IGJ1ZlNpemUgewoJCWJ1ZlNpemUgPSBzaXplCgl9CgoJYnVmIDo9IG1ha2UoW11ieXRlLCBidWZTaXplKQoJXywgZXJyID0gZmlsZS5SZWFkQXQoYnVmLCBzaXplLWJ1ZlNpemUpCglpZiBlcnIgIT0gbmlsICYmIGVyciAhPSBpby5FT0YgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCWxpbmVzIDo9IGJ5dGVzLlNwbGl0KGJ1ZiwgW11ieXRlKCJcbiIpKQoJaWYgbGVuKGxpbmVzKSA+IG4gewoJCWxpbmVzID0gbGluZXNbbGVuKGxpbmVzKS1uOl0KCX0KCglyZXR1cm4gYnl0ZXMuSm9pbihsaW5lcywgW11ieXRlKCJcbiIpKSwgbmlsCn0KCmZ1bmMgKGwgKlRpbnlMb2cpIENsb3NlKCkgKHN0cmluZywgZXJyb3IpIHsKCWwubXUuTG9jaygpCglkZWZlciBsLm11LlVubG9jaygpCgoJaWYgbC5jbG9zZWQgewoJCXJldHVybiAiIiwgbmlsCgl9CgoJbC5jbG9zZWQgPSB0cnVlCgoJaWYgbGVuKGwucmVtYWluZGVyKSA+IDAgewoJCWwud3JpdGVyLldyaXRlKGwucmVtYWluZGVyKQoJfQoJbC53cml0ZXIuRmx1c2goKQoKCWwuc3ViTG9jay5Mb2NrKCkKCWZvciBfLCBjaCA6PSByYW5nZSBsLnN1YnNjcmliZXJzIHsKCQljbG9zZShjaCkKCX0KCWwuc3Vic2NyaWJlcnMgPSBuaWwKCWwuc3ViTG9jay5VbmxvY2soKQoKCWNvbnRlbnQsIGVyciA6PSBvcy5SZWFkRmlsZShsLmZpbGUuTmFtZSgpKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCglsLmZpbGUuQ2xvc2UoKQoJb3MuUmVtb3ZlKGwuZmlsZS5OYW1lKCkpCgoJY29tcHJlc3NlZCA6PSBjb21wcmVzc1RvQmFzZTY0KGNvbnRlbnQpCglyZXR1cm4gY29tcHJlc3NlZCwgbmlsCn0KCmZ1bmMgY29tcHJlc3NUb0Jhc2U2NChkYXRhIFtdYnl0ZSkgc3RyaW5nIHsKCXZhciBidWYgYnl0ZXMuQnVmZmVyCgl3IDo9IHpsaWIuTmV3V3JpdGVyKCZidWYpCgl3LldyaXRlKGRhdGEpCgl3LkNsb3NlKCkKCXJldHVybiBiYXNlNjQuU3RkRW5jb2RpbmcuRW5jb2RlVG9TdHJpbmcoYnVmLkJ5dGVzKCkpCn0KCmZ1bmMgRGVjb21wcmVzc0Zyb21CYXNlNjQoZW5jb2RlZCBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CglkYXRhLCBlcnIgOj0gYmFzZTY0LlN0ZEVuY29kaW5nLkRlY29kZVN0cmluZyhlbmNvZGVkKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCglyLCBlcnIgOj0gemxpYi5OZXdSZWFkZXIoYnl0ZXMuTmV3UmVhZGVyKGRhdGEpKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCWRlZmVyIHIuQ2xvc2UoKQoKCXZhciBidWYgYnl0ZXMuQnVmZmVyCglpby5Db3B5KCZidWYsIHIpCglyZXR1cm4gYnVmLlN0cmluZygpLCBuaWwKfQoKdHlwZSBUaW55TG9nTWFuYWdlciBzdHJ1Y3QgewoJbG9ncyBtYXBbc3RyaW5nXSpUaW55TG9nCgltdSAgIHN5bmMuUldNdXRleAp9Cgp2YXIgdGlueUxvZ01hbmFnZXIgPSAmVGlueUxvZ01hbmFnZXJ7Cglsb2dzOiBtYWtlKG1hcFtzdHJpbmddKlRpbnlMb2cpLAp9CgpmdW5jIEdldFRpbnlMb2dNYW5hZ2VyKCkgKlRpbnlMb2dNYW5hZ2VyIHsKCXJldHVybiB0aW55TG9nTWFuYWdlcgp9CgpmdW5jIChtICpUaW55TG9nTWFuYWdlcikgQ3JlYXRlKGxvZ0lEIHN0cmluZykgKCpUaW55TG9nLCBlcnJvcikgewoJbS5tdS5Mb2NrKCkKCWRlZmVyIG0ubXUuVW5sb2NrKCkKCglpZiBsb2csIGV4aXN0cyA6PSBtLmxvZ3NbbG9nSURdOyBleGlzdHMgewoJCXJldHVybiBsb2csIG5pbAoJfQoKCWxvZywgZXJyIDo9IE5ld1RpbnlMb2cobG9nSUQpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCgltLmxvZ3NbbG9nSURdID0gbG9nCglyZXR1cm4gbG9nLCBuaWwKfQoKZnVuYyAobSAqVGlueUxvZ01hbmFnZXIpIEdldChsb2dJRCBzdHJpbmcpICpUaW55TG9nIHsKCW0ubXUuUkxvY2soKQoJZGVmZXIgbS5tdS5SVW5sb2NrKCkKCXJldHVybiBtLmxvZ3NbbG9nSURdCn0KCmZ1bmMgKG0gKlRpbnlMb2dNYW5hZ2VyKSBSZW1vdmUobG9nSUQgc3RyaW5nKSB7CgltLm11LkxvY2soKQoJZGVmZXIgbS5tdS5VbmxvY2soKQoJZGVsZXRlKG0ubG9ncywgbG9nSUQpCn0KCmZ1bmMgKG0gKlRpbnlMb2dNYW5hZ2VyKSBGaW5kQnlUYXNrSUQodGFza0lEIHVpbnQpICpUaW55TG9nIHsKCW0ubXUuUkxvY2soKQoJZGVmZXIgbS5tdS5SVW5sb2NrKCkKCglwcmVmaXggOj0gZm10LlNwcmludGYoIiVkXyIsIHRhc2tJRCkKCWZvciBpZCwgdGwgOj0gcmFuZ2UgbS5sb2dzIHsKCQlpZiBsZW4oaWQpID49IGxlbihwcmVmaXgpICYmIGlkWzpsZW4ocHJlZml4KV0gPT0gcHJlZml4IHsKCQkJcmV0dXJuIHRsCgkJfQoJfQoJcmV0dXJuIG5pbAp9Cg==
+package service
+
+import (
+	"bufio"
+	"bytes"
+	"compress/zlib"
+	"encoding/base64"
+	"fmt"
+	"io"
+	"os"
+	"sync"
+	"unicode/utf8"
+)
+
+type TinyLog struct {
+	LogID       string
+	file        *os.File
+	writer      *bufio.Writer
+	subscribers []chan []byte
+	subLock     sync.RWMutex
+	remainder   []byte
+	closed      bool
+	mu          sync.Mutex
+}
+
+func NewTinyLog(logID string) (*TinyLog, error) {
+	tmpFile, err := os.CreateTemp("", "daidai-log-"+logID+"-*.log")
+	if err != nil {
+		return nil, err
+	}
+
+	return &TinyLog{
+		LogID:       logID,
+		file:        tmpFile,
+		writer:      bufio.NewWriter(tmpFile),
+		subscribers: make([]chan []byte, 0),
+		remainder:   make([]byte, 0),
+	}, nil
+}
+
+func (l *TinyLog) Write(p []byte) (n int, err error) {
+	l.mu.Lock()
+	defer l.mu.Unlock()
+
+	if l.closed {
+		return 0, io.ErrClosedPipe
+	}
+
+	data := append(l.remainder, p...)
+	l.remainder = l.remainder[:0]
+
+	if len(data) > 0 && !utf8.Valid(data) {
+		for i := len(data) - 1; i >= 0 && i >= len(data)-4; i-- {
+			if utf8.RuneStart(data[i]) {
+				if !utf8.Valid(data[i:]) {
+					l.remainder = append(l.remainder, data[i:]...)
+					data = data[:i]
+					break
+				}
+			}
+		}
+	}
+
+	if len(data) > 0 {
+		if _, err := l.writer.Write(data); err != nil {
+			return 0, err
+		}
+
+		l.broadcast(data)
+	}
+
+	return len(p), nil
+}
+
+func (l *TinyLog) broadcast(data []byte) {
+	l.subLock.RLock()
+	defer l.subLock.RUnlock()
+
+	for _, ch := range l.subscribers {
+		select {
+		case ch <- data:
+		default:
+		}
+	}
+}
+
+func (l *TinyLog) Subscribe() chan []byte {
+	l.subLock.Lock()
+	defer l.subLock.Unlock()
+
+	ch := make(chan []byte, 100)
+	l.subscribers = append(l.subscribers, ch)
+	return ch
+}
+
+func (l *TinyLog) Unsubscribe(ch chan []byte) {
+	l.subLock.Lock()
+	defer l.subLock.Unlock()
+
+	for i, sub := range l.subscribers {
+		if sub == ch {
+			l.subscribers = append(l.subscribers[:i], l.subscribers[i+1:]...)
+			close(ch)
+			break
+		}
+	}
+}
+
+func (l *TinyLog) ReadAll() ([]byte, error) {
+	l.mu.Lock()
+	l.writer.Flush()
+	l.mu.Unlock()
+
+	return os.ReadFile(l.file.Name())
+}
+
+func (l *TinyLog) ReadLastLines(n int) ([]byte, error) {
+	l.mu.Lock()
+	l.writer.Flush()
+	l.mu.Unlock()
+
+	file, err := os.Open(l.file.Name())
+	if err != nil {
+		return nil, err
+	}
+	defer file.Close()
+
+	stat, err := file.Stat()
+	if err != nil {
+		return nil, err
+	}
+
+	size := stat.Size()
+	if size == 0 {
+		return []byte{}, nil
+	}
+
+	bufSize := int64(4096)
+	if size < bufSize {
+		bufSize = size
+	}
+
+	buf := make([]byte, bufSize)
+	_, err = file.ReadAt(buf, size-bufSize)
+	if err != nil && err != io.EOF {
+		return nil, err
+	}
+
+	lines := bytes.Split(buf, []byte("\n"))
+	if len(lines) > n {
+		lines = lines[len(lines)-n:]
+	}
+
+	return bytes.Join(lines, []byte("\n")), nil
+}
+
+func (l *TinyLog) Close() (string, error) {
+	l.mu.Lock()
+	defer l.mu.Unlock()
+
+	if l.closed {
+		return "", nil
+	}
+
+	l.closed = true
+
+	if len(l.remainder) > 0 {
+		l.writer.Write(l.remainder)
+	}
+	l.writer.Flush()
+
+	l.subLock.Lock()
+	for _, ch := range l.subscribers {
+		close(ch)
+	}
+	l.subscribers = nil
+	l.subLock.Unlock()
+
+	content, err := os.ReadFile(l.file.Name())
+	if err != nil {
+		return "", err
+	}
+
+	l.file.Close()
+	os.Remove(l.file.Name())
+
+	compressed := compressToBase64(content)
+	return compressed, nil
+}
+
+func compressToBase64(data []byte) string {
+	var buf bytes.Buffer
+	w := zlib.NewWriter(&buf)
+	w.Write(data)
+	w.Close()
+	return base64.StdEncoding.EncodeToString(buf.Bytes())
+}
+
+func DecompressFromBase64(encoded string) (string, error) {
+	data, err := base64.StdEncoding.DecodeString(encoded)
+	if err != nil {
+		return "", err
+	}
+
+	r, err := zlib.NewReader(bytes.NewReader(data))
+	if err != nil {
+		return "", err
+	}
+	defer r.Close()
+
+	var buf bytes.Buffer
+	io.Copy(&buf, r)
+	return buf.String(), nil
+}
+
+type TinyLogManager struct {
+	logs map[string]*TinyLog
+	mu   sync.RWMutex
+}
+
+var tinyLogManager = &TinyLogManager{
+	logs: make(map[string]*TinyLog),
+}
+
+func GetTinyLogManager() *TinyLogManager {
+	return tinyLogManager
+}
+
+func (m *TinyLogManager) Create(logID string) (*TinyLog, error) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	if log, exists := m.logs[logID]; exists {
+		return log, nil
+	}
+
+	log, err := NewTinyLog(logID)
+	if err != nil {
+		return nil, err
+	}
+
+	m.logs[logID] = log
+	return log, nil
+}
+
+func (m *TinyLogManager) Get(logID string) *TinyLog {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+	return m.logs[logID]
+}
+
+func (m *TinyLogManager) Remove(logID string) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+	delete(m.logs, logID)
+}
+
+func (m *TinyLogManager) FindByTaskID(taskID uint) *TinyLog {
+	m.mu.RLock()
+	defer m.mu.RUnlock()
+
+	prefix := fmt.Sprintf("%d_", taskID)
+	for id, tl := range m.logs {
+		if len(id) >= len(prefix) && id[:len(prefix)] == prefix {
+			return tl
+		}
+	}
+	return nil
+}

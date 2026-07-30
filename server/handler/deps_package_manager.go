@@ -1,1 +1,573 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVycm9ycyIKCSJmbXQiCgkib3MiCgkib3MvZXhlYyIKCSJwYXRoL2ZpbGVwYXRoIgoJInNsaWNlcyIKCSJzdHJpbmdzIgoJInN5bmMiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCikKCnR5cGUgbGludXhQYWNrYWdlTWFuYWdlciBzdHJ1Y3QgewoJTmFtZSAgIHN0cmluZwoJQmluYXJ5IHN0cmluZwp9Cgp0eXBlIGxpbnV4TWlycm9ySW5mbyBzdHJ1Y3QgewoJTWFuYWdlciAgICAgIHN0cmluZwoJRGlzdHJpYnV0aW9uIHN0cmluZwoJTWlycm9yICAgICAgIHN0cmluZwoJU3VwcG9ydGVkICAgIGJvb2wKCUxhYmVsICAgICAgICBzdHJpbmcKCU1lc3NhZ2UgICAgICBzdHJpbmcKfQoKdmFyIGxpbnV4UGFja2FnZU9wZXJhdGlvbk11IHN5bmMuTXV0ZXgKCmZ1bmMgZGV0ZWN0TGludXhQYWNrYWdlTWFuYWdlcigpIChsaW51eFBhY2thZ2VNYW5hZ2VyLCBlcnJvcikgewoJbWFuYWdlciwgZXJyIDo9IHNlcnZpY2UuRGV0ZWN0TGludXhQYWNrYWdlTWFuYWdlcigpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbGludXhQYWNrYWdlTWFuYWdlcnt9LCBlcnIKCX0KCXJldHVybiBsaW51eFBhY2thZ2VNYW5hZ2Vye05hbWU6IG1hbmFnZXIuTmFtZSwgQmluYXJ5OiBtYW5hZ2VyLkJpbmFyeX0sIG5pbAp9CgpmdW5jIGRldGVjdExpbnV4UGFja2FnZU1hbmFnZXJXaXRoTG9va1BhdGgobG9va1BhdGggZnVuYyhzdHJpbmcpIChzdHJpbmcsIGVycm9yKSkgKGxpbnV4UGFja2FnZU1hbmFnZXIsIGVycm9yKSB7CgltYW5hZ2VyLCBlcnIgOj0gc2VydmljZS5EZXRlY3RMaW51eFBhY2thZ2VNYW5hZ2VyV2l0aExvb2tQYXRoKGxvb2tQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGxpbnV4UGFja2FnZU1hbmFnZXJ7fSwgZXJyCgl9CglyZXR1cm4gbGludXhQYWNrYWdlTWFuYWdlcntOYW1lOiBtYW5hZ2VyLk5hbWUsIEJpbmFyeTogbWFuYWdlci5CaW5hcnl9LCBuaWwKfQoKZnVuYyBzaG91bGRSZWZyZXNoQXB0UGFja2FnZUxpc3RzKCkgYm9vbCB7CglyZXR1cm4gc2hvdWxkUmVmcmVzaEFwdFBhY2thZ2VMaXN0c0Zyb21EaXIoIi92YXIvbGliL2FwdC9saXN0cyIsIHRpbWUuTm93KCksIHNlcnZpY2UuQXB0UGFja2FnZUxpc3RUVEwpCn0KCmZ1bmMgc2hvdWxkUmVmcmVzaEFwdFBhY2thZ2VMaXN0c0Zyb21EaXIoZGlyIHN0cmluZywgbm93IHRpbWUuVGltZSwgdHRsIHRpbWUuRHVyYXRpb24pIGJvb2wgewoJZW50cmllcywgZXJyIDo9IG9zLlJlYWREaXIoZGlyKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIHRydWUKCX0KCgl2YXIgbmV3ZXN0IHRpbWUuVGltZQoJaGFzSW5kZXhGaWxlIDo9IGZhbHNlCgoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudHJpZXMgewoJCWlmIGVudHJ5LklzRGlyKCkgewoJCQljb250aW51ZQoJCX0KCgkJbmFtZSA6PSBlbnRyeS5OYW1lKCkKCQlpZiBuYW1lID09ICJsb2NrIiB8fCBzdHJpbmdzLkhhc1N1ZmZpeChuYW1lLCAiLmxvY2siKSB7CgkJCWNvbnRpbnVlCgkJfQoKCQlpbmZvLCBlcnIgOj0gZW50cnkuSW5mbygpCgkJaWYgZXJyICE9IG5pbCB7CgkJCWNvbnRpbnVlCgkJfQoKCQloYXNJbmRleEZpbGUgPSB0cnVlCgkJaWYgaW5mby5Nb2RUaW1lKCkuQWZ0ZXIobmV3ZXN0KSB7CgkJCW5ld2VzdCA9IGluZm8uTW9kVGltZSgpCgkJfQoJfQoKCWlmICFoYXNJbmRleEZpbGUgewoJCXJldHVybiB0cnVlCgl9CgoJcmV0dXJuIG5vdy5TdWIobmV3ZXN0KSA+IHR0bAp9CgpmdW5jIGxpbnV4SW5zdGFsbENvbW1hbmRTcGVjKG1hbmFnZXIgbGludXhQYWNrYWdlTWFuYWdlciwgcGFja2FnZU5hbWUgc3RyaW5nLCByZWZyZXNoQXB0IGJvb2wpIChzdHJpbmcsIFtdc3RyaW5nLCBlcnJvcikgewoJc3dpdGNoIG1hbmFnZXIuTmFtZSB7CgljYXNlICJhcGsiOgoJCXJldHVybiBtYW5hZ2VyLkJpbmFyeSwgW11zdHJpbmd7ImFkZCIsICItLW5vLWNhY2hlIiwgcGFja2FnZU5hbWV9LCBuaWwKCWNhc2UgImFwdCI6CgkJc2NyaXB0IDo9ICJleHBvcnQgREVCSUFOX0ZST05URU5EPW5vbmludGVyYWN0aXZlOyAiCgkJaWYgcmVmcmVzaEFwdCB7CgkJCXNjcmlwdCArPSAiZWNobyAnW0FQVF0g6L2v5Lu25YyF57Si5byV6L+H5pyf77yM5q2j5Zyo5Yi35pawLi4uJzsgYXB0LWdldCB1cGRhdGU7ICIKCQl9CgkJc2NyaXB0ICs9ICJlY2hvICdbQVBUXSDmraPlnKjlronoo4Xova/ku7bljIUuLi4nOyBhcHQtZ2V0IGluc3RhbGwgLXkgLS1uby1pbnN0YWxsLXJlY29tbWVuZHMgIiArIHNoZWxsUXVvdGUocGFja2FnZU5hbWUpCgkJcmV0dXJuICJzaCIsIFtdc3RyaW5neyItbGMiLCBzY3JpcHR9LCBuaWwKCWNhc2UgImRuZiIsICJ5dW0iLCAibWljcm9kbmYiOgoJCXJldHVybiBtYW5hZ2VyLkJpbmFyeSwgW11zdHJpbmd7Imluc3RhbGwiLCAiLXkiLCBwYWNrYWdlTmFtZX0sIG5pbAoJY2FzZSAienlwcGVyIjoKCQlyZXR1cm4gbWFuYWdlci5CaW5hcnksIFtdc3RyaW5neyItLW5vbi1pbnRlcmFjdGl2ZSIsICJpbnN0YWxsIiwgcGFja2FnZU5hbWV9LCBuaWwKCWRlZmF1bHQ6CgkJcmV0dXJuICIiLCBuaWwsIGVycm9ycy5OZXcoIuS4jeaUr+aMgeeahCBMaW51eCDljIXnrqHnkIblmagiKQoJfQp9CgpmdW5jIGxpbnV4UmVtb3ZlQ29tbWFuZFNwZWMobWFuYWdlciBsaW51eFBhY2thZ2VNYW5hZ2VyLCBwYWNrYWdlTmFtZSBzdHJpbmcsIGZvcmNlIGJvb2wpIChzdHJpbmcsIFtdc3RyaW5nLCBlcnJvcikgewoJc3dpdGNoIG1hbmFnZXIuTmFtZSB7CgljYXNlICJhcGsiOgoJCWFyZ3MgOj0gW11zdHJpbmd7ImRlbCJ9CgkJaWYgZm9yY2UgewoJCQlhcmdzID0gYXBwZW5kKGFyZ3MsICItLWZvcmNlLWJyb2tlbi13b3JsZCIpCgkJfQoJCWFyZ3MgPSBhcHBlbmQoYXJncywgcGFja2FnZU5hbWUpCgkJcmV0dXJuIG1hbmFnZXIuQmluYXJ5LCBhcmdzLCBuaWwKCWNhc2UgImFwdCI6CgkJYXJncyA6PSBbXXN0cmluZ3sicmVtb3ZlIiwgIi15In0KCQlpZiBmb3JjZSB7CgkJCWFyZ3MgPSBhcHBlbmQoYXJncywgIi0tYWxsb3ctcmVtb3ZlLWVzc2VudGlhbCIsICItLXB1cmdlIikKCQl9CgkJYXJncyA9IGFwcGVuZChhcmdzLCBwYWNrYWdlTmFtZSkKCQlyZXR1cm4gbWFuYWdlci5CaW5hcnksIGFyZ3MsIG5pbAoJY2FzZSAiZG5mIiwgInl1bSIsICJtaWNyb2RuZiI6CgkJcmV0dXJuIG1hbmFnZXIuQmluYXJ5LCBbXXN0cmluZ3sicmVtb3ZlIiwgIi15IiwgcGFja2FnZU5hbWV9LCBuaWwKCWNhc2UgInp5cHBlciI6CgkJcmV0dXJuIG1hbmFnZXIuQmluYXJ5LCBbXXN0cmluZ3siLS1ub24taW50ZXJhY3RpdmUiLCAicmVtb3ZlIiwgcGFja2FnZU5hbWV9LCBuaWwKCWRlZmF1bHQ6CgkJcmV0dXJuICIiLCBuaWwsIGVycm9ycy5OZXcoIuS4jeaUr+aMgeeahCBMaW51eCDljIXnrqHnkIblmagiKQoJfQp9CgpmdW5jIGJ1aWxkTGludXhQYWNrYWdlQ29tbWFuZChtYW5hZ2VyIGxpbnV4UGFja2FnZU1hbmFnZXIsIGFjdGlvbiwgcGFja2FnZU5hbWUgc3RyaW5nLCBmb3JjZSBib29sKSAoKmV4ZWMuQ21kLCBlcnJvcikgewoJcmV0dXJuIHNlcnZpY2UuQnVpbGRMaW51eFBhY2thZ2VDb21tYW5kKAoJCXNlcnZpY2UuTGludXhQYWNrYWdlTWFuYWdlcntOYW1lOiBtYW5hZ2VyLk5hbWUsIEJpbmFyeTogbWFuYWdlci5CaW5hcnl9LAoJCWFjdGlvbiwKCQlwYWNrYWdlTmFtZSwKCQlmb3JjZSwKCQlkZXRlY3RMaW51eERpc3RyaWJ1dGlvbigpLAoJCWZ1bmMobSBzZXJ2aWNlLkxpbnV4UGFja2FnZU1hbmFnZXIsIGRpc3RyaWJ1dGlvbiBzdHJpbmcpIGVycm9yIHsKCQkJcmV0dXJuIGVuc3VyZURlZmF1bHRMaW51eE1pcnJvcihsaW51eFBhY2thZ2VNYW5hZ2Vye05hbWU6IG0uTmFtZSwgQmluYXJ5OiBtLkJpbmFyeX0sIGRpc3RyaWJ1dGlvbikKCQl9LAoJKQp9CgpmdW5jIGRldGVjdExpbnV4RGlzdHJpYnV0aW9uKCkgc3RyaW5nIHsKCXJldHVybiBzZXJ2aWNlLkRldGVjdExpbnV4RGlzdHJpYnV0aW9uKCkKfQoKZnVuYyBnZXRMaW51eE1pcnJvckluZm8oKSBsaW51eE1pcnJvckluZm8gewoJbWFuYWdlciwgZXJyIDo9IGRldGVjdExpbnV4UGFja2FnZU1hbmFnZXIoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGxpbnV4TWlycm9ySW5mb3sKCQkJTGFiZWw6ICAgIkxpbnV4IiwKCQkJTWVzc2FnZTogZXJyLkVycm9yKCksCgkJfQoJfQoKCWluZm8gOj0gbGludXhNaXJyb3JJbmZvewoJCU1hbmFnZXI6ICAgICAgbWFuYWdlci5OYW1lLAoJCURpc3RyaWJ1dGlvbjogZGV0ZWN0TGludXhEaXN0cmlidXRpb24oKSwKCQlMYWJlbDogICAgICAgIGZtdC5TcHJpbnRmKCJMaW51eCAoJXMpIiwgbWFuYWdlci5CaW5hcnkpLAoJfQoKCXN3aXRjaCBtYW5hZ2VyLk5hbWUgewoJY2FzZSAiYXBrIjoKCQlpbmZvLlN1cHBvcnRlZCA9IHRydWUKCQlpbmZvLk1pcnJvciwgZXJyID0gcmVhZEFQS01pcnJvcigpCgkJaWYgZXJyICE9IG5pbCB7CgkJCWluZm8uTWVzc2FnZSA9ICLor7vlj5YgYXBrIOmVnOWDj+a6kOWksei0pe+8miIgKyBlcnIuRXJyb3IoKQoJCX0gZWxzZSB7CgkJCWluZm8uTWlycm9yID0gZWZmZWN0aXZlTGludXhNaXJyb3IobWFuYWdlciwgaW5mby5EaXN0cmlidXRpb24sIGluZm8uTWlycm9yKQoJCX0KCWNhc2UgImFwdCI6CgkJaW5mby5TdXBwb3J0ZWQgPSB0cnVlCgkJaW5mby5NaXJyb3IsIGVyciA9IHJlYWRBUFRNaXJyb3IoKQoJCWlmIGVyciAhPSBuaWwgewoJCQlpbmZvLk1lc3NhZ2UgPSAi6K+75Y+WIGFwdCDplZzlg4/mupDlpLHotKXvvJoiICsgZXJyLkVycm9yKCkKCQl9IGVsc2UgewoJCQlpbmZvLk1pcnJvciA9IGVmZmVjdGl2ZUxpbnV4TWlycm9yKG1hbmFnZXIsIGluZm8uRGlzdHJpYnV0aW9uLCBpbmZvLk1pcnJvcikKCQl9CglkZWZhdWx0OgoJCWluZm8uU3VwcG9ydGVkID0gZmFsc2UKCQlpbmZvLk1lc3NhZ2UgPSBmbXQuU3ByaW50Zigi5b2T5YmN57O757uf5L2/55SoICVz77yM6ZWc5YOP6K6+572u5pqC5pyq5byA5pS+77yM6YG/5YWN5Ye6546w4oCc55WM6Z2i6IO96YWN5L2G5a6e6ZmF5LiN55Sf5pWI4oCd55qE5YGH5Yqf6IO944CCIiwgbWFuYWdlci5CaW5hcnkpCgl9CgoJcmV0dXJuIGluZm8KfQoKZnVuYyBzZXRMaW51eE1pcnJvcihtYW5hZ2VyIGxpbnV4UGFja2FnZU1hbmFnZXIsIGRpc3RyaWJ1dGlvbiwgbWlycm9yIHN0cmluZykgZXJyb3IgewoJc3dpdGNoIG1hbmFnZXIuTmFtZSB7CgljYXNlICJhcGsiOgoJCXJldHVybiB3cml0ZUFQS01pcnJvcihlZmZlY3RpdmVMaW51eE1pcnJvcihtYW5hZ2VyLCBkaXN0cmlidXRpb24sIG1pcnJvcikpCgljYXNlICJhcHQiOgoJCXJldHVybiB3cml0ZUFQVE1pcnJvcihkaXN0cmlidXRpb24sIGVmZmVjdGl2ZUxpbnV4TWlycm9yKG1hbmFnZXIsIGRpc3RyaWJ1dGlvbiwgbWlycm9yKSkKCWRlZmF1bHQ6CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuW9k+WJjeezu+e7n+S9v+eUqCAlc++8jOaaguS4jeaUr+aMgemVnOWDj+iuvue9riIsIG1hbmFnZXIuQmluYXJ5KQoJfQp9CgpmdW5jIHJlYWRBUEtNaXJyb3IoKSAoc3RyaW5nLCBlcnJvcikgewoJZGF0YSwgZXJyIDo9IG9zLlJlYWRGaWxlKCIvZXRjL2Fway9yZXBvc2l0b3JpZXMiKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCglmb3IgXywgbGluZSA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KHN0cmluZyhkYXRhKSwgIlxuIikgewoJCWxpbmUgPSBzdHJpbmdzLlRyaW1TcGFjZShsaW5lKQoJCWlmIGxpbmUgPT0gIiIgfHwgc3RyaW5ncy5IYXNQcmVmaXgobGluZSwgIiMiKSB7CgkJCWNvbnRpbnVlCgkJfQoJCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXROKGxpbmUsICIvdiIsIDIpCgkJaWYgbGVuKHBhcnRzKSA+IDAgewoJCQlyZXR1cm4gc3RyaW5ncy5UcmltUmlnaHQocGFydHNbMF0sICIvIiksIG5pbAoJCX0KCX0KCglyZXR1cm4gIiIsIG5pbAp9CgpmdW5jIHdyaXRlQVBLTWlycm9yKG1pcnJvciBzdHJpbmcpIGVycm9yIHsKCW1pcnJvciA9IHN0cmluZ3MuVHJpbVNwYWNlKG1pcnJvcikKCWlmIG1pcnJvciA9PSAiIiB7CgkJbWlycm9yID0gZGVmYXVsdExpbnV4TWlycm9yKGxpbnV4UGFja2FnZU1hbmFnZXJ7TmFtZTogImFwayIsIEJpbmFyeTogImFwayJ9LCAiIikKCX0KCWlmICFpc0hUVFBNaXJyb3IobWlycm9yKSB7CgkJcmV0dXJuIGVycm9ycy5OZXcoIkxpbnV4IOmVnOWDj+a6kOW/hemhu+S7pSBodHRwOi8vIOaIliBodHRwczovLyDlvIDlpLQiKQoJfQoKCW1pcnJvciA9IHN0cmluZ3MuVHJpbVJpZ2h0KG1pcnJvciwgIi8iKQoJb3V0LCBlcnIgOj0gZXhlYy5Db21tYW5kKCJjYXQiLCAiL2V0Yy9hbHBpbmUtcmVsZWFzZSIpLk91dHB1dCgpCgl2ZXIgOj0gIjMuMTkiCglpZiBlcnIgPT0gbmlsIHsKCQlwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0KHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhvdXQpKSwgIi4iKQoJCWlmIGxlbihwYXJ0cykgPj0gMiB7CgkJCXZlciA9IHBhcnRzWzBdICsgIi4iICsgcGFydHNbMV0KCQl9Cgl9CgoJY29udGVudCA6PSBmbXQuU3ByaW50ZigiJXMvdiVzL21haW5cbiVzL3Ylcy9jb21tdW5pdHlcbiIsIG1pcnJvciwgdmVyLCBtaXJyb3IsIHZlcikKCXJldHVybiBvcy5Xcml0ZUZpbGUoIi9ldGMvYXBrL3JlcG9zaXRvcmllcyIsIFtdYnl0ZShjb250ZW50KSwgMG82NDQpCn0KCmZ1bmMgcmVhZEFQVE1pcnJvcigpIChzdHJpbmcsIGVycm9yKSB7CglmaWxlcywgZXJyIDo9IGxpc3RBUFRTb3VyY2VGaWxlcygpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoKCWZvciBfLCBmaWxlIDo9IHJhbmdlIGZpbGVzIHsKCQlkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoZmlsZSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJY29udGludWUKCQl9CgoJCXZhciBtaXJyb3Igc3RyaW5nCgkJaWYgc3RyaW5ncy5IYXNTdWZmaXgoZmlsZSwgIi5zb3VyY2VzIikgewoJCQltaXJyb3IgPSBleHRyYWN0TWlycm9yRnJvbUFQVFNvdXJjZXMoc3RyaW5nKGRhdGEpKQoJCX0gZWxzZSB7CgkJCW1pcnJvciA9IGV4dHJhY3RNaXJyb3JGcm9tQVBUTGlzdChzdHJpbmcoZGF0YSkpCgkJfQoJCWlmIG1pcnJvciAhPSAiIiB7CgkJCXJldHVybiBzdHJpbmdzLlRyaW1SaWdodChtaXJyb3IsICIvIiksIG5pbAoJCX0KCX0KCglyZXR1cm4gIiIsIG5pbAp9CgpmdW5jIHdyaXRlQVBUTWlycm9yKGRpc3RyaWJ1dGlvbiwgbWlycm9yIHN0cmluZykgZXJyb3IgewoJZmlsZXMsIGVyciA6PSBsaXN0QVBUU291cmNlRmlsZXMoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJaWYgbGVuKGZpbGVzKSA9PSAwIHsKCQlyZXR1cm4gZXJyb3JzLk5ldygi5pyq5om+5YiwIGFwdCDova/ku7bmupDphY3nva7mlofku7YiKQoJfQoJaWYgbWlycm9yICE9ICIiICYmICFpc0hUVFBNaXJyb3IobWlycm9yKSB7CgkJcmV0dXJuIGVycm9ycy5OZXcoIkxpbnV4IOmVnOWDj+a6kOW/hemhu+S7pSBodHRwOi8vIOaIliBodHRwczovLyDlvIDlpLQiKQoJfQoKCWNoYW5nZWRBbnkgOj0gZmFsc2UKCWZvciBfLCBmaWxlIDo9IHJhbmdlIGZpbGVzIHsKCQlkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoZmlsZSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIGVycgoJCX0KCgkJdmFyICgKCQkJdXBkYXRlZCBzdHJpbmcKCQkJY2hhbmdlZCBib29sCgkJKQoJCWlmIHN0cmluZ3MuSGFzU3VmZml4KGZpbGUsICIuc291cmNlcyIpIHsKCQkJdXBkYXRlZCwgY2hhbmdlZCA9IHJld3JpdGVBUFRTb3VyY2VzQ29udGVudChzdHJpbmcoZGF0YSksIGRpc3RyaWJ1dGlvbiwgbWlycm9yKQoJCX0gZWxzZSB7CgkJCXVwZGF0ZWQsIGNoYW5nZWQgPSByZXdyaXRlQVBUTGlzdENvbnRlbnQoc3RyaW5nKGRhdGEpLCBkaXN0cmlidXRpb24sIG1pcnJvcikKCQl9CgoJCWlmICFjaGFuZ2VkIHsKCQkJY29udGludWUKCQl9CgoJCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZSwgW11ieXRlKHVwZGF0ZWQpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJCWNoYW5nZWRBbnkgPSB0cnVlCgl9CgoJaWYgIWNoYW5nZWRBbnkgewoJCXJldHVybiBlcnJvcnMuTmV3KCLmnKrmib7liLDlj6/mm7TmlrDnmoQgYXB0IOi9r+S7tua6kOadoeebriIpCgl9CgoJcmV0dXJuIG5pbAp9CgpmdW5jIGxpc3RBUFRTb3VyY2VGaWxlcygpIChbXXN0cmluZywgZXJyb3IpIHsKCWZpbGVzIDo9IFtdc3RyaW5ne30KCglpZiBfLCBlcnIgOj0gb3MuU3RhdCgiL2V0Yy9hcHQvc291cmNlcy5saXN0Iik7IGVyciA9PSBuaWwgewoJCWZpbGVzID0gYXBwZW5kKGZpbGVzLCAiL2V0Yy9hcHQvc291cmNlcy5saXN0IikKCX0KCglwYXR0ZXJucyA6PSBbXXN0cmluZ3sKCQkiL2V0Yy9hcHQvc291cmNlcy5saXN0LmQvKi5saXN0IiwKCQkiL2V0Yy9hcHQvc291cmNlcy5saXN0LmQvKi5zb3VyY2VzIiwKCX0KCWZvciBfLCBwYXR0ZXJuIDo9IHJhbmdlIHBhdHRlcm5zIHsKCQltYXRjaGVzLCBlcnIgOj0gZmlsZXBhdGguR2xvYihwYXR0ZXJuKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gbmlsLCBlcnIKCQl9CgkJZmlsZXMgPSBhcHBlbmQoZmlsZXMsIG1hdGNoZXMuLi4pCgl9CgoJc2xpY2VzLlNvcnQoZmlsZXMpCglyZXR1cm4gZmlsZXMsIG5pbAp9CgpmdW5jIGV4dHJhY3RNaXJyb3JGcm9tQVBUTGlzdChjb250ZW50IHN0cmluZykgc3RyaW5nIHsKCWZvciBfLCBsaW5lIDo9IHJhbmdlIHN0cmluZ3MuU3BsaXQoY29udGVudCwgIlxuIikgewoJCWlmIG1pcnJvciA6PSBleHRyYWN0TWlycm9yRnJvbUFQVExpc3RMaW5lKGxpbmUpOyBtaXJyb3IgIT0gIiIgewoJCQlyZXR1cm4gbWlycm9yCgkJfQoJfQoJcmV0dXJuICIiCn0KCmZ1bmMgZXh0cmFjdE1pcnJvckZyb21BUFRMaXN0TGluZShsaW5lIHN0cmluZykgc3RyaW5nIHsKCWZpZWxkcyA6PSBwYXJzZUFQVExpc3RMaW5lRmllbGRzKGxpbmUpCglpZiBsZW4oZmllbGRzKSA9PSAwIHsKCQlyZXR1cm4gIiIKCX0KCXVyaUluZGV4IDo9IGFwdFVSSUZpZWxkSW5kZXgoZmllbGRzKQoJaWYgdXJpSW5kZXggPCAwIHx8IHVyaUluZGV4ID49IGxlbihmaWVsZHMpIHsKCQlyZXR1cm4gIiIKCX0KCXJldHVybiBmaWVsZHNbdXJpSW5kZXhdCn0KCmZ1bmMgcGFyc2VBUFRMaXN0TGluZUZpZWxkcyhsaW5lIHN0cmluZykgW11zdHJpbmcgewoJY29udGVudCA6PSBzdHJpbmdzLlRyaW1TcGFjZShzdHJpbmdzLlNwbGl0TihsaW5lLCAiIyIsIDIpWzBdKQoJaWYgY29udGVudCA9PSAiIiB7CgkJcmV0dXJuIG5pbAoJfQoKCWZpZWxkcyA6PSBzdHJpbmdzLkZpZWxkcyhjb250ZW50KQoJaWYgbGVuKGZpZWxkcykgPT0gMCB7CgkJcmV0dXJuIG5pbAoJfQoJaWYgZmllbGRzWzBdICE9ICJkZWIiICYmIGZpZWxkc1swXSAhPSAiZGViLXNyYyIgewoJCXJldHVybiBuaWwKCX0KCglyZXR1cm4gZmllbGRzCn0KCmZ1bmMgYXB0VVJJRmllbGRJbmRleChmaWVsZHMgW11zdHJpbmcpIGludCB7CglpZiBsZW4oZmllbGRzKSA8IDMgewoJCXJldHVybiAtMQoJfQoKCWlkeCA6PSAxCglpZiBzdHJpbmdzLkhhc1ByZWZpeChmaWVsZHNbaWR4XSwgIlsiKSB7CgkJZm9yIGlkeCA8IGxlbihmaWVsZHMpICYmICFzdHJpbmdzLkhhc1N1ZmZpeChmaWVsZHNbaWR4XSwgIl0iKSB7CgkJCWlkeCsrCgkJfQoJCWlkeCsrCgl9CglpZiBpZHggPj0gbGVuKGZpZWxkcykgewoJCXJldHVybiAtMQoJfQoJcmV0dXJuIGlkeAp9CgpmdW5jIGV4dHJhY3RNaXJyb3JGcm9tQVBUU291cmNlcyhjb250ZW50IHN0cmluZykgc3RyaW5nIHsKCWZvciBfLCBsaW5lIDo9IHJhbmdlIHN0cmluZ3MuU3BsaXQoY29udGVudCwgIlxuIikgewoJCXRyaW1tZWQgOj0gc3RyaW5ncy5UcmltU3BhY2UobGluZSkKCQlpZiAhc3RyaW5ncy5IYXNQcmVmaXgoc3RyaW5ncy5Ub0xvd2VyKHRyaW1tZWQpLCAidXJpczoiKSB7CgkJCWNvbnRpbnVlCgkJfQoJCXJldHVybiBzdHJpbmdzLlRyaW1TcGFjZSh0cmltbWVkW2xlbigiVVJJczoiKTpdKQoJfQoJcmV0dXJuICIiCn0KCmZ1bmMgcmV3cml0ZUFQVExpc3RDb250ZW50KGNvbnRlbnQsIGRpc3RyaWJ1dGlvbiwgbWlycm9yIHN0cmluZykgKHN0cmluZywgYm9vbCkgewoJbGluZXMgOj0gc3RyaW5ncy5TcGxpdChjb250ZW50LCAiXG4iKQoJY2hhbmdlZCA6PSBmYWxzZQoKCWZvciBpLCBsaW5lIDo9IHJhbmdlIGxpbmVzIHsKCQl1cGRhdGVkLCBsaW5lQ2hhbmdlZCA6PSByZXdyaXRlQVBUTGlzdExpbmUobGluZSwgZGlzdHJpYnV0aW9uLCBtaXJyb3IpCgkJaWYgbGluZUNoYW5nZWQgewoJCQlsaW5lc1tpXSA9IHVwZGF0ZWQKCQkJY2hhbmdlZCA9IHRydWUKCQl9Cgl9CgoJcmV0dXJuIHN0cmluZ3MuSm9pbihsaW5lcywgIlxuIiksIGNoYW5nZWQKfQoKZnVuYyByZXdyaXRlQVBUTGlzdExpbmUobGluZSwgZGlzdHJpYnV0aW9uLCBtaXJyb3Igc3RyaW5nKSAoc3RyaW5nLCBib29sKSB7CglmaWVsZHMgOj0gcGFyc2VBUFRMaXN0TGluZUZpZWxkcyhsaW5lKQoJaWYgbGVuKGZpZWxkcykgPT0gMCB7CgkJcmV0dXJuIGxpbmUsIGZhbHNlCgl9CgoJdXJpSW5kZXggOj0gYXB0VVJJRmllbGRJbmRleChmaWVsZHMpCglpZiB1cmlJbmRleCA8IDAgfHwgdXJpSW5kZXggPj0gbGVuKGZpZWxkcykgewoJCXJldHVybiBsaW5lLCBmYWxzZQoJfQoKCWN1cnJlbnRVUkkgOj0gZmllbGRzW3VyaUluZGV4XQoJc3VpdGUgOj0gIiIKCWlmIHVyaUluZGV4KzEgPCBsZW4oZmllbGRzKSB7CgkJc3VpdGUgPSBmaWVsZHNbdXJpSW5kZXgrMV0KCX0KCXRhcmdldFVSSSA6PSByZXNvbHZlQVBUTWlycm9yVVJJKGRpc3RyaWJ1dGlvbiwgbWlycm9yLCBjdXJyZW50VVJJLCBzdWl0ZSkKCWlmIHRhcmdldFVSSSA9PSAiIiB8fCB0YXJnZXRVUkkgPT0gY3VycmVudFVSSSB7CgkJcmV0dXJuIGxpbmUsIGZhbHNlCgl9CgoJZmllbGRzW3VyaUluZGV4XSA9IHRhcmdldFVSSQoJY29tbWVudCA6PSAiIgoJaWYgcGFydHMgOj0gc3RyaW5ncy5TcGxpdE4obGluZSwgIiMiLCAyKTsgbGVuKHBhcnRzKSA9PSAyIHsKCQljb21tZW50ID0gIiMiICsgcGFydHNbMV0KCX0KCgl1cGRhdGVkIDo9IHN0cmluZ3MuSm9pbihmaWVsZHMsICIgIikKCWlmIGNvbW1lbnQgIT0gIiIgewoJCXVwZGF0ZWQgKz0gIiAiICsgc3RyaW5ncy5UcmltU3BhY2UoY29tbWVudCkKCX0KCXJldHVybiB1cGRhdGVkLCB0cnVlCn0KCmZ1bmMgcmV3cml0ZUFQVFNvdXJjZXNDb250ZW50KGNvbnRlbnQsIGRpc3RyaWJ1dGlvbiwgbWlycm9yIHN0cmluZykgKHN0cmluZywgYm9vbCkgewoJbGluZXMgOj0gc3RyaW5ncy5TcGxpdChjb250ZW50LCAiXG4iKQoJY2hhbmdlZCA6PSBmYWxzZQoJY3VycmVudFN1aXRlcyA6PSAiIgoKCWZvciBpLCBsaW5lIDo9IHJhbmdlIGxpbmVzIHsKCQl0cmltbWVkIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCgkJbG93ZXIgOj0gc3RyaW5ncy5Ub0xvd2VyKHRyaW1tZWQpCgoJCWlmIHRyaW1tZWQgPT0gIiIgewoJCQljdXJyZW50U3VpdGVzID0gIiIKCQkJY29udGludWUKCQl9CgkJaWYgc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJzdWl0ZXM6IikgewoJCQljdXJyZW50U3VpdGVzID0gc3RyaW5ncy5UcmltU3BhY2UodHJpbW1lZFtsZW4oIlN1aXRlczoiKTpdKQoJCQljb250aW51ZQoJCX0KCQlpZiAhc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJ1cmlzOiIpIHsKCQkJY29udGludWUKCQl9CgoJCWN1cnJlbnRVUkkgOj0gc3RyaW5ncy5UcmltU3BhY2UodHJpbW1lZFtsZW4oIlVSSXM6Iik6XSkKCQl0YXJnZXRVUkkgOj0gcmVzb2x2ZUFQVE1pcnJvclVSSShkaXN0cmlidXRpb24sIG1pcnJvciwgY3VycmVudFVSSSwgY3VycmVudFN1aXRlcykKCQlpZiB0YXJnZXRVUkkgPT0gIiIgfHwgdGFyZ2V0VVJJID09IGN1cnJlbnRVUkkgewoJCQljb250aW51ZQoJCX0KCgkJbGVhZGluZyA6PSBsaW5lWzpsZW4obGluZSktbGVuKHN0cmluZ3MuVHJpbUxlZnQobGluZSwgIiBcdCIpKV0KCQlsaW5lc1tpXSA9IGxlYWRpbmcgKyAiVVJJczogIiArIHRhcmdldFVSSQoJCWNoYW5nZWQgPSB0cnVlCgl9CgoJcmV0dXJuIHN0cmluZ3MuSm9pbihsaW5lcywgIlxuIiksIGNoYW5nZWQKfQoKZnVuYyByZXNvbHZlQVBUTWlycm9yVVJJKGRpc3RyaWJ1dGlvbiwgcmVxdWVzdGVkTWlycm9yLCBjdXJyZW50VVJJLCBzdWl0ZXMgc3RyaW5nKSBzdHJpbmcgewoJcmVxdWVzdGVkTWlycm9yID0gc3RyaW5ncy5UcmltUmlnaHQoc3RyaW5ncy5UcmltU3BhY2UocmVxdWVzdGVkTWlycm9yKSwgIi8iKQoJaWYgcmVxdWVzdGVkTWlycm9yICE9ICIiIHsKCQlyZXR1cm4gcmVxdWVzdGVkTWlycm9yCgl9CgoJcmV0dXJuIHN0cmluZ3MuVHJpbVJpZ2h0KGRlZmF1bHRMaW51eE1pcnJvcihsaW51eFBhY2thZ2VNYW5hZ2Vye05hbWU6ICJhcHQiLCBCaW5hcnk6ICJhcHQtZ2V0In0sIGRpc3RyaWJ1dGlvbiksICIvIikKfQoKZnVuYyBpc0hUVFBNaXJyb3IodmFsdWUgc3RyaW5nKSBib29sIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglyZXR1cm4gc3RyaW5ncy5IYXNQcmVmaXgodmFsdWUsICJodHRwOi8vIikgfHwgc3RyaW5ncy5IYXNQcmVmaXgodmFsdWUsICJodHRwczovLyIpCn0KCmZ1bmMgZGVmYXVsdExpbnV4TWlycm9yKG1hbmFnZXIgbGludXhQYWNrYWdlTWFuYWdlciwgZGlzdHJpYnV0aW9uIHN0cmluZykgc3RyaW5nIHsKCXN3aXRjaCBtYW5hZ2VyLk5hbWUgewoJY2FzZSAiYXBrIjoKCQlyZXR1cm4gImh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL2FscGluZSIKCWNhc2UgImFwdCI6CgkJc3dpdGNoIHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShkaXN0cmlidXRpb24pKSB7CgkJY2FzZSAiZGViaWFuIjoKCQkJcmV0dXJuICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS9kZWJpYW4iCgkJZGVmYXVsdDoKCQkJcmV0dXJuICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS91YnVudHUiCgkJfQoJZGVmYXVsdDoKCQlyZXR1cm4gIiIKCX0KfQoKZnVuYyBlZmZlY3RpdmVMaW51eE1pcnJvcihtYW5hZ2VyIGxpbnV4UGFja2FnZU1hbmFnZXIsIGRpc3RyaWJ1dGlvbiwgY3VycmVudCBzdHJpbmcpIHN0cmluZyB7CgljdXJyZW50ID0gc3RyaW5ncy5UcmltUmlnaHQoc3RyaW5ncy5UcmltU3BhY2UoY3VycmVudCksICIvIikKCWlmIGN1cnJlbnQgPT0gIiIgfHwgaXNPZmZpY2lhbExpbnV4TWlycm9yKG1hbmFnZXIsIGRpc3RyaWJ1dGlvbiwgY3VycmVudCkgewoJCXJldHVybiBzdHJpbmdzLlRyaW1SaWdodChkZWZhdWx0TGludXhNaXJyb3IobWFuYWdlciwgZGlzdHJpYnV0aW9uKSwgIi8iKQoJfQoJcmV0dXJuIGN1cnJlbnQKfQoKZnVuYyBpc09mZmljaWFsTGludXhNaXJyb3IobWFuYWdlciBsaW51eFBhY2thZ2VNYW5hZ2VyLCBkaXN0cmlidXRpb24sIGN1cnJlbnQgc3RyaW5nKSBib29sIHsKCWN1cnJlbnRMb3dlciA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltUmlnaHQoc3RyaW5ncy5UcmltU3BhY2UoY3VycmVudCksICIvIikpCglzd2l0Y2ggbWFuYWdlci5OYW1lIHsKCWNhc2UgImFwayI6CgkJcmV0dXJuIGN1cnJlbnRMb3dlciA9PSAiaHR0cHM6Ly9kbC1jZG4uYWxwaW5lbGludXgub3JnL2FscGluZSIgfHwgY3VycmVudExvd2VyID09ICJodHRwOi8vZGwtY2RuLmFscGluZWxpbnV4Lm9yZy9hbHBpbmUiCgljYXNlICJhcHQiOgoJCXN3aXRjaCBkaXN0cmlidXRpb24gewoJCWNhc2UgImRlYmlhbiI6CgkJCXJldHVybiBjdXJyZW50TG93ZXIgPT0gImh0dHA6Ly9kZWIuZGViaWFuLm9yZy9kZWJpYW4iIHx8CgkJCQljdXJyZW50TG93ZXIgPT0gImh0dHBzOi8vZGViLmRlYmlhbi5vcmcvZGViaWFuIiB8fAoJCQkJY3VycmVudExvd2VyID09ICJodHRwOi8vc2VjdXJpdHkuZGViaWFuLm9yZy9kZWJpYW4tc2VjdXJpdHkiIHx8CgkJCQljdXJyZW50TG93ZXIgPT0gImh0dHBzOi8vc2VjdXJpdHkuZGViaWFuLm9yZy9kZWJpYW4tc2VjdXJpdHkiCgkJZGVmYXVsdDoKCQkJcmV0dXJuIGN1cnJlbnRMb3dlciA9PSAiaHR0cDovL2FyY2hpdmUudWJ1bnR1LmNvbS91YnVudHUiIHx8CgkJCQljdXJyZW50TG93ZXIgPT0gImh0dHBzOi8vYXJjaGl2ZS51YnVudHUuY29tL3VidW50dSIgfHwKCQkJCWN1cnJlbnRMb3dlciA9PSAiaHR0cDovL3NlY3VyaXR5LnVidW50dS5jb20vdWJ1bnR1IiB8fAoJCQkJY3VycmVudExvd2VyID09ICJodHRwczovL3NlY3VyaXR5LnVidW50dS5jb20vdWJ1bnR1IgoJCX0KCWRlZmF1bHQ6CgkJcmV0dXJuIGZhbHNlCgl9Cn0KCmZ1bmMgZW5zdXJlRGVmYXVsdExpbnV4TWlycm9yKG1hbmFnZXIgbGludXhQYWNrYWdlTWFuYWdlciwgZGlzdHJpYnV0aW9uIHN0cmluZykgZXJyb3IgewoJY3VycmVudCA6PSAiIgoJdmFyIGVyciBlcnJvcgoKCXN3aXRjaCBtYW5hZ2VyLk5hbWUgewoJY2FzZSAiYXBrIjoKCQljdXJyZW50LCBlcnIgPSByZWFkQVBLTWlycm9yKCkKCWNhc2UgImFwdCI6CgkJY3VycmVudCwgZXJyID0gcmVhZEFQVE1pcnJvcigpCglkZWZhdWx0OgoJCXJldHVybiBuaWwKCX0KCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCWlmIGN1cnJlbnQgIT0gIiIgJiYgIWlzT2ZmaWNpYWxMaW51eE1pcnJvcihtYW5hZ2VyLCBkaXN0cmlidXRpb24sIGN1cnJlbnQpIHsKCQlyZXR1cm4gbmlsCgl9CgoJcmV0dXJuIHNldExpbnV4TWlycm9yKG1hbmFnZXIsIGRpc3RyaWJ1dGlvbiwgIiIpCn0K
+package handler
+
+import (
+	"errors"
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"slices"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/service"
+)
+
+type linuxPackageManager struct {
+	Name   string
+	Binary string
+}
+
+type linuxMirrorInfo struct {
+	Manager      string
+	Distribution string
+	Mirror       string
+	Supported    bool
+	Label        string
+	Message      string
+}
+
+var linuxPackageOperationMu sync.Mutex
+
+func detectLinuxPackageManager() (linuxPackageManager, error) {
+	manager, err := service.DetectLinuxPackageManager()
+	if err != nil {
+		return linuxPackageManager{}, err
+	}
+	return linuxPackageManager{Name: manager.Name, Binary: manager.Binary}, nil
+}
+
+func detectLinuxPackageManagerWithLookPath(lookPath func(string) (string, error)) (linuxPackageManager, error) {
+	manager, err := service.DetectLinuxPackageManagerWithLookPath(lookPath)
+	if err != nil {
+		return linuxPackageManager{}, err
+	}
+	return linuxPackageManager{Name: manager.Name, Binary: manager.Binary}, nil
+}
+
+func shouldRefreshAptPackageLists() bool {
+	return shouldRefreshAptPackageListsFromDir("/var/lib/apt/lists", time.Now(), service.AptPackageListTTL)
+}
+
+func shouldRefreshAptPackageListsFromDir(dir string, now time.Time, ttl time.Duration) bool {
+	entries, err := os.ReadDir(dir)
+	if err != nil {
+		return true
+	}
+
+	var newest time.Time
+	hasIndexFile := false
+
+	for _, entry := range entries {
+		if entry.IsDir() {
+			continue
+		}
+
+		name := entry.Name()
+		if name == "lock" || strings.HasSuffix(name, ".lock") {
+			continue
+		}
+
+		info, err := entry.Info()
+		if err != nil {
+			continue
+		}
+
+		hasIndexFile = true
+		if info.ModTime().After(newest) {
+			newest = info.ModTime()
+		}
+	}
+
+	if !hasIndexFile {
+		return true
+	}
+
+	return now.Sub(newest) > ttl
+}
+
+func linuxInstallCommandSpec(manager linuxPackageManager, packageName string, refreshApt bool) (string, []string, error) {
+	switch manager.Name {
+	case "apk":
+		return manager.Binary, []string{"add", "--no-cache", packageName}, nil
+	case "apt":
+		script := "export DEBIAN_FRONTEND=noninteractive; "
+		if refreshApt {
+			script += "echo '[APT] 软件包索引过期，正在刷新...'; apt-get update; "
+		}
+		script += "echo '[APT] 正在安装软件包...'; apt-get install -y --no-install-recommends " + shellQuote(packageName)
+		return "sh", []string{"-lc", script}, nil
+	case "dnf", "yum", "microdnf":
+		return manager.Binary, []string{"install", "-y", packageName}, nil
+	case "zypper":
+		return manager.Binary, []string{"--non-interactive", "install", packageName}, nil
+	default:
+		return "", nil, errors.New("不支持的 Linux 包管理器")
+	}
+}
+
+func linuxRemoveCommandSpec(manager linuxPackageManager, packageName string, force bool) (string, []string, error) {
+	switch manager.Name {
+	case "apk":
+		args := []string{"del"}
+		if force {
+			args = append(args, "--force-broken-world")
+		}
+		args = append(args, packageName)
+		return manager.Binary, args, nil
+	case "apt":
+		args := []string{"remove", "-y"}
+		if force {
+			args = append(args, "--allow-remove-essential", "--purge")
+		}
+		args = append(args, packageName)
+		return manager.Binary, args, nil
+	case "dnf", "yum", "microdnf":
+		return manager.Binary, []string{"remove", "-y", packageName}, nil
+	case "zypper":
+		return manager.Binary, []string{"--non-interactive", "remove", packageName}, nil
+	default:
+		return "", nil, errors.New("不支持的 Linux 包管理器")
+	}
+}
+
+func buildLinuxPackageCommand(manager linuxPackageManager, action, packageName string, force bool) (*exec.Cmd, error) {
+	return service.BuildLinuxPackageCommand(
+		service.LinuxPackageManager{Name: manager.Name, Binary: manager.Binary},
+		action,
+		packageName,
+		force,
+		detectLinuxDistribution(),
+		func(m service.LinuxPackageManager, distribution string) error {
+			return ensureDefaultLinuxMirror(linuxPackageManager{Name: m.Name, Binary: m.Binary}, distribution)
+		},
+	)
+}
+
+func detectLinuxDistribution() string {
+	return service.DetectLinuxDistribution()
+}
+
+func getLinuxMirrorInfo() linuxMirrorInfo {
+	manager, err := detectLinuxPackageManager()
+	if err != nil {
+		return linuxMirrorInfo{
+			Label:   "Linux",
+			Message: err.Error(),
+		}
+	}
+
+	info := linuxMirrorInfo{
+		Manager:      manager.Name,
+		Distribution: detectLinuxDistribution(),
+		Label:        fmt.Sprintf("Linux (%s)", manager.Binary),
+	}
+
+	switch manager.Name {
+	case "apk":
+		info.Supported = true
+		info.Mirror, err = readAPKMirror()
+		if err != nil {
+			info.Message = "读取 apk 镜像源失败：" + err.Error()
+		} else {
+			info.Mirror = effectiveLinuxMirror(manager, info.Distribution, info.Mirror)
+		}
+	case "apt":
+		info.Supported = true
+		info.Mirror, err = readAPTMirror()
+		if err != nil {
+			info.Message = "读取 apt 镜像源失败：" + err.Error()
+		} else {
+			info.Mirror = effectiveLinuxMirror(manager, info.Distribution, info.Mirror)
+		}
+	default:
+		info.Supported = false
+		info.Message = fmt.Sprintf("当前系统使用 %s，镜像设置暂未开放，避免出现“界面能配但实际不生效”的假功能。", manager.Binary)
+	}
+
+	return info
+}
+
+func setLinuxMirror(manager linuxPackageManager, distribution, mirror string) error {
+	switch manager.Name {
+	case "apk":
+		return writeAPKMirror(effectiveLinuxMirror(manager, distribution, mirror))
+	case "apt":
+		return writeAPTMirror(distribution, effectiveLinuxMirror(manager, distribution, mirror))
+	default:
+		return fmt.Errorf("当前系统使用 %s，暂不支持镜像设置", manager.Binary)
+	}
+}
+
+func readAPKMirror() (string, error) {
+	data, err := os.ReadFile("/etc/apk/repositories")
+	if err != nil {
+		return "", err
+	}
+
+	for _, line := range strings.Split(string(data), "\n") {
+		line = strings.TrimSpace(line)
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+		parts := strings.SplitN(line, "/v", 2)
+		if len(parts) > 0 {
+			return strings.TrimRight(parts[0], "/"), nil
+		}
+	}
+
+	return "", nil
+}
+
+func writeAPKMirror(mirror string) error {
+	mirror = strings.TrimSpace(mirror)
+	if mirror == "" {
+		mirror = defaultLinuxMirror(linuxPackageManager{Name: "apk", Binary: "apk"}, "")
+	}
+	if !isHTTPMirror(mirror) {
+		return errors.New("Linux 镜像源必须以 http:// 或 https:// 开头")
+	}
+
+	mirror = strings.TrimRight(mirror, "/")
+	out, err := exec.Command("cat", "/etc/alpine-release").Output()
+	ver := "3.19"
+	if err == nil {
+		parts := strings.Split(strings.TrimSpace(string(out)), ".")
+		if len(parts) >= 2 {
+			ver = parts[0] + "." + parts[1]
+		}
+	}
+
+	content := fmt.Sprintf("%s/v%s/main\n%s/v%s/community\n", mirror, ver, mirror, ver)
+	return os.WriteFile("/etc/apk/repositories", []byte(content), 0o644)
+}
+
+func readAPTMirror() (string, error) {
+	files, err := listAPTSourceFiles()
+	if err != nil {
+		return "", err
+	}
+
+	for _, file := range files {
+		data, err := os.ReadFile(file)
+		if err != nil {
+			continue
+		}
+
+		var mirror string
+		if strings.HasSuffix(file, ".sources") {
+			mirror = extractMirrorFromAPTSources(string(data))
+		} else {
+			mirror = extractMirrorFromAPTList(string(data))
+		}
+		if mirror != "" {
+			return strings.TrimRight(mirror, "/"), nil
+		}
+	}
+
+	return "", nil
+}
+
+func writeAPTMirror(distribution, mirror string) error {
+	files, err := listAPTSourceFiles()
+	if err != nil {
+		return err
+	}
+	if len(files) == 0 {
+		return errors.New("未找到 apt 软件源配置文件")
+	}
+	if mirror != "" && !isHTTPMirror(mirror) {
+		return errors.New("Linux 镜像源必须以 http:// 或 https:// 开头")
+	}
+
+	changedAny := false
+	for _, file := range files {
+		data, err := os.ReadFile(file)
+		if err != nil {
+			return err
+		}
+
+		var (
+			updated string
+			changed bool
+		)
+		if strings.HasSuffix(file, ".sources") {
+			updated, changed = rewriteAPTSourcesContent(string(data), distribution, mirror)
+		} else {
+			updated, changed = rewriteAPTListContent(string(data), distribution, mirror)
+		}
+
+		if !changed {
+			continue
+		}
+
+		if err := os.WriteFile(file, []byte(updated), 0o644); err != nil {
+			return err
+		}
+		changedAny = true
+	}
+
+	if !changedAny {
+		return errors.New("未找到可更新的 apt 软件源条目")
+	}
+
+	return nil
+}
+
+func listAPTSourceFiles() ([]string, error) {
+	files := []string{}
+
+	if _, err := os.Stat("/etc/apt/sources.list"); err == nil {
+		files = append(files, "/etc/apt/sources.list")
+	}
+
+	patterns := []string{
+		"/etc/apt/sources.list.d/*.list",
+		"/etc/apt/sources.list.d/*.sources",
+	}
+	for _, pattern := range patterns {
+		matches, err := filepath.Glob(pattern)
+		if err != nil {
+			return nil, err
+		}
+		files = append(files, matches...)
+	}
+
+	slices.Sort(files)
+	return files, nil
+}
+
+func extractMirrorFromAPTList(content string) string {
+	for _, line := range strings.Split(content, "\n") {
+		if mirror := extractMirrorFromAPTListLine(line); mirror != "" {
+			return mirror
+		}
+	}
+	return ""
+}
+
+func extractMirrorFromAPTListLine(line string) string {
+	fields := parseAPTListLineFields(line)
+	if len(fields) == 0 {
+		return ""
+	}
+	uriIndex := aptURIFieldIndex(fields)
+	if uriIndex < 0 || uriIndex >= len(fields) {
+		return ""
+	}
+	return fields[uriIndex]
+}
+
+func parseAPTListLineFields(line string) []string {
+	content := strings.TrimSpace(strings.SplitN(line, "#", 2)[0])
+	if content == "" {
+		return nil
+	}
+
+	fields := strings.Fields(content)
+	if len(fields) == 0 {
+		return nil
+	}
+	if fields[0] != "deb" && fields[0] != "deb-src" {
+		return nil
+	}
+
+	return fields
+}
+
+func aptURIFieldIndex(fields []string) int {
+	if len(fields) < 3 {
+		return -1
+	}
+
+	idx := 1
+	if strings.HasPrefix(fields[idx], "[") {
+		for idx < len(fields) && !strings.HasSuffix(fields[idx], "]") {
+			idx++
+		}
+		idx++
+	}
+	if idx >= len(fields) {
+		return -1
+	}
+	return idx
+}
+
+func extractMirrorFromAPTSources(content string) string {
+	for _, line := range strings.Split(content, "\n") {
+		trimmed := strings.TrimSpace(line)
+		if !strings.HasPrefix(strings.ToLower(trimmed), "uris:") {
+			continue
+		}
+		return strings.TrimSpace(trimmed[len("URIs:"):])
+	}
+	return ""
+}
+
+func rewriteAPTListContent(content, distribution, mirror string) (string, bool) {
+	lines := strings.Split(content, "\n")
+	changed := false
+
+	for i, line := range lines {
+		updated, lineChanged := rewriteAPTListLine(line, distribution, mirror)
+		if lineChanged {
+			lines[i] = updated
+			changed = true
+		}
+	}
+
+	return strings.Join(lines, "\n"), changed
+}
+
+func rewriteAPTListLine(line, distribution, mirror string) (string, bool) {
+	fields := parseAPTListLineFields(line)
+	if len(fields) == 0 {
+		return line, false
+	}
+
+	uriIndex := aptURIFieldIndex(fields)
+	if uriIndex < 0 || uriIndex >= len(fields) {
+		return line, false
+	}
+
+	currentURI := fields[uriIndex]
+	suite := ""
+	if uriIndex+1 < len(fields) {
+		suite = fields[uriIndex+1]
+	}
+	targetURI := resolveAPTMirrorURI(distribution, mirror, currentURI, suite)
+	if targetURI == "" || targetURI == currentURI {
+		return line, false
+	}
+
+	fields[uriIndex] = targetURI
+	comment := ""
+	if parts := strings.SplitN(line, "#", 2); len(parts) == 2 {
+		comment = "#" + parts[1]
+	}
+
+	updated := strings.Join(fields, " ")
+	if comment != "" {
+		updated += " " + strings.TrimSpace(comment)
+	}
+	return updated, true
+}
+
+func rewriteAPTSourcesContent(content, distribution, mirror string) (string, bool) {
+	lines := strings.Split(content, "\n")
+	changed := false
+	currentSuites := ""
+
+	for i, line := range lines {
+		trimmed := strings.TrimSpace(line)
+		lower := strings.ToLower(trimmed)
+
+		if trimmed == "" {
+			currentSuites = ""
+			continue
+		}
+		if strings.HasPrefix(lower, "suites:") {
+			currentSuites = strings.TrimSpace(trimmed[len("Suites:"):])
+			continue
+		}
+		if !strings.HasPrefix(lower, "uris:") {
+			continue
+		}
+
+		currentURI := strings.TrimSpace(trimmed[len("URIs:"):])
+		targetURI := resolveAPTMirrorURI(distribution, mirror, currentURI, currentSuites)
+		if targetURI == "" || targetURI == currentURI {
+			continue
+		}
+
+		leading := line[:len(line)-len(strings.TrimLeft(line, " \t"))]
+		lines[i] = leading + "URIs: " + targetURI
+		changed = true
+	}
+
+	return strings.Join(lines, "\n"), changed
+}
+
+func resolveAPTMirrorURI(distribution, requestedMirror, currentURI, suites string) string {
+	requestedMirror = strings.TrimRight(strings.TrimSpace(requestedMirror), "/")
+	if requestedMirror != "" {
+		return requestedMirror
+	}
+
+	return strings.TrimRight(defaultLinuxMirror(linuxPackageManager{Name: "apt", Binary: "apt-get"}, distribution), "/")
+}
+
+func isHTTPMirror(value string) bool {
+	value = strings.TrimSpace(value)
+	return strings.HasPrefix(value, "http://") || strings.HasPrefix(value, "https://")
+}
+
+func defaultLinuxMirror(manager linuxPackageManager, distribution string) string {
+	switch manager.Name {
+	case "apk":
+		return "https://mirrors.aliyun.com/alpine"
+	case "apt":
+		switch strings.ToLower(strings.TrimSpace(distribution)) {
+		case "debian":
+			return "https://mirrors.aliyun.com/debian"
+		default:
+			return "https://mirrors.aliyun.com/ubuntu"
+		}
+	default:
+		return ""
+	}
+}
+
+func effectiveLinuxMirror(manager linuxPackageManager, distribution, current string) string {
+	current = strings.TrimRight(strings.TrimSpace(current), "/")
+	if current == "" || isOfficialLinuxMirror(manager, distribution, current) {
+		return strings.TrimRight(defaultLinuxMirror(manager, distribution), "/")
+	}
+	return current
+}
+
+func isOfficialLinuxMirror(manager linuxPackageManager, distribution, current string) bool {
+	currentLower := strings.ToLower(strings.TrimRight(strings.TrimSpace(current), "/"))
+	switch manager.Name {
+	case "apk":
+		return currentLower == "https://dl-cdn.alpinelinux.org/alpine" || currentLower == "http://dl-cdn.alpinelinux.org/alpine"
+	case "apt":
+		switch distribution {
+		case "debian":
+			return currentLower == "http://deb.debian.org/debian" ||
+				currentLower == "https://deb.debian.org/debian" ||
+				currentLower == "http://security.debian.org/debian-security" ||
+				currentLower == "https://security.debian.org/debian-security"
+		default:
+			return currentLower == "http://archive.ubuntu.com/ubuntu" ||
+				currentLower == "https://archive.ubuntu.com/ubuntu" ||
+				currentLower == "http://security.ubuntu.com/ubuntu" ||
+				currentLower == "https://security.ubuntu.com/ubuntu"
+		}
+	default:
+		return false
+	}
+}
+
+func ensureDefaultLinuxMirror(manager linuxPackageManager, distribution string) error {
+	current := ""
+	var err error
+
+	switch manager.Name {
+	case "apk":
+		current, err = readAPKMirror()
+	case "apt":
+		current, err = readAPTMirror()
+	default:
+		return nil
+	}
+	if err != nil {
+		return err
+	}
+	if current != "" && !isOfficialLinuxMirror(manager, distribution, current) {
+		return nil
+	}
+
+	return setLinuxMirror(manager, distribution, "")
+}

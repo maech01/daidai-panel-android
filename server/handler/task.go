@@ -1,1 +1,7 @@
-cGFja2FnZSBoYW5kbGVyCgp0eXBlIFRhc2tIYW5kbGVyIHN0cnVjdHt9CgpmdW5jIE5ld1Rhc2tIYW5kbGVyKCkgKlRhc2tIYW5kbGVyIHsKCXJldHVybiAmVGFza0hhbmRsZXJ7fQp9Cg==
+package handler
+
+type TaskHandler struct{}
+
+func NewTaskHandler() *TaskHandler {
+	return &TaskHandler{}
+}

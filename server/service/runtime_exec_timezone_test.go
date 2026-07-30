@@ -1,1 +1,191 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkib3MiCgkib3MvZXhlYyIKCSJwYXRoL2ZpbGVwYXRoIgoJInJ1bnRpbWUiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0V2luZG93c1B5dGhvblBPU0lYVGltZXpvbmVVc2VzQ3VycmVudElBTkFUaW1lem9uZU9mZnNldCh0ICp0ZXN0aW5nLlQpIHsKCW5vdyA6PSB0aW1lLkRhdGUoMjAyNiwgdGltZS5KdWx5LCAxMCwgMTIsIDAsIDAsIDAsIHRpbWUuVVRDKQoJdGVzdHMgOj0gW11zdHJ1Y3QgewoJCW5hbWUgICAgIHN0cmluZwoJCXRpbWV6b25lIHN0cmluZwoJCXdhbnQgICAgIHN0cmluZwoJfXsKCQl7bmFtZTogIuS4reWbveagh+WHhuaXtumXtCIsIHRpbWV6b25lOiAiQXNpYS9TaGFuZ2hhaSIsIHdhbnQ6ICJDU1QtOCJ9LAoJCXtuYW1lOiAiVVRDIiwgdGltZXpvbmU6ICJVVEMiLCB3YW50OiAiVVRDMCJ9LAoJCXtuYW1lOiAi6LSf5YGP56e75aSP5Luk5pe2IiwgdGltZXpvbmU6ICJBbWVyaWNhL05ld19Zb3JrIiwgd2FudDogIkVEVDQifSwKCQl7bmFtZTogIuWNiuWwj+aXtuWBj+enuyIsIHRpbWV6b25lOiAiQXNpYS9Lb2xrYXRhIiwgd2FudDogIklTVC01OjMwIn0sCgkJe25hbWU6ICLmlbDlrZfnvKnlhpnlhZzlupUiLCB0aW1lem9uZTogIlBhY2lmaWMvTWFycXVlc2FzIiwgd2FudDogIkREVDk6MzAifSwKCQl7bmFtZTogIuWbm+Wtl+avjee8qeWGmSIsIHRpbWV6b25lOiAiRXVyb3BlL1BhcmlzIiwgd2FudDogIkNFUy0yIn0sCgl9CgoJZm9yIF8sIHR0IDo9IHJhbmdlIHRlc3RzIHsKCQl0LlJ1bih0dC5uYW1lLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCQlnb3QsIGVyciA6PSB3aW5kb3dzUHl0aG9uUE9TSVhUaW1lem9uZSh0dC50aW1lem9uZSwgbm93KQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJjb252ZXJ0IHRpbWV6b25lICVzOiAldiIsIHR0LnRpbWV6b25lLCBlcnIpCgkJCX0KCQkJaWYgZ290ICE9IHR0LndhbnQgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkICVzID0+ICVxLCBnb3QgJXEiLCB0dC50aW1lem9uZSwgdHQud2FudCwgZ290KQoJCQl9CgkJfSkKCX0KfQoKZnVuYyBUZXN0V2luZG93c1B5dGhvblBPU0lYVGltZXpvbmVSZWplY3RzSW52YWxpZElBTkFOYW1lKHQgKnRlc3RpbmcuVCkgewoJaWYgXywgZXJyIDo9IHdpbmRvd3NQeXRob25QT1NJWFRpbWV6b25lKCJCYWQvWm9uZSIsIHRpbWUuTm93KCkpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBpbnZhbGlkIElBTkEgdGltZXpvbmUgdG8gcmV0dXJuIGFuIGVycm9yIikKCX0KfQoKZnVuYyBUZXN0QnVpbGRQeXRob25Cb290c3RyYXBQcm9jZXNzRW52T25seUNvbnZlcnRzVGltZXpvbmVPbldpbmRvd3ModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbnZWYXJzIDo9IG1hcFtzdHJpbmddc3RyaW5newoJCSJQQVRIIjogb3MuR2V0ZW52KCJQQVRIIiksCgkJIlRaIjogICAiQXNpYS9TaGFuZ2hhaSIsCgl9CgoJcHl0aG9uRW52IDo9IGJ1aWxkUHl0aG9uQm9vdHN0cmFwUHJvY2Vzc0VudihlbnZWYXJzKQoJd2FudFB5dGhvblRaIDo9ICJBc2lhL1NoYW5naGFpIgoJaWYgcnVudGltZS5HT09TID09ICJ3aW5kb3dzIiB7CgkJd2FudFB5dGhvblRaID0gIkNTVC04IgoJfQoJaWYgZ290IDo9IHRlc3RQcm9jZXNzRW52VmFsdWUocHl0aG9uRW52LCAiVFoiKTsgZ290ICE9IHdhbnRQeXRob25UWiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIFB5dGhvbiBzdGFydHVwIFRaICVxLCBnb3QgJXEiLCB3YW50UHl0aG9uVFosIGdvdCkKCX0KCWlmIGdvdCA6PSBlbnZWYXJzWyJUWiJdOyBnb3QgIT0gIkFzaWEvU2hhbmdoYWkiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdGFzayBlbnYgVFogdG8gcmVtYWluIElBTkEgbmFtZSwgZ290ICVxIiwgZ290KQoJfQoKCW5vZGVFbnYgOj0gYnVpbGRCb290c3RyYXBQcm9jZXNzRW52KGVudlZhcnMpCglpZiBnb3QgOj0gdGVzdFByb2Nlc3NFbnZWYWx1ZShub2RlRW52LCAiVFoiKTsgZ290ICE9ICJBc2lhL1NoYW5naGFpIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIE5vZGUgc3RhcnR1cCBUWiB0byByZW1haW4gQXNpYS9TaGFuZ2hhaSwgZ290ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3RXaW5kb3dzUHl0aG9uQm9vdHN0cmFwc0tlZXBCZWlqaW5nVGltZUFuZEV4cG9zZUlBTkFOYW1lKHQgKnRlc3RpbmcuVCkgewoJaWYgcnVudGltZS5HT09TICE9ICJ3aW5kb3dzIiB7CgkJdC5Ta2lwKCJXaW5kb3dzIFB5dGhvbiBDUlQgY29tcGF0aWJpbGl0eSByZWdyZXNzaW9uIikKCX0KCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXB5dGhvbkJpbiwgZXJyIDo9IGV4ZWMuTG9va1BhdGgoInB5dGhvbiIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LlNraXBmKCJweXRob24gbm90IGZvdW5kOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBleGVjLkNvbW1hbmQocHl0aG9uQmluLCAiLS12ZXJzaW9uIikuUnVuKCk7IGVyciAhPSBuaWwgewoJCXQuU2tpcGYoInB5dGhvbiBpcyBwcmVzZW50IGJ1dCBub3QgdXNhYmxlOiAldiIsIGVycikKCX0KCgllbnZWYXJzIDo9IG1hcFtzdHJpbmddc3RyaW5newoJCSJQQVRIIjogb3MuR2V0ZW52KCJQQVRIIiksCgkJIlRaIjogICAiQXNpYS9TaGFuZ2hhaSIsCgl9CglfLCBlbnZGaWxlLCBjbGVhbnVwLCBlcnIgOj0gd3JpdGVNYW5hZ2VkUnVudGltZUVudkZpbGUoZW52VmFycykKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBydW50aW1lIGVudiBmaWxlOiAldiIsIGVycikKCX0KCWRlZmVyIGNsZWFudXAoKQoKCXB5dGhvblNvdXJjZURpciA6PSB0LlRlbXBEaXIoKQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHB5dGhvblNvdXJjZURpciwgInRpbWV6b25lX2NoZWNrLnB5IikKCW1vZHVsZVBhdGggOj0gZmlsZXBhdGguSm9pbihweXRob25Tb3VyY2VEaXIsICJ0aW1lem9uZV9tb2R1bGVfY2hlY2sucHkiKQoJc2NyaXB0IDo9IGBpbXBvcnQgZGF0ZXRpbWUsIGpzb24sIG9zCm5vdyA9IGRhdGV0aW1lLmRhdGV0aW1lLm5vdygpLmFzdGltZXpvbmUoKQpwcmludChqc29uLmR1bXBzKHsidHoiOiBvcy5lbnZpcm9uLmdldCgiVFoiKSwgIm9mZnNldCI6IG5vdy5zdHJmdGltZSgiJXoiKX0sIGVuc3VyZV9hc2NpaT1GYWxzZSkpCmAKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoc2NyaXB0UGF0aCwgW11ieXRlKHNjcmlwdCksIDBvNjAwKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIFB5dGhvbiB0aW1lem9uZSBjaGVjazogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKG1vZHVsZVBhdGgsIFtdYnl0ZShzY3JpcHQpLCAwbzYwMCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBQeXRob24gbW9kdWxlIHRpbWV6b25lIGNoZWNrOiAldiIsIGVycikKCX0KCgkvLyBQeXRob24g5b+F6aG75LulIENSVCDlj6/or4bliKvnmoTlm7rlrprlgY/np7vlkK/liqjvvIxib290c3RyYXAg5YaN5oGi5aSN6ISa5pys5Y+v6KeB55qEIElBTkEg5ZCN56ew44CCCgl0ZXN0cyA6PSBbXXN0cnVjdCB7CgkJbmFtZSBzdHJpbmcKCQlhcmdzIFtdc3RyaW5nCgl9ewoJCXtuYW1lOiAi6ISa5pysIiwgYXJnczogW11zdHJpbmd7Ii11IiwgIi1jIiwgcHl0aG9uRW52Qm9vdHN0cmFwLCBlbnZGaWxlLCBzY3JpcHRQYXRoLCAiIn19LAoJCXtuYW1lOiAi5qih5Z2XIiwgYXJnczogW11zdHJpbmd7Ii11IiwgIi1jIiwgcHl0aG9uTW9kdWxlRW52Qm9vdHN0cmFwLCBlbnZGaWxlLCAidGltZXpvbmVfbW9kdWxlX2NoZWNrIiwgcHl0aG9uU291cmNlRGlyfX0sCgl9Cglmb3IgXywgdHQgOj0gcmFuZ2UgdGVzdHMgewoJCXQuUnVuKHR0Lm5hbWUsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJCWNtZCA6PSBleGVjLkNvbW1hbmQocHl0aG9uQmluLCB0dC5hcmdzLi4uKQoJCQljbWQuRW52ID0gYnVpbGRQeXRob25Cb290c3RyYXBQcm9jZXNzRW52KGVudlZhcnMpCgkJCW91dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCgkJCWlmIGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoIlB5dGhvbiB0aW1lem9uZSBjaGVjayBmYWlsZWQ6ICV2LCBvdXRwdXQ9JXMiLCBlcnIsIHN0cmluZyhvdXQpKQoJCQl9CgoJCQl2YXIgZ290IHN0cnVjdCB7CgkJCQlUaW1lem9uZSBzdHJpbmcgYGpzb246InR6ImAKCQkJCU9mZnNldCAgIHN0cmluZyBganNvbjoib2Zmc2V0ImAKCQkJfQoJCQlpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoW11ieXRlKHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhvdXQpKSksICZnb3QpOyBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJkZWNvZGUgUHl0aG9uIG91dHB1dCAlcTogJXYiLCBzdHJpbmcob3V0KSwgZXJyKQoJCQl9CgkJCWlmIGdvdC5UaW1lem9uZSAhPSAiQXNpYS9TaGFuZ2hhaSIgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkIHNjcmlwdC12aXNpYmxlIFRaIEFzaWEvU2hhbmdoYWksIGdvdCAlcSIsIGdvdC5UaW1lem9uZSkKCQkJfQoJCQlpZiBnb3QuT2Zmc2V0ICE9ICIrMDgwMCIgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkIFB5dGhvbiBsb2NhbCBvZmZzZXQgKzA4MDAsIGdvdCAlcSIsIGdvdC5PZmZzZXQpCgkJCX0KCQl9KQoJfQp9CgpmdW5jIFRlc3RXaW5kb3dzTm9kZUtlZXBzSUFOQVRpbWV6b25lKHQgKnRlc3RpbmcuVCkgewoJaWYgcnVudGltZS5HT09TICE9ICJ3aW5kb3dzIiB7CgkJdC5Ta2lwKCJXaW5kb3dzIE5vZGUgdGltZXpvbmUgcmVncmVzc2lvbiIpCgl9Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglub2RlQmluLCBlcnIgOj0gZXhlYy5Mb29rUGF0aCgibm9kZSIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LlNraXBmKCJub2RlIG5vdCBmb3VuZDogJXYiLCBlcnIpCgl9CgljbWQgOj0gZXhlYy5Db21tYW5kKG5vZGVCaW4sICItZSIsIGBwcm9jZXNzLnN0ZG91dC53cml0ZShKU09OLnN0cmluZ2lmeSh7dHo6IHByb2Nlc3MuZW52LlRaLCBvZmZzZXQ6IG5ldyBEYXRlKCkuZ2V0VGltZXpvbmVPZmZzZXQoKX0pKWApCgljbWQuRW52ID0gYnVpbGRCb290c3RyYXBQcm9jZXNzRW52KG1hcFtzdHJpbmddc3RyaW5newoJCSJQQVRIIjogb3MuR2V0ZW52KCJQQVRIIiksCgkJIlRaIjogICAiQXNpYS9TaGFuZ2hhaSIsCgl9KQoJb3V0LCBlcnIgOj0gY21kLkNvbWJpbmVkT3V0cHV0KCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJOb2RlIHRpbWV6b25lIGNoZWNrIGZhaWxlZDogJXYsIG91dHB1dD0lcyIsIGVyciwgc3RyaW5nKG91dCkpCgl9CgoJdmFyIGdvdCBzdHJ1Y3QgewoJCVRpbWV6b25lIHN0cmluZyBganNvbjoidHoiYAoJCU9mZnNldCAgIGludCAgICBganNvbjoib2Zmc2V0ImAKCX0KCWlmIGVyciA6PSBqc29uLlVubWFyc2hhbChvdXQsICZnb3QpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZGVjb2RlIE5vZGUgb3V0cHV0ICVxOiAldiIsIHN0cmluZyhvdXQpLCBlcnIpCgl9CglpZiBnb3QuVGltZXpvbmUgIT0gIkFzaWEvU2hhbmdoYWkiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgTm9kZSBUWiBBc2lhL1NoYW5naGFpLCBnb3QgJXEiLCBnb3QuVGltZXpvbmUpCgl9CglpZiBnb3QuT2Zmc2V0ICE9IC00ODAgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBOb2RlIHRpbWV6b25lIG9mZnNldCAtNDgwIG1pbnV0ZXMsIGdvdCAlZCIsIGdvdC5PZmZzZXQpCgl9Cn0KCmZ1bmMgdGVzdFByb2Nlc3NFbnZWYWx1ZShlbnYgW11zdHJpbmcsIGtleSBzdHJpbmcpIHN0cmluZyB7CglwcmVmaXggOj0ga2V5ICsgIj0iCglmb3IgXywgZW50cnkgOj0gcmFuZ2UgZW52IHsKCQlpZiBzdHJpbmdzLkhhc1ByZWZpeChlbnRyeSwgcHJlZml4KSB7CgkJCXJldHVybiBzdHJpbmdzLlRyaW1QcmVmaXgoZW50cnksIHByZWZpeCkKCQl9Cgl9CglyZXR1cm4gIiIKfQo=
+package service
+
+import (
+	"encoding/json"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/testutil"
+)
+
+func TestWindowsPythonPOSIXTimezoneUsesCurrentIANATimezoneOffset(t *testing.T) {
+	now := time.Date(2026, time.July, 10, 12, 0, 0, 0, time.UTC)
+	tests := []struct {
+		name     string
+		timezone string
+		want     string
+	}{
+		{name: "中国标准时间", timezone: "Asia/Shanghai", want: "CST-8"},
+		{name: "UTC", timezone: "UTC", want: "UTC0"},
+		{name: "负偏移夏令时", timezone: "America/New_York", want: "EDT4"},
+		{name: "半小时偏移", timezone: "Asia/Kolkata", want: "IST-5:30"},
+		{name: "数字缩写兜底", timezone: "Pacific/Marquesas", want: "DDT9:30"},
+		{name: "四字母缩写", timezone: "Europe/Paris", want: "CES-2"},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := windowsPythonPOSIXTimezone(tt.timezone, now)
+			if err != nil {
+				t.Fatalf("convert timezone %s: %v", tt.timezone, err)
+			}
+			if got != tt.want {
+				t.Fatalf("expected %s => %q, got %q", tt.timezone, tt.want, got)
+			}
+		})
+	}
+}
+
+func TestWindowsPythonPOSIXTimezoneRejectsInvalidIANAName(t *testing.T) {
+	if _, err := windowsPythonPOSIXTimezone("Bad/Zone", time.Now()); err == nil {
+		t.Fatal("expected invalid IANA timezone to return an error")
+	}
+}
+
+func TestBuildPythonBootstrapProcessEnvOnlyConvertsTimezoneOnWindows(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	envVars := map[string]string{
+		"PATH": os.Getenv("PATH"),
+		"TZ":   "Asia/Shanghai",
+	}
+
+	pythonEnv := buildPythonBootstrapProcessEnv(envVars)
+	wantPythonTZ := "Asia/Shanghai"
+	if runtime.GOOS == "windows" {
+		wantPythonTZ = "CST-8"
+	}
+	if got := testProcessEnvValue(pythonEnv, "TZ"); got != wantPythonTZ {
+		t.Fatalf("expected Python startup TZ %q, got %q", wantPythonTZ, got)
+	}
+	if got := envVars["TZ"]; got != "Asia/Shanghai" {
+		t.Fatalf("expected task env TZ to remain IANA name, got %q", got)
+	}
+
+	nodeEnv := buildBootstrapProcessEnv(envVars)
+	if got := testProcessEnvValue(nodeEnv, "TZ"); got != "Asia/Shanghai" {
+		t.Fatalf("expected Node startup TZ to remain Asia/Shanghai, got %q", got)
+	}
+}
+
+func TestWindowsPythonBootstrapsKeepBeijingTimeAndExposeIANAName(t *testing.T) {
+	if runtime.GOOS != "windows" {
+		t.Skip("Windows Python CRT compatibility regression")
+	}
+	testutil.SetupTestEnv(t)
+
+	pythonBin, err := exec.LookPath("python")
+	if err != nil {
+		t.Skipf("python not found: %v", err)
+	}
+	if err := exec.Command(pythonBin, "--version").Run(); err != nil {
+		t.Skipf("python is present but not usable: %v", err)
+	}
+
+	envVars := map[string]string{
+		"PATH": os.Getenv("PATH"),
+		"TZ":   "Asia/Shanghai",
+	}
+	_, envFile, cleanup, err := writeManagedRuntimeEnvFile(envVars)
+	if err != nil {
+		t.Fatalf("write runtime env file: %v", err)
+	}
+	defer cleanup()
+
+	pythonSourceDir := t.TempDir()
+	scriptPath := filepath.Join(pythonSourceDir, "timezone_check.py")
+	modulePath := filepath.Join(pythonSourceDir, "timezone_module_check.py")
+	script := `import datetime, json, os
+now = datetime.datetime.now().astimezone()
+print(json.dumps({"tz": os.environ.get("TZ"), "offset": now.strftime("%z")}, ensure_ascii=False))
+`
+	if err := os.WriteFile(scriptPath, []byte(script), 0o600); err != nil {
+		t.Fatalf("write Python timezone check: %v", err)
+	}
+	if err := os.WriteFile(modulePath, []byte(script), 0o600); err != nil {
+		t.Fatalf("write Python module timezone check: %v", err)
+	}
+
+	// Python 必须以 CRT 可识别的固定偏移启动，bootstrap 再恢复脚本可见的 IANA 名称。
+	tests := []struct {
+		name string
+		args []string
+	}{
+		{name: "脚本", args: []string{"-u", "-c", pythonEnvBootstrap, envFile, scriptPath, ""}},
+		{name: "模块", args: []string{"-u", "-c", pythonModuleEnvBootstrap, envFile, "timezone_module_check", pythonSourceDir}},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			cmd := exec.Command(pythonBin, tt.args...)
+			cmd.Env = buildPythonBootstrapProcessEnv(envVars)
+			out, err := cmd.CombinedOutput()
+			if err != nil {
+				t.Fatalf("Python timezone check failed: %v, output=%s", err, string(out))
+			}
+
+			var got struct {
+				Timezone string `json:"tz"`
+				Offset   string `json:"offset"`
+			}
+			if err := json.Unmarshal([]byte(strings.TrimSpace(string(out))), &got); err != nil {
+				t.Fatalf("decode Python output %q: %v", string(out), err)
+			}
+			if got.Timezone != "Asia/Shanghai" {
+				t.Fatalf("expected script-visible TZ Asia/Shanghai, got %q", got.Timezone)
+			}
+			if got.Offset != "+0800" {
+				t.Fatalf("expected Python local offset +0800, got %q", got.Offset)
+			}
+		})
+	}
+}
+
+func TestWindowsNodeKeepsIANATimezone(t *testing.T) {
+	if runtime.GOOS != "windows" {
+		t.Skip("Windows Node timezone regression")
+	}
+	testutil.SetupTestEnv(t)
+
+	nodeBin, err := exec.LookPath("node")
+	if err != nil {
+		t.Skipf("node not found: %v", err)
+	}
+	cmd := exec.Command(nodeBin, "-e", `process.stdout.write(JSON.stringify({tz: process.env.TZ, offset: new Date().getTimezoneOffset()}))`)
+	cmd.Env = buildBootstrapProcessEnv(map[string]string{
+		"PATH": os.Getenv("PATH"),
+		"TZ":   "Asia/Shanghai",
+	})
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		t.Fatalf("Node timezone check failed: %v, output=%s", err, string(out))
+	}
+
+	var got struct {
+		Timezone string `json:"tz"`
+		Offset   int    `json:"offset"`
+	}
+	if err := json.Unmarshal(out, &got); err != nil {
+		t.Fatalf("decode Node output %q: %v", string(out), err)
+	}
+	if got.Timezone != "Asia/Shanghai" {
+		t.Fatalf("expected Node TZ Asia/Shanghai, got %q", got.Timezone)
+	}
+	if got.Offset != -480 {
+		t.Fatalf("expected Node timezone offset -480 minutes, got %d", got.Offset)
+	}
+}
+
+func testProcessEnvValue(env []string, key string) string {
+	prefix := key + "="
+	for _, entry := range env {
+		if strings.HasPrefix(entry, prefix) {
+			return strings.TrimPrefix(entry, prefix)
+		}
+	}
+	return ""
+}

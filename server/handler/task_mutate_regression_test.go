@@ -1,1 +1,148 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdENyZWF0ZVRhc2tEZWZhdWx0c1RpbWVvdXRUb1plcm8odCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInRhc2stY3JlYXRlLWRlZmF1bHQtdGltZW91dCIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS90YXNrcyIsCgkJYHsibmFtZSI6ImxvbmcgcnVubmluZyB0YXNrIiwiY29tbWFuZCI6ImVjaG8gb2siLCJ0YXNrX3R5cGUiOiJtYW51YWwifWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0NyZWF0ZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDEsIGdvdCAlZCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCByZWMpCglkYXRhLCBvayA6PSBwYXlsb2FkWyJkYXRhIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0YXNrIGRhdGEgb2JqZWN0LCBnb3QgJSN2IiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoJaWYgZ290IDo9IGRhdGFbInRpbWVvdXQiXTsgZ290ICE9IGZsb2F0NjQoMCkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXNwb25zZSB0aW1lb3V0IDAsIGdvdCAlI3YiLCBnb3QpCgl9CgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB1aW50KGRhdGFbImlkIl0uKGZsb2F0NjQpKSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiB0YXNrLlRpbWVvdXQgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0b3JlZCB0aW1lb3V0IDAsIGdvdCAlZCIsIHRhc2suVGltZW91dCkKCX0KfQoKZnVuYyBUZXN0Q3JlYXRlVGFza1VzZXNDb25maWd1cmVkRGVmYXVsdFB5dGhvblZlcnNpb25XaGVuT21pdHRlZCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoInB5dGhvbl9kZWZhdWx0X3ZlcnNpb24iLCAiMy4xMSIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IGRlZmF1bHQgcHl0aG9uIHZlcnNpb246ICV2IiwgZXJyKQoJfQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidGFzay1jcmVhdGUtZGVmYXVsdC1weXRob24iLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFBvc3QsCgkJIi9hcGkvdjEvdGFza3MiLAoJCWB7Im5hbWUiOiJkZWZhdWx0IHB5dGhvbiB0YXNrIiwiY29tbWFuZCI6InRhc2sgdGVzdC5weSIsInRhc2tfdHlwZSI6Im1hbnVhbCJ9YCwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwKCQkiIiwKCSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQ3JlYXRlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMSwgZ290ICVkIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWRhdGEsIG9rIDo9IHBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRhc2sgZGF0YSBvYmplY3QsIGdvdCAlI3YiLCBwYXlsb2FkWyJkYXRhIl0pCgl9CglpZiBnb3QgOj0gZGF0YVsicHl0aG9uX3ZlcnNpb24iXTsgZ290ICE9ICIzLjExIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlc3BvbnNlIHB5dGhvbl92ZXJzaW9uIDMuMTEsIGdvdCAlI3YiLCBnb3QpCgl9CgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB1aW50KGRhdGFbImlkIl0uKGZsb2F0NjQpKSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiB0YXNrLlB5dGhvblZlcnNpb24gIT0gIjMuMTEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RvcmVkIHB5dGhvbl92ZXJzaW9uIDMuMTEsIGdvdCAlcSIsIHRhc2suUHl0aG9uVmVyc2lvbikKCX0KfQoKZnVuYyBUZXN0Q3JlYXRlVGFza1JlamVjdHNVbnN1cHBvcnRlZFNpbmdsZVJ1bnRpbWVQeXRob25WZXJzaW9uKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgl0LlNldGVudigiREFJREFJX1BZVEhPTl9SVU5USU1FX01PREUiLCAic2luZ2xlIikKCXQuU2V0ZW52KCJEQUlEQUlfUFlUSE9OX1ZFUlNJT04iLCAiMy4xMiIpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ0YXNrLWNyZWF0ZS11bnN1cHBvcnRlZC1weXRob24iLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgkvLyDljZXniYjmnKzplZzlg4/lj6rlhYHorrjliJvlu7rlvZPliY3plZzlg4/mlK/mjIHnmoTlsI/niYjmnKzku7vliqHvvIzpgb/lhY3ljoblj7IgMy4xMC8zLjExIOeOr+Wig+iiq+a4heeQhuWQjue7p+e7reivr+mAieOAggoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQb3N0LAoJCSIvYXBpL3YxL3Rhc2tzIiwKCQlgeyJuYW1lIjoidW5zdXBwb3J0ZWQgcHl0aG9uIHRhc2siLCJjb21tYW5kIjoidGFzayB0ZXN0LnB5IiwidGFza190eXBlIjoibWFudWFsIiwicHl0aG9uX3ZlcnNpb24iOiIzLjEwIn1gLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNCYWRSZXF1ZXN0IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgNDAwLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KfQoKZnVuYyBUZXN0Q3JlYXRlVGFza1BlcnNpc3RzTm90aWZ5T25BYm9ydFN3aXRjaCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidGFzay1jcmVhdGUtbm90aWZ5LW9uLWFib3J0IiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQb3N0LAoJCSIvYXBpL3YxL3Rhc2tzIiwKCQlgeyJuYW1lIjoiYWJvcnQgbm90aWZ5IHRhc2siLCJjb21tYW5kIjoiZWNobyBvayIsInRhc2tfdHlwZSI6Im1hbnVhbCIsIm5vdGlmeV9vbl9hYm9ydCI6dHJ1ZX1gLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAxLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglwYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgcmVjKQoJZGF0YSwgb2sgOj0gcGF5bG9hZFsiZGF0YSJdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdGFzayBkYXRhIG9iamVjdCwgZ290ICUjdiIsIHBheWxvYWRbImRhdGEiXSkKCX0KCWlmIGdvdCwgb2sgOj0gZGF0YVsibm90aWZ5X29uX2Fib3J0Il0uKGJvb2wpOyAhb2sgfHwgIWdvdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlc3BvbnNlIG5vdGlmeV9vbl9hYm9ydD10cnVlLCBnb3QgJSN2IiwgZGF0YVsibm90aWZ5X29uX2Fib3J0Il0pCgl9CgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB1aW50KGRhdGFbImlkIl0uKGZsb2F0NjQpKSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiAhdGFzay5Ob3RpZnlPbkFib3J0IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RvcmVkIG5vdGlmeV9vbl9hYm9ydD10cnVlIikKCX0KfQo=
+package handler_test
+
+import (
+	"net/http"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestCreateTaskDefaultsTimeoutToZero(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-create-default-timeout", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks",
+		`{"name":"long running task","command":"echo ok","task_type":"manual"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected task data object, got %#v", payload["data"])
+	}
+	if got := data["timeout"]; got != float64(0) {
+		t.Fatalf("expected response timeout 0, got %#v", got)
+	}
+
+	var task model.Task
+	if err := database.DB.First(&task, uint(data["id"].(float64))).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if task.Timeout != 0 {
+		t.Fatalf("expected stored timeout 0, got %d", task.Timeout)
+	}
+}
+
+func TestCreateTaskUsesConfiguredDefaultPythonVersionWhenOmitted(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if err := model.SetConfig("python_default_version", "3.11"); err != nil {
+		t.Fatalf("set default python version: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-create-default-python", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks",
+		`{"name":"default python task","command":"task test.py","task_type":"manual"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected task data object, got %#v", payload["data"])
+	}
+	if got := data["python_version"]; got != "3.11" {
+		t.Fatalf("expected response python_version 3.11, got %#v", got)
+	}
+
+	var task model.Task
+	if err := database.DB.First(&task, uint(data["id"].(float64))).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if task.PythonVersion != "3.11" {
+		t.Fatalf("expected stored python_version 3.11, got %q", task.PythonVersion)
+	}
+}
+
+func TestCreateTaskRejectsUnsupportedSingleRuntimePythonVersion(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	t.Setenv("DAIDAI_PYTHON_RUNTIME_MODE", "single")
+	t.Setenv("DAIDAI_PYTHON_VERSION", "3.12")
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-create-unsupported-python", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	// 单版本镜像只允许创建当前镜像支持的小版本任务，避免历史 3.10/3.11 环境被清理后继续误选。
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks",
+		`{"name":"unsupported python task","command":"task test.py","task_type":"manual","python_version":"3.10"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d body=%s", rec.Code, rec.Body.String())
+	}
+}
+
+func TestCreateTaskPersistsNotifyOnAbortSwitch(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-create-notify-on-abort", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks",
+		`{"name":"abort notify task","command":"echo ok","task_type":"manual","notify_on_abort":true}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected task data object, got %#v", payload["data"])
+	}
+	if got, ok := data["notify_on_abort"].(bool); !ok || !got {
+		t.Fatalf("expected response notify_on_abort=true, got %#v", data["notify_on_abort"])
+	}
+
+	var task model.Task
+	if err := database.DB.First(&task, uint(data["id"].(float64))).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if !task.NotifyOnAbort {
+		t.Fatalf("expected stored notify_on_abort=true")
+	}
+}

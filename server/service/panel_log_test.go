@@ -1,1 +1,42 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInN0cmluZ3MiCgkidGVzdGluZyIKKQoKZnVuYyBUZXN0TWF0Y2hQYW5lbExvZ0xldmVsKHQgKnRlc3RpbmcuVCkgewoJdGVzdHMgOj0gW11zdHJ1Y3QgewoJCW5hbWUgIHN0cmluZwoJCWxpbmUgIHN0cmluZwoJCWxldmVsIHN0cmluZwoJCXdhbnQgIGJvb2wKCX17CgkJe25hbWU6ICJpbmZvIG1hdGNoZXMgaW5mbyB0aHJlc2hvbGQiLCBsaW5lOiAiW0lORk9dIHN0YXJ0ZWQiLCBsZXZlbDogImluZm8iLCB3YW50OiB0cnVlfSwKCQl7bmFtZTogIndhcm4gbWF0Y2hlcyBpbmZvIHRocmVzaG9sZCIsIGxpbmU6ICJbV0FSTl0gd2FybiB0ZXh0IiwgbGV2ZWw6ICJpbmZvIiwgd2FudDogdHJ1ZX0sCgkJe25hbWU6ICJkZWJ1ZyBmaWx0ZXJlZCBieSBpbmZvIHRocmVzaG9sZCIsIGxpbmU6ICJbREVCVUddIGRlYnVnIHRleHQiLCBsZXZlbDogImluZm8iLCB3YW50OiBmYWxzZX0sCgkJe25hbWU6ICJlcnJvciBtYXRjaGVzIHdhcm4gdGhyZXNob2xkIiwgbGluZTogIltFUlJPUl0gYm9vbSIsIGxldmVsOiAid2FybiIsIHdhbnQ6IHRydWV9LAoJCXtuYW1lOiAid2FybiBmaWx0ZXJlZCBieSBlcnJvciB0aHJlc2hvbGQiLCBsaW5lOiAiW1dBUk5dIG5vdCBlcnJvciIsIGxldmVsOiAiZXJyb3IiLCB3YW50OiBmYWxzZX0sCgl9CgoJZm9yIF8sIHR0IDo9IHJhbmdlIHRlc3RzIHsKCQl0LlJ1bih0dC5uYW1lLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCQlpZiBnb3QgOj0gTWF0Y2hQYW5lbExvZ0xldmVsKHR0LmxpbmUsIHR0LmxldmVsKTsgZ290ICE9IHR0LndhbnQgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkICV2LCBnb3QgJXYiLCB0dC53YW50LCBnb3QpCgkJCX0KCQl9KQoJfQp9CgpmdW5jIFRlc3RGb3JtYXRQYW5lbExvZ0xpbmVDb21wYWN0c0dJTkFjY2Vzc0xvZyh0ICp0ZXN0aW5nLlQpIHsKCWxpbmUgOj0gYFtHSU5dIDIwMjYvMDUvMTEgLSAyMzoxNDo1OSB8IDIwMCB8ICAgIDguNTc2ODE3bXMgfCAxMTYuMTYyLjIyNy4yMjMgfCBHRVQgICAgICAiL2FwaS90YXNrcz9wYWdlPTEmcGFnZV9zaXplPTIwImAKCWdvdCA6PSBmb3JtYXRQYW5lbExvZ0xpbmUobGluZSkKCWlmICFzdHJpbmdzLkhhc1ByZWZpeChnb3QsICJbSU5GT10gIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsaW5lIHRvIHN0YXJ0IHdpdGggW0lORk9dLCBnb3QgJXEiLCBnb3QpCgl9Cglmb3IgXywgcGFydCA6PSByYW5nZSBbXXN0cmluZ3siWzExNi4xNjIuMjI3LjIyM10iLCAiR0VUIiwgIi9hcGkvdGFza3M/cGFnZT0xJnBhZ2Vfc2l6ZT0yMCIsICLnirbmgIE9MjAwIn0gewoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgcGFydCkgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgbGluZSB0byBjb250YWluICVxLCBnb3QgJXEiLCBwYXJ0LCBnb3QpCgkJfQoJfQp9Cg==
+package service
+
+import (
+	"strings"
+	"testing"
+)
+
+func TestMatchPanelLogLevel(t *testing.T) {
+	tests := []struct {
+		name  string
+		line  string
+		level string
+		want  bool
+	}{
+		{name: "info matches info threshold", line: "[INFO] started", level: "info", want: true},
+		{name: "warn matches info threshold", line: "[WARN] warn text", level: "info", want: true},
+		{name: "debug filtered by info threshold", line: "[DEBUG] debug text", level: "info", want: false},
+		{name: "error matches warn threshold", line: "[ERROR] boom", level: "warn", want: true},
+		{name: "warn filtered by error threshold", line: "[WARN] not error", level: "error", want: false},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			if got := MatchPanelLogLevel(tt.line, tt.level); got != tt.want {
+				t.Fatalf("expected %v, got %v", tt.want, got)
+			}
+		})
+	}
+}
+
+func TestFormatPanelLogLineCompactsGINAccessLog(t *testing.T) {
+	line := `[GIN] 2026/05/11 - 23:14:59 | 200 |    8.576817ms | 116.162.227.223 | GET      "/api/tasks?page=1&page_size=20"`
+	got := formatPanelLogLine(line)
+	if !strings.HasPrefix(got, "[INFO] ") {
+		t.Fatalf("expected line to start with [INFO], got %q", got)
+	}
+	for _, part := range []string{"[116.162.227.223]", "GET", "/api/tasks?page=1&page_size=20", "状态=200"} {
+		if !strings.Contains(got, part) {
+			t.Fatalf("expected line to contain %q, got %q", part, got)
+		}
+	}
+}

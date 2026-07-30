@@ -1,1 +1,437 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEVsTWVzc2FnZUJveCB9IGZyb20gJ2VsZW1lbnQtcGx1cycKaW1wb3J0IFNjcmlwdEV4ZWN1dGlvbkRpYWxvZ3MgZnJvbSAnLi9jb21wb25lbnRzL1NjcmlwdEV4ZWN1dGlvbkRpYWxvZ3MudnVlJwppbXBvcnQgU2NyaXB0TWFuYWdlRGlhbG9ncyBmcm9tICcuL2NvbXBvbmVudHMvU2NyaXB0TWFuYWdlRGlhbG9ncy52dWUnCmltcG9ydCBTY3JpcHRzRWRpdG9yUGFuZSBmcm9tICcuL2NvbXBvbmVudHMvU2NyaXB0c0VkaXRvclBhbmUudnVlJwppbXBvcnQgU2NyaXB0c1NpZGViYXIgZnJvbSAnLi9jb21wb25lbnRzL1NjcmlwdHNTaWRlYmFyLnZ1ZScKaW1wb3J0IHsgdXNlU2NyaXB0RXhlY3V0aW9uIH0gZnJvbSAnLi91c2VTY3JpcHRFeGVjdXRpb24nCmltcG9ydCB7IHVzZVNjcmlwdFdvcmtzcGFjZSB9IGZyb20gJy4vdXNlU2NyaXB0V29ya3NwYWNlJwoKY29uc3Qgd29ya3NwYWNlID0gdXNlU2NyaXB0V29ya3NwYWNlKCkKY29uc3QgZXhlY3V0aW9uID0gdXNlU2NyaXB0RXhlY3V0aW9uKHsKICBzZWxlY3RlZEZpbGU6IHdvcmtzcGFjZS5zZWxlY3RlZEZpbGUsCiAgZmlsZUNvbnRlbnQ6IHdvcmtzcGFjZS5maWxlQ29udGVudAp9KQoKY29uc3QgewogIGlzTW9iaWxlLAogIGlzQ29tcGFjdExheW91dCwKICBtb2JpbGVTaG93RWRpdG9yLAogIGZpbGVUcmVlLAogIHNlbGVjdGVkRmlsZSwKICBmaWxlQ29udGVudCwKICBvcmlnaW5hbENvbnRlbnQsCiAgaXNCaW5hcnksCiAgbG9hZGluZywKICBzYXZpbmcsCiAgdHJlZUxvYWRpbmcsCiAgaXNFZGl0aW5nLAogIGVkaXRvckF1dG9Gb2N1c1RpY2tldCwKICBzaG93Q3JlYXRlRmlsZURpYWxvZywKICBzaG93Q3JlYXRlRGlyRGlhbG9nLAogIHNob3dSZW5hbWVEaWFsb2csCiAgc2hvd1ZlcnNpb25EaWFsb2csCiAgc2hvd1ZlcnNpb25EaWZmRGlhbG9nLAogIHNob3dVcGxvYWREaWFsb2csCiAgdXBsb2FkRGlyLAogIG5ld0ZpbGVOYW1lLAogIG5ld0ZpbGVQYXJlbnQsCiAgbmV3RGlyTmFtZSwKICBuZXdEaXJQYXJlbnQsCiAgcmVuYW1lVGFyZ2V0LAogIHZlcnNpb25zLAogIHZlcnNpb25zTG9hZGluZywKICB2ZXJzaW9uRGlmZkxvYWRpbmcsCiAgdmVyc2lvbkRpZmZPcmlnaW5hbFRpdGxlLAogIHZlcnNpb25EaWZmTW9kaWZpZWRUaXRsZSwKICB2ZXJzaW9uRGlmZk9yaWdpbmFsQ29udGVudCwKICB2ZXJzaW9uRGlmZk1vZGlmaWVkQ29udGVudCwKICBmb3JtYXR0aW5nLAogIGVkaXRvckxhbmd1YWdlLAogIGhhc0NoYW5nZXMsCiAgYWxsRm9sZGVycywKICBsb2FkVHJlZSwKICBoYW5kbGVOb2RlQ2xpY2ssCiAgaGFuZGxlU2F2ZSwKICBoYW5kbGVDcmVhdGVGaWxlLAogIGhhbmRsZUNyZWF0ZURpciwKICBoYW5kbGVEZWxldGUsCiAgaGFuZGxlTW92ZVRvUm9vdCwKICBhbGxvd0RyYWcsCiAgYWxsb3dEcm9wLAogIGhhbmRsZU5vZGVEcm9wLAogIGhhbmRsZVJlbmFtZSwKICBvcGVuUmVuYW1lLAogIG9wZW5VcGxvYWREaWFsb2csCiAgaGFuZGxlVXBsb2FkRmlsZUNoYW5nZSwKICBoYW5kbGVVcGxvYWRTdWJtaXQsCiAgaGFuZGxlQWRkVG9UYXNrLAogIGxvYWRWZXJzaW9ucywKICBoYW5kbGVSb2xsYmFjaywKICBoYW5kbGVDbGVhclZlcnNpb25zLAogIGhhbmRsZUNvbXBhcmVWZXJzaW9uLAogIGhhbmRsZUZvcm1hdCwKICBoYW5kbGVEb3dubG9hZCwKICBoYW5kbGVNb2JpbGVCYWNrCn0gPSB3b3Jrc3BhY2UKCmNvbnN0IHsKICBzaG93RGVidWdEaWFsb2csCiAgZGVidWdDb2RlLAogIGRlYnVnRmlsZU5hbWUsCiAgZGVidWdMb2dzLAogIGRlYnVnUnVubmluZywKICBkZWJ1Z0Vycm9yLAogIGRlYnVnRXhpdENvZGUsCiAgZGVidWdDb2RlQ2hhbmdlZCwKICBzaG93Q29kZVJ1bm5lciwKICBydW5uZXJDb2RlLAogIHJ1bm5lckxhbmd1YWdlLAogIHJ1bm5lckxvZ3MsCiAgcnVubmVyUnVubmluZywKICBydW5uZXJFeGl0Q29kZSwKICBydW5uZXJFcnJvciwKICBoYW5kbGVEZWJ1Z1J1biwKICBoYW5kbGVEZWJ1Z1N0YXJ0LAogIGhhbmRsZURlYnVnU3RvcCwKICBvcGVuQ29kZVJ1bm5lciwKICBoYW5kbGVSdW5Db2RlLAogIGhhbmRsZVN0b3BSdW5uZXIKfSA9IGV4ZWN1dGlvbgoKYXN5bmMgZnVuY3Rpb24gaGFuZGxlRGVidWdTYXZlKCkgewogIGlmICghc2VsZWN0ZWRGaWxlLnZhbHVlIHx8IGlzQmluYXJ5LnZhbHVlKSB7CiAgICByZXR1cm4KICB9CiAgZmlsZUNvbnRlbnQudmFsdWUgPSBkZWJ1Z0NvZGUudmFsdWUKICBpc0VkaXRpbmcudmFsdWUgPSB0cnVlCiAgYXdhaXQgaGFuZGxlU2F2ZSgpCiAgZGVidWdDb2RlQ2hhbmdlZC52YWx1ZSA9IGRlYnVnQ29kZS52YWx1ZSAhPT0gb3JpZ2luYWxDb250ZW50LnZhbHVlCn0KCmZ1bmN0aW9uIG9wZW5DcmVhdGVGaWxlRGlhbG9nKCkgewogIHNob3dDcmVhdGVGaWxlRGlhbG9nLnZhbHVlID0gdHJ1ZQp9CgpmdW5jdGlvbiBvcGVuQ3JlYXRlRGlyRGlhbG9nKCkgewogIHNob3dDcmVhdGVEaXJEaWFsb2cudmFsdWUgPSB0cnVlCn0KCmZ1bmN0aW9uIG9wZW5TZWxlY3RlZEZpbGVSZW5hbWVEaWFsb2coKSB7CiAgb3BlblJlbmFtZShzZWxlY3RlZEZpbGUudmFsdWUpCn0KCmZ1bmN0aW9uIGhhbmRsZURlbGV0ZVNlbGVjdGVkRmlsZSgpIHsKICByZXR1cm4gaGFuZGxlRGVsZXRlKHNlbGVjdGVkRmlsZS52YWx1ZSkKfQoKYXN5bmMgZnVuY3Rpb24gaGFuZGxlQ2FuY2VsRWRpdCgpIHsKICBpZiAoaGFzQ2hhbmdlcy52YWx1ZSkgewogICAgdHJ5IHsKICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oJ+W9k+WJjeacieacquS/neWtmOeahOaUueWKqO+8jOehruiupOaUvuW8g+S/ruaUueW5tumAgOWHuue8lui+ke+8nycsICfpgIDlh7rnvJbovpEnLCB7CiAgICAgICAgY29uZmlybUJ1dHRvblRleHQ6ICfmlL7lvIPmlLnliqgnLAogICAgICAgIGNhbmNlbEJ1dHRvblRleHQ6ICfnu6fnu63nvJbovpEnLAogICAgICAgIHR5cGU6ICd3YXJuaW5nJwogICAgICB9KQogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybgogICAgfQogICAgZmlsZUNvbnRlbnQudmFsdWUgPSBvcmlnaW5hbENvbnRlbnQudmFsdWUKICB9CiAgaXNFZGl0aW5nLnZhbHVlID0gZmFsc2UKfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJzY3JpcHRzLXBhZ2UgZGQtZml4ZWQtcGFnZSBkZC1wYWdlLWhpZGUtaGVhZGluZyIgOmNsYXNzPSJ7IG1vYmlsZTogaXNNb2JpbGUsIGNvbXBhY3Q6IGlzQ29tcGFjdExheW91dCB9Ij4KICAgIDxkaXYgY2xhc3M9InBhZ2UtaGVhZGVyIj4KICAgICAgPGRpdj4KICAgICAgICA8aDI+6ISa5pys566h55CGPC9oMj4KICAgICAgICA8cCBjbGFzcz0icGFnZS1zdWJ0aXRsZSI+5Zyo57q/57yW6L6R44CB6LCD6K+V5ZKM566h55CG5oKo55qE6Ieq5Yqo5YyW6ISa5pys5paH5Lu2PC9wPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9InNjcmlwdHMtd29ya3NwYWNlIiA6Y2xhc3M9InsgJ21vYmlsZS1zaG93LWVkaXRvcic6IGlzQ29tcGFjdExheW91dCAmJiBtb2JpbGVTaG93RWRpdG9yIH0iPgogICAgICA8U2NyaXB0c1NpZGViYXIKICAgICAgICA6aXMtbW9iaWxlPSJpc0NvbXBhY3RMYXlvdXQiCiAgICAgICAgOm1vYmlsZS1zaG93LWVkaXRvcj0ibW9iaWxlU2hvd0VkaXRvciIKICAgICAgICA6dHJlZS1sb2FkaW5nPSJ0cmVlTG9hZGluZyIKICAgICAgICA6ZmlsZS10cmVlPSJmaWxlVHJlZSIKICAgICAgICA6YWxsb3ctZHJhZz0iYWxsb3dEcmFnIgogICAgICAgIDphbGxvdy1kcm9wPSJhbGxvd0Ryb3AiCiAgICAgICAgOm9uLW9wZW4tY3JlYXRlLWZpbGU9Im9wZW5DcmVhdGVGaWxlRGlhbG9nIgogICAgICAgIDpvbi1vcGVuLWNyZWF0ZS1kaXI9Im9wZW5DcmVhdGVEaXJEaWFsb2ciCiAgICAgICAgOm9uLW9wZW4tdXBsb2FkPSJvcGVuVXBsb2FkRGlhbG9nIgogICAgICAgIDpvbi1vcGVuLWNvZGUtcnVubmVyPSJvcGVuQ29kZVJ1bm5lciIKICAgICAgICA6b24tcmVmcmVzaD0ibG9hZFRyZWUiCiAgICAgICAgOm9uLW5vZGUtY2xpY2s9ImhhbmRsZU5vZGVDbGljayIKICAgICAgICA6b24tbm9kZS1kcm9wPSJoYW5kbGVOb2RlRHJvcCIKICAgICAgICA6b24tb3Blbi1yZW5hbWU9Im9wZW5SZW5hbWUiCiAgICAgICAgOm9uLWRlbGV0ZT0iaGFuZGxlRGVsZXRlIgogICAgICAgIDpvbi1tb3ZlLXRvLXJvb3Q9ImhhbmRsZU1vdmVUb1Jvb3QiCiAgICAgIC8+CgogICAgICA8U2NyaXB0c0VkaXRvclBhbmUKICAgICAgICB2LW1vZGVsOmZpbGUtY29udGVudD0iZmlsZUNvbnRlbnQiCiAgICAgICAgdi1tb2RlbDppcy1lZGl0aW5nPSJpc0VkaXRpbmciCiAgICAgICAgOmlzLW1vYmlsZT0iaXNDb21wYWN0TGF5b3V0IgogICAgICAgIDptb2JpbGUtc2hvdy1lZGl0b3I9Im1vYmlsZVNob3dFZGl0b3IiCiAgICAgICAgOnNlbGVjdGVkLWZpbGU9InNlbGVjdGVkRmlsZSIKICAgICAgICA6aXMtYmluYXJ5PSJpc0JpbmFyeSIKICAgICAgICA6aGFzLWNoYW5nZXM9Imhhc0NoYW5nZXMiCiAgICAgICAgOnNhdmluZz0ic2F2aW5nIgogICAgICAgIDpmb3JtYXR0aW5nPSJmb3JtYXR0aW5nIgogICAgICAgIDpsb2FkaW5nPSJsb2FkaW5nIgogICAgICAgIDplZGl0b3ItbGFuZ3VhZ2U9ImVkaXRvckxhbmd1YWdlIgogICAgICAgIDplZGl0b3ItYXV0by1mb2N1cy10aWNrZXQ9ImVkaXRvckF1dG9Gb2N1c1RpY2tldCIKICAgICAgICA6b24tbW9iaWxlLWJhY2s9ImhhbmRsZU1vYmlsZUJhY2siCiAgICAgICAgOm9uLWRlYnVnLXJ1bj0iaGFuZGxlRGVidWdSdW4iCiAgICAgICAgOm9uLW9wZW4tY3JlYXRlLWZpbGU9Im9wZW5DcmVhdGVGaWxlRGlhbG9nIgogICAgICAgIDpvbi1hZGQtdG8tdGFzaz0iaGFuZGxlQWRkVG9UYXNrIgogICAgICAgIDpvbi1zYXZlPSJoYW5kbGVTYXZlIgogICAgICAgIDpvbi1jYW5jZWwtZWRpdD0iaGFuZGxlQ2FuY2VsRWRpdCIKICAgICAgICA6b24tZm9ybWF0PSJoYW5kbGVGb3JtYXQiCiAgICAgICAgOm9uLWxvYWQtdmVyc2lvbnM9ImxvYWRWZXJzaW9ucyIKICAgICAgICA6b24tb3Blbi1yZW5hbWU9Im9wZW5TZWxlY3RlZEZpbGVSZW5hbWVEaWFsb2ciCiAgICAgICAgOm9uLWRvd25sb2FkPSJoYW5kbGVEb3dubG9hZCIKICAgICAgICA6b24tZGVsZXRlPSJoYW5kbGVEZWxldGVTZWxlY3RlZEZpbGUiCiAgICAgIC8+CiAgICA8L2Rpdj4KCiAgICA8U2NyaXB0TWFuYWdlRGlhbG9ncwogICAgICB2LW1vZGVsOnNob3ctY3JlYXRlLWZpbGUtZGlhbG9nPSJzaG93Q3JlYXRlRmlsZURpYWxvZyIKICAgICAgdi1tb2RlbDpzaG93LWNyZWF0ZS1kaXItZGlhbG9nPSJzaG93Q3JlYXRlRGlyRGlhbG9nIgogICAgICB2LW1vZGVsOnNob3ctcmVuYW1lLWRpYWxvZz0ic2hvd1JlbmFtZURpYWxvZyIKICAgICAgdi1tb2RlbDpzaG93LXZlcnNpb24tZGlhbG9nPSJzaG93VmVyc2lvbkRpYWxvZyIKICAgICAgdi1tb2RlbDpzaG93LXZlcnNpb24tZGlmZi1kaWFsb2c9InNob3dWZXJzaW9uRGlmZkRpYWxvZyIKICAgICAgdi1tb2RlbDpzaG93LXVwbG9hZC1kaWFsb2c9InNob3dVcGxvYWREaWFsb2ciCiAgICAgIHYtbW9kZWw6bmV3LWZpbGUtbmFtZT0ibmV3RmlsZU5hbWUiCiAgICAgIHYtbW9kZWw6bmV3LWZpbGUtcGFyZW50PSJuZXdGaWxlUGFyZW50IgogICAgICB2LW1vZGVsOm5ldy1kaXItbmFtZT0ibmV3RGlyTmFtZSIKICAgICAgdi1tb2RlbDpuZXctZGlyLXBhcmVudD0ibmV3RGlyUGFyZW50IgogICAgICB2LW1vZGVsOnJlbmFtZS10YXJnZXQ9InJlbmFtZVRhcmdldCIKICAgICAgdi1tb2RlbDp1cGxvYWQtZGlyPSJ1cGxvYWREaXIiCiAgICAgIHYtbW9kZWw6dmVyc2lvbi1kaWZmLW9yaWdpbmFsLXRpdGxlPSJ2ZXJzaW9uRGlmZk9yaWdpbmFsVGl0bGUiCiAgICAgIHYtbW9kZWw6dmVyc2lvbi1kaWZmLW1vZGlmaWVkLXRpdGxlPSJ2ZXJzaW9uRGlmZk1vZGlmaWVkVGl0bGUiCiAgICAgIHYtbW9kZWw6dmVyc2lvbi1kaWZmLW9yaWdpbmFsLWNvbnRlbnQ9InZlcnNpb25EaWZmT3JpZ2luYWxDb250ZW50IgogICAgICB2LW1vZGVsOnZlcnNpb24tZGlmZi1tb2RpZmllZC1jb250ZW50PSJ2ZXJzaW9uRGlmZk1vZGlmaWVkQ29udGVudCIKICAgICAgOmlzLW1vYmlsZT0iaXNNb2JpbGUiCiAgICAgIDpzZWxlY3RlZC1maWxlPSJzZWxlY3RlZEZpbGUiCiAgICAgIDphbGwtZm9sZGVycz0iYWxsRm9sZGVycyIKICAgICAgOmVkaXRvci1sYW5ndWFnZT0iZWRpdG9yTGFuZ3VhZ2UiCiAgICAgIDp2ZXJzaW9ucz0idmVyc2lvbnMiCiAgICAgIDp2ZXJzaW9ucy1sb2FkaW5nPSJ2ZXJzaW9uc0xvYWRpbmciCiAgICAgIDp2ZXJzaW9uLWRpZmYtbG9hZGluZz0idmVyc2lvbkRpZmZMb2FkaW5nIgogICAgICA6b24tY3JlYXRlLWZpbGU9ImhhbmRsZUNyZWF0ZUZpbGUiCiAgICAgIDpvbi1jcmVhdGUtZGlyPSJoYW5kbGVDcmVhdGVEaXIiCiAgICAgIDpvbi1yZW5hbWU9ImhhbmRsZVJlbmFtZSIKICAgICAgOm9uLWNvbXBhcmUtdmVyc2lvbj0iaGFuZGxlQ29tcGFyZVZlcnNpb24iCiAgICAgIDpvbi1yb2xsYmFjaz0iaGFuZGxlUm9sbGJhY2siCiAgICAgIDpvbi1jbGVhci12ZXJzaW9ucz0iaGFuZGxlQ2xlYXJWZXJzaW9ucyIKICAgICAgOm9uLXVwbG9hZC1maWxlLWNoYW5nZT0iaGFuZGxlVXBsb2FkRmlsZUNoYW5nZSIKICAgICAgOm9uLXVwbG9hZC1zdWJtaXQ9ImhhbmRsZVVwbG9hZFN1Ym1pdCIKICAgIC8+CgogICAgPFNjcmlwdEV4ZWN1dGlvbkRpYWxvZ3MKICAgICAgdi1tb2RlbDpzaG93LWNvZGUtcnVubmVyPSJzaG93Q29kZVJ1bm5lciIKICAgICAgdi1tb2RlbDpydW5uZXItY29kZT0icnVubmVyQ29kZSIKICAgICAgdi1tb2RlbDpydW5uZXItbGFuZ3VhZ2U9InJ1bm5lckxhbmd1YWdlIgogICAgICB2LW1vZGVsOnNob3ctZGVidWctZGlhbG9nPSJzaG93RGVidWdEaWFsb2ciCiAgICAgIHYtbW9kZWw6ZGVidWctY29kZT0iZGVidWdDb2RlIgogICAgICB2LW1vZGVsOmRlYnVnLWNvZGUtY2hhbmdlZD0iZGVidWdDb2RlQ2hhbmdlZCIKICAgICAgOmlzLW1vYmlsZT0iaXNNb2JpbGUiCiAgICAgIDplZGl0b3ItbGFuZ3VhZ2U9ImVkaXRvckxhbmd1YWdlIgogICAgICA6ZGVidWctZmlsZS1uYW1lPSJkZWJ1Z0ZpbGVOYW1lIgogICAgICA6ZGVidWctbG9ncz0iZGVidWdMb2dzIgogICAgICA6ZGVidWctcnVubmluZz0iZGVidWdSdW5uaW5nIgogICAgICA6ZGVidWctZXJyb3I9ImRlYnVnRXJyb3IiCiAgICAgIDpkZWJ1Zy1leGl0LWNvZGU9ImRlYnVnRXhpdENvZGUiCiAgICAgIDpydW5uZXItbG9ncz0icnVubmVyTG9ncyIKICAgICAgOnJ1bm5lci1ydW5uaW5nPSJydW5uZXJSdW5uaW5nIgogICAgICA6cnVubmVyLWV4aXQtY29kZT0icnVubmVyRXhpdENvZGUiCiAgICAgIDpydW5uZXItZXJyb3I9InJ1bm5lckVycm9yIgogICAgICA6ZGVidWctc2F2aW5nPSJzYXZpbmciCiAgICAgIDpvbi1kZWJ1Zy1zdGFydD0iaGFuZGxlRGVidWdTdGFydCIKICAgICAgOm9uLWRlYnVnLXNhdmU9ImhhbmRsZURlYnVnU2F2ZSIKICAgICAgOm9uLWRlYnVnLXN0b3A9ImhhbmRsZURlYnVnU3RvcCIKICAgICAgOm9uLXJ1bi1jb2RlPSJoYW5kbGVSdW5Db2RlIgogICAgICA6b24tc3RvcC1ydW5uZXI9ImhhbmRsZVN0b3BSdW5uZXIiCiAgICAvPgogIDwvZGl2Pgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZCBsYW5nPSJzY3NzIj4KLnNjcmlwdHMtcGFnZSB7CiAgLS1zY3JpcHRzLWFjY2VudDogIzNiODJmNjsKICAtLXNjcmlwdHMtc3VyZmFjZTogdmFyKC0tZWwtYmctY29sb3IpOwogIC0tc2NyaXB0cy1zdXJmYWNlLW11dGVkOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtZmlsbC1jb2xvcikgNzAlLCB0cmFuc3BhcmVudCk7CiAgLS1zY3JpcHRzLWJvcmRlci1zb2Z0OiB2YXIoLS1lbC1ib3JkZXItY29sb3ItbGlnaHRlcik7CgogIHBhZGRpbmc6IDA7CiAgZm9udC1zaXplOiAxNHB4OwogIGZvbnQtZmFtaWx5OiB2YXIoLS1kZC1mb250LXVpKTsKICBtaW4taGVpZ2h0OiAwOwp9CgovKiAtLS0tIFBhZ2UgSGVhZGVyIChkZXNpZ24gc3lzdGVtKSAtLS0tICovCi5wYWdlLWhlYWRlciB7CiAgZGlzcGxheTogZmxleDsKICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgYWxpZ24taXRlbXM6IGZsZXgtc3RhcnQ7CiAgbWFyZ2luLWJvdHRvbTogMThweDsKICBnYXA6IDE2cHg7CgogIGgyIHsKICAgIG1hcmdpbjogMDsKICAgIGZvbnQtc2l6ZTogMjJweDsKICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKICAgIGxpbmUtaGVpZ2h0OiAxLjM7CiAgfQoKICAucGFnZS1zdWJ0aXRsZSB7CiAgICBmb250LXNpemU6IDEzcHg7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogICAgbWFyZ2luOiA0cHggMCAwOwogIH0KfQoKLyogLS0tLSBXb3Jrc3BhY2XvvIjkuKTljaHlrrnlmajvvJrpgI/mmI4gZmxleO+8jOWNoeeJh+mXtOeVmemXtOmame+8iS0tLS0gKi8KLnNjcmlwdHMtd29ya3NwYWNlIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXg6IDEgMSBhdXRvOwogIHdpZHRoOiAxMDAlOwogIGhlaWdodDogMDsKICBtaW4td2lkdGg6IDA7CiAgbWluLWhlaWdodDogMDsKICAvKiDnm67lvZXmoJHljaHkuI7nvJbovpHlmajljaHkuYvpl7TnmoTpl7TpmpkgKi8KICBnYXA6IDE0cHg7CiAgLyog5a655Zmo5pys6Lqr6YCP5piO77yM5ZyG6KeSL+i+ueahhi/pmLTlvbHkuIvmlL7liLDkuKTlvKDlrZDljaEgKi8KICBiYWNrZ3JvdW5kOiB0cmFuc3BhcmVudDsKfQoKLyogLS0tLSDnm67lvZXmoJHljaHvvIjni6znq4vlnIbop5LljaHniYfvvIktLS0tICovCjpkZWVwKC5zY3JpcHRzLXNpZGViYXIpIHsKICBmbGV4OiAwIDAgMzAwcHg7CiAgbWluLWhlaWdodDogMDsKICBvdmVyZmxvdzogaGlkZGVuOyAvKiDoo4HliIfljaHniYflnIbop5IgKi8KICBiYWNrZ3JvdW5kOiB2YXIoLS1lbC1iZy1jb2xvcik7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwogIGJvcmRlci1yYWRpdXM6IHZhcigtLWRkLWNhcmQtcmFkaXVzKTsKICBib3gtc2hhZG93OiB2YXIoLS1kZC1zaGFkb3ctY2FyZCk7Cn0KCi8qIC0tLS0g57yW6L6R5Zmo5Y2h77yI54us56uL5ZyG6KeS5Y2h54mH77yJLS0tLSAqLwo6ZGVlcCguc2NyaXB0cy1lZGl0b3IpIHsKICBtaW4taGVpZ2h0OiAwOwogIG92ZXJmbG93OiBoaWRkZW47IC8qIOijgeWIh+WNoeeJh+WchuinkiAqLwogIGJhY2tncm91bmQ6IHZhcigtLWVsLWJnLWNvbG9yKTsKICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1lbC1ib3JkZXItY29sb3ItbGlnaHRlcik7CiAgYm9yZGVyLXJhZGl1czogdmFyKC0tZGQtY2FyZC1yYWRpdXMpOwogIGJveC1zaGFkb3c6IHZhcigtLWRkLXNoYWRvdy1jYXJkKTsKfQoKOmRlZXAoLmVkaXRvci1oZXJvKSB7CiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodGVyKTsKfQoKOmRlZXAoLmVkaXRvci1zdGF0dXNiYXIpIHsKICBib3JkZXItdG9wOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwp9CgovKiAtLS0tIE1vYmlsZSBsYXlvdXQgLS0tLSAqLwouc2NyaXB0cy1wYWdlLm1vYmlsZSB7CiAgaGVpZ2h0OiAxMDAlOwogIG1pbi1oZWlnaHQ6IDA7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKCiAgLnBhZ2UtaGVhZGVyIHsKICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICBnYXA6IDEwcHg7CiAgICBtYXJnaW4tYm90dG9tOiAxNHB4OwoKICAgIGgyIHsKICAgICAgZm9udC1zaXplOiAxOHB4OwogICAgfQogIH0KCiAgLyog56e75Yqo56uv77ya5Lik5Y2h57q15ZCR5aCG5Y+g77yM5ZCE5Y2g5ruh5a695bqm5bm25L+d55WZ5Y2h54mH5ZyG6KeSICovCiAgLnNjcmlwdHMtd29ya3NwYWNlIHsKICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICBmbGV4OiAxIDEgYXV0bzsKICAgIHdpZHRoOiAxMDAlOwogICAgaGVpZ2h0OiAxMDAlOwogICAgbWluLWhlaWdodDogMDsKICAgIGdhcDogMTJweDsKCiAgICA6ZGVlcCguc2NyaXB0cy1zaWRlYmFyKSB7CiAgICAgIHdpZHRoOiAxMDAlOwogICAgICBtaW4td2lkdGg6IHVuc2V0OwogICAgICBmbGV4OiAxIDEgYXV0bzsKICAgICAgbWluLWhlaWdodDogMDsKICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsgLyog6KOB5ZyG6KeS77yb55uu5b2V5rua5Yqo55Sx5YaF6YOoIC5zaWRlYmFyLXRyZWUg6LSf6LSjICovCiAgICB9CgogICAgOmRlZXAoLnNjcmlwdHMtZWRpdG9yKSB7CiAgICAgIHdpZHRoOiAxMDAlOwogICAgICBmbGV4OiAxIDEgYXV0bzsKICAgICAgbWluLWhlaWdodDogMDsKICAgIH0KICB9CgogIC8qIOWIh+WIsOOAjOaYvuekuue8lui+keWZqOOAjeaXtumakOiXj+ebruW9leWNoeOAgemTuua7oee8lui+keWZqOWNoSAqLwogIC5zY3JpcHRzLXdvcmtzcGFjZS5tb2JpbGUtc2hvdy1lZGl0b3IgewogICAgOmRlZXAoLnNjcmlwdHMtc2lkZWJhcikgewogICAgICBkaXNwbGF5OiBub25lICFpbXBvcnRhbnQ7CiAgICB9CgogICAgOmRlZXAoLnNjcmlwdHMtZWRpdG9yKSB7CiAgICAgIGRpc3BsYXk6IGZsZXggIWltcG9ydGFudDsKICAgICAgaGVpZ2h0OiAxMDAlOwogICAgICBtaW4taGVpZ2h0OiAwOwogICAgfQogIH0KfQoKLyogLS0tLSBDb21wYWN0IGRlc2t0b3AvdGFibGV0IGxheW91dCAtLS0tICovCi5zY3JpcHRzLXBhZ2UuY29tcGFjdDpub3QoLm1vYmlsZSkgewogIC5wYWdlLWhlYWRlciB7CiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogICAgZ2FwOiAxMHB4OwogICAgbWFyZ2luLWJvdHRvbTogMTRweDsKCiAgICBoMiB7CiAgICAgIGZvbnQtc2l6ZTogMThweDsKICAgIH0KICB9CgogIC8qIGNvbXBhY3TvvJrlkIzmoLfnurXlkJHloIblj6DkuKTljaHvvIzkv53nlZnljaHniYflnIbop5LkuI7pl7TpmpkgKi8KICAuc2NyaXB0cy13b3Jrc3BhY2UgewogICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICAgIG1pbi1oZWlnaHQ6IDA7CiAgICBoZWlnaHQ6IDA7CiAgICBnYXA6IDEycHg7CgogICAgOmRlZXAoLnNjcmlwdHMtc2lkZWJhcikgewogICAgICB3aWR0aDogMTAwJTsKICAgICAgbWluLXdpZHRoOiAwOwogICAgICBmbGV4OiAxIDEgYXV0bzsKICAgICAgbWluLWhlaWdodDogMDsKICAgICAgb3ZlcmZsb3c6IGhpZGRlbjsKICAgIH0KCiAgICA6ZGVlcCguc2NyaXB0cy1lZGl0b3IpIHsKICAgICAgd2lkdGg6IDEwMCU7CiAgICAgIG1pbi13aWR0aDogMDsKICAgICAgZmxleDogMSAxIGF1dG87CiAgICAgIG1pbi1oZWlnaHQ6IDA7CiAgICB9CiAgfQoKICAuc2NyaXB0cy13b3Jrc3BhY2UubW9iaWxlLXNob3ctZWRpdG9yIHsKICAgIDpkZWVwKC5zY3JpcHRzLWVkaXRvcikgewogICAgICBoZWlnaHQ6IDEwMCU7CiAgICB9CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { ElMessageBox } from 'element-plus'
+import ScriptExecutionDialogs from './components/ScriptExecutionDialogs.vue'
+import ScriptManageDialogs from './components/ScriptManageDialogs.vue'
+import ScriptsEditorPane from './components/ScriptsEditorPane.vue'
+import ScriptsSidebar from './components/ScriptsSidebar.vue'
+import { useScriptExecution } from './useScriptExecution'
+import { useScriptWorkspace } from './useScriptWorkspace'
+
+const workspace = useScriptWorkspace()
+const execution = useScriptExecution({
+  selectedFile: workspace.selectedFile,
+  fileContent: workspace.fileContent
+})
+
+const {
+  isMobile,
+  isCompactLayout,
+  mobileShowEditor,
+  fileTree,
+  selectedFile,
+  fileContent,
+  originalContent,
+  isBinary,
+  loading,
+  saving,
+  treeLoading,
+  isEditing,
+  editorAutoFocusTicket,
+  showCreateFileDialog,
+  showCreateDirDialog,
+  showRenameDialog,
+  showVersionDialog,
+  showVersionDiffDialog,
+  showUploadDialog,
+  uploadDir,
+  newFileName,
+  newFileParent,
+  newDirName,
+  newDirParent,
+  renameTarget,
+  versions,
+  versionsLoading,
+  versionDiffLoading,
+  versionDiffOriginalTitle,
+  versionDiffModifiedTitle,
+  versionDiffOriginalContent,
+  versionDiffModifiedContent,
+  formatting,
+  editorLanguage,
+  hasChanges,
+  allFolders,
+  loadTree,
+  handleNodeClick,
+  handleSave,
+  handleCreateFile,
+  handleCreateDir,
+  handleDelete,
+  handleMoveToRoot,
+  allowDrag,
+  allowDrop,
+  handleNodeDrop,
+  handleRename,
+  openRename,
+  openUploadDialog,
+  handleUploadFileChange,
+  handleUploadSubmit,
+  handleAddToTask,
+  loadVersions,
+  handleRollback,
+  handleClearVersions,
+  handleCompareVersion,
+  handleFormat,
+  handleDownload,
+  handleMobileBack
+} = workspace
+
+const {
+  showDebugDialog,
+  debugCode,
+  debugFileName,
+  debugLogs,
+  debugRunning,
+  debugError,
+  debugExitCode,
+  debugCodeChanged,
+  showCodeRunner,
+  runnerCode,
+  runnerLanguage,
+  runnerLogs,
+  runnerRunning,
+  runnerExitCode,
+  runnerError,
+  handleDebugRun,
+  handleDebugStart,
+  handleDebugStop,
+  openCodeRunner,
+  handleRunCode,
+  handleStopRunner
+} = execution
+
+async function handleDebugSave() {
+  if (!selectedFile.value || isBinary.value) {
+    return
+  }
+  fileContent.value = debugCode.value
+  isEditing.value = true
+  await handleSave()
+  debugCodeChanged.value = debugCode.value !== originalContent.value
+}
+
+function openCreateFileDialog() {
+  showCreateFileDialog.value = true
+}
+
+function openCreateDirDialog() {
+  showCreateDirDialog.value = true
+}
+
+function openSelectedFileRenameDialog() {
+  openRename(selectedFile.value)
+}
+
+function handleDeleteSelectedFile() {
+  return handleDelete(selectedFile.value)
+}
+
+async function handleCancelEdit() {
+  if (hasChanges.value) {
+    try {
+      await ElMessageBox.confirm('当前有未保存的改动，确认放弃修改并退出编辑？', '退出编辑', {
+        confirmButtonText: '放弃改动',
+        cancelButtonText: '继续编辑',
+        type: 'warning'
+      })
+    } catch {
+      return
+    }
+    fileContent.value = originalContent.value
+  }
+  isEditing.value = false
+}
+</script>
+
+<template>
+  <div class="scripts-page dd-fixed-page dd-page-hide-heading" :class="{ mobile: isMobile, compact: isCompactLayout }">
+    <div class="page-header">
+      <div>
+        <h2>脚本管理</h2>
+        <p class="page-subtitle">在线编辑、调试和管理您的自动化脚本文件</p>
+      </div>
+    </div>
+
+    <div class="scripts-workspace" :class="{ 'mobile-show-editor': isCompactLayout && mobileShowEditor }">
+      <ScriptsSidebar
+        :is-mobile="isCompactLayout"
+        :mobile-show-editor="mobileShowEditor"
+        :tree-loading="treeLoading"
+        :file-tree="fileTree"
+        :allow-drag="allowDrag"
+        :allow-drop="allowDrop"
+        :on-open-create-file="openCreateFileDialog"
+        :on-open-create-dir="openCreateDirDialog"
+        :on-open-upload="openUploadDialog"
+        :on-open-code-runner="openCodeRunner"
+        :on-refresh="loadTree"
+        :on-node-click="handleNodeClick"
+        :on-node-drop="handleNodeDrop"
+        :on-open-rename="openRename"
+        :on-delete="handleDelete"
+        :on-move-to-root="handleMoveToRoot"
+      />
+
+      <ScriptsEditorPane
+        v-model:file-content="fileContent"
+        v-model:is-editing="isEditing"
+        :is-mobile="isCompactLayout"
+        :mobile-show-editor="mobileShowEditor"
+        :selected-file="selectedFile"
+        :is-binary="isBinary"
+        :has-changes="hasChanges"
+        :saving="saving"
+        :formatting="formatting"
+        :loading="loading"
+        :editor-language="editorLanguage"
+        :editor-auto-focus-ticket="editorAutoFocusTicket"
+        :on-mobile-back="handleMobileBack"
+        :on-debug-run="handleDebugRun"
+        :on-open-create-file="openCreateFileDialog"
+        :on-add-to-task="handleAddToTask"
+        :on-save="handleSave"
+        :on-cancel-edit="handleCancelEdit"
+        :on-format="handleFormat"
+        :on-load-versions="loadVersions"
+        :on-open-rename="openSelectedFileRenameDialog"
+        :on-download="handleDownload"
+        :on-delete="handleDeleteSelectedFile"
+      />
+    </div>
+
+    <ScriptManageDialogs
+      v-model:show-create-file-dialog="showCreateFileDialog"
+      v-model:show-create-dir-dialog="showCreateDirDialog"
+      v-model:show-rename-dialog="showRenameDialog"
+      v-model:show-version-dialog="showVersionDialog"
+      v-model:show-version-diff-dialog="showVersionDiffDialog"
+      v-model:show-upload-dialog="showUploadDialog"
+      v-model:new-file-name="newFileName"
+      v-model:new-file-parent="newFileParent"
+      v-model:new-dir-name="newDirName"
+      v-model:new-dir-parent="newDirParent"
+      v-model:rename-target="renameTarget"
+      v-model:upload-dir="uploadDir"
+      v-model:version-diff-original-title="versionDiffOriginalTitle"
+      v-model:version-diff-modified-title="versionDiffModifiedTitle"
+      v-model:version-diff-original-content="versionDiffOriginalContent"
+      v-model:version-diff-modified-content="versionDiffModifiedContent"
+      :is-mobile="isMobile"
+      :selected-file="selectedFile"
+      :all-folders="allFolders"
+      :editor-language="editorLanguage"
+      :versions="versions"
+      :versions-loading="versionsLoading"
+      :version-diff-loading="versionDiffLoading"
+      :on-create-file="handleCreateFile"
+      :on-create-dir="handleCreateDir"
+      :on-rename="handleRename"
+      :on-compare-version="handleCompareVersion"
+      :on-rollback="handleRollback"
+      :on-clear-versions="handleClearVersions"
+      :on-upload-file-change="handleUploadFileChange"
+      :on-upload-submit="handleUploadSubmit"
+    />
+
+    <ScriptExecutionDialogs
+      v-model:show-code-runner="showCodeRunner"
+      v-model:runner-code="runnerCode"
+      v-model:runner-language="runnerLanguage"
+      v-model:show-debug-dialog="showDebugDialog"
+      v-model:debug-code="debugCode"
+      v-model:debug-code-changed="debugCodeChanged"
+      :is-mobile="isMobile"
+      :editor-language="editorLanguage"
+      :debug-file-name="debugFileName"
+      :debug-logs="debugLogs"
+      :debug-running="debugRunning"
+      :debug-error="debugError"
+      :debug-exit-code="debugExitCode"
+      :runner-logs="runnerLogs"
+      :runner-running="runnerRunning"
+      :runner-exit-code="runnerExitCode"
+      :runner-error="runnerError"
+      :debug-saving="saving"
+      :on-debug-start="handleDebugStart"
+      :on-debug-save="handleDebugSave"
+      :on-debug-stop="handleDebugStop"
+      :on-run-code="handleRunCode"
+      :on-stop-runner="handleStopRunner"
+    />
+  </div>
+</template>
+
+<style scoped lang="scss">
+.scripts-page {
+  --scripts-accent: #3b82f6;
+  --scripts-surface: var(--el-bg-color);
+  --scripts-surface-muted: color-mix(in srgb, var(--el-fill-color) 70%, transparent);
+  --scripts-border-soft: var(--el-border-color-lighter);
+
+  padding: 0;
+  font-size: 14px;
+  font-family: var(--dd-font-ui);
+  min-height: 0;
+}
+
+/* ---- Page Header (design system) ---- */
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  gap: 16px;
+
+  h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--el-text-color-primary);
+    line-height: 1.3;
+  }
+
+  .page-subtitle {
+    font-size: 13px;
+    color: var(--el-text-color-secondary);
+    margin: 4px 0 0;
+  }
+}
+
+/* ---- Workspace（两卡容器：透明 flex，卡片间留间隙）---- */
+.scripts-workspace {
+  display: flex;
+  flex: 1 1 auto;
+  width: 100%;
+  height: 0;
+  min-width: 0;
+  min-height: 0;
+  /* 目录树卡与编辑器卡之间的间隙 */
+  gap: 14px;
+  /* 容器本身透明，圆角/边框/阴影下放到两张子卡 */
+  background: transparent;
+}
+
+/* ---- 目录树卡（独立圆角卡片）---- */
+:deep(.scripts-sidebar) {
+  flex: 0 0 300px;
+  min-height: 0;
+  overflow: hidden; /* 裁切卡片圆角 */
+  background: var(--el-bg-color);
+  border: 1px solid var(--el-border-color-lighter);
+  border-radius: var(--dd-card-radius);
+  box-shadow: var(--dd-shadow-card);
+}
+
+/* ---- 编辑器卡（独立圆角卡片）---- */
+:deep(.scripts-editor) {
+  min-height: 0;
+  overflow: hidden; /* 裁切卡片圆角 */
+  background: var(--el-bg-color);
+  border: 1px solid var(--el-border-color-lighter);
+  border-radius: var(--dd-card-radius);
+  box-shadow: var(--dd-shadow-card);
+}
+
+:deep(.editor-hero) {
+  border-bottom: 1px solid var(--el-border-color-lighter);
+}
+
+:deep(.editor-statusbar) {
+  border-top: 1px solid var(--el-border-color-lighter);
+}
+
+/* ---- Mobile layout ---- */
+.scripts-page.mobile {
+  height: 100%;
+  min-height: 0;
+  overflow: hidden;
+
+  .page-header {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 14px;
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+  /* 移动端：两卡纵向堆叠，各占满宽度并保留卡片圆角 */
+  .scripts-workspace {
+    flex-direction: column;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    gap: 12px;
+
+    :deep(.scripts-sidebar) {
+      width: 100%;
+      min-width: unset;
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: hidden; /* 裁圆角；目录滚动由内部 .sidebar-tree 负责 */
+    }
+
+    :deep(.scripts-editor) {
+      width: 100%;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+  }
+
+  /* 切到「显示编辑器」时隐藏目录卡、铺满编辑器卡 */
+  .scripts-workspace.mobile-show-editor {
+    :deep(.scripts-sidebar) {
+      display: none !important;
+    }
+
+    :deep(.scripts-editor) {
+      display: flex !important;
+      height: 100%;
+      min-height: 0;
+    }
+  }
+}
+
+/* ---- Compact desktop/tablet layout ---- */
+.scripts-page.compact:not(.mobile) {
+  .page-header {
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 14px;
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+  /* compact：同样纵向堆叠两卡，保留卡片圆角与间隙 */
+  .scripts-workspace {
+    flex-direction: column;
+    min-height: 0;
+    height: 0;
+    gap: 12px;
+
+    :deep(.scripts-sidebar) {
+      width: 100%;
+      min-width: 0;
+      flex: 1 1 auto;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    :deep(.scripts-editor) {
+      width: 100%;
+      min-width: 0;
+      flex: 1 1 auto;
+      min-height: 0;
+    }
+  }
+
+  .scripts-workspace.mobile-show-editor {
+    :deep(.scripts-editor) {
+      height: 100%;
+    }
+  }
+}
+</style>

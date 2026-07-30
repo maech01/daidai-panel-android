@@ -1,1 +1,11 @@
-Ly9nbzpidWlsZCAhd2luZG93cwoKcGFja2FnZSBzZXJ2aWNlCgovLyBmaWxsV2luZG93c1Jlc291cmNlSW5mbyDmmK/pnZ4gV2luZG93cyDlubPlj7DnmoTnqbrlrp7njrDjgIIKLy8g6L+Z6YeM5L+d55WZ5ZCM5ZCN5Ye95pWw77yM55uu55qE5piv6K6pIHJlc291cmNlX21vbml0b3IuZ28g6YeM55qE5YWx5Lqr6LCD55So54K5Ci8vIOWcqCBMaW51eCAvIG1hY09TIC8g5YW25a6D5bmz5Y+w5Lqk5Y+J57yW6K+R5pe25Lmf6IO95q2j5bi46YCa6L+H57yW6K+R44CCCi8vIOecn+ato+eahCBXaW5kb3dzIOi1hOa6kOmHh+mbhumAu+i+keWPquWcqCByZXNvdXJjZV9tb25pdG9yX3dpbmRvd3MuZ28g5Lit55Sf5pWI44CCCmZ1bmMgZmlsbFdpbmRvd3NSZXNvdXJjZUluZm8oaW5mbyAqUmVzb3VyY2VJbmZvKSB7CgkvLyDpnZ4gV2luZG93cyDlubPlj7DkuI3pnIDopoHooaUgV2luZG93cyDotYTmupDkv6Hmga/vvIzov5nph4znm7TmjqXnlZnnqbrljbPlj6/jgIIKfQo=
+//go:build !windows
+
+package service
+
+// fillWindowsResourceInfo 是非 Windows 平台的空实现。
+// 这里保留同名函数，目的是让 resource_monitor.go 里的共享调用点
+// 在 Linux / macOS / 其它平台交叉编译时也能正常通过编译。
+// 真正的 Windows 资源采集逻辑只在 resource_monitor_windows.go 中生效。
+func fillWindowsResourceInfo(info *ResourceInfo) {
+	// 非 Windows 平台不需要补 Windows 资源信息，这里直接留空即可。
+}

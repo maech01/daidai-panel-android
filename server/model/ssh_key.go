@@ -1,1 +1,32 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIFNTSEtleSBzdHJ1Y3QgewoJSUQgICAgICAgICB1aW50ICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCU5hbWUgICAgICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjEyODtub3QgbnVsbCIganNvbjoibmFtZSJgCglQcml2YXRlS2V5IHN0cmluZyAgICBgZ29ybToidHlwZTp0ZXh0O25vdCBudWxsIiBqc29uOiItImAKCUNyZWF0ZWRBdCAgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKCVVwZGF0ZWRBdCAgdGltZS5UaW1lIGBqc29uOiJ1cGRhdGVkX2F0ImAKfQoKZnVuYyAoU1NIS2V5KSBUYWJsZU5hbWUoKSBzdHJpbmcgewoJcmV0dXJuICJzc2hfa2V5cyIKfQoKZnVuYyAoayAqU1NIS2V5KSBUb0RpY3QoKSBtYXBbc3RyaW5nXWludGVyZmFjZXt9IHsKCXJldHVybiBtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCSJpZCI6ICAgICAgICAgay5JRCwKCQkibmFtZSI6ICAgICAgIGsuTmFtZSwKCQkiY3JlYXRlZF9hdCI6IGsuQ3JlYXRlZEF0LAoJCSJ1cGRhdGVkX2F0Ijogay5VcGRhdGVkQXQsCgl9Cn0KCmZ1bmMgKGsgKlNTSEtleSkgVG9EaWN0V2l0aEtleSgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmVzdWx0IDo9IGsuVG9EaWN0KCkKCXJlc3VsdFsicHJpdmF0ZV9rZXkiXSA9IGsuUHJpdmF0ZUtleQoJcmV0dXJuIHJlc3VsdAp9Cg==
+package model
+
+import (
+	"time"
+)
+
+type SSHKey struct {
+	ID         uint      `gorm:"primarykey" json:"id"`
+	Name       string    `gorm:"size:128;not null" json:"name"`
+	PrivateKey string    `gorm:"type:text;not null" json:"-"`
+	CreatedAt  time.Time `json:"created_at"`
+	UpdatedAt  time.Time `json:"updated_at"`
+}
+
+func (SSHKey) TableName() string {
+	return "ssh_keys"
+}
+
+func (k *SSHKey) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         k.ID,
+		"name":       k.Name,
+		"created_at": k.CreatedAt,
+		"updated_at": k.UpdatedAt,
+	}
+}
+
+func (k *SSHKey) ToDictWithKey() map[string]interface{} {
+	result := k.ToDict()
+	result["private_key"] = k.PrivateKey
+	return result
+}

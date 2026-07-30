@@ -1,1 +1,57 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGNvbnN0IG5vdGlmaWNhdGlvbkFwaSA9IHsKICBsaXN0KCkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvbm90aWZpY2F0aW9ucycpIGFzIFByb21pc2U8eyBkYXRhOiBhbnlbXSB9PgogIH0sCgogIGNyZWF0ZShkYXRhOiB7IG5hbWU6IHN0cmluZzsgdHlwZTogc3RyaW5nOyBjb25maWc6IHN0cmluZyB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvbm90aWZpY2F0aW9ucycsIGRhdGEpIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IGRhdGE6IGFueSB9PgogIH0sCgogIHVwZGF0ZShpZDogbnVtYmVyLCBkYXRhOiBhbnkpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL25vdGlmaWNhdGlvbnMvJHtpZH1gLCBkYXRhKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBkZWxldGUoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QuZGVsZXRlKGAvbm90aWZpY2F0aW9ucy8ke2lkfWApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBlbmFibGUoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KGAvbm90aWZpY2F0aW9ucy8ke2lkfS9lbmFibGVgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBkaXNhYmxlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL25vdGlmaWNhdGlvbnMvJHtpZH0vZGlzYWJsZWApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IGRhdGE6IGFueSB9PgogIH0sCgogIHRlc3QoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdChgL25vdGlmaWNhdGlvbnMvJHtpZH0vdGVzdGApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICB0eXBlcygpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL25vdGlmaWNhdGlvbnMvdHlwZXMnKSBhcyBQcm9taXNlPHsgZGF0YTogeyB0eXBlOiBzdHJpbmc7IG5hbWU6IHN0cmluZyB9W10gfT4KICB9Cn0KCmV4cG9ydCBjb25zdCBzc2hLZXlBcGkgPSB7CiAgbGlzdCgpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL3NzaC1rZXlzJykgYXMgUHJvbWlzZTx7IGRhdGE6IGFueVtdIH0+CiAgfSwKCiAgY3JlYXRlKGRhdGE6IHsgbmFtZTogc3RyaW5nOyBwcml2YXRlX2tleTogc3RyaW5nIH0pIHsKICAgIHJldHVybiByZXF1ZXN0LnBvc3QoJy9zc2gta2V5cycsIGRhdGEpIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IGRhdGE6IGFueSB9PgogIH0sCgogIHVwZGF0ZShpZDogbnVtYmVyLCBkYXRhOiBhbnkpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3NzaC1rZXlzLyR7aWR9YCwgZGF0YSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55IH0+CiAgfSwKCiAgZGVsZXRlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZShgL3NzaC1rZXlzLyR7aWR9YCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGRldGFpbChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoYC9zc2gta2V5cy8ke2lkfWApIGFzIFByb21pc2U8eyBkYXRhOiBhbnkgfT4KICB9Cn0K
+import request from './request'
+
+export const notificationApi = {
+  list() {
+    return request.get('/notifications') as Promise<{ data: any[] }>
+  },
+
+  create(data: { name: string; type: string; config: string }) {
+    return request.post('/notifications', data) as Promise<{ message: string; data: any }>
+  },
+
+  update(id: number, data: any) {
+    return request.put(`/notifications/${id}`, data) as Promise<{ message: string; data: any }>
+  },
+
+  delete(id: number) {
+    return request.delete(`/notifications/${id}`) as Promise<{ message: string }>
+  },
+
+  enable(id: number) {
+    return request.put(`/notifications/${id}/enable`) as Promise<{ message: string; data: any }>
+  },
+
+  disable(id: number) {
+    return request.put(`/notifications/${id}/disable`) as Promise<{ message: string; data: any }>
+  },
+
+  test(id: number) {
+    return request.post(`/notifications/${id}/test`) as Promise<{ message: string }>
+  },
+
+  types() {
+    return request.get('/notifications/types') as Promise<{ data: { type: string; name: string }[] }>
+  }
+}
+
+export const sshKeyApi = {
+  list() {
+    return request.get('/ssh-keys') as Promise<{ data: any[] }>
+  },
+
+  create(data: { name: string; private_key: string }) {
+    return request.post('/ssh-keys', data) as Promise<{ message: string; data: any }>
+  },
+
+  update(id: number, data: any) {
+    return request.put(`/ssh-keys/${id}`, data) as Promise<{ message: string; data: any }>
+  },
+
+  delete(id: number) {
+    return request.delete(`/ssh-keys/${id}`) as Promise<{ message: string }>
+  },
+
+  detail(id: number) {
+    return request.get(`/ssh-keys/${id}`) as Promise<{ data: any }>
+  }
+}

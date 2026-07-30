@@ -1,1 +1,221 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJIm5ldC9odHRwIgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCgkiZ2l0aHViLmNvbS9nb2xhbmctand0L2p3dC92NSIKCSJnaXRodWIuY29tL2dvb2dsZS91dWlkIgopCgp0eXBlIENsYWltcyBzdHJ1Y3QgewoJVXNlcm5hbWUgIHN0cmluZyBganNvbjoidXNlcm5hbWUiYAoJUm9sZSAgICAgIHN0cmluZyBganNvbjoicm9sZSJgCglUb2tlblR5cGUgc3RyaW5nIGBqc29uOiJ0b2tlbl90eXBlImAKCWp3dC5SZWdpc3RlcmVkQ2xhaW1zCn0KCnR5cGUgVG9rZW5JbmZvIHN0cnVjdCB7CglUb2tlbiAgICAgc3RyaW5nCglKVEkgICAgICAgc3RyaW5nCglFeHBpcmVzQXQgdGltZS5UaW1lCn0KCmZ1bmMgR2VuZXJhdGVBY2Nlc3NUb2tlbih1c2VybmFtZSwgcm9sZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CglpbmZvLCBlcnIgOj0gR2VuZXJhdGVBY2Nlc3NUb2tlbkluZm8odXNlcm5hbWUsIHJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoJcmV0dXJuIGluZm8uVG9rZW4sIG5pbAp9CgpmdW5jIEdlbmVyYXRlQWNjZXNzVG9rZW5JbmZvKHVzZXJuYW1lLCByb2xlIHN0cmluZykgKCpUb2tlbkluZm8sIGVycm9yKSB7CglyZXR1cm4gZ2VuZXJhdGVBY2Nlc3NUb2tlbkluZm9XaXRoVFRMKHVzZXJuYW1lLCByb2xlLCBjb25maWcuQy5KV1QuQWNjZXNzVG9rZW5FeHBpcmUpCn0KCmZ1bmMgR2VuZXJhdGVUZW1wb3JhcnlBY2Nlc3NUb2tlbih1c2VybmFtZSwgcm9sZSBzdHJpbmcsIHR0bCB0aW1lLkR1cmF0aW9uKSAoc3RyaW5nLCBlcnJvcikgewoJaW5mbywgZXJyIDo9IGdlbmVyYXRlQWNjZXNzVG9rZW5JbmZvV2l0aFRUTCh1c2VybmFtZSwgcm9sZSwgdHRsKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCXJldHVybiBpbmZvLlRva2VuLCBuaWwKfQoKZnVuYyBnZW5lcmF0ZUFjY2Vzc1Rva2VuSW5mb1dpdGhUVEwodXNlcm5hbWUsIHJvbGUgc3RyaW5nLCB0dGwgdGltZS5EdXJhdGlvbikgKCpUb2tlbkluZm8sIGVycm9yKSB7CglpZiB0dGwgPD0gMCB7CgkJdHRsID0gY29uZmlnLkMuSldULkFjY2Vzc1Rva2VuRXhwaXJlCgl9CgoJanRpIDo9IGdlbmVyYXRlSlRJKCkKCWV4cGlyZXNBdCA6PSB0aW1lLk5vdygpLkFkZCh0dGwpCgljbGFpbXMgOj0gQ2xhaW1zewoJCVVzZXJuYW1lOiAgdXNlcm5hbWUsCgkJUm9sZTogICAgICByb2xlLAoJCVRva2VuVHlwZTogImFjY2VzcyIsCgkJUmVnaXN0ZXJlZENsYWltczogand0LlJlZ2lzdGVyZWRDbGFpbXN7CgkJCUV4cGlyZXNBdDogand0Lk5ld051bWVyaWNEYXRlKGV4cGlyZXNBdCksCgkJCUlzc3VlZEF0OiAgand0Lk5ld051bWVyaWNEYXRlKHRpbWUuTm93KCkpLAoJCQlJRDogICAgICAgIGp0aSwKCQl9LAoJfQoJdG9rZW4gOj0gand0Lk5ld1dpdGhDbGFpbXMoand0LlNpZ25pbmdNZXRob2RIUzI1NiwgY2xhaW1zKQoJdG9rZW5TdHIsIGVyciA6PSB0b2tlbi5TaWduZWRTdHJpbmcoW11ieXRlKGNvbmZpZy5DLkpXVC5TZWNyZXQpKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglyZXR1cm4gJlRva2VuSW5mb3tUb2tlbjogdG9rZW5TdHIsIEpUSToganRpLCBFeHBpcmVzQXQ6IGV4cGlyZXNBdH0sIG5pbAp9CgpmdW5jIEdlbmVyYXRlUmVmcmVzaFRva2VuKHVzZXJuYW1lLCByb2xlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCWluZm8sIGVyciA6PSBHZW5lcmF0ZVJlZnJlc2hUb2tlbkluZm8odXNlcm5hbWUsIHJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoJcmV0dXJuIGluZm8uVG9rZW4sIG5pbAp9CgpmdW5jIEdlbmVyYXRlUmVmcmVzaFRva2VuSW5mbyh1c2VybmFtZSwgcm9sZSBzdHJpbmcpICgqVG9rZW5JbmZvLCBlcnJvcikgewoJanRpIDo9IGdlbmVyYXRlSlRJKCkKCWV4cGlyZXNBdCA6PSB0aW1lLk5vdygpLkFkZChjb25maWcuQy5KV1QuUmVmcmVzaFRva2VuRXhwaXJlKQoJY2xhaW1zIDo9IENsYWltc3sKCQlVc2VybmFtZTogIHVzZXJuYW1lLAoJCVJvbGU6ICAgICAgcm9sZSwKCQlUb2tlblR5cGU6ICJyZWZyZXNoIiwKCQlSZWdpc3RlcmVkQ2xhaW1zOiBqd3QuUmVnaXN0ZXJlZENsYWltc3sKCQkJRXhwaXJlc0F0OiBqd3QuTmV3TnVtZXJpY0RhdGUoZXhwaXJlc0F0KSwKCQkJSXNzdWVkQXQ6ICBqd3QuTmV3TnVtZXJpY0RhdGUodGltZS5Ob3coKSksCgkJCUlEOiAgICAgICAganRpLAoJCX0sCgl9Cgl0b2tlbiA6PSBqd3QuTmV3V2l0aENsYWltcyhqd3QuU2lnbmluZ01ldGhvZEhTMjU2LCBjbGFpbXMpCgl0b2tlblN0ciwgZXJyIDo9IHRva2VuLlNpZ25lZFN0cmluZyhbXWJ5dGUoY29uZmlnLkMuSldULlNlY3JldCkpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCXJldHVybiAmVG9rZW5JbmZve1Rva2VuOiB0b2tlblN0ciwgSlRJOiBqdGksIEV4cGlyZXNBdDogZXhwaXJlc0F0fSwgbmlsCn0KCmZ1bmMgUGFyc2VUb2tlbih0b2tlblN0cmluZyBzdHJpbmcpICgqQ2xhaW1zLCBlcnJvcikgewoJdG9rZW4sIGVyciA6PSBqd3QuUGFyc2VXaXRoQ2xhaW1zKHRva2VuU3RyaW5nLCAmQ2xhaW1ze30sIGZ1bmModG9rZW4gKmp3dC5Ub2tlbikgKGludGVyZmFjZXt9LCBlcnJvcikgewoJCXJldHVybiBbXWJ5dGUoY29uZmlnLkMuSldULlNlY3JldCksIG5pbAoJfSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJaWYgY2xhaW1zLCBvayA6PSB0b2tlbi5DbGFpbXMuKCpDbGFpbXMpOyBvayAmJiB0b2tlbi5WYWxpZCB7CgkJcmV0dXJuIGNsYWltcywgbmlsCgl9CglyZXR1cm4gbmlsLCBqd3QuRXJyU2lnbmF0dXJlSW52YWxpZAp9CgpmdW5jIElzVG9rZW5CbG9ja2VkKGp0aSBzdHJpbmcpIGJvb2wgewoJdmFyIGNvdW50IGludDY0CglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuVG9rZW5CbG9ja2xpc3R7fSkuV2hlcmUoImp0aSA9ID8iLCBqdGkpLkNvdW50KCZjb3VudCkKCXJldHVybiBjb3VudCA+IDAKfQoKZnVuYyBFeHRyYWN0QmVhcmVyVG9rZW4oYXV0aEhlYWRlciBzdHJpbmcpIHN0cmluZyB7CglpZiAhc3RyaW5ncy5IYXNQcmVmaXgoYXV0aEhlYWRlciwgIkJlYXJlciAiKSB7CgkJcmV0dXJuICIiCgl9CgoJcmV0dXJuIHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZ3MuVHJpbVByZWZpeChhdXRoSGVhZGVyLCAiQmVhcmVyICIpKQp9CgpmdW5jIEpXVEF1dGgoKSBnaW4uSGFuZGxlckZ1bmMgewoJcmV0dXJuIGZ1bmMoYyAqZ2luLkNvbnRleHQpIHsKCQl0b2tlblN0ciA6PSBFeHRyYWN0QmVhcmVyVG9rZW4oYy5HZXRIZWFkZXIoIkF1dGhvcml6YXRpb24iKSkKCgkJaWYgdG9rZW5TdHIgPT0gIiIgewoJCQljLkpTT04oaHR0cC5TdGF0dXNVbmF1dGhvcml6ZWQsIGdpbi5IeyJlcnJvciI6ICLnvLrlsJHmjojmnYPku6TniYwifSkKCQkJYy5BYm9ydCgpCgkJCXJldHVybgoJCX0KCgkJY2xhaW1zLCBlcnIgOj0gUGFyc2VUb2tlbih0b2tlblN0cikKCQlpZiBlcnIgIT0gbmlsIHsKCQkJYy5KU09OKGh0dHAuU3RhdHVzVW5hdXRob3JpemVkLCBnaW4uSHsiZXJyb3IiOiAi5Luk54mM5peg5pWI5oiW5bey6L+H5pyfIn0pCgkJCWMuQWJvcnQoKQoJCQlyZXR1cm4KCQl9CgoJCWlmIGNsYWltcy5Ub2tlblR5cGUgIT0gImFjY2VzcyIgewoJCQljLkpTT04oaHR0cC5TdGF0dXNVbmF1dGhvcml6ZWQsIGdpbi5IeyJlcnJvciI6ICLku6TniYznsbvlnovplJnor68ifSkKCQkJYy5BYm9ydCgpCgkJCXJldHVybgoJCX0KCgkJaWYgSXNUb2tlbkJsb2NrZWQoY2xhaW1zLklEKSB7CgkJCWMuSlNPTihodHRwLlN0YXR1c1VuYXV0aG9yaXplZCwgZ2luLkh7ImVycm9yIjogIuS7pOeJjOW3suiiq+aSpOmUgCJ9KQoJCQljLkFib3J0KCkKCQkJcmV0dXJuCgkJfQoKCQljLlNldCgidXNlcm5hbWUiLCBjbGFpbXMuVXNlcm5hbWUpCgkJYy5TZXQoInJvbGUiLCBjbGFpbXMuUm9sZSkKCQljLlNldCgianRpIiwgY2xhaW1zLklEKQoJCWlmIGlzQXBwVG9rZW4oY2xhaW1zLlVzZXJuYW1lLCBjbGFpbXMuUm9sZSkgewoJCQljLlNldCgidG9rZW5fa2luZCIsICJhcHAiKQoJCX0gZWxzZSB7CgkJCWMuU2V0KCJ0b2tlbl9raW5kIiwgInVzZXIiKQoJCX0KCQljLk5leHQoKQoJfQp9CgpmdW5jIFJlcXVpcmVBZG1pbigpIGdpbi5IYW5kbGVyRnVuYyB7CglyZXR1cm4gZnVuYyhjICpnaW4uQ29udGV4dCkgewoJCXJvbGUsIGV4aXN0cyA6PSBjLkdldCgicm9sZSIpCgkJaWYgIWV4aXN0cyB8fCByb2xlLihzdHJpbmcpICE9ICJhZG1pbiIgewoJCQljLkpTT04oaHR0cC5TdGF0dXNGb3JiaWRkZW4sIGdpbi5IeyJlcnJvciI6ICLpnIDopoHnrqHnkIblkZjmnYPpmZAifSkKCQkJYy5BYm9ydCgpCgkJCXJldHVybgoJCX0KCQljLk5leHQoKQoJfQp9CgpmdW5jIFJlcXVpcmVSb2xlKG1pblJvbGUgc3RyaW5nKSBnaW4uSGFuZGxlckZ1bmMgewoJcm9sZUxldmVsIDo9IG1hcFtzdHJpbmddaW50ewoJCSJ2aWV3ZXIiOiAgIDEsCgkJIm9wZXJhdG9yIjogMiwKCQkiYWRtaW4iOiAgICAzLAoJfQoKCXJldHVybiBmdW5jKGMgKmdpbi5Db250ZXh0KSB7CgkJcm9sZSwgZXhpc3RzIDo9IGMuR2V0KCJyb2xlIikKCQlpZiAhZXhpc3RzIHsKCQkJYy5KU09OKGh0dHAuU3RhdHVzRm9yYmlkZGVuLCBnaW4uSHsiZXJyb3IiOiAi5ouS57ud6K6/6ZeuIn0pCgkJCWMuQWJvcnQoKQoJCQlyZXR1cm4KCQl9CgoJCWlmIGMuR2V0U3RyaW5nKCJ0b2tlbl9raW5kIikgPT0gImFwcCIgewoJCQlpZiBjLkdldEJvb2woImFwcF9zY29wZV9hdXRob3JpemVkIikgewoJCQkJYy5OZXh0KCkKCQkJCXJldHVybgoJCQl9CgoJCQljLkpTT04oaHR0cC5TdGF0dXNGb3JiaWRkZW4sIGdpbi5IeyJlcnJvciI6ICLlupTnlKjku6TniYzml6DmnYPorr/pl67mraTmjqXlj6MifSkKCQkJYy5BYm9ydCgpCgkJCXJldHVybgoJCX0KCgkJaWYgcm9sZUxldmVsW3JvbGUuKHN0cmluZyldIDwgcm9sZUxldmVsW21pblJvbGVdIHsKCQkJYy5KU09OKGh0dHAuU3RhdHVzRm9yYmlkZGVuLCBnaW4uSHsiZXJyb3IiOiAi5p2D6ZmQ5LiN6LazIn0pCgkJCWMuQWJvcnQoKQoJCQlyZXR1cm4KCQl9CgkJYy5OZXh0KCkKCX0KfQoKZnVuYyBnZW5lcmF0ZUpUSSgpIHN0cmluZyB7CglyZXR1cm4gdXVpZC5OZXcoKS5TdHJpbmcoKQp9Cg==
+package middleware
+
+import (
+	"net/http"
+	"strings"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+
+	"github.com/gin-gonic/gin"
+	"github.com/golang-jwt/jwt/v5"
+	"github.com/google/uuid"
+)
+
+type Claims struct {
+	Username  string `json:"username"`
+	Role      string `json:"role"`
+	TokenType string `json:"token_type"`
+	jwt.RegisteredClaims
+}
+
+type TokenInfo struct {
+	Token     string
+	JTI       string
+	ExpiresAt time.Time
+}
+
+func GenerateAccessToken(username, role string) (string, error) {
+	info, err := GenerateAccessTokenInfo(username, role)
+	if err != nil {
+		return "", err
+	}
+	return info.Token, nil
+}
+
+func GenerateAccessTokenInfo(username, role string) (*TokenInfo, error) {
+	return generateAccessTokenInfoWithTTL(username, role, config.C.JWT.AccessTokenExpire)
+}
+
+func GenerateTemporaryAccessToken(username, role string, ttl time.Duration) (string, error) {
+	info, err := generateAccessTokenInfoWithTTL(username, role, ttl)
+	if err != nil {
+		return "", err
+	}
+	return info.Token, nil
+}
+
+func generateAccessTokenInfoWithTTL(username, role string, ttl time.Duration) (*TokenInfo, error) {
+	if ttl <= 0 {
+		ttl = config.C.JWT.AccessTokenExpire
+	}
+
+	jti := generateJTI()
+	expiresAt := time.Now().Add(ttl)
+	claims := Claims{
+		Username:  username,
+		Role:      role,
+		TokenType: "access",
+		RegisteredClaims: jwt.RegisteredClaims{
+			ExpiresAt: jwt.NewNumericDate(expiresAt),
+			IssuedAt:  jwt.NewNumericDate(time.Now()),
+			ID:        jti,
+		},
+	}
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+	tokenStr, err := token.SignedString([]byte(config.C.JWT.Secret))
+	if err != nil {
+		return nil, err
+	}
+	return &TokenInfo{Token: tokenStr, JTI: jti, ExpiresAt: expiresAt}, nil
+}
+
+func GenerateRefreshToken(username, role string) (string, error) {
+	info, err := GenerateRefreshTokenInfo(username, role)
+	if err != nil {
+		return "", err
+	}
+	return info.Token, nil
+}
+
+func GenerateRefreshTokenInfo(username, role string) (*TokenInfo, error) {
+	jti := generateJTI()
+	expiresAt := time.Now().Add(config.C.JWT.RefreshTokenExpire)
+	claims := Claims{
+		Username:  username,
+		Role:      role,
+		TokenType: "refresh",
+		RegisteredClaims: jwt.RegisteredClaims{
+			ExpiresAt: jwt.NewNumericDate(expiresAt),
+			IssuedAt:  jwt.NewNumericDate(time.Now()),
+			ID:        jti,
+		},
+	}
+	token := jwt.NewWithClaims(jwt.SigningMethodHS256, claims)
+	tokenStr, err := token.SignedString([]byte(config.C.JWT.Secret))
+	if err != nil {
+		return nil, err
+	}
+	return &TokenInfo{Token: tokenStr, JTI: jti, ExpiresAt: expiresAt}, nil
+}
+
+func ParseToken(tokenString string) (*Claims, error) {
+	token, err := jwt.ParseWithClaims(tokenString, &Claims{}, func(token *jwt.Token) (interface{}, error) {
+		return []byte(config.C.JWT.Secret), nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	if claims, ok := token.Claims.(*Claims); ok && token.Valid {
+		return claims, nil
+	}
+	return nil, jwt.ErrSignatureInvalid
+}
+
+func IsTokenBlocked(jti string) bool {
+	var count int64
+	database.DB.Model(&model.TokenBlocklist{}).Where("jti = ?", jti).Count(&count)
+	return count > 0
+}
+
+func ExtractBearerToken(authHeader string) string {
+	if !strings.HasPrefix(authHeader, "Bearer ") {
+		return ""
+	}
+
+	return strings.TrimSpace(strings.TrimPrefix(authHeader, "Bearer "))
+}
+
+func JWTAuth() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		tokenStr := ExtractBearerToken(c.GetHeader("Authorization"))
+
+		if tokenStr == "" {
+			c.JSON(http.StatusUnauthorized, gin.H{"error": "缺少授权令牌"})
+			c.Abort()
+			return
+		}
+
+		claims, err := ParseToken(tokenStr)
+		if err != nil {
+			c.JSON(http.StatusUnauthorized, gin.H{"error": "令牌无效或已过期"})
+			c.Abort()
+			return
+		}
+
+		if claims.TokenType != "access" {
+			c.JSON(http.StatusUnauthorized, gin.H{"error": "令牌类型错误"})
+			c.Abort()
+			return
+		}
+
+		if IsTokenBlocked(claims.ID) {
+			c.JSON(http.StatusUnauthorized, gin.H{"error": "令牌已被撤销"})
+			c.Abort()
+			return
+		}
+
+		c.Set("username", claims.Username)
+		c.Set("role", claims.Role)
+		c.Set("jti", claims.ID)
+		if isAppToken(claims.Username, claims.Role) {
+			c.Set("token_kind", "app")
+		} else {
+			c.Set("token_kind", "user")
+		}
+		c.Next()
+	}
+}
+
+func RequireAdmin() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		role, exists := c.Get("role")
+		if !exists || role.(string) != "admin" {
+			c.JSON(http.StatusForbidden, gin.H{"error": "需要管理员权限"})
+			c.Abort()
+			return
+		}
+		c.Next()
+	}
+}
+
+func RequireRole(minRole string) gin.HandlerFunc {
+	roleLevel := map[string]int{
+		"viewer":   1,
+		"operator": 2,
+		"admin":    3,
+	}
+
+	return func(c *gin.Context) {
+		role, exists := c.Get("role")
+		if !exists {
+			c.JSON(http.StatusForbidden, gin.H{"error": "拒绝访问"})
+			c.Abort()
+			return
+		}
+
+		if c.GetString("token_kind") == "app" {
+			if c.GetBool("app_scope_authorized") {
+				c.Next()
+				return
+			}
+
+			c.JSON(http.StatusForbidden, gin.H{"error": "应用令牌无权访问此接口"})
+			c.Abort()
+			return
+		}
+
+		if roleLevel[role.(string)] < roleLevel[minRole] {
+			c.JSON(http.StatusForbidden, gin.H{"error": "权限不足"})
+			c.Abort()
+			return
+		}
+		c.Next()
+	}
+}
+
+func generateJTI() string {
+	return uuid.New().String()
+}

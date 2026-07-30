@@ -1,1 +1,65 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2ggfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZVJlc3BvbnNpdmUgfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZVJlc3BvbnNpdmUnCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBtb2RlbFZhbHVlOiBib29sZWFuCn0+KCkKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgJ3VwZGF0ZTptb2RlbFZhbHVlJzogW3ZhbHVlOiBib29sZWFuXQogIGNvbmZpcm06IFtwYXlsb2FkOiB7IG5hbWU6IHN0cmluZyB9XQp9PigpCgpjb25zdCBuZXdOYW1lID0gcmVmKCcnKQpjb25zdCB7IGRpYWxvZ0Z1bGxzY3JlZW4gfSA9IHVzZVJlc3BvbnNpdmUoKQoKZnVuY3Rpb24gY2xvc2VEaWFsb2coKSB7CiAgZW1pdCgndXBkYXRlOm1vZGVsVmFsdWUnLCBmYWxzZSkKfQoKZnVuY3Rpb24gaGFuZGxlQ29uZmlybSgpIHsKICBlbWl0KCdjb25maXJtJywgeyBuYW1lOiBuZXdOYW1lLnZhbHVlIH0pCn0KCndhdGNoKAogICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgKHZpc2libGUpID0+IHsKICAgIGlmICghdmlzaWJsZSkgewogICAgICBuZXdOYW1lLnZhbHVlID0gJycKICAgIH0KICB9CikKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWRpYWxvZwogICAgOm1vZGVsLXZhbHVlPSJtb2RlbFZhbHVlIgogICAgdGl0bGU9IuaJuemHj+S/ruaUueWPmOmHj+WQjSIKICAgIHdpZHRoPSI0MjBweCIKICAgIDpmdWxsc2NyZWVuPSJkaWFsb2dGdWxsc2NyZWVuIgogICAgZGVzdHJveS1vbi1jbG9zZQogICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOm1vZGVsVmFsdWUnLCAkZXZlbnQpIgogID4KICAgIDxlbC1mb3JtIDpsYWJlbC13aWR0aD0iZGlhbG9nRnVsbHNjcmVlbiA/ICdhdXRvJyA6ICc4MHB4JyIgOmxhYmVsLXBvc2l0aW9uPSJkaWFsb2dGdWxsc2NyZWVuID8gJ3RvcCcgOiAncmlnaHQnIj4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5paw5Y+Y6YeP5ZCNIj4KICAgICAgICA8ZWwtaW5wdXQKICAgICAgICAgIHYtbW9kZWw9Im5ld05hbWUiCiAgICAgICAgICBjbGVhcmFibGUKICAgICAgICAgIHBsYWNlaG9sZGVyPSLor7fovpPlhaXmlrDnmoTlj5jph4/lkI0iCiAgICAgICAgICBAa2V5dXAuZW50ZXI9ImhhbmRsZUNvbmZpcm0iCiAgICAgICAgLz4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1hbGVydAogICAgICAgIHR5cGU9ImluZm8iCiAgICAgICAgOmNsb3NhYmxlPSJmYWxzZSIKICAgICAgICBzaG93LWljb24KICAgICAgICB0aXRsZT0i5omA5pyJ6YCJ5Lit55qE546v5aKD5Y+Y6YeP5bCG57uf5LiA5pS55Li65q2k5ZCN56ew77yM5Y+Y6YeP5YC85ZKM5aSH5rOo5LiN5Lya5Y+Y5YyW44CCIgogICAgICAvPgogICAgPC9lbC1mb3JtPgogICAgPHRlbXBsYXRlICNmb290ZXI+CiAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJjbG9zZURpYWxvZyI+5Y+W5raIPC9lbC1idXR0b24+CiAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgQGNsaWNrPSJoYW5kbGVDb25maXJtIj7noa7lrpo8L2VsLWJ1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { ref, watch } from 'vue'
+import { useResponsive } from '@/composables/useResponsive'
+
+const props = defineProps<{
+  modelValue: boolean
+}>()
+
+const emit = defineEmits<{
+  'update:modelValue': [value: boolean]
+  confirm: [payload: { name: string }]
+}>()
+
+const newName = ref('')
+const { dialogFullscreen } = useResponsive()
+
+function closeDialog() {
+  emit('update:modelValue', false)
+}
+
+function handleConfirm() {
+  emit('confirm', { name: newName.value })
+}
+
+watch(
+  () => props.modelValue,
+  (visible) => {
+    if (!visible) {
+      newName.value = ''
+    }
+  }
+)
+</script>
+
+<template>
+  <el-dialog
+    :model-value="modelValue"
+    title="批量修改变量名"
+    width="420px"
+    :fullscreen="dialogFullscreen"
+    destroy-on-close
+    @update:model-value="emit('update:modelValue', $event)"
+  >
+    <el-form :label-width="dialogFullscreen ? 'auto' : '80px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+      <el-form-item label="新变量名">
+        <el-input
+          v-model="newName"
+          clearable
+          placeholder="请输入新的变量名"
+          @keyup.enter="handleConfirm"
+        />
+      </el-form-item>
+      <el-alert
+        type="info"
+        :closable="false"
+        show-icon
+        title="所有选中的环境变量将统一改为此名称，变量值和备注不会变化。"
+      />
+    </el-form>
+    <template #footer>
+      <el-button @click="closeDialog">取消</el-button>
+      <el-button type="primary" @click="handleConfirm">确定</el-button>
+    </template>
+  </el-dialog>
+</template>

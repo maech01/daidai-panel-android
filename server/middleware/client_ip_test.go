@@ -1,1 +1,65 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJIm5ldC9odHRwL2h0dHB0ZXN0IgoJInRlc3RpbmciCikKCmZ1bmMgVGVzdFJlc29sdmVDbGllbnRJUEZyb21SZXF1ZXN0VXNlc0ZvcndhcmRlZElQRnJvbVRydXN0ZWRMb2NhbFByb3h5KHQgKnRlc3RpbmcuVCkgewoJaWYgZXJyIDo9IENvbmZpZ3VyZVRydXN0ZWRQcm94eUNJRFJzKCIiKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlc2V0IHRydXN0ZWQgcHJveGllczogJXYiLCBlcnIpCgl9CgoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoIkdFVCIsICJodHRwOi8vZXhhbXBsZS5jb20vcGluZyIsIG5pbCkKCXJlcS5SZW1vdGVBZGRyID0gIjE5Mi4xNjguMS4yOjM0NTY3IgoJcmVxLkhlYWRlci5TZXQoIlgtRm9yd2FyZGVkLUZvciIsICIxOTguNTEuMTAwLjQ1LCAxMC4wLjAuMiIpCgoJaWYgZ290IDo9IFJlc29sdmVDbGllbnRJUEZyb21SZXF1ZXN0KHJlcSk7IGdvdCAhPSAiMTk4LjUxLjEwMC40NSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmb3J3YXJkZWQgcHVibGljIElQLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVDbGllbnRJUEZyb21SZXF1ZXN0SWdub3Jlc1Nwb29mZWRGb3J3YXJkZWRJUEZyb21QdWJsaWNSZW1vdGUodCAqdGVzdGluZy5UKSB7CglpZiBlcnIgOj0gQ29uZmlndXJlVHJ1c3RlZFByb3h5Q0lEUnMoIiIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVzZXQgdHJ1c3RlZCBwcm94aWVzOiAldiIsIGVycikKCX0KCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdCgiR0VUIiwgImh0dHA6Ly9leGFtcGxlLmNvbS9waW5nIiwgbmlsKQoJcmVxLlJlbW90ZUFkZHIgPSAiMjAzLjAuMTEzLjk6NDU2NzgiCglyZXEuSGVhZGVyLlNldCgiWC1Gb3J3YXJkZWQtRm9yIiwgIjE5OC41MS4xMDAuNDUiKQoKCWlmIGdvdCA6PSBSZXNvbHZlQ2xpZW50SVBGcm9tUmVxdWVzdChyZXEpOyBnb3QgIT0gIjIwMy4wLjExMy45IiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRpcmVjdCBwdWJsaWMgcmVtb3RlIElQLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVDbGllbnRJUEZyb21SZXF1ZXN0RmFsbHNCYWNrVG9SZWFsSVBIZWFkZXIodCAqdGVzdGluZy5UKSB7CglpZiBlcnIgOj0gQ29uZmlndXJlVHJ1c3RlZFByb3h5Q0lEUnMoIiIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVzZXQgdHJ1c3RlZCBwcm94aWVzOiAldiIsIGVycikKCX0KCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdCgiR0VUIiwgImh0dHA6Ly9leGFtcGxlLmNvbS9waW5nIiwgbmlsKQoJcmVxLlJlbW90ZUFkZHIgPSAiMTI3LjAuMC4xOjIzNDU2IgoJcmVxLkhlYWRlci5TZXQoIlgtUmVhbC1JUCIsICIxOTguNTEuMTAwLjg4IikKCglpZiBnb3QgOj0gUmVzb2x2ZUNsaWVudElQRnJvbVJlcXVlc3QocmVxKTsgZ290ICE9ICIxOTguNTEuMTAwLjg4IiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIFgtUmVhbC1JUCB0byBiZSB1c2VkLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVDbGllbnRJUEZyb21SZXF1ZXN0VXNlc0NvbmZpZ3VyZWRQdWJsaWNUcnVzdGVkUHJveHkodCAqdGVzdGluZy5UKSB7CglpZiBlcnIgOj0gQ29uZmlndXJlVHJ1c3RlZFByb3h5Q0lEUnMoIjIwMy4wLjExMy4wLzI0Iik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjb25maWd1cmUgdHJ1c3RlZCBwcm94aWVzOiAldiIsIGVycikKCX0KCXQuQ2xlYW51cChmdW5jKCkgewoJCV8gPSBDb25maWd1cmVUcnVzdGVkUHJveHlDSURScygiIikKCX0pCgoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoIkdFVCIsICJodHRwOi8vZXhhbXBsZS5jb20vcGluZyIsIG5pbCkKCXJlcS5SZW1vdGVBZGRyID0gIjIwMy4wLjExMy45OjM0NTY3IgoJcmVxLkhlYWRlci5TZXQoIlgtRm9yd2FyZGVkLUZvciIsICIxOTguNTEuMTAwLjQ1LCAyMDMuMC4xMTMuMjAiKQoKCWlmIGdvdCA6PSBSZXNvbHZlQ2xpZW50SVBGcm9tUmVxdWVzdChyZXEpOyBnb3QgIT0gIjE5OC41MS4xMDAuNDUiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZm9yd2FyZGVkIGNsaWVudCBJUCBiZWhpbmQgY29uZmlndXJlZCB0cnVzdGVkIHByb3h5LCBnb3QgJXEiLCBnb3QpCgl9Cn0K
+package middleware
+
+import (
+	"net/http/httptest"
+	"testing"
+)
+
+func TestResolveClientIPFromRequestUsesForwardedIPFromTrustedLocalProxy(t *testing.T) {
+	if err := ConfigureTrustedProxyCIDRs(""); err != nil {
+		t.Fatalf("reset trusted proxies: %v", err)
+	}
+
+	req := httptest.NewRequest("GET", "http://example.com/ping", nil)
+	req.RemoteAddr = "192.168.1.2:34567"
+	req.Header.Set("X-Forwarded-For", "198.51.100.45, 10.0.0.2")
+
+	if got := ResolveClientIPFromRequest(req); got != "198.51.100.45" {
+		t.Fatalf("expected forwarded public IP, got %q", got)
+	}
+}
+
+func TestResolveClientIPFromRequestIgnoresSpoofedForwardedIPFromPublicRemote(t *testing.T) {
+	if err := ConfigureTrustedProxyCIDRs(""); err != nil {
+		t.Fatalf("reset trusted proxies: %v", err)
+	}
+
+	req := httptest.NewRequest("GET", "http://example.com/ping", nil)
+	req.RemoteAddr = "203.0.113.9:45678"
+	req.Header.Set("X-Forwarded-For", "198.51.100.45")
+
+	if got := ResolveClientIPFromRequest(req); got != "203.0.113.9" {
+		t.Fatalf("expected direct public remote IP, got %q", got)
+	}
+}
+
+func TestResolveClientIPFromRequestFallsBackToRealIPHeader(t *testing.T) {
+	if err := ConfigureTrustedProxyCIDRs(""); err != nil {
+		t.Fatalf("reset trusted proxies: %v", err)
+	}
+
+	req := httptest.NewRequest("GET", "http://example.com/ping", nil)
+	req.RemoteAddr = "127.0.0.1:23456"
+	req.Header.Set("X-Real-IP", "198.51.100.88")
+
+	if got := ResolveClientIPFromRequest(req); got != "198.51.100.88" {
+		t.Fatalf("expected X-Real-IP to be used, got %q", got)
+	}
+}
+
+func TestResolveClientIPFromRequestUsesConfiguredPublicTrustedProxy(t *testing.T) {
+	if err := ConfigureTrustedProxyCIDRs("203.0.113.0/24"); err != nil {
+		t.Fatalf("configure trusted proxies: %v", err)
+	}
+	t.Cleanup(func() {
+		_ = ConfigureTrustedProxyCIDRs("")
+	})
+
+	req := httptest.NewRequest("GET", "http://example.com/ping", nil)
+	req.RemoteAddr = "203.0.113.9:34567"
+	req.Header.Set("X-Forwarded-For", "198.51.100.45, 203.0.113.20")
+
+	if got := ResolveClientIPFromRequest(req); got != "198.51.100.45" {
+		t.Fatalf("expected forwarded client IP behind configured trusted proxy, got %q", got)
+	}
+}

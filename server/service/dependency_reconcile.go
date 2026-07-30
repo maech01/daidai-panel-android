@@ -1,1 +1,116 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImxvZyIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgopCgp2YXIgZGVwZW5kZW5jeUluc3RhbGxlZEZ1bmMgPSBEZXBlbmRlbmN5SW5zdGFsbGVkRm9yUHl0aG9uVmVyc2lvbgp2YXIgZGVwZW5kZW5jeVJlaW5zdGFsbEJhdGNoRnVuYyA9IHJlaW5zdGFsbERlcGVuZGVuY2llc0FzeW5jCnZhciBkZXBlbmRlbmN5UmVzdGFydFJlaW5zdGFsbEJhdGNoRnVuYyA9IHJlaW5zdGFsbERlcGVuZGVuY2llc0FmdGVyUmVzdGFydEFzeW5jCgpmdW5jIFJlY29uY2lsZURlcGVuZGVuY2llc0FmdGVyUmVzdGFydCgpIHsKCXZhciBpbnN0YWxsZWQgW11tb2RlbC5EZXBlbmRlbmN5CglkYXRhYmFzZS5EQi5XaGVyZSgic3RhdHVzID0gPyIsIG1vZGVsLkRlcFN0YXR1c0luc3RhbGxlZCkuRmluZCgmaW5zdGFsbGVkKQoJcmVpbnN0YWxsQWZ0ZXJSZXN0YXJ0IDo9IG1ha2UoW11tb2RlbC5EZXBlbmRlbmN5LCAwKQoJc2NoZWR1bGVkUmVzdGFydFJlaW5zdGFsbElEcyA6PSBtYWtlKG1hcFt1aW50XXN0cnVjdHt9KQoKCWZvciBfLCBkZXAgOj0gcmFuZ2UgaW5zdGFsbGVkIHsKCQlpZiBkZXBlbmRlbmN5SW5zdGFsbGVkRnVuYyhkZXAuVHlwZSwgZGVwLk5hbWUsIGRlcC5QeXRob25WZXJzaW9uKSB7CgkJCWNvbnRpbnVlCgkJfQoKCQl2YXIgbG9nTXNnIHN0cmluZwoJCXN3aXRjaCBkZXAuVHlwZSB7CgkJY2FzZSBtb2RlbC5EZXBUeXBlTGludXg6CgkJCWxvZ01zZyA9ICJb5ZCv5Yqo5qCh6aqMXSDmo4DmtYvliLAgTGludXgg5L6d6LWW5Zyo5a655Zmo6YeN5bu65ZCO5Lii5aSx77yM5bey5Zyo6YeN5ZCv5ZCO6Ieq5Yqo6YeN5paw5a6J6KOFIgoJCWNhc2UgbW9kZWwuRGVwVHlwZU5vZGVKUzoKCQkJbG9nTXNnID0gIlvlkK/liqjmoKHpqoxdIOajgOa1i+WIsCBOb2RlLmpzIOS+nei1luS4ouWkse+8iOWPr+iDveWboOmHjeWQr+WuueWZqOmHjeW7uu+8ie+8jOW3suiHquWKqOmHjeaWsOWuieijhSIKCQljYXNlIG1vZGVsLkRlcFR5cGVQeXRob246CgkJCWxvZ01zZyA9ICJb5ZCv5Yqo5qCh6aqMXSDmo4DmtYvliLAgUHl0aG9uIOS+nei1luS4ouWkse+8iOWPr+iDveWboOmHjeWQr+WuueWZqOmHjeW7uu+8ie+8jOW3suiHquWKqOmHjeaWsOWuieijhSIKCQlkZWZhdWx0OgoJCQlsb2dNc2cgPSAiW+WQr+WKqOagoemqjF0g5L6d6LWW5pyq5qOA5rWL5Yiw77yM5bey6Ieq5Yqo6YeN5paw5a6J6KOFIgoJCX0KCgkJbmV4dExvZyA6PSBhcHBlbmREZXBlbmRlbmN5TG9nKGRlcC5Mb2csIGxvZ01zZykKCQlkYXRhYmFzZS5EQi5Nb2RlbCgmZGVwKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCSJzdGF0dXMiOiBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsaW5nLAoJCQkibG9nIjogICAgbmV4dExvZywKCQl9KQoJCWRlcC5TdGF0dXMgPSBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsaW5nCgkJZGVwLkxvZyA9IG5leHRMb2cKCQlyZWluc3RhbGxBZnRlclJlc3RhcnQgPSBhcHBlbmQocmVpbnN0YWxsQWZ0ZXJSZXN0YXJ0LCBkZXApCgkJc2NoZWR1bGVkUmVzdGFydFJlaW5zdGFsbElEc1tkZXAuSURdID0gc3RydWN0e317fQoJCWxvZy5QcmludGYoImRlcCB2ZXJpZnk6ICVzLyVzIG1pc3NpbmcgYWZ0ZXIgcmVzdGFydCwgc2NoZWR1bGVkIGF1dG9tYXRpYyByZWluc3RhbGwiLCBkZXAuVHlwZSwgZGVwLk5hbWUpCgl9CgoJaWYgbGVuKHJlaW5zdGFsbEFmdGVyUmVzdGFydCkgPiAwIHsKCQlkZXBlbmRlbmN5UmVzdGFydFJlaW5zdGFsbEJhdGNoRnVuYyhyZWluc3RhbGxBZnRlclJlc3RhcnQpCgkJbG9nLlByaW50ZigiZGVwIHZlcmlmeTogc2NoZWR1bGVkICVkIG1pc3NpbmcgZGVwZW5kZW5jaWVzIGZvciBhdXRvbWF0aWMgcmVpbnN0YWxsIGFmdGVyIHJlc3RhcnQiLCBsZW4ocmVpbnN0YWxsQWZ0ZXJSZXN0YXJ0KSkKCX0KCgl2YXIgc3RhbGUgW11tb2RlbC5EZXBlbmRlbmN5CglkYXRhYmFzZS5EQi5XaGVyZSgic3RhdHVzIElOID8iLCBbXXN0cmluZ3ttb2RlbC5EZXBTdGF0dXNJbnN0YWxsaW5nLCBtb2RlbC5EZXBTdGF0dXNSZW1vdmluZ30pLkZpbmQoJnN0YWxlKQoKCXRvUmVzdW1lIDo9IG1ha2UoW11tb2RlbC5EZXBlbmRlbmN5LCAwLCBsZW4oc3RhbGUpKQoJZm9yIF8sIGRlcCA6PSByYW5nZSBzdGFsZSB7CgkJaWYgXywgZXhpc3RzIDo9IHNjaGVkdWxlZFJlc3RhcnRSZWluc3RhbGxJRHNbZGVwLklEXTsgZXhpc3RzIHsKCQkJY29udGludWUKCQl9CgoJCWlmIGRlcGVuZGVuY3lJbnN0YWxsZWRGdW5jKGRlcC5UeXBlLCBkZXAuTmFtZSwgZGVwLlB5dGhvblZlcnNpb24pIHsKCQkJbmV4dExvZyA6PSBhcHBlbmREZXBlbmRlbmN5TG9nKGRlcC5Mb2csICJb5ZCv5Yqo5qCh6aqMXSDmo4DmtYvliLDkvp3otZblt7Llronoo4XvvIzlt7LlkIzmraXnirbmgIHkuLrlt7Llronoo4UiKQoJCQlkYXRhYmFzZS5EQi5Nb2RlbCgmZGVwKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCQkic3RhdHVzIjogbW9kZWwuRGVwU3RhdHVzSW5zdGFsbGVkLAoJCQkJImxvZyI6ICAgIG5leHRMb2csCgkJCX0pCgkJCWxvZy5QcmludGYoImRlcCB2ZXJpZnk6ICVzLyVzIHdhcyAlcywgcmVjb25jaWxlZCB0byBpbnN0YWxsZWQiLCBkZXAuVHlwZSwgZGVwLk5hbWUsIGRlcC5TdGF0dXMpCgkJCWNvbnRpbnVlCgkJfQoKCQlpZiBzaG91bGRSZXN1bWVSZXN0b3JlZERlcGVuZGVuY3koZGVwKSB7CgkJCW5leHRMb2cgOj0gYXBwZW5kRGVwZW5kZW5jeUxvZyhkZXAuTG9nLCAiW+WQr+WKqOagoemqjF0g5qOA5rWL5Yiw5oGi5aSN5Lu75Yqh5pyq5a6M5oiQ77yM5bey5Zyo6YeN5ZCv5ZCO57un57ut5a6J6KOFIikKCQkJZGF0YWJhc2UuREIuTW9kZWwoJmRlcCkuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkJInN0YXR1cyI6IG1vZGVsLkRlcFN0YXR1c0luc3RhbGxpbmcsCgkJCQkibG9nIjogICAgbmV4dExvZywKCQkJfSkKCQkJZGVwLkxvZyA9IG5leHRMb2cKCQkJdG9SZXN1bWUgPSBhcHBlbmQodG9SZXN1bWUsIGRlcCkKCQkJbG9nLlByaW50ZigiZGVwIHZlcmlmeTogJXMvJXMgd2FzICVzLCByZXN1bWVkIHJlc3RvcmUgaW5zdGFsbCBhZnRlciByZXN0YXJ0IiwgZGVwLlR5cGUsIGRlcC5OYW1lLCBkZXAuU3RhdHVzKQoJCQljb250aW51ZQoJCX0KCgkJZGF0YWJhc2UuREIuTW9kZWwoJmRlcCkuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkic3RhdHVzIjogbW9kZWwuRGVwU3RhdHVzRmFpbGVkLAoJCQkibG9nIjogICAgYXBwZW5kRGVwZW5kZW5jeUxvZyhkZXAuTG9nLCAiW+WQr+WKqOagoemqjF0g5pON5L2c5Zug5pyN5Yqh6YeN5ZCv6ICM5Lit5patIiksCgkJfSkKCQlsb2cuUHJpbnRmKCJkZXAgdmVyaWZ5OiAlcy8lcyB3YXMgJXMsIHJlc2V0IHRvIGZhaWxlZCIsIGRlcC5UeXBlLCBkZXAuTmFtZSwgZGVwLlN0YXR1cykKCX0KCglpZiBsZW4odG9SZXN1bWUpID4gMCB7CgkJZGVwZW5kZW5jeVJlaW5zdGFsbEJhdGNoRnVuYyh0b1Jlc3VtZSkKCQlsb2cuUHJpbnRmKCJkZXAgdmVyaWZ5OiByZXN1bWVkICVkIHJlc3RvcmVkIGRlcGVuZGVuY2llcyBhZnRlciByZXN0YXJ0IiwgbGVuKHRvUmVzdW1lKSkKCX0KfQoKZnVuYyBzaG91bGRSZXN1bWVSZXN0b3JlZERlcGVuZGVuY3koZGVwIG1vZGVsLkRlcGVuZGVuY3kpIGJvb2wgewoJcmV0dXJuIGRlcC5TdGF0dXMgPT0gbW9kZWwuRGVwU3RhdHVzSW5zdGFsbGluZyAmJiBzdHJpbmdzLkNvbnRhaW5zKGRlcC5Mb2csICJb5oGi5aSN5aSH5Lu9XSIpCn0KCmZ1bmMgYXBwZW5kRGVwZW5kZW5jeUxvZyhleGlzdGluZywgbGluZSBzdHJpbmcpIHN0cmluZyB7CglleGlzdGluZyA9IHN0cmluZ3MuVHJpbVJpZ2h0KGV4aXN0aW5nLCAiXG4iKQoJbGluZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCglpZiBsaW5lID09ICIiIHsKCQlyZXR1cm4gZXhpc3RpbmcKCX0KCWlmIGV4aXN0aW5nID09ICIiIHsKCQlyZXR1cm4gbGluZQoJfQoJaWYgc3RyaW5ncy5Db250YWlucyhleGlzdGluZywgbGluZSkgewoJCXJldHVybiBleGlzdGluZwoJfQoJcmV0dXJuIGV4aXN0aW5nICsgIlxuIiArIGxpbmUKfQo=
+package service
+
+import (
+	"log"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+)
+
+var dependencyInstalledFunc = DependencyInstalledForPythonVersion
+var dependencyReinstallBatchFunc = reinstallDependenciesAsync
+var dependencyRestartReinstallBatchFunc = reinstallDependenciesAfterRestartAsync
+
+func ReconcileDependenciesAfterRestart() {
+	var installed []model.Dependency
+	database.DB.Where("status = ?", model.DepStatusInstalled).Find(&installed)
+	reinstallAfterRestart := make([]model.Dependency, 0)
+	scheduledRestartReinstallIDs := make(map[uint]struct{})
+
+	for _, dep := range installed {
+		if dependencyInstalledFunc(dep.Type, dep.Name, dep.PythonVersion) {
+			continue
+		}
+
+		var logMsg string
+		switch dep.Type {
+		case model.DepTypeLinux:
+			logMsg = "[启动校验] 检测到 Linux 依赖在容器重建后丢失，已在重启后自动重新安装"
+		case model.DepTypeNodeJS:
+			logMsg = "[启动校验] 检测到 Node.js 依赖丢失（可能因重启容器重建），已自动重新安装"
+		case model.DepTypePython:
+			logMsg = "[启动校验] 检测到 Python 依赖丢失（可能因重启容器重建），已自动重新安装"
+		default:
+			logMsg = "[启动校验] 依赖未检测到，已自动重新安装"
+		}
+
+		nextLog := appendDependencyLog(dep.Log, logMsg)
+		database.DB.Model(&dep).Updates(map[string]interface{}{
+			"status": model.DepStatusInstalling,
+			"log":    nextLog,
+		})
+		dep.Status = model.DepStatusInstalling
+		dep.Log = nextLog
+		reinstallAfterRestart = append(reinstallAfterRestart, dep)
+		scheduledRestartReinstallIDs[dep.ID] = struct{}{}
+		log.Printf("dep verify: %s/%s missing after restart, scheduled automatic reinstall", dep.Type, dep.Name)
+	}
+
+	if len(reinstallAfterRestart) > 0 {
+		dependencyRestartReinstallBatchFunc(reinstallAfterRestart)
+		log.Printf("dep verify: scheduled %d missing dependencies for automatic reinstall after restart", len(reinstallAfterRestart))
+	}
+
+	var stale []model.Dependency
+	database.DB.Where("status IN ?", []string{model.DepStatusInstalling, model.DepStatusRemoving}).Find(&stale)
+
+	toResume := make([]model.Dependency, 0, len(stale))
+	for _, dep := range stale {
+		if _, exists := scheduledRestartReinstallIDs[dep.ID]; exists {
+			continue
+		}
+
+		if dependencyInstalledFunc(dep.Type, dep.Name, dep.PythonVersion) {
+			nextLog := appendDependencyLog(dep.Log, "[启动校验] 检测到依赖已安装，已同步状态为已安装")
+			database.DB.Model(&dep).Updates(map[string]interface{}{
+				"status": model.DepStatusInstalled,
+				"log":    nextLog,
+			})
+			log.Printf("dep verify: %s/%s was %s, reconciled to installed", dep.Type, dep.Name, dep.Status)
+			continue
+		}
+
+		if shouldResumeRestoredDependency(dep) {
+			nextLog := appendDependencyLog(dep.Log, "[启动校验] 检测到恢复任务未完成，已在重启后继续安装")
+			database.DB.Model(&dep).Updates(map[string]interface{}{
+				"status": model.DepStatusInstalling,
+				"log":    nextLog,
+			})
+			dep.Log = nextLog
+			toResume = append(toResume, dep)
+			log.Printf("dep verify: %s/%s was %s, resumed restore install after restart", dep.Type, dep.Name, dep.Status)
+			continue
+		}
+
+		database.DB.Model(&dep).Updates(map[string]interface{}{
+			"status": model.DepStatusFailed,
+			"log":    appendDependencyLog(dep.Log, "[启动校验] 操作因服务重启而中断"),
+		})
+		log.Printf("dep verify: %s/%s was %s, reset to failed", dep.Type, dep.Name, dep.Status)
+	}
+
+	if len(toResume) > 0 {
+		dependencyReinstallBatchFunc(toResume)
+		log.Printf("dep verify: resumed %d restored dependencies after restart", len(toResume))
+	}
+}
+
+func shouldResumeRestoredDependency(dep model.Dependency) bool {
+	return dep.Status == model.DepStatusInstalling && strings.Contains(dep.Log, "[恢复备份]")
+}
+
+func appendDependencyLog(existing, line string) string {
+	existing = strings.TrimRight(existing, "\n")
+	line = strings.TrimSpace(line)
+	if line == "" {
+		return existing
+	}
+	if existing == "" {
+		return line
+	}
+	if strings.Contains(existing, line) {
+		return existing
+	}
+	return existing + "\n" + line
+}

@@ -1,1 +1,23 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGNvbnN0IGxvZ0FwaSA9IHsKICBsaXN0KHBhcmFtcz86IHsgdGFza19pZD86IG51bWJlcjsgc3RhdHVzPzogbnVtYmVyOyBrZXl3b3JkPzogc3RyaW5nOyBwYWdlPzogbnVtYmVyOyBwYWdlX3NpemU/OiBudW1iZXIgfSkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvbG9ncycsIHsgcGFyYW1zIH0pIGFzIFByb21pc2U8eyBkYXRhOiBhbnlbXTsgdG90YWw6IG51bWJlcjsgcGFnZTogbnVtYmVyOyBwYWdlX3NpemU6IG51bWJlciB9PgogIH0sCgogIGRldGFpbChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoYC9sb2dzLyR7aWR9YCkgYXMgUHJvbWlzZTxhbnk+CiAgfSwKCiAgZGVsZXRlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZShgL2xvZ3MvJHtpZH1gKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgYmF0Y2hEZWxldGUoaWRzOiBudW1iZXJbXSkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL2xvZ3MvYmF0Y2gtZGVsZXRlJywgeyBpZHMgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGNsZWFuKGRheXM/OiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZSgnL2xvZ3MvY2xlYW4nLCB7IHBhcmFtczogeyBkYXlzIH0gfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0KfQo=
+import request from './request'
+
+export const logApi = {
+  list(params?: { task_id?: number; status?: number; keyword?: string; page?: number; page_size?: number }) {
+    return request.get('/logs', { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  detail(id: number) {
+    return request.get(`/logs/${id}`) as Promise<any>
+  },
+
+  delete(id: number) {
+    return request.delete(`/logs/${id}`) as Promise<{ message: string }>
+  },
+
+  batchDelete(ids: number[]) {
+    return request.post('/logs/batch-delete', { ids }) as Promise<{ message: string }>
+  },
+
+  clean(days?: number) {
+    return request.delete('/logs/clean', { params: { days } }) as Promise<{ message: string }>
+  }
+}

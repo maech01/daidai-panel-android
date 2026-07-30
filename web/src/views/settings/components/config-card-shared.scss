@@ -1,1 +1,97 @@
-LmNhcmQtaGVhZGVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTJweDsKfQoKLmNhcmQtdGl0bGUgewogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgZm9udC1zaXplOiAxNnB4OwogIGRpc3BsYXk6IGlubGluZS1mbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA2cHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7Cn0KCi5jb25maWctc2VjdGlvbiB7CiAgbWFyZ2luLWJvdHRvbTogMjhweDsKCiAgJjpsYXN0LWNoaWxkIHsKICAgIG1hcmdpbi1ib3R0b206IDA7CiAgfQp9Cgouc2VjdGlvbi10aXRsZSB7CiAgZm9udC1zaXplOiAxNXB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7CiAgbWFyZ2luOiAwIDAgMTZweDsKICBwYWRkaW5nLWJvdHRvbTogMTBweDsKICBib3JkZXItYm90dG9tOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwp9CgouZm9ybS1maWVsZCB7CiAgbWFyZ2luLWJvdHRvbTogMjBweDsKICBtYXgtd2lkdGg6IDQwMHB4OwoKICBsYWJlbCB7CiAgICBkaXNwbGF5OiBibG9jazsKICAgIGZvbnQtc2l6ZTogMTRweDsKICAgIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwogICAgbWFyZ2luLWJvdHRvbTogOHB4OwogIH0KfQoKLmZvcm0taGludCB7CiAgZm9udC1zaXplOiAxMnB4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7CiAgbWFyZ2luLXRvcDogNHB4OwogIGRpc3BsYXk6IGJsb2NrOwp9CgouY29tcG91bmQtaW5wdXQgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDhweDsKCiAgc3BhbiB7CiAgICBmb250LXNpemU6IDE0cHg7CiAgICB3aGl0ZS1zcGFjZTogbm93cmFwOwogIH0KfQoKLnN3aXRjaC1yb3cgewogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiA0MHB4OwogIG1hcmdpbi1ib3R0b206IDE2cHg7Cn0KCi5zd2l0Y2gtaXRlbSB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTJweDsKfQoKLnN3aXRjaC1sYWJlbCB7CiAgZm9udC1zaXplOiAxNHB4Owp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAuY2FyZC1oZWFkZXIgewogICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICAgIGFsaWduLWl0ZW1zOiBzdHJldGNoOwogIH0KCiAgLmZvcm0tZmllbGQgewogICAgbWF4LXdpZHRoOiAxMDAlOwogIH0KCiAgLmNvbXBvdW5kLWlucHV0IHsKICAgIGZsZXgtd3JhcDogd3JhcDsKICB9CgogIC5zd2l0Y2gtcm93IHsKICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgICBnYXA6IDEycHg7CiAgfQp9Cg==
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--el-text-color-primary);
+}
+
+.config-section {
+  margin-bottom: 28px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--el-border-color-lighter);
+}
+
+.form-field {
+  margin-bottom: 20px;
+  max-width: 400px;
+
+  label {
+    display: block;
+    font-size: 14px;
+    color: var(--el-text-color-primary);
+    margin-bottom: 8px;
+  }
+}
+
+.form-hint {
+  font-size: 12px;
+  color: var(--el-text-color-secondary);
+  margin-top: 4px;
+  display: block;
+}
+
+.compound-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  span {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+.switch-row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 16px;
+}
+
+.switch-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.switch-label {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .card-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .form-field {
+    max-width: 100%;
+  }
+
+  .compound-input {
+    flex-wrap: wrap;
+  }
+
+  .switch-row {
+    flex-direction: column;
+    gap: 12px;
+  }
+}

@@ -1,1 +1,158 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJInN0cmNvbnYiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgoJImdvcm0uaW8vZ29ybSIKKQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIExpc3RWaWV3cyhjICpnaW4uQ29udGV4dCkgewoJdmFyIHZpZXdzIFtdbW9kZWwuVGFza1ZpZXcKCWRhdGFiYXNlLkRCLk9yZGVyKCJzb3J0X29yZGVyIEFTQywgaWQgQVNDIikuRmluZCgmdmlld3MpCglyZXNwb25zZS5TdWNjZXNzKGMsIHZpZXdzKQp9CgpmdW5jIChoICpUYXNrSGFuZGxlcikgQ3JlYXRlVmlldyhjICpnaW4uQ29udGV4dCkgewoJdmFyIHZpZXcgbW9kZWwuVGFza1ZpZXcKCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZ2aWV3KTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCWlmIHZpZXcuTmFtZSA9PSAiIiB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6KeG5Zu+5ZCN56ew5LiN6IO95Li656m6IikKCQlyZXR1cm4KCX0KCWlmIHZpZXcuRmlsdGVycyA9PSAiIiB7CgkJdmlldy5GaWx0ZXJzID0gIltdIgoJfQoJaWYgdmlldy5Tb3J0UnVsZXMgPT0gIiIgewoJCXZpZXcuU29ydFJ1bGVzID0gIltdIgoJfQoKCS8vIEFwcGVuZCBuZXcgdmlld3MgdG8gdGhlIGVuZCBvZiB0aGUgY3VycmVudCBvcmRlciB1bmxlc3MgdGhlIGNhbGxlcgoJLy8gYWxyZWFkeSBzcGVjaWZpZWQgYSB2YWx1ZS4KCWlmIHZpZXcuU29ydE9yZGVyID09IDAgewoJCXZhciBtYXhPcmRlciBpbnQKCQlkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuVGFza1ZpZXd7fSkuU2VsZWN0KCJDT0FMRVNDRShNQVgoc29ydF9vcmRlciksIDApIikuU2NhbigmbWF4T3JkZXIpCgkJdmlldy5Tb3J0T3JkZXIgPSBtYXhPcmRlciArIDEKCX0KCglkYXRhYmFzZS5EQi5DcmVhdGUoJnZpZXcpCglyZXNwb25zZS5TdWNjZXNzKGMsIHZpZXcpCn0KCnR5cGUgdXBkYXRlVGFza1ZpZXdSZXF1ZXN0IHN0cnVjdCB7CglOYW1lICAgICAgKnN0cmluZyBganNvbjoibmFtZSJgCglGaWx0ZXJzICAgKnN0cmluZyBganNvbjoiZmlsdGVycyJgCglTb3J0UnVsZXMgKnN0cmluZyBganNvbjoic29ydF9ydWxlcyJgCglIaWRkZW4gICAgKmJvb2wgICBganNvbjoiaGlkZGVuImAKCVNvcnRPcmRlciAqaW50ICAgIGBqc29uOiJzb3J0X29yZGVyImAKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIFVwZGF0ZVZpZXcoYyAqZ2luLkNvbnRleHQpIHsKCXZpZXdJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJ2aWV3SWQiKSwgMTAsIDMyKQoJdmFyIHZpZXcgbW9kZWwuVGFza1ZpZXcKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdmlldywgdmlld0lEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuinhuWbvuS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJdmFyIGlucHV0IHVwZGF0ZVRhc2tWaWV3UmVxdWVzdAoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJmlucHV0KTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCgl1cGRhdGVzIDo9IG1hcFtzdHJpbmddaW50ZXJmYWNle317fQoJaWYgaW5wdXQuTmFtZSAhPSBuaWwgJiYgKmlucHV0Lk5hbWUgIT0gIiIgewoJCXVwZGF0ZXNbIm5hbWUiXSA9ICppbnB1dC5OYW1lCgl9CglpZiBpbnB1dC5GaWx0ZXJzICE9IG5pbCAmJiAqaW5wdXQuRmlsdGVycyAhPSAiIiB7CgkJdXBkYXRlc1siZmlsdGVycyJdID0gKmlucHV0LkZpbHRlcnMKCX0KCWlmIGlucHV0LlNvcnRSdWxlcyAhPSBuaWwgJiYgKmlucHV0LlNvcnRSdWxlcyAhPSAiIiB7CgkJdXBkYXRlc1sic29ydF9ydWxlcyJdID0gKmlucHV0LlNvcnRSdWxlcwoJfQoJaWYgaW5wdXQuSGlkZGVuICE9IG5pbCB7CgkJdXBkYXRlc1siaGlkZGVuIl0gPSAqaW5wdXQuSGlkZGVuCgl9CglpZiBpbnB1dC5Tb3J0T3JkZXIgIT0gbmlsIHsKCQl1cGRhdGVzWyJzb3J0X29yZGVyIl0gPSAqaW5wdXQuU29ydE9yZGVyCgl9CgoJaWYgbGVuKHVwZGF0ZXMpID4gMCB7CgkJZGF0YWJhc2UuREIuTW9kZWwoJnZpZXcpLlVwZGF0ZXModXBkYXRlcykKCX0KCWRhdGFiYXNlLkRCLkZpcnN0KCZ2aWV3LCB2aWV3SUQpCglyZXNwb25zZS5TdWNjZXNzKGMsIHZpZXcpCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBEZWxldGVWaWV3KGMgKmdpbi5Db250ZXh0KSB7Cgl2aWV3SUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgidmlld0lkIiksIDEwLCAzMikKCXZhciB2aWV3IG1vZGVsLlRhc2tWaWV3CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnZpZXcsIHZpZXdJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLop4blm77kuI3lrZjlnKgiKQoJCXJldHVybgoJfQoJZGF0YWJhc2UuREIuRGVsZXRlKCZ2aWV3KQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLlt7LliKDpmaQifSkKfQoKdHlwZSByZW9yZGVyVGFza1ZpZXdJdGVtIHN0cnVjdCB7CglJRCAgICAgICAgdWludCAgYGpzb246ImlkIiBiaW5kaW5nOiJyZXF1aXJlZCJgCglTb3J0T3JkZXIgaW50ICAgYGpzb246InNvcnRfb3JkZXIiYAoJSGlkZGVuICAgICpib29sIGBqc29uOiJoaWRkZW4iYAp9Cgp0eXBlIHJlb3JkZXJUYXNrVmlld3NSZXF1ZXN0IHN0cnVjdCB7CglWaWV3cyBbXXJlb3JkZXJUYXNrVmlld0l0ZW0gYGpzb246InZpZXdzIiBiaW5kaW5nOiJyZXF1aXJlZCJgCn0KCi8vIFJlb3JkZXJWaWV3cyBhcHBsaWVzIGJ1bGsgc29ydF9vcmRlciArIGhpZGRlbiB1cGRhdGVzIGluIGEgc2luZ2xlCi8vIHRyYW5zYWN0aW9uLiBBbnkgaWQgbWlzc2luZyBmcm9tIHRoZSBwYXlsb2FkIGlzIGxlZnQgdW50b3VjaGVkIHNvIHRoZSBjYWxsZXIKLy8gY2FuIHN1Ym1pdCBlaXRoZXIgdGhlIGZ1bGwgbGlzdCBvciBqdXN0IGEgc3Vic2V0LgpmdW5jIChoICpUYXNrSGFuZGxlcikgUmVvcmRlclZpZXdzKGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHJlb3JkZXJUYXNrVmlld3NSZXF1ZXN0CglpZiBlcnIgOj0gYy5TaG91bGRCaW5kSlNPTigmcmVxKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCWlmIGxlbihyZXEuVmlld3MpID09IDAgewoJCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7InVwZGF0ZWQiOiAwfSkKCQlyZXR1cm4KCX0KCgl1cGRhdGVkIDo9IDAKCWVyciA6PSBkYXRhYmFzZS5EQi5UcmFuc2FjdGlvbihmdW5jKHR4ICpnb3JtLkRCKSBlcnJvciB7CgkJZm9yIF8sIGl0ZW0gOj0gcmFuZ2UgcmVxLlZpZXdzIHsKCQkJaWYgaXRlbS5JRCA9PSAwIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJdXBkYXRlcyA6PSBtYXBbc3RyaW5nXWludGVyZmFjZXt9eyJzb3J0X29yZGVyIjogaXRlbS5Tb3J0T3JkZXJ9CgkJCWlmIGl0ZW0uSGlkZGVuICE9IG5pbCB7CgkJCQl1cGRhdGVzWyJoaWRkZW4iXSA9ICppdGVtLkhpZGRlbgoJCQl9CgkJCXJlcyA6PSB0eC5Nb2RlbCgmbW9kZWwuVGFza1ZpZXd7fSkuV2hlcmUoImlkID0gPyIsIGl0ZW0uSUQpLlVwZGF0ZXModXBkYXRlcykKCQkJaWYgcmVzLkVycm9yICE9IG5pbCB7CgkJCQlyZXR1cm4gcmVzLkVycm9yCgkJCX0KCQkJaWYgcmVzLlJvd3NBZmZlY3RlZCA+IDAgewoJCQkJdXBkYXRlZCsrCgkJCX0KCQl9CgkJcmV0dXJuIG5pbAoJfSkKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkludGVybmFsRXJyb3IoYywgIuS/neWtmOinhuWbvumhuuW6j+Wksei0pSIpCgkJcmV0dXJuCgl9CgoJdmFyIHZpZXdzIFtdbW9kZWwuVGFza1ZpZXcKCWRhdGFiYXNlLkRCLk9yZGVyKCJzb3J0X29yZGVyIEFTQywgaWQgQVNDIikuRmluZCgmdmlld3MpCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJ1cGRhdGVkIjogdXBkYXRlZCwgInZpZXdzIjogdmlld3N9KQp9Cg==
+package handler
+
+import (
+	"strconv"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+	"gorm.io/gorm"
+)
+
+func (h *TaskHandler) ListViews(c *gin.Context) {
+	var views []model.TaskView
+	database.DB.Order("sort_order ASC, id ASC").Find(&views)
+	response.Success(c, views)
+}
+
+func (h *TaskHandler) CreateView(c *gin.Context) {
+	var view model.TaskView
+	if err := c.ShouldBindJSON(&view); err != nil {
+		response.BadRequest(c, "参数错误")
+		return
+	}
+	if view.Name == "" {
+		response.BadRequest(c, "视图名称不能为空")
+		return
+	}
+	if view.Filters == "" {
+		view.Filters = "[]"
+	}
+	if view.SortRules == "" {
+		view.SortRules = "[]"
+	}
+
+	// Append new views to the end of the current order unless the caller
+	// already specified a value.
+	if view.SortOrder == 0 {
+		var maxOrder int
+		database.DB.Model(&model.TaskView{}).Select("COALESCE(MAX(sort_order), 0)").Scan(&maxOrder)
+		view.SortOrder = maxOrder + 1
+	}
+
+	database.DB.Create(&view)
+	response.Success(c, view)
+}
+
+type updateTaskViewRequest struct {
+	Name      *string `json:"name"`
+	Filters   *string `json:"filters"`
+	SortRules *string `json:"sort_rules"`
+	Hidden    *bool   `json:"hidden"`
+	SortOrder *int    `json:"sort_order"`
+}
+
+func (h *TaskHandler) UpdateView(c *gin.Context) {
+	viewID, _ := strconv.ParseUint(c.Param("viewId"), 10, 32)
+	var view model.TaskView
+	if err := database.DB.First(&view, viewID).Error; err != nil {
+		response.NotFound(c, "视图不存在")
+		return
+	}
+
+	var input updateTaskViewRequest
+	if err := c.ShouldBindJSON(&input); err != nil {
+		response.BadRequest(c, "参数错误")
+		return
+	}
+
+	updates := map[string]interface{}{}
+	if input.Name != nil && *input.Name != "" {
+		updates["name"] = *input.Name
+	}
+	if input.Filters != nil && *input.Filters != "" {
+		updates["filters"] = *input.Filters
+	}
+	if input.SortRules != nil && *input.SortRules != "" {
+		updates["sort_rules"] = *input.SortRules
+	}
+	if input.Hidden != nil {
+		updates["hidden"] = *input.Hidden
+	}
+	if input.SortOrder != nil {
+		updates["sort_order"] = *input.SortOrder
+	}
+
+	if len(updates) > 0 {
+		database.DB.Model(&view).Updates(updates)
+	}
+	database.DB.First(&view, viewID)
+	response.Success(c, view)
+}
+
+func (h *TaskHandler) DeleteView(c *gin.Context) {
+	viewID, _ := strconv.ParseUint(c.Param("viewId"), 10, 32)
+	var view model.TaskView
+	if err := database.DB.First(&view, viewID).Error; err != nil {
+		response.NotFound(c, "视图不存在")
+		return
+	}
+	database.DB.Delete(&view)
+	response.Success(c, gin.H{"message": "已删除"})
+}
+
+type reorderTaskViewItem struct {
+	ID        uint  `json:"id" binding:"required"`
+	SortOrder int   `json:"sort_order"`
+	Hidden    *bool `json:"hidden"`
+}
+
+type reorderTaskViewsRequest struct {
+	Views []reorderTaskViewItem `json:"views" binding:"required"`
+}
+
+// ReorderViews applies bulk sort_order + hidden updates in a single
+// transaction. Any id missing from the payload is left untouched so the caller
+// can submit either the full list or just a subset.
+func (h *TaskHandler) ReorderViews(c *gin.Context) {
+	var req reorderTaskViewsRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "参数错误")
+		return
+	}
+	if len(req.Views) == 0 {
+		response.Success(c, gin.H{"updated": 0})
+		return
+	}
+
+	updated := 0
+	err := database.DB.Transaction(func(tx *gorm.DB) error {
+		for _, item := range req.Views {
+			if item.ID == 0 {
+				continue
+			}
+			updates := map[string]interface{}{"sort_order": item.SortOrder}
+			if item.Hidden != nil {
+				updates["hidden"] = *item.Hidden
+			}
+			res := tx.Model(&model.TaskView{}).Where("id = ?", item.ID).Updates(updates)
+			if res.Error != nil {
+				return res.Error
+			}
+			if res.RowsAffected > 0 {
+				updated++
+			}
+		}
+		return nil
+	})
+	if err != nil {
+		response.InternalError(c, "保存视图顺序失败")
+		return
+	}
+
+	var views []model.TaskView
+	database.DB.Order("sort_order ASC, id ASC").Find(&views)
+	response.Success(c, gin.H{"updated": updated, "views": views})
+}

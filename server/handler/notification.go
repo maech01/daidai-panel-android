@@ -1,1 +1,265 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkic3RyY29udiIKCSJzdHJpbmdzIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbWlkZGxld2FyZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9yZXNwb25zZSIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgp0eXBlIE5vdGlmaWNhdGlvbkhhbmRsZXIgc3RydWN0e30KCmZ1bmMgTmV3Tm90aWZpY2F0aW9uSGFuZGxlcigpICpOb3RpZmljYXRpb25IYW5kbGVyIHsKCXJldHVybiAmTm90aWZpY2F0aW9uSGFuZGxlcnt9Cn0KCmZ1bmMgdXBkYXRlTm90aWZpY2F0aW9uVGVzdFN0YXRlKGNoYW5uZWxJRCB1aW50LCBzdGF0dXMgc3RyaW5nKSB7CglpZiBjaGFubmVsSUQgPT0gMCB7CgkJcmV0dXJuCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5Ob3RpZnlDaGFubmVse30pLgoJCVdoZXJlKCJpZCA9ID8iLCBjaGFubmVsSUQpLgoJCVVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJImxhc3RfdGVzdF9hdCI6ICAgICB0aW1lLk5vdygpLAoJCQkibGFzdF90ZXN0X3N0YXR1cyI6IHN0YXR1cywKCQl9KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50ZigidXBkYXRlIG5vdGlmaWNhdGlvbiB0ZXN0IHN0YXRlIGZhaWxlZDogJXYiLCBlcnIpCgl9Cn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIExpc3QoYyAqZ2luLkNvbnRleHQpIHsKCXZhciBjaGFubmVscyBbXW1vZGVsLk5vdGlmeUNoYW5uZWwKCWRhdGFiYXNlLkRCLk9yZGVyKCJjcmVhdGVkX2F0IERFU0MiKS5GaW5kKCZjaGFubmVscykKCglkYXRhIDo9IG1ha2UoW11tYXBbc3RyaW5nXWludGVyZmFjZXt9LCBsZW4oY2hhbm5lbHMpKQoJZm9yIGksIGNoIDo9IHJhbmdlIGNoYW5uZWxzIHsKCQlkYXRhW2ldID0gY2guVG9EaWN0KCkKCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJkYXRhIjogZGF0YX0pCn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIENyZWF0ZShjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCU5hbWUgICBzdHJpbmcgYGpzb246Im5hbWUiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlUeXBlICAgc3RyaW5nIGBqc29uOiJ0eXBlIiBiaW5kaW5nOiJyZXF1aXJlZCJgCgkJQ29uZmlnIHN0cmluZyBganNvbjoiY29uZmlnImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWlmIHJlcS5Db25maWcgPT0gIiIgewoJCXJlcS5Db25maWcgPSAie30iCgl9CgoJY2ggOj0gbW9kZWwuTm90aWZ5Q2hhbm5lbHsKCQlOYW1lOiAgICByZXEuTmFtZSwKCQlUeXBlOiAgICByZXEuVHlwZSwKCQlDb25maWc6ICByZXEuQ29uZmlnLAoJCUVuYWJsZWQ6IHRydWUsCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmY2gpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLliJvlu7rpgJrnn6XmuKDpgZPlpLHotKUiKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLkNyZWF0ZWQoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Yib5bu65oiQ5YqfIiwgImRhdGEiOiBjaC5Ub0RpY3QoKX0pCn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIFVwZGF0ZShjICpnaW4uQ29udGV4dCkgewoJY2hJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIGNoIG1vZGVsLk5vdGlmeUNoYW5uZWwKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmY2gsIGNoSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi6YCa55+l5rig6YGT5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCgl2YXIgcmVxIG1hcFtzdHJpbmddaW50ZXJmYWNle30KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWFsbG93ZWQgOj0gbWFwW3N0cmluZ11ib29seyJuYW1lIjogdHJ1ZSwgInR5cGUiOiB0cnVlLCAiY29uZmlnIjogdHJ1ZX0KCXVwZGF0ZXMgOj0gbWFrZShtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJZm9yIGssIHYgOj0gcmFuZ2UgcmVxIHsKCQlpZiBhbGxvd2VkW2tdIHsKCQkJdXBkYXRlc1trXSA9IHYKCQl9Cgl9CgoJaWYgbGVuKHVwZGF0ZXMpID4gMCB7CgkJZGF0YWJhc2UuREIuTW9kZWwoJmNoKS5VcGRhdGVzKHVwZGF0ZXMpCgl9CgoJZGF0YWJhc2UuREIuRmlyc3QoJmNoLCBjaElEKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLmm7TmlrDmiJDlip8iLCAiZGF0YSI6IGNoLlRvRGljdCgpfSkKfQoKZnVuYyAoaCAqTm90aWZpY2F0aW9uSGFuZGxlcikgRGVsZXRlKGMgKmdpbi5Db250ZXh0KSB7CgljaElELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCWRhdGFiYXNlLkRCLldoZXJlKCJpZCA9ID8iLCBjaElEKS5EZWxldGUoJm1vZGVsLk5vdGlmeUNoYW5uZWx7fSkKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5Yig6Zmk5oiQ5YqfIn0pCn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIEVuYWJsZShjICpnaW4uQ29udGV4dCkgewoJY2hJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgl2YXIgY2ggbW9kZWwuTm90aWZ5Q2hhbm5lbAoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZjaCwgY2hJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLpgJrnn6XmuKDpgZPkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoJZGF0YWJhc2UuREIuTW9kZWwoJmNoKS5VcGRhdGUoImVuYWJsZWQiLCB0cnVlKQoJY2guRW5hYmxlZCA9IHRydWUKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey5ZCv55SoIiwgImRhdGEiOiBjaC5Ub0RpY3QoKX0pCn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIERpc2FibGUoYyAqZ2luLkNvbnRleHQpIHsKCWNoSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJdmFyIGNoIG1vZGVsLk5vdGlmeUNoYW5uZWwKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmY2gsIGNoSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi6YCa55+l5rig6YGT5LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCWRhdGFiYXNlLkRCLk1vZGVsKCZjaCkuVXBkYXRlKCJlbmFibGVkIiwgZmFsc2UpCgljaC5FbmFibGVkID0gZmFsc2UKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi5bey56aB55SoIiwgImRhdGEiOiBjaC5Ub0RpY3QoKX0pCn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIFRlc3QoYyAqZ2luLkNvbnRleHQpIHsKCWNoSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoKCXZhciBjaCBtb2RlbC5Ob3RpZnlDaGFubmVsCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJmNoLCBjaElEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIumAmuefpea4oOmBk+S4jeWtmOWcqCIpCgkJcmV0dXJuCgl9CgoJZXJyIDo9IHNlcnZpY2UuU2VuZE5vdGlmaWNhdGlvblRvQ2hhbm5lbCgmY2gsICLlkYblkYbpnaLmnb/mtYvor5XpgJrnn6UiLCAi6L+Z5piv5LiA5p2h5rWL6K+V6YCa55+l5raI5oGv77yM5aaC5p6c5oKo5pS25Yiw5q2k5raI5oGv77yM6K+05piO6YCa55+l5rig6YGT6YWN572u5q2j56Gu44CCIikKCWlmIGVyciAhPSBuaWwgewoJCXVwZGF0ZU5vdGlmaWNhdGlvblRlc3RTdGF0ZShjaC5JRCwgImZhaWxlZCIpCgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Y+R6YCB5aSx6LSlOiAiK2Vyci5FcnJvcigpKQoJCXJldHVybgoJfQoKCXVwZGF0ZU5vdGlmaWNhdGlvblRlc3RTdGF0ZShjaC5JRCwgInN1Y2Nlc3MiKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLmtYvor5XpgJrnn6Xlj5HpgIHmiJDlip8ifSkKfQoKZnVuYyAoaCAqTm90aWZpY2F0aW9uSGFuZGxlcikgU2VuZChjICpnaW4uQ29udGV4dCkgewoJdmFyIHJlcSBzdHJ1Y3QgewoJCVRpdGxlICAgICAgc3RyaW5nICAgICAgICAgICAgICAgICBganNvbjoidGl0bGUiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlDb250ZW50ICAgIHN0cmluZyAgICAgICAgICAgICAgICAgYGpzb246ImNvbnRlbnQiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlDaGFubmVsSUQgICp1aW50ICAgICAgICAgICAgICAgICAgYGpzb246ImNoYW5uZWxfaWQiYAoJCUNoYW5uZWxJRHMgW111aW50ICAgICAgICAgICAgICAgICBganNvbjoiY2hhbm5lbF9pZHMiYAoJCUNvbnRleHQgICAgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSBganNvbjoiY29udGV4dCJgCgl9CglpZiBlcnIgOj0gYy5TaG91bGRCaW5kSlNPTigmcmVxKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi6K+35rGC5Y+C5pWw6ZSZ6K+vIikKCQlyZXR1cm4KCX0KCgljaGFubmVsSURzIDo9IG1ha2UoW111aW50LCAwLCBsZW4ocmVxLkNoYW5uZWxJRHMpKzEpCglpZiByZXEuQ2hhbm5lbElEICE9IG5pbCAmJiAqcmVxLkNoYW5uZWxJRCA+IDAgewoJCWNoYW5uZWxJRHMgPSBhcHBlbmQoY2hhbm5lbElEcywgKnJlcS5DaGFubmVsSUQpCgl9CgljaGFubmVsSURzID0gYXBwZW5kKGNoYW5uZWxJRHMsIHJlcS5DaGFubmVsSURzLi4uKQoKCWNvbnRleHQgOj0gbWFrZShtYXBbc3RyaW5nXXN0cmluZywgbGVuKHJlcS5Db250ZXh0KSkKCWZvciBrZXksIHZhbHVlIDo9IHJhbmdlIHJlcS5Db250ZXh0IHsKCQljb250ZXh0W2tleV0gPSBmbXQuU3ByaW50KHZhbHVlKQoJfQoKCXJlc3VsdCwgZXJyIDo9IHNlcnZpY2UuU2VuZE5vdGlmaWNhdGlvblN5bmNXaXRoT3B0aW9ucyhyZXEuVGl0bGUsIHJlcS5Db250ZW50LCBzZXJ2aWNlLk5vdGlmaWNhdGlvbkRpc3BhdGNoT3B0aW9uc3sKCQlDaGFubmVsSURzOiBjaGFubmVsSURzLAoJCUNvbnRleHQ6ICAgIGNvbnRleHQsCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5Y+R6YCB5aSx6LSlOiAiK2Vyci5FcnJvcigpKQoJCXJldHVybgoJfQoKCWlmIHJlc3VsdC5TZW50Q291bnQgPT0gMCAmJiByZXN1bHQuRmFpbGVkQ291bnQgPiAwIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLlj5HpgIHlpLHotKU6ICIrc3RyaW5ncy5Kb2luKHJlc3VsdC5FcnJvcnMsICI7ICIpKQoJCXJldHVybgoJfQoKCW1lc3NhZ2UgOj0gZm10LlNwcmludGYoIumAmuefpeWPkemAgeWujOaIkO+8jOaIkOWKnyAlZCDkuKrmuKDpgZMiLCByZXN1bHQuU2VudENvdW50KQoJaWYgcmVzdWx0LkZhaWxlZENvdW50ID4gMCB7CgkJbWVzc2FnZSA9IGZtdC5TcHJpbnRmKCIlc++8jOWksei0pSAlZCDkuKrmuKDpgZMiLCBtZXNzYWdlLCByZXN1bHQuRmFpbGVkQ291bnQpCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6IG1lc3NhZ2UsCgkJImRhdGEiOiBnaW4uSHsKCQkJInNlbnRfY291bnQiOiAgICAgcmVzdWx0LlNlbnRDb3VudCwKCQkJImZhaWxlZF9jb3VudCI6ICAgcmVzdWx0LkZhaWxlZENvdW50LAoJCQkiY2hhbm5lbF9uYW1lcyI6ICByZXN1bHQuQ2hhbm5lbE5hbWVzLAoJCQkiZXJyb3JzIjogICAgICAgICByZXN1bHQuRXJyb3JzLAoJCQkicmVxdWVzdGVkX2lkcyI6ICBjaGFubmVsSURzLAoJCQkidXNlZF9hbGwiOiAgICAgICBsZW4oY2hhbm5lbElEcykgPT0gMCwKCQkJImNvbnRlbnRfbGVuZ3RoIjogbGVuKFtdcnVuZShyZXEuQ29udGVudCkpLAoJCX0sCgl9KQp9CgpmdW5jIChoICpOb3RpZmljYXRpb25IYW5kbGVyKSBUeXBlcyhjICpnaW4uQ29udGV4dCkgewoJdHlwZXMgOj0gW11tYXBbc3RyaW5nXXN0cmluZ3sKCQl7InR5cGUiOiAid2ViaG9vayIsICJuYW1lIjogIldlYmhvb2sifSwKCQl7InR5cGUiOiAiZW1haWwiLCAibmFtZSI6ICLpgq7ku7YifSwKCQl7InR5cGUiOiAidGVsZWdyYW0iLCAibmFtZSI6ICJUZWxlZ3JhbSJ9LAoJCXsidHlwZSI6ICJkaW5ndGFsayIsICJuYW1lIjogIumSiemSiSJ9LAoJCXsidHlwZSI6ICJ3ZWNvbSIsICJuYW1lIjogIuS8geS4muW+ruS/oeacuuWZqOS6uiJ9LAoJCXsidHlwZSI6ICJ3ZWNvbV9hcHAiLCAibmFtZSI6ICLkvIHkuJrlvq7kv6HlupTnlKgifSwKCQl7InR5cGUiOiAiYmFyayIsICJuYW1lIjogIkJhcmsifSwKCQl7InR5cGUiOiAicHVzaHBsdXMiLCAibmFtZSI6ICJQdXNoUGx1cyJ9LAoJCXsidHlwZSI6ICJzZXJ2ZXJjaGFuIiwgIm5hbWUiOiAiU2VydmVy6YWxIn0sCgkJeyJ0eXBlIjogImZlaXNodSIsICJuYW1lIjogIumjnuS5piJ9LAoJCXsidHlwZSI6ICJnb3RpZnkiLCAibmFtZSI6ICJHb3RpZnkifSwKCQl7InR5cGUiOiAicHVzaGRlZXIiLCAibmFtZSI6ICJQdXNoRGVlciJ9LAoJCXsidHlwZSI6ICJwdXNobWUiLCAibmFtZSI6ICJQdXNoTWUifSwKCQl7InR5cGUiOiAiY2hhbmlmeSIsICJuYW1lIjogIkNoYW5pZnkifSwKCQl7InR5cGUiOiAiaWdvdCIsICJuYW1lIjogImlHb3QifSwKCQl7InR5cGUiOiAicW1zZyIsICJuYW1lIjogIlFtc2cifSwKCQl7InR5cGUiOiAicHVzaG92ZXIiLCAibmFtZSI6ICJQdXNob3ZlciJ9LAoJCXsidHlwZSI6ICJkaXNjb3JkIiwgIm5hbWUiOiAiRGlzY29yZCJ9LAoJCXsidHlwZSI6ICJzbGFjayIsICJuYW1lIjogIlNsYWNrIn0sCgkJeyJ0eXBlIjogIm50ZnkiLCAibmFtZSI6ICJudGZ5In0sCgkJeyJ0eXBlIjogInd4cHVzaGVyIiwgIm5hbWUiOiAiV3hQdXNoZXIgLyBDbGF3Qm90KGlMaW5rKSJ9LAoJCXsidHlwZSI6ICJjdXN0b20iLCAibmFtZSI6ICLoh6rlrprkuYkifSwKCX0KCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiB0eXBlc30pCn0KCmZ1bmMgKGggKk5vdGlmaWNhdGlvbkhhbmRsZXIpIFJlZ2lzdGVyUm91dGVzKHIgKmdpbi5Sb3V0ZXJHcm91cCkgewoJbm90aWZ5U2VuZCA6PSByLkdyb3VwKCIvbm90aWZpY2F0aW9ucyIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBtaWRkbGV3YXJlLk9wZW5BUElBY2Nlc3MoIm5vdGlmaWNhdGlvbnMiKSkKCXsKCQlub3RpZnlTZW5kLlBPU1QoIi9zZW5kIiwgbWlkZGxld2FyZS5SZXF1aXJlUm9sZSgib3BlcmF0b3IiKSwgaC5TZW5kKQoJfQoKCW5vdGlmeSA6PSByLkdyb3VwKCIvbm90aWZpY2F0aW9ucyIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBtaWRkbGV3YXJlLlJlcXVpcmVVc2VyVG9rZW4oKSwgbWlkZGxld2FyZS5SZXF1aXJlQWRtaW4oKSkKCXsKCQlub3RpZnkuR0VUKCIiLCBoLkxpc3QpCgkJbm90aWZ5LlBPU1QoIiIsIGguQ3JlYXRlKQoJCW5vdGlmeS5QVVQoIi86aWQiLCBoLlVwZGF0ZSkKCQlub3RpZnkuREVMRVRFKCIvOmlkIiwgaC5EZWxldGUpCgkJbm90aWZ5LlBVVCgiLzppZC9lbmFibGUiLCBoLkVuYWJsZSkKCQlub3RpZnkuUFVUKCIvOmlkL2Rpc2FibGUiLCBoLkRpc2FibGUpCgkJbm90aWZ5LlBPU1QoIi86aWQvdGVzdCIsIGguVGVzdCkKCQlub3RpZnkuR0VUKCIvdHlwZXMiLCBoLlR5cGVzKQoJfQp9Cg==
+package handler
+
+import (
+	"fmt"
+	"log"
+	"strconv"
+	"strings"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+type NotificationHandler struct{}
+
+func NewNotificationHandler() *NotificationHandler {
+	return &NotificationHandler{}
+}
+
+func updateNotificationTestState(channelID uint, status string) {
+	if channelID == 0 {
+		return
+	}
+
+	if err := database.DB.Model(&model.NotifyChannel{}).
+		Where("id = ?", channelID).
+		Updates(map[string]interface{}{
+			"last_test_at":     time.Now(),
+			"last_test_status": status,
+		}).Error; err != nil {
+		log.Printf("update notification test state failed: %v", err)
+	}
+}
+
+func (h *NotificationHandler) List(c *gin.Context) {
+	var channels []model.NotifyChannel
+	database.DB.Order("created_at DESC").Find(&channels)
+
+	data := make([]map[string]interface{}, len(channels))
+	for i, ch := range channels {
+		data[i] = ch.ToDict()
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *NotificationHandler) Create(c *gin.Context) {
+	var req struct {
+		Name   string `json:"name" binding:"required"`
+		Type   string `json:"type" binding:"required"`
+		Config string `json:"config"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	if req.Config == "" {
+		req.Config = "{}"
+	}
+
+	ch := model.NotifyChannel{
+		Name:    req.Name,
+		Type:    req.Type,
+		Config:  req.Config,
+		Enabled: true,
+	}
+
+	if err := database.DB.Create(&ch).Error; err != nil {
+		response.InternalError(c, "创建通知渠道失败")
+		return
+	}
+
+	response.Created(c, gin.H{"message": "创建成功", "data": ch.ToDict()})
+}
+
+func (h *NotificationHandler) Update(c *gin.Context) {
+	chID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var ch model.NotifyChannel
+	if err := database.DB.First(&ch, chID).Error; err != nil {
+		response.NotFound(c, "通知渠道不存在")
+		return
+	}
+
+	var req map[string]interface{}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	allowed := map[string]bool{"name": true, "type": true, "config": true}
+	updates := make(map[string]interface{})
+	for k, v := range req {
+		if allowed[k] {
+			updates[k] = v
+		}
+	}
+
+	if len(updates) > 0 {
+		database.DB.Model(&ch).Updates(updates)
+	}
+
+	database.DB.First(&ch, chID)
+	response.Success(c, gin.H{"message": "更新成功", "data": ch.ToDict()})
+}
+
+func (h *NotificationHandler) Delete(c *gin.Context) {
+	chID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	database.DB.Where("id = ?", chID).Delete(&model.NotifyChannel{})
+	response.Success(c, gin.H{"message": "删除成功"})
+}
+
+func (h *NotificationHandler) Enable(c *gin.Context) {
+	chID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	var ch model.NotifyChannel
+	if err := database.DB.First(&ch, chID).Error; err != nil {
+		response.NotFound(c, "通知渠道不存在")
+		return
+	}
+	database.DB.Model(&ch).Update("enabled", true)
+	ch.Enabled = true
+	response.Success(c, gin.H{"message": "已启用", "data": ch.ToDict()})
+}
+
+func (h *NotificationHandler) Disable(c *gin.Context) {
+	chID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	var ch model.NotifyChannel
+	if err := database.DB.First(&ch, chID).Error; err != nil {
+		response.NotFound(c, "通知渠道不存在")
+		return
+	}
+	database.DB.Model(&ch).Update("enabled", false)
+	ch.Enabled = false
+	response.Success(c, gin.H{"message": "已禁用", "data": ch.ToDict()})
+}
+
+func (h *NotificationHandler) Test(c *gin.Context) {
+	chID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var ch model.NotifyChannel
+	if err := database.DB.First(&ch, chID).Error; err != nil {
+		response.NotFound(c, "通知渠道不存在")
+		return
+	}
+
+	err := service.SendNotificationToChannel(&ch, "呆呆面板测试通知", "这是一条测试通知消息，如果您收到此消息，说明通知渠道配置正确。")
+	if err != nil {
+		updateNotificationTestState(ch.ID, "failed")
+		response.BadRequest(c, "发送失败: "+err.Error())
+		return
+	}
+
+	updateNotificationTestState(ch.ID, "success")
+	response.Success(c, gin.H{"message": "测试通知发送成功"})
+}
+
+func (h *NotificationHandler) Send(c *gin.Context) {
+	var req struct {
+		Title      string                 `json:"title" binding:"required"`
+		Content    string                 `json:"content" binding:"required"`
+		ChannelID  *uint                  `json:"channel_id"`
+		ChannelIDs []uint                 `json:"channel_ids"`
+		Context    map[string]interface{} `json:"context"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	channelIDs := make([]uint, 0, len(req.ChannelIDs)+1)
+	if req.ChannelID != nil && *req.ChannelID > 0 {
+		channelIDs = append(channelIDs, *req.ChannelID)
+	}
+	channelIDs = append(channelIDs, req.ChannelIDs...)
+
+	context := make(map[string]string, len(req.Context))
+	for key, value := range req.Context {
+		context[key] = fmt.Sprint(value)
+	}
+
+	result, err := service.SendNotificationSyncWithOptions(req.Title, req.Content, service.NotificationDispatchOptions{
+		ChannelIDs: channelIDs,
+		Context:    context,
+	})
+	if err != nil {
+		response.BadRequest(c, "发送失败: "+err.Error())
+		return
+	}
+
+	if result.SentCount == 0 && result.FailedCount > 0 {
+		response.BadRequest(c, "发送失败: "+strings.Join(result.Errors, "; "))
+		return
+	}
+
+	message := fmt.Sprintf("通知发送完成，成功 %d 个渠道", result.SentCount)
+	if result.FailedCount > 0 {
+		message = fmt.Sprintf("%s，失败 %d 个渠道", message, result.FailedCount)
+	}
+
+	response.Success(c, gin.H{
+		"message": message,
+		"data": gin.H{
+			"sent_count":     result.SentCount,
+			"failed_count":   result.FailedCount,
+			"channel_names":  result.ChannelNames,
+			"errors":         result.Errors,
+			"requested_ids":  channelIDs,
+			"used_all":       len(channelIDs) == 0,
+			"content_length": len([]rune(req.Content)),
+		},
+	})
+}
+
+func (h *NotificationHandler) Types(c *gin.Context) {
+	types := []map[string]string{
+		{"type": "webhook", "name": "Webhook"},
+		{"type": "email", "name": "邮件"},
+		{"type": "telegram", "name": "Telegram"},
+		{"type": "dingtalk", "name": "钉钉"},
+		{"type": "wecom", "name": "企业微信机器人"},
+		{"type": "wecom_app", "name": "企业微信应用"},
+		{"type": "bark", "name": "Bark"},
+		{"type": "pushplus", "name": "PushPlus"},
+		{"type": "serverchan", "name": "Server酱"},
+		{"type": "feishu", "name": "飞书"},
+		{"type": "gotify", "name": "Gotify"},
+		{"type": "pushdeer", "name": "PushDeer"},
+		{"type": "pushme", "name": "PushMe"},
+		{"type": "chanify", "name": "Chanify"},
+		{"type": "igot", "name": "iGot"},
+		{"type": "qmsg", "name": "Qmsg"},
+		{"type": "pushover", "name": "Pushover"},
+		{"type": "discord", "name": "Discord"},
+		{"type": "slack", "name": "Slack"},
+		{"type": "ntfy", "name": "ntfy"},
+		{"type": "wxpusher", "name": "WxPusher / ClawBot(iLink)"},
+		{"type": "custom", "name": "自定义"},
+	}
+	response.Success(c, gin.H{"data": types})
+}
+
+func (h *NotificationHandler) RegisterRoutes(r *gin.RouterGroup) {
+	notifySend := r.Group("/notifications", middleware.JWTAuth(), middleware.OpenAPIAccess("notifications"))
+	{
+		notifySend.POST("/send", middleware.RequireRole("operator"), h.Send)
+	}
+
+	notify := r.Group("/notifications", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireAdmin())
+	{
+		notify.GET("", h.List)
+		notify.POST("", h.Create)
+		notify.PUT("/:id", h.Update)
+		notify.DELETE("/:id", h.Delete)
+		notify.PUT("/:id/enable", h.Enable)
+		notify.PUT("/:id/disable", h.Disable)
+		notify.POST("/:id/test", h.Test)
+		notify.GET("/types", h.Types)
+	}
+}

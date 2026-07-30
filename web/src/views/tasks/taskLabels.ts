@@ -1,1 +1,83 @@
-Y29uc3QgU1VCU0NSSVBUSU9OX0xBQkVMX1BSRUZJWCA9ICdzdWJzY3JpcHRpb246Jwpjb25zdCBTVUJTQ1JJUFRJT05fRElTUExBWV9MQUJFTCA9ICforqLpmIXku7vliqEnCmNvbnN0IFRBU0tfR1JPVVBfTEFCRUxfUFJFRklYID0gJ+WIhue7hDonCgpmdW5jdGlvbiB1bmlxdWVMYWJlbHMobGFiZWxzOiBzdHJpbmdbXSkgewogIHJldHVybiBBcnJheS5mcm9tKG5ldyBTZXQobGFiZWxzLmZpbHRlcihCb29sZWFuKSkpCn0KCmV4cG9ydCBmdW5jdGlvbiBpc0ludGVybmFsVGFza0xhYmVsKGxhYmVsOiBzdHJpbmcpIHsKICByZXR1cm4gbGFiZWwuc3RhcnRzV2l0aChTVUJTQ1JJUFRJT05fTEFCRUxfUFJFRklYKSB8fCBsYWJlbC5zdGFydHNXaXRoKFRBU0tfR1JPVVBfTEFCRUxfUFJFRklYKQp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0VGFza0dyb3VwTmFtZShsYWJlbHM6IHN0cmluZ1tdID0gW10pIHsKICBmb3IgKGNvbnN0IGxhYmVsIG9mIGxhYmVscykgewogICAgaWYgKCFsYWJlbCkgY29udGludWUKICAgIGlmIChsYWJlbC5zdGFydHNXaXRoKFRBU0tfR1JPVVBfTEFCRUxfUFJFRklYKSkgewogICAgICBjb25zdCBncm91cCA9IGxhYmVsLnNsaWNlKFRBU0tfR1JPVVBfTEFCRUxfUFJFRklYLmxlbmd0aCkudHJpbSgpCiAgICAgIGlmIChncm91cCkgcmV0dXJuIGdyb3VwCiAgICB9CiAgfQogIHJldHVybiAnJwp9CgpleHBvcnQgZnVuY3Rpb24gdG9UYXNrR3JvdXBMYWJlbChncm91cE5hbWU6IHN0cmluZykgewogIGNvbnN0IG5vcm1hbGl6ZWQgPSBncm91cE5hbWUudHJpbSgpCiAgcmV0dXJuIG5vcm1hbGl6ZWQgPyBgJHtUQVNLX0dST1VQX0xBQkVMX1BSRUZJWH0ke25vcm1hbGl6ZWR9YCA6ICcnCn0KCmV4cG9ydCBmdW5jdGlvbiBnZXREaXNwbGF5VGFza0xhYmVscyhsYWJlbHM6IHN0cmluZ1tdID0gW10pIHsKICBjb25zdCBkaXNwbGF5TGFiZWxzOiBzdHJpbmdbXSA9IFtdCiAgbGV0IGhhc1N1YnNjcmlwdGlvbkxhYmVsID0gZmFsc2UKICBjb25zdCBncm91cE5hbWUgPSBnZXRUYXNrR3JvdXBOYW1lKGxhYmVscykKCiAgZm9yIChjb25zdCBsYWJlbCBvZiBsYWJlbHMpIHsKICAgIGlmICghbGFiZWwpIGNvbnRpbnVlCiAgICBpZiAobGFiZWwuc3RhcnRzV2l0aChTVUJTQ1JJUFRJT05fTEFCRUxfUFJFRklYKSkgewogICAgICBoYXNTdWJzY3JpcHRpb25MYWJlbCA9IHRydWUKICAgICAgY29udGludWUKICAgIH0KICAgIGlmIChsYWJlbC5zdGFydHNXaXRoKFRBU0tfR1JPVVBfTEFCRUxfUFJFRklYKSkgewogICAgICBjb250aW51ZQogICAgfQogICAgZGlzcGxheUxhYmVscy5wdXNoKGxhYmVsKQogIH0KCiAgaWYgKGdyb3VwTmFtZSkgewogICAgZGlzcGxheUxhYmVscy51bnNoaWZ0KGdyb3VwTmFtZSkKICB9CgogIGlmIChoYXNTdWJzY3JpcHRpb25MYWJlbCkgewogICAgZGlzcGxheUxhYmVscy5wdXNoKFNVQlNDUklQVElPTl9ESVNQTEFZX0xBQkVMKQogIH0KCiAgcmV0dXJuIHVuaXF1ZUxhYmVscyhkaXNwbGF5TGFiZWxzKQp9CgpleHBvcnQgZnVuY3Rpb24gc3BsaXRUYXNrTGFiZWxzKGxhYmVsczogc3RyaW5nW10gPSBbXSkgewogIGNvbnN0IGVkaXRhYmxlTGFiZWxzOiBzdHJpbmdbXSA9IFtdCiAgY29uc3QgaW50ZXJuYWxMYWJlbHM6IHN0cmluZ1tdID0gW10KICBjb25zdCBncm91cE5hbWUgPSBnZXRUYXNrR3JvdXBOYW1lKGxhYmVscykKCiAgZm9yIChjb25zdCBsYWJlbCBvZiBsYWJlbHMpIHsKICAgIGlmICghbGFiZWwpIGNvbnRpbnVlCiAgICBpZiAoaXNJbnRlcm5hbFRhc2tMYWJlbChsYWJlbCkpIHsKICAgICAgaW50ZXJuYWxMYWJlbHMucHVzaChsYWJlbCkKICAgICAgY29udGludWUKICAgIH0KICAgIGVkaXRhYmxlTGFiZWxzLnB1c2gobGFiZWwpCiAgfQoKICByZXR1cm4gewogICAgZWRpdGFibGVMYWJlbHM6IHVuaXF1ZUxhYmVscyhlZGl0YWJsZUxhYmVscyksCiAgICBpbnRlcm5hbExhYmVsczogdW5pcXVlTGFiZWxzKGludGVybmFsTGFiZWxzKSwKICAgIGdyb3VwTmFtZSwKICB9Cn0KCmV4cG9ydCBmdW5jdGlvbiBtZXJnZVRhc2tMYWJlbHMoZWRpdGFibGVMYWJlbHM6IHN0cmluZ1tdID0gW10sIGludGVybmFsTGFiZWxzOiBzdHJpbmdbXSA9IFtdLCBncm91cE5hbWUgPSAnJykgewogIGNvbnN0IG1lcmdlZCA9IFsuLi5lZGl0YWJsZUxhYmVscywgLi4uaW50ZXJuYWxMYWJlbHMuZmlsdGVyKGxhYmVsID0+ICFsYWJlbC5zdGFydHNXaXRoKFRBU0tfR1JPVVBfTEFCRUxfUFJFRklYKSldCiAgY29uc3QgZ3JvdXBMYWJlbCA9IHRvVGFza0dyb3VwTGFiZWwoZ3JvdXBOYW1lKQogIGlmIChncm91cExhYmVsKSBtZXJnZWQucHVzaChncm91cExhYmVsKQogIHJldHVybiB1bmlxdWVMYWJlbHMobWVyZ2VkKQp9Cg==
+const SUBSCRIPTION_LABEL_PREFIX = 'subscription:'
+const SUBSCRIPTION_DISPLAY_LABEL = '订阅任务'
+const TASK_GROUP_LABEL_PREFIX = '分组:'
+
+function uniqueLabels(labels: string[]) {
+  return Array.from(new Set(labels.filter(Boolean)))
+}
+
+export function isInternalTaskLabel(label: string) {
+  return label.startsWith(SUBSCRIPTION_LABEL_PREFIX) || label.startsWith(TASK_GROUP_LABEL_PREFIX)
+}
+
+export function getTaskGroupName(labels: string[] = []) {
+  for (const label of labels) {
+    if (!label) continue
+    if (label.startsWith(TASK_GROUP_LABEL_PREFIX)) {
+      const group = label.slice(TASK_GROUP_LABEL_PREFIX.length).trim()
+      if (group) return group
+    }
+  }
+  return ''
+}
+
+export function toTaskGroupLabel(groupName: string) {
+  const normalized = groupName.trim()
+  return normalized ? `${TASK_GROUP_LABEL_PREFIX}${normalized}` : ''
+}
+
+export function getDisplayTaskLabels(labels: string[] = []) {
+  const displayLabels: string[] = []
+  let hasSubscriptionLabel = false
+  const groupName = getTaskGroupName(labels)
+
+  for (const label of labels) {
+    if (!label) continue
+    if (label.startsWith(SUBSCRIPTION_LABEL_PREFIX)) {
+      hasSubscriptionLabel = true
+      continue
+    }
+    if (label.startsWith(TASK_GROUP_LABEL_PREFIX)) {
+      continue
+    }
+    displayLabels.push(label)
+  }
+
+  if (groupName) {
+    displayLabels.unshift(groupName)
+  }
+
+  if (hasSubscriptionLabel) {
+    displayLabels.push(SUBSCRIPTION_DISPLAY_LABEL)
+  }
+
+  return uniqueLabels(displayLabels)
+}
+
+export function splitTaskLabels(labels: string[] = []) {
+  const editableLabels: string[] = []
+  const internalLabels: string[] = []
+  const groupName = getTaskGroupName(labels)
+
+  for (const label of labels) {
+    if (!label) continue
+    if (isInternalTaskLabel(label)) {
+      internalLabels.push(label)
+      continue
+    }
+    editableLabels.push(label)
+  }
+
+  return {
+    editableLabels: uniqueLabels(editableLabels),
+    internalLabels: uniqueLabels(internalLabels),
+    groupName,
+  }
+}
+
+export function mergeTaskLabels(editableLabels: string[] = [], internalLabels: string[] = [], groupName = '') {
+  const merged = [...editableLabels, ...internalLabels.filter(label => !label.startsWith(TASK_GROUP_LABEL_PREFIX))]
+  const groupLabel = toTaskGroupLabel(groupName)
+  if (groupLabel) merged.push(groupLabel)
+  return uniqueLabels(merged)
+}

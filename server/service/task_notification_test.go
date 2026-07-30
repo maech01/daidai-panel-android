@@ -1,1 +1,362 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgopCgpmdW5jIFRlc3RCdWlsZFRhc2tFeGVjdXRpb25Ob3RpZmljYXRpb25JbmNsdWRlc0ZhaWx1cmVFeGNlcnB0KHQgKnRlc3RpbmcuVCkgewoJdGFzayA6PSAmbW9kZWwuVGFza3tJRDogOSwgTmFtZTogIuetvuWIsOS7u+WKoSJ9CgllbmRlZEF0IDo9IHRpbWUuRGF0ZSgyMDI2LCAzLCAyMiwgMTIsIDM0LCA1NiwgNzg5MDAwMDAwLCB0aW1lLkxvY2FsKQoKCXRpdGxlLCBjb250ZW50LCBjb250ZXh0IDo9IGJ1aWxkVGFza0V4ZWN1dGlvbk5vdGlmaWNhdGlvbigKCQl0YXNrLAoJCTQyLAoJCW1vZGVsLlJ1bkZhaWxlZCwKCQk3LAoJCTMuNCwKCQllbmRlZEF0LAoJCSLnrKzkuIDooYzplJnor69cbuesrOS6jOihjOmUmeivr1xu56ys5LiJ6KGM6ZSZ6K+vIiwKCSkKCglpZiB0aXRsZSAhPSAi5Lu75Yqh5omn6KGM5aSx6LSlIiB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgdGl0bGU6ICVxIiwgdGl0bGUpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAi5a6a5pe25Lu75Yqh44CM562+5Yiw5Lu75Yqh44CN5omn6KGM5aSx6LSlIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1bmlmaWVkIGZhaWx1cmUgc3VtbWFyeSBsaW5lLCBnb3QgJXEiLCBjb250ZW50KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoY29udGVudCwgIuWujOaIkOaXtumXtDogMjAyNi0wMy0yMiAxMjozNDo1Ni43ODkiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNvbnRlbnQgdG8gaW5jbHVkZSBjb21wbGV0ZWQgdGltZSwgZ290ICVxIiwgY29udGVudCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICLml6Xlv5dJRDogNDIiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNvbnRlbnQgdG8gaW5jbHVkZSB0YXNrIGxvZyBpZCwgZ290ICVxIiwgY29udGVudCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICLpgIDlh7rnoIE6IDciKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNvbnRlbnQgdG8gaW5jbHVkZSBleGl0IGNvZGUsIGdvdCAlcSIsIGNvbnRlbnQpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAi5aSx6LSl5Y6f5ZugOiIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY29udGVudCB0byBpbmNsdWRlIGZhaWx1cmUgZXhjZXJwdCwgZ290ICVxIiwgY29udGVudCkKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJ0YXNrX25hbWUiXTsgZ290ICE9ICLnrb7liLDku7vliqEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdGFza19uYW1lIGNvbnRleHQsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJ0YXNrX2xvZ19pZCJdOyBnb3QgIT0gIjQyIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRhc2tfbG9nX2lkIGNvbnRleHQsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJyZXN1bHRfc3VtbWFyeSJdOyBnb3QgIT0gIuWumuaXtuS7u+WKoeOAjOetvuWIsOS7u+WKoeOAjeaJp+ihjOWksei0pSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXN1bHRfc3VtbWFyeSBjb250ZXh0LCBnb3QgJXEiLCBnb3QpCgl9CglpZiBnb3QgOj0gY29udGV4dFsiZXJyb3JfbG9nIl07IGdvdCA9PSAiIiB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgZXJyb3JfbG9nIGNvbnRleHQgdG8gYmUgcG9wdWxhdGVkIikKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJyZWFzb24iXTsgZ290ID09ICIiIHsKCQl0LkZhdGFsKCJleHBlY3RlZCByZWFzb24gY29udGV4dCB0byBiZSBwb3B1bGF0ZWQiKQoJfQoJaWYgZ290IDo9IGNvbnRleHRbImZhaWx1cmVfcmVhc29uIl07IGdvdCA9PSAiIiB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgZmFpbHVyZV9yZWFzb24gY29udGV4dCB0byBiZSBwb3B1bGF0ZWQiKQoJfQp9CgpmdW5jIFRlc3RCdWlsZFRhc2tFeGVjdXRpb25Ob3RpZmljYXRpb25Vc2VzVW5pZmllZFN1Y2Nlc3NMYXlvdXQodCAqdGVzdGluZy5UKSB7Cgl0YXNrIDo9ICZtb2RlbC5UYXNre0lEOiAxMCwgTmFtZTogIueUteS/oeetvuWIsCJ9CgllbmRlZEF0IDo9IHRpbWUuRGF0ZSgyMDI2LCAzLCAyMywgMCwgMCwgMjAsIDc1OTAwMDAwMCwgdGltZS5Mb2NhbCkKCgl0aXRsZSwgY29udGVudCwgY29udGV4dCA6PSBidWlsZFRhc2tFeGVjdXRpb25Ob3RpZmljYXRpb24oCgkJdGFzaywKCQkzNCwKCQltb2RlbC5SdW5TdWNjZXNzLAoJCTAsCgkJMjAuNywKCQllbmRlZEF0LAoJCSIiLAoJKQoKCWlmIHRpdGxlICE9ICLku7vliqHmiafooYzmiJDlip8iIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCB0aXRsZTogJXEiLCB0aXRsZSkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICLlrprml7bku7vliqHjgIznlLXkv6Hnrb7liLDjgI3miafooYzmiJDlip8iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVuaWZpZWQgc3VjY2VzcyBzdW1tYXJ5IGxpbmUsIGdvdCAlcSIsIGNvbnRlbnQpCgl9CglpZiBzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICLpgIDlh7rnoIEiKSB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IGV4aXQgY29kZSBpbiBzdWNjZXNzIGNvbnRlbnQsIGdvdCAlcSIsIGNvbnRlbnQpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAi5a6M5oiQ5pe26Ze0OiAyMDI2LTAzLTIzIDAwOjAwOjIwLjc1OSIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY29udGVudCB0byBpbmNsdWRlIGNvbXBsZXRlZCB0aW1lLCBnb3QgJXEiLCBjb250ZW50KQoJfQoJaWYgZ290IDo9IGNvbnRleHRbInN0YXR1c190ZXh0Il07IGdvdCAhPSAi5oiQ5YqfIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN1Y2Nlc3Mgc3RhdHVzX3RleHQsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJyZXN1bHRfc3VtbWFyeSJdOyBnb3QgIT0gIuWumuaXtuS7u+WKoeOAjOeUteS/oeetvuWIsOOAjeaJp+ihjOaIkOWKnyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdWNjZXNzIHJlc3VsdF9zdW1tYXJ5LCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkVGFza0V4ZWN1dGlvbk5vdGlmaWNhdGlvbktlZXBzQ29uZmlndXJlZE5vblplcm9SZXN1bHRTdWNjZXNzZnVsKHQgKnRlc3RpbmcuVCkgewoJdGFzayA6PSAmbW9kZWwuVGFza3tJRDogMTMsIE5hbWU6ICLljoblj7Llhbzlrrnku7vliqEiLCBTdWNjZXNzRXhpdENvZGVzOiAiMCwxIn0KCWVuZGVkQXQgOj0gdGltZS5EYXRlKDIwMjYsIDcsIDEwLCAxNCwgNTQsIDMzLCA5MDAwMDAwMCwgdGltZS5Mb2NhbCkKCgl0aXRsZSwgY29udGVudCwgY29udGV4dCA6PSBidWlsZFRhc2tFeGVjdXRpb25Ob3RpZmljYXRpb24oCgkJdGFzaywKCQkxMSwKCQltb2RlbC5SdW5TdWNjZXNzLAoJCTEsCgkJMTEwLjQsCgkJZW5kZWRBdCwKCQki5Lia5Yqh5rWB56iL5bey5a6M5oiQIiwKCSkKCglpZiB0aXRsZSAhPSAi5Lu75Yqh5omn6KGM5oiQ5YqfIiB8fCAhc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAi5a6a5pe25Lu75Yqh44CM5Y6G5Y+y5YW85a655Lu75Yqh44CN5omn6KGM5oiQ5YqfIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdWNjZXNzIG5vdGlmaWNhdGlvbiBmb3IgY29uZmlndXJlZCBleGl0IGNvZGUsIHRpdGxlPSVxIGNvbnRlbnQ9JXEiLCB0aXRsZSwgY29udGVudCkKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJzdGF0dXMiXTsgZ290ICE9ICJzdWNjZXNzIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN1Y2Nlc3MgY29udGV4dCwgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290IDo9IGNvbnRleHRbImV4aXRfY29kZSJdOyBnb3QgIT0gIjEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcmF3IGV4aXRfY29kZT0xIGluIGNvbnRleHQsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIHN0cmluZ3MuQ29udGFpbnMoY29udGVudCwgIuWksei0peWOn+WboCIpIHx8IGNvbnRleHRbImZhaWx1cmVfcmVhc29uIl0gIT0gIiIgewoJCXQuRmF0YWxmKCJjb25maWd1cmVkIG5vbi16ZXJvIHN1Y2Nlc3MgbXVzdCBub3QgY29udGFpbiBmYWlsdXJlIHJlYXNvbiwgY29udGVudD0lcSBjb250ZXh0PSUjdiIsIGNvbnRlbnQsIGNvbnRleHQpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkVGFza0V4ZWN1dGlvbk5vdGlmaWNhdGlvblVzZXNVbmlmaWVkQWJvcnRMYXlvdXQodCAqdGVzdGluZy5UKSB7Cgl0YXNrIDo9ICZtb2RlbC5UYXNre0lEOiAxMiwgTmFtZTogIlx1OTU3Zlx1OWE3Ylx1NGVmYlx1NTJhMSJ9CgllbmRlZEF0IDo9IHRpbWUuRGF0ZSgyMDI2LCA1LCAxLCA4LCA5LCAxMCwgMTIzMDAwMDAwLCB0aW1lLkxvY2FsKQoKCXRpdGxlLCBjb250ZW50LCBjb250ZXh0IDo9IGJ1aWxkVGFza0V4ZWN1dGlvbk5vdGlmaWNhdGlvbigKCQl0YXNrLAoJCTg4LAoJCW1vZGVsLlJ1bkFib3J0ZWQsCgkJLTEsCgkJMzEuMiwKCQllbmRlZEF0LAoJCSIiLAoJKQoKCWlmIHRpdGxlICE9ICJcdTRlZmJcdTUyYTFcdTVkZjJcdTdlYzhcdTZiNjIiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCB0aXRsZTogJXEiLCB0aXRsZSkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICJcdTViOWFcdTY1ZjZcdTRlZmJcdTUyYTFcdTMwMGNcdTk1N2ZcdTlhN2JcdTRlZmJcdTUyYTFcdTMwMGRcdTVkZjJcdTg4YWJcdTRlM2JcdTUyYThcdTdlYzhcdTZiNjIiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGFib3J0ZWQgc3VtbWFyeSBsaW5lLCBnb3QgJXEiLCBjb250ZW50KQoJfQoJaWYgc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAiXHU1OTMxXHU4ZDI1XHU1MzlmXHU1NmUwIikgfHwgc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAiXHU2MjY3XHU4ODRjXHU2NWU1XHU1ZmQ3IikgewoJCXQuRmF0YWxmKCJhYm9ydGVkIG5vdGlmaWNhdGlvbiBzaG91bGQgbm90IHJldXNlIHN1Y2Nlc3MvZmFpbHVyZSBsb2cgc2VjdGlvbnMsIGdvdCAlcSIsIGNvbnRlbnQpCgl9CglpZiBnb3QgOj0gY29udGV4dFsic3RhdHVzIl07IGdvdCAhPSAiYWJvcnRlZCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhYm9ydGVkIHN0YXR1cywgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290IDo9IGNvbnRleHRbInN0YXR1c190ZXh0Il07IGdvdCAhPSAiXHU1ZGYyXHU3ZWM4XHU2YjYyIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGFib3J0ZWQgc3RhdHVzX3RleHQsIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0QnVpbGRUYXNrRXhlY3V0aW9uTm90aWZpY2F0aW9uSW5jbHVkZXNTdWNjZXNzTG9nRXhjZXJwdCh0ICp0ZXN0aW5nLlQpIHsKCXRhc2sgOj0gJm1vZGVsLlRhc2t7SUQ6IDExLCBOYW1lOiAi5oWn55Sf5rS7Nzk4In0KCWVuZGVkQXQgOj0gdGltZS5EYXRlKDIwMjYsIDQsIDE4LCAwLCA0MiwgMzEsIDUzNTAwMDAwMCwgdGltZS5Mb2NhbCkKCglvdXRwdXQgOj0gc3RyaW5ncy5Kb2luKFtdc3RyaW5newoJCSI9PT0g5byA5aeL5omn6KGMIFsyMDI2LTA0LTE4IDAwOjMxOjM2XSA9PT0iLAoJCSJb5omn6KGM5YmN572u6ISa5pysXSIsCgkJIuaFp+eUn+a0uzc5OCAyMDI2LTA0LTE4IDAwOjMxOjM2IiwKCQki5YWxIDMg5Liq6LSm5Y+3IiwKCQkiW+i0puWPtyAxLzNdIGFiY2QuLi53eHl6IiwKCQkiICDlvZPliY3np6/liIY6IDEyMzQiLAoJCSIgIOetvuWIsDog5oiQ5YqfIiwKCQkiICDlub/lkYo6IDUvNSIsCgkJIiAg6KeG6aKROiA1LzUiLAoJCSIgIOS7iuaXpeenr+WIhjogKzgwIiwKCQki5a6M5oiQIDMvMyDkuKrotKblj7cgMDA6NDI6MzEiLAoJCSI9PT0g5omn6KGM57uT5p2fIFsyMDI2LTA0LTE4IDAwOjQyOjMxXSDogJfml7YgNjU1LjIwIOenkiDpgIDlh7rnoIEgMCA9PT0iLAoJfSwgIlxuIikKCglfLCBjb250ZW50LCBjb250ZXh0IDo9IGJ1aWxkVGFza0V4ZWN1dGlvbk5vdGlmaWNhdGlvbih0YXNrLCA2MDIsIG1vZGVsLlJ1blN1Y2Nlc3MsIDAsIDY1NS4yLCBlbmRlZEF0LCBvdXRwdXQpCgoJaWYgIXN0cmluZ3MuQ29udGFpbnMoY29udGVudCwgIuaJp+ihjOaXpeW/lzoiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNvbnRlbnQgdG8gaW5jbHVkZSDmiafooYzml6Xlv5cgc2VjdGlvbiwgZ290ICVxIiwgY29udGVudCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICLku4rml6Xnp6/liIY6ICs4MCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY29udGVudCB0byBpbmNsdWRlIHJlY2VudCBzY3JpcHQgb3V0cHV0LCBnb3QgJXEiLCBjb250ZW50KQoJfQoJaWYgc3RyaW5ncy5Db250YWlucyhjb250ZW50LCAiW+aJp+ihjOWJjee9ruiEmuacrF0iKSB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IHBhbmVsIG1ldGEgbGluZXMgaW4gZXhjZXJwdCwgZ290ICVxIiwgY29udGVudCkKCX0KCWlmIHN0cmluZ3MuQ29udGFpbnMoY29udGVudCwgIj09PSDlvIDlp4vmiafooYwiKSB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IGJhbm5lciBsaW5lcyBpbiBleGNlcnB0LCBnb3QgJXEiLCBjb250ZW50KQoJfQoJaWYgZ290IDo9IGNvbnRleHRbImxvZ19leGNlcnB0Il07ICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIuS7iuaXpeenr+WIhjogKzgwIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsb2dfZXhjZXJwdCBjb250ZXh0IHBvcHVsYXRlZCB3aXRoIHNjcmlwdCBvdXRwdXQsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBjb250ZXh0WyJzdWNjZXNzX2xvZyJdOyBnb3QgPT0gIiIgewoJCXQuRmF0YWwoImV4cGVjdGVkIHN1Y2Nlc3NfbG9nIGNvbnRleHQgdG8gYmUgcG9wdWxhdGVkIikKCX0KfQoKZnVuYyBUZXN0U3VtbWFyaXplVGFza1N1Y2Nlc3NPdXRwdXREcm9wc0Jhbm5lcnNBbmRNZXRhKHQgKnRlc3RpbmcuVCkgewoJb3V0cHV0IDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQkiPT09IOW8gOWni+aJp+ihjCBbMjAyNi0wNC0xOCAwMDowMDowMF0gPT09IiwKCQkiW+aJp+ihjOWJjee9ruiEmuacrF0iLAoJCSJb56ysIDEg5qyh6YeN6K+V77yM562J5b6FIDUg56eSXSIsCgkJIlvmo4DmtYvliLDnvLrlpLHkvp3otZY6IHJlcXVlc3Rz77yM5q2j5Zyo6Ieq5Yqo5a6J6KOFLi4uXSIsCgkJIlvlronoo4XmiJDlip86IHJlcXVlc3RzXSIsCgkJIlvkvp3otZblt7Llronoo4UgKDEvNSnvvIzoh6rliqjph43or5XmiafooYxdIiwKCQki562+5YiwOiDmiJDlip8iLAoJCSLku4rml6Xnp6/liIY6ICs4MCIsCgkJIj09PSDmiafooYznu5PmnZ8gWzIwMjYtMDQtMTggMDA6MDA6MTBdIOiAl+aXtiAxMC4wMCDnp5Ig6YCA5Ye656CBIDAgPT09IiwKCX0sICJcbiIpCgoJc3VtbWFyeSA6PSBzdW1tYXJpemVUYXNrU3VjY2Vzc091dHB1dChvdXRwdXQpCglpZiBzdHJpbmdzLkNvbnRhaW5zKHN1bW1hcnksICI9PT0g5byA5aeL5omn6KGMIikgfHwgc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAiPT09IOaJp+ihjOe7k+adnyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYmFubmVyIGxpbmVzIHJlbW92ZWQsIGdvdCAlcSIsIHN1bW1hcnkpCgl9Cglmb3IgXywgbWV0YSA6PSByYW5nZSBbXXN0cmluZ3siW+aJp+ihjOWJjee9ruiEmuacrF0iLCAiW+esrCAxIOasoemHjeivlSIsICJb5qOA5rWL5Yiw57y65aSx5L6d6LWWIiwgIlvlronoo4XmiJDlip8iLCAiW+S+nei1luW3suWuieijhSJ9IHsKCQlpZiBzdHJpbmdzLkNvbnRhaW5zKHN1bW1hcnksIG1ldGEpIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIHBhbmVsIG1ldGEgJXEgcmVtb3ZlZCwgZ290ICVxIiwgbWV0YSwgc3VtbWFyeSkKCQl9Cgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAi562+5YiwOiDmiJDlip8iKSB8fCAhc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAi5LuK5pel56ev5YiGOiArODAiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVzZXIgb3V0cHV0IHJldGFpbmVkLCBnb3QgJXEiLCBzdW1tYXJ5KQoJfQp9CgpmdW5jIFRlc3RTdW1tYXJpemVUYXNrU3VjY2Vzc091dHB1dFRydW5jYXRlc0xvbmdMb2dzKHQgKnRlc3RpbmcuVCkgewoJdmFyIGJ1aWxkZXIgc3RyaW5ncy5CdWlsZGVyCglmb3IgaSA6PSAwOyBpIDwgMjAwOyBpKysgewoJCWJ1aWxkZXIuV3JpdGVTdHJpbmcoZm10LlNwcmludGYoImxpbmUgJWQg5YaF5a65XG4iLCBpKSkKCX0KCXN1bW1hcnkgOj0gc3VtbWFyaXplVGFza1N1Y2Nlc3NPdXRwdXQoYnVpbGRlci5TdHJpbmcoKSkKCWlmIGdvdCA6PSBzdHJpbmdzLkNvdW50KHN1bW1hcnksICJcbiIpOyBnb3QgPiAzMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGF0IG1vc3QgMzAgbGluZXMgaW4gc3VtbWFyeSwgZ290ICVkIG5ld2xpbmVzIiwgZ290KQoJfQoJaWYgbGVuKFtdcnVuZShzdW1tYXJ5KSkgPiAxNTAwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3VtbWFyeSB0cnVuY2F0ZWQgdG8gMTUwMCBydW5lcywgZ290ICVkIiwgbGVuKFtdcnVuZShzdW1tYXJ5KSkpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAibGluZSAxOTkg5YaF5a65IikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0YWlsIG9mIGxvZyByZXRhaW5lZCwgZ290ICVxIiwgc3VtbWFyeSkKCX0KfQoKZnVuYyBUZXN0U3VtbWFyaXplVGFza0ZhaWx1cmVPdXRwdXRLZWVwc1JlY2VudExpbmVzKHQgKnRlc3RpbmcuVCkgewoJb3V0cHV0IDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQkiPT09IOW8gOWni+aJp+ihjCBbMjAyNi0wMy0yMiAxMjowMDowMF0gPT09IiwKCQki5YeG5aSH5LitIiwKCQki6K+35rGC5o6l5Y+j5aSx6LSlIiwKCQkiSFRUUCA1MDAiLAoJCSJ0b2tlbiBleHBpcmVkIiwKCQkiPT09IOaJp+ihjOe7k+adnyBbMjAyNi0wMy0yMiAxMjowMDowMV0g6ICX5pe2IDEuMDAg56eSIOmAgOWHuueggSAxID09PSIsCgl9LCAiXG4iKQoKCXN1bW1hcnkgOj0gc3VtbWFyaXplVGFza0ZhaWx1cmVPdXRwdXQob3V0cHV0KQoJaWYgc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAiPT09IOW8gOWni+aJp+ihjCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3VtbWFyeSB0byBkcm9wIGJhbm5lciBsaW5lcywgZ290ICVxIiwgc3VtbWFyeSkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHN1bW1hcnksICJ0b2tlbiBleHBpcmVkIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdW1tYXJ5IHRvIGtlZXAgcmVjZW50IGZhaWx1cmUgZGV0YWlscywgZ290ICVxIiwgc3VtbWFyeSkKCX0KfQoKZnVuYyBUZXN0U3VtbWFyaXplVGFza0ZhaWx1cmVPdXRwdXRDb25kZW5zZXNQeXRob25UcmFjZWJhY2sodCAqdGVzdGluZy5UKSB7CglvdXRwdXQgOj0gc3RyaW5ncy5Kb2luKFtdc3RyaW5newoJCSI9PT0g5byA5aeL5omn6KGMIFsyMDI2LTAzLTIzIDAwOjAwOjAwXSA9PT0iLAoJCSJUcmFjZWJhY2sgKG1vc3QgcmVjZW50IGNhbGwgbGFzdCk6IiwKCQlgICBGaWxlICIvdXNyL2xpYi9weXRob24zLjExL2FzeW5jaW8vcnVubmVycy5weSIsIGxpbmUgMTkwLCBpbiBydW5gLAoJCSIgICAgcmV0dXJuIHJ1bm5lci5ydW4obWFpbikiLAoJCSIgICAgXl5eXl5eXl5eXl5eXl5eXl5eXl5eXl4iLAoJCWAgIEZpbGUgIi9hcHAvRHVtYi1QYW5lbC9zY3JpcHRzL+eUteS/oeiQpeS4muWOhS/nlLXkv6EucHkiLCBsaW5lIDExMTgsIGluIG1haW5gLAoJCSIgICAgc2lnbiwgYWNjSWQgPSBhd2FpdCBnZXRTaWduKHRpY2tldCwgc2Vzc2lvbikiLAoJCSIgICAgXl5eXl5eXl5eXl4iLAoJCSJUeXBlRXJyb3I6IGNhbm5vdCB1bnBhY2sgbm9uLWl0ZXJhYmxlIE5vbmVUeXBlIG9iamVjdCIsCgl9LCAiXG4iKQoKCXN1bW1hcnkgOj0gc3VtbWFyaXplVGFza0ZhaWx1cmVPdXRwdXQob3V0cHV0KQoJaWYgc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAiYXN5bmNpby9ydW5uZXJzLnB5IikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBydW50aW1lIHRyYWNlYmFjayBmcmFtZXMgdG8gYmUgcmVtb3ZlZCwgZ290ICVxIiwgc3VtbWFyeSkKCX0KCWlmIHN0cmluZ3MuQ29udGFpbnMoc3VtbWFyeSwgIl5eXl5eXl5eIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYXJldCBpbmRpY2F0b3IgbGluZXMgdG8gYmUgcmVtb3ZlZCwgZ290ICVxIiwgc3VtbWFyeSkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHN1bW1hcnksICJUeXBlRXJyb3I6IGNhbm5vdCB1bnBhY2sgbm9uLWl0ZXJhYmxlIE5vbmVUeXBlIG9iamVjdCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3VtbWFyeSB0byBrZWVwIGZpbmFsIGV4Y2VwdGlvbiwgZ290ICVxIiwgc3VtbWFyeSkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHN1bW1hcnksICLnlLXkv6HokKXkuJrljoUv55S15L+hLnB5OjExMTgiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN1bW1hcnkgdG8ga2VlcCByZWxldmFudCBzY3JpcHQgZnJhbWUsIGdvdCAlcSIsIHN1bW1hcnkpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkTW9kdWxlQ29tcGF0aWJpbGl0eUhpbnRSZWNvZ25pemVzUmVxdWlyZUVzbUZhaWx1cmUodCAqdGVzdGluZy5UKSB7CglvdXRwdXQgOj0gc3RyaW5ncy5Kb2luKFtdc3RyaW5newoJCWBjb25zdCB7IHY0OiB1dWlkdjQgfSA9IHJlcXVpcmUoJ3V1aWQnKTtgLAoJCSIgICAgICAgICAgICAgICAgICAgICAgIF4iLAoJCSJFcnJvciBbRVJSX1JFUVVJUkVfRVNNXTogcmVxdWlyZSgpIG9mIEVTIE1vZHVsZSAvYXBwL0R1bWItUGFuZWwvZGVwcy9ub2RlanMvbm9kZV9tb2R1bGVzL3V1aWQvZGlzdC1ub2RlL2luZGV4LmpzIGZyb20gL2FwcC9EdW1iLVBhbmVsL3NjcmlwdHMvd2MuanMgbm90IHN1cHBvcnRlZC4iLAoJCSJJbnN0ZWFkIGNoYW5nZSB0aGUgcmVxdWlyZSBvZiBpbmRleC5qcyBpbiAvYXBwL0R1bWItUGFuZWwvc2NyaXB0cy93Yy5qcyB0byBhIGR5bmFtaWMgaW1wb3J0KCkgd2hpY2ggaXMgYXZhaWxhYmxlIGluIGFsbCBDb21tb25KUyBtb2R1bGVzLiIsCgl9LCAiXG4iKQoKCWhpbnQgOj0gQnVpbGRNb2R1bGVDb21wYXRpYmlsaXR5SGludChvdXRwdXQpCglpZiBoaW50ID09ICIiIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBtb2R1bGUgY29tcGF0aWJpbGl0eSBoaW50IHRvIGJlIGdlbmVyYXRlZCIpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhoaW50LCAiRVNNIOaooeWdlyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaGludCB0byBtZW50aW9uIEVTTSBtb2R1bGUsIGdvdCAlcSIsIGhpbnQpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhoaW50LCAidXVpZCIpIHx8ICFzdHJpbmdzLkNvbnRhaW5zKGhpbnQsICJ1dWlkQDguMy4yIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBoaW50IHRvIG1lbnRpb24gcGFja2FnZSBhbmQgY29tcGF0aWJsZSB2ZXJzaW9uLCBnb3QgJXEiLCBoaW50KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoaGludCwgInJlcXVpcmUoKSIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaGludCB0byBtZW50aW9uIHJlcXVpcmUoKSwgZ290ICVxIiwgaGludCkKCX0KfQoKZnVuYyBUZXN0QnVpbGRNb2R1bGVDb21wYXRpYmlsaXR5SGludFBhcnNlc1Njb3BlZFJlcXVpcmVFc21QYWNrYWdlKHQgKnRlc3RpbmcuVCkgewoJb3V0cHV0IDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQkiRXJyb3IgW0VSUl9SRVFVSVJFX0VTTV06IHJlcXVpcmUoKSBvZiBFUyBNb2R1bGUgQzpcXGFwcFxcZGVwc1xcbm9kZWpzXFxub2RlX21vZHVsZXNcXEBzY29wZVxccGtnXFxkaXN0XFxpbmRleC5qcyBmcm9tIEM6XFxhcHBcXHNjcmlwdHNcXGRlbW8uanMgbm90IHN1cHBvcnRlZC4iLAoJCSJJbnN0ZWFkIGNoYW5nZSB0aGUgcmVxdWlyZSBvZiBpbmRleC5qcyBpbiBDOlxcYXBwXFxzY3JpcHRzXFxkZW1vLmpzIHRvIGEgZHluYW1pYyBpbXBvcnQoKSB3aGljaCBpcyBhdmFpbGFibGUgaW4gYWxsIENvbW1vbkpTIG1vZHVsZXMuIiwKCX0sICJcbiIpCgoJaGludCA6PSBCdWlsZE1vZHVsZUNvbXBhdGliaWxpdHlIaW50KG91dHB1dCkKCWlmICFzdHJpbmdzLkNvbnRhaW5zKGhpbnQsICJAc2NvcGUvcGtnIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzY29wZWQgcGFja2FnZSBuYW1lIHRvIGJlIHBhcnNlZCwgZ290ICVxIiwgaGludCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKGhpbnQsICLmnKrlnKjlhbzlrrnmmKDlsITkuK0iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVubWFwcGVkIHNjb3BlZCBwYWNrYWdlIG5vdGljZSwgZ290ICVxIiwgaGludCkKCX0KfQoKZnVuYyBUZXN0QnVpbGRNb2R1bGVDb21wYXRpYmlsaXR5SGludFJlcG9ydHNVbm1hcHBlZFJlcXVpcmVFc21QYWNrYWdlKHQgKnRlc3RpbmcuVCkgewoJb3V0cHV0IDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQlgY29uc3QgcGtnID0gcmVxdWlyZSgnc29tZS1lc20tb25seS1wYWNrYWdlJyk7YCwKCQkiRXJyb3IgW0VSUl9SRVFVSVJFX0VTTV06IHJlcXVpcmUoKSBvZiBFUyBNb2R1bGUgL2FwcC9EdW1iLVBhbmVsL2RlcHMvbm9kZWpzL25vZGVfbW9kdWxlcy9zb21lLWVzbS1vbmx5LXBhY2thZ2UvaW5kZXguanMgZnJvbSAvYXBwL0R1bWItUGFuZWwvc2NyaXB0cy9kZW1vLmpzIG5vdCBzdXBwb3J0ZWQuIiwKCQkiSW5zdGVhZCBjaGFuZ2UgdGhlIHJlcXVpcmUgb2YgaW5kZXguanMgaW4gL2FwcC9EdW1iLVBhbmVsL3NjcmlwdHMvZGVtby5qcyB0byBhIGR5bmFtaWMgaW1wb3J0KCkgd2hpY2ggaXMgYXZhaWxhYmxlIGluIGFsbCBDb21tb25KUyBtb2R1bGVzLiIsCgl9LCAiXG4iKQoKCWhpbnQgOj0gQnVpbGRNb2R1bGVDb21wYXRpYmlsaXR5SGludChvdXRwdXQpCglpZiAhc3RyaW5ncy5Db250YWlucyhoaW50LCAic29tZS1lc20tb25seS1wYWNrYWdlIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwYWNrYWdlIG5hbWUgdG8gYmUgcGFyc2VkLCBnb3QgJXEiLCBoaW50KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoaGludCwgIuacquWcqOWFvOWuueaYoOWwhOS4rSIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdW5tYXBwZWQgcGFja2FnZSBub3RpY2UsIGdvdCAlcSIsIGhpbnQpCgl9Cn0KCmZ1bmMgVGVzdFN1bW1hcml6ZVRhc2tGYWlsdXJlT3V0cHV0UHJlZmVyc01vZHVsZUNvbXBhdGliaWxpdHlIaW50KHQgKnRlc3RpbmcuVCkgewoJb3V0cHV0IDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQkiW+WuieijheaIkOWKnzogdXVpZF0iLAoJCSJb5L6d6LWW5bey5a6J6KOFICgxLzUp77yM6Ieq5Yqo6YeN6K+V5omn6KGMXSIsCgkJYGNvbnN0IHsgdjQ6IHV1aWR2NCB9ID0gcmVxdWlyZSgndXVpZCcpO2AsCgkJIkVycm9yIFtFUlJfUkVRVUlSRV9FU01dOiByZXF1aXJlKCkgb2YgRVMgTW9kdWxlIC9hcHAvRHVtYi1QYW5lbC9kZXBzL25vZGVqcy9ub2RlX21vZHVsZXMvdXVpZC9kaXN0LW5vZGUvaW5kZXguanMgZnJvbSAvYXBwL0R1bWItUGFuZWwvc2NyaXB0cy93Yy5qcyBub3Qgc3VwcG9ydGVkLiIsCgkJIkluc3RlYWQgY2hhbmdlIHRoZSByZXF1aXJlIG9mIGluZGV4LmpzIGluIC9hcHAvRHVtYi1QYW5lbC9zY3JpcHRzL3djLmpzIHRvIGEgZHluYW1pYyBpbXBvcnQoKSB3aGljaCBpcyBhdmFpbGFibGUgaW4gYWxsIENvbW1vbkpTIG1vZHVsZXMuIiwKCX0sICJcbiIpCgoJc3VtbWFyeSA6PSBzdW1tYXJpemVUYXNrRmFpbHVyZU91dHB1dChvdXRwdXQpCglpZiAhc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAiRVNNIOaooeWdlyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3VtbWFyeSB0byBzdXJmYWNlIG1vZHVsZSBjb21wYXRpYmlsaXR5IGhpbnQsIGdvdCAlcSIsIHN1bW1hcnkpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhzdW1tYXJ5LCAicmVxdWlyZSgpIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdW1tYXJ5IHRvIG1lbnRpb24gcmVxdWlyZSgpLCBnb3QgJXEiLCBzdW1tYXJ5KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoc3VtbWFyeSwgInV1aWRAOC4zLjIiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN1bW1hcnkgdG8gbWVudGlvbiBjb21wYXRpYmxlIHJlaW5zdGFsbCB2ZXJzaW9uLCBnb3QgJXEiLCBzdW1tYXJ5KQoJfQp9Cg==
+package service
+
+import (
+	"fmt"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/model"
+)
+
+func TestBuildTaskExecutionNotificationIncludesFailureExcerpt(t *testing.T) {
+	task := &model.Task{ID: 9, Name: "签到任务"}
+	endedAt := time.Date(2026, 3, 22, 12, 34, 56, 789000000, time.Local)
+
+	title, content, context := buildTaskExecutionNotification(
+		task,
+		42,
+		model.RunFailed,
+		7,
+		3.4,
+		endedAt,
+		"第一行错误\n第二行错误\n第三行错误",
+	)
+
+	if title != "任务执行失败" {
+		t.Fatalf("unexpected title: %q", title)
+	}
+	if !strings.Contains(content, "定时任务「签到任务」执行失败") {
+		t.Fatalf("expected unified failure summary line, got %q", content)
+	}
+	if !strings.Contains(content, "完成时间: 2026-03-22 12:34:56.789") {
+		t.Fatalf("expected content to include completed time, got %q", content)
+	}
+	if !strings.Contains(content, "日志ID: 42") {
+		t.Fatalf("expected content to include task log id, got %q", content)
+	}
+	if !strings.Contains(content, "退出码: 7") {
+		t.Fatalf("expected content to include exit code, got %q", content)
+	}
+	if !strings.Contains(content, "失败原因:") {
+		t.Fatalf("expected content to include failure excerpt, got %q", content)
+	}
+	if got := context["task_name"]; got != "签到任务" {
+		t.Fatalf("expected task_name context, got %q", got)
+	}
+	if got := context["task_log_id"]; got != "42" {
+		t.Fatalf("expected task_log_id context, got %q", got)
+	}
+	if got := context["result_summary"]; got != "定时任务「签到任务」执行失败" {
+		t.Fatalf("expected result_summary context, got %q", got)
+	}
+	if got := context["error_log"]; got == "" {
+		t.Fatal("expected error_log context to be populated")
+	}
+	if got := context["reason"]; got == "" {
+		t.Fatal("expected reason context to be populated")
+	}
+	if got := context["failure_reason"]; got == "" {
+		t.Fatal("expected failure_reason context to be populated")
+	}
+}
+
+func TestBuildTaskExecutionNotificationUsesUnifiedSuccessLayout(t *testing.T) {
+	task := &model.Task{ID: 10, Name: "电信签到"}
+	endedAt := time.Date(2026, 3, 23, 0, 0, 20, 759000000, time.Local)
+
+	title, content, context := buildTaskExecutionNotification(
+		task,
+		34,
+		model.RunSuccess,
+		0,
+		20.7,
+		endedAt,
+		"",
+	)
+
+	if title != "任务执行成功" {
+		t.Fatalf("unexpected title: %q", title)
+	}
+	if !strings.Contains(content, "定时任务「电信签到」执行成功") {
+		t.Fatalf("expected unified success summary line, got %q", content)
+	}
+	if strings.Contains(content, "退出码") {
+		t.Fatalf("did not expect exit code in success content, got %q", content)
+	}
+	if !strings.Contains(content, "完成时间: 2026-03-23 00:00:20.759") {
+		t.Fatalf("expected content to include completed time, got %q", content)
+	}
+	if got := context["status_text"]; got != "成功" {
+		t.Fatalf("expected success status_text, got %q", got)
+	}
+	if got := context["result_summary"]; got != "定时任务「电信签到」执行成功" {
+		t.Fatalf("expected success result_summary, got %q", got)
+	}
+}
+
+func TestBuildTaskExecutionNotificationKeepsConfiguredNonZeroResultSuccessful(t *testing.T) {
+	task := &model.Task{ID: 13, Name: "历史兼容任务", SuccessExitCodes: "0,1"}
+	endedAt := time.Date(2026, 7, 10, 14, 54, 33, 90000000, time.Local)
+
+	title, content, context := buildTaskExecutionNotification(
+		task,
+		11,
+		model.RunSuccess,
+		1,
+		110.4,
+		endedAt,
+		"业务流程已完成",
+	)
+
+	if title != "任务执行成功" || !strings.Contains(content, "定时任务「历史兼容任务」执行成功") {
+		t.Fatalf("expected success notification for configured exit code, title=%q content=%q", title, content)
+	}
+	if got := context["status"]; got != "success" {
+		t.Fatalf("expected success context, got %q", got)
+	}
+	if got := context["exit_code"]; got != "1" {
+		t.Fatalf("expected raw exit_code=1 in context, got %q", got)
+	}
+	if strings.Contains(content, "失败原因") || context["failure_reason"] != "" {
+		t.Fatalf("configured non-zero success must not contain failure reason, content=%q context=%#v", content, context)
+	}
+}
+
+func TestBuildTaskExecutionNotificationUsesUnifiedAbortLayout(t *testing.T) {
+	task := &model.Task{ID: 12, Name: "\u957f\u9a7b\u4efb\u52a1"}
+	endedAt := time.Date(2026, 5, 1, 8, 9, 10, 123000000, time.Local)
+
+	title, content, context := buildTaskExecutionNotification(
+		task,
+		88,
+		model.RunAborted,
+		-1,
+		31.2,
+		endedAt,
+		"",
+	)
+
+	if title != "\u4efb\u52a1\u5df2\u7ec8\u6b62" {
+		t.Fatalf("unexpected title: %q", title)
+	}
+	if !strings.Contains(content, "\u5b9a\u65f6\u4efb\u52a1\u300c\u957f\u9a7b\u4efb\u52a1\u300d\u5df2\u88ab\u4e3b\u52a8\u7ec8\u6b62") {
+		t.Fatalf("expected aborted summary line, got %q", content)
+	}
+	if strings.Contains(content, "\u5931\u8d25\u539f\u56e0") || strings.Contains(content, "\u6267\u884c\u65e5\u5fd7") {
+		t.Fatalf("aborted notification should not reuse success/failure log sections, got %q", content)
+	}
+	if got := context["status"]; got != "aborted" {
+		t.Fatalf("expected aborted status, got %q", got)
+	}
+	if got := context["status_text"]; got != "\u5df2\u7ec8\u6b62" {
+		t.Fatalf("expected aborted status_text, got %q", got)
+	}
+}
+
+func TestBuildTaskExecutionNotificationIncludesSuccessLogExcerpt(t *testing.T) {
+	task := &model.Task{ID: 11, Name: "慧生活798"}
+	endedAt := time.Date(2026, 4, 18, 0, 42, 31, 535000000, time.Local)
+
+	output := strings.Join([]string{
+		"=== 开始执行 [2026-04-18 00:31:36] ===",
+		"[执行前置脚本]",
+		"慧生活798 2026-04-18 00:31:36",
+		"共 3 个账号",
+		"[账号 1/3] abcd...wxyz",
+		"  当前积分: 1234",
+		"  签到: 成功",
+		"  广告: 5/5",
+		"  视频: 5/5",
+		"  今日积分: +80",
+		"完成 3/3 个账号 00:42:31",
+		"=== 执行结束 [2026-04-18 00:42:31] 耗时 655.20 秒 退出码 0 ===",
+	}, "\n")
+
+	_, content, context := buildTaskExecutionNotification(task, 602, model.RunSuccess, 0, 655.2, endedAt, output)
+
+	if !strings.Contains(content, "执行日志:") {
+		t.Fatalf("expected content to include 执行日志 section, got %q", content)
+	}
+	if !strings.Contains(content, "今日积分: +80") {
+		t.Fatalf("expected content to include recent script output, got %q", content)
+	}
+	if strings.Contains(content, "[执行前置脚本]") {
+		t.Fatalf("did not expect panel meta lines in excerpt, got %q", content)
+	}
+	if strings.Contains(content, "=== 开始执行") {
+		t.Fatalf("did not expect banner lines in excerpt, got %q", content)
+	}
+	if got := context["log_excerpt"]; !strings.Contains(got, "今日积分: +80") {
+		t.Fatalf("expected log_excerpt context populated with script output, got %q", got)
+	}
+	if got := context["success_log"]; got == "" {
+		t.Fatal("expected success_log context to be populated")
+	}
+}
+
+func TestSummarizeTaskSuccessOutputDropsBannersAndMeta(t *testing.T) {
+	output := strings.Join([]string{
+		"=== 开始执行 [2026-04-18 00:00:00] ===",
+		"[执行前置脚本]",
+		"[第 1 次重试，等待 5 秒]",
+		"[检测到缺失依赖: requests，正在自动安装...]",
+		"[安装成功: requests]",
+		"[依赖已安装 (1/5)，自动重试执行]",
+		"签到: 成功",
+		"今日积分: +80",
+		"=== 执行结束 [2026-04-18 00:00:10] 耗时 10.00 秒 退出码 0 ===",
+	}, "\n")
+
+	summary := summarizeTaskSuccessOutput(output)
+	if strings.Contains(summary, "=== 开始执行") || strings.Contains(summary, "=== 执行结束") {
+		t.Fatalf("expected banner lines removed, got %q", summary)
+	}
+	for _, meta := range []string{"[执行前置脚本]", "[第 1 次重试", "[检测到缺失依赖", "[安装成功", "[依赖已安装"} {
+		if strings.Contains(summary, meta) {
+			t.Fatalf("expected panel meta %q removed, got %q", meta, summary)
+		}
+	}
+	if !strings.Contains(summary, "签到: 成功") || !strings.Contains(summary, "今日积分: +80") {
+		t.Fatalf("expected user output retained, got %q", summary)
+	}
+}
+
+func TestSummarizeTaskSuccessOutputTruncatesLongLogs(t *testing.T) {
+	var builder strings.Builder
+	for i := 0; i < 200; i++ {
+		builder.WriteString(fmt.Sprintf("line %d 内容\n", i))
+	}
+	summary := summarizeTaskSuccessOutput(builder.String())
+	if got := strings.Count(summary, "\n"); got > 30 {
+		t.Fatalf("expected at most 30 lines in summary, got %d newlines", got)
+	}
+	if len([]rune(summary)) > 1500 {
+		t.Fatalf("expected summary truncated to 1500 runes, got %d", len([]rune(summary)))
+	}
+	if !strings.Contains(summary, "line 199 内容") {
+		t.Fatalf("expected tail of log retained, got %q", summary)
+	}
+}
+
+func TestSummarizeTaskFailureOutputKeepsRecentLines(t *testing.T) {
+	output := strings.Join([]string{
+		"=== 开始执行 [2026-03-22 12:00:00] ===",
+		"准备中",
+		"请求接口失败",
+		"HTTP 500",
+		"token expired",
+		"=== 执行结束 [2026-03-22 12:00:01] 耗时 1.00 秒 退出码 1 ===",
+	}, "\n")
+
+	summary := summarizeTaskFailureOutput(output)
+	if strings.Contains(summary, "=== 开始执行") {
+		t.Fatalf("expected summary to drop banner lines, got %q", summary)
+	}
+	if !strings.Contains(summary, "token expired") {
+		t.Fatalf("expected summary to keep recent failure details, got %q", summary)
+	}
+}
+
+func TestSummarizeTaskFailureOutputCondensesPythonTraceback(t *testing.T) {
+	output := strings.Join([]string{
+		"=== 开始执行 [2026-03-23 00:00:00] ===",
+		"Traceback (most recent call last):",
+		`  File "/usr/lib/python3.11/asyncio/runners.py", line 190, in run`,
+		"    return runner.run(main)",
+		"    ^^^^^^^^^^^^^^^^^^^^^^^",
+		`  File "/app/Dumb-Panel/scripts/电信营业厅/电信.py", line 1118, in main`,
+		"    sign, accId = await getSign(ticket, session)",
+		"    ^^^^^^^^^^^",
+		"TypeError: cannot unpack non-iterable NoneType object",
+	}, "\n")
+
+	summary := summarizeTaskFailureOutput(output)
+	if strings.Contains(summary, "asyncio/runners.py") {
+		t.Fatalf("expected runtime traceback frames to be removed, got %q", summary)
+	}
+	if strings.Contains(summary, "^^^^^^^^") {
+		t.Fatalf("expected caret indicator lines to be removed, got %q", summary)
+	}
+	if !strings.Contains(summary, "TypeError: cannot unpack non-iterable NoneType object") {
+		t.Fatalf("expected summary to keep final exception, got %q", summary)
+	}
+	if !strings.Contains(summary, "电信营业厅/电信.py:1118") {
+		t.Fatalf("expected summary to keep relevant script frame, got %q", summary)
+	}
+}
+
+func TestBuildModuleCompatibilityHintRecognizesRequireEsmFailure(t *testing.T) {
+	output := strings.Join([]string{
+		`const { v4: uuidv4 } = require('uuid');`,
+		"                       ^",
+		"Error [ERR_REQUIRE_ESM]: require() of ES Module /app/Dumb-Panel/deps/nodejs/node_modules/uuid/dist-node/index.js from /app/Dumb-Panel/scripts/wc.js not supported.",
+		"Instead change the require of index.js in /app/Dumb-Panel/scripts/wc.js to a dynamic import() which is available in all CommonJS modules.",
+	}, "\n")
+
+	hint := BuildModuleCompatibilityHint(output)
+	if hint == "" {
+		t.Fatal("expected module compatibility hint to be generated")
+	}
+	if !strings.Contains(hint, "ESM 模块") {
+		t.Fatalf("expected hint to mention ESM module, got %q", hint)
+	}
+	if !strings.Contains(hint, "uuid") || !strings.Contains(hint, "uuid@8.3.2") {
+		t.Fatalf("expected hint to mention package and compatible version, got %q", hint)
+	}
+	if !strings.Contains(hint, "require()") {
+		t.Fatalf("expected hint to mention require(), got %q", hint)
+	}
+}
+
+func TestBuildModuleCompatibilityHintParsesScopedRequireEsmPackage(t *testing.T) {
+	output := strings.Join([]string{
+		"Error [ERR_REQUIRE_ESM]: require() of ES Module C:\\app\\deps\\nodejs\\node_modules\\@scope\\pkg\\dist\\index.js from C:\\app\\scripts\\demo.js not supported.",
+		"Instead change the require of index.js in C:\\app\\scripts\\demo.js to a dynamic import() which is available in all CommonJS modules.",
+	}, "\n")
+
+	hint := BuildModuleCompatibilityHint(output)
+	if !strings.Contains(hint, "@scope/pkg") {
+		t.Fatalf("expected scoped package name to be parsed, got %q", hint)
+	}
+	if !strings.Contains(hint, "未在兼容映射中") {
+		t.Fatalf("expected unmapped scoped package notice, got %q", hint)
+	}
+}
+
+func TestBuildModuleCompatibilityHintReportsUnmappedRequireEsmPackage(t *testing.T) {
+	output := strings.Join([]string{
+		`const pkg = require('some-esm-only-package');`,
+		"Error [ERR_REQUIRE_ESM]: require() of ES Module /app/Dumb-Panel/deps/nodejs/node_modules/some-esm-only-package/index.js from /app/Dumb-Panel/scripts/demo.js not supported.",
+		"Instead change the require of index.js in /app/Dumb-Panel/scripts/demo.js to a dynamic import() which is available in all CommonJS modules.",
+	}, "\n")
+
+	hint := BuildModuleCompatibilityHint(output)
+	if !strings.Contains(hint, "some-esm-only-package") {
+		t.Fatalf("expected package name to be parsed, got %q", hint)
+	}
+	if !strings.Contains(hint, "未在兼容映射中") {
+		t.Fatalf("expected unmapped package notice, got %q", hint)
+	}
+}
+
+func TestSummarizeTaskFailureOutputPrefersModuleCompatibilityHint(t *testing.T) {
+	output := strings.Join([]string{
+		"[安装成功: uuid]",
+		"[依赖已安装 (1/5)，自动重试执行]",
+		`const { v4: uuidv4 } = require('uuid');`,
+		"Error [ERR_REQUIRE_ESM]: require() of ES Module /app/Dumb-Panel/deps/nodejs/node_modules/uuid/dist-node/index.js from /app/Dumb-Panel/scripts/wc.js not supported.",
+		"Instead change the require of index.js in /app/Dumb-Panel/scripts/wc.js to a dynamic import() which is available in all CommonJS modules.",
+	}, "\n")
+
+	summary := summarizeTaskFailureOutput(output)
+	if !strings.Contains(summary, "ESM 模块") {
+		t.Fatalf("expected summary to surface module compatibility hint, got %q", summary)
+	}
+	if !strings.Contains(summary, "require()") {
+		t.Fatalf("expected summary to mention require(), got %q", summary)
+	}
+	if !strings.Contains(summary, "uuid@8.3.2") {
+		t.Fatalf("expected summary to mention compatible reinstall version, got %q", summary)
+	}
+}

@@ -1,1 +1,78 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNvbnRleHQiCgkibmV0IgoJIm5ldC9odHRwIgoJIm5ldC91cmwiCgkic3RyaW5ncyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgoJeHByb3h5ICJnb2xhbmcub3JnL3gvbmV0L3Byb3h5IgopCgpmdW5jIE5ld0hUVFBDbGllbnQodGltZW91dCB0aW1lLkR1cmF0aW9uKSAqaHR0cC5DbGllbnQgewoJcmV0dXJuIE5ld0hUVFBDbGllbnRXaXRoUHJveHkodGltZW91dCwgIiIpCn0KCmZ1bmMgTmV3SFRUUENsaWVudFdpdGhQcm94eSh0aW1lb3V0IHRpbWUuRHVyYXRpb24sIHByb3h5T3ZlcnJpZGUgc3RyaW5nKSAqaHR0cC5DbGllbnQgewoJdHJhbnNwb3J0IDo9IGh0dHAuRGVmYXVsdFRyYW5zcG9ydC4oKmh0dHAuVHJhbnNwb3J0KS5DbG9uZSgpCgoJcHJveHlVUkwgOj0gc3RyaW5ncy5UcmltU3BhY2UocHJveHlPdmVycmlkZSkKCWlmIHByb3h5VVJMID09ICIiIHsKCQlwcm94eVVSTCA9IHN0cmluZ3MuVHJpbVNwYWNlKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoInByb3h5X3VybCIpKQoJfQoKCWlmIHByb3h5VVJMICE9ICIiIHsKCQlpZiBwYXJzZWQsIGVyciA6PSB1cmwuUGFyc2UocHJveHlVUkwpOyBlcnIgPT0gbmlsIHsKCQkJc2NoZW1lIDo9IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShwYXJzZWQuU2NoZW1lKSkKCQkJaWYgc2NoZW1lID09ICJzb2NrczUiIHx8IHNjaGVtZSA9PSAic29ja3M1aCIgewoJCQkJZGlhbFVSTCA6PSAqcGFyc2VkCgkJCQlkaWFsVVJMLlNjaGVtZSA9ICJzb2NrczUiCgkJCQlkaWFsZXIsIGRpYWxFcnIgOj0geHByb3h5LkZyb21VUkwoJmRpYWxVUkwsICZuZXQuRGlhbGVye1RpbWVvdXQ6IHRpbWVvdXR9KQoJCQkJaWYgZGlhbEVyciA9PSBuaWwgewoJCQkJCXRyYW5zcG9ydC5Qcm94eSA9IG5pbAoJCQkJCXRyYW5zcG9ydC5EaWFsQ29udGV4dCA9IGZ1bmMoY3R4IGNvbnRleHQuQ29udGV4dCwgbmV0d29yaywgYWRkciBzdHJpbmcpIChuZXQuQ29ubiwgZXJyb3IpIHsKCQkJCQkJdHlwZSBjb250ZXh0RGlhbGVyIGludGVyZmFjZSB7CgkJCQkJCQlEaWFsQ29udGV4dChjb250ZXh0LkNvbnRleHQsIHN0cmluZywgc3RyaW5nKSAobmV0LkNvbm4sIGVycm9yKQoJCQkJCQl9CgkJCQkJCWlmIHR5cGVkLCBvayA6PSBkaWFsZXIuKGNvbnRleHREaWFsZXIpOyBvayB7CgkJCQkJCQlyZXR1cm4gdHlwZWQuRGlhbENvbnRleHQoY3R4LCBuZXR3b3JrLCBhZGRyKQoJCQkJCQl9CgkJCQkJCXJldHVybiBkaWFsZXIuRGlhbChuZXR3b3JrLCBhZGRyKQoJCQkJCX0KCQkJCX0KCQkJfSBlbHNlIHsKCQkJCXRyYW5zcG9ydC5Qcm94eSA9IGh0dHAuUHJveHlVUkwocGFyc2VkKQoJCQl9CgkJfQoJfQoKCXJldHVybiAmaHR0cC5DbGllbnR7CgkJVGltZW91dDogICB0aW1lb3V0LAoJCVRyYW5zcG9ydDogdHJhbnNwb3J0LAoJfQp9CgpmdW5jIEFwcGVuZFByb3h5RW52KGVudiBbXXN0cmluZykgW11zdHJpbmcgewoJcHJveHlVUkwgOj0gc3RyaW5ncy5UcmltU3BhY2UobW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygicHJveHlfdXJsIikpCglpZiBwcm94eVVSTCA9PSAiIiB7CgkJcmV0dXJuIGVudgoJfQoKCWtleXMgOj0gW11zdHJpbmd7CgkJIkhUVFBfUFJPWFkiLAoJCSJIVFRQU19QUk9YWSIsCgkJIkFMTF9QUk9YWSIsCgkJImh0dHBfcHJveHkiLAoJCSJodHRwc19wcm94eSIsCgkJImFsbF9wcm94eSIsCgl9CgoJZm9yIF8sIGtleSA6PSByYW5nZSBrZXlzIHsKCQllbnYgPSBhcHBlbmQoZW52LCBrZXkrIj0iK3Byb3h5VVJMKQoJfQoJcmV0dXJuIGVudgp9Cg==
+package service
+
+import (
+	"context"
+	"net"
+	"net/http"
+	"net/url"
+	"strings"
+	"time"
+
+	"daidai-panel/model"
+
+	xproxy "golang.org/x/net/proxy"
+)
+
+func NewHTTPClient(timeout time.Duration) *http.Client {
+	return NewHTTPClientWithProxy(timeout, "")
+}
+
+func NewHTTPClientWithProxy(timeout time.Duration, proxyOverride string) *http.Client {
+	transport := http.DefaultTransport.(*http.Transport).Clone()
+
+	proxyURL := strings.TrimSpace(proxyOverride)
+	if proxyURL == "" {
+		proxyURL = strings.TrimSpace(model.GetRegisteredConfig("proxy_url"))
+	}
+
+	if proxyURL != "" {
+		if parsed, err := url.Parse(proxyURL); err == nil {
+			scheme := strings.ToLower(strings.TrimSpace(parsed.Scheme))
+			if scheme == "socks5" || scheme == "socks5h" {
+				dialURL := *parsed
+				dialURL.Scheme = "socks5"
+				dialer, dialErr := xproxy.FromURL(&dialURL, &net.Dialer{Timeout: timeout})
+				if dialErr == nil {
+					transport.Proxy = nil
+					transport.DialContext = func(ctx context.Context, network, addr string) (net.Conn, error) {
+						type contextDialer interface {
+							DialContext(context.Context, string, string) (net.Conn, error)
+						}
+						if typed, ok := dialer.(contextDialer); ok {
+							return typed.DialContext(ctx, network, addr)
+						}
+						return dialer.Dial(network, addr)
+					}
+				}
+			} else {
+				transport.Proxy = http.ProxyURL(parsed)
+			}
+		}
+	}
+
+	return &http.Client{
+		Timeout:   timeout,
+		Transport: transport,
+	}
+}
+
+func AppendProxyEnv(env []string) []string {
+	proxyURL := strings.TrimSpace(model.GetRegisteredConfig("proxy_url"))
+	if proxyURL == "" {
+		return env
+	}
+
+	keys := []string{
+		"HTTP_PROXY",
+		"HTTPS_PROXY",
+		"ALL_PROXY",
+		"http_proxy",
+		"https_proxy",
+		"all_proxy",
+	}
+
+	for _, key := range keys {
+		env = append(env, key+"="+proxyURL)
+	}
+	return env
+}

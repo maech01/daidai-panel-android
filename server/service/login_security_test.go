@@ -1,1 +1,46 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RJc0lQV2hpdGVsaXN0ZWRTdXBwb3J0c0lQUmFuZ2VzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJaWYgIUlzSVBXaGl0ZWxpc3RlZCgiMjAzLjAuMTEzLjUiKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgZW1wdHkgd2hpdGVsaXN0IHRvIGFsbG93IGFsbCBJUHMiKQoJfQoKCWVudHJpZXMgOj0gW11tb2RlbC5JUFdoaXRlbGlzdHsKCQl7SVA6ICIyMDMuMC4xMTMuNyIsIFJlbWFya3M6ICJzaW5nbGUifSwKCQl7SVA6ICIxOTguNTEuMTAwLjAvMjQiLCBSZW1hcmtzOiAiY2lkciJ9LAoJCXtJUDogIjE5Mi4wLjIuMC8yNCIsIFJlbWFya3M6ICJ3aWxkY2FyZC1ub3JtYWxpemVkIn0sCgl9Cglmb3IgXywgZW50cnkgOj0gcmFuZ2UgZW50cmllcyB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmZW50cnkpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImNyZWF0ZSB3aGl0ZWxpc3QgZW50cnk6ICV2IiwgZXJyKQoJCX0KCX0KCgljYXNlcyA6PSBbXXN0cnVjdCB7CgkJaXAgICBzdHJpbmcKCQl3YW50IGJvb2wKCX17CgkJe2lwOiAiMjAzLjAuMTEzLjciLCB3YW50OiB0cnVlfSwKCQl7aXA6ICIxOTguNTEuMTAwLjQyIiwgd2FudDogdHJ1ZX0sCgkJe2lwOiAiMTkyLjAuMi44OCIsIHdhbnQ6IHRydWV9LAoJCXtpcDogIjIwMy4wLjExMy44Iiwgd2FudDogZmFsc2V9LAoJCXtpcDogIjE5OC41MS4xMDEuMSIsIHdhbnQ6IGZhbHNlfSwKCQl7aXA6ICJpbnZhbGlkLWlwIiwgd2FudDogZmFsc2V9LAoJfQoKCWZvciBfLCB0YyA6PSByYW5nZSBjYXNlcyB7CgkJaWYgZ290IDo9IElzSVBXaGl0ZWxpc3RlZCh0Yy5pcCk7IGdvdCAhPSB0Yy53YW50IHsKCQkJdC5GYXRhbGYoIklzSVBXaGl0ZWxpc3RlZCglcSkgPSAldiwgd2FudCAldiIsIHRjLmlwLCBnb3QsIHRjLndhbnQpCgkJfQoJfQp9Cg==
+package service
+
+import (
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestIsIPWhitelistedSupportsIPRanges(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if !IsIPWhitelisted("203.0.113.5") {
+		t.Fatal("expected empty whitelist to allow all IPs")
+	}
+
+	entries := []model.IPWhitelist{
+		{IP: "203.0.113.7", Remarks: "single"},
+		{IP: "198.51.100.0/24", Remarks: "cidr"},
+		{IP: "192.0.2.0/24", Remarks: "wildcard-normalized"},
+	}
+	for _, entry := range entries {
+		if err := database.DB.Create(&entry).Error; err != nil {
+			t.Fatalf("create whitelist entry: %v", err)
+		}
+	}
+
+	cases := []struct {
+		ip   string
+		want bool
+	}{
+		{ip: "203.0.113.7", want: true},
+		{ip: "198.51.100.42", want: true},
+		{ip: "192.0.2.88", want: true},
+		{ip: "203.0.113.8", want: false},
+		{ip: "198.51.101.1", want: false},
+		{ip: "invalid-ip", want: false},
+	}
+
+	for _, tc := range cases {
+		if got := IsIPWhitelisted(tc.ip); got != tc.want {
+			t.Fatalf("IsIPWhitelisted(%q) = %v, want %v", tc.ip, got, tc.want)
+		}
+	}
+}

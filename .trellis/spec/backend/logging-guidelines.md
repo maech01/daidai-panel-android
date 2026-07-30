@@ -1,1 +1,100 @@
-IyDml6Xlv5fop4TojIMKCj4g5b2T5YmN6aG555uu5pei5pyJIEdpbiDor7fmsYLml6Xlv5fvvIzkuZ/mnInpnaLmnb/ov5DooYzml6Xlv5fvvIzov5jkvJrmiorpg6jliIbml6Xlv5flhpnlhaXmlbDmja7nm67lvZXjgIIKCi0tLQoKIyMg5b2T5YmN55yf5a6e5YGa5rOVCgotIOS9v+eUqOagh+WHhuW6kyBgbG9nYAotIEdpbiDkvb/nlKjoh6rlrprkuYkgd3JpdGVyIOi+k+WHuuivt+axguaXpeW/lwotIOmdouadv+WQr+WKqOaXtuS8muagueaNrui/kOihjOaooeW8j+aKiuaXpeW/l+WGmeWIsCBgcGFuZWwubG9nYCDmiJYgc3Rkb3V0Ci0g5pWw5o2u5bqT5bGC5ZKM6YOo5YiG5YW85a656L+B56e75Lmf5Lya6YCa6L+HIGBsb2cuUHJpbnRmYCDorrDlvZXkv6Hmga8KCi0tLQoKIyMg5bqU6K+l6K6w5b2V5LuA5LmICgotIOWQr+WKqC/lhbPpl63lhbPplK7mtYHnqIsKLSDmlbDmja7lupPliJ3lp4vljJblkozlhbzlrrnov4Hnp7vnu5PmnpwKLSDosIPluqblmajjgIHotYTmupDnm5HmjqfjgIHoh6rliqjmm7TmlrDnrYnlhbPplK7lkI7lj7DmtYHnqIsKLSDkvJrlvbHlk43nlKjmiLfkvb/nlKjnmoTlpLHotKXkv6Hmga8KLSDlronlhajnm7jlhbPkuovku7bvvIzlpoLnmbvlvZXjgIHplIHlrprjgIHnmb3lkI3ljZXpmZDliLbnrYkKCi0tLQoKIyMg5LiN5bqU6K+l6K6w5b2V5LuA5LmICgotIOaYjuaWh+WvhueggQotIHRva2Vu44CBcmVmcmVzaCB0b2tlbuOAgXNlY3JldOOAgeengemSpQotIOeUqOaIt+aVj+aEn+mFjee9rueahOWujOaVtOWOn+aWhwotIOS4jeW/heimgeeahOWkp+autemHjeWkjeWZquWjsOaXpeW/lwoKLS0tCgojIyDml6Xlv5fpo47moLzlu7rorq4KCi0g5paH5qGI5bC96YeP55u05o6l77yM5L6/5LqO5o6S5p+l44CCCi0g5aaC5p6c5piv5YW85a656YC76L6R44CB6L+B56e76YC76L6R44CB5Y6G5Y+y6YGX55WZ5YWc5bqV6YC76L6R77yM5bu66K6u5Yqg5Lit5paH5rOo6YeK6Kej6YeK5Luj56CB55uu55qE44CCCi0g5a+55Y+v5oGi5aSN55qE5byC5bi45LyY5YWIIGBsb2cuUHJpbnRmYO+8jOWvueW/hemhu+e7iOatouWQr+WKqOeahOmXrumimOWGjSBgbG9nLkZhdGFsZmDjgIIKCi0tLQoKIyMg5bi46KeB6ZSZ6K+vCgotIOaKiuaVj+aEn+S/oeaBr+ebtOaOpeaJk+WNsOWIsOaXpeW/l+OAggotIOWQjOS4gOmUmeivr+WcqOW+queOr+S4remHjeWkjeWIt+Wxj+OAggotIOWPkeeUn+Wksei0peaXtuayoeacieaJk+WFs+mUruS4iuS4i+aWh++8jOWQjumdoumavuaOkuafpeOAggotIOWPquWGmeKAnOWksei0peS6huKAne+8jOS4jeWGmeWTquS4quatpemqpOWksei0peOAggoKIyMgU2NlbmFyaW86IOS7u+WKoeaXpeW/l+a1geS4reeahOe7iOerr+imhuebluWIt+aWsAoKIyMjIDEuIFNjb3BlIC8gVHJpZ2dlcgotIFRyaWdnZXI6IOS/ruaUuSBgc2VydmVyL3NlcnZpY2Uvc2NyaXB0X3J1bm5lci5nb2DjgIFgc2VydmVyL3NlcnZpY2UvdGFza19leGVjdXRvci5nb2DjgIFgc2VydmVyL3NlcnZpY2Uvc2NoZWR1bGVyLmdvYOOAgWBzZXJ2ZXIvaGFuZGxlci9sb2cuZ29gIOi/meadoeS7u+WKoeaXpeW/l+WunuaXtui+k+WHuumTvuaXtuW/hemhu+eci+acrOiKguOAggotIOWOn+WboDog6L+b5bqm5p2h44CB5LiL6L295Zmo44CBQ0xJIOeKtuaAgeadoeW4uOeUqOijuCBgXHJgIOWbnuWIsOW9k+WJjeihjOW8gOWktOimhuebluWGheWuue+8m+WmguaenOWQjuerr+WcqOivu+WPluiEmuacrOi+k+WHuuaIluWGmSBTU0Ug5pe25oqKIGBccmAg55u05o6l5rSX5oiQIGBcbmDvvIzliY3nq6/lsLHlj6rog73miormr4/mrKHliLfmlrDmuLLmn5PmiJDmlrDooYzvvIzml6Xlv5fkvJrooqvkuKXph43liLflsY/jgIIKCiMjIyAyLiBTaWduYXR1cmVzCi0g6ISa5pys6L6T5Ye65Zue6LCD562+5ZCNOiBgdHlwZSBPbk91dHB1dEZ1bmMgZnVuYyhjaHVuayBzdHJpbmcpYAotIOS7u+WKoeWunuaXtuaXpeW/lyBTU0U6IGBHRVQgL2FwaS92MS9sb2dzLzppZC9zdHJlYW1gCi0g5Y6G5Y+y5pel5b+X6K+75Y+WOiBgVGFza0xvZy5Db250ZW50YCAvIGBUYXNrTG9nLkxvZ1BhdGhgCgojIyMgMy4gQ29udHJhY3RzCi0gYE9uT3V0cHV0RnVuY2Ag5Lyg6YCS55qE5piv5Y6f5aeL6L6T5Ye654mH5q6177yM5LiN5L+d6K+B5LiA5a6a5piv5a6M5pW05LiA6KGM44CCCi0g54mH5q615YaF5YWB6K645Ye6546w5LiJ56eN6L6555WMOgogIC0gYFxuYDog5q2j5bi45o2i6KGMCiAgLSBgXHJcbmA6IFdpbmRvd3Mg6aOO5qC85o2i6KGMCiAgLSDoo7ggYFxyYDog57uI56uv5Y2V6KGM6KaG55uW5Yi35pawCi0gYHdyaXRlU1NFRGF0YWAg5Y+q6IO95oqKIGBcclxuYCDlvZLkuIDmiJAgYFxuYO+8jOS4jeiDveaKiuijuCBgXHJgIOWGjeaUueaIkCBgXG5g44CCCi0g5Lu75Yqh5omn6KGM5ZmoIC8g6LCD5bqm5Zmo5oqK6L6T5Ye65YaZ5YWlIGBUaW55TG9nYCDlkozml6Xlv5fmlofku7bml7bvvIzlv4Xpobvljp/moLflhpnlhaXniYfmrrXvvIzkuI3og73nu5/kuIDooaUgYCsgIlxuImDjgIIKCiMjIyA0LiBWYWxpZGF0aW9uICYgRXJyb3IgTWF0cml4Ci0g6L6T5Ye65Y+q5YyF5ZCr5pmu6YCa5paH5pysICsgYFxuYCAtPiDmraPluLjmjInlpJrooYzml6Xlv5flsZXnpLoKLSDovpPlh7rljIXlkKsgYFxyXG5gIC0+IOinhuS4uuecn+WunuaNouihjAotIOi+k+WHuuWMheWQq+ijuCBgXHJgIC0+IOW/hemhu+S/neeVme+8jOS6pOe7meWJjeerr+aMieKAnOimhuebluW9k+WJjeihjOKAneWkhOeQhgotIOWmguaenOWcqOS7u+S4gOWQjuerr+eOr+iKguaKiuijuCBgXHJgIOaUueaIkCBgXG5gIC0+IOi/m+W6puadoeaXpeW/l+S8muWIt+Wxj++8jOWxnuS6juihjOS4uuWbnuW9kgoKIyMjIDUuIEdvb2QvQmFzZS9CYWQgQ2FzZXMKLSBHb29kOiBgeHggMTAlXHJ4eCAyMCVccnh4IDMwJVxu5a6M5oiQXG5gIOacgOe7iOWJjeerr+WPquaYvuekuuS4gOadoeaMgee7reWIt+aWsOeahOi/m+W6puihjO+8jOWGjeaOpeS4gOadoeKAnOWujOaIkOKAnQotIEJhc2U6IOaZrumAmiBgcHJpbnQvY29uc29sZS5sb2dgIOi+k+WHuuS4jeWPl+W9seWTje+8jOS7jeeEtuaYr+mAkOihjOaXpeW/lwotIEJhZDogU1NFIOWxguaKiiBgXHJgIOebtOaOpeabv+aNouS4uiBgXG5g77yM5a+86Ie0IGAxMCVg44CBYDIwJWDjgIFgMzAlYCDlhajpg6jloIbmiJDni6znq4vlpJrooYwKCiMjIyA2LiBUZXN0cyBSZXF1aXJlZAotIOWQjuerr+a1i+ivlTogYGNkIHNlcnZlciAmJiBnbyB0ZXN0IC4vLi4uYAotIOWbnuW9kueCuToKICAtIGBzZXJ2ZXIvaGFuZGxlci9sb2dfc3RyZWFtX3JlZ3Jlc3Npb25fdGVzdC5nb2Ag5pat6KiAIGB3cml0ZVNTRURhdGFgIOS8muS/neeVmeijuCBgXHJgCiAgLSDku7vliqHmiafooYzml6Xlv5fpk77nvJbor5HlkoznjrDmnIkgaGFuZGxlci9zZXJ2aWNlIOa1i+ivleWFqOmDqOmAmui/hwoKIyMjIDcuIFdyb25nIHZzIENvcnJlY3QKIyMjIyBXcm9uZwpgYGBnbwpkYXRhID0gc3RyaW5ncy5SZXBsYWNlQWxsKGRhdGEsICJcciIsICJcbiIpCmZtdC5GcHJpbnRmKHRpbnlMb2csICIlc1xuIiwgbGluZSkKbG9nTWdyLldyaXRlKGZ1bGxMb2dQYXRoLCBsaW5lKyJcbiIpCmBgYAoKIyMjIyBDb3JyZWN0CmBgYGdvCmRhdGEgPSBzdHJpbmdzLlJlcGxhY2VBbGwoZGF0YSwgIlxyXG4iLCAiXG4iKQpmbXQuRnByaW50KHRpbnlMb2csIGNodW5rKQpsb2dNZ3IuV3JpdGUoZnVsbExvZ1BhdGgsIGNodW5rKQpgYGAK
+# 日志规范
+
+> 当前项目既有 Gin 请求日志，也有面板运行日志，还会把部分日志写入数据目录。
+
+---
+
+## 当前真实做法
+
+- 使用标准库 `log`
+- Gin 使用自定义 writer 输出请求日志
+- 面板启动时会根据运行模式把日志写到 `panel.log` 或 stdout
+- 数据库层和部分兼容迁移也会通过 `log.Printf` 记录信息
+
+---
+
+## 应该记录什么
+
+- 启动/关闭关键流程
+- 数据库初始化和兼容迁移结果
+- 调度器、资源监控、自动更新等关键后台流程
+- 会影响用户使用的失败信息
+- 安全相关事件，如登录、锁定、白名单限制等
+
+---
+
+## 不应该记录什么
+
+- 明文密码
+- token、refresh token、secret、私钥
+- 用户敏感配置的完整原文
+- 不必要的大段重复噪声日志
+
+---
+
+## 日志风格建议
+
+- 文案尽量直接，便于排查。
+- 如果是兼容逻辑、迁移逻辑、历史遗留兜底逻辑，建议加中文注释解释代码目的。
+- 对可恢复的异常优先 `log.Printf`，对必须终止启动的问题再 `log.Fatalf`。
+
+---
+
+## 常见错误
+
+- 把敏感信息直接打印到日志。
+- 同一错误在循环中重复刷屏。
+- 发生失败时没有打关键上下文，后面难排查。
+- 只写“失败了”，不写哪个步骤失败。
+
+## Scenario: 任务日志流中的终端覆盖刷新
+
+### 1. Scope / Trigger
+- Trigger: 修改 `server/service/script_runner.go`、`server/service/task_executor.go`、`server/service/scheduler.go`、`server/handler/log.go` 这条任务日志实时输出链时必须看本节。
+- 原因: 进度条、下载器、CLI 状态条常用裸 `\r` 回到当前行开头覆盖内容；如果后端在读取脚本输出或写 SSE 时把 `\r` 直接洗成 `\n`，前端就只能把每次刷新渲染成新行，日志会被严重刷屏。
+
+### 2. Signatures
+- 脚本输出回调签名: `type OnOutputFunc func(chunk string)`
+- 任务实时日志 SSE: `GET /api/v1/logs/:id/stream`
+- 历史日志读取: `TaskLog.Content` / `TaskLog.LogPath`
+
+### 3. Contracts
+- `OnOutputFunc` 传递的是原始输出片段，不保证一定是完整一行。
+- 片段内允许出现三种边界:
+  - `\n`: 正常换行
+  - `\r\n`: Windows 风格换行
+  - 裸 `\r`: 终端单行覆盖刷新
+- `writeSSEData` 只能把 `\r\n` 归一成 `\n`，不能把裸 `\r` 再改成 `\n`。
+- 任务执行器 / 调度器把输出写入 `TinyLog` 和日志文件时，必须原样写入片段，不能统一补 `+ "\n"`。
+
+### 4. Validation & Error Matrix
+- 输出只包含普通文本 + `\n` -> 正常按多行日志展示
+- 输出包含 `\r\n` -> 视为真实换行
+- 输出包含裸 `\r` -> 必须保留，交给前端按“覆盖当前行”处理
+- 如果在任一后端环节把裸 `\r` 改成 `\n` -> 进度条日志会刷屏，属于行为回归
+
+### 5. Good/Base/Bad Cases
+- Good: `xx 10%\rxx 20%\rxx 30%\n完成\n` 最终前端只显示一条持续刷新的进度行，再接一条“完成”
+- Base: 普通 `print/console.log` 输出不受影响，仍然是逐行日志
+- Bad: SSE 层把 `\r` 直接替换为 `\n`，导致 `10%`、`20%`、`30%` 全部堆成独立多行
+
+### 6. Tests Required
+- 后端测试: `cd server && go test ./...`
+- 回归点:
+  - `server/handler/log_stream_regression_test.go` 断言 `writeSSEData` 会保留裸 `\r`
+  - 任务执行日志链编译和现有 handler/service 测试全部通过
+
+### 7. Wrong vs Correct
+#### Wrong
+```go
+data = strings.ReplaceAll(data, "\r", "\n")
+fmt.Fprintf(tinyLog, "%s\n", line)
+logMgr.Write(fullLogPath, line+"\n")
+```
+
+#### Correct
+```go
+data = strings.ReplaceAll(data, "\r\n", "\n")
+fmt.Fprint(tinyLog, chunk)
+logMgr.Write(fullLogPath, chunk)
+```

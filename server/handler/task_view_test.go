@@ -1,1 +1,236 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiYnl0ZXMiCgkiZW5jb2RpbmcvanNvbiIKCSJmbXQiCgkibmV0L2h0dHAiCgkibmV0L2h0dHAvaHR0cHRlc3QiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgY3JlYXRlVGFza1ZpZXcodCAqdGVzdGluZy5ULCBuYW1lIHN0cmluZykgbW9kZWwuVGFza1ZpZXcgewoJdC5IZWxwZXIoKQoJdmlldyA6PSBtb2RlbC5UYXNrVmlld3sKCQlOYW1lOiAgICAgIG5hbWUsCgkJRmlsdGVyczogICBgW3siZmllbGQiOiJuYW1lIiwib3BlcmF0b3IiOiJjb250YWlucyIsInZhbHVlIjoiYCArIG5hbWUgKyBgIn1dYCwKCQlTb3J0UnVsZXM6IGBbXWAsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZ2aWV3KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNlZWQgdGFzayB2aWV3ICVxOiAldiIsIG5hbWUsIGVycikKCX0KCXJldHVybiB2aWV3Cn0KCmZ1bmMgVGVzdExpc3RWaWV3c0hvbm9yc1NvcnRPcmRlckFuZFJldHVybnNIaWRkZW4odCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidmlldy1hZG1pbiIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgYWRtaW4uVXNlcm5hbWUsIGFkbWluLlJvbGUpCgoJYWxwaGEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImFscGhhIikKCWJldGEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImJldGEiKQoJZ2FtbWEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImdhbW1hIikKCgkvLyBhbHBoYSDihpIgMiwgYmV0YSDihpIgMCAodGllLWJyZWFrIGJ5IGlkKSwgZ2FtbWEg4oaSIDEsIGJldGEgaGlkZGVuLgoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlRhc2tWaWV3e30pLldoZXJlKCJpZCA9ID8iLCBhbHBoYS5JRCkuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9eyJzb3J0X29yZGVyIjogMn0pCglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuVGFza1ZpZXd7fSkuV2hlcmUoImlkID0gPyIsIGJldGEuSUQpLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsic29ydF9vcmRlciI6IDAsICJoaWRkZW4iOiB0cnVlfSkKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNrVmlld3t9KS5XaGVyZSgiaWQgPSA/IiwgZ2FtbWEuSUQpLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsic29ydF9vcmRlciI6IDF9KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2RHZXQsICIvYXBpL3YxL3Rhc2tzL3ZpZXdzIiwgbmlsKQoJcmVxLkhlYWRlci5TZXQoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICIrdG9rZW4pCglyZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChyZWMsIHJlcSkKCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigibGlzdCB2aWV3cyBzdGF0dXM6ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXZhciByYXcgW11pbnRlcmZhY2V7fQoJaWYgZXJyIDo9IGpzb24uVW5tYXJzaGFsKHJlYy5Cb2R5LkJ5dGVzKCksICZyYXcpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZGVjb2RlIGxpc3QgcmVzcG9uc2U6ICV2IChib2R5PSVzKSIsIGVyciwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CglpZiBsZW4ocmF3KSAhPSAzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMyB2aWV3cyBpbmNsdWRpbmcgaGlkZGVuLCBnb3QgJWQiLCBsZW4ocmF3KSkKCX0KCgluYW1lcyA6PSBtYWtlKFtdc3RyaW5nLCBsZW4ocmF3KSkKCWhpZGRlbkZvciA6PSBtYWtlKG1hcFtzdHJpbmddYm9vbCkKCWZvciBpLCBpdGVtIDo9IHJhbmdlIHJhdyB7CgkJZW50cnksIF8gOj0gaXRlbS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCQluYW1lc1tpXSwgXyA9IGVudHJ5WyJuYW1lIl0uKHN0cmluZykKCQloaWRkZW5Gb3JbbmFtZXNbaV1dLCBfID0gZW50cnlbImhpZGRlbiJdLihib29sKQoJfQoKCXdhbnRPcmRlciA6PSBbXXN0cmluZ3siYmV0YSIsICJnYW1tYSIsICJhbHBoYSJ9Cglmb3IgaSwgd2FudCA6PSByYW5nZSB3YW50T3JkZXIgewoJCWlmIG5hbWVzW2ldICE9IHdhbnQgewoJCQl0LkZhdGFsZigib3JkZXIgbWlzbWF0Y2ggYXQgcG9zaXRpb24gJWQ6IHdhbnQgJXEsIGdvdCAlcSAobmFtZXM9JXYpIiwgaSwgd2FudCwgbmFtZXNbaV0sIG5hbWVzKQoJCX0KCX0KCWlmICFoaWRkZW5Gb3JbImJldGEiXSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGJldGEgdG8gYmUgaGlkZGVuLCBnb3QgbWFwPSV2IiwgaGlkZGVuRm9yKQoJfQoJaWYgaGlkZGVuRm9yWyJhbHBoYSJdIHx8IGhpZGRlbkZvclsiZ2FtbWEiXSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGFscGhhL2dhbW1hIHZpc2libGUsIGdvdCBtYXA9JXYiLCBoaWRkZW5Gb3IpCgl9Cn0KCmZ1bmMgVGVzdFJlb3JkZXJWaWV3c1VwZGF0ZXNPcmRlckFuZEhpZGRlbkZsYWcodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidmlldy1hZG1pbiIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgYWRtaW4uVXNlcm5hbWUsIGFkbWluLlJvbGUpCgoJYWxwaGEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImFscGhhIikKCWJldGEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImJldGEiKQoJZ2FtbWEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImdhbW1hIikKCglib2R5IDo9IGZtdC5TcHJpbnRmKGB7CgkJInZpZXdzIjogWwoJCQl7ImlkIjogJWQsICJzb3J0X29yZGVyIjogMTAsICJoaWRkZW4iOiBmYWxzZX0sCgkJCXsiaWQiOiAlZCwgInNvcnRfb3JkZXIiOiAyMCwgImhpZGRlbiI6IHRydWV9LAoJCQl7ImlkIjogJWQsICJzb3J0X29yZGVyIjogNSwgImhpZGRlbiI6IGZhbHNlfQoJCV0KCX1gLCBhbHBoYS5JRCwgYmV0YS5JRCwgZ2FtbWEuSUQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZFB1dCwgIi9hcGkvdjEvdGFza3Mvdmlld3MvcmVvcmRlciIsIGJ5dGVzLk5ld0J1ZmZlclN0cmluZyhib2R5KSkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVxLkhlYWRlci5TZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJyZW9yZGVyIHN0YXR1czogJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJbG9hZFZpZXcgOj0gZnVuYyhpZCB1aW50KSBtb2RlbC5UYXNrVmlldyB7CgkJdC5IZWxwZXIoKQoJCXZhciBvdXQgbW9kZWwuVGFza1ZpZXcKCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoImlkID0gPyIsIGlkKS5GaXJzdCgmb3V0KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJsb2FkIHZpZXcgJWQ6ICV2IiwgaWQsIGVycikKCQl9CgkJcmV0dXJuIG91dAoJfQoKCWFscGhhU3RvcmVkIDo9IGxvYWRWaWV3KGFscGhhLklEKQoJaWYgYWxwaGFTdG9yZWQuU29ydE9yZGVyICE9IDEwIHsKCQl0LkZhdGFsZigiYWxwaGEgc29ydF9vcmRlcjogd2FudCAxMCwgZ290ICVkIiwgYWxwaGFTdG9yZWQuU29ydE9yZGVyKQoJfQoJaWYgYWxwaGFTdG9yZWQuSGlkZGVuIHsKCQl0LkZhdGFsZigiYWxwaGEgc2hvdWxkIHJlbWFpbiB2aXNpYmxlIikKCX0KCgliZXRhU3RvcmVkIDo9IGxvYWRWaWV3KGJldGEuSUQpCglpZiAhYmV0YVN0b3JlZC5IaWRkZW4gewoJCXQuRmF0YWxmKCJiZXRhIHNob3VsZCBiZSBoaWRkZW4sIGdvdCB2aXNpYmxlIChib2R5PSVzKSIsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgYmV0YVN0b3JlZC5Tb3J0T3JkZXIgIT0gMjAgewoJCXQuRmF0YWxmKCJiZXRhIHNvcnRfb3JkZXI6IHdhbnQgMjAsIGdvdCAlZCIsIGJldGFTdG9yZWQuU29ydE9yZGVyKQoJfQoKCWdhbW1hU3RvcmVkIDo9IGxvYWRWaWV3KGdhbW1hLklEKQoJaWYgZ2FtbWFTdG9yZWQuU29ydE9yZGVyICE9IDUgewoJCXQuRmF0YWxmKCJnYW1tYSBzb3J0X29yZGVyOiB3YW50IDUsIGdvdCAlZCIsIGdhbW1hU3RvcmVkLlNvcnRPcmRlcikKCX0KCgkvLyBSZXNwb25zZSBlY2hvZXMgdGhlIG5ldyBvcmRlcmluZzsgdG9wLWxldmVsIGlzIG5vdCB3cmFwcGVkIGluIHtkYXRhOn0uCgl2YXIgcGF5bG9hZCBtYXBbc3RyaW5nXWludGVyZmFjZXt9CglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwocmVjLkJvZHkuQnl0ZXMoKSwgJnBheWxvYWQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZGVjb2RlIHJlc3BvbnNlOiAldiAoYm9keT0lcykiLCBlcnIsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJcmVzcFZpZXdzLCBfIDo9IHBheWxvYWRbInZpZXdzIl0uKFtdaW50ZXJmYWNle30pCglpZiBsZW4ocmVzcFZpZXdzKSAhPSAzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMyB2aWV3cyBpbiByZXNwb25zZSwgZ290ICVkIChib2R5PSVzKSIsIGxlbihyZXNwVmlld3MpLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCWZpcnN0LCBfIDo9IHJlc3BWaWV3c1swXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmIG5hbWUsIF8gOj0gZmlyc3RbIm5hbWUiXS4oc3RyaW5nKTsgbmFtZSAhPSAiZ2FtbWEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZ2FtbWEgZmlyc3QgYWZ0ZXIgcmVvcmRlciwgZ290ICVxIiwgbmFtZSkKCX0KfQoKZnVuYyBUZXN0UmVvcmRlclZpZXdzTGVhdmVzT21pdHRlZFJvd3NVbnRvdWNoZWQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidmlldy1hZG1pbiIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgYWRtaW4uVXNlcm5hbWUsIGFkbWluLlJvbGUpCgoJYWxwaGEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImFscGhhIikKCWJldGEgOj0gY3JlYXRlVGFza1ZpZXcodCwgImJldGEiKQoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlRhc2tWaWV3e30pLldoZXJlKCJpZCA9ID8iLCBiZXRhLklEKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317InNvcnRfb3JkZXIiOiA5OSwgImhpZGRlbiI6IHRydWV9KQoKCWJvZHkgOj0gZm10LlNwcmludGYoYHsidmlld3MiOiBbeyJpZCI6ICVkLCAic29ydF9vcmRlciI6IDN9XX1gLCBhbHBoYS5JRCkKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2RQdXQsICIvYXBpL3YxL3Rhc2tzL3ZpZXdzL3Jlb3JkZXIiLCBieXRlcy5OZXdCdWZmZXJTdHJpbmcoYm9keSkpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlcS5IZWFkZXIuU2V0KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCglyZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChyZWMsIHJlcSkKCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigicmVvcmRlciBzdGF0dXM6ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXZhciBzdG9yZWQgbW9kZWwuVGFza1ZpZXcKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmc3RvcmVkLCBiZXRhLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImxvYWQgYmV0YTogJXYiLCBlcnIpCgl9CglpZiBzdG9yZWQuU29ydE9yZGVyICE9IDk5IHx8ICFzdG9yZWQuSGlkZGVuIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYmV0YSB1bnRvdWNoZWQsIGdvdCBzb3J0PSVkIGhpZGRlbj0ldiIsIHN0b3JlZC5Tb3J0T3JkZXIsIHN0b3JlZC5IaWRkZW4pCgl9Cn0KCmZ1bmMgVGVzdFVwZGF0ZVZpZXdBY2NlcHRzUG9pbnRlckZpZWxkcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWFkbWluIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ2aWV3LWFkbWluIiwgImFkbWluIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBhZG1pbi5Vc2VybmFtZSwgYWRtaW4uUm9sZSkKCgl2aWV3IDo9IGNyZWF0ZVRhc2tWaWV3KHQsICJhbHBoYSIpCgoJLy8gVG9nZ2xlIGhpZGRlbiB3aXRob3V0IHRvdWNoaW5nIG90aGVyIGZpZWxkcy4KCWJvZHkgOj0gYHsiaGlkZGVuIjogdHJ1ZSwgInNvcnRfb3JkZXIiOiA0Mn1gCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUHV0LCBmbXQuU3ByaW50ZigiL2FwaS92MS90YXNrcy92aWV3cy8lZCIsIHZpZXcuSUQpLCBieXRlcy5OZXdCdWZmZXJTdHJpbmcoYm9keSkpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlcS5IZWFkZXIuU2V0KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCglyZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChyZWMsIHJlcSkKCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigidXBkYXRlIHN0YXR1czogJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIHN0b3JlZCBtb2RlbC5UYXNrVmlldwoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdG9yZWQsIHZpZXcuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibG9hZCBzdG9yZWQ6ICV2IiwgZXJyKQoJfQoJaWYgIXN0b3JlZC5IaWRkZW4gfHwgc3RvcmVkLlNvcnRPcmRlciAhPSA0MiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGhpZGRlbj10cnVlIHNvcnRfb3JkZXI9NDIsIGdvdCBoaWRkZW49JXYgc29ydF9vcmRlcj0lZCIsIHN0b3JlZC5IaWRkZW4sIHN0b3JlZC5Tb3J0T3JkZXIpCgl9CglpZiBzdG9yZWQuTmFtZSAhPSAiYWxwaGEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbmFtZSB1bmNoYW5nZWQsIGdvdCAlcSIsIHN0b3JlZC5OYW1lKQoJfQoKCS8vIFJhdyBib2R5IHdpdGggYW4gZW1wdHkgZmlsdGVycyBzdHJpbmcgbXVzdCBub3Qgb3ZlcndyaXRlIGV4aXN0aW5nIEpTT04uCglib2R5ID0gYHsiZmlsdGVycyI6ICIifWAKCXJlcSA9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2RQdXQsIGZtdC5TcHJpbnRmKCIvYXBpL3YxL3Rhc2tzL3ZpZXdzLyVkIiwgdmlldy5JRCksIGJ5dGVzLk5ld0J1ZmZlclN0cmluZyhib2R5KSkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVxLkhlYWRlci5TZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKCXJlYyA9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAocmVjLCByZXEpCgoJXyA9IGpzb24uVW5tYXJzaGFsKHJlYy5Cb2R5LkJ5dGVzKCksICZtYXBbc3RyaW5nXWludGVyZmFjZXt9e30pCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnN0b3JlZCwgdmlldy5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgc3RvcmVkOiAldiIsIGVycikKCX0KCWlmIHN0b3JlZC5GaWx0ZXJzID09ICIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmlsdGVycyBwcmVzZXJ2ZWQgd2hlbiBib2R5IHNldHMgZW1wdHkgc3RyaW5nLCBnb3QgZW1wdHkiKQoJfQp9Cg==
+package handler_test
+
+import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"net/http"
+	"net/http/httptest"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func createTaskView(t *testing.T, name string) model.TaskView {
+	t.Helper()
+	view := model.TaskView{
+		Name:      name,
+		Filters:   `[{"field":"name","operator":"contains","value":"` + name + `"}]`,
+		SortRules: `[]`,
+	}
+	if err := database.DB.Create(&view).Error; err != nil {
+		t.Fatalf("seed task view %q: %v", name, err)
+	}
+	return view
+}
+
+func TestListViewsHonorsSortOrderAndReturnsHidden(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "view-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	alpha := createTaskView(t, "alpha")
+	beta := createTaskView(t, "beta")
+	gamma := createTaskView(t, "gamma")
+
+	// alpha → 2, beta → 0 (tie-break by id), gamma → 1, beta hidden.
+	database.DB.Model(&model.TaskView{}).Where("id = ?", alpha.ID).Updates(map[string]interface{}{"sort_order": 2})
+	database.DB.Model(&model.TaskView{}).Where("id = ?", beta.ID).Updates(map[string]interface{}{"sort_order": 0, "hidden": true})
+	database.DB.Model(&model.TaskView{}).Where("id = ?", gamma.ID).Updates(map[string]interface{}{"sort_order": 1})
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodGet, "/api/v1/tasks/views", nil)
+	req.Header.Set("Authorization", "Bearer "+token)
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("list views status: %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	var raw []interface{}
+	if err := json.Unmarshal(rec.Body.Bytes(), &raw); err != nil {
+		t.Fatalf("decode list response: %v (body=%s)", err, rec.Body.String())
+	}
+	if len(raw) != 3 {
+		t.Fatalf("expected 3 views including hidden, got %d", len(raw))
+	}
+
+	names := make([]string, len(raw))
+	hiddenFor := make(map[string]bool)
+	for i, item := range raw {
+		entry, _ := item.(map[string]interface{})
+		names[i], _ = entry["name"].(string)
+		hiddenFor[names[i]], _ = entry["hidden"].(bool)
+	}
+
+	wantOrder := []string{"beta", "gamma", "alpha"}
+	for i, want := range wantOrder {
+		if names[i] != want {
+			t.Fatalf("order mismatch at position %d: want %q, got %q (names=%v)", i, want, names[i], names)
+		}
+	}
+	if !hiddenFor["beta"] {
+		t.Fatalf("expected beta to be hidden, got map=%v", hiddenFor)
+	}
+	if hiddenFor["alpha"] || hiddenFor["gamma"] {
+		t.Fatalf("expected alpha/gamma visible, got map=%v", hiddenFor)
+	}
+}
+
+func TestReorderViewsUpdatesOrderAndHiddenFlag(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "view-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	alpha := createTaskView(t, "alpha")
+	beta := createTaskView(t, "beta")
+	gamma := createTaskView(t, "gamma")
+
+	body := fmt.Sprintf(`{
+		"views": [
+			{"id": %d, "sort_order": 10, "hidden": false},
+			{"id": %d, "sort_order": 20, "hidden": true},
+			{"id": %d, "sort_order": 5, "hidden": false}
+		]
+	}`, alpha.ID, beta.ID, gamma.ID)
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodPut, "/api/v1/tasks/views/reorder", bytes.NewBufferString(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("reorder status: %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	loadView := func(id uint) model.TaskView {
+		t.Helper()
+		var out model.TaskView
+		if err := database.DB.Where("id = ?", id).First(&out).Error; err != nil {
+			t.Fatalf("load view %d: %v", id, err)
+		}
+		return out
+	}
+
+	alphaStored := loadView(alpha.ID)
+	if alphaStored.SortOrder != 10 {
+		t.Fatalf("alpha sort_order: want 10, got %d", alphaStored.SortOrder)
+	}
+	if alphaStored.Hidden {
+		t.Fatalf("alpha should remain visible")
+	}
+
+	betaStored := loadView(beta.ID)
+	if !betaStored.Hidden {
+		t.Fatalf("beta should be hidden, got visible (body=%s)", rec.Body.String())
+	}
+	if betaStored.SortOrder != 20 {
+		t.Fatalf("beta sort_order: want 20, got %d", betaStored.SortOrder)
+	}
+
+	gammaStored := loadView(gamma.ID)
+	if gammaStored.SortOrder != 5 {
+		t.Fatalf("gamma sort_order: want 5, got %d", gammaStored.SortOrder)
+	}
+
+	// Response echoes the new ordering; top-level is not wrapped in {data:}.
+	var payload map[string]interface{}
+	if err := json.Unmarshal(rec.Body.Bytes(), &payload); err != nil {
+		t.Fatalf("decode response: %v (body=%s)", err, rec.Body.String())
+	}
+	respViews, _ := payload["views"].([]interface{})
+	if len(respViews) != 3 {
+		t.Fatalf("expected 3 views in response, got %d (body=%s)", len(respViews), rec.Body.String())
+	}
+	first, _ := respViews[0].(map[string]interface{})
+	if name, _ := first["name"].(string); name != "gamma" {
+		t.Fatalf("expected gamma first after reorder, got %q", name)
+	}
+}
+
+func TestReorderViewsLeavesOmittedRowsUntouched(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "view-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	alpha := createTaskView(t, "alpha")
+	beta := createTaskView(t, "beta")
+	database.DB.Model(&model.TaskView{}).Where("id = ?", beta.ID).Updates(map[string]interface{}{"sort_order": 99, "hidden": true})
+
+	body := fmt.Sprintf(`{"views": [{"id": %d, "sort_order": 3}]}`, alpha.ID)
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodPut, "/api/v1/tasks/views/reorder", bytes.NewBufferString(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("reorder status: %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	var stored model.TaskView
+	if err := database.DB.First(&stored, beta.ID).Error; err != nil {
+		t.Fatalf("load beta: %v", err)
+	}
+	if stored.SortOrder != 99 || !stored.Hidden {
+		t.Fatalf("expected beta untouched, got sort=%d hidden=%v", stored.SortOrder, stored.Hidden)
+	}
+}
+
+func TestUpdateViewAcceptsPointerFields(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "view-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	view := createTaskView(t, "alpha")
+
+	// Toggle hidden without touching other fields.
+	body := `{"hidden": true, "sort_order": 42}`
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodPut, fmt.Sprintf("/api/v1/tasks/views/%d", view.ID), bytes.NewBufferString(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("update status: %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	var stored model.TaskView
+	if err := database.DB.First(&stored, view.ID).Error; err != nil {
+		t.Fatalf("load stored: %v", err)
+	}
+	if !stored.Hidden || stored.SortOrder != 42 {
+		t.Fatalf("expected hidden=true sort_order=42, got hidden=%v sort_order=%d", stored.Hidden, stored.SortOrder)
+	}
+	if stored.Name != "alpha" {
+		t.Fatalf("expected name unchanged, got %q", stored.Name)
+	}
+
+	// Raw body with an empty filters string must not overwrite existing JSON.
+	body = `{"filters": ""}`
+	req = httptest.NewRequest(http.MethodPut, fmt.Sprintf("/api/v1/tasks/views/%d", view.ID), bytes.NewBufferString(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec = httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	_ = json.Unmarshal(rec.Body.Bytes(), &map[string]interface{}{})
+	if err := database.DB.First(&stored, view.ID).Error; err != nil {
+		t.Fatalf("reload stored: %v", err)
+	}
+	if stored.Filters == "" {
+		t.Fatalf("expected filters preserved when body sets empty string, got empty")
+	}
+}

@@ -1,1 +1,131 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0TG9hZENvbmZpZ1NoZWxsVmFyc1N1cHBvcnRzTXVsdGlsaW5lUXVvdGVkVmFsdWVzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJY29udGVudCA6PSBzdHJpbmdzLkpvaW4oW11zdHJpbmd7CgkJIiMgY29uZmlnLnNoIOaUr+aMgeWNleW8leWPt+WSjOWPjOW8leWPt+i3qOihjOWAvCIsCgkJImV4cG9ydCBjc0NrPScxMTEiLAoJCSIyMjIiLAoJCSIzMzMiLAoJCSI0NDQnIiwKCQkiZXhwb3J0IERPVUJMRT1cImZpcnN0PTEiLAoJCSJzZWNvbmQjMlwiIiwKCQkiUExBSU49cGxhaW4tdmFsdWUiLAoJCSJleHBvcnQgRU1QVFk9JyciLAoJCSJMRUdBQ1kuS0VZPWxlZ2FjeS12YWx1ZSIsCgl9LCAiXG4iKQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiY29uZmlnLnNoIiksIFtdYnl0ZShjb250ZW50KSwgMG82MDApOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgY29uZmlnLnNoOiAldiIsIGVycikKCX0KCgllbnZNYXAgOj0gbWFwW3N0cmluZ11zdHJpbmd7fQoJbG9hZENvbmZpZ1NoZWxsVmFycyhlbnZNYXApCgoJd2FudCA6PSBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiY3NDayI6ICAgICAgICIxMTFcbjIyMlxuMzMzXG40NDQiLAoJCSJET1VCTEUiOiAgICAgImZpcnN0PTFcbnNlY29uZCMyIiwKCQkiUExBSU4iOiAgICAgICJwbGFpbi12YWx1ZSIsCgkJIkVNUFRZIjogICAgICAiIiwKCQkiTEVHQUNZLktFWSI6ICJsZWdhY3ktdmFsdWUiLAoJfQoJZm9yIGtleSwgZXhwZWN0ZWQgOj0gcmFuZ2Ugd2FudCB7CgkJaWYgZ290IDo9IGVudk1hcFtrZXldOyBnb3QgIT0gZXhwZWN0ZWQgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgJXM9JXEsIGdvdCAlcSIsIGtleSwgZXhwZWN0ZWQsIGdvdCkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdExvYWRDb25maWdTaGVsbFZhcnNJZ25vcmVzQnJva2VuTXVsdGlsaW5lQW5kS2VlcHNGb2xsb3dpbmdFeHBvcnQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgljb250ZW50IDo9ICJleHBvcnQgQlJPS0VOPSdsaW5lLW9uZVxubGluZS10d29cbmV4cG9ydCBWQUxJRD0nc3RpbGwtbG9hZGVkJ1xuIgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiY29uZmlnLnNoIiksIFtdYnl0ZShjb250ZW50KSwgMG82MDApOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgY29uZmlnLnNoOiAldiIsIGVycikKCX0KCgllbnZNYXAgOj0gbWFwW3N0cmluZ11zdHJpbmd7fQoJbG9hZENvbmZpZ1NoZWxsVmFycyhlbnZNYXApCgoJaWYgXywgZXhpc3RzIDo9IGVudk1hcFsiQlJPS0VOIl07IGV4aXN0cyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVuY2xvc2VkIEJST0tFTiB2YWx1ZSB0byBiZSBpZ25vcmVkLCBnb3QgJXEiLCBlbnZNYXBbIkJST0tFTiJdKQoJfQoJaWYgZ290IDo9IGVudk1hcFsiVkFMSUQiXTsgZ290ICE9ICJzdGlsbC1sb2FkZWQiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZm9sbG93aW5nIFZBTElEIGV4cG9ydCB0byBsb2FkLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkTWFuYWdlZFJ1bnRpbWVFbnZNYXBLZWVwc0RhdGFiYXNlRW52UHJpb3JpdHlPdmVyQ29uZmlnRmlsZSh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZSgKCQlmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiY29uZmlnLnNoIiksCgkJW11ieXRlKCJleHBvcnQgU0FNRV9OQU1FPSdjb25maWctdmFsdWUnXG4iKSwKCQkwbzYwMCwKCSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBjb25maWcuc2g6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmbW9kZWwuRW52VmFyewoJCU5hbWU6ICAgICJTQU1FX05BTUUiLAoJCVZhbHVlOiAgICJkYXRhYmFzZS12YWx1ZSIsCgkJRW5hYmxlZDogdHJ1ZSwKCX0pLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIGVudiB2YXI6ICV2IiwgZXJyKQoJfQoKCWVudk1hcCwgZXJyIDo9IEJ1aWxkTWFuYWdlZFJ1bnRpbWVFbnZNYXBGb3JQeXRob25WZXJzaW9uKHJvb3QsIHJvb3QsIG5pbCwgdGltZS5Ib3VyLCAiMy4xMCIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiYnVpbGQgbWFuYWdlZCBydW50aW1lIGVudiBtYXA6ICV2IiwgZXJyKQoJfQoJaWYgZ290IDo9IGVudk1hcFsiU0FNRV9OQU1FIl07IGdvdCAhPSAiZGF0YWJhc2UtdmFsdWUiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGF0YWJhc2UgZW52IHRvIGtlZXAgcHJpb3JpdHksIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0Q29uZmlnU2hlbGxNdWx0aWxpbmVWYWx1ZVJlYWNoZXNOb2RlUHJvY2Vzc0Vudih0ICp0ZXN0aW5nLlQpIHsKCW5vZGVCaW4sIGVyciA6PSBleGVjLkxvb2tQYXRoKCJub2RlIikKCWlmIGVyciAhPSBuaWwgewoJCXQuU2tpcCgibm9kZSBub3QgZm91bmQiKQoJfQoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJY29udGVudCA6PSAiZXhwb3J0IGNzQ2s9JzExMVxuMjIyXG4zMzNcbjQ0NCdcbiIKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLkRpciwgImNvbmZpZy5zaCIpLCBbXWJ5dGUoY29udGVudCksIDBvNjAwKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGNvbmZpZy5zaDogJXYiLCBlcnIpCgl9CgllbnZNYXAgOj0gbWFwW3N0cmluZ11zdHJpbmd7fQoJbG9hZENvbmZpZ1NoZWxsVmFycyhlbnZNYXApCgoJdGVtcERpciwgZW52RmlsZSwgY2xlYW51cCwgZXJyIDo9IHdyaXRlTWFuYWdlZFJ1bnRpbWVFbnZGaWxlKGVudk1hcCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBydW50aW1lIGVudiBmaWxlOiAldiIsIGVycikKCX0KCWRlZmVyIGNsZWFudXAoKQoJcHJlbG9hZEZpbGUsIGVyciA6PSB3cml0ZU5vZGVQcmVsb2FkU2NyaXB0KHRlbXBEaXIsIGVudkZpbGUsIGVudk1hcCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBub2RlIHByZWxvYWQ6ICV2IiwgZXJyKQoJfQoKCWNtZCA6PSBleGVjLkNvbW1hbmQobm9kZUJpbiwgIi0tcmVxdWlyZSIsIHByZWxvYWRGaWxlLCAiLWUiLCAicHJvY2Vzcy5zdGRvdXQud3JpdGUocHJvY2Vzcy5lbnYuY3NDayB8fCAnJykiKQoJb3V0LCBlcnIgOj0gY21kLkNvbWJpbmVkT3V0cHV0KCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJub2RlIHByb2Nlc3MgZmFpbGVkOiAldiwgb3V0cHV0PSVzIiwgZXJyLCBzdHJpbmcob3V0KSkKCX0KCWlmIGdvdCA6PSBzdHJpbmcob3V0KTsgZ290ICE9ICIxMTFcbjIyMlxuMzMzXG40NDQiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm9kZSBwcm9jZXNzLmVudiB0byBrZWVwIGZvdXIgbGluZXMsIGdvdCAlcSIsIGdvdCkKCX0KfQo=
+package service
+
+import (
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestLoadConfigShellVarsSupportsMultilineQuotedValues(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	content := strings.Join([]string{
+		"# config.sh 支持单引号和双引号跨行值",
+		"export csCk='111",
+		"222",
+		"333",
+		"444'",
+		"export DOUBLE=\"first=1",
+		"second#2\"",
+		"PLAIN=plain-value",
+		"export EMPTY=''",
+		"LEGACY.KEY=legacy-value",
+	}, "\n")
+	if err := os.WriteFile(filepath.Join(config.C.Data.Dir, "config.sh"), []byte(content), 0o600); err != nil {
+		t.Fatalf("write config.sh: %v", err)
+	}
+
+	envMap := map[string]string{}
+	loadConfigShellVars(envMap)
+
+	want := map[string]string{
+		"csCk":       "111\n222\n333\n444",
+		"DOUBLE":     "first=1\nsecond#2",
+		"PLAIN":      "plain-value",
+		"EMPTY":      "",
+		"LEGACY.KEY": "legacy-value",
+	}
+	for key, expected := range want {
+		if got := envMap[key]; got != expected {
+			t.Fatalf("expected %s=%q, got %q", key, expected, got)
+		}
+	}
+}
+
+func TestLoadConfigShellVarsIgnoresBrokenMultilineAndKeepsFollowingExport(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	content := "export BROKEN='line-one\nline-two\nexport VALID='still-loaded'\n"
+	if err := os.WriteFile(filepath.Join(config.C.Data.Dir, "config.sh"), []byte(content), 0o600); err != nil {
+		t.Fatalf("write config.sh: %v", err)
+	}
+
+	envMap := map[string]string{}
+	loadConfigShellVars(envMap)
+
+	if _, exists := envMap["BROKEN"]; exists {
+		t.Fatalf("expected unclosed BROKEN value to be ignored, got %q", envMap["BROKEN"])
+	}
+	if got := envMap["VALID"]; got != "still-loaded" {
+		t.Fatalf("expected following VALID export to load, got %q", got)
+	}
+}
+
+func TestBuildManagedRuntimeEnvMapKeepsDatabaseEnvPriorityOverConfigFile(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	if err := os.WriteFile(
+		filepath.Join(config.C.Data.Dir, "config.sh"),
+		[]byte("export SAME_NAME='config-value'\n"),
+		0o600,
+	); err != nil {
+		t.Fatalf("write config.sh: %v", err)
+	}
+	if err := database.DB.Create(&model.EnvVar{
+		Name:    "SAME_NAME",
+		Value:   "database-value",
+		Enabled: true,
+	}).Error; err != nil {
+		t.Fatalf("create env var: %v", err)
+	}
+
+	envMap, err := BuildManagedRuntimeEnvMapForPythonVersion(root, root, nil, time.Hour, "3.10")
+	if err != nil {
+		t.Fatalf("build managed runtime env map: %v", err)
+	}
+	if got := envMap["SAME_NAME"]; got != "database-value" {
+		t.Fatalf("expected database env to keep priority, got %q", got)
+	}
+}
+
+func TestConfigShellMultilineValueReachesNodeProcessEnv(t *testing.T) {
+	nodeBin, err := exec.LookPath("node")
+	if err != nil {
+		t.Skip("node not found")
+	}
+	testutil.SetupTestEnv(t)
+
+	content := "export csCk='111\n222\n333\n444'\n"
+	if err := os.WriteFile(filepath.Join(config.C.Data.Dir, "config.sh"), []byte(content), 0o600); err != nil {
+		t.Fatalf("write config.sh: %v", err)
+	}
+	envMap := map[string]string{}
+	loadConfigShellVars(envMap)
+
+	tempDir, envFile, cleanup, err := writeManagedRuntimeEnvFile(envMap)
+	if err != nil {
+		t.Fatalf("write runtime env file: %v", err)
+	}
+	defer cleanup()
+	preloadFile, err := writeNodePreloadScript(tempDir, envFile, envMap)
+	if err != nil {
+		t.Fatalf("write node preload: %v", err)
+	}
+
+	cmd := exec.Command(nodeBin, "--require", preloadFile, "-e", "process.stdout.write(process.env.csCk || '')")
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		t.Fatalf("node process failed: %v, output=%s", err, string(out))
+	}
+	if got := string(out); got != "111\n222\n333\n444" {
+		t.Fatalf("expected node process.env to keep four lines, got %q", got)
+	}
+}

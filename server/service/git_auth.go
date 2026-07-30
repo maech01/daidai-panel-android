@@ -1,1 +1,118 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJuZXQvdXJsIgoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCikKCnR5cGUgZ2l0QXV0aENvbmZpZyBzdHJ1Y3QgewoJRW52ICAgICAgICAgW11zdHJpbmcKCVJlbW90ZVVSTCAgIHN0cmluZwoJRGlzcGxheVVSTCAgc3RyaW5nCglDbGVhbnVwRnVuYyBmdW5jKCkKfQoKZnVuYyBidWlsZEdpdEF1dGhDb25maWcoYmFzZUVudiBbXXN0cmluZywgcmVtb3RlVVJMIHN0cmluZywgc3ViICptb2RlbC5TdWJzY3JpcHRpb24sIHNzaEtleVBhdGggc3RyaW5nKSAoZ2l0QXV0aENvbmZpZywgZXJyb3IpIHsKCWVudiA6PSBBcHBlbmRQcm94eUVudihiYXNlRW52KQoJY2xlYW51cCA6PSBmdW5jKCkge30KCXJlbW90ZVVSTCA9IHN0cmluZ3MuVHJpbVNwYWNlKHJlbW90ZVVSTCkKCWRpc3BsYXlVUkwgOj0gcmVtb3RlVVJMCglhdXRoVHlwZSA6PSAiIgoJaWYgc3ViICE9IG5pbCB7CgkJYXV0aFR5cGUgPSBzdWIuRWZmZWN0aXZlQXV0aFR5cGUoKQoJfQoKCXN3aXRjaCBhdXRoVHlwZSB7CgljYXNlIG1vZGVsLlN1YkF1dGhUeXBlU1NIOgoJCXNzaEtleVBhdGggPSBzdHJpbmdzLlRyaW1TcGFjZShzc2hLZXlQYXRoKQoJCWlmIHNzaEtleVBhdGggPT0gIiIgewoJCQlyZXR1cm4gZ2l0QXV0aENvbmZpZ3t9LCBmbXQuRXJyb3JmKCLlt7LphY3nva4gU1NIIOmJtOadg++8jOS9huacquaJvuWIsOWPr+eUqCBTU0gg5a+G6ZKlIikKCQl9CgoJCWtub3duSG9zdHNQYXRoLCBlcnIgOj0gZW5zdXJlR2l0S25vd25Ib3N0c0ZpbGUoKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZ2l0QXV0aENvbmZpZ3t9LCBlcnIKCQl9CgkJZW52ID0gYXBwZW5kKGVudiwgIkdJVF9TU0hfQ09NTUFORD0iK2J1aWxkR2l0U1NIQ29tbWFuZChzc2hLZXlQYXRoLCBrbm93bkhvc3RzUGF0aCkpCgljYXNlIG1vZGVsLlN1YkF1dGhUeXBlVG9rZW46CgkJaWYgc3ViID09IG5pbCB8fCBzdHJpbmdzLlRyaW1TcGFjZShzdWIuQXV0aFRva2VuKSA9PSAiIiB7CgkJCXJldHVybiBnaXRBdXRoQ29uZmlne30sIGZtdC5FcnJvcmYoIuW3sumFjee9riBUb2tlbiDpibTmnYPvvIzkvYborr/pl67ku6TniYzkuLrnqboiKQoJCX0KCQlpZiAhaXNIVFRQR2l0UmVtb3RlVVJMKHJlbW90ZVVSTCkgewoJCQlyZXR1cm4gZ2l0QXV0aENvbmZpZ3t9LCBmbXQuRXJyb3JmKCJUb2tlbiDpibTmnYPku4XmlK/mjIEgSFRUUC9IVFRQUyDku5PlupPlnLDlnYDvvIzor7fmlLnnlKggSFRUUFMg5Zyw5Z2AIikKCQl9CgkJZW1iZWRkZWQsIGVyciA6PSBpbmplY3RHaXRUb2tlbkludG9VUkwocmVtb3RlVVJMLCBzdWIuQXV0aFVzZXJuYW1lLCBzdWIuQXV0aFRva2VuKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZ2l0QXV0aENvbmZpZ3t9LCBlcnIKCQl9CgkJcmVtb3RlVVJMID0gZW1iZWRkZWQKCX0KCglyZXR1cm4gZ2l0QXV0aENvbmZpZ3sKCQlFbnY6ICAgICAgICAgZW52LAoJCVJlbW90ZVVSTDogICByZW1vdGVVUkwsCgkJRGlzcGxheVVSTDogIGRpc3BsYXlVUkwsCgkJQ2xlYW51cEZ1bmM6IGNsZWFudXAsCgl9LCBuaWwKfQoKZnVuYyBlbnN1cmVHaXRLbm93bkhvc3RzRmlsZSgpIChzdHJpbmcsIGVycm9yKSB7CglpZiBjb25maWcuQyA9PSBuaWwgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi6YWN572u5pyq5Yid5aeL5YyWIikKCX0KCglzc2hEaXIgOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLkRpciwgInNzaCIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoc3NoRGlyLCAwbzcwMCk7IGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi5Yib5bu6IFNTSCDphY3nva7nm67lvZXlpLHotKU6ICV3IiwgZXJyKQoJfQoKCWtub3duSG9zdHNQYXRoIDo9IGZpbGVwYXRoLkpvaW4oc3NoRGlyLCAia25vd25faG9zdHMiKQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoa25vd25Ib3N0c1BhdGgpOyBvcy5Jc05vdEV4aXN0KGVycikgewoJCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoa25vd25Ib3N0c1BhdGgsIFtdYnl0ZXt9LCAwbzYwMCk7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuWIm+W7uiBrbm93bl9ob3N0cyDlpLHotKU6ICV3IiwgZXJyKQoJCX0KCX0gZWxzZSBpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuivu+WPliBrbm93bl9ob3N0cyDlpLHotKU6ICV3IiwgZXJyKQoJfQoKCXJldHVybiBrbm93bkhvc3RzUGF0aCwgbmlsCn0KCmZ1bmMgYnVpbGRHaXRTU0hDb21tYW5kKHNzaEtleVBhdGgsIGtub3duSG9zdHNQYXRoIHN0cmluZykgc3RyaW5nIHsKCXJldHVybiBmbXQuU3ByaW50ZigKCQkic3NoIC1pICVzIC1vIElkZW50aXRpZXNPbmx5PXllcyAtbyBTdHJpY3RIb3N0S2V5Q2hlY2tpbmc9YWNjZXB0LW5ldyAtbyBVc2VyS25vd25Ib3N0c0ZpbGU9JXMiLAoJCXNoZWxsRXNjYXBlU1NIQXJnKHNzaEtleVBhdGgpLAoJCXNoZWxsRXNjYXBlU1NIQXJnKGtub3duSG9zdHNQYXRoKSwKCSkKfQoKZnVuYyBzaGVsbEVzY2FwZVNTSEFyZyh2YWx1ZSBzdHJpbmcpIHN0cmluZyB7CglyZXR1cm4gIiciICsgc3RyaW5ncy5SZXBsYWNlQWxsKHZhbHVlLCAiJyIsICInXFwnJyIpICsgIiciCn0KCmZ1bmMgaXNIVFRQR2l0UmVtb3RlVVJMKHJlbW90ZVVSTCBzdHJpbmcpIGJvb2wgewoJbG93ZXIgOj0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHJlbW90ZVVSTCkpCglyZXR1cm4gc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJodHRwOi8vIikgfHwgc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJodHRwczovLyIpCn0KCmZ1bmMgaW5qZWN0R2l0VG9rZW5JbnRvVVJMKHJlbW90ZVVSTCwgdXNlcm5hbWUsIHRva2VuIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXBhcnNlZCwgZXJyIDo9IHVybC5QYXJzZShyZW1vdGVVUkwpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuino+aekOS7k+W6kyBVUkwg5aSx6LSlOiAldyIsIGVycikKCX0KCWlmIHBhcnNlZC5TY2hlbWUgIT0gImh0dHAiICYmIHBhcnNlZC5TY2hlbWUgIT0gImh0dHBzIiB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCJUb2tlbiDpibTmnYPku4XmlK/mjIEgSFRUUC9IVFRQUyDku5PlupPlnLDlnYAiKQoJfQoJdXNlcm5hbWUgPSBzdHJpbmdzLlRyaW1TcGFjZSh1c2VybmFtZSkKCWlmIHVzZXJuYW1lID09ICIiIHsKCQl1c2VybmFtZSA9ICJ4LWFjY2Vzcy10b2tlbiIKCX0KCXBhcnNlZC5Vc2VyID0gdXJsLlVzZXJQYXNzd29yZCh1c2VybmFtZSwgc3RyaW5ncy5UcmltU3BhY2UodG9rZW4pKQoJcmV0dXJuIHBhcnNlZC5TdHJpbmcoKSwgbmlsCn0K
+package service
+
+import (
+	"fmt"
+	"net/url"
+	"os"
+	"path/filepath"
+	"strings"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+)
+
+type gitAuthConfig struct {
+	Env         []string
+	RemoteURL   string
+	DisplayURL  string
+	CleanupFunc func()
+}
+
+func buildGitAuthConfig(baseEnv []string, remoteURL string, sub *model.Subscription, sshKeyPath string) (gitAuthConfig, error) {
+	env := AppendProxyEnv(baseEnv)
+	cleanup := func() {}
+	remoteURL = strings.TrimSpace(remoteURL)
+	displayURL := remoteURL
+	authType := ""
+	if sub != nil {
+		authType = sub.EffectiveAuthType()
+	}
+
+	switch authType {
+	case model.SubAuthTypeSSH:
+		sshKeyPath = strings.TrimSpace(sshKeyPath)
+		if sshKeyPath == "" {
+			return gitAuthConfig{}, fmt.Errorf("已配置 SSH 鉴权，但未找到可用 SSH 密钥")
+		}
+
+		knownHostsPath, err := ensureGitKnownHostsFile()
+		if err != nil {
+			return gitAuthConfig{}, err
+		}
+		env = append(env, "GIT_SSH_COMMAND="+buildGitSSHCommand(sshKeyPath, knownHostsPath))
+	case model.SubAuthTypeToken:
+		if sub == nil || strings.TrimSpace(sub.AuthToken) == "" {
+			return gitAuthConfig{}, fmt.Errorf("已配置 Token 鉴权，但访问令牌为空")
+		}
+		if !isHTTPGitRemoteURL(remoteURL) {
+			return gitAuthConfig{}, fmt.Errorf("Token 鉴权仅支持 HTTP/HTTPS 仓库地址，请改用 HTTPS 地址")
+		}
+		embedded, err := injectGitTokenIntoURL(remoteURL, sub.AuthUsername, sub.AuthToken)
+		if err != nil {
+			return gitAuthConfig{}, err
+		}
+		remoteURL = embedded
+	}
+
+	return gitAuthConfig{
+		Env:         env,
+		RemoteURL:   remoteURL,
+		DisplayURL:  displayURL,
+		CleanupFunc: cleanup,
+	}, nil
+}
+
+func ensureGitKnownHostsFile() (string, error) {
+	if config.C == nil {
+		return "", fmt.Errorf("配置未初始化")
+	}
+
+	sshDir := filepath.Join(config.C.Data.Dir, "ssh")
+	if err := os.MkdirAll(sshDir, 0o700); err != nil {
+		return "", fmt.Errorf("创建 SSH 配置目录失败: %w", err)
+	}
+
+	knownHostsPath := filepath.Join(sshDir, "known_hosts")
+	if _, err := os.Stat(knownHostsPath); os.IsNotExist(err) {
+		if err := os.WriteFile(knownHostsPath, []byte{}, 0o600); err != nil {
+			return "", fmt.Errorf("创建 known_hosts 失败: %w", err)
+		}
+	} else if err != nil {
+		return "", fmt.Errorf("读取 known_hosts 失败: %w", err)
+	}
+
+	return knownHostsPath, nil
+}
+
+func buildGitSSHCommand(sshKeyPath, knownHostsPath string) string {
+	return fmt.Sprintf(
+		"ssh -i %s -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -o UserKnownHostsFile=%s",
+		shellEscapeSSHArg(sshKeyPath),
+		shellEscapeSSHArg(knownHostsPath),
+	)
+}
+
+func shellEscapeSSHArg(value string) string {
+	return "'" + strings.ReplaceAll(value, "'", "'\\''") + "'"
+}
+
+func isHTTPGitRemoteURL(remoteURL string) bool {
+	lower := strings.ToLower(strings.TrimSpace(remoteURL))
+	return strings.HasPrefix(lower, "http://") || strings.HasPrefix(lower, "https://")
+}
+
+func injectGitTokenIntoURL(remoteURL, username, token string) (string, error) {
+	parsed, err := url.Parse(remoteURL)
+	if err != nil {
+		return "", fmt.Errorf("解析仓库 URL 失败: %w", err)
+	}
+	if parsed.Scheme != "http" && parsed.Scheme != "https" {
+		return "", fmt.Errorf("Token 鉴权仅支持 HTTP/HTTPS 仓库地址")
+	}
+	username = strings.TrimSpace(username)
+	if username == "" {
+		username = "x-access-token"
+	}
+	parsed.User = url.UserPassword(username, strings.TrimSpace(token))
+	return parsed.String(), nil
+}

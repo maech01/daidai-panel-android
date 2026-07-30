@@ -1,1 +1,131 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkic3RyaW5ncyIKKQoKZnVuYyBTcGxpdFRhc2tFbnZWYWx1ZXMocmF3IHN0cmluZykgW11zdHJpbmcgewoJcmV0dXJuIHNwbGl0VGFza0VudlZhbHVlcyhyYXcpCn0KCmZ1bmMgSm9pblRhc2tFbnZWYWx1ZXModmFsdWVzIFtdc3RyaW5nKSBzdHJpbmcgewoJcmV0dXJuIGpvaW5UYXNrRW52VmFsdWVzKHZhbHVlcykKfQoKZnVuYyBzcGxpdFRhc2tFbnZWYWx1ZXMocmF3IHN0cmluZykgW11zdHJpbmcgewoJdHJpbW1lZCA6PSBzdHJpbmdzLlRyaW1TcGFjZShyYXcpCglpZiBzdHJpbmdzLkhhc1ByZWZpeCh0cmltbWVkLCAiWyIpICYmIHN0cmluZ3MuSGFzU3VmZml4KHRyaW1tZWQsICJdIikgewoJCXZhciBwYXJzZWQgW11zdHJpbmcKCQlpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoW11ieXRlKHRyaW1tZWQpLCAmcGFyc2VkKTsgZXJyID09IG5pbCB7CgkJCXJldHVybiBhcHBlbmQoW11zdHJpbmcobmlsKSwgcGFyc2VkLi4uKQoJCX0KCX0KCglzZXBhcmF0b3IgOj0gIiYiCglpZiBoYXNVbmVzY2FwZWRUYXNrRW52U2VwYXJhdG9yKHJhdywgIiYmIikgewoJCXNlcGFyYXRvciA9ICImJiIKCX0KCglyZXR1cm4gc3BsaXRFc2NhcGVkVGFza0VudlZhbHVlcyhyYXcsIHNlcGFyYXRvcikKfQoKZnVuYyBqb2luVGFza0VudlZhbHVlcyh2YWx1ZXMgW11zdHJpbmcpIHN0cmluZyB7Cglzd2l0Y2ggbGVuKHZhbHVlcykgewoJY2FzZSAwOgoJCXJldHVybiAiIgoJY2FzZSAxOgoJCXJldHVybiB2YWx1ZXNbMF0KCX0KCglzZXBhcmF0b3IgOj0gIiYiCglmb3IgXywgdmFsdWUgOj0gcmFuZ2UgdmFsdWVzIHsKCQlpZiBzdHJpbmdzLkNvbnRhaW5zKHZhbHVlLCAiJiIpIHsKCQkJc2VwYXJhdG9yID0gIiYmIgoJCQlicmVhawoJCX0KCX0KCgllc2NhcGVkIDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbih2YWx1ZXMpKQoJZm9yIF8sIHZhbHVlIDo9IHJhbmdlIHZhbHVlcyB7CgkJZXNjYXBlZCA9IGFwcGVuZChlc2NhcGVkLCBlc2NhcGVUYXNrRW52VmFsdWUodmFsdWUsIHNlcGFyYXRvcikpCgl9CgoJcmV0dXJuIHN0cmluZ3MuSm9pbihlc2NhcGVkLCBzZXBhcmF0b3IpCn0KCmZ1bmMgaGFzVW5lc2NhcGVkVGFza0VudlNlcGFyYXRvcihyYXcsIHNlcGFyYXRvciBzdHJpbmcpIGJvb2wgewoJaWYgc2VwYXJhdG9yID09ICIiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCgllc2NhcGVkIDo9IGZhbHNlCglmb3IgaSA6PSAwOyBpIDwgbGVuKHJhdyk7IGkrKyB7CgkJY2ggOj0gcmF3W2ldCgkJaWYgZXNjYXBlZCB7CgkJCWVzY2FwZWQgPSBmYWxzZQoJCQljb250aW51ZQoJCX0KCQlpZiBjaCA9PSAnXFwnIHsKCQkJZXNjYXBlZCA9IHRydWUKCQkJY29udGludWUKCQl9CgkJaWYgc3RyaW5ncy5IYXNQcmVmaXgocmF3W2k6XSwgc2VwYXJhdG9yKSB7CgkJCXJldHVybiB0cnVlCgkJfQoJfQoKCXJldHVybiBmYWxzZQp9CgpmdW5jIHNwbGl0RXNjYXBlZFRhc2tFbnZWYWx1ZXMocmF3LCBzZXBhcmF0b3Igc3RyaW5nKSBbXXN0cmluZyB7CglpZiBzZXBhcmF0b3IgPT0gIiIgewoJCXJldHVybiBbXXN0cmluZ3tyYXd9Cgl9CgoJdmFsdWVzIDo9IG1ha2UoW11zdHJpbmcsIDAsIHN0cmluZ3MuQ291bnQocmF3LCBzZXBhcmF0b3IpKzEpCgl2YXIgY3VycmVudCBzdHJpbmdzLkJ1aWxkZXIKCWVzY2FwZWQgOj0gZmFsc2UKCglmb3IgaSA6PSAwOyBpIDwgbGVuKHJhdyk7IGkrKyB7CgkJY2ggOj0gcmF3W2ldCgoJCWlmIGVzY2FwZWQgewoJCQljdXJyZW50LldyaXRlQnl0ZShjaCkKCQkJZXNjYXBlZCA9IGZhbHNlCgkJCWNvbnRpbnVlCgkJfQoKCQlpZiBjaCA9PSAnXFwnIHsKCQkJZXNjYXBlZCA9IHRydWUKCQkJY29udGludWUKCQl9CgoJCWlmIHN0cmluZ3MuSGFzUHJlZml4KHJhd1tpOl0sIHNlcGFyYXRvcikgewoJCQl2YWx1ZXMgPSBhcHBlbmQodmFsdWVzLCBjdXJyZW50LlN0cmluZygpKQoJCQljdXJyZW50LlJlc2V0KCkKCQkJaSArPSBsZW4oc2VwYXJhdG9yKSAtIDEKCQkJY29udGludWUKCQl9CgoJCWN1cnJlbnQuV3JpdGVCeXRlKGNoKQoJfQoKCWlmIGVzY2FwZWQgewoJCWN1cnJlbnQuV3JpdGVCeXRlKCdcXCcpCgl9CgoJdmFsdWVzID0gYXBwZW5kKHZhbHVlcywgY3VycmVudC5TdHJpbmcoKSkKCXJldHVybiB2YWx1ZXMKfQoKZnVuYyBlc2NhcGVUYXNrRW52VmFsdWUodmFsdWUsIHNlcGFyYXRvciBzdHJpbmcpIHN0cmluZyB7Cgl2YWx1ZSA9IHN0cmluZ3MuUmVwbGFjZUFsbCh2YWx1ZSwgIlxcIiwgIlxcXFwiKQoJc3dpdGNoIHNlcGFyYXRvciB7CgljYXNlICImJiI6CgkJdmFsdWUgPSBzdHJpbmdzLlJlcGxhY2VBbGwodmFsdWUsICImJiIsICJcXCZcXCYiKQoJY2FzZSAiJiI6CgkJdmFsdWUgPSBzdHJpbmdzLlJlcGxhY2VBbGwodmFsdWUsICImIiwgIlxcJiIpCgl9CglyZXR1cm4gdmFsdWUKfQo=
+package service
+
+import (
+	"encoding/json"
+	"strings"
+)
+
+func SplitTaskEnvValues(raw string) []string {
+	return splitTaskEnvValues(raw)
+}
+
+func JoinTaskEnvValues(values []string) string {
+	return joinTaskEnvValues(values)
+}
+
+func splitTaskEnvValues(raw string) []string {
+	trimmed := strings.TrimSpace(raw)
+	if strings.HasPrefix(trimmed, "[") && strings.HasSuffix(trimmed, "]") {
+		var parsed []string
+		if err := json.Unmarshal([]byte(trimmed), &parsed); err == nil {
+			return append([]string(nil), parsed...)
+		}
+	}
+
+	separator := "&"
+	if hasUnescapedTaskEnvSeparator(raw, "&&") {
+		separator = "&&"
+	}
+
+	return splitEscapedTaskEnvValues(raw, separator)
+}
+
+func joinTaskEnvValues(values []string) string {
+	switch len(values) {
+	case 0:
+		return ""
+	case 1:
+		return values[0]
+	}
+
+	separator := "&"
+	for _, value := range values {
+		if strings.Contains(value, "&") {
+			separator = "&&"
+			break
+		}
+	}
+
+	escaped := make([]string, 0, len(values))
+	for _, value := range values {
+		escaped = append(escaped, escapeTaskEnvValue(value, separator))
+	}
+
+	return strings.Join(escaped, separator)
+}
+
+func hasUnescapedTaskEnvSeparator(raw, separator string) bool {
+	if separator == "" {
+		return false
+	}
+
+	escaped := false
+	for i := 0; i < len(raw); i++ {
+		ch := raw[i]
+		if escaped {
+			escaped = false
+			continue
+		}
+		if ch == '\\' {
+			escaped = true
+			continue
+		}
+		if strings.HasPrefix(raw[i:], separator) {
+			return true
+		}
+	}
+
+	return false
+}
+
+func splitEscapedTaskEnvValues(raw, separator string) []string {
+	if separator == "" {
+		return []string{raw}
+	}
+
+	values := make([]string, 0, strings.Count(raw, separator)+1)
+	var current strings.Builder
+	escaped := false
+
+	for i := 0; i < len(raw); i++ {
+		ch := raw[i]
+
+		if escaped {
+			current.WriteByte(ch)
+			escaped = false
+			continue
+		}
+
+		if ch == '\\' {
+			escaped = true
+			continue
+		}
+
+		if strings.HasPrefix(raw[i:], separator) {
+			values = append(values, current.String())
+			current.Reset()
+			i += len(separator) - 1
+			continue
+		}
+
+		current.WriteByte(ch)
+	}
+
+	if escaped {
+		current.WriteByte('\\')
+	}
+
+	values = append(values, current.String())
+	return values
+}
+
+func escapeTaskEnvValue(value, separator string) string {
+	value = strings.ReplaceAll(value, "\\", "\\\\")
+	switch separator {
+	case "&&":
+		value = strings.ReplaceAll(value, "&&", "\\&\\&")
+	case "&":
+		value = strings.ReplaceAll(value, "&", "\\&")
+	}
+	return value
+}

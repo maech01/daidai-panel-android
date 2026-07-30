@@ -1,1 +1,213 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJmbXQiCgkic3RyY29udiIKCSJzdHJpbmdzIgoJInRpbWUiCgkidW5pY29kZSIKKQoKY29uc3QgKAoJVGFza1N0YXR1c0Rpc2FibGVkID0gMAoJVGFza1N0YXR1c1F1ZXVlZCAgID0gMC41CglUYXNrU3RhdHVzRW5hYmxlZCAgPSAxCglUYXNrU3RhdHVzUnVubmluZyAgPSAyCgoJVGFza1R5cGVDcm9uICAgID0gImNyb24iCglUYXNrVHlwZU1hbnVhbCAgPSAibWFudWFsIgoJVGFza1R5cGVTdGFydHVwID0gInN0YXJ0dXAiCgoJUnVuU3VjY2VzcyA9IDAKCVJ1bkZhaWxlZCAgPSAxCglSdW5BYm9ydGVkID0gMgoKCURlZmF1bHRTdWNjZXNzRXhpdENvZGVzID0gIjAiCikKCnR5cGUgVGFzayBzdHJ1Y3QgewoJSUQgICAgICAgICAgICAgdWludCAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJTmFtZSAgICAgICAgICAgc3RyaW5nICBgZ29ybToic2l6ZToxMjg7bm90IG51bGwiIGpzb246Im5hbWUiYAoJQ29tbWFuZCAgICAgICAgc3RyaW5nICBgZ29ybToidHlwZTp0ZXh0O25vdCBudWxsIiBqc29uOiJjb21tYW5kImAKCVB5dGhvblZlcnNpb24gIHN0cmluZyAgYGdvcm06InNpemU6MTY7ZGVmYXVsdDonJyIganNvbjoicHl0aG9uX3ZlcnNpb24iYAoJQ3JvbkV4cHJlc3Npb24gc3RyaW5nICBgZ29ybToidHlwZTp0ZXh0O25vdCBudWxsIiBqc29uOiJjcm9uX2V4cHJlc3Npb24iYAoJVGFza1R5cGUgICAgICAgc3RyaW5nICBgZ29ybToic2l6ZToxNjtub3QgbnVsbDtkZWZhdWx0Oidjcm9uJyIganNvbjoidGFza190eXBlImAKCVN0YXR1cyAgICAgICAgIGZsb2F0NjQgYGdvcm06Im5vdCBudWxsIiBqc29uOiJzdGF0dXMiYAoJLy8gTGFzdFN0YXJ0dXBBdXRvUnVuRGF0ZSDlj6rorrDlvZXigJzlvIDmnLrov5DooYzigJ3nmoToh6rliqjop6blj5Hml6XmnJ/vvIzmiYvliqjov5DooYzkuI3lj5flroPpmZDliLbjgIIKCUxhc3RTdGFydHVwQXV0b1J1bkRhdGUgc3RyaW5nICAgICBgZ29ybToic2l6ZToxMDtkZWZhdWx0OicnIiBqc29uOiJsYXN0X3N0YXJ0dXBfYXV0b19ydW5fZGF0ZSJgCglMYWJlbHMgICAgICAgICAgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MjU2O2RlZmF1bHQ6JyciIGpzb246Ii0iYAoJTGFzdFJ1bkF0ICAgICAgICAgICAgICAqdGltZS5UaW1lIGBqc29uOiJsYXN0X3J1bl9hdCJgCglMYXN0UnVuU3RhdHVzICAgICAgICAgICppbnQgICAgICAgYGpzb246Imxhc3RfcnVuX3N0YXR1cyJgCglUaW1lb3V0ICAgICAgICAgICAgICAgIGludCAgICAgICAgYGdvcm06ImRlZmF1bHQ6MCIganNvbjoidGltZW91dCJgCglTdWNjZXNzRXhpdENvZGVzICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MTI4O25vdCBudWxsO2RlZmF1bHQ6JzAnIiBqc29uOiJzdWNjZXNzX2V4aXRfY29kZXMiYAoJUmFuZG9tRGVsYXlTZWNvbmRzICAgICAqaW50ICAgICAgIGBqc29uOiJyYW5kb21fZGVsYXlfc2Vjb25kcyJgCglNYXhSZXRyaWVzICAgICAgICAgICAgIGludCAgICAgICAgYGpzb246Im1heF9yZXRyaWVzImAKCVJldHJ5SW50ZXJ2YWwgICAgICAgICAgaW50ICAgICAgICBganNvbjoicmV0cnlfaW50ZXJ2YWwiYAoJTm90aWZ5T25GYWlsdXJlICAgICAgICBib29sICAgICAgIGBqc29uOiJub3RpZnlfb25fZmFpbHVyZSJgCglOb3RpZnlPblN1Y2Nlc3MgICAgICAgIGJvb2wgICAgICAgYGpzb246Im5vdGlmeV9vbl9zdWNjZXNzImAKCU5vdGlmeU9uQWJvcnQgICAgICAgICAgYm9vbCAgICAgICBgZ29ybToiZGVmYXVsdDowIiBqc29uOiJub3RpZnlfb25fYWJvcnQiYAoJTm90aWZpY2F0aW9uQ2hhbm5lbElEICAqdWludCAgICAgIGBnb3JtOiJpbmRleCIganNvbjoibm90aWZpY2F0aW9uX2NoYW5uZWxfaWQiYAoJRGVwZW5kc09uICAgICAgICAgICAgICAqdWludCAgICAgIGBnb3JtOiJpbmRleCIganNvbjoiZGVwZW5kc19vbiJgCglTb3J0T3JkZXIgICAgICAgICAgICAgIGludCAgICAgICAgYGpzb246InNvcnRfb3JkZXIiYAoJSXNQaW5uZWQgICAgICAgICAgICAgICBib29sICAgICAgIGBqc29uOiJpc19waW5uZWQiYAoJUElEICAgICAgICAgICAgICAgICAgICAqaW50ICAgICAgIGBnb3JtOiJjb2x1bW46cGlkIiBqc29uOiJwaWQiYAoJTG9nUGF0aCAgICAgICAgICAgICAgICAqc3RyaW5nICAgIGBnb3JtOiJzaXplOjI1NiIganNvbjoibG9nX3BhdGgiYAoJTGFzdFJ1bm5pbmdUaW1lICAgICAgICAqZmxvYXQ2NCAgIGBqc29uOiJsYXN0X3J1bm5pbmdfdGltZSJgCglUYXNrQmVmb3JlICAgICAgICAgICAgICpzdHJpbmcgICAgYGdvcm06InR5cGU6dGV4dCIganNvbjoidGFza19iZWZvcmUiYAoJVGFza0FmdGVyICAgICAgICAgICAgICAqc3RyaW5nICAgIGBnb3JtOiJ0eXBlOnRleHQiIGpzb246InRhc2tfYWZ0ZXIiYAoJQWxsb3dNdWx0aXBsZUluc3RhbmNlcyBib29sICAgICAgIGBqc29uOiJhbGxvd19tdWx0aXBsZV9pbnN0YW5jZXMiYAoJU3RvcFNjaGVkdWxlICAgICAgICAgICBzdHJpbmcgICAgIGBnb3JtOiJ0eXBlOnRleHQ7ZGVmYXVsdDonJyIganNvbjoic3RvcF9zY2hlZHVsZSJgCglDcmVhdGVkQXQgICAgICAgICAgICAgIHRpbWUuVGltZSAgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0ICAgICAgICAgICAgICB0aW1lLlRpbWUgIGBqc29uOiJ1cGRhdGVkX2F0ImAKfQoKZnVuYyAoVGFzaykgVGFibGVOYW1lKCkgc3RyaW5nIHsKCXJldHVybiAidGFza3MiCn0KCmZ1bmMgKHQgKlRhc2spIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJbGFiZWxzIDo9IFtdc3RyaW5ne30KCWlmIHQuTGFiZWxzICE9ICIiIHsKCQlsYWJlbHMgPSBzdHJpbmdzLlNwbGl0KHQuTGFiZWxzLCAiLCIpCgl9Cgljcm9uRXhwcmVzc2lvbnMgOj0gc3BsaXRUYXNrQ3JvbkV4cHJlc3Npb25zKHQuQ3JvbkV4cHJlc3Npb24pCgoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICAgICAgICAgICAgICAgIHQuSUQsCgkJIm5hbWUiOiAgICAgICAgICAgICAgICAgICAgIHQuTmFtZSwKCQkiY29tbWFuZCI6ICAgICAgICAgICAgICAgICAgdC5Db21tYW5kLAoJCSJweXRob25fdmVyc2lvbiI6ICAgICAgICAgICB0LlB5dGhvblZlcnNpb24sCgkJImNyb25fZXhwcmVzc2lvbiI6ICAgICAgICAgIHQuQ3JvbkV4cHJlc3Npb24sCgkJImNyb25fZXhwcmVzc2lvbnMiOiAgICAgICAgIGNyb25FeHByZXNzaW9ucywKCQkidGFza190eXBlIjogICAgICAgICAgICAgICAgdC5HZXRUYXNrVHlwZSgpLAoJCSJzdGF0dXMiOiAgICAgICAgICAgICAgICAgICB0LlN0YXR1cywKCQkibGFiZWxzIjogICAgICAgICAgICAgICAgICAgbGFiZWxzLAoJCSJsYXN0X3J1bl9hdCI6ICAgICAgICAgICAgICB0Lkxhc3RSdW5BdCwKCQkibGFzdF9ydW5fc3RhdHVzIjogICAgICAgICAgdC5MYXN0UnVuU3RhdHVzLAoJCSJ0aW1lb3V0IjogICAgICAgICAgICAgICAgICB0LlRpbWVvdXQsCgkJInN1Y2Nlc3NfZXhpdF9jb2RlcyI6ICAgICAgIHQuR2V0U3VjY2Vzc0V4aXRDb2RlcygpLAoJCSJyYW5kb21fZGVsYXlfc2Vjb25kcyI6ICAgICB0LlJhbmRvbURlbGF5U2Vjb25kcywKCQkibWF4X3JldHJpZXMiOiAgICAgICAgICAgICAgdC5NYXhSZXRyaWVzLAoJCSJyZXRyeV9pbnRlcnZhbCI6ICAgICAgICAgICB0LlJldHJ5SW50ZXJ2YWwsCgkJIm5vdGlmeV9vbl9mYWlsdXJlIjogICAgICAgIHQuTm90aWZ5T25GYWlsdXJlLAoJCSJub3RpZnlfb25fc3VjY2VzcyI6ICAgICAgICB0Lk5vdGlmeU9uU3VjY2VzcywKCQkibm90aWZ5X29uX2Fib3J0IjogICAgICAgICAgdC5Ob3RpZnlPbkFib3J0LAoJCSJub3RpZmljYXRpb25fY2hhbm5lbF9pZCI6ICB0Lk5vdGlmaWNhdGlvbkNoYW5uZWxJRCwKCQkiZGVwZW5kc19vbiI6ICAgICAgICAgICAgICAgdC5EZXBlbmRzT24sCgkJInNvcnRfb3JkZXIiOiAgICAgICAgICAgICAgIHQuU29ydE9yZGVyLAoJCSJpc19waW5uZWQiOiAgICAgICAgICAgICAgICB0LklzUGlubmVkLAoJCSJwaWQiOiAgICAgICAgICAgICAgICAgICAgICB0LlBJRCwKCQkibG9nX3BhdGgiOiAgICAgICAgICAgICAgICAgdC5Mb2dQYXRoLAoJCSJsYXN0X3J1bm5pbmdfdGltZSI6ICAgICAgICB0Lkxhc3RSdW5uaW5nVGltZSwKCQkidGFza19iZWZvcmUiOiAgICAgICAgICAgICAgdC5UYXNrQmVmb3JlLAoJCSJ0YXNrX2FmdGVyIjogICAgICAgICAgICAgICB0LlRhc2tBZnRlciwKCQkiYWxsb3dfbXVsdGlwbGVfaW5zdGFuY2VzIjogdC5BbGxvd011bHRpcGxlSW5zdGFuY2VzLAoJCSJzdG9wX3NjaGVkdWxlIjogICAgICAgICAgICB0LlN0b3BTY2hlZHVsZSwKCQkiY3JlYXRlZF9hdCI6ICAgICAgICAgICAgICAgdC5DcmVhdGVkQXQsCgkJInVwZGF0ZWRfYXQiOiAgICAgICAgICAgICAgIHQuVXBkYXRlZEF0LAoJfQp9CgovLyBOb3JtYWxpemVTdWNjZXNzRXhpdENvZGVzIOe7n+S4gOS7u+WKoeihqOWNleOAgeWvvOWFpeaWh+S7tuWSjOaXp+aVsOaNruS4reeahOaIkOWKn+mAgOWHuueggeagvOW8j+OAggovLyBTaGVsbCDpgIDlh7rnoIHlj6rmjqXlj5cgMC0yNTXvvJvotJ/mlbDkv53nlZnnu5notoXml7bjgIHkv6Hlj7fpgIDlh7rnrYnpnaLmnb/lpLHotKXnirbmgIHvvIzkuI3og73phY3nva7kuLrmiJDlip/jgIIKZnVuYyBOb3JtYWxpemVTdWNjZXNzRXhpdENvZGVzKHJhdyBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CglwYXJ0cyA6PSBzdHJpbmdzLkZpZWxkc0Z1bmMocmF3LCBmdW5jKHIgcnVuZSkgYm9vbCB7CgkJcmV0dXJuIHIgPT0gJywnIHx8IHIgPT0gJ++8jCcgfHwgdW5pY29kZS5Jc1NwYWNlKHIpCgl9KQoJaWYgbGVuKHBhcnRzKSA9PSAwIHsKCQlyZXR1cm4gRGVmYXVsdFN1Y2Nlc3NFeGl0Q29kZXMsIG5pbAoJfQoKCXNlZW4gOj0gbWFrZShtYXBbaW50XXN0cnVjdHt9LCBsZW4ocGFydHMpKQoJbm9ybWFsaXplZCA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4ocGFydHMpKQoJZm9yIF8sIHBhcnQgOj0gcmFuZ2UgcGFydHMgewoJCWNvZGUsIGVyciA6PSBzdHJjb252LkF0b2kocGFydCkKCQlpZiBlcnIgIT0gbmlsIHx8IGNvZGUgPCAwIHx8IGNvZGUgPiAyNTUgewoJCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuaIkOWKn+mAgOWHuueggeWPquiDveWhq+WGmSAwLTI1NSDnmoTmlbTmlbDvvIzlpJrkuKrlgLzor7fnlKjpgJflj7fliIbpmpQiKQoJCX0KCQlpZiBfLCBleGlzdHMgOj0gc2Vlbltjb2RlXTsgZXhpc3RzIHsKCQkJY29udGludWUKCQl9CgkJc2Vlbltjb2RlXSA9IHN0cnVjdHt9e30KCQlub3JtYWxpemVkID0gYXBwZW5kKG5vcm1hbGl6ZWQsIHN0cmNvbnYuSXRvYShjb2RlKSkKCX0KCXJldHVybiBzdHJpbmdzLkpvaW4obm9ybWFsaXplZCwgIiwiKSwgbmlsCn0KCmZ1bmMgKHQgKlRhc2spIEdldFN1Y2Nlc3NFeGl0Q29kZXMoKSBzdHJpbmcgewoJaWYgdCA9PSBuaWwgewoJCXJldHVybiBEZWZhdWx0U3VjY2Vzc0V4aXRDb2RlcwoJfQoJbm9ybWFsaXplZCwgZXJyIDo9IE5vcm1hbGl6ZVN1Y2Nlc3NFeGl0Q29kZXModC5TdWNjZXNzRXhpdENvZGVzKQoJaWYgZXJyICE9IG5pbCB7CgkJLy8g5pen5bqT5oiW5omL5bel5pS55bqT5Ye6546w5byC5bi45YC85pe25Zue6YCA5Yiw5qCH5YeG6YCA5Ye656CBIDDvvIzkuI3og73mianlpKfmiJDlip/ojIPlm7TjgIIKCQlyZXR1cm4gRGVmYXVsdFN1Y2Nlc3NFeGl0Q29kZXMKCX0KCXJldHVybiBub3JtYWxpemVkCn0KCmZ1bmMgKHQgKlRhc2spIElzU3VjY2Vzc0V4aXRDb2RlKGV4aXRDb2RlIGludCkgYm9vbCB7CglpZiB0ID09IG5pbCB8fCBleGl0Q29kZSA8IDAgewoJCXJldHVybiBmYWxzZQoJfQoJdGFyZ2V0IDo9IHN0cmNvbnYuSXRvYShleGl0Q29kZSkKCWZvciBfLCBjb2RlIDo9IHJhbmdlIHN0cmluZ3MuU3BsaXQodC5HZXRTdWNjZXNzRXhpdENvZGVzKCksICIsIikgewoJCWlmIGNvZGUgPT0gdGFyZ2V0IHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CglyZXR1cm4gZmFsc2UKfQoKZnVuYyBzcGxpdFRhc2tDcm9uRXhwcmVzc2lvbnMocmF3IHN0cmluZykgW11zdHJpbmcgewoJbGluZXMgOj0gc3RyaW5ncy5GaWVsZHNGdW5jKHJhdywgZnVuYyhyIHJ1bmUpIGJvb2wgewoJCXJldHVybiByID09ICdcbicgfHwgciA9PSAnXHInCgl9KQoJcmVzdWx0IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihsaW5lcykpCglmb3IgXywgbGluZSA6PSByYW5nZSBsaW5lcyB7CgkJbGluZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpCgkJaWYgbGluZSAhPSAiIiB7CgkJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIGxpbmUpCgkJfQoJfQoJcmV0dXJuIHJlc3VsdAp9CgpmdW5jIE5vcm1hbGl6ZVRhc2tUeXBlKHRhc2tUeXBlIHN0cmluZykgc3RyaW5nIHsKCXN3aXRjaCBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UodGFza1R5cGUpKSB7CgljYXNlICIiLCBUYXNrVHlwZUNyb246CgkJcmV0dXJuIFRhc2tUeXBlQ3JvbgoJY2FzZSBUYXNrVHlwZU1hbnVhbDoKCQlyZXR1cm4gVGFza1R5cGVNYW51YWwKCWNhc2UgVGFza1R5cGVTdGFydHVwOgoJCXJldHVybiBUYXNrVHlwZVN0YXJ0dXAKCWRlZmF1bHQ6CgkJcmV0dXJuICIiCgl9Cn0KCmZ1bmMgSXNWYWxpZFRhc2tUeXBlKHRhc2tUeXBlIHN0cmluZykgYm9vbCB7CglyZXR1cm4gTm9ybWFsaXplVGFza1R5cGUodGFza1R5cGUpICE9ICIiCn0KCmZ1bmMgKHQgKlRhc2spIEdldFRhc2tUeXBlKCkgc3RyaW5nIHsKCWlmIHQgPT0gbmlsIHsKCQlyZXR1cm4gVGFza1R5cGVDcm9uCgl9CglyZXR1cm4gTm9ybWFsaXplVGFza1R5cGUodC5UYXNrVHlwZSkKfQoKZnVuYyAodCAqVGFzaykgVXNlc0Nyb25TY2hlZHVsZSgpIGJvb2wgewoJcmV0dXJuIHQuR2V0VGFza1R5cGUoKSA9PSBUYXNrVHlwZUNyb24KfQoKZnVuYyAodCAqVGFzaykgU2V0TGFiZWxzRnJvbVNsaWNlKGxhYmVscyBbXXN0cmluZykgewoJdC5MYWJlbHMgPSBzdHJpbmdzLkpvaW4obGFiZWxzLCAiLCIpCn0KCmZ1bmMgKHQgKlRhc2spIEdldExhYmVscygpIFtdc3RyaW5nIHsKCWlmIHQuTGFiZWxzID09ICIiIHsKCQlyZXR1cm4gW11zdHJpbmd7fQoJfQoJcmV0dXJuIHN0cmluZ3MuU3BsaXQodC5MYWJlbHMsICIsIikKfQo=
+package model
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+	"time"
+	"unicode"
+)
+
+const (
+	TaskStatusDisabled = 0
+	TaskStatusQueued   = 0.5
+	TaskStatusEnabled  = 1
+	TaskStatusRunning  = 2
+
+	TaskTypeCron    = "cron"
+	TaskTypeManual  = "manual"
+	TaskTypeStartup = "startup"
+
+	RunSuccess = 0
+	RunFailed  = 1
+	RunAborted = 2
+
+	DefaultSuccessExitCodes = "0"
+)
+
+type Task struct {
+	ID             uint    `gorm:"primarykey" json:"id"`
+	Name           string  `gorm:"size:128;not null" json:"name"`
+	Command        string  `gorm:"type:text;not null" json:"command"`
+	PythonVersion  string  `gorm:"size:16;default:''" json:"python_version"`
+	CronExpression string  `gorm:"type:text;not null" json:"cron_expression"`
+	TaskType       string  `gorm:"size:16;not null;default:'cron'" json:"task_type"`
+	Status         float64 `gorm:"not null" json:"status"`
+	// LastStartupAutoRunDate 只记录“开机运行”的自动触发日期，手动运行不受它限制。
+	LastStartupAutoRunDate string     `gorm:"size:10;default:''" json:"last_startup_auto_run_date"`
+	Labels                 string     `gorm:"size:256;default:''" json:"-"`
+	LastRunAt              *time.Time `json:"last_run_at"`
+	LastRunStatus          *int       `json:"last_run_status"`
+	Timeout                int        `gorm:"default:0" json:"timeout"`
+	SuccessExitCodes       string     `gorm:"size:128;not null;default:'0'" json:"success_exit_codes"`
+	RandomDelaySeconds     *int       `json:"random_delay_seconds"`
+	MaxRetries             int        `json:"max_retries"`
+	RetryInterval          int        `json:"retry_interval"`
+	NotifyOnFailure        bool       `json:"notify_on_failure"`
+	NotifyOnSuccess        bool       `json:"notify_on_success"`
+	NotifyOnAbort          bool       `gorm:"default:0" json:"notify_on_abort"`
+	NotificationChannelID  *uint      `gorm:"index" json:"notification_channel_id"`
+	DependsOn              *uint      `gorm:"index" json:"depends_on"`
+	SortOrder              int        `json:"sort_order"`
+	IsPinned               bool       `json:"is_pinned"`
+	PID                    *int       `gorm:"column:pid" json:"pid"`
+	LogPath                *string    `gorm:"size:256" json:"log_path"`
+	LastRunningTime        *float64   `json:"last_running_time"`
+	TaskBefore             *string    `gorm:"type:text" json:"task_before"`
+	TaskAfter              *string    `gorm:"type:text" json:"task_after"`
+	AllowMultipleInstances bool       `json:"allow_multiple_instances"`
+	StopSchedule           string     `gorm:"type:text;default:''" json:"stop_schedule"`
+	CreatedAt              time.Time  `json:"created_at"`
+	UpdatedAt              time.Time  `json:"updated_at"`
+}
+
+func (Task) TableName() string {
+	return "tasks"
+}
+
+func (t *Task) ToDict() map[string]interface{} {
+	labels := []string{}
+	if t.Labels != "" {
+		labels = strings.Split(t.Labels, ",")
+	}
+	cronExpressions := splitTaskCronExpressions(t.CronExpression)
+
+	return map[string]interface{}{
+		"id":                       t.ID,
+		"name":                     t.Name,
+		"command":                  t.Command,
+		"python_version":           t.PythonVersion,
+		"cron_expression":          t.CronExpression,
+		"cron_expressions":         cronExpressions,
+		"task_type":                t.GetTaskType(),
+		"status":                   t.Status,
+		"labels":                   labels,
+		"last_run_at":              t.LastRunAt,
+		"last_run_status":          t.LastRunStatus,
+		"timeout":                  t.Timeout,
+		"success_exit_codes":       t.GetSuccessExitCodes(),
+		"random_delay_seconds":     t.RandomDelaySeconds,
+		"max_retries":              t.MaxRetries,
+		"retry_interval":           t.RetryInterval,
+		"notify_on_failure":        t.NotifyOnFailure,
+		"notify_on_success":        t.NotifyOnSuccess,
+		"notify_on_abort":          t.NotifyOnAbort,
+		"notification_channel_id":  t.NotificationChannelID,
+		"depends_on":               t.DependsOn,
+		"sort_order":               t.SortOrder,
+		"is_pinned":                t.IsPinned,
+		"pid":                      t.PID,
+		"log_path":                 t.LogPath,
+		"last_running_time":        t.LastRunningTime,
+		"task_before":              t.TaskBefore,
+		"task_after":               t.TaskAfter,
+		"allow_multiple_instances": t.AllowMultipleInstances,
+		"stop_schedule":            t.StopSchedule,
+		"created_at":               t.CreatedAt,
+		"updated_at":               t.UpdatedAt,
+	}
+}
+
+// NormalizeSuccessExitCodes 统一任务表单、导入文件和旧数据中的成功退出码格式。
+// Shell 退出码只接受 0-255；负数保留给超时、信号退出等面板失败状态，不能配置为成功。
+func NormalizeSuccessExitCodes(raw string) (string, error) {
+	parts := strings.FieldsFunc(raw, func(r rune) bool {
+		return r == ',' || r == '，' || unicode.IsSpace(r)
+	})
+	if len(parts) == 0 {
+		return DefaultSuccessExitCodes, nil
+	}
+
+	seen := make(map[int]struct{}, len(parts))
+	normalized := make([]string, 0, len(parts))
+	for _, part := range parts {
+		code, err := strconv.Atoi(part)
+		if err != nil || code < 0 || code > 255 {
+			return "", fmt.Errorf("成功退出码只能填写 0-255 的整数，多个值请用逗号分隔")
+		}
+		if _, exists := seen[code]; exists {
+			continue
+		}
+		seen[code] = struct{}{}
+		normalized = append(normalized, strconv.Itoa(code))
+	}
+	return strings.Join(normalized, ","), nil
+}
+
+func (t *Task) GetSuccessExitCodes() string {
+	if t == nil {
+		return DefaultSuccessExitCodes
+	}
+	normalized, err := NormalizeSuccessExitCodes(t.SuccessExitCodes)
+	if err != nil {
+		// 旧库或手工改库出现异常值时回退到标准退出码 0，不能扩大成功范围。
+		return DefaultSuccessExitCodes
+	}
+	return normalized
+}
+
+func (t *Task) IsSuccessExitCode(exitCode int) bool {
+	if t == nil || exitCode < 0 {
+		return false
+	}
+	target := strconv.Itoa(exitCode)
+	for _, code := range strings.Split(t.GetSuccessExitCodes(), ",") {
+		if code == target {
+			return true
+		}
+	}
+	return false
+}
+
+func splitTaskCronExpressions(raw string) []string {
+	lines := strings.FieldsFunc(raw, func(r rune) bool {
+		return r == '\n' || r == '\r'
+	})
+	result := make([]string, 0, len(lines))
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if line != "" {
+			result = append(result, line)
+		}
+	}
+	return result
+}
+
+func NormalizeTaskType(taskType string) string {
+	switch strings.ToLower(strings.TrimSpace(taskType)) {
+	case "", TaskTypeCron:
+		return TaskTypeCron
+	case TaskTypeManual:
+		return TaskTypeManual
+	case TaskTypeStartup:
+		return TaskTypeStartup
+	default:
+		return ""
+	}
+}
+
+func IsValidTaskType(taskType string) bool {
+	return NormalizeTaskType(taskType) != ""
+}
+
+func (t *Task) GetTaskType() string {
+	if t == nil {
+		return TaskTypeCron
+	}
+	return NormalizeTaskType(t.TaskType)
+}
+
+func (t *Task) UsesCronSchedule() bool {
+	return t.GetTaskType() == TaskTypeCron
+}
+
+func (t *Task) SetLabelsFromSlice(labels []string) {
+	t.Labels = strings.Join(labels, ",")
+}
+
+func (t *Task) GetLabels() []string {
+	if t.Labels == "" {
+		return []string{}
+	}
+	return strings.Split(t.Labels, ",")
+}

@@ -1,1 +1,203 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiYnl0ZXMiCgkiZW5jb2RpbmcvanNvbiIKCSJuZXQvaHR0cCIKCSJuZXQvaHR0cC9odHRwdGVzdCIKCSJvcyIKCSJ0ZXN0aW5nIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RDb25maWdMaXN0SW5jbHVkZXNSZWdpc3RyeU1ldGFkYXRhKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJYWRtaW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImNvbmZpZy1hZG1pbiIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgYWRtaW4uVXNlcm5hbWUsIGFkbWluLlJvbGUpCglkYXRhYmFzZS5EQi5XaGVyZSgiYGtleWAgPSA/IiwgInByb3h5X3VybCIpLkRlbGV0ZSgmbW9kZWwuU3lzdGVtQ29uZmlne30pCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvY29uZmlncyIsIG5pbCkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVjIDo9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAocmVjLCByZXEpCgoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCByZWMpCglkYXRhLCBvayA6PSBwYXlsb2FkWyJkYXRhIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkYXRhIG1hcCwgZ290ICVUIiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoKCWF1dG9JbnN0YWxsLCBvayA6PSBkYXRhWyJhdXRvX2luc3RhbGxfZGVwcyJdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXV0b19pbnN0YWxsX2RlcHMgZW50cnksIGdvdCAlVCIsIGRhdGFbImF1dG9faW5zdGFsbF9kZXBzIl0pCgl9CglpZiBnb3QsIF8gOj0gYXV0b0luc3RhbGxbInZhbHVlIl0uKHN0cmluZyk7IGdvdCAhPSAidHJ1ZSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhdXRvX2luc3RhbGxfZGVwcyBkZWZhdWx0IHRydWUsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCwgXyA6PSBhdXRvSW5zdGFsbFsidmFsdWVfdHlwZSJdLihzdHJpbmcpOyBnb3QgIT0gc3RyaW5nKG1vZGVsLlN5c3RlbUNvbmZpZ1R5cGVCb29sKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGF1dG9faW5zdGFsbF9kZXBzIHZhbHVlX3R5cGUgYm9vbCwgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290LCBfIDo9IGF1dG9JbnN0YWxsWyJyZWdpc3RlcmVkIl0uKGJvb2wpOyAhZ290IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXV0b19pbnN0YWxsX2RlcHMgdG8gYmUgbWFya2VkIHJlZ2lzdGVyZWQiKQoJfQoKCXByb3h5Q2ZnLCBvayA6PSBkYXRhWyJwcm94eV91cmwiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHByb3h5X3VybCBlbnRyeSwgZ290ICVUIiwgZGF0YVsicHJveHlfdXJsIl0pCgl9CglpZiBnb3QsIF8gOj0gcHJveHlDZmdbInJlZ2lzdGVyZWQiXS4oYm9vbCk7ICFnb3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwcm94eV91cmwgdG8gYmUgbWFya2VkIHJlZ2lzdGVyZWQiKQoJfQoJaWYgZ290LCBfIDo9IHByb3h5Q2ZnWyJncm91cCJdLihzdHJpbmcpOyBnb3QgIT0gIm5ldHdvcmsiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcHJveHlfdXJsIGdyb3VwIG5ldHdvcmssIGdvdCAlcSIsIGdvdCkKCX0KCgl1cGRhdGVNaXJyb3JDZmcsIG9rIDo9IGRhdGFbInVwZGF0ZV9pbWFnZV9taXJyb3IiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVwZGF0ZV9pbWFnZV9taXJyb3IgZW50cnksIGdvdCAlVCIsIGRhdGFbInVwZGF0ZV9pbWFnZV9taXJyb3IiXSkKCX0KCWlmIGdvdCwgXyA6PSB1cGRhdGVNaXJyb3JDZmdbInJlZ2lzdGVyZWQiXS4oYm9vbCk7ICFnb3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1cGRhdGVfaW1hZ2VfbWlycm9yIHRvIGJlIG1hcmtlZCByZWdpc3RlcmVkIikKCX0KCWlmIGdvdCwgXyA6PSB1cGRhdGVNaXJyb3JDZmdbImdyb3VwIl0uKHN0cmluZyk7IGdvdCAhPSAibmV0d29yayIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1cGRhdGVfaW1hZ2VfbWlycm9yIGdyb3VwIG5ldHdvcmssIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0Q29uZmlnQmF0Y2hTZXRVc2VzUmVnaXN0cnlWYWxpZGF0aW9uKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJYWRtaW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImNvbmZpZy1hZG1pbiIsICJhZG1pbiIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgYWRtaW4uVXNlcm5hbWUsIGFkbWluLlJvbGUpCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCglib2R5IDo9IGB7ImNvbmZpZ3MiOnsiYXV0b19pbnN0YWxsX2RlcHMiOiIwIiwiY2FwdGNoYV9mYWlsX21vZGUiOiIgc3RyaWN0ICIsInVwZGF0ZV9pbWFnZV9taXJyb3IiOiJodHRwczovL2RvY2tlci4xbXMucnVuLyIsImJpbmFyeV91cGRhdGVfcHJveHkiOiJnaC1wcm94eS5vcmcifX1gCglyZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZFB1dCwgIi9hcGkvdjEvY29uZmlncy9iYXRjaCIsIGJ5dGVzLk5ld0J1ZmZlclN0cmluZyhib2R5KSkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVxLkhlYWRlci5TZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCWlmIGdvdCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnQm9vbCgiYXV0b19pbnN0YWxsX2RlcHMiKTsgZ290IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXV0b19pbnN0YWxsX2RlcHMgZmFsc2UgYWZ0ZXIgYmF0Y2ggc2V0IikKCX0KCWlmIGdvdCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKCJjYXB0Y2hhX2ZhaWxfbW9kZSIpOyBnb3QgIT0gInN0cmljdCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYXB0Y2hhX2ZhaWxfbW9kZSBzdHJpY3QsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKCJ1cGRhdGVfaW1hZ2VfbWlycm9yIik7IGdvdCAhPSAiZG9ja2VyLjFtcy5ydW4iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXBkYXRlX2ltYWdlX21pcnJvciBkb2NrZXIuMW1zLnJ1biwgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290IDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoImJpbmFyeV91cGRhdGVfcHJveHkiKTsgZ290ICE9ICJodHRwczovL2doLXByb3h5Lm9yZy8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYmluYXJ5X3VwZGF0ZV9wcm94eSBodHRwczovL2doLXByb3h5Lm9yZy8sIGdvdCAlcSIsIGdvdCkKCX0KCgl0cnVzdGVkUHJveHlCb2R5IDo9IGB7ImNvbmZpZ3MiOnsidHJ1c3RlZF9wcm94eV9jaWRycyI6IjEyNy4wLjAuMSwyMDMuMC4xMTMuMC8yNCJ9fWAKCXRydXN0ZWRQcm94eVJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUHV0LCAiL2FwaS92MS9jb25maWdzL2JhdGNoIiwgYnl0ZXMuTmV3QnVmZmVyU3RyaW5nKHRydXN0ZWRQcm94eUJvZHkpKQoJdHJ1c3RlZFByb3h5UmVxLkhlYWRlci5TZXQoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICIrdG9rZW4pCgl0cnVzdGVkUHJveHlSZXEuSGVhZGVyLlNldCgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQoJdHJ1c3RlZFByb3h5UmVjIDo9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAodHJ1c3RlZFByb3h5UmVjLCB0cnVzdGVkUHJveHlSZXEpCgoJaWYgdHJ1c3RlZFByb3h5UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRydXN0ZWQgcHJveHkgcmVxdWVzdCB0byByZXR1cm4gMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCB0cnVzdGVkUHJveHlSZWMuQ29kZSwgdHJ1c3RlZFByb3h5UmVjLkJvZHkuU3RyaW5nKCkpCgl9CglpZiBnb3QgOj0gbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygidHJ1c3RlZF9wcm94eV9jaWRycyIpOyBnb3QgIT0gIjEyNy4wLjAuMS8zMlxuMjAzLjAuMTEzLjAvMjQiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2Fub25pY2FsIHRydXN0ZWRfcHJveHlfY2lkcnMsIGdvdCAlcSIsIGdvdCkKCX0KCglpbnZhbGlkQm9keSA6PSBgeyJjb25maWdzIjp7ImRlZmF1bHRfY3Jvbl9ydWxlIjoiaW52YWxpZCBjcm9uIn19YAoJaW52YWxpZFJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUHV0LCAiL2FwaS92MS9jb25maWdzL2JhdGNoIiwgYnl0ZXMuTmV3QnVmZmVyU3RyaW5nKGludmFsaWRCb2R5KSkKCWludmFsaWRSZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCWludmFsaWRSZXEuSGVhZGVyLlNldCgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQoJaW52YWxpZFJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKGludmFsaWRSZWMsIGludmFsaWRSZXEpCgoJaWYgaW52YWxpZFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGludmFsaWQgY29uZmlnIHJlcXVlc3QgdG8gcmV0dXJuIDQwMCwgZ290ICVkIiwgaW52YWxpZFJlYy5Db2RlKQoJfQoKCXZhciBpbnZhbGlkUGF5bG9hZCBtYXBbc3RyaW5nXWludGVyZmFjZXt9CglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoaW52YWxpZFJlYy5Cb2R5LkJ5dGVzKCksICZpbnZhbGlkUGF5bG9hZCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJkZWNvZGUgaW52YWxpZCByZXNwb25zZTogJXYiLCBlcnIpCgl9CglpZiBnb3QsIF8gOj0gaW52YWxpZFBheWxvYWRbImVycm9yIl0uKHN0cmluZyk7IGdvdCA9PSAiIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHZhbGlkYXRpb24gZXJyb3IgbWVzc2FnZSwgZ290ICV2IiwgaW52YWxpZFBheWxvYWQpCgl9CgoJaW52YWxpZE1pcnJvckJvZHkgOj0gYHsiY29uZmlncyI6eyJ1cGRhdGVfaW1hZ2VfbWlycm9yIjoiaHR0cHM6Ly9kb2NrZXIuMW1zLnJ1bi9wYXRoIn19YAoJaW52YWxpZE1pcnJvclJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUHV0LCAiL2FwaS92MS9jb25maWdzL2JhdGNoIiwgYnl0ZXMuTmV3QnVmZmVyU3RyaW5nKGludmFsaWRNaXJyb3JCb2R5KSkKCWludmFsaWRNaXJyb3JSZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCWludmFsaWRNaXJyb3JSZXEuSGVhZGVyLlNldCgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQoJaW52YWxpZE1pcnJvclJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKGludmFsaWRNaXJyb3JSZWMsIGludmFsaWRNaXJyb3JSZXEpCgoJaWYgaW52YWxpZE1pcnJvclJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGludmFsaWQgdXBkYXRlX2ltYWdlX21pcnJvciByZXF1ZXN0IHRvIHJldHVybiA0MDAsIGdvdCAlZCIsIGludmFsaWRNaXJyb3JSZWMuQ29kZSkKCX0KfQoKZnVuYyBUZXN0Q29uZmlnQmF0Y2hTZXRUaW1lem9uZUFwcGxpZXNJbW1lZGlhdGVseSh0ICp0ZXN0aW5nLlQpIHsKCW9sZExvY2FsIDo9IHRpbWUuTG9jYWwKCW9sZFRaLCBoYWRUWiA6PSBvcy5Mb29rdXBFbnYoIlRaIikKCW9sZE5hbWUgOj0gc2VydmljZS5DdXJyZW50UGFuZWxUaW1lem9uZSgpCgl0LkNsZWFudXAoZnVuYygpIHsKCQlfID0gc2VydmljZS5BcHBseVBhbmVsVGltZXpvbmUob2xkTmFtZSkKCQl0aW1lLkxvY2FsID0gb2xkTG9jYWwKCQlpZiBoYWRUWiB7CgkJCV8gPSBvcy5TZXRlbnYoIlRaIiwgb2xkVFopCgkJfSBlbHNlIHsKCQkJXyA9IG9zLlVuc2V0ZW52KCJUWiIpCgkJfQoJfSkKCgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidGltZXpvbmUtYWRtaW4iLCAiYWRtaW4iKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIGFkbWluLlVzZXJuYW1lLCBhZG1pbi5Sb2xlKQoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgoJYm9keSA6PSBgeyJjb25maWdzIjp7InRpbWV6b25lIjoiVVRDIn19YAoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2RQdXQsICIvYXBpL3YxL2NvbmZpZ3MvYmF0Y2giLCBieXRlcy5OZXdCdWZmZXJTdHJpbmcoYm9keSkpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlcS5IZWFkZXIuU2V0KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCglyZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChyZWMsIHJlcSkKCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CglpZiBnb3QgOj0gc2VydmljZS5DdXJyZW50UGFuZWxUaW1lem9uZSgpOyBnb3QgIT0gIlVUQyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBydW50aW1lIHRpbWV6b25lIFVUQyBhZnRlciBzYXZlLCBnb3QgJXEiLCBnb3QpCgl9CglpZiBnb3QgOj0gb3MuR2V0ZW52KCJUWiIpOyBnb3QgIT0gIlVUQyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwcm9jZXNzIFRaPVVUQyBhZnRlciBzYXZlLCBnb3QgJXEiLCBnb3QpCgl9CglpZiBnb3QgOj0gdGltZS5Mb2NhbC5TdHJpbmcoKTsgZ290ICE9ICJVVEMiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdGltZS5Mb2NhbCBVVEMgYWZ0ZXIgc2F2ZSwgZ290ICVxIiwgZ290KQoJfQoKCWludmFsaWRCb2R5IDo9IGB7ImNvbmZpZ3MiOnsidGltZXpvbmUiOiJCYWQvWm9uZSJ9fWAKCWludmFsaWRSZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZFB1dCwgIi9hcGkvdjEvY29uZmlncy9iYXRjaCIsIGJ5dGVzLk5ld0J1ZmZlclN0cmluZyhpbnZhbGlkQm9keSkpCglpbnZhbGlkUmVxLkhlYWRlci5TZXQoIkF1dGhvcml6YXRpb24iLCAiQmVhcmVyICIrdG9rZW4pCglpbnZhbGlkUmVxLkhlYWRlci5TZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKCWludmFsaWRSZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChpbnZhbGlkUmVjLCBpbnZhbGlkUmVxKQoKCWlmIGludmFsaWRSZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBpbnZhbGlkIHRpbWV6b25lIHJlcXVlc3QgdG8gcmV0dXJuIDQwMCwgZ290ICVkIiwgaW52YWxpZFJlYy5Db2RlKQoJfQp9Cg==
+package handler_test
+
+import (
+	"bytes"
+	"encoding/json"
+	"net/http"
+	"net/http/httptest"
+	"os"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/service"
+	"daidai-panel/testutil"
+)
+
+func TestConfigListIncludesRegistryMetadata(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "config-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	database.DB.Where("`key` = ?", "proxy_url").Delete(&model.SystemConfig{})
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodGet, "/api/v1/configs", nil)
+	req.Header.Set("Authorization", "Bearer "+token)
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected data map, got %T", payload["data"])
+	}
+
+	autoInstall, ok := data["auto_install_deps"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected auto_install_deps entry, got %T", data["auto_install_deps"])
+	}
+	if got, _ := autoInstall["value"].(string); got != "true" {
+		t.Fatalf("expected auto_install_deps default true, got %q", got)
+	}
+	if got, _ := autoInstall["value_type"].(string); got != string(model.SystemConfigTypeBool) {
+		t.Fatalf("expected auto_install_deps value_type bool, got %q", got)
+	}
+	if got, _ := autoInstall["registered"].(bool); !got {
+		t.Fatalf("expected auto_install_deps to be marked registered")
+	}
+
+	proxyCfg, ok := data["proxy_url"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected proxy_url entry, got %T", data["proxy_url"])
+	}
+	if got, _ := proxyCfg["registered"].(bool); !got {
+		t.Fatalf("expected proxy_url to be marked registered")
+	}
+	if got, _ := proxyCfg["group"].(string); got != "network" {
+		t.Fatalf("expected proxy_url group network, got %q", got)
+	}
+
+	updateMirrorCfg, ok := data["update_image_mirror"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected update_image_mirror entry, got %T", data["update_image_mirror"])
+	}
+	if got, _ := updateMirrorCfg["registered"].(bool); !got {
+		t.Fatalf("expected update_image_mirror to be marked registered")
+	}
+	if got, _ := updateMirrorCfg["group"].(string); got != "network" {
+		t.Fatalf("expected update_image_mirror group network, got %q", got)
+	}
+}
+
+func TestConfigBatchSetUsesRegistryValidation(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "config-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	engine := newProtectedRouter()
+
+	body := `{"configs":{"auto_install_deps":"0","captcha_fail_mode":" strict ","update_image_mirror":"https://docker.1ms.run/","binary_update_proxy":"gh-proxy.org"}}`
+	req := httptest.NewRequest(http.MethodPut, "/api/v1/configs/batch", bytes.NewBufferString(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+	if got := model.GetRegisteredConfigBool("auto_install_deps"); got {
+		t.Fatalf("expected auto_install_deps false after batch set")
+	}
+	if got := model.GetRegisteredConfig("captcha_fail_mode"); got != "strict" {
+		t.Fatalf("expected captcha_fail_mode strict, got %q", got)
+	}
+	if got := model.GetRegisteredConfig("update_image_mirror"); got != "docker.1ms.run" {
+		t.Fatalf("expected update_image_mirror docker.1ms.run, got %q", got)
+	}
+	if got := model.GetRegisteredConfig("binary_update_proxy"); got != "https://gh-proxy.org/" {
+		t.Fatalf("expected binary_update_proxy https://gh-proxy.org/, got %q", got)
+	}
+
+	trustedProxyBody := `{"configs":{"trusted_proxy_cidrs":"127.0.0.1,203.0.113.0/24"}}`
+	trustedProxyReq := httptest.NewRequest(http.MethodPut, "/api/v1/configs/batch", bytes.NewBufferString(trustedProxyBody))
+	trustedProxyReq.Header.Set("Authorization", "Bearer "+token)
+	trustedProxyReq.Header.Set("Content-Type", "application/json")
+	trustedProxyRec := httptest.NewRecorder()
+	engine.ServeHTTP(trustedProxyRec, trustedProxyReq)
+
+	if trustedProxyRec.Code != http.StatusOK {
+		t.Fatalf("expected trusted proxy request to return 200, got %d, body=%s", trustedProxyRec.Code, trustedProxyRec.Body.String())
+	}
+	if got := model.GetRegisteredConfig("trusted_proxy_cidrs"); got != "127.0.0.1/32\n203.0.113.0/24" {
+		t.Fatalf("expected canonical trusted_proxy_cidrs, got %q", got)
+	}
+
+	invalidBody := `{"configs":{"default_cron_rule":"invalid cron"}}`
+	invalidReq := httptest.NewRequest(http.MethodPut, "/api/v1/configs/batch", bytes.NewBufferString(invalidBody))
+	invalidReq.Header.Set("Authorization", "Bearer "+token)
+	invalidReq.Header.Set("Content-Type", "application/json")
+	invalidRec := httptest.NewRecorder()
+	engine.ServeHTTP(invalidRec, invalidReq)
+
+	if invalidRec.Code != http.StatusBadRequest {
+		t.Fatalf("expected invalid config request to return 400, got %d", invalidRec.Code)
+	}
+
+	var invalidPayload map[string]interface{}
+	if err := json.Unmarshal(invalidRec.Body.Bytes(), &invalidPayload); err != nil {
+		t.Fatalf("decode invalid response: %v", err)
+	}
+	if got, _ := invalidPayload["error"].(string); got == "" {
+		t.Fatalf("expected validation error message, got %v", invalidPayload)
+	}
+
+	invalidMirrorBody := `{"configs":{"update_image_mirror":"https://docker.1ms.run/path"}}`
+	invalidMirrorReq := httptest.NewRequest(http.MethodPut, "/api/v1/configs/batch", bytes.NewBufferString(invalidMirrorBody))
+	invalidMirrorReq.Header.Set("Authorization", "Bearer "+token)
+	invalidMirrorReq.Header.Set("Content-Type", "application/json")
+	invalidMirrorRec := httptest.NewRecorder()
+	engine.ServeHTTP(invalidMirrorRec, invalidMirrorReq)
+
+	if invalidMirrorRec.Code != http.StatusBadRequest {
+		t.Fatalf("expected invalid update_image_mirror request to return 400, got %d", invalidMirrorRec.Code)
+	}
+}
+
+func TestConfigBatchSetTimezoneAppliesImmediately(t *testing.T) {
+	oldLocal := time.Local
+	oldTZ, hadTZ := os.LookupEnv("TZ")
+	oldName := service.CurrentPanelTimezone()
+	t.Cleanup(func() {
+		_ = service.ApplyPanelTimezone(oldName)
+		time.Local = oldLocal
+		if hadTZ {
+			_ = os.Setenv("TZ", oldTZ)
+		} else {
+			_ = os.Unsetenv("TZ")
+		}
+	})
+
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "timezone-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	engine := newProtectedRouter()
+
+	body := `{"configs":{"timezone":"UTC"}}`
+	req := httptest.NewRequest(http.MethodPut, "/api/v1/configs/batch", bytes.NewBufferString(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+	if got := service.CurrentPanelTimezone(); got != "UTC" {
+		t.Fatalf("expected runtime timezone UTC after save, got %q", got)
+	}
+	if got := os.Getenv("TZ"); got != "UTC" {
+		t.Fatalf("expected process TZ=UTC after save, got %q", got)
+	}
+	if got := time.Local.String(); got != "UTC" {
+		t.Fatalf("expected time.Local UTC after save, got %q", got)
+	}
+
+	invalidBody := `{"configs":{"timezone":"Bad/Zone"}}`
+	invalidReq := httptest.NewRequest(http.MethodPut, "/api/v1/configs/batch", bytes.NewBufferString(invalidBody))
+	invalidReq.Header.Set("Authorization", "Bearer "+token)
+	invalidReq.Header.Set("Content-Type", "application/json")
+	invalidRec := httptest.NewRecorder()
+	engine.ServeHTTP(invalidRec, invalidReq)
+
+	if invalidRec.Code != http.StatusBadRequest {
+		t.Fatalf("expected invalid timezone request to return 400, got %d", invalidRec.Code)
+	}
+}

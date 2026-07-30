@@ -1,1 +1,137 @@
-cGFja2FnZSBtb2RlbF90ZXN0CgppbXBvcnQgKAoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RTZXRDb25maWdOb3JtYWxpemVzUmVnaXN0ZXJlZFZhbHVlcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoImF1dG9faW5zdGFsbF9kZXBzIiwgIjAiKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNldCBhdXRvX2luc3RhbGxfZGVwczogJXYiLCBlcnIpCgl9CglpZiBnb3QgOj0gbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZ0Jvb2woImF1dG9faW5zdGFsbF9kZXBzIik7IGdvdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGF1dG9faW5zdGFsbF9kZXBzIHRvIGJlIGZhbHNlIGFmdGVyIG5vcm1hbGl6YXRpb24iKQoJfQoKCXZhciBhdXRvSW5zdGFsbCBtb2RlbC5TeXN0ZW1Db25maWcKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiYGtleWAgPSA/IiwgImF1dG9faW5zdGFsbF9kZXBzIikuRmlyc3QoJmF1dG9JbnN0YWxsKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInF1ZXJ5IGF1dG9faW5zdGFsbF9kZXBzOiAldiIsIGVycikKCX0KCWlmIGF1dG9JbnN0YWxsLlZhbHVlICE9ICJmYWxzZSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYW5vbmljYWwgYm9vbCB2YWx1ZSBmYWxzZSwgZ290ICVxIiwgYXV0b0luc3RhbGwuVmFsdWUpCgl9CgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygiY2FwdGNoYV9mYWlsX21vZGUiLCAiIHN0cmljdCAiKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNldCBjYXB0Y2hhX2ZhaWxfbW9kZTogJXYiLCBlcnIpCgl9CglpZiBnb3QgOj0gbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygiY2FwdGNoYV9mYWlsX21vZGUiKTsgZ290ICE9ICJzdHJpY3QiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2FwdGNoYV9mYWlsX21vZGUgc3RyaWN0LCBnb3QgJXEiLCBnb3QpCgl9CgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygidHJ1c3RlZF9wcm94eV9jaWRycyIsICIxMjcuMC4wLjEsIDIwMy4wLjExMy4xMCIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IHRydXN0ZWRfcHJveHlfY2lkcnM6ICV2IiwgZXJyKQoJfQoJaWYgZ290IDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoInRydXN0ZWRfcHJveHlfY2lkcnMiKTsgZ290ICE9ICIxMjcuMC4wLjEvMzJcbjIwMy4wLjExMy4xMC8zMiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYW5vbmljYWwgdHJ1c3RlZF9wcm94eV9jaWRycywgZ290ICVxIiwgZ290KQoJfQoKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoInVwZGF0ZV9pbWFnZV9taXJyb3IiLCAiaHR0cHM6Ly9kb2NrZXIuMW1zLnJ1bi8iKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNldCB1cGRhdGVfaW1hZ2VfbWlycm9yOiAldiIsIGVycikKCX0KCWlmIGdvdCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKCJ1cGRhdGVfaW1hZ2VfbWlycm9yIik7IGdvdCAhPSAiZG9ja2VyLjFtcy5ydW4iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2Fub25pY2FsIHVwZGF0ZV9pbWFnZV9taXJyb3IgZG9ja2VyLjFtcy5ydW4sIGdvdCAlcSIsIGdvdCkKCX0KCglpZiBlcnIgOj0gbW9kZWwuU2V0Q29uZmlnKCJiaW5hcnlfdXBkYXRlX3Byb3h5IiwgImdoLXByb3h5Lm9yZyIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IGJpbmFyeV91cGRhdGVfcHJveHk6ICV2IiwgZXJyKQoJfQoJaWYgZ290IDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoImJpbmFyeV91cGRhdGVfcHJveHkiKTsgZ290ICE9ICJodHRwczovL2doLXByb3h5Lm9yZy8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2Fub25pY2FsIGJpbmFyeV91cGRhdGVfcHJveHkgaHR0cHM6Ly9naC1wcm94eS5vcmcvLCBnb3QgJXEiLCBnb3QpCgl9CgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZyhtb2RlbC5QYW5lbFRpbWV6b25lQ29uZmlnS2V5LCAiIEFzaWEvVG9reW8gIik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgdGltZXpvbmU6ICV2IiwgZXJyKQoJfQoJaWYgZ290IDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcobW9kZWwuUGFuZWxUaW1lem9uZUNvbmZpZ0tleSk7IGdvdCAhPSAiQXNpYS9Ub2t5byIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0aW1lem9uZSBBc2lhL1Rva3lvLCBnb3QgJXEiLCBnb3QpCgl9CgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygiZGVmYXVsdF9jcm9uX3J1bGUiLCAiaW52YWxpZCBjcm9uIik7IGVyciA9PSBuaWwgewoJCXQuRmF0YWwoImV4cGVjdGVkIGludmFsaWQgZGVmYXVsdF9jcm9uX3J1bGUgdG8gYmUgcmVqZWN0ZWQiKQoJfQoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygidHJ1c3RlZF9wcm94eV9jaWRycyIsICJub3QtYW4taXAiKTsgZXJyID09IG5pbCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgaW52YWxpZCB0cnVzdGVkX3Byb3h5X2NpZHJzIHRvIGJlIHJlamVjdGVkIikKCX0KCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoInVwZGF0ZV9pbWFnZV9taXJyb3IiLCAiaHR0cHM6Ly9kb2NrZXIuMW1zLnJ1bi9wcm94eSIpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsKCJleHBlY3RlZCB1cGRhdGVfaW1hZ2VfbWlycm9yIHdpdGggcGF0aCB0byBiZSByZWplY3RlZCIpCgl9CglpZiBlcnIgOj0gbW9kZWwuU2V0Q29uZmlnKCJiaW5hcnlfdXBkYXRlX3Byb3h5IiwgImh0dHBzOi8vZ2gtcHJveHkub3JnLz91cmw9eCIpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBiaW5hcnlfdXBkYXRlX3Byb3h5IHdpdGggcXVlcnkgdG8gYmUgcmVqZWN0ZWQiKQoJfQoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZyhtb2RlbC5QYW5lbFRpbWV6b25lQ29uZmlnS2V5LCAiQmFkL1pvbmUiKTsgZXJyID09IG5pbCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgaW52YWxpZCB0aW1lem9uZSB0byBiZSByZWplY3RlZCIpCgl9CglpZiBlcnIgOj0gbW9kZWwuU2V0Q29uZmlnKG1vZGVsLlBhbmVsVGltZXpvbmVDb25maWdLZXksICJMb2NhbCIpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBMb2NhbCB0aW1lem9uZSB0byBiZSByZWplY3RlZCIpCgl9Cn0KCmZ1bmMgVGVzdFJlZ2lzdGVyZWRDb25maWdVc2VzUmVnaXN0cnlEZWZhdWx0cyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWRhdGFiYXNlLkRCLldoZXJlKCJga2V5YCA9ID8iLCAicGFuZWxfdGl0bGUiKS5EZWxldGUoJm1vZGVsLlN5c3RlbUNvbmZpZ3t9KQoKCWlmIGdvdCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKCJwYW5lbF90aXRsZSIpOyBnb3QgIT0gIuWRhuWRhumdouadvyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZWdpc3RyeSBkZWZhdWx0IHBhbmVsX3RpdGxlLCBnb3QgJXEiLCBnb3QpCgl9CglkYXRhYmFzZS5EQi5XaGVyZSgiYGtleWAgPSA/IiwgbW9kZWwuUGFuZWxUaW1lem9uZUNvbmZpZ0tleSkuRGVsZXRlKCZtb2RlbC5TeXN0ZW1Db25maWd7fSkKCWlmIGdvdCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKG1vZGVsLlBhbmVsVGltZXpvbmVDb25maWdLZXkpOyBnb3QgIT0gbW9kZWwuRGVmYXVsdFBhbmVsVGltZXpvbmUgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZWdpc3RyeSBkZWZhdWx0IHRpbWV6b25lICVxLCBnb3QgJXEiLCBtb2RlbC5EZWZhdWx0UGFuZWxUaW1lem9uZSwgZ290KQoJfQoJaWYgZ290IDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWdCb29sKCJub3RpZnlfb25fbG9naW4iKTsgZ290IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcmVnaXN0cnkgZGVmYXVsdCBub3RpZnlfb25fbG9naW4gdG8gYmUgZmFsc2UiKQoJfQp9CgpmdW5jIFRlc3RJbml0RGVmYXVsdENvbmZpZ3NSZW1vdmVzRGVwcmVjYXRlZENvbW1hbmRUaW1lb3V0KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmbW9kZWwuU3lzdGVtQ29uZmlnewoJCUtleTogICAgICAgICAiY29tbWFuZF90aW1lb3V0IiwKCQlWYWx1ZTogICAgICAgIjg2NDAwIiwKCQlEZXNjcmlwdGlvbjogIuWFqOWxgOm7mOiupOi2heaXtu+8iOenku+8iSIsCgl9KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBkZXByZWNhdGVkIGNvbmZpZzogJXYiLCBlcnIpCgl9CgoJbW9kZWwuSW5pdERlZmF1bHRDb25maWdzKCkKCgl2YXIgY291bnQgaW50NjQKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuU3lzdGVtQ29uZmlne30pLldoZXJlKCJga2V5YCA9ID8iLCAiY29tbWFuZF90aW1lb3V0IikuQ291bnQoJmNvdW50KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNvdW50IGRlcHJlY2F0ZWQgY29uZmlnOiAldiIsIGVycikKCX0KCWlmIGNvdW50ICE9IDAgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkZXByZWNhdGVkIGNvbW1hbmRfdGltZW91dCBjb25maWcgdG8gYmUgcmVtb3ZlZCwgZ290IGNvdW50PSVkIiwgY291bnQpCgl9Cn0KCmZ1bmMgVGVzdFNldENvbmZpZ0lnbm9yZXNEZXByZWNhdGVkQ29tbWFuZFRpbWVvdXQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglpZiBlcnIgOj0gbW9kZWwuU2V0Q29uZmlnKCJjb21tYW5kX3RpbWVvdXQiLCAiNjAwIik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgZGVwcmVjYXRlZCBjb21tYW5kX3RpbWVvdXQ6ICV2IiwgZXJyKQoJfQoKCXZhciBjb3VudCBpbnQ2NAoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5TeXN0ZW1Db25maWd7fSkuV2hlcmUoImBrZXlgID0gPyIsICJjb21tYW5kX3RpbWVvdXQiKS5Db3VudCgmY291bnQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY291bnQgZGVwcmVjYXRlZCBjb25maWc6ICV2IiwgZXJyKQoJfQoJaWYgY291bnQgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRlcHJlY2F0ZWQgY29tbWFuZF90aW1lb3V0IGNvbmZpZyB0byBzdGF5IGFic2VudCwgZ290IGNvdW50PSVkIiwgY291bnQpCgl9Cn0K
+package model_test
+
+import (
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestSetConfigNormalizesRegisteredValues(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if err := model.SetConfig("auto_install_deps", "0"); err != nil {
+		t.Fatalf("set auto_install_deps: %v", err)
+	}
+	if got := model.GetRegisteredConfigBool("auto_install_deps"); got {
+		t.Fatalf("expected auto_install_deps to be false after normalization")
+	}
+
+	var autoInstall model.SystemConfig
+	if err := database.DB.Where("`key` = ?", "auto_install_deps").First(&autoInstall).Error; err != nil {
+		t.Fatalf("query auto_install_deps: %v", err)
+	}
+	if autoInstall.Value != "false" {
+		t.Fatalf("expected canonical bool value false, got %q", autoInstall.Value)
+	}
+
+	if err := model.SetConfig("captcha_fail_mode", " strict "); err != nil {
+		t.Fatalf("set captcha_fail_mode: %v", err)
+	}
+	if got := model.GetRegisteredConfig("captcha_fail_mode"); got != "strict" {
+		t.Fatalf("expected captcha_fail_mode strict, got %q", got)
+	}
+
+	if err := model.SetConfig("trusted_proxy_cidrs", "127.0.0.1, 203.0.113.10"); err != nil {
+		t.Fatalf("set trusted_proxy_cidrs: %v", err)
+	}
+	if got := model.GetRegisteredConfig("trusted_proxy_cidrs"); got != "127.0.0.1/32\n203.0.113.10/32" {
+		t.Fatalf("expected canonical trusted_proxy_cidrs, got %q", got)
+	}
+
+	if err := model.SetConfig("update_image_mirror", "https://docker.1ms.run/"); err != nil {
+		t.Fatalf("set update_image_mirror: %v", err)
+	}
+	if got := model.GetRegisteredConfig("update_image_mirror"); got != "docker.1ms.run" {
+		t.Fatalf("expected canonical update_image_mirror docker.1ms.run, got %q", got)
+	}
+
+	if err := model.SetConfig("binary_update_proxy", "gh-proxy.org"); err != nil {
+		t.Fatalf("set binary_update_proxy: %v", err)
+	}
+	if got := model.GetRegisteredConfig("binary_update_proxy"); got != "https://gh-proxy.org/" {
+		t.Fatalf("expected canonical binary_update_proxy https://gh-proxy.org/, got %q", got)
+	}
+
+	if err := model.SetConfig(model.PanelTimezoneConfigKey, " Asia/Tokyo "); err != nil {
+		t.Fatalf("set timezone: %v", err)
+	}
+	if got := model.GetRegisteredConfig(model.PanelTimezoneConfigKey); got != "Asia/Tokyo" {
+		t.Fatalf("expected timezone Asia/Tokyo, got %q", got)
+	}
+
+	if err := model.SetConfig("default_cron_rule", "invalid cron"); err == nil {
+		t.Fatal("expected invalid default_cron_rule to be rejected")
+	}
+	if err := model.SetConfig("trusted_proxy_cidrs", "not-an-ip"); err == nil {
+		t.Fatal("expected invalid trusted_proxy_cidrs to be rejected")
+	}
+	if err := model.SetConfig("update_image_mirror", "https://docker.1ms.run/proxy"); err == nil {
+		t.Fatal("expected update_image_mirror with path to be rejected")
+	}
+	if err := model.SetConfig("binary_update_proxy", "https://gh-proxy.org/?url=x"); err == nil {
+		t.Fatal("expected binary_update_proxy with query to be rejected")
+	}
+	if err := model.SetConfig(model.PanelTimezoneConfigKey, "Bad/Zone"); err == nil {
+		t.Fatal("expected invalid timezone to be rejected")
+	}
+	if err := model.SetConfig(model.PanelTimezoneConfigKey, "Local"); err == nil {
+		t.Fatal("expected Local timezone to be rejected")
+	}
+}
+
+func TestRegisteredConfigUsesRegistryDefaults(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	database.DB.Where("`key` = ?", "panel_title").Delete(&model.SystemConfig{})
+
+	if got := model.GetRegisteredConfig("panel_title"); got != "呆呆面板" {
+		t.Fatalf("expected registry default panel_title, got %q", got)
+	}
+	database.DB.Where("`key` = ?", model.PanelTimezoneConfigKey).Delete(&model.SystemConfig{})
+	if got := model.GetRegisteredConfig(model.PanelTimezoneConfigKey); got != model.DefaultPanelTimezone {
+		t.Fatalf("expected registry default timezone %q, got %q", model.DefaultPanelTimezone, got)
+	}
+	if got := model.GetRegisteredConfigBool("notify_on_login"); got {
+		t.Fatalf("expected registry default notify_on_login to be false")
+	}
+}
+
+func TestInitDefaultConfigsRemovesDeprecatedCommandTimeout(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if err := database.DB.Create(&model.SystemConfig{
+		Key:         "command_timeout",
+		Value:       "86400",
+		Description: "全局默认超时（秒）",
+	}).Error; err != nil {
+		t.Fatalf("create deprecated config: %v", err)
+	}
+
+	model.InitDefaultConfigs()
+
+	var count int64
+	if err := database.DB.Model(&model.SystemConfig{}).Where("`key` = ?", "command_timeout").Count(&count).Error; err != nil {
+		t.Fatalf("count deprecated config: %v", err)
+	}
+	if count != 0 {
+		t.Fatalf("expected deprecated command_timeout config to be removed, got count=%d", count)
+	}
+}
+
+func TestSetConfigIgnoresDeprecatedCommandTimeout(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if err := model.SetConfig("command_timeout", "600"); err != nil {
+		t.Fatalf("set deprecated command_timeout: %v", err)
+	}
+
+	var count int64
+	if err := database.DB.Model(&model.SystemConfig{}).Where("`key` = ?", "command_timeout").Count(&count).Error; err != nil {
+		t.Fatalf("count deprecated config: %v", err)
+	}
+	if count != 0 {
+		t.Fatalf("expected deprecated command_timeout config to stay absent, got count=%d", count)
+	}
+}

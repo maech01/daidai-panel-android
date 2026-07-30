@@ -1,1 +1,104 @@
-cGFja2FnZSBuZXR1dGlsCgppbXBvcnQgKAoJImZtdCIKCSJuZXQiCgkic3RyY29udiIKCSJzdHJpbmdzIgopCgpmdW5jIE5vcm1hbGl6ZUlQV2hpdGVsaXN0RW50cnkodmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJdmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZSh2YWx1ZSkKCWlmIHZhbHVlID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIklQIOaIlue9keauteS4jeiDveS4uuepuiIpCgl9CgoJaWYgc3RyaW5ncy5Db250YWlucyh2YWx1ZSwgIioiKSB7CgkJcmV0dXJuIG5vcm1hbGl6ZUlQdjRXaWxkY2FyZFdoaXRlbGlzdCh2YWx1ZSkKCX0KCglpZiBzdHJpbmdzLkNvbnRhaW5zKHZhbHVlLCAiLyIpIHsKCQlfLCBuZXR3b3JrLCBlcnIgOj0gbmV0LlBhcnNlQ0lEUih2YWx1ZSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCJJUCDmrrXmoLzlvI/ml6DmlYjvvIzor7fkvb/nlKggQ0lEUu+8jOS+i+WmgiAyMDMuMC4xMTMuMC8yNCIpCgkJfQoJCXJldHVybiBuZXR3b3JrLlN0cmluZygpLCBuaWwKCX0KCglpcCA6PSBuZXQuUGFyc2VJUCh2YWx1ZSkKCWlmIGlwID09IG5pbCB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCJJUCDlnLDlnYDmoLzlvI/ml6DmlYgiKQoJfQoKCWlmIHY0IDo9IGlwLlRvNCgpOyB2NCAhPSBuaWwgewoJCXJldHVybiB2NC5TdHJpbmcoKSwgbmlsCgl9CglyZXR1cm4gaXAuU3RyaW5nKCksIG5pbAp9CgpmdW5jIE1hdGNoSVBXaGl0ZWxpc3RFbnRyeShlbnRyeSwgY2xpZW50SVAgc3RyaW5nKSBib29sIHsKCWNsaWVudCA6PSBuZXQuUGFyc2VJUChzdHJpbmdzLlRyaW1TcGFjZShjbGllbnRJUCkpCglpZiBjbGllbnQgPT0gbmlsIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglub3JtYWxpemVkLCBlcnIgOj0gTm9ybWFsaXplSVBXaGl0ZWxpc3RFbnRyeShlbnRyeSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBmYWxzZQoJfQoKCWlmIHN0cmluZ3MuQ29udGFpbnMobm9ybWFsaXplZCwgIi8iKSB7CgkJXywgbmV0d29yaywgZXJyIDo9IG5ldC5QYXJzZUNJRFIobm9ybWFsaXplZCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIGZhbHNlCgkJfQoJCXJldHVybiBuZXR3b3JrLkNvbnRhaW5zKGNsaWVudCkKCX0KCgl0YXJnZXQgOj0gbmV0LlBhcnNlSVAobm9ybWFsaXplZCkKCXJldHVybiB0YXJnZXQgIT0gbmlsICYmIHRhcmdldC5FcXVhbChjbGllbnQpCn0KCmZ1bmMgbm9ybWFsaXplSVB2NFdpbGRjYXJkV2hpdGVsaXN0KHZhbHVlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXQodmFsdWUsICIuIikKCWlmIGxlbihwYXJ0cykgIT0gNCB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLpgJrphY3moLzlvI/ku4XmlK/mjIEgSVB2NO+8jOS+i+WmgiAyMDMuMC4xMTMuKiIpCgl9CgoJb2N0ZXRzIDo9IG1ha2UoW11zdHJpbmcsIDQpCglmaXhlZE9jdGV0cyA6PSAwCgl3aWxkY2FyZFN0YXJ0ZWQgOj0gZmFsc2UKCglmb3IgaSwgcmF3UGFydCA6PSByYW5nZSBwYXJ0cyB7CgkJcGFydCA6PSBzdHJpbmdzLlRyaW1TcGFjZShyYXdQYXJ0KQoJCWlmIHBhcnQgPT0gIioiIHsKCQkJd2lsZGNhcmRTdGFydGVkID0gdHJ1ZQoJCQlvY3RldHNbaV0gPSAiMCIKCQkJY29udGludWUKCQl9CgoJCWlmIHdpbGRjYXJkU3RhcnRlZCB7CgkJCXJldHVybiAiIiwgZm10LkVycm9yZigi6YCa6YWN5q615b+F6aG76L+e57ut5Ye6546w5Zyo5pyr5bC+77yM5L6L5aaCIDIwMy4wLjExMy4qIOaIliAyMDMuMC4qLioiKQoJCX0KCgkJbiwgZXJyIDo9IHN0cmNvbnYuQXRvaShwYXJ0KQoJCWlmIGVyciAhPSBuaWwgfHwgbiA8IDAgfHwgbiA+IDI1NSB7CgkJCXJldHVybiAiIiwgZm10LkVycm9yZigiSVB2NCDpgJrphY3moLzlvI/ml6DmlYgiKQoJCX0KCgkJZml4ZWRPY3RldHMrKwoJCW9jdGV0c1tpXSA9IHN0cmNvbnYuSXRvYShuKQoJfQoKCWlmIGZpeGVkT2N0ZXRzID09IDAgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi6K+36Iez5bCR5Zu65a6a5LiA5Liq572R5q6177yM5L6L5aaCIDIwMy4wLjExMy4qIikKCX0KCgljaWRyIDo9IHN0cmluZ3MuSm9pbihvY3RldHMsICIuIikgKyAiLyIgKyBzdHJjb252Lkl0b2EoZml4ZWRPY3RldHMqOCkKCV8sIG5ldHdvcmssIGVyciA6PSBuZXQuUGFyc2VDSURSKGNpZHIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIumAmumFjee9keauteagvOW8j+aXoOaViCIpCgl9CgoJcmV0dXJuIG5ldHdvcmsuU3RyaW5nKCksIG5pbAp9Cg==
+package netutil
+
+import (
+	"fmt"
+	"net"
+	"strconv"
+	"strings"
+)
+
+func NormalizeIPWhitelistEntry(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "", fmt.Errorf("IP 或网段不能为空")
+	}
+
+	if strings.Contains(value, "*") {
+		return normalizeIPv4WildcardWhitelist(value)
+	}
+
+	if strings.Contains(value, "/") {
+		_, network, err := net.ParseCIDR(value)
+		if err != nil {
+			return "", fmt.Errorf("IP 段格式无效，请使用 CIDR，例如 203.0.113.0/24")
+		}
+		return network.String(), nil
+	}
+
+	ip := net.ParseIP(value)
+	if ip == nil {
+		return "", fmt.Errorf("IP 地址格式无效")
+	}
+
+	if v4 := ip.To4(); v4 != nil {
+		return v4.String(), nil
+	}
+	return ip.String(), nil
+}
+
+func MatchIPWhitelistEntry(entry, clientIP string) bool {
+	client := net.ParseIP(strings.TrimSpace(clientIP))
+	if client == nil {
+		return false
+	}
+
+	normalized, err := NormalizeIPWhitelistEntry(entry)
+	if err != nil {
+		return false
+	}
+
+	if strings.Contains(normalized, "/") {
+		_, network, err := net.ParseCIDR(normalized)
+		if err != nil {
+			return false
+		}
+		return network.Contains(client)
+	}
+
+	target := net.ParseIP(normalized)
+	return target != nil && target.Equal(client)
+}
+
+func normalizeIPv4WildcardWhitelist(value string) (string, error) {
+	parts := strings.Split(value, ".")
+	if len(parts) != 4 {
+		return "", fmt.Errorf("通配格式仅支持 IPv4，例如 203.0.113.*")
+	}
+
+	octets := make([]string, 4)
+	fixedOctets := 0
+	wildcardStarted := false
+
+	for i, rawPart := range parts {
+		part := strings.TrimSpace(rawPart)
+		if part == "*" {
+			wildcardStarted = true
+			octets[i] = "0"
+			continue
+		}
+
+		if wildcardStarted {
+			return "", fmt.Errorf("通配段必须连续出现在末尾，例如 203.0.113.* 或 203.0.*.*")
+		}
+
+		n, err := strconv.Atoi(part)
+		if err != nil || n < 0 || n > 255 {
+			return "", fmt.Errorf("IPv4 通配格式无效")
+		}
+
+		fixedOctets++
+		octets[i] = strconv.Itoa(n)
+	}
+
+	if fixedOctets == 0 {
+		return "", fmt.Errorf("请至少固定一个网段，例如 203.0.113.*")
+	}
+
+	cidr := strings.Join(octets, ".") + "/" + strconv.Itoa(fixedOctets*8)
+	_, network, err := net.ParseCIDR(cidr)
+	if err != nil {
+		return "", fmt.Errorf("通配网段格式无效")
+	}
+
+	return network.String(), nil
+}

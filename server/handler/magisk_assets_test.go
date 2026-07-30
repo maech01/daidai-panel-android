@@ -1,1 +1,63 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgopCgpmdW5jIFRlc3RNYWdpc2tTZXJ2aWNlU2NyaXB0RXhwb3J0c0FuZHJvaWRSdW50aW1lRW52KHQgKnRlc3RpbmcuVCkgewoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKCIuLiIsICIuLiIsICJNYWdpc2siLCAic2VydmljZS5zaCIpCglkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoc2NyaXB0UGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWFkIE1hZ2lzayBzZXJ2aWNlLnNoOiAldiIsIGVycikKCX0KCXRleHQgOj0gc3RyaW5nKGRhdGEpCgoJcmVxdWlyZWRTbmlwcGV0cyA6PSBbXXN0cmluZ3sKCQkiZXhwb3J0IERBSURBSV9NQUdJU0tfTU9EVUxFPTEiLAoJCSJleHBvcnQgREFJREFJX0FORFJPSURfUlVOVElNRV9CSU5fRElSPS9kYXRhL2FkYi9kYWlkYWktcGFuZWwvYmluIiwKCQkiL2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW4vcHl0aG9uL2JpbiIsCgkJIi9kYXRhL2FkYi9kYWlkYWktcGFuZWwvYmluL25vZGUvYmluIiwKCX0KCWZvciBfLCBzbmlwcGV0IDo9IHJhbmdlIHJlcXVpcmVkU25pcHBldHMgewoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKHRleHQsIHNuaXBwZXQpIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIHNlcnZpY2Uuc2ggdG8gY29udGFpbiAlcSIsIHNuaXBwZXQpCgkJfQoJfQoKCWlmIHN0cmluZ3MuQ29udGFpbnModGV4dCwgYGRlcHMvcHl0aG9uLzMuMTJgKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgc2VydmljZS5zaCB0byBhdm9pZCBoYXJkLWNvZGVkIGRlcHMvcHl0aG9uLzMuMTIgdmVudiBwYXRoIikKCX0KCWZvciBfLCBzbmlwcGV0IDo9IHJhbmdlIFtdc3RyaW5newoJCWBQWV9NSU5PUj0kKHB5dGhvbjMgLWMgImltcG9ydCBzeXM7IHByaW50KGYne3N5cy52ZXJzaW9uX2luZm8ubWFqb3J9LntzeXMudmVyc2lvbl9pbmZvLm1pbm9yfScpImAsCgkJYGV4cG9ydCBEQUlEQUlfUFlUSE9OX1ZFUlNJT049IiRQWV9NSU5PUiJgLAoJCWAiJERBSURBSV9ESVIvZGVwcy9weXRob24vJFBZX01JTk9SImAsCgl9IHsKCQlpZiAhc3RyaW5ncy5Db250YWlucyh0ZXh0LCBzbmlwcGV0KSB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBzZXJ2aWNlLnNoIHRvIGNvbnRhaW4gZHluYW1pYyBweXRob24gcnVudGltZSBzbmlwcGV0ICVxIiwgc25pcHBldCkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdE1hZ2lza0NoZWNrUnVudGltZXNTY3JpcHRJbmNsdWRlc0luc3RhbGxlZFJ1bnRpbWVQYXRocyh0ICp0ZXN0aW5nLlQpIHsKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbigiLi4iLCAiLi4iLCAiTWFnaXNrIiwgInNjcmlwdHMiLCAiY2hlY2stcnVudGltZXMuc2giKQoJZGF0YSwgZXJyIDo9IG9zLlJlYWRGaWxlKHNjcmlwdFBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVhZCBNYWdpc2sgY2hlY2stcnVudGltZXMuc2g6ICV2IiwgZXJyKQoJfQoJdGV4dCA6PSBzdHJpbmcoZGF0YSkKCglyZXF1aXJlZFNuaXBwZXRzIDo9IFtdc3RyaW5newoJCSJcIiRQQU5FTF9ESVIvYmluL3B5dGhvbi9iaW5cIiIsCgkJIlwiJFBBTkVMX0RJUi9iaW4vbm9kZS9iaW5cIiIsCgkJIlwiJFBBTkVMX0RJUi9iaW5cIiIsCgkJIlBBTkVMX1JVTlRJTUVfUEFUSFMiLAoJfQoJZm9yIF8sIHNuaXBwZXQgOj0gcmFuZ2UgcmVxdWlyZWRTbmlwcGV0cyB7CgkJaWYgIXN0cmluZ3MuQ29udGFpbnModGV4dCwgc25pcHBldCkgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2hlY2stcnVudGltZXMuc2ggdG8gY29udGFpbiAlcSIsIHNuaXBwZXQpCgkJfQoJfQp9Cg==
+package handler
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+)
+
+func TestMagiskServiceScriptExportsAndroidRuntimeEnv(t *testing.T) {
+	scriptPath := filepath.Join("..", "..", "Magisk", "service.sh")
+	data, err := os.ReadFile(scriptPath)
+	if err != nil {
+		t.Fatalf("read Magisk service.sh: %v", err)
+	}
+	text := string(data)
+
+	requiredSnippets := []string{
+		"export DAIDAI_MAGISK_MODULE=1",
+		"export DAIDAI_ANDROID_RUNTIME_BIN_DIR=/data/adb/daidai-panel/bin",
+		"/data/adb/daidai-panel/bin/python/bin",
+		"/data/adb/daidai-panel/bin/node/bin",
+	}
+	for _, snippet := range requiredSnippets {
+		if !strings.Contains(text, snippet) {
+			t.Fatalf("expected service.sh to contain %q", snippet)
+		}
+	}
+
+	if strings.Contains(text, `deps/python/3.12`) {
+		t.Fatal("expected service.sh to avoid hard-coded deps/python/3.12 venv path")
+	}
+	for _, snippet := range []string{
+		`PY_MINOR=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')"`,
+		`export DAIDAI_PYTHON_VERSION="$PY_MINOR"`,
+		`"$DAIDAI_DIR/deps/python/$PY_MINOR"`,
+	} {
+		if !strings.Contains(text, snippet) {
+			t.Fatalf("expected service.sh to contain dynamic python runtime snippet %q", snippet)
+		}
+	}
+}
+
+func TestMagiskCheckRuntimesScriptIncludesInstalledRuntimePaths(t *testing.T) {
+	scriptPath := filepath.Join("..", "..", "Magisk", "scripts", "check-runtimes.sh")
+	data, err := os.ReadFile(scriptPath)
+	if err != nil {
+		t.Fatalf("read Magisk check-runtimes.sh: %v", err)
+	}
+	text := string(data)
+
+	requiredSnippets := []string{
+		"\"$PANEL_DIR/bin/python/bin\"",
+		"\"$PANEL_DIR/bin/node/bin\"",
+		"\"$PANEL_DIR/bin\"",
+		"PANEL_RUNTIME_PATHS",
+	}
+	for _, snippet := range requiredSnippets {
+		if !strings.Contains(text, snippet) {
+			t.Fatalf("expected check-runtimes.sh to contain %q", snippet)
+		}
+	}
+}

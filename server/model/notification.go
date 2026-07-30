@@ -1,1 +1,43 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIE5vdGlmeUNoYW5uZWwgc3RydWN0IHsKCUlEICAgICAgICAgICAgIHVpbnQgICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCU5hbWUgICAgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MTI4O25vdCBudWxsIiBqc29uOiJuYW1lImAKCVR5cGUgICAgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MzI7bm90IG51bGwiIGpzb246InR5cGUiYAoJQ29uZmlnICAgICAgICAgc3RyaW5nICAgICBgZ29ybToidHlwZTp0ZXh0O2RlZmF1bHQ6J3t9JyIganNvbjoiLSJgCglFbmFibGVkICAgICAgICBib29sICAgICAgIGBnb3JtOiJkZWZhdWx0OnRydWUiIGpzb246ImVuYWJsZWQiYAoJVG9kYXlTZW5kQ291bnQgaW50ICAgICAgICBgZ29ybToiZGVmYXVsdDowIiBqc29uOiItImAKCVRvZGF5U2VuZERhdGUgIHN0cmluZyAgICAgYGdvcm06InNpemU6MTA7ZGVmYXVsdDonJyIganNvbjoiLSJgCglMYXN0VGVzdEF0ICAgICAqdGltZS5UaW1lIGBqc29uOiJsYXN0X3Rlc3RfYXQiYAoJTGFzdFRlc3RTdGF0dXMgc3RyaW5nICAgICBgZ29ybToic2l6ZToxNjtkZWZhdWx0OicnIiBqc29uOiJsYXN0X3Rlc3Rfc3RhdHVzImAKCUNyZWF0ZWRBdCAgICAgIHRpbWUuVGltZSAgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0ICAgICAgdGltZS5UaW1lICBganNvbjoidXBkYXRlZF9hdCJgCn0KCmZ1bmMgKE5vdGlmeUNoYW5uZWwpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gIm5vdGlmeV9jaGFubmVscyIKfQoKZnVuYyAobiAqTm90aWZ5Q2hhbm5lbCkgVG9EaWN0KCkgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7Cgl0b2RheVNlbmRDb3VudCA6PSAwCglpZiBuLlRvZGF5U2VuZERhdGUgPT0gdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYtMDEtMDIiKSB7CgkJdG9kYXlTZW5kQ291bnQgPSBuLlRvZGF5U2VuZENvdW50Cgl9CgoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICAgICAgICBuLklELAoJCSJuYW1lIjogICAgICAgICAgICAgbi5OYW1lLAoJCSJ0eXBlIjogICAgICAgICAgICAgbi5UeXBlLAoJCSJjb25maWciOiAgICAgICAgICAgbi5Db25maWcsCgkJImVuYWJsZWQiOiAgICAgICAgICBuLkVuYWJsZWQsCgkJInRvZGF5X3NlbmRfY291bnQiOiB0b2RheVNlbmRDb3VudCwKCQkibGFzdF90ZXN0X2F0IjogICAgIG4uTGFzdFRlc3RBdCwKCQkibGFzdF90ZXN0X3N0YXR1cyI6IG4uTGFzdFRlc3RTdGF0dXMsCgkJImNyZWF0ZWRfYXQiOiAgICAgICBuLkNyZWF0ZWRBdCwKCQkidXBkYXRlZF9hdCI6ICAgICAgIG4uVXBkYXRlZEF0LAoJfQp9Cg==
+package model
+
+import (
+	"time"
+)
+
+type NotifyChannel struct {
+	ID             uint       `gorm:"primarykey" json:"id"`
+	Name           string     `gorm:"size:128;not null" json:"name"`
+	Type           string     `gorm:"size:32;not null" json:"type"`
+	Config         string     `gorm:"type:text;default:'{}'" json:"-"`
+	Enabled        bool       `gorm:"default:true" json:"enabled"`
+	TodaySendCount int        `gorm:"default:0" json:"-"`
+	TodaySendDate  string     `gorm:"size:10;default:''" json:"-"`
+	LastTestAt     *time.Time `json:"last_test_at"`
+	LastTestStatus string     `gorm:"size:16;default:''" json:"last_test_status"`
+	CreatedAt      time.Time  `json:"created_at"`
+	UpdatedAt      time.Time  `json:"updated_at"`
+}
+
+func (NotifyChannel) TableName() string {
+	return "notify_channels"
+}
+
+func (n *NotifyChannel) ToDict() map[string]interface{} {
+	todaySendCount := 0
+	if n.TodaySendDate == time.Now().Format("2006-01-02") {
+		todaySendCount = n.TodaySendCount
+	}
+
+	return map[string]interface{}{
+		"id":               n.ID,
+		"name":             n.Name,
+		"type":             n.Type,
+		"config":           n.Config,
+		"enabled":          n.Enabled,
+		"today_send_count": todaySendCount,
+		"last_test_at":     n.LastTestAt,
+		"last_test_status": n.LastTestStatus,
+		"created_at":       n.CreatedAt,
+		"updated_at":       n.UpdatedAt,
+	}
+}

@@ -1,1 +1,119 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGNvbnN0IHRhc2tBcGkgPSB7CiAgbGlzdChwYXJhbXM/OiB7IGtleXdvcmQ/OiBzdHJpbmc7IHN0YXR1cz86IG51bWJlciB8IHN0cmluZzsgbGFiZWw/OiBzdHJpbmc7IHBhZ2U/OiBudW1iZXI7IHBhZ2Vfc2l6ZT86IG51bWJlcjsgZmlsdGVycz86IHN0cmluZzsgc29ydF9ydWxlcz86IHN0cmluZzsgYWxsPzogMCB8IDEgfSkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvdGFza3MnLCB7IHBhcmFtcyB9KSBhcyBQcm9taXNlPHsgZGF0YTogYW55W107IHRvdGFsOiBudW1iZXI7IHBhZ2U6IG51bWJlcjsgcGFnZV9zaXplOiBudW1iZXIgfT4KICB9LAoKICBub3RpZmljYXRpb25DaGFubmVscygpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL3Rhc2tzL25vdGlmaWNhdGlvbi1jaGFubmVscycpIGFzIFByb21pc2U8eyBkYXRhOiB7IGlkOiBudW1iZXI7IG5hbWU6IHN0cmluZzsgdHlwZTogc3RyaW5nOyBlbmFibGVkOiBib29sZWFuIH1bXSB9PgogIH0sCgogIGNyZWF0ZShkYXRhOiBhbnkpIHsKICAgIHJldHVybiByZXF1ZXN0LnBvc3QoJy90YXNrcycsIGRhdGEpIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IGRhdGE6IGFueSB9PgogIH0sCgogIHVwZGF0ZShpZDogbnVtYmVyLCBkYXRhOiBhbnkpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3Rhc2tzLyR7aWR9YCwgZGF0YSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55IH0+CiAgfSwKCiAgZGVsZXRlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZShgL3Rhc2tzLyR7aWR9YCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIHJ1bihpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC90YXNrcy8ke2lkfS9ydW5gKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgc3RvcChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC90YXNrcy8ke2lkfS9zdG9wYCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGVuYWJsZShpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC90YXNrcy8ke2lkfS9lbmFibGVgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBkaXNhYmxlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3Rhc2tzLyR7aWR9L2Rpc2FibGVgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBwaW4oaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KGAvdGFza3MvJHtpZH0vcGluYCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIHVucGluKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3Rhc2tzLyR7aWR9L3VucGluYCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGNvcHkoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdChgL3Rhc2tzLyR7aWR9L2NvcHlgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBsYXRlc3RMb2coaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KGAvdGFza3MvJHtpZH0vbGF0ZXN0LWxvZ2ApIGFzIFByb21pc2U8YW55PgogIH0sCgogIGxpdmVMb2dzKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldChgL3Rhc2tzLyR7aWR9L2xpdmUtbG9nc2ApIGFzIFByb21pc2U8eyBsb2dzOiBzdHJpbmdbXTsgZG9uZTogYm9vbGVhbjsgc3RhdHVzOiBudW1iZXIgfT4KICB9LAoKICBsb2dGaWxlcyhpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoYC90YXNrcy8ke2lkfS9sb2ctZmlsZXNgKSBhcyBQcm9taXNlPGFueVtdPgogIH0sCgogIGxvZ0ZpbGVDb250ZW50KGlkOiBudW1iZXIsIGZpbGVuYW1lOiBzdHJpbmcsIHBhdGg/OiBzdHJpbmcpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldChgL3Rhc2tzLyR7aWR9L2xvZy1maWxlcy8ke2VuY29kZVVSSUNvbXBvbmVudChmaWxlbmFtZSl9YCwgeyBwYXJhbXM6IHBhdGggPyB7IHBhdGggfSA6IHVuZGVmaW5lZCB9KSBhcyBQcm9taXNlPHsgZmlsZW5hbWU6IHN0cmluZzsgY29udGVudDogc3RyaW5nIH0+CiAgfSwKCiAgZGVsZXRlTG9nRmlsZShpZDogbnVtYmVyLCBmaWxlbmFtZTogc3RyaW5nLCBwYXRoPzogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoYC90YXNrcy8ke2lkfS9sb2ctZmlsZXMvJHtlbmNvZGVVUklDb21wb25lbnQoZmlsZW5hbWUpfWAsIHsgcGFyYW1zOiBwYXRoID8geyBwYXRoIH0gOiB1bmRlZmluZWQgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIHN0YXRzKGlkOiBudW1iZXIsIGRheXM/OiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldChgL3Rhc2tzLyR7aWR9L3N0YXRzYCwgeyBwYXJhbXM6IHsgZGF5cyB9IH0pIGFzIFByb21pc2U8YW55PgogIH0sCgogIGJhdGNoKGlkczogbnVtYmVyW10sIGFjdGlvbjogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy90YXNrcy9iYXRjaCcsIHsgaWRzLCBhY3Rpb24gfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgY291bnQ6IG51bWJlciB9PgogIH0sCgogIGJhdGNoRW5hYmxlKHRhc2tJZHM6IG51bWJlcltdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy90YXNrcy9iYXRjaC9lbmFibGUnLCB7IHRhc2tfaWRzOiB0YXNrSWRzIH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IHN1Y2Nlc3NfY291bnQ6IG51bWJlciB9PgogIH0sCgogIGJhdGNoRGlzYWJsZSh0YXNrSWRzOiBudW1iZXJbXSkgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KCcvdGFza3MvYmF0Y2gvZGlzYWJsZScsIHsgdGFza19pZHM6IHRhc2tJZHMgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgc3VjY2Vzc19jb3VudDogbnVtYmVyIH0+CiAgfSwKCiAgYmF0Y2hEZWxldGUodGFza0lkczogbnVtYmVyW10pIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZSgnL3Rhc2tzL2JhdGNoL2RlbGV0ZScsIHsgZGF0YTogeyB0YXNrX2lkczogdGFza0lkcyB9IH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IGNvdW50OiBudW1iZXIgfT4KICB9LAoKICBiYXRjaFJ1bih0YXNrSWRzOiBudW1iZXJbXSkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL3Rhc2tzL2JhdGNoL3J1bicsIHsgdGFza19pZHM6IHRhc2tJZHMgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgY291bnQ6IG51bWJlciB9PgogIH0sCgogIGJhdGNoQWRkTGFiZWxzKHRhc2tJZHM6IG51bWJlcltdLCBsYWJlbHM6IHN0cmluZ1tdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy90YXNrcy9iYXRjaC9hZGQtbGFiZWxzJywgeyB0YXNrX2lkczogdGFza0lkcywgbGFiZWxzIH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IHN1Y2Nlc3NfY291bnQ6IG51bWJlciB9PgogIH0sCgogIGNsZWFuTG9ncyhkYXlzPzogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoJy90YXNrcy9jbGVhbi1sb2dzJywgeyBwYXJhbXM6IHsgZGF5cyB9IH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBleHBvcnQoKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy90YXNrcy9leHBvcnQnKSBhcyBQcm9taXNlPHsgZGF0YTogYW55W10gfT4KICB9LAoKICBpbXBvcnQodGFza3M6IGFueVtdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvdGFza3MvaW1wb3J0JywgeyB0YXNrcyB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBlcnJvcnM6IHN0cmluZ1tdIH0+CiAgfSwKCiAgY3JvblBhcnNlKGV4cHJlc3Npb246IHN0cmluZykgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL3Rhc2tzL2Nyb24vcGFyc2UnLCB7IGV4cHJlc3Npb24gfSkgYXMgUHJvbWlzZTxhbnk+CiAgfSwKCiAgY3JvblRlbXBsYXRlcygpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL3Rhc2tzL2Nyb24vdGVtcGxhdGVzJykgYXMgUHJvbWlzZTxhbnlbXT4KICB9Cn0K
+import request from './request'
+
+export const taskApi = {
+  list(params?: { keyword?: string; status?: number | string; label?: string; page?: number; page_size?: number; filters?: string; sort_rules?: string; all?: 0 | 1 }) {
+    return request.get('/tasks', { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  notificationChannels() {
+    return request.get('/tasks/notification-channels') as Promise<{ data: { id: number; name: string; type: string; enabled: boolean }[] }>
+  },
+
+  create(data: any) {
+    return request.post('/tasks', data) as Promise<{ message: string; data: any }>
+  },
+
+  update(id: number, data: any) {
+    return request.put(`/tasks/${id}`, data) as Promise<{ message: string; data: any }>
+  },
+
+  delete(id: number) {
+    return request.delete(`/tasks/${id}`) as Promise<{ message: string }>
+  },
+
+  run(id: number) {
+    return request.put(`/tasks/${id}/run`) as Promise<{ message: string }>
+  },
+
+  stop(id: number) {
+    return request.put(`/tasks/${id}/stop`) as Promise<{ message: string }>
+  },
+
+  enable(id: number) {
+    return request.put(`/tasks/${id}/enable`) as Promise<{ message: string; data: any }>
+  },
+
+  disable(id: number) {
+    return request.put(`/tasks/${id}/disable`) as Promise<{ message: string; data: any }>
+  },
+
+  pin(id: number) {
+    return request.put(`/tasks/${id}/pin`) as Promise<{ message: string }>
+  },
+
+  unpin(id: number) {
+    return request.put(`/tasks/${id}/unpin`) as Promise<{ message: string }>
+  },
+
+  copy(id: number) {
+    return request.post(`/tasks/${id}/copy`) as Promise<{ message: string; data: any }>
+  },
+
+  latestLog(id: number) {
+    return request.get(`/tasks/${id}/latest-log`) as Promise<any>
+  },
+
+  liveLogs(id: number) {
+    return request.get(`/tasks/${id}/live-logs`) as Promise<{ logs: string[]; done: boolean; status: number }>
+  },
+
+  logFiles(id: number) {
+    return request.get(`/tasks/${id}/log-files`) as Promise<any[]>
+  },
+
+  logFileContent(id: number, filename: string, path?: string) {
+    return request.get(`/tasks/${id}/log-files/${encodeURIComponent(filename)}`, { params: path ? { path } : undefined }) as Promise<{ filename: string; content: string }>
+  },
+
+  deleteLogFile(id: number, filename: string, path?: string) {
+    return request.delete(`/tasks/${id}/log-files/${encodeURIComponent(filename)}`, { params: path ? { path } : undefined }) as Promise<{ message: string }>
+  },
+
+  stats(id: number, days?: number) {
+    return request.get(`/tasks/${id}/stats`, { params: { days } }) as Promise<any>
+  },
+
+  batch(ids: number[], action: string) {
+    return request.put('/tasks/batch', { ids, action }) as Promise<{ message: string; count: number }>
+  },
+
+  batchEnable(taskIds: number[]) {
+    return request.put('/tasks/batch/enable', { task_ids: taskIds }) as Promise<{ message: string; success_count: number }>
+  },
+
+  batchDisable(taskIds: number[]) {
+    return request.put('/tasks/batch/disable', { task_ids: taskIds }) as Promise<{ message: string; success_count: number }>
+  },
+
+  batchDelete(taskIds: number[]) {
+    return request.delete('/tasks/batch/delete', { data: { task_ids: taskIds } }) as Promise<{ message: string; count: number }>
+  },
+
+  batchRun(taskIds: number[]) {
+    return request.post('/tasks/batch/run', { task_ids: taskIds }) as Promise<{ message: string; count: number }>
+  },
+
+  batchAddLabels(taskIds: number[], labels: string[]) {
+    return request.put('/tasks/batch/add-labels', { task_ids: taskIds, labels }) as Promise<{ message: string; success_count: number }>
+  },
+
+  cleanLogs(days?: number) {
+    return request.delete('/tasks/clean-logs', { params: { days } }) as Promise<{ message: string }>
+  },
+
+  export() {
+    return request.get('/tasks/export') as Promise<{ data: any[] }>
+  },
+
+  import(tasks: any[]) {
+    return request.post('/tasks/import', { tasks }) as Promise<{ message: string; errors: string[] }>
+  },
+
+  cronParse(expression: string) {
+    return request.post('/tasks/cron/parse', { expression }) as Promise<any>
+  },
+
+  cronTemplates() {
+    return request.get('/tasks/cron/templates') as Promise<any[]>
+  }
+}

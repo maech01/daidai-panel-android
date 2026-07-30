@@ -1,1 +1,179 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvcGtnL3BhdGh1dGlsIgoKCSJnb3JtLmlvL2dvcm0iCikKCnR5cGUgdGFza1N0YXR1c1Jlc29sdmVyIGZ1bmMoKm1vZGVsLlRhc2spIGZsb2F0NjQKCmZ1bmMgTWFya0FjdGl2ZVRhc2tzSW50ZXJydXB0ZWQocmVhc29uIHN0cmluZykgaW50IHsKCXJldHVybiBtYXJrQWN0aXZlVGFza3NJbnRlcnJ1cHRlZChyZWFzb24sIFJlc29sdmVUYXNrSW5hY3RpdmVTdGF0dXMpCn0KCmZ1bmMgUmVjb3ZlckFiYW5kb25lZEFjdGl2ZVRhc2tzKHJlYXNvbiBzdHJpbmcpIGludCB7CglyZXR1cm4gbWFya0FjdGl2ZVRhc2tzSW50ZXJydXB0ZWQocmVhc29uLCBSZXNvbHZlVGFza1JlY292ZXJlZFN0YXR1cykKfQoKZnVuYyBSZXNvbHZlVGFza1JlY292ZXJlZFN0YXR1cyh0YXNrICptb2RlbC5UYXNrKSBmbG9hdDY0IHsKCWlmIHRhc2sgPT0gbmlsIHsKCQlyZXR1cm4gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQKCX0KCWlmIHRhc2suU3RhdHVzID09IG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZCB7CgkJcmV0dXJuIG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZAoJfQoJaWYgdGFzay5TdGF0dXMgPT0gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQgewoJCXJldHVybiBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZAoJfQoKCWlmIHNjaGVkdWxlciA6PSBHZXRTY2hlZHVsZXJWMigpOyBzY2hlZHVsZXIgIT0gbmlsICYmIHNjaGVkdWxlci5IYXNKb2IodGFzay5JRCkgewoJCXJldHVybiBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZAoJfQoKCXN3aXRjaCB0YXNrLkdldFRhc2tUeXBlKCkgewoJY2FzZSBtb2RlbC5UYXNrVHlwZUNyb24sIG1vZGVsLlRhc2tUeXBlTWFudWFsLCBtb2RlbC5UYXNrVHlwZVN0YXJ0dXA6CgkJcmV0dXJuIG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkCglkZWZhdWx0OgoJCXJldHVybiBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZAoJfQp9CgpmdW5jIG1hcmtBY3RpdmVUYXNrc0ludGVycnVwdGVkKHJlYXNvbiBzdHJpbmcsIHJlc29sdmUgdGFza1N0YXR1c1Jlc29sdmVyKSBpbnQgewoJaWYgc3RyaW5ncy5UcmltU3BhY2UocmVhc29uKSA9PSAiIiB7CgkJcmVhc29uID0gIuS7u+WKoeW3suiiq+mdouadv+S4reaWrSIKCX0KCWlmIHJlc29sdmUgPT0gbmlsIHsKCQlyZXNvbHZlID0gUmVzb2x2ZVRhc2tJbmFjdGl2ZVN0YXR1cwoJfQoKCXZhciB0YXNrcyBbXW1vZGVsLlRhc2sKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi4KCQlXaGVyZSgic3RhdHVzIElOID8iLCBbXWZsb2F0NjR7bW9kZWwuVGFza1N0YXR1c1F1ZXVlZCwgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmd9KS4KCQlGaW5kKCZ0YXNrcykuRXJyb3I7IGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoInF1ZXJ5IGFjdGl2ZSB0YXNrcyBmb3IgaW50ZXJydXB0IGNsZWFudXAgZmFpbGVkOiAldiIsIGVycikKCQlyZXR1cm4gMAoJfQoKCW5vdyA6PSB0aW1lLk5vdygpCglmYWlsZWRSdW5TdGF0dXMgOj0gbW9kZWwuUnVuRmFpbGVkCglpbnRlcnJ1cHRlZENvdW50IDo9IDAKCWZvciBpIDo9IHJhbmdlIHRhc2tzIHsKCQl0YXNrIDo9ICZ0YXNrc1tpXQoJCWR1cmF0aW9uIDo9IGludGVycnVwdGVkVGFza0R1cmF0aW9uKHRhc2ssIG5vdykKCQl0YXJnZXRTdGF0dXMgOj0gcmVzb2x2ZSh0YXNrKQoKCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuTW9kZWwodGFzaykuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkic3RhdHVzIjogICAgICAgICAgICB0YXJnZXRTdGF0dXMsCgkJCSJsYXN0X3J1bl9zdGF0dXMiOiAgIGZhaWxlZFJ1blN0YXR1cywKCQkJImxhc3RfcnVubmluZ190aW1lIjogZHVyYXRpb24sCgkJCSJwaWQiOiAgICAgICAgICAgICAgIGdvcm0uRXhwcigiTlVMTCIpLAoJCQkibG9nX3BhdGgiOiAgICAgICAgICBnb3JtLkV4cHIoIk5VTEwiKSwKCQl9KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCWxvZy5QcmludGYoIm1hcmsgdGFzayAlZCBpbnRlcnJ1cHRlZCBmYWlsZWQ6ICV2IiwgdGFzay5JRCwgZXJyKQoJCQljb250aW51ZQoJCX0KCgkJbWFya1Rhc2tMb2dJbnRlcnJ1cHRlZCh0YXNrLCByZWFzb24sIG5vdywgZHVyYXRpb24pCgkJaW50ZXJydXB0ZWRDb3VudCsrCgl9CgoJcmV0dXJuIGludGVycnVwdGVkQ291bnQKfQoKZnVuYyBpbnRlcnJ1cHRlZFRhc2tEdXJhdGlvbih0YXNrICptb2RlbC5UYXNrLCBub3cgdGltZS5UaW1lKSBmbG9hdDY0IHsKCWlmIHRhc2sgPT0gbmlsIHx8IHRhc2suTGFzdFJ1bkF0ID09IG5pbCB7CgkJcmV0dXJuIDAKCX0KCWR1cmF0aW9uIDo9IG5vdy5TdWIoKnRhc2suTGFzdFJ1bkF0KS5TZWNvbmRzKCkKCWlmIGR1cmF0aW9uIDwgMCB7CgkJcmV0dXJuIDAKCX0KCXJldHVybiBkdXJhdGlvbgp9CgpmdW5jIG1hcmtUYXNrTG9nSW50ZXJydXB0ZWQodGFzayAqbW9kZWwuVGFzaywgcmVhc29uIHN0cmluZywgbm93IHRpbWUuVGltZSwgZHVyYXRpb24gZmxvYXQ2NCkgewoJaWYgdGFzayA9PSBuaWwgewoJCXJldHVybgoJfQoKCWZhaWxlZExvZ1N0YXR1cyA6PSBtb2RlbC5Mb2dTdGF0dXNGYWlsZWQKCW1lc3NhZ2UgOj0gZm10LlNwcmludGYoIj09PSDku7vliqHkuK3mlq0gWyVzXSA9PT1cbiVzXG4iLCBub3cuRm9ybWF0KCIyMDA2LTAxLTAyIDE1OjA0OjA1IiksIHJlYXNvbikKCgl2YXIgcnVubmluZ0xvZyBtb2RlbC5UYXNrTG9nCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuCgkJV2hlcmUoInRhc2tfaWQgPSA/IEFORCBzdGF0dXMgPSA/IiwgdGFzay5JRCwgbW9kZWwuTG9nU3RhdHVzUnVubmluZykuCgkJT3JkZXIoInN0YXJ0ZWRfYXQgREVTQyIpLgoJCUZpcnN0KCZydW5uaW5nTG9nKS5FcnJvcjsgZXJyID09IG5pbCB7CgkJdXBkYXRlcyA6PSBtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkic3RhdHVzIjogICBmYWlsZWRMb2dTdGF0dXMsCgkJCSJlbmRlZF9hdCI6IG5vdywKCQkJImR1cmF0aW9uIjogZHVyYXRpb24sCgkJfQoJCWlmIHN0cmluZ3MuVHJpbVNwYWNlKHJ1bm5pbmdMb2cuQ29udGVudCkgPT0gIiIgewoJCQl1cGRhdGVzWyJjb250ZW50Il0gPSBtZXNzYWdlCgkJfSBlbHNlIHsKCQkJdXBkYXRlc1siY29udGVudCJdID0gc3RyaW5ncy5UcmltUmlnaHQocnVubmluZ0xvZy5Db250ZW50LCAiXG4iKSArICJcbiIgKyBtZXNzYWdlCgkJfQoJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5Nb2RlbCgmcnVubmluZ0xvZykuVXBkYXRlcyh1cGRhdGVzKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCWxvZy5QcmludGYoIm1hcmsgdGFzayBsb2cgJWQgaW50ZXJydXB0ZWQgZmFpbGVkOiAldiIsIHJ1bm5pbmdMb2cuSUQsIGVycikKCQl9CgkJaWYgcnVubmluZ0xvZy5Mb2dQYXRoICE9IG5pbCB7CgkJCWFwcGVuZFRhc2tJbnRlcnJ1cHRMb2dGaWxlKCpydW5uaW5nTG9nLkxvZ1BhdGgsIG1lc3NhZ2UpCgkJfQoJCXJldHVybgoJfQoKCXN0YXJ0ZWRBdCA6PSBub3cKCWlmIHRhc2suTGFzdFJ1bkF0ICE9IG5pbCB7CgkJc3RhcnRlZEF0ID0gKnRhc2suTGFzdFJ1bkF0Cgl9Cgl0YXNrTG9nIDo9ICZtb2RlbC5UYXNrTG9newoJCVRhc2tJRDogICAgdGFzay5JRCwKCQlDb250ZW50OiAgIG1lc3NhZ2UsCgkJU3RhdHVzOiAgICAmZmFpbGVkTG9nU3RhdHVzLAoJCUR1cmF0aW9uOiAgJmR1cmF0aW9uLAoJCVN0YXJ0ZWRBdDogc3RhcnRlZEF0LAoJCUVuZGVkQXQ6ICAgJm5vdywKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUodGFza0xvZykuRXJyb3I7IGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoImNyZWF0ZSBpbnRlcnJ1cHRlZCB0YXNrIGxvZyBmb3IgdGFzayAlZCBmYWlsZWQ6ICV2IiwgdGFzay5JRCwgZXJyKQoJfQp9CgpmdW5jIGFwcGVuZFRhc2tJbnRlcnJ1cHRMb2dGaWxlKHJlbExvZ1BhdGggc3RyaW5nLCBjb250ZW50IHN0cmluZykgewoJcmVsTG9nUGF0aCA9IHN0cmluZ3MuVHJpbVNwYWNlKHJlbExvZ1BhdGgpCglpZiByZWxMb2dQYXRoID09ICIiIHx8IHN0cmluZ3MuVHJpbVNwYWNlKGNvbmZpZy5DLkRhdGEuTG9nRGlyKSA9PSAiIiB7CgkJcmV0dXJuCgl9CgoJZnVsbFBhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLkxvZ0RpciwgcmVsTG9nUGF0aCkKCWFic1BhdGgsIGVyciA6PSBwYXRodXRpbC5SZXNvbHZlV2l0aGluQmFzZShjb25maWcuQy5EYXRhLkxvZ0RpciwgZnVsbFBhdGgsIGZhbHNlKQoJaWYgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50ZigicmVzb2x2ZSBpbnRlcnJ1cHRlZCB0YXNrIGxvZyBwYXRoIGZhaWxlZDogJXYiLCBlcnIpCgkJcmV0dXJuCgl9CglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKGFic1BhdGgpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoImNyZWF0ZSBpbnRlcnJ1cHRlZCB0YXNrIGxvZyBkaXIgZmFpbGVkOiAldiIsIGVycikKCQlyZXR1cm4KCX0KCWZpbGUsIGVyciA6PSBvcy5PcGVuRmlsZShhYnNQYXRoLCBvcy5PX0NSRUFURXxvcy5PX1dST05MWXxvcy5PX0FQUEVORCwgMG82NDQpCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJvcGVuIGludGVycnVwdGVkIHRhc2sgbG9nIGZpbGUgZmFpbGVkOiAldiIsIGVycikKCQlyZXR1cm4KCX0KCWRlZmVyIGZpbGUuQ2xvc2UoKQoJaWYgXywgZXJyIDo9IGZpbGUuV3JpdGVTdHJpbmcoIlxuIiArIGNvbnRlbnQpOyBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJ3cml0ZSBpbnRlcnJ1cHRlZCB0YXNrIGxvZyBmaWxlIGZhaWxlZDogJXYiLCBlcnIpCgl9Cn0K
+package service
+
+import (
+	"fmt"
+	"log"
+	"os"
+	"path/filepath"
+	"strings"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/pathutil"
+
+	"gorm.io/gorm"
+)
+
+type taskStatusResolver func(*model.Task) float64
+
+func MarkActiveTasksInterrupted(reason string) int {
+	return markActiveTasksInterrupted(reason, ResolveTaskInactiveStatus)
+}
+
+func RecoverAbandonedActiveTasks(reason string) int {
+	return markActiveTasksInterrupted(reason, ResolveTaskRecoveredStatus)
+}
+
+func ResolveTaskRecoveredStatus(task *model.Task) float64 {
+	if task == nil {
+		return model.TaskStatusEnabled
+	}
+	if task.Status == model.TaskStatusDisabled {
+		return model.TaskStatusDisabled
+	}
+	if task.Status == model.TaskStatusEnabled {
+		return model.TaskStatusEnabled
+	}
+
+	if scheduler := GetSchedulerV2(); scheduler != nil && scheduler.HasJob(task.ID) {
+		return model.TaskStatusEnabled
+	}
+
+	switch task.GetTaskType() {
+	case model.TaskTypeCron, model.TaskTypeManual, model.TaskTypeStartup:
+		return model.TaskStatusEnabled
+	default:
+		return model.TaskStatusEnabled
+	}
+}
+
+func markActiveTasksInterrupted(reason string, resolve taskStatusResolver) int {
+	if strings.TrimSpace(reason) == "" {
+		reason = "任务已被面板中断"
+	}
+	if resolve == nil {
+		resolve = ResolveTaskInactiveStatus
+	}
+
+	var tasks []model.Task
+	if err := database.DB.
+		Where("status IN ?", []float64{model.TaskStatusQueued, model.TaskStatusRunning}).
+		Find(&tasks).Error; err != nil {
+		log.Printf("query active tasks for interrupt cleanup failed: %v", err)
+		return 0
+	}
+
+	now := time.Now()
+	failedRunStatus := model.RunFailed
+	interruptedCount := 0
+	for i := range tasks {
+		task := &tasks[i]
+		duration := interruptedTaskDuration(task, now)
+		targetStatus := resolve(task)
+
+		if err := database.DB.Model(task).Updates(map[string]interface{}{
+			"status":            targetStatus,
+			"last_run_status":   failedRunStatus,
+			"last_running_time": duration,
+			"pid":               gorm.Expr("NULL"),
+			"log_path":          gorm.Expr("NULL"),
+		}).Error; err != nil {
+			log.Printf("mark task %d interrupted failed: %v", task.ID, err)
+			continue
+		}
+
+		markTaskLogInterrupted(task, reason, now, duration)
+		interruptedCount++
+	}
+
+	return interruptedCount
+}
+
+func interruptedTaskDuration(task *model.Task, now time.Time) float64 {
+	if task == nil || task.LastRunAt == nil {
+		return 0
+	}
+	duration := now.Sub(*task.LastRunAt).Seconds()
+	if duration < 0 {
+		return 0
+	}
+	return duration
+}
+
+func markTaskLogInterrupted(task *model.Task, reason string, now time.Time, duration float64) {
+	if task == nil {
+		return
+	}
+
+	failedLogStatus := model.LogStatusFailed
+	message := fmt.Sprintf("=== 任务中断 [%s] ===\n%s\n", now.Format("2006-01-02 15:04:05"), reason)
+
+	var runningLog model.TaskLog
+	if err := database.DB.
+		Where("task_id = ? AND status = ?", task.ID, model.LogStatusRunning).
+		Order("started_at DESC").
+		First(&runningLog).Error; err == nil {
+		updates := map[string]interface{}{
+			"status":   failedLogStatus,
+			"ended_at": now,
+			"duration": duration,
+		}
+		if strings.TrimSpace(runningLog.Content) == "" {
+			updates["content"] = message
+		} else {
+			updates["content"] = strings.TrimRight(runningLog.Content, "\n") + "\n" + message
+		}
+		if err := database.DB.Model(&runningLog).Updates(updates).Error; err != nil {
+			log.Printf("mark task log %d interrupted failed: %v", runningLog.ID, err)
+		}
+		if runningLog.LogPath != nil {
+			appendTaskInterruptLogFile(*runningLog.LogPath, message)
+		}
+		return
+	}
+
+	startedAt := now
+	if task.LastRunAt != nil {
+		startedAt = *task.LastRunAt
+	}
+	taskLog := &model.TaskLog{
+		TaskID:    task.ID,
+		Content:   message,
+		Status:    &failedLogStatus,
+		Duration:  &duration,
+		StartedAt: startedAt,
+		EndedAt:   &now,
+	}
+	if err := database.DB.Create(taskLog).Error; err != nil {
+		log.Printf("create interrupted task log for task %d failed: %v", task.ID, err)
+	}
+}
+
+func appendTaskInterruptLogFile(relLogPath string, content string) {
+	relLogPath = strings.TrimSpace(relLogPath)
+	if relLogPath == "" || strings.TrimSpace(config.C.Data.LogDir) == "" {
+		return
+	}
+
+	fullPath := filepath.Join(config.C.Data.LogDir, relLogPath)
+	absPath, err := pathutil.ResolveWithinBase(config.C.Data.LogDir, fullPath, false)
+	if err != nil {
+		log.Printf("resolve interrupted task log path failed: %v", err)
+		return
+	}
+	if err := os.MkdirAll(filepath.Dir(absPath), 0o755); err != nil {
+		log.Printf("create interrupted task log dir failed: %v", err)
+		return
+	}
+	file, err := os.OpenFile(absPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0o644)
+	if err != nil {
+		log.Printf("open interrupted task log file failed: %v", err)
+		return
+	}
+	defer file.Close()
+	if _, err := file.WriteString("\n" + content); err != nil {
+		log.Printf("write interrupted task log file failed: %v", err)
+	}
+}

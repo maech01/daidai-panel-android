@@ -1,1 +1,7 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgIm9zIgoKZnVuYyBtYWluKCkgewoJb3MuRXhpdChydW4ob3MuQXJnc1sxOl0pKQp9Cg==
+package main
+
+import "os"
+
+func main() {
+	os.Exit(run(os.Args[1:]))
+}

@@ -1,1 +1,66 @@
-cGFja2FnZSBuZXR1dGlsCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3ROb3JtYWxpemVJUFdoaXRlbGlzdEVudHJ5KHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIjIwMy4wLjExMy43IjogICAgICIyMDMuMC4xMTMuNyIsCgkJIjIwMy4wLjExMy4wLzI0IjogICIyMDMuMC4xMTMuMC8yNCIsCgkJIjIwMy4wLjExMy4qIjogICAgICIyMDMuMC4xMTMuMC8yNCIsCgkJIjIwMy4wLiouKiI6ICAgICAgICIyMDMuMC4wLjAvMTYiLAoJCSIyMDAxOmRiODo6MSI6ICAgICAiMjAwMTpkYjg6OjEiLAoJCSIyMDAxOmRiODo6LzY0IjogICAiMjAwMTpkYjg6Oi82NCIsCgkJIiAyMDMuMC4xMTMuMTAgICI6ICIyMDMuMC4xMTMuMTAiLAoJCSIgMjAzLjAuMTEzLiogICI6ICAiMjAzLjAuMTEzLjAvMjQiLAoJfQoKCWZvciBpbnB1dCwgd2FudCA6PSByYW5nZSBjYXNlcyB7CgkJZ290LCBlcnIgOj0gTm9ybWFsaXplSVBXaGl0ZWxpc3RFbnRyeShpbnB1dCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoIk5vcm1hbGl6ZUlQV2hpdGVsaXN0RW50cnkoJXEpIHJldHVybmVkIGVycm9yOiAldiIsIGlucHV0LCBlcnIpCgkJfQoJCWlmIGdvdCAhPSB3YW50IHsKCQkJdC5GYXRhbGYoIk5vcm1hbGl6ZUlQV2hpdGVsaXN0RW50cnkoJXEpID0gJXEsIHdhbnQgJXEiLCBpbnB1dCwgZ290LCB3YW50KQoJCX0KCX0KfQoKZnVuYyBUZXN0Tm9ybWFsaXplSVBXaGl0ZWxpc3RFbnRyeVJlamVjdHNJbnZhbGlkSW5wdXQodCAqdGVzdGluZy5UKSB7CglpbnZhbGlkSW5wdXRzIDo9IFtdc3RyaW5newoJCSIiLAoJCSJhYmMiLAoJCSIyMDMuMC4xMTMuOTk5IiwKCQkiMjAzLiouMTEzLioiLAoJCSIqLiouKi4qIiwKCQkiMjAzLjAuMTEzLjAvOTkiLAoJfQoKCWZvciBfLCBpbnB1dCA6PSByYW5nZSBpbnZhbGlkSW5wdXRzIHsKCQlpZiBfLCBlcnIgOj0gTm9ybWFsaXplSVBXaGl0ZWxpc3RFbnRyeShpbnB1dCk7IGVyciA9PSBuaWwgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgJXEgdG8gYmUgcmVqZWN0ZWQiLCBpbnB1dCkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdE1hdGNoSVBXaGl0ZWxpc3RFbnRyeSh0ICp0ZXN0aW5nLlQpIHsKCWNhc2VzIDo9IFtdc3RydWN0IHsKCQllbnRyeSAgICBzdHJpbmcKCQljbGllbnRJUCBzdHJpbmcKCQl3YW50ICAgICBib29sCgl9ewoJCXtlbnRyeTogIjIwMy4wLjExMy43IiwgY2xpZW50SVA6ICIyMDMuMC4xMTMuNyIsIHdhbnQ6IHRydWV9LAoJCXtlbnRyeTogIjIwMy4wLjExMy43IiwgY2xpZW50SVA6ICIyMDMuMC4xMTMuOCIsIHdhbnQ6IGZhbHNlfSwKCQl7ZW50cnk6ICIyMDMuMC4xMTMuMC8yNCIsIGNsaWVudElQOiAiMjAzLjAuMTEzLjk5Iiwgd2FudDogdHJ1ZX0sCgkJe2VudHJ5OiAiMjAzLjAuMTEzLjAvMjQiLCBjbGllbnRJUDogIjIwMy4wLjExNC4xIiwgd2FudDogZmFsc2V9LAoJCXtlbnRyeTogIjIwMy4wLjExMy4qIiwgY2xpZW50SVA6ICIyMDMuMC4xMTMuMjU0Iiwgd2FudDogdHJ1ZX0sCgkJe2VudHJ5OiAiMjAzLjAuKi4qIiwgY2xpZW50SVA6ICIyMDMuMC43LjkiLCB3YW50OiB0cnVlfSwKCQl7ZW50cnk6ICIyMDAxOmRiODo6LzY0IiwgY2xpZW50SVA6ICIyMDAxOmRiODo6MTIzNCIsIHdhbnQ6IHRydWV9LAoJCXtlbnRyeTogIjIwMDE6ZGI4OjoxIiwgY2xpZW50SVA6ICIyMDAxOmRiODo6MiIsIHdhbnQ6IGZhbHNlfSwKCX0KCglmb3IgXywgdGMgOj0gcmFuZ2UgY2FzZXMgewoJCWlmIGdvdCA6PSBNYXRjaElQV2hpdGVsaXN0RW50cnkodGMuZW50cnksIHRjLmNsaWVudElQKTsgZ290ICE9IHRjLndhbnQgewoJCQl0LkZhdGFsZigiTWF0Y2hJUFdoaXRlbGlzdEVudHJ5KCVxLCAlcSkgPSAldiwgd2FudCAldiIsIHRjLmVudHJ5LCB0Yy5jbGllbnRJUCwgZ290LCB0Yy53YW50KQoJCX0KCX0KfQo=
+package netutil
+
+import "testing"
+
+func TestNormalizeIPWhitelistEntry(t *testing.T) {
+	cases := map[string]string{
+		"203.0.113.7":     "203.0.113.7",
+		"203.0.113.0/24":  "203.0.113.0/24",
+		"203.0.113.*":     "203.0.113.0/24",
+		"203.0.*.*":       "203.0.0.0/16",
+		"2001:db8::1":     "2001:db8::1",
+		"2001:db8::/64":   "2001:db8::/64",
+		" 203.0.113.10  ": "203.0.113.10",
+		" 203.0.113.*  ":  "203.0.113.0/24",
+	}
+
+	for input, want := range cases {
+		got, err := NormalizeIPWhitelistEntry(input)
+		if err != nil {
+			t.Fatalf("NormalizeIPWhitelistEntry(%q) returned error: %v", input, err)
+		}
+		if got != want {
+			t.Fatalf("NormalizeIPWhitelistEntry(%q) = %q, want %q", input, got, want)
+		}
+	}
+}
+
+func TestNormalizeIPWhitelistEntryRejectsInvalidInput(t *testing.T) {
+	invalidInputs := []string{
+		"",
+		"abc",
+		"203.0.113.999",
+		"203.*.113.*",
+		"*.*.*.*",
+		"203.0.113.0/99",
+	}
+
+	for _, input := range invalidInputs {
+		if _, err := NormalizeIPWhitelistEntry(input); err == nil {
+			t.Fatalf("expected %q to be rejected", input)
+		}
+	}
+}
+
+func TestMatchIPWhitelistEntry(t *testing.T) {
+	cases := []struct {
+		entry    string
+		clientIP string
+		want     bool
+	}{
+		{entry: "203.0.113.7", clientIP: "203.0.113.7", want: true},
+		{entry: "203.0.113.7", clientIP: "203.0.113.8", want: false},
+		{entry: "203.0.113.0/24", clientIP: "203.0.113.99", want: true},
+		{entry: "203.0.113.0/24", clientIP: "203.0.114.1", want: false},
+		{entry: "203.0.113.*", clientIP: "203.0.113.254", want: true},
+		{entry: "203.0.*.*", clientIP: "203.0.7.9", want: true},
+		{entry: "2001:db8::/64", clientIP: "2001:db8::1234", want: true},
+		{entry: "2001:db8::1", clientIP: "2001:db8::2", want: false},
+	}
+
+	for _, tc := range cases {
+		if got := MatchIPWhitelistEntry(tc.entry, tc.clientIP); got != tc.want {
+			t.Fatalf("MatchIPWhitelistEntry(%q, %q) = %v, want %v", tc.entry, tc.clientIP, got, tc.want)
+		}
+	}
+}

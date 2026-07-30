@@ -1,1 +1,16 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImJ5dGVzIgoJInRlc3RpbmciCikKCmZ1bmMgVGVzdFdyaXRlU1NFRGF0YVByZWZpeGVzRXZlcnlMaW5lKHQgKnRlc3RpbmcuVCkgewoJdmFyIGJ1ZiBieXRlcy5CdWZmZXIKCXdyaXRlU1NFRGF0YSgmYnVmLCAiZmlyc3RcbnNlY29uZFxyXG50aGlyZFxuIikKCgl3YW50IDo9ICJkYXRhOiBmaXJzdFxuZGF0YTogc2Vjb25kXG5kYXRhOiB0aGlyZFxuZGF0YTogXG5cbiIKCWlmIGdvdCA6PSBidWYuU3RyaW5nKCk7IGdvdCAhPSB3YW50IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgU1NFIGRhdGEgJXEsIGdvdCAlcSIsIHdhbnQsIGdvdCkKCX0KfQo=
+package handler
+
+import (
+	"bytes"
+	"testing"
+)
+
+func TestWriteSSEDataPrefixesEveryLine(t *testing.T) {
+	var buf bytes.Buffer
+	writeSSEData(&buf, "first\nsecond\r\nthird\n")
+
+	want := "data: first\ndata: second\ndata: third\ndata: \n\n"
+	if got := buf.String(); got != want {
+		t.Fatalf("expected SSE data %q, got %q", want, got)
+	}
+}

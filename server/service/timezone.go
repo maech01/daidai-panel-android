@@ -1,1 +1,52 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInN5bmMiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgopCgp2YXIgcGFuZWxUaW1lem9uZVN0YXRlID0gc3RydWN0IHsKCXN5bmMuUldNdXRleAoJbmFtZSBzdHJpbmcKfXsKCW5hbWU6IG1vZGVsLkRlZmF1bHRQYW5lbFRpbWV6b25lLAp9CgpmdW5jIEFwcGx5UGFuZWxUaW1lem9uZSh2YWx1ZSBzdHJpbmcpIGVycm9yIHsKCW5vcm1hbGl6ZWQsIGVyciA6PSBtb2RlbC5Ob3JtYWxpemVTeXN0ZW1Db25maWdWYWx1ZShtb2RlbC5QYW5lbFRpbWV6b25lQ29uZmlnS2V5LCB2YWx1ZSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglsb2NhdGlvbiwgZXJyIDo9IHRpbWUuTG9hZExvY2F0aW9uKG5vcm1hbGl6ZWQpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJLy8gR28g6L+b56iL5YaF55qEIHRpbWUuTm93KCkg5L2/55SoIHRpbWUuTG9jYWzvvJvlrZDov5vnqIvlkozohJrmnKzlho3pgJrov4cgVFog57un5om/5ZCM5LiA5Liq6Z2i5p2/5pe25Yy644CCCgl0aW1lLkxvY2FsID0gbG9jYXRpb24KCV8gPSBvcy5TZXRlbnYoIlRaIiwgbm9ybWFsaXplZCkKCglwYW5lbFRpbWV6b25lU3RhdGUuTG9jaygpCglwYW5lbFRpbWV6b25lU3RhdGUubmFtZSA9IG5vcm1hbGl6ZWQKCXBhbmVsVGltZXpvbmVTdGF0ZS5VbmxvY2soKQoJcmV0dXJuIG5pbAp9CgpmdW5jIEFwcGx5UmVnaXN0ZXJlZFBhbmVsVGltZXpvbmUoKSBlcnJvciB7CglyZXR1cm4gQXBwbHlQYW5lbFRpbWV6b25lKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcobW9kZWwuUGFuZWxUaW1lem9uZUNvbmZpZ0tleSkpCn0KCmZ1bmMgQ3VycmVudFBhbmVsVGltZXpvbmUoKSBzdHJpbmcgewoJcGFuZWxUaW1lem9uZVN0YXRlLlJMb2NrKCkKCW5hbWUgOj0gcGFuZWxUaW1lem9uZVN0YXRlLm5hbWUKCXBhbmVsVGltZXpvbmVTdGF0ZS5SVW5sb2NrKCkKCglpZiBuYW1lID09ICIiIHsKCQlyZXR1cm4gbW9kZWwuRGVmYXVsdFBhbmVsVGltZXpvbmUKCX0KCXJldHVybiBuYW1lCn0K
+package service
+
+import (
+	"os"
+	"sync"
+	"time"
+
+	"daidai-panel/model"
+)
+
+var panelTimezoneState = struct {
+	sync.RWMutex
+	name string
+}{
+	name: model.DefaultPanelTimezone,
+}
+
+func ApplyPanelTimezone(value string) error {
+	normalized, err := model.NormalizeSystemConfigValue(model.PanelTimezoneConfigKey, value)
+	if err != nil {
+		return err
+	}
+
+	location, err := time.LoadLocation(normalized)
+	if err != nil {
+		return err
+	}
+
+	// Go 进程内的 time.Now() 使用 time.Local；子进程和脚本再通过 TZ 继承同一个面板时区。
+	time.Local = location
+	_ = os.Setenv("TZ", normalized)
+
+	panelTimezoneState.Lock()
+	panelTimezoneState.name = normalized
+	panelTimezoneState.Unlock()
+	return nil
+}
+
+func ApplyRegisteredPanelTimezone() error {
+	return ApplyPanelTimezone(model.GetRegisteredConfig(model.PanelTimezoneConfigKey))
+}
+
+func CurrentPanelTimezone() string {
+	panelTimezoneState.RLock()
+	name := panelTimezoneState.name
+	panelTimezoneState.RUnlock()
+
+	if name == "" {
+		return model.DefaultPanelTimezone
+	}
+	return name
+}

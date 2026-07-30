@@ -1,1 +1,20 @@
-Ly9nbzpidWlsZCB3aW5kb3dzCgpwYWNrYWdlIHNlcnZpY2UKCmltcG9ydCAoCgkib3MiCgkib3MvZXhlYyIKKQoKZnVuYyBzZXRQZ2lkKGNtZCAqZXhlYy5DbWQpIHsKfQoKZnVuYyBTZXRQZ2lkKGNtZCAqZXhlYy5DbWQpIHsKfQoKZnVuYyBraWxsR3JvdXAocCAqb3MuUHJvY2Vzcykgewp9CgpmdW5jIGtpbGxHcm91cEJ5UGlkKHBpZCBpbnQpIHsKfQo=
+//go:build windows
+
+package service
+
+import (
+	"os"
+	"os/exec"
+)
+
+func setPgid(cmd *exec.Cmd) {
+}
+
+func SetPgid(cmd *exec.Cmd) {
+}
+
+func killGroup(p *os.Process) {
+}
+
+func killGroupByPid(pid int) {
+}

@@ -1,1 +1,151 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImxvZyIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmNvbnYiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKKQoKLy8gcXVhcmFudGluZWRTY3JpcHREaXJOYW1lcyDorrDlvZXlkK/liqjmnJ/pnIDopoHoh6rliqjpmpTnprvnmoTlvILluLjohJrmnKznm67lvZXlkI3jgIIKLy8g6L+Z5Lqb55uu5b2V5LiN5bGe5LqO5q2j5bi46ISa5pys5paH5Lu25qCR77yM5LiA5pem5re35YWl5Lya5rGh5p+T6ISa5pys566h55CG44CB5aSH5Lu95oGi5aSN5ZKM57uf6K6h57uT5p6c44CCCnZhciBxdWFyYW50aW5lZFNjcmlwdERpck5hbWVzID0gbWFwW3N0cmluZ11ib29sewoJIiVzeXN0ZW1kcml2ZSUiOiB0cnVlLAp9CgovLyBTaG91bGRJZ25vcmVTY3JpcHRFbnRyeU5hbWUg5Yik5pat6ISa5pys55uu5b2V5Lit55qE5p+Q5Liq6aG257qnL+WtkOe6p+WQjeensOaYr+WQpuW6lOivpeWcqOWxleekuuOAgee7n+iuoeOAgeWkh+S7veetieWcuuaZr+W/veeVpeOAggovLyDov5nph4zkv53nlZnnu5/kuIDlh7rlj6PvvIzpgb/lhY0gaGFuZGxlciAvIHNlcnZpY2UgLyBiYWNrdXAg5ZCE5YaZ5LiA5aWX5Yik5pat6YC76L6R44CCCmZ1bmMgU2hvdWxkSWdub3JlU2NyaXB0RW50cnlOYW1lKG5hbWUgc3RyaW5nKSBib29sIHsKCW5hbWUgPSBzdHJpbmdzLlRyaW1TcGFjZShuYW1lKQoJaWYgbmFtZSA9PSAiIiB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJc3dpdGNoIHN0cmluZ3MuVG9Mb3dlcihuYW1lKSB7CgljYXNlICJub2RlX21vZHVsZXMiLCAiX19weWNhY2hlX18iOgoJCXJldHVybiB0cnVlCgl9CgoJcmV0dXJuIHF1YXJhbnRpbmVkU2NyaXB0RGlyTmFtZXNbc3RyaW5ncy5Ub0xvd2VyKG5hbWUpXQp9CgovLyBTaG91bGRJZ25vcmVTY3JpcHRQYXRoIOWIpOaWreafkOS4quiEmuacrOebruW9leWGheeahOe7neWvuei3r+W+hOaYr+WQpuWRveS4reW8guW4uOmalOemu+inhOWImeOAggovLyDlj6ropoHnm7jlr7not6/lvoTnrKzkuIDmrrXlkb3kuK3pu5HlkI3ljZXvvIzlsLHorqTkuLrov5nmnaHot6/lvoTkuI3or6Xnu6fnu63lj4LkuI7ohJrmnKznrqHnkIbpk77ot6/jgIIKZnVuYyBTaG91bGRJZ25vcmVTY3JpcHRQYXRoKHNjcmlwdHNEaXIsIHRhcmdldFBhdGggc3RyaW5nKSBib29sIHsKCXNjcmlwdHNEaXIgPSBzdHJpbmdzLlRyaW1TcGFjZShzY3JpcHRzRGlyKQoJdGFyZ2V0UGF0aCA9IHN0cmluZ3MuVHJpbVNwYWNlKHRhcmdldFBhdGgpCglpZiBzY3JpcHRzRGlyID09ICIiIHx8IHRhcmdldFBhdGggPT0gIiIgewoJCXJldHVybiBmYWxzZQoJfQoKCWFic1NjcmlwdHNEaXIsIGVyciA6PSBmaWxlcGF0aC5BYnMoc2NyaXB0c0RpcikKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBmYWxzZQoJfQoJYWJzVGFyZ2V0UGF0aCwgZXJyIDo9IGZpbGVwYXRoLkFicyh0YXJnZXRQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJcmVsUGF0aCwgZXJyIDo9IGZpbGVwYXRoLlJlbChhYnNTY3JpcHRzRGlyLCBhYnNUYXJnZXRQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJcmVsUGF0aCA9IGZpbGVwYXRoLlRvU2xhc2gocmVsUGF0aCkKCWlmIHJlbFBhdGggPT0gIi4iIHx8IHN0cmluZ3MuSGFzUHJlZml4KHJlbFBhdGgsICIuLi8iKSB8fCByZWxQYXRoID09ICIuLiIgewoJCXJldHVybiBmYWxzZQoJfQoKCWZpcnN0U2VnbWVudCA6PSByZWxQYXRoCglpZiBzbGFzaEluZGV4IDo9IHN0cmluZ3MuSW5kZXgoZmlyc3RTZWdtZW50LCAiLyIpOyBzbGFzaEluZGV4ID49IDAgewoJCWZpcnN0U2VnbWVudCA9IGZpcnN0U2VnbWVudFs6c2xhc2hJbmRleF0KCX0KCglyZXR1cm4gU2hvdWxkSWdub3JlU2NyaXB0RW50cnlOYW1lKGZpcnN0U2VnbWVudCkKfQoKLy8gU2hvdWxkSWdub3JlU2NyaXB0UmVsYXRpdmVQYXRoIOeUqOS6jui/mOWOn+Wkh+S7veOAgeWvvOWFpeiEmuacrOetieKAnOebruagh+i3r+W+hOWwmuacquiQveebmOKAneeahOWcuuaZr+OAggovLyDlj6rmo4Dmn6Xnm7jlr7not6/lvoTnrKzkuIDmrrXvvIzpgb/lhY3miorlvILluLjnm67lvZXph43mlrDlhpnlm57ohJrmnKzmoLnnm67lvZXjgIIKZnVuYyBTaG91bGRJZ25vcmVTY3JpcHRSZWxhdGl2ZVBhdGgocmVsUGF0aCBzdHJpbmcpIGJvb2wgewoJcmVsUGF0aCA9IHN0cmluZ3MuVHJpbVNwYWNlKGZpbGVwYXRoLlRvU2xhc2gocmVsUGF0aCkpCglpZiByZWxQYXRoID09ICIiIHx8IHJlbFBhdGggPT0gIi4iIHx8IHJlbFBhdGggPT0gIi8iIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglpZiBzdHJpbmdzLkhhc1ByZWZpeChyZWxQYXRoLCAiLyIpIHsKCQlyZWxQYXRoID0gc3RyaW5ncy5UcmltUHJlZml4KHJlbFBhdGgsICIvIikKCX0KCglmaXJzdFNlZ21lbnQgOj0gcmVsUGF0aAoJaWYgc2xhc2hJbmRleCA6PSBzdHJpbmdzLkluZGV4KGZpcnN0U2VnbWVudCwgIi8iKTsgc2xhc2hJbmRleCA+PSAwIHsKCQlmaXJzdFNlZ21lbnQgPSBmaXJzdFNlZ21lbnRbOnNsYXNoSW5kZXhdCgl9CgoJcmV0dXJuIFNob3VsZElnbm9yZVNjcmlwdEVudHJ5TmFtZShmaXJzdFNlZ21lbnQpCn0KCi8vIFF1YXJhbnRpbmVVbmV4cGVjdGVkU2NyaXB0RW50cmllc09uU3RhcnR1cCDkvJrlnKjlkK/liqjml7bmiorohJrmnKznm67lvZXkuIvnmoTlt7Lnn6XlvILluLjnm67lvZXpmpTnprvliLAgcXVhcmFudGluZSDlrZDnm67lvZXjgIIKLy8g6L+Z5qC36IO95YWI5oqK5b2T5YmN5rGh5p+T5LuO55So5oi36KeG6YeO5ZKM5aSH5Lu96ZO+6Lev6YeM56e76LWw77yM5ZCM5pe25L+d55WZ5Y6f5aeL6K+B5o2u5pa55L6/5ZCO57ut5o6S5p+l5qC55Zug44CCCmZ1bmMgUXVhcmFudGluZVVuZXhwZWN0ZWRTY3JpcHRFbnRyaWVzT25TdGFydHVwKCkgewoJaWYgY29uZmlnLkMgPT0gbmlsIHsKCQlyZXR1cm4KCX0KCglzY3JpcHRzRGlyIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpcikKCWlmIHNjcmlwdHNEaXIgPT0gIiIgewoJCXJldHVybgoJfQoKCWVudHJpZXMsIGVyciA6PSBvcy5SZWFkRGlyKHNjcmlwdHNEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJzY2FuIHNjcmlwdHMgZGlyIGZhaWxlZDogJXYiLCBlcnIpCgkJcmV0dXJuCgl9CgoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudHJpZXMgewoJCWlmICFTaG91bGRJZ25vcmVTY3JpcHRFbnRyeU5hbWUoZW50cnkuTmFtZSgpKSB7CgkJCWNvbnRpbnVlCgkJfQoKCQlzb3VyY2VQYXRoIDo9IGZpbGVwYXRoLkpvaW4oc2NyaXB0c0RpciwgZW50cnkuTmFtZSgpKQoJCXF1YXJhbnRpbmVSb290IDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5EaXIsICJxdWFyYW50aW5lIiwgInNjcmlwdHMiKQoJCWlmIGVyciA6PSBvcy5Na2RpckFsbChxdWFyYW50aW5lUm9vdCwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQkJbG9nLlByaW50ZigiY3JlYXRlIHNjcmlwdCBxdWFyYW50aW5lIGRpciBmYWlsZWQ6ICV2IiwgZXJyKQoJCQljb250aW51ZQoJCX0KCgkJdGFyZ2V0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHF1YXJhbnRpbmVSb290LCBlbnRyeS5OYW1lKCkpCgkJdGFyZ2V0UGF0aCA9IHVuaXF1ZVF1YXJhbnRpbmVQYXRoKHRhcmdldFBhdGgpCgoJCWlmIGVyciA6PSBvcy5SZW5hbWUoc291cmNlUGF0aCwgdGFyZ2V0UGF0aCk7IGVyciAhPSBuaWwgewoJCQlsb2cuUHJpbnRmKCJxdWFyYW50aW5lIHVuZXhwZWN0ZWQgc2NyaXB0IGVudHJ5IGZhaWxlZDogJXMgLT4gJXM6ICV2Iiwgc291cmNlUGF0aCwgdGFyZ2V0UGF0aCwgZXJyKQoJCQljb250aW51ZQoJCX0KCgkJbG9nLlByaW50ZigidW5leHBlY3RlZCBzY3JpcHQgZW50cnkgcXVhcmFudGluZWQ6ICVzIC0+ICVzIiwgc291cmNlUGF0aCwgdGFyZ2V0UGF0aCkKCX0KfQoKLy8gdW5pcXVlUXVhcmFudGluZVBhdGgg6YG/5YWN6ZqU56a755uu5b2V6YeN5ZCN5a+86Ie05Y6G5Y+y6K+B5o2u6KKr6KaG55uW44CCCmZ1bmMgdW5pcXVlUXVhcmFudGluZVBhdGgodGFyZ2V0UGF0aCBzdHJpbmcpIHN0cmluZyB7CglpZiBfLCBlcnIgOj0gb3MuU3RhdCh0YXJnZXRQYXRoKTsgb3MuSXNOb3RFeGlzdChlcnIpIHsKCQlyZXR1cm4gdGFyZ2V0UGF0aAoJfQoKCWRpciA6PSBmaWxlcGF0aC5EaXIodGFyZ2V0UGF0aCkKCWV4dCA6PSBmaWxlcGF0aC5FeHQodGFyZ2V0UGF0aCkKCWJhc2UgOj0gc3RyaW5ncy5UcmltU3VmZml4KGZpbGVwYXRoLkJhc2UodGFyZ2V0UGF0aCksIGV4dCkKCglmb3IgaW5kZXggOj0gMTsgaW5kZXggPCAxMDAwOyBpbmRleCsrIHsKCQljYW5kaWRhdGUgOj0gZmlsZXBhdGguSm9pbihkaXIsIGJhc2UrIi5kdXBsaWNhdGUtIitzdHJjb252Lkl0b2EoaW5kZXgpK2V4dCkKCQlpZiBfLCBlcnIgOj0gb3MuU3RhdChjYW5kaWRhdGUpOyBvcy5Jc05vdEV4aXN0KGVycikgewoJCQlyZXR1cm4gY2FuZGlkYXRlCgkJfQoJfQoKCXJldHVybiBmaWxlcGF0aC5Kb2luKGRpciwgYmFzZSsiLmR1cGxpY2F0ZS1vdmVyZmxvdyIrZXh0KQp9Cg==
+package service
+
+import (
+	"log"
+	"os"
+	"path/filepath"
+	"strconv"
+	"strings"
+
+	"daidai-panel/config"
+)
+
+// quarantinedScriptDirNames 记录启动期需要自动隔离的异常脚本目录名。
+// 这些目录不属于正常脚本文件树，一旦混入会污染脚本管理、备份恢复和统计结果。
+var quarantinedScriptDirNames = map[string]bool{
+	"%systemdrive%": true,
+}
+
+// ShouldIgnoreScriptEntryName 判断脚本目录中的某个顶级/子级名称是否应该在展示、统计、备份等场景忽略。
+// 这里保留统一出口，避免 handler / service / backup 各写一套判断逻辑。
+func ShouldIgnoreScriptEntryName(name string) bool {
+	name = strings.TrimSpace(name)
+	if name == "" {
+		return false
+	}
+
+	switch strings.ToLower(name) {
+	case "node_modules", "__pycache__":
+		return true
+	}
+
+	return quarantinedScriptDirNames[strings.ToLower(name)]
+}
+
+// ShouldIgnoreScriptPath 判断某个脚本目录内的绝对路径是否命中异常隔离规则。
+// 只要相对路径第一段命中黑名单，就认为这条路径不该继续参与脚本管理链路。
+func ShouldIgnoreScriptPath(scriptsDir, targetPath string) bool {
+	scriptsDir = strings.TrimSpace(scriptsDir)
+	targetPath = strings.TrimSpace(targetPath)
+	if scriptsDir == "" || targetPath == "" {
+		return false
+	}
+
+	absScriptsDir, err := filepath.Abs(scriptsDir)
+	if err != nil {
+		return false
+	}
+	absTargetPath, err := filepath.Abs(targetPath)
+	if err != nil {
+		return false
+	}
+
+	relPath, err := filepath.Rel(absScriptsDir, absTargetPath)
+	if err != nil {
+		return false
+	}
+
+	relPath = filepath.ToSlash(relPath)
+	if relPath == "." || strings.HasPrefix(relPath, "../") || relPath == ".." {
+		return false
+	}
+
+	firstSegment := relPath
+	if slashIndex := strings.Index(firstSegment, "/"); slashIndex >= 0 {
+		firstSegment = firstSegment[:slashIndex]
+	}
+
+	return ShouldIgnoreScriptEntryName(firstSegment)
+}
+
+// ShouldIgnoreScriptRelativePath 用于还原备份、导入脚本等“目标路径尚未落盘”的场景。
+// 只检查相对路径第一段，避免把异常目录重新写回脚本根目录。
+func ShouldIgnoreScriptRelativePath(relPath string) bool {
+	relPath = strings.TrimSpace(filepath.ToSlash(relPath))
+	if relPath == "" || relPath == "." || relPath == "/" {
+		return false
+	}
+
+	if strings.HasPrefix(relPath, "/") {
+		relPath = strings.TrimPrefix(relPath, "/")
+	}
+
+	firstSegment := relPath
+	if slashIndex := strings.Index(firstSegment, "/"); slashIndex >= 0 {
+		firstSegment = firstSegment[:slashIndex]
+	}
+
+	return ShouldIgnoreScriptEntryName(firstSegment)
+}
+
+// QuarantineUnexpectedScriptEntriesOnStartup 会在启动时把脚本目录下的已知异常目录隔离到 quarantine 子目录。
+// 这样能先把当前污染从用户视野和备份链路里移走，同时保留原始证据方便后续排查根因。
+func QuarantineUnexpectedScriptEntriesOnStartup() {
+	if config.C == nil {
+		return
+	}
+
+	scriptsDir := strings.TrimSpace(config.C.Data.ScriptsDir)
+	if scriptsDir == "" {
+		return
+	}
+
+	entries, err := os.ReadDir(scriptsDir)
+	if err != nil {
+		log.Printf("scan scripts dir failed: %v", err)
+		return
+	}
+
+	for _, entry := range entries {
+		if !ShouldIgnoreScriptEntryName(entry.Name()) {
+			continue
+		}
+
+		sourcePath := filepath.Join(scriptsDir, entry.Name())
+		quarantineRoot := filepath.Join(config.C.Data.Dir, "quarantine", "scripts")
+		if err := os.MkdirAll(quarantineRoot, 0o755); err != nil {
+			log.Printf("create script quarantine dir failed: %v", err)
+			continue
+		}
+
+		targetPath := filepath.Join(quarantineRoot, entry.Name())
+		targetPath = uniqueQuarantinePath(targetPath)
+
+		if err := os.Rename(sourcePath, targetPath); err != nil {
+			log.Printf("quarantine unexpected script entry failed: %s -> %s: %v", sourcePath, targetPath, err)
+			continue
+		}
+
+		log.Printf("unexpected script entry quarantined: %s -> %s", sourcePath, targetPath)
+	}
+}
+
+// uniqueQuarantinePath 避免隔离目录重名导致历史证据被覆盖。
+func uniqueQuarantinePath(targetPath string) string {
+	if _, err := os.Stat(targetPath); os.IsNotExist(err) {
+		return targetPath
+	}
+
+	dir := filepath.Dir(targetPath)
+	ext := filepath.Ext(targetPath)
+	base := strings.TrimSuffix(filepath.Base(targetPath), ext)
+
+	for index := 1; index < 1000; index++ {
+		candidate := filepath.Join(dir, base+".duplicate-"+strconv.Itoa(index)+ext)
+		if _, err := os.Stat(candidate); os.IsNotExist(err) {
+			return candidate
+		}
+	}
+
+	return filepath.Join(dir, base+".duplicate-overflow"+ext)
+}

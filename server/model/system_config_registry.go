@@ -1,1 +1,647 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJmbXQiCgkibmV0L3VybCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkidGltZSIKCglfICJ0aW1lL3R6ZGF0YSIKCglwYW5lbGNyb24gImRhaWRhaS1wYW5lbC9wa2cvY3JvbiIKCSJkYWlkYWktcGFuZWwvcGtnL25ldHV0aWwiCikKCnR5cGUgU3lzdGVtQ29uZmlnVmFsdWVUeXBlIHN0cmluZwoKY29uc3QgKAoJU3lzdGVtQ29uZmlnVHlwZVN0cmluZyBTeXN0ZW1Db25maWdWYWx1ZVR5cGUgPSAic3RyaW5nIgoJU3lzdGVtQ29uZmlnVHlwZUludCAgICBTeXN0ZW1Db25maWdWYWx1ZVR5cGUgPSAiaW50IgoJU3lzdGVtQ29uZmlnVHlwZUJvb2wgICBTeXN0ZW1Db25maWdWYWx1ZVR5cGUgPSAiYm9vbCIKCVN5c3RlbUNvbmZpZ1R5cGVFbnVtICAgU3lzdGVtQ29uZmlnVmFsdWVUeXBlID0gImVudW0iCikKCnR5cGUgU3lzdGVtQ29uZmlnT3B0aW9uIHN0cnVjdCB7CglWYWx1ZSBzdHJpbmcgYGpzb246InZhbHVlImAKCUxhYmVsIHN0cmluZyBganNvbjoibGFiZWwiYAp9Cgp0eXBlIFN5c3RlbUNvbmZpZ0RlZmluaXRpb24gc3RydWN0IHsKCUtleSAgICAgICAgICBzdHJpbmcgICAgICAgICAgICAgICAgYGpzb246ImtleSJgCglEZWZhdWx0VmFsdWUgc3RyaW5nICAgICAgICAgICAgICAgIGBqc29uOiJkZWZhdWx0X3ZhbHVlImAKCURlc2NyaXB0aW9uICBzdHJpbmcgICAgICAgICAgICAgICAgYGpzb246ImRlc2NyaXB0aW9uImAKCVZhbHVlVHlwZSAgICBTeXN0ZW1Db25maWdWYWx1ZVR5cGUgYGpzb246InZhbHVlX3R5cGUiYAoJR3JvdXAgICAgICAgIHN0cmluZyAgICAgICAgICAgICAgICBganNvbjoiZ3JvdXAiYAoJT3B0aW9ucyAgICAgIFtdU3lzdGVtQ29uZmlnT3B0aW9uICBganNvbjoib3B0aW9ucyxvbWl0ZW1wdHkiYAp9Cgp0eXBlIHN5c3RlbUNvbmZpZ1NwZWMgc3RydWN0IHsKCWRlZiAgICAgICBTeXN0ZW1Db25maWdEZWZpbml0aW9uCglub3JtYWxpemUgZnVuYyhzdHJpbmcpIChzdHJpbmcsIGVycm9yKQp9Cgpjb25zdCAoCglQYW5lbFRpbWV6b25lQ29uZmlnS2V5ID0gInRpbWV6b25lIgoJRGVmYXVsdFBhbmVsVGltZXpvbmUgICA9ICJBc2lhL1NoYW5naGFpIgopCgp2YXIgcmVnaXN0ZXJlZFN5c3RlbUNvbmZpZ1NwZWNzID0gW11zeXN0ZW1Db25maWdTcGVjewoJbmV3SW50Q29uZmlnKCJtYXhfY29uY3VycmVudF90YXNrcyIsICI1IiwgIuWumuaXtuS7u+WKoeacgOWkp+W5tuWPkeaVsCIsICJ0YXNrcyIsIDEsIDEyOCksCgluZXdJbnRDb25maWcoImxvZ19yZXRlbnRpb25fZGF5cyIsICI3IiwgIuaXpeW/l+S/neeVmeWkqeaVsCIsICJ0YXNrcyIsIDEsIDM2NTApLAoJbmV3SW50Q29uZmlnKCJtYXhfbG9nX2NvbnRlbnRfc2l6ZSIsICIxMDI0MDAwMDAiLCAi5Lu75Yqh5pel5b+X5YaF5a655pyA5aSn5L+d55WZ5a2X6IqC5pWwIiwgInRhc2tzIiwgMTAyNCwgNTI0Mjg4MDAwKSwKCW5ld0Jvb2xDb25maWcoImF1dG9fdXBkYXRlX2VuYWJsZWQiLCAiZmFsc2UiLCAi6Z2Z6buY5pu05paw5byA5YWz77yI5q+PIDI0IOWwj+aXtuiHquWKqOajgOafpeW5tuWcqOacieaWsOeJiOacrOaXtuWwneivleabtOaWsO+8iSIsICJuZXR3b3JrIiksCgluZXdUcmltbWVkU3RyaW5nQ29uZmlnKCJhdXRvX3VwZGF0ZV9sYXN0X2NoZWNrZWRfYXQiLCAiIiwgIuS4iuasoeiHquWKqOajgOafpeabtOaWsOaXtumXtCIsICJuZXR3b3JrIiksCgluZXdJbnRDb25maWcoInJhbmRvbV9kZWxheSIsICIwIiwgIuS7u+WKoeaJp+ihjOWJjemaj+acuuW7tui/n+acgOWkp+enkuaVsCIsICJ0YXNrcyIsIDAsIDg2NDAwKSwKCW5ld1RyaW1tZWRTdHJpbmdDb25maWcoInJhbmRvbV9kZWxheV9leHRlbnNpb25zIiwgIiIsICLpmo/mnLrlu7bov5/ku4Xlr7nmjIflrprohJrmnKzlkI7nvIDnlJ/mlYgiLCAidGFza3MiKSwKCW5ld0Jvb2xDb25maWcoImF1dG9faW5zdGFsbF9kZXBzIiwgInRydWUiLCAi6ISa5pys57y65L6d6LWW5pe26Ieq5Yqo5bCd6K+V5a6J6KOFIiwgInRhc2tzIiksCgluZXdFbnVtQ29uZmlnKAoJCSJweXRob25fZGVmYXVsdF92ZXJzaW9uIiwKCQkiMy4xMiIsCgkJIum7mOiupCBQeXRob24g6L+Q6KGM54mI5pysIiwKCQkidGFza3MiLAoJCVtdU3lzdGVtQ29uZmlnT3B0aW9uewoJCQl7VmFsdWU6ICIzLjEwIiwgTGFiZWw6ICJQeXRob24gMy4xMCJ9LAoJCQl7VmFsdWU6ICIzLjExIiwgTGFiZWw6ICJQeXRob24gMy4xMSJ9LAoJCQl7VmFsdWU6ICIzLjEyIiwgTGFiZWw6ICJQeXRob24gMy4xMiJ9LAoJCX0sCgkpLAoJbmV3SW50Q29uZmlnKCJjcHVfd2FybiIsICI4MCIsICJDUFUg5ZGK6K2m6ZiI5YC877yIJe+8iSIsICJhbGVydHMiLCAxLCAxMDApLAoJbmV3SW50Q29uZmlnKCJtZW1vcnlfd2FybiIsICI4MCIsICLlhoXlrZjlkYrorabpmIjlgLzvvIgl77yJIiwgImFsZXJ0cyIsIDEsIDEwMCksCgluZXdJbnRDb25maWcoImRpc2tfd2FybiIsICI5MCIsICLno4Hnm5jlkYrorabpmIjlgLzvvIgl77yJIiwgImFsZXJ0cyIsIDEsIDEwMCksCgluZXdCb29sQ29uZmlnKCJhdXRvX2FkZF9jcm9uIiwgInRydWUiLCAi6Ieq5Yqo5re75Yqg5a6a5pe25Lu75YqhIiwgInN1YnNjcmlwdGlvbiIpLAoJbmV3Qm9vbENvbmZpZygiYXV0b19kZWxfY3JvbiIsICJ0cnVlIiwgIuiHquWKqOWIoOmZpOWkseaViOS7u+WKoSIsICJzdWJzY3JpcHRpb24iKSwKCW5ld0Jvb2xDb25maWcoInN1YnNjcmlwdGlvbl9mb3JjZV9vdmVyd3JpdGUiLCAidHJ1ZSIsICLorqLpmIXmi4nlj5bml7bopobnm5bmnKzlnLDkv67mlLnlubbmuIXnkIblpJrkvZnmlofku7YiLCAic3Vic2NyaXB0aW9uIiksCgluZXdWYWxpZGF0ZWRTdHJpbmdDb25maWcoImRlZmF1bHRfY3Jvbl9ydWxlIiwgIiIsICLorqLpmIXohJrmnKzmnKrlo7DmmI4gY3JvbiDml7bkvb/nlKjnmoTpu5jorqTop4TliJkiLCAic3Vic2NyaXB0aW9uIiwgbm9ybWFsaXplRGVmYXVsdENyb25SdWxlKSwKCW5ld1RyaW1tZWRTdHJpbmdDb25maWcoInJlcG9fZmlsZV9leHRlbnNpb25zIiwgInB5IGpzIHNoIHRzIiwgIuiuoumYheiHquWKqOivhuWIq+S7u+WKoeaXtuaJq+aPj+eahOiEmuacrOWQjue8gCIsICJzdWJzY3JpcHRpb24iKSwKCW5ld0Jvb2xDb25maWcoIm5vdGlmeV9vbl9yZXNvdXJjZV93YXJuIiwgImZhbHNlIiwgIui1hOa6kOi2hemZkOWPkemAgemAmuefpSIsICJhbGVydHMiKSwKCW5ld1RyaW1tZWRTdHJpbmdDb25maWcoIm5vdGlmeV9wYW5lbF9sYWJlbCIsICIiLCAi6YCa55+l5qCH6aKY5YmN57yA55qE6Z2i5p2/5ZCN56ew77yI5aSa6Z2i5p2/5Yy65YiG55So77yM55WZ56m65LiN6ZmE5bim77yJIiwgImFsZXJ0cyIpLAoJbmV3Qm9vbENvbmZpZygibm90aWZ5X29uX2xvZ2luIiwgImZhbHNlIiwgIueZu+W9leaIkOWKn+WPkemAgemAmuefpSIsICJzZWN1cml0eSIpLAoJbmV3VmFsaWRhdGVkU3RyaW5nQ29uZmlnKCJwcm94eV91cmwiLCAiIiwgIuWHuuermeivt+axguS7o+eQhuWcsOWdgCIsICJuZXR3b3JrIiwgbm9ybWFsaXplUHJveHlVUkwpLAoJbmV3VmFsaWRhdGVkU3RyaW5nQ29uZmlnKCJ1cGRhdGVfaW1hZ2VfbWlycm9yIiwgIiIsICLns7vnu5/mm7TmlrDmi4nlj5bplZzlg4/ml7bkvb/nlKjnmoTlj6/pgInplZzlg4/mupDvvIjnlZnnqbrnm7Tov54gRG9ja2VyIEh1Yu+8iSIsICJuZXR3b3JrIiwgbm9ybWFsaXplVXBkYXRlSW1hZ2VNaXJyb3IpLAoJbmV3VmFsaWRhdGVkU3RyaW5nQ29uZmlnKCJiaW5hcnlfdXBkYXRlX3Byb3h5IiwgIiIsICLkuozov5vliLbmm7TmlrDkuIvovb3liqDpgJ/mupDvvIjnlZnnqbrnm7Tov54gR2l0SHViIFJlbGVhc2XvvIkiLCAibmV0d29yayIsIG5vcm1hbGl6ZUJpbmFyeVVwZGF0ZVByb3h5KSwKCW5ld1ZhbGlkYXRlZFN0cmluZ0NvbmZpZygKCQkidHJ1c3RlZF9wcm94eV9jaWRycyIsCgkJc3RyaW5ncy5Kb2luKG5ldHV0aWwuRGVmYXVsdFRydXN0ZWRQcm94eUNJRFJzKCksICJcbiIpLAoJCSLlj6/kv6Hku6PnkIYgQ0lEUi9JUCDliJfooajvvIjpgJflj7fjgIHnqbrmoLzmiJbmjaLooYzliIbpmpTvvIkiLAoJCSJuZXR3b3JrIiwKCQlub3JtYWxpemVUcnVzdGVkUHJveHlDSURScywKCSksCgluZXdUcmltbWVkU3RyaW5nQ29uZmlnKCJwYW5lbF90aXRsZSIsICLlkYblkYbpnaLmnb8iLCAi6Z2i5p2/5qCH6aKYIiwgImJyYW5kaW5nIiksCgluZXdWYWxpZGF0ZWRTdHJpbmdDb25maWcoUGFuZWxUaW1lem9uZUNvbmZpZ0tleSwgRGVmYXVsdFBhbmVsVGltZXpvbmUsICLpnaLmnb/ml7bljLrvvIjlvbHlk43ml6Xlv5fjgIHlrprml7bku7vliqHml6XmnJ/liKTmlq3lkozohJrmnKwgVFrvvIkiLCAiYnJhbmRpbmciLCBub3JtYWxpemVUaW1lem9uZVZhbHVlKSwKCW5ld1RyaW1tZWRTdHJpbmdDb25maWcoInBhbmVsX2ljb24iLCAiIiwgIumdouadv+Wbvuagh++8iFNWRyBkYXRhIFVSTO+8iSIsICJicmFuZGluZyIpLAoJbmV3VHJpbW1lZFN0cmluZ0NvbmZpZygiZWRpdG9yX2JhY2tncm91bmRfY29sb3IiLCAiIiwgIuiEmuacrOe8lui+keWZqOiDjOaZr+minOiJsu+8iOeVmeepuuS9v+eUqOm7mOiupOagt+W8j++8iSIsICJicmFuZGluZyIpLAoJbmV3VHJpbW1lZFN0cmluZ0NvbmZpZygibG9nX2JhY2tncm91bmRfY29sb3IiLCAiIiwgIuaXpeW/l+inhuWbvuiDjOaZr+minOiJsu+8iOeVmeepuui3n+maj+W9k+WJjeS4u+mimO+8iSIsICJicmFuZGluZyIpLAoJbmV3VHJpbW1lZFN0cmluZ0NvbmZpZygibG9nX2JhY2tncm91bmRfaW1hZ2UiLCAiIiwgIuaXpeW/l+inhuWbvuiDjOaZr+WbvueJh++8iGRhdGEgVVJM77yJIiwgImJyYW5kaW5nIiksCgluZXdCb29sQ29uZmlnKCJiYWNrdXBfc2NoZWR1bGVfZW5hYmxlZCIsICJmYWxzZSIsICLlkK/nlKjlrprml7blpIfku70iLCAiYmFja3VwIiksCgluZXdFbnVtQ29uZmlnKAoJCSJiYWNrdXBfc2NoZWR1bGVfZnJlcXVlbmN5IiwKCQkiZGFpbHkiLAoJCSLlrprml7blpIfku73popHnjociLAoJCSJiYWNrdXAiLAoJCVtdU3lzdGVtQ29uZmlnT3B0aW9uewoJCQl7VmFsdWU6ICJkYWlseSIsIExhYmVsOiAi5q+P5aSpIn0sCgkJCXtWYWx1ZTogIndlZWtseSIsIExhYmVsOiAi5q+P5ZGoIn0sCgkJCXtWYWx1ZTogIm1vbnRobHkiLCBMYWJlbDogIuavj+aciCJ9LAoJCX0sCgkpLAoJbmV3VmFsaWRhdGVkU3RyaW5nQ29uZmlnKCJiYWNrdXBfc2NoZWR1bGVfdGltZSIsICIwMzowMCIsICLlrprml7blpIfku73miafooYzml7bpl7TvvIgyNCDlsI/ml7bliLYgSEg6TU3vvIkiLCAiYmFja3VwIiwgbm9ybWFsaXplQmFja3VwU2NoZWR1bGVUaW1lVmFsdWUpLAoJbmV3RW51bUNvbmZpZygKCQkiYmFja3VwX3NjaGVkdWxlX3dlZWtkYXkiLAoJCSIxIiwKCQki5q+P5ZGo5aSH5Lu95omn6KGM5pel77yIMD3lkajml6XvvIwxPeWRqOS4gO+8iSIsCgkJImJhY2t1cCIsCgkJW11TeXN0ZW1Db25maWdPcHRpb257CgkJCXtWYWx1ZTogIjAiLCBMYWJlbDogIuWRqOaXpSJ9LAoJCQl7VmFsdWU6ICIxIiwgTGFiZWw6ICLlkajkuIAifSwKCQkJe1ZhbHVlOiAiMiIsIExhYmVsOiAi5ZGo5LqMIn0sCgkJCXtWYWx1ZTogIjMiLCBMYWJlbDogIuWRqOS4iSJ9LAoJCQl7VmFsdWU6ICI0IiwgTGFiZWw6ICLlkajlm5sifSwKCQkJe1ZhbHVlOiAiNSIsIExhYmVsOiAi5ZGo5LqUIn0sCgkJCXtWYWx1ZTogIjYiLCBMYWJlbDogIuWRqOWFrSJ9LAoJCX0sCgkpLAoJbmV3SW50Q29uZmlnKCJiYWNrdXBfc2NoZWR1bGVfbW9udGhkYXkiLCAiMSIsICLmr4/mnIjlpIfku73miafooYzml6UiLCAiYmFja3VwIiwgMSwgMjgpLAoJbmV3VHJpbW1lZFN0cmluZ0NvbmZpZygiYmFja3VwX3NjaGVkdWxlX25hbWUiLCAiIiwgIuWumuaXtuWkh+S7veaWh+S7tuWQjeWJjee8gCIsICJiYWNrdXAiKSwKCW5ld1RyaW1tZWRTdHJpbmdDb25maWcoImJhY2t1cF9zY2hlZHVsZV9wYXNzd29yZCIsICIiLCAi5a6a5pe25aSH5Lu95Yqg5a+G5a+G56CBIiwgImJhY2t1cCIpLAoJbmV3VmFsaWRhdGVkU3RyaW5nQ29uZmlnKAoJCSJiYWNrdXBfc2NoZWR1bGVfc2VsZWN0aW9uIiwKCQkiY29uZmlncyx0YXNrcyxzdWJzY3JpcHRpb25zLGVudl92YXJzLGxvZ3Msc2NyaXB0cyxkZXBlbmRlbmNpZXMiLAoJCSLlrprml7blpIfku73ljIXlkKvnmoTlhoXlrrnvvIjpgJflj7fliIbpmpTvvIkiLAoJCSJiYWNrdXAiLAoJCW5vcm1hbGl6ZUJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uVmFsdWUsCgkpLAoJbmV3RW51bUNvbmZpZygKCQkicGFuZWxfcnVudGltZV9tb2RlIiwKCQkiYXV0byIsCgkJIuS6jOi/m+WItui/kOihjOaXtuaXpeW/l+i+k+WHuuetlueVpe+8mmF1dG89RG9ja2VyIOi+k+WHuuWIsCBzdGRvdXTvvIzoo7jmnLrovpPlh7rliLAgcGFuZWwubG9n77ybc3Rkb3V0PeWQjOaXtui+k+WHuuWIsCBzdGRvdXQg5ZKMIHBhbmVsLmxvZ++8m2ZpbGU95LuF5YaZIHBhbmVsLmxvZyIsCgkJImJyYW5kaW5nIiwKCQlbXVN5c3RlbUNvbmZpZ09wdGlvbnsKCQkJe1ZhbHVlOiAiYXV0byIsIExhYmVsOiAi6Ieq5YqoIn0sCgkJCXtWYWx1ZTogInN0ZG91dCIsIExhYmVsOiAi6L6T5Ye65YiwIHN0ZG91dCJ9LAoJCQl7VmFsdWU6ICJmaWxlIiwgTGFiZWw6ICLku4Xlhpnmlofku7YifSwKCQl9LAoJKSwKCW5ld0VudW1Db25maWcoCgkJInBhbmVsX3NlcnZpY2VfbWFuYWdlciIsCgkJIm5vbmUiLAoJCSLpnaLmnb/kuozov5vliLblrojmiqTmlrnlvI/vvJvlkK/nlKjlkI7mm7TmlrDmtYHnqIvkvJrlsJ3or5XlhYjlgZzmraLlrojmiqTlho3lkK/liqjlrojmiqQiLAoJCSJicmFuZGluZyIsCgkJW11TeXN0ZW1Db25maWdPcHRpb257CgkJCXtWYWx1ZTogIm5vbmUiLCBMYWJlbDogIuaXoCJ9LAoJCQl7VmFsdWU6ICJzeXN0ZW1kIiwgTGFiZWw6ICJzeXN0ZW1kIn0sCgkJfSwKCSksCgluZXdUcmltbWVkU3RyaW5nQ29uZmlnKCJwYW5lbF9zZXJ2aWNlX25hbWUiLCAiZGFpZGFpLXBhbmVsIiwgInN5c3RlbWQg5pyN5Yqh5ZCN56ewIiwgImJyYW5kaW5nIiksCgluZXdJbnRDb25maWcoIm1heF93ZWJfc2Vzc2lvbnMiLCAiMSIsICLlkIzkuIDnlKjmiLfmnIDlpKfnvZHpobXnq6/kvJror53mlbDvvIjlpJrorr7lpIflkIzml7blnKjnur/vvIkiLCAic2VjdXJpdHkiLCAxLCAyMCksCgluZXdJbnRDb25maWcoIm1heF9hcHBfc2Vzc2lvbnMiLCAiMSIsICLlkIzkuIDnlKjmiLfmnIDlpKcgQVBQIOerr+S8muivneaVsO+8iOWkmuiuvuWkh+WQjOaXtuWcqOe6v++8iSIsICJzZWN1cml0eSIsIDEsIDIwKSwKCW5ld0Jvb2xDb25maWcoImNhcHRjaGFfZW5hYmxlZCIsICJmYWxzZSIsICLmnoHpqozpqozor4HnoIHlvIDlhbPvvIjlvIDlkK/lkI7mr4/mrKHnmbvlvZXop6blj5HvvIkiLCAic2VjdXJpdHkiKSwKCW5ld1RyaW1tZWRTdHJpbmdDb25maWcoImNhcHRjaGFfaWQiLCAiIiwgIumqjOivgeeggeW5s+WPsCBJRCIsICJzZWN1cml0eSIpLAoJbmV3VHJpbW1lZFN0cmluZ0NvbmZpZygiY2FwdGNoYV9rZXkiLCAiIiwgIumqjOivgeeggeW5s+WPsOWvhumSpe+8iOacjeWKoeerryBLZXnvvIkiLCAic2VjdXJpdHkiKSwKCW5ld0VudW1Db25maWcoCgkJImNhcHRjaGFfZmFpbF9tb2RlIiwKCQkib3BlbiIsCgkJIumqjOivgeeggeS4iua4uOW8guW4uOetlueVpe+8mm9wZW495pS+6KGM77yMc3RyaWN0PeS4peagvOaLpuaIqiIsCgkJInNlY3VyaXR5IiwKCQlbXVN5c3RlbUNvbmZpZ09wdGlvbnsKCQkJe1ZhbHVlOiAib3BlbiIsIExhYmVsOiAi5a695p2+5pS+6KGMIn0sCgkJCXtWYWx1ZTogInN0cmljdCIsIExhYmVsOiAi5Lil5qC85oum5oiqIn0sCgkJfSwKCSksCn0KCnZhciByZWdpc3RlcmVkU3lzdGVtQ29uZmlnTWFwID0gYnVpbGRTeXN0ZW1Db25maWdTcGVjTWFwKHJlZ2lzdGVyZWRTeXN0ZW1Db25maWdTcGVjcykKCmZ1bmMgYnVpbGRTeXN0ZW1Db25maWdTcGVjTWFwKHNwZWNzIFtdc3lzdGVtQ29uZmlnU3BlYykgbWFwW3N0cmluZ11zeXN0ZW1Db25maWdTcGVjIHsKCXJlc3VsdCA6PSBtYWtlKG1hcFtzdHJpbmddc3lzdGVtQ29uZmlnU3BlYywgbGVuKHNwZWNzKSkKCWZvciBfLCBzcGVjIDo9IHJhbmdlIHNwZWNzIHsKCQlyZXN1bHRbc3BlYy5kZWYuS2V5XSA9IHNwZWMKCX0KCXJldHVybiByZXN1bHQKfQoKZnVuYyBuZXdUcmltbWVkU3RyaW5nQ29uZmlnKGtleSwgZGVmYXVsdFZhbHVlLCBkZXNjcmlwdGlvbiwgZ3JvdXAgc3RyaW5nKSBzeXN0ZW1Db25maWdTcGVjIHsKCXJldHVybiBzeXN0ZW1Db25maWdTcGVjewoJCWRlZjogU3lzdGVtQ29uZmlnRGVmaW5pdGlvbnsKCQkJS2V5OiAgICAgICAgICBrZXksCgkJCURlZmF1bHRWYWx1ZTogZGVmYXVsdFZhbHVlLAoJCQlEZXNjcmlwdGlvbjogIGRlc2NyaXB0aW9uLAoJCQlWYWx1ZVR5cGU6ICAgIFN5c3RlbUNvbmZpZ1R5cGVTdHJpbmcsCgkJCUdyb3VwOiAgICAgICAgZ3JvdXAsCgkJfSwKCQlub3JtYWxpemU6IGZ1bmModmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJCQl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJCQlpZiB2YWx1ZSA9PSAiIiB7CgkJCQlyZXR1cm4gc3RyaW5ncy5UcmltU3BhY2UoZGVmYXVsdFZhbHVlKSwgbmlsCgkJCX0KCQkJcmV0dXJuIHZhbHVlLCBuaWwKCQl9LAoJfQp9CgpmdW5jIG5ld1ZhbGlkYXRlZFN0cmluZ0NvbmZpZyhrZXksIGRlZmF1bHRWYWx1ZSwgZGVzY3JpcHRpb24sIGdyb3VwIHN0cmluZywgbm9ybWFsaXplIGZ1bmMoc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikpIHN5c3RlbUNvbmZpZ1NwZWMgewoJcmV0dXJuIHN5c3RlbUNvbmZpZ1NwZWN7CgkJZGVmOiBTeXN0ZW1Db25maWdEZWZpbml0aW9uewoJCQlLZXk6ICAgICAgICAgIGtleSwKCQkJRGVmYXVsdFZhbHVlOiBkZWZhdWx0VmFsdWUsCgkJCURlc2NyaXB0aW9uOiAgZGVzY3JpcHRpb24sCgkJCVZhbHVlVHlwZTogICAgU3lzdGVtQ29uZmlnVHlwZVN0cmluZywKCQkJR3JvdXA6ICAgICAgICBncm91cCwKCQl9LAoJCW5vcm1hbGl6ZTogbm9ybWFsaXplLAoJfQp9CgpmdW5jIG5ld0hUVFBCYXNlVVJMQ29uZmlnKGtleSwgZGVmYXVsdFZhbHVlLCBkZXNjcmlwdGlvbiwgZ3JvdXAgc3RyaW5nKSBzeXN0ZW1Db25maWdTcGVjIHsKCXJldHVybiBuZXdWYWxpZGF0ZWRTdHJpbmdDb25maWcoa2V5LCBkZWZhdWx0VmFsdWUsIGRlc2NyaXB0aW9uLCBncm91cCwgZnVuYyh2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CgkJcmV0dXJuIG5vcm1hbGl6ZUhUVFBCYXNlVVJMVmFsdWUodmFsdWUsIGRlZmF1bHRWYWx1ZSkKCX0pCn0KCmZ1bmMgbmV3QUlFbmRwb2ludFVSTENvbmZpZyhrZXksIGRlZmF1bHRWYWx1ZSwgZGVzY3JpcHRpb24sIGdyb3VwIHN0cmluZykgc3lzdGVtQ29uZmlnU3BlYyB7CglyZXR1cm4gbmV3VmFsaWRhdGVkU3RyaW5nQ29uZmlnKGtleSwgZGVmYXVsdFZhbHVlLCBkZXNjcmlwdGlvbiwgZ3JvdXAsIGZ1bmModmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJCXJldHVybiBub3JtYWxpemVBSUVuZHBvaW50VVJMVmFsdWUodmFsdWUsIGRlZmF1bHRWYWx1ZSkKCX0pCn0KCmZ1bmMgbmV3Qm9vbENvbmZpZyhrZXksIGRlZmF1bHRWYWx1ZSwgZGVzY3JpcHRpb24sIGdyb3VwIHN0cmluZykgc3lzdGVtQ29uZmlnU3BlYyB7CglyZXR1cm4gc3lzdGVtQ29uZmlnU3BlY3sKCQlkZWY6IFN5c3RlbUNvbmZpZ0RlZmluaXRpb257CgkJCUtleTogICAgICAgICAga2V5LAoJCQlEZWZhdWx0VmFsdWU6IG5vcm1hbGl6ZUJvb2xEZWZhdWx0KGRlZmF1bHRWYWx1ZSksCgkJCURlc2NyaXB0aW9uOiAgZGVzY3JpcHRpb24sCgkJCVZhbHVlVHlwZTogICAgU3lzdGVtQ29uZmlnVHlwZUJvb2wsCgkJCUdyb3VwOiAgICAgICAgZ3JvdXAsCgkJfSwKCQlub3JtYWxpemU6IGZ1bmModmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJCQlpZiBzdHJpbmdzLlRyaW1TcGFjZSh2YWx1ZSkgPT0gIiIgewoJCQkJcmV0dXJuIG5vcm1hbGl6ZUJvb2xEZWZhdWx0KGRlZmF1bHRWYWx1ZSksIG5pbAoJCQl9CgoJCQlwYXJzZWQsIG9rIDo9IHBhcnNlQm9vbFN0cmluZyh2YWx1ZSkKCQkJaWYgIW9rIHsKCQkJCXJldHVybiAiIiwgZm10LkVycm9yZigi6YWN572uICVzIOmcgOimgeW4g+WwlOWAvCIsIGtleSkKCQkJfQoJCQlyZXR1cm4gc3RyY29udi5Gb3JtYXRCb29sKHBhcnNlZCksIG5pbAoJCX0sCgl9Cn0KCmZ1bmMgbmV3SW50Q29uZmlnKGtleSwgZGVmYXVsdFZhbHVlLCBkZXNjcmlwdGlvbiwgZ3JvdXAgc3RyaW5nLCBtaW5WYWx1ZSwgbWF4VmFsdWUgaW50KSBzeXN0ZW1Db25maWdTcGVjIHsKCXJldHVybiBzeXN0ZW1Db25maWdTcGVjewoJCWRlZjogU3lzdGVtQ29uZmlnRGVmaW5pdGlvbnsKCQkJS2V5OiAgICAgICAgICBrZXksCgkJCURlZmF1bHRWYWx1ZTogZGVmYXVsdFZhbHVlLAoJCQlEZXNjcmlwdGlvbjogIGRlc2NyaXB0aW9uLAoJCQlWYWx1ZVR5cGU6ICAgIFN5c3RlbUNvbmZpZ1R5cGVJbnQsCgkJCUdyb3VwOiAgICAgICAgZ3JvdXAsCgkJfSwKCQlub3JtYWxpemU6IGZ1bmModmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJCQl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJCQlpZiB2YWx1ZSA9PSAiIiB7CgkJCQlyZXR1cm4gZGVmYXVsdFZhbHVlLCBuaWwKCQkJfQoKCQkJcGFyc2VkLCBlcnIgOj0gc3RyY29udi5BdG9pKHZhbHVlKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXJldHVybiAiIiwgZm10LkVycm9yZigi6YWN572uICVzIOmcgOimgeaVtOaVsOWAvCIsIGtleSkKCQkJfQoJCQlpZiBwYXJzZWQgPCBtaW5WYWx1ZSB8fCBwYXJzZWQgPiBtYXhWYWx1ZSB7CgkJCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIumFjee9riAlcyDpnIDlnKggJWQtJWQg5LmL6Ze0Iiwga2V5LCBtaW5WYWx1ZSwgbWF4VmFsdWUpCgkJCX0KCQkJcmV0dXJuIHN0cmNvbnYuSXRvYShwYXJzZWQpLCBuaWwKCQl9LAoJfQp9CgpmdW5jIG5ld0VudW1Db25maWcoa2V5LCBkZWZhdWx0VmFsdWUsIGRlc2NyaXB0aW9uLCBncm91cCBzdHJpbmcsIG9wdGlvbnMgW11TeXN0ZW1Db25maWdPcHRpb24pIHN5c3RlbUNvbmZpZ1NwZWMgewoJYWxsb3dlZCA6PSBtYWtlKG1hcFtzdHJpbmddYm9vbCwgbGVuKG9wdGlvbnMpKQoJbm9ybWFsaXplZE9wdGlvbnMgOj0gbWFrZShbXVN5c3RlbUNvbmZpZ09wdGlvbiwgbGVuKG9wdGlvbnMpKQoJZm9yIGksIG9wdGlvbiA6PSByYW5nZSBvcHRpb25zIHsKCQl2YWx1ZSA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2Uob3B0aW9uLlZhbHVlKSkKCQlub3JtYWxpemVkT3B0aW9uc1tpXSA9IFN5c3RlbUNvbmZpZ09wdGlvbnsKCQkJVmFsdWU6IHZhbHVlLAoJCQlMYWJlbDogb3B0aW9uLkxhYmVsLAoJCX0KCQlhbGxvd2VkW3ZhbHVlXSA9IHRydWUKCX0KCglkZWZhdWx0VmFsdWUgPSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UoZGVmYXVsdFZhbHVlKSkKCglyZXR1cm4gc3lzdGVtQ29uZmlnU3BlY3sKCQlkZWY6IFN5c3RlbUNvbmZpZ0RlZmluaXRpb257CgkJCUtleTogICAgICAgICAga2V5LAoJCQlEZWZhdWx0VmFsdWU6IGRlZmF1bHRWYWx1ZSwKCQkJRGVzY3JpcHRpb246ICBkZXNjcmlwdGlvbiwKCQkJVmFsdWVUeXBlOiAgICBTeXN0ZW1Db25maWdUeXBlRW51bSwKCQkJR3JvdXA6ICAgICAgICBncm91cCwKCQkJT3B0aW9uczogICAgICBub3JtYWxpemVkT3B0aW9ucywKCQl9LAoJCW5vcm1hbGl6ZTogZnVuYyh2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CgkJCXZhbHVlID0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKSkKCQkJaWYgdmFsdWUgPT0gIiIgewoJCQkJcmV0dXJuIGRlZmF1bHRWYWx1ZSwgbmlsCgkJCX0KCQkJaWYgIWFsbG93ZWRbdmFsdWVdIHsKCQkJCXJldHVybiAiIiwgZm10LkVycm9yZigi6YWN572uICVzIOeahOWAvOaXoOaViCIsIGtleSkKCQkJfQoJCQlyZXR1cm4gdmFsdWUsIG5pbAoJCX0sCgl9Cn0KCmZ1bmMgbm9ybWFsaXplRGVmYXVsdENyb25SdWxlKHZhbHVlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglpZiB2YWx1ZSA9PSAiIiB7CgkJcmV0dXJuICIiLCBuaWwKCX0KCWlmICFwYW5lbGNyb24uUGFyc2UodmFsdWUpLlZhbGlkIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIum7mOiupCBDcm9uIOinhOWImeaXoOaViCIpCgl9CglyZXR1cm4gdmFsdWUsIG5pbAp9CgpmdW5jIG5vcm1hbGl6ZVRpbWV6b25lVmFsdWUodmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJdmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZSh2YWx1ZSkKCWlmIHZhbHVlID09ICIiIHsKCQl2YWx1ZSA9IERlZmF1bHRQYW5lbFRpbWV6b25lCgl9CglpZiB2YWx1ZSA9PSAiTG9jYWwiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIumdouadv+aXtuWMuuS4jeiDveS9v+eUqCBMb2NhbO+8jOivt+Whq+WGmeaYjuehrueahCBJQU5BIOaXtuWMuuWQje+8jOS+i+WmgiBBc2lhL1NoYW5naGFpIikKCX0KCWlmIF8sIGVyciA6PSB0aW1lLkxvYWRMb2NhdGlvbih2YWx1ZSk7IGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi6Z2i5p2/5pe25Yy65peg5pWI77yM6K+35aGr5YaZ5pyJ5pWIIElBTkEg5pe25Yy65ZCN77yM5L6L5aaCIEFzaWEvU2hhbmdoYWkiKQoJfQoJcmV0dXJuIHZhbHVlLCBuaWwKfQoKZnVuYyBub3JtYWxpemVQcm94eVVSTCh2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7Cgl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiAiIiwgbmlsCgl9CgoJcGFyc2VkLCBlcnIgOj0gdXJsLlBhcnNlKHZhbHVlKQoJaWYgZXJyICE9IG5pbCB8fCBwYXJzZWQuU2NoZW1lID09ICIiIHx8IHBhcnNlZC5Ib3N0ID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuS7o+eQhuWcsOWdgOagvOW8j+aXoOaViCIpCgl9CgoJc3dpdGNoIHN0cmluZ3MuVG9Mb3dlcihwYXJzZWQuU2NoZW1lKSB7CgljYXNlICJodHRwIiwgImh0dHBzIiwgInNvY2tzNSIsICJzb2NrczVoIjoKCQlyZXR1cm4gdmFsdWUsIG5pbAoJZGVmYXVsdDoKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuS7o+eQhuWcsOWdgOS7heaUr+aMgSBodHRwL2h0dHBzL3NvY2tzNS9zb2NrczVoIikKCX0KfQoKZnVuYyBub3JtYWxpemVVcGRhdGVJbWFnZU1pcnJvcih2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7Cgl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiAiIiwgbmlsCgl9CgoJaWYgIXN0cmluZ3MuQ29udGFpbnModmFsdWUsICI6Ly8iKSB7CgkJdmFsdWUgPSAiaHR0cHM6Ly8iICsgdmFsdWUKCX0KCglwYXJzZWQsIGVyciA6PSB1cmwuUGFyc2UodmFsdWUpCglpZiBlcnIgIT0gbmlsIHx8IHBhcnNlZC5Ib3N0ID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuezu+e7n+abtOaWsOmVnOWDj+a6kOagvOW8j+aXoOaViCIpCgl9CgoJc3dpdGNoIHN0cmluZ3MuVG9Mb3dlcihwYXJzZWQuU2NoZW1lKSB7CgljYXNlICJodHRwIiwgImh0dHBzIjoKCWRlZmF1bHQ6CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLns7vnu5/mm7TmlrDplZzlg4/mupDku4XmlK/mjIEgaHR0cC9odHRwcyIpCgl9CgoJaWYgcGF0aCA6PSBzdHJpbmdzLlRyaW0ocGFyc2VkLlBhdGgsICIvIik7IHBhdGggIT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi57O757uf5pu05paw6ZWc5YOP5rqQ5pqC5LiN5pSv5oyB6ZmE5bim6Lev5b6E77yM6K+35Y+q5aGr5YaZ5Li75py65ZCNIikKCX0KCWlmIHBhcnNlZC5SYXdRdWVyeSAhPSAiIiB8fCBwYXJzZWQuRnJhZ21lbnQgIT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi57O757uf5pu05paw6ZWc5YOP5rqQ5LiN6IO95bim5p+l6K+i5Y+C5pWw5oiW54mH5q61IikKCX0KCglyZXR1cm4gcGFyc2VkLkhvc3QsIG5pbAp9CgpmdW5jIG5vcm1hbGl6ZUJpbmFyeVVwZGF0ZVByb3h5KHZhbHVlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglpZiB2YWx1ZSA9PSAiIiB7CgkJcmV0dXJuICIiLCBuaWwKCX0KCglpZiAhc3RyaW5ncy5Db250YWlucyh2YWx1ZSwgIjovLyIpIHsKCQl2YWx1ZSA9ICJodHRwczovLyIgKyB2YWx1ZQoJfQoKCXBhcnNlZCwgZXJyIDo9IHVybC5QYXJzZSh2YWx1ZSkKCWlmIGVyciAhPSBuaWwgfHwgcGFyc2VkLkhvc3QgPT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi5LqM6L+b5Yi25pu05paw5Yqg6YCf5rqQ5qC85byP5peg5pWIIikKCX0KCglzd2l0Y2ggc3RyaW5ncy5Ub0xvd2VyKHBhcnNlZC5TY2hlbWUpIHsKCWNhc2UgImh0dHAiLCAiaHR0cHMiOgoJZGVmYXVsdDoKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuS6jOi/m+WItuabtOaWsOWKoOmAn+a6kOS7heaUr+aMgSBodHRwL2h0dHBzIikKCX0KCglpZiBwYXJzZWQuUmF3UXVlcnkgIT0gIiIgfHwgcGFyc2VkLkZyYWdtZW50ICE9ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuS6jOi/m+WItuabtOaWsOWKoOmAn+a6kOS4jeiDveW4puafpeivouWPguaVsOaIlueJh+autSIpCgl9CgoJcGF0aFZhbHVlIDo9IHN0cmluZ3MuVHJpbVJpZ2h0KHBhcnNlZC5Fc2NhcGVkUGF0aCgpLCAiLyIpCglub3JtYWxpemVkIDo9IHBhcnNlZC5TY2hlbWUgKyAiOi8vIiArIHBhcnNlZC5Ib3N0CglpZiBwYXRoVmFsdWUgIT0gIiIgewoJCW5vcm1hbGl6ZWQgKz0gcGF0aFZhbHVlCgl9CglyZXR1cm4gbm9ybWFsaXplZCArICIvIiwgbmlsCn0KCmZ1bmMgbm9ybWFsaXplSFRUUEJhc2VVUkxWYWx1ZSh2YWx1ZSwgZGVmYXVsdFZhbHVlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglpZiB2YWx1ZSA9PSAiIiB7CgkJdmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZShkZWZhdWx0VmFsdWUpCgl9CglpZiB2YWx1ZSA9PSAiIiB7CgkJcmV0dXJuICIiLCBuaWwKCX0KCglpZiAhc3RyaW5ncy5Db250YWlucyh2YWx1ZSwgIjovLyIpIHsKCQl2YWx1ZSA9ICJodHRwczovLyIgKyB2YWx1ZQoJfQoKCXBhcnNlZCwgZXJyIDo9IHVybC5QYXJzZSh2YWx1ZSkKCWlmIGVyciAhPSBuaWwgfHwgcGFyc2VkLkhvc3QgPT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigiQVBJIEJhc2UgVVJMIOagvOW8j+aXoOaViCIpCgl9CgoJc3dpdGNoIHN0cmluZ3MuVG9Mb3dlcihwYXJzZWQuU2NoZW1lKSB7CgljYXNlICJodHRwIiwgImh0dHBzIjoKCWRlZmF1bHQ6CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCJBUEkgQmFzZSBVUkwg5LuF5pSv5oyBIGh0dHAvaHR0cHMiKQoJfQoKCWlmIHBhcnNlZC5SYXdRdWVyeSAhPSAiIiB8fCBwYXJzZWQuRnJhZ21lbnQgIT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigiQVBJIEJhc2UgVVJMIOS4jeiDveW4puafpeivouWPguaVsOaIlueJh+autSIpCgl9CgoJcGF0aFZhbHVlIDo9IHN0cmluZ3MuVHJpbVJpZ2h0KHBhcnNlZC5Fc2NhcGVkUGF0aCgpLCAiLyIpCglub3JtYWxpemVkIDo9IHBhcnNlZC5TY2hlbWUgKyAiOi8vIiArIHBhcnNlZC5Ib3N0CglpZiBwYXRoVmFsdWUgIT0gIiIgewoJCW5vcm1hbGl6ZWQgKz0gcGF0aFZhbHVlCgl9CglyZXR1cm4gbm9ybWFsaXplZCwgbmlsCn0KCmZ1bmMgbm9ybWFsaXplQUlFbmRwb2ludFVSTFZhbHVlKHZhbHVlLCBkZWZhdWx0VmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJdmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZSh2YWx1ZSkKCWlmIHZhbHVlID09ICIiIHsKCQl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGRlZmF1bHRWYWx1ZSkKCX0KCWlmIHZhbHVlID09ICIiIHsKCQlyZXR1cm4gIiIsIG5pbAoJfQoKCWlmICFzdHJpbmdzLkNvbnRhaW5zKHZhbHVlLCAiOi8vIikgewoJCXZhbHVlID0gImh0dHBzOi8vIiArIHZhbHVlCgl9CgoJcGFyc2VkLCBlcnIgOj0gdXJsLlBhcnNlKHZhbHVlKQoJaWYgZXJyICE9IG5pbCB8fCBwYXJzZWQuSG9zdCA9PSAiIiB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCJBUEkg5Zyw5Z2A5qC85byP5peg5pWIIikKCX0KCglzd2l0Y2ggc3RyaW5ncy5Ub0xvd2VyKHBhcnNlZC5TY2hlbWUpIHsKCWNhc2UgImh0dHAiLCAiaHR0cHMiOgoJZGVmYXVsdDoKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIkFQSSDlnLDlnYDku4XmlK/mjIEgaHR0cC9odHRwcyIpCgl9CgoJaWYgcGFyc2VkLkZyYWdtZW50ICE9ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIkFQSSDlnLDlnYDkuI3og73luKbniYfmrrUiKQoJfQoKCXBhdGhWYWx1ZSA6PSBzdHJpbmdzLlRyaW1SaWdodChwYXJzZWQuRXNjYXBlZFBhdGgoKSwgIi8iKQoJbm9ybWFsaXplZCA6PSBwYXJzZWQuU2NoZW1lICsgIjovLyIgKyBwYXJzZWQuSG9zdAoJaWYgcGF0aFZhbHVlICE9ICIiIHsKCQlub3JtYWxpemVkICs9IHBhdGhWYWx1ZQoJfQoJaWYgcGFyc2VkLlJhd1F1ZXJ5ICE9ICIiIHsKCQlub3JtYWxpemVkICs9ICI/IiArIHBhcnNlZC5SYXdRdWVyeQoJfQoJcmV0dXJuIG5vcm1hbGl6ZWQsIG5pbAp9CgpmdW5jIG5vcm1hbGl6ZVRydXN0ZWRQcm94eUNJRFJzKHZhbHVlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXJldHVybiBuZXR1dGlsLk5vcm1hbGl6ZVRydXN0ZWRQcm94eUNJRFJzKHZhbHVlKQp9CgpmdW5jIG5vcm1hbGl6ZUJhY2t1cFNjaGVkdWxlVGltZVZhbHVlKHZhbHVlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglpZiB2YWx1ZSA9PSAiIiB7CgkJcmV0dXJuICIwMzowMCIsIG5pbAoJfQoKCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXQodmFsdWUsICI6IikKCWlmIGxlbihwYXJ0cykgIT0gMiB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLlpIfku73miafooYzml7bpl7TmoLzlvI/ml6DmlYjvvIzlupTkuLogSEg6TU0iKQoJfQoKCWhvdXIsIGVyciA6PSBzdHJjb252LkF0b2koc3RyaW5ncy5UcmltU3BhY2UocGFydHNbMF0pKQoJaWYgZXJyICE9IG5pbCB8fCBob3VyIDwgMCB8fCBob3VyID4gMjMgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi5aSH5Lu95omn6KGM5pe26Ze05bCP5pe25peg5pWIIikKCX0KCW1pbnV0ZSwgZXJyIDo9IHN0cmNvbnYuQXRvaShzdHJpbmdzLlRyaW1TcGFjZShwYXJ0c1sxXSkpCglpZiBlcnIgIT0gbmlsIHx8IG1pbnV0ZSA8IDAgfHwgbWludXRlID4gNTkgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi5aSH5Lu95omn6KGM5pe26Ze05YiG6ZKf5peg5pWIIikKCX0KCglyZXR1cm4gZm10LlNwcmludGYoIiUwMmQ6JTAyZCIsIGhvdXIsIG1pbnV0ZSksIG5pbAp9CgpmdW5jIG5vcm1hbGl6ZUJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uVmFsdWUodmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJYWxsb3dlZCA6PSBtYXBbc3RyaW5nXWJvb2x7CgkJImNvbmZpZ3MiOiAgICAgICB0cnVlLAoJCSJ0YXNrcyI6ICAgICAgICAgdHJ1ZSwKCQkic3Vic2NyaXB0aW9ucyI6IHRydWUsCgkJImVudl92YXJzIjogICAgICB0cnVlLAoJCSJsb2dzIjogICAgICAgICAgdHJ1ZSwKCQkic2NyaXB0cyI6ICAgICAgIHRydWUsCgkJImRlcGVuZGVuY2llcyI6ICB0cnVlLAoJCSJ0YXNrX3ZpZXdzIjogICAgdHJ1ZSwKCX0KCWRlZmF1bHRWYWx1ZSA6PSAiY29uZmlncyx0YXNrcyxzdWJzY3JpcHRpb25zLGVudl92YXJzLGxvZ3Msc2NyaXB0cyxkZXBlbmRlbmNpZXMsdGFza192aWV3cyIKCgl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiBkZWZhdWx0VmFsdWUsIG5pbAoJfQoKCXNlZW4gOj0gbWFrZShtYXBbc3RyaW5nXWJvb2wpCglyZXN1bHQgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGFsbG93ZWQpKQoJZm9yIF8sIHRva2VuIDo9IHJhbmdlIHN0cmluZ3MuRmllbGRzRnVuYyh2YWx1ZSwgZnVuYyhyIHJ1bmUpIGJvb2wgewoJCXJldHVybiByID09ICcsJyB8fCByID09ICc7JyB8fCByID09ICdcbicgfHwgciA9PSAnXHInIHx8IHIgPT0gJ1x0JyB8fCByID09ICcgJwoJfSkgewoJCXRva2VuID0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHRva2VuKSkKCQlpZiB0b2tlbiA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmICFhbGxvd2VkW3Rva2VuXSB7CgkJCXJldHVybiAiIiwgZm10LkVycm9yZigi5aSH5Lu95YaF5a656aG55peg5pWIOiAlcyIsIHRva2VuKQoJCX0KCQlpZiBzZWVuW3Rva2VuXSB7CgkJCWNvbnRpbnVlCgkJfQoJCXNlZW5bdG9rZW5dID0gdHJ1ZQoJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIHRva2VuKQoJfQoKCWlmIGxlbihyZXN1bHQpID09IDAgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi6K+36Iez5bCR6YCJ5oup5LiA5Liq5a6a5pe25aSH5Lu95YaF5a656aG5IikKCX0KCglyZXR1cm4gc3RyaW5ncy5Kb2luKHJlc3VsdCwgIiwiKSwgbmlsCn0KCmZ1bmMgbm9ybWFsaXplQm9vbERlZmF1bHQodmFsdWUgc3RyaW5nKSBzdHJpbmcgewoJcGFyc2VkLCBvayA6PSBwYXJzZUJvb2xTdHJpbmcodmFsdWUpCglpZiAhb2sgewoJCXJldHVybiAiZmFsc2UiCgl9CglyZXR1cm4gc3RyY29udi5Gb3JtYXRCb29sKHBhcnNlZCkKfQoKZnVuYyBwYXJzZUJvb2xTdHJpbmcodmFsdWUgc3RyaW5nKSAoYm9vbCwgYm9vbCkgewoJc3dpdGNoIHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZSh2YWx1ZSkpIHsKCWNhc2UgIjEiLCAidHJ1ZSIsICJ5ZXMiLCAib24iOgoJCXJldHVybiB0cnVlLCB0cnVlCgljYXNlICIwIiwgImZhbHNlIiwgIm5vIiwgIm9mZiI6CgkJcmV0dXJuIGZhbHNlLCB0cnVlCglkZWZhdWx0OgoJCXJldHVybiBmYWxzZSwgZmFsc2UKCX0KfQoKZnVuYyBTeXN0ZW1Db25maWdEZWZpbml0aW9ucygpIFtdU3lzdGVtQ29uZmlnRGVmaW5pdGlvbiB7CglyZXN1bHQgOj0gbWFrZShbXVN5c3RlbUNvbmZpZ0RlZmluaXRpb24sIDAsIGxlbihyZWdpc3RlcmVkU3lzdGVtQ29uZmlnU3BlY3MpKQoJZm9yIF8sIHNwZWMgOj0gcmFuZ2UgcmVnaXN0ZXJlZFN5c3RlbUNvbmZpZ1NwZWNzIHsKCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCBzcGVjLmRlZikKCX0KCXJldHVybiByZXN1bHQKfQoKZnVuYyBHZXRTeXN0ZW1Db25maWdEZWZpbml0aW9uKGtleSBzdHJpbmcpIChTeXN0ZW1Db25maWdEZWZpbml0aW9uLCBib29sKSB7CglzcGVjLCBleGlzdHMgOj0gcmVnaXN0ZXJlZFN5c3RlbUNvbmZpZ01hcFtrZXldCglpZiAhZXhpc3RzIHsKCQlyZXR1cm4gU3lzdGVtQ29uZmlnRGVmaW5pdGlvbnt9LCBmYWxzZQoJfQoJcmV0dXJuIHNwZWMuZGVmLCB0cnVlCn0KCmZ1bmMgTm9ybWFsaXplU3lzdGVtQ29uZmlnVmFsdWUoa2V5LCB2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CglzcGVjLCBleGlzdHMgOj0gcmVnaXN0ZXJlZFN5c3RlbUNvbmZpZ01hcFtrZXldCglpZiAhZXhpc3RzIHsKCQlyZXR1cm4gdmFsdWUsIG5pbAoJfQoJcmV0dXJuIHNwZWMubm9ybWFsaXplKHZhbHVlKQp9CgpmdW5jIEdldFJlZ2lzdGVyZWRDb25maWcoa2V5IHN0cmluZykgc3RyaW5nIHsKCWRlZiwgZXhpc3RzIDo9IEdldFN5c3RlbUNvbmZpZ0RlZmluaXRpb24oa2V5KQoJaWYgIWV4aXN0cyB7CgkJcmV0dXJuIEdldENvbmZpZyhrZXksICIiKQoJfQoJcmV0dXJuIEdldENvbmZpZyhrZXksIGRlZi5EZWZhdWx0VmFsdWUpCn0KCmZ1bmMgR2V0UmVnaXN0ZXJlZENvbmZpZ0ludChrZXkgc3RyaW5nKSBpbnQgewoJZGVmLCBleGlzdHMgOj0gR2V0U3lzdGVtQ29uZmlnRGVmaW5pdGlvbihrZXkpCglpZiAhZXhpc3RzIHsKCQlyZXR1cm4gR2V0Q29uZmlnSW50KGtleSwgMCkKCX0KCglkZWZhdWx0VmFsdWUsIGVyciA6PSBzdHJjb252LkF0b2koZGVmLkRlZmF1bHRWYWx1ZSkKCWlmIGVyciAhPSBuaWwgewoJCWRlZmF1bHRWYWx1ZSA9IDAKCX0KCXJldHVybiBHZXRDb25maWdJbnQoa2V5LCBkZWZhdWx0VmFsdWUpCn0KCmZ1bmMgR2V0UmVnaXN0ZXJlZENvbmZpZ0Jvb2woa2V5IHN0cmluZykgYm9vbCB7CglkZWYsIGV4aXN0cyA6PSBHZXRTeXN0ZW1Db25maWdEZWZpbml0aW9uKGtleSkKCWlmICFleGlzdHMgewoJCXJldHVybiBHZXRDb25maWdCb29sKGtleSwgZmFsc2UpCgl9CgoJZGVmYXVsdFZhbHVlLCBfIDo9IHBhcnNlQm9vbFN0cmluZyhkZWYuRGVmYXVsdFZhbHVlKQoJcmV0dXJuIEdldENvbmZpZ0Jvb2woa2V5LCBkZWZhdWx0VmFsdWUpCn0KCmZ1bmMgU29ydGVkU3lzdGVtQ29uZmlnS2V5cygpIFtdc3RyaW5nIHsKCWtleXMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKHJlZ2lzdGVyZWRTeXN0ZW1Db25maWdTcGVjcykpCglmb3IgXywgc3BlYyA6PSByYW5nZSByZWdpc3RlcmVkU3lzdGVtQ29uZmlnU3BlY3MgewoJCWtleXMgPSBhcHBlbmQoa2V5cywgc3BlYy5kZWYuS2V5KQoJfQoJcmV0dXJuIGtleXMKfQo=
+package model
+
+import (
+	"fmt"
+	"net/url"
+	"strconv"
+	"strings"
+	"time"
+
+	_ "time/tzdata"
+
+	panelcron "daidai-panel/pkg/cron"
+	"daidai-panel/pkg/netutil"
+)
+
+type SystemConfigValueType string
+
+const (
+	SystemConfigTypeString SystemConfigValueType = "string"
+	SystemConfigTypeInt    SystemConfigValueType = "int"
+	SystemConfigTypeBool   SystemConfigValueType = "bool"
+	SystemConfigTypeEnum   SystemConfigValueType = "enum"
+)
+
+type SystemConfigOption struct {
+	Value string `json:"value"`
+	Label string `json:"label"`
+}
+
+type SystemConfigDefinition struct {
+	Key          string                `json:"key"`
+	DefaultValue string                `json:"default_value"`
+	Description  string                `json:"description"`
+	ValueType    SystemConfigValueType `json:"value_type"`
+	Group        string                `json:"group"`
+	Options      []SystemConfigOption  `json:"options,omitempty"`
+}
+
+type systemConfigSpec struct {
+	def       SystemConfigDefinition
+	normalize func(string) (string, error)
+}
+
+const (
+	PanelTimezoneConfigKey = "timezone"
+	DefaultPanelTimezone   = "Asia/Shanghai"
+)
+
+var registeredSystemConfigSpecs = []systemConfigSpec{
+	newIntConfig("max_concurrent_tasks", "5", "定时任务最大并发数", "tasks", 1, 128),
+	newIntConfig("log_retention_days", "7", "日志保留天数", "tasks", 1, 3650),
+	newIntConfig("max_log_content_size", "102400000", "任务日志内容最大保留字节数", "tasks", 1024, 524288000),
+	newBoolConfig("auto_update_enabled", "false", "静默更新开关（每 24 小时自动检查并在有新版本时尝试更新）", "network"),
+	newTrimmedStringConfig("auto_update_last_checked_at", "", "上次自动检查更新时间", "network"),
+	newIntConfig("random_delay", "0", "任务执行前随机延迟最大秒数", "tasks", 0, 86400),
+	newTrimmedStringConfig("random_delay_extensions", "", "随机延迟仅对指定脚本后缀生效", "tasks"),
+	newBoolConfig("auto_install_deps", "true", "脚本缺依赖时自动尝试安装", "tasks"),
+	newEnumConfig(
+		"python_default_version",
+		"3.12",
+		"默认 Python 运行版本",
+		"tasks",
+		[]SystemConfigOption{
+			{Value: "3.10", Label: "Python 3.10"},
+			{Value: "3.11", Label: "Python 3.11"},
+			{Value: "3.12", Label: "Python 3.12"},
+		},
+	),
+	newIntConfig("cpu_warn", "80", "CPU 告警阈值（%）", "alerts", 1, 100),
+	newIntConfig("memory_warn", "80", "内存告警阈值（%）", "alerts", 1, 100),
+	newIntConfig("disk_warn", "90", "磁盘告警阈值（%）", "alerts", 1, 100),
+	newBoolConfig("auto_add_cron", "true", "自动添加定时任务", "subscription"),
+	newBoolConfig("auto_del_cron", "true", "自动删除失效任务", "subscription"),
+	newBoolConfig("subscription_force_overwrite", "true", "订阅拉取时覆盖本地修改并清理多余文件", "subscription"),
+	newValidatedStringConfig("default_cron_rule", "", "订阅脚本未声明 cron 时使用的默认规则", "subscription", normalizeDefaultCronRule),
+	newTrimmedStringConfig("repo_file_extensions", "py js sh ts", "订阅自动识别任务时扫描的脚本后缀", "subscription"),
+	newBoolConfig("notify_on_resource_warn", "false", "资源超限发送通知", "alerts"),
+	newTrimmedStringConfig("notify_panel_label", "", "通知标题前缀的面板名称（多面板区分用，留空不附带）", "alerts"),
+	newBoolConfig("notify_on_login", "false", "登录成功发送通知", "security"),
+	newValidatedStringConfig("proxy_url", "", "出站请求代理地址", "network", normalizeProxyURL),
+	newValidatedStringConfig("update_image_mirror", "", "系统更新拉取镜像时使用的可选镜像源（留空直连 Docker Hub）", "network", normalizeUpdateImageMirror),
+	newValidatedStringConfig("binary_update_proxy", "", "二进制更新下载加速源（留空直连 GitHub Release）", "network", normalizeBinaryUpdateProxy),
+	newValidatedStringConfig(
+		"trusted_proxy_cidrs",
+		strings.Join(netutil.DefaultTrustedProxyCIDRs(), "\n"),
+		"可信代理 CIDR/IP 列表（逗号、空格或换行分隔）",
+		"network",
+		normalizeTrustedProxyCIDRs,
+	),
+	newTrimmedStringConfig("panel_title", "呆呆面板", "面板标题", "branding"),
+	newValidatedStringConfig(PanelTimezoneConfigKey, DefaultPanelTimezone, "面板时区（影响日志、定时任务日期判断和脚本 TZ）", "branding", normalizeTimezoneValue),
+	newTrimmedStringConfig("panel_icon", "", "面板图标（SVG data URL）", "branding"),
+	newTrimmedStringConfig("editor_background_color", "", "脚本编辑器背景颜色（留空使用默认样式）", "branding"),
+	newTrimmedStringConfig("log_background_color", "", "日志视图背景颜色（留空跟随当前主题）", "branding"),
+	newTrimmedStringConfig("log_background_image", "", "日志视图背景图片（data URL）", "branding"),
+	newBoolConfig("backup_schedule_enabled", "false", "启用定时备份", "backup"),
+	newEnumConfig(
+		"backup_schedule_frequency",
+		"daily",
+		"定时备份频率",
+		"backup",
+		[]SystemConfigOption{
+			{Value: "daily", Label: "每天"},
+			{Value: "weekly", Label: "每周"},
+			{Value: "monthly", Label: "每月"},
+		},
+	),
+	newValidatedStringConfig("backup_schedule_time", "03:00", "定时备份执行时间（24 小时制 HH:MM）", "backup", normalizeBackupScheduleTimeValue),
+	newEnumConfig(
+		"backup_schedule_weekday",
+		"1",
+		"每周备份执行日（0=周日，1=周一）",
+		"backup",
+		[]SystemConfigOption{
+			{Value: "0", Label: "周日"},
+			{Value: "1", Label: "周一"},
+			{Value: "2", Label: "周二"},
+			{Value: "3", Label: "周三"},
+			{Value: "4", Label: "周四"},
+			{Value: "5", Label: "周五"},
+			{Value: "6", Label: "周六"},
+		},
+	),
+	newIntConfig("backup_schedule_monthday", "1", "每月备份执行日", "backup", 1, 28),
+	newTrimmedStringConfig("backup_schedule_name", "", "定时备份文件名前缀", "backup"),
+	newTrimmedStringConfig("backup_schedule_password", "", "定时备份加密密码", "backup"),
+	newValidatedStringConfig(
+		"backup_schedule_selection",
+		"configs,tasks,subscriptions,env_vars,logs,scripts,dependencies",
+		"定时备份包含的内容（逗号分隔）",
+		"backup",
+		normalizeBackupScheduleSelectionValue,
+	),
+	newEnumConfig(
+		"panel_runtime_mode",
+		"auto",
+		"二进制运行时日志输出策略：auto=Docker 输出到 stdout，裸机输出到 panel.log；stdout=同时输出到 stdout 和 panel.log；file=仅写 panel.log",
+		"branding",
+		[]SystemConfigOption{
+			{Value: "auto", Label: "自动"},
+			{Value: "stdout", Label: "输出到 stdout"},
+			{Value: "file", Label: "仅写文件"},
+		},
+	),
+	newEnumConfig(
+		"panel_service_manager",
+		"none",
+		"面板二进制守护方式；启用后更新流程会尝试先停止守护再启动守护",
+		"branding",
+		[]SystemConfigOption{
+			{Value: "none", Label: "无"},
+			{Value: "systemd", Label: "systemd"},
+		},
+	),
+	newTrimmedStringConfig("panel_service_name", "daidai-panel", "systemd 服务名称", "branding"),
+	newIntConfig("max_web_sessions", "1", "同一用户最大网页端会话数（多设备同时在线）", "security", 1, 20),
+	newIntConfig("max_app_sessions", "1", "同一用户最大 APP 端会话数（多设备同时在线）", "security", 1, 20),
+	newBoolConfig("captcha_enabled", "false", "极验验证码开关（开启后每次登录触发）", "security"),
+	newTrimmedStringConfig("captcha_id", "", "验证码平台 ID", "security"),
+	newTrimmedStringConfig("captcha_key", "", "验证码平台密钥（服务端 Key）", "security"),
+	newEnumConfig(
+		"captcha_fail_mode",
+		"open",
+		"验证码上游异常策略：open=放行，strict=严格拦截",
+		"security",
+		[]SystemConfigOption{
+			{Value: "open", Label: "宽松放行"},
+			{Value: "strict", Label: "严格拦截"},
+		},
+	),
+}
+
+var registeredSystemConfigMap = buildSystemConfigSpecMap(registeredSystemConfigSpecs)
+
+func buildSystemConfigSpecMap(specs []systemConfigSpec) map[string]systemConfigSpec {
+	result := make(map[string]systemConfigSpec, len(specs))
+	for _, spec := range specs {
+		result[spec.def.Key] = spec
+	}
+	return result
+}
+
+func newTrimmedStringConfig(key, defaultValue, description, group string) systemConfigSpec {
+	return systemConfigSpec{
+		def: SystemConfigDefinition{
+			Key:          key,
+			DefaultValue: defaultValue,
+			Description:  description,
+			ValueType:    SystemConfigTypeString,
+			Group:        group,
+		},
+		normalize: func(value string) (string, error) {
+			value = strings.TrimSpace(value)
+			if value == "" {
+				return strings.TrimSpace(defaultValue), nil
+			}
+			return value, nil
+		},
+	}
+}
+
+func newValidatedStringConfig(key, defaultValue, description, group string, normalize func(string) (string, error)) systemConfigSpec {
+	return systemConfigSpec{
+		def: SystemConfigDefinition{
+			Key:          key,
+			DefaultValue: defaultValue,
+			Description:  description,
+			ValueType:    SystemConfigTypeString,
+			Group:        group,
+		},
+		normalize: normalize,
+	}
+}
+
+func newHTTPBaseURLConfig(key, defaultValue, description, group string) systemConfigSpec {
+	return newValidatedStringConfig(key, defaultValue, description, group, func(value string) (string, error) {
+		return normalizeHTTPBaseURLValue(value, defaultValue)
+	})
+}
+
+func newAIEndpointURLConfig(key, defaultValue, description, group string) systemConfigSpec {
+	return newValidatedStringConfig(key, defaultValue, description, group, func(value string) (string, error) {
+		return normalizeAIEndpointURLValue(value, defaultValue)
+	})
+}
+
+func newBoolConfig(key, defaultValue, description, group string) systemConfigSpec {
+	return systemConfigSpec{
+		def: SystemConfigDefinition{
+			Key:          key,
+			DefaultValue: normalizeBoolDefault(defaultValue),
+			Description:  description,
+			ValueType:    SystemConfigTypeBool,
+			Group:        group,
+		},
+		normalize: func(value string) (string, error) {
+			if strings.TrimSpace(value) == "" {
+				return normalizeBoolDefault(defaultValue), nil
+			}
+
+			parsed, ok := parseBoolString(value)
+			if !ok {
+				return "", fmt.Errorf("配置 %s 需要布尔值", key)
+			}
+			return strconv.FormatBool(parsed), nil
+		},
+	}
+}
+
+func newIntConfig(key, defaultValue, description, group string, minValue, maxValue int) systemConfigSpec {
+	return systemConfigSpec{
+		def: SystemConfigDefinition{
+			Key:          key,
+			DefaultValue: defaultValue,
+			Description:  description,
+			ValueType:    SystemConfigTypeInt,
+			Group:        group,
+		},
+		normalize: func(value string) (string, error) {
+			value = strings.TrimSpace(value)
+			if value == "" {
+				return defaultValue, nil
+			}
+
+			parsed, err := strconv.Atoi(value)
+			if err != nil {
+				return "", fmt.Errorf("配置 %s 需要整数值", key)
+			}
+			if parsed < minValue || parsed > maxValue {
+				return "", fmt.Errorf("配置 %s 需在 %d-%d 之间", key, minValue, maxValue)
+			}
+			return strconv.Itoa(parsed), nil
+		},
+	}
+}
+
+func newEnumConfig(key, defaultValue, description, group string, options []SystemConfigOption) systemConfigSpec {
+	allowed := make(map[string]bool, len(options))
+	normalizedOptions := make([]SystemConfigOption, len(options))
+	for i, option := range options {
+		value := strings.ToLower(strings.TrimSpace(option.Value))
+		normalizedOptions[i] = SystemConfigOption{
+			Value: value,
+			Label: option.Label,
+		}
+		allowed[value] = true
+	}
+
+	defaultValue = strings.ToLower(strings.TrimSpace(defaultValue))
+
+	return systemConfigSpec{
+		def: SystemConfigDefinition{
+			Key:          key,
+			DefaultValue: defaultValue,
+			Description:  description,
+			ValueType:    SystemConfigTypeEnum,
+			Group:        group,
+			Options:      normalizedOptions,
+		},
+		normalize: func(value string) (string, error) {
+			value = strings.ToLower(strings.TrimSpace(value))
+			if value == "" {
+				return defaultValue, nil
+			}
+			if !allowed[value] {
+				return "", fmt.Errorf("配置 %s 的值无效", key)
+			}
+			return value, nil
+		},
+	}
+}
+
+func normalizeDefaultCronRule(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "", nil
+	}
+	if !panelcron.Parse(value).Valid {
+		return "", fmt.Errorf("默认 Cron 规则无效")
+	}
+	return value, nil
+}
+
+func normalizeTimezoneValue(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		value = DefaultPanelTimezone
+	}
+	if value == "Local" {
+		return "", fmt.Errorf("面板时区不能使用 Local，请填写明确的 IANA 时区名，例如 Asia/Shanghai")
+	}
+	if _, err := time.LoadLocation(value); err != nil {
+		return "", fmt.Errorf("面板时区无效，请填写有效 IANA 时区名，例如 Asia/Shanghai")
+	}
+	return value, nil
+}
+
+func normalizeProxyURL(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "", nil
+	}
+
+	parsed, err := url.Parse(value)
+	if err != nil || parsed.Scheme == "" || parsed.Host == "" {
+		return "", fmt.Errorf("代理地址格式无效")
+	}
+
+	switch strings.ToLower(parsed.Scheme) {
+	case "http", "https", "socks5", "socks5h":
+		return value, nil
+	default:
+		return "", fmt.Errorf("代理地址仅支持 http/https/socks5/socks5h")
+	}
+}
+
+func normalizeUpdateImageMirror(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "", nil
+	}
+
+	if !strings.Contains(value, "://") {
+		value = "https://" + value
+	}
+
+	parsed, err := url.Parse(value)
+	if err != nil || parsed.Host == "" {
+		return "", fmt.Errorf("系统更新镜像源格式无效")
+	}
+
+	switch strings.ToLower(parsed.Scheme) {
+	case "http", "https":
+	default:
+		return "", fmt.Errorf("系统更新镜像源仅支持 http/https")
+	}
+
+	if path := strings.Trim(parsed.Path, "/"); path != "" {
+		return "", fmt.Errorf("系统更新镜像源暂不支持附带路径，请只填写主机名")
+	}
+	if parsed.RawQuery != "" || parsed.Fragment != "" {
+		return "", fmt.Errorf("系统更新镜像源不能带查询参数或片段")
+	}
+
+	return parsed.Host, nil
+}
+
+func normalizeBinaryUpdateProxy(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "", nil
+	}
+
+	if !strings.Contains(value, "://") {
+		value = "https://" + value
+	}
+
+	parsed, err := url.Parse(value)
+	if err != nil || parsed.Host == "" {
+		return "", fmt.Errorf("二进制更新加速源格式无效")
+	}
+
+	switch strings.ToLower(parsed.Scheme) {
+	case "http", "https":
+	default:
+		return "", fmt.Errorf("二进制更新加速源仅支持 http/https")
+	}
+
+	if parsed.RawQuery != "" || parsed.Fragment != "" {
+		return "", fmt.Errorf("二进制更新加速源不能带查询参数或片段")
+	}
+
+	pathValue := strings.TrimRight(parsed.EscapedPath(), "/")
+	normalized := parsed.Scheme + "://" + parsed.Host
+	if pathValue != "" {
+		normalized += pathValue
+	}
+	return normalized + "/", nil
+}
+
+func normalizeHTTPBaseURLValue(value, defaultValue string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		value = strings.TrimSpace(defaultValue)
+	}
+	if value == "" {
+		return "", nil
+	}
+
+	if !strings.Contains(value, "://") {
+		value = "https://" + value
+	}
+
+	parsed, err := url.Parse(value)
+	if err != nil || parsed.Host == "" {
+		return "", fmt.Errorf("API Base URL 格式无效")
+	}
+
+	switch strings.ToLower(parsed.Scheme) {
+	case "http", "https":
+	default:
+		return "", fmt.Errorf("API Base URL 仅支持 http/https")
+	}
+
+	if parsed.RawQuery != "" || parsed.Fragment != "" {
+		return "", fmt.Errorf("API Base URL 不能带查询参数或片段")
+	}
+
+	pathValue := strings.TrimRight(parsed.EscapedPath(), "/")
+	normalized := parsed.Scheme + "://" + parsed.Host
+	if pathValue != "" {
+		normalized += pathValue
+	}
+	return normalized, nil
+}
+
+func normalizeAIEndpointURLValue(value, defaultValue string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		value = strings.TrimSpace(defaultValue)
+	}
+	if value == "" {
+		return "", nil
+	}
+
+	if !strings.Contains(value, "://") {
+		value = "https://" + value
+	}
+
+	parsed, err := url.Parse(value)
+	if err != nil || parsed.Host == "" {
+		return "", fmt.Errorf("API 地址格式无效")
+	}
+
+	switch strings.ToLower(parsed.Scheme) {
+	case "http", "https":
+	default:
+		return "", fmt.Errorf("API 地址仅支持 http/https")
+	}
+
+	if parsed.Fragment != "" {
+		return "", fmt.Errorf("API 地址不能带片段")
+	}
+
+	pathValue := strings.TrimRight(parsed.EscapedPath(), "/")
+	normalized := parsed.Scheme + "://" + parsed.Host
+	if pathValue != "" {
+		normalized += pathValue
+	}
+	if parsed.RawQuery != "" {
+		normalized += "?" + parsed.RawQuery
+	}
+	return normalized, nil
+}
+
+func normalizeTrustedProxyCIDRs(value string) (string, error) {
+	return netutil.NormalizeTrustedProxyCIDRs(value)
+}
+
+func normalizeBackupScheduleTimeValue(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "03:00", nil
+	}
+
+	parts := strings.Split(value, ":")
+	if len(parts) != 2 {
+		return "", fmt.Errorf("备份执行时间格式无效，应为 HH:MM")
+	}
+
+	hour, err := strconv.Atoi(strings.TrimSpace(parts[0]))
+	if err != nil || hour < 0 || hour > 23 {
+		return "", fmt.Errorf("备份执行时间小时无效")
+	}
+	minute, err := strconv.Atoi(strings.TrimSpace(parts[1]))
+	if err != nil || minute < 0 || minute > 59 {
+		return "", fmt.Errorf("备份执行时间分钟无效")
+	}
+
+	return fmt.Sprintf("%02d:%02d", hour, minute), nil
+}
+
+func normalizeBackupScheduleSelectionValue(value string) (string, error) {
+	allowed := map[string]bool{
+		"configs":       true,
+		"tasks":         true,
+		"subscriptions": true,
+		"env_vars":      true,
+		"logs":          true,
+		"scripts":       true,
+		"dependencies":  true,
+		"task_views":    true,
+	}
+	defaultValue := "configs,tasks,subscriptions,env_vars,logs,scripts,dependencies,task_views"
+
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return defaultValue, nil
+	}
+
+	seen := make(map[string]bool)
+	result := make([]string, 0, len(allowed))
+	for _, token := range strings.FieldsFunc(value, func(r rune) bool {
+		return r == ',' || r == ';' || r == '\n' || r == '\r' || r == '\t' || r == ' '
+	}) {
+		token = strings.ToLower(strings.TrimSpace(token))
+		if token == "" {
+			continue
+		}
+		if !allowed[token] {
+			return "", fmt.Errorf("备份内容项无效: %s", token)
+		}
+		if seen[token] {
+			continue
+		}
+		seen[token] = true
+		result = append(result, token)
+	}
+
+	if len(result) == 0 {
+		return "", fmt.Errorf("请至少选择一个定时备份内容项")
+	}
+
+	return strings.Join(result, ","), nil
+}
+
+func normalizeBoolDefault(value string) string {
+	parsed, ok := parseBoolString(value)
+	if !ok {
+		return "false"
+	}
+	return strconv.FormatBool(parsed)
+}
+
+func parseBoolString(value string) (bool, bool) {
+	switch strings.ToLower(strings.TrimSpace(value)) {
+	case "1", "true", "yes", "on":
+		return true, true
+	case "0", "false", "no", "off":
+		return false, true
+	default:
+		return false, false
+	}
+}
+
+func SystemConfigDefinitions() []SystemConfigDefinition {
+	result := make([]SystemConfigDefinition, 0, len(registeredSystemConfigSpecs))
+	for _, spec := range registeredSystemConfigSpecs {
+		result = append(result, spec.def)
+	}
+	return result
+}
+
+func GetSystemConfigDefinition(key string) (SystemConfigDefinition, bool) {
+	spec, exists := registeredSystemConfigMap[key]
+	if !exists {
+		return SystemConfigDefinition{}, false
+	}
+	return spec.def, true
+}
+
+func NormalizeSystemConfigValue(key, value string) (string, error) {
+	spec, exists := registeredSystemConfigMap[key]
+	if !exists {
+		return value, nil
+	}
+	return spec.normalize(value)
+}
+
+func GetRegisteredConfig(key string) string {
+	def, exists := GetSystemConfigDefinition(key)
+	if !exists {
+		return GetConfig(key, "")
+	}
+	return GetConfig(key, def.DefaultValue)
+}
+
+func GetRegisteredConfigInt(key string) int {
+	def, exists := GetSystemConfigDefinition(key)
+	if !exists {
+		return GetConfigInt(key, 0)
+	}
+
+	defaultValue, err := strconv.Atoi(def.DefaultValue)
+	if err != nil {
+		defaultValue = 0
+	}
+	return GetConfigInt(key, defaultValue)
+}
+
+func GetRegisteredConfigBool(key string) bool {
+	def, exists := GetSystemConfigDefinition(key)
+	if !exists {
+		return GetConfigBool(key, false)
+	}
+
+	defaultValue, _ := parseBoolString(def.DefaultValue)
+	return GetConfigBool(key, defaultValue)
+}
+
+func SortedSystemConfigKeys() []string {
+	keys := make([]string, 0, len(registeredSystemConfigSpecs))
+	for _, spec := range registeredSystemConfigSpecs {
+		keys = append(keys, spec.def.Key)
+	}
+	return keys
+}

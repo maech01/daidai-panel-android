@@ -1,1 +1,706 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCByZWYgfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZVJvdXRlciB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCB7IHN5c3RlbUFwaSwgdHlwZSBCYWNrdXBTZWxlY3Rpb24sIHR5cGUgUmVzdG9yZVByb2dyZXNzU3RhdGUgfSBmcm9tICdAL2FwaS9zeXN0ZW0nCmltcG9ydCB7IHNlY3VyaXR5QXBpIH0gZnJvbSAnQC9hcGkvc2VjdXJpdHknCmltcG9ydCB7IGF1dGhBcGkgfSBmcm9tICdAL2FwaS9hdXRoJwppbXBvcnQgeyB1c2VBdXRoU3RvcmUgfSBmcm9tICdAL3N0b3Jlcy9hdXRoJwppbXBvcnQgeyBFbE1lc3NhZ2UsIEVsTWVzc2FnZUJveCB9IGZyb20gJ2VsZW1lbnQtcGx1cycKaW1wb3J0IHsgY3JlYXRlUXJDb2RlRGF0YVVybCB9IGZyb20gJ0AvdXRpbHMvcXJjb2RlJwoKY29uc3QgYmFja3VwVXBsb2FkTWF4U2l6ZSA9IDUxMiAqIDEwMjQgKiAxMDI0Cgp0eXBlIFJlc3RvcmVWaXN1YWxTdGF0dXMgPQogIHwgJ2lkbGUnCiAgfCAncnVubmluZycKICB8ICdjb21wbGV0ZWQnCiAgfCAncXVldWVkLXJlc3RhcnQnCiAgfCAncmVzdGFydGluZycKICB8ICdmYWlsZWQnCiAgfCAncmVzdGFydC10aW1lb3V0JwoKZXhwb3J0IGZ1bmN0aW9uIHVzZVNldHRpbmdzU2VjdXJpdHkoKSB7CiAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCkKICBjb25zdCBhdXRoU3RvcmUgPSB1c2VBdXRoU3RvcmUoKQoKICBjb25zdCBzZWN1cml0eVRhYiA9IHJlZigncGFzc3dvcmQtMmZhJykKCiAgY29uc3QgYmFja3VwcyA9IHJlZjxhbnlbXT4oW10pCiAgY29uc3QgYmFja3Vwc0xvYWRpbmcgPSByZWYoZmFsc2UpCiAgY29uc3Qgc2hvd0JhY2t1cERpYWxvZyA9IHJlZihmYWxzZSkKICBjb25zdCBiYWNrdXBOYW1lID0gcmVmKCcnKQogIGNvbnN0IGJhY2t1cFBhc3N3b3JkID0gcmVmKCcnKQogIGNvbnN0IGJhY2t1cFNlbGVjdGlvbiA9IHJlZjxCYWNrdXBTZWxlY3Rpb24+KHsKICAgIGNvbmZpZ3M6IHRydWUsCiAgICB0YXNrczogdHJ1ZSwKICAgIHN1YnNjcmlwdGlvbnM6IHRydWUsCiAgICBlbnZfdmFyczogdHJ1ZSwKICAgIGxvZ3M6IHRydWUsCiAgICBzY3JpcHRzOiB0cnVlLAogICAgZGVwZW5kZW5jaWVzOiB0cnVlLAogICAgdGFza192aWV3czogdHJ1ZSwKICB9KQogIGNvbnN0IGJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uID0gcmVmPEJhY2t1cFNlbGVjdGlvbj4oewogICAgY29uZmlnczogdHJ1ZSwKICAgIHRhc2tzOiB0cnVlLAogICAgc3Vic2NyaXB0aW9uczogdHJ1ZSwKICAgIGVudl92YXJzOiB0cnVlLAogICAgbG9nczogdHJ1ZSwKICAgIHNjcmlwdHM6IHRydWUsCiAgICBkZXBlbmRlbmNpZXM6IHRydWUsCiAgICB0YXNrX3ZpZXdzOiB0cnVlLAogIH0pCiAgY29uc3QgdXBsb2FkUHJvZ3Jlc3MgPSByZWYoLTEpCiAgY29uc3QgdXBsb2FkVXBsb2FkaW5nID0gcmVmKGZhbHNlKQoKICBjb25zdCBzaG93UmVzdG9yZURpYWxvZyA9IHJlZihmYWxzZSkKICBjb25zdCByZXN0b3JlRmlsZW5hbWUgPSByZWYoJycpCiAgY29uc3QgcmVzdG9yZVBhc3N3b3JkID0gcmVmKCcnKQogIGxldCByZXN0b3JlVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldEludGVydmFsPiB8IG51bGwgPSBudWxsCiAgY29uc3QgcmVzdG9yZVByb2dyZXNzVmlzaWJsZSA9IHJlZihmYWxzZSkKICBjb25zdCByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMgPSByZWY8UmVzdG9yZVZpc3VhbFN0YXR1cz4oJ2lkbGUnKQogIGNvbnN0IHJlc3RvcmVQcm9ncmVzc1N0YWdlID0gcmVmKCdwcmVwYXJpbmcnKQogIGNvbnN0IHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UgPSByZWYoJycpCiAgY29uc3QgcmVzdG9yZVByb2dyZXNzUGVyY2VudCA9IHJlZigwKQogIGNvbnN0IHJlc3RvcmVQcm9ncmVzc1NvdXJjZSA9IHJlZignJykKICBjb25zdCByZXN0b3JlUHJvZ3Jlc3NTZWxlY3Rpb24gPSByZWY8UGFydGlhbDxCYWNrdXBTZWxlY3Rpb24+Pih7fSkKICBjb25zdCByZXN0b3JlUHJvZ3Jlc3NTdGFydGVkQXQgPSByZWYoJycpCiAgY29uc3QgcmVzdG9yZVByb2dyZXNzRXJyb3IgPSByZWYoJycpCiAgY29uc3QgcmVzdG9yZVJlc3RhcnRDb3VudGRvd24gPSByZWYoMCkKICBsZXQgcmVzdG9yZVByb2dyZXNzUG9sbFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbAogIGxldCByZXN0YXJ0UHJvYmVUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0SW50ZXJ2YWw+IHwgbnVsbCA9IG51bGwKICBsZXQgcmVzdGFydFByb2JlRGVsYXlUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbAoKICBjb25zdCBvbGRQYXNzd29yZCA9IHJlZignJykKICBjb25zdCBuZXdQYXNzd29yZCA9IHJlZignJykKICBjb25zdCBjb25maXJtUGFzc3dvcmQgPSByZWYoJycpCgogIGNvbnN0IHR3b0ZBRW5hYmxlZCA9IHJlZihmYWxzZSkKICBjb25zdCB0d29GQVNlY3JldCA9IHJlZignJykKICBjb25zdCB0d29GQVVyaSA9IHJlZignJykKICBjb25zdCB0d29GQVFyVXJsID0gcmVmKCcnKQogIGNvbnN0IHR3b0ZBQ29kZSA9IHJlZignJykKICBjb25zdCBzaG93U2V0dXAyRkEgPSByZWYoZmFsc2UpCgogIGNvbnN0IGxvZ2luTG9ncyA9IHJlZjxhbnlbXT4oW10pCiAgY29uc3QgbG9naW5Mb2dzTG9hZGluZyA9IHJlZihmYWxzZSkKICBjb25zdCBsb2dpbkxvZ3NUb3RhbCA9IHJlZigwKQogIGNvbnN0IGxvZ2luTG9nc1BhZ2UgPSByZWYoMSkKCiAgY29uc3Qgc2Vzc2lvbnMgPSByZWY8YW55W10+KFtdKQogIGNvbnN0IHNlc3Npb25zTG9hZGluZyA9IHJlZihmYWxzZSkKCiAgY29uc3QgaXBXaGl0ZWxpc3QgPSByZWY8YW55W10+KFtdKQogIGNvbnN0IGlwV2hpdGVsaXN0TG9hZGluZyA9IHJlZihmYWxzZSkKICBjb25zdCBzaG93QWRkSVBEaWFsb2cgPSByZWYoZmFsc2UpCiAgY29uc3QgbmV3SVAgPSByZWYoJycpCiAgY29uc3QgbmV3SVBSZW1hcmtzID0gcmVmKCcnKQoKICBhc3luYyBmdW5jdGlvbiBsb2FkQmFja3VwcygpIHsKICAgIGJhY2t1cHNMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc3lzdGVtQXBpLmJhY2t1cExpc3QoKQogICAgICBiYWNrdXBzLnZhbHVlID0gcmVzLmRhdGEgfHwgW10KICAgIH0gY2F0Y2ggewogICAgICBFbE1lc3NhZ2UuZXJyb3IoJ+WKoOi9veWkh+S7veWIl+ihqOWksei0pScpCiAgICB9IGZpbmFsbHkgewogICAgICBiYWNrdXBzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVDcmVhdGVCYWNrdXAoKSB7CiAgICBzaG93QmFja3VwRGlhbG9nLnZhbHVlID0gdHJ1ZQogICAgYmFja3VwTmFtZS52YWx1ZSA9ICcnCiAgICBiYWNrdXBQYXNzd29yZC52YWx1ZSA9ICcnCiAgICBiYWNrdXBTZWxlY3Rpb24udmFsdWUgPSB7CiAgICAgIGNvbmZpZ3M6IHRydWUsCiAgICAgIHRhc2tzOiB0cnVlLAogICAgICBzdWJzY3JpcHRpb25zOiB0cnVlLAogICAgICBlbnZfdmFyczogdHJ1ZSwKICAgICAgbG9nczogdHJ1ZSwKICAgICAgc2NyaXB0czogdHJ1ZSwKICAgICAgZGVwZW5kZW5jaWVzOiB0cnVlLAogICAgICB0YXNrX3ZpZXdzOiB0cnVlLAogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlVXBsb2FkQmFja3VwKGU6IEV2ZW50KSB7CiAgICBjb25zdCBpbnB1dCA9IGUudGFyZ2V0IGFzIEhUTUxJbnB1dEVsZW1lbnQKICAgIGNvbnN0IGZpbGUgPSBpbnB1dC5maWxlcz8uWzBdCiAgICBpZiAoIWZpbGUpIHJldHVybgogICAgaWYgKGZpbGUuc2l6ZSA+IGJhY2t1cFVwbG9hZE1heFNpemUpIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKCflpIfku73mlofku7bov4flpKfvvIzlvZPliY3kuIrkvKDkuIrpmZDkuLogNTEyTUInKQogICAgICBpbnB1dC52YWx1ZSA9ICcnCiAgICAgIHJldHVybgogICAgfQogICAgdXBsb2FkVXBsb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgdXBsb2FkUHJvZ3Jlc3MudmFsdWUgPSAwCiAgICB0cnkgewogICAgICBhd2FpdCBzeXN0ZW1BcGkudXBsb2FkQmFja3VwKGZpbGUsIChwZXJjZW50KSA9PiB7CiAgICAgICAgdXBsb2FkUHJvZ3Jlc3MudmFsdWUgPSBwZXJjZW50CiAgICAgIH0pCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCflpIfku73mlofku7blr7zlhaXmiJDlip8nKQogICAgICB2b2lkIGxvYWRCYWNrdXBzKCkKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGlmIChlcnI/LnJlc3BvbnNlPy5zdGF0dXMgPT09IDQxMykgewogICAgICAgIEVsTWVzc2FnZS5lcnJvcign5aSH5Lu95paH5Lu26LaF6L+H5b2T5YmN5LiK5Lyg5LiK6ZmQ77yM6K+35qOA5p+l5Y+N5ZCR5Luj55CG5oiW5a655Zmo5LiK5Lyg6ZmQ5Yi2JykKICAgICAgfSBlbHNlIHsKICAgICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZXJyPy5tZXNzYWdlIHx8ICflr7zlhaXlpIfku73lpLHotKUnKQogICAgICB9CiAgICB9CiAgICB1cGxvYWRVcGxvYWRpbmcudmFsdWUgPSBmYWxzZQogICAgdXBsb2FkUHJvZ3Jlc3MudmFsdWUgPSAtMQogICAgaW5wdXQudmFsdWUgPSAnJwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gY29uZmlybUNyZWF0ZUJhY2t1cCgpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGhhc1NlbGVjdGlvbiA9IE9iamVjdC52YWx1ZXMoYmFja3VwU2VsZWN0aW9uLnZhbHVlKS5zb21lKEJvb2xlYW4pCiAgICAgIGlmICghaGFzU2VsZWN0aW9uKSB7CiAgICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivt+iHs+WwkemAieaLqeS4gOS4quWkh+S7vemhuScpCiAgICAgICAgcmV0dXJuCiAgICAgIH0KICAgICAgYXdhaXQgc3lzdGVtQXBpLmJhY2t1cChiYWNrdXBQYXNzd29yZC52YWx1ZSwgYmFja3VwU2VsZWN0aW9uLnZhbHVlLCBiYWNrdXBOYW1lLnZhbHVlKQogICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn5aSH5Lu95Yib5bu65oiQ5YqfJykKICAgICAgc2hvd0JhY2t1cERpYWxvZy52YWx1ZSA9IGZhbHNlCiAgICAgIGJhY2t1cE5hbWUudmFsdWUgPSAnJwogICAgICBiYWNrdXBQYXNzd29yZC52YWx1ZSA9ICcnCiAgICAgIHZvaWQgbG9hZEJhY2t1cHMoKQogICAgfSBjYXRjaCB7CiAgICAgIEVsTWVzc2FnZS5lcnJvcign5aSH5Lu95aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIHJlYWRCbG9iRXJyb3JNZXNzYWdlKGVycjogYW55LCBmYWxsYmFjazogc3RyaW5nKSB7CiAgICBjb25zdCBkYXRhID0gZXJyPy5yZXNwb25zZT8uZGF0YQogICAgaWYgKGRhdGEgaW5zdGFuY2VvZiBCbG9iKSB7CiAgICAgIGNvbnN0IHRleHQgPSBhd2FpdCBkYXRhLnRleHQoKS5jYXRjaCgoKSA9PiAnJykKICAgICAgaWYgKHRleHQpIHsKICAgICAgICB0cnkgewogICAgICAgICAgY29uc3QgcGFyc2VkID0gSlNPTi5wYXJzZSh0ZXh0KQogICAgICAgICAgcmV0dXJuIHBhcnNlZD8uZXJyb3IgfHwgcGFyc2VkPy5tZXNzYWdlIHx8IHRleHQKICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgIHJldHVybiB0ZXh0CiAgICAgICAgfQogICAgICB9CiAgICB9CiAgICByZXR1cm4gZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZXJyPy5tZXNzYWdlIHx8IGZhbGxiYWNrCiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVEb3dubG9hZEJhY2t1cChmaWxlbmFtZTogc3RyaW5nKSB7CiAgICB0cnkgewogICAgICBjb25zdCBibG9iID0gYXdhaXQgc3lzdGVtQXBpLmRvd25sb2FkQmFja3VwKGZpbGVuYW1lKQogICAgICBjb25zdCB1cmwgPSBVUkwuY3JlYXRlT2JqZWN0VVJMKGJsb2IpCiAgICAgIGNvbnN0IGxpbmsgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdhJykKICAgICAgbGluay5ocmVmID0gdXJsCiAgICAgIGxpbmsuZG93bmxvYWQgPSBmaWxlbmFtZQogICAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGxpbmspCiAgICAgIGxpbmsuY2xpY2soKQogICAgICBkb2N1bWVudC5ib2R5LnJlbW92ZUNoaWxkKGxpbmspCiAgICAgIFVSTC5yZXZva2VPYmplY3RVUkwodXJsKQogICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKGF3YWl0IHJlYWRCbG9iRXJyb3JNZXNzYWdlKGVyciwgJ+S4i+i9veWkh+S7veWksei0pScpKQogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlUmVzdG9yZUJhY2t1cChmaWxlbmFtZTogc3RyaW5nKSB7CiAgICByZXN0b3JlRmlsZW5hbWUudmFsdWUgPSBmaWxlbmFtZQogICAgcmVzdG9yZVBhc3N3b3JkLnZhbHVlID0gJycKICAgIHNob3dSZXN0b3JlRGlhbG9nLnZhbHVlID0gdHJ1ZQogIH0KCiAgZnVuY3Rpb24gc3RvcFJlc3RvcmVDb3VudGRvd24oKSB7CiAgICBpZiAocmVzdG9yZVRpbWVyKSB7CiAgICAgIGNsZWFySW50ZXJ2YWwocmVzdG9yZVRpbWVyKQogICAgICByZXN0b3JlVGltZXIgPSBudWxsCiAgICB9CiAgfQoKICBmdW5jdGlvbiBzdG9wUmVzdG9yZVByb2dyZXNzUG9sbGluZygpIHsKICAgIGlmIChyZXN0b3JlUHJvZ3Jlc3NQb2xsVGltZXIpIHsKICAgICAgY2xlYXJJbnRlcnZhbChyZXN0b3JlUHJvZ3Jlc3NQb2xsVGltZXIpCiAgICAgIHJlc3RvcmVQcm9ncmVzc1BvbGxUaW1lciA9IG51bGwKICAgIH0KICB9CgogIGZ1bmN0aW9uIHN0b3BSZXN0YXJ0UHJvYmUoKSB7CiAgICBpZiAocmVzdGFydFByb2JlRGVsYXlUaW1lcikgewogICAgICBjbGVhclRpbWVvdXQocmVzdGFydFByb2JlRGVsYXlUaW1lcikKICAgICAgcmVzdGFydFByb2JlRGVsYXlUaW1lciA9IG51bGwKICAgIH0KICAgIGlmIChyZXN0YXJ0UHJvYmVUaW1lcikgewogICAgICBjbGVhckludGVydmFsKHJlc3RhcnRQcm9iZVRpbWVyKQogICAgICByZXN0YXJ0UHJvYmVUaW1lciA9IG51bGwKICAgIH0KICB9CgogIGZ1bmN0aW9uIHJlc2V0UmVzdG9yZVByb2dyZXNzU3RhdGUoKSB7CiAgICBzdG9wUmVzdG9yZUNvdW50ZG93bigpCiAgICBzdG9wUmVzdG9yZVByb2dyZXNzUG9sbGluZygpCiAgICBzdG9wUmVzdGFydFByb2JlKCkKICAgIHJlc3RvcmVQcm9ncmVzc1Zpc2libGUudmFsdWUgPSBmYWxzZQogICAgcmVzdG9yZVByb2dyZXNzU3RhdHVzLnZhbHVlID0gJ2lkbGUnCiAgICByZXN0b3JlUHJvZ3Jlc3NTdGFnZS52YWx1ZSA9ICdwcmVwYXJpbmcnCiAgICByZXN0b3JlUHJvZ3Jlc3NNZXNzYWdlLnZhbHVlID0gJycKICAgIHJlc3RvcmVQcm9ncmVzc1BlcmNlbnQudmFsdWUgPSAwCiAgICByZXN0b3JlUHJvZ3Jlc3NTb3VyY2UudmFsdWUgPSAnJwogICAgcmVzdG9yZVByb2dyZXNzU2VsZWN0aW9uLnZhbHVlID0ge30KICAgIHJlc3RvcmVQcm9ncmVzc1N0YXJ0ZWRBdC52YWx1ZSA9ICcnCiAgICByZXN0b3JlUHJvZ3Jlc3NFcnJvci52YWx1ZSA9ICcnCiAgICByZXN0b3JlUmVzdGFydENvdW50ZG93bi52YWx1ZSA9IDAKICB9CgogIGZ1bmN0aW9uIGFwcGx5UmVzdG9yZVByb2dyZXNzKHNuYXBzaG90OiBSZXN0b3JlUHJvZ3Jlc3NTdGF0ZSkgewogICAgcmVzdG9yZVByb2dyZXNzVmlzaWJsZS52YWx1ZSA9IHRydWUKICAgIHJlc3RvcmVQcm9ncmVzc1N0YWdlLnZhbHVlID0gc25hcHNob3Quc3RhZ2UgfHwgcmVzdG9yZVByb2dyZXNzU3RhZ2UudmFsdWUgfHwgJ3ByZXBhcmluZycKICAgIHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UudmFsdWUgPSBzbmFwc2hvdC5tZXNzYWdlIHx8IHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UudmFsdWUgfHwgJ+ato+WcqOaBouWkjeWkh+S7veWGheWuuS4uLicKICAgIHJlc3RvcmVQcm9ncmVzc1BlcmNlbnQudmFsdWUgPSBNYXRoLm1heCgwLCBNYXRoLm1pbigxMDAsIE51bWJlcihzbmFwc2hvdC5wZXJjZW50IHx8IDApKSkKICAgIHJlc3RvcmVQcm9ncmVzc1NvdXJjZS52YWx1ZSA9IHNuYXBzaG90LnNvdXJjZSB8fCByZXN0b3JlUHJvZ3Jlc3NTb3VyY2UudmFsdWUgfHwgJycKICAgIHJlc3RvcmVQcm9ncmVzc1NlbGVjdGlvbi52YWx1ZSA9IHNuYXBzaG90LnNlbGVjdGlvbiB8fCByZXN0b3JlUHJvZ3Jlc3NTZWxlY3Rpb24udmFsdWUgfHwge30KICAgIHJlc3RvcmVQcm9ncmVzc0Vycm9yLnZhbHVlID0gc25hcHNob3QuZXJyb3IgfHwgJycKICAgIGlmIChzbmFwc2hvdC5zdGFydGVkX2F0KSB7CiAgICAgIHJlc3RvcmVQcm9ncmVzc1N0YXJ0ZWRBdC52YWx1ZSA9IHNuYXBzaG90LnN0YXJ0ZWRfYXQKICAgIH0KCiAgICBpZiAoc25hcHNob3Quc3RhdHVzID09PSAnZmFpbGVkJykgewogICAgICByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAnZmFpbGVkJwogICAgICByZXR1cm4KICAgIH0KICAgIGlmIChzbmFwc2hvdC5zdGF0dXMgPT09ICdjb21wbGV0ZWQnKSB7CiAgICAgIHJlc3RvcmVQcm9ncmVzc1N0YXR1cy52YWx1ZSA9ICdjb21wbGV0ZWQnCiAgICAgIHJldHVybgogICAgfQogICAgaWYgKHNuYXBzaG90LmFjdGl2ZSB8fCBzbmFwc2hvdC5zdGF0dXMgPT09ICdydW5uaW5nJykgewogICAgICByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAncnVubmluZycKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGZldGNoUmVzdG9yZVByb2dyZXNzKGZvcmNlID0gZmFsc2UpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHN5c3RlbUFwaS5yZXN0b3JlUHJvZ3Jlc3MoKQogICAgICBjb25zdCBzbmFwc2hvdCA9IChyZXMuZGF0YSB8fCB7fSkgYXMgUmVzdG9yZVByb2dyZXNzU3RhdGUKICAgICAgaWYgKCFmb3JjZSAmJiAhc25hcHNob3QuYWN0aXZlICYmIHNuYXBzaG90LnN0YXR1cyA9PT0gJ2lkbGUnKSB7CiAgICAgICAgcmV0dXJuCiAgICAgIH0KICAgICAgaWYgKCFmb3JjZSAmJiAhc25hcHNob3QuYWN0aXZlICYmIHNuYXBzaG90LnVwZGF0ZWRfYXQgJiYgcmVzdG9yZVByb2dyZXNzU3RhcnRlZEF0LnZhbHVlKSB7CiAgICAgICAgY29uc3Qgc25hcHNob3RVcGRhdGVkQXQgPSBEYXRlLnBhcnNlKHNuYXBzaG90LnVwZGF0ZWRfYXQpCiAgICAgICAgY29uc3QgY3VycmVudFJlc3RvcmVTdGFydGVkQXQgPSBEYXRlLnBhcnNlKHJlc3RvcmVQcm9ncmVzc1N0YXJ0ZWRBdC52YWx1ZSkKICAgICAgICBpZiAoIU51bWJlci5pc05hTihzbmFwc2hvdFVwZGF0ZWRBdCkgJiYgIU51bWJlci5pc05hTihjdXJyZW50UmVzdG9yZVN0YXJ0ZWRBdCkgJiYgc25hcHNob3RVcGRhdGVkQXQgPCBjdXJyZW50UmVzdG9yZVN0YXJ0ZWRBdCkgewogICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICB9CiAgICAgIGFwcGx5UmVzdG9yZVByb2dyZXNzKHNuYXBzaG90KQogICAgfSBjYXRjaCB7CiAgICAgIC8vIGlnbm9yZSBwcm9ncmVzcyBwcm9iZSBlcnJvcnMgd2hpbGUgcmVzdG9yZSByZXF1ZXN0IGlzIHN0aWxsIHJ1bm5pbmcKICAgIH0KICB9CgogIGZ1bmN0aW9uIHN0YXJ0UmVzdG9yZVByb2dyZXNzUG9sbGluZygpIHsKICAgIHN0b3BSZXN0b3JlUHJvZ3Jlc3NQb2xsaW5nKCkKICAgIHZvaWQgZmV0Y2hSZXN0b3JlUHJvZ3Jlc3MoKQogICAgcmVzdG9yZVByb2dyZXNzUG9sbFRpbWVyID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICB2b2lkIGZldGNoUmVzdG9yZVByb2dyZXNzKCkKICAgIH0sIDcwMCkKICB9CgogIGZ1bmN0aW9uIG9wZW5SZXN0b3JlUHJvZ3Jlc3MoKSB7CiAgICBzdG9wUmVzdG9yZUNvdW50ZG93bigpCiAgICBzdG9wUmVzdGFydFByb2JlKCkKICAgIHJlc3RvcmVQcm9ncmVzc1Zpc2libGUudmFsdWUgPSB0cnVlCiAgICByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAncnVubmluZycKICAgIHJlc3RvcmVQcm9ncmVzc1N0YWdlLnZhbHVlID0gJ3ByZXBhcmluZycKICAgIHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UudmFsdWUgPSAn5q2j5Zyo5o+Q5Lqk5oGi5aSN6K+35rGC5bm25YeG5aSH5oGi5aSN546v5aKDLi4uJwogICAgcmVzdG9yZVByb2dyZXNzUGVyY2VudC52YWx1ZSA9IDMKICAgIHJlc3RvcmVQcm9ncmVzc1NvdXJjZS52YWx1ZSA9ICcnCiAgICByZXN0b3JlUHJvZ3Jlc3NTZWxlY3Rpb24udmFsdWUgPSB7fQogICAgcmVzdG9yZVByb2dyZXNzU3RhcnRlZEF0LnZhbHVlID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpCiAgICByZXN0b3JlUHJvZ3Jlc3NFcnJvci52YWx1ZSA9ICcnCiAgICByZXN0b3JlUmVzdGFydENvdW50ZG93bi52YWx1ZSA9IDAKICB9CgogIGZ1bmN0aW9uIHN0YXJ0UmVzdG9yZUNvdW50ZG93bigpIHsKICAgIHN0b3BSZXN0b3JlQ291bnRkb3duKCkKICAgIHJlc3RvcmVQcm9ncmVzc1N0YXR1cy52YWx1ZSA9ICdxdWV1ZWQtcmVzdGFydCcKICAgIHJlc3RvcmVQcm9ncmVzc1N0YWdlLnZhbHVlID0gJ2NvbXBsZXRlZCcKICAgIHJlc3RvcmVQcm9ncmVzc1BlcmNlbnQudmFsdWUgPSAxMDAKICAgIHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UudmFsdWUgPSByZXN0b3JlUHJvZ3Jlc3NNZXNzYWdlLnZhbHVlIHx8ICfmlbDmja7mgaLlpI3lrozmiJDvvIzmraPlnKjlh4blpIfph43lkK/pnaLmnb8uLi4nCiAgICByZXN0b3JlUmVzdGFydENvdW50ZG93bi52YWx1ZSA9IDEwCgogICAgcmVzdG9yZVRpbWVyID0gc2V0SW50ZXJ2YWwoKCkgPT4gewogICAgICByZXN0b3JlUmVzdGFydENvdW50ZG93bi52YWx1ZSAtPSAxCiAgICAgIGlmIChyZXN0b3JlUmVzdGFydENvdW50ZG93bi52YWx1ZSA8PSAwKSB7CiAgICAgICAgc3RvcFJlc3RvcmVDb3VudGRvd24oKQogICAgICAgIHZvaWQgZG9SZXN0YXJ0KCkKICAgICAgfQogICAgfSwgMTAwMCkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGNvbmZpcm1SZXN0b3JlKCkgewogICAgc2hvd1Jlc3RvcmVEaWFsb2cudmFsdWUgPSBmYWxzZQogICAgb3BlblJlc3RvcmVQcm9ncmVzcygpCiAgICBzdGFydFJlc3RvcmVQcm9ncmVzc1BvbGxpbmcoKQoKICAgIHRyeSB7CiAgICAgIGF3YWl0IHN5c3RlbUFwaS5yZXN0b3JlKHJlc3RvcmVGaWxlbmFtZS52YWx1ZSwgcmVzdG9yZVBhc3N3b3JkLnZhbHVlKQogICAgICBzdG9wUmVzdG9yZVByb2dyZXNzUG9sbGluZygpCiAgICAgIGF3YWl0IGZldGNoUmVzdG9yZVByb2dyZXNzKHRydWUpCiAgICAgIHN0YXJ0UmVzdG9yZUNvdW50ZG93bigpCiAgICB9IGNhdGNoIChlOiBhbnkpIHsKICAgICAgc3RvcFJlc3RvcmVQcm9ncmVzc1BvbGxpbmcoKQogICAgICBhd2FpdCBmZXRjaFJlc3RvcmVQcm9ncmVzcyh0cnVlKQogICAgICByZXN0b3JlUHJvZ3Jlc3NWaXNpYmxlLnZhbHVlID0gdHJ1ZQogICAgICByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAnZmFpbGVkJwogICAgICByZXN0b3JlUHJvZ3Jlc3NQZXJjZW50LnZhbHVlID0gcmVzdG9yZVByb2dyZXNzUGVyY2VudC52YWx1ZSB8fCAwCiAgICAgIHJlc3RvcmVQcm9ncmVzc1N0YWdlLnZhbHVlID0gcmVzdG9yZVByb2dyZXNzU3RhZ2UudmFsdWUgfHwgJ3ByZXBhcmluZycKICAgICAgcmVzdG9yZVByb2dyZXNzTWVzc2FnZS52YWx1ZSA9IHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UudmFsdWUgfHwgJ+aBouWkjei/h+eoi+S4reWHuueOsOW8guW4uCcKICAgICAgcmVzdG9yZVByb2dyZXNzRXJyb3IudmFsdWUgPSBlPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZT8ubWVzc2FnZSB8fCAn5oGi5aSN5aSx6LSlJwogICAgICBFbE1lc3NhZ2UuZXJyb3IocmVzdG9yZVByb2dyZXNzRXJyb3IudmFsdWUpCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiByZXN0YXJ0UmVzdG9yZU5vdygpIHsKICAgIHN0b3BSZXN0b3JlQ291bnRkb3duKCkKICAgIGF3YWl0IGRvUmVzdGFydCgpCiAgfQoKICBhc3luYyBmdW5jdGlvbiBkb1Jlc3RhcnQoKSB7CiAgICByZXN0b3JlUHJvZ3Jlc3NWaXNpYmxlLnZhbHVlID0gdHJ1ZQogICAgcmVzdG9yZVByb2dyZXNzU3RhdHVzLnZhbHVlID0gJ3Jlc3RhcnRpbmcnCiAgICByZXN0b3JlUHJvZ3Jlc3NTdGFnZS52YWx1ZSA9ICdjb21wbGV0ZWQnCiAgICByZXN0b3JlUHJvZ3Jlc3NQZXJjZW50LnZhbHVlID0gMTAwCiAgICByZXN0b3JlUHJvZ3Jlc3NNZXNzYWdlLnZhbHVlID0gJ+aBouWkjeaVsOaNruW3suWGmeWFpe+8jOato+WcqOetieW+hemdouadv+mHjeaWsOWQr+WKqC4uLicKICAgIHJlc3RvcmVQcm9ncmVzc0Vycm9yLnZhbHVlID0gJycKICAgIHRyeSB7CiAgICAgIGF3YWl0IHN5c3RlbUFwaS5yZXN0YXJ0KCkKICAgIH0gY2F0Y2ggewogICAgICAvLyBpZ25vcmUKICAgIH0KICAgIHdhaXRGb3JSZXN0YXJ0KCkKICB9CgogIGZ1bmN0aW9uIHdhaXRGb3JSZXN0YXJ0KCkgewogICAgc3RvcFJlc3RhcnRQcm9iZSgpCiAgICBsZXQgYXR0ZW1wdHMgPSAwCiAgICByZXN0YXJ0UHJvYmVEZWxheVRpbWVyID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICAgIHJlc3RhcnRQcm9iZURlbGF5VGltZXIgPSBudWxsCiAgICAgIHJlc3RhcnRQcm9iZVRpbWVyID0gc2V0SW50ZXJ2YWwoYXN5bmMgKCkgPT4gewogICAgICAgIGF0dGVtcHRzICs9IDEKICAgICAgICB0cnkgewogICAgICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goJy8nLCB7IG1ldGhvZDogJ0hFQUQnLCBjYWNoZTogJ25vLXN0b3JlJyB9KQogICAgICAgICAgaWYgKHJlcy5vaykgewogICAgICAgICAgICBzdG9wUmVzdGFydFByb2JlKCkKICAgICAgICAgICAgd2luZG93LmxvY2F0aW9uLnJlbG9hZCgpCiAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAvLyBpZ25vcmUKICAgICAgICB9CgogICAgICAgIGlmIChhdHRlbXB0cyA+PSA2MCkgewogICAgICAgICAgc3RvcFJlc3RhcnRQcm9iZSgpCiAgICAgICAgICByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAncmVzdGFydC10aW1lb3V0JwogICAgICAgICAgcmVzdG9yZVByb2dyZXNzTWVzc2FnZS52YWx1ZSA9ICfmgaLlpI3lt7Lnu4/lrozmiJDvvIzkvYbmmoLml7bov5jmsqHmnInmo4DmtYvliLDpnaLmnb/ph43mlrDkuIrnur/jgIInCiAgICAgICAgICByZXN0b3JlUHJvZ3Jlc3NFcnJvci52YWx1ZSA9ICfph43lkK/nrYnlvoXotoXml7bvvIzor7fnqI3lkI7miYvliqjliLfmlrDpobXpnaLvvIzmiJbmo4Dmn6Xlrrnlmagv5Y+N5ZCR5Luj55CG5piv5ZCm5LuN5Zyo6YeN5bu644CCJwogICAgICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+mHjeWQr+i2heaXtu+8jOivt+eojeWQjuaJi+WKqOWIt+aWsOmhtemdoicpCiAgICAgICAgfQogICAgICB9LCAyMDAwKQogICAgfSwgMzAwMCkKICB9CgogIGZ1bmN0aW9uIGNsb3NlUmVzdG9yZVByb2dyZXNzKCkgewogICAgaWYgKHJlc3RvcmVQcm9ncmVzc1N0YXR1cy52YWx1ZSA9PT0gJ3J1bm5pbmcnIHx8IHJlc3RvcmVQcm9ncmVzc1N0YXR1cy52YWx1ZSA9PT0gJ3F1ZXVlZC1yZXN0YXJ0JyB8fCByZXN0b3JlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPT09ICdyZXN0YXJ0aW5nJykgewogICAgICByZXR1cm4KICAgIH0KICAgIHJlc2V0UmVzdG9yZVByb2dyZXNzU3RhdGUoKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlRGVsZXRlQmFja3VwKGZpbGVuYW1lOiBzdHJpbmcpIHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IEVsTWVzc2FnZUJveC5jb25maXJtKCfnoa7lrpropoHliKDpmaTor6XlpIfku73lkJfvvJ8nLCAn56Gu6K6kJywgeyB0eXBlOiAnd2FybmluZycgfSkKICAgICAgYXdhaXQgc3lzdGVtQXBpLmRlbGV0ZUJhY2t1cChmaWxlbmFtZSkKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+WIoOmZpOaIkOWKnycpCiAgICAgIHZvaWQgbG9hZEJhY2t1cHMoKQogICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgaWYgKGVyciA9PT0gJ2NhbmNlbCcgfHwgZXJyPy50b1N0cmluZz8uKCkgPT09ICdjYW5jZWwnKSByZXR1cm4KICAgICAgRWxNZXNzYWdlLmVycm9yKCfliKDpmaTlpIfku73lpLHotKUnKQogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gbG9hZDJGQVN0YXR1cygpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHNlY3VyaXR5QXBpLmdldDJGQVN0YXR1cygpCiAgICAgIHR3b0ZBRW5hYmxlZC52YWx1ZSA9IHJlcy5kYXRhLmVuYWJsZWQKICAgIH0gY2F0Y2ggewogICAgICAvLyBpZ25vcmUKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUNoYW5nZVBhc3N3b3JkKCkgewogICAgaWYgKCFvbGRQYXNzd29yZC52YWx1ZSB8fCAhbmV3UGFzc3dvcmQudmFsdWUpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivt+Whq+WGmeWvhueggScpCiAgICAgIHJldHVybgogICAgfQogICAgaWYgKG5ld1Bhc3N3b3JkLnZhbHVlICE9PSBjb25maXJtUGFzc3dvcmQudmFsdWUpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+S4pOasoei+k+WFpeeahOWvhueggeS4jeS4gOiHtCcpCiAgICAgIHJldHVybgogICAgfQogICAgaWYgKG5ld1Bhc3N3b3JkLnZhbHVlLmxlbmd0aCA8IDYpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+WvhueggeiHs+WwkSA2IOS9jScpCiAgICAgIHJldHVybgogICAgfQogICAgdHJ5IHsKICAgICAgYXdhaXQgYXV0aEFwaS5jaGFuZ2VQYXNzd29yZChvbGRQYXNzd29yZC52YWx1ZSwgbmV3UGFzc3dvcmQudmFsdWUpCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCflr4bnoIHkv67mlLnmiJDlip/vvIzljbPlsIbot7PovazliLDnmbvlvZXpobUnKQogICAgICBvbGRQYXNzd29yZC52YWx1ZSA9ICcnCiAgICAgIG5ld1Bhc3N3b3JkLnZhbHVlID0gJycKICAgICAgY29uZmlybVBhc3N3b3JkLnZhbHVlID0gJycKICAgICAgc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgYXV0aFN0b3JlLmxvZ291dCgpCiAgICAgIH0sIDE1MDApCiAgICB9IGNhdGNoIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKCflr4bnoIHkv67mlLnlpLHotKUnKQogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlU2V0dXAyRkEoKSB7CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBzZWN1cml0eUFwaS5zZXR1cDJGQSgpCiAgICAgIHR3b0ZBU2VjcmV0LnZhbHVlID0gcmVzLmRhdGEuc2VjcmV0CiAgICAgIHR3b0ZBVXJpLnZhbHVlID0gcmVzLmRhdGEudXJpCiAgICAgIHR3b0ZBUXJVcmwudmFsdWUgPSBhd2FpdCBjcmVhdGVRckNvZGVEYXRhVXJsKHJlcy5kYXRhLnVyaSwgMjAwKQogICAgICB0d29GQUNvZGUudmFsdWUgPSAnJwogICAgICBzaG93U2V0dXAyRkEudmFsdWUgPSB0cnVlCiAgICB9IGNhdGNoIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKCfliJ3lp4vljJYgMkZBIOWksei0pScpCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVWZXJpZnkyRkEoKSB7CiAgICBpZiAoIXR3b0ZBQ29kZS52YWx1ZSkgewogICAgICBFbE1lc3NhZ2Uud2FybmluZygn6K+36L6T5YWl6aqM6K+B56CBJykKICAgICAgcmV0dXJuCiAgICB9CiAgICB0cnkgewogICAgICBhd2FpdCBzZWN1cml0eUFwaS52ZXJpZnkyRkEodHdvRkFDb2RlLnZhbHVlKQogICAgICBFbE1lc3NhZ2Uuc3VjY2VzcygnMkZBIOW3suWQr+eUqCcpCiAgICAgIHR3b0ZBRW5hYmxlZC52YWx1ZSA9IHRydWUKICAgICAgc2hvd1NldHVwMkZBLnZhbHVlID0gZmFsc2UKICAgIH0gY2F0Y2ggewogICAgICBFbE1lc3NhZ2UuZXJyb3IoJ+mqjOivgeeggemUmeivrycpCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVEaXNhYmxlMkZBKCkgewogICAgbGV0IHByb21wdGVkOiB7IHZhbHVlOiBzdHJpbmcgfQogICAgdHJ5IHsKICAgICAgcHJvbXB0ZWQgPSBhd2FpdCBFbE1lc3NhZ2VCb3gucHJvbXB0KAogICAgICAgICfnpoHnlKjliY3or7fovpPlhaXlvZPliY3nmoTliqjmgIHpqozor4HnoIHvvIjorqTor4HlmaggQXBwIOS4iiA2IOS9jeaVsOWtl++8ieS7peehruiupOaTjeS9nOOAgicsCiAgICAgICAgJ+emgeeUqOWPjOWboOe0oOiupOivgScsCiAgICAgICAgewogICAgICAgICAgaW5wdXRQYXR0ZXJuOiAvXlxkezZ9JC8sCiAgICAgICAgICBpbnB1dEVycm9yTWVzc2FnZTogJ+ivt+i+k+WFpSA2IOS9jeWKqOaAgemqjOivgeeggScsCiAgICAgICAgICBjb25maXJtQnV0dG9uVGV4dDogJ+ehruiupOemgeeUqCcsCiAgICAgICAgICBjYW5jZWxCdXR0b25UZXh0OiAn5Y+W5raIJywKICAgICAgICAgIHR5cGU6ICd3YXJuaW5nJywKICAgICAgICAgIGlucHV0UGxhY2Vob2xkZXI6ICc2IOS9jeaVsOWtl+mqjOivgeeggScKICAgICAgICB9CiAgICAgICkgYXMgeyB2YWx1ZTogc3RyaW5nIH0KICAgIH0gY2F0Y2ggewogICAgICByZXR1cm4KICAgIH0KICAgIHRyeSB7CiAgICAgIGF3YWl0IHNlY3VyaXR5QXBpLmRpc2FibGUyRkEocHJvbXB0ZWQudmFsdWUudHJpbSgpKQogICAgICBFbE1lc3NhZ2Uuc3VjY2VzcygnMkZBIOW3suemgeeUqCcpCiAgICAgIHR3b0ZBRW5hYmxlZC52YWx1ZSA9IGZhbHNlCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgJ+emgeeUqCAyRkEg5aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWRMb2dpbkxvZ3MoKSB7CiAgICBsb2dpbkxvZ3NMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc2VjdXJpdHlBcGkubG9naW5Mb2dzKHsgcGFnZTogbG9naW5Mb2dzUGFnZS52YWx1ZSwgcGFnZV9zaXplOiAxNSB9KQogICAgICBsb2dpbkxvZ3MudmFsdWUgPSByZXMuZGF0YSB8fCBbXQogICAgICBsb2dpbkxvZ3NUb3RhbC52YWx1ZSA9IHJlcy50b3RhbCB8fCAwCiAgICB9IGNhdGNoIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKCfliqDovb3nmbvlvZXml6Xlv5flpLHotKUnKQogICAgfSBmaW5hbGx5IHsKICAgICAgbG9naW5Mb2dzTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBsb2FkU2Vzc2lvbnMoKSB7CiAgICBzZXNzaW9uc0xvYWRpbmcudmFsdWUgPSB0cnVlCiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBzZWN1cml0eUFwaS5zZXNzaW9ucygpCiAgICAgIHNlc3Npb25zLnZhbHVlID0gcmVzLmRhdGEgfHwgW10KICAgIH0gY2F0Y2ggewogICAgICBFbE1lc3NhZ2UuZXJyb3IoJ+WKoOi9veS8muivneWIl+ihqOWksei0pScpCiAgICB9IGZpbmFsbHkgewogICAgICBzZXNzaW9uc0xvYWRpbmcudmFsdWUgPSBmYWxzZQogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlUmV2b2tlU2Vzc2lvbihpZDogbnVtYmVyKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBFbE1lc3NhZ2VCb3guY29uZmlybSgn56Gu5a6a6KaB5pKk6ZSA6K+l5Lya6K+d5ZCX77yf6KKr5pKk6ZSA55qE6K6+5aSH5bCG6ZyA6KaB6YeN5paw55m75b2V44CCJywgJ+ehruiupCcsIHsgdHlwZTogJ3dhcm5pbmcnIH0pCiAgICAgIGF3YWl0IHNlY3VyaXR5QXBpLnJldm9rZVNlc3Npb24oaWQpCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfkvJror53lt7LmkqTplIAnKQogICAgICB0cnkgewogICAgICAgIGF3YWl0IGxvYWRTZXNzaW9ucygpCiAgICAgIH0gY2F0Y2ggewogICAgICAgIC8vIElmIGxvYWRpbmcgc2Vzc2lvbnMgZmFpbHMgKDQwMSksIGN1cnJlbnQgc2Vzc2lvbiB3YXMgcmV2b2tlZAogICAgICAgIGF1dGhTdG9yZS5jbGVhckF1dGgoKQogICAgICAgIHZvaWQgcm91dGVyLnB1c2goJy9sb2dpbicpCiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGlmIChlcnIgPT09ICdjYW5jZWwnIHx8IGVycj8udG9TdHJpbmc/LigpID09PSAnY2FuY2VsJykgcmV0dXJuCiAgICAgIEVsTWVzc2FnZS5lcnJvcign5pON5L2c5aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZVJldm9rZUFsbFNlc3Npb25zKCkgewogICAgdHJ5IHsKICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oJ+ehruWumuimgeaSpOmUgOaJgOacieWFtuS7luS8muivneWQl++8nycsICfnoa7orqQnLCB7IHR5cGU6ICd3YXJuaW5nJyB9KQogICAgICBhd2FpdCBzZWN1cml0eUFwaS5yZXZva2VBbGxTZXNzaW9ucygpCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCflt7LmkqTplIDmiYDmnInlhbbku5bkvJror50nKQogICAgICB2b2lkIGxvYWRTZXNzaW9ucygpCiAgICB9IGNhdGNoIHsKICAgICAgLy8gY2FuY2VsbGVkCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBsb2FkSVBXaGl0ZWxpc3QoKSB7CiAgICBpcFdoaXRlbGlzdExvYWRpbmcudmFsdWUgPSB0cnVlCiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBzZWN1cml0eUFwaS5pcFdoaXRlbGlzdCgpCiAgICAgIGlwV2hpdGVsaXN0LnZhbHVlID0gcmVzLmRhdGEgfHwgW10KICAgIH0gY2F0Y2ggewogICAgICBFbE1lc3NhZ2UuZXJyb3IoJ+WKoOi9vSBJUCDnmb3lkI3ljZXlpLHotKUnKQogICAgfSBmaW5hbGx5IHsKICAgICAgaXBXaGl0ZWxpc3RMb2FkaW5nLnZhbHVlID0gZmFsc2UKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUFkZElQKCkgewogICAgaWYgKCFuZXdJUC52YWx1ZS50cmltKCkpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ0lQIOaIlue9keauteS4jeiDveS4uuepuicpCiAgICAgIHJldHVybgogICAgfQogICAgdHJ5IHsKICAgICAgYXdhaXQgc2VjdXJpdHlBcGkuYWRkSVBXaGl0ZWxpc3QoeyBpcDogbmV3SVAudmFsdWUudHJpbSgpLCByZW1hcmtzOiBuZXdJUFJlbWFya3MudmFsdWUgfSkKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+a3u+WKoOaIkOWKnycpCiAgICAgIHNob3dBZGRJUERpYWxvZy52YWx1ZSA9IGZhbHNlCiAgICAgIG5ld0lQLnZhbHVlID0gJycKICAgICAgbmV3SVBSZW1hcmtzLnZhbHVlID0gJycKICAgICAgdm9pZCBsb2FkSVBXaGl0ZWxpc3QoKQogICAgfSBjYXRjaCB7CiAgICAgIEVsTWVzc2FnZS5lcnJvcign5re75Yqg5aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZVJlbW92ZUlQKGlkOiBudW1iZXIpIHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IEVsTWVzc2FnZUJveC5jb25maXJtKCfnoa7lrpropoHnp7vpmaTor6UgSVAg5ZCX77yfJywgJ+ehruiupCcsIHsgdHlwZTogJ3dhcm5pbmcnIH0pCiAgICAgIGF3YWl0IHNlY3VyaXR5QXBpLnJlbW92ZUlQV2hpdGVsaXN0KGlkKQogICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn5Yig6Zmk5oiQ5YqfJykKICAgICAgdm9pZCBsb2FkSVBXaGl0ZWxpc3QoKQogICAgfSBjYXRjaCB7CiAgICAgIC8vIGNhbmNlbGxlZAogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlQ2xlYXJMb2dpbkxvZ3MoKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBFbE1lc3NhZ2VCb3guY29uZmlybSgn56Gu5a6a6KaB5riF6Zmk5omA5pyJ55m75b2V5pel5b+X5ZCX77yf5q2k5pON5L2c5LiN5Y+v5oGi5aSN44CCJywgJ+ehruiupCcsIHsgdHlwZTogJ3dhcm5pbmcnIH0pCiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHNlY3VyaXR5QXBpLmNsZWFyTG9naW5Mb2dzKCkgYXMgYW55CiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKHJlcy5tZXNzYWdlIHx8ICfmuIXpmaTmiJDlip8nKQogICAgICB2b2lkIGxvYWRMb2dpbkxvZ3MoKQogICAgfSBjYXRjaCAoZTogYW55KSB7CiAgICAgIGlmIChlICE9PSAnY2FuY2VsJyAmJiBlPy50b1N0cmluZygpICE9PSAnY2FuY2VsJykgewogICAgICAgIEVsTWVzc2FnZS5lcnJvcign5riF6Zmk5aSx6LSlJykKICAgICAgfQogICAgfQogIH0KCiAgZnVuY3Rpb24gaGFuZGxlU2VjdXJpdHlUYWJDaGFuZ2UodGFiOiBzdHJpbmcpIHsKICAgIGlmICh0YWIgPT09ICdsb2dpbi1sb2dzJykgdm9pZCBsb2FkTG9naW5Mb2dzKCkKICAgIGVsc2UgaWYgKHRhYiA9PT0gJ3Nlc3Npb25zJykgdm9pZCBsb2FkU2Vzc2lvbnMoKQogICAgZWxzZSBpZiAodGFiID09PSAnaXAtd2hpdGVsaXN0Jykgdm9pZCBsb2FkSVBXaGl0ZWxpc3QoKQogIH0KCiAgb25CZWZvcmVVbm1vdW50KCgpID0+IHsKICAgIHN0b3BSZXN0b3JlQ291bnRkb3duKCkKICAgIHN0b3BSZXN0b3JlUHJvZ3Jlc3NQb2xsaW5nKCkKICAgIHN0b3BSZXN0YXJ0UHJvYmUoKQogIH0pCgogIHJldHVybiB7CiAgICBzZWN1cml0eVRhYiwKICAgIGJhY2t1cHMsCiAgICBiYWNrdXBzTG9hZGluZywKICAgIHNob3dCYWNrdXBEaWFsb2csCiAgICBiYWNrdXBOYW1lLAogICAgYmFja3VwUGFzc3dvcmQsCiAgICBiYWNrdXBTZWxlY3Rpb24sCiAgICBiYWNrdXBTY2hlZHVsZVNlbGVjdGlvbiwKICAgIHVwbG9hZFByb2dyZXNzLAogICAgdXBsb2FkVXBsb2FkaW5nLAogICAgc2hvd1Jlc3RvcmVEaWFsb2csCiAgICByZXN0b3JlRmlsZW5hbWUsCiAgICByZXN0b3JlUGFzc3dvcmQsCiAgICByZXN0b3JlUHJvZ3Jlc3NWaXNpYmxlLAogICAgcmVzdG9yZVByb2dyZXNzU3RhdHVzLAogICAgcmVzdG9yZVByb2dyZXNzU3RhZ2UsCiAgICByZXN0b3JlUHJvZ3Jlc3NNZXNzYWdlLAogICAgcmVzdG9yZVByb2dyZXNzUGVyY2VudCwKICAgIHJlc3RvcmVQcm9ncmVzc1NvdXJjZSwKICAgIHJlc3RvcmVQcm9ncmVzc1NlbGVjdGlvbiwKICAgIHJlc3RvcmVQcm9ncmVzc1N0YXJ0ZWRBdCwKICAgIHJlc3RvcmVSZXN0YXJ0Q291bnRkb3duLAogICAgcmVzdG9yZVByb2dyZXNzRXJyb3IsCiAgICBvbGRQYXNzd29yZCwKICAgIG5ld1Bhc3N3b3JkLAogICAgY29uZmlybVBhc3N3b3JkLAogICAgdHdvRkFFbmFibGVkLAogICAgdHdvRkFTZWNyZXQsCiAgICB0d29GQVVyaSwKICAgIHR3b0ZBUXJVcmwsCiAgICB0d29GQUNvZGUsCiAgICBzaG93U2V0dXAyRkEsCiAgICBsb2dpbkxvZ3MsCiAgICBsb2dpbkxvZ3NMb2FkaW5nLAogICAgbG9naW5Mb2dzVG90YWwsCiAgICBsb2dpbkxvZ3NQYWdlLAogICAgc2Vzc2lvbnMsCiAgICBzZXNzaW9uc0xvYWRpbmcsCiAgICBpcFdoaXRlbGlzdCwKICAgIGlwV2hpdGVsaXN0TG9hZGluZywKICAgIHNob3dBZGRJUERpYWxvZywKICAgIG5ld0lQLAogICAgbmV3SVBSZW1hcmtzLAogICAgbG9hZEJhY2t1cHMsCiAgICBoYW5kbGVDcmVhdGVCYWNrdXAsCiAgICBoYW5kbGVVcGxvYWRCYWNrdXAsCiAgICBjb25maXJtQ3JlYXRlQmFja3VwLAogICAgaGFuZGxlRG93bmxvYWRCYWNrdXAsCiAgICBoYW5kbGVSZXN0b3JlQmFja3VwLAogICAgY29uZmlybVJlc3RvcmUsCiAgICBjbG9zZVJlc3RvcmVQcm9ncmVzcywKICAgIHJlc3RhcnRSZXN0b3JlTm93LAogICAgaGFuZGxlRGVsZXRlQmFja3VwLAogICAgbG9hZDJGQVN0YXR1cywKICAgIGhhbmRsZUNoYW5nZVBhc3N3b3JkLAogICAgaGFuZGxlU2V0dXAyRkEsCiAgICBoYW5kbGVWZXJpZnkyRkEsCiAgICBoYW5kbGVEaXNhYmxlMkZBLAogICAgbG9hZExvZ2luTG9ncywKICAgIGxvYWRTZXNzaW9ucywKICAgIGhhbmRsZVJldm9rZVNlc3Npb24sCiAgICBoYW5kbGVSZXZva2VBbGxTZXNzaW9ucywKICAgIGxvYWRJUFdoaXRlbGlzdCwKICAgIGhhbmRsZUFkZElQLAogICAgaGFuZGxlUmVtb3ZlSVAsCiAgICBoYW5kbGVDbGVhckxvZ2luTG9ncywKICAgIGhhbmRsZVNlY3VyaXR5VGFiQ2hhbmdlCiAgfQp9Cg==
+import { onBeforeUnmount, ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { systemApi, type BackupSelection, type RestoreProgressState } from '@/api/system'
+import { securityApi } from '@/api/security'
+import { authApi } from '@/api/auth'
+import { useAuthStore } from '@/stores/auth'
+import { ElMessage, ElMessageBox } from 'element-plus'
+import { createQrCodeDataUrl } from '@/utils/qrcode'
+
+const backupUploadMaxSize = 512 * 1024 * 1024
+
+type RestoreVisualStatus =
+  | 'idle'
+  | 'running'
+  | 'completed'
+  | 'queued-restart'
+  | 'restarting'
+  | 'failed'
+  | 'restart-timeout'
+
+export function useSettingsSecurity() {
+  const router = useRouter()
+  const authStore = useAuthStore()
+
+  const securityTab = ref('password-2fa')
+
+  const backups = ref<any[]>([])
+  const backupsLoading = ref(false)
+  const showBackupDialog = ref(false)
+  const backupName = ref('')
+  const backupPassword = ref('')
+  const backupSelection = ref<BackupSelection>({
+    configs: true,
+    tasks: true,
+    subscriptions: true,
+    env_vars: true,
+    logs: true,
+    scripts: true,
+    dependencies: true,
+    task_views: true,
+  })
+  const backupScheduleSelection = ref<BackupSelection>({
+    configs: true,
+    tasks: true,
+    subscriptions: true,
+    env_vars: true,
+    logs: true,
+    scripts: true,
+    dependencies: true,
+    task_views: true,
+  })
+  const uploadProgress = ref(-1)
+  const uploadUploading = ref(false)
+
+  const showRestoreDialog = ref(false)
+  const restoreFilename = ref('')
+  const restorePassword = ref('')
+  let restoreTimer: ReturnType<typeof setInterval> | null = null
+  const restoreProgressVisible = ref(false)
+  const restoreProgressStatus = ref<RestoreVisualStatus>('idle')
+  const restoreProgressStage = ref('preparing')
+  const restoreProgressMessage = ref('')
+  const restoreProgressPercent = ref(0)
+  const restoreProgressSource = ref('')
+  const restoreProgressSelection = ref<Partial<BackupSelection>>({})
+  const restoreProgressStartedAt = ref('')
+  const restoreProgressError = ref('')
+  const restoreRestartCountdown = ref(0)
+  let restoreProgressPollTimer: ReturnType<typeof setInterval> | null = null
+  let restartProbeTimer: ReturnType<typeof setInterval> | null = null
+  let restartProbeDelayTimer: ReturnType<typeof setTimeout> | null = null
+
+  const oldPassword = ref('')
+  const newPassword = ref('')
+  const confirmPassword = ref('')
+
+  const twoFAEnabled = ref(false)
+  const twoFASecret = ref('')
+  const twoFAUri = ref('')
+  const twoFAQrUrl = ref('')
+  const twoFACode = ref('')
+  const showSetup2FA = ref(false)
+
+  const loginLogs = ref<any[]>([])
+  const loginLogsLoading = ref(false)
+  const loginLogsTotal = ref(0)
+  const loginLogsPage = ref(1)
+
+  const sessions = ref<any[]>([])
+  const sessionsLoading = ref(false)
+
+  const ipWhitelist = ref<any[]>([])
+  const ipWhitelistLoading = ref(false)
+  const showAddIPDialog = ref(false)
+  const newIP = ref('')
+  const newIPRemarks = ref('')
+
+  async function loadBackups() {
+    backupsLoading.value = true
+    try {
+      const res = await systemApi.backupList()
+      backups.value = res.data || []
+    } catch {
+      ElMessage.error('加载备份列表失败')
+    } finally {
+      backupsLoading.value = false
+    }
+  }
+
+  async function handleCreateBackup() {
+    showBackupDialog.value = true
+    backupName.value = ''
+    backupPassword.value = ''
+    backupSelection.value = {
+      configs: true,
+      tasks: true,
+      subscriptions: true,
+      env_vars: true,
+      logs: true,
+      scripts: true,
+      dependencies: true,
+      task_views: true,
+    }
+  }
+
+  async function handleUploadBackup(e: Event) {
+    const input = e.target as HTMLInputElement
+    const file = input.files?.[0]
+    if (!file) return
+    if (file.size > backupUploadMaxSize) {
+      ElMessage.error('备份文件过大，当前上传上限为 512MB')
+      input.value = ''
+      return
+    }
+    uploadUploading.value = true
+    uploadProgress.value = 0
+    try {
+      await systemApi.uploadBackup(file, (percent) => {
+        uploadProgress.value = percent
+      })
+      ElMessage.success('备份文件导入成功')
+      void loadBackups()
+    } catch (err: any) {
+      if (err?.response?.status === 413) {
+        ElMessage.error('备份文件超过当前上传上限，请检查反向代理或容器上传限制')
+      } else {
+        ElMessage.error(err?.response?.data?.error || err?.message || '导入备份失败')
+      }
+    }
+    uploadUploading.value = false
+    uploadProgress.value = -1
+    input.value = ''
+  }
+
+  async function confirmCreateBackup() {
+    try {
+      const hasSelection = Object.values(backupSelection.value).some(Boolean)
+      if (!hasSelection) {
+        ElMessage.warning('请至少选择一个备份项')
+        return
+      }
+      await systemApi.backup(backupPassword.value, backupSelection.value, backupName.value)
+      ElMessage.success('备份创建成功')
+      showBackupDialog.value = false
+      backupName.value = ''
+      backupPassword.value = ''
+      void loadBackups()
+    } catch {
+      ElMessage.error('备份失败')
+    }
+  }
+
+  async function readBlobErrorMessage(err: any, fallback: string) {
+    const data = err?.response?.data
+    if (data instanceof Blob) {
+      const text = await data.text().catch(() => '')
+      if (text) {
+        try {
+          const parsed = JSON.parse(text)
+          return parsed?.error || parsed?.message || text
+        } catch {
+          return text
+        }
+      }
+    }
+    return err?.response?.data?.error || err?.message || fallback
+  }
+
+  async function handleDownloadBackup(filename: string) {
+    try {
+      const blob = await systemApi.downloadBackup(filename)
+      const url = URL.createObjectURL(blob)
+      const link = document.createElement('a')
+      link.href = url
+      link.download = filename
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+      URL.revokeObjectURL(url)
+    } catch (err: any) {
+      ElMessage.error(await readBlobErrorMessage(err, '下载备份失败'))
+    }
+  }
+
+  async function handleRestoreBackup(filename: string) {
+    restoreFilename.value = filename
+    restorePassword.value = ''
+    showRestoreDialog.value = true
+  }
+
+  function stopRestoreCountdown() {
+    if (restoreTimer) {
+      clearInterval(restoreTimer)
+      restoreTimer = null
+    }
+  }
+
+  function stopRestoreProgressPolling() {
+    if (restoreProgressPollTimer) {
+      clearInterval(restoreProgressPollTimer)
+      restoreProgressPollTimer = null
+    }
+  }
+
+  function stopRestartProbe() {
+    if (restartProbeDelayTimer) {
+      clearTimeout(restartProbeDelayTimer)
+      restartProbeDelayTimer = null
+    }
+    if (restartProbeTimer) {
+      clearInterval(restartProbeTimer)
+      restartProbeTimer = null
+    }
+  }
+
+  function resetRestoreProgressState() {
+    stopRestoreCountdown()
+    stopRestoreProgressPolling()
+    stopRestartProbe()
+    restoreProgressVisible.value = false
+    restoreProgressStatus.value = 'idle'
+    restoreProgressStage.value = 'preparing'
+    restoreProgressMessage.value = ''
+    restoreProgressPercent.value = 0
+    restoreProgressSource.value = ''
+    restoreProgressSelection.value = {}
+    restoreProgressStartedAt.value = ''
+    restoreProgressError.value = ''
+    restoreRestartCountdown.value = 0
+  }
+
+  function applyRestoreProgress(snapshot: RestoreProgressState) {
+    restoreProgressVisible.value = true
+    restoreProgressStage.value = snapshot.stage || restoreProgressStage.value || 'preparing'
+    restoreProgressMessage.value = snapshot.message || restoreProgressMessage.value || '正在恢复备份内容...'
+    restoreProgressPercent.value = Math.max(0, Math.min(100, Number(snapshot.percent || 0)))
+    restoreProgressSource.value = snapshot.source || restoreProgressSource.value || ''
+    restoreProgressSelection.value = snapshot.selection || restoreProgressSelection.value || {}
+    restoreProgressError.value = snapshot.error || ''
+    if (snapshot.started_at) {
+      restoreProgressStartedAt.value = snapshot.started_at
+    }
+
+    if (snapshot.status === 'failed') {
+      restoreProgressStatus.value = 'failed'
+      return
+    }
+    if (snapshot.status === 'completed') {
+      restoreProgressStatus.value = 'completed'
+      return
+    }
+    if (snapshot.active || snapshot.status === 'running') {
+      restoreProgressStatus.value = 'running'
+    }
+  }
+
+  async function fetchRestoreProgress(force = false) {
+    try {
+      const res = await systemApi.restoreProgress()
+      const snapshot = (res.data || {}) as RestoreProgressState
+      if (!force && !snapshot.active && snapshot.status === 'idle') {
+        return
+      }
+      if (!force && !snapshot.active && snapshot.updated_at && restoreProgressStartedAt.value) {
+        const snapshotUpdatedAt = Date.parse(snapshot.updated_at)
+        const currentRestoreStartedAt = Date.parse(restoreProgressStartedAt.value)
+        if (!Number.isNaN(snapshotUpdatedAt) && !Number.isNaN(currentRestoreStartedAt) && snapshotUpdatedAt < currentRestoreStartedAt) {
+          return
+        }
+      }
+      applyRestoreProgress(snapshot)
+    } catch {
+      // ignore progress probe errors while restore request is still running
+    }
+  }
+
+  function startRestoreProgressPolling() {
+    stopRestoreProgressPolling()
+    void fetchRestoreProgress()
+    restoreProgressPollTimer = setInterval(() => {
+      void fetchRestoreProgress()
+    }, 700)
+  }
+
+  function openRestoreProgress() {
+    stopRestoreCountdown()
+    stopRestartProbe()
+    restoreProgressVisible.value = true
+    restoreProgressStatus.value = 'running'
+    restoreProgressStage.value = 'preparing'
+    restoreProgressMessage.value = '正在提交恢复请求并准备恢复环境...'
+    restoreProgressPercent.value = 3
+    restoreProgressSource.value = ''
+    restoreProgressSelection.value = {}
+    restoreProgressStartedAt.value = new Date().toISOString()
+    restoreProgressError.value = ''
+    restoreRestartCountdown.value = 0
+  }
+
+  function startRestoreCountdown() {
+    stopRestoreCountdown()
+    restoreProgressStatus.value = 'queued-restart'
+    restoreProgressStage.value = 'completed'
+    restoreProgressPercent.value = 100
+    restoreProgressMessage.value = restoreProgressMessage.value || '数据恢复完成，正在准备重启面板...'
+    restoreRestartCountdown.value = 10
+
+    restoreTimer = setInterval(() => {
+      restoreRestartCountdown.value -= 1
+      if (restoreRestartCountdown.value <= 0) {
+        stopRestoreCountdown()
+        void doRestart()
+      }
+    }, 1000)
+  }
+
+  async function confirmRestore() {
+    showRestoreDialog.value = false
+    openRestoreProgress()
+    startRestoreProgressPolling()
+
+    try {
+      await systemApi.restore(restoreFilename.value, restorePassword.value)
+      stopRestoreProgressPolling()
+      await fetchRestoreProgress(true)
+      startRestoreCountdown()
+    } catch (e: any) {
+      stopRestoreProgressPolling()
+      await fetchRestoreProgress(true)
+      restoreProgressVisible.value = true
+      restoreProgressStatus.value = 'failed'
+      restoreProgressPercent.value = restoreProgressPercent.value || 0
+      restoreProgressStage.value = restoreProgressStage.value || 'preparing'
+      restoreProgressMessage.value = restoreProgressMessage.value || '恢复过程中出现异常'
+      restoreProgressError.value = e?.response?.data?.error || e?.message || '恢复失败'
+      ElMessage.error(restoreProgressError.value)
+    }
+  }
+
+  async function restartRestoreNow() {
+    stopRestoreCountdown()
+    await doRestart()
+  }
+
+  async function doRestart() {
+    restoreProgressVisible.value = true
+    restoreProgressStatus.value = 'restarting'
+    restoreProgressStage.value = 'completed'
+    restoreProgressPercent.value = 100
+    restoreProgressMessage.value = '恢复数据已写入，正在等待面板重新启动...'
+    restoreProgressError.value = ''
+    try {
+      await systemApi.restart()
+    } catch {
+      // ignore
+    }
+    waitForRestart()
+  }
+
+  function waitForRestart() {
+    stopRestartProbe()
+    let attempts = 0
+    restartProbeDelayTimer = setTimeout(() => {
+      restartProbeDelayTimer = null
+      restartProbeTimer = setInterval(async () => {
+        attempts += 1
+        try {
+          const res = await fetch('/', { method: 'HEAD', cache: 'no-store' })
+          if (res.ok) {
+            stopRestartProbe()
+            window.location.reload()
+          }
+        } catch {
+          // ignore
+        }
+
+        if (attempts >= 60) {
+          stopRestartProbe()
+          restoreProgressStatus.value = 'restart-timeout'
+          restoreProgressMessage.value = '恢复已经完成，但暂时还没有检测到面板重新上线。'
+          restoreProgressError.value = '重启等待超时，请稍后手动刷新页面，或检查容器/反向代理是否仍在重建。'
+          ElMessage.warning('重启超时，请稍后手动刷新页面')
+        }
+      }, 2000)
+    }, 3000)
+  }
+
+  function closeRestoreProgress() {
+    if (restoreProgressStatus.value === 'running' || restoreProgressStatus.value === 'queued-restart' || restoreProgressStatus.value === 'restarting') {
+      return
+    }
+    resetRestoreProgressState()
+  }
+
+  async function handleDeleteBackup(filename: string) {
+    try {
+      await ElMessageBox.confirm('确定要删除该备份吗？', '确认', { type: 'warning' })
+      await systemApi.deleteBackup(filename)
+      ElMessage.success('删除成功')
+      void loadBackups()
+    } catch (err: any) {
+      if (err === 'cancel' || err?.toString?.() === 'cancel') return
+      ElMessage.error('删除备份失败')
+    }
+  }
+
+  async function load2FAStatus() {
+    try {
+      const res = await securityApi.get2FAStatus()
+      twoFAEnabled.value = res.data.enabled
+    } catch {
+      // ignore
+    }
+  }
+
+  async function handleChangePassword() {
+    if (!oldPassword.value || !newPassword.value) {
+      ElMessage.warning('请填写密码')
+      return
+    }
+    if (newPassword.value !== confirmPassword.value) {
+      ElMessage.warning('两次输入的密码不一致')
+      return
+    }
+    if (newPassword.value.length < 6) {
+      ElMessage.warning('密码至少 6 位')
+      return
+    }
+    try {
+      await authApi.changePassword(oldPassword.value, newPassword.value)
+      ElMessage.success('密码修改成功，即将跳转到登录页')
+      oldPassword.value = ''
+      newPassword.value = ''
+      confirmPassword.value = ''
+      setTimeout(() => {
+        authStore.logout()
+      }, 1500)
+    } catch {
+      ElMessage.error('密码修改失败')
+    }
+  }
+
+  async function handleSetup2FA() {
+    try {
+      const res = await securityApi.setup2FA()
+      twoFASecret.value = res.data.secret
+      twoFAUri.value = res.data.uri
+      twoFAQrUrl.value = await createQrCodeDataUrl(res.data.uri, 200)
+      twoFACode.value = ''
+      showSetup2FA.value = true
+    } catch {
+      ElMessage.error('初始化 2FA 失败')
+    }
+  }
+
+  async function handleVerify2FA() {
+    if (!twoFACode.value) {
+      ElMessage.warning('请输入验证码')
+      return
+    }
+    try {
+      await securityApi.verify2FA(twoFACode.value)
+      ElMessage.success('2FA 已启用')
+      twoFAEnabled.value = true
+      showSetup2FA.value = false
+    } catch {
+      ElMessage.error('验证码错误')
+    }
+  }
+
+  async function handleDisable2FA() {
+    let prompted: { value: string }
+    try {
+      prompted = await ElMessageBox.prompt(
+        '禁用前请输入当前的动态验证码（认证器 App 上 6 位数字）以确认操作。',
+        '禁用双因素认证',
+        {
+          inputPattern: /^\d{6}$/,
+          inputErrorMessage: '请输入 6 位动态验证码',
+          confirmButtonText: '确认禁用',
+          cancelButtonText: '取消',
+          type: 'warning',
+          inputPlaceholder: '6 位数字验证码'
+        }
+      ) as { value: string }
+    } catch {
+      return
+    }
+    try {
+      await securityApi.disable2FA(prompted.value.trim())
+      ElMessage.success('2FA 已禁用')
+      twoFAEnabled.value = false
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || '禁用 2FA 失败')
+    }
+  }
+
+  async function loadLoginLogs() {
+    loginLogsLoading.value = true
+    try {
+      const res = await securityApi.loginLogs({ page: loginLogsPage.value, page_size: 15 })
+      loginLogs.value = res.data || []
+      loginLogsTotal.value = res.total || 0
+    } catch {
+      ElMessage.error('加载登录日志失败')
+    } finally {
+      loginLogsLoading.value = false
+    }
+  }
+
+  async function loadSessions() {
+    sessionsLoading.value = true
+    try {
+      const res = await securityApi.sessions()
+      sessions.value = res.data || []
+    } catch {
+      ElMessage.error('加载会话列表失败')
+    } finally {
+      sessionsLoading.value = false
+    }
+  }
+
+  async function handleRevokeSession(id: number) {
+    try {
+      await ElMessageBox.confirm('确定要撤销该会话吗？被撤销的设备将需要重新登录。', '确认', { type: 'warning' })
+      await securityApi.revokeSession(id)
+      ElMessage.success('会话已撤销')
+      try {
+        await loadSessions()
+      } catch {
+        // If loading sessions fails (401), current session was revoked
+        authStore.clearAuth()
+        void router.push('/login')
+      }
+    } catch (err: any) {
+      if (err === 'cancel' || err?.toString?.() === 'cancel') return
+      ElMessage.error('操作失败')
+    }
+  }
+
+  async function handleRevokeAllSessions() {
+    try {
+      await ElMessageBox.confirm('确定要撤销所有其他会话吗？', '确认', { type: 'warning' })
+      await securityApi.revokeAllSessions()
+      ElMessage.success('已撤销所有其他会话')
+      void loadSessions()
+    } catch {
+      // cancelled
+    }
+  }
+
+  async function loadIPWhitelist() {
+    ipWhitelistLoading.value = true
+    try {
+      const res = await securityApi.ipWhitelist()
+      ipWhitelist.value = res.data || []
+    } catch {
+      ElMessage.error('加载 IP 白名单失败')
+    } finally {
+      ipWhitelistLoading.value = false
+    }
+  }
+
+  async function handleAddIP() {
+    if (!newIP.value.trim()) {
+      ElMessage.warning('IP 或网段不能为空')
+      return
+    }
+    try {
+      await securityApi.addIPWhitelist({ ip: newIP.value.trim(), remarks: newIPRemarks.value })
+      ElMessage.success('添加成功')
+      showAddIPDialog.value = false
+      newIP.value = ''
+      newIPRemarks.value = ''
+      void loadIPWhitelist()
+    } catch {
+      ElMessage.error('添加失败')
+    }
+  }
+
+  async function handleRemoveIP(id: number) {
+    try {
+      await ElMessageBox.confirm('确定要移除该 IP 吗？', '确认', { type: 'warning' })
+      await securityApi.removeIPWhitelist(id)
+      ElMessage.success('删除成功')
+      void loadIPWhitelist()
+    } catch {
+      // cancelled
+    }
+  }
+
+  async function handleClearLoginLogs() {
+    try {
+      await ElMessageBox.confirm('确定要清除所有登录日志吗？此操作不可恢复。', '确认', { type: 'warning' })
+      const res = await securityApi.clearLoginLogs() as any
+      ElMessage.success(res.message || '清除成功')
+      void loadLoginLogs()
+    } catch (e: any) {
+      if (e !== 'cancel' && e?.toString() !== 'cancel') {
+        ElMessage.error('清除失败')
+      }
+    }
+  }
+
+  function handleSecurityTabChange(tab: string) {
+    if (tab === 'login-logs') void loadLoginLogs()
+    else if (tab === 'sessions') void loadSessions()
+    else if (tab === 'ip-whitelist') void loadIPWhitelist()
+  }
+
+  onBeforeUnmount(() => {
+    stopRestoreCountdown()
+    stopRestoreProgressPolling()
+    stopRestartProbe()
+  })
+
+  return {
+    securityTab,
+    backups,
+    backupsLoading,
+    showBackupDialog,
+    backupName,
+    backupPassword,
+    backupSelection,
+    backupScheduleSelection,
+    uploadProgress,
+    uploadUploading,
+    showRestoreDialog,
+    restoreFilename,
+    restorePassword,
+    restoreProgressVisible,
+    restoreProgressStatus,
+    restoreProgressStage,
+    restoreProgressMessage,
+    restoreProgressPercent,
+    restoreProgressSource,
+    restoreProgressSelection,
+    restoreProgressStartedAt,
+    restoreRestartCountdown,
+    restoreProgressError,
+    oldPassword,
+    newPassword,
+    confirmPassword,
+    twoFAEnabled,
+    twoFASecret,
+    twoFAUri,
+    twoFAQrUrl,
+    twoFACode,
+    showSetup2FA,
+    loginLogs,
+    loginLogsLoading,
+    loginLogsTotal,
+    loginLogsPage,
+    sessions,
+    sessionsLoading,
+    ipWhitelist,
+    ipWhitelistLoading,
+    showAddIPDialog,
+    newIP,
+    newIPRemarks,
+    loadBackups,
+    handleCreateBackup,
+    handleUploadBackup,
+    confirmCreateBackup,
+    handleDownloadBackup,
+    handleRestoreBackup,
+    confirmRestore,
+    closeRestoreProgress,
+    restartRestoreNow,
+    handleDeleteBackup,
+    load2FAStatus,
+    handleChangePassword,
+    handleSetup2FA,
+    handleVerify2FA,
+    handleDisable2FA,
+    loadLoginLogs,
+    loadSessions,
+    handleRevokeSession,
+    handleRevokeAllSessions,
+    loadIPWhitelist,
+    handleAddIP,
+    handleRemoveIP,
+    handleClearLoginLogs,
+    handleSecurityTabChange
+  }
+}

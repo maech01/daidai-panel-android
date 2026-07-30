@@ -1,1 +1,131 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKZnVuYyBTbmFwc2hvdERlcHNUb0hvc3QoKSB7CglkZXBzRGlyIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5EaXIsICJkZXBzIikKCXBlcnNpc3REaXIgOj0gIi9kYXRhL2FkYi9kYWlkYWktcGFuZWwvZGVwcy1zbmFwc2hvdCIKCglpZiBfLCBlcnIgOj0gb3MuU3RhdChkZXBzRGlyKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdCgiL2RhdGEvYWRiL2RhaWRhaS1wYW5lbCIpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4KCX0KCgljbWQgOj0gZXhlYy5Db21tYW5kKCJjcCIsICItcmYiLCBkZXBzRGlyKyIvLiIsIHBlcnNpc3REaXIrIi8iKQoJb3MuTWtkaXJBbGwocGVyc2lzdERpciwgMDc1NSkKCWNtZC5SdW4oKQp9CgpmdW5jIERlcGVuZGVuY3lJbnN0YWxsZWQoZGVwVHlwZSwgbmFtZSBzdHJpbmcpIGJvb2wgewoJcmV0dXJuIERlcGVuZGVuY3lJbnN0YWxsZWRGb3JQeXRob25WZXJzaW9uKGRlcFR5cGUsIG5hbWUsICIiKQp9CgpmdW5jIERlcGVuZGVuY3lJbnN0YWxsZWRGb3JQeXRob25WZXJzaW9uKGRlcFR5cGUsIG5hbWUsIHB5dGhvblZlcnNpb24gc3RyaW5nKSBib29sIHsKCW5hbWUgPSBzdHJpbmdzLlRyaW1TcGFjZShuYW1lKQoJaWYgZGVwVHlwZSA9PSAiIiB8fCBuYW1lID09ICIiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglkZXBzRGlyIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5EaXIsICJkZXBzIikKCXN3aXRjaCBkZXBUeXBlIHsKCWNhc2UgbW9kZWwuRGVwVHlwZU5vZGVKUzoKCQltb2REaXIgOj0gZmlsZXBhdGguSm9pbihkZXBzRGlyLCAibm9kZWpzIiwgIm5vZGVfbW9kdWxlcyIsIGZpbGVwYXRoLkZyb21TbGFzaChOb3JtYWxpemVOb2RlRGVwZW5kZW5jeVBhY2thZ2VOYW1lKG5hbWUpKSkKCQlpZiBpbmZvLCBlcnIgOj0gb3MuU3RhdChtb2REaXIpOyBlcnIgPT0gbmlsIHsKCQkJcmV0dXJuIGluZm8uSXNEaXIoKQoJCX0KCWNhc2UgbW9kZWwuRGVwVHlwZVB5dGhvbjoKCQlweXRob25WZXJzaW9uID0gTm9ybWFsaXplRGVwZW5kZW5jeVB5dGhvblZlcnNpb24ocHl0aG9uVmVyc2lvbikKCQljYW5kaWRhdGVzIDo9IFtdc3RyaW5newoJCQlSZXNvbHZlTWFuYWdlZFBpcEJpbmFyeUZvclB5dGhvblZlcnNpb24ocHl0aG9uVmVyc2lvbiksCgkJCWZpbGVwYXRoLkpvaW4oTWFuYWdlZFB5dGhvblZlbnZEaXIocHl0aG9uVmVyc2lvbiksICJiaW4iLCAicGlwIiksCgkJCWZpbGVwYXRoLkpvaW4oTWFuYWdlZFB5dGhvblZlbnZEaXIocHl0aG9uVmVyc2lvbiksICJiaW4iLCAicGlwMyIpLAoJCQlmaWxlcGF0aC5Kb2luKE1hbmFnZWRQeXRob25WZW52RGlyKHB5dGhvblZlcnNpb24pLCAiU2NyaXB0cyIsICJwaXAuZXhlIiksCgkJCWZpbGVwYXRoLkpvaW4oTWFuYWdlZFB5dGhvblZlbnZEaXIocHl0aG9uVmVyc2lvbiksICJTY3JpcHRzIiwgInBpcDMuZXhlIiksCgkJfQoJCWZvciBfLCBwaXBCaW4gOj0gcmFuZ2UgY2FuZGlkYXRlcyB7CgkJCXBpcEJpbiA9IHN0cmluZ3MuVHJpbVNwYWNlKHBpcEJpbikKCQkJaWYgcGlwQmluID09ICIiIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJaWYgXywgZXJyIDo9IG9zLlN0YXQocGlwQmluKTsgZXJyID09IG5pbCB7CgkJCQlzaG93Q21kIDo9IGV4ZWMuQ29tbWFuZChwaXBCaW4sICJzaG93IiwgbmFtZSkKCQkJCXNob3dDbWQuRW52ID0gU2FuaXRpemVQaXBFbnYob3MuRW52aXJvbigpKQoJCQkJaWYgb3V0LCBlcnIgOj0gc2hvd0NtZC5Db21iaW5lZE91dHB1dCgpOyBlcnIgPT0gbmlsICYmIHN0cmluZ3MuQ29udGFpbnMoc3RyaW5nKG91dCksICJOYW1lOiIpIHsKCQkJCQlyZXR1cm4gdHJ1ZQoJCQkJfQoJCQl9CgkJfQoJCXNob3dDbWQsIGVyciA6PSBOZXdQaXBDb21tYW5kRm9yUHl0aG9uVmVyc2lvbihweXRob25WZXJzaW9uLCBbXXN0cmluZ3sic2hvdyIsIG5hbWV9KQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZmFsc2UKCQl9CgkJc2hvd0NtZC5FbnYgPSBTYW5pdGl6ZVBpcEVudihvcy5FbnZpcm9uKCkpCgkJaWYgb3V0LCBlcnIgOj0gc2hvd0NtZC5Db21iaW5lZE91dHB1dCgpOyBlcnIgPT0gbmlsICYmIHN0cmluZ3MuQ29udGFpbnMoc3RyaW5nKG91dCksICJOYW1lOiIpIHsKCQkJcmV0dXJuIHRydWUKCQl9CgljYXNlIG1vZGVsLkRlcFR5cGVMaW51eDoKCQlpZiBfLCBlcnIgOj0gZXhlYy5Mb29rUGF0aChuYW1lKTsgZXJyID09IG5pbCB7CgkJCXJldHVybiB0cnVlCgkJfQoJCWZvciBfLCBwcm9iZSA6PSByYW5nZSBbXXN0cnVjdCB7CgkJCWJpbmFyeSBzdHJpbmcKCQkJYXJncyAgIFtdc3RyaW5nCgkJfXsKCQkJe2JpbmFyeTogImFwayIsIGFyZ3M6IFtdc3RyaW5neyJpbmZvIiwgIi1lIiwgbmFtZX19LAoJCQl7YmluYXJ5OiAiZHBrZy1xdWVyeSIsIGFyZ3M6IFtdc3RyaW5neyItVyIsICItZj0ke1N0YXR1c30iLCBuYW1lfX0sCgkJCXtiaW5hcnk6ICJycG0iLCBhcmdzOiBbXXN0cmluZ3siLXEiLCBuYW1lfX0sCgkJfSB7CgkJCWlmIF8sIGVyciA6PSBleGVjLkxvb2tQYXRoKHByb2JlLmJpbmFyeSk7IGVyciAhPSBuaWwgewoJCQkJY29udGludWUKCQkJfQoJCQlpZiBvdXQsIGVyciA6PSBleGVjLkNvbW1hbmQocHJvYmUuYmluYXJ5LCBwcm9iZS5hcmdzLi4uKS5Db21iaW5lZE91dHB1dCgpOyBlcnIgPT0gbmlsIHsKCQkJCWlmIHByb2JlLmJpbmFyeSAhPSAiZHBrZy1xdWVyeSIgfHwgc3RyaW5ncy5Db250YWlucyhzdHJpbmcob3V0KSwgImluc3RhbGwgb2sgaW5zdGFsbGVkIikgewoJCQkJCXJldHVybiB0cnVlCgkJCQl9CgkJCX0KCQl9Cgl9CgoJcmV0dXJuIGZhbHNlCn0KCmZ1bmMgTm9ybWFsaXplTm9kZURlcGVuZGVuY3lQYWNrYWdlTmFtZShzcGVjIHN0cmluZykgc3RyaW5nIHsKCXNwZWMgPSBzdHJpbmdzLlRyaW1TcGFjZShzcGVjKQoJaWYgc3BlYyA9PSAiIiB7CgkJcmV0dXJuICIiCgl9CgoJaWYgc3RyaW5ncy5IYXNQcmVmaXgoc3BlYywgIkAiKSB7CgkJcGFydHMgOj0gc3RyaW5ncy5TcGxpdE4oc3BlYywgIi8iLCAyKQoJCWlmIGxlbihwYXJ0cykgIT0gMiB7CgkJCXJldHVybiBzcGVjCgkJfQoJCXNjb3BlIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHBhcnRzWzBdKQoJCXJlc3QgOj0gc3RyaW5ncy5UcmltU3BhY2UocGFydHNbMV0pCgkJaWYgc2NvcGUgPT0gIiIgfHwgcmVzdCA9PSAiIiB7CgkJCXJldHVybiBzcGVjCgkJfQoJCWlmIGlkeCA6PSBzdHJpbmdzLkxhc3RJbmRleChyZXN0LCAiQCIpOyBpZHggPiAwIHsKCQkJcmVzdCA9IHJlc3RbOmlkeF0KCQl9CgkJaWYgcmVzdCA9PSAiIiB7CgkJCXJldHVybiBzcGVjCgkJfQoJCXJldHVybiBzY29wZSArICIvIiArIHJlc3QKCX0KCglpZiBpZHggOj0gc3RyaW5ncy5MYXN0SW5kZXgoc3BlYywgIkAiKTsgaWR4ID4gMCB7CgkJcmV0dXJuIHNwZWNbOmlkeF0KCX0KCXJldHVybiBzcGVjCn0K
+package service
+
+import (
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+)
+
+func SnapshotDepsToHost() {
+	depsDir := filepath.Join(config.C.Data.Dir, "deps")
+	persistDir := "/data/adb/daidai-panel/deps-snapshot"
+
+	if _, err := os.Stat(depsDir); err != nil {
+		return
+	}
+	if _, err := os.Stat("/data/adb/daidai-panel"); err != nil {
+		return
+	}
+
+	cmd := exec.Command("cp", "-rf", depsDir+"/.", persistDir+"/")
+	os.MkdirAll(persistDir, 0755)
+	cmd.Run()
+}
+
+func DependencyInstalled(depType, name string) bool {
+	return DependencyInstalledForPythonVersion(depType, name, "")
+}
+
+func DependencyInstalledForPythonVersion(depType, name, pythonVersion string) bool {
+	name = strings.TrimSpace(name)
+	if depType == "" || name == "" {
+		return false
+	}
+
+	depsDir := filepath.Join(config.C.Data.Dir, "deps")
+	switch depType {
+	case model.DepTypeNodeJS:
+		modDir := filepath.Join(depsDir, "nodejs", "node_modules", filepath.FromSlash(NormalizeNodeDependencyPackageName(name)))
+		if info, err := os.Stat(modDir); err == nil {
+			return info.IsDir()
+		}
+	case model.DepTypePython:
+		pythonVersion = NormalizeDependencyPythonVersion(pythonVersion)
+		candidates := []string{
+			ResolveManagedPipBinaryForPythonVersion(pythonVersion),
+			filepath.Join(ManagedPythonVenvDir(pythonVersion), "bin", "pip"),
+			filepath.Join(ManagedPythonVenvDir(pythonVersion), "bin", "pip3"),
+			filepath.Join(ManagedPythonVenvDir(pythonVersion), "Scripts", "pip.exe"),
+			filepath.Join(ManagedPythonVenvDir(pythonVersion), "Scripts", "pip3.exe"),
+		}
+		for _, pipBin := range candidates {
+			pipBin = strings.TrimSpace(pipBin)
+			if pipBin == "" {
+				continue
+			}
+			if _, err := os.Stat(pipBin); err == nil {
+				showCmd := exec.Command(pipBin, "show", name)
+				showCmd.Env = SanitizePipEnv(os.Environ())
+				if out, err := showCmd.CombinedOutput(); err == nil && strings.Contains(string(out), "Name:") {
+					return true
+				}
+			}
+		}
+		showCmd, err := NewPipCommandForPythonVersion(pythonVersion, []string{"show", name})
+		if err != nil {
+			return false
+		}
+		showCmd.Env = SanitizePipEnv(os.Environ())
+		if out, err := showCmd.CombinedOutput(); err == nil && strings.Contains(string(out), "Name:") {
+			return true
+		}
+	case model.DepTypeLinux:
+		if _, err := exec.LookPath(name); err == nil {
+			return true
+		}
+		for _, probe := range []struct {
+			binary string
+			args   []string
+		}{
+			{binary: "apk", args: []string{"info", "-e", name}},
+			{binary: "dpkg-query", args: []string{"-W", "-f=${Status}", name}},
+			{binary: "rpm", args: []string{"-q", name}},
+		} {
+			if _, err := exec.LookPath(probe.binary); err != nil {
+				continue
+			}
+			if out, err := exec.Command(probe.binary, probe.args...).CombinedOutput(); err == nil {
+				if probe.binary != "dpkg-query" || strings.Contains(string(out), "install ok installed") {
+					return true
+				}
+			}
+		}
+	}
+
+	return false
+}
+
+func NormalizeNodeDependencyPackageName(spec string) string {
+	spec = strings.TrimSpace(spec)
+	if spec == "" {
+		return ""
+	}
+
+	if strings.HasPrefix(spec, "@") {
+		parts := strings.SplitN(spec, "/", 2)
+		if len(parts) != 2 {
+			return spec
+		}
+		scope := strings.TrimSpace(parts[0])
+		rest := strings.TrimSpace(parts[1])
+		if scope == "" || rest == "" {
+			return spec
+		}
+		if idx := strings.LastIndex(rest, "@"); idx > 0 {
+			rest = rest[:idx]
+		}
+		if rest == "" {
+			return spec
+		}
+		return scope + "/" + rest
+	}
+
+	if idx := strings.LastIndex(spec, "@"); idx > 0 {
+		return spec[:idx]
+	}
+	return spec
+}

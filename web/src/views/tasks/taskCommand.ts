@@ -1,1 +1,108 @@
-Y29uc3Qgc2NyaXB0RmlsZVBhdHRlcm4gPSAvXC4oPzpqc3x0c3xweXxzaHxnbykkL2kKCmV4cG9ydCBpbnRlcmZhY2UgVGFza0NvbW1hbmREaXNwbGF5UGFydHMgewogIGJlZm9yZTogc3RyaW5nCiAgc2NyaXB0OiBzdHJpbmcgfCBudWxsCiAgYWZ0ZXI6IHN0cmluZwp9CgpmdW5jdGlvbiB0b2tlbml6ZUNvbW1hbmQoY29tbWFuZDogc3RyaW5nKSB7CiAgY29uc3QgdG9rZW5zOiBzdHJpbmdbXSA9IFtdCiAgbGV0IGN1cnJlbnQgPSAnJwogIGxldCBxdW90ZTogJyInIHwgIiciIHwgbnVsbCA9IG51bGwKCiAgZm9yIChsZXQgaSA9IDA7IGkgPCBjb21tYW5kLmxlbmd0aDsgaSArPSAxKSB7CiAgICBjb25zdCBjaGFyID0gY29tbWFuZFtpXSA/PyAnJwogICAgaWYgKHF1b3RlKSB7CiAgICAgIGlmIChjaGFyID09PSBxdW90ZSkgewogICAgICAgIHF1b3RlID0gbnVsbAogICAgICAgIGNvbnRpbnVlCiAgICAgIH0KICAgICAgY3VycmVudCArPSBjaGFyCiAgICAgIGNvbnRpbnVlCiAgICB9CgogICAgaWYgKGNoYXIgPT09ICciJyB8fCBjaGFyID09PSAiJyIpIHsKICAgICAgcXVvdGUgPSBjaGFyCiAgICAgIGNvbnRpbnVlCiAgICB9CgogICAgaWYgKC9ccy8udGVzdChjaGFyKSkgewogICAgICBpZiAoY3VycmVudCkgewogICAgICAgIHRva2Vucy5wdXNoKGN1cnJlbnQpCiAgICAgICAgY3VycmVudCA9ICcnCiAgICAgIH0KICAgICAgY29udGludWUKICAgIH0KCiAgICBjdXJyZW50ICs9IGNoYXIKICB9CgogIGlmIChjdXJyZW50KSB7CiAgICB0b2tlbnMucHVzaChjdXJyZW50KQogIH0KCiAgcmV0dXJuIHRva2Vucwp9CgpmdW5jdGlvbiBmaXJzdFNjcmlwdFRva2VuKHRva2Vuczogc3RyaW5nW10pIHsKICByZXR1cm4gdG9rZW5zLmZpbmQodG9rZW4gPT4gc2NyaXB0RmlsZVBhdHRlcm4udGVzdCh0b2tlbikpIHx8IG51bGwKfQoKZXhwb3J0IGZ1bmN0aW9uIGV4dHJhY3RUYXNrQ29tbWFuZFNjcmlwdFBhdGgoY29tbWFuZDogc3RyaW5nKSB7CiAgY29uc3QgdG9rZW5zID0gdG9rZW5pemVDb21tYW5kKGNvbW1hbmQpCiAgaWYgKHRva2Vucy5sZW5ndGggPT09IDApIHJldHVybiBudWxsCgogIGNvbnN0IGVudHJ5ID0gdG9rZW5zWzBdCiAgaWYgKCFlbnRyeSkgcmV0dXJuIG51bGwKICBjb25zdCByZXN0ID0gdG9rZW5zLnNsaWNlKDEpCiAgY29uc3Qgbm9ybWFsaXplZEVudHJ5ID0gZW50cnkudG9Mb3dlckNhc2UoKQoKICBpZiAobm9ybWFsaXplZEVudHJ5ID09PSAndGFzaycpIHsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgcmVzdC5sZW5ndGg7IGkgKz0gMSkgewogICAgICBjb25zdCB0b2tlbiA9IHJlc3RbaV0KICAgICAgaWYgKCF0b2tlbikgY29udGludWUKICAgICAgaWYgKHRva2VuID09PSAnLS0nKSBicmVhawogICAgICBpZiAodG9rZW4gPT09ICctbScpIHsKICAgICAgICBpICs9IDEKICAgICAgICBjb250aW51ZQogICAgICB9CiAgICAgIGlmIChzY3JpcHRGaWxlUGF0dGVybi50ZXN0KHRva2VuKSkgewogICAgICAgIHJldHVybiB0b2tlbgogICAgICB9CiAgICB9CiAgICByZXR1cm4gbnVsbAogIH0KCiAgaWYgKFsnZGVzaScsICdub2RlJywgJ25vZGVqcycsICdweXRob24nLCAncHl0aG9uMycsICdiYXNoJywgJ3NoJywgJ3RzLW5vZGUnLCAnZ28nXS5pbmNsdWRlcyhub3JtYWxpemVkRW50cnkpKSB7CiAgICByZXR1cm4gZmlyc3RTY3JpcHRUb2tlbihyZXN0KQogIH0KCiAgcmV0dXJuIGZpcnN0U2NyaXB0VG9rZW4odG9rZW5zKQp9CgpleHBvcnQgZnVuY3Rpb24gc3BsaXRUYXNrQ29tbWFuZERpc3BsYXkoY29tbWFuZDogc3RyaW5nKTogVGFza0NvbW1hbmREaXNwbGF5UGFydHMgewogIGNvbnN0IHNjcmlwdCA9IGV4dHJhY3RUYXNrQ29tbWFuZFNjcmlwdFBhdGgoY29tbWFuZCkKICBpZiAoIXNjcmlwdCkgewogICAgcmV0dXJuIHsKICAgICAgYmVmb3JlOiBjb21tYW5kLAogICAgICBzY3JpcHQ6IG51bGwsCiAgICAgIGFmdGVyOiAnJywKICAgIH0KICB9CgogIGNvbnN0IHNjcmlwdEluZGV4ID0gY29tbWFuZC5pbmRleE9mKHNjcmlwdCkKICBpZiAoc2NyaXB0SW5kZXggPCAwKSB7CiAgICByZXR1cm4gewogICAgICBiZWZvcmU6IGNvbW1hbmQsCiAgICAgIHNjcmlwdDogbnVsbCwKICAgICAgYWZ0ZXI6ICcnLAogICAgfQogIH0KCiAgcmV0dXJuIHsKICAgIGJlZm9yZTogY29tbWFuZC5zbGljZSgwLCBzY3JpcHRJbmRleCksCiAgICBzY3JpcHQsCiAgICBhZnRlcjogY29tbWFuZC5zbGljZShzY3JpcHRJbmRleCArIHNjcmlwdC5sZW5ndGgpLAogIH0KfQo=
+const scriptFilePattern = /\.(?:js|ts|py|sh|go)$/i
+
+export interface TaskCommandDisplayParts {
+  before: string
+  script: string | null
+  after: string
+}
+
+function tokenizeCommand(command: string) {
+  const tokens: string[] = []
+  let current = ''
+  let quote: '"' | "'" | null = null
+
+  for (let i = 0; i < command.length; i += 1) {
+    const char = command[i] ?? ''
+    if (quote) {
+      if (char === quote) {
+        quote = null
+        continue
+      }
+      current += char
+      continue
+    }
+
+    if (char === '"' || char === "'") {
+      quote = char
+      continue
+    }
+
+    if (/\s/.test(char)) {
+      if (current) {
+        tokens.push(current)
+        current = ''
+      }
+      continue
+    }
+
+    current += char
+  }
+
+  if (current) {
+    tokens.push(current)
+  }
+
+  return tokens
+}
+
+function firstScriptToken(tokens: string[]) {
+  return tokens.find(token => scriptFilePattern.test(token)) || null
+}
+
+export function extractTaskCommandScriptPath(command: string) {
+  const tokens = tokenizeCommand(command)
+  if (tokens.length === 0) return null
+
+  const entry = tokens[0]
+  if (!entry) return null
+  const rest = tokens.slice(1)
+  const normalizedEntry = entry.toLowerCase()
+
+  if (normalizedEntry === 'task') {
+    for (let i = 0; i < rest.length; i += 1) {
+      const token = rest[i]
+      if (!token) continue
+      if (token === '--') break
+      if (token === '-m') {
+        i += 1
+        continue
+      }
+      if (scriptFilePattern.test(token)) {
+        return token
+      }
+    }
+    return null
+  }
+
+  if (['desi', 'node', 'nodejs', 'python', 'python3', 'bash', 'sh', 'ts-node', 'go'].includes(normalizedEntry)) {
+    return firstScriptToken(rest)
+  }
+
+  return firstScriptToken(tokens)
+}
+
+export function splitTaskCommandDisplay(command: string): TaskCommandDisplayParts {
+  const script = extractTaskCommandScriptPath(command)
+  if (!script) {
+    return {
+      before: command,
+      script: null,
+      after: '',
+    }
+  }
+
+  const scriptIndex = command.indexOf(script)
+  if (scriptIndex < 0) {
+    return {
+      before: command,
+      script: null,
+      after: '',
+    }
+  }
+
+  return {
+    before: command.slice(0, scriptIndex),
+    script,
+    after: command.slice(scriptIndex + script.length),
+  }
+}

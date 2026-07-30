@@ -1,1 +1,85 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICdwaW5pYScKaW1wb3J0IHsgcmVmLCBjb21wdXRlZCB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgYXV0aEFwaSB9IGZyb20gJ0AvYXBpL2F1dGgnCmltcG9ydCByb3V0ZXIgZnJvbSAnQC9yb3V0ZXInCmltcG9ydCB0eXBlIHsgR2VlVGVzdFZhbGlkYXRlUmVzdWx0IH0gZnJvbSAnQC91dGlscy9nZWV0ZXN0JwoKaW50ZXJmYWNlIFVzZXIgewogIGlkOiBudW1iZXIKICB1c2VybmFtZTogc3RyaW5nCiAgcm9sZTogc3RyaW5nCiAgZW5hYmxlZDogYm9vbGVhbgogIGF2YXRhcl91cmw6IHN0cmluZwogIGxhc3RfbG9naW5fYXQ6IHN0cmluZyB8IG51bGwKICBjcmVhdGVkX2F0OiBzdHJpbmcKICB1cGRhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IGNvbnN0IHVzZUF1dGhTdG9yZSA9IGRlZmluZVN0b3JlKCdhdXRoJywgKCkgPT4gewogIGNvbnN0IGFjY2Vzc1Rva2VuID0gcmVmKGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdhY2Nlc3NfdG9rZW4nKSB8fCAnJykKICBjb25zdCByZWZyZXNoVG9rZW4gPSByZWYobG9jYWxTdG9yYWdlLmdldEl0ZW0oJ3JlZnJlc2hfdG9rZW4nKSB8fCAnJykKICBjb25zdCB1c2VyID0gcmVmPFVzZXIgfCBudWxsPihudWxsKQoKICBjb25zdCBpc0xvZ2dlZEluID0gY29tcHV0ZWQoKCkgPT4gISFhY2Nlc3NUb2tlbi52YWx1ZSkKCiAgZnVuY3Rpb24gc2V0VG9rZW5zKGFjY2Vzczogc3RyaW5nLCByZWZyZXNoOiBzdHJpbmcpIHsKICAgIGFjY2Vzc1Rva2VuLnZhbHVlID0gYWNjZXNzCiAgICByZWZyZXNoVG9rZW4udmFsdWUgPSByZWZyZXNoCiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnYWNjZXNzX3Rva2VuJywgYWNjZXNzKQogICAgbG9jYWxTdG9yYWdlLnNldEl0ZW0oJ3JlZnJlc2hfdG9rZW4nLCByZWZyZXNoKQogIH0KCiAgZnVuY3Rpb24gc2V0VXNlcih1OiBVc2VyKSB7CiAgICB1c2VyLnZhbHVlID0gdQogIH0KCiAgZnVuY3Rpb24gY2xlYXJBdXRoKCkgewogICAgYWNjZXNzVG9rZW4udmFsdWUgPSAnJwogICAgcmVmcmVzaFRva2VuLnZhbHVlID0gJycKICAgIHVzZXIudmFsdWUgPSBudWxsCiAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnYWNjZXNzX3Rva2VuJykKICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdyZWZyZXNoX3Rva2VuJykKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvZ2luKHVzZXJuYW1lOiBzdHJpbmcsIHBhc3N3b3JkOiBzdHJpbmcsIHRvdHBDb2RlPzogc3RyaW5nLCBjYXB0Y2hhPzogR2VlVGVzdFZhbGlkYXRlUmVzdWx0IHwgbnVsbCkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXV0aEFwaS5sb2dpbih1c2VybmFtZSwgcGFzc3dvcmQsIHRvdHBDb2RlLCBjYXB0Y2hhKQogICAgc2V0VG9rZW5zKHJlcy5hY2Nlc3NfdG9rZW4sIHJlcy5yZWZyZXNoX3Rva2VuKQogICAgc2V0VXNlcihyZXMudXNlcikKICAgIHJldHVybiByZXMKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvZ291dCgpIHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGF1dGhBcGkubG9nb3V0KCkKICAgIH0gZmluYWxseSB7CiAgICAgIGNsZWFyQXV0aCgpCiAgICAgIHJvdXRlci5wdXNoKCcvbG9naW4nKQogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gZmV0Y2hVc2VyKCkgewogICAgY29uc3QgcmVzID0gYXdhaXQgYXV0aEFwaS5nZXRVc2VyKCkKICAgIHNldFVzZXIocmVzLnVzZXIpCiAgfQoKICBhc3luYyBmdW5jdGlvbiByZWZyZXNoQWNjZXNzVG9rZW4oKSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBhdXRoQXBpLnJlZnJlc2goKQogICAgYWNjZXNzVG9rZW4udmFsdWUgPSByZXMuYWNjZXNzX3Rva2VuCiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgnYWNjZXNzX3Rva2VuJywgcmVzLmFjY2Vzc190b2tlbikKICAgIHJldHVybiByZXMuYWNjZXNzX3Rva2VuCiAgfQoKICByZXR1cm4gewogICAgYWNjZXNzVG9rZW4sCiAgICByZWZyZXNoVG9rZW4sCiAgICB1c2VyLAogICAgaXNMb2dnZWRJbiwKICAgIGxvZ2luLAogICAgbG9nb3V0LAogICAgZmV0Y2hVc2VyLAogICAgcmVmcmVzaEFjY2Vzc1Rva2VuLAogICAgY2xlYXJBdXRoLAogICAgc2V0VG9rZW5zLAogICAgc2V0VXNlcgogIH0KfSkK
+import { defineStore } from 'pinia'
+import { ref, computed } from 'vue'
+import { authApi } from '@/api/auth'
+import router from '@/router'
+import type { GeeTestValidateResult } from '@/utils/geetest'
+
+interface User {
+  id: number
+  username: string
+  role: string
+  enabled: boolean
+  avatar_url: string
+  last_login_at: string | null
+  created_at: string
+  updated_at: string
+}
+
+export const useAuthStore = defineStore('auth', () => {
+  const accessToken = ref(localStorage.getItem('access_token') || '')
+  const refreshToken = ref(localStorage.getItem('refresh_token') || '')
+  const user = ref<User | null>(null)
+
+  const isLoggedIn = computed(() => !!accessToken.value)
+
+  function setTokens(access: string, refresh: string) {
+    accessToken.value = access
+    refreshToken.value = refresh
+    localStorage.setItem('access_token', access)
+    localStorage.setItem('refresh_token', refresh)
+  }
+
+  function setUser(u: User) {
+    user.value = u
+  }
+
+  function clearAuth() {
+    accessToken.value = ''
+    refreshToken.value = ''
+    user.value = null
+    localStorage.removeItem('access_token')
+    localStorage.removeItem('refresh_token')
+  }
+
+  async function login(username: string, password: string, totpCode?: string, captcha?: GeeTestValidateResult | null) {
+    const res = await authApi.login(username, password, totpCode, captcha)
+    setTokens(res.access_token, res.refresh_token)
+    setUser(res.user)
+    return res
+  }
+
+  async function logout() {
+    try {
+      await authApi.logout()
+    } finally {
+      clearAuth()
+      router.push('/login')
+    }
+  }
+
+  async function fetchUser() {
+    const res = await authApi.getUser()
+    setUser(res.user)
+  }
+
+  async function refreshAccessToken() {
+    const res = await authApi.refresh()
+    accessToken.value = res.access_token
+    localStorage.setItem('access_token', res.access_token)
+    return res.access_token
+  }
+
+  return {
+    accessToken,
+    refreshToken,
+    user,
+    isLoggedIn,
+    login,
+    logout,
+    fetchUser,
+    refreshAccessToken,
+    clearAuth,
+    setTokens,
+    setUser
+  }
+})

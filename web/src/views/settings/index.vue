@@ -1,1 +1,642 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlZiwgd2F0Y2ggfSBmcm9tICd2dWUnCmltcG9ydCB7IHVzZUF1dGhTdG9yZSB9IGZyb20gJ0Avc3RvcmVzL2F1dGgnCmltcG9ydCBBbGVydENvbmZpZ0NhcmQgZnJvbSAnLi9jb21wb25lbnRzL0FsZXJ0Q29uZmlnQ2FyZC52dWUnCmltcG9ydCBCYWNrdXBNYW5hZ2VtZW50Q2FyZCBmcm9tICcuL2NvbXBvbmVudHMvQmFja3VwTWFuYWdlbWVudENhcmQudnVlJwppbXBvcnQgQ2FwdGNoYUNvbmZpZ0NhcmQgZnJvbSAnLi9jb21wb25lbnRzL0NhcHRjaGFDb25maWdDYXJkLnZ1ZScKaW1wb3J0IElQV2hpdGVsaXN0Q2FyZCBmcm9tICcuL2NvbXBvbmVudHMvSVBXaGl0ZWxpc3RDYXJkLnZ1ZScKaW1wb3J0IExvZ2luTG9nc0NhcmQgZnJvbSAnLi9jb21wb25lbnRzL0xvZ2luTG9nc0NhcmQudnVlJwppbXBvcnQgT3ZlcnZpZXdIZXJvQ2FyZCBmcm9tICcuL2NvbXBvbmVudHMvT3ZlcnZpZXdIZXJvQ2FyZC52dWUnCmltcG9ydCBPdmVydmlld1N0YXRzQ2FyZCBmcm9tICcuL2NvbXBvbmVudHMvT3ZlcnZpZXdTdGF0c0NhcmQudnVlJwppbXBvcnQgUGFuZWxMb2dDYXJkIGZyb20gJy4vY29tcG9uZW50cy9QYW5lbExvZ0NhcmQudnVlJwppbXBvcnQgUHJveHlDb25maWdDYXJkIGZyb20gJy4vY29tcG9uZW50cy9Qcm94eUNvbmZpZ0NhcmQudnVlJwppbXBvcnQgU2VjdXJpdHlQYXNzd29yZDJGQUNhcmQgZnJvbSAnLi9jb21wb25lbnRzL1NlY3VyaXR5UGFzc3dvcmQyRkFDYXJkLnZ1ZScKaW1wb3J0IFNlc3Npb25NYW5hZ2VtZW50Q2FyZCBmcm9tICcuL2NvbXBvbmVudHMvU2Vzc2lvbk1hbmFnZW1lbnRDYXJkLnZ1ZScKaW1wb3J0IFN5c3RlbUNvbmZpZ0NhcmQgZnJvbSAnLi9jb21wb25lbnRzL1N5c3RlbUNvbmZpZ0NhcmQudnVlJwppbXBvcnQgU3lzdGVtSGVhbHRoQ2FyZCBmcm9tICcuL2NvbXBvbmVudHMvU3lzdGVtSGVhbHRoQ2FyZC52dWUnCmltcG9ydCBTeXN0ZW1JbmZvQ2FyZCBmcm9tICcuL2NvbXBvbmVudHMvU3lzdGVtSW5mb0NhcmQudnVlJwppbXBvcnQgVXBkYXRlU2V0dGluZ3NDYXJkIGZyb20gJy4vY29tcG9uZW50cy9VcGRhdGVTZXR0aW5nc0NhcmQudnVlJwppbXBvcnQgVGFza0V4ZWN1dGlvbkNhcmQgZnJvbSAnLi9jb21wb25lbnRzL1Rhc2tFeGVjdXRpb25DYXJkLnZ1ZScKaW1wb3J0IHsgdXNlU2V0dGluZ3NDb25maWcgfSBmcm9tICcuL3VzZVNldHRpbmdzQ29uZmlnJwppbXBvcnQgeyB1c2VTZXR0aW5nc092ZXJ2aWV3IH0gZnJvbSAnLi91c2VTZXR0aW5nc092ZXJ2aWV3JwppbXBvcnQgeyB1c2VQYW5lbExvZ1ZpZXdlciB9IGZyb20gJy4vdXNlUGFuZWxMb2dWaWV3ZXInCmltcG9ydCB7IHVzZVNldHRpbmdzU2VjdXJpdHkgfSBmcm9tICcuL3VzZVNldHRpbmdzU2VjdXJpdHknCmltcG9ydCB7IEJlbGwsIENvbm5lY3Rpb24sIERvY3VtZW50LCBMb2NrLCBNb25pdG9yLCBSZWZyZXNoIH0gZnJvbSAnQGVsZW1lbnQtcGx1cy9pY29ucy12dWUnCgpjb25zdCBhdXRoU3RvcmUgPSB1c2VBdXRoU3RvcmUoKQpjb25zdCByb2xlTGV2ZWw6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7IHZpZXdlcjogMSwgb3BlcmF0b3I6IDIsIGFkbWluOiAzIH0KY29uc3QgaXNBZG1pbiA9IGNvbXB1dGVkKCgpID0+IChyb2xlTGV2ZWxbYXV0aFN0b3JlLnVzZXI/LnJvbGUgfHwgJyddIHx8IDApID49IChyb2xlTGV2ZWwuYWRtaW4gfHwgMCkpCgpjb25zdCBhY3RpdmVUYWIgPSByZWYoJ292ZXJ2aWV3JykKCmNvbnN0IG92ZXJ2aWV3ID0gdXNlU2V0dGluZ3NPdmVydmlldygpCmNvbnN0IGNvbmZpZyA9IHVzZVNldHRpbmdzQ29uZmlnKCkKY29uc3QgcGFuZWxMb2dWaWV3ZXIgPSB1c2VQYW5lbExvZ1ZpZXdlcigpCmNvbnN0IHNlY3VyaXR5ID0gdXNlU2V0dGluZ3NTZWN1cml0eSgpCgpjb25zdCB7CiAgc3lzdGVtSW5mbywKICBzeXN0ZW1TdGF0cywKICBjdXJyZW50VmVyc2lvbiwKICB1cGRhdGVJbmZvLAogIHVwZGF0ZVN0YXR1cywKICBjaGVja2luZ1VwZGF0ZSwKICB1cGRhdGluZ1BhbmVsLAogIGF1dG9VcGRhdGVFbmFibGVkLAogIHNhdmluZ0F1dG9VcGRhdGUsCiAgbGFzdENoZWNrVGltZSwKICByZWxlYXNlTm90ZXNWaXNpYmxlLAogIHVwZGF0ZVByb2dyZXNzVmlzaWJsZSwKICB1cGRhdGVQcm9ncmVzc1N0YXR1cywKICB1cGRhdGVQcm9ncmVzc0Vycm9yLAogIGZvcm1hdEJ5dGVzLAogIGdldFVzYWdlQ2xhc3MsCiAgbG9hZFN5c3RlbUluZm8sCiAgbG9hZFN5c3RlbVN0YXRzLAogIGxvYWRWZXJzaW9uLAogIGxvYWRVcGRhdGVQcmVmZXJlbmNlcywKICBoYW5kbGVDaGVja1VwZGF0ZSwKICBoYW5kbGVVcGRhdGVQYW5lbCwKICBoYW5kbGVSZXN0YXJ0UGFuZWwsCiAgaGFuZGxlVG9nZ2xlQXV0b1VwZGF0ZSwKICBvcGVuUmVsZWFzZU5vdGVzLAogIGNsb3NlUmVsZWFzZU5vdGVzLAogIG9wZW5HaXRIdWIsCiAgY2xvc2VVcGRhdGVQcm9ncmVzcwp9ID0gb3ZlcnZpZXcKCmNvbnN0IHsKICBjYXB0Y2hhRmVhdHVyZUltcGxlbWVudGVkLAogIGNvbmZpZ3NMb2FkaW5nLAogIGNvbmZpZ3NTYXZpbmcsCiAgY29uZmlnRm9ybSwKICBsb2FkU3lzdGVtQ29uZmlncywKICBoYW5kbGVTYXZlU3lzdGVtQ29uZmlnLAogIGhhbmRsZVNhdmVBbGVydENvbmZpZywKICBoYW5kbGVJY29uVXBsb2FkLAogIGhhbmRsZUxvZ0JhY2tncm91bmRVcGxvYWQsCiAgcHJldmlld1BhbmVsQXBwZWFyYW5jZSwKICBoYW5kbGVTYXZlVGFza0NvbmZpZywKICBoYW5kbGVTYXZlUHJveHksCiAgaGFuZGxlU2F2ZUNhcHRjaGEsCiAgaGFuZGxlU2F2ZVNlc3Npb25Db25maWcsCiAgaGFuZGxlU2F2ZUJhY2t1cFNjaGVkdWxlCn0gPSBjb25maWcKCmNvbnN0IHsKICBsb2FkaW5nOiBwYW5lbExvZ0xvYWRpbmcsCiAgcmVmcmVzaGluZzogcGFuZWxMb2dSZWZyZXNoaW5nLAogIGxpbmVzOiBwYW5lbExvZ0xpbmVzLAogIGtleXdvcmQ6IHBhbmVsTG9nS2V5d29yZCwKICBsZXZlbDogcGFuZWxMb2dMZXZlbCwKICBhdXRvUmVmcmVzaDogcGFuZWxMb2dBdXRvUmVmcmVzaCwKICBsb2dzOiBwYW5lbExvZ3MsCiAgdG90YWw6IHBhbmVsTG9nVG90YWwsCiAgbGFzdExvYWRlZEF0OiBwYW5lbExvZ0xhc3RMb2FkZWRBdCwKICBieXRlU2l6ZUxhYmVsOiBwYW5lbExvZ0J5dGVTaXplTGFiZWwsCiAgYWN0aXZlUHJlc2V0OiBwYW5lbExvZ0FjdGl2ZVByZXNldCwKICBsb2FkUGFuZWxMb2dzLAogIHJlZnJlc2hOb3c6IHJlZnJlc2hQYW5lbExvZ3MsCiAgYXBwbHlVcGRhdGVQcmVzZXQ6IGFwcGx5UGFuZWxMb2dVcGRhdGVQcmVzZXQsCiAgYXBwbHlFcnJvclByZXNldDogYXBwbHlQYW5lbExvZ0Vycm9yUHJlc2V0LAogIHJlc2V0RmlsdGVyczogcmVzZXRQYW5lbExvZ0ZpbHRlcnMsCiAgY29weUxvZ3M6IGNvcHlQYW5lbExvZ3MsCiAgZG93bmxvYWRMb2dzOiBkb3dubG9hZFBhbmVsTG9ncywKfSA9IHBhbmVsTG9nVmlld2VyCgpjb25zdCB7CiAgc2VjdXJpdHlUYWIsCiAgYmFja3VwcywKICBiYWNrdXBzTG9hZGluZywKICBzaG93QmFja3VwRGlhbG9nLAogIGJhY2t1cE5hbWUsCiAgYmFja3VwUGFzc3dvcmQsCiAgYmFja3VwU2VsZWN0aW9uLAogIGJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uLAogIHVwbG9hZFByb2dyZXNzLAogIHVwbG9hZFVwbG9hZGluZywKICBzaG93UmVzdG9yZURpYWxvZywKICByZXN0b3JlRmlsZW5hbWUsCiAgcmVzdG9yZVBhc3N3b3JkLAogIHJlc3RvcmVQcm9ncmVzc1Zpc2libGUsCiAgcmVzdG9yZVByb2dyZXNzU3RhdHVzLAogIHJlc3RvcmVQcm9ncmVzc1N0YWdlLAogIHJlc3RvcmVQcm9ncmVzc01lc3NhZ2UsCiAgcmVzdG9yZVByb2dyZXNzUGVyY2VudCwKICByZXN0b3JlUHJvZ3Jlc3NTb3VyY2UsCiAgcmVzdG9yZVByb2dyZXNzU2VsZWN0aW9uLAogIHJlc3RvcmVQcm9ncmVzc1N0YXJ0ZWRBdCwKICByZXN0b3JlUmVzdGFydENvdW50ZG93biwKICByZXN0b3JlUHJvZ3Jlc3NFcnJvciwKICBvbGRQYXNzd29yZCwKICBuZXdQYXNzd29yZCwKICBjb25maXJtUGFzc3dvcmQsCiAgdHdvRkFFbmFibGVkLAogIHR3b0ZBU2VjcmV0LAogIHR3b0ZBUXJVcmwsCiAgdHdvRkFDb2RlLAogIHNob3dTZXR1cDJGQSwKICBsb2dpbkxvZ3MsCiAgbG9naW5Mb2dzTG9hZGluZywKICBsb2dpbkxvZ3NUb3RhbCwKICBsb2dpbkxvZ3NQYWdlLAogIHNlc3Npb25zLAogIHNlc3Npb25zTG9hZGluZywKICBpcFdoaXRlbGlzdCwKICBpcFdoaXRlbGlzdExvYWRpbmcsCiAgc2hvd0FkZElQRGlhbG9nLAogIG5ld0lQLAogIG5ld0lQUmVtYXJrcywKICBsb2FkQmFja3VwcywKICBoYW5kbGVDcmVhdGVCYWNrdXAsCiAgaGFuZGxlVXBsb2FkQmFja3VwLAogIGNvbmZpcm1DcmVhdGVCYWNrdXAsCiAgaGFuZGxlRG93bmxvYWRCYWNrdXAsCiAgaGFuZGxlUmVzdG9yZUJhY2t1cCwKICBjb25maXJtUmVzdG9yZSwKICBjbG9zZVJlc3RvcmVQcm9ncmVzcywKICByZXN0YXJ0UmVzdG9yZU5vdywKICBoYW5kbGVEZWxldGVCYWNrdXAsCiAgbG9hZDJGQVN0YXR1cywKICBoYW5kbGVDaGFuZ2VQYXNzd29yZCwKICBoYW5kbGVTZXR1cDJGQSwKICBoYW5kbGVWZXJpZnkyRkEsCiAgaGFuZGxlRGlzYWJsZTJGQSwKICBsb2FkTG9naW5Mb2dzLAogIGxvYWRTZXNzaW9ucywKICBoYW5kbGVSZXZva2VTZXNzaW9uLAogIGhhbmRsZVJldm9rZUFsbFNlc3Npb25zLAogIGxvYWRJUFdoaXRlbGlzdCwKICBoYW5kbGVBZGRJUCwKICBoYW5kbGVSZW1vdmVJUCwKICBoYW5kbGVDbGVhckxvZ2luTG9ncywKICBoYW5kbGVTZWN1cml0eVRhYkNoYW5nZQp9ID0gc2VjdXJpdHkKCmZ1bmN0aW9uIGhhbmRsZVJlZnJlc2goKSB7CiAgaGFuZGxlVGFiQ2hhbmdlKGFjdGl2ZVRhYi52YWx1ZSkKfQoKZnVuY3Rpb24gc2VyaWFsaXplQmFja3VwU2NoZWR1bGVTZWxlY3Rpb24oKSB7CiAgY29uc3Qgb3JkZXI6IEFycmF5PGtleW9mIHR5cGVvZiBiYWNrdXBTY2hlZHVsZVNlbGVjdGlvbi52YWx1ZT4gPSBbCiAgICAnY29uZmlncycsCiAgICAndGFza3MnLAogICAgJ3N1YnNjcmlwdGlvbnMnLAogICAgJ2Vudl92YXJzJywKICAgICdsb2dzJywKICAgICdzY3JpcHRzJywKICAgICdkZXBlbmRlbmNpZXMnLAogICAgJ3Rhc2tfdmlld3MnCiAgXQogIHJldHVybiBvcmRlci5maWx0ZXIoKGtleSkgPT4gYmFja3VwU2NoZWR1bGVTZWxlY3Rpb24udmFsdWVba2V5XSkuam9pbignLCcpCn0KCmZ1bmN0aW9uIGFwcGx5QmFja3VwU2NoZWR1bGVTZWxlY3Rpb24ocmF3OiBzdHJpbmcpIHsKICBjb25zdCBzZWxlY3RlZCA9IG5ldyBTZXQoCiAgICByYXcKICAgICAgLnNwbGl0KCcsJykKICAgICAgLm1hcCgoaXRlbSkgPT4gaXRlbS50cmltKCkpCiAgICAgIC5maWx0ZXIoQm9vbGVhbikKICApCiAgYmFja3VwU2NoZWR1bGVTZWxlY3Rpb24udmFsdWUgPSB7CiAgICBjb25maWdzOiBzZWxlY3RlZC5oYXMoJ2NvbmZpZ3MnKSwKICAgIHRhc2tzOiBzZWxlY3RlZC5oYXMoJ3Rhc2tzJyksCiAgICBzdWJzY3JpcHRpb25zOiBzZWxlY3RlZC5oYXMoJ3N1YnNjcmlwdGlvbnMnKSwKICAgIGVudl92YXJzOiBzZWxlY3RlZC5oYXMoJ2Vudl92YXJzJyksCiAgICBsb2dzOiBzZWxlY3RlZC5oYXMoJ2xvZ3MnKSwKICAgIHNjcmlwdHM6IHNlbGVjdGVkLmhhcygnc2NyaXB0cycpLAogICAgZGVwZW5kZW5jaWVzOiBzZWxlY3RlZC5oYXMoJ2RlcGVuZGVuY2llcycpLAogICAgdGFza192aWV3czogc2VsZWN0ZWQuaGFzKCd0YXNrX3ZpZXdzJykKICB9Cn0KCmZ1bmN0aW9uIGhhbmRsZVRhYkNoYW5nZSh0YWI6IHN0cmluZykgewogIGlmICh0YWIgPT09ICdvdmVydmlldycpIHsKICAgIHZvaWQgbG9hZFZlcnNpb24oKQogICAgdm9pZCBsb2FkU3lzdGVtU3RhdHMoKQogICAgdm9pZCBsb2FkU3lzdGVtSW5mbygpCiAgICB2b2lkIGxvYWRVcGRhdGVQcmVmZXJlbmNlcygpCiAgfSBlbHNlIGlmICh0YWIgPT09ICdjb25maWcnIHx8IHRhYiA9PT0gJ3Rhc2stZXhlYycgfHwgdGFiID09PSAncHJveHknIHx8IHRhYiA9PT0gJ2NhcHRjaGEnIHx8IHRhYiA9PT0gJ2FsZXJ0JykgewogICAgdm9pZCBsb2FkU3lzdGVtQ29uZmlncygpCiAgfSBlbHNlIGlmICh0YWIgPT09ICdwYW5lbC1sb2cnKSB7CiAgICB2b2lkIGxvYWRQYW5lbExvZ3MoKQogIH0gZWxzZSBpZiAodGFiID09PSAnYmFja3VwJykgewogICAgdm9pZCBsb2FkQmFja3VwcygpCiAgICB2b2lkIGxvYWRTeXN0ZW1Db25maWdzKCkKICB9IGVsc2UgaWYgKHRhYiA9PT0gJ3NlY3VyaXR5JykgewogICAgdm9pZCBsb2FkMkZBU3RhdHVzKCkKICB9Cn0KCm9uTW91bnRlZCgoKSA9PiB7CiAgdm9pZCBsb2FkVmVyc2lvbigpCiAgdm9pZCBsb2FkU3lzdGVtU3RhdHMoKQogIHZvaWQgbG9hZFN5c3RlbUluZm8oKQogIHZvaWQgbG9hZFVwZGF0ZVByZWZlcmVuY2VzKCkKICBpZiAoIWlzQWRtaW4udmFsdWUpIHsKICAgIHNlY3VyaXR5VGFiLnZhbHVlID0gJ3Bhc3N3b3JkLTJmYScKICB9Cn0pCgp3YXRjaCgKICAoKSA9PiBjb25maWdGb3JtLnZhbHVlLmJhY2t1cF9zY2hlZHVsZV9zZWxlY3Rpb24sCiAgKHZhbHVlKSA9PiB7CiAgICBhcHBseUJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uKHZhbHVlIHx8ICcnKQogIH0sCiAgeyBpbW1lZGlhdGU6IHRydWUgfQopCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgY2xhc3M9InNldHRpbmdzLXBhZ2UgZGQtc2Nyb2xsLXBhZ2UgZGQtcGFnZS1oaWRlLWhlYWRpbmciPgogICAgPGRpdiBjbGFzcz0ic2V0dGluZ3MtdG9vbGJhciI+CiAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJoYW5kbGVSZWZyZXNoIj4KICAgICAgICA8ZWwtaWNvbj48UmVmcmVzaCAvPjwvZWwtaWNvbj4g5Yi35pawCiAgICAgIDwvZWwtYnV0dG9uPgogICAgPC9kaXY+CgogICAgPGVsLXRhYnMgdi1tb2RlbD0iYWN0aXZlVGFiIiBAdGFiLWNoYW5nZT0iaGFuZGxlVGFiQ2hhbmdlIj4KICAgICAgPGVsLXRhYi1wYW5lIGxhYmVsPSLmpoLop4giIG5hbWU9Im92ZXJ2aWV3Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJvdmVydmlldy1ncmlkIj4KICAgICAgICAgIDxPdmVydmlld0hlcm9DYXJkCiAgICAgICAgICAgIDppcy1hZG1pbj0iaXNBZG1pbiIKICAgICAgICAgICAgOmN1cnJlbnQtdmVyc2lvbj0iY3VycmVudFZlcnNpb24iCiAgICAgICAgICAgIDp1cGRhdGUtaW5mbz0idXBkYXRlSW5mbyIKICAgICAgICAgICAgOnVwZGF0ZS1zdGF0dXM9InVwZGF0ZVN0YXR1cyIKICAgICAgICAgICAgOmNoZWNraW5nLXVwZGF0ZT0iY2hlY2tpbmdVcGRhdGUiCiAgICAgICAgICAgIDp1cGRhdGluZy1wYW5lbD0idXBkYXRpbmdQYW5lbCIKICAgICAgICAgICAgOmF1dG8tdXBkYXRlLWVuYWJsZWQ9ImF1dG9VcGRhdGVFbmFibGVkIgogICAgICAgICAgICA6c2F2aW5nLWF1dG8tdXBkYXRlPSJzYXZpbmdBdXRvVXBkYXRlIgogICAgICAgICAgICA6cmVsZWFzZS1ub3Rlcy12aXNpYmxlPSJyZWxlYXNlTm90ZXNWaXNpYmxlIgogICAgICAgICAgICA6dXBkYXRlLXByb2dyZXNzLXZpc2libGU9InVwZGF0ZVByb2dyZXNzVmlzaWJsZSIKICAgICAgICAgICAgOnVwZGF0ZS1wcm9ncmVzcy1zdGF0dXM9InVwZGF0ZVByb2dyZXNzU3RhdHVzIgogICAgICAgICAgICA6dXBkYXRlLXByb2dyZXNzLWVycm9yPSJ1cGRhdGVQcm9ncmVzc0Vycm9yIgogICAgICAgICAgICA6b24tY2hlY2stdXBkYXRlPSJoYW5kbGVDaGVja1VwZGF0ZSIKICAgICAgICAgICAgOm9uLXN0YXJ0LXVwZGF0ZT0iaGFuZGxlVXBkYXRlUGFuZWwiCiAgICAgICAgICAgIDpvbi1yZXN0YXJ0LXBhbmVsPSJoYW5kbGVSZXN0YXJ0UGFuZWwiCiAgICAgICAgICAgIDpvbi10b2dnbGUtYXV0by11cGRhdGU9ImhhbmRsZVRvZ2dsZUF1dG9VcGRhdGUiCiAgICAgICAgICAgIDpvbi1vcGVuLXJlbGVhc2Utbm90ZXM9Im9wZW5SZWxlYXNlTm90ZXMiCiAgICAgICAgICAgIDpvbi1jbG9zZS1yZWxlYXNlLW5vdGVzPSJjbG9zZVJlbGVhc2VOb3RlcyIKICAgICAgICAgICAgOm9uLW9wZW4tZ2l0LWh1Yj0ib3BlbkdpdEh1YiIKICAgICAgICAgICAgOm9uLWNsb3NlLXVwZGF0ZS1wcm9ncmVzcz0iY2xvc2VVcGRhdGVQcm9ncmVzcyIKICAgICAgICAgIC8+CgogICAgICAgICAgPFVwZGF0ZVNldHRpbmdzQ2FyZAogICAgICAgICAgICA6dmVyc2lvbj0iY3VycmVudFZlcnNpb24iCiAgICAgICAgICAgIDpsYXN0LWNoZWNrLXRpbWU9Imxhc3RDaGVja1RpbWUiCiAgICAgICAgICAgIDphdXRvLXVwZGF0ZS1lbmFibGVkPSJhdXRvVXBkYXRlRW5hYmxlZCIKICAgICAgICAgICAgQHVwZGF0ZTphdXRvLXVwZGF0ZS1lbmFibGVkPSJoYW5kbGVUb2dnbGVBdXRvVXBkYXRlIgogICAgICAgICAgLz4KICAgICAgICA8L2Rpdj4KCiAgICAgICAgPE92ZXJ2aWV3U3RhdHNDYXJkIDpzeXN0ZW0tc3RhdHM9InN5c3RlbVN0YXRzIiBzdHlsZT0ibWFyZ2luLWJvdHRvbTogMTZweCIgLz4KCiAgICAgICAgPGRpdiBjbGFzcz0ib3ZlcnZpZXctaW5mby1ncmlkIj4KICAgICAgICAgIDxTeXN0ZW1JbmZvQ2FyZAogICAgICAgICAgICA6c3lzdGVtLWluZm89InN5c3RlbUluZm8iCiAgICAgICAgICAgIDpmb3JtYXQtYnl0ZXM9ImZvcm1hdEJ5dGVzIgogICAgICAgICAgICA6Z2V0LXVzYWdlLWNsYXNzPSJnZXRVc2FnZUNsYXNzIgogICAgICAgICAgLz4KICAgICAgICAgIDxTeXN0ZW1IZWFsdGhDYXJkIC8+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZWwtdGFiLXBhbmU+CgogICAgICA8ZWwtdGFiLXBhbmUgdi1pZj0iaXNBZG1pbiIgbGFiZWw9Iumdouadv+WkluingiIgbmFtZT0iY29uZmlnIj4KICAgICAgICA8U3lzdGVtQ29uZmlnQ2FyZAogICAgICAgICAgOmNvbmZpZ3MtbG9hZGluZz0iY29uZmlnc0xvYWRpbmciCiAgICAgICAgICA6Y29uZmlncy1zYXZpbmc9ImNvbmZpZ3NTYXZpbmciCiAgICAgICAgICA6Zm9ybT0iY29uZmlnRm9ybSIKICAgICAgICAgIDpvbi1zYXZlPSJoYW5kbGVTYXZlU3lzdGVtQ29uZmlnIgogICAgICAgICAgOm9uLWljb24tdXBsb2FkPSJoYW5kbGVJY29uVXBsb2FkIgogICAgICAgICAgOm9uLWxvZy1iYWNrZ3JvdW5kLXVwbG9hZD0iaGFuZGxlTG9nQmFja2dyb3VuZFVwbG9hZCIKICAgICAgICAgIDpvbi1hcHBlYXJhbmNlLXByZXZpZXc9InByZXZpZXdQYW5lbEFwcGVhcmFuY2UiCiAgICAgICAgLz4KICAgICAgPC9lbC10YWItcGFuZT4KCiAgICAgIDxlbC10YWItcGFuZSB2LWlmPSJpc0FkbWluIiBsYWJlbD0i5Lu75Yqh6L+Q6KGMIiBuYW1lPSJ0YXNrLWV4ZWMiPgogICAgICAgIDxUYXNrRXhlY3V0aW9uQ2FyZAogICAgICAgICAgOmNvbmZpZ3MtbG9hZGluZz0iY29uZmlnc0xvYWRpbmciCiAgICAgICAgICA6Y29uZmlncy1zYXZpbmc9ImNvbmZpZ3NTYXZpbmciCiAgICAgICAgICA6Zm9ybT0iY29uZmlnRm9ybSIKICAgICAgICAgIDpvbi1zYXZlPSJoYW5kbGVTYXZlVGFza0NvbmZpZyIKICAgICAgICAvPgogICAgICA8L2VsLXRhYi1wYW5lPgoKICAgICAgPGVsLXRhYi1wYW5lIHYtaWY9ImlzQWRtaW4iIG5hbWU9InBhbmVsLWxvZyI+CiAgICAgICAgPHRlbXBsYXRlICNsYWJlbD4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJzdWItdGFiLWxhYmVsIj48ZWwtaWNvbiA6c2l6ZT0iMTQiPjxEb2N1bWVudCAvPjwvZWwtaWNvbj7pnaLmnb/ml6Xlv5c8L3NwYW4+CiAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICA8UGFuZWxMb2dDYXJkCiAgICAgICAgICB2LW1vZGVsOmxpbmVzPSJwYW5lbExvZ0xpbmVzIgogICAgICAgICAgdi1tb2RlbDprZXl3b3JkPSJwYW5lbExvZ0tleXdvcmQiCiAgICAgICAgICB2LW1vZGVsOmxldmVsPSJwYW5lbExvZ0xldmVsIgogICAgICAgICAgdi1tb2RlbDphdXRvLXJlZnJlc2g9InBhbmVsTG9nQXV0b1JlZnJlc2giCiAgICAgICAgICA6bG9hZGluZz0icGFuZWxMb2dMb2FkaW5nIgogICAgICAgICAgOnJlZnJlc2hpbmc9InBhbmVsTG9nUmVmcmVzaGluZyIKICAgICAgICAgIDpsb2dzPSJwYW5lbExvZ3MiCiAgICAgICAgICA6dG90YWw9InBhbmVsTG9nVG90YWwiCiAgICAgICAgICA6bGFzdC1sb2FkZWQtYXQ9InBhbmVsTG9nTGFzdExvYWRlZEF0IgogICAgICAgICAgOmJ5dGUtc2l6ZS1sYWJlbD0icGFuZWxMb2dCeXRlU2l6ZUxhYmVsIgogICAgICAgICAgOmFjdGl2ZS1wcmVzZXQ9InBhbmVsTG9nQWN0aXZlUHJlc2V0IgogICAgICAgICAgOm9uLXJlZnJlc2g9InJlZnJlc2hQYW5lbExvZ3MiCiAgICAgICAgICA6b24tYXBwbHktdXBkYXRlLXByZXNldD0iYXBwbHlQYW5lbExvZ1VwZGF0ZVByZXNldCIKICAgICAgICAgIDpvbi1hcHBseS1lcnJvci1wcmVzZXQ9ImFwcGx5UGFuZWxMb2dFcnJvclByZXNldCIKICAgICAgICAgIDpvbi1yZXNldC1maWx0ZXJzPSJyZXNldFBhbmVsTG9nRmlsdGVycyIKICAgICAgICAgIDpvbi1jb3B5PSJjb3B5UGFuZWxMb2dzIgogICAgICAgICAgOm9uLWRvd25sb2FkPSJkb3dubG9hZFBhbmVsTG9ncyIKICAgICAgICAvPgogICAgICA8L2VsLXRhYi1wYW5lPgoKICAgICAgPGVsLXRhYi1wYW5lIHYtaWY9ImlzQWRtaW4iIG5hbWU9ImFsZXJ0Ij4KICAgICAgICA8dGVtcGxhdGUgI2xhYmVsPgogICAgICAgICAgPHNwYW4gY2xhc3M9InN1Yi10YWItbGFiZWwiPjxlbC1pY29uIDpzaXplPSIxNCI+PEJlbGwgLz48L2VsLWljb24+5ZGK6K2m6YCa55+lPC9zcGFuPgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPEFsZXJ0Q29uZmlnQ2FyZAogICAgICAgICAgOmNvbmZpZ3MtbG9hZGluZz0iY29uZmlnc0xvYWRpbmciCiAgICAgICAgICA6Y29uZmlncy1zYXZpbmc9ImNvbmZpZ3NTYXZpbmciCiAgICAgICAgICA6Zm9ybT0iY29uZmlnRm9ybSIKICAgICAgICAgIDpvbi1zYXZlPSJoYW5kbGVTYXZlQWxlcnRDb25maWciCiAgICAgICAgLz4KICAgICAgPC9lbC10YWItcGFuZT4KCiAgICAgIDxlbC10YWItcGFuZSB2LWlmPSJpc0FkbWluIiBsYWJlbD0i5Luj55CG6K6+572uIiBuYW1lPSJwcm94eSI+CiAgICAgICAgPFByb3h5Q29uZmlnQ2FyZAogICAgICAgICAgOmNvbmZpZ3Mtc2F2aW5nPSJjb25maWdzU2F2aW5nIgogICAgICAgICAgOmZvcm09ImNvbmZpZ0Zvcm0iCiAgICAgICAgICA6b24tc2F2ZT0iaGFuZGxlU2F2ZVByb3h5IgogICAgICAgIC8+CiAgICAgIDwvZWwtdGFiLXBhbmU+CgogICAgICA8ZWwtdGFiLXBhbmUgdi1pZj0iaXNBZG1pbiIgbGFiZWw9IueZu+W9lemqjOivgeeggSIgbmFtZT0iY2FwdGNoYSI+CiAgICAgICAgPENhcHRjaGFDb25maWdDYXJkCiAgICAgICAgICA6Y29uZmlncy1zYXZpbmc9ImNvbmZpZ3NTYXZpbmciCiAgICAgICAgICA6Zm9ybT0iY29uZmlnRm9ybSIKICAgICAgICAgIDpjYXB0Y2hhLWZlYXR1cmUtaW1wbGVtZW50ZWQ9ImNhcHRjaGFGZWF0dXJlSW1wbGVtZW50ZWQiCiAgICAgICAgICA6b24tc2F2ZT0iaGFuZGxlU2F2ZUNhcHRjaGEiCiAgICAgICAgLz4KICAgICAgPC9lbC10YWItcGFuZT4KCiAgICAgIDxlbC10YWItcGFuZSB2LWlmPSJpc0FkbWluIiBsYWJlbD0i5aSH5Lu95oGi5aSNIiBuYW1lPSJiYWNrdXAiPgogICAgICAgIDxCYWNrdXBNYW5hZ2VtZW50Q2FyZAogICAgICAgICAgdi1tb2RlbDpzaG93LWJhY2t1cC1kaWFsb2c9InNob3dCYWNrdXBEaWFsb2ciCiAgICAgICAgICB2LW1vZGVsOmJhY2t1cC1uYW1lPSJiYWNrdXBOYW1lIgogICAgICAgICAgdi1tb2RlbDpiYWNrdXAtcGFzc3dvcmQ9ImJhY2t1cFBhc3N3b3JkIgogICAgICAgICAgdi1tb2RlbDpiYWNrdXAtc2VsZWN0aW9uPSJiYWNrdXBTZWxlY3Rpb24iCiAgICAgICAgICB2LW1vZGVsOmJhY2t1cC1zY2hlZHVsZS1zZWxlY3Rpb249ImJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uIgogICAgICAgICAgdi1tb2RlbDpzaG93LXJlc3RvcmUtZGlhbG9nPSJzaG93UmVzdG9yZURpYWxvZyIKICAgICAgICAgIHYtbW9kZWw6cmVzdG9yZS1wYXNzd29yZD0icmVzdG9yZVBhc3N3b3JkIgogICAgICAgICAgOnNldHRpbmdzLWZvcm09ImNvbmZpZ0Zvcm0iCiAgICAgICAgICA6Y29uZmlncy1zYXZpbmc9ImNvbmZpZ3NTYXZpbmciCiAgICAgICAgICA6b24tc2F2ZS1zY2hlZHVsZT0iKCkgPT4gaGFuZGxlU2F2ZUJhY2t1cFNjaGVkdWxlKHNlcmlhbGl6ZUJhY2t1cFNjaGVkdWxlU2VsZWN0aW9uKCkpIgogICAgICAgICAgOmJhY2t1cHM9ImJhY2t1cHMiCiAgICAgICAgICA6YmFja3Vwcy1sb2FkaW5nPSJiYWNrdXBzTG9hZGluZyIKICAgICAgICAgIDpyZXN0b3JlLWZpbGVuYW1lPSJyZXN0b3JlRmlsZW5hbWUiCiAgICAgICAgICA6cmVzdG9yZS1wcm9ncmVzcy12aXNpYmxlPSJyZXN0b3JlUHJvZ3Jlc3NWaXNpYmxlIgogICAgICAgICAgOnJlc3RvcmUtcHJvZ3Jlc3Mtc3RhdHVzPSJyZXN0b3JlUHJvZ3Jlc3NTdGF0dXMiCiAgICAgICAgICA6cmVzdG9yZS1wcm9ncmVzcy1zdGFnZT0icmVzdG9yZVByb2dyZXNzU3RhZ2UiCiAgICAgICAgICA6cmVzdG9yZS1wcm9ncmVzcy1tZXNzYWdlPSJyZXN0b3JlUHJvZ3Jlc3NNZXNzYWdlIgogICAgICAgICAgOnJlc3RvcmUtcHJvZ3Jlc3MtcGVyY2VudD0icmVzdG9yZVByb2dyZXNzUGVyY2VudCIKICAgICAgICAgIDpyZXN0b3JlLXByb2dyZXNzLXNvdXJjZT0icmVzdG9yZVByb2dyZXNzU291cmNlIgogICAgICAgICAgOnJlc3RvcmUtcHJvZ3Jlc3Mtc2VsZWN0aW9uPSJyZXN0b3JlUHJvZ3Jlc3NTZWxlY3Rpb24iCiAgICAgICAgICA6cmVzdG9yZS1wcm9ncmVzcy1zdGFydGVkLWF0PSJyZXN0b3JlUHJvZ3Jlc3NTdGFydGVkQXQiCiAgICAgICAgICA6cmVzdG9yZS1yZXN0YXJ0LWNvdW50ZG93bj0icmVzdG9yZVJlc3RhcnRDb3VudGRvd24iCiAgICAgICAgICA6cmVzdG9yZS1wcm9ncmVzcy1lcnJvcj0icmVzdG9yZVByb2dyZXNzRXJyb3IiCiAgICAgICAgICA6dXBsb2FkLXByb2dyZXNzPSJ1cGxvYWRQcm9ncmVzcyIKICAgICAgICAgIDp1cGxvYWQtdXBsb2FkaW5nPSJ1cGxvYWRVcGxvYWRpbmciCiAgICAgICAgICA6b24tY3JlYXRlLWJhY2t1cD0iaGFuZGxlQ3JlYXRlQmFja3VwIgogICAgICAgICAgOm9uLXVwbG9hZC1iYWNrdXA9ImhhbmRsZVVwbG9hZEJhY2t1cCIKICAgICAgICAgIDpvbi1jb25maXJtLWNyZWF0ZS1iYWNrdXA9ImNvbmZpcm1DcmVhdGVCYWNrdXAiCiAgICAgICAgICA6b24tZG93bmxvYWQtYmFja3VwPSJoYW5kbGVEb3dubG9hZEJhY2t1cCIKICAgICAgICAgIDpvbi1yZXN0b3JlLWJhY2t1cD0iaGFuZGxlUmVzdG9yZUJhY2t1cCIKICAgICAgICAgIDpvbi1jb25maXJtLXJlc3RvcmU9ImNvbmZpcm1SZXN0b3JlIgogICAgICAgICAgOm9uLWNsb3NlLXJlc3RvcmUtcHJvZ3Jlc3M9ImNsb3NlUmVzdG9yZVByb2dyZXNzIgogICAgICAgICAgOm9uLXJlc3RhcnQtcmVzdG9yZS1ub3c9InJlc3RhcnRSZXN0b3JlTm93IgogICAgICAgICAgOm9uLWRlbGV0ZS1iYWNrdXA9ImhhbmRsZURlbGV0ZUJhY2t1cCIKICAgICAgICAvPgogICAgICA8L2VsLXRhYi1wYW5lPgoKICAgICAgPGVsLXRhYi1wYW5lIGxhYmVsPSLotKblj7flronlhagiIG5hbWU9InNlY3VyaXR5Ij4KICAgICAgICA8ZWwtdGFicyB2LW1vZGVsPSJzZWN1cml0eVRhYiIgQHRhYi1jaGFuZ2U9ImhhbmRsZVNlY3VyaXR5VGFiQ2hhbmdlIj4KICAgICAgICAgIDxlbC10YWItcGFuZSBuYW1lPSJwYXNzd29yZC0yZmEiPgogICAgICAgICAgICA8dGVtcGxhdGUgI2xhYmVsPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJzdWItdGFiLWxhYmVsIj48ZWwtaWNvbiA6c2l6ZT0iMTQiPjxMb2NrIC8+PC9lbC1pY29uPuWvhueggeS4jjJGQTwvc3Bhbj4KICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPFNlY3VyaXR5UGFzc3dvcmQyRkFDYXJkCiAgICAgICAgICAgICAgdi1tb2RlbDpvbGQtcGFzc3dvcmQ9Im9sZFBhc3N3b3JkIgogICAgICAgICAgICAgIHYtbW9kZWw6bmV3LXBhc3N3b3JkPSJuZXdQYXNzd29yZCIKICAgICAgICAgICAgICB2LW1vZGVsOmNvbmZpcm0tcGFzc3dvcmQ9ImNvbmZpcm1QYXNzd29yZCIKICAgICAgICAgICAgICB2LW1vZGVsOnNob3ctc2V0dXAyLWYtYT0ic2hvd1NldHVwMkZBIgogICAgICAgICAgICAgIHYtbW9kZWw6dHdvLWYtYS1jb2RlPSJ0d29GQUNvZGUiCiAgICAgICAgICAgICAgOnR3by1mLWEtZW5hYmxlZD0idHdvRkFFbmFibGVkIgogICAgICAgICAgICAgIDp0d28tZi1hLXNlY3JldD0idHdvRkFTZWNyZXQiCiAgICAgICAgICAgICAgOnR3by1mLWEtcXItdXJsPSJ0d29GQVFyVXJsIgogICAgICAgICAgICAgIDpvbi1jaGFuZ2UtcGFzc3dvcmQ9ImhhbmRsZUNoYW5nZVBhc3N3b3JkIgogICAgICAgICAgICAgIDpvbi1zZXR1cDItZi1hPSJoYW5kbGVTZXR1cDJGQSIKICAgICAgICAgICAgICA6b24tZGlzYWJsZTItZi1hPSJoYW5kbGVEaXNhYmxlMkZBIgogICAgICAgICAgICAgIDpvbi12ZXJpZnkyLWYtYT0iaGFuZGxlVmVyaWZ5MkZBIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9lbC10YWItcGFuZT4KCiAgICAgICAgICA8ZWwtdGFiLXBhbmUgdi1pZj0iaXNBZG1pbiIgbmFtZT0ibG9naW4tbG9ncyI+CiAgICAgICAgICAgIDx0ZW1wbGF0ZSAjbGFiZWw+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InN1Yi10YWItbGFiZWwiPjxlbC1pY29uIDpzaXplPSIxNCI+PERvY3VtZW50IC8+PC9lbC1pY29uPueZu+W9leaXpeW/lzwvc3Bhbj4KICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPExvZ2luTG9nc0NhcmQKICAgICAgICAgICAgICB2LW1vZGVsOmxvZ2luLWxvZ3MtcGFnZT0ibG9naW5Mb2dzUGFnZSIKICAgICAgICAgICAgICA6bG9naW4tbG9ncz0ibG9naW5Mb2dzIgogICAgICAgICAgICAgIDpsb2dpbi1sb2dzLWxvYWRpbmc9ImxvZ2luTG9nc0xvYWRpbmciCiAgICAgICAgICAgICAgOmxvZ2luLWxvZ3MtdG90YWw9ImxvZ2luTG9nc1RvdGFsIgogICAgICAgICAgICAgIDpvbi1sb2FkLWxvZ2luLWxvZ3M9ImxvYWRMb2dpbkxvZ3MiCiAgICAgICAgICAgICAgOm9uLWNsZWFyLWxvZ2luLWxvZ3M9ImhhbmRsZUNsZWFyTG9naW5Mb2dzIgogICAgICAgICAgICAvPgogICAgICAgICAgPC9lbC10YWItcGFuZT4KCiAgICAgICAgICA8ZWwtdGFiLXBhbmUgdi1pZj0iaXNBZG1pbiIgbmFtZT0ic2Vzc2lvbnMiPgogICAgICAgICAgICA8dGVtcGxhdGUgI2xhYmVsPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJzdWItdGFiLWxhYmVsIj48ZWwtaWNvbiA6c2l6ZT0iMTQiPjxNb25pdG9yIC8+PC9lbC1pY29uPuS8muivneeuoeeQhjwvc3Bhbj4KICAgICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgICAgPFNlc3Npb25NYW5hZ2VtZW50Q2FyZAogICAgICAgICAgICAgIDpzZXNzaW9ucz0ic2Vzc2lvbnMiCiAgICAgICAgICAgICAgOnNlc3Npb25zLWxvYWRpbmc9InNlc3Npb25zTG9hZGluZyIKICAgICAgICAgICAgICA6Y29uZmlnLWZvcm09ImNvbmZpZ0Zvcm0iCiAgICAgICAgICAgICAgOmNvbmZpZy1zYXZpbmc9ImNvbmZpZ3NTYXZpbmciCiAgICAgICAgICAgICAgOm9uLWxvYWQtc2Vzc2lvbnM9ImxvYWRTZXNzaW9ucyIKICAgICAgICAgICAgICA6b24tcmV2b2tlLWFsbC1zZXNzaW9ucz0iaGFuZGxlUmV2b2tlQWxsU2Vzc2lvbnMiCiAgICAgICAgICAgICAgOm9uLXJldm9rZS1zZXNzaW9uPSJoYW5kbGVSZXZva2VTZXNzaW9uIgogICAgICAgICAgICAgIDpvbi1zYXZlLXNlc3Npb24tY29uZmlnPSJoYW5kbGVTYXZlU2Vzc2lvbkNvbmZpZyIKICAgICAgICAgICAgLz4KICAgICAgICAgIDwvZWwtdGFiLXBhbmU+CgogICAgICAgICAgPGVsLXRhYi1wYW5lIHYtaWY9ImlzQWRtaW4iIG5hbWU9ImlwLXdoaXRlbGlzdCI+CiAgICAgICAgICAgIDx0ZW1wbGF0ZSAjbGFiZWw+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9InN1Yi10YWItbGFiZWwiPjxlbC1pY29uIDpzaXplPSIxNCI+PENvbm5lY3Rpb24gLz48L2VsLWljb24+SVDnmb3lkI3ljZU8L3NwYW4+CiAgICAgICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgICAgIDxJUFdoaXRlbGlzdENhcmQKICAgICAgICAgICAgICB2LW1vZGVsOnNob3ctYWRkLWktcC1kaWFsb2c9InNob3dBZGRJUERpYWxvZyIKICAgICAgICAgICAgICB2LW1vZGVsOm5ldy1pLXA9Im5ld0lQIgogICAgICAgICAgICAgIHYtbW9kZWw6bmV3LWktcC1yZW1hcmtzPSJuZXdJUFJlbWFya3MiCiAgICAgICAgICAgICAgOmlwLXdoaXRlbGlzdD0iaXBXaGl0ZWxpc3QiCiAgICAgICAgICAgICAgOmlwLXdoaXRlbGlzdC1sb2FkaW5nPSJpcFdoaXRlbGlzdExvYWRpbmciCiAgICAgICAgICAgICAgOm9uLWxvYWQtaS1wLXdoaXRlbGlzdD0ibG9hZElQV2hpdGVsaXN0IgogICAgICAgICAgICAgIDpvbi1hZGQtaS1wPSJoYW5kbGVBZGRJUCIKICAgICAgICAgICAgICA6b24tcmVtb3ZlLWktcD0iaGFuZGxlUmVtb3ZlSVAiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2VsLXRhYi1wYW5lPgogICAgICAgIDwvZWwtdGFicz4KICAgICAgPC9lbC10YWItcGFuZT4KICAgIDwvZWwtdGFicz4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+Ci5zZXR0aW5ncy1wYWdlIHsgcGFkZGluZzogMDsgfQoKLnNldHRpbmdzLXRvb2xiYXIgewogIGRpc3BsYXk6IGZsZXg7CiAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIG1hcmdpbi1ib3R0b206IDEycHg7CiAgcGFkZGluZzogNHB4OwogIGJvcmRlci1yYWRpdXM6IDE0cHg7CiAgYmFja2dyb3VuZDogY29sb3ItbWl4KGluIHNyZ2IsIHZhcigtLWVsLWZpbGwtY29sb3ItbGlnaHQpIDg0JSwgdHJhbnNwYXJlbnQpOwp9CgoucGFnZS1oZWFkZXIgewogIGRpc3BsYXk6IGZsZXg7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0OwogIG1hcmdpbi1ib3R0b206IDE4cHg7CiAgZ2FwOiAxNnB4OwoKICBoMiB7IG1hcmdpbjogMDsgZm9udC1zaXplOiAyMnB4OyBmb250LXdlaWdodDogNzAwOyBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsgbGluZS1oZWlnaHQ6IDEuMzsgfQogIC5wYWdlLXN1YnRpdGxlIHsgZm9udC1zaXplOiAxM3B4OyBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOyBtYXJnaW46IDZweCAwIDA7IGxpbmUtaGVpZ2h0OiAxLjY7IGRpc3BsYXk6IGJsb2NrOyBtYXgtd2lkdGg6IDcyMHB4OyB9Cn0KCi5wYWdlLXRpdGxlIHsKICBmb250LXNpemU6IDIycHg7CiAgZm9udC13ZWlnaHQ6IDcwMDsKICBtYXJnaW46IDA7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7CiAgbGluZS1oZWlnaHQ6IDEuMzsKfQoKLnN1Yi10YWItbGFiZWwgewogIGRpc3BsYXk6IGlubGluZS1mbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA0cHg7CiAgZm9udC13ZWlnaHQ6IDUwMDsKfQoKLy8g5qaC6KeI5Li7572R5qC877ya5YWl5Zy65reh5YWl5LiK56e777yM5bmF5bqm5bCP44CB6LWw5YiH6aG15Yqo5pWI5Luk54mM77yIcmVkdWNlZC1tb3Rpb24g55SxIGdsb2JhbC5zY3NzIOe7n+S4gOmZjee6p++8iQoub3ZlcnZpZXctZ3JpZCB7CiAgZGlzcGxheTogZ3JpZDsKICBhbmltYXRpb246IGRkLXNldHRpbmdzLXJpc2UtaW4gdmFyKC0tZGQtbW90aW9uLXBhZ2UpIHZhcigtLWRkLWVhc2UtZGVjZWxlcmF0ZSkgYm90aDsKICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7CiAgZ2FwOiAxNnB4OwogIG1hcmdpbi1ib3R0b206IDE2cHg7Cn0KCjpkZWVwKC5lbC10YWJzKSB7CiAgLmVsLXRhYnNfX2hlYWRlciB7CiAgICBtYXJnaW4tYm90dG9tOiAyMHB4OwogICAgLy8g5pW05o6S5qCH562+5qCP5Y+z56e777yM6K6p6aaW5Liq5qCH562+44CM5qaC6KeI44CN5bem5L6n55WZ5Ye65ZG85ZC456m66Ze077ybCiAgICAvLyBuYXYtd3JhcO+8iOWQq+agh+etvuOAgWFjdGl2ZS1iYXIg5LiL5YiS57q/44CBOjphZnRlciDovajpgZPnur/vvInmlbTkvZPlj7Pnp7vjgIHlr7npvZDkuI3lj5gKICAgIHBhZGRpbmctbGVmdDogMTZweDsKICB9CgogIC8vIOaJgOacieagh+etvuS4i+aWueeahCAxcHgg57uG57q/5L2c5Li65LiL5YiS57q/5oyH56S65p2h55qE6L2o6YGTCiAgLmVsLXRhYnNfX25hdi13cmFwOjphZnRlciB7CiAgICBoZWlnaHQ6IDFweDsKICAgIGJhY2tncm91bmQtY29sb3I6IGNvbG9yLW1peChpbiBzcmdiLCB2YXIoLS1lbC1ib3JkZXItY29sb3ItbGlnaHRlcikgODIlLCB0cmFuc3BhcmVudCk7CiAgfQoKICAuZWwtdGFic19faXRlbSB7CiAgICBmb250LXNpemU6IDE0cHg7CiAgICAvLyBob3ZlciAvIOmAieS4rei/h+a4oee7n+S4gOi1sOW/q+mAn+aho+WKqOaViOS7pOeJjO+8jOS4juWFqOermeS4gOiHtAogICAgdHJhbnNpdGlvbjoKICAgICAgY29sb3IgdmFyKC0tZGQtbW90aW9uLWZhc3QpIHZhcigtLWRkLWVhc2Utc3RhbmRhcmQpOwoKICAgICY6aG92ZXIgewogICAgICAvLyDmnKrpgInkuK3pobkgaG92ZXIg5pe255So5ZOB54mM6Imy5o+Q56S6CiAgICAgIGNvbG9yOiB2YXIoLS1lbC1jb2xvci1wcmltYXJ5KTsKICAgIH0KCiAgICAmLmlzLWFjdGl2ZSB7CiAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7CiAgICAgIC8vIOmAieS4remhueS7heeUqOWTgeeJjOiJsuaWh+Wtl++8jOmFjeWQiOW6lemDqOS4i+WIkue6v+aMh+ekuuadoQogICAgICBjb2xvcjogdmFyKC0tZWwtY29sb3ItcHJpbWFyeSk7CiAgICB9CiAgfQoKICAvLyDkuIvliJLnur/mjIfnpLrmnaHvvJrlk4HniYzoibLvvIzot5/pmo/pgInkuK3pobnmu5HliqjvvIzml6DloavlhYXog4zmma/kuI3kvJrooqvoo4HliIcKICAuZWwtdGFic19fYWN0aXZlLWJhciB7CiAgICBoZWlnaHQ6IDNweDsKICAgIGJvcmRlci1yYWRpdXM6IDNweDsKICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWVsLWNvbG9yLXByaW1hcnkpOwogIH0KfQoKLy8g5qaC6KeI57uf6K6h5Y2h77ya5aS55Zyo5Lik5Liq572R5qC85LmL6Ze077yM57uZ5ZCM5qy+5YWl5Zy65Yqo55S75L+d5oyB6IqC5aWP5LiA6Ie077yI6L275b6u5bu26L+f6ZSZ6JC977yJCjpkZWVwKC5zdGF0cy1jYXJkKSB7CiAgYW5pbWF0aW9uOiBkZC1zZXR0aW5ncy1yaXNlLWluIHZhcigtLWRkLW1vdGlvbi1wYWdlKSB2YXIoLS1kZC1lYXNlLWRlY2VsZXJhdGUpIDMwbXMgYm90aDsKfQoKLy8g5qaC6KeI5L+h5oGv572R5qC877ya5YWl5Zy65Yqo55S75LiO5Li7572R5qC85LiA6Ie077yM6L275b6u5bu26L+f5b2i5oiQ5YWL5Yi255qE6ZSZ6JC9Ci5vdmVydmlldy1pbmZvLWdyaWQgewogIGRpc3BsYXk6IGdyaWQ7CiAgYW5pbWF0aW9uOiBkZC1zZXR0aW5ncy1yaXNlLWluIHZhcigtLWRkLW1vdGlvbi1wYWdlKSB2YXIoLS1kZC1lYXNlLWRlY2VsZXJhdGUpIDYwbXMgYm90aDsKICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7CiAgZ2FwOiAxNnB4OwoKICA6ZGVlcCgubXQtY2FyZCkgewogICAgbWFyZ2luLXRvcDogMDsKICB9Cn0KCi8vIOiuvue9rumhteWFpeWcuuWKqOeUu++8muWwj+W5hea3oeWFpeS4iuenu++8jOmBv+WFjeWkp+mHj+WtkOWFg+e0oOmAkOS4qiBzdGFnZ2VyCkBrZXlmcmFtZXMgZGQtc2V0dGluZ3MtcmlzZS1pbiB7CiAgZnJvbSB7CiAgICBvcGFjaXR5OiAwOwogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDhweCk7CiAgfQoKICB0byB7CiAgICBvcGFjaXR5OiAxOwogICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKDApOwogIH0KfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLm92ZXJ2aWV3LWdyaWQgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsgfQogIC5vdmVydmlldy1pbmZvLWdyaWQgeyBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsgfQogIC5wYWdlLWhlYWRlciB7CiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogICAgYWxpZ24taXRlbXM6IHN0cmV0Y2g7CiAgICBnYXA6IDEwcHg7CiAgICBtYXJnaW4tYm90dG9tOiAxNHB4OwoKICAgIGgyIHsgZm9udC1zaXplOiAxOHB4OyB9CiAgfQoKICA6ZGVlcCguZWwtdGFic19fbmF2LXdyYXApIHsKICAgIG92ZXJmbG93LXg6IGF1dG87CiAgfQoKICA6ZGVlcCguZWwtdGFic19fbmF2LXNjcm9sbCkgewogICAgbWluLXdpZHRoOiBtYXgtY29udGVudDsKICB9CgogIDpkZWVwKC5lbC10YWJzX19pdGVtKSB7CiAgICB3aGl0ZS1zcGFjZTogbm93cmFwOwogIH0KfQo8L3N0eWxlPgoKCjxzdHlsZSBsYW5nPSJzY3NzIj4KaHRtbC5kYXJrIHsKICAuc2V0dGluZ3MtcGFnZSAuc2V0dGluZ3MtdG9vbGJhciB7CiAgICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCkgNzIlLCBibGFjayk7CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { computed, onMounted, ref, watch } from 'vue'
+import { useAuthStore } from '@/stores/auth'
+import AlertConfigCard from './components/AlertConfigCard.vue'
+import BackupManagementCard from './components/BackupManagementCard.vue'
+import CaptchaConfigCard from './components/CaptchaConfigCard.vue'
+import IPWhitelistCard from './components/IPWhitelistCard.vue'
+import LoginLogsCard from './components/LoginLogsCard.vue'
+import OverviewHeroCard from './components/OverviewHeroCard.vue'
+import OverviewStatsCard from './components/OverviewStatsCard.vue'
+import PanelLogCard from './components/PanelLogCard.vue'
+import ProxyConfigCard from './components/ProxyConfigCard.vue'
+import SecurityPassword2FACard from './components/SecurityPassword2FACard.vue'
+import SessionManagementCard from './components/SessionManagementCard.vue'
+import SystemConfigCard from './components/SystemConfigCard.vue'
+import SystemHealthCard from './components/SystemHealthCard.vue'
+import SystemInfoCard from './components/SystemInfoCard.vue'
+import UpdateSettingsCard from './components/UpdateSettingsCard.vue'
+import TaskExecutionCard from './components/TaskExecutionCard.vue'
+import { useSettingsConfig } from './useSettingsConfig'
+import { useSettingsOverview } from './useSettingsOverview'
+import { usePanelLogViewer } from './usePanelLogViewer'
+import { useSettingsSecurity } from './useSettingsSecurity'
+import { Bell, Connection, Document, Lock, Monitor, Refresh } from '@element-plus/icons-vue'
+
+const authStore = useAuthStore()
+const roleLevel: Record<string, number> = { viewer: 1, operator: 2, admin: 3 }
+const isAdmin = computed(() => (roleLevel[authStore.user?.role || ''] || 0) >= (roleLevel.admin || 0))
+
+const activeTab = ref('overview')
+
+const overview = useSettingsOverview()
+const config = useSettingsConfig()
+const panelLogViewer = usePanelLogViewer()
+const security = useSettingsSecurity()
+
+const {
+  systemInfo,
+  systemStats,
+  currentVersion,
+  updateInfo,
+  updateStatus,
+  checkingUpdate,
+  updatingPanel,
+  autoUpdateEnabled,
+  savingAutoUpdate,
+  lastCheckTime,
+  releaseNotesVisible,
+  updateProgressVisible,
+  updateProgressStatus,
+  updateProgressError,
+  formatBytes,
+  getUsageClass,
+  loadSystemInfo,
+  loadSystemStats,
+  loadVersion,
+  loadUpdatePreferences,
+  handleCheckUpdate,
+  handleUpdatePanel,
+  handleRestartPanel,
+  handleToggleAutoUpdate,
+  openReleaseNotes,
+  closeReleaseNotes,
+  openGitHub,
+  closeUpdateProgress
+} = overview
+
+const {
+  captchaFeatureImplemented,
+  configsLoading,
+  configsSaving,
+  configForm,
+  loadSystemConfigs,
+  handleSaveSystemConfig,
+  handleSaveAlertConfig,
+  handleIconUpload,
+  handleLogBackgroundUpload,
+  previewPanelAppearance,
+  handleSaveTaskConfig,
+  handleSaveProxy,
+  handleSaveCaptcha,
+  handleSaveSessionConfig,
+  handleSaveBackupSchedule
+} = config
+
+const {
+  loading: panelLogLoading,
+  refreshing: panelLogRefreshing,
+  lines: panelLogLines,
+  keyword: panelLogKeyword,
+  level: panelLogLevel,
+  autoRefresh: panelLogAutoRefresh,
+  logs: panelLogs,
+  total: panelLogTotal,
+  lastLoadedAt: panelLogLastLoadedAt,
+  byteSizeLabel: panelLogByteSizeLabel,
+  activePreset: panelLogActivePreset,
+  loadPanelLogs,
+  refreshNow: refreshPanelLogs,
+  applyUpdatePreset: applyPanelLogUpdatePreset,
+  applyErrorPreset: applyPanelLogErrorPreset,
+  resetFilters: resetPanelLogFilters,
+  copyLogs: copyPanelLogs,
+  downloadLogs: downloadPanelLogs,
+} = panelLogViewer
+
+const {
+  securityTab,
+  backups,
+  backupsLoading,
+  showBackupDialog,
+  backupName,
+  backupPassword,
+  backupSelection,
+  backupScheduleSelection,
+  uploadProgress,
+  uploadUploading,
+  showRestoreDialog,
+  restoreFilename,
+  restorePassword,
+  restoreProgressVisible,
+  restoreProgressStatus,
+  restoreProgressStage,
+  restoreProgressMessage,
+  restoreProgressPercent,
+  restoreProgressSource,
+  restoreProgressSelection,
+  restoreProgressStartedAt,
+  restoreRestartCountdown,
+  restoreProgressError,
+  oldPassword,
+  newPassword,
+  confirmPassword,
+  twoFAEnabled,
+  twoFASecret,
+  twoFAQrUrl,
+  twoFACode,
+  showSetup2FA,
+  loginLogs,
+  loginLogsLoading,
+  loginLogsTotal,
+  loginLogsPage,
+  sessions,
+  sessionsLoading,
+  ipWhitelist,
+  ipWhitelistLoading,
+  showAddIPDialog,
+  newIP,
+  newIPRemarks,
+  loadBackups,
+  handleCreateBackup,
+  handleUploadBackup,
+  confirmCreateBackup,
+  handleDownloadBackup,
+  handleRestoreBackup,
+  confirmRestore,
+  closeRestoreProgress,
+  restartRestoreNow,
+  handleDeleteBackup,
+  load2FAStatus,
+  handleChangePassword,
+  handleSetup2FA,
+  handleVerify2FA,
+  handleDisable2FA,
+  loadLoginLogs,
+  loadSessions,
+  handleRevokeSession,
+  handleRevokeAllSessions,
+  loadIPWhitelist,
+  handleAddIP,
+  handleRemoveIP,
+  handleClearLoginLogs,
+  handleSecurityTabChange
+} = security
+
+function handleRefresh() {
+  handleTabChange(activeTab.value)
+}
+
+function serializeBackupScheduleSelection() {
+  const order: Array<keyof typeof backupScheduleSelection.value> = [
+    'configs',
+    'tasks',
+    'subscriptions',
+    'env_vars',
+    'logs',
+    'scripts',
+    'dependencies',
+    'task_views'
+  ]
+  return order.filter((key) => backupScheduleSelection.value[key]).join(',')
+}
+
+function applyBackupScheduleSelection(raw: string) {
+  const selected = new Set(
+    raw
+      .split(',')
+      .map((item) => item.trim())
+      .filter(Boolean)
+  )
+  backupScheduleSelection.value = {
+    configs: selected.has('configs'),
+    tasks: selected.has('tasks'),
+    subscriptions: selected.has('subscriptions'),
+    env_vars: selected.has('env_vars'),
+    logs: selected.has('logs'),
+    scripts: selected.has('scripts'),
+    dependencies: selected.has('dependencies'),
+    task_views: selected.has('task_views')
+  }
+}
+
+function handleTabChange(tab: string) {
+  if (tab === 'overview') {
+    void loadVersion()
+    void loadSystemStats()
+    void loadSystemInfo()
+    void loadUpdatePreferences()
+  } else if (tab === 'config' || tab === 'task-exec' || tab === 'proxy' || tab === 'captcha' || tab === 'alert') {
+    void loadSystemConfigs()
+  } else if (tab === 'panel-log') {
+    void loadPanelLogs()
+  } else if (tab === 'backup') {
+    void loadBackups()
+    void loadSystemConfigs()
+  } else if (tab === 'security') {
+    void load2FAStatus()
+  }
+}
+
+onMounted(() => {
+  void loadVersion()
+  void loadSystemStats()
+  void loadSystemInfo()
+  void loadUpdatePreferences()
+  if (!isAdmin.value) {
+    securityTab.value = 'password-2fa'
+  }
+})
+
+watch(
+  () => configForm.value.backup_schedule_selection,
+  (value) => {
+    applyBackupScheduleSelection(value || '')
+  },
+  { immediate: true }
+)
+</script>
+
+<template>
+  <div class="settings-page dd-scroll-page dd-page-hide-heading">
+    <div class="settings-toolbar">
+      <el-button @click="handleRefresh">
+        <el-icon><Refresh /></el-icon> 刷新
+      </el-button>
+    </div>
+
+    <el-tabs v-model="activeTab" @tab-change="handleTabChange">
+      <el-tab-pane label="概览" name="overview">
+        <div class="overview-grid">
+          <OverviewHeroCard
+            :is-admin="isAdmin"
+            :current-version="currentVersion"
+            :update-info="updateInfo"
+            :update-status="updateStatus"
+            :checking-update="checkingUpdate"
+            :updating-panel="updatingPanel"
+            :auto-update-enabled="autoUpdateEnabled"
+            :saving-auto-update="savingAutoUpdate"
+            :release-notes-visible="releaseNotesVisible"
+            :update-progress-visible="updateProgressVisible"
+            :update-progress-status="updateProgressStatus"
+            :update-progress-error="updateProgressError"
+            :on-check-update="handleCheckUpdate"
+            :on-start-update="handleUpdatePanel"
+            :on-restart-panel="handleRestartPanel"
+            :on-toggle-auto-update="handleToggleAutoUpdate"
+            :on-open-release-notes="openReleaseNotes"
+            :on-close-release-notes="closeReleaseNotes"
+            :on-open-git-hub="openGitHub"
+            :on-close-update-progress="closeUpdateProgress"
+          />
+
+          <UpdateSettingsCard
+            :version="currentVersion"
+            :last-check-time="lastCheckTime"
+            :auto-update-enabled="autoUpdateEnabled"
+            @update:auto-update-enabled="handleToggleAutoUpdate"
+          />
+        </div>
+
+        <OverviewStatsCard :system-stats="systemStats" style="margin-bottom: 16px" />
+
+        <div class="overview-info-grid">
+          <SystemInfoCard
+            :system-info="systemInfo"
+            :format-bytes="formatBytes"
+            :get-usage-class="getUsageClass"
+          />
+          <SystemHealthCard />
+        </div>
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" label="面板外观" name="config">
+        <SystemConfigCard
+          :configs-loading="configsLoading"
+          :configs-saving="configsSaving"
+          :form="configForm"
+          :on-save="handleSaveSystemConfig"
+          :on-icon-upload="handleIconUpload"
+          :on-log-background-upload="handleLogBackgroundUpload"
+          :on-appearance-preview="previewPanelAppearance"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" label="任务运行" name="task-exec">
+        <TaskExecutionCard
+          :configs-loading="configsLoading"
+          :configs-saving="configsSaving"
+          :form="configForm"
+          :on-save="handleSaveTaskConfig"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" name="panel-log">
+        <template #label>
+          <span class="sub-tab-label"><el-icon :size="14"><Document /></el-icon>面板日志</span>
+        </template>
+        <PanelLogCard
+          v-model:lines="panelLogLines"
+          v-model:keyword="panelLogKeyword"
+          v-model:level="panelLogLevel"
+          v-model:auto-refresh="panelLogAutoRefresh"
+          :loading="panelLogLoading"
+          :refreshing="panelLogRefreshing"
+          :logs="panelLogs"
+          :total="panelLogTotal"
+          :last-loaded-at="panelLogLastLoadedAt"
+          :byte-size-label="panelLogByteSizeLabel"
+          :active-preset="panelLogActivePreset"
+          :on-refresh="refreshPanelLogs"
+          :on-apply-update-preset="applyPanelLogUpdatePreset"
+          :on-apply-error-preset="applyPanelLogErrorPreset"
+          :on-reset-filters="resetPanelLogFilters"
+          :on-copy="copyPanelLogs"
+          :on-download="downloadPanelLogs"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" name="alert">
+        <template #label>
+          <span class="sub-tab-label"><el-icon :size="14"><Bell /></el-icon>告警通知</span>
+        </template>
+        <AlertConfigCard
+          :configs-loading="configsLoading"
+          :configs-saving="configsSaving"
+          :form="configForm"
+          :on-save="handleSaveAlertConfig"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" label="代理设置" name="proxy">
+        <ProxyConfigCard
+          :configs-saving="configsSaving"
+          :form="configForm"
+          :on-save="handleSaveProxy"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" label="登录验证码" name="captcha">
+        <CaptchaConfigCard
+          :configs-saving="configsSaving"
+          :form="configForm"
+          :captcha-feature-implemented="captchaFeatureImplemented"
+          :on-save="handleSaveCaptcha"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane v-if="isAdmin" label="备份恢复" name="backup">
+        <BackupManagementCard
+          v-model:show-backup-dialog="showBackupDialog"
+          v-model:backup-name="backupName"
+          v-model:backup-password="backupPassword"
+          v-model:backup-selection="backupSelection"
+          v-model:backup-schedule-selection="backupScheduleSelection"
+          v-model:show-restore-dialog="showRestoreDialog"
+          v-model:restore-password="restorePassword"
+          :settings-form="configForm"
+          :configs-saving="configsSaving"
+          :on-save-schedule="() => handleSaveBackupSchedule(serializeBackupScheduleSelection())"
+          :backups="backups"
+          :backups-loading="backupsLoading"
+          :restore-filename="restoreFilename"
+          :restore-progress-visible="restoreProgressVisible"
+          :restore-progress-status="restoreProgressStatus"
+          :restore-progress-stage="restoreProgressStage"
+          :restore-progress-message="restoreProgressMessage"
+          :restore-progress-percent="restoreProgressPercent"
+          :restore-progress-source="restoreProgressSource"
+          :restore-progress-selection="restoreProgressSelection"
+          :restore-progress-started-at="restoreProgressStartedAt"
+          :restore-restart-countdown="restoreRestartCountdown"
+          :restore-progress-error="restoreProgressError"
+          :upload-progress="uploadProgress"
+          :upload-uploading="uploadUploading"
+          :on-create-backup="handleCreateBackup"
+          :on-upload-backup="handleUploadBackup"
+          :on-confirm-create-backup="confirmCreateBackup"
+          :on-download-backup="handleDownloadBackup"
+          :on-restore-backup="handleRestoreBackup"
+          :on-confirm-restore="confirmRestore"
+          :on-close-restore-progress="closeRestoreProgress"
+          :on-restart-restore-now="restartRestoreNow"
+          :on-delete-backup="handleDeleteBackup"
+        />
+      </el-tab-pane>
+
+      <el-tab-pane label="账号安全" name="security">
+        <el-tabs v-model="securityTab" @tab-change="handleSecurityTabChange">
+          <el-tab-pane name="password-2fa">
+            <template #label>
+              <span class="sub-tab-label"><el-icon :size="14"><Lock /></el-icon>密码与2FA</span>
+            </template>
+            <SecurityPassword2FACard
+              v-model:old-password="oldPassword"
+              v-model:new-password="newPassword"
+              v-model:confirm-password="confirmPassword"
+              v-model:show-setup2-f-a="showSetup2FA"
+              v-model:two-f-a-code="twoFACode"
+              :two-f-a-enabled="twoFAEnabled"
+              :two-f-a-secret="twoFASecret"
+              :two-f-a-qr-url="twoFAQrUrl"
+              :on-change-password="handleChangePassword"
+              :on-setup2-f-a="handleSetup2FA"
+              :on-disable2-f-a="handleDisable2FA"
+              :on-verify2-f-a="handleVerify2FA"
+            />
+          </el-tab-pane>
+
+          <el-tab-pane v-if="isAdmin" name="login-logs">
+            <template #label>
+              <span class="sub-tab-label"><el-icon :size="14"><Document /></el-icon>登录日志</span>
+            </template>
+            <LoginLogsCard
+              v-model:login-logs-page="loginLogsPage"
+              :login-logs="loginLogs"
+              :login-logs-loading="loginLogsLoading"
+              :login-logs-total="loginLogsTotal"
+              :on-load-login-logs="loadLoginLogs"
+              :on-clear-login-logs="handleClearLoginLogs"
+            />
+          </el-tab-pane>
+
+          <el-tab-pane v-if="isAdmin" name="sessions">
+            <template #label>
+              <span class="sub-tab-label"><el-icon :size="14"><Monitor /></el-icon>会话管理</span>
+            </template>
+            <SessionManagementCard
+              :sessions="sessions"
+              :sessions-loading="sessionsLoading"
+              :config-form="configForm"
+              :config-saving="configsSaving"
+              :on-load-sessions="loadSessions"
+              :on-revoke-all-sessions="handleRevokeAllSessions"
+              :on-revoke-session="handleRevokeSession"
+              :on-save-session-config="handleSaveSessionConfig"
+            />
+          </el-tab-pane>
+
+          <el-tab-pane v-if="isAdmin" name="ip-whitelist">
+            <template #label>
+              <span class="sub-tab-label"><el-icon :size="14"><Connection /></el-icon>IP白名单</span>
+            </template>
+            <IPWhitelistCard
+              v-model:show-add-i-p-dialog="showAddIPDialog"
+              v-model:new-i-p="newIP"
+              v-model:new-i-p-remarks="newIPRemarks"
+              :ip-whitelist="ipWhitelist"
+              :ip-whitelist-loading="ipWhitelistLoading"
+              :on-load-i-p-whitelist="loadIPWhitelist"
+              :on-add-i-p="handleAddIP"
+              :on-remove-i-p="handleRemoveIP"
+            />
+          </el-tab-pane>
+        </el-tabs>
+      </el-tab-pane>
+    </el-tabs>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.settings-page { padding: 0; }
+
+.settings-toolbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 4px;
+  border-radius: 14px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+  gap: 16px;
+
+  h2 { margin: 0; font-size: 22px; font-weight: 700; color: var(--el-text-color-primary); line-height: 1.3; }
+  .page-subtitle { font-size: 13px; color: var(--el-text-color-secondary); margin: 6px 0 0; line-height: 1.6; display: block; max-width: 720px; }
+}
+
+.page-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: var(--el-text-color-primary);
+  line-height: 1.3;
+}
+
+.sub-tab-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 500;
+}
+
+// 概览主网格：入场淡入上移，幅度小、走切页动效令牌（reduced-motion 由 global.scss 统一降级）
+.overview-grid {
+  display: grid;
+  animation: dd-settings-rise-in var(--dd-motion-page) var(--dd-ease-decelerate) both;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+:deep(.el-tabs) {
+  .el-tabs__header {
+    margin-bottom: 20px;
+    // 整排标签栏右移，让首个标签「概览」左侧留出呼吸空间；
+    // nav-wrap（含标签、active-bar 下划线、::after 轨道线）整体右移、对齐不变
+    padding-left: 16px;
+  }
+
+  // 所有标签下方的 1px 细线作为下划线指示条的轨道
+  .el-tabs__nav-wrap::after {
+    height: 1px;
+    background-color: color-mix(in srgb, var(--el-border-color-lighter) 82%, transparent);
+  }
+
+  .el-tabs__item {
+    font-size: 14px;
+    // hover / 选中过渡统一走快速档动效令牌，与全站一致
+    transition:
+      color var(--dd-motion-fast) var(--dd-ease-standard);
+
+    &:hover {
+      // 未选中项 hover 时用品牌色提示
+      color: var(--el-color-primary);
+    }
+
+    &.is-active {
+      font-weight: 600;
+      // 选中项仅用品牌色文字，配合底部下划线指示条
+      color: var(--el-color-primary);
+    }
+  }
+
+  // 下划线指示条：品牌色，跟随选中项滑动，无填充背景不会被裁切
+  .el-tabs__active-bar {
+    height: 3px;
+    border-radius: 3px;
+    background-color: var(--el-color-primary);
+  }
+}
+
+// 概览统计卡：夹在两个网格之间，给同款入场动画保持节奏一致（轻微延迟错落）
+:deep(.stats-card) {
+  animation: dd-settings-rise-in var(--dd-motion-page) var(--dd-ease-decelerate) 30ms both;
+}
+
+// 概览信息网格：入场动画与主网格一致，轻微延迟形成克制的错落
+.overview-info-grid {
+  display: grid;
+  animation: dd-settings-rise-in var(--dd-motion-page) var(--dd-ease-decelerate) 60ms both;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+
+  :deep(.mt-card) {
+    margin-top: 0;
+  }
+}
+
+// 设置页入场动画：小幅淡入上移，避免大量子元素逐个 stagger
+@keyframes dd-settings-rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .overview-grid { grid-template-columns: 1fr; }
+  .overview-info-grid { grid-template-columns: 1fr; }
+  .page-header {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    margin-bottom: 14px;
+
+    h2 { font-size: 18px; }
+  }
+
+  :deep(.el-tabs__nav-wrap) {
+    overflow-x: auto;
+  }
+
+  :deep(.el-tabs__nav-scroll) {
+    min-width: max-content;
+  }
+
+  :deep(.el-tabs__item) {
+    white-space: nowrap;
+  }
+}
+</style>
+
+
+<style lang="scss">
+html.dark {
+  .settings-page .settings-toolbar {
+    background: color-mix(in srgb, var(--el-fill-color-light) 72%, black);
+  }
+}
+</style>

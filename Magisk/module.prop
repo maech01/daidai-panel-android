@@ -1,1 +1,7 @@
-aWQ9ZGFpZGFpLXBhbmVsCm5hbWU95ZGG5ZGG6Z2i5p2/IChEYWlkYWkgUGFuZWwpCnZlcnNpb249djIuMy45CnZlcnNpb25Db2RlPTIwMzA5CmF1dGhvcj1saW56aXh1YW56egpkZXNjcmlwdGlvbj3lnKggQW5kcm9pZCDorr7lpIfkuIrku6Ugcm9vdCDmnYPpmZDov5DooYzlkYblkYbpnaLmnb/vvIzlvIDmnLroh6rlkK/vvIzpu5jorqTnm5HlkKwgaHR0cDovLzEyNy4wLjAuMTo1NzAwCnVwZGF0ZUpzb249aHR0cHM6Ly9naXRodWIuY29tL2xpbnppeHVhbnp6L2RhaWRhaS1wYW5lbC9yZWxlYXNlcy9sYXRlc3QvZG93bmxvYWQvdXBkYXRlLmpzb24K
+id=daidai-panel
+name=呆呆面板 (Daidai Panel)
+version=v2.3.9
+versionCode=20309
+author=linzixuanzz
+description=在 Android 设备上以 root 权限运行呆呆面板，开机自启，默认监听 http://127.0.0.1:5700
+updateJson=https://github.com/linzixuanzz/daidai-panel/releases/latest/download/update.json

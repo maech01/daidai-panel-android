@@ -1,1 +1,25 @@
-QGVjaG8gb2ZmDQpjaGNwIDY1MDAxID4gbnVsDQpjZCAvZCAiJX5kcDAiDQp0aXRsZSDlkYblkYbpnaLmnb8gRHVtYiBQYW5lbA0KDQplY2hvID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCmVjaG8gICDlkYblkYbpnaLmnb8gRHVtYiBQYW5lbCAoV2luZG93cyDljZXmnLrniYgpDQplY2hvID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCmVjaG8uDQplY2hvIFtpXSDlkK/liqjlkI7or7flnKjmtY/op4jlmajorr/pl646IGh0dHA6Ly9sb2NhbGhvc3Q6NTcwMA0KZWNobyBbaV0g6aaW5qyh5L2/55So6ZyA6KaB5Yid5aeL5YyW566h55CG5ZGY6LSm5Y+3DQplY2hvIFtpXSDmjIkgQ3RybCtDIOaIluWFs+mXreacrOeql+WPo+WNs+WPr+WBnOatouacjeWKoQ0KZWNoby4NCg0KaWYgbm90IGV4aXN0IGRhaWRhaS1zZXJ2ZXIuZXhlICgNCiAgZWNobyBbeF0g5pyq5om+5YiwIGRhaWRhaS1zZXJ2ZXIuZXhl77yM6K+356Gu6K6k5pys6ISa5pys5ZKMIGV4ZSDlnKjlkIzkuIDnm67lvZUNCiAgcGF1c2UNCiAgZXhpdCAvYiAxDQopDQoNCmRhaWRhaS1zZXJ2ZXIuZXhlDQoNCmVjaG8uDQplY2hvIFtpXSDmnI3liqHlt7LlgZzmraINCnBhdXNlDQo=
+@echo off
+chcp 65001 > nul
+cd /d "%~dp0"
+title 呆呆面板 Dumb Panel
+
+echo ========================================
+echo   呆呆面板 Dumb Panel (Windows 单机版)
+echo ========================================
+echo.
+echo [i] 启动后请在浏览器访问: http://localhost:5700
+echo [i] 首次使用需要初始化管理员账号
+echo [i] 按 Ctrl+C 或关闭本窗口即可停止服务
+echo.
+
+if not exist daidai-server.exe (
+  echo [x] 未找到 daidai-server.exe，请确认本脚本和 exe 在同一目录
+  pause
+  exit /b 1
+)
+
+daidai-server.exe
+
+echo.
+echo [i] 服务已停止
+pause

@@ -1,1 +1,107 @@
-cGFja2FnZSBhcHBib290CgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbWlkZGxld2FyZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCikKCi8vIFJlc29sdmVDb25maWdQYXRoIOafpeaJviBjb25maWcueWFtbO+8jOimhuebliBEb2NrZXIgLyDkuozov5vliLYgLyBXaW5kb3dzIOWPjOWHuyAvIGN3ZCDmvILnp7vnrYnlnLrmma/jgIIKLy8g6aG65bqP77yaCi8vICAxLiBEQUlEQUlfQ09ORklHIOeOr+Wig+WPmOmHjwovLyAgMi4gL2FwcC9jb25maWcueWFtbO+8iERvY2tlciDplZzlg4/lm7rlrprkvY3nva7vvIkKLy8gIDMuIOW9k+WJjeWPr+aJp+ihjOaWh+S7tuWQjOebruW9le+8iFdpbmRvd3Mg5Y+M5Ye7IC8g5LqM6L+b5Yi25LuO5YW25LuWIGN3ZCDlkK/liqjkuZ/og73mib7liLDvvIkKLy8gIDQuIGN3ZCDkuIvnmoQgY29uZmlnLnlhbWzvvIjlhbzlrrnljoblj7LooYzkuLrvvIkKZnVuYyBSZXNvbHZlQ29uZmlnUGF0aCgpIHN0cmluZyB7CgljYW5kaWRhdGVzIDo9IFtdc3RyaW5newoJCW9zLkdldGVudigiREFJREFJX0NPTkZJRyIpLAoJCSIvYXBwL2NvbmZpZy55YW1sIiwKCX0KCWlmIGV4ZVBhdGgsIGVyciA6PSBvcy5FeGVjdXRhYmxlKCk7IGVyciA9PSBuaWwgewoJCWNhbmRpZGF0ZXMgPSBhcHBlbmQoY2FuZGlkYXRlcywgZmlsZXBhdGguSm9pbihmaWxlcGF0aC5EaXIoZXhlUGF0aCksICJjb25maWcueWFtbCIpKQoJfQoJY2FuZGlkYXRlcyA9IGFwcGVuZChjYW5kaWRhdGVzLCAiY29uZmlnLnlhbWwiKQoKCWZvciBfLCBjYW5kaWRhdGUgOj0gcmFuZ2UgY2FuZGlkYXRlcyB7CgkJaWYgY2FuZGlkYXRlID09ICIiIHsKCQkJY29udGludWUKCQl9CgkJaWYgXywgZXJyIDo9IG9zLlN0YXQoY2FuZGlkYXRlKTsgZXJyID09IG5pbCB7CgkJCXJldHVybiBjYW5kaWRhdGUKCQl9Cgl9CgoJcmV0dXJuICJjb25maWcueWFtbCIKfQoKZnVuYyBMb2FkQW5kSW5pdChjb25maWdQYXRoIHN0cmluZykgKCpjb25maWcuQ29uZmlnLCBlcnJvcikgewoJY2ZnLCBlcnIgOj0gY29uZmlnLkxvYWQoY29uZmlnUGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJaWYgZXJyIDo9IEluaXRXaXRoQ29uZmlnKGNmZyk7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJcmV0dXJuIGNmZywgbmlsCn0KCmZ1bmMgSW5pdFdpdGhDb25maWcoY2ZnICpjb25maWcuQ29uZmlnKSBlcnJvciB7CglpZiBjZmcgPT0gbmlsIHsKCQlyZXR1cm4gZm10LkVycm9yZigi6YWN572u5Li656m6IikKCX0KCWNvbmZpZy5DID0gY2ZnCgoJZGF0YWJhc2UuSW5pdCgmY2ZnLkRhdGFiYXNlKQoJZGF0YWJhc2UuQXV0b01pZ3JhdGUoYWxsTW9kZWxzKCkuLi4pCglkYXRhYmFzZS5FbnN1cmVDb2x1bW5zKCkKCglsZWdhY3lQeXRob25WZW52TWlncmF0aW9uIDo9IHNlcnZpY2UuTWlncmF0ZUxlZ2FjeU1hbmFnZWRQeXRob25WZW52SW5mbygpCgoJbW9kZWwuSW5pdERlZmF1bHRDb25maWdzKCkKCWlmIGVyciA6PSBzZXJ2aWNlLkFwcGx5UmVnaXN0ZXJlZFBhbmVsVGltZXpvbmUoKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoImZhaWxlZCB0byBhcHBseSBwYW5lbCB0aW1lem9uZTogJXciLCBlcnIpCgl9CglzZXJ2aWNlLk5vcm1hbGl6ZUxlZ2FjeVB5dGhvblZlcnNpb25Db2x1bW5zQWZ0ZXJWZW52TWlncmF0aW9uKGxlZ2FjeVB5dGhvblZlbnZNaWdyYXRpb24pCglzZXJ2aWNlLkFwcGx5U2luZ2xlUHl0aG9uUnVudGltZVBvbGljeU9uU3RhcnR1cCgpCglzZXJ2aWNlLk1lcmdlRHVwbGljYXRlUHl0aG9uRGVwZW5kZW5jaWVzKCkKCWlmIGVyciA6PSBtaWRkbGV3YXJlLkNvbmZpZ3VyZVRydXN0ZWRQcm94eUNJRFJzKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoInRydXN0ZWRfcHJveHlfY2lkcnMiKSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBmbXQuRXJyb3JmKCJmYWlsZWQgdG8gY29uZmlndXJlIHRydXN0ZWQgcHJveGllczogJXciLCBlcnIpCgl9CgoJcmV0dXJuIG5pbAp9CgpmdW5jIGFsbE1vZGVscygpIFtdaW50ZXJmYWNle30gewoJcmV0dXJuIFtdaW50ZXJmYWNle317CgkJJm1vZGVsLlVzZXJ7fSwKCQkmbW9kZWwuVG9rZW5CbG9ja2xpc3R7fSwKCQkmbW9kZWwuVGFza3t9LAoJCSZtb2RlbC5UYXNrTG9ne30sCgkJJm1vZGVsLlN5c3RlbUNvbmZpZ3t9LAoJCSZtb2RlbC5FbnZWYXJ7fSwKCQkmbW9kZWwuU2NyaXB0VmVyc2lvbnt9LAoJCSZtb2RlbC5TdWJzY3JpcHRpb257fSwKCQkmbW9kZWwuU3ViTG9ne30sCgkJJm1vZGVsLk5vdGlmeUNoYW5uZWx7fSwKCQkmbW9kZWwuU1NIS2V5e30sCgkJJm1vZGVsLkxvZ2luTG9ne30sCgkJJm1vZGVsLkxvZ2luQXR0ZW1wdHt9LAoJCSZtb2RlbC5Vc2VyU2Vzc2lvbnt9LAoJCSZtb2RlbC5JUFdoaXRlbGlzdHt9LAoJCSZtb2RlbC5TZWN1cml0eUF1ZGl0e30sCgkJJm1vZGVsLlR3b0ZhY3RvckF1dGh7fSwKCQkmbW9kZWwuT3BlbkFwcHt9LAoJCSZtb2RlbC5BcGlDYWxsTG9ne30sCgkJJm1vZGVsLlBsYXRmb3Jte30sCgkJJm1vZGVsLlBsYXRmb3JtVG9rZW57fSwKCQkmbW9kZWwuUGxhdGZvcm1Ub2tlbkxvZ3t9LAoJCSZtb2RlbC5EZXBlbmRlbmN5e30sCgkJJm1vZGVsLlRhc2tWaWV3e30sCgl9Cn0K
+package appboot
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/service"
+)
+
+// ResolveConfigPath 查找 config.yaml，覆盖 Docker / 二进制 / Windows 双击 / cwd 漂移等场景。
+// 顺序：
+//  1. DAIDAI_CONFIG 环境变量
+//  2. /app/config.yaml（Docker 镜像固定位置）
+//  3. 当前可执行文件同目录（Windows 双击 / 二进制从其他 cwd 启动也能找到）
+//  4. cwd 下的 config.yaml（兼容历史行为）
+func ResolveConfigPath() string {
+	candidates := []string{
+		os.Getenv("DAIDAI_CONFIG"),
+		"/app/config.yaml",
+	}
+	if exePath, err := os.Executable(); err == nil {
+		candidates = append(candidates, filepath.Join(filepath.Dir(exePath), "config.yaml"))
+	}
+	candidates = append(candidates, "config.yaml")
+
+	for _, candidate := range candidates {
+		if candidate == "" {
+			continue
+		}
+		if _, err := os.Stat(candidate); err == nil {
+			return candidate
+		}
+	}
+
+	return "config.yaml"
+}
+
+func LoadAndInit(configPath string) (*config.Config, error) {
+	cfg, err := config.Load(configPath)
+	if err != nil {
+		return nil, err
+	}
+	if err := InitWithConfig(cfg); err != nil {
+		return nil, err
+	}
+	return cfg, nil
+}
+
+func InitWithConfig(cfg *config.Config) error {
+	if cfg == nil {
+		return fmt.Errorf("配置为空")
+	}
+	config.C = cfg
+
+	database.Init(&cfg.Database)
+	database.AutoMigrate(allModels()...)
+	database.EnsureColumns()
+
+	legacyPythonVenvMigration := service.MigrateLegacyManagedPythonVenvInfo()
+
+	model.InitDefaultConfigs()
+	if err := service.ApplyRegisteredPanelTimezone(); err != nil {
+		return fmt.Errorf("failed to apply panel timezone: %w", err)
+	}
+	service.NormalizeLegacyPythonVersionColumnsAfterVenvMigration(legacyPythonVenvMigration)
+	service.ApplySinglePythonRuntimePolicyOnStartup()
+	service.MergeDuplicatePythonDependencies()
+	if err := middleware.ConfigureTrustedProxyCIDRs(model.GetRegisteredConfig("trusted_proxy_cidrs")); err != nil {
+		return fmt.Errorf("failed to configure trusted proxies: %w", err)
+	}
+
+	return nil
+}
+
+func allModels() []interface{} {
+	return []interface{}{
+		&model.User{},
+		&model.TokenBlocklist{},
+		&model.Task{},
+		&model.TaskLog{},
+		&model.SystemConfig{},
+		&model.EnvVar{},
+		&model.ScriptVersion{},
+		&model.Subscription{},
+		&model.SubLog{},
+		&model.NotifyChannel{},
+		&model.SSHKey{},
+		&model.LoginLog{},
+		&model.LoginAttempt{},
+		&model.UserSession{},
+		&model.IPWhitelist{},
+		&model.SecurityAudit{},
+		&model.TwoFactorAuth{},
+		&model.OpenApp{},
+		&model.ApiCallLog{},
+		&model.Platform{},
+		&model.PlatformToken{},
+		&model.PlatformTokenLog{},
+		&model.Dependency{},
+		&model.TaskView{},
+	}
+}

@@ -1,1 +1,19 @@
-ZXhwb3J0IGludGVyZmFjZSBUcmVlTm9kZSB7CiAgdGl0bGU6IHN0cmluZwogIGtleTogc3RyaW5nCiAgaXNMZWFmOiBib29sZWFuCiAgY2hpbGRyZW4/OiBUcmVlTm9kZVtdCn0KCmV4cG9ydCBpbnRlcmZhY2UgU2NyaXB0VmVyc2lvblJlY29yZCB7CiAgaWQ6IG51bWJlcgogIHZlcnNpb246IG51bWJlciB8IHN0cmluZwogIG1lc3NhZ2U6IHN0cmluZwogIGNvbnRlbnRfbGVuZ3RoOiBudW1iZXIKICBjcmVhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBTY3JpcHRWZXJzaW9uRGV0YWlsIGV4dGVuZHMgU2NyaXB0VmVyc2lvblJlY29yZCB7CiAgc2NyaXB0X3BhdGg6IHN0cmluZwogIGNvbnRlbnQ6IHN0cmluZwp9Cg==
+export interface TreeNode {
+  title: string
+  key: string
+  isLeaf: boolean
+  children?: TreeNode[]
+}
+
+export interface ScriptVersionRecord {
+  id: number
+  version: number | string
+  message: string
+  content_length: number
+  created_at: string
+}
+
+export interface ScriptVersionDetail extends ScriptVersionRecord {
+  script_path: string
+  content: string
+}

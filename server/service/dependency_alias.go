@@ -1,1 +1,55 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkic3RyaW5ncyIKKQoKdmFyIHB5dGhvbk1vZHVsZVBhY2thZ2VBbGlhc2VzID0gbWFwW3N0cmluZ11zdHJpbmd7CgkiYXR0ciI6ICAgICAgICJhdHRycyIsCgkiYnM0IjogICAgICAgICJiZWF1dGlmdWxzb3VwNCIsCgkiY3J5cHRvIjogICAgICJweWNyeXB0b2RvbWUiLAoJImNyeXB0b2RvbWUiOiAicHljcnlwdG9kb21leCIsCgkiY3YyIjogICAgICAgICJvcGVuY3YtcHl0aG9uIiwKCSJkYXRldXRpbCI6ICAgInB5dGhvbi1kYXRldXRpbCIsCgkiZG90ZW52IjogICAgICJweXRob24tZG90ZW52IiwKCSJleGVjanMiOiAgICAgInB5ZXhlY2pzIiwKCSJqd3QiOiAgICAgICAgInB5and0IiwKCSJuYWNsIjogICAgICAgInB5bmFjbCIsCgkib3BlbnNzbCI6ICAgICJweW9wZW5zc2wiLAoJInBpbCI6ICAgICAgICAicGlsbG93IiwKCSJzZXJpYWwiOiAgICAgInB5c2VyaWFsIiwKCSJza2xlYXJuIjogICAgInNjaWtpdC1sZWFybiIsCgkic29ja3MiOiAgICAgICJweXNvY2tzIiwKCSJ3ZWJzb2NrZXQiOiAgIndlYnNvY2tldC1jbGllbnQiLAoJInlhbWwiOiAgICAgICAicHl5YW1sIiwKfQoKZnVuYyBSZXNvbHZlUHl0aG9uQXV0b0luc3RhbGxQYWNrYWdlKG1vZHVsZU5hbWUgc3RyaW5nKSBzdHJpbmcgewoJbW9kdWxlTmFtZSA9IHN0cmluZ3MuVHJpbVNwYWNlKG1vZHVsZU5hbWUpCglpZiBtb2R1bGVOYW1lID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCglpZiBtYXBwZWQsIGV4aXN0cyA6PSBweXRob25Nb2R1bGVQYWNrYWdlQWxpYXNlc1tzdHJpbmdzLlRvTG93ZXIobW9kdWxlTmFtZSldOyBleGlzdHMgewoJCXJldHVybiBtYXBwZWQKCX0KCglyZXR1cm4gbW9kdWxlTmFtZQp9CgpmdW5jIFB5dGhvbkF1dG9JbnN0YWxsQWxpYXNlcygpIG1hcFtzdHJpbmddc3RyaW5nIHsKCWFsaWFzZXMgOj0gbWFrZShtYXBbc3RyaW5nXXN0cmluZywgbGVuKHB5dGhvbk1vZHVsZVBhY2thZ2VBbGlhc2VzKSkKCWZvciBrZXksIHZhbHVlIDo9IHJhbmdlIHB5dGhvbk1vZHVsZVBhY2thZ2VBbGlhc2VzIHsKCQlhbGlhc2VzW2tleV0gPSB2YWx1ZQoJfQoJcmV0dXJuIGFsaWFzZXMKfQoKZnVuYyBFbmNvZGVQeXRob25BdXRvSW5zdGFsbEFsaWFzZXMoKSBzdHJpbmcgewoJZGF0YSwgZXJyIDo9IGpzb24uTWFyc2hhbChQeXRob25BdXRvSW5zdGFsbEFsaWFzZXMoKSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAie30iCgl9CglyZXR1cm4gc3RyaW5nKGRhdGEpCn0K
+package service
+
+import (
+	"encoding/json"
+	"strings"
+)
+
+var pythonModulePackageAliases = map[string]string{
+	"attr":       "attrs",
+	"bs4":        "beautifulsoup4",
+	"crypto":     "pycryptodome",
+	"cryptodome": "pycryptodomex",
+	"cv2":        "opencv-python",
+	"dateutil":   "python-dateutil",
+	"dotenv":     "python-dotenv",
+	"execjs":     "pyexecjs",
+	"jwt":        "pyjwt",
+	"nacl":       "pynacl",
+	"openssl":    "pyopenssl",
+	"pil":        "pillow",
+	"serial":     "pyserial",
+	"sklearn":    "scikit-learn",
+	"socks":      "pysocks",
+	"websocket":  "websocket-client",
+	"yaml":       "pyyaml",
+}
+
+func ResolvePythonAutoInstallPackage(moduleName string) string {
+	moduleName = strings.TrimSpace(moduleName)
+	if moduleName == "" {
+		return ""
+	}
+
+	if mapped, exists := pythonModulePackageAliases[strings.ToLower(moduleName)]; exists {
+		return mapped
+	}
+
+	return moduleName
+}
+
+func PythonAutoInstallAliases() map[string]string {
+	aliases := make(map[string]string, len(pythonModulePackageAliases))
+	for key, value := range pythonModulePackageAliases {
+		aliases[key] = value
+	}
+	return aliases
+}
+
+func EncodePythonAutoInstallAliases() string {
+	data, err := json.Marshal(PythonAutoInstallAliases())
+	if err != nil {
+		return "{}"
+	}
+	return string(data)
+}

@@ -1,1 +1,489 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJvcy9leGVjIgoJInBhdGgvZmlsZXBhdGgiCgkicmVnZXhwIgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKdmFyICgKCWF1dG9JbnN0YWxsTm9kZU1vZHVsZVJlID0gcmVnZXhwLk11c3RDb21waWxlKGAoPzpDYW5ub3QgZmluZCBtb2R1bGV8RXJyb3IgXFtFUlJfTU9EVUxFX05PVF9GT1VORFxdLiopXHMqJyhbXiddKyknYCkKCWF1dG9JbnN0YWxsTm9kZUhpbnRSZSAgID0gcmVnZXhwLk11c3RDb21waWxlKGBucG1ccytpbnN0YWxsXHMrKFthLXpBLVpAXVthLXpBLVowLTlfLi9ALV0qKWApCglhdXRvSW5zdGFsbFB5TW9kdWxlUmUgICA9IHJlZ2V4cC5NdXN0Q29tcGlsZShgKD86TW9kdWxlTm90Rm91bmRFcnJvcnxJbXBvcnRFcnJvcik6XHMqTm8gbW9kdWxlIG5hbWVkXHMrJyhbXiddKyknYCkKCWF1dG9JbnN0YWxsUHlIaW50UmUgICAgID0gcmVnZXhwLk11c3RDb21waWxlKGBwaXAzP1xzK2luc3RhbGxccysoW2EtekEtWl1bYS16QS1aMC05Xy5ALV0qKWApCglhdXRvSW5zdGFsbEdvTW9kdWxlUmUgICA9IHJlZ2V4cC5NdXN0Q29tcGlsZShgKD86bm8gcmVxdWlyZWQgbW9kdWxlIHByb3ZpZGVzIHBhY2thZ2V8bWlzc2luZyBnb1wuc3VtIGVudHJ5IGZvciBtb2R1bGUgcHJvdmlkaW5nIHBhY2thZ2UpXHMrKFteXHM6O10rKWApCgoJdGhpcmRQYXJ0eUV4Y2x1ZGVkTW9kdWxlcyA9IG1hcFtzdHJpbmddYm9vbHsKCQkic2VuZE5vdGlmeSI6ICAgICAgICAgICB0cnVlLAoJCSJub3RpZnkiOiAgICAgICAgICAgICAgIHRydWUsCgkJIkNyeXB0b0pTIjogICAgICAgICAgICAgdHJ1ZSwKCQkicWwiOiAgICAgICAgICAgICAgICAgICB0cnVlLAoJCSJxbEFwaSI6ICAgICAgICAgICAgICAgIHRydWUsCgkJImpkQ29va2llIjogICAgICAgICAgICAgdHJ1ZSwKCQkiSkRfRG1GcnVpdFNoYXJlQ29kZXMiOiB0cnVlLAoJfQopCgp0eXBlIEF1dG9JbnN0YWxsQ2FuZGlkYXRlIHN0cnVjdCB7CglNYW5hZ2VyICAgICAgIHN0cmluZwoJUmVxdWVzdGVkTmFtZSBzdHJpbmcKCVBhY2thZ2VOYW1lICAgc3RyaW5nCglEaXNwbGF5TmFtZSAgIHN0cmluZwoJV29ya0RpciAgICAgICBzdHJpbmcKCVJlY29yZFR5cGUgICAgc3RyaW5nCglSZWNvcmROYW1lICAgIHN0cmluZwoJUHl0aG9uVmVyc2lvbiBzdHJpbmcKfQoKdHlwZSBBdXRvSW5zdGFsbFJlc3VsdCBzdHJ1Y3QgewoJU3VjY2VzcyBib29sCglMb2cgICAgIHN0cmluZwoJRXJyb3IgICBzdHJpbmcKfQoKZnVuYyBEZXRlY3RBdXRvSW5zdGFsbENhbmRpZGF0ZShleHQsIG91dHB1dCwgd29ya0RpciBzdHJpbmcpICpBdXRvSW5zdGFsbENhbmRpZGF0ZSB7CglleHQgPSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UoZXh0KSkKCglzd2l0Y2ggZXh0IHsKCWNhc2UgIi5weSI6CgkJaWYgbWF0Y2hlcyA6PSBhdXRvSW5zdGFsbFB5TW9kdWxlUmUuRmluZFN0cmluZ1N1Ym1hdGNoKG91dHB1dCk7IGxlbihtYXRjaGVzKSA+IDEgewoJCQlyZXF1ZXN0ZWQgOj0gc3RyaW5ncy5TcGxpdChtYXRjaGVzWzFdLCAiLiIpWzBdCgkJCWlmIGlzUHl0aG9uU3RkbGliKHJlcXVlc3RlZCkgfHwgdGhpcmRQYXJ0eUV4Y2x1ZGVkTW9kdWxlc1tyZXF1ZXN0ZWRdIHsKCQkJCXJldHVybiBuaWwKCQkJfQoJCQlpZiBpc0xvY2FsUHl0aG9uTW9kdWxlKHJlcXVlc3RlZCwgd29ya0RpcikgewoJCQkJcmV0dXJuIG5pbAoJCQl9CgkJCXBhY2thZ2VOYW1lIDo9IFJlc29sdmVQeXRob25BdXRvSW5zdGFsbFBhY2thZ2UocmVxdWVzdGVkKQoJCQlyZXR1cm4gJkF1dG9JbnN0YWxsQ2FuZGlkYXRlewoJCQkJTWFuYWdlcjogICAgICAgInB5dGhvbiIsCgkJCQlSZXF1ZXN0ZWROYW1lOiByZXF1ZXN0ZWQsCgkJCQlQYWNrYWdlTmFtZTogICBwYWNrYWdlTmFtZSwKCQkJCURpc3BsYXlOYW1lOiAgIGZvcm1hdEF1dG9JbnN0YWxsRGlzcGxheU5hbWUocmVxdWVzdGVkLCBwYWNrYWdlTmFtZSksCgkJCQlXb3JrRGlyOiAgICAgICB3b3JrRGlyLAoJCQkJUmVjb3JkVHlwZTogICAgbW9kZWwuRGVwVHlwZVB5dGhvbiwKCQkJCVJlY29yZE5hbWU6ICAgIHBhY2thZ2VOYW1lLAoJCQl9CgkJfQoJCWlmIG1hdGNoZXMgOj0gYXV0b0luc3RhbGxQeUhpbnRSZS5GaW5kU3RyaW5nU3VibWF0Y2gob3V0cHV0KTsgbGVuKG1hdGNoZXMpID4gMSB7CgkJCXJlcXVlc3RlZCA6PSBzdHJpbmdzLlRyaW1TcGFjZShtYXRjaGVzWzFdKQoJCQlpZiByZXF1ZXN0ZWQgPT0gIiIgfHwgaXNQeXRob25TdGRsaWIocmVxdWVzdGVkKSB8fCB0aGlyZFBhcnR5RXhjbHVkZWRNb2R1bGVzW3JlcXVlc3RlZF0gewoJCQkJcmV0dXJuIG5pbAoJCQl9CgkJCXJldHVybiAmQXV0b0luc3RhbGxDYW5kaWRhdGV7CgkJCQlNYW5hZ2VyOiAgICAgICAicHl0aG9uIiwKCQkJCVJlcXVlc3RlZE5hbWU6IHJlcXVlc3RlZCwKCQkJCVBhY2thZ2VOYW1lOiAgIHJlcXVlc3RlZCwKCQkJCURpc3BsYXlOYW1lOiAgIHJlcXVlc3RlZCwKCQkJCVdvcmtEaXI6ICAgICAgIHdvcmtEaXIsCgkJCQlSZWNvcmRUeXBlOiAgICBtb2RlbC5EZXBUeXBlUHl0aG9uLAoJCQkJUmVjb3JkTmFtZTogICAgcmVxdWVzdGVkLAoJCQl9CgkJfQoJY2FzZSAiLmpzIiwgIi5tanMiLCAiLnRzIjoKCQlpZiBtYXRjaGVzIDo9IGF1dG9JbnN0YWxsTm9kZU1vZHVsZVJlLkZpbmRTdHJpbmdTdWJtYXRjaChvdXRwdXQpOyBsZW4obWF0Y2hlcykgPiAxIHsKCQkJcmVxdWVzdGVkIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG1hdGNoZXNbMV0pCgkJCWlmIHJlcXVlc3RlZCA9PSAiIiB8fCBzdHJpbmdzLkhhc1ByZWZpeChyZXF1ZXN0ZWQsICIuIikgfHwgc3RyaW5ncy5IYXNQcmVmaXgocmVxdWVzdGVkLCAiLyIpIHx8IHRoaXJkUGFydHlFeGNsdWRlZE1vZHVsZXNbcmVxdWVzdGVkXSB7CgkJCQlyZXR1cm4gbmlsCgkJCX0KCQkJcmV0dXJuICZBdXRvSW5zdGFsbENhbmRpZGF0ZXsKCQkJCU1hbmFnZXI6ICAgICAgICJub2RlanMiLAoJCQkJUmVxdWVzdGVkTmFtZTogcmVxdWVzdGVkLAoJCQkJUGFja2FnZU5hbWU6ICAgcmVxdWVzdGVkLAoJCQkJRGlzcGxheU5hbWU6ICAgcmVxdWVzdGVkLAoJCQkJV29ya0RpcjogICAgICAgd29ya0RpciwKCQkJCVJlY29yZFR5cGU6ICAgIG1vZGVsLkRlcFR5cGVOb2RlSlMsCgkJCQlSZWNvcmROYW1lOiAgICByZXF1ZXN0ZWQsCgkJCX0KCQl9CgkJaWYgbWF0Y2hlcyA6PSBhdXRvSW5zdGFsbE5vZGVIaW50UmUuRmluZFN0cmluZ1N1Ym1hdGNoKG91dHB1dCk7IGxlbihtYXRjaGVzKSA+IDEgewoJCQlyZXF1ZXN0ZWQgOj0gc3RyaW5ncy5UcmltU3BhY2UobWF0Y2hlc1sxXSkKCQkJaWYgcmVxdWVzdGVkID09ICIiIHx8IHRoaXJkUGFydHlFeGNsdWRlZE1vZHVsZXNbcmVxdWVzdGVkXSB7CgkJCQlyZXR1cm4gbmlsCgkJCX0KCQkJcmV0dXJuICZBdXRvSW5zdGFsbENhbmRpZGF0ZXsKCQkJCU1hbmFnZXI6ICAgICAgICJub2RlanMiLAoJCQkJUmVxdWVzdGVkTmFtZTogcmVxdWVzdGVkLAoJCQkJUGFja2FnZU5hbWU6ICAgcmVxdWVzdGVkLAoJCQkJRGlzcGxheU5hbWU6ICAgcmVxdWVzdGVkLAoJCQkJV29ya0RpcjogICAgICAgd29ya0RpciwKCQkJCVJlY29yZFR5cGU6ICAgIG1vZGVsLkRlcFR5cGVOb2RlSlMsCgkJCQlSZWNvcmROYW1lOiAgICByZXF1ZXN0ZWQsCgkJCX0KCQl9CgljYXNlICIuZ28iOgoJCW1vZHVsZVJvb3QgOj0gZmluZE5lYXJlc3RBbmNlc3RvcldpdGhGaWxlKHdvcmtEaXIsICJnby5tb2QiKQoJCWlmIG1vZHVsZVJvb3QgPT0gIiIgewoJCQlyZXR1cm4gbmlsCgkJfQoJCWlmIG1hdGNoZXMgOj0gYXV0b0luc3RhbGxHb01vZHVsZVJlLkZpbmRTdHJpbmdTdWJtYXRjaChvdXRwdXQpOyBsZW4obWF0Y2hlcykgPiAxIHsKCQkJbW9kdWxlTmFtZSA6PSBzdHJpbmdzLlRyaW1TcGFjZShtYXRjaGVzWzFdKQoJCQlpZiBtb2R1bGVOYW1lID09ICIiIHsKCQkJCXJldHVybiBuaWwKCQkJfQoJCQlyZXR1cm4gJkF1dG9JbnN0YWxsQ2FuZGlkYXRlewoJCQkJTWFuYWdlcjogICAgICAgImdvIiwKCQkJCVJlcXVlc3RlZE5hbWU6IG1vZHVsZU5hbWUsCgkJCQlQYWNrYWdlTmFtZTogICBtb2R1bGVOYW1lLAoJCQkJRGlzcGxheU5hbWU6ICAgbW9kdWxlTmFtZSwKCQkJCVdvcmtEaXI6ICAgICAgIG1vZHVsZVJvb3QsCgkJCX0KCQl9Cgl9CgoJcmV0dXJuIG5pbAp9CgpmdW5jIEluc3RhbGxBdXRvRGVwZW5kZW5jeShjYW5kaWRhdGUgKkF1dG9JbnN0YWxsQ2FuZGlkYXRlLCBlbnZWYXJzIG1hcFtzdHJpbmddc3RyaW5nKSBBdXRvSW5zdGFsbFJlc3VsdCB7CglpZiBjYW5kaWRhdGUgPT0gbmlsIHsKCQlyZXR1cm4gQXV0b0luc3RhbGxSZXN1bHR7RXJyb3I6ICLmnKrmib7liLDlj6/oh6rliqjlronoo4XnmoTkvp3otZYifQoJfQoKCWJhc2VFbnYgOj0gYnVpbGRFbnZTbGljZShlbnZWYXJzKQoJc3dpdGNoIGNhbmRpZGF0ZS5NYW5hZ2VyIHsKCWNhc2UgInB5dGhvbiI6CgkJcGlwRW52IDo9IFBpcEluc3RhbGxFbnYoYmFzZUVudiwgQ3VycmVudFBpcE1pcnJvcigpKQoJCXB5dGhvblZlcnNpb24gOj0gUmVzb2x2ZVB5dGhvblZlcnNpb25Gcm9tRW52KGVudlZhcnMpCgkJY2FuZGlkYXRlLlB5dGhvblZlcnNpb24gPSBweXRob25WZXJzaW9uCgkJY21kLCBlcnIgOj0gTmV3UGlwSW5zdGFsbENvbW1hbmRGb3JQeXRob25WZXJzaW9uKHB5dGhvblZlcnNpb24sIGNhbmRpZGF0ZS5QYWNrYWdlTmFtZSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIEF1dG9JbnN0YWxsUmVzdWx0e0Vycm9yOiBlcnIuRXJyb3IoKX0KCQl9CgkJY21kLkVudiA9IHBpcEVudgoJCW91dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCgoJCS8vIOS6jOasoeWFnOW6le+8muWNs+S9vyBSZXNvbHZlUGlwSW5zdGFsbENvbW1hbmQg55So55qE5pivIHZlbnYgcGlw77yM5p+Q5Lqb5p6B56uv5Zy65pmv5LiLCgkJLy8g77yIdmVudiDooqvlpJbpg6jnoLTlnY/jgIHnlKjmiLfmlLnkuoYgc3lzLnByZWZpeCDnrYnvvInku43lj6/og73mkp7liLAgUEVQIDY2OOOAguajgOa1i+WIsOWwseWKoAoJCS8vIC0tYnJlYWstc3lzdGVtLXBhY2thZ2VzIC0tdXNlciDph43ot5HkuIDmrKHjgIIKCQlpZiBlcnIgIT0gbmlsICYmIElzRXh0ZXJuYWxseU1hbmFnZWRFcnJvcihvdXQpIHsKCQkJcmV0cnlGbGFncyA6PSBbXXN0cmluZ3siLS1icmVhay1zeXN0ZW0tcGFja2FnZXMiLCAiLS11c2VyIn0KCQkJcmV0cnksIGJ1aWxkRXJyIDo9IE5ld1BpcEluc3RhbGxDb21tYW5kRm9yUHl0aG9uVmVyc2lvbldpdGhGbGFncyhweXRob25WZXJzaW9uLCBjYW5kaWRhdGUuUGFja2FnZU5hbWUsIGRlZHVwRmxhZ3MocmV0cnlGbGFncykpCgkJCWlmIGJ1aWxkRXJyICE9IG5pbCB7CgkJCQlyZXR1cm4gQXV0b0luc3RhbGxSZXN1bHR7TG9nOiBzdHJpbmcob3V0KSwgRXJyb3I6IGJ1aWxkRXJyLkVycm9yKCl9CgkJCX0KCQkJcmV0cnkuRW52ID0gcGlwRW52CgkJCXJldHJ5T3V0LCByZXRyeUVyciA6PSByZXRyeS5Db21iaW5lZE91dHB1dCgpCgkJCWNvbWJpbmVkIDo9IGFwcGVuZChbXWJ5dGV7fSwgb3V0Li4uKQoJCQljb21iaW5lZCA9IGFwcGVuZChjb21iaW5lZCwgW11ieXRlKCJcbltQRVAgNjY4IOajgOa1i+WIsCBleHRlcm5hbGx5LW1hbmFnZWQtZW52aXJvbm1lbnTvvIzoh6rliqjliqAgLS1icmVhay1zeXN0ZW0tcGFja2FnZXMgLS11c2VyIOmHjeivlV1cbiIpLi4uKQoJCQljb21iaW5lZCA9IGFwcGVuZChjb21iaW5lZCwgcmV0cnlPdXQuLi4pCgkJCXJldHVybiBjb21wbGV0ZUF1dG9JbnN0YWxsKGNhbmRpZGF0ZSwgY29tYmluZWQsIHJldHJ5RXJyKQoJCX0KCgkJcmV0dXJuIGNvbXBsZXRlQXV0b0luc3RhbGwoY2FuZGlkYXRlLCBvdXQsIGVycikKCWNhc2UgIm5vZGVqcyI6CgkJdW5sb2NrIDo9IExvY2tOb2RlUGFja2FnZU9wZXJhdGlvbigpCgkJZGVmZXIgdW5sb2NrKCkKCgkJbm90aWNlIDo9IE5vZGVJbnN0YWxsQ29tcGF0aWJpbGl0eU5vdGljZShjYW5kaWRhdGUuUGFja2FnZU5hbWUpCgkJY21kLCBlcnIgOj0gTmV3TnBtSW5zdGFsbENvbW1hbmQoY2FuZGlkYXRlLlBhY2thZ2VOYW1lKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gQXV0b0luc3RhbGxSZXN1bHR7RXJyb3I6IGVyci5FcnJvcigpfQoJCX0KCQljbWQuRW52ID0gTnBtSW5zdGFsbEVudihiYXNlRW52LCBDdXJyZW50TnBtTWlycm9yKCkpCgkJb3V0LCBlcnIgOj0gY21kLkNvbWJpbmVkT3V0cHV0KCkKCQlpZiBub3RpY2UgIT0gIiIgewoJCQkvLyDoh6rliqjlronoo4XmiJDlip/lkI7kuZ/kvJrmiorlronoo4Xml6Xlv5flhpnlhaXkvp3otZborrDlvZXvvIzlhYjmiorlhbzlrrnmmKDlsITlhrPnrZbkuIDotbflrZjov5vljrvjgIIKCQkJb3V0ID0gYXBwZW5kKFtdYnl0ZShub3RpY2UrIlxuIiksIG91dC4uLikKCQl9CgkJcmV0dXJuIGNvbXBsZXRlQXV0b0luc3RhbGwoY2FuZGlkYXRlLCBvdXQsIGVycikKCWNhc2UgImdvIjoKCQljbWQgOj0gZXhlYy5Db21tYW5kKCJnbyIsICJnZXQiLCBjYW5kaWRhdGUuUGFja2FnZU5hbWUpCgkJY21kLkRpciA9IGNhbmRpZGF0ZS5Xb3JrRGlyCgkJY21kLkVudiA9IGJhc2VFbnYKCQlvdXQsIGVyciA6PSBjbWQuQ29tYmluZWRPdXRwdXQoKQoJCXJldHVybiBjb21wbGV0ZUF1dG9JbnN0YWxsKGNhbmRpZGF0ZSwgb3V0LCBlcnIpCglkZWZhdWx0OgoJCXJldHVybiBBdXRvSW5zdGFsbFJlc3VsdHtFcnJvcjogZm10LlNwcmludGYoIuS4jeaUr+aMgeeahOiHquWKqOWuieijheexu+WeizogJXMiLCBjYW5kaWRhdGUuTWFuYWdlcil9Cgl9Cn0KCi8vIElzRXh0ZXJuYWxseU1hbmFnZWRFcnJvciDliKTmlq0gcGlwIOi+k+WHuuaYr+WQpuWRveS4rSBQRVAgNjY4Ci8vIO+8iEFscGluZS9EZWJpYW4g562J57O757uf5LuOIFB5dGhvbiAzLjExKyDotbfpu5jorqTmi5Lnu53lnKjns7vnu58gc2l0ZS1wYWNrYWdlcyDkuIrmiafooYwgcGlwIGluc3RhbGzvvInjgIIKZnVuYyBJc0V4dGVybmFsbHlNYW5hZ2VkRXJyb3Iob3V0IFtdYnl0ZSkgYm9vbCB7Cgl0ZXh0IDo9IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmcob3V0KSkKCXJldHVybiBzdHJpbmdzLkNvbnRhaW5zKHRleHQsICJleHRlcm5hbGx5LW1hbmFnZWQtZW52aXJvbm1lbnQiKSB8fAoJCXN0cmluZ3MuQ29udGFpbnModGV4dCwgInRoaXMgZW52aXJvbm1lbnQgaXMgZXh0ZXJuYWxseSBtYW5hZ2VkIikKfQoKLy8gUmVzb2x2ZVBpcEluc3RhbGxDb21tYW5kIOmAiem7mOiupCBQeXRob24g54mI5pys55qEIHBpcCDkuozov5vliLYgKyDoh6rliqjlhrPlrpogUEVQIDY2OCDlj4LmlbDjgIIKLy8g5LyY5YWI55So5omY566hIHZlbnYg6YeM55qEIHBpcO+8jOWFtuasoeS9v+eUqOWMuemFjeebruagh+eJiOacrOeahCBweXRob24gLW0gcGlwIOaIliBwaXBYLlnjgIIKLy8g55uu5qCH54mI5pys5LiN5Y+v55So5pe25LiN5Zue6JC95Yiw5pyq5bim54mI5pys55qEIHBpcDPvvIzpgb/lhY3miorkvp3otZboo4Xov5vplJnor6/op6Pph4rlmajjgIIKZnVuYyBSZXNvbHZlUGlwSW5zdGFsbENvbW1hbmQoKSAoYmluYXJ5IHN0cmluZywgZXh0cmFGbGFncyBbXXN0cmluZywgdXNpbmdTeXN0ZW1QaXAgYm9vbCkgewoJcmV0dXJuIFJlc29sdmVQaXBJbnN0YWxsQ29tbWFuZEZvclB5dGhvblZlcnNpb24oIiIpCn0KCnR5cGUgcGlwQ29tbWFuZFNwZWMgc3RydWN0IHsKCWJpbmFyeSAgICAgICAgIHN0cmluZwoJcHJlZml4QXJncyAgICAgW11zdHJpbmcKCWV4dHJhRmxhZ3MgICAgIFtdc3RyaW5nCgl1c2luZ1N5c3RlbVBpcCBib29sCn0KCmZ1bmMgKHNwZWMgcGlwQ29tbWFuZFNwZWMpIGNvbW1hbmQoYXJncyBbXXN0cmluZykgKmV4ZWMuQ21kIHsKCWZ1bGxBcmdzIDo9IGFwcGVuZChbXXN0cmluZ3t9LCBzcGVjLnByZWZpeEFyZ3MuLi4pCglmdWxsQXJncyA9IGFwcGVuZChmdWxsQXJncywgYXJncy4uLikKCXJldHVybiBleGVjLkNvbW1hbmQoc3BlYy5iaW5hcnksIGZ1bGxBcmdzLi4uKQp9CgpmdW5jIHJlc29sdmVQaXBDb21tYW5kU3BlY0ZvclB5dGhvblZlcnNpb24ocHl0aG9uVmVyc2lvbiBzdHJpbmcsIGluY2x1ZGVTeXN0ZW1JbnN0YWxsRmxhZ3MgYm9vbCkgKHBpcENvbW1hbmRTcGVjLCBlcnJvcikgewoJcHl0aG9uVmVyc2lvbiA9IE5vcm1hbGl6ZVB5dGhvblZlcnNpb25PckRlZmF1bHQocHl0aG9uVmVyc2lvbikKCWlmICFQeXRob25WZXJzaW9uU3VwcG9ydGVkQnlDdXJyZW50UnVudGltZShweXRob25WZXJzaW9uKSB7CgkJcmV0dXJuIHBpcENvbW1hbmRTcGVje30sIGZtdC5FcnJvcmYoIuW9k+WJjemVnOWDj+S4jeaUr+aMgSBQeXRob24gJXPvvIzor7fliIfmjaLliLDlr7nlupQgUHl0aG9uIOeJiOacrOmVnOWDj+aIliBhbGwg6ZWc5YOPIiwgcHl0aG9uVmVyc2lvbikKCX0KCWlmIGJpbmFyeSA6PSBSZXNvbHZlTWFuYWdlZFBpcEJpbmFyeUZvclB5dGhvblZlcnNpb24ocHl0aG9uVmVyc2lvbik7IHN0cmluZ3MuVHJpbVNwYWNlKGJpbmFyeSkgIT0gIiIgewoJCXJldHVybiBwaXBDb21tYW5kU3BlY3tiaW5hcnk6IGJpbmFyeX0sIG5pbAoJfQoKCXN5c3RlbUZsYWdzIDo9IFtdc3RyaW5nKG5pbCkKCWlmIGluY2x1ZGVTeXN0ZW1JbnN0YWxsRmxhZ3MgewoJCXN5c3RlbUZsYWdzID0gW11zdHJpbmd7Ii0tYnJlYWstc3lzdGVtLXBhY2thZ2VzIiwgIi0tdXNlciJ9Cgl9Cglmb3IgXywgY2FuZGlkYXRlIDo9IHJhbmdlIG1hbmFnZWRQeXRob25Cb290c3RyYXBDb21tYW5kc0ZvclZlcnNpb24ocHl0aG9uVmVyc2lvbikgewoJCWlmICFtYW5hZ2VkQm9vdHN0cmFwQ29tbWFuZE1hdGNoZXNWZXJzaW9uKGNhbmRpZGF0ZSwgcHl0aG9uVmVyc2lvbikgewoJCQljb250aW51ZQoJCX0KCQlwcmVmaXggOj0gYXBwZW5kKFtdc3RyaW5ne30sIGNhbmRpZGF0ZS52ZXJzaW9uQXJnc1ByZWZpeC4uLikKCQlwcmVmaXggPSBhcHBlbmQocHJlZml4LCAiLW0iLCAicGlwIikKCQlyZXR1cm4gcGlwQ29tbWFuZFNwZWN7CgkJCWJpbmFyeTogICAgICAgICBjYW5kaWRhdGUuYmluYXJ5LAoJCQlwcmVmaXhBcmdzOiAgICAgcHJlZml4LAoJCQlleHRyYUZsYWdzOiAgICAgc3lzdGVtRmxhZ3MsCgkJCXVzaW5nU3lzdGVtUGlwOiB0cnVlLAoJCX0sIG5pbAoJfQoKCXJ1bnRpbWVQaXAgOj0gInBpcCIgKyBweXRob25WZXJzaW9uCglpZiBwaXBCaW4sIGVyciA6PSBleGVjLkxvb2tQYXRoKHJ1bnRpbWVQaXApOyBlcnIgPT0gbmlsICYmIHBpcEJpbmFyeU1hdGNoZXNWZXJzaW9uKHBpcEJpbiwgcHl0aG9uVmVyc2lvbikgewoJCXJldHVybiBwaXBDb21tYW5kU3BlY3tiaW5hcnk6IHJ1bnRpbWVQaXAsIGV4dHJhRmxhZ3M6IHN5c3RlbUZsYWdzLCB1c2luZ1N5c3RlbVBpcDogdHJ1ZX0sIG5pbAoJfQoJcmV0dXJuIHBpcENvbW1hbmRTcGVje30sIGZtdC5FcnJvcmYoIlB5dGhvbiAlcyDkuI3lj6/nlKjvvIzor7flhYjlronoo4UgcHl0aG9uJXMg5oiW5YiH5o2i5L6d6LWWIFB5dGhvbiDniYjmnKwiLCBweXRob25WZXJzaW9uLCBweXRob25WZXJzaW9uKQp9CgpmdW5jIHBpcEJpbmFyeU1hdGNoZXNWZXJzaW9uKGJpbmFyeSwgcHl0aG9uVmVyc2lvbiBzdHJpbmcpIGJvb2wgewoJY21kIDo9IGV4ZWMuQ29tbWFuZChiaW5hcnksICItLXZlcnNpb24iKQoJY21kLkVudiA9IGFwcGVuZFB5dGhvbkJvb3RzdHJhcEVudihTYW5pdGl6ZVBpcEVudihvcy5FbnZpcm9uKCkpKQoJb3V0LCBlcnIgOj0gY21kLkNvbWJpbmVkT3V0cHV0KCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBmYWxzZQoJfQoJdGV4dCA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2Uoc3RyaW5nKG91dCkpKQoJcmV0dXJuIHN0cmluZ3MuQ29udGFpbnModGV4dCwgInB5dGhvbiAiK05vcm1hbGl6ZVB5dGhvblZlcnNpb25PckRlZmF1bHQocHl0aG9uVmVyc2lvbikpCn0KCmZ1bmMgUmVzb2x2ZVBpcEluc3RhbGxDb21tYW5kRm9yUHl0aG9uVmVyc2lvbihweXRob25WZXJzaW9uIHN0cmluZykgKGJpbmFyeSBzdHJpbmcsIGV4dHJhRmxhZ3MgW11zdHJpbmcsIHVzaW5nU3lzdGVtUGlwIGJvb2wpIHsKCXNwZWMsIGVyciA6PSByZXNvbHZlUGlwQ29tbWFuZFNwZWNGb3JQeXRob25WZXJzaW9uKHB5dGhvblZlcnNpb24sIHRydWUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIG5pbCwgZmFsc2UKCX0KCXJldHVybiBzcGVjLmJpbmFyeSwgYXBwZW5kKFtdc3RyaW5ne30sIHNwZWMuZXh0cmFGbGFncy4uLiksIHNwZWMudXNpbmdTeXN0ZW1QaXAKfQoKZnVuYyBOZXdQaXBDb21tYW5kRm9yUHl0aG9uVmVyc2lvbihweXRob25WZXJzaW9uIHN0cmluZywgYXJncyBbXXN0cmluZykgKCpleGVjLkNtZCwgZXJyb3IpIHsKCXNwZWMsIGVyciA6PSByZXNvbHZlUGlwQ29tbWFuZFNwZWNGb3JQeXRob25WZXJzaW9uKHB5dGhvblZlcnNpb24sIGZhbHNlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglyZXR1cm4gc3BlYy5jb21tYW5kKGFyZ3MpLCBuaWwKfQoKZnVuYyBOZXdQaXBJbnN0YWxsQ29tbWFuZEZvclB5dGhvblZlcnNpb24ocHl0aG9uVmVyc2lvbiwgcGFja2FnZU5hbWUgc3RyaW5nKSAoKmV4ZWMuQ21kLCBlcnJvcikgewoJc3BlYywgZXJyIDo9IHJlc29sdmVQaXBDb21tYW5kU3BlY0ZvclB5dGhvblZlcnNpb24ocHl0aG9uVmVyc2lvbiwgdHJ1ZSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJcmV0dXJuIHNwZWMuY29tbWFuZChCdWlsZFBpcEluc3RhbGxBcmdzKHNwZWMuZXh0cmFGbGFncywgcGFja2FnZU5hbWUpKSwgbmlsCn0KCmZ1bmMgTmV3UGlwSW5zdGFsbENvbW1hbmRGb3JQeXRob25WZXJzaW9uV2l0aEZsYWdzKHB5dGhvblZlcnNpb24sIHBhY2thZ2VOYW1lIHN0cmluZywgZXh0cmFGbGFncyBbXXN0cmluZykgKCpleGVjLkNtZCwgZXJyb3IpIHsKCXNwZWMsIGVyciA6PSByZXNvbHZlUGlwQ29tbWFuZFNwZWNGb3JQeXRob25WZXJzaW9uKHB5dGhvblZlcnNpb24sIHRydWUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCXJldHVybiBzcGVjLmNvbW1hbmQoQnVpbGRQaXBJbnN0YWxsQXJncyhleHRyYUZsYWdzLCBwYWNrYWdlTmFtZSkpLCBuaWwKfQoKZnVuYyBOZXdQaXBVbmluc3RhbGxDb21tYW5kRm9yUHl0aG9uVmVyc2lvbihweXRob25WZXJzaW9uLCBwYWNrYWdlTmFtZSBzdHJpbmcsIGV4dHJhT3B0aW9ucyAuLi5zdHJpbmcpICgqZXhlYy5DbWQsIGVycm9yKSB7CglzcGVjLCBlcnIgOj0gcmVzb2x2ZVBpcENvbW1hbmRTcGVjRm9yUHl0aG9uVmVyc2lvbihweXRob25WZXJzaW9uLCB0cnVlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglyZXR1cm4gc3BlYy5jb21tYW5kKEJ1aWxkUGlwVW5pbnN0YWxsQXJncyhzcGVjLmV4dHJhRmxhZ3MsIHBhY2thZ2VOYW1lLCBleHRyYU9wdGlvbnMuLi4pKSwgbmlsCn0KCi8vIEJ1aWxkUGlwSW5zdGFsbEFyZ3Mg5oqKIGluc3RhbGwg5a2Q5ZG95Luk44CB6ZmE5YqgIGZsYWfjgIHljIXlkI3mi7zmiJDlrozmlbTnmoQgYXJnc+OAggpmdW5jIEJ1aWxkUGlwSW5zdGFsbEFyZ3MoZXh0cmFGbGFncyBbXXN0cmluZywgcGFja2FnZU5hbWUgc3RyaW5nKSBbXXN0cmluZyB7CglhcmdzIDo9IFtdc3RyaW5neyJpbnN0YWxsIn0KCWFyZ3MgPSBhcHBlbmQoYXJncywgZXh0cmFGbGFncy4uLikKCWFyZ3MgPSBhcHBlbmQoYXJncywgcGFja2FnZU5hbWUpCglyZXR1cm4gYXJncwp9CgovLyBCdWlsZFBpcFVuaW5zdGFsbEFyZ3Mg57G75Ly8IEJ1aWxkUGlwSW5zdGFsbEFyZ3PvvIzkvYbnlKjkuo7ljbjovb3lnLrmma/jgIIKLy8g5rOo5oSP77yaLS11c2VyIOWcqCB1bmluc3RhbGwg5pe25peg5oSP5LmJ77yMLS1icmVhay1zeXN0ZW0tcGFja2FnZXMg5LuN6ZyA6KaB5Lyg5Lul57uV6L+HIFBFUCA2NjjjgIIKZnVuYyBCdWlsZFBpcFVuaW5zdGFsbEFyZ3MoZXh0cmFGbGFncyBbXXN0cmluZywgcGFja2FnZU5hbWUgc3RyaW5nLCBleHRyYU9wdGlvbnMgLi4uc3RyaW5nKSBbXXN0cmluZyB7CglhcmdzIDo9IFtdc3RyaW5neyJ1bmluc3RhbGwiLCAiLXkifQoJYXJncyA9IGFwcGVuZChhcmdzLCBleHRyYU9wdGlvbnMuLi4pCglmb3IgXywgZmxhZyA6PSByYW5nZSBleHRyYUZsYWdzIHsKCQlpZiBmbGFnID09ICItLXVzZXIiIHsKCQkJY29udGludWUKCQl9CgkJYXJncyA9IGFwcGVuZChhcmdzLCBmbGFnKQoJfQoJYXJncyA9IGFwcGVuZChhcmdzLCBwYWNrYWdlTmFtZSkKCXJldHVybiBhcmdzCn0KCmZ1bmMgZGVkdXBGbGFncyhmbGFncyBbXXN0cmluZykgW11zdHJpbmcgewoJc2VlbiA6PSBtYXBbc3RyaW5nXXN0cnVjdHt9e30KCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4oZmxhZ3MpKQoJZm9yIF8sIGZsYWcgOj0gcmFuZ2UgZmxhZ3MgewoJCWlmIF8sIGV4aXN0cyA6PSBzZWVuW2ZsYWddOyBleGlzdHMgewoJCQljb250aW51ZQoJCX0KCQlzZWVuW2ZsYWddID0gc3RydWN0e317fQoJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIGZsYWcpCgl9CglyZXR1cm4gcmVzdWx0Cn0KCmZ1bmMgY29tcGxldGVBdXRvSW5zdGFsbChjYW5kaWRhdGUgKkF1dG9JbnN0YWxsQ2FuZGlkYXRlLCBvdXQgW11ieXRlLCBlcnIgZXJyb3IpIEF1dG9JbnN0YWxsUmVzdWx0IHsKCWxvZ1RleHQgOj0gc3RyaW5nKG91dCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBBdXRvSW5zdGFsbFJlc3VsdHsKCQkJU3VjY2VzczogZmFsc2UsCgkJCUxvZzogICAgIGxvZ1RleHQsCgkJCUVycm9yOiAgIHN0cmluZ3MuVHJpbVNwYWNlKGxvZ1RleHQpLAoJCX0KCX0KCglpZiBjYW5kaWRhdGUuUmVjb3JkVHlwZSAhPSAiIiAmJiBjYW5kaWRhdGUuUmVjb3JkTmFtZSAhPSAiIiB7CgkJUmVjb3JkQXV0b0luc3RhbGxlZERlcEZvclB5dGhvblZlcnNpb24oY2FuZGlkYXRlLlJlY29yZFR5cGUsIGNhbmRpZGF0ZS5SZWNvcmROYW1lLCBsb2dUZXh0LCBjYW5kaWRhdGUuUHl0aG9uVmVyc2lvbikKCX0KCglyZXR1cm4gQXV0b0luc3RhbGxSZXN1bHR7CgkJU3VjY2VzczogdHJ1ZSwKCQlMb2c6ICAgICBsb2dUZXh0LAoJfQp9CgpmdW5jIGZvcm1hdEF1dG9JbnN0YWxsRGlzcGxheU5hbWUocmVxdWVzdGVkLCBwYWNrYWdlTmFtZSBzdHJpbmcpIHN0cmluZyB7CglyZXF1ZXN0ZWQgPSBzdHJpbmdzLlRyaW1TcGFjZShyZXF1ZXN0ZWQpCglwYWNrYWdlTmFtZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHBhY2thZ2VOYW1lKQoJaWYgcmVxdWVzdGVkID09ICIiIHsKCQlyZXR1cm4gcGFja2FnZU5hbWUKCX0KCWlmIHBhY2thZ2VOYW1lID09ICIiIHx8IHN0cmluZ3MuRXF1YWxGb2xkKHJlcXVlc3RlZCwgcGFja2FnZU5hbWUpIHsKCQlyZXR1cm4gcmVxdWVzdGVkCgl9CglyZXR1cm4gcmVxdWVzdGVkICsgIiAtPiAiICsgcGFja2FnZU5hbWUKfQoKdmFyIHB5dGhvblN0ZGxpYk1vZHVsZXMgPSBtYXBbc3RyaW5nXWJvb2x7CgkiX19mdXR1cmVfXyI6IHRydWUsICJfdGhyZWFkIjogdHJ1ZSwgIl93aW5hcGkiOiB0cnVlLCAiYWJjIjogdHJ1ZSwgImFpZmMiOiB0cnVlLAoJImFyZ3BhcnNlIjogdHJ1ZSwgImFycmF5IjogdHJ1ZSwgImFzdCI6IHRydWUsICJhc3luY2hhdCI6IHRydWUsICJhc3luY2lvIjogdHJ1ZSwKCSJhc3luY29yZSI6IHRydWUsICJhdGV4aXQiOiB0cnVlLCAiYXVkaW9vcCI6IHRydWUsICJiYXNlNjQiOiB0cnVlLCAiYmRiIjogdHJ1ZSwKCSJiaW5hc2NpaSI6IHRydWUsICJiaW5oZXgiOiB0cnVlLCAiYmlzZWN0IjogdHJ1ZSwgImJ1aWx0aW5zIjogdHJ1ZSwgImJ6MiI6IHRydWUsCgkiY2FsZW5kYXIiOiB0cnVlLCAiY2dpIjogdHJ1ZSwgImNnaXRiIjogdHJ1ZSwgImNodW5rIjogdHJ1ZSwgImNtYXRoIjogdHJ1ZSwKCSJjbWQiOiB0cnVlLCAiY29kZSI6IHRydWUsICJjb2RlY3MiOiB0cnVlLCAiY29kZW9wIjogdHJ1ZSwgImNvbGxlY3Rpb25zIjogdHJ1ZSwKCSJjb2xvcnN5cyI6IHRydWUsICJjb21waWxlYWxsIjogdHJ1ZSwgImNvbmN1cnJlbnQiOiB0cnVlLCAiY29uZmlncGFyc2VyIjogdHJ1ZSwKCSJjb250ZXh0bGliIjogdHJ1ZSwgImNvbnRleHR2YXJzIjogdHJ1ZSwgImNvcHkiOiB0cnVlLCAiY29weXJlZyI6IHRydWUsICJjUHJvZmlsZSI6IHRydWUsCgkiY3J5cHQiOiB0cnVlLCAiY3N2IjogdHJ1ZSwgImN0eXBlcyI6IHRydWUsICJjdXJzZXMiOiB0cnVlLCAiZGF0YWNsYXNzZXMiOiB0cnVlLAoJImRhdGV0aW1lIjogdHJ1ZSwgImRibSI6IHRydWUsICJkZWNpbWFsIjogdHJ1ZSwgImRpZmZsaWIiOiB0cnVlLCAiZGlzIjogdHJ1ZSwKCSJkaXN0dXRpbHMiOiB0cnVlLCAiZG9jdGVzdCI6IHRydWUsICJlbWFpbCI6IHRydWUsICJlbmNvZGluZ3MiOiB0cnVlLAoJImVudW0iOiB0cnVlLCAiZXJybm8iOiB0cnVlLCAiZmF1bHRoYW5kbGVyIjogdHJ1ZSwgImZjbnRsIjogdHJ1ZSwgImZpbGVjbXAiOiB0cnVlLAoJImZpbGVpbnB1dCI6IHRydWUsICJmbm1hdGNoIjogdHJ1ZSwgImZyYWN0aW9ucyI6IHRydWUsICJmdHBsaWIiOiB0cnVlLAoJImZ1bmN0b29scyI6IHRydWUsICJnYyI6IHRydWUsICJnZXRvcHQiOiB0cnVlLCAiZ2V0cGFzcyI6IHRydWUsICJnZXR0ZXh0IjogdHJ1ZSwKCSJnbG9iIjogdHJ1ZSwgImdyYXBobGliIjogdHJ1ZSwgImdycCI6IHRydWUsICJnemlwIjogdHJ1ZSwgImhhc2hsaWIiOiB0cnVlLAoJImhlYXBxIjogdHJ1ZSwgImhtYWMiOiB0cnVlLCAiaHRtbCI6IHRydWUsICJodHRwIjogdHJ1ZSwgImlkbGVsaWIiOiB0cnVlLAoJImltYXBsaWIiOiB0cnVlLCAiaW1naGRyIjogdHJ1ZSwgImltcCI6IHRydWUsICJpbXBvcnRsaWIiOiB0cnVlLCAiaW5zcGVjdCI6IHRydWUsCgkiaW8iOiB0cnVlLCAiaXBhZGRyZXNzIjogdHJ1ZSwgIml0ZXJ0b29scyI6IHRydWUsICJqc29uIjogdHJ1ZSwgImtleXdvcmQiOiB0cnVlLAoJImxpYjJ0bzMiOiB0cnVlLCAibGluZWNhY2hlIjogdHJ1ZSwgImxvY2FsZSI6IHRydWUsICJsb2dnaW5nIjogdHJ1ZSwgImx6bWEiOiB0cnVlLAoJIm1haWxib3giOiB0cnVlLCAibWFpbGNhcCI6IHRydWUsICJtYXJzaGFsIjogdHJ1ZSwgIm1hdGgiOiB0cnVlLCAibWltZXR5cGVzIjogdHJ1ZSwKCSJtbWFwIjogdHJ1ZSwgIm1vZHVsZWZpbmRlciI6IHRydWUsICJtc3ZjcnQiOiB0cnVlLCAibXVsdGlwcm9jZXNzaW5nIjogdHJ1ZSwKCSJuZXRyYyI6IHRydWUsICJuaXMiOiB0cnVlLCAibm50cGxpYiI6IHRydWUsICJudCI6IHRydWUsICJudW1iZXJzIjogdHJ1ZSwKCSJvcGVyYXRvciI6IHRydWUsICJvcHRwYXJzZSI6IHRydWUsICJvcyI6IHRydWUsICJvc3NhdWRpb2RldiI6IHRydWUsCgkicGF0aGxpYiI6IHRydWUsICJwZGIiOiB0cnVlLCAicGlja2xlIjogdHJ1ZSwgInBpY2tsZXRvb2xzIjogdHJ1ZSwgInBpcGVzIjogdHJ1ZSwKCSJwa2d1dGlsIjogdHJ1ZSwgInBsYXRmb3JtIjogdHJ1ZSwgInBsaXN0bGliIjogdHJ1ZSwgInBvcGxpYiI6IHRydWUsICJwb3NpeCI6IHRydWUsCgkicG9zaXhwYXRoIjogdHJ1ZSwgInBwcmludCI6IHRydWUsICJwcm9maWxlIjogdHJ1ZSwgInBzdGF0cyI6IHRydWUsICJwdHkiOiB0cnVlLAoJInB3ZCI6IHRydWUsICJweV9jb21waWxlIjogdHJ1ZSwgInB5Y2xiciI6IHRydWUsICJweWRvYyI6IHRydWUsICJxdWV1ZSI6IHRydWUsCgkicXVvcHJpIjogdHJ1ZSwgInJhbmRvbSI6IHRydWUsICJyZSI6IHRydWUsICJyZWFkbGluZSI6IHRydWUsICJyZXBybGliIjogdHJ1ZSwKCSJyZXNvdXJjZSI6IHRydWUsICJybGNvbXBsZXRlciI6IHRydWUsICJydW5weSI6IHRydWUsICJzY2hlZCI6IHRydWUsICJzZWNyZXRzIjogdHJ1ZSwKCSJzZWxlY3QiOiB0cnVlLCAic2VsZWN0b3JzIjogdHJ1ZSwgInNoZWx2ZSI6IHRydWUsICJzaGxleCI6IHRydWUsICJzaHV0aWwiOiB0cnVlLAoJInNpZ25hbCI6IHRydWUsICJzaXRlIjogdHJ1ZSwgInNtdHBkIjogdHJ1ZSwgInNtdHBsaWIiOiB0cnVlLCAic25kaGRyIjogdHJ1ZSwKCSJzb2NrZXQiOiB0cnVlLCAic29ja2V0c2VydmVyIjogdHJ1ZSwgInNwd2QiOiB0cnVlLCAic3FsaXRlMyI6IHRydWUsICJzcmVfY29tcGlsZSI6IHRydWUsCgkic3JlX2NvbnN0YW50cyI6IHRydWUsICJzcmVfcGFyc2UiOiB0cnVlLCAic3NsIjogdHJ1ZSwgInN0YXQiOiB0cnVlLCAic3RhdGlzdGljcyI6IHRydWUsCgkic3RyaW5nIjogdHJ1ZSwgInN0cmluZ3ByZXAiOiB0cnVlLCAic3RydWN0IjogdHJ1ZSwgInN1YnByb2Nlc3MiOiB0cnVlLCAic3VuYXUiOiB0cnVlLAoJInN5bXRhYmxlIjogdHJ1ZSwgInN5cyI6IHRydWUsICJzeXNjb25maWciOiB0cnVlLCAic3lzbG9nIjogdHJ1ZSwgInRhYm5hbm55IjogdHJ1ZSwKCSJ0YXJmaWxlIjogdHJ1ZSwgInRlbG5ldGxpYiI6IHRydWUsICJ0ZW1wZmlsZSI6IHRydWUsICJ0ZXJtaW9zIjogdHJ1ZSwgInRlc3QiOiB0cnVlLAoJInRleHR3cmFwIjogdHJ1ZSwgInRocmVhZGluZyI6IHRydWUsICJ0aW1lIjogdHJ1ZSwgInRpbWVpdCI6IHRydWUsICJ0a2ludGVyIjogdHJ1ZSwKCSJ0b2tlbiI6IHRydWUsICJ0b2tlbml6ZSI6IHRydWUsICJ0b21sbGliIjogdHJ1ZSwgInRyYWNlIjogdHJ1ZSwgInRyYWNlYmFjayI6IHRydWUsCgkidHJhY2VtYWxsb2MiOiB0cnVlLCAidHR5IjogdHJ1ZSwgInR1cnRsZSI6IHRydWUsICJ0dXJ0bGVkZW1vIjogdHJ1ZSwgInR5cGVzIjogdHJ1ZSwKCSJ0eXBpbmciOiB0cnVlLCAidW5pY29kZWRhdGEiOiB0cnVlLCAidW5pdHRlc3QiOiB0cnVlLCAidXJsbGliIjogdHJ1ZSwgInV1IjogdHJ1ZSwKCSJ1dWlkIjogdHJ1ZSwgInZlbnYiOiB0cnVlLCAid2FybmluZ3MiOiB0cnVlLCAid2F2ZSI6IHRydWUsICJ3ZWFrcmVmIjogdHJ1ZSwKCSJ3ZWJicm93c2VyIjogdHJ1ZSwgIndpbnJlZyI6IHRydWUsICJ3aW5zb3VuZCI6IHRydWUsICJ3c2dpcmVmIjogdHJ1ZSwKCSJ4ZHJsaWIiOiB0cnVlLCAieG1sIjogdHJ1ZSwgInhtbHJwYyI6IHRydWUsICJ6aXBhcHAiOiB0cnVlLCAiemlwZmlsZSI6IHRydWUsCgkiemlwaW1wb3J0IjogdHJ1ZSwgInpsaWIiOiB0cnVlLCAiem9uZWluZm8iOiB0cnVlLAoJImJhY2twb3J0cyI6IHRydWUsICJwa2dfcmVzb3VyY2VzIjogdHJ1ZSwgInNldHVwdG9vbHMiOiB0cnVlLCAicGlwIjogdHJ1ZSwKCSJfaW8iOiB0cnVlLCAiX3NpZ25hbCI6IHRydWUsICJfYWJjIjogdHJ1ZSwgIl9jb2RlY3MiOiB0cnVlLCAiX2NvbGxlY3Rpb25zIjogdHJ1ZSwKCSJfZnVuY3Rvb2xzIjogdHJ1ZSwgIl9vcGVyYXRvciI6IHRydWUsICJfc3JlIjogdHJ1ZSwgIl9zdGF0IjogdHJ1ZSwgIl9zdHJpbmciOiB0cnVlLAoJIl93ZWFrcmVmIjogdHJ1ZSwKfQoKZnVuYyBpc0xvY2FsUHl0aG9uTW9kdWxlKG5hbWUsIHdvcmtEaXIgc3RyaW5nKSBib29sIHsKCWlmIHdvcmtEaXIgPT0gIiIgfHwgbmFtZSA9PSAiIiB7CgkJcmV0dXJuIGZhbHNlCgl9Cglmb3IgXywgc3VmZml4IDo9IHJhbmdlIFtdc3RyaW5neyIucHkiLCAiLnNvIiwgIi5weWQiLCAiLnB5YyJ9IHsKCQlpZiBfLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5Kb2luKHdvcmtEaXIsIG5hbWUrc3VmZml4KSk7IGVyciA9PSBuaWwgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCX0KCWlmIGluZm8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4od29ya0RpciwgbmFtZSkpOyBlcnIgPT0gbmlsICYmIGluZm8uSXNEaXIoKSB7CgkJcmV0dXJuIHRydWUKCX0KCW1hdGNoZXMsIF8gOj0gZmlsZXBhdGguR2xvYihmaWxlcGF0aC5Kb2luKHdvcmtEaXIsIG5hbWUrIi4qLnNvIikpCglpZiBsZW4obWF0Y2hlcykgPiAwIHsKCQlyZXR1cm4gdHJ1ZQoJfQoJbWF0Y2hlcywgXyA9IGZpbGVwYXRoLkdsb2IoZmlsZXBhdGguSm9pbih3b3JrRGlyLCBuYW1lKyIuKi5weWQiKSkKCWlmIGxlbihtYXRjaGVzKSA+IDAgewoJCXJldHVybiB0cnVlCgl9CglyZXR1cm4gZmFsc2UKfQoKZnVuYyBpc1B5dGhvblN0ZGxpYihuYW1lIHN0cmluZykgYm9vbCB7CgluYW1lID0gc3RyaW5ncy5UcmltU3BhY2UobmFtZSkKCWlmIG5hbWUgPT0gIiIgewoJCXJldHVybiBmYWxzZQoJfQoJaWYgc3RyaW5ncy5IYXNQcmVmaXgobmFtZSwgIl8iKSB7CgkJcmV0dXJuIHRydWUKCX0KCXJldHVybiBweXRob25TdGRsaWJNb2R1bGVzW25hbWVdCn0KCmZ1bmMgZmluZE5lYXJlc3RBbmNlc3RvcldpdGhGaWxlKHN0YXJ0RGlyLCB0YXJnZXRGaWxlIHN0cmluZykgc3RyaW5nIHsKCWN1cnJlbnQgOj0gc3RyaW5ncy5UcmltU3BhY2Uoc3RhcnREaXIpCglpZiBjdXJyZW50ID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCglmb3IgewoJCWNhbmRpZGF0ZSA6PSBmaWxlcGF0aC5Kb2luKGN1cnJlbnQsIHRhcmdldEZpbGUpCgkJaWYgaW5mbywgZXJyIDo9IG9zLlN0YXQoY2FuZGlkYXRlKTsgZXJyID09IG5pbCAmJiAhaW5mby5Jc0RpcigpIHsKCQkJcmV0dXJuIGN1cnJlbnQKCQl9CgoJCXBhcmVudCA6PSBmaWxlcGF0aC5EaXIoY3VycmVudCkKCQlpZiBwYXJlbnQgPT0gY3VycmVudCB7CgkJCXJldHVybiAiIgoJCX0KCQljdXJyZW50ID0gcGFyZW50Cgl9Cn0K
+package service
+
+import (
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"regexp"
+	"strings"
+
+	"daidai-panel/model"
+)
+
+var (
+	autoInstallNodeModuleRe = regexp.MustCompile(`(?:Cannot find module|Error \[ERR_MODULE_NOT_FOUND\].*)\s*'([^']+)'`)
+	autoInstallNodeHintRe   = regexp.MustCompile(`npm\s+install\s+([a-zA-Z@][a-zA-Z0-9_./@-]*)`)
+	autoInstallPyModuleRe   = regexp.MustCompile(`(?:ModuleNotFoundError|ImportError):\s*No module named\s+'([^']+)'`)
+	autoInstallPyHintRe     = regexp.MustCompile(`pip3?\s+install\s+([a-zA-Z][a-zA-Z0-9_.@-]*)`)
+	autoInstallGoModuleRe   = regexp.MustCompile(`(?:no required module provides package|missing go\.sum entry for module providing package)\s+([^\s:;]+)`)
+
+	thirdPartyExcludedModules = map[string]bool{
+		"sendNotify":           true,
+		"notify":               true,
+		"CryptoJS":             true,
+		"ql":                   true,
+		"qlApi":                true,
+		"jdCookie":             true,
+		"JD_DmFruitShareCodes": true,
+	}
+)
+
+type AutoInstallCandidate struct {
+	Manager       string
+	RequestedName string
+	PackageName   string
+	DisplayName   string
+	WorkDir       string
+	RecordType    string
+	RecordName    string
+	PythonVersion string
+}
+
+type AutoInstallResult struct {
+	Success bool
+	Log     string
+	Error   string
+}
+
+func DetectAutoInstallCandidate(ext, output, workDir string) *AutoInstallCandidate {
+	ext = strings.ToLower(strings.TrimSpace(ext))
+
+	switch ext {
+	case ".py":
+		if matches := autoInstallPyModuleRe.FindStringSubmatch(output); len(matches) > 1 {
+			requested := strings.Split(matches[1], ".")[0]
+			if isPythonStdlib(requested) || thirdPartyExcludedModules[requested] {
+				return nil
+			}
+			if isLocalPythonModule(requested, workDir) {
+				return nil
+			}
+			packageName := ResolvePythonAutoInstallPackage(requested)
+			return &AutoInstallCandidate{
+				Manager:       "python",
+				RequestedName: requested,
+				PackageName:   packageName,
+				DisplayName:   formatAutoInstallDisplayName(requested, packageName),
+				WorkDir:       workDir,
+				RecordType:    model.DepTypePython,
+				RecordName:    packageName,
+			}
+		}
+		if matches := autoInstallPyHintRe.FindStringSubmatch(output); len(matches) > 1 {
+			requested := strings.TrimSpace(matches[1])
+			if requested == "" || isPythonStdlib(requested) || thirdPartyExcludedModules[requested] {
+				return nil
+			}
+			return &AutoInstallCandidate{
+				Manager:       "python",
+				RequestedName: requested,
+				PackageName:   requested,
+				DisplayName:   requested,
+				WorkDir:       workDir,
+				RecordType:    model.DepTypePython,
+				RecordName:    requested,
+			}
+		}
+	case ".js", ".mjs", ".ts":
+		if matches := autoInstallNodeModuleRe.FindStringSubmatch(output); len(matches) > 1 {
+			requested := strings.TrimSpace(matches[1])
+			if requested == "" || strings.HasPrefix(requested, ".") || strings.HasPrefix(requested, "/") || thirdPartyExcludedModules[requested] {
+				return nil
+			}
+			return &AutoInstallCandidate{
+				Manager:       "nodejs",
+				RequestedName: requested,
+				PackageName:   requested,
+				DisplayName:   requested,
+				WorkDir:       workDir,
+				RecordType:    model.DepTypeNodeJS,
+				RecordName:    requested,
+			}
+		}
+		if matches := autoInstallNodeHintRe.FindStringSubmatch(output); len(matches) > 1 {
+			requested := strings.TrimSpace(matches[1])
+			if requested == "" || thirdPartyExcludedModules[requested] {
+				return nil
+			}
+			return &AutoInstallCandidate{
+				Manager:       "nodejs",
+				RequestedName: requested,
+				PackageName:   requested,
+				DisplayName:   requested,
+				WorkDir:       workDir,
+				RecordType:    model.DepTypeNodeJS,
+				RecordName:    requested,
+			}
+		}
+	case ".go":
+		moduleRoot := findNearestAncestorWithFile(workDir, "go.mod")
+		if moduleRoot == "" {
+			return nil
+		}
+		if matches := autoInstallGoModuleRe.FindStringSubmatch(output); len(matches) > 1 {
+			moduleName := strings.TrimSpace(matches[1])
+			if moduleName == "" {
+				return nil
+			}
+			return &AutoInstallCandidate{
+				Manager:       "go",
+				RequestedName: moduleName,
+				PackageName:   moduleName,
+				DisplayName:   moduleName,
+				WorkDir:       moduleRoot,
+			}
+		}
+	}
+
+	return nil
+}
+
+func InstallAutoDependency(candidate *AutoInstallCandidate, envVars map[string]string) AutoInstallResult {
+	if candidate == nil {
+		return AutoInstallResult{Error: "未找到可自动安装的依赖"}
+	}
+
+	baseEnv := buildEnvSlice(envVars)
+	switch candidate.Manager {
+	case "python":
+		pipEnv := PipInstallEnv(baseEnv, CurrentPipMirror())
+		pythonVersion := ResolvePythonVersionFromEnv(envVars)
+		candidate.PythonVersion = pythonVersion
+		cmd, err := NewPipInstallCommandForPythonVersion(pythonVersion, candidate.PackageName)
+		if err != nil {
+			return AutoInstallResult{Error: err.Error()}
+		}
+		cmd.Env = pipEnv
+		out, err := cmd.CombinedOutput()
+
+		// 二次兜底：即使 ResolvePipInstallCommand 用的是 venv pip，某些极端场景下
+		// （venv 被外部破坏、用户改了 sys.prefix 等）仍可能撞到 PEP 668。检测到就加
+		// --break-system-packages --user 重跑一次。
+		if err != nil && IsExternallyManagedError(out) {
+			retryFlags := []string{"--break-system-packages", "--user"}
+			retry, buildErr := NewPipInstallCommandForPythonVersionWithFlags(pythonVersion, candidate.PackageName, dedupFlags(retryFlags))
+			if buildErr != nil {
+				return AutoInstallResult{Log: string(out), Error: buildErr.Error()}
+			}
+			retry.Env = pipEnv
+			retryOut, retryErr := retry.CombinedOutput()
+			combined := append([]byte{}, out...)
+			combined = append(combined, []byte("\n[PEP 668 检测到 externally-managed-environment，自动加 --break-system-packages --user 重试]\n")...)
+			combined = append(combined, retryOut...)
+			return completeAutoInstall(candidate, combined, retryErr)
+		}
+
+		return completeAutoInstall(candidate, out, err)
+	case "nodejs":
+		unlock := LockNodePackageOperation()
+		defer unlock()
+
+		notice := NodeInstallCompatibilityNotice(candidate.PackageName)
+		cmd, err := NewNpmInstallCommand(candidate.PackageName)
+		if err != nil {
+			return AutoInstallResult{Error: err.Error()}
+		}
+		cmd.Env = NpmInstallEnv(baseEnv, CurrentNpmMirror())
+		out, err := cmd.CombinedOutput()
+		if notice != "" {
+			// 自动安装成功后也会把安装日志写入依赖记录，先把兼容映射决策一起存进去。
+			out = append([]byte(notice+"\n"), out...)
+		}
+		return completeAutoInstall(candidate, out, err)
+	case "go":
+		cmd := exec.Command("go", "get", candidate.PackageName)
+		cmd.Dir = candidate.WorkDir
+		cmd.Env = baseEnv
+		out, err := cmd.CombinedOutput()
+		return completeAutoInstall(candidate, out, err)
+	default:
+		return AutoInstallResult{Error: fmt.Sprintf("不支持的自动安装类型: %s", candidate.Manager)}
+	}
+}
+
+// IsExternallyManagedError 判断 pip 输出是否命中 PEP 668
+// （Alpine/Debian 等系统从 Python 3.11+ 起默认拒绝在系统 site-packages 上执行 pip install）。
+func IsExternallyManagedError(out []byte) bool {
+	text := strings.ToLower(string(out))
+	return strings.Contains(text, "externally-managed-environment") ||
+		strings.Contains(text, "this environment is externally managed")
+}
+
+// ResolvePipInstallCommand 选默认 Python 版本的 pip 二进制 + 自动决定 PEP 668 参数。
+// 优先用托管 venv 里的 pip，其次使用匹配目标版本的 python -m pip 或 pipX.Y。
+// 目标版本不可用时不回落到未带版本的 pip3，避免把依赖装进错误解释器。
+func ResolvePipInstallCommand() (binary string, extraFlags []string, usingSystemPip bool) {
+	return ResolvePipInstallCommandForPythonVersion("")
+}
+
+type pipCommandSpec struct {
+	binary         string
+	prefixArgs     []string
+	extraFlags     []string
+	usingSystemPip bool
+}
+
+func (spec pipCommandSpec) command(args []string) *exec.Cmd {
+	fullArgs := append([]string{}, spec.prefixArgs...)
+	fullArgs = append(fullArgs, args...)
+	return exec.Command(spec.binary, fullArgs...)
+}
+
+func resolvePipCommandSpecForPythonVersion(pythonVersion string, includeSystemInstallFlags bool) (pipCommandSpec, error) {
+	pythonVersion = NormalizePythonVersionOrDefault(pythonVersion)
+	if !PythonVersionSupportedByCurrentRuntime(pythonVersion) {
+		return pipCommandSpec{}, fmt.Errorf("当前镜像不支持 Python %s，请切换到对应 Python 版本镜像或 all 镜像", pythonVersion)
+	}
+	if binary := ResolveManagedPipBinaryForPythonVersion(pythonVersion); strings.TrimSpace(binary) != "" {
+		return pipCommandSpec{binary: binary}, nil
+	}
+
+	systemFlags := []string(nil)
+	if includeSystemInstallFlags {
+		systemFlags = []string{"--break-system-packages", "--user"}
+	}
+	for _, candidate := range managedPythonBootstrapCommandsForVersion(pythonVersion) {
+		if !managedBootstrapCommandMatchesVersion(candidate, pythonVersion) {
+			continue
+		}
+		prefix := append([]string{}, candidate.versionArgsPrefix...)
+		prefix = append(prefix, "-m", "pip")
+		return pipCommandSpec{
+			binary:         candidate.binary,
+			prefixArgs:     prefix,
+			extraFlags:     systemFlags,
+			usingSystemPip: true,
+		}, nil
+	}
+
+	runtimePip := "pip" + pythonVersion
+	if pipBin, err := exec.LookPath(runtimePip); err == nil && pipBinaryMatchesVersion(pipBin, pythonVersion) {
+		return pipCommandSpec{binary: runtimePip, extraFlags: systemFlags, usingSystemPip: true}, nil
+	}
+	return pipCommandSpec{}, fmt.Errorf("Python %s 不可用，请先安装 python%s 或切换依赖 Python 版本", pythonVersion, pythonVersion)
+}
+
+func pipBinaryMatchesVersion(binary, pythonVersion string) bool {
+	cmd := exec.Command(binary, "--version")
+	cmd.Env = appendPythonBootstrapEnv(SanitizePipEnv(os.Environ()))
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		return false
+	}
+	text := strings.ToLower(strings.TrimSpace(string(out)))
+	return strings.Contains(text, "python "+NormalizePythonVersionOrDefault(pythonVersion))
+}
+
+func ResolvePipInstallCommandForPythonVersion(pythonVersion string) (binary string, extraFlags []string, usingSystemPip bool) {
+	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
+	if err != nil {
+		return "", nil, false
+	}
+	return spec.binary, append([]string{}, spec.extraFlags...), spec.usingSystemPip
+}
+
+func NewPipCommandForPythonVersion(pythonVersion string, args []string) (*exec.Cmd, error) {
+	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, false)
+	if err != nil {
+		return nil, err
+	}
+	return spec.command(args), nil
+}
+
+func NewPipInstallCommandForPythonVersion(pythonVersion, packageName string) (*exec.Cmd, error) {
+	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
+	if err != nil {
+		return nil, err
+	}
+	return spec.command(BuildPipInstallArgs(spec.extraFlags, packageName)), nil
+}
+
+func NewPipInstallCommandForPythonVersionWithFlags(pythonVersion, packageName string, extraFlags []string) (*exec.Cmd, error) {
+	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
+	if err != nil {
+		return nil, err
+	}
+	return spec.command(BuildPipInstallArgs(extraFlags, packageName)), nil
+}
+
+func NewPipUninstallCommandForPythonVersion(pythonVersion, packageName string, extraOptions ...string) (*exec.Cmd, error) {
+	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
+	if err != nil {
+		return nil, err
+	}
+	return spec.command(BuildPipUninstallArgs(spec.extraFlags, packageName, extraOptions...)), nil
+}
+
+// BuildPipInstallArgs 把 install 子命令、附加 flag、包名拼成完整的 args。
+func BuildPipInstallArgs(extraFlags []string, packageName string) []string {
+	args := []string{"install"}
+	args = append(args, extraFlags...)
+	args = append(args, packageName)
+	return args
+}
+
+// BuildPipUninstallArgs 类似 BuildPipInstallArgs，但用于卸载场景。
+// 注意：--user 在 uninstall 时无意义，--break-system-packages 仍需要传以绕过 PEP 668。
+func BuildPipUninstallArgs(extraFlags []string, packageName string, extraOptions ...string) []string {
+	args := []string{"uninstall", "-y"}
+	args = append(args, extraOptions...)
+	for _, flag := range extraFlags {
+		if flag == "--user" {
+			continue
+		}
+		args = append(args, flag)
+	}
+	args = append(args, packageName)
+	return args
+}
+
+func dedupFlags(flags []string) []string {
+	seen := map[string]struct{}{}
+	result := make([]string, 0, len(flags))
+	for _, flag := range flags {
+		if _, exists := seen[flag]; exists {
+			continue
+		}
+		seen[flag] = struct{}{}
+		result = append(result, flag)
+	}
+	return result
+}
+
+func completeAutoInstall(candidate *AutoInstallCandidate, out []byte, err error) AutoInstallResult {
+	logText := string(out)
+	if err != nil {
+		return AutoInstallResult{
+			Success: false,
+			Log:     logText,
+			Error:   strings.TrimSpace(logText),
+		}
+	}
+
+	if candidate.RecordType != "" && candidate.RecordName != "" {
+		RecordAutoInstalledDepForPythonVersion(candidate.RecordType, candidate.RecordName, logText, candidate.PythonVersion)
+	}
+
+	return AutoInstallResult{
+		Success: true,
+		Log:     logText,
+	}
+}
+
+func formatAutoInstallDisplayName(requested, packageName string) string {
+	requested = strings.TrimSpace(requested)
+	packageName = strings.TrimSpace(packageName)
+	if requested == "" {
+		return packageName
+	}
+	if packageName == "" || strings.EqualFold(requested, packageName) {
+		return requested
+	}
+	return requested + " -> " + packageName
+}
+
+var pythonStdlibModules = map[string]bool{
+	"__future__": true, "_thread": true, "_winapi": true, "abc": true, "aifc": true,
+	"argparse": true, "array": true, "ast": true, "asynchat": true, "asyncio": true,
+	"asyncore": true, "atexit": true, "audioop": true, "base64": true, "bdb": true,
+	"binascii": true, "binhex": true, "bisect": true, "builtins": true, "bz2": true,
+	"calendar": true, "cgi": true, "cgitb": true, "chunk": true, "cmath": true,
+	"cmd": true, "code": true, "codecs": true, "codeop": true, "collections": true,
+	"colorsys": true, "compileall": true, "concurrent": true, "configparser": true,
+	"contextlib": true, "contextvars": true, "copy": true, "copyreg": true, "cProfile": true,
+	"crypt": true, "csv": true, "ctypes": true, "curses": true, "dataclasses": true,
+	"datetime": true, "dbm": true, "decimal": true, "difflib": true, "dis": true,
+	"distutils": true, "doctest": true, "email": true, "encodings": true,
+	"enum": true, "errno": true, "faulthandler": true, "fcntl": true, "filecmp": true,
+	"fileinput": true, "fnmatch": true, "fractions": true, "ftplib": true,
+	"functools": true, "gc": true, "getopt": true, "getpass": true, "gettext": true,
+	"glob": true, "graphlib": true, "grp": true, "gzip": true, "hashlib": true,
+	"heapq": true, "hmac": true, "html": true, "http": true, "idlelib": true,
+	"imaplib": true, "imghdr": true, "imp": true, "importlib": true, "inspect": true,
+	"io": true, "ipaddress": true, "itertools": true, "json": true, "keyword": true,
+	"lib2to3": true, "linecache": true, "locale": true, "logging": true, "lzma": true,
+	"mailbox": true, "mailcap": true, "marshal": true, "math": true, "mimetypes": true,
+	"mmap": true, "modulefinder": true, "msvcrt": true, "multiprocessing": true,
+	"netrc": true, "nis": true, "nntplib": true, "nt": true, "numbers": true,
+	"operator": true, "optparse": true, "os": true, "ossaudiodev": true,
+	"pathlib": true, "pdb": true, "pickle": true, "pickletools": true, "pipes": true,
+	"pkgutil": true, "platform": true, "plistlib": true, "poplib": true, "posix": true,
+	"posixpath": true, "pprint": true, "profile": true, "pstats": true, "pty": true,
+	"pwd": true, "py_compile": true, "pyclbr": true, "pydoc": true, "queue": true,
+	"quopri": true, "random": true, "re": true, "readline": true, "reprlib": true,
+	"resource": true, "rlcompleter": true, "runpy": true, "sched": true, "secrets": true,
+	"select": true, "selectors": true, "shelve": true, "shlex": true, "shutil": true,
+	"signal": true, "site": true, "smtpd": true, "smtplib": true, "sndhdr": true,
+	"socket": true, "socketserver": true, "spwd": true, "sqlite3": true, "sre_compile": true,
+	"sre_constants": true, "sre_parse": true, "ssl": true, "stat": true, "statistics": true,
+	"string": true, "stringprep": true, "struct": true, "subprocess": true, "sunau": true,
+	"symtable": true, "sys": true, "sysconfig": true, "syslog": true, "tabnanny": true,
+	"tarfile": true, "telnetlib": true, "tempfile": true, "termios": true, "test": true,
+	"textwrap": true, "threading": true, "time": true, "timeit": true, "tkinter": true,
+	"token": true, "tokenize": true, "tomllib": true, "trace": true, "traceback": true,
+	"tracemalloc": true, "tty": true, "turtle": true, "turtledemo": true, "types": true,
+	"typing": true, "unicodedata": true, "unittest": true, "urllib": true, "uu": true,
+	"uuid": true, "venv": true, "warnings": true, "wave": true, "weakref": true,
+	"webbrowser": true, "winreg": true, "winsound": true, "wsgiref": true,
+	"xdrlib": true, "xml": true, "xmlrpc": true, "zipapp": true, "zipfile": true,
+	"zipimport": true, "zlib": true, "zoneinfo": true,
+	"backports": true, "pkg_resources": true, "setuptools": true, "pip": true,
+	"_io": true, "_signal": true, "_abc": true, "_codecs": true, "_collections": true,
+	"_functools": true, "_operator": true, "_sre": true, "_stat": true, "_string": true,
+	"_weakref": true,
+}
+
+func isLocalPythonModule(name, workDir string) bool {
+	if workDir == "" || name == "" {
+		return false
+	}
+	for _, suffix := range []string{".py", ".so", ".pyd", ".pyc"} {
+		if _, err := os.Stat(filepath.Join(workDir, name+suffix)); err == nil {
+			return true
+		}
+	}
+	if info, err := os.Stat(filepath.Join(workDir, name)); err == nil && info.IsDir() {
+		return true
+	}
+	matches, _ := filepath.Glob(filepath.Join(workDir, name+".*.so"))
+	if len(matches) > 0 {
+		return true
+	}
+	matches, _ = filepath.Glob(filepath.Join(workDir, name+".*.pyd"))
+	if len(matches) > 0 {
+		return true
+	}
+	return false
+}
+
+func isPythonStdlib(name string) bool {
+	name = strings.TrimSpace(name)
+	if name == "" {
+		return false
+	}
+	if strings.HasPrefix(name, "_") {
+		return true
+	}
+	return pythonStdlibModules[name]
+}
+
+func findNearestAncestorWithFile(startDir, targetFile string) string {
+	current := strings.TrimSpace(startDir)
+	if current == "" {
+		return ""
+	}
+
+	for {
+		candidate := filepath.Join(current, targetFile)
+		if info, err := os.Stat(candidate); err == nil && !info.IsDir() {
+			return current
+		}
+
+		parent := filepath.Dir(current)
+		if parent == current {
+			return ""
+		}
+		current = parent
+	}
+}

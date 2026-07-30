@@ -1,1 +1,17 @@
-ewogICJleHRlbmRzIjogIkB2dWUvdHNjb25maWcvdHNjb25maWcuZG9tLmpzb24iLAogICJjb21waWxlck9wdGlvbnMiOiB7CiAgICAidHNCdWlsZEluZm9GaWxlIjogIi4vbm9kZV9tb2R1bGVzLy50bXAvdHNjb25maWcuYXBwLnRzYnVpbGRpbmZvIiwKICAgICJ0eXBlcyI6IFsidml0ZS9jbGllbnQiXSwKICAgICJiYXNlVXJsIjogIi4iLAogICAgInBhdGhzIjogewogICAgICAiQC8qIjogWyIuL3NyYy8qIl0KICAgIH0sCiAgICAic3RyaWN0IjogdHJ1ZSwKICAgICJub1VudXNlZExvY2FscyI6IGZhbHNlLAogICAgIm5vVW51c2VkUGFyYW1ldGVycyI6IGZhbHNlLAogICAgImVyYXNhYmxlU3ludGF4T25seSI6IHRydWUsCiAgICAibm9GYWxsdGhyb3VnaENhc2VzSW5Td2l0Y2giOiB0cnVlCiAgfSwKICAiaW5jbHVkZSI6IFsic3JjLyoqLyoudHMiLCAic3JjLyoqLyoudHN4IiwgInNyYy8qKi8qLnZ1ZSJdCn0K
+{
+  "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "types": ["vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+    "strict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "erasableSyntaxOnly": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue"]
+}

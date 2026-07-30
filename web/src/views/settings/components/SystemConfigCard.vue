@@ -1,1 +1,195 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IERvY3VtZW50LCBTZXR0aW5nLCBVcGxvYWQgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHR5cGUgeyBTZXR0aW5nc0NvbmZpZ0Zvcm0gfSBmcm9tICcuLi90eXBlcycKCmNvbnN0IHRpbWV6b25lT3B0aW9ucyA9IFsKICB7IHZhbHVlOiAnQXNpYS9TaGFuZ2hhaScsIGxhYmVsOiAn5Lit5Zu95pe26Ze0IEFzaWEvU2hhbmdoYWknIH0sCiAgeyB2YWx1ZTogJ1VUQycsIGxhYmVsOiAnVVRDIOagh+WHhuaXtumXtCcgfSwKICB7IHZhbHVlOiAnQXNpYS9Ub2t5bycsIGxhYmVsOiAn5pel5pys5pe26Ze0IEFzaWEvVG9reW8nIH0sCiAgeyB2YWx1ZTogJ0FzaWEvSG9uZ19Lb25nJywgbGFiZWw6ICfpppnmuK/ml7bpl7QgQXNpYS9Ib25nX0tvbmcnIH0sCiAgeyB2YWx1ZTogJ0FzaWEvU2luZ2Fwb3JlJywgbGFiZWw6ICfmlrDliqDlnaHml7bpl7QgQXNpYS9TaW5nYXBvcmUnIH0sCiAgeyB2YWx1ZTogJ0FtZXJpY2EvTmV3X1lvcmsnLCBsYWJlbDogJ+e6vee6puaXtumXtCBBbWVyaWNhL05ld19Zb3JrJyB9LAogIHsgdmFsdWU6ICdFdXJvcGUvTG9uZG9uJywgbGFiZWw6ICfkvKbmlabml7bpl7QgRXVyb3BlL0xvbmRvbicgfQpdCgpkZWZpbmVQcm9wczx7CiAgY29uZmlnc0xvYWRpbmc6IGJvb2xlYW4KICBjb25maWdzU2F2aW5nOiBib29sZWFuCiAgZm9ybTogU2V0dGluZ3NDb25maWdGb3JtCiAgb25TYXZlOiAoKSA9PiB2b2lkCiAgb25JY29uVXBsb2FkOiAoZmlsZTogRmlsZSkgPT4gYm9vbGVhbgogIG9uTG9nQmFja2dyb3VuZFVwbG9hZDogKGZpbGU6IEZpbGUpID0+IGJvb2xlYW4KICBvbkFwcGVhcmFuY2VQcmV2aWV3OiAoKSA9PiB2b2lkCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgdi1sb2FkaW5nPSJjb25maWdzTG9hZGluZyI+CiAgICA8dGVtcGxhdGUgI2hlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iY2FyZC1oZWFkZXIiPgogICAgICAgIDxzcGFuIGNsYXNzPSJjYXJkLXRpdGxlIj48ZWwtaWNvbj48U2V0dGluZyAvPjwvZWwtaWNvbj4g6Z2i5p2/5aSW6KeCPC9zcGFuPgogICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgOmxvYWRpbmc9ImNvbmZpZ3NTYXZpbmciIEBjbGljaz0ib25TYXZlIj4KICAgICAgICAgIDxlbC1pY29uPjxEb2N1bWVudCAvPjwvZWwtaWNvbj7kv53lrZjphY3nva4KICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgoKICAgIDxkaXYgY2xhc3M9ImNvbmZpZy1zZWN0aW9uIj4KICAgICAgPGg0IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj7pnaLmnb/orr7nva48L2g0PgogICAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgICA8bGFiZWw+6Z2i5p2/5qCH6aKYPC9sYWJlbD4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5wYW5lbF90aXRsZSIgcGxhY2Vob2xkZXI9IuWRhuWRhumdouadvyIgLz4KICAgICAgICA8c3BhbiBjbGFzcz0iZm9ybS1oaW50Ij7oh6rlrprkuYnpnaLmnb/nmoTnq5nngrnmoIfpopjvvIznlZnnqbrkvb/nlKjpu5jorqTlgLwi5ZGG5ZGG6Z2i5p2/Ijwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZmllbGQiPgogICAgICAgIDxsYWJlbD7pnaLmnb/ml7bljLo8L2xhYmVsPgogICAgICAgIDxlbC1zZWxlY3QKICAgICAgICAgIHYtbW9kZWw9ImZvcm0udGltZXpvbmUiCiAgICAgICAgICBjbGFzcz0idGltZXpvbmUtc2VsZWN0IgogICAgICAgICAgZmlsdGVyYWJsZQogICAgICAgICAgYWxsb3ctY3JlYXRlCiAgICAgICAgICBkZWZhdWx0LWZpcnN0LW9wdGlvbgogICAgICAgICAgcGxhY2Vob2xkZXI9IkFzaWEvU2hhbmdoYWkiCiAgICAgICAgPgogICAgICAgICAgPGVsLW9wdGlvbgogICAgICAgICAgICB2LWZvcj0iaXRlbSBpbiB0aW1lem9uZU9wdGlvbnMiCiAgICAgICAgICAgIDprZXk9Iml0ZW0udmFsdWUiCiAgICAgICAgICAgIDpsYWJlbD0iaXRlbS5sYWJlbCIKICAgICAgICAgICAgOnZhbHVlPSJpdGVtLnZhbHVlIgogICAgICAgICAgLz4KICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgICA8c3BhbiBjbGFzcz0iZm9ybS1oaW50Ij7lvbHlk43pnaLmnb/ml6Xlv5fjgIHku7vliqHml6XmnJ/liKTmlq3lkozohJrmnKzov5DooYzml7YgVFrvvJtMaW51eCDkuozov5vliLbljIXlu7rorq7kv53mjIEgQXNpYS9TaGFuZ2hhaTwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZmllbGQiPgogICAgICAgIDxsYWJlbD7pnaLmnb/lm77moIcgKFNWRyk8L2xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9Imljb24tdXBsb2FkLXJvdyI+CiAgICAgICAgICA8ZWwtdXBsb2FkCiAgICAgICAgICAgIDpzaG93LWZpbGUtbGlzdD0iZmFsc2UiCiAgICAgICAgICAgIDpiZWZvcmUtdXBsb2FkPSJvbkljb25VcGxvYWQiCiAgICAgICAgICAgIGFjY2VwdD0iLnN2ZyIKICAgICAgICAgID4KICAgICAgICAgICAgPGVsLWJ1dHRvbiBzaXplPSJzbWFsbCI+PGVsLWljb24+PFVwbG9hZCAvPjwvZWwtaWNvbj7kuIrkvKAgU1ZHIOWbvuaghzwvZWwtYnV0dG9uPgogICAgICAgICAgPC9lbC11cGxvYWQ+CiAgICAgICAgICA8ZGl2IHYtaWY9ImZvcm0ucGFuZWxfaWNvbiIgY2xhc3M9Imljb24tcHJldmlldyI+CiAgICAgICAgICAgIDxpbWcgOnNyYz0iZm9ybS5wYW5lbF9pY29uIiBhbHQ9Imljb24iIGNsYXNzPSJpY29uLXByZXZpZXdfX2ltYWdlIiAvPgogICAgICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIiB0ZXh0IHR5cGU9ImRhbmdlciIgQGNsaWNrPSJmb3JtLnBhbmVsX2ljb24gPSAnJyI+56e76ZmkPC9lbC1idXR0b24+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8c3BhbiBjbGFzcz0iZm9ybS1oaW50Ij7kuIrkvKAgU1ZHIOagvOW8j+Wbvuagh+iHquWumuS5iemdouadv+Wbvuagh++8jOeVmeepuuS9v+eUqOm7mOiupOWbvuaghzwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZmllbGQiPgogICAgICAgIDxsYWJlbD7nvJbovpHlmajog4zmma/popzoibI8L2xhYmVsPgogICAgICAgIDxkaXYgY2xhc3M9ImxvZy1iZy1jb250cm9scyI+CiAgICAgICAgICA8ZWwtY29sb3ItcGlja2VyIHYtbW9kZWw9ImZvcm0uZWRpdG9yX2JhY2tncm91bmRfY29sb3IiIEBjaGFuZ2U9Im9uQXBwZWFyYW5jZVByZXZpZXciIC8+CiAgICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5lZGl0b3JfYmFja2dyb3VuZF9jb2xvciIgcGxhY2Vob2xkZXI9IueVmeepuuS9v+eUqOm7mOiupOe8lui+keWZqOiDjOaZryIgQGNoYW5nZT0ib25BcHBlYXJhbmNlUHJldmlldyIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8c3BhbiBjbGFzcz0iZm9ybS1oaW50Ij7nu5/kuIDlupTnlKjliLDohJrmnKzlj6ror7vpooTop4jlkozlnKjnur/nvJbovpHlmajvvIznlZnnqbrkv53mjIHpu5jorqTmt7HoibLog4zmma88L3NwYW4+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgICA8bGFiZWw+5pel5b+X6IOM5pmv6aKc6ImyPC9sYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzPSJsb2ctYmctY29udHJvbHMiPgogICAgICAgICAgPGVsLWNvbG9yLXBpY2tlciB2LW1vZGVsPSJmb3JtLmxvZ19iYWNrZ3JvdW5kX2NvbG9yIiBzaG93LWFscGhhIEBjaGFuZ2U9Im9uQXBwZWFyYW5jZVByZXZpZXciIC8+CiAgICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5sb2dfYmFja2dyb3VuZF9jb2xvciIgcGxhY2Vob2xkZXI9IueVmeepuui3n+maj+W9k+WJjeS4u+mimCIgQGNoYW5nZT0ib25BcHBlYXJhbmNlUHJldmlldyIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8c3BhbiBjbGFzcz0iZm9ybS1oaW50Ij7nu5/kuIDlupTnlKjliLDku7vliqHml6Xlv5flkozmiafooYzml6Xlv5fmn6XnnIvlmajvvIznlZnnqbrml7bmtYXoibLmqKHlvI/kuLrmtYXlupXmt7HlrZfvvIzmt7HoibLmqKHlvI/kuLrmt7HlupXmtYXlrZc8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgICA8bGFiZWw+5pel5b+X6IOM5pmv5Zu+54mHPC9sYWJlbD4KICAgICAgICA8ZGl2IGNsYXNzPSJsb2ctYmctdXBsb2FkIj4KICAgICAgICAgIDxlbC11cGxvYWQKICAgICAgICAgICAgOnNob3ctZmlsZS1saXN0PSJmYWxzZSIKICAgICAgICAgICAgOmJlZm9yZS11cGxvYWQ9Im9uTG9nQmFja2dyb3VuZFVwbG9hZCIKICAgICAgICAgICAgYWNjZXB0PSJpbWFnZS8qIgogICAgICAgICAgPgogICAgICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIj48ZWwtaWNvbj48VXBsb2FkIC8+PC9lbC1pY29uPuS4iuS8oOiDjOaZr+WbvjwvZWwtYnV0dG9uPgogICAgICAgICAgPC9lbC11cGxvYWQ+CiAgICAgICAgICA8ZWwtYnV0dG9uCiAgICAgICAgICAgIHYtaWY9ImZvcm0ubG9nX2JhY2tncm91bmRfaW1hZ2UiCiAgICAgICAgICAgIHNpemU9InNtYWxsIgogICAgICAgICAgICB0ZXh0CiAgICAgICAgICAgIHR5cGU9ImRhbmdlciIKICAgICAgICAgICAgQGNsaWNrPSJmb3JtLmxvZ19iYWNrZ3JvdW5kX2ltYWdlID0gJyc7IG9uQXBwZWFyYW5jZVByZXZpZXcoKSIKICAgICAgICAgID4KICAgICAgICAgICAg56e76Zmk6IOM5pmv5Zu+CiAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZGl2CiAgICAgICAgICBjbGFzcz0ibG9nLWJnLXByZXZpZXcgZGQtbG9nLXN1cmZhY2UiCiAgICAgICAgICA6c3R5bGU9InsKICAgICAgICAgICAgYmFja2dyb3VuZENvbG9yOiBmb3JtLmxvZ19iYWNrZ3JvdW5kX2NvbG9yIHx8IHVuZGVmaW5lZCwKICAgICAgICAgICAgYmFja2dyb3VuZEltYWdlOiBmb3JtLmxvZ19iYWNrZ3JvdW5kX2ltYWdlCiAgICAgICAgICAgICAgPyBgdXJsKCcke2Zvcm0ubG9nX2JhY2tncm91bmRfaW1hZ2V9JyksIHJhZGlhbC1ncmFkaWVudChjaXJjbGUgYXQgdG9wIHJpZ2h0LCBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZGQtbG9nLXRleHQtY29sb3IpIDEwJSwgdHJhbnNwYXJlbnQpLCB0cmFuc3BhcmVudCAyNCUpLCBsaW5lYXItZ3JhZGllbnQoMTU1ZGVnLCBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZGQtbG9nLWJnLWNvbG9yKSA5NiUsIHdoaXRlKSwgY29sb3ItbWl4KGluIHNyZ2IsIHZhcigtLWRkLWxvZy1iZy1jb2xvcikgODglLCB2YXIoLS1kZC1sb2ctdGV4dC1jb2xvcikgOCUpKWAKICAgICAgICAgICAgICA6IHVuZGVmaW5lZAogICAgICAgICAgfSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJsb2ctYmctcHJldmlld19fY29udGVudCI+5Lu75Yqh6L6T5Ye66aKE6KeI77ya5pel5b+X6IOM5pmv5bCG5bqU55So5Yiw5omA5pyJ5pel5b+X5p+l55yL5ZmoPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+5pSv5oyB5bi46KeB5Zu+54mH5qC85byP77yM5Y2V5byg5pyA5aSnIDEwTULvvJvovoPlpKfnmoTlm77niYfkvJroh6rliqjljovnvKnlkI7kv53lrZg8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9lbC1jYXJkPgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZCBsYW5nPSJzY3NzIj4KQHVzZSAnLi9jb25maWctY2FyZC1zaGFyZWQuc2NzcycgYXMgKjsKCi5sb2ctYmctY29udHJvbHMgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEycHg7Cn0KCi5pY29uLXVwbG9hZC1yb3cgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEycHg7CiAgZmxleC13cmFwOiB3cmFwOwp9CgouaWNvbi1wcmV2aWV3IHsKICBkaXNwbGF5OiBpbmxpbmUtZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogOHB4Owp9CgouaWNvbi1wcmV2aWV3X19pbWFnZSB7CiAgd2lkdGg6IDMycHg7CiAgaGVpZ2h0OiAzMnB4Owp9CgoudGltZXpvbmUtc2VsZWN0IHsKICB3aWR0aDogMTAwJTsKICBtYXgtd2lkdGg6IDM2MHB4Owp9CgoubG9nLWJnLXVwbG9hZCB7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTJweDsKICBtYXJnaW4tYm90dG9tOiAxMnB4Owp9CgoubG9nLWJnLXByZXZpZXcgewogIHBhZGRpbmc6IDE4cHg7CiAgbWluLWhlaWdodDogOTJweDsKICBvdmVyZmxvdzogaGlkZGVuOwp9CgoubG9nLWJnLXByZXZpZXdfX2NvbnRlbnQgewogIGZvbnQtZmFtaWx5OiB2YXIoLS1kZC1mb250LW1vbm8pOwogIGZvbnQtc2l6ZTogMTNweDsKICBsaW5lLWhlaWdodDogMS43OwogIHdoaXRlLXNwYWNlOiBwcmUtd3JhcDsKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLmxvZy1iZy1jb250cm9scyB7CiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogICAgYWxpZ24taXRlbXM6IHN0cmV0Y2g7CiAgfQoKICAubG9nLWJnLXVwbG9hZCB7CiAgICBmbGV4LXdyYXA6IHdyYXA7CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { Document, Setting, Upload } from '@element-plus/icons-vue'
+import type { SettingsConfigForm } from '../types'
+
+const timezoneOptions = [
+  { value: 'Asia/Shanghai', label: '中国时间 Asia/Shanghai' },
+  { value: 'UTC', label: 'UTC 标准时间' },
+  { value: 'Asia/Tokyo', label: '日本时间 Asia/Tokyo' },
+  { value: 'Asia/Hong_Kong', label: '香港时间 Asia/Hong_Kong' },
+  { value: 'Asia/Singapore', label: '新加坡时间 Asia/Singapore' },
+  { value: 'America/New_York', label: '纽约时间 America/New_York' },
+  { value: 'Europe/London', label: '伦敦时间 Europe/London' }
+]
+
+defineProps<{
+  configsLoading: boolean
+  configsSaving: boolean
+  form: SettingsConfigForm
+  onSave: () => void
+  onIconUpload: (file: File) => boolean
+  onLogBackgroundUpload: (file: File) => boolean
+  onAppearancePreview: () => void
+}>()
+</script>
+
+<template>
+  <el-card shadow="never" v-loading="configsLoading">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Setting /></el-icon> 面板外观</span>
+        <el-button type="primary" :loading="configsSaving" @click="onSave">
+          <el-icon><Document /></el-icon>保存配置
+        </el-button>
+      </div>
+    </template>
+
+    <div class="config-section">
+      <h4 class="section-title">面板设置</h4>
+      <div class="form-field">
+        <label>面板标题</label>
+        <el-input v-model="form.panel_title" placeholder="呆呆面板" />
+        <span class="form-hint">自定义面板的站点标题，留空使用默认值"呆呆面板"</span>
+      </div>
+      <div class="form-field">
+        <label>面板时区</label>
+        <el-select
+          v-model="form.timezone"
+          class="timezone-select"
+          filterable
+          allow-create
+          default-first-option
+          placeholder="Asia/Shanghai"
+        >
+          <el-option
+            v-for="item in timezoneOptions"
+            :key="item.value"
+            :label="item.label"
+            :value="item.value"
+          />
+        </el-select>
+        <span class="form-hint">影响面板日志、任务日期判断和脚本运行时 TZ；Linux 二进制包建议保持 Asia/Shanghai</span>
+      </div>
+      <div class="form-field">
+        <label>面板图标 (SVG)</label>
+        <div class="icon-upload-row">
+          <el-upload
+            :show-file-list="false"
+            :before-upload="onIconUpload"
+            accept=".svg"
+          >
+            <el-button size="small"><el-icon><Upload /></el-icon>上传 SVG 图标</el-button>
+          </el-upload>
+          <div v-if="form.panel_icon" class="icon-preview">
+            <img :src="form.panel_icon" alt="icon" class="icon-preview__image" />
+            <el-button size="small" text type="danger" @click="form.panel_icon = ''">移除</el-button>
+          </div>
+        </div>
+        <span class="form-hint">上传 SVG 格式图标自定义面板图标，留空使用默认图标</span>
+      </div>
+      <div class="form-field">
+        <label>编辑器背景颜色</label>
+        <div class="log-bg-controls">
+          <el-color-picker v-model="form.editor_background_color" @change="onAppearancePreview" />
+          <el-input v-model="form.editor_background_color" placeholder="留空使用默认编辑器背景" @change="onAppearancePreview" />
+        </div>
+        <span class="form-hint">统一应用到脚本只读预览和在线编辑器，留空保持默认深色背景</span>
+      </div>
+      <div class="form-field">
+        <label>日志背景颜色</label>
+        <div class="log-bg-controls">
+          <el-color-picker v-model="form.log_background_color" show-alpha @change="onAppearancePreview" />
+          <el-input v-model="form.log_background_color" placeholder="留空跟随当前主题" @change="onAppearancePreview" />
+        </div>
+        <span class="form-hint">统一应用到任务日志和执行日志查看器，留空时浅色模式为浅底深字，深色模式为深底浅字</span>
+      </div>
+      <div class="form-field">
+        <label>日志背景图片</label>
+        <div class="log-bg-upload">
+          <el-upload
+            :show-file-list="false"
+            :before-upload="onLogBackgroundUpload"
+            accept="image/*"
+          >
+            <el-button size="small"><el-icon><Upload /></el-icon>上传背景图</el-button>
+          </el-upload>
+          <el-button
+            v-if="form.log_background_image"
+            size="small"
+            text
+            type="danger"
+            @click="form.log_background_image = ''; onAppearancePreview()"
+          >
+            移除背景图
+          </el-button>
+        </div>
+        <div
+          class="log-bg-preview dd-log-surface"
+          :style="{
+            backgroundColor: form.log_background_color || undefined,
+            backgroundImage: form.log_background_image
+              ? `url('${form.log_background_image}'), radial-gradient(circle at top right, color-mix(in srgb, var(--dd-log-text-color) 10%, transparent), transparent 24%), linear-gradient(155deg, color-mix(in srgb, var(--dd-log-bg-color) 96%, white), color-mix(in srgb, var(--dd-log-bg-color) 88%, var(--dd-log-text-color) 8%))`
+              : undefined
+          }"
+        >
+          <div class="log-bg-preview__content">任务输出预览：日志背景将应用到所有日志查看器</div>
+        </div>
+        <span class="form-hint">支持常见图片格式，单张最大 10MB；较大的图片会自动压缩后保存</span>
+      </div>
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.log-bg-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.icon-upload-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.icon-preview {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon-preview__image {
+  width: 32px;
+  height: 32px;
+}
+
+.timezone-select {
+  width: 100%;
+  max-width: 360px;
+}
+
+.log-bg-upload {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.log-bg-preview {
+  padding: 18px;
+  min-height: 92px;
+  overflow: hidden;
+}
+
+.log-bg-preview__content {
+  font-family: var(--dd-font-mono);
+  font-size: 13px;
+  line-height: 1.7;
+  white-space: pre-wrap;
+}
+
+@media (max-width: 768px) {
+  .log-bg-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .log-bg-upload {
+    flex-wrap: wrap;
+  }
+}
+</style>

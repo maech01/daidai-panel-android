@@ -1,1 +1,63 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3RQYXJzZUJhY2t1cFNlbGVjdGlvbkNTVih0ICp0ZXN0aW5nLlQpIHsKCXNlbGVjdGlvbiwgZXJyIDo9IHBhcnNlQmFja3VwU2VsZWN0aW9uQ1NWKCJjb25maWdzLHRhc2tzLHNjcmlwdHMiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInBhcnNlIGJhY2t1cCBzZWxlY3Rpb246ICV2IiwgZXJyKQoJfQoJaWYgIXNlbGVjdGlvbi5Db25maWdzIHx8ICFzZWxlY3Rpb24uVGFza3MgfHwgIXNlbGVjdGlvbi5TY3JpcHRzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY29uZmlncy90YXNrcy9zY3JpcHRzIGVuYWJsZWQsIGdvdCAlK3YiLCBzZWxlY3Rpb24pCgl9CglpZiBzZWxlY3Rpb24uTG9ncyB8fCBzZWxlY3Rpb24uRW52VmFycyB8fCBzZWxlY3Rpb24uU3Vic2NyaXB0aW9ucyB8fCBzZWxlY3Rpb24uRGVwZW5kZW5jaWVzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdW5zcGVjaWZpZWQgc2VsZWN0aW9ucyBkaXNhYmxlZCwgZ290ICUrdiIsIHNlbGVjdGlvbikKCX0KfQoKZnVuYyBUZXN0QmFja3VwU2NoZWR1bGVDcm9uRXhwcmVzc2lvbih0ICp0ZXN0aW5nLlQpIHsKCWNhc2VzIDo9IFtdc3RydWN0IHsKCQluYW1lIHN0cmluZwoJCWNmZyAgQmFja3VwU2NoZWR1bGVDb25maWcKCQl3YW50IHN0cmluZwoJfXsKCQl7CgkJCW5hbWU6ICJkYWlseSIsCgkJCWNmZzogQmFja3VwU2NoZWR1bGVDb25maWd7CgkJCQlGcmVxdWVuY3k6ICJkYWlseSIsCgkJCQlUaW1lOiAgICAgICIwMzozMCIsCgkJCX0sCgkJCXdhbnQ6ICIwIDMwIDMgKiAqICoiLAoJCX0sCgkJewoJCQluYW1lOiAid2Vla2x5IiwKCQkJY2ZnOiBCYWNrdXBTY2hlZHVsZUNvbmZpZ3sKCQkJCUZyZXF1ZW5jeTogIndlZWtseSIsCgkJCQlUaW1lOiAgICAgICIwMTowNSIsCgkJCQlXZWVrZGF5OiAgICI2IiwKCQkJfSwKCQkJd2FudDogIjAgNSAxICogKiA2IiwKCQl9LAoJCXsKCQkJbmFtZTogIm1vbnRobHkiLAoJCQljZmc6IEJhY2t1cFNjaGVkdWxlQ29uZmlnewoJCQkJRnJlcXVlbmN5OiAibW9udGhseSIsCgkJCQlUaW1lOiAgICAgICIyMjowMCIsCgkJCQlNb250aGRheTogIDE1LAoJCQl9LAoJCQl3YW50OiAiMCAwIDIyIDE1ICogKiIsCgkJfSwKCX0KCglmb3IgXywgdGMgOj0gcmFuZ2UgY2FzZXMgewoJCXQuUnVuKHRjLm5hbWUsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJCWdvdCwgZXJyIDo9IGJhY2t1cFNjaGVkdWxlQ3JvbkV4cHJlc3Npb24odGMuY2ZnKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJiYWNrdXAgc2NoZWR1bGUgY3JvbiBleHByZXNzaW9uOiAldiIsIGVycikKCQkJfQoJCQlpZiBnb3QgIT0gdGMud2FudCB7CgkJCQl0LkZhdGFsZigiZXhwZWN0ZWQgJXEsIGdvdCAlcSIsIHRjLndhbnQsIGdvdCkKCQkJfQoJCX0pCgl9Cn0K
+package service
+
+import "testing"
+
+func TestParseBackupSelectionCSV(t *testing.T) {
+	selection, err := parseBackupSelectionCSV("configs,tasks,scripts")
+	if err != nil {
+		t.Fatalf("parse backup selection: %v", err)
+	}
+	if !selection.Configs || !selection.Tasks || !selection.Scripts {
+		t.Fatalf("expected configs/tasks/scripts enabled, got %+v", selection)
+	}
+	if selection.Logs || selection.EnvVars || selection.Subscriptions || selection.Dependencies {
+		t.Fatalf("expected unspecified selections disabled, got %+v", selection)
+	}
+}
+
+func TestBackupScheduleCronExpression(t *testing.T) {
+	cases := []struct {
+		name string
+		cfg  BackupScheduleConfig
+		want string
+	}{
+		{
+			name: "daily",
+			cfg: BackupScheduleConfig{
+				Frequency: "daily",
+				Time:      "03:30",
+			},
+			want: "0 30 3 * * *",
+		},
+		{
+			name: "weekly",
+			cfg: BackupScheduleConfig{
+				Frequency: "weekly",
+				Time:      "01:05",
+				Weekday:   "6",
+			},
+			want: "0 5 1 * * 6",
+		},
+		{
+			name: "monthly",
+			cfg: BackupScheduleConfig{
+				Frequency: "monthly",
+				Time:      "22:00",
+				Monthday:  15,
+			},
+			want: "0 0 22 15 * *",
+		},
+	}
+
+	for _, tc := range cases {
+		t.Run(tc.name, func(t *testing.T) {
+			got, err := backupScheduleCronExpression(tc.cfg)
+			if err != nil {
+				t.Fatalf("backup schedule cron expression: %v", err)
+			}
+			if got != tc.want {
+				t.Fatalf("expected %q, got %q", tc.want, got)
+			}
+		})
+	}
+}

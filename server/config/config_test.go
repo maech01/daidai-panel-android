@@ -1,1 +1,168 @@
-cGFja2FnZSBjb25maWcKCmltcG9ydCAoCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJ0ZXN0aW5nIgopCgpmdW5jIFRlc3RMb2FkUmVzb2x2ZXNSZWxhdGl2ZURhdGFQYXRoc1RvQWJzb2x1dGUodCAqdGVzdGluZy5UKSB7Cgl0bXAgOj0gdC5UZW1wRGlyKCkKCXQuQ2hkaXIodG1wKQoKCWNvbmZpZ1BhdGggOj0gZmlsZXBhdGguSm9pbih0bXAsICJjb25maWcueWFtbCIpCglib2R5IDo9IGBzZXJ2ZXI6CiAgcG9ydDogNTcwMQogIG1vZGU6IHRlc3QKZGF0YWJhc2U6CiAgcGF0aDogZGF0YS90ZXN0LmRiCmp3dDoKICBzZWNyZXQ6IHVuaXQtdGVzdC1zZWNyZXQKZGF0YToKICBkaXI6IC4vZGF0YQogIHNjcmlwdHNfZGlyOiBkYXRhL3NjcmlwdHMKICBsb2dfZGlyOiAuL2RhdGEvbG9ncwpjb3JzOgogIG9yaWdpbnM6IFtdCmAKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoY29uZmlnUGF0aCwgW11ieXRlKGJvZHkpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBjb25maWc6ICV2IiwgZXJyKQoJfQoKCXQuQ2xlYW51cChmdW5jKCkgeyBDID0gbmlsIH0pCgoJY2ZnLCBlcnIgOj0gTG9hZChjb25maWdQYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImxvYWQgY29uZmlnOiAldiIsIGVycikKCX0KCglpZiAhZmlsZXBhdGguSXNBYnMoY2ZnLkRhdGEuRGlyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIERhdGEuRGlyIHRvIGJlIGFic29sdXRlLCBnb3QgJXEiLCBjZmcuRGF0YS5EaXIpCgl9CglpZiAhZmlsZXBhdGguSXNBYnMoY2ZnLkRhdGEuU2NyaXB0c0RpcikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBEYXRhLlNjcmlwdHNEaXIgdG8gYmUgYWJzb2x1dGUsIGdvdCAlcSIsIGNmZy5EYXRhLlNjcmlwdHNEaXIpCgl9CglpZiAhZmlsZXBhdGguSXNBYnMoY2ZnLkRhdGEuTG9nRGlyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIERhdGEuTG9nRGlyIHRvIGJlIGFic29sdXRlLCBnb3QgJXEiLCBjZmcuRGF0YS5Mb2dEaXIpCgl9CglpZiAhZmlsZXBhdGguSXNBYnMoY2ZnLkRhdGFiYXNlLlBhdGgpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgRGF0YWJhc2UuUGF0aCB0byBiZSBhYnNvbHV0ZSwgZ290ICVxIiwgY2ZnLkRhdGFiYXNlLlBhdGgpCgl9CgoJZXhwZWN0ZWRTY3JpcHRzIDo9IGZpbGVwYXRoLkpvaW4odG1wLCAiZGF0YSIsICJzY3JpcHRzIikKCWlmIGNmZy5EYXRhLlNjcmlwdHNEaXIgIT0gZXhwZWN0ZWRTY3JpcHRzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgU2NyaXB0c0Rpcj0lcSwgZ290ICVxIiwgZXhwZWN0ZWRTY3JpcHRzLCBjZmcuRGF0YS5TY3JpcHRzRGlyKQoJfQoJZXhwZWN0ZWREQiA6PSBmaWxlcGF0aC5Kb2luKHRtcCwgImRhdGEiLCAidGVzdC5kYiIpCglpZiBjZmcuRGF0YWJhc2UuUGF0aCAhPSBleHBlY3RlZERCIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgRGF0YWJhc2UuUGF0aD0lcSwgZ290ICVxIiwgZXhwZWN0ZWREQiwgY2ZnLkRhdGFiYXNlLlBhdGgpCgl9Cn0KCi8vIOWbnuW9kua1i+ivle+8mnYyLjIuNSDihpIgdjIuMi42IOaVsOaNruS4ouWkseS6i+aVheeahOaguOW/g+WcuuaZr+KAlOKAlGN3ZCDkuI4gY29uZmlnLnlhbWwg5LiN5ZyoCi8vIOWQjOS4gOebruW9leaXtu+8iOWmgiBzeXN0ZW1kIOmUmemFjSBXb3JraW5nRGlyZWN0b3J544CBRG9ja2VyIFdPUktESVIg5LiO5oyC6L2954K56ZSZ5L2N44CBCi8vIFdpbmRvd3Mg5Y+M5Ye7IGV4ZSDkvYYgY29uZmlnIOS4jeWcqCBjd2Qg562J77yJ77yM55u45a+56Lev5b6E5b+F6aG75oyJIGNvbmZpZyDmiYDlnKjnm67lvZUKLy8g6Kej5p6Q77yM6ICM5LiN5piv5oyJIGN3ZCDop6PmnpDvvJvlkKbliJkgc3FsaXRlIOS8muiQveWIsOmUmeS9jee9ru+8jOaXp+W6k+WPmOaIkCLmtojlpLEi44CCCmZ1bmMgVGVzdExvYWRSZXNvbHZlc1JlbGF0aXZlRGF0YWJhc2VQYXRoQmFzZWRPbkNvbmZpZ0Rpcih0ICp0ZXN0aW5nLlQpIHsKCWNvbmZpZ0RpciA6PSB0LlRlbXBEaXIoKQoJb3RoZXJDd2QgOj0gdC5UZW1wRGlyKCkKCXQuQ2hkaXIob3RoZXJDd2QpIC8vIOaVheaEj+iuqSBjd2Qg4omgIGNvbmZpZ0RpcgoKCWNvbmZpZ1BhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWdEaXIsICJjb25maWcueWFtbCIpCglib2R5IDo9IGBzZXJ2ZXI6CiAgcG9ydDogNTcwMQogIG1vZGU6IHRlc3QKZGF0YWJhc2U6CiAgcGF0aDogRHVtYi1QYW5lbC9kYWlkYWkuZGIKand0OgogIHNlY3JldDogdW5pdC10ZXN0LXNlY3JldApkYXRhOgogIGRpcjogLi9EdW1iLVBhbmVsCiAgc2NyaXB0c19kaXI6IC4vRHVtYi1QYW5lbC9zY3JpcHRzCiAgbG9nX2RpcjogLi9EdW1iLVBhbmVsL2xvZ3MKY29yczoKICBvcmlnaW5zOiBbXQpgCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGNvbmZpZ1BhdGgsIFtdYnl0ZShib2R5KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgY29uZmlnOiAldiIsIGVycikKCX0KCgl0LkNsZWFudXAoZnVuYygpIHsgQyA9IG5pbCB9KQoKCWNmZywgZXJyIDo9IExvYWQoY29uZmlnUGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJsb2FkIGNvbmZpZzogJXYiLCBlcnIpCgl9CgoJZXhwZWN0ZWREQiA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZ0RpciwgIkR1bWItUGFuZWwiLCAiZGFpZGFpLmRiIikKCWlmIGNmZy5EYXRhYmFzZS5QYXRoICE9IGV4cGVjdGVkREIgewoJCXQuRmF0YWxmKCJEYXRhYmFzZS5QYXRoIHNob3VsZCByZXNvbHZlIHJlbGF0aXZlIHRvIGNvbmZpZyBkaXIgKCVxKSwgZ290ICVxIChjd2Qgd2FzICVxKSIsCgkJCWV4cGVjdGVkREIsIGNmZy5EYXRhYmFzZS5QYXRoLCBvdGhlckN3ZCkKCX0KCWV4cGVjdGVkRGF0YURpciA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZ0RpciwgIkR1bWItUGFuZWwiKQoJaWYgY2ZnLkRhdGEuRGlyICE9IGV4cGVjdGVkRGF0YURpciB7CgkJdC5GYXRhbGYoIkRhdGEuRGlyIHNob3VsZCByZXNvbHZlIHJlbGF0aXZlIHRvIGNvbmZpZyBkaXIgKCVxKSwgZ290ICVxIiwgZXhwZWN0ZWREYXRhRGlyLCBjZmcuRGF0YS5EaXIpCgl9CgoJLy8g5Y+N5ZCR5pat6KiA77ya57ud5a+55LiN6IO95Z+65LqOIGN3ZCDop6PmnpAKCXdyb25nREIgOj0gZmlsZXBhdGguSm9pbihvdGhlckN3ZCwgIkR1bWItUGFuZWwiLCAiZGFpZGFpLmRiIikKCWlmIGNmZy5EYXRhYmFzZS5QYXRoID09IHdyb25nREIgewoJCXQuRmF0YWxmKCJEYXRhYmFzZS5QYXRoIG11c3QgTk9UIHJlc29sdmUgdG8gY3dkLWJhc2VkICVxIiwgd3JvbmdEQikKCX0KfQoKZnVuYyBUZXN0TG9hZEtlZXBzQWJzb2x1dGVQYXRoc1VuY2hhbmdlZCh0ICp0ZXN0aW5nLlQpIHsKCWNvbmZpZ0RpciA6PSB0LlRlbXBEaXIoKQoJYWJzRGF0YURpciA6PSBmaWxlcGF0aC5Kb2luKHQuVGVtcERpcigpLCAiZXhwbGljaXQtZGF0YSIpCglhYnNEQlBhdGggOj0gZmlsZXBhdGguSm9pbih0LlRlbXBEaXIoKSwgImV4cGxpY2l0LmRiIikKCgljb25maWdQYXRoIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnRGlyLCAiY29uZmlnLnlhbWwiKQoJYm9keSA6PSBgc2VydmVyOgogIHBvcnQ6IDU3MDEKICBtb2RlOiB0ZXN0CmRhdGFiYXNlOgogIHBhdGg6IGAgKyBhYnNEQlBhdGggKyBgCmp3dDoKICBzZWNyZXQ6IHVuaXQtdGVzdC1zZWNyZXQKZGF0YToKICBkaXI6IGAgKyBhYnNEYXRhRGlyICsgYAogIHNjcmlwdHNfZGlyOiBgICsgZmlsZXBhdGguSm9pbihhYnNEYXRhRGlyLCAic2NyaXB0cyIpICsgYAogIGxvZ19kaXI6IGAgKyBmaWxlcGF0aC5Kb2luKGFic0RhdGFEaXIsICJsb2dzIikgKyBgCmNvcnM6CiAgb3JpZ2luczogW10KYAoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShjb25maWdQYXRoLCBbXWJ5dGUoYm9keSksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGNvbmZpZzogJXYiLCBlcnIpCgl9CgoJdC5DbGVhbnVwKGZ1bmMoKSB7IEMgPSBuaWwgfSkKCgljZmcsIGVyciA6PSBMb2FkKGNvbmZpZ1BhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibG9hZCBjb25maWc6ICV2IiwgZXJyKQoJfQoKCWlmIGNmZy5EYXRhYmFzZS5QYXRoICE9IGFic0RCUGF0aCB7CgkJdC5GYXRhbGYoImFic29sdXRlIERhdGFiYXNlLlBhdGggc2hvdWxkIGJlIHVudG91Y2hlZDogd2FudCAlcSBnb3QgJXEiLCBhYnNEQlBhdGgsIGNmZy5EYXRhYmFzZS5QYXRoKQoJfQoJaWYgY2ZnLkRhdGEuRGlyICE9IGFic0RhdGFEaXIgewoJCXQuRmF0YWxmKCJhYnNvbHV0ZSBEYXRhLkRpciBzaG91bGQgYmUgdW50b3VjaGVkOiB3YW50ICVxIGdvdCAlcSIsIGFic0RhdGFEaXIsIGNmZy5EYXRhLkRpcikKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZURhdGFQYXRoTGVhdmVzQWJzb2x1dGVVbnRvdWNoZWQodCAqdGVzdGluZy5UKSB7Cgl0bXAgOj0gdC5UZW1wRGlyKCkKCXJlc29sdmVkIDo9IHJlc29sdmVEYXRhUGF0aCgiL2FuY2hvciIsIHRtcCkKCWlmIHJlc29sdmVkICE9IGZpbGVwYXRoLkNsZWFuKHRtcCkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhYnNvbHV0ZSBwYXRoIHRvIHN0YXkgYXMgJXEsIGdvdCAlcSIsIGZpbGVwYXRoLkNsZWFuKHRtcCksIHJlc29sdmVkKQoJfQp9CgpmdW5jIFRlc3RSZXNvbHZlRGF0YVBhdGhKb2luc1JlbGF0aXZlT25CYXNlRGlyKHQgKnRlc3RpbmcuVCkgewoJYmFzZSA6PSBmaWxlcGF0aC5Gcm9tU2xhc2goIi9hbmNob3IvaGVyZSIpCglnb3QgOj0gcmVzb2x2ZURhdGFQYXRoKGJhc2UsICJEdW1iLVBhbmVsL2RhaWRhaS5kYiIpCgl3YW50IDo9IGZpbGVwYXRoLkpvaW4oYmFzZSwgIkR1bWItUGFuZWwiLCAiZGFpZGFpLmRiIikKCWlmIGdvdCAhPSB3YW50IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgJXEsIGdvdCAlcSIsIHdhbnQsIGdvdCkKCX0KfQo=
+package config
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+)
+
+func TestLoadResolvesRelativeDataPathsToAbsolute(t *testing.T) {
+	tmp := t.TempDir()
+	t.Chdir(tmp)
+
+	configPath := filepath.Join(tmp, "config.yaml")
+	body := `server:
+  port: 5701
+  mode: test
+database:
+  path: data/test.db
+jwt:
+  secret: unit-test-secret
+data:
+  dir: ./data
+  scripts_dir: data/scripts
+  log_dir: ./data/logs
+cors:
+  origins: []
+`
+	if err := os.WriteFile(configPath, []byte(body), 0o644); err != nil {
+		t.Fatalf("write config: %v", err)
+	}
+
+	t.Cleanup(func() { C = nil })
+
+	cfg, err := Load(configPath)
+	if err != nil {
+		t.Fatalf("load config: %v", err)
+	}
+
+	if !filepath.IsAbs(cfg.Data.Dir) {
+		t.Fatalf("expected Data.Dir to be absolute, got %q", cfg.Data.Dir)
+	}
+	if !filepath.IsAbs(cfg.Data.ScriptsDir) {
+		t.Fatalf("expected Data.ScriptsDir to be absolute, got %q", cfg.Data.ScriptsDir)
+	}
+	if !filepath.IsAbs(cfg.Data.LogDir) {
+		t.Fatalf("expected Data.LogDir to be absolute, got %q", cfg.Data.LogDir)
+	}
+	if !filepath.IsAbs(cfg.Database.Path) {
+		t.Fatalf("expected Database.Path to be absolute, got %q", cfg.Database.Path)
+	}
+
+	expectedScripts := filepath.Join(tmp, "data", "scripts")
+	if cfg.Data.ScriptsDir != expectedScripts {
+		t.Fatalf("expected ScriptsDir=%q, got %q", expectedScripts, cfg.Data.ScriptsDir)
+	}
+	expectedDB := filepath.Join(tmp, "data", "test.db")
+	if cfg.Database.Path != expectedDB {
+		t.Fatalf("expected Database.Path=%q, got %q", expectedDB, cfg.Database.Path)
+	}
+}
+
+// 回归测试：v2.2.5 → v2.2.6 数据丢失事故的核心场景——cwd 与 config.yaml 不在
+// 同一目录时（如 systemd 错配 WorkingDirectory、Docker WORKDIR 与挂载点错位、
+// Windows 双击 exe 但 config 不在 cwd 等），相对路径必须按 config 所在目录
+// 解析，而不是按 cwd 解析；否则 sqlite 会落到错位置，旧库变成"消失"。
+func TestLoadResolvesRelativeDatabasePathBasedOnConfigDir(t *testing.T) {
+	configDir := t.TempDir()
+	otherCwd := t.TempDir()
+	t.Chdir(otherCwd) // 故意让 cwd ≠ configDir
+
+	configPath := filepath.Join(configDir, "config.yaml")
+	body := `server:
+  port: 5701
+  mode: test
+database:
+  path: Dumb-Panel/daidai.db
+jwt:
+  secret: unit-test-secret
+data:
+  dir: ./Dumb-Panel
+  scripts_dir: ./Dumb-Panel/scripts
+  log_dir: ./Dumb-Panel/logs
+cors:
+  origins: []
+`
+	if err := os.WriteFile(configPath, []byte(body), 0o644); err != nil {
+		t.Fatalf("write config: %v", err)
+	}
+
+	t.Cleanup(func() { C = nil })
+
+	cfg, err := Load(configPath)
+	if err != nil {
+		t.Fatalf("load config: %v", err)
+	}
+
+	expectedDB := filepath.Join(configDir, "Dumb-Panel", "daidai.db")
+	if cfg.Database.Path != expectedDB {
+		t.Fatalf("Database.Path should resolve relative to config dir (%q), got %q (cwd was %q)",
+			expectedDB, cfg.Database.Path, otherCwd)
+	}
+	expectedDataDir := filepath.Join(configDir, "Dumb-Panel")
+	if cfg.Data.Dir != expectedDataDir {
+		t.Fatalf("Data.Dir should resolve relative to config dir (%q), got %q", expectedDataDir, cfg.Data.Dir)
+	}
+
+	// 反向断言：绝对不能基于 cwd 解析
+	wrongDB := filepath.Join(otherCwd, "Dumb-Panel", "daidai.db")
+	if cfg.Database.Path == wrongDB {
+		t.Fatalf("Database.Path must NOT resolve to cwd-based %q", wrongDB)
+	}
+}
+
+func TestLoadKeepsAbsolutePathsUnchanged(t *testing.T) {
+	configDir := t.TempDir()
+	absDataDir := filepath.Join(t.TempDir(), "explicit-data")
+	absDBPath := filepath.Join(t.TempDir(), "explicit.db")
+
+	configPath := filepath.Join(configDir, "config.yaml")
+	body := `server:
+  port: 5701
+  mode: test
+database:
+  path: ` + absDBPath + `
+jwt:
+  secret: unit-test-secret
+data:
+  dir: ` + absDataDir + `
+  scripts_dir: ` + filepath.Join(absDataDir, "scripts") + `
+  log_dir: ` + filepath.Join(absDataDir, "logs") + `
+cors:
+  origins: []
+`
+	if err := os.WriteFile(configPath, []byte(body), 0o644); err != nil {
+		t.Fatalf("write config: %v", err)
+	}
+
+	t.Cleanup(func() { C = nil })
+
+	cfg, err := Load(configPath)
+	if err != nil {
+		t.Fatalf("load config: %v", err)
+	}
+
+	if cfg.Database.Path != absDBPath {
+		t.Fatalf("absolute Database.Path should be untouched: want %q got %q", absDBPath, cfg.Database.Path)
+	}
+	if cfg.Data.Dir != absDataDir {
+		t.Fatalf("absolute Data.Dir should be untouched: want %q got %q", absDataDir, cfg.Data.Dir)
+	}
+}
+
+func TestResolveDataPathLeavesAbsoluteUntouched(t *testing.T) {
+	tmp := t.TempDir()
+	resolved := resolveDataPath("/anchor", tmp)
+	if resolved != filepath.Clean(tmp) {
+		t.Fatalf("expected absolute path to stay as %q, got %q", filepath.Clean(tmp), resolved)
+	}
+}
+
+func TestResolveDataPathJoinsRelativeOnBaseDir(t *testing.T) {
+	base := filepath.FromSlash("/anchor/here")
+	got := resolveDataPath(base, "Dumb-Panel/daidai.db")
+	want := filepath.Join(base, "Dumb-Panel", "daidai.db")
+	if got != want {
+		t.Fatalf("expected %q, got %q", want, got)
+	}
+}

@@ -1,1 +1,540 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkic3luYyIKCSJzeW5jL2F0b21pYyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJcGFuZWxjcm9uICJkYWlkYWktcGFuZWwvcGtnL2Nyb24iCgoJImdpdGh1Yi5jb20vcm9iZmlnL2Nyb24vdjMiCikKCnR5cGUgU2NoZWR1bGVyQ29uZmlnIHN0cnVjdCB7CglXb3JrZXJDb3VudCAgaW50CglRdWV1ZVNpemUgICAgaW50CglSYXRlSW50ZXJ2YWwgdGltZS5EdXJhdGlvbgp9CgovLyBFeGVjdXRpb25SZXF1ZXN0LlRyaWdnZXJUeXBlIOeahOWPluWAvO+8jOS+m+iwg+W6puWZqOeUn+S6p+err+S4juaJp+ihjOWZqOmXuOmXqOWFseeUqO+8jOmBv+WFjeWtl+mdoumHj+aLvOWGmea8guenu+OAggpjb25zdCAoCglUcmlnZ2VyVHlwZUNyb24gICAgPSAiY3JvbiIKCVRyaWdnZXJUeXBlTWFudWFsICA9ICJtYW51YWwiCglUcmlnZ2VyVHlwZVN0YXJ0dXAgPSAic3RhcnR1cCIKKQoKdHlwZSBFeGVjdXRpb25SZXF1ZXN0IHN0cnVjdCB7CglUYXNrSUQgICAgICB1aW50CglUYXNrICAgICAgICAqbW9kZWwuVGFzawoJVHJpZ2dlclR5cGUgc3RyaW5nCglSZXRyeUluZGV4ICBpbnQKCUxvZ0lEICAgICAgIHN0cmluZwoJVGFza0xvZ0lEICAgdWludAoJQ29tbWFuZFBsYW4gKkNvbW1hbmRFeGVjdXRpb25QbGFuCn0KCnR5cGUgRXhlY3V0aW9uUmVzdWx0IHN0cnVjdCB7CglTdWNjZXNzICBib29sCglFeGl0Q29kZSBpbnQKCUR1cmF0aW9uIGZsb2F0NjQKCU91dHB1dCAgIHN0cmluZwoJRXJyb3IgICAgZXJyb3IKfQoKdHlwZSBTY2hlZHVsZXJFdmVudEhhbmRsZXIgaW50ZXJmYWNlIHsKCU9uVGFza1NjaGVkdWxlZChyZXEgKkV4ZWN1dGlvblJlcXVlc3QpCglPblRhc2tFeGVjdXRpbmcocmVxICpFeGVjdXRpb25SZXF1ZXN0KSBlcnJvcgoJT25UYXNrU3RhcnRlZChyZXEgKkV4ZWN1dGlvblJlcXVlc3QpCglPblRhc2tDb21wbGV0ZWQocmVxICpFeGVjdXRpb25SZXF1ZXN0LCByZXN1bHQgKkV4ZWN1dGlvblJlc3VsdCkKCU9uVGFza0ZhaWxlZChyZXEgKkV4ZWN1dGlvblJlcXVlc3QsIGVyciBlcnJvcikKfQoKdHlwZSBTY2hlZHVsZXJWMiBzdHJ1Y3QgewoJY29uZmlnICAgICAgIFNjaGVkdWxlckNvbmZpZwoJY3JvbiAgICAgICAgICpjcm9uLkNyb24KCWVudHJ5TWFwICAgICBtYXBbdWludF1bXWNyb24uRW50cnlJRAoJc3RvcEVudHJ5TWFwIG1hcFt1aW50XVtdY3Jvbi5FbnRyeUlECgllbnRyeUxvY2sgICAgc3luYy5SV011dGV4Cgl0YXNrUXVldWUgICAgY2hhbiAqRXhlY3V0aW9uUmVxdWVzdAoJcmF0ZUxpbWl0ZXIgIDwtY2hhbiB0aW1lLlRpbWUKCXN0b3BDaCAgICAgICBjaGFuIHN0cnVjdHt9Cgl3ZyAgICAgICAgICAgc3luYy5XYWl0R3JvdXAKCWhhbmRsZXIgICAgICBTY2hlZHVsZXJFdmVudEhhbmRsZXIKCXJ1bm5pbmdUYXNrcyBtYXBbdWludF1bXWludDY0CglydW5uaW5nTG9jayAgc3luYy5SV011dGV4CglzdG9wT25jZSAgICAgc3luYy5PbmNlCglzdG9wcGVkICAgICAgYXRvbWljLkJvb2wKfQoKZnVuYyBOZXdTY2hlZHVsZXJWMihjb25maWcgU2NoZWR1bGVyQ29uZmlnLCBoYW5kbGVyIFNjaGVkdWxlckV2ZW50SGFuZGxlcikgKlNjaGVkdWxlclYyIHsKCWlmIGNvbmZpZy5Xb3JrZXJDb3VudCA8PSAwIHsKCQljb25maWcuV29ya2VyQ291bnQgPSA0Cgl9CglpZiBjb25maWcuUXVldWVTaXplIDw9IDAgewoJCWNvbmZpZy5RdWV1ZVNpemUgPSAxMDAKCX0KCWlmIGNvbmZpZy5SYXRlSW50ZXJ2YWwgPD0gMCB7CgkJY29uZmlnLlJhdGVJbnRlcnZhbCA9IDIwMCAqIHRpbWUuTWlsbGlzZWNvbmQKCX0KCglzIDo9ICZTY2hlZHVsZXJWMnsKCQljb25maWc6ICAgICAgIGNvbmZpZywKCQljcm9uOiAgICAgICAgIGNyb24uTmV3KGNyb24uV2l0aFNlY29uZHMoKSwgY3Jvbi5XaXRoQ2hhaW4oY3Jvbi5SZWNvdmVyKGNyb24uRGVmYXVsdExvZ2dlcikpKSwKCQllbnRyeU1hcDogICAgIG1ha2UobWFwW3VpbnRdW11jcm9uLkVudHJ5SUQpLAoJCXN0b3BFbnRyeU1hcDogbWFrZShtYXBbdWludF1bXWNyb24uRW50cnlJRCksCgkJdGFza1F1ZXVlOiAgICBtYWtlKGNoYW4gKkV4ZWN1dGlvblJlcXVlc3QsIGNvbmZpZy5RdWV1ZVNpemUpLAoJCXJhdGVMaW1pdGVyOiAgdGltZS5UaWNrKGNvbmZpZy5SYXRlSW50ZXJ2YWwpLAoJCXN0b3BDaDogICAgICAgbWFrZShjaGFuIHN0cnVjdHt9KSwKCQloYW5kbGVyOiAgICAgIGhhbmRsZXIsCgkJcnVubmluZ1Rhc2tzOiBtYWtlKG1hcFt1aW50XVtdaW50NjQpLAoJfQoKCXJldHVybiBzCn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBTdGFydCgpIHsKCWZvciBpIDo9IDA7IGkgPCBzLmNvbmZpZy5Xb3JrZXJDb3VudDsgaSsrIHsKCQlzLndnLkFkZCgxKQoJCWdvIHMud29ya2VyKGkpCgl9CgoJcy5jcm9uLlN0YXJ0KCkKCWxvZy5QcmludGYoInNjaGVkdWxlciB2MiBzdGFydGVkOiAlZCB3b3JrZXJzLCBxdWV1ZSBzaXplICVkIiwgcy5jb25maWcuV29ya2VyQ291bnQsIHMuY29uZmlnLlF1ZXVlU2l6ZSkKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIFN0b3AoKSB7CglpZiBzID09IG5pbCB7CgkJcmV0dXJuCgl9CgoJcy5zdG9wT25jZS5EbyhmdW5jKCkgewoJCXMuc3RvcHBlZC5TdG9yZSh0cnVlKQoKCQlpZiBzLmNyb24gIT0gbmlsIHsKCQkJY3R4IDo9IHMuY3Jvbi5TdG9wKCkKCQkJPC1jdHguRG9uZSgpCgkJfQoKCQlpZiBzLnN0b3BDaCAhPSBuaWwgewoJCQljbG9zZShzLnN0b3BDaCkKCQl9CgoJCWRvbmUgOj0gbWFrZShjaGFuIHN0cnVjdHt9KQoJCWdvIGZ1bmMoKSB7CgkJCXMud2cuV2FpdCgpCgkJCWNsb3NlKGRvbmUpCgkJfSgpCgoJCXNlbGVjdCB7CgkJY2FzZSA8LWRvbmU6CgkJY2FzZSA8LXRpbWUuQWZ0ZXIoNSAqIHRpbWUuU2Vjb25kKToKCQkJbG9nLlByaW50bG4oInNjaGVkdWxlciB2MiBzdG9wIHRpbWVkIG91dDsgY29udGludWluZyBzaHV0ZG93biIpCgkJfQoKCQlsb2cuUHJpbnRsbigic2NoZWR1bGVyIHYyIHN0b3BwZWQiKQoJfSkKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIHdvcmtlcihpZCBpbnQpIHsKCWRlZmVyIHMud2cuRG9uZSgpCgoJZm9yIHsKCQlpZiBzLnN0b3BwZWQuTG9hZCgpIHsKCQkJcmV0dXJuCgkJfQoKCQlzZWxlY3QgewoJCWNhc2UgPC1zLnN0b3BDaDoKCQkJcmV0dXJuCgkJY2FzZSByZXEgOj0gPC1zLnRhc2tRdWV1ZToKCQkJaWYgcy5zdG9wcGVkLkxvYWQoKSB7CgkJCQlyZXR1cm4KCQkJfQoJCQlzZWxlY3QgewoJCQljYXNlIDwtcy5zdG9wQ2g6CgkJCQlyZXR1cm4KCQkJY2FzZSA8LXMucmF0ZUxpbWl0ZXI6CgkJCX0KCQkJaWYgcy5zdG9wcGVkLkxvYWQoKSB7CgkJCQlyZXR1cm4KCQkJfQoJCQlzLmV4ZWN1dGVUYXNrKHJlcSkKCQl9Cgl9Cn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBleGVjdXRlVGFzayhyZXEgKkV4ZWN1dGlvblJlcXVlc3QpIHsKCWlmICFzLmNoZWNrQ29uY3VycmVuY3kocmVxKSB7CgkJbG9nLlByaW50ZigidGFzayAlZDogY29uY3VycmVuY3kgbGltaXQgcmVhY2hlZCwgc2tpcHBpbmciLCByZXEuVGFza0lEKQoJCXJldHVybgoJfQoKCWdvaWQgOj0gZ2V0R29yb3V0aW5lSUQoKQoJcy5hZGRSdW5uaW5nVGFzayhyZXEuVGFza0lELCBnb2lkKQoJZGVmZXIgcy5yZW1vdmVSdW5uaW5nVGFzayhyZXEuVGFza0lELCBnb2lkKQoKCWlmIHMuaGFuZGxlciAhPSBuaWwgewoJCXMuaGFuZGxlci5PblRhc2tTY2hlZHVsZWQocmVxKQoJfQoKCWVyciA6PSBzLmhhbmRsZXIuT25UYXNrRXhlY3V0aW5nKHJlcSkKCWlmIGVyciAhPSBuaWwgewoJCWlmIHMuaGFuZGxlciAhPSBuaWwgewoJCQlzLmhhbmRsZXIuT25UYXNrRmFpbGVkKHJlcSwgZXJyKQoJCX0KCQlyZXR1cm4KCX0KCglpZiBzLmhhbmRsZXIgIT0gbmlsIHsKCQlzLmhhbmRsZXIuT25UYXNrU3RhcnRlZChyZXEpCgl9Cn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBjaGVja0NvbmN1cnJlbmN5KHJlcSAqRXhlY3V0aW9uUmVxdWVzdCkgYm9vbCB7CglpZiByZXEuVGFzay5BbGxvd011bHRpcGxlSW5zdGFuY2VzIHsKCQlyZXR1cm4gdHJ1ZQoJfQoKCXMucnVubmluZ0xvY2suUkxvY2soKQoJZGVmZXIgcy5ydW5uaW5nTG9jay5SVW5sb2NrKCkKCglnb2lkcywgZXhpc3RzIDo9IHMucnVubmluZ1Rhc2tzW3JlcS5UYXNrSURdCglyZXR1cm4gIWV4aXN0cyB8fCBsZW4oZ29pZHMpID09IDAKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIGFkZFJ1bm5pbmdUYXNrKHRhc2tJRCB1aW50LCBnb2lkIGludDY0KSB7CglzLnJ1bm5pbmdMb2NrLkxvY2soKQoJZGVmZXIgcy5ydW5uaW5nTG9jay5VbmxvY2soKQoKCWlmIHMucnVubmluZ1Rhc2tzW3Rhc2tJRF0gPT0gbmlsIHsKCQlzLnJ1bm5pbmdUYXNrc1t0YXNrSURdID0gW11pbnQ2NHt9Cgl9CglzLnJ1bm5pbmdUYXNrc1t0YXNrSURdID0gYXBwZW5kKHMucnVubmluZ1Rhc2tzW3Rhc2tJRF0sIGdvaWQpCn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSByZW1vdmVSdW5uaW5nVGFzayh0YXNrSUQgdWludCwgZ29pZCBpbnQ2NCkgewoJcy5ydW5uaW5nTG9jay5Mb2NrKCkKCWRlZmVyIHMucnVubmluZ0xvY2suVW5sb2NrKCkKCglnb2lkcyA6PSBzLnJ1bm5pbmdUYXNrc1t0YXNrSURdCglmb3IgaSwgaWQgOj0gcmFuZ2UgZ29pZHMgewoJCWlmIGlkID09IGdvaWQgewoJCQlzLnJ1bm5pbmdUYXNrc1t0YXNrSURdID0gYXBwZW5kKGdvaWRzWzppXSwgZ29pZHNbaSsxOl0uLi4pCgkJCWJyZWFrCgkJfQoJfQoKCWlmIGxlbihzLnJ1bm5pbmdUYXNrc1t0YXNrSURdKSA9PSAwIHsKCQlkZWxldGUocy5ydW5uaW5nVGFza3MsIHRhc2tJRCkKCX0KfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIEVucXVldWUocmVxICpFeGVjdXRpb25SZXF1ZXN0KSBlcnJvciB7CglpZiBzID09IG5pbCB8fCBzLnN0b3BwZWQuTG9hZCgpIHsKCQlyZXR1cm4gZm10LkVycm9yZigic2NoZWR1bGVyIHN0b3BwZWQiKQoJfQoKCXNlbGVjdCB7CgljYXNlIHMudGFza1F1ZXVlIDwtIHJlcToKCQlyZXR1cm4gbmlsCglkZWZhdWx0OgoJCXJldHVybiBmbXQuRXJyb3JmKCJ0YXNrIHF1ZXVlIGlzIGZ1bGwiKQoJfQp9CgpmdW5jIChzICpTY2hlZHVsZXJWMikgRW5xdWV1ZURlbGF5ZWQoZGVsYXkgdGltZS5EdXJhdGlvbiwgcmVxRnVuYyBmdW5jKCkgKkV4ZWN1dGlvblJlcXVlc3QpIHsKCWdvIGZ1bmMoKSB7CgkJdGltZS5TbGVlcChkZWxheSkKCQlyZXEgOj0gcmVxRnVuYygpCgkJaWYgcmVxICE9IG5pbCB7CgkJCXMuRW5xdWV1ZShyZXEpCgkJfQoJfSgpCn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBBZGRKb2IodGFzayAqbW9kZWwuVGFzaykgZXJyb3IgewoJcy5lbnRyeUxvY2suTG9jaygpCglkZWZlciBzLmVudHJ5TG9jay5VbmxvY2soKQoKCWlmIG9sZElEcywgZXhpc3RzIDo9IHMuZW50cnlNYXBbdGFzay5JRF07IGV4aXN0cyB7CgkJZm9yIF8sIG9sZElEIDo9IHJhbmdlIG9sZElEcyB7CgkJCWlmIG9sZElEICE9IDAgewoJCQkJcy5jcm9uLlJlbW92ZShvbGRJRCkKCQkJfQoJCX0KCQlkZWxldGUocy5lbnRyeU1hcCwgdGFzay5JRCkKCX0KCglpZiB0YXNrLlN0YXR1cyAhPSBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCB7CgkJcmV0dXJuIG5pbAoJfQoJaWYgIXRhc2suVXNlc0Nyb25TY2hlZHVsZSgpIHsKCQlzLmVudHJ5TWFwW3Rhc2suSURdID0gW11jcm9uLkVudHJ5SUR7fQoJCXJldHVybiBuaWwKCX0KCglleHByZXNzaW9ucyA6PSBwYW5lbGNyb24uU3BsaXRFeHByZXNzaW9ucyh0YXNrLkNyb25FeHByZXNzaW9uKQoJaWYgbGVuKGV4cHJlc3Npb25zKSA9PSAwIHsKCQlyZXR1cm4gZm10LkVycm9yZigiaW52YWxpZCBjcm9uIGV4cHJlc3Npb24iKQoJfQoKCXRhc2tJRCA6PSB0YXNrLklECgllbnRyeUlEcyA6PSBtYWtlKFtdY3Jvbi5FbnRyeUlELCAwLCBsZW4oZXhwcmVzc2lvbnMpKQoJZm9yIF8sIGV4cHJlc3Npb24gOj0gcmFuZ2UgZXhwcmVzc2lvbnMgewoJCXNjaGVkdWxlLCBlcnIgOj0gcGFuZWxjcm9uLlBhcnNlU2NoZWR1bGUoZXhwcmVzc2lvbikKCQlpZiBlcnIgIT0gbmlsIHsKCQkJZm9yIF8sIGVudHJ5SUQgOj0gcmFuZ2UgZW50cnlJRHMgewoJCQkJcy5jcm9uLlJlbW92ZShlbnRyeUlEKQoJCQl9CgkJCXJldHVybiBmbXQuRXJyb3JmKCJpbnZhbGlkIGNyb24gZXhwcmVzc2lvbjogJXciLCBlcnIpCgkJfQoKCQllbnRyeUlEIDo9IHMuY3Jvbi5TY2hlZHVsZShzY2hlZHVsZSwgY3Jvbi5GdW5jSm9iKGZ1bmMoKSB7CgkJCXZhciB0IG1vZGVsLlRhc2sKCQkJZGF0YWJhc2UuREIuRmlyc3QoJnQsIHRhc2tJRCkKCQkJcmVxIDo9ICZFeGVjdXRpb25SZXF1ZXN0ewoJCQkJVGFza0lEOiAgICAgIHRhc2tJRCwKCQkJCVRhc2s6ICAgICAgICAmdCwKCQkJCVRyaWdnZXJUeXBlOiBUcmlnZ2VyVHlwZUNyb24sCgkJCQlSZXRyeUluZGV4OiAgMCwKCQkJfQoJCQlpZiBlcnIgOj0gcy5FbnF1ZXVlKHJlcSk7IGVyciAhPSBuaWwgewoJCQkJbG9nLlByaW50ZigidGFzayAlZCBlbnF1ZXVlIGZhaWxlZDogJXYiLCB0YXNrSUQsIGVycikKCQkJCXJldHVybgoJCQl9CgkJCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNre30pLldoZXJlKCJpZCA9ID8gQU5EIHN0YXR1cyAhPSA/IiwgdGFza0lELCBtb2RlbC5UYXNrU3RhdHVzUnVubmluZykuVXBkYXRlKCJzdGF0dXMiLCBtb2RlbC5UYXNrU3RhdHVzUXVldWVkKQoJCX0pKQoJCWVudHJ5SURzID0gYXBwZW5kKGVudHJ5SURzLCBlbnRyeUlEKQoJfQoKCXMuZW50cnlNYXBbdGFzay5JRF0gPSBlbnRyeUlEcwoKCWlmIG9sZFN0b3BJRHMsIGV4aXN0cyA6PSBzLnN0b3BFbnRyeU1hcFt0YXNrLklEXTsgZXhpc3RzIHsKCQlmb3IgXywgaWQgOj0gcmFuZ2Ugb2xkU3RvcElEcyB7CgkJCWlmIGlkICE9IDAgewoJCQkJcy5jcm9uLlJlbW92ZShpZCkKCQkJfQoJCX0KCQlkZWxldGUocy5zdG9wRW50cnlNYXAsIHRhc2suSUQpCgl9CglpZiB0YXNrLlN0b3BTY2hlZHVsZSAhPSAiIiB7CgkJc3RvcEV4cHJzIDo9IHBhbmVsY3Jvbi5TcGxpdEV4cHJlc3Npb25zKHRhc2suU3RvcFNjaGVkdWxlKQoJCXN0b3BJRHMgOj0gbWFrZShbXWNyb24uRW50cnlJRCwgMCwgbGVuKHN0b3BFeHBycykpCgkJZm9yIF8sIGV4cHIgOj0gcmFuZ2Ugc3RvcEV4cHJzIHsKCQkJc2NoZWR1bGUsIGVyciA6PSBwYW5lbGNyb24uUGFyc2VTY2hlZHVsZShleHByKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJc3RvcElEIDo9IHMuY3Jvbi5TY2hlZHVsZShzY2hlZHVsZSwgY3Jvbi5GdW5jSm9iKGZ1bmMoKSB7CgkJCQlzLnN0b3BUYXNrQnlTY2hlZHVsZSh0YXNrSUQpCgkJCX0pKQoJCQlzdG9wSURzID0gYXBwZW5kKHN0b3BJRHMsIHN0b3BJRCkKCQl9CgkJaWYgbGVuKHN0b3BJRHMpID4gMCB7CgkJCXMuc3RvcEVudHJ5TWFwW3Rhc2suSURdID0gc3RvcElEcwoJCX0KCX0KCglyZXR1cm4gbmlsCn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBzdG9wVGFza0J5U2NoZWR1bGUodGFza0lEIHVpbnQpIHsKCWV4ZWN1dG9yIDo9IEdldFRhc2tFeGVjdXRvcigpCglpZiBleGVjdXRvciAhPSBuaWwgewoJCWV4ZWN1dG9yLlN0b3BUYXNrKHRhc2tJRCkKCX0KCgl2YXIgdGFzayBtb2RlbC5UYXNrCglpZiBkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgdGFza0lEKS5FcnJvciAhPSBuaWwgewoJCXJldHVybgoJfQoJaWYgdGFzay5QSUQgIT0gbmlsICYmICp0YXNrLlBJRCA+IDAgewoJCS8vIOWumuaXtuWBnOatouaMiSBQSUQg5YWc5bqV5pe25Lmf6KaB5YWI5omT5YGc5q2i5qCH6K6w77yM6YG/5YWN6KKr57uT566X5oiQ5pmu6YCa6ISa5pys5aSx6LSl44CCCgkJbWFya01hbnVhbFN0b3AodGFza0lEKQoJCUtpbGxQcm9jZXNzQnlQaWQoKnRhc2suUElEKQoJfQoJaWYgdGFzay5TdGF0dXMgPT0gbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcgewoJCWluYWN0aXZlU3RhdHVzIDo9IFJlc29sdmVUYXNrSW5hY3RpdmVTdGF0dXMoJnRhc2spCgkJZGF0YWJhc2UuREIuTW9kZWwoJnRhc2spLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJInN0YXR1cyI6ICAgICAgICAgIGluYWN0aXZlU3RhdHVzLAoJCQkibGFzdF9ydW5fc3RhdHVzIjogbW9kZWwuUnVuQWJvcnRlZCwKCQkJInBpZCI6ICAgICAgICAgICAgIG5pbCwKCQkJImxvZ19wYXRoIjogICAgICAgIG5pbCwKCQl9KQoJCXN0b3BMb2dTdGF0dXMgOj0gbW9kZWwuTG9nU3RhdHVzQWJvcnRlZAoJCXZhciBydW5uaW5nTG9nIG1vZGVsLlRhc2tMb2cKCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInRhc2tfaWQgPSA/IEFORCBzdGF0dXMgPSA/IiwgdGFza0lELCBtb2RlbC5Mb2dTdGF0dXNSdW5uaW5nKS4KCQkJT3JkZXIoInN0YXJ0ZWRfYXQgREVTQyIpLkZpcnN0KCZydW5uaW5nTG9nKS5FcnJvcjsgZXJyID09IG5pbCB7CgkJCW5vdyA6PSB0aW1lLk5vdygpCgkJCWR1cmF0aW9uIDo9IG5vdy5TdWIocnVubmluZ0xvZy5TdGFydGVkQXQpLlNlY29uZHMoKQoJCQlpZiBkdXJhdGlvbiA8IDAgewoJCQkJZHVyYXRpb24gPSAwCgkJCX0KCQkJLy8g5a6a5pe25YGc5q2i5Lmf5YWI5oqK6L+Q6KGM5Lit5pel5b+X5pS25Y+j77yb5aaC5p6c5omn6KGM5Zmo6ZqP5ZCO5a6M5oiQ77yM5Lya5oyJIEFib3J0ZWQg5ZCM5LiA5Y+j5b6E5YaN5qyh5YaZ5YWl77yM5LiN5Lya5Yay56qB44CCCgkJCWRhdGFiYXNlLkRCLk1vZGVsKCZydW5uaW5nTG9nKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCQkic3RhdHVzIjogICBzdG9wTG9nU3RhdHVzLAoJCQkJImVuZGVkX2F0Ijogbm93LAoJCQkJImR1cmF0aW9uIjogZHVyYXRpb24sCgkJCX0pCgkJCS8vIOWmguaenOaJp+ihjOWZqOayoeacieacuuS8muWbnuWGme+8jOS7u+WKoeivpuaDheS5n+iDveeri+WIu+eci+WIsOKAnOW3sue7iOatouKAneWSjOacrOasoeiAl+aXtuOAggoJCQlkYXRhYmFzZS5EQi5Nb2RlbCgmdGFzaykuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkJImxhc3RfcnVuX3N0YXR1cyI6ICAgbW9kZWwuUnVuQWJvcnRlZCwKCQkJCSJsYXN0X3J1bm5pbmdfdGltZSI6IGR1cmF0aW9uLAoJCQl9KQoJCX0KCQlsb2cuUHJpbnRmKCJ0YXNrICVkIHN0b3BwZWQgYnkgc2NoZWR1bGVkIHN0b3AgcnVsZSIsIHRhc2tJRCkKCX0KfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIFVwZGF0ZUpvYih0YXNrICptb2RlbC5UYXNrKSBlcnJvciB7CglyZXR1cm4gcy5BZGRKb2IodGFzaykKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIFJlbW92ZUpvYih0YXNrSUQgdWludCkgewoJcy5lbnRyeUxvY2suTG9jaygpCglkZWZlciBzLmVudHJ5TG9jay5VbmxvY2soKQoKCWlmIGVudHJ5SURzLCBleGlzdHMgOj0gcy5lbnRyeU1hcFt0YXNrSURdOyBleGlzdHMgewoJCWZvciBfLCBlbnRyeUlEIDo9IHJhbmdlIGVudHJ5SURzIHsKCQkJaWYgZW50cnlJRCAhPSAwIHsKCQkJCXMuY3Jvbi5SZW1vdmUoZW50cnlJRCkKCQkJfQoJCX0KCQlkZWxldGUocy5lbnRyeU1hcCwgdGFza0lEKQoJfQoJaWYgc3RvcElEcywgZXhpc3RzIDo9IHMuc3RvcEVudHJ5TWFwW3Rhc2tJRF07IGV4aXN0cyB7CgkJZm9yIF8sIGlkIDo9IHJhbmdlIHN0b3BJRHMgewoJCQlpZiBpZCAhPSAwIHsKCQkJCXMuY3Jvbi5SZW1vdmUoaWQpCgkJCX0KCQl9CgkJZGVsZXRlKHMuc3RvcEVudHJ5TWFwLCB0YXNrSUQpCgl9Cn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBIYXNKb2IodGFza0lEIHVpbnQpIGJvb2wgewoJaWYgcyA9PSBuaWwgewoJCXJldHVybiBmYWxzZQoJfQoKCXMuZW50cnlMb2NrLlJMb2NrKCkKCWRlZmVyIHMuZW50cnlMb2NrLlJVbmxvY2soKQoKCV8sIGV4aXN0cyA6PSBzLmVudHJ5TWFwW3Rhc2tJRF0KCXJldHVybiBleGlzdHMKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIFJ1bk5vdyh0YXNrSUQgdWludCkgZXJyb3IgewoJdmFyIHRhc2sgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ0YXNrLCB0YXNrSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJcmVxIDo9ICZFeGVjdXRpb25SZXF1ZXN0ewoJCVRhc2tJRDogICAgICB0YXNrSUQsCgkJVGFzazogICAgICAgICZ0YXNrLAoJCVRyaWdnZXJUeXBlOiBUcmlnZ2VyVHlwZU1hbnVhbCwKCQlSZXRyeUluZGV4OiAgMCwKCX0KCglpZiBlcnIgOj0gcy5FbnF1ZXVlKHJlcSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuVGFza3t9KS5XaGVyZSgiaWQgPSA/IEFORCBzdGF0dXMgIT0gPyIsIHRhc2tJRCwgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcpLlVwZGF0ZSgic3RhdHVzIiwgbW9kZWwuVGFza1N0YXR1c1F1ZXVlZCkKCXJldHVybiBuaWwKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIEdldFF1ZXVlTGVuZ3RoKCkgaW50IHsKCXJldHVybiBsZW4ocy50YXNrUXVldWUpCn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBHZXRSdW5uaW5nQ291bnQoKSBpbnQgewoJcy5ydW5uaW5nTG9jay5STG9jaygpCglkZWZlciBzLnJ1bm5pbmdMb2NrLlJVbmxvY2soKQoKCWNvdW50IDo9IDAKCWZvciBfLCBnb2lkcyA6PSByYW5nZSBzLnJ1bm5pbmdUYXNrcyB7CgkJY291bnQgKz0gbGVuKGdvaWRzKQoJfQoJcmV0dXJuIGNvdW50Cn0KCmZ1bmMgKHMgKlNjaGVkdWxlclYyKSBHZXRIYW5kbGVyKCkgU2NoZWR1bGVyRXZlbnRIYW5kbGVyIHsKCXJldHVybiBzLmhhbmRsZXIKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIEVucXVldWVTdGFydHVwVGFza3MoKSBpbnQgewoJaWYgcyA9PSBuaWwgewoJCXJldHVybiAwCgl9CgoJdG9kYXkgOj0gdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYtMDEtMDIiKQoJdmFyIHRhc2tzIFtdbW9kZWwuVGFzawoJZGF0YWJhc2UuREIuCgkJV2hlcmUoInN0YXR1cyA9ID8gQU5EIHRhc2tfdHlwZSA9ID8iLCBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwgbW9kZWwuVGFza1R5cGVTdGFydHVwKS4KCQkvLyDlvIDmnLrov5DooYzku7vliqHmjInigJzoh6rliqjop6blj5Hml6XmnJ/igJ3pmZDmtYHvvJrlkIzkuIDlpKnlj6roh6rliqjlhaXpmJ/kuIDmrKHvvIzmiYvliqjov5DooYzotbAgUnVuTm9377yM5LiN5Y+X6L+Z6YeM5b2x5ZON44CCCgkJV2hlcmUoImxhc3Rfc3RhcnR1cF9hdXRvX3J1bl9kYXRlIElTIE5VTEwgT1IgbGFzdF9zdGFydHVwX2F1dG9fcnVuX2RhdGUgPD4gPyIsIHRvZGF5KS4KCQlPcmRlcigic29ydF9vcmRlciBBU0MsIGNyZWF0ZWRfYXQgQVNDLCBpZCBBU0MiKS4KCQlGaW5kKCZ0YXNrcykKCgljb3VudCA6PSAwCglmb3IgaSA6PSByYW5nZSB0YXNrcyB7CgkJdGFzayA6PSB0YXNrc1tpXQoJCXJlcSA6PSAmRXhlY3V0aW9uUmVxdWVzdHsKCQkJVGFza0lEOiAgICAgIHRhc2suSUQsCgkJCVRhc2s6ICAgICAgICAmdGFzaywKCQkJVHJpZ2dlclR5cGU6IFRyaWdnZXJUeXBlU3RhcnR1cCwKCQkJUmV0cnlJbmRleDogIDAsCgkJfQoJCWlmIGVyciA6PSBzLkVucXVldWUocmVxKTsgZXJyICE9IG5pbCB7CgkJCWxvZy5QcmludGYoInN0YXJ0dXAgdGFzayAlZCBlbnF1ZXVlIGZhaWxlZDogJXYiLCB0YXNrLklELCBlcnIpCgkJCWNvbnRpbnVlCgkJfQoKCQl1cGRhdGVzIDo9IG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCSJsYXN0X3N0YXJ0dXBfYXV0b19ydW5fZGF0ZSI6IHRvZGF5LAoJCX0KCQlpZiB0YXNrLlN0YXR1cyAhPSBtb2RlbC5UYXNrU3RhdHVzUnVubmluZyB7CgkJCXVwZGF0ZXNbInN0YXR1cyJdID0gbW9kZWwuVGFza1N0YXR1c1F1ZXVlZAoJCX0KCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlRhc2t7fSkuV2hlcmUoImlkID0gPyIsIHRhc2suSUQpLlVwZGF0ZXModXBkYXRlcykuRXJyb3I7IGVyciAhPSBuaWwgewoJCQlsb2cuUHJpbnRmKCJzdGFydHVwIHRhc2sgJWQgbWFyayBhdXRvIHJ1biBkYXRlIGZhaWxlZDogJXYiLCB0YXNrLklELCBlcnIpCgkJfQoJCWNvdW50KysKCX0KCglyZXR1cm4gY291bnQKfQoKZnVuYyAocyAqU2NoZWR1bGVyVjIpIFJlbG9hZEFsbEpvYnMoKSB7CglzLmVudHJ5TG9jay5Mb2NrKCkKCWZvciB0YXNrSUQsIGVudHJ5SURzIDo9IHJhbmdlIHMuZW50cnlNYXAgewoJCWZvciBfLCBlbnRyeUlEIDo9IHJhbmdlIGVudHJ5SURzIHsKCQkJaWYgZW50cnlJRCAhPSAwIHsKCQkJCXMuY3Jvbi5SZW1vdmUoZW50cnlJRCkKCQkJfQoJCX0KCQlkZWxldGUocy5lbnRyeU1hcCwgdGFza0lEKQoJfQoJcy5lbnRyeUxvY2suVW5sb2NrKCkKCgl2YXIgdGFza3MgW11tb2RlbC5UYXNrCglkYXRhYmFzZS5EQi5XaGVyZSgic3RhdHVzID0gPyIsIG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkKS5GaW5kKCZ0YXNrcykKCglmb3IgaSA6PSByYW5nZSB0YXNrcyB7CgkJaWYgZXJyIDo9IHMuQWRkSm9iKCZ0YXNrc1tpXSk7IGVyciAhPSBuaWwgewoJCQlsb2cuUHJpbnRmKCJyZWxvYWQgam9iIGZhaWxlZCBmb3IgdGFzayAlZDogJXYiLCB0YXNrc1tpXS5JRCwgZXJyKQoJCX0KCX0KCglsb2cuUHJpbnRmKCJzY2hlZHVsZXIgcmVsb2FkZWQ6ICVkIGpvYnMiLCBsZW4odGFza3MpKQp9CgpmdW5jIGdldEdvcm91dGluZUlEKCkgaW50NjQgewoJcmV0dXJuIHRpbWUuTm93KCkuVW5peE5hbm8oKQp9Cg==
+package service
+
+import (
+	"fmt"
+	"log"
+	"sync"
+	"sync/atomic"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	panelcron "daidai-panel/pkg/cron"
+
+	"github.com/robfig/cron/v3"
+)
+
+type SchedulerConfig struct {
+	WorkerCount  int
+	QueueSize    int
+	RateInterval time.Duration
+}
+
+// ExecutionRequest.TriggerType 的取值，供调度器生产端与执行器闸门共用，避免字面量拼写漂移。
+const (
+	TriggerTypeCron    = "cron"
+	TriggerTypeManual  = "manual"
+	TriggerTypeStartup = "startup"
+)
+
+type ExecutionRequest struct {
+	TaskID      uint
+	Task        *model.Task
+	TriggerType string
+	RetryIndex  int
+	LogID       string
+	TaskLogID   uint
+	CommandPlan *CommandExecutionPlan
+}
+
+type ExecutionResult struct {
+	Success  bool
+	ExitCode int
+	Duration float64
+	Output   string
+	Error    error
+}
+
+type SchedulerEventHandler interface {
+	OnTaskScheduled(req *ExecutionRequest)
+	OnTaskExecuting(req *ExecutionRequest) error
+	OnTaskStarted(req *ExecutionRequest)
+	OnTaskCompleted(req *ExecutionRequest, result *ExecutionResult)
+	OnTaskFailed(req *ExecutionRequest, err error)
+}
+
+type SchedulerV2 struct {
+	config       SchedulerConfig
+	cron         *cron.Cron
+	entryMap     map[uint][]cron.EntryID
+	stopEntryMap map[uint][]cron.EntryID
+	entryLock    sync.RWMutex
+	taskQueue    chan *ExecutionRequest
+	rateLimiter  <-chan time.Time
+	stopCh       chan struct{}
+	wg           sync.WaitGroup
+	handler      SchedulerEventHandler
+	runningTasks map[uint][]int64
+	runningLock  sync.RWMutex
+	stopOnce     sync.Once
+	stopped      atomic.Bool
+}
+
+func NewSchedulerV2(config SchedulerConfig, handler SchedulerEventHandler) *SchedulerV2 {
+	if config.WorkerCount <= 0 {
+		config.WorkerCount = 4
+	}
+	if config.QueueSize <= 0 {
+		config.QueueSize = 100
+	}
+	if config.RateInterval <= 0 {
+		config.RateInterval = 200 * time.Millisecond
+	}
+
+	s := &SchedulerV2{
+		config:       config,
+		cron:         cron.New(cron.WithSeconds(), cron.WithChain(cron.Recover(cron.DefaultLogger))),
+		entryMap:     make(map[uint][]cron.EntryID),
+		stopEntryMap: make(map[uint][]cron.EntryID),
+		taskQueue:    make(chan *ExecutionRequest, config.QueueSize),
+		rateLimiter:  time.Tick(config.RateInterval),
+		stopCh:       make(chan struct{}),
+		handler:      handler,
+		runningTasks: make(map[uint][]int64),
+	}
+
+	return s
+}
+
+func (s *SchedulerV2) Start() {
+	for i := 0; i < s.config.WorkerCount; i++ {
+		s.wg.Add(1)
+		go s.worker(i)
+	}
+
+	s.cron.Start()
+	log.Printf("scheduler v2 started: %d workers, queue size %d", s.config.WorkerCount, s.config.QueueSize)
+}
+
+func (s *SchedulerV2) Stop() {
+	if s == nil {
+		return
+	}
+
+	s.stopOnce.Do(func() {
+		s.stopped.Store(true)
+
+		if s.cron != nil {
+			ctx := s.cron.Stop()
+			<-ctx.Done()
+		}
+
+		if s.stopCh != nil {
+			close(s.stopCh)
+		}
+
+		done := make(chan struct{})
+		go func() {
+			s.wg.Wait()
+			close(done)
+		}()
+
+		select {
+		case <-done:
+		case <-time.After(5 * time.Second):
+			log.Println("scheduler v2 stop timed out; continuing shutdown")
+		}
+
+		log.Println("scheduler v2 stopped")
+	})
+}
+
+func (s *SchedulerV2) worker(id int) {
+	defer s.wg.Done()
+
+	for {
+		if s.stopped.Load() {
+			return
+		}
+
+		select {
+		case <-s.stopCh:
+			return
+		case req := <-s.taskQueue:
+			if s.stopped.Load() {
+				return
+			}
+			select {
+			case <-s.stopCh:
+				return
+			case <-s.rateLimiter:
+			}
+			if s.stopped.Load() {
+				return
+			}
+			s.executeTask(req)
+		}
+	}
+}
+
+func (s *SchedulerV2) executeTask(req *ExecutionRequest) {
+	if !s.checkConcurrency(req) {
+		log.Printf("task %d: concurrency limit reached, skipping", req.TaskID)
+		return
+	}
+
+	goid := getGoroutineID()
+	s.addRunningTask(req.TaskID, goid)
+	defer s.removeRunningTask(req.TaskID, goid)
+
+	if s.handler != nil {
+		s.handler.OnTaskScheduled(req)
+	}
+
+	err := s.handler.OnTaskExecuting(req)
+	if err != nil {
+		if s.handler != nil {
+			s.handler.OnTaskFailed(req, err)
+		}
+		return
+	}
+
+	if s.handler != nil {
+		s.handler.OnTaskStarted(req)
+	}
+}
+
+func (s *SchedulerV2) checkConcurrency(req *ExecutionRequest) bool {
+	if req.Task.AllowMultipleInstances {
+		return true
+	}
+
+	s.runningLock.RLock()
+	defer s.runningLock.RUnlock()
+
+	goids, exists := s.runningTasks[req.TaskID]
+	return !exists || len(goids) == 0
+}
+
+func (s *SchedulerV2) addRunningTask(taskID uint, goid int64) {
+	s.runningLock.Lock()
+	defer s.runningLock.Unlock()
+
+	if s.runningTasks[taskID] == nil {
+		s.runningTasks[taskID] = []int64{}
+	}
+	s.runningTasks[taskID] = append(s.runningTasks[taskID], goid)
+}
+
+func (s *SchedulerV2) removeRunningTask(taskID uint, goid int64) {
+	s.runningLock.Lock()
+	defer s.runningLock.Unlock()
+
+	goids := s.runningTasks[taskID]
+	for i, id := range goids {
+		if id == goid {
+			s.runningTasks[taskID] = append(goids[:i], goids[i+1:]...)
+			break
+		}
+	}
+
+	if len(s.runningTasks[taskID]) == 0 {
+		delete(s.runningTasks, taskID)
+	}
+}
+
+func (s *SchedulerV2) Enqueue(req *ExecutionRequest) error {
+	if s == nil || s.stopped.Load() {
+		return fmt.Errorf("scheduler stopped")
+	}
+
+	select {
+	case s.taskQueue <- req:
+		return nil
+	default:
+		return fmt.Errorf("task queue is full")
+	}
+}
+
+func (s *SchedulerV2) EnqueueDelayed(delay time.Duration, reqFunc func() *ExecutionRequest) {
+	go func() {
+		time.Sleep(delay)
+		req := reqFunc()
+		if req != nil {
+			s.Enqueue(req)
+		}
+	}()
+}
+
+func (s *SchedulerV2) AddJob(task *model.Task) error {
+	s.entryLock.Lock()
+	defer s.entryLock.Unlock()
+
+	if oldIDs, exists := s.entryMap[task.ID]; exists {
+		for _, oldID := range oldIDs {
+			if oldID != 0 {
+				s.cron.Remove(oldID)
+			}
+		}
+		delete(s.entryMap, task.ID)
+	}
+
+	if task.Status != model.TaskStatusEnabled {
+		return nil
+	}
+	if !task.UsesCronSchedule() {
+		s.entryMap[task.ID] = []cron.EntryID{}
+		return nil
+	}
+
+	expressions := panelcron.SplitExpressions(task.CronExpression)
+	if len(expressions) == 0 {
+		return fmt.Errorf("invalid cron expression")
+	}
+
+	taskID := task.ID
+	entryIDs := make([]cron.EntryID, 0, len(expressions))
+	for _, expression := range expressions {
+		schedule, err := panelcron.ParseSchedule(expression)
+		if err != nil {
+			for _, entryID := range entryIDs {
+				s.cron.Remove(entryID)
+			}
+			return fmt.Errorf("invalid cron expression: %w", err)
+		}
+
+		entryID := s.cron.Schedule(schedule, cron.FuncJob(func() {
+			var t model.Task
+			database.DB.First(&t, taskID)
+			req := &ExecutionRequest{
+				TaskID:      taskID,
+				Task:        &t,
+				TriggerType: TriggerTypeCron,
+				RetryIndex:  0,
+			}
+			if err := s.Enqueue(req); err != nil {
+				log.Printf("task %d enqueue failed: %v", taskID, err)
+				return
+			}
+			database.DB.Model(&model.Task{}).Where("id = ? AND status != ?", taskID, model.TaskStatusRunning).Update("status", model.TaskStatusQueued)
+		}))
+		entryIDs = append(entryIDs, entryID)
+	}
+
+	s.entryMap[task.ID] = entryIDs
+
+	if oldStopIDs, exists := s.stopEntryMap[task.ID]; exists {
+		for _, id := range oldStopIDs {
+			if id != 0 {
+				s.cron.Remove(id)
+			}
+		}
+		delete(s.stopEntryMap, task.ID)
+	}
+	if task.StopSchedule != "" {
+		stopExprs := panelcron.SplitExpressions(task.StopSchedule)
+		stopIDs := make([]cron.EntryID, 0, len(stopExprs))
+		for _, expr := range stopExprs {
+			schedule, err := panelcron.ParseSchedule(expr)
+			if err != nil {
+				continue
+			}
+			stopID := s.cron.Schedule(schedule, cron.FuncJob(func() {
+				s.stopTaskBySchedule(taskID)
+			}))
+			stopIDs = append(stopIDs, stopID)
+		}
+		if len(stopIDs) > 0 {
+			s.stopEntryMap[task.ID] = stopIDs
+		}
+	}
+
+	return nil
+}
+
+func (s *SchedulerV2) stopTaskBySchedule(taskID uint) {
+	executor := GetTaskExecutor()
+	if executor != nil {
+		executor.StopTask(taskID)
+	}
+
+	var task model.Task
+	if database.DB.First(&task, taskID).Error != nil {
+		return
+	}
+	if task.PID != nil && *task.PID > 0 {
+		// 定时停止按 PID 兜底时也要先打停止标记，避免被结算成普通脚本失败。
+		markManualStop(taskID)
+		KillProcessByPid(*task.PID)
+	}
+	if task.Status == model.TaskStatusRunning {
+		inactiveStatus := ResolveTaskInactiveStatus(&task)
+		database.DB.Model(&task).Updates(map[string]interface{}{
+			"status":          inactiveStatus,
+			"last_run_status": model.RunAborted,
+			"pid":             nil,
+			"log_path":        nil,
+		})
+		stopLogStatus := model.LogStatusAborted
+		var runningLog model.TaskLog
+		if err := database.DB.Where("task_id = ? AND status = ?", taskID, model.LogStatusRunning).
+			Order("started_at DESC").First(&runningLog).Error; err == nil {
+			now := time.Now()
+			duration := now.Sub(runningLog.StartedAt).Seconds()
+			if duration < 0 {
+				duration = 0
+			}
+			// 定时停止也先把运行中日志收口；如果执行器随后完成，会按 Aborted 同一口径再次写入，不会冲突。
+			database.DB.Model(&runningLog).Updates(map[string]interface{}{
+				"status":   stopLogStatus,
+				"ended_at": now,
+				"duration": duration,
+			})
+			// 如果执行器没有机会回写，任务详情也能立刻看到“已终止”和本次耗时。
+			database.DB.Model(&task).Updates(map[string]interface{}{
+				"last_run_status":   model.RunAborted,
+				"last_running_time": duration,
+			})
+		}
+		log.Printf("task %d stopped by scheduled stop rule", taskID)
+	}
+}
+
+func (s *SchedulerV2) UpdateJob(task *model.Task) error {
+	return s.AddJob(task)
+}
+
+func (s *SchedulerV2) RemoveJob(taskID uint) {
+	s.entryLock.Lock()
+	defer s.entryLock.Unlock()
+
+	if entryIDs, exists := s.entryMap[taskID]; exists {
+		for _, entryID := range entryIDs {
+			if entryID != 0 {
+				s.cron.Remove(entryID)
+			}
+		}
+		delete(s.entryMap, taskID)
+	}
+	if stopIDs, exists := s.stopEntryMap[taskID]; exists {
+		for _, id := range stopIDs {
+			if id != 0 {
+				s.cron.Remove(id)
+			}
+		}
+		delete(s.stopEntryMap, taskID)
+	}
+}
+
+func (s *SchedulerV2) HasJob(taskID uint) bool {
+	if s == nil {
+		return false
+	}
+
+	s.entryLock.RLock()
+	defer s.entryLock.RUnlock()
+
+	_, exists := s.entryMap[taskID]
+	return exists
+}
+
+func (s *SchedulerV2) RunNow(taskID uint) error {
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		return err
+	}
+
+	req := &ExecutionRequest{
+		TaskID:      taskID,
+		Task:        &task,
+		TriggerType: TriggerTypeManual,
+		RetryIndex:  0,
+	}
+
+	if err := s.Enqueue(req); err != nil {
+		return err
+	}
+
+	database.DB.Model(&model.Task{}).Where("id = ? AND status != ?", taskID, model.TaskStatusRunning).Update("status", model.TaskStatusQueued)
+	return nil
+}
+
+func (s *SchedulerV2) GetQueueLength() int {
+	return len(s.taskQueue)
+}
+
+func (s *SchedulerV2) GetRunningCount() int {
+	s.runningLock.RLock()
+	defer s.runningLock.RUnlock()
+
+	count := 0
+	for _, goids := range s.runningTasks {
+		count += len(goids)
+	}
+	return count
+}
+
+func (s *SchedulerV2) GetHandler() SchedulerEventHandler {
+	return s.handler
+}
+
+func (s *SchedulerV2) EnqueueStartupTasks() int {
+	if s == nil {
+		return 0
+	}
+
+	today := time.Now().Format("2006-01-02")
+	var tasks []model.Task
+	database.DB.
+		Where("status = ? AND task_type = ?", model.TaskStatusEnabled, model.TaskTypeStartup).
+		// 开机运行任务按“自动触发日期”限流：同一天只自动入队一次，手动运行走 RunNow，不受这里影响。
+		Where("last_startup_auto_run_date IS NULL OR last_startup_auto_run_date <> ?", today).
+		Order("sort_order ASC, created_at ASC, id ASC").
+		Find(&tasks)
+
+	count := 0
+	for i := range tasks {
+		task := tasks[i]
+		req := &ExecutionRequest{
+			TaskID:      task.ID,
+			Task:        &task,
+			TriggerType: TriggerTypeStartup,
+			RetryIndex:  0,
+		}
+		if err := s.Enqueue(req); err != nil {
+			log.Printf("startup task %d enqueue failed: %v", task.ID, err)
+			continue
+		}
+
+		updates := map[string]interface{}{
+			"last_startup_auto_run_date": today,
+		}
+		if task.Status != model.TaskStatusRunning {
+			updates["status"] = model.TaskStatusQueued
+		}
+		if err := database.DB.Model(&model.Task{}).Where("id = ?", task.ID).Updates(updates).Error; err != nil {
+			log.Printf("startup task %d mark auto run date failed: %v", task.ID, err)
+		}
+		count++
+	}
+
+	return count
+}
+
+func (s *SchedulerV2) ReloadAllJobs() {
+	s.entryLock.Lock()
+	for taskID, entryIDs := range s.entryMap {
+		for _, entryID := range entryIDs {
+			if entryID != 0 {
+				s.cron.Remove(entryID)
+			}
+		}
+		delete(s.entryMap, taskID)
+	}
+	s.entryLock.Unlock()
+
+	var tasks []model.Task
+	database.DB.Where("status = ?", model.TaskStatusEnabled).Find(&tasks)
+
+	for i := range tasks {
+		if err := s.AddJob(&tasks[i]); err != nil {
+			log.Printf("reload job failed for task %d: %v", tasks[i].ID, err)
+		}
+	}
+
+	log.Printf("scheduler reloaded: %d jobs", len(tasks))
+}
+
+func getGoroutineID() int64 {
+	return time.Now().UnixNano()
+}

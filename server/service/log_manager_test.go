@@ -1,1 +1,101 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvbW9kZWwiCikKCmZ1bmMgVGVzdEdldFJlbGF0aXZlTG9nUGF0aEZvclRhc2tVc2VzUmVhZGFibGVTYWZlRGlyZWN0b3J5KHQgKnRlc3RpbmcuVCkgewoJdGFzayA6PSAmbW9kZWwuVGFza3sKCQlJRDogICAgICAxMiwKCQlOYW1lOiAgICAi5Lqs5LicIOetvuWIsC/mtYvor5U6Kj8iLAoJCUNvbW1hbmQ6ICJ0YXNrIHNjcmlwdHMvamQucHkiLAoJfQoKCWdvdCA6PSBHZXRSZWxhdGl2ZUxvZ1BhdGhGb3JUYXNrKHRhc2spCglkaXIgOj0gc3RyaW5ncy5TcGxpdChmaWxlcGF0aC5Ub1NsYXNoKGdvdCksICIvIilbMF0KCglpZiAhc3RyaW5ncy5IYXNQcmVmaXgoZGlyLCAidGFza18xMl8iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlYWRhYmxlIHRhc2sgZGlyIHByZWZpeCwgZ290ICVxIiwgZGlyKQoJfQoJaWYgc3RyaW5ncy5Db250YWluc0FueShkaXIsIGA8PjoiL1x8PypgKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVuc2FmZSBmaWxlc3lzdGVtIGNoYXJzIHRvIGJlIHJlbW92ZWQsIGdvdCAlcSIsIGRpcikKCX0KCWlmIHN0cmluZ3MuQ29udGFpbnMoZGlyLCAiICIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3BhY2VzIHRvIGJlIG5vcm1hbGl6ZWQsIGdvdCAlcSIsIGRpcikKCX0KfQoKZnVuYyBUZXN0R2V0UmVsYXRpdmVMb2dQYXRoRm9yVGFza0ZhbGxzQmFja1RvU2NyaXB0TmFtZSh0ICp0ZXN0aW5nLlQpIHsKCXRhc2sgOj0gJm1vZGVsLlRhc2t7CgkJSUQ6ICAgICAgOCwKCQlOYW1lOiAgICAiICAiLAoJCUNvbW1hbmQ6ICJ0YXNrIHNjcmlwdHMvbXkgam9iLnB5IiwKCX0KCglnb3QgOj0gR2V0UmVsYXRpdmVMb2dQYXRoRm9yVGFzayh0YXNrKQoJZGlyIDo9IHN0cmluZ3MuU3BsaXQoZmlsZXBhdGguVG9TbGFzaChnb3QpLCAiLyIpWzBdCgoJaWYgIXN0cmluZ3MuSGFzUHJlZml4KGRpciwgInRhc2tfOF9teV9qb2IucHkiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNjcmlwdCBuYW1lIGZhbGxiYWNrLCBnb3QgJXEiLCBkaXIpCgl9Cn0KCmZ1bmMgVGVzdExpc3RMb2dGaWxlc1JlYWRzUmVhZGFibGVBbmRMZWdhY3lUYXNrRGlycyh0ICp0ZXN0aW5nLlQpIHsKCWxvZ0RpciA6PSB0LlRlbXBEaXIoKQoJd3JpdGVUZXN0TG9nKHQsIGxvZ0RpciwgInRhc2tfN1/nrb7liLDku7vliqEiLCAibmV3LmxvZyIsICJuZXciKQoJd3JpdGVUZXN0TG9nKHQsIGxvZ0RpciwgInRhc2tfNyIsICJsZWdhY3kubG9nIiwgImxlZ2FjeSIpCgl3cml0ZVRlc3RMb2codCwgbG9nRGlyLCAidGFza183MV/lhbbku5bku7vliqEiLCAid3JvbmcubG9nIiwgIndyb25nIikKCglmaWxlcyA6PSBMaXN0TG9nRmlsZXMoNywgbG9nRGlyKQoJaWYgbGVuKGZpbGVzKSAhPSAyIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMiB0YXNrIGxvZ3MsIGdvdCAlZDogJSN2IiwgbGVuKGZpbGVzKSwgZmlsZXMpCgl9CgoJcGF0aHMgOj0gbWFwW3N0cmluZ11ib29se30KCWZvciBfLCBmaWxlIDo9IHJhbmdlIGZpbGVzIHsKCQlwYXRoc1tmaWxlLlBhdGhdID0gdHJ1ZQoJfQoJaWYgIXBhdGhzWyJ0YXNrXzdf562+5Yiw5Lu75YqhL25ldy5sb2ciXSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlYWRhYmxlIGxvZyBkaXIgdG8gYmUgbGlzdGVkLCBnb3QgJSN2IiwgcGF0aHMpCgl9CglpZiAhcGF0aHNbInRhc2tfNy9sZWdhY3kubG9nIl0gewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsZWdhY3kgbG9nIGRpciB0byBiZSBsaXN0ZWQsIGdvdCAlI3YiLCBwYXRocykKCX0KCWlmIHBhdGhzWyJ0YXNrXzcxX+WFtuS7luS7u+WKoS93cm9uZy5sb2ciXSB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IGFub3RoZXIgdGFzayBpZCB0byBiZSBsaXN0ZWQsIGdvdCAlI3YiLCBwYXRocykKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZVRhc2tMb2dQYXRoU3VwcG9ydHNGdWxsUGF0aEFuZFJlamVjdHNPdGhlclRhc2sodCAqdGVzdGluZy5UKSB7Cglsb2dEaXIgOj0gdC5UZW1wRGlyKCkKCXdyaXRlVGVzdExvZyh0LCBsb2dEaXIsICJ0YXNrXzdf562+5Yiw5Lu75YqhIiwgInJ1bi5sb2ciLCAibmV3IikKCXdyaXRlVGVzdExvZyh0LCBsb2dEaXIsICJ0YXNrXzcxX+WFtuS7luS7u+WKoSIsICJydW4ubG9nIiwgIndyb25nIikKCglnb3QsIGVyciA6PSBSZXNvbHZlVGFza0xvZ1BhdGgoNywgInRhc2tfN1/nrb7liLDku7vliqEvcnVuLmxvZyIsIGxvZ0RpcikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZXNvbHZlIGZ1bGwgcGF0aDogJXYiLCBlcnIpCgl9CglpZiBnb3QgIT0gInRhc2tfN1/nrb7liLDku7vliqEvcnVuLmxvZyIgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIHBhdGg6ICVxIiwgZ290KQoJfQoKCWlmIF8sIGVyciA6PSBSZXNvbHZlVGFza0xvZ1BhdGgoNywgInRhc2tfNzFf5YW25LuW5Lu75YqhL3J1bi5sb2ciLCBsb2dEaXIpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYW5vdGhlciB0YXNrIGlkIHBhdGggdG8gYmUgcmVqZWN0ZWQiKQoJfQp9CgpmdW5jIHdyaXRlVGVzdExvZyh0ICp0ZXN0aW5nLlQsIGxvZ0RpciwgdGFza0RpciwgbmFtZSwgY29udGVudCBzdHJpbmcpIHsKCXQuSGVscGVyKCkKCWRpciA6PSBmaWxlcGF0aC5Kb2luKGxvZ0RpciwgdGFza0RpcikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChkaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyICVzOiAldiIsIGRpciwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKGRpciwgbmFtZSksIFtdYnl0ZShjb250ZW50KSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgbG9nOiAldiIsIGVycikKCX0KfQo=
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/model"
+)
+
+func TestGetRelativeLogPathForTaskUsesReadableSafeDirectory(t *testing.T) {
+	task := &model.Task{
+		ID:      12,
+		Name:    "京东 签到/测试:*?",
+		Command: "task scripts/jd.py",
+	}
+
+	got := GetRelativeLogPathForTask(task)
+	dir := strings.Split(filepath.ToSlash(got), "/")[0]
+
+	if !strings.HasPrefix(dir, "task_12_") {
+		t.Fatalf("expected readable task dir prefix, got %q", dir)
+	}
+	if strings.ContainsAny(dir, `<>:"/\|?*`) {
+		t.Fatalf("expected unsafe filesystem chars to be removed, got %q", dir)
+	}
+	if strings.Contains(dir, " ") {
+		t.Fatalf("expected spaces to be normalized, got %q", dir)
+	}
+}
+
+func TestGetRelativeLogPathForTaskFallsBackToScriptName(t *testing.T) {
+	task := &model.Task{
+		ID:      8,
+		Name:    "  ",
+		Command: "task scripts/my job.py",
+	}
+
+	got := GetRelativeLogPathForTask(task)
+	dir := strings.Split(filepath.ToSlash(got), "/")[0]
+
+	if !strings.HasPrefix(dir, "task_8_my_job.py") {
+		t.Fatalf("expected script name fallback, got %q", dir)
+	}
+}
+
+func TestListLogFilesReadsReadableAndLegacyTaskDirs(t *testing.T) {
+	logDir := t.TempDir()
+	writeTestLog(t, logDir, "task_7_签到任务", "new.log", "new")
+	writeTestLog(t, logDir, "task_7", "legacy.log", "legacy")
+	writeTestLog(t, logDir, "task_71_其他任务", "wrong.log", "wrong")
+
+	files := ListLogFiles(7, logDir)
+	if len(files) != 2 {
+		t.Fatalf("expected 2 task logs, got %d: %#v", len(files), files)
+	}
+
+	paths := map[string]bool{}
+	for _, file := range files {
+		paths[file.Path] = true
+	}
+	if !paths["task_7_签到任务/new.log"] {
+		t.Fatalf("expected readable log dir to be listed, got %#v", paths)
+	}
+	if !paths["task_7/legacy.log"] {
+		t.Fatalf("expected legacy log dir to be listed, got %#v", paths)
+	}
+	if paths["task_71_其他任务/wrong.log"] {
+		t.Fatalf("did not expect another task id to be listed, got %#v", paths)
+	}
+}
+
+func TestResolveTaskLogPathSupportsFullPathAndRejectsOtherTask(t *testing.T) {
+	logDir := t.TempDir()
+	writeTestLog(t, logDir, "task_7_签到任务", "run.log", "new")
+	writeTestLog(t, logDir, "task_71_其他任务", "run.log", "wrong")
+
+	got, err := ResolveTaskLogPath(7, "task_7_签到任务/run.log", logDir)
+	if err != nil {
+		t.Fatalf("resolve full path: %v", err)
+	}
+	if got != "task_7_签到任务/run.log" {
+		t.Fatalf("unexpected path: %q", got)
+	}
+
+	if _, err := ResolveTaskLogPath(7, "task_71_其他任务/run.log", logDir); err == nil {
+		t.Fatalf("expected another task id path to be rejected")
+	}
+}
+
+func writeTestLog(t *testing.T, logDir, taskDir, name, content string) {
+	t.Helper()
+	dir := filepath.Join(logDir, taskDir)
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		t.Fatalf("mkdir %s: %v", dir, err)
+	}
+	if err := os.WriteFile(filepath.Join(dir, name), []byte(content), 0o644); err != nil {
+		t.Fatalf("write log: %v", err)
+	}
+}

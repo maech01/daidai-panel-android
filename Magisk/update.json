@@ -1,1 +1,6 @@
-ewogICJ2ZXJzaW9uIjogInYyLjMuOSIsCiAgInZlcnNpb25Db2RlIjogMjAzMDksCiAgInppcFVybCI6ICJodHRwczovL2dpdGh1Yi5jb20vbGlueml4dWFuenovZGFpZGFpLXBhbmVsL3JlbGVhc2VzL2Rvd25sb2FkL3YyLjMuOS9kYWlkYWktcGFuZWwtbWFnaXNrLXYyLjMuOS56aXAiLAogICJjaGFuZ2Vsb2ciOiAiaHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2xpbnppeHVhbnp6L2RhaWRhaS1wYW5lbC9tYWluL2RvY3MvcmVsZWFzZS1ub3Rlcy92Mi4zLjkubWQiCn0K
+{
+  "version": "v2.3.9",
+  "versionCode": 20309,
+  "zipUrl": "https://github.com/linzixuanzz/daidai-panel/releases/download/v2.3.9/daidai-panel-magisk-v2.3.9.zip",
+  "changelog": "https://raw.githubusercontent.com/linzixuanzz/daidai-panel/main/docs/release-notes/v2.3.9.md"
+}

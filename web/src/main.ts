@@ -1,1 +1,161 @@
-aW1wb3J0IHsgY3JlYXRlQXBwIH0gZnJvbSAidnVlIjsKaW1wb3J0IHsgY3JlYXRlUGluaWEgfSBmcm9tICJwaW5pYSI7CmltcG9ydCAiZWxlbWVudC1wbHVzL3RoZW1lLWNoYWxrL2RhcmsvY3NzLXZhcnMuY3NzIjsKaW1wb3J0ICJlbGVtZW50LXBsdXMvdGhlbWUtY2hhbGsvZWwtbG9hZGluZy5jc3MiOwppbXBvcnQgImVsZW1lbnQtcGx1cy90aGVtZS1jaGFsay9lbC1tZXNzYWdlLmNzcyI7CmltcG9ydCAiZWxlbWVudC1wbHVzL3RoZW1lLWNoYWxrL2VsLW1lc3NhZ2UtYm94LmNzcyI7CmltcG9ydCB7CiAgQXJyb3dMZWZ0LAogIEFycm93UmlnaHQsCiAgQmVsbCwKICBCb3gsCiAgQ2hlY2ssCiAgQ2lyY2xlQ2hlY2ssCiAgQ2lyY2xlQ2hlY2tGaWxsZWQsCiAgQ2lyY2xlQ2xvc2UsCiAgQ2xvY2ssCiAgQ2xvc2UsCiAgQ29ubmVjdGlvbiwKICBDb3B5RG9jdW1lbnQsCiAgRGVsZXRlLAogIERvY3VtZW50LAogIERvY3VtZW50QWRkLAogIERvY3VtZW50Q29weSwKICBEb3dubG9hZCwKICBFZGl0LAogIEV4cGFuZCwKICBGb2xkLAogIEZvbGRlciwKICBGb2xkZXJBZGQsCiAgSGlkZSwKICBJbmZvRmlsbGVkLAogIEtleSwKICBMb2NrLAogIE1lbnUsCiAgTW9uaXRvciwKICBNb29uLAogIE1vcmUsCiAgTW9yZUZpbGxlZCwKICBPZG9tZXRlciwKICBPcGVyYXRpb24sCiAgUGx1cywKICBSYW5rLAogIFJlZnJlc2gsCiAgUmVmcmVzaFJpZ2h0LAogIFNlYXJjaCwKICBTZXR0aW5nLAogIFNldFVwLAogIFNvcnQsCiAgU3RhciwKICBTdW5ueSwKICBUaWNrZXRzLAogIFRpbWVyLAogIFRvcCwKICBVbmxvY2ssCiAgVXBsb2FkLAogIFVzZXIsCiAgVXNlckZpbGxlZCwKICBWaWRlb1BhdXNlLAogIFZpZGVvUGxheSwKICBWaWV3LAp9IGZyb20gIkBlbGVtZW50LXBsdXMvaWNvbnMtdnVlIjsKaW1wb3J0IEFwcCBmcm9tICIuL0FwcC52dWUiOwppbXBvcnQgTG9hZGluZ01vdGlvbiBmcm9tICIuL2NvbXBvbmVudHMvTG9hZGluZ01vdGlvbi52dWUiOwppbXBvcnQgcm91dGVyIGZyb20gIi4vcm91dGVyIjsKaW1wb3J0IHsgZmV0Y2hBbmRBcHBseVBhbmVsQXBwZWFyYW5jZSB9IGZyb20gIi4vdXRpbHMvcGFuZWxBcHBlYXJhbmNlIjsKaW1wb3J0ICIuL3N0eWxlcy9nbG9iYWwuc2NzcyI7CmltcG9ydCAiLi9zdHlsZXMvYW5pbWF0aW9ucy5jc3MiOwppbXBvcnQgIi4vc3R5bGVzL3Zpc3VhbC1lbmhhbmNlbWVudHMuY3NzIjsKCi8vIEVkZ2UgLyBDaHJvbWl1bSDlnKjnqpflj6PmnIDlsI/ljJblkI7vvIzlpoLmnpzlvLnnqpfjgIHnvJbovpHlmajmiJbnrKzkuInmlrnnu4Tku7blu7bov5/osIPnlKggZm9jdXMoKe+8jAovLyDlj6/og73kvJrmiorlt7Lnu4/mnIDlsI/ljJbnmoTmtY/op4jlmajnqpflj6Pph43mlrDmi4nlm57liY3lj7DjgILpnaLmnb/lkI7lj7DkuI3lj6/op4Hml7bkuI3pnIDopoHmiqLnhKbngrnvvIwKLy8g5omA5Lul57uf5LiA5oum5oiq5ZCO5Y+w54q25oCB5LiL55qE56iL5bqP5YyW6IGa54Sm77yM6YG/5YWN55So5oi354K55Ye75pyA5bCP5YyW5ZCO56qX5Y+j5Y+I6Zeq5Zue44CCCmNvbnN0IGRhaWRhaVdpbmRvdyA9IHdpbmRvdyBhcyBXaW5kb3cgJiB7CiAgX19EQUlEQUlfU0FGRV9GT0NVU19QQVRDSEVEX18/OiBib29sZWFuOwp9OwoKaWYgKCFkYWlkYWlXaW5kb3cuX19EQUlEQUlfU0FGRV9GT0NVU19QQVRDSEVEX18pIHsKICBkYWlkYWlXaW5kb3cuX19EQUlEQUlfU0FGRV9GT0NVU19QQVRDSEVEX18gPSB0cnVlOwogIGNvbnN0IHJhd0hUTUxFbGVtZW50Rm9jdXMgPSBIVE1MRWxlbWVudC5wcm90b3R5cGUuZm9jdXM7CgogIEhUTUxFbGVtZW50LnByb3RvdHlwZS5mb2N1cyA9IGZ1bmN0aW9uIHNhZmVGb2N1cygKICAgIHRoaXM6IEhUTUxFbGVtZW50LAogICAgb3B0aW9ucz86IEZvY3VzT3B0aW9ucywKICApIHsKICAgIGlmIChkb2N1bWVudC52aXNpYmlsaXR5U3RhdGUgPT09ICJoaWRkZW4iIHx8ICFkb2N1bWVudC5oYXNGb2N1cygpKSB7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICByYXdIVE1MRWxlbWVudEZvY3VzLmNhbGwodGhpcywgb3B0aW9ucyk7CiAgfTsKfQoKY29uc3QgYXBwID0gY3JlYXRlQXBwKEFwcCk7CgphcHAudXNlKGNyZWF0ZVBpbmlhKCkpOwphcHAudXNlKHJvdXRlcik7CmFwcC5jb21wb25lbnQoIkxvYWRpbmdNb3Rpb24iLCBMb2FkaW5nTW90aW9uKTsKCnZvaWQgZmV0Y2hBbmRBcHBseVBhbmVsQXBwZWFyYW5jZSgpOwoKY29uc3QgZ2xvYmFsSWNvbnMgPSB7CiAgQXJyb3dMZWZ0LAogIEFycm93UmlnaHQsCiAgQmVsbCwKICBCb3gsCiAgQ2hlY2ssCiAgQ2lyY2xlQ2hlY2ssCiAgQ2lyY2xlQ2hlY2tGaWxsZWQsCiAgQ2lyY2xlQ2xvc2UsCiAgQ2xvY2ssCiAgQ2xvc2UsCiAgQ29ubmVjdGlvbiwKICBDb3B5RG9jdW1lbnQsCiAgRGVsZXRlLAogIERvY3VtZW50LAogIERvY3VtZW50QWRkLAogIERvY3VtZW50Q29weSwKICBEb3dubG9hZCwKICBFZGl0LAogIEV4cGFuZCwKICBGb2xkLAogIEZvbGRlciwKICBGb2xkZXJBZGQsCiAgSGlkZSwKICBJbmZvRmlsbGVkLAogIEtleSwKICBMb2NrLAogIE1lbnUsCiAgTW9uaXRvciwKICBNb29uLAogIE1vcmUsCiAgTW9yZUZpbGxlZCwKICBPZG9tZXRlciwKICBPcGVyYXRpb24sCiAgUGx1cywKICBSYW5rLAogIFJlZnJlc2gsCiAgUmVmcmVzaFJpZ2h0LAogIFNlYXJjaCwKICBTZXR0aW5nLAogIFNldFVwLAogIFNvcnQsCiAgU3RhciwKICBTdW5ueSwKICBUaWNrZXRzLAogIFRpbWVyLAogIFRvcCwKICBVbmxvY2ssCiAgVXBsb2FkLAogIFVzZXIsCiAgVXNlckZpbGxlZCwKICBWaWRlb1BhdXNlLAogIFZpZGVvUGxheSwKICBWaWV3LAp9OwoKZm9yIChjb25zdCBba2V5LCBjb21wb25lbnRdIG9mIE9iamVjdC5lbnRyaWVzKGdsb2JhbEljb25zKSkgewogIGFwcC5jb21wb25lbnQoa2V5LCBjb21wb25lbnQpOwp9CgphcHAubW91bnQoIiNhcHAiKTsK
+import { createApp } from "vue";
+import { createPinia } from "pinia";
+import "element-plus/theme-chalk/dark/css-vars.css";
+import "element-plus/theme-chalk/el-loading.css";
+import "element-plus/theme-chalk/el-message.css";
+import "element-plus/theme-chalk/el-message-box.css";
+import {
+  ArrowLeft,
+  ArrowRight,
+  Bell,
+  Box,
+  Check,
+  CircleCheck,
+  CircleCheckFilled,
+  CircleClose,
+  Clock,
+  Close,
+  Connection,
+  CopyDocument,
+  Delete,
+  Document,
+  DocumentAdd,
+  DocumentCopy,
+  Download,
+  Edit,
+  Expand,
+  Fold,
+  Folder,
+  FolderAdd,
+  Hide,
+  InfoFilled,
+  Key,
+  Lock,
+  Menu,
+  Monitor,
+  Moon,
+  More,
+  MoreFilled,
+  Odometer,
+  Operation,
+  Plus,
+  Rank,
+  Refresh,
+  RefreshRight,
+  Search,
+  Setting,
+  SetUp,
+  Sort,
+  Star,
+  Sunny,
+  Tickets,
+  Timer,
+  Top,
+  Unlock,
+  Upload,
+  User,
+  UserFilled,
+  VideoPause,
+  VideoPlay,
+  View,
+} from "@element-plus/icons-vue";
+import App from "./App.vue";
+import LoadingMotion from "./components/LoadingMotion.vue";
+import router from "./router";
+import { fetchAndApplyPanelAppearance } from "./utils/panelAppearance";
+import "./styles/global.scss";
+import "./styles/animations.css";
+import "./styles/visual-enhancements.css";
+
+// Edge / Chromium 在窗口最小化后，如果弹窗、编辑器或第三方组件延迟调用 focus()，
+// 可能会把已经最小化的浏览器窗口重新拉回前台。面板后台不可见时不需要抢焦点，
+// 所以统一拦截后台状态下的程序化聚焦，避免用户点击最小化后窗口又闪回。
+const daidaiWindow = window as Window & {
+  __DAIDAI_SAFE_FOCUS_PATCHED__?: boolean;
+};
+
+if (!daidaiWindow.__DAIDAI_SAFE_FOCUS_PATCHED__) {
+  daidaiWindow.__DAIDAI_SAFE_FOCUS_PATCHED__ = true;
+  const rawHTMLElementFocus = HTMLElement.prototype.focus;
+
+  HTMLElement.prototype.focus = function safeFocus(
+    this: HTMLElement,
+    options?: FocusOptions,
+  ) {
+    if (document.visibilityState === "hidden" || !document.hasFocus()) {
+      return;
+    }
+
+    rawHTMLElementFocus.call(this, options);
+  };
+}
+
+const app = createApp(App);
+
+app.use(createPinia());
+app.use(router);
+app.component("LoadingMotion", LoadingMotion);
+
+void fetchAndApplyPanelAppearance();
+
+const globalIcons = {
+  ArrowLeft,
+  ArrowRight,
+  Bell,
+  Box,
+  Check,
+  CircleCheck,
+  CircleCheckFilled,
+  CircleClose,
+  Clock,
+  Close,
+  Connection,
+  CopyDocument,
+  Delete,
+  Document,
+  DocumentAdd,
+  DocumentCopy,
+  Download,
+  Edit,
+  Expand,
+  Fold,
+  Folder,
+  FolderAdd,
+  Hide,
+  InfoFilled,
+  Key,
+  Lock,
+  Menu,
+  Monitor,
+  Moon,
+  More,
+  MoreFilled,
+  Odometer,
+  Operation,
+  Plus,
+  Rank,
+  Refresh,
+  RefreshRight,
+  Search,
+  Setting,
+  SetUp,
+  Sort,
+  Star,
+  Sunny,
+  Tickets,
+  Timer,
+  Top,
+  Unlock,
+  Upload,
+  User,
+  UserFilled,
+  VideoPause,
+  VideoPlay,
+  View,
+};
+
+for (const [key, component] of Object.entries(globalIcons)) {
+  app.component(key, component);
+}
+
+app.mount("#app");

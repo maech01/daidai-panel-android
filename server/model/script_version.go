@@ -1,1 +1,35 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIFNjcmlwdFZlcnNpb24gc3RydWN0IHsKCUlEICAgICAgICAgdWludCAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglTY3JpcHRQYXRoIHN0cmluZyAgICBgZ29ybToic2l6ZTo1MTI7aW5kZXg7bm90IG51bGwiIGpzb246InNjcmlwdF9wYXRoImAKCUNvbnRlbnQgICAgc3RyaW5nICAgIGBnb3JtOiJ0eXBlOnRleHQ7bm90IG51bGwiIGpzb246Ii0iYAoJVmVyc2lvbiAgICBpbnQgICAgICAgYGdvcm06ImRlZmF1bHQ6MTtub3QgbnVsbCIganNvbjoidmVyc2lvbiJgCglNZXNzYWdlICAgIHN0cmluZyAgICBgZ29ybToic2l6ZToyNTY7ZGVmYXVsdDonJyIganNvbjoibWVzc2FnZSJgCglDcmVhdGVkQXQgIHRpbWUuVGltZSBganNvbjoiY3JlYXRlZF9hdCJgCn0KCmZ1bmMgKFNjcmlwdFZlcnNpb24pIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInNjcmlwdF92ZXJzaW9ucyIKfQoKZnVuYyAodiAqU2NyaXB0VmVyc2lvbikgVG9EaWN0KCkgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7CglyZXR1cm4gbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkiaWQiOiAgICAgICAgICAgICB2LklELAoJCSJzY3JpcHRfcGF0aCI6ICAgIHYuU2NyaXB0UGF0aCwKCQkidmVyc2lvbiI6ICAgICAgICB2LlZlcnNpb24sCgkJIm1lc3NhZ2UiOiAgICAgICAgdi5NZXNzYWdlLAoJCSJjb250ZW50X2xlbmd0aCI6IGxlbih2LkNvbnRlbnQpLAoJCSJjcmVhdGVkX2F0IjogICAgIHYuQ3JlYXRlZEF0LAoJfQp9CgpmdW5jICh2ICpTY3JpcHRWZXJzaW9uKSBUb0RpY3RXaXRoQ29udGVudCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmVzdWx0IDo9IHYuVG9EaWN0KCkKCXJlc3VsdFsiY29udGVudCJdID0gdi5Db250ZW50CglyZXR1cm4gcmVzdWx0Cn0K
+package model
+
+import (
+	"time"
+)
+
+type ScriptVersion struct {
+	ID         uint      `gorm:"primarykey" json:"id"`
+	ScriptPath string    `gorm:"size:512;index;not null" json:"script_path"`
+	Content    string    `gorm:"type:text;not null" json:"-"`
+	Version    int       `gorm:"default:1;not null" json:"version"`
+	Message    string    `gorm:"size:256;default:''" json:"message"`
+	CreatedAt  time.Time `json:"created_at"`
+}
+
+func (ScriptVersion) TableName() string {
+	return "script_versions"
+}
+
+func (v *ScriptVersion) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":             v.ID,
+		"script_path":    v.ScriptPath,
+		"version":        v.Version,
+		"message":        v.Message,
+		"content_length": len(v.Content),
+		"created_at":     v.CreatedAt,
+	}
+}
+
+func (v *ScriptVersion) ToDictWithContent() map[string]interface{} {
+	result := v.ToDict()
+	result["content"] = v.Content
+	return result
+}

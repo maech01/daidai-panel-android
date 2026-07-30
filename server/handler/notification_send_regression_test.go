@@ -1,1 +1,217 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZW5jb2RpbmcvanNvbiIKCSJuZXQvaHR0cCIKCSJuZXQvaHR0cC9odHRwdGVzdCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0Tm90aWZpY2F0aW9uU2VuZFVzZXNTZWxlY3RlZENoYW5uZWxBbmRTdXBwb3J0c0FwcFRva2VuKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdmFyIHJlY2VpdmVkIG1hcFtzdHJpbmddc3RyaW5nCglzZXJ2ZXIgOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCWlmIGVyciA6PSBqc29uLk5ld0RlY29kZXIoci5Cb2R5KS5EZWNvZGUoJnJlY2VpdmVkKTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJkZWNvZGUgd2ViaG9vayBib2R5OiAldiIsIGVycikKCQl9CgkJdy5Xcml0ZUhlYWRlcihodHRwLlN0YXR1c09LKQoJfSkpCglkZWZlciBzZXJ2ZXIuQ2xvc2UoKQoKCWNoYW5uZWwgOj0gJm1vZGVsLk5vdGlmeUNoYW5uZWx7CgkJTmFtZTogICAgIldlYmhvb2sg6YCa55+lIiwKCQlUeXBlOiAgICAid2ViaG9vayIsCgkJQ29uZmlnOiAgYHsidXJsIjoiYCArIHNlcnZlci5VUkwgKyBgIn1gLAoJCUVuYWJsZWQ6IHRydWUsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGNoYW5uZWwpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIG5vdGlmaWNhdGlvbiBjaGFubmVsOiAldiIsIGVycikKCX0KCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCWFwcFRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBcHBUb2tlbih0LCAibm90aWZ5LWFwcCIsICJub3RpZmljYXRpb25zIikKCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFBvc3QsCgkJIi9hcGkvdjEvbm90aWZpY2F0aW9ucy9zZW5kIiwKCQlgeyJ0aXRsZSI6IuiEmuacrOmAmuefpSIsImNvbnRlbnQiOiLmiafooYzmiJDlip8iLCJjaGFubmVsX2lkIjpgK2pzb25OdW1iZXIoY2hhbm5lbC5JRCkrYH1gLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYXBwVG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkOiAlcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglpZiByZWNlaXZlZFsidGl0bGUiXSAhPSAi6ISa5pys6YCa55+lIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRpdGxlIHRvIGJlIGZvcndhcmRlZCwgZ290ICUjdiIsIHJlY2VpdmVkKQoJfQoJaWYgcmVjZWl2ZWRbImNvbnRlbnQiXSAhPSAi5omn6KGM5oiQ5YqfIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNvbnRlbnQgdG8gYmUgZm9yd2FyZGVkLCBnb3QgJSN2IiwgcmVjZWl2ZWQpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWRhdGEsIG9rIDo9IHBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRhdGEgb2JqZWN0LCBnb3QgJSN2IiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoJaWYgZ290LCBvayA6PSBkYXRhWyJzZW50X2NvdW50Il0uKGZsb2F0NjQpOyAhb2sgfHwgZ290ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzZW50X2NvdW50PTEsIGdvdCAlI3YiLCBkYXRhWyJzZW50X2NvdW50Il0pCgl9Cn0KCmZ1bmMgVGVzdE5vdGlmaWNhdGlvblNlbmRSZWplY3RzQXBwVG9rZW5XaXRob3V0U2NvcGUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCWFwcFRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBcHBUb2tlbih0LCAidGFza3MtYXBwIiwgInRhc2tzIikKCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFBvc3QsCgkJIi9hcGkvdjEvbm90aWZpY2F0aW9ucy9zZW5kIiwKCQlgeyJ0aXRsZSI6IuiEmuacrOmAmuefpSIsImNvbnRlbnQiOiLmiafooYzmiJDlip8ifWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBhcHBUb2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0ZvcmJpZGRlbiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDQwMywgZ290ICVkOiAlcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KfQoKZnVuYyBUZXN0Tm90aWZpY2F0aW9uU2VuZFJldHVybnNGYWlsdXJlV2hlbk5vRW5hYmxlZENoYW5uZWxNYXRjaGVzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJY2hhbm5lbCA6PSAmbW9kZWwuTm90aWZ5Q2hhbm5lbHsKCQlOYW1lOiAgICAi5bey56aB55So6YCa6YGTIiwKCQlUeXBlOiAgICAid2ViaG9vayIsCgkJQ29uZmlnOiAgYHsidXJsIjoiaHR0cHM6Ly9leGFtcGxlLmNvbS93ZWJob29rIn1gLAoJCUVuYWJsZWQ6IHRydWUsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuU2VsZWN0KCIqIikuQ3JlYXRlKGNoYW5uZWwpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIG5vdGlmaWNhdGlvbiBjaGFubmVsOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5Nb2RlbChjaGFubmVsKS5VcGRhdGUoImVuYWJsZWQiLCBmYWxzZSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJkaXNhYmxlIG5vdGlmaWNhdGlvbiBjaGFubmVsOiAldiIsIGVycikKCX0KCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgIm5vdGlmeS1vcGVyYXRvciIsICJvcGVyYXRvciIpCglhY2Nlc3NUb2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS9ub3RpZmljYXRpb25zL3NlbmQiLAoJCWB7InRpdGxlIjoi6ISa5pys6YCa55+lIiwiY29udGVudCI6IuaJp+ihjOaIkOWKnyIsImNoYW5uZWxfaWQiOmAranNvbk51bWJlcihjaGFubmVsLklEKStgfWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBhY2Nlc3NUb2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0JhZFJlcXVlc3QgewoJCXQuRmF0YWxmKCJleHBlY3RlZCA0MDAsIGdvdCAlZDogJXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhyZWMuQm9keS5TdHJpbmcoKSwgIuacquaJvuWIsOW3suWQr+eUqOeahOmAmuefpea4oOmBkyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGlzYWJsZWQgY2hhbm5lbCBlcnJvciwgZ290ICVzIiwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9Cn0KCmZ1bmMgVGVzdE5vdGlmaWNhdGlvblNlbmRVcGRhdGVzVG9kYXlTZW5kQ291bnQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglzZXJ2ZXIgOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCXcuV3JpdGVIZWFkZXIoaHR0cC5TdGF0dXNPSykKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCgljaGFubmVsIDo9ICZtb2RlbC5Ob3RpZnlDaGFubmVsewoJCU5hbWU6ICAgICLnu5/orqHpgJrpgZMiLAoJCVR5cGU6ICAgICJ3ZWJob29rIiwKCQlDb25maWc6ICBgeyJ1cmwiOiJgICsgc2VydmVyLlVSTCArIGAifWAsCgkJRW5hYmxlZDogdHJ1ZSwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoY2hhbm5lbCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgbm90aWZpY2F0aW9uIGNoYW5uZWw6ICV2IiwgZXJyKQoJfQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAibm90aWZ5LWNvdW50ZXIiLCAib3BlcmF0b3IiKQoJYWNjZXNzVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFBvc3QsCgkJIi9hcGkvdjEvbm90aWZpY2F0aW9ucy9zZW5kIiwKCQlgeyJ0aXRsZSI6IuiEmuacrOmAmuefpSIsImNvbnRlbnQiOiLmiafooYzmiJDlip8iLCJjaGFubmVsX2lkIjpgK2pzb25OdW1iZXIoY2hhbm5lbC5JRCkrYH1gLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYWNjZXNzVG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkOiAlcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgcmVsb2FkZWQgbW9kZWwuTm90aWZ5Q2hhbm5lbAoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZCwgY2hhbm5lbC5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgbm90aWZpY2F0aW9uIGNoYW5uZWw6ICV2IiwgZXJyKQoJfQoKCWlmIHJlbG9hZGVkLlRvZGF5U2VuZERhdGUgIT0gdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYtMDEtMDIiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRvZGF5X3NlbmRfZGF0ZSB0byBiZSB1cGRhdGVkLCBnb3QgJXEiLCByZWxvYWRlZC5Ub2RheVNlbmREYXRlKQoJfQoJaWYgcmVsb2FkZWQuVG9kYXlTZW5kQ291bnQgIT0gMSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRvZGF5X3NlbmRfY291bnQ9MSwgZ290ICVkIiwgcmVsb2FkZWQuVG9kYXlTZW5kQ291bnQpCgl9Cn0KCmZ1bmMgVGVzdE5vdGlmaWNhdGlvblRlc3RQZXJzaXN0c0xhc3RUZXN0U3RhdGUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglzZXJ2ZXIgOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCXcuV3JpdGVIZWFkZXIoaHR0cC5TdGF0dXNPSykKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCgljaGFubmVsIDo9ICZtb2RlbC5Ob3RpZnlDaGFubmVsewoJCU5hbWU6ICAgICLmtYvor5XpgJrpgZMiLAoJCVR5cGU6ICAgICJ3ZWJob29rIiwKCQlDb25maWc6ICBgeyJ1cmwiOiJgICsgc2VydmVyLlVSTCArIGAifWAsCgkJRW5hYmxlZDogdHJ1ZSwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoY2hhbm5lbCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgbm90aWZpY2F0aW9uIGNoYW5uZWw6ICV2IiwgZXJyKQoJfQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJYWRtaW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgIm5vdGlmeS1hZG1pbiIsICJhZG1pbiIpCglhZG1pblRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBhZG1pbi5Vc2VybmFtZSwgYWRtaW4uUm9sZSkKCglyZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFBvc3QsICIvYXBpL3YxL25vdGlmaWNhdGlvbnMvIitqc29uTnVtYmVyKGNoYW5uZWwuSUQpKyIvdGVzdCIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYWRtaW5Ub2tlbiwKCX0pCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQ6ICVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXZhciByZWxvYWRlZCBtb2RlbC5Ob3RpZnlDaGFubmVsCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnJlbG9hZGVkLCBjaGFubmVsLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCBub3RpZmljYXRpb24gY2hhbm5lbDogJXYiLCBlcnIpCgl9CgoJaWYgcmVsb2FkZWQuTGFzdFRlc3RTdGF0dXMgIT0gInN1Y2Nlc3MiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbGFzdF90ZXN0X3N0YXR1cz1zdWNjZXNzLCBnb3QgJXEiLCByZWxvYWRlZC5MYXN0VGVzdFN0YXR1cykKCX0KCWlmIHJlbG9hZGVkLkxhc3RUZXN0QXQgPT0gbmlsIHx8IHJlbG9hZGVkLkxhc3RUZXN0QXQuSXNaZXJvKCkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsYXN0X3Rlc3RfYXQgdG8gYmUgcmVjb3JkZWQsIGdvdCAlI3YiLCByZWxvYWRlZC5MYXN0VGVzdEF0KQoJfQp9CgpmdW5jIGpzb25OdW1iZXIoaWQgdWludCkgc3RyaW5nIHsKCXJldHVybiBzdHJjb252LkZvcm1hdFVpbnQodWludDY0KGlkKSwgMTApCn0K
+package handler_test
+
+import (
+	"encoding/json"
+	"net/http"
+	"net/http/httptest"
+	"strconv"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestNotificationSendUsesSelectedChannelAndSupportsAppToken(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	var received map[string]string
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if err := json.NewDecoder(r.Body).Decode(&received); err != nil {
+			t.Fatalf("decode webhook body: %v", err)
+		}
+		w.WriteHeader(http.StatusOK)
+	}))
+	defer server.Close()
+
+	channel := &model.NotifyChannel{
+		Name:    "Webhook 通知",
+		Type:    "webhook",
+		Config:  `{"url":"` + server.URL + `"}`,
+		Enabled: true,
+	}
+	if err := database.DB.Create(channel).Error; err != nil {
+		t.Fatalf("create notification channel: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	appToken := testutil.MustCreateAppToken(t, "notify-app", "notifications")
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/notifications/send",
+		`{"title":"脚本通知","content":"执行成功","channel_id":`+jsonNumber(channel.ID)+`}`,
+		map[string]string{"Authorization": "Bearer " + appToken},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d: %s", rec.Code, rec.Body.String())
+	}
+
+	if received["title"] != "脚本通知" {
+		t.Fatalf("expected title to be forwarded, got %#v", received)
+	}
+	if received["content"] != "执行成功" {
+		t.Fatalf("expected content to be forwarded, got %#v", received)
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected data object, got %#v", payload["data"])
+	}
+	if got, ok := data["sent_count"].(float64); !ok || got != 1 {
+		t.Fatalf("expected sent_count=1, got %#v", data["sent_count"])
+	}
+}
+
+func TestNotificationSendRejectsAppTokenWithoutScope(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	appToken := testutil.MustCreateAppToken(t, "tasks-app", "tasks")
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/notifications/send",
+		`{"title":"脚本通知","content":"执行成功"}`,
+		map[string]string{"Authorization": "Bearer " + appToken},
+		"",
+	)
+	if rec.Code != http.StatusForbidden {
+		t.Fatalf("expected 403, got %d: %s", rec.Code, rec.Body.String())
+	}
+}
+
+func TestNotificationSendReturnsFailureWhenNoEnabledChannelMatches(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	channel := &model.NotifyChannel{
+		Name:    "已禁用通道",
+		Type:    "webhook",
+		Config:  `{"url":"https://example.com/webhook"}`,
+		Enabled: true,
+	}
+	if err := database.DB.Select("*").Create(channel).Error; err != nil {
+		t.Fatalf("create notification channel: %v", err)
+	}
+	if err := database.DB.Model(channel).Update("enabled", false).Error; err != nil {
+		t.Fatalf("disable notification channel: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "notify-operator", "operator")
+	accessToken := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/notifications/send",
+		`{"title":"脚本通知","content":"执行成功","channel_id":`+jsonNumber(channel.ID)+`}`,
+		map[string]string{"Authorization": "Bearer " + accessToken},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d: %s", rec.Code, rec.Body.String())
+	}
+	if !strings.Contains(rec.Body.String(), "未找到已启用的通知渠道") {
+		t.Fatalf("expected disabled channel error, got %s", rec.Body.String())
+	}
+}
+
+func TestNotificationSendUpdatesTodaySendCount(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusOK)
+	}))
+	defer server.Close()
+
+	channel := &model.NotifyChannel{
+		Name:    "统计通道",
+		Type:    "webhook",
+		Config:  `{"url":"` + server.URL + `"}`,
+		Enabled: true,
+	}
+	if err := database.DB.Create(channel).Error; err != nil {
+		t.Fatalf("create notification channel: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "notify-counter", "operator")
+	accessToken := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/notifications/send",
+		`{"title":"脚本通知","content":"执行成功","channel_id":`+jsonNumber(channel.ID)+`}`,
+		map[string]string{"Authorization": "Bearer " + accessToken},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d: %s", rec.Code, rec.Body.String())
+	}
+
+	var reloaded model.NotifyChannel
+	if err := database.DB.First(&reloaded, channel.ID).Error; err != nil {
+		t.Fatalf("reload notification channel: %v", err)
+	}
+
+	if reloaded.TodaySendDate != time.Now().Format("2006-01-02") {
+		t.Fatalf("expected today_send_date to be updated, got %q", reloaded.TodaySendDate)
+	}
+	if reloaded.TodaySendCount != 1 {
+		t.Fatalf("expected today_send_count=1, got %d", reloaded.TodaySendCount)
+	}
+}
+
+func TestNotificationTestPersistsLastTestState(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusOK)
+	}))
+	defer server.Close()
+
+	channel := &model.NotifyChannel{
+		Name:    "测试通道",
+		Type:    "webhook",
+		Config:  `{"url":"` + server.URL + `"}`,
+		Enabled: true,
+	}
+	if err := database.DB.Create(channel).Error; err != nil {
+		t.Fatalf("create notification channel: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	admin := testutil.MustCreateUser(t, "notify-admin", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	rec := performRequest(engine, http.MethodPost, "/api/v1/notifications/"+jsonNumber(channel.ID)+"/test", map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	})
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d: %s", rec.Code, rec.Body.String())
+	}
+
+	var reloaded model.NotifyChannel
+	if err := database.DB.First(&reloaded, channel.ID).Error; err != nil {
+		t.Fatalf("reload notification channel: %v", err)
+	}
+
+	if reloaded.LastTestStatus != "success" {
+		t.Fatalf("expected last_test_status=success, got %q", reloaded.LastTestStatus)
+	}
+	if reloaded.LastTestAt == nil || reloaded.LastTestAt.IsZero() {
+		t.Fatalf("expected last_test_at to be recorded, got %#v", reloaded.LastTestAt)
+	}
+}
+
+func jsonNumber(id uint) string {
+	return strconv.FormatUint(uint64(id), 10)
+}

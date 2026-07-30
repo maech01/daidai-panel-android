@@ -1,1 +1,97 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKLy8g5Zue5b2S77yadjIuMi4xOCDlnKggdGFza19leGVjdXRvci5ydW5UYXNrIOS4reaehOW7uuS7u+WKoei/kOihjOeOr+Wig+aXtu+8jAovLyDmioogd29ya0RpciDplJnkvKDmiJDkuoYgc2NyaXB0c0Rpcu+8jOWvvOiHtOWunumZheiEmuacrOaJgOWcqOebruW9leayoeaciei/m+WFpSBQWVRIT05QQVRIIOWJjee8gOOAggovLyDov5nkvJrorqnohJrmnKznnJ/lrp7ov5DooYznjq/looPkuI7nvLrkvp3otZbmo4DmtYsv6Ieq5Yqo5a6J6KOF6YeN6K+V546v5aKD6ISx6IqC77yM5Ye6546w4oCc6Ieq5Yqo5a6J6KOF5aSx5pWI4oCd55qE6KGo6LGh44CCCi8vIOi/memHjOWuiOWNq++8muS7u+WKoeeOr+Wig+W/hemhu+S8mOWFiOS9v+eUqCBwbGFuLkZ1bGxQYXRoIOeahOeItuebruW9leS9nOS4uiB3b3JrRGly44CCCmZ1bmMgVGVzdFRhc2tSdW50aW1lRW52VXNlc1BsYW5uZWRTY3JpcHREaXJlY3RvcnkodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl0YXNrRGlyIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAibmVzdGVkIiwgImZlYXR1cmUiKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKHRhc2tEaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIHRhc2sgZGlyOiAldiIsIGVycikKCX0KCgllbnZNYXAsIGVyciA6PSBCdWlsZE1hbmFnZWRSdW50aW1lRW52TWFwRm9yUHl0aG9uVmVyc2lvbigKCQl0YXNrRGlyLAoJCWNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwKCQluaWwsCgkJMip0aW1lLkhvdXIsCgkJIjMuMTEiLAoJKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIG1hbmFnZWQgcnVudGltZSBlbnYgbWFwOiAldiIsIGVycikKCX0KCglweXRob25QYXRoIDo9IGVudk1hcFsiUFlUSE9OUEFUSCJdCglpZiBweXRob25QYXRoID09ICIiIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBQWVRIT05QQVRIIHRvIGJlIHBvcHVsYXRlZCIpCgl9CgoJcGFydHMgOj0gc3RyaW5ncy5TcGxpdChweXRob25QYXRoLCBzdHJpbmcoZmlsZXBhdGguTGlzdFNlcGFyYXRvcikpCglpZiBsZW4ocGFydHMpID09IDAgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBweXRob24gcGF0aCBwYXJ0cywgZ290ICVxIiwgcHl0aG9uUGF0aCkKCX0KCWlmIHBhcnRzWzBdICE9IHRhc2tEaXIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmaXJzdCBQWVRIT05QQVRIIGVudHJ5IHRvIGJlIHRhc2sgZGlyICVxLCBnb3QgJXEgKGFsbD0ldikiLCB0YXNrRGlyLCBwYXJ0c1swXSwgcGFydHMpCgl9CglpZiBsZW4ocGFydHMpIDwgMiB8fCBwYXJ0c1sxXSAhPSBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzZWNvbmQgUFlUSE9OUEFUSCBlbnRyeSB0byBiZSBzY3JpcHRzIGRpciAlcSwgZ290ICV2IiwgY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBwYXJ0cykKCX0KfQoKZnVuYyBUZXN0VGFza0V4ZWN1dG9yVXNlc1BsYW5uZWRTY3JpcHREaXJlY3RvcnlGb3JSdW50aW1lRW52KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdGFza0RpciA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImpvYnMiLCAiZGVtbyIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwodGFza0RpciwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgdGFzayBkaXI6ICV2IiwgZXJyKQoJfQoJc2NyaXB0UGF0aCA6PSBmaWxlcGF0aC5Kb2luKHRhc2tEaXIsICJzYW1wbGUucHkiKQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRQYXRoLCBbXWJ5dGUoInByaW50KCdvaycpXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2NyaXB0OiAldiIsIGVycikKCX0KCgl0YXNrIDo9ICZtb2RlbC5UYXNrewoJCVB5dGhvblZlcnNpb246ICIzLjEwIiwKCQlUaW1lb3V0OiAgICAgICAzMCwKCX0KCXBsYW4gOj0gJkNvbW1hbmRFeGVjdXRpb25QbGFuewoJCUludGVycHJldGVyOiAicHl0aG9uMy4xMCIsCgkJRnVsbFBhdGg6ICAgIHNjcmlwdFBhdGgsCgl9CgoJdGFza1dvcmtEaXIgOj0gY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyCglpZiBwbGFuICE9IG5pbCAmJiBzdHJpbmdzLlRyaW1TcGFjZShwbGFuLkZ1bGxQYXRoKSAhPSAiIiB7CgkJdGFza1dvcmtEaXIgPSBmaWxlcGF0aC5EaXIocGxhbi5GdWxsUGF0aCkKCX0KCgllbnZNYXAsIGVyciA6PSBCdWlsZE1hbmFnZWRSdW50aW1lRW52TWFwRm9yUHl0aG9uVmVyc2lvbih0YXNrV29ya0RpciwgY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCB0YXNrLk5vdGlmaWNhdGlvbkNoYW5uZWxJRCwgdGltZS5EdXJhdGlvbih0YXNrLlRpbWVvdXQpKnRpbWUuU2Vjb25kK3RpbWUuSG91ciwgdGFzay5QeXRob25WZXJzaW9uKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIHJ1bnRpbWUgZW52OiAldiIsIGVycikKCX0KCglpZiBnb3QgOj0gZW52TWFwWyJEQUlEQUlfUFlUSE9OX1ZFUlNJT04iXTsgZ290ICE9ICIzLjEwIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIERBSURBSV9QWVRIT05fVkVSU0lPTj0zLjEwLCBnb3QgJXEiLCBnb3QpCgl9CgoJcGFydHMgOj0gc3RyaW5ncy5TcGxpdChlbnZNYXBbIlBZVEhPTlBBVEgiXSwgc3RyaW5nKGZpbGVwYXRoLkxpc3RTZXBhcmF0b3IpKQoJaWYgbGVuKHBhcnRzKSA9PSAwIHx8IHBhcnRzWzBdICE9IHRhc2tEaXIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0YXNrIGRpciAlcSB0byBsZWFkIFBZVEhPTlBBVEgsIGdvdCAldiIsIHRhc2tEaXIsIHBhcnRzKQoJfQoJaWYgbGVuKHBhcnRzKSA8IDIgfHwgcGFydHNbMV0gIT0gY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc2NyaXB0cyBkaXIgJXEgYXMgc2Vjb25kIFBZVEhPTlBBVEggZW50cnksIGdvdCAldiIsIGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgcGFydHMpCgl9Cn0K
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+// 回归：v2.2.18 在 task_executor.runTask 中构建任务运行环境时，
+// 把 workDir 错传成了 scriptsDir，导致实际脚本所在目录没有进入 PYTHONPATH 前缀。
+// 这会让脚本真实运行环境与缺依赖检测/自动安装重试环境脱节，出现“自动安装失效”的表象。
+// 这里守卫：任务环境必须优先使用 plan.FullPath 的父目录作为 workDir。
+func TestTaskRuntimeEnvUsesPlannedScriptDirectory(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	taskDir := filepath.Join(config.C.Data.ScriptsDir, "nested", "feature")
+	if err := os.MkdirAll(taskDir, 0o755); err != nil {
+		t.Fatalf("mkdir task dir: %v", err)
+	}
+
+	envMap, err := BuildManagedRuntimeEnvMapForPythonVersion(
+		taskDir,
+		config.C.Data.ScriptsDir,
+		nil,
+		2*time.Hour,
+		"3.11",
+	)
+	if err != nil {
+		t.Fatalf("build managed runtime env map: %v", err)
+	}
+
+	pythonPath := envMap["PYTHONPATH"]
+	if pythonPath == "" {
+		t.Fatal("expected PYTHONPATH to be populated")
+	}
+
+	parts := strings.Split(pythonPath, string(filepath.ListSeparator))
+	if len(parts) == 0 {
+		t.Fatalf("expected python path parts, got %q", pythonPath)
+	}
+	if parts[0] != taskDir {
+		t.Fatalf("expected first PYTHONPATH entry to be task dir %q, got %q (all=%v)", taskDir, parts[0], parts)
+	}
+	if len(parts) < 2 || parts[1] != config.C.Data.ScriptsDir {
+		t.Fatalf("expected second PYTHONPATH entry to be scripts dir %q, got %v", config.C.Data.ScriptsDir, parts)
+	}
+}
+
+func TestTaskExecutorUsesPlannedScriptDirectoryForRuntimeEnv(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	taskDir := filepath.Join(config.C.Data.ScriptsDir, "jobs", "demo")
+	if err := os.MkdirAll(taskDir, 0o755); err != nil {
+		t.Fatalf("mkdir task dir: %v", err)
+	}
+	scriptPath := filepath.Join(taskDir, "sample.py")
+	if err := os.WriteFile(scriptPath, []byte("print('ok')\n"), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	task := &model.Task{
+		PythonVersion: "3.10",
+		Timeout:       30,
+	}
+	plan := &CommandExecutionPlan{
+		Interpreter: "python3.10",
+		FullPath:    scriptPath,
+	}
+
+	taskWorkDir := config.C.Data.ScriptsDir
+	if plan != nil && strings.TrimSpace(plan.FullPath) != "" {
+		taskWorkDir = filepath.Dir(plan.FullPath)
+	}
+
+	envMap, err := BuildManagedRuntimeEnvMapForPythonVersion(taskWorkDir, config.C.Data.ScriptsDir, task.NotificationChannelID, time.Duration(task.Timeout)*time.Second+time.Hour, task.PythonVersion)
+	if err != nil {
+		t.Fatalf("build runtime env: %v", err)
+	}
+
+	if got := envMap["DAIDAI_PYTHON_VERSION"]; got != "3.10" {
+		t.Fatalf("expected DAIDAI_PYTHON_VERSION=3.10, got %q", got)
+	}
+
+	parts := strings.Split(envMap["PYTHONPATH"], string(filepath.ListSeparator))
+	if len(parts) == 0 || parts[0] != taskDir {
+		t.Fatalf("expected task dir %q to lead PYTHONPATH, got %v", taskDir, parts)
+	}
+	if len(parts) < 2 || parts[1] != config.C.Data.ScriptsDir {
+		t.Fatalf("expected scripts dir %q as second PYTHONPATH entry, got %v", config.C.Data.ScriptsDir, parts)
+	}
+}

@@ -1,1 +1,209 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImJ1ZmlvIgoJImlvIgoJImxvZyIKCSJyZWdleHAiCgkic3RyaW5ncyIKCSJ0aW1lIgopCgpjb25zdCAoCglQYW5lbExvZ0xldmVsRGVidWcgPSAiZGVidWciCglQYW5lbExvZ0xldmVsSW5mbyAgPSAiaW5mbyIKCVBhbmVsTG9nTGV2ZWxXYXJuICA9ICJ3YXJuIgoJUGFuZWxMb2dMZXZlbEVycm9yID0gImVycm9yIgopCgp2YXIgcGFuZWxMb2dMaW5lUGF0dGVybiA9IHJlZ2V4cC5NdXN0Q29tcGlsZShgXlxbKERFQlVHfElORk98V0FSTnxFUlJPUilcXVxzK2ApCnZhciBwYW5lbEdJTkxpbmVQYXR0ZXJuID0gcmVnZXhwLk11c3RDb21waWxlKGBeXFtHSU5cXVxzK1xkezR9L1xkezJ9L1xkezJ9XHMrLVxzK1xkezJ9OlxkezJ9OlxkezJ9XHMrXHxccysoXGR7M30pXHMrXHxccysoLis/KVxzK1x8XHMrKFtefF0rPylccytcfFxzKyhbQS1aXSspXHMrXCIoW15cIl0rKVwiJGApCnZhciBwYW5lbExvZ0xldmVsUHJpb3JpdHkgPSBtYXBbc3RyaW5nXWludHsKCVBhbmVsTG9nTGV2ZWxEZWJ1ZzogMTAsCglQYW5lbExvZ0xldmVsSW5mbzogIDIwLAoJUGFuZWxMb2dMZXZlbFdhcm46ICAzMCwKCVBhbmVsTG9nTGV2ZWxFcnJvcjogNDAsCn0KCnR5cGUgUGFuZWxMb2dGaWx0ZXJXcml0ZXIgc3RydWN0IHsKCWRzdCBpby5Xcml0ZXIKfQoKZnVuYyBOZXdQYW5lbExvZ0ZpbHRlcldyaXRlcihkc3QgaW8uV3JpdGVyKSAqUGFuZWxMb2dGaWx0ZXJXcml0ZXIgewoJcmV0dXJuICZQYW5lbExvZ0ZpbHRlcldyaXRlcntkc3Q6IGRzdH0KfQoKZnVuYyAodyAqUGFuZWxMb2dGaWx0ZXJXcml0ZXIpIFdyaXRlKHAgW11ieXRlKSAoaW50LCBlcnJvcikgewoJdGV4dCA6PSBzdHJpbmcocCkKCWlmIHNob3VsZFN1cHByZXNzUGFuZWxTdGFydHVwTG9nKHRleHQpIHsKCQlyZXR1cm4gbGVuKHApLCBuaWwKCX0KCglsaW5lcyA6PSBzcGxpdExvZ1BheWxvYWRMaW5lcyh0ZXh0KQoJaWYgbGVuKGxpbmVzKSA9PSAwIHsKCQlyZXR1cm4gbGVuKHApLCBuaWwKCX0KCgl2YXIgYnVpbGRlciBzdHJpbmdzLkJ1aWxkZXIKCWZvciBfLCBsaW5lIDo9IHJhbmdlIGxpbmVzIHsKCQl0cmltbWVkIDo9IHN0cmluZ3MuVHJpbVJpZ2h0KGxpbmUsICJcclxuIikKCQlpZiBzdHJpbmdzLlRyaW1TcGFjZSh0cmltbWVkKSA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWJ1aWxkZXIuV3JpdGVTdHJpbmcoZm9ybWF0UGFuZWxMb2dMaW5lKHRyaW1tZWQpKQoJCWJ1aWxkZXIuV3JpdGVCeXRlKCdcbicpCgl9CgoJaWYgYnVpbGRlci5MZW4oKSA9PSAwIHsKCQlyZXR1cm4gbGVuKHApLCBuaWwKCX0KCV8sIGVyciA6PSB3LmRzdC5Xcml0ZShbXWJ5dGUoYnVpbGRlci5TdHJpbmcoKSkpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gMCwgZXJyCgl9CglyZXR1cm4gbGVuKHApLCBuaWwKfQoKZnVuYyBzcGxpdExvZ1BheWxvYWRMaW5lcyh0ZXh0IHN0cmluZykgW11zdHJpbmcgewoJc2Nhbm5lciA6PSBidWZpby5OZXdTY2FubmVyKHN0cmluZ3MuTmV3UmVhZGVyKHRleHQpKQoJc2Nhbm5lci5CdWZmZXIobWFrZShbXWJ5dGUsIDAsIDY0KjEwMjQpLCAxMDI0KjEwMjQpCglsaW5lcyA6PSBtYWtlKFtdc3RyaW5nLCAwKQoJZm9yIHNjYW5uZXIuU2NhbigpIHsKCQlsaW5lcyA9IGFwcGVuZChsaW5lcywgc2Nhbm5lci5UZXh0KCkpCgl9CglpZiBsZW4obGluZXMpID09IDAgJiYgc3RyaW5ncy5UcmltU3BhY2UodGV4dCkgIT0gIiIgewoJCWxpbmVzID0gYXBwZW5kKGxpbmVzLCB0ZXh0KQoJfQoJcmV0dXJuIGxpbmVzCn0KCmZ1bmMgZm9ybWF0UGFuZWxMb2dMaW5lKGxpbmUgc3RyaW5nKSBzdHJpbmcgewoJaWYgcGFuZWxMb2dMaW5lUGF0dGVybi5NYXRjaFN0cmluZyhsaW5lKSB7CgkJcmV0dXJuIGxpbmUKCX0KCWlmIGNvbXBhY3RlZCwgb2sgOj0gY29tcGFjdEdJTkxvZ0xpbmUobGluZSk7IG9rIHsKCQlyZXR1cm4gY29tcGFjdGVkCgl9CglsZXZlbCA6PSBkZXRlY3RQYW5lbExvZ0xldmVsKGxpbmUpCglyZXR1cm4gIlsiICsgc3RyaW5ncy5Ub1VwcGVyKGxldmVsKSArICJdICIgKyBsaW5lCn0KCmZ1bmMgY29tcGFjdEdJTkxvZ0xpbmUobGluZSBzdHJpbmcpIChzdHJpbmcsIGJvb2wpIHsKCW1hdGNoIDo9IHBhbmVsR0lOTGluZVBhdHRlcm4uRmluZFN0cmluZ1N1Ym1hdGNoKHN0cmluZ3MuVHJpbVNwYWNlKGxpbmUpKQoJaWYgbGVuKG1hdGNoKSAhPSA2IHsKCQlyZXR1cm4gIiIsIGZhbHNlCgl9CgoJc3RhdHVzQ29kZSA6PSBzdHJpbmdzLlRyaW1TcGFjZShtYXRjaFsxXSkKCWNsaWVudElQIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG1hdGNoWzNdKQoJbWV0aG9kIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG1hdGNoWzRdKQoJcGF0aCA6PSBzdHJpbmdzLlRyaW1TcGFjZShtYXRjaFs1XSkKCWxldmVsIDo9IGxvZ0xldmVsRm9yU3RhdHVzQ29kZShzdGF0dXNDb2RlKQoKCXRzIDo9IHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2LTAxLTAyIDE1OjA0OjA1IikKCXJldHVybiAiWyIgKyBzdHJpbmdzLlRvVXBwZXIobGV2ZWwpICsgIl0gIiArIHRzICsgIiBbIiArIGNsaWVudElQICsgIl0gIiArIG1ldGhvZCArICIgIiArIHBhdGggKyAiIOeKtuaAgT0iICsgc3RhdHVzQ29kZSwgdHJ1ZQp9CgpmdW5jIG5vcm1hbGl6ZUdJTkxhdGVuY3kocmF3IHN0cmluZykgc3RyaW5nIHsKCXJhdyA9IHN0cmluZ3MuVHJpbVNwYWNlKHJhdykKCXJhdyA9IHN0cmluZ3MuUmVwbGFjZUFsbChyYXcsICIgIiwgIiIpCglyZXR1cm4gcmF3Cn0KCmZ1bmMgbG9nTGV2ZWxGb3JTdGF0dXNDb2RlKHN0YXR1c0NvZGUgc3RyaW5nKSBzdHJpbmcgewoJc3dpdGNoIHsKCWNhc2Ugc3RyaW5ncy5IYXNQcmVmaXgoc3RhdHVzQ29kZSwgIjUiKToKCQlyZXR1cm4gUGFuZWxMb2dMZXZlbEVycm9yCgljYXNlIHN0cmluZ3MuSGFzUHJlZml4KHN0YXR1c0NvZGUsICI0Iik6CgkJcmV0dXJuIFBhbmVsTG9nTGV2ZWxXYXJuCglkZWZhdWx0OgoJCXJldHVybiBQYW5lbExvZ0xldmVsSW5mbwoJfQp9CgpmdW5jIGRldGVjdFBhbmVsTG9nTGV2ZWwobGluZSBzdHJpbmcpIHN0cmluZyB7Cglsb3dlciA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UobGluZSkpCglzd2l0Y2ggewoJY2FzZSBzdHJpbmdzLkNvbnRhaW5zKGxvd2VyLCAiIHBhbmljIiksIHN0cmluZ3MuQ29udGFpbnMobG93ZXIsICJmYXRhbCIpLCBzdHJpbmdzLkNvbnRhaW5zKGxvd2VyLCAiIGZhaWxlZCIpLCBzdHJpbmdzLkNvbnRhaW5zKGxvd2VyLCAiIGVycm9yIiksIHN0cmluZ3MuQ29udGFpbnMobG93ZXIsICLml6Dms5UiKSwgc3RyaW5ncy5Db250YWlucyhsb3dlciwgIuWksei0pSIpOgoJCXJldHVybiBQYW5lbExvZ0xldmVsRXJyb3IKCWNhc2Ugc3RyaW5ncy5Db250YWlucyhsb3dlciwgIndhcm4iKSwgc3RyaW5ncy5Db250YWlucyhsb3dlciwgIndhcm5pbmciKSwgc3RyaW5ncy5Db250YWlucyhsb3dlciwgIui2heaXtiIpLCBzdHJpbmdzLkNvbnRhaW5zKGxvd2VyLCAi5LiN5Y+v55SoIiksIHN0cmluZ3MuQ29udGFpbnMobG93ZXIsICLot7Pov4ciKToKCQlyZXR1cm4gUGFuZWxMb2dMZXZlbFdhcm4KCWNhc2Ugc3RyaW5ncy5Db250YWlucyhsb3dlciwgImRlYnVnIiksIHN0cmluZ3MuQ29udGFpbnMobG93ZXIsICJ0cmFjZSIpLCBzdHJpbmdzLkNvbnRhaW5zKGxvd2VyLCAic2Nhbm5lciIpLCBzdHJpbmdzLkNvbnRhaW5zKGxvd2VyLCAicHJvYmUiKToKCQlyZXR1cm4gUGFuZWxMb2dMZXZlbERlYnVnCglkZWZhdWx0OgoJCXJldHVybiBQYW5lbExvZ0xldmVsSW5mbwoJfQp9CgpmdW5jIE5ld0dJTkxvZ2dlcldyaXRlcihkc3QgaW8uV3JpdGVyKSBpby5Xcml0ZXIgewoJcmV0dXJuICZnaW5BY2Nlc3NMb2dXcml0ZXJ7ZHN0OiBkc3R9Cn0KCnR5cGUgZ2luQWNjZXNzTG9nV3JpdGVyIHN0cnVjdCB7Cglkc3QgaW8uV3JpdGVyCn0KCmZ1bmMgKHcgKmdpbkFjY2Vzc0xvZ1dyaXRlcikgV3JpdGUocCBbXWJ5dGUpIChpbnQsIGVycm9yKSB7Cgl0ZXh0IDo9IHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhwKSkKCWlmIHRleHQgPT0gIiIgewoJCXJldHVybiBsZW4ocCksIG5pbAoJfQoKCWlmIGNvbXBhY3RlZCwgb2sgOj0gY29tcGFjdEdJTkxvZ0xpbmUodGV4dCk7IG9rIHsKCQl3LmRzdC5Xcml0ZShbXWJ5dGUoY29tcGFjdGVkICsgIlxuIikpCgkJcmV0dXJuIGxlbihwKSwgbmlsCgl9CgoJdy5kc3QuV3JpdGUoW11ieXRlKHN0cmluZ3MuVHJpbVJpZ2h0KHRleHQsICJcclxuIikgKyAiXG4iKSkKCXJldHVybiBsZW4ocCksIG5pbAp9CgpmdW5jIFBhcnNlUGFuZWxMb2dMaW5lTGV2ZWwobGluZSBzdHJpbmcpIHN0cmluZyB7CgltYXRjaCA6PSBwYW5lbExvZ0xpbmVQYXR0ZXJuLkZpbmRTdHJpbmdTdWJtYXRjaChzdHJpbmdzLlRyaW1TcGFjZShsaW5lKSkKCWlmIGxlbihtYXRjaCkgPj0gMiB7CgkJcmV0dXJuIHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShtYXRjaFsxXSkpCgl9CglyZXR1cm4gZGV0ZWN0UGFuZWxMb2dMZXZlbChsaW5lKQp9CgpmdW5jIE1hdGNoUGFuZWxMb2dMZXZlbChsaW5lLCBtaW5pbXVtTGV2ZWwgc3RyaW5nKSBib29sIHsKCW1pbmltdW1MZXZlbCA9IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShtaW5pbXVtTGV2ZWwpKQoJaWYgbWluaW11bUxldmVsID09ICIiIHsKCQlyZXR1cm4gdHJ1ZQoJfQoKCWN1cnJlbnRMZXZlbCA6PSBQYXJzZVBhbmVsTG9nTGluZUxldmVsKGxpbmUpCgljdXJyZW50UHJpb3JpdHksIGN1cnJlbnRPSyA6PSBwYW5lbExvZ0xldmVsUHJpb3JpdHlbY3VycmVudExldmVsXQoJbWluaW11bVByaW9yaXR5LCBtaW5pbXVtT0sgOj0gcGFuZWxMb2dMZXZlbFByaW9yaXR5W21pbmltdW1MZXZlbF0KCWlmICFjdXJyZW50T0sgfHwgIW1pbmltdW1PSyB7CgkJcmV0dXJuIGN1cnJlbnRMZXZlbCA9PSBtaW5pbXVtTGV2ZWwKCX0KCglyZXR1cm4gY3VycmVudFByaW9yaXR5ID49IG1pbmltdW1Qcmlvcml0eQp9CgpmdW5jIE5ld1BhbmVsTG9nZ2VyKGRzdCBpby5Xcml0ZXIpICpsb2cuTG9nZ2VyIHsKCXJldHVybiBsb2cuTmV3KE5ld1BhbmVsTG9nRmlsdGVyV3JpdGVyKGRzdCksICIiLCBsb2cuTHN0ZEZsYWdzKQp9CgpmdW5jIHNob3VsZFN1cHByZXNzUGFuZWxTdGFydHVwTG9nKHRleHQgc3RyaW5nKSBib29sIHsKCW1hcmtlcnMgOj0gW11zdHJpbmd7CgkJImRhdGFiYXNlIGNvbm5lY3RlZDoiLAoJCSJhZGRlZCBtaXNzaW5nIGNvbHVtbjoiLAoJCSJjb2x1bW4gY2hlY2sgY29tcGxldGVkIiwKCQkic2NoZWR1bGVyIHYyIHN0YXJ0ZWQ6IiwKCQkic2NoZWR1bGVyIHYyIGluaXRpYWxpemVkIHdpdGgiLAoJCSJzY2hlZHVsZXIgdjIgZW5xdWV1ZWQiLAoJCSJzdWJzY3JpcHRpb24gc2NoZWR1bGVyIGluaXRpYWxpemVkIHdpdGgiLAoJCSJyZXNvdXJjZSB3YXRjaGVyIHN0YXJ0ZWQiLAoJCSJzZXJ2ZXIgc3RhcnRpbmcgb24iLAoJfQoKCWZvciBfLCBtYXJrZXIgOj0gcmFuZ2UgbWFya2VycyB7CgkJaWYgc3RyaW5ncy5Db250YWlucyh0ZXh0LCBtYXJrZXIpIHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CgoJcmV0dXJuIGZhbHNlCn0K
+package service
+
+import (
+	"bufio"
+	"io"
+	"log"
+	"regexp"
+	"strings"
+	"time"
+)
+
+const (
+	PanelLogLevelDebug = "debug"
+	PanelLogLevelInfo  = "info"
+	PanelLogLevelWarn  = "warn"
+	PanelLogLevelError = "error"
+)
+
+var panelLogLinePattern = regexp.MustCompile(`^\[(DEBUG|INFO|WARN|ERROR)\]\s+`)
+var panelGINLinePattern = regexp.MustCompile(`^\[GIN\]\s+\d{4}/\d{2}/\d{2}\s+-\s+\d{2}:\d{2}:\d{2}\s+\|\s+(\d{3})\s+\|\s+(.+?)\s+\|\s+([^|]+?)\s+\|\s+([A-Z]+)\s+\"([^\"]+)\"$`)
+var panelLogLevelPriority = map[string]int{
+	PanelLogLevelDebug: 10,
+	PanelLogLevelInfo:  20,
+	PanelLogLevelWarn:  30,
+	PanelLogLevelError: 40,
+}
+
+type PanelLogFilterWriter struct {
+	dst io.Writer
+}
+
+func NewPanelLogFilterWriter(dst io.Writer) *PanelLogFilterWriter {
+	return &PanelLogFilterWriter{dst: dst}
+}
+
+func (w *PanelLogFilterWriter) Write(p []byte) (int, error) {
+	text := string(p)
+	if shouldSuppressPanelStartupLog(text) {
+		return len(p), nil
+	}
+
+	lines := splitLogPayloadLines(text)
+	if len(lines) == 0 {
+		return len(p), nil
+	}
+
+	var builder strings.Builder
+	for _, line := range lines {
+		trimmed := strings.TrimRight(line, "\r\n")
+		if strings.TrimSpace(trimmed) == "" {
+			continue
+		}
+		builder.WriteString(formatPanelLogLine(trimmed))
+		builder.WriteByte('\n')
+	}
+
+	if builder.Len() == 0 {
+		return len(p), nil
+	}
+	_, err := w.dst.Write([]byte(builder.String()))
+	if err != nil {
+		return 0, err
+	}
+	return len(p), nil
+}
+
+func splitLogPayloadLines(text string) []string {
+	scanner := bufio.NewScanner(strings.NewReader(text))
+	scanner.Buffer(make([]byte, 0, 64*1024), 1024*1024)
+	lines := make([]string, 0)
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
+	}
+	if len(lines) == 0 && strings.TrimSpace(text) != "" {
+		lines = append(lines, text)
+	}
+	return lines
+}
+
+func formatPanelLogLine(line string) string {
+	if panelLogLinePattern.MatchString(line) {
+		return line
+	}
+	if compacted, ok := compactGINLogLine(line); ok {
+		return compacted
+	}
+	level := detectPanelLogLevel(line)
+	return "[" + strings.ToUpper(level) + "] " + line
+}
+
+func compactGINLogLine(line string) (string, bool) {
+	match := panelGINLinePattern.FindStringSubmatch(strings.TrimSpace(line))
+	if len(match) != 6 {
+		return "", false
+	}
+
+	statusCode := strings.TrimSpace(match[1])
+	clientIP := strings.TrimSpace(match[3])
+	method := strings.TrimSpace(match[4])
+	path := strings.TrimSpace(match[5])
+	level := logLevelForStatusCode(statusCode)
+
+	ts := time.Now().Format("2006-01-02 15:04:05")
+	return "[" + strings.ToUpper(level) + "] " + ts + " [" + clientIP + "] " + method + " " + path + " 状态=" + statusCode, true
+}
+
+func normalizeGINLatency(raw string) string {
+	raw = strings.TrimSpace(raw)
+	raw = strings.ReplaceAll(raw, " ", "")
+	return raw
+}
+
+func logLevelForStatusCode(statusCode string) string {
+	switch {
+	case strings.HasPrefix(statusCode, "5"):
+		return PanelLogLevelError
+	case strings.HasPrefix(statusCode, "4"):
+		return PanelLogLevelWarn
+	default:
+		return PanelLogLevelInfo
+	}
+}
+
+func detectPanelLogLevel(line string) string {
+	lower := strings.ToLower(strings.TrimSpace(line))
+	switch {
+	case strings.Contains(lower, " panic"), strings.Contains(lower, "fatal"), strings.Contains(lower, " failed"), strings.Contains(lower, " error"), strings.Contains(lower, "无法"), strings.Contains(lower, "失败"):
+		return PanelLogLevelError
+	case strings.Contains(lower, "warn"), strings.Contains(lower, "warning"), strings.Contains(lower, "超时"), strings.Contains(lower, "不可用"), strings.Contains(lower, "跳过"):
+		return PanelLogLevelWarn
+	case strings.Contains(lower, "debug"), strings.Contains(lower, "trace"), strings.Contains(lower, "scanner"), strings.Contains(lower, "probe"):
+		return PanelLogLevelDebug
+	default:
+		return PanelLogLevelInfo
+	}
+}
+
+func NewGINLoggerWriter(dst io.Writer) io.Writer {
+	return &ginAccessLogWriter{dst: dst}
+}
+
+type ginAccessLogWriter struct {
+	dst io.Writer
+}
+
+func (w *ginAccessLogWriter) Write(p []byte) (int, error) {
+	text := strings.TrimSpace(string(p))
+	if text == "" {
+		return len(p), nil
+	}
+
+	if compacted, ok := compactGINLogLine(text); ok {
+		w.dst.Write([]byte(compacted + "\n"))
+		return len(p), nil
+	}
+
+	w.dst.Write([]byte(strings.TrimRight(text, "\r\n") + "\n"))
+	return len(p), nil
+}
+
+func ParsePanelLogLineLevel(line string) string {
+	match := panelLogLinePattern.FindStringSubmatch(strings.TrimSpace(line))
+	if len(match) >= 2 {
+		return strings.ToLower(strings.TrimSpace(match[1]))
+	}
+	return detectPanelLogLevel(line)
+}
+
+func MatchPanelLogLevel(line, minimumLevel string) bool {
+	minimumLevel = strings.ToLower(strings.TrimSpace(minimumLevel))
+	if minimumLevel == "" {
+		return true
+	}
+
+	currentLevel := ParsePanelLogLineLevel(line)
+	currentPriority, currentOK := panelLogLevelPriority[currentLevel]
+	minimumPriority, minimumOK := panelLogLevelPriority[minimumLevel]
+	if !currentOK || !minimumOK {
+		return currentLevel == minimumLevel
+	}
+
+	return currentPriority >= minimumPriority
+}
+
+func NewPanelLogger(dst io.Writer) *log.Logger {
+	return log.New(NewPanelLogFilterWriter(dst), "", log.LstdFlags)
+}
+
+func shouldSuppressPanelStartupLog(text string) bool {
+	markers := []string{
+		"database connected:",
+		"added missing column:",
+		"column check completed",
+		"scheduler v2 started:",
+		"scheduler v2 initialized with",
+		"scheduler v2 enqueued",
+		"subscription scheduler initialized with",
+		"resource watcher started",
+		"server starting on",
+	}
+
+	for _, marker := range markers {
+		if strings.Contains(text, marker) {
+			return true
+		}
+	}
+
+	return false
+}

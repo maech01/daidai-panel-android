@@ -1,1 +1,561 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJInN0cmluZ3MiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdEVudkJhdGNoU2V0R3JvdXBVcGRhdGVzU2VsZWN0ZWRSb3dzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgllbnZzIDo9IFtdKm1vZGVsLkVudlZhcnsKCQl7TmFtZTogIkZPTyIsIFZhbHVlOiAiMSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIkJBUiIsIFZhbHVlOiAiMiIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAyMDAwfSwKCX0KCWZvciBfLCBlbnYgOj0gcmFuZ2UgZW52cyB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShlbnYpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImNyZWF0ZSBlbnYgJXE6ICV2IiwgZW52Lk5hbWUsIGVycikKCQl9Cgl9CgoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJIi9hcGkvdjEvZW52cy9iYXRjaC9ncm91cCIsCgkJZm10LlNwcmludGYoYHsiaWRzIjpbJWQsJWRdLCJncm91cCI6InJlbGVhc2UifWAsIGVudnNbMF0uSUQsIGVudnNbMV0uSUQpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWZvciBfLCBlbnYgOj0gcmFuZ2UgZW52cyB7CgkJdmFyIGN1cnJlbnQgbW9kZWwuRW52VmFyCgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZjdXJyZW50LCBlbnYuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoInJlbG9hZCBlbnYgJWQ6ICV2IiwgZW52LklELCBlcnIpCgkJfQoJCWlmIGN1cnJlbnQuR3JvdXAgIT0gInJlbGVhc2UiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGVudiAlZCBncm91cCByZWxlYXNlLCBnb3QgJXEiLCBlbnYuSUQsIGN1cnJlbnQuR3JvdXApCgkJfQoJfQp9CgpmdW5jIFRlc3RFbnZCYXRjaFNldEdyb3VwQWNjZXB0c011bHRpcGxlR3JvdXBzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtbXVsdGktZ3JvdXAtb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgllbnYgOj0gJm1vZGVsLkVudlZhcntOYW1lOiAiRk9PIiwgVmFsdWU6ICIxIiwgRW5hYmxlZDogdHJ1ZSwgUG9zaXRpb246IDEwMDB9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGVudikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgZW52OiAldiIsIGVycikKCX0KCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFB1dCwKCQkiL2FwaS92MS9lbnZzL2JhdGNoL2dyb3VwIiwKCQlmbXQuU3ByaW50ZihgeyJpZHMiOlslZF0sImdyb3VwcyI6WyJyZWxlYXNlIiwicHJvZCIsInJlbGVhc2UiXX1gLCBlbnYuSUQpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXZhciBjdXJyZW50IG1vZGVsLkVudlZhcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZjdXJyZW50LCBlbnYuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVsb2FkIGVudjogJXYiLCBlcnIpCgl9CglpZiBjdXJyZW50Lkdyb3VwICE9ICJyZWxlYXNlLHByb2QiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm9ybWFsaXplZCBncm91cCByZWxlYXNlLHByb2QsIGdvdCAlcSIsIGN1cnJlbnQuR3JvdXApCgl9Cn0KCmZ1bmMgVGVzdEVudkxpc3RTdXBwb3J0c011bHRpcGxlR3JvdXBGaWx0ZXJzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtbXVsdGktZmlsdGVyLW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52cyA6PSBbXSptb2RlbC5FbnZWYXJ7CgkJe05hbWU6ICJQUk9EX09OTFkiLCBWYWx1ZTogIjEiLCBHcm91cDogInByb2QiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMTAwMH0sCgkJe05hbWU6ICJERVZfQU5EX1BST0QiLCBWYWx1ZTogIjIiLCBHcm91cDogImRldixwcm9kIiwgRW5hYmxlZDogdHJ1ZSwgUG9zaXRpb246IDIwMDB9LAoJCXtOYW1lOiAiU1RBR0VfT05MWSIsIFZhbHVlOiAiMyIsIEdyb3VwOiAic3RhZ2UiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMzAwMH0sCgl9Cglmb3IgXywgZW52IDo9IHJhbmdlIGVudnMgewoJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW52KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJjcmVhdGUgZW52ICVxOiAldiIsIGVudi5OYW1lLCBlcnIpCgkJfQoJfQoKCXJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9lbnZzP2dyb3Vwcz1kZXYscHJvZCIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW4sCgl9KQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCByZWMpCglpdGVtcywgb2sgOj0gcGF5bG9hZFsiZGF0YSJdLihbXWludGVyZmFjZXt9KQoJaWYgIW9rIHx8IGxlbihpdGVtcykgIT0gMiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIgZW52cyBmb3IgZGV2L3Byb2QgZmlsdGVyLCBnb3QgJSN2IiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoKCWdvdE5hbWVzIDo9IG1ha2UobWFwW3N0cmluZ11zdHJ1Y3R7fSwgbGVuKGl0ZW1zKSkKCWZvciBfLCBpdGVtIDo9IHJhbmdlIGl0ZW1zIHsKCQllbnYsIG9rIDo9IGl0ZW0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCgkJaWYgIW9rIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGVudiBvYmplY3QsIGdvdCAlI3YiLCBpdGVtKQoJCX0KCQlnb3ROYW1lc1tlbnZbIm5hbWUiXS4oc3RyaW5nKV0gPSBzdHJ1Y3R7fXt9CgkJZ3JvdXBzLCBvayA6PSBlbnZbImdyb3VwcyJdLihbXWludGVyZmFjZXt9KQoJCWlmICFvayB8fCBsZW4oZ3JvdXBzKSA9PSAwIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGdyb3VwcyBhcnJheSBpbiByZXNwb25zZSwgZ290ICUjdiIsIGVudlsiZ3JvdXBzIl0pCgkJfQoJfQoJaWYgXywgZXhpc3RzIDo9IGdvdE5hbWVzWyJQUk9EX09OTFkiXTsgIWV4aXN0cyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIFBST0RfT05MWSBpbiBmaWx0ZXIgcmVzdWx0LCBnb3QgJXYiLCBnb3ROYW1lcykKCX0KCWlmIF8sIGV4aXN0cyA6PSBnb3ROYW1lc1siREVWX0FORF9QUk9EIl07ICFleGlzdHMgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBERVZfQU5EX1BST0QgaW4gZmlsdGVyIHJlc3VsdCwgZ290ICV2IiwgZ290TmFtZXMpCgl9CglpZiBfLCBleGlzdHMgOj0gZ290TmFtZXNbIlNUQUdFX09OTFkiXTsgZXhpc3RzIHsKCQl0LkZhdGFsZigiZGlkIG5vdCBleHBlY3QgU1RBR0VfT05MWSBpbiBmaWx0ZXIgcmVzdWx0LCBnb3QgJXYiLCBnb3ROYW1lcykKCX0KfQoKZnVuYyBUZXN0RW52R3JvdXBzU3BsaXRzU3RvcmVkTXVsdGlHcm91cHModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImVudi1ncm91cC1saXN0LW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52cyA6PSBbXSptb2RlbC5FbnZWYXJ7CgkJe05hbWU6ICJBIiwgVmFsdWU6ICIxIiwgR3JvdXA6ICJwcm9kLGRldiIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIkIiLCBWYWx1ZTogIjIiLCBHcm91cDogInByb2QiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMjAwMH0sCgkJe05hbWU6ICJDIiwgVmFsdWU6ICIzIiwgR3JvdXA6ICJzdGFnZSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAzMDAwfSwKCX0KCWZvciBfLCBlbnYgOj0gcmFuZ2UgZW52cyB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShlbnYpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImNyZWF0ZSBlbnYgJXE6ICV2IiwgZW52Lk5hbWUsIGVycikKCQl9Cgl9CgoJcmVjIDo9IHBlcmZvcm1SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RHZXQsICIvYXBpL3YxL2VudnMvZ3JvdXBzIiwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbiwKCX0pCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWl0ZW1zLCBvayA6PSBwYXlsb2FkWyJkYXRhIl0uKFtdaW50ZXJmYWNle30pCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBncm91cCBsaXN0LCBnb3QgJSN2IiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoJZ290IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihpdGVtcykpCglmb3IgXywgaXRlbSA6PSByYW5nZSBpdGVtcyB7CgkJdGV4dCwgb2sgOj0gaXRlbS4oc3RyaW5nKQoJCWlmICFvayB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBzdHJpbmcgZ3JvdXAsIGdvdCAlI3YiLCBpdGVtKQoJCX0KCQlnb3QgPSBhcHBlbmQoZ290LCB0ZXh0KQoJfQoJZXhwZWN0ZWQgOj0gW11zdHJpbmd7ImRldiIsICJwcm9kIiwgInN0YWdlIn0KCWlmIHN0cmluZ3MuSm9pbihnb3QsICIsIikgIT0gc3RyaW5ncy5Kb2luKGV4cGVjdGVkLCAiLCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZ3JvdXBzICV2LCBnb3QgJXYiLCBleHBlY3RlZCwgZ290KQoJfQp9CgpmdW5jIFRlc3RFbnZMaXN0U3VwcG9ydHNFbmFibGVkRmlsdGVyKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtZmlsdGVyLW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52cyA6PSBbXSptb2RlbC5FbnZWYXJ7CgkJe05hbWU6ICJFTkFCTEVEX0VOViIsIFZhbHVlOiAiMSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIkRJU0FCTEVEX0VOViIsIFZhbHVlOiAiMiIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAyMDAwfSwKCX0KCWZvciBfLCBlbnYgOj0gcmFuZ2UgZW52cyB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShlbnYpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImNyZWF0ZSBlbnYgJXE6ICV2IiwgZW52Lk5hbWUsIGVycikKCQl9Cgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuTW9kZWwoZW52c1sxXSkuVXBkYXRlKCJlbmFibGVkIiwgZmFsc2UpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZGlzYWJsZSBlbnYgJXE6ICV2IiwgZW52c1sxXS5OYW1lLCBlcnIpCgl9CgoJZW5hYmxlZFJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9lbnZzP2VuYWJsZWQ9dHJ1ZSIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW4sCgl9KQoJaWYgZW5hYmxlZFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBlbmFibGVkIGZpbHRlciAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIGVuYWJsZWRSZWMuQ29kZSwgZW5hYmxlZFJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWVuYWJsZWRQYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgZW5hYmxlZFJlYykKCWVuYWJsZWRJdGVtcywgb2sgOj0gZW5hYmxlZFBheWxvYWRbImRhdGEiXS4oW11pbnRlcmZhY2V7fSkKCWlmICFvayB8fCBsZW4oZW5hYmxlZEl0ZW1zKSAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMSBlbmFibGVkIGVudiwgZ290ICUjdiIsIGVuYWJsZWRQYXlsb2FkWyJkYXRhIl0pCgl9CgllbmFibGVkSXRlbSwgb2sgOj0gZW5hYmxlZEl0ZW1zWzBdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5hYmxlZCBlbnYgb2JqZWN0LCBnb3QgJSN2IiwgZW5hYmxlZEl0ZW1zWzBdKQoJfQoJaWYgZ290LCBfIDo9IGVuYWJsZWRJdGVtWyJuYW1lIl0uKHN0cmluZyk7IGdvdCAhPSAiRU5BQkxFRF9FTlYiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgRU5BQkxFRF9FTlYsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCwgXyA6PSBlbmFibGVkUGF5bG9hZFsidG90YWwiXS4oZmxvYXQ2NCk7IGdvdCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5hYmxlZCB0b3RhbCAxLCBnb3QgJXYiLCBnb3QpCgl9CgoJZGlzYWJsZWRSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvZW52cz9lbmFibGVkPWZhbHNlIiwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbiwKCX0pCglpZiBkaXNhYmxlZFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkaXNhYmxlZCBmaWx0ZXIgMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCBkaXNhYmxlZFJlYy5Db2RlLCBkaXNhYmxlZFJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWRpc2FibGVkUGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIGRpc2FibGVkUmVjKQoJZGlzYWJsZWRJdGVtcywgb2sgOj0gZGlzYWJsZWRQYXlsb2FkWyJkYXRhIl0uKFtdaW50ZXJmYWNle30pCglpZiAhb2sgfHwgbGVuKGRpc2FibGVkSXRlbXMpICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAxIGRpc2FibGVkIGVudiwgZ290ICUjdiIsIGRpc2FibGVkUGF5bG9hZFsiZGF0YSJdKQoJfQoJZGlzYWJsZWRJdGVtLCBvayA6PSBkaXNhYmxlZEl0ZW1zWzBdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGlzYWJsZWQgZW52IG9iamVjdCwgZ290ICUjdiIsIGRpc2FibGVkSXRlbXNbMF0pCgl9CglpZiBnb3QsIF8gOj0gZGlzYWJsZWRJdGVtWyJuYW1lIl0uKHN0cmluZyk7IGdvdCAhPSAiRElTQUJMRURfRU5WIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIERJU0FCTEVEX0VOViwgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290LCBfIDo9IGRpc2FibGVkUGF5bG9hZFsidG90YWwiXS4oZmxvYXQ2NCk7IGdvdCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGlzYWJsZWQgdG90YWwgMSwgZ290ICV2IiwgZ290KQoJfQp9CgpmdW5jIFRlc3RFbnZCYXRjaFJlbmFtZVVwZGF0ZXNTZWxlY3RlZFJvd3ModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImVudi1yZW5hbWUtb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgllbnZzIDo9IFtdKm1vZGVsLkVudlZhcnsKCQl7TmFtZTogIkpEX0NPT0tJRV9BTFBIQSIsIFZhbHVlOiAiMSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIkpEX0NPT0tJRV9CRVRBIiwgVmFsdWU6ICIyIiwgRW5hYmxlZDogdHJ1ZSwgUG9zaXRpb246IDIwMDB9LAoJCXtOYW1lOiAiSkRfQ09PS0lFX0dBTU1BIiwgVmFsdWU6ICIzIiwgRW5hYmxlZDogdHJ1ZSwgUG9zaXRpb246IDMwMDB9LAoJfQoJZm9yIF8sIGVudiA6PSByYW5nZSBlbnZzIHsKCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGVudikuRXJyb3I7IGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigiY3JlYXRlIGVudiAlcTogJXYiLCBlbnYuTmFtZSwgZXJyKQoJCX0KCX0KCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFB1dCwKCQkiL2FwaS92MS9lbnZzL2JhdGNoL3JlbmFtZSIsCgkJZm10LlNwcmludGYoYHsiaWRzIjpbJWQsJWRdLCJzZWFyY2giOiJDT09LSUUiLCJyZXBsYWNlIjoiVE9LRU4ifWAsIGVudnNbMF0uSUQsIGVudnNbMV0uSUQpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWV4cGVjdGVkTmFtZXMgOj0gbWFwW3VpbnRdc3RyaW5newoJCWVudnNbMF0uSUQ6ICJKRF9UT0tFTl9BTFBIQSIsCgkJZW52c1sxXS5JRDogIkpEX1RPS0VOX0JFVEEiLAoJCWVudnNbMl0uSUQ6ICJKRF9DT09LSUVfR0FNTUEiLAoJfQoJZm9yIF8sIGVudiA6PSByYW5nZSBlbnZzIHsKCQl2YXIgY3VycmVudCBtb2RlbC5FbnZWYXIKCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJmN1cnJlbnQsIGVudi5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigicmVsb2FkIGVudiAlZDogJXYiLCBlbnYuSUQsIGVycikKCQl9CgkJaWYgY3VycmVudC5OYW1lICE9IGV4cGVjdGVkTmFtZXNbZW52LklEXSB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBlbnYgJWQgbmFtZSAlcSwgZ290ICVxIiwgZW52LklELCBleHBlY3RlZE5hbWVzW2Vudi5JRF0sIGN1cnJlbnQuTmFtZSkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdEVudkJhdGNoUmVuYW1lUmVqZWN0c0ludmFsaWRSZXBsYWNlbWVudCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiZW52LXJlbmFtZS1pbnZhbGlkIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52IDo9ICZtb2RlbC5FbnZWYXJ7TmFtZTogIlZBTElEX05BTUUiLCBWYWx1ZTogIjEiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMTAwMH0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW52KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBlbnY6ICV2IiwgZXJyKQoJfQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUHV0LAoJCSIvYXBpL3YxL2VudnMvYmF0Y2gvcmVuYW1lIiwKCQlmbXQuU3ByaW50ZihgeyJpZHMiOlslZF0sInNlYXJjaCI6IlZBTElEIiwicmVwbGFjZSI6IklOVkFMSUQtTkFNRSJ9YCwgZW52LklEKSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwKCQkiIiwKCSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDQwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMocmVjLkJvZHkuU3RyaW5nKCksICLmoLzlvI/ml6DmlYgiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGludmFsaWQgZm9ybWF0IGVycm9yLCBnb3QgJXMiLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgY3VycmVudCBtb2RlbC5FbnZWYXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmY3VycmVudCwgZW52LklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCBlbnY6ICV2IiwgZXJyKQoJfQoJaWYgY3VycmVudC5OYW1lICE9ICJWQUxJRF9OQU1FIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGVudiBuYW1lIHRvIHJlbWFpbiB1bmNoYW5nZWQsIGdvdCAlcSIsIGN1cnJlbnQuTmFtZSkKCX0KfQoKZnVuYyBUZXN0RW52U29ydFRvRmlyc3RLZWVwc0l0ZW1VbnBpbm5lZCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiZW52LW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52cyA6PSBbXSptb2RlbC5FbnZWYXJ7CgkJe05hbWU6ICJBTFBIQSIsIFZhbHVlOiAiMSIsIEVuYWJsZWQ6IHRydWUsIFNvcnRPcmRlcjogMCwgUG9zaXRpb246IDEwMDB9LAoJCXtOYW1lOiAiQkVUQSIsIFZhbHVlOiAiMiIsIEVuYWJsZWQ6IHRydWUsIFNvcnRPcmRlcjogMCwgUG9zaXRpb246IDIwMDB9LAoJCXtOYW1lOiAiR0FNTUEiLCBWYWx1ZTogIjMiLCBFbmFibGVkOiB0cnVlLCBTb3J0T3JkZXI6IDAsIFBvc2l0aW9uOiAzMDAwfSwKCX0KCWZvciBfLCBlbnYgOj0gcmFuZ2UgZW52cyB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShlbnYpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoImNyZWF0ZSBlbnYgJXE6ICV2IiwgZW52Lk5hbWUsIGVycikKCQl9Cgl9CgoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJIi9hcGkvdjEvZW52cy9zb3J0IiwKCQlmbXQuU3ByaW50ZihgeyJzb3VyY2VfaWQiOiVkLCJ0YXJnZXRfaWQiOiVkfWAsIGVudnNbMl0uSUQsIGVudnNbMF0uSUQpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXZhciBtb3ZlZCBtb2RlbC5FbnZWYXIKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmbW92ZWQsIGVudnNbMl0uSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVsb2FkIG1vdmVkIGVudjogJXYiLCBlcnIpCgl9CglpZiBtb3ZlZC5Tb3J0T3JkZXIgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG1vdmVkIGVudiB0byByZW1haW4gdW5waW5uZWQsIGdvdCBzb3J0X29yZGVyPSVkIiwgbW92ZWQuU29ydE9yZGVyKQoJfQoKCWxpc3RSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvZW52cyIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW4sCgl9KQoJaWYgbGlzdFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsaXN0IDIwMCwgZ290ICVkLCBib2R5PSVzIiwgbGlzdFJlYy5Db2RlLCBsaXN0UmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIGxpc3RSZWMpCglpdGVtcywgb2sgOj0gcGF5bG9hZFsiZGF0YSJdLihbXWludGVyZmFjZXt9KQoJaWYgIW9rIHx8IGxlbihpdGVtcykgPCAzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW52IGxpc3Qgd2l0aCBhdCBsZWFzdCAzIGl0ZW1zLCBnb3QgJSN2IiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoKCWZpcnN0LCBvayA6PSBpdGVtc1swXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGZpcnN0IGVudiBvYmplY3QsIGdvdCAlI3YiLCBpdGVtc1swXSkKCX0KCWlmIGdvdCwgXyA6PSBmaXJzdFsibmFtZSJdLihzdHJpbmcpOyBnb3QgIT0gIkdBTU1BIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIEdBTU1BIHRvIGJlIGZpcnN0IGFmdGVyIHNvcnQsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIHNvcnRPcmRlciwgXyA6PSBmaXJzdFsic29ydF9vcmRlciJdLihmbG9hdDY0KTsgc29ydE9yZGVyICE9IDAgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmaXJzdCBlbnYgdG8gYmUgdW5waW5uZWQgYWZ0ZXIgZHJhZywgZ290IHNvcnRfb3JkZXI9JXYiLCBzb3J0T3JkZXIpCgl9Cn0KCmZ1bmMgVGVzdEVudk1vdmVUb3BBbmRDYW5jZWxUb3BVc2VFeHBsaWNpdFBpbm5lZFN0YXRlKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgllbnZzIDo9IFtdKm1vZGVsLkVudlZhcnsKCQl7TmFtZTogIkxFRlQiLCBWYWx1ZTogIjEiLCBFbmFibGVkOiB0cnVlLCBTb3J0T3JkZXI6IDAsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIlJJR0hUIiwgVmFsdWU6ICIyIiwgRW5hYmxlZDogdHJ1ZSwgU29ydE9yZGVyOiAwLCBQb3NpdGlvbjogMjAwMH0sCgl9Cglmb3IgXywgZW52IDo9IHJhbmdlIGVudnMgewoJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW52KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJjcmVhdGUgZW52ICVxOiAldiIsIGVudi5OYW1lLCBlcnIpCgkJfQoJfQoKCW1vdmVUb3BSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFB1dCwgZm10LlNwcmludGYoIi9hcGkvdjEvZW52cy8lZC9tb3ZlLXRvcCIsIGVudnNbMV0uSUQpLCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VuLAoJfSkKCWlmIG1vdmVUb3BSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbW92ZS10b3AgMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCBtb3ZlVG9wUmVjLkNvZGUsIG1vdmVUb3BSZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgcGlubmVkIG1vZGVsLkVudlZhcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZwaW5uZWQsIGVudnNbMV0uSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVsb2FkIHBpbm5lZCBlbnY6ICV2IiwgZXJyKQoJfQoJaWYgcGlubmVkLlNvcnRPcmRlciAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc29ydF9vcmRlcj0xIGFmdGVyIG1vdmUtdG9wLCBnb3QgJWQiLCBwaW5uZWQuU29ydE9yZGVyKQoJfQoKCWNhbmNlbFRvcFJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kUHV0LCBmbXQuU3ByaW50ZigiL2FwaS92MS9lbnZzLyVkL2NhbmNlbC10b3AiLCBlbnZzWzFdLklEKSwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbiwKCX0pCglpZiBjYW5jZWxUb3BSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2FuY2VsLXRvcCAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIGNhbmNlbFRvcFJlYy5Db2RlLCBjYW5jZWxUb3BSZWMuQm9keS5TdHJpbmcoKSkKCX0KCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnBpbm5lZCwgZW52c1sxXS5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdW5waW5uZWQgZW52OiAldiIsIGVycikKCX0KCWlmIHBpbm5lZC5Tb3J0T3JkZXIgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNvcnRfb3JkZXI9MCBhZnRlciBjYW5jZWwtdG9wLCBnb3QgJWQiLCBwaW5uZWQuU29ydE9yZGVyKQoJfQp9CgpmdW5jIFRlc3RFbnZFeHBvcnRBbGxIb25vcnNTZWxlY3RlZElEcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiZW52LW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52cyA6PSBbXSptb2RlbC5FbnZWYXJ7CgkJe05hbWU6ICJBTFBIQSIsIFZhbHVlOiAiMSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIkJFVEEiLCBWYWx1ZTogIjIiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMjAwMH0sCgkJe05hbWU6ICJHQU1NQSIsIFZhbHVlOiAiMyIsIEVuYWJsZWQ6IGZhbHNlLCBQb3NpdGlvbjogMzAwMH0sCgl9Cglmb3IgXywgZW52IDo9IHJhbmdlIGVudnMgewoJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW52KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJjcmVhdGUgZW52ICVxOiAldiIsIGVudi5OYW1lLCBlcnIpCgkJfQoJfQoKCXJlYyA6PSBwZXJmb3JtUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RHZXQsCgkJZm10LlNwcmludGYoIi9hcGkvdjEvZW52cy9leHBvcnQtYWxsP2lkcz0lZCwlZCIsIGVudnNbMF0uSUQsIGVudnNbMl0uSUQpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCByZWMpCglpdGVtcywgb2sgOj0gcGF5bG9hZFsiZGF0YSJdLihbXWludGVyZmFjZXt9KQoJaWYgIW9rIHx8IGxlbihpdGVtcykgIT0gMiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIgZXhwb3J0ZWQgZW52cywgZ290ICUjdiIsIHBheWxvYWRbImRhdGEiXSkKCX0KCglnb3ROYW1lcyA6PSBtYWtlKG1hcFtzdHJpbmddc3RydWN0e30sIGxlbihpdGVtcykpCglmb3IgXywgaXRlbSA6PSByYW5nZSBpdGVtcyB7CgkJZW52LCBvayA6PSBpdGVtLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJCWlmICFvayB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBlbnYgb2JqZWN0LCBnb3QgJSN2IiwgaXRlbSkKCQl9CgkJZ290TmFtZXNbZW52WyJuYW1lIl0uKHN0cmluZyldID0gc3RydWN0e317fQoJfQoKCWlmIF8sIGV4aXN0cyA6PSBnb3ROYW1lc1siQUxQSEEiXTsgIWV4aXN0cyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIEFMUEhBIGluIGV4cG9ydCwgZ290ICV2IiwgZ290TmFtZXMpCgl9CglpZiBfLCBleGlzdHMgOj0gZ290TmFtZXNbIkdBTU1BIl07ICFleGlzdHMgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBHQU1NQSBpbiBleHBvcnQsIGdvdCAldiIsIGdvdE5hbWVzKQoJfQoJaWYgXywgZXhpc3RzIDo9IGdvdE5hbWVzWyJCRVRBIl07IGV4aXN0cyB7CgkJdC5GYXRhbGYoImRpZCBub3QgZXhwZWN0IEJFVEEgaW4gc2VsZWN0ZWQgZXhwb3J0LCBnb3QgJXYiLCBnb3ROYW1lcykKCX0KfQoKZnVuYyBUZXN0RW52RXhwb3J0RmlsZXNQcmVzZXJ2ZXNFbWJlZGRlZEFtcGVyc2FuZHModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImVudi1leHBvcnRlciIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCWVudnMgOj0gW10qbW9kZWwuRW52VmFyewoJCXtOYW1lOiAiSkRfQ09PS0lFIiwgVmFsdWU6ICJwdF9rZXk9b25lJmE9MSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfSwKCQl7TmFtZTogIkpEX0NPT0tJRSIsIFZhbHVlOiAicHRfa2V5PXR3byZiPTIiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMjAwMH0sCgl9Cglmb3IgXywgZW52IDo9IHJhbmdlIGVudnMgewoJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW52KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJjcmVhdGUgZW52ICVxOiAldiIsIGVudi5OYW1lLCBlcnIpCgkJfQoJfQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS9lbnZzL2V4cG9ydC1maWxlcyIsCgkJYHsiZm9ybWF0Ijoic2hlbGwifWAsCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sCgkJIiIsCgkpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWRhdGEsIG9rIDo9IHBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmICFvayB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGV4cG9ydCBkYXRhIG1hcCwgZ290ICUjdiIsIHBheWxvYWRbImRhdGEiXSkKCX0KCglzaGVsbCwgXyA6PSBkYXRhWyJzaGVsbCJdLihzdHJpbmcpCglpZiAhc3RyaW5ncy5Db250YWlucyhzaGVsbCwgImV4cG9ydCBKRF9DT09LSUU9J3B0X2tleT1vbmUmYT0xJiZwdF9rZXk9dHdvJmI9MiciKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNoZWxsIGV4cG9ydCB0byBwcmVzZXJ2ZSBlbWJlZGRlZCBhbXBlcnNhbmRzLCBnb3QgJXMiLCBzaGVsbCkKCX0KfQoKZnVuYyBUZXN0RW52Q3JlYXRlUmVqZWN0c092ZXJzaXplZEJvZHkodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImVudi1vcGVyYXRvci1saW1pdCIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCWxhcmdlVmFsdWUgOj0gc3RyaW5ncy5SZXBlYXQoImEiLCAoMTw8MjApKzEyOCkKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS9lbnZzIiwKCQlmbXQuU3ByaW50ZihgeyJuYW1lIjoiQklHX0VOViIsInZhbHVlIjoiJXMifWAsIGxhcmdlVmFsdWUpLAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCSIiLAoJKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNCYWRSZXF1ZXN0IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgNDAwLCBnb3QgJWQsIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhyZWMuQm9keS5TdHJpbmcoKSwgIuivt+axguS9k+i/h+WkpyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgb3ZlcnNpemVkIGJvZHkgbWVzc2FnZSwgZ290ICVzIiwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9Cn0K
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"strings"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestEnvBatchSetGroupUpdatesSelectedRows(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "FOO", Value: "1", Enabled: true, Position: 1000},
+		{Name: "BAR", Value: "2", Enabled: true, Position: 2000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/envs/batch/group",
+		fmt.Sprintf(`{"ids":[%d,%d],"group":"release"}`, envs[0].ID, envs[1].ID),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	for _, env := range envs {
+		var current model.EnvVar
+		if err := database.DB.First(&current, env.ID).Error; err != nil {
+			t.Fatalf("reload env %d: %v", env.ID, err)
+		}
+		if current.Group != "release" {
+			t.Fatalf("expected env %d group release, got %q", env.ID, current.Group)
+		}
+	}
+}
+
+func TestEnvBatchSetGroupAcceptsMultipleGroups(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-multi-group-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	env := &model.EnvVar{Name: "FOO", Value: "1", Enabled: true, Position: 1000}
+	if err := database.DB.Create(env).Error; err != nil {
+		t.Fatalf("create env: %v", err)
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/envs/batch/group",
+		fmt.Sprintf(`{"ids":[%d],"groups":["release","prod","release"]}`, env.ID),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	var current model.EnvVar
+	if err := database.DB.First(&current, env.ID).Error; err != nil {
+		t.Fatalf("reload env: %v", err)
+	}
+	if current.Group != "release,prod" {
+		t.Fatalf("expected normalized group release,prod, got %q", current.Group)
+	}
+}
+
+func TestEnvListSupportsMultipleGroupFilters(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-multi-filter-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "PROD_ONLY", Value: "1", Group: "prod", Enabled: true, Position: 1000},
+		{Name: "DEV_AND_PROD", Value: "2", Group: "dev,prod", Enabled: true, Position: 2000},
+		{Name: "STAGE_ONLY", Value: "3", Group: "stage", Enabled: true, Position: 3000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performRequest(engine, http.MethodGet, "/api/v1/envs?groups=dev,prod", map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	items, ok := payload["data"].([]interface{})
+	if !ok || len(items) != 2 {
+		t.Fatalf("expected 2 envs for dev/prod filter, got %#v", payload["data"])
+	}
+
+	gotNames := make(map[string]struct{}, len(items))
+	for _, item := range items {
+		env, ok := item.(map[string]interface{})
+		if !ok {
+			t.Fatalf("expected env object, got %#v", item)
+		}
+		gotNames[env["name"].(string)] = struct{}{}
+		groups, ok := env["groups"].([]interface{})
+		if !ok || len(groups) == 0 {
+			t.Fatalf("expected groups array in response, got %#v", env["groups"])
+		}
+	}
+	if _, exists := gotNames["PROD_ONLY"]; !exists {
+		t.Fatalf("expected PROD_ONLY in filter result, got %v", gotNames)
+	}
+	if _, exists := gotNames["DEV_AND_PROD"]; !exists {
+		t.Fatalf("expected DEV_AND_PROD in filter result, got %v", gotNames)
+	}
+	if _, exists := gotNames["STAGE_ONLY"]; exists {
+		t.Fatalf("did not expect STAGE_ONLY in filter result, got %v", gotNames)
+	}
+}
+
+func TestEnvGroupsSplitsStoredMultiGroups(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-group-list-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "A", Value: "1", Group: "prod,dev", Enabled: true, Position: 1000},
+		{Name: "B", Value: "2", Group: "prod", Enabled: true, Position: 2000},
+		{Name: "C", Value: "3", Group: "stage", Enabled: true, Position: 3000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performRequest(engine, http.MethodGet, "/api/v1/envs/groups", map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	items, ok := payload["data"].([]interface{})
+	if !ok {
+		t.Fatalf("expected group list, got %#v", payload["data"])
+	}
+	got := make([]string, 0, len(items))
+	for _, item := range items {
+		text, ok := item.(string)
+		if !ok {
+			t.Fatalf("expected string group, got %#v", item)
+		}
+		got = append(got, text)
+	}
+	expected := []string{"dev", "prod", "stage"}
+	if strings.Join(got, ",") != strings.Join(expected, ",") {
+		t.Fatalf("expected groups %v, got %v", expected, got)
+	}
+}
+
+func TestEnvListSupportsEnabledFilter(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-filter-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "ENABLED_ENV", Value: "1", Enabled: true, Position: 1000},
+		{Name: "DISABLED_ENV", Value: "2", Enabled: true, Position: 2000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+	if err := database.DB.Model(envs[1]).Update("enabled", false).Error; err != nil {
+		t.Fatalf("disable env %q: %v", envs[1].Name, err)
+	}
+
+	enabledRec := performRequest(engine, http.MethodGet, "/api/v1/envs?enabled=true", map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if enabledRec.Code != http.StatusOK {
+		t.Fatalf("expected enabled filter 200, got %d, body=%s", enabledRec.Code, enabledRec.Body.String())
+	}
+
+	enabledPayload := decodeJSONMap(t, enabledRec)
+	enabledItems, ok := enabledPayload["data"].([]interface{})
+	if !ok || len(enabledItems) != 1 {
+		t.Fatalf("expected 1 enabled env, got %#v", enabledPayload["data"])
+	}
+	enabledItem, ok := enabledItems[0].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected enabled env object, got %#v", enabledItems[0])
+	}
+	if got, _ := enabledItem["name"].(string); got != "ENABLED_ENV" {
+		t.Fatalf("expected ENABLED_ENV, got %q", got)
+	}
+	if got, _ := enabledPayload["total"].(float64); got != 1 {
+		t.Fatalf("expected enabled total 1, got %v", got)
+	}
+
+	disabledRec := performRequest(engine, http.MethodGet, "/api/v1/envs?enabled=false", map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if disabledRec.Code != http.StatusOK {
+		t.Fatalf("expected disabled filter 200, got %d, body=%s", disabledRec.Code, disabledRec.Body.String())
+	}
+
+	disabledPayload := decodeJSONMap(t, disabledRec)
+	disabledItems, ok := disabledPayload["data"].([]interface{})
+	if !ok || len(disabledItems) != 1 {
+		t.Fatalf("expected 1 disabled env, got %#v", disabledPayload["data"])
+	}
+	disabledItem, ok := disabledItems[0].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected disabled env object, got %#v", disabledItems[0])
+	}
+	if got, _ := disabledItem["name"].(string); got != "DISABLED_ENV" {
+		t.Fatalf("expected DISABLED_ENV, got %q", got)
+	}
+	if got, _ := disabledPayload["total"].(float64); got != 1 {
+		t.Fatalf("expected disabled total 1, got %v", got)
+	}
+}
+
+func TestEnvBatchRenameUpdatesSelectedRows(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-rename-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "JD_COOKIE_ALPHA", Value: "1", Enabled: true, Position: 1000},
+		{Name: "JD_COOKIE_BETA", Value: "2", Enabled: true, Position: 2000},
+		{Name: "JD_COOKIE_GAMMA", Value: "3", Enabled: true, Position: 3000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/envs/batch/rename",
+		fmt.Sprintf(`{"ids":[%d,%d],"search":"COOKIE","replace":"TOKEN"}`, envs[0].ID, envs[1].ID),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	expectedNames := map[uint]string{
+		envs[0].ID: "JD_TOKEN_ALPHA",
+		envs[1].ID: "JD_TOKEN_BETA",
+		envs[2].ID: "JD_COOKIE_GAMMA",
+	}
+	for _, env := range envs {
+		var current model.EnvVar
+		if err := database.DB.First(&current, env.ID).Error; err != nil {
+			t.Fatalf("reload env %d: %v", env.ID, err)
+		}
+		if current.Name != expectedNames[env.ID] {
+			t.Fatalf("expected env %d name %q, got %q", env.ID, expectedNames[env.ID], current.Name)
+		}
+	}
+}
+
+func TestEnvBatchRenameRejectsInvalidReplacement(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-rename-invalid", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	env := &model.EnvVar{Name: "VALID_NAME", Value: "1", Enabled: true, Position: 1000}
+	if err := database.DB.Create(env).Error; err != nil {
+		t.Fatalf("create env: %v", err)
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/envs/batch/rename",
+		fmt.Sprintf(`{"ids":[%d],"search":"VALID","replace":"INVALID-NAME"}`, env.ID),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+	if !strings.Contains(rec.Body.String(), "格式无效") {
+		t.Fatalf("expected invalid format error, got %s", rec.Body.String())
+	}
+
+	var current model.EnvVar
+	if err := database.DB.First(&current, env.ID).Error; err != nil {
+		t.Fatalf("reload env: %v", err)
+	}
+	if current.Name != "VALID_NAME" {
+		t.Fatalf("expected env name to remain unchanged, got %q", current.Name)
+	}
+}
+
+func TestEnvSortToFirstKeepsItemUnpinned(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "ALPHA", Value: "1", Enabled: true, SortOrder: 0, Position: 1000},
+		{Name: "BETA", Value: "2", Enabled: true, SortOrder: 0, Position: 2000},
+		{Name: "GAMMA", Value: "3", Enabled: true, SortOrder: 0, Position: 3000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/envs/sort",
+		fmt.Sprintf(`{"source_id":%d,"target_id":%d}`, envs[2].ID, envs[0].ID),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	var moved model.EnvVar
+	if err := database.DB.First(&moved, envs[2].ID).Error; err != nil {
+		t.Fatalf("reload moved env: %v", err)
+	}
+	if moved.SortOrder != 0 {
+		t.Fatalf("expected moved env to remain unpinned, got sort_order=%d", moved.SortOrder)
+	}
+
+	listRec := performRequest(engine, http.MethodGet, "/api/v1/envs", map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if listRec.Code != http.StatusOK {
+		t.Fatalf("expected list 200, got %d, body=%s", listRec.Code, listRec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, listRec)
+	items, ok := payload["data"].([]interface{})
+	if !ok || len(items) < 3 {
+		t.Fatalf("expected env list with at least 3 items, got %#v", payload["data"])
+	}
+
+	first, ok := items[0].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected first env object, got %#v", items[0])
+	}
+	if got, _ := first["name"].(string); got != "GAMMA" {
+		t.Fatalf("expected GAMMA to be first after sort, got %q", got)
+	}
+	if sortOrder, _ := first["sort_order"].(float64); sortOrder != 0 {
+		t.Fatalf("expected first env to be unpinned after drag, got sort_order=%v", sortOrder)
+	}
+}
+
+func TestEnvMoveTopAndCancelTopUseExplicitPinnedState(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "LEFT", Value: "1", Enabled: true, SortOrder: 0, Position: 1000},
+		{Name: "RIGHT", Value: "2", Enabled: true, SortOrder: 0, Position: 2000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	moveTopRec := performRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/envs/%d/move-top", envs[1].ID), map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if moveTopRec.Code != http.StatusOK {
+		t.Fatalf("expected move-top 200, got %d, body=%s", moveTopRec.Code, moveTopRec.Body.String())
+	}
+
+	var pinned model.EnvVar
+	if err := database.DB.First(&pinned, envs[1].ID).Error; err != nil {
+		t.Fatalf("reload pinned env: %v", err)
+	}
+	if pinned.SortOrder != 1 {
+		t.Fatalf("expected sort_order=1 after move-top, got %d", pinned.SortOrder)
+	}
+
+	cancelTopRec := performRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/envs/%d/cancel-top", envs[1].ID), map[string]string{
+		"Authorization": "Bearer " + token,
+	})
+	if cancelTopRec.Code != http.StatusOK {
+		t.Fatalf("expected cancel-top 200, got %d, body=%s", cancelTopRec.Code, cancelTopRec.Body.String())
+	}
+
+	if err := database.DB.First(&pinned, envs[1].ID).Error; err != nil {
+		t.Fatalf("reload unpinned env: %v", err)
+	}
+	if pinned.SortOrder != 0 {
+		t.Fatalf("expected sort_order=0 after cancel-top, got %d", pinned.SortOrder)
+	}
+}
+
+func TestEnvExportAllHonorsSelectedIDs(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "ALPHA", Value: "1", Enabled: true, Position: 1000},
+		{Name: "BETA", Value: "2", Enabled: true, Position: 2000},
+		{Name: "GAMMA", Value: "3", Enabled: false, Position: 3000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performRequest(
+		engine,
+		http.MethodGet,
+		fmt.Sprintf("/api/v1/envs/export-all?ids=%d,%d", envs[0].ID, envs[2].ID),
+		map[string]string{"Authorization": "Bearer " + token},
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	items, ok := payload["data"].([]interface{})
+	if !ok || len(items) != 2 {
+		t.Fatalf("expected 2 exported envs, got %#v", payload["data"])
+	}
+
+	gotNames := make(map[string]struct{}, len(items))
+	for _, item := range items {
+		env, ok := item.(map[string]interface{})
+		if !ok {
+			t.Fatalf("expected env object, got %#v", item)
+		}
+		gotNames[env["name"].(string)] = struct{}{}
+	}
+
+	if _, exists := gotNames["ALPHA"]; !exists {
+		t.Fatalf("expected ALPHA in export, got %v", gotNames)
+	}
+	if _, exists := gotNames["GAMMA"]; !exists {
+		t.Fatalf("expected GAMMA in export, got %v", gotNames)
+	}
+	if _, exists := gotNames["BETA"]; exists {
+		t.Fatalf("did not expect BETA in selected export, got %v", gotNames)
+	}
+}
+
+func TestEnvExportFilesPreservesEmbeddedAmpersands(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-exporter", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	envs := []*model.EnvVar{
+		{Name: "JD_COOKIE", Value: "pt_key=one&a=1", Enabled: true, Position: 1000},
+		{Name: "JD_COOKIE", Value: "pt_key=two&b=2", Enabled: true, Position: 2000},
+	}
+	for _, env := range envs {
+		if err := database.DB.Create(env).Error; err != nil {
+			t.Fatalf("create env %q: %v", env.Name, err)
+		}
+	}
+
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/envs/export-files",
+		`{"format":"shell"}`,
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data, ok := payload["data"].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected export data map, got %#v", payload["data"])
+	}
+
+	shell, _ := data["shell"].(string)
+	if !strings.Contains(shell, "export JD_COOKIE='pt_key=one&a=1&&pt_key=two&b=2'") {
+		t.Fatalf("expected shell export to preserve embedded ampersands, got %s", shell)
+	}
+}
+
+func TestEnvCreateRejectsOversizedBody(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-operator-limit", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	largeValue := strings.Repeat("a", (1<<20)+128)
+	rec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/envs",
+		fmt.Sprintf(`{"name":"BIG_ENV","value":"%s"}`, largeValue),
+		map[string]string{"Authorization": "Bearer " + token},
+		"",
+	)
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected 400, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+	if !strings.Contains(rec.Body.String(), "请求体过大") {
+		t.Fatalf("expected oversized body message, got %s", rec.Body.String())
+	}
+}

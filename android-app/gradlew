@@ -1,1 +1,57 @@
-IyEvYmluL3NoCiMgR3JhZGxlIHdyYXBwZXIgc3RhcnR1cCBzY3JpcHQKIyBHZW5lcmF0ZWQgZm9yIERhaWRhaVBhbmVsCgpESVI9IiQoY2QgIiQoZGlybmFtZSAiJDAiKSIgJiYgcHdkKSIKQVBQX0hPTUU9IiRESVIiCgojIFVzZSB0aGUgbWF4aW11bSBhdmFpbGFibGUsIG9yIHNldCBNQVhfRkQgIT0gLTEgdG8gdXNlIHRoYXQgdmFsdWUuCk1BWF9GRD0ibWF4aW11bSIKCndhcm4gKCkgewogICAgZWNobyAiJCoiCn0KCmRpZSAoKSB7CiAgICBlY2hvCiAgICBlY2hvICIkKiIKICAgIGVjaG8KICAgIGV4aXQgMQp9CgojIE9TIHNwZWNpZmljIHN1cHBvcnQKY3lnd2luPWZhbHNlCm1zeXM9ZmFsc2UKZGFyd2luPWZhbHNlCm5vbnN0b3A9ZmFsc2UKY2FzZSAiYHVuYW1lYCIgaW4KICBDWUdXSU4qICkKICAgIGN5Z3dpbj10cnVlCiAgICA7OwogIERhcndpbiogKQogICAgZGFyd2luPXRydWUKICAgIDs7CiAgTVNZUyogfCBNSU5HVyogKQogICAgbXN5cz10cnVlCiAgICA7OwogIE5PTlNUT1AqICkKICAgIG5vbnN0b3A9dHJ1ZQogICAgOzsKZXNhYwoKQ0xBU1NQQVRIPSRBUFBfSE9NRS9ncmFkbGUvd3JhcHBlci9ncmFkbGUtd3JhcHBlci5qYXIKCmlmIFsgLW4gIiRKQVZBX0hPTUUiIF0gOyB0aGVuCiAgICBKQVZBQ01EPSIkSkFWQV9IT01FL2Jpbi9qYXZhIgplbHNlCiAgICBKQVZBQ01EPSJqYXZhIgpmaQoKZXhlYyAiJEpBVkFDTUQiIFwKICAgICRERUZBVUxUX0pWTV9PUFRTIFwKICAgICRKQVZBX09QVFMgXAogICAgJEdSQURMRV9PUFRTIFwKICAgICItRG9yZy5ncmFkbGUuYXBwbmFtZT0kezAjIyovfSIgXAogICAgLWNsYXNzcGF0aCAiJENMQVNTUEFUSCIgXAogICAgb3JnLmdyYWRsZS53cmFwcGVyLkdyYWRsZVdyYXBwZXJNYWluIFwKICAgICIkQCIK
+#!/bin/sh
+# Gradle wrapper startup script
+# Generated for DaidaiPanel
+
+DIR="$(cd "$(dirname "$0")" && pwd)"
+APP_HOME="$DIR"
+
+# Use the maximum available, or set MAX_FD != -1 to use that value.
+MAX_FD="maximum"
+
+warn () {
+    echo "$*"
+}
+
+die () {
+    echo
+    echo "$*"
+    echo
+    exit 1
+}
+
+# OS specific support
+cygwin=false
+msys=false
+darwin=false
+nonstop=false
+case "`uname`" in
+  CYGWIN* )
+    cygwin=true
+    ;;
+  Darwin* )
+    darwin=true
+    ;;
+  MSYS* | MINGW* )
+    msys=true
+    ;;
+  NONSTOP* )
+    nonstop=true
+    ;;
+esac
+
+CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+if [ -n "$JAVA_HOME" ] ; then
+    JAVACMD="$JAVA_HOME/bin/java"
+else
+    JAVACMD="java"
+fi
+
+exec "$JAVACMD" \
+    $DEFAULT_JVM_OPTS \
+    $JAVA_OPTS \
+    $GRADLE_OPTS \
+    "-Dorg.gradle.appname=${0##*/}" \
+    -classpath "$CLASSPATH" \
+    org.gradle.wrapper.GradleWrapperMain \
+    "$@"

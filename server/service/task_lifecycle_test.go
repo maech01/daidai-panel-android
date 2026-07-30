@@ -1,1 +1,116 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInN0cmluZ3MiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0UmVjb3ZlckFiYW5kb25lZEFjdGl2ZVRhc2tzQ2xlYXJzU3RhbGVSdW5uaW5nVGFzayh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJZGF0YWJhc2UuRW5zdXJlQ29sdW1ucygpCgoJbm93IDo9IHRpbWUuTm93KCkuQWRkKC0yICogdGltZS5NaW51dGUpCglmYWlsZWRTdGF0dXMgOj0gbW9kZWwuTG9nU3RhdHVzUnVubmluZwoJcGlkIDo9IDEyMzQ1Cgl0YXNrIDo9ICZtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAgICAgICAic3RhbGUgcnVubmluZyBjcm9uIiwKCQlDb21tYW5kOiAgICAgICAgInB5dGhvbiB0YXNrLnB5IiwKCQlDcm9uRXhwcmVzc2lvbjogIjAgMCAqICogKiIsCgkJVGFza1R5cGU6ICAgICAgIG1vZGVsLlRhc2tUeXBlQ3JvbiwKCQlTdGF0dXM6ICAgICAgICAgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcsCgkJTGFzdFJ1bkF0OiAgICAgICZub3csCgkJUElEOiAgICAgICAgICAgICZwaWQsCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKHRhc2spLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHRhc2s6ICV2IiwgZXJyKQoJfQoJdGFza0xvZyA6PSAmbW9kZWwuVGFza0xvZ3sKCQlUYXNrSUQ6ICAgIHRhc2suSUQsCgkJU3RhdHVzOiAgICAmZmFpbGVkU3RhdHVzLAoJCVN0YXJ0ZWRBdDogbm93LAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrTG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrIGxvZzogJXYiLCBlcnIpCgl9CgoJY291bnQgOj0gUmVjb3ZlckFiYW5kb25lZEFjdGl2ZVRhc2tzKCLpnaLmnb/kuIrmrKHlvILluLjpgIDlh7rvvIzku7vliqHlt7LkuK3mlq0iKQoJaWYgY291bnQgIT0gMSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDEgcmVjb3ZlcmVkIHRhc2ssIGdvdCAlZCIsIGNvdW50KQoJfQoKCXZhciB1cGRhdGVkIG1vZGVsLlRhc2sKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdXBkYXRlZCwgdGFzay5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiB1cGRhdGVkLlN0YXR1cyAhPSBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0YWxlIGNyb24gdGFzayB0byByZXR1cm4gdG8gZW5hYmxlZCwgZ290ICV2IiwgdXBkYXRlZC5TdGF0dXMpCgl9CglpZiB1cGRhdGVkLlBJRCAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwaWQgdG8gYmUgY2xlYXJlZCwgZ290ICUjdiIsIHVwZGF0ZWQuUElEKQoJfQoJaWYgdXBkYXRlZC5MYXN0UnVuU3RhdHVzID09IG5pbCB8fCAqdXBkYXRlZC5MYXN0UnVuU3RhdHVzICE9IG1vZGVsLlJ1bkZhaWxlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGZhaWxlZCBydW4gc3RhdHVzLCBnb3QgJSN2IiwgdXBkYXRlZC5MYXN0UnVuU3RhdHVzKQoJfQoJaWYgdXBkYXRlZC5MYXN0UnVubmluZ1RpbWUgPT0gbmlsIHx8ICp1cGRhdGVkLkxhc3RSdW5uaW5nVGltZSA8PSAwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcG9zaXRpdmUgcnVubmluZyB0aW1lLCBnb3QgJSN2IiwgdXBkYXRlZC5MYXN0UnVubmluZ1RpbWUpCgl9CgoJdmFyIHVwZGF0ZWRMb2cgbW9kZWwuVGFza0xvZwoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ1cGRhdGVkTG9nLCB0YXNrTG9nLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCB0YXNrIGxvZzogJXYiLCBlcnIpCgl9CglpZiB1cGRhdGVkTG9nLlN0YXR1cyA9PSBuaWwgfHwgKnVwZGF0ZWRMb2cuU3RhdHVzICE9IG1vZGVsLkxvZ1N0YXR1c0ZhaWxlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGZhaWxlZCBsb2cgc3RhdHVzLCBnb3QgJSN2IiwgdXBkYXRlZExvZy5TdGF0dXMpCgl9CglpZiB1cGRhdGVkTG9nLkVuZGVkQXQgPT0gbmlsIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBlbmRlZF9hdCB0byBiZSByZWNvcmRlZCIpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyh1cGRhdGVkTG9nLkNvbnRlbnQsICLku7vliqHlt7LkuK3mlq0iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGludGVycnVwdGlvbiByZWFzb24gaW4gbG9nIGNvbnRlbnQsIGdvdCAlcSIsIHVwZGF0ZWRMb2cuQ29udGVudCkKCX0KfQoKZnVuYyBUZXN0TWFya0FjdGl2ZVRhc2tzSW50ZXJydXB0ZWRVc2VzU2NoZWR1bGVyUmVnaXN0cmF0aW9uKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglkYXRhYmFzZS5FbnN1cmVDb2x1bW5zKCkKCglwcmV2aW91c1NjaGVkdWxlciA6PSBnbG9iYWxTY2hlZHVsZXIKCWdsb2JhbFNjaGVkdWxlciA9IE5ld1NjaGVkdWxlclYyKFNjaGVkdWxlckNvbmZpZ3tXb3JrZXJDb3VudDogMSwgUXVldWVTaXplOiAxMCwgUmF0ZUludGVydmFsOiB0aW1lLkhvdXJ9LCBuaWwpCgl0LkNsZWFudXAoZnVuYygpIHsKCQlnbG9iYWxTY2hlZHVsZXIgPSBwcmV2aW91c1NjaGVkdWxlcgoJfSkKCgllbmFibGVkTWFudWFsIDo9ICZtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAicmVnaXN0ZXJlZCBtYW51YWwiLAoJCUNvbW1hbmQ6ICAiZWNobyBoaSIsCgkJVGFza1R5cGU6IG1vZGVsLlRhc2tUeXBlTWFudWFsLAoJCVN0YXR1czogICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW5hYmxlZE1hbnVhbCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgZW5hYmxlZCBtYW51YWwgdGFzazogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gZ2xvYmFsU2NoZWR1bGVyLkFkZEpvYihlbmFibGVkTWFudWFsKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlZ2lzdGVyIG1hbnVhbCB0YXNrOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5Nb2RlbChlbmFibGVkTWFudWFsKS5VcGRhdGUoInN0YXR1cyIsIG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1hcmsgbWFudWFsIHRhc2sgcnVubmluZzogJXYiLCBlcnIpCgl9CgoJY291bnQgOj0gTWFya0FjdGl2ZVRhc2tzSW50ZXJydXB0ZWQoIumdouadv+WFs+mXre+8jOS7u+WKoeW3suS4reaWrSIpCglpZiBjb3VudCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMSBpbnRlcnJ1cHRlZCB0YXNrLCBnb3QgJWQiLCBjb3VudCkKCX0KCgl2YXIgdXBkYXRlZCBtb2RlbC5UYXNrCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnVwZGF0ZWQsIGVuYWJsZWRNYW51YWwuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVsb2FkIHRhc2s6ICV2IiwgZXJyKQoJfQoJaWYgdXBkYXRlZC5TdGF0dXMgIT0gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZWdpc3RlcmVkIG1hbnVhbCB0YXNrIHRvIHJldHVybiBlbmFibGVkLCBnb3QgJXYiLCB1cGRhdGVkLlN0YXR1cykKCX0KfQo=
+package service
+
+import (
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestRecoverAbandonedActiveTasksClearsStaleRunningTask(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	database.EnsureColumns()
+
+	now := time.Now().Add(-2 * time.Minute)
+	failedStatus := model.LogStatusRunning
+	pid := 12345
+	task := &model.Task{
+		Name:           "stale running cron",
+		Command:        "python task.py",
+		CronExpression: "0 0 * * *",
+		TaskType:       model.TaskTypeCron,
+		Status:         model.TaskStatusRunning,
+		LastRunAt:      &now,
+		PID:            &pid,
+	}
+	if err := database.DB.Create(task).Error; err != nil {
+		t.Fatalf("create task: %v", err)
+	}
+	taskLog := &model.TaskLog{
+		TaskID:    task.ID,
+		Status:    &failedStatus,
+		StartedAt: now,
+	}
+	if err := database.DB.Create(taskLog).Error; err != nil {
+		t.Fatalf("create task log: %v", err)
+	}
+
+	count := RecoverAbandonedActiveTasks("面板上次异常退出，任务已中断")
+	if count != 1 {
+		t.Fatalf("expected 1 recovered task, got %d", count)
+	}
+
+	var updated model.Task
+	if err := database.DB.First(&updated, task.ID).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if updated.Status != model.TaskStatusEnabled {
+		t.Fatalf("expected stale cron task to return to enabled, got %v", updated.Status)
+	}
+	if updated.PID != nil {
+		t.Fatalf("expected pid to be cleared, got %#v", updated.PID)
+	}
+	if updated.LastRunStatus == nil || *updated.LastRunStatus != model.RunFailed {
+		t.Fatalf("expected failed run status, got %#v", updated.LastRunStatus)
+	}
+	if updated.LastRunningTime == nil || *updated.LastRunningTime <= 0 {
+		t.Fatalf("expected positive running time, got %#v", updated.LastRunningTime)
+	}
+
+	var updatedLog model.TaskLog
+	if err := database.DB.First(&updatedLog, taskLog.ID).Error; err != nil {
+		t.Fatalf("reload task log: %v", err)
+	}
+	if updatedLog.Status == nil || *updatedLog.Status != model.LogStatusFailed {
+		t.Fatalf("expected failed log status, got %#v", updatedLog.Status)
+	}
+	if updatedLog.EndedAt == nil {
+		t.Fatal("expected ended_at to be recorded")
+	}
+	if !strings.Contains(updatedLog.Content, "任务已中断") {
+		t.Fatalf("expected interruption reason in log content, got %q", updatedLog.Content)
+	}
+}
+
+func TestMarkActiveTasksInterruptedUsesSchedulerRegistration(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	database.EnsureColumns()
+
+	previousScheduler := globalScheduler
+	globalScheduler = NewSchedulerV2(SchedulerConfig{WorkerCount: 1, QueueSize: 10, RateInterval: time.Hour}, nil)
+	t.Cleanup(func() {
+		globalScheduler = previousScheduler
+	})
+
+	enabledManual := &model.Task{
+		Name:     "registered manual",
+		Command:  "echo hi",
+		TaskType: model.TaskTypeManual,
+		Status:   model.TaskStatusEnabled,
+	}
+	if err := database.DB.Create(enabledManual).Error; err != nil {
+		t.Fatalf("create enabled manual task: %v", err)
+	}
+	if err := globalScheduler.AddJob(enabledManual); err != nil {
+		t.Fatalf("register manual task: %v", err)
+	}
+	if err := database.DB.Model(enabledManual).Update("status", model.TaskStatusRunning).Error; err != nil {
+		t.Fatalf("mark manual task running: %v", err)
+	}
+
+	count := MarkActiveTasksInterrupted("面板关闭，任务已中断")
+	if count != 1 {
+		t.Fatalf("expected 1 interrupted task, got %d", count)
+	}
+
+	var updated model.Task
+	if err := database.DB.First(&updated, enabledManual.ID).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if updated.Status != model.TaskStatusEnabled {
+		t.Fatalf("expected registered manual task to return enabled, got %v", updated.Status)
+	}
+}

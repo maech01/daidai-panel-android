@@ -1,1 +1,46 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgInRlc3RpbmciCgovLyBpbnN0YWxsZWRQcm9iZSDmnoTpgKDkuIDkuKrlgYfnmoTigJzlt7Llronoo4XmjqLmtYvlmajigJ3vvIzlj6rmiorliJflh7rnmoTniYjmnKzop4bkuLrlt7Llronoo4XvvIwKLy8g6K6p5Zue6YCA6YC76L6R5Y2V5rWL5peg6ZyA55yf5a6eIGV4ZWMg5o6i5rWL57O757ufIFB5dGhvbuOAggpmdW5jIGluc3RhbGxlZFByb2JlKHZlcnNpb25zIC4uLnN0cmluZykgZnVuYyhzdHJpbmcpIGJvb2wgewoJc2V0IDo9IG1ha2UobWFwW3N0cmluZ11ib29sLCBsZW4odmVyc2lvbnMpKQoJZm9yIF8sIHYgOj0gcmFuZ2UgdmVyc2lvbnMgewoJCXNldFt2XSA9IHRydWUKCX0KCXJldHVybiBmdW5jKHYgc3RyaW5nKSBib29sIHsgcmV0dXJuIHNldFt2XSB9Cn0KCmZ1bmMgVGVzdFJlc29sdmVQeXRob25GYWxsYmFja1ZlcnNpb24odCAqdGVzdGluZy5UKSB7CglzdXBwb3J0ZWQgOj0gW11zdHJpbmd7IjMuMTAiLCAiMy4xMSIsICIzLjEyIn0KCgl0LlJ1bigicmVxdWVzdGVkIGluc3RhbGxlZCBrZWVwcyByZXF1ZXN0ZWQgYW5kIG5ldmVyIGZhbGxzIGJhY2siLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCWdvdCwgZmVsbEJhY2sgOj0gcmVzb2x2ZVB5dGhvbkZhbGxiYWNrVmVyc2lvbigiMy4xMiIsIHN1cHBvcnRlZCwgaW5zdGFsbGVkUHJvYmUoIjMuMTEiLCAiMy4xMiIpKQoJCWlmIGdvdCAhPSAiMy4xMiIgfHwgZmVsbEJhY2sgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgMy4xMiB3aXRob3V0IGZhbGxiYWNrLCBnb3QgJXEgZmVsbEJhY2s9JXYiLCBnb3QsIGZlbGxCYWNrKQoJCX0KCX0pCgoJdC5SdW4oInJlcXVlc3RlZCBtaXNzaW5nIGZhbGxzIGJhY2sgdG8gYW4gaW5zdGFsbGVkIHN1cHBvcnRlZCB2ZXJzaW9uIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQlnb3QsIGZlbGxCYWNrIDo9IHJlc29sdmVQeXRob25GYWxsYmFja1ZlcnNpb24oIjMuMTIiLCBzdXBwb3J0ZWQsIGluc3RhbGxlZFByb2JlKCIzLjExIikpCgkJaWYgZ290ICE9ICIzLjExIiB8fCAhZmVsbEJhY2sgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmFsbGJhY2sgdG8gMy4xMSwgZ290ICVxIGZlbGxCYWNrPSV2IiwgZ290LCBmZWxsQmFjaykKCQl9Cgl9KQoKCXQuUnVuKCJub3RoaW5nIGluc3RhbGxlZCBrZWVwcyByZXF1ZXN0ZWQgd2l0aG91dCBmYWxsYmFjayIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJZ290LCBmZWxsQmFjayA6PSByZXNvbHZlUHl0aG9uRmFsbGJhY2tWZXJzaW9uKCIzLjEyIiwgc3VwcG9ydGVkLCBpbnN0YWxsZWRQcm9iZSgpKQoJCWlmIGdvdCAhPSAiMy4xMiIgfHwgZmVsbEJhY2sgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgcmVxdWVzdGVkIGtlcHQsIGdvdCAlcSBmZWxsQmFjaz0ldiIsIGdvdCwgZmVsbEJhY2spCgkJfQoJfSkKCgl0LlJ1bigic2luZ2xlIHJ1bnRpbWUgbmV2ZXIgZmFsbHMgYmFjayB0byBhbm90aGVyIHZlcnNpb24iLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCS8vIERvY2tlciDlm7rlrprniYjmnKzvvJrlj5fmlK/mjIHpm4blkIjlj6rlkKvkuIDkuKrniYjmnKzvvIzljbPkvr/mjqLmtYvkuI3liLDkuZ/kuI3og73lm57pgIDliLDliKvnmoTniYjmnKzjgIIKCQlnb3QsIGZlbGxCYWNrIDo9IHJlc29sdmVQeXRob25GYWxsYmFja1ZlcnNpb24oIjMuMTIiLCBbXXN0cmluZ3siMy4xMiJ9LCBpbnN0YWxsZWRQcm9iZSgpKQoJCWlmIGdvdCAhPSAiMy4xMiIgfHwgZmVsbEJhY2sgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgc2luZ2xlLXZlcnNpb24gcnVudGltZSB0byBrZWVwIDMuMTIsIGdvdCAlcSBmZWxsQmFjaz0ldiIsIGdvdCwgZmVsbEJhY2spCgkJfQoJfSkKfQo=
+package service
+
+import "testing"
+
+// installedProbe 构造一个假的“已安装探测器”，只把列出的版本视为已安装，
+// 让回退逻辑单测无需真实 exec 探测系统 Python。
+func installedProbe(versions ...string) func(string) bool {
+	set := make(map[string]bool, len(versions))
+	for _, v := range versions {
+		set[v] = true
+	}
+	return func(v string) bool { return set[v] }
+}
+
+func TestResolvePythonFallbackVersion(t *testing.T) {
+	supported := []string{"3.10", "3.11", "3.12"}
+
+	t.Run("requested installed keeps requested and never falls back", func(t *testing.T) {
+		got, fellBack := resolvePythonFallbackVersion("3.12", supported, installedProbe("3.11", "3.12"))
+		if got != "3.12" || fellBack {
+			t.Fatalf("expected 3.12 without fallback, got %q fellBack=%v", got, fellBack)
+		}
+	})
+
+	t.Run("requested missing falls back to an installed supported version", func(t *testing.T) {
+		got, fellBack := resolvePythonFallbackVersion("3.12", supported, installedProbe("3.11"))
+		if got != "3.11" || !fellBack {
+			t.Fatalf("expected fallback to 3.11, got %q fellBack=%v", got, fellBack)
+		}
+	})
+
+	t.Run("nothing installed keeps requested without fallback", func(t *testing.T) {
+		got, fellBack := resolvePythonFallbackVersion("3.12", supported, installedProbe())
+		if got != "3.12" || fellBack {
+			t.Fatalf("expected requested kept, got %q fellBack=%v", got, fellBack)
+		}
+	})
+
+	t.Run("single runtime never falls back to another version", func(t *testing.T) {
+		// Docker 固定版本：受支持集合只含一个版本，即便探测不到也不能回退到别的版本。
+		got, fellBack := resolvePythonFallbackVersion("3.12", []string{"3.12"}, installedProbe())
+		if got != "3.12" || fellBack {
+			t.Fatalf("expected single-version runtime to keep 3.12, got %q fellBack=%v", got, fellBack)
+		}
+	})
+}

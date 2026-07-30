@@ -1,1 +1,75 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IERvY3VtZW50LCBLZXkgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHR5cGUgeyBTZXR0aW5nc0NvbmZpZ0Zvcm0gfSBmcm9tICcuLi90eXBlcycKCmRlZmluZVByb3BzPHsKICBjb25maWdzU2F2aW5nOiBib29sZWFuCiAgZm9ybTogU2V0dGluZ3NDb25maWdGb3JtCiAgY2FwdGNoYUZlYXR1cmVJbXBsZW1lbnRlZDogYm9vbGVhbgogIG9uU2F2ZTogKCkgPT4gdm9pZAp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1jYXJkIHNoYWRvdz0ibmV2ZXIiPgogICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyIj4KICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PEtleSAvPjwvZWwtaWNvbj4g6aqM6K+B56CB6K6+572uPC9zcGFuPgogICAgICAgIDxkaXYgY2xhc3M9ImNhcHRjaGEtaGVhZGVyLWFjdGlvbnMiPgogICAgICAgICAgPGVsLXRhZyB0eXBlPSJzdWNjZXNzIiBlZmZlY3Q9InBsYWluIj7lt7LmjqXlhaU8L2VsLXRhZz4KICAgICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgOmxvYWRpbmc9ImNvbmZpZ3NTYXZpbmciIDpkaXNhYmxlZD0iIWNhcHRjaGFGZWF0dXJlSW1wbGVtZW50ZWQiIEBjbGljaz0ib25TYXZlIj4KICAgICAgICAgICAgPGVsLWljb24+PERvY3VtZW50IC8+PC9lbC1pY29uPuS/neWtmOmFjee9rgogICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KCiAgICA8ZWwtYWxlcnQKICAgICAgdGl0bGU9IuW8gOWQr+WQju+8jOavj+asoeeZu+W9lemDveS8muWFiOimgeaxguWujOaIkOaegemqjOa7keWdl+mqjOivge+8jOmqjOivgemAmui/h+WQjuaJjee7p+e7reagoemqjOi0puWPt+WvhueggeOAgiIKICAgICAgdHlwZT0iaW5mbyIKICAgICAgOmNsb3NhYmxlPSJmYWxzZSIKICAgICAgc3R5bGU9Im1hcmdpbi1ib3R0b206IDE2cHgiCiAgICAvPgogICAgPGRpdiBjbGFzcz0ic3dpdGNoLXJvdyIgc3R5bGU9Im1hcmdpbi1ib3R0b206IDRweCI+CiAgICAgIDxkaXYgY2xhc3M9InN3aXRjaC1pdGVtIj4KICAgICAgICA8c3BhbiBjbGFzcz0ic3dpdGNoLWxhYmVsIj7lkK/nlKjmnoHpqozpqozor4HnoIE8L3NwYW4+CiAgICAgICAgPGVsLXN3aXRjaCB2LW1vZGVsPSJmb3JtLmNhcHRjaGFfZW5hYmxlZCIgaW5saW5lLXByb21wdCBhY3RpdmUtdGV4dD0i5byAIiBpbmFjdGl2ZS10ZXh0PSLlhbMiIDpkaXNhYmxlZD0iIWNhcHRjaGFGZWF0dXJlSW1wbGVtZW50ZWQiIC8+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgICA8c3BhbiBjbGFzcz0iZm9ybS1oaW50IiBzdHlsZT0iZGlzcGxheTogYmxvY2s7IG1hcmdpbi1ib3R0b206IDIwcHgiPgogICAgICDlu7rorq7lkIzml7bphY3nva7lrozmlbTnmoQgQ2FwdGNoYSBJRCDlkowgQ2FwdGNoYSBLZXnvvJvmnKrphY3lrozmlbTml7bljbPkvb/lvIDlhbPlvIDlkK/kuZ/kuI3kvJrlrp7pmYXnlJ/mlYjjgIIKICAgIDwvc3Bhbj4KICAgIDxkaXYgY2xhc3M9ImZvcm0tZmllbGQiPgogICAgICA8bGFiZWw+5LiK5ri45byC5bi4562W55WlPC9sYWJlbD4KICAgICAgPGVsLXJhZGlvLWdyb3VwIHYtbW9kZWw9ImZvcm0uY2FwdGNoYV9mYWlsX21vZGUiPgogICAgICAgIDxlbC1yYWRpbyB2YWx1ZT0ib3BlbiI+5a695p2+5pS+6KGM77yI5o6o6I2Q77yJPC9lbC1yYWRpbz4KICAgICAgICA8ZWwtcmFkaW8gdmFsdWU9InN0cmljdCI+5Lil5qC85oum5oiqPC9lbC1yYWRpbz4KICAgICAgPC9lbC1yYWRpby1ncm91cD4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+CiAgICAgICAg5b2T55m75b2V6aqM6K+B56CB5bey5ZCv55So5LiU5p6B6aqM6K+35rGC6LaF5pe244CB5LiK5ri4IDV4eOOAgei/lOWbnuW8guW4uOe7k+aehOaXtu+8mgogICAgICAgIOKAnOWuveadvuaUvuihjOKAneS8muWFgeiuuOacrOasoeeZu+W9lee7p+e7reagoemqjOeUqOaIt+WQjeWvhuegge+8jOKAnOS4peagvOaLpuaIquKAneS8muebtOaOpemYu+atoueZu+W9leW5tuaPkOekuueojeWQjumHjeivleOAggogICAgICA8L3NwYW4+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImZvcm0tZmllbGQiPgogICAgICA8bGFiZWw+Q2FwdGNoYSBJRDwvbGFiZWw+CiAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJmb3JtLmNhcHRjaGFfaWQiIHBsYWNlaG9sZGVyPSLor7fovpPlhaXmnoHpqowgQ2FwdGNoYSBJRCIgOmRpc2FibGVkPSIhY2FwdGNoYUZlYXR1cmVJbXBsZW1lbnRlZCIgLz4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+5p6B6aqM5ZCO5Y+w6I635Y+W55qEIENhcHRjaGEgSUQ8L3NwYW4+CiAgICA8L2Rpdj4KICAgIDxkaXYgY2xhc3M9ImZvcm0tZmllbGQiPgogICAgICA8bGFiZWw+Q2FwdGNoYSBLZXk8L2xhYmVsPgogICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5jYXB0Y2hhX2tleSIgdHlwZT0icGFzc3dvcmQiIHNob3ctcGFzc3dvcmQgcGxhY2Vob2xkZXI9Iuivt+i+k+WFpeaegemqjCBDYXB0Y2hhIEtleSIgOmRpc2FibGVkPSIhY2FwdGNoYUZlYXR1cmVJbXBsZW1lbnRlZCIgLz4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+5p6B6aqM5ZCO5Y+w6I635Y+W55qEIENhcHRjaGEgS2V577yI5pyN5Yqh56uv5a+G6ZKl77yJPC9zcGFuPgogICAgPC9kaXY+CiAgPC9lbC1jYXJkPgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZCBsYW5nPSJzY3NzIj4KQHVzZSAnLi9jb25maWctY2FyZC1zaGFyZWQuc2NzcycgYXMgKjsKCi5jYXB0Y2hhLWhlYWRlci1hY3Rpb25zIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA4cHg7CiAgZmxleC13cmFwOiB3cmFwOwp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { Document, Key } from '@element-plus/icons-vue'
+import type { SettingsConfigForm } from '../types'
+
+defineProps<{
+  configsSaving: boolean
+  form: SettingsConfigForm
+  captchaFeatureImplemented: boolean
+  onSave: () => void
+}>()
+</script>
+
+<template>
+  <el-card shadow="never">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Key /></el-icon> 验证码设置</span>
+        <div class="captcha-header-actions">
+          <el-tag type="success" effect="plain">已接入</el-tag>
+          <el-button type="primary" :loading="configsSaving" :disabled="!captchaFeatureImplemented" @click="onSave">
+            <el-icon><Document /></el-icon>保存配置
+          </el-button>
+        </div>
+      </div>
+    </template>
+
+    <el-alert
+      title="开启后，每次登录都会先要求完成极验滑块验证，验证通过后才继续校验账号密码。"
+      type="info"
+      :closable="false"
+      style="margin-bottom: 16px"
+    />
+    <div class="switch-row" style="margin-bottom: 4px">
+      <div class="switch-item">
+        <span class="switch-label">启用极验验证码</span>
+        <el-switch v-model="form.captcha_enabled" inline-prompt active-text="开" inactive-text="关" :disabled="!captchaFeatureImplemented" />
+      </div>
+    </div>
+    <span class="form-hint" style="display: block; margin-bottom: 20px">
+      建议同时配置完整的 Captcha ID 和 Captcha Key；未配完整时即使开关开启也不会实际生效。
+    </span>
+    <div class="form-field">
+      <label>上游异常策略</label>
+      <el-radio-group v-model="form.captcha_fail_mode">
+        <el-radio value="open">宽松放行（推荐）</el-radio>
+        <el-radio value="strict">严格拦截</el-radio>
+      </el-radio-group>
+      <span class="form-hint">
+        当登录验证码已启用且极验请求超时、上游 5xx、返回异常结构时：
+        “宽松放行”会允许本次登录继续校验用户名密码，“严格拦截”会直接阻止登录并提示稍后重试。
+      </span>
+    </div>
+    <div class="form-field">
+      <label>Captcha ID</label>
+      <el-input v-model="form.captcha_id" placeholder="请输入极验 Captcha ID" :disabled="!captchaFeatureImplemented" />
+      <span class="form-hint">极验后台获取的 Captcha ID</span>
+    </div>
+    <div class="form-field">
+      <label>Captcha Key</label>
+      <el-input v-model="form.captcha_key" type="password" show-password placeholder="请输入极验 Captcha Key" :disabled="!captchaFeatureImplemented" />
+      <span class="form-hint">极验后台获取的 Captcha Key（服务端密钥）</span>
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.captcha-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+</style>

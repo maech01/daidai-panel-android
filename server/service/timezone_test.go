@@ -1,1 +1,95 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgcmVzdG9yZVBhbmVsVGltZXpvbmVGb3JUZXN0KHQgKnRlc3RpbmcuVCkgewoJdC5IZWxwZXIoKQoKCW9sZExvY2FsIDo9IHRpbWUuTG9jYWwKCW9sZFRaLCBoYWRUWiA6PSBvcy5Mb29rdXBFbnYoIlRaIikKCW9sZE5hbWUgOj0gQ3VycmVudFBhbmVsVGltZXpvbmUoKQoKCXQuQ2xlYW51cChmdW5jKCkgewoJCXRpbWUuTG9jYWwgPSBvbGRMb2NhbAoJCWlmIGhhZFRaIHsKCQkJXyA9IG9zLlNldGVudigiVFoiLCBvbGRUWikKCQl9IGVsc2UgewoJCQlfID0gb3MuVW5zZXRlbnYoIlRaIikKCQl9CgkJcGFuZWxUaW1lem9uZVN0YXRlLkxvY2soKQoJCXBhbmVsVGltZXpvbmVTdGF0ZS5uYW1lID0gb2xkTmFtZQoJCXBhbmVsVGltZXpvbmVTdGF0ZS5VbmxvY2soKQoJfSkKfQoKZnVuYyBUZXN0QXBwbHlQYW5lbFRpbWV6b25lVXBkYXRlc0xvY2FsQW5kRW52KHQgKnRlc3RpbmcuVCkgewoJcmVzdG9yZVBhbmVsVGltZXpvbmVGb3JUZXN0KHQpCgoJaWYgZXJyIDo9IEFwcGx5UGFuZWxUaW1lem9uZSgiQXNpYS9Ub2t5byIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiYXBwbHkgdGltZXpvbmU6ICV2IiwgZXJyKQoJfQoKCWlmIGdvdCA6PSBDdXJyZW50UGFuZWxUaW1lem9uZSgpOyBnb3QgIT0gIkFzaWEvVG9reW8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3VycmVudCBwYW5lbCB0aW1lem9uZSBBc2lhL1Rva3lvLCBnb3QgJXEiLCBnb3QpCgl9CglpZiBnb3QgOj0gb3MuR2V0ZW52KCJUWiIpOyBnb3QgIT0gIkFzaWEvVG9reW8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgVFo9QXNpYS9Ub2t5bywgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290IDo9IHRpbWUuTG9jYWwuU3RyaW5nKCk7IGdvdCAhPSAiQXNpYS9Ub2t5byIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0aW1lLkxvY2FsIEFzaWEvVG9reW8sIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0QXBwbHlSZWdpc3RlcmVkUGFuZWxUaW1lem9uZVVzZXNTYXZlZENvbmZpZyh0ICp0ZXN0aW5nLlQpIHsKCXJlc3RvcmVQYW5lbFRpbWV6b25lRm9yVGVzdCh0KQoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZyhtb2RlbC5QYW5lbFRpbWV6b25lQ29uZmlnS2V5LCAiVVRDIik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgdGltZXpvbmU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IEFwcGx5UmVnaXN0ZXJlZFBhbmVsVGltZXpvbmUoKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImFwcGx5IHJlZ2lzdGVyZWQgdGltZXpvbmU6ICV2IiwgZXJyKQoJfQoKCWlmIGdvdCA6PSBDdXJyZW50UGFuZWxUaW1lem9uZSgpOyBnb3QgIT0gIlVUQyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjdXJyZW50IHBhbmVsIHRpbWV6b25lIFVUQywgZ290ICVxIiwgZ290KQoJfQoJaWYgZ290IDo9IG9zLkdldGVudigiVFoiKTsgZ290ICE9ICJVVEMiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgVFo9VVRDLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkTWFuYWdlZFJ1bnRpbWVFbnZNYXBJbmplY3RzUGFuZWxUaW1lem9uZSh0ICp0ZXN0aW5nLlQpIHsKCXJlc3RvcmVQYW5lbFRpbWV6b25lRm9yVGVzdCh0KQoJcm9vdCA6PSB0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglpZiBlcnIgOj0gbW9kZWwuU2V0Q29uZmlnKG1vZGVsLlBhbmVsVGltZXpvbmVDb25maWdLZXksICJBc2lhL1Rva3lvIik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgdGltZXpvbmU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IEFwcGx5UmVnaXN0ZXJlZFBhbmVsVGltZXpvbmUoKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImFwcGx5IHJlZ2lzdGVyZWQgdGltZXpvbmU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmbW9kZWwuRW52VmFyewoJCU5hbWU6ICAgICJUWiIsCgkJVmFsdWU6ICAgIlVUQyIsCgkJRW5hYmxlZDogdHJ1ZSwKCX0pLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHVzZXIgVFogZW52OiAldiIsIGVycikKCX0KCgllbnZNYXAsIGVyciA6PSBCdWlsZE1hbmFnZWRSdW50aW1lRW52TWFwRm9yUHl0aG9uVmVyc2lvbihyb290LCByb290LCBuaWwsIHRpbWUuSG91ciwgIjMuMTAiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIG1hbmFnZWQgcnVudGltZSBlbnYgbWFwOiAldiIsIGVycikKCX0KCWlmIGdvdCA6PSBlbnZNYXBbIlRaIl07IGdvdCAhPSAiQXNpYS9Ub2t5byIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0YXNrIFRaIHRvIGZvbGxvdyBwYW5lbCB0aW1lem9uZSBBc2lhL1Rva3lvLCBnb3QgJXEiLCBnb3QpCgl9Cn0K
+package service
+
+import (
+	"os"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func restorePanelTimezoneForTest(t *testing.T) {
+	t.Helper()
+
+	oldLocal := time.Local
+	oldTZ, hadTZ := os.LookupEnv("TZ")
+	oldName := CurrentPanelTimezone()
+
+	t.Cleanup(func() {
+		time.Local = oldLocal
+		if hadTZ {
+			_ = os.Setenv("TZ", oldTZ)
+		} else {
+			_ = os.Unsetenv("TZ")
+		}
+		panelTimezoneState.Lock()
+		panelTimezoneState.name = oldName
+		panelTimezoneState.Unlock()
+	})
+}
+
+func TestApplyPanelTimezoneUpdatesLocalAndEnv(t *testing.T) {
+	restorePanelTimezoneForTest(t)
+
+	if err := ApplyPanelTimezone("Asia/Tokyo"); err != nil {
+		t.Fatalf("apply timezone: %v", err)
+	}
+
+	if got := CurrentPanelTimezone(); got != "Asia/Tokyo" {
+		t.Fatalf("expected current panel timezone Asia/Tokyo, got %q", got)
+	}
+	if got := os.Getenv("TZ"); got != "Asia/Tokyo" {
+		t.Fatalf("expected TZ=Asia/Tokyo, got %q", got)
+	}
+	if got := time.Local.String(); got != "Asia/Tokyo" {
+		t.Fatalf("expected time.Local Asia/Tokyo, got %q", got)
+	}
+}
+
+func TestApplyRegisteredPanelTimezoneUsesSavedConfig(t *testing.T) {
+	restorePanelTimezoneForTest(t)
+	testutil.SetupTestEnv(t)
+
+	if err := model.SetConfig(model.PanelTimezoneConfigKey, "UTC"); err != nil {
+		t.Fatalf("set timezone: %v", err)
+	}
+	if err := ApplyRegisteredPanelTimezone(); err != nil {
+		t.Fatalf("apply registered timezone: %v", err)
+	}
+
+	if got := CurrentPanelTimezone(); got != "UTC" {
+		t.Fatalf("expected current panel timezone UTC, got %q", got)
+	}
+	if got := os.Getenv("TZ"); got != "UTC" {
+		t.Fatalf("expected TZ=UTC, got %q", got)
+	}
+}
+
+func TestBuildManagedRuntimeEnvMapInjectsPanelTimezone(t *testing.T) {
+	restorePanelTimezoneForTest(t)
+	root := testutil.SetupTestEnv(t)
+
+	if err := model.SetConfig(model.PanelTimezoneConfigKey, "Asia/Tokyo"); err != nil {
+		t.Fatalf("set timezone: %v", err)
+	}
+	if err := ApplyRegisteredPanelTimezone(); err != nil {
+		t.Fatalf("apply registered timezone: %v", err)
+	}
+	if err := database.DB.Create(&model.EnvVar{
+		Name:    "TZ",
+		Value:   "UTC",
+		Enabled: true,
+	}).Error; err != nil {
+		t.Fatalf("create user TZ env: %v", err)
+	}
+
+	envMap, err := BuildManagedRuntimeEnvMapForPythonVersion(root, root, nil, time.Hour, "3.10")
+	if err != nil {
+		t.Fatalf("build managed runtime env map: %v", err)
+	}
+	if got := envMap["TZ"]; got != "Asia/Tokyo" {
+		t.Fatalf("expected task TZ to follow panel timezone Asia/Tokyo, got %q", got)
+	}
+}

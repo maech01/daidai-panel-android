@@ -1,1 +1,54 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkidGVzdGluZyIKKQoKZnVuYyBUZXN0UmVzb2x2ZVB5dGhvbkF1dG9JbnN0YWxsUGFja2FnZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3RzIDo9IFtdc3RydWN0IHsKCQluYW1lICAgc3RyaW5nCgkJaW5wdXQgIHN0cmluZwoJCWV4cGVjdCBzdHJpbmcKCX17CgkJe25hbWU6ICJjcnlwdG8gYWxpYXMiLCBpbnB1dDogIkNyeXB0byIsIGV4cGVjdDogInB5Y3J5cHRvZG9tZSJ9LAoJCXtuYW1lOiAiY3J5cHRvZG9tZSBhbGlhcyBtYXBzIHRvIHB5Y3J5cHRvZG9tZXggbm90IHB5Y3J5cHRvZG9tZSIsIGlucHV0OiAiQ3J5cHRvZG9tZSIsIGV4cGVjdDogInB5Y3J5cHRvZG9tZXgifSwKCQl7bmFtZTogImV4ZWNqcyBhbGlhcyIsIGlucHV0OiAiZXhlY2pzIiwgZXhwZWN0OiAicHlleGVjanMifSwKCQl7bmFtZTogImNhc2UgaW5zZW5zaXRpdmUiLCBpbnB1dDogImNyeXB0byIsIGV4cGVjdDogInB5Y3J5cHRvZG9tZSJ9LAoJCXtuYW1lOiAic29ja3MgYWxpYXMiLCBpbnB1dDogInNvY2tzIiwgZXhwZWN0OiAicHlzb2NrcyJ9LAoJCXtuYW1lOiAiY3YyIGFsaWFzIHVwcGVyY2FzZSIsIGlucHV0OiAiQ1YyIiwgZXhwZWN0OiAib3BlbmN2LXB5dGhvbiJ9LAoJCXtuYW1lOiAiYnM0IGFsaWFzIiwgaW5wdXQ6ICJiczQiLCBleHBlY3Q6ICJiZWF1dGlmdWxzb3VwNCJ9LAoJCXtuYW1lOiAicGlsIGFsaWFzIiwgaW5wdXQ6ICJQSUwiLCBleHBlY3Q6ICJwaWxsb3cifSwKCQl7bmFtZTogInlhbWwgYWxpYXMiLCBpbnB1dDogInlhbWwiLCBleHBlY3Q6ICJweXlhbWwifSwKCQl7bmFtZTogImRhdGV1dGlsIGFsaWFzIiwgaW5wdXQ6ICJkYXRldXRpbCIsIGV4cGVjdDogInB5dGhvbi1kYXRldXRpbCJ9LAoJCXtuYW1lOiAiand0IGFsaWFzIiwgaW5wdXQ6ICJqd3QiLCBleHBlY3Q6ICJweWp3dCJ9LAoJCXtuYW1lOiAid2Vic29ja2V0IGFsaWFzIiwgaW5wdXQ6ICJ3ZWJzb2NrZXQiLCBleHBlY3Q6ICJ3ZWJzb2NrZXQtY2xpZW50In0sCgkJe25hbWU6ICJhdHRyIGFsaWFzIiwgaW5wdXQ6ICJhdHRyIiwgZXhwZWN0OiAiYXR0cnMifSwKCQl7bmFtZTogInBhc3N0aHJvdWdoIiwgaW5wdXQ6ICJyZXF1ZXN0cyIsIGV4cGVjdDogInJlcXVlc3RzIn0sCgl9CgoJZm9yIF8sIHRjIDo9IHJhbmdlIHRlc3RzIHsKCQl0LlJ1bih0Yy5uYW1lLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCQlpZiBnb3QgOj0gUmVzb2x2ZVB5dGhvbkF1dG9JbnN0YWxsUGFja2FnZSh0Yy5pbnB1dCk7IGdvdCAhPSB0Yy5leHBlY3QgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkICVxLCBnb3QgJXEiLCB0Yy5leHBlY3QsIGdvdCkKCQkJfQoJCX0pCgl9Cn0KCmZ1bmMgVGVzdEVuY29kZVB5dGhvbkF1dG9JbnN0YWxsQWxpYXNlcyh0ICp0ZXN0aW5nLlQpIHsKCXZhciBkZWNvZGVkIG1hcFtzdHJpbmddc3RyaW5nCglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoW11ieXRlKEVuY29kZVB5dGhvbkF1dG9JbnN0YWxsQWxpYXNlcygpKSwgJmRlY29kZWQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZGVjb2RlIGFsaWFzZXMganNvbjogJXYiLCBlcnIpCgl9CglleHBlY3RlZCA6PSBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiY3J5cHRvIjogInB5Y3J5cHRvZG9tZSIsCgkJImV4ZWNqcyI6ICJweWV4ZWNqcyIsCgkJInNvY2tzIjogICJweXNvY2tzIiwKCX0KCWZvciBrZXksIHdhbnQgOj0gcmFuZ2UgZXhwZWN0ZWQgewoJCWlmIGdvdCA6PSBkZWNvZGVkW2tleV07IGdvdCAhPSB3YW50IHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGFsaWFzICVxIC0+ICVxLCBnb3QgJXEiLCBrZXksIHdhbnQsIGdvdCkKCQl9Cgl9Cn0K
+package service
+
+import (
+	"encoding/json"
+	"testing"
+)
+
+func TestResolvePythonAutoInstallPackage(t *testing.T) {
+	tests := []struct {
+		name   string
+		input  string
+		expect string
+	}{
+		{name: "crypto alias", input: "Crypto", expect: "pycryptodome"},
+		{name: "cryptodome alias maps to pycryptodomex not pycryptodome", input: "Cryptodome", expect: "pycryptodomex"},
+		{name: "execjs alias", input: "execjs", expect: "pyexecjs"},
+		{name: "case insensitive", input: "crypto", expect: "pycryptodome"},
+		{name: "socks alias", input: "socks", expect: "pysocks"},
+		{name: "cv2 alias uppercase", input: "CV2", expect: "opencv-python"},
+		{name: "bs4 alias", input: "bs4", expect: "beautifulsoup4"},
+		{name: "pil alias", input: "PIL", expect: "pillow"},
+		{name: "yaml alias", input: "yaml", expect: "pyyaml"},
+		{name: "dateutil alias", input: "dateutil", expect: "python-dateutil"},
+		{name: "jwt alias", input: "jwt", expect: "pyjwt"},
+		{name: "websocket alias", input: "websocket", expect: "websocket-client"},
+		{name: "attr alias", input: "attr", expect: "attrs"},
+		{name: "passthrough", input: "requests", expect: "requests"},
+	}
+
+	for _, tc := range tests {
+		t.Run(tc.name, func(t *testing.T) {
+			if got := ResolvePythonAutoInstallPackage(tc.input); got != tc.expect {
+				t.Fatalf("expected %q, got %q", tc.expect, got)
+			}
+		})
+	}
+}
+
+func TestEncodePythonAutoInstallAliases(t *testing.T) {
+	var decoded map[string]string
+	if err := json.Unmarshal([]byte(EncodePythonAutoInstallAliases()), &decoded); err != nil {
+		t.Fatalf("decode aliases json: %v", err)
+	}
+	expected := map[string]string{
+		"crypto": "pycryptodome",
+		"execjs": "pyexecjs",
+		"socks":  "pysocks",
+	}
+	for key, want := range expected {
+		if got := decoded[key]; got != want {
+			t.Fatalf("expected alias %q -> %q, got %q", key, want, got)
+		}
+	}
+}

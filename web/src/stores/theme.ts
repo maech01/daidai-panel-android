@@ -1,1 +1,19 @@
-aW1wb3J0IHsgZGVmaW5lU3RvcmUgfSBmcm9tICdwaW5pYScKaW1wb3J0IHsgcmVmLCB3YXRjaCB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgYXBwbHlQYW5lbEFwcGVhcmFuY2UgfSBmcm9tICdAL3V0aWxzL3BhbmVsQXBwZWFyYW5jZScKCmV4cG9ydCBjb25zdCB1c2VUaGVtZVN0b3JlID0gZGVmaW5lU3RvcmUoJ3RoZW1lJywgKCkgPT4gewogIGNvbnN0IGlzRGFyayA9IHJlZihsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgndGhlbWUnKSA9PT0gJ2RhcmsnKQoKICBmdW5jdGlvbiB0b2dnbGVUaGVtZSgpIHsKICAgIGlzRGFyay52YWx1ZSA9ICFpc0RhcmsudmFsdWUKICB9CgogIHdhdGNoKGlzRGFyaywgKHZhbCkgPT4gewogICAgZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50LmNsYXNzTGlzdC50b2dnbGUoJ2RhcmsnLCB2YWwpCiAgICBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgndGhlbWUnLCB2YWwgPyAnZGFyaycgOiAnbGlnaHQnKQogICAgYXBwbHlQYW5lbEFwcGVhcmFuY2UoKQogIH0sIHsgaW1tZWRpYXRlOiB0cnVlIH0pCgogIHJldHVybiB7IGlzRGFyaywgdG9nZ2xlVGhlbWUgfQp9KQo=
+import { defineStore } from 'pinia'
+import { ref, watch } from 'vue'
+import { applyPanelAppearance } from '@/utils/panelAppearance'
+
+export const useThemeStore = defineStore('theme', () => {
+  const isDark = ref(localStorage.getItem('theme') === 'dark')
+
+  function toggleTheme() {
+    isDark.value = !isDark.value
+  }
+
+  watch(isDark, (val) => {
+    document.documentElement.classList.toggle('dark', val)
+    localStorage.setItem('theme', val ? 'dark' : 'light')
+    applyPanelAppearance()
+  }, { immediate: true })
+
+  return { isDark, toggleTheme }
+})

@@ -1,1 +1,484 @@
-aW1wb3J0IHsgb25CZWZvcmVVbm1vdW50LCByZWYgfSBmcm9tICd2dWUnCmltcG9ydCB7IGNvbmZpZ0FwaSwgc3lzdGVtQXBpLCB0eXBlIFBhbmVsVXBkYXRlU3RhdHVzIH0gZnJvbSAnQC9hcGkvc3lzdGVtJwppbXBvcnQgeyBFbE1lc3NhZ2UsIEVsTWVzc2FnZUJveCB9IGZyb20gJ2VsZW1lbnQtcGx1cycKCnR5cGUgVXBkYXRlVmlzdWFsU3RhdHVzID0gJ2lkbGUnIHwgJ3J1bm5pbmcnIHwgJ3Jlc3RhcnRpbmcnIHwgJ2ZhaWxlZCcgfCAndGltZW91dCcKCmV4cG9ydCBmdW5jdGlvbiB1c2VTZXR0aW5nc092ZXJ2aWV3KCkgewogIGNvbnN0IHN5c3RlbUluZm8gPSByZWY8YW55Pih7fSkKICBjb25zdCBzeXN0ZW1TdGF0cyA9IHJlZjxhbnk+KG51bGwpCiAgY29uc3QgY3VycmVudFZlcnNpb24gPSByZWYoJycpCiAgY29uc3QgdXBkYXRlSW5mbyA9IHJlZjxhbnk+KG51bGwpCiAgY29uc3QgdXBkYXRlU3RhdHVzID0gcmVmPFBhbmVsVXBkYXRlU3RhdHVzIHwgbnVsbD4obnVsbCkKICBjb25zdCBjaGVja2luZ1VwZGF0ZSA9IHJlZihmYWxzZSkKICBjb25zdCB1cGRhdGluZ1BhbmVsID0gcmVmKGZhbHNlKQogIGNvbnN0IGF1dG9VcGRhdGVFbmFibGVkID0gcmVmKGZhbHNlKQogIGNvbnN0IHNhdmluZ0F1dG9VcGRhdGUgPSByZWYoZmFsc2UpCiAgY29uc3QgbGFzdENoZWNrVGltZSA9IHJlZignJykKICBjb25zdCByZWxlYXNlTm90ZXNWaXNpYmxlID0gcmVmKGZhbHNlKQogIGNvbnN0IHVwZGF0ZVByb2dyZXNzVmlzaWJsZSA9IHJlZihmYWxzZSkKICBjb25zdCB1cGRhdGVQcm9ncmVzc1N0YXR1cyA9IHJlZjxVcGRhdGVWaXN1YWxTdGF0dXM+KCdpZGxlJykKICBjb25zdCB1cGRhdGVQcm9ncmVzc0Vycm9yID0gcmVmKCcnKQogIGxldCB1cGRhdGVTdGF0dXNQb2xsVGltZXI6IFJldHVyblR5cGU8dHlwZW9mIHNldFRpbWVvdXQ+IHwgbnVsbCA9IG51bGwKICBsZXQgdXBkYXRlQXZhaWxhYmlsaXR5RGVsYXlUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbAogIGxldCB1cGRhdGVBdmFpbGFiaWxpdHlUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbAogIGxldCByZXN0YXJ0RGVsYXlUaW1lcjogUmV0dXJuVHlwZTx0eXBlb2Ygc2V0VGltZW91dD4gfCBudWxsID0gbnVsbAogIGxldCByZXN0YXJ0UG9sbFRpbWVyOiBSZXR1cm5UeXBlPHR5cGVvZiBzZXRJbnRlcnZhbD4gfCBudWxsID0gbnVsbAoKICBmdW5jdGlvbiBmb3JtYXRCeXRlcyhieXRlczogbnVtYmVyKTogc3RyaW5nIHsKICAgIGlmICghYnl0ZXMpIHJldHVybiAnMCBCJwogICAgY29uc3QgayA9IDEwMjQKICAgIGNvbnN0IHNpemVzID0gWydCJywgJ0tCJywgJ01CJywgJ0dCJywgJ1RCJ10KICAgIGNvbnN0IGkgPSBNYXRoLmZsb29yKE1hdGgubG9nKGJ5dGVzKSAvIE1hdGgubG9nKGspKQogICAgcmV0dXJuIChieXRlcyAvIE1hdGgucG93KGssIGkpKS50b0ZpeGVkKDEpICsgJyAnICsgc2l6ZXNbaV0KICB9CgogIGZ1bmN0aW9uIGdldFVzYWdlQ2xhc3MocGVyY2VudDogbnVtYmVyKTogc3RyaW5nIHsKICAgIGlmICghcGVyY2VudCkgcmV0dXJuICcnCiAgICBpZiAocGVyY2VudCA8IDYwKSByZXR1cm4gJ3VzYWdlLXN1Y2Nlc3MnCiAgICBpZiAocGVyY2VudCA8IDgwKSByZXR1cm4gJ3VzYWdlLXdhcm5pbmcnCiAgICByZXR1cm4gJ3VzYWdlLWRhbmdlcicKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWRTeXN0ZW1JbmZvKCkgewogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc3lzdGVtQXBpLmluZm8oKQogICAgICBzeXN0ZW1JbmZvLnZhbHVlID0gcmVzLmRhdGEgfHwge30KICAgIH0gY2F0Y2ggewogICAgICAvLyBpZ25vcmUKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWRTeXN0ZW1TdGF0cygpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHN5c3RlbUFwaS5zdGF0cygpCiAgICAgIHN5c3RlbVN0YXRzLnZhbHVlID0gcmVzLmRhdGEgfHwge30KICAgIH0gY2F0Y2ggewogICAgICAvLyBpZ25vcmUKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGxvYWRVcGRhdGVQcmVmZXJlbmNlcygpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGNvbmZpZ0FwaS5nZXQoJ2F1dG9fdXBkYXRlX2VuYWJsZWQnKQogICAgICBjb25zdCB2YWx1ZSA9IFN0cmluZyhyZXMuZGF0YT8udmFsdWUgPz8gcmVzLmRhdGE/LmNvbmZpZz8udmFsdWUgPz8gJ2ZhbHNlJykudHJpbSgpLnRvTG93ZXJDYXNlKCkKICAgICAgYXV0b1VwZGF0ZUVuYWJsZWQudmFsdWUgPSBbJzEnLCAndHJ1ZScsICd5ZXMnLCAnb24nXS5pbmNsdWRlcyh2YWx1ZSkKICAgIH0gY2F0Y2ggewogICAgICBhdXRvVXBkYXRlRW5hYmxlZC52YWx1ZSA9IGZhbHNlCiAgICB9CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBjb25maWdBcGkuZ2V0KCdhdXRvX3VwZGF0ZV9sYXN0X2NoZWNrZWRfYXQnKQogICAgICBjb25zdCByYXcgPSBTdHJpbmcocmVzLmRhdGE/LnZhbHVlID8/IHJlcy5kYXRhPy5jb25maWc/LnZhbHVlID8/ICcnKS50cmltKCkKICAgICAgaWYgKHJhdykgbGFzdENoZWNrVGltZS52YWx1ZSA9IHJhdwogICAgfSBjYXRjaCB7IC8qIGlnbm9yZSAqLyB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBsb2FkVmVyc2lvbigpIHsKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHN5c3RlbUFwaS52ZXJzaW9uKCkKICAgICAgY3VycmVudFZlcnNpb24udmFsdWUgPSByZXMuZGF0YS52ZXJzaW9uIHx8ICcnCiAgICB9IGNhdGNoIHsKICAgICAgLy8gaWdub3JlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVDaGVja1VwZGF0ZSgpIHsKICAgIGNoZWNraW5nVXBkYXRlLnZhbHVlID0gdHJ1ZQogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc3lzdGVtQXBpLmNoZWNrVXBkYXRlKCkKICAgICAgdXBkYXRlSW5mby52YWx1ZSA9IHJlcy5kYXRhCiAgICAgIGNvbnN0IG5vdyA9IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKQogICAgICBsYXN0Q2hlY2tUaW1lLnZhbHVlID0gbm93CiAgICAgIHZvaWQgY29uZmlnQXBpLnNldCh7IGtleTogJ2F1dG9fdXBkYXRlX2xhc3RfY2hlY2tlZF9hdCcsIHZhbHVlOiBub3cgfSkuY2F0Y2goKCkgPT4ge30pCiAgICAgIGlmIChyZXMuZGF0YS5oYXNfdXBkYXRlKSB7CiAgICAgICAgcmVsZWFzZU5vdGVzVmlzaWJsZS52YWx1ZSA9IHRydWUKICAgICAgICBpZiAocmVzLmRhdGEuYXV0b191cGRhdGVfc3VwcG9ydGVkKSB7CiAgICAgICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcyhg5Y+R546w5paw54mI5pysIHYke3Jlcy5kYXRhLmxhdGVzdH1gKQogICAgICAgIH0gZWxzZSB7CiAgICAgICAgICBFbE1lc3NhZ2Uud2FybmluZyhyZXMuZGF0YS51cGRhdGVfZGlzYWJsZWRfcmVhc29uIHx8ICflvZPliY3pg6jnvbLmmoLkuI3mlK/mjIHpnaLmnb/lhoXkuIDplK7mm7TmlrAnKQogICAgICAgIH0KICAgICAgfSBlbHNlIHsKICAgICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcyhg5b2T5YmN54mI5pysIHYke3Jlcy5kYXRhLmN1cnJlbnR9IOW3sue7j+aYr+acgOaWsOeJiOS6hmApCiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGNvbnN0IG1zZyA9IGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8ICfmo4Dmn6Xmm7TmlrDlpLHotKXvvIzor7fnqI3lkI7ph43or5UnCiAgICAgIEVsTWVzc2FnZS5lcnJvcihtc2cpCiAgICB9IGZpbmFsbHkgewogICAgICBjaGVja2luZ1VwZGF0ZS52YWx1ZSA9IGZhbHNlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVUb2dnbGVBdXRvVXBkYXRlKHZhbHVlOiBib29sZWFuKSB7CiAgICBjb25zdCBwcmV2aW91cyA9IGF1dG9VcGRhdGVFbmFibGVkLnZhbHVlCiAgICBhdXRvVXBkYXRlRW5hYmxlZC52YWx1ZSA9IHZhbHVlCiAgICBzYXZpbmdBdXRvVXBkYXRlLnZhbHVlID0gdHJ1ZQogICAgdHJ5IHsKICAgICAgYXdhaXQgY29uZmlnQXBpLnNldCh7IGtleTogJ2F1dG9fdXBkYXRlX2VuYWJsZWQnLCB2YWx1ZTogdmFsdWUgPyAndHJ1ZScgOiAnZmFsc2UnIH0pCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKHZhbHVlID8gJ+mdmem7mOabtOaWsOW3suW8gOWQrycgOiAn6Z2Z6buY5pu05paw5bey5YWz6ZetJykKICAgICAgaWYgKHZhbHVlKSB7CiAgICAgICAgdm9pZCBoYW5kbGVDaGVja1VwZGF0ZSgpCiAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICBhdXRvVXBkYXRlRW5hYmxlZC52YWx1ZSA9IHByZXZpb3VzCiAgICAgIEVsTWVzc2FnZS5lcnJvcign5L+d5a2Y6Z2Z6buY5pu05paw6K6+572u5aSx6LSlJykKICAgIH0gZmluYWxseSB7CiAgICAgIHNhdmluZ0F1dG9VcGRhdGUudmFsdWUgPSBmYWxzZQogICAgfQogIH0KCiAgZnVuY3Rpb24gY2xvc2VSZWxlYXNlTm90ZXMoKSB7CiAgICByZWxlYXNlTm90ZXNWaXNpYmxlLnZhbHVlID0gZmFsc2UKICB9CgogIGZ1bmN0aW9uIG9wZW5SZWxlYXNlTm90ZXMoKSB7CiAgICBpZiAodXBkYXRlSW5mby52YWx1ZT8uaGFzX3VwZGF0ZSkgewogICAgICByZWxlYXNlTm90ZXNWaXNpYmxlLnZhbHVlID0gdHJ1ZQogICAgfQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlVXBkYXRlUGFuZWwoKSB7CiAgICBpZiAodXBkYXRpbmdQYW5lbC52YWx1ZSkgewogICAgICBFbE1lc3NhZ2Uud2FybmluZygn5pu05paw5Lu75Yqh5bey57uP5Zyo6L+b6KGM5Lit77yM6K+356iN5YCZJykKICAgICAgcmV0dXJuCiAgICB9CgogICAgaWYgKHVwZGF0ZUluZm8udmFsdWU/LmF1dG9fdXBkYXRlX3N1cHBvcnRlZCA9PT0gZmFsc2UpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcodXBkYXRlSW5mby52YWx1ZT8udXBkYXRlX2Rpc2FibGVkX3JlYXNvbiB8fCAn5b2T5YmN6YOo572y5pqC5LiN5pSv5oyB6Z2i5p2/5YaF5LiA6ZSu5pu05pawJykKICAgICAgcmV0dXJuCiAgICB9CgogICAgdHJ5IHsKICAgICAgY29uc3QgdXBkYXRlVGFyZ2V0ID0gdXBkYXRlSW5mby52YWx1ZT8udXBkYXRlX3RhcmdldCB8fCB7fQogICAgICBjb25zdCBpc0JpbmFyeVVwZGF0ZSA9IHVwZGF0ZVRhcmdldC5kZXBsb3ltZW50X3R5cGUgPT09ICdiaW5hcnknCiAgICAgIGNvbnN0IGlzV2F0Y2h0b3dlck1hbmFnZWQgPSB1cGRhdGVUYXJnZXQudXBkYXRlX21hbmFnZXIgPT09ICd3YXRjaHRvd2VyJyB8fCB1cGRhdGVUYXJnZXQud2F0Y2h0b3dlcl9tYW5hZ2VkID09PSB0cnVlCiAgICAgIGNvbnN0IG1pcnJvckhvc3QgPSB1cGRhdGVUYXJnZXQubWlycm9yX2hvc3QKICAgICAgY29uc3QgcHVsbEltYWdlTmFtZSA9IHVwZGF0ZVRhcmdldC5wdWxsX2ltYWdlX25hbWUKICAgICAgY29uc3QgY29uZmlybU1lc3NhZ2UgPSBpc1dhdGNodG93ZXJNYW5hZ2VkCiAgICAgICAgPyBidWlsZFdhdGNodG93ZXJVcGRhdGVDb25maXJtTWVzc2FnZSh1cGRhdGVUYXJnZXQpCiAgICAgICAgOiBpc0JpbmFyeVVwZGF0ZQogICAgICAgID8gYnVpbGRCaW5hcnlVcGRhdGVDb25maXJtTWVzc2FnZSh1cGRhdGVUYXJnZXQpCiAgICAgICAgOiBidWlsZERvY2tlclVwZGF0ZUNvbmZpcm1NZXNzYWdlKG1pcnJvckhvc3QsIHB1bGxJbWFnZU5hbWUpCiAgICAgIGF3YWl0IEVsTWVzc2FnZUJveC5jb25maXJtKAogICAgICAgIGNvbmZpcm1NZXNzYWdlLAogICAgICAgICfnq4vljbPmm7TmlrAnLAogICAgICAgIHsKICAgICAgICAgIGNvbmZpcm1CdXR0b25UZXh0OiAn5byA5aeL5pu05pawJywKICAgICAgICAgIGNhbmNlbEJ1dHRvblRleHQ6ICflj5bmtognLAogICAgICAgICAgdHlwZTogJ3dhcm5pbmcnCiAgICAgICAgfQogICAgICApCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBpZiAoZXJyID09PSAnY2FuY2VsJyB8fCBlcnI/LnRvU3RyaW5nPy4oKSA9PT0gJ2NhbmNlbCcpIHsKICAgICAgICByZXR1cm4KICAgICAgfQogICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5tZXNzYWdlIHx8ICfml6Dms5Xnoa7orqTmm7TmlrDmk43kvZwnKQogICAgICByZXR1cm4KICAgIH0KCiAgICB1cGRhdGluZ1BhbmVsLnZhbHVlID0gdHJ1ZQogICAgb3BlblVwZGF0ZVByb2dyZXNzKHsKICAgICAgc3RhdHVzOiAncnVubmluZycsCiAgICAgIHBoYXNlOiAncHJlcGFyaW5nJywKICAgICAgbWVzc2FnZTogJ+ato+WcqOaPkOS6pOabtOaWsOS7u+WKoScsCiAgICAgIHN0YXJ0ZWRfYXQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgIH0pCgogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc3lzdGVtQXBpLnVwZGF0ZVBhbmVsKCkKICAgICAgYXBwbHlVcGRhdGVTbmFwc2hvdChyZXMuZGF0YSB8fCB1cGRhdGVTdGF0dXMudmFsdWUpCiAgICAgIGlmICh1cGRhdGVJbmZvLnZhbHVlPy51cGRhdGVfdGFyZ2V0Py51cGRhdGVfbWFuYWdlciA9PT0gJ3dhdGNodG93ZXInIHx8IHVwZGF0ZUluZm8udmFsdWU/LnVwZGF0ZV90YXJnZXQ/LndhdGNodG93ZXJfbWFuYWdlZCA9PT0gdHJ1ZSkgewogICAgICAgIHVwZGF0aW5nUGFuZWwudmFsdWUgPSBmYWxzZQogICAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCflt7Lop6blj5EgV2F0Y2h0b3dlciDmo4Dmn6Xmm7TmlrDvvIzor7fnqI3lkI7mn6XnnIsgV2F0Y2h0b3dlciDml6Xlv5fmiJbnrYnlvoXlrrnlmajph43lu7rnu5PmnpwnKQogICAgICAgIHJldHVybgogICAgICB9CiAgICAgIHN0YXJ0VXBkYXRlU3RhdHVzUG9sbGluZygpCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBmYWlsVXBkYXRlUHJvZ3Jlc3MoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZXJyPy5tZXNzYWdlIHx8ICfmm7TmlrDlpLHotKXvvIzor7fmiYvliqjmm7TmlrAnKQogICAgfQogIH0KCiAgZnVuY3Rpb24gYnVpbGREb2NrZXJVcGRhdGVDb25maXJtTWVzc2FnZShtaXJyb3JIb3N0Pzogc3RyaW5nLCBwdWxsSW1hZ2VOYW1lPzogc3RyaW5nKSB7CiAgICBjb25zdCBtaXJyb3JUZXh0ID0gbWlycm9ySG9zdAogICAgICA/IGDlvZPliY3lsIbpgJrov4fplZzlg4/mupAgJHttaXJyb3JIb3N0fSDmi4nlj5bmm7TmlrDplZzlg4/jgIJgCiAgICAgIDogJ+W9k+WJjeWwhuebtOaOpeS7jum7mOiupOmVnOWDj+S7k+W6k+aLieWPluabtOaWsOmVnOWDj+OAgicKICAgIGNvbnN0IHB1bGxUYXJnZXRUZXh0ID0gcHVsbEltYWdlTmFtZSA/IGBcbuaLieWPluebruagh++8miR7cHVsbEltYWdlTmFtZX1gIDogJycKICAgIHJldHVybiBg56Gu6K6k5byA5aeL5pu05paw6Z2i5p2/5ZCX77yf57O757uf5Lya5YWI5ouJ5Y+W5pyA5paw6ZWc5YOP77yM5YaN6Ieq5Yqo6YeN5bu65a655Zmo44CC5pu05paw5pyf6Ze05pyN5Yqh5Lya55+t5pqC5Lit5pat44CCXG4ke21pcnJvclRleHR9JHtwdWxsVGFyZ2V0VGV4dH1gCiAgfQoKICBmdW5jdGlvbiBidWlsZFdhdGNodG93ZXJVcGRhdGVDb25maXJtTWVzc2FnZSh1cGRhdGVUYXJnZXQ6IGFueSkgewogICAgY29uc3Qgc2NoZWR1bGVUZXh0ID0gdXBkYXRlVGFyZ2V0LndhdGNodG93ZXJfc2NoZWR1bGUKICAgICAgPyBgXG7lvZPliY3osIPluqbvvJoke3VwZGF0ZVRhcmdldC53YXRjaHRvd2VyX3NjaGVkdWxlfWAKICAgICAgOiAnJwogICAgcmV0dXJuIGDnoa7orqTmiYvliqjop6blj5EgV2F0Y2h0b3dlciDnq4vljbPmo4Dmn6Xmm7TmlrDlkJfvvJ9cbui/meS8muivt+axgiBXYXRjaHRvd2VyIOeri+WIu+aJp+ihjOS4gOasoeabtOaWsOajgOafpe+8jOiAjOS4jeaYr+etieW+heS4i+S4gOasoeWumuaXtueql+WPo+OAgiR7c2NoZWR1bGVUZXh0fWAKICB9CgogIGZ1bmN0aW9uIGJ1aWxkQmluYXJ5VXBkYXRlQ29uZmlybU1lc3NhZ2UodXBkYXRlVGFyZ2V0OiBhbnkpIHsKICAgIGNvbnN0IGFzc2V0VGV4dCA9IHVwZGF0ZVRhcmdldC5hc3NldF9uYW1lID8gYFxu5pu05paw5YyF77yaJHt1cGRhdGVUYXJnZXQuYXNzZXRfbmFtZX1gIDogJycKICAgIGNvbnN0IGluc3RhbGxEaXJUZXh0ID0gdXBkYXRlVGFyZ2V0Lmluc3RhbGxfZGlyID8gYFxu5a6J6KOF55uu5b2V77yaJHt1cGRhdGVUYXJnZXQuaW5zdGFsbF9kaXJ9YCA6ICcnCiAgICByZXR1cm4gYOehruiupOW8gOWni+abtOaWsOmdouadv+WQl++8n+ezu+e7n+S8muWcqOWQjuWPsOS4i+i9veW9k+WJjeW5s+WPsOeahOS6jOi/m+WItuabtOaWsOWMhe+8jOabv+aNoueoi+W6j+S4juWJjeerr+aWh+S7tu+8jOW5tuiHquWKqOmHjeWQr+mdouadv+OAglxu5ZCO5Y+w5pu05paw5Lya5L+d55WZIGNvbmZpZy55YW1s44CBRHVtYi1QYW5lbOOAgWRhdGHjgIFsb2dz44CBYmFja3VwcyDnrYnmnKzlnLDphY3nva7kuI7mlbDmja7nm67lvZXjgIIke2Fzc2V0VGV4dH0ke2luc3RhbGxEaXJUZXh0fWAKICB9CgogIGZ1bmN0aW9uIG9wZW5VcGRhdGVQcm9ncmVzcyhzbmFwc2hvdD86IFBhbmVsVXBkYXRlU3RhdHVzIHwgbnVsbCkgewogICAgdXBkYXRlUHJvZ3Jlc3NWaXNpYmxlLnZhbHVlID0gdHJ1ZQogICAgdXBkYXRlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAncnVubmluZycKICAgIHVwZGF0ZVByb2dyZXNzRXJyb3IudmFsdWUgPSAnJwogICAgdXBkYXRlU3RhdHVzLnZhbHVlID0gc25hcHNob3QgfHwgewogICAgICBzdGF0dXM6ICdydW5uaW5nJywKICAgICAgcGhhc2U6ICdwcmVwYXJpbmcnLAogICAgICBtZXNzYWdlOiAn5q2j5Zyo5YeG5aSH5pu05paw5Lu75YqhLi4uJywKICAgICAgc3RhcnRlZF9hdDogbmV3IERhdGUoKS50b0lTT1N0cmluZygpLAogICAgfQogIH0KCiAgZnVuY3Rpb24gYXBwbHlVcGRhdGVTbmFwc2hvdChzbmFwc2hvdD86IFBhbmVsVXBkYXRlU3RhdHVzIHwgbnVsbCkgewogICAgdXBkYXRlU3RhdHVzLnZhbHVlID0gc25hcHNob3QgfHwge30KICAgIHVwZGF0ZVByb2dyZXNzVmlzaWJsZS52YWx1ZSA9IHRydWUKCiAgICBpZiAodXBkYXRlU3RhdHVzLnZhbHVlPy5zdGF0dXMgPT09ICdmYWlsZWQnKSB7CiAgICAgIHVwZGF0ZVByb2dyZXNzU3RhdHVzLnZhbHVlID0gJ2ZhaWxlZCcKICAgICAgdXBkYXRlUHJvZ3Jlc3NFcnJvci52YWx1ZSA9IHVwZGF0ZVN0YXR1cy52YWx1ZT8uZXJyb3IgfHwgdXBkYXRlU3RhdHVzLnZhbHVlPy5tZXNzYWdlIHx8ICfmm7TmlrDlpLHotKUnCiAgICAgIHVwZGF0aW5nUGFuZWwudmFsdWUgPSBmYWxzZQogICAgICByZXR1cm4KICAgIH0KCiAgICBpZiAodXBkYXRlU3RhdHVzLnZhbHVlPy5zdGF0dXMgPT09ICdyZXN0YXJ0aW5nJykgewogICAgICB1cGRhdGVQcm9ncmVzc1N0YXR1cy52YWx1ZSA9ICdyZXN0YXJ0aW5nJwogICAgICB1cGRhdGVQcm9ncmVzc0Vycm9yLnZhbHVlID0gJycKICAgICAgcmV0dXJuCiAgICB9CgogICAgdXBkYXRlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAncnVubmluZycKICAgIHVwZGF0ZVByb2dyZXNzRXJyb3IudmFsdWUgPSAnJwogIH0KCiAgZnVuY3Rpb24gZmFpbFVwZGF0ZVByb2dyZXNzKG1lc3NhZ2U6IHN0cmluZykgewogICAgc3RvcFVwZGF0ZVN0YXR1c1BvbGxpbmcoKQogICAgc3RvcFVwZGF0ZUF2YWlsYWJpbGl0eUNoZWNrcygpCiAgICB1cGRhdGVQcm9ncmVzc1Zpc2libGUudmFsdWUgPSB0cnVlCiAgICB1cGRhdGVQcm9ncmVzc1N0YXR1cy52YWx1ZSA9ICdmYWlsZWQnCiAgICB1cGRhdGVQcm9ncmVzc0Vycm9yLnZhbHVlID0gbWVzc2FnZQogICAgdXBkYXRlU3RhdHVzLnZhbHVlID0gewogICAgICAuLi4odXBkYXRlU3RhdHVzLnZhbHVlIHx8IHt9KSwKICAgICAgc3RhdHVzOiAnZmFpbGVkJywKICAgICAgcGhhc2U6IHVwZGF0ZVN0YXR1cy52YWx1ZT8ucGhhc2UgfHwgJ2ZhaWxlZCcsCiAgICAgIG1lc3NhZ2UsCiAgICAgIGVycm9yOiBtZXNzYWdlLAogICAgfQogICAgdXBkYXRpbmdQYW5lbC52YWx1ZSA9IGZhbHNlCiAgICBFbE1lc3NhZ2UuZXJyb3IobWVzc2FnZSkKICB9CgogIGZ1bmN0aW9uIHN0YXJ0VXBkYXRlU3RhdHVzUG9sbGluZygpIHsKICAgIHN0b3BVcGRhdGVTdGF0dXNQb2xsaW5nKCkKICAgIGNvbnN0IHN0YXJ0ZWRBdCA9IERhdGUubm93KCkKCiAgICBjb25zdCBwb2xsID0gYXN5bmMgKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHN5c3RlbUFwaS51cGRhdGVTdGF0dXMoKQogICAgICAgIGFwcGx5VXBkYXRlU25hcHNob3QocmVzLmRhdGEgfHwge30pCgogICAgICAgIGlmICh1cGRhdGVTdGF0dXMudmFsdWU/LnN0YXR1cyA9PT0gJ2ZhaWxlZCcpIHsKICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgaWYgKHVwZGF0ZVN0YXR1cy52YWx1ZT8uc3RhdHVzID09PSAncmVzdGFydGluZycpIHsKICAgICAgICAgIHN0b3BVcGRhdGVTdGF0dXNQb2xsaW5nKCkKICAgICAgICAgIHdhaXRGb3JBdmFpbGFiaWxpdHkoKQogICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICBpZiAoRGF0ZS5ub3coKSAtIHN0YXJ0ZWRBdCA+PSAxMiAqIDYwICogMTAwMCkgewogICAgICAgICAgZmFpbFVwZGF0ZVByb2dyZXNzKCfmm7TmlrDotoXml7bvvIzor7fmiYvliqjliLfmlrDpobXpnaLmo4Dmn6UnKQogICAgICAgICAgcmV0dXJuCiAgICAgICAgfQoKICAgICAgICB1cGRhdGVTdGF0dXNQb2xsVGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgICAgIHZvaWQgcG9sbCgpCiAgICAgICAgfSwgMjAwMCkKICAgICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgICBpZiAoc2hvdWxkVHJlYXRBc1Jlc3RhcnQoZXJyKSkgewogICAgICAgICAgc3RvcFVwZGF0ZVN0YXR1c1BvbGxpbmcoKQogICAgICAgICAgdXBkYXRlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPSAncmVzdGFydGluZycKICAgICAgICAgIHdhaXRGb3JBdmFpbGFiaWxpdHkoKQogICAgICAgICAgcmV0dXJuCiAgICAgICAgfQogICAgICAgIGZhaWxVcGRhdGVQcm9ncmVzcyhlcnI/LnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlcnI/Lm1lc3NhZ2UgfHwgJ+abtOaWsOeKtuaAgeiOt+WPluWksei0pScpCiAgICAgIH0KICAgIH0KCiAgICB2b2lkIHBvbGwoKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlUmVzdGFydFBhbmVsKCkgewogICAgdHJ5IHsKICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oJ+ehruWumuimgemHjeWQr+mdouadv+WQl++8n+mHjeWQr+acn+mXtOacjeWKoeWwhuefreaaguS4reaWreOAgicsICfph43lkK/pnaLmnb8nLCB7CiAgICAgICAgY29uZmlybUJ1dHRvblRleHQ6ICfnoa7orqTph43lkK8nLAogICAgICAgIGNhbmNlbEJ1dHRvblRleHQ6ICflj5bmtognLAogICAgICAgIHR5cGU6ICd3YXJuaW5nJwogICAgICB9KQogICAgICBhd2FpdCBzeXN0ZW1BcGkucmVzdGFydCgpCiAgICAgIHdhaXRGb3JSZXN0YXJ0KCkKICAgIH0gY2F0Y2ggewogICAgICAvLyBjYW5jZWxsZWQKICAgIH0KICB9CgogIGZ1bmN0aW9uIHN0b3BSZXN0YXJ0UG9sbGluZygpIHsKICAgIGlmIChyZXN0YXJ0RGVsYXlUaW1lcikgewogICAgICBjbGVhclRpbWVvdXQocmVzdGFydERlbGF5VGltZXIpCiAgICAgIHJlc3RhcnREZWxheVRpbWVyID0gbnVsbAogICAgfQogICAgaWYgKHJlc3RhcnRQb2xsVGltZXIpIHsKICAgICAgY2xlYXJJbnRlcnZhbChyZXN0YXJ0UG9sbFRpbWVyKQogICAgICByZXN0YXJ0UG9sbFRpbWVyID0gbnVsbAogICAgfQogIH0KCiAgZnVuY3Rpb24gd2FpdEZvclJlc3RhcnQoKSB7CiAgICBzdG9wUmVzdGFydFBvbGxpbmcoKQogICAgbGV0IGF0dGVtcHRzID0gMAogICAgcmVzdGFydERlbGF5VGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgcmVzdGFydERlbGF5VGltZXIgPSBudWxsCiAgICAgIHJlc3RhcnRQb2xsVGltZXIgPSBzZXRJbnRlcnZhbChhc3luYyAoKSA9PiB7CiAgICAgICAgYXR0ZW1wdHMrKwogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCgnLycsIHsgbWV0aG9kOiAnSEVBRCcgfSkKICAgICAgICAgIGlmIChyZXMub2spIHsKICAgICAgICAgICAgc3RvcFJlc3RhcnRQb2xsaW5nKCkKICAgICAgICAgICAgd2luZG93LmxvY2F0aW9uLnJlbG9hZCgpCiAgICAgICAgICB9CiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICAvLyBpZ25vcmUKICAgICAgICB9CiAgICAgICAgaWYgKGF0dGVtcHRzID49IDYwKSB7CiAgICAgICAgICBzdG9wUmVzdGFydFBvbGxpbmcoKQogICAgICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+mHjeWQr+i2heaXtu+8jOivt+aJi+WKqOWIt+aWsOmhtemdoicpCiAgICAgICAgfQogICAgICB9LCAyMDAwKQogICAgfSwgMzAwMCkKICB9CgogIGZ1bmN0aW9uIHdhaXRGb3JBdmFpbGFiaWxpdHkoKSB7CiAgICBzdG9wVXBkYXRlQXZhaWxhYmlsaXR5Q2hlY2tzKCkKICAgIHVwZGF0ZVByb2dyZXNzVmlzaWJsZS52YWx1ZSA9IHRydWUKICAgIHVwZGF0ZVByb2dyZXNzU3RhdHVzLnZhbHVlID0gJ3Jlc3RhcnRpbmcnCgogICAgbGV0IGF0dGVtcHRzID0gMAogICAgdXBkYXRlQXZhaWxhYmlsaXR5RGVsYXlUaW1lciA9IHNldFRpbWVvdXQoKCkgPT4gewogICAgICB1cGRhdGVBdmFpbGFiaWxpdHlEZWxheVRpbWVyID0gbnVsbAogICAgICBjb25zdCBwcm9iZSA9IGFzeW5jICgpID0+IHsKICAgICAgICBhdHRlbXB0cysrCiAgICAgICAgdHJ5IHsKICAgICAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IGZldGNoKCcvJywgeyBtZXRob2Q6ICdIRUFEJywgY2FjaGU6ICduby1zdG9yZScgfSkKICAgICAgICAgIGlmIChyZXMub2spIHsKICAgICAgICAgICAgc3RvcFVwZGF0ZUF2YWlsYWJpbGl0eUNoZWNrcygpCiAgICAgICAgICAgIHdpbmRvdy5sb2NhdGlvbi5yZWxvYWQoKQogICAgICAgICAgICByZXR1cm4KICAgICAgICAgIH0KICAgICAgICB9IGNhdGNoIHsKICAgICAgICAgIC8vIGlnbm9yZQogICAgICAgIH0KCiAgICAgICAgaWYgKGF0dGVtcHRzID49IDgwKSB7CiAgICAgICAgICBzdG9wVXBkYXRlQXZhaWxhYmlsaXR5Q2hlY2tzKCkKICAgICAgICAgIHVwZGF0ZVByb2dyZXNzU3RhdHVzLnZhbHVlID0gJ3RpbWVvdXQnCiAgICAgICAgICB1cGRhdGVQcm9ncmVzc0Vycm9yLnZhbHVlID0gJ+etieW+heaWsOeJiOacrOWQr+WKqOi2heaXtu+8jOivt+eojeWQjuaJi+WKqOWIt+aWsOmhtemdouajgOafpScKICAgICAgICAgIHVwZGF0aW5nUGFuZWwudmFsdWUgPSBmYWxzZQogICAgICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+etieW+heaWsOeJiOacrOWQr+WKqOi2heaXtu+8jOivt+aJi+WKqOWIt+aWsOmhtemdouajgOafpScpCiAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIHVwZGF0ZUF2YWlsYWJpbGl0eVRpbWVyID0gc2V0VGltZW91dCgoKSA9PiB7CiAgICAgICAgICB2b2lkIHByb2JlKCkKICAgICAgICB9LCAzMDAwKQogICAgICB9CgogICAgICB2b2lkIHByb2JlKCkKICAgIH0sIDIwMDApCiAgfQoKICBmdW5jdGlvbiBzdG9wVXBkYXRlU3RhdHVzUG9sbGluZygpIHsKICAgIGlmICh1cGRhdGVTdGF0dXNQb2xsVGltZXIpIHsKICAgICAgY2xlYXJUaW1lb3V0KHVwZGF0ZVN0YXR1c1BvbGxUaW1lcikKICAgICAgdXBkYXRlU3RhdHVzUG9sbFRpbWVyID0gbnVsbAogICAgfQogIH0KCiAgZnVuY3Rpb24gc3RvcFVwZGF0ZUF2YWlsYWJpbGl0eUNoZWNrcygpIHsKICAgIGlmICh1cGRhdGVBdmFpbGFiaWxpdHlEZWxheVRpbWVyKSB7CiAgICAgIGNsZWFyVGltZW91dCh1cGRhdGVBdmFpbGFiaWxpdHlEZWxheVRpbWVyKQogICAgICB1cGRhdGVBdmFpbGFiaWxpdHlEZWxheVRpbWVyID0gbnVsbAogICAgfQogICAgaWYgKHVwZGF0ZUF2YWlsYWJpbGl0eVRpbWVyKSB7CiAgICAgIGNsZWFyVGltZW91dCh1cGRhdGVBdmFpbGFiaWxpdHlUaW1lcikKICAgICAgdXBkYXRlQXZhaWxhYmlsaXR5VGltZXIgPSBudWxsCiAgICB9CiAgfQoKICBmdW5jdGlvbiBjbG9zZVVwZGF0ZVByb2dyZXNzKCkgewogICAgaWYgKHVwZGF0ZVByb2dyZXNzU3RhdHVzLnZhbHVlID09PSAncnVubmluZycgfHwgdXBkYXRlUHJvZ3Jlc3NTdGF0dXMudmFsdWUgPT09ICdyZXN0YXJ0aW5nJykgewogICAgICByZXR1cm4KICAgIH0KICAgIHN0b3BVcGRhdGVTdGF0dXNQb2xsaW5nKCkKICAgIHN0b3BVcGRhdGVBdmFpbGFiaWxpdHlDaGVja3MoKQogICAgdXBkYXRlUHJvZ3Jlc3NWaXNpYmxlLnZhbHVlID0gZmFsc2UKICAgIHVwZGF0ZVByb2dyZXNzU3RhdHVzLnZhbHVlID0gJ2lkbGUnCiAgICB1cGRhdGVQcm9ncmVzc0Vycm9yLnZhbHVlID0gJycKICB9CgogIGZ1bmN0aW9uIHNob3VsZFRyZWF0QXNSZXN0YXJ0KGVycjogYW55KSB7CiAgICBpZiAoIXVwZGF0ZVN0YXR1cy52YWx1ZT8uc3RhdHVzKSB7CiAgICAgIHJldHVybiBmYWxzZQogICAgfQoKICAgIGlmIChlcnI/LnJlc3BvbnNlKSB7CiAgICAgIHJldHVybiBmYWxzZQogICAgfQoKICAgIHJldHVybiB1cGRhdGVTdGF0dXMudmFsdWUuc3RhdHVzID09PSAncnVubmluZycgfHwgdXBkYXRlU3RhdHVzLnZhbHVlLnN0YXR1cyA9PT0gJ3Jlc3RhcnRpbmcnCiAgfQoKICBmdW5jdGlvbiBvcGVuR2l0SHViKCkgewogICAgY29uc3QgdXJsID0gdXBkYXRlSW5mby52YWx1ZT8uaGFzX3VwZGF0ZSAmJiB1cGRhdGVJbmZvLnZhbHVlPy5yZWxlYXNlX3VybAogICAgICA/IHVwZGF0ZUluZm8udmFsdWUucmVsZWFzZV91cmwKICAgICAgOiAnaHR0cHM6Ly9naXRodWIuY29tL2xpbnppeHVhbnp6L2RhaWRhaS1wYW5lbC9yZWxlYXNlcycKICAgIHdpbmRvdy5vcGVuKHVybCwgJ19ibGFuaycpCiAgfQoKICBvbkJlZm9yZVVubW91bnQoKCkgPT4gewogICAgc3RvcFVwZGF0ZVN0YXR1c1BvbGxpbmcoKQogICAgc3RvcFVwZGF0ZUF2YWlsYWJpbGl0eUNoZWNrcygpCiAgICBzdG9wUmVzdGFydFBvbGxpbmcoKQogIH0pCgogIHJldHVybiB7CiAgICBzeXN0ZW1JbmZvLAogICAgc3lzdGVtU3RhdHMsCiAgICBjdXJyZW50VmVyc2lvbiwKICAgIHVwZGF0ZUluZm8sCiAgICB1cGRhdGVTdGF0dXMsCiAgICBjaGVja2luZ1VwZGF0ZSwKICAgIHVwZGF0aW5nUGFuZWwsCiAgICBhdXRvVXBkYXRlRW5hYmxlZCwKICAgIHNhdmluZ0F1dG9VcGRhdGUsCiAgICBsYXN0Q2hlY2tUaW1lLAogICAgcmVsZWFzZU5vdGVzVmlzaWJsZSwKICAgIHVwZGF0ZVByb2dyZXNzVmlzaWJsZSwKICAgIHVwZGF0ZVByb2dyZXNzU3RhdHVzLAogICAgdXBkYXRlUHJvZ3Jlc3NFcnJvciwKICAgIGZvcm1hdEJ5dGVzLAogICAgZ2V0VXNhZ2VDbGFzcywKICAgIGxvYWRTeXN0ZW1JbmZvLAogICAgbG9hZFN5c3RlbVN0YXRzLAogICAgbG9hZFZlcnNpb24sCiAgICBsb2FkVXBkYXRlUHJlZmVyZW5jZXMsCiAgICBoYW5kbGVDaGVja1VwZGF0ZSwKICAgIGhhbmRsZVVwZGF0ZVBhbmVsLAogICAgaGFuZGxlUmVzdGFydFBhbmVsLAogICAgaGFuZGxlVG9nZ2xlQXV0b1VwZGF0ZSwKICAgIG9wZW5SZWxlYXNlTm90ZXMsCiAgICBjbG9zZVJlbGVhc2VOb3RlcywKICAgIG9wZW5HaXRIdWIsCiAgICBjbG9zZVVwZGF0ZVByb2dyZXNzCiAgfQp9Cg==
+import { onBeforeUnmount, ref } from 'vue'
+import { configApi, systemApi, type PanelUpdateStatus } from '@/api/system'
+import { ElMessage, ElMessageBox } from 'element-plus'
+
+type UpdateVisualStatus = 'idle' | 'running' | 'restarting' | 'failed' | 'timeout'
+
+export function useSettingsOverview() {
+  const systemInfo = ref<any>({})
+  const systemStats = ref<any>(null)
+  const currentVersion = ref('')
+  const updateInfo = ref<any>(null)
+  const updateStatus = ref<PanelUpdateStatus | null>(null)
+  const checkingUpdate = ref(false)
+  const updatingPanel = ref(false)
+  const autoUpdateEnabled = ref(false)
+  const savingAutoUpdate = ref(false)
+  const lastCheckTime = ref('')
+  const releaseNotesVisible = ref(false)
+  const updateProgressVisible = ref(false)
+  const updateProgressStatus = ref<UpdateVisualStatus>('idle')
+  const updateProgressError = ref('')
+  let updateStatusPollTimer: ReturnType<typeof setTimeout> | null = null
+  let updateAvailabilityDelayTimer: ReturnType<typeof setTimeout> | null = null
+  let updateAvailabilityTimer: ReturnType<typeof setTimeout> | null = null
+  let restartDelayTimer: ReturnType<typeof setTimeout> | null = null
+  let restartPollTimer: ReturnType<typeof setInterval> | null = null
+
+  function formatBytes(bytes: number): string {
+    if (!bytes) return '0 B'
+    const k = 1024
+    const sizes = ['B', 'KB', 'MB', 'GB', 'TB']
+    const i = Math.floor(Math.log(bytes) / Math.log(k))
+    return (bytes / Math.pow(k, i)).toFixed(1) + ' ' + sizes[i]
+  }
+
+  function getUsageClass(percent: number): string {
+    if (!percent) return ''
+    if (percent < 60) return 'usage-success'
+    if (percent < 80) return 'usage-warning'
+    return 'usage-danger'
+  }
+
+  async function loadSystemInfo() {
+    try {
+      const res = await systemApi.info()
+      systemInfo.value = res.data || {}
+    } catch {
+      // ignore
+    }
+  }
+
+  async function loadSystemStats() {
+    try {
+      const res = await systemApi.stats()
+      systemStats.value = res.data || {}
+    } catch {
+      // ignore
+    }
+  }
+
+  async function loadUpdatePreferences() {
+    try {
+      const res = await configApi.get('auto_update_enabled')
+      const value = String(res.data?.value ?? res.data?.config?.value ?? 'false').trim().toLowerCase()
+      autoUpdateEnabled.value = ['1', 'true', 'yes', 'on'].includes(value)
+    } catch {
+      autoUpdateEnabled.value = false
+    }
+    try {
+      const res = await configApi.get('auto_update_last_checked_at')
+      const raw = String(res.data?.value ?? res.data?.config?.value ?? '').trim()
+      if (raw) lastCheckTime.value = raw
+    } catch { /* ignore */ }
+  }
+
+  async function loadVersion() {
+    try {
+      const res = await systemApi.version()
+      currentVersion.value = res.data.version || ''
+    } catch {
+      // ignore
+    }
+  }
+
+  async function handleCheckUpdate() {
+    checkingUpdate.value = true
+    try {
+      const res = await systemApi.checkUpdate()
+      updateInfo.value = res.data
+      const now = new Date().toISOString()
+      lastCheckTime.value = now
+      void configApi.set({ key: 'auto_update_last_checked_at', value: now }).catch(() => {})
+      if (res.data.has_update) {
+        releaseNotesVisible.value = true
+        if (res.data.auto_update_supported) {
+          ElMessage.success(`发现新版本 v${res.data.latest}`)
+        } else {
+          ElMessage.warning(res.data.update_disabled_reason || '当前部署暂不支持面板内一键更新')
+        }
+      } else {
+        ElMessage.success(`当前版本 v${res.data.current} 已经是最新版了`)
+      }
+    } catch (err: any) {
+      const msg = err?.response?.data?.error || '检查更新失败，请稍后重试'
+      ElMessage.error(msg)
+    } finally {
+      checkingUpdate.value = false
+    }
+  }
+
+  async function handleToggleAutoUpdate(value: boolean) {
+    const previous = autoUpdateEnabled.value
+    autoUpdateEnabled.value = value
+    savingAutoUpdate.value = true
+    try {
+      await configApi.set({ key: 'auto_update_enabled', value: value ? 'true' : 'false' })
+      ElMessage.success(value ? '静默更新已开启' : '静默更新已关闭')
+      if (value) {
+        void handleCheckUpdate()
+      }
+    } catch {
+      autoUpdateEnabled.value = previous
+      ElMessage.error('保存静默更新设置失败')
+    } finally {
+      savingAutoUpdate.value = false
+    }
+  }
+
+  function closeReleaseNotes() {
+    releaseNotesVisible.value = false
+  }
+
+  function openReleaseNotes() {
+    if (updateInfo.value?.has_update) {
+      releaseNotesVisible.value = true
+    }
+  }
+
+  async function handleUpdatePanel() {
+    if (updatingPanel.value) {
+      ElMessage.warning('更新任务已经在进行中，请稍候')
+      return
+    }
+
+    if (updateInfo.value?.auto_update_supported === false) {
+      ElMessage.warning(updateInfo.value?.update_disabled_reason || '当前部署暂不支持面板内一键更新')
+      return
+    }
+
+    try {
+      const updateTarget = updateInfo.value?.update_target || {}
+      const isBinaryUpdate = updateTarget.deployment_type === 'binary'
+      const isWatchtowerManaged = updateTarget.update_manager === 'watchtower' || updateTarget.watchtower_managed === true
+      const mirrorHost = updateTarget.mirror_host
+      const pullImageName = updateTarget.pull_image_name
+      const confirmMessage = isWatchtowerManaged
+        ? buildWatchtowerUpdateConfirmMessage(updateTarget)
+        : isBinaryUpdate
+        ? buildBinaryUpdateConfirmMessage(updateTarget)
+        : buildDockerUpdateConfirmMessage(mirrorHost, pullImageName)
+      await ElMessageBox.confirm(
+        confirmMessage,
+        '立即更新',
+        {
+          confirmButtonText: '开始更新',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }
+      )
+    } catch (err: any) {
+      if (err === 'cancel' || err?.toString?.() === 'cancel') {
+        return
+      }
+      ElMessage.error(err?.message || '无法确认更新操作')
+      return
+    }
+
+    updatingPanel.value = true
+    openUpdateProgress({
+      status: 'running',
+      phase: 'preparing',
+      message: '正在提交更新任务',
+      started_at: new Date().toISOString(),
+    })
+
+    try {
+      const res = await systemApi.updatePanel()
+      applyUpdateSnapshot(res.data || updateStatus.value)
+      if (updateInfo.value?.update_target?.update_manager === 'watchtower' || updateInfo.value?.update_target?.watchtower_managed === true) {
+        updatingPanel.value = false
+        ElMessage.success('已触发 Watchtower 检查更新，请稍后查看 Watchtower 日志或等待容器重建结果')
+        return
+      }
+      startUpdateStatusPolling()
+    } catch (err: any) {
+      failUpdateProgress(err?.response?.data?.error || err?.message || '更新失败，请手动更新')
+    }
+  }
+
+  function buildDockerUpdateConfirmMessage(mirrorHost?: string, pullImageName?: string) {
+    const mirrorText = mirrorHost
+      ? `当前将通过镜像源 ${mirrorHost} 拉取更新镜像。`
+      : '当前将直接从默认镜像仓库拉取更新镜像。'
+    const pullTargetText = pullImageName ? `\n拉取目标：${pullImageName}` : ''
+    return `确认开始更新面板吗？系统会先拉取最新镜像，再自动重建容器。更新期间服务会短暂中断。\n${mirrorText}${pullTargetText}`
+  }
+
+  function buildWatchtowerUpdateConfirmMessage(updateTarget: any) {
+    const scheduleText = updateTarget.watchtower_schedule
+      ? `\n当前调度：${updateTarget.watchtower_schedule}`
+      : ''
+    return `确认手动触发 Watchtower 立即检查更新吗？\n这会请求 Watchtower 立刻执行一次更新检查，而不是等待下一次定时窗口。${scheduleText}`
+  }
+
+  function buildBinaryUpdateConfirmMessage(updateTarget: any) {
+    const assetText = updateTarget.asset_name ? `\n更新包：${updateTarget.asset_name}` : ''
+    const installDirText = updateTarget.install_dir ? `\n安装目录：${updateTarget.install_dir}` : ''
+    return `确认开始更新面板吗？系统会在后台下载当前平台的二进制更新包，替换程序与前端文件，并自动重启面板。\n后台更新会保留 config.yaml、Dumb-Panel、data、logs、backups 等本地配置与数据目录。${assetText}${installDirText}`
+  }
+
+  function openUpdateProgress(snapshot?: PanelUpdateStatus | null) {
+    updateProgressVisible.value = true
+    updateProgressStatus.value = 'running'
+    updateProgressError.value = ''
+    updateStatus.value = snapshot || {
+      status: 'running',
+      phase: 'preparing',
+      message: '正在准备更新任务...',
+      started_at: new Date().toISOString(),
+    }
+  }
+
+  function applyUpdateSnapshot(snapshot?: PanelUpdateStatus | null) {
+    updateStatus.value = snapshot || {}
+    updateProgressVisible.value = true
+
+    if (updateStatus.value?.status === 'failed') {
+      updateProgressStatus.value = 'failed'
+      updateProgressError.value = updateStatus.value?.error || updateStatus.value?.message || '更新失败'
+      updatingPanel.value = false
+      return
+    }
+
+    if (updateStatus.value?.status === 'restarting') {
+      updateProgressStatus.value = 'restarting'
+      updateProgressError.value = ''
+      return
+    }
+
+    updateProgressStatus.value = 'running'
+    updateProgressError.value = ''
+  }
+
+  function failUpdateProgress(message: string) {
+    stopUpdateStatusPolling()
+    stopUpdateAvailabilityChecks()
+    updateProgressVisible.value = true
+    updateProgressStatus.value = 'failed'
+    updateProgressError.value = message
+    updateStatus.value = {
+      ...(updateStatus.value || {}),
+      status: 'failed',
+      phase: updateStatus.value?.phase || 'failed',
+      message,
+      error: message,
+    }
+    updatingPanel.value = false
+    ElMessage.error(message)
+  }
+
+  function startUpdateStatusPolling() {
+    stopUpdateStatusPolling()
+    const startedAt = Date.now()
+
+    const poll = async () => {
+      try {
+        const res = await systemApi.updateStatus()
+        applyUpdateSnapshot(res.data || {})
+
+        if (updateStatus.value?.status === 'failed') {
+          return
+        }
+
+        if (updateStatus.value?.status === 'restarting') {
+          stopUpdateStatusPolling()
+          waitForAvailability()
+          return
+        }
+
+        if (Date.now() - startedAt >= 12 * 60 * 1000) {
+          failUpdateProgress('更新超时，请手动刷新页面检查')
+          return
+        }
+
+        updateStatusPollTimer = setTimeout(() => {
+          void poll()
+        }, 2000)
+      } catch (err: any) {
+        if (shouldTreatAsRestart(err)) {
+          stopUpdateStatusPolling()
+          updateProgressStatus.value = 'restarting'
+          waitForAvailability()
+          return
+        }
+        failUpdateProgress(err?.response?.data?.error || err?.message || '更新状态获取失败')
+      }
+    }
+
+    void poll()
+  }
+
+  async function handleRestartPanel() {
+    try {
+      await ElMessageBox.confirm('确定要重启面板吗？重启期间服务将短暂中断。', '重启面板', {
+        confirmButtonText: '确认重启',
+        cancelButtonText: '取消',
+        type: 'warning'
+      })
+      await systemApi.restart()
+      waitForRestart()
+    } catch {
+      // cancelled
+    }
+  }
+
+  function stopRestartPolling() {
+    if (restartDelayTimer) {
+      clearTimeout(restartDelayTimer)
+      restartDelayTimer = null
+    }
+    if (restartPollTimer) {
+      clearInterval(restartPollTimer)
+      restartPollTimer = null
+    }
+  }
+
+  function waitForRestart() {
+    stopRestartPolling()
+    let attempts = 0
+    restartDelayTimer = setTimeout(() => {
+      restartDelayTimer = null
+      restartPollTimer = setInterval(async () => {
+        attempts++
+        try {
+          const res = await fetch('/', { method: 'HEAD' })
+          if (res.ok) {
+            stopRestartPolling()
+            window.location.reload()
+          }
+        } catch {
+          // ignore
+        }
+        if (attempts >= 60) {
+          stopRestartPolling()
+          ElMessage.warning('重启超时，请手动刷新页面')
+        }
+      }, 2000)
+    }, 3000)
+  }
+
+  function waitForAvailability() {
+    stopUpdateAvailabilityChecks()
+    updateProgressVisible.value = true
+    updateProgressStatus.value = 'restarting'
+
+    let attempts = 0
+    updateAvailabilityDelayTimer = setTimeout(() => {
+      updateAvailabilityDelayTimer = null
+      const probe = async () => {
+        attempts++
+        try {
+          const res = await fetch('/', { method: 'HEAD', cache: 'no-store' })
+          if (res.ok) {
+            stopUpdateAvailabilityChecks()
+            window.location.reload()
+            return
+          }
+        } catch {
+          // ignore
+        }
+
+        if (attempts >= 80) {
+          stopUpdateAvailabilityChecks()
+          updateProgressStatus.value = 'timeout'
+          updateProgressError.value = '等待新版本启动超时，请稍后手动刷新页面检查'
+          updatingPanel.value = false
+          ElMessage.warning('等待新版本启动超时，请手动刷新页面检查')
+          return
+        }
+
+        updateAvailabilityTimer = setTimeout(() => {
+          void probe()
+        }, 3000)
+      }
+
+      void probe()
+    }, 2000)
+  }
+
+  function stopUpdateStatusPolling() {
+    if (updateStatusPollTimer) {
+      clearTimeout(updateStatusPollTimer)
+      updateStatusPollTimer = null
+    }
+  }
+
+  function stopUpdateAvailabilityChecks() {
+    if (updateAvailabilityDelayTimer) {
+      clearTimeout(updateAvailabilityDelayTimer)
+      updateAvailabilityDelayTimer = null
+    }
+    if (updateAvailabilityTimer) {
+      clearTimeout(updateAvailabilityTimer)
+      updateAvailabilityTimer = null
+    }
+  }
+
+  function closeUpdateProgress() {
+    if (updateProgressStatus.value === 'running' || updateProgressStatus.value === 'restarting') {
+      return
+    }
+    stopUpdateStatusPolling()
+    stopUpdateAvailabilityChecks()
+    updateProgressVisible.value = false
+    updateProgressStatus.value = 'idle'
+    updateProgressError.value = ''
+  }
+
+  function shouldTreatAsRestart(err: any) {
+    if (!updateStatus.value?.status) {
+      return false
+    }
+
+    if (err?.response) {
+      return false
+    }
+
+    return updateStatus.value.status === 'running' || updateStatus.value.status === 'restarting'
+  }
+
+  function openGitHub() {
+    const url = updateInfo.value?.has_update && updateInfo.value?.release_url
+      ? updateInfo.value.release_url
+      : 'https://github.com/linzixuanzz/daidai-panel/releases'
+    window.open(url, '_blank')
+  }
+
+  onBeforeUnmount(() => {
+    stopUpdateStatusPolling()
+    stopUpdateAvailabilityChecks()
+    stopRestartPolling()
+  })
+
+  return {
+    systemInfo,
+    systemStats,
+    currentVersion,
+    updateInfo,
+    updateStatus,
+    checkingUpdate,
+    updatingPanel,
+    autoUpdateEnabled,
+    savingAutoUpdate,
+    lastCheckTime,
+    releaseNotesVisible,
+    updateProgressVisible,
+    updateProgressStatus,
+    updateProgressError,
+    formatBytes,
+    getUsageClass,
+    loadSystemInfo,
+    loadSystemStats,
+    loadVersion,
+    loadUpdatePreferences,
+    handleCheckUpdate,
+    handleUpdatePanel,
+    handleRestartPanel,
+    handleToggleAutoUpdate,
+    openReleaseNotes,
+    closeReleaseNotes,
+    openGitHub,
+    closeUpdateProgress
+  }
+}

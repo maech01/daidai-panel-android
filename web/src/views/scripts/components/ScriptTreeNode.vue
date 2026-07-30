@@ -1,1 +1,195 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAndnVlJwppbXBvcnQgeyBEZWxldGUsIEVkaXQsIEZvbGRlclJlbW92ZSwgTW9yZUZpbGxlZCB9IGZyb20gJ0BlbGVtZW50LXBsdXMvaWNvbnMtdnVlJwppbXBvcnQgdHlwZSB7IFRyZWVOb2RlIH0gZnJvbSAnLi4vdHlwZXMnCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICBkYXRhOiBUcmVlTm9kZQogIG9uT3BlblJlbmFtZTogKHBhdGg6IHN0cmluZykgPT4gdm9pZAogIG9uRGVsZXRlOiAocGF0aDogc3RyaW5nLCBpc0RpcjogYm9vbGVhbikgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvbk1vdmVUb1Jvb3Q/OiAocGF0aDogc3RyaW5nLCBpc0RpcjogYm9vbGVhbikgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KfT4oKQoKY29uc3QgaXNJblN1YkRpciA9IGNvbXB1dGVkKCgpID0+IHByb3BzLmRhdGEua2V5LmluY2x1ZGVzKCcvJykpCgpjb25zdCBkb3RDb2xvciA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoIXByb3BzLmRhdGEuaXNMZWFmKSByZXR1cm4gJ3ZhcigtLXNjcmlwdHMtZm9sZGVyLWRvdCwgIzk0YTNiOCknCiAgY29uc3QgZXh0ID0gcHJvcHMuZGF0YS50aXRsZS5zcGxpdCgnLicpLnBvcCgpPy50b0xvd2VyQ2FzZSgpCiAgc3dpdGNoIChleHQpIHsKICAgIGNhc2UgJ2pzJzoKICAgICAgcmV0dXJuICcjZmFjYzE1JwogICAgY2FzZSAndHMnOgogICAgICByZXR1cm4gJyMzOGJkZjgnCiAgICBjYXNlICdweSc6CiAgICAgIHJldHVybiAnIzIyYzU1ZScKICAgIGNhc2UgJ3NoJzoKICAgICAgcmV0dXJuICcjNGFkZTgwJwogICAgY2FzZSAnanNvbic6CiAgICAgIHJldHVybiAnI2ZiOTIzYycKICAgIGNhc2UgJ3lhbWwnOgogICAgY2FzZSAneW1sJzoKICAgICAgcmV0dXJuICcjZjg3MTcxJwogICAgY2FzZSAnbWQnOgogICAgICByZXR1cm4gJyM4MThjZjgnCiAgICBjYXNlICdodG1sJzoKICAgICAgcmV0dXJuICcjZmI3MTg1JwogICAgY2FzZSAnY3NzJzoKICAgICAgcmV0dXJuICcjNjBhNWZhJwogICAgY2FzZSAnZ28nOgogICAgICByZXR1cm4gJyMwNmI2ZDQnCiAgICBkZWZhdWx0OgogICAgICByZXR1cm4gJ3ZhcigtLWVsLXRleHQtY29sb3ItcGxhY2Vob2xkZXIpJwogIH0KfSkKCmNvbnN0IGV4dExhYmVsID0gY29tcHV0ZWQoKCkgPT4gewogIGlmICghcHJvcHMuZGF0YS5pc0xlYWYpIHJldHVybiAnJwogIGNvbnN0IHBhcnRzID0gcHJvcHMuZGF0YS50aXRsZS5zcGxpdCgnLicpCiAgaWYgKHBhcnRzLmxlbmd0aCA8IDIpIHJldHVybiAnJwogIHJldHVybiAocGFydHMucG9wKCkgfHwgJycpLnRvVXBwZXJDYXNlKCkKfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0idHJlZS1ub2RlIiA6Y2xhc3M9InsgJ2lzLWZvbGRlcic6ICFkYXRhLmlzTGVhZiwgJ2lzLWxlYWYnOiBkYXRhLmlzTGVhZiB9Ij4KICAgIDxzcGFuIGNsYXNzPSJ0cmVlLW5vZGUtZG90IiA6c3R5bGU9InsgYmFja2dyb3VuZDogZG90Q29sb3IgfSIgYXJpYS1oaWRkZW49InRydWUiPjwvc3Bhbj4KICAgIDxzcGFuIGNsYXNzPSJ0cmVlLW5vZGUtbGFiZWwiPnt7IGRhdGEudGl0bGUgfX08L3NwYW4+CiAgICA8c3BhbiB2LWlmPSJleHRMYWJlbCIgY2xhc3M9InRyZWUtbm9kZS1leHQiPnt7IGV4dExhYmVsIH19PC9zcGFuPgogICAgPGRpdiBjbGFzcz0idHJlZS1ub2RlLWFjdGlvbnMiIEBjbGljay5zdG9wPgogICAgICA8ZWwtZHJvcGRvd24gdHJpZ2dlcj0iY2xpY2siIHNpemU9InNtYWxsIj4KICAgICAgICA8YnV0dG9uIGNsYXNzPSJtb3JlLWJ0biIgYXJpYS1sYWJlbD0i5pu05aSa5pON5L2cIj4KICAgICAgICAgIDxlbC1pY29uIDpzaXplPSIxNiI+PE1vcmVGaWxsZWQgLz48L2VsLWljb24+CiAgICAgICAgPC9idXR0b24+CiAgICAgICAgPHRlbXBsYXRlICNkcm9wZG93bj4KICAgICAgICAgIDxlbC1kcm9wZG93bi1tZW51PgogICAgICAgICAgICA8ZWwtZHJvcGRvd24taXRlbSBAY2xpY2s9Im9uT3BlblJlbmFtZShkYXRhLmtleSkiPgogICAgICAgICAgICAgIDxlbC1pY29uPjxFZGl0IC8+PC9lbC1pY29uPumHjeWRveWQjQogICAgICAgICAgICA8L2VsLWRyb3Bkb3duLWl0ZW0+CiAgICAgICAgICAgIDxlbC1kcm9wZG93bi1pdGVtIHYtaWY9ImlzSW5TdWJEaXIgJiYgb25Nb3ZlVG9Sb290IiBAY2xpY2s9Im9uTW92ZVRvUm9vdChkYXRhLmtleSwgIWRhdGEuaXNMZWFmKSI+CiAgICAgICAgICAgICAgPGVsLWljb24+PEZvbGRlclJlbW92ZSAvPjwvZWwtaWNvbj7np7vliqjliLDmoLnnm67lvZUKICAgICAgICAgICAgPC9lbC1kcm9wZG93bi1pdGVtPgogICAgICAgICAgICA8ZWwtZHJvcGRvd24taXRlbSBkaXZpZGVkIEBjbGljaz0ib25EZWxldGUoZGF0YS5rZXksICFkYXRhLmlzTGVhZikiPgogICAgICAgICAgICAgIDxlbC1pY29uPjxEZWxldGUgLz48L2VsLWljb24+PHNwYW4gc3R5bGU9ImNvbG9yOiB2YXIoLS1lbC1jb2xvci1kYW5nZXIpIj7liKDpmaQ8L3NwYW4+CiAgICAgICAgICAgIDwvZWwtZHJvcGRvd24taXRlbT4KICAgICAgICAgIDwvZWwtZHJvcGRvd24tbWVudT4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLWRyb3Bkb3duPgogICAgPC9kaXY+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgoudHJlZS1ub2RlIHsKICBkaXNwbGF5OiBmbGV4OwogIGJvcmRlci1yYWRpdXM6IDhweDsKICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kLWNvbG9yIDAuMTZzIGVhc2UsIHRyYW5zZm9ybSAwLjE2cyBlYXNlOwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiAxMHB4OwogIGZsZXg6IDE7CiAgd2lkdGg6IDEwMCU7CiAgbWluLXdpZHRoOiAwOwogIHBhZGRpbmc6IDAgMnB4OwogIGZvbnQtZmFtaWx5OiB2YXIoLS1kZC1mb250LXVpKTsKICBvdmVyZmxvdzogaGlkZGVuOwp9CgoudHJlZS1ub2RlLWRvdCB7CiAgd2lkdGg6IDhweDsKICB0cmFuc2l0aW9uOiB0cmFuc2Zvcm0gMC4ycyBlYXNlLCBib3gtc2hhZG93IDAuMnMgZWFzZTsKICBoZWlnaHQ6IDhweDsKICBib3JkZXItcmFkaXVzOiA1MCU7CiAgZmxleC1zaHJpbms6IDA7CiAgYm94LXNoYWRvdzogMCAwIDAgMnB4IGNvbG9yLW1peChpbiBzcmdiLCB2YXIoLS1lbC1iZy1jb2xvcikgNzAlLCB0cmFuc3BhcmVudCk7CiAgdHJhbnNpdGlvbjogdHJhbnNmb3JtIDAuMnM7Cn0KCi50cmVlLW5vZGUuaXMtZm9sZGVyIC50cmVlLW5vZGUtZG90IHsKICBib3JkZXItcmFkaXVzOiAycHg7CiAgd2lkdGg6IDlweDsKICBoZWlnaHQ6IDlweDsKICBvcGFjaXR5OiAwLjc1Owp9CgoudHJlZS1ub2RlLWxhYmVsIHsKICBmbGV4OiAxOwogIHRyYW5zaXRpb246IGNvbG9yIDAuMTVzIGVhc2U7CiAgbWluLXdpZHRoOiAwOwogIG92ZXJmbG93OiBoaWRkZW47CiAgdGV4dC1vdmVyZmxvdzogZWxsaXBzaXM7CiAgd2hpdGUtc3BhY2U6IG5vd3JhcDsKICBmb250LXNpemU6IDEzLjVweDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKICBsZXR0ZXItc3BhY2luZzogMC4xcHg7Cn0KCi50cmVlLW5vZGUuaXMtZm9sZGVyIC50cmVlLW5vZGUtbGFiZWwgewogIGZvbnQtd2VpZ2h0OiA1MDA7Cn0KCi50cmVlLW5vZGUtZXh0IHsKICBmb250LXNpemU6IDkuNXB4OwogIHRyYW5zZm9ybTogdHJhbnNsYXRlWSgycHgpOwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgZm9udC1mYW1pbHk6IHZhcigtLWRkLWZvbnQtbW9ubyk7CiAgcGFkZGluZzogMnB4IDZweDsKICBib3JkZXItcmFkaXVzOiA5OTlweDsKICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtZmlsbC1jb2xvcikgODUlLCB0cmFuc3BhcmVudCk7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBmbGV4LXNocmluazogMDsKICBsZXR0ZXItc3BhY2luZzogMC40cHg7CiAgbGluZS1oZWlnaHQ6IDEuMzsKICBvcGFjaXR5OiAwOwogIHRyYW5zaXRpb246IG9wYWNpdHkgMC4xNXMgZWFzZSwgdHJhbnNmb3JtIDAuMTVzIGVhc2U7Cn0KCi50cmVlLW5vZGUtYWN0aW9ucyB7CiAgb3BhY2l0eTogMDsKICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVgoNHB4KTsKICB0cmFuc2l0aW9uOiBvcGFjaXR5IDAuMTVzIGVhc2UsIHRyYW5zZm9ybSAwLjE1cyBlYXNlOwogIGZsZXgtc2hyaW5rOiAwOwoKICAubW9yZS1idG4gewogICAgY3Vyc29yOiBwb2ludGVyOwogICAgd2lkdGg6IDI0cHg7CiAgICBoZWlnaHQ6IDI0cHg7CiAgICBwYWRkaW5nOiAwOwogICAgYm9yZGVyOiBub25lOwogICAgYmFja2dyb3VuZDogdHJhbnNwYXJlbnQ7CiAgICBib3JkZXItcmFkaXVzOiA2cHg7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogICAgZGlzcGxheTogaW5saW5lLWZsZXg7CiAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kIDAuMTVzLCBjb2xvciAwLjE1cywgdHJhbnNmb3JtIDAuMTVzIGVhc2UsIGJveC1zaGFkb3cgMC4xNXMgZWFzZTsKCiAgICAmOmhvdmVyIHsKICAgICAgYmFja2dyb3VuZDogdmFyKC0tZWwtZmlsbC1jb2xvcik7CiAgICAgIGNvbG9yOiB2YXIoLS1lbC1jb2xvci1wcmltYXJ5KTsKICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVZKC0xcHgpOwogICAgICBib3gtc2hhZG93OiAwIDZweCAxNHB4IHJnYmEoMTUsIDIzLCA0MiwgMC4wOCk7CiAgICB9CgogICAgJjpmb2N1cy12aXNpYmxlIHsKICAgICAgb3V0bGluZTogMnB4IHNvbGlkIGNvbG9yLW1peChpbiBzcmdiLCB2YXIoLS1lbC1jb2xvci1wcmltYXJ5KSA1MCUsIHRyYW5zcGFyZW50KTsKICAgICAgb3V0bGluZS1vZmZzZXQ6IDFweDsKICAgIH0KICB9Cn0KCi50cmVlLW5vZGU6aG92ZXIgewogIGJhY2tncm91bmQ6IGNvbG9yLW1peChpbiBzcmdiLCB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0KSA4NiUsIHRyYW5zcGFyZW50KTsKICAudHJlZS1ub2RlLWxhYmVsIHsgY29sb3I6IHZhcigtLWVsLWNvbG9yLXByaW1hcnkpOyB9CiAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKDFweCk7CgogIC50cmVlLW5vZGUtZG90IHsKICAgIHRyYW5zZm9ybTogc2NhbGUoMS4xMik7CiAgICBib3gtc2hhZG93OiAwIDAgMCAzcHggY29sb3ItbWl4KGluIHNyZ2IsIHZhcigtLWVsLWNvbG9yLXByaW1hcnkpIDEwJSwgdHJhbnNwYXJlbnQpOwogIH0KCiAgLnRyZWUtbm9kZS1leHQsCiAgLnRyZWUtbm9kZS1hY3Rpb25zIHsKICAgIG9wYWNpdHk6IDE7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgwLCAwKTsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { computed } from 'vue'
+import { Delete, Edit, FolderRemove, MoreFilled } from '@element-plus/icons-vue'
+import type { TreeNode } from '../types'
+
+const props = defineProps<{
+  data: TreeNode
+  onOpenRename: (path: string) => void
+  onDelete: (path: string, isDir: boolean) => void | Promise<void>
+  onMoveToRoot?: (path: string, isDir: boolean) => void | Promise<void>
+}>()
+
+const isInSubDir = computed(() => props.data.key.includes('/'))
+
+const dotColor = computed(() => {
+  if (!props.data.isLeaf) return 'var(--scripts-folder-dot, #94a3b8)'
+  const ext = props.data.title.split('.').pop()?.toLowerCase()
+  switch (ext) {
+    case 'js':
+      return '#facc15'
+    case 'ts':
+      return '#38bdf8'
+    case 'py':
+      return '#22c55e'
+    case 'sh':
+      return '#4ade80'
+    case 'json':
+      return '#fb923c'
+    case 'yaml':
+    case 'yml':
+      return '#f87171'
+    case 'md':
+      return '#818cf8'
+    case 'html':
+      return '#fb7185'
+    case 'css':
+      return '#60a5fa'
+    case 'go':
+      return '#06b6d4'
+    default:
+      return 'var(--el-text-color-placeholder)'
+  }
+})
+
+const extLabel = computed(() => {
+  if (!props.data.isLeaf) return ''
+  const parts = props.data.title.split('.')
+  if (parts.length < 2) return ''
+  return (parts.pop() || '').toUpperCase()
+})
+</script>
+
+<template>
+  <div class="tree-node" :class="{ 'is-folder': !data.isLeaf, 'is-leaf': data.isLeaf }">
+    <span class="tree-node-dot" :style="{ background: dotColor }" aria-hidden="true"></span>
+    <span class="tree-node-label">{{ data.title }}</span>
+    <span v-if="extLabel" class="tree-node-ext">{{ extLabel }}</span>
+    <div class="tree-node-actions" @click.stop>
+      <el-dropdown trigger="click" size="small">
+        <button class="more-btn" aria-label="更多操作">
+          <el-icon :size="16"><MoreFilled /></el-icon>
+        </button>
+        <template #dropdown>
+          <el-dropdown-menu>
+            <el-dropdown-item @click="onOpenRename(data.key)">
+              <el-icon><Edit /></el-icon>重命名
+            </el-dropdown-item>
+            <el-dropdown-item v-if="isInSubDir && onMoveToRoot" @click="onMoveToRoot(data.key, !data.isLeaf)">
+              <el-icon><FolderRemove /></el-icon>移动到根目录
+            </el-dropdown-item>
+            <el-dropdown-item divided @click="onDelete(data.key, !data.isLeaf)">
+              <el-icon><Delete /></el-icon><span style="color: var(--el-color-danger)">删除</span>
+            </el-dropdown-item>
+          </el-dropdown-menu>
+        </template>
+      </el-dropdown>
+    </div>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.tree-node {
+  display: flex;
+  border-radius: 8px;
+  transition: background-color 0.16s ease, transform 0.16s ease;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  width: 100%;
+  min-width: 0;
+  padding: 0 2px;
+  font-family: var(--dd-font-ui);
+  overflow: hidden;
+}
+
+.tree-node-dot {
+  width: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--el-bg-color) 70%, transparent);
+  transition: transform 0.2s;
+}
+
+.tree-node.is-folder .tree-node-dot {
+  border-radius: 2px;
+  width: 9px;
+  height: 9px;
+  opacity: 0.75;
+}
+
+.tree-node-label {
+  flex: 1;
+  transition: color 0.15s ease;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 13.5px;
+  color: var(--el-text-color-primary);
+  letter-spacing: 0.1px;
+}
+
+.tree-node.is-folder .tree-node-label {
+  font-weight: 500;
+}
+
+.tree-node-ext {
+  font-size: 9.5px;
+  transform: translateY(2px);
+  font-weight: 700;
+  font-family: var(--dd-font-mono);
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--el-fill-color) 85%, transparent);
+  color: var(--el-text-color-secondary);
+  flex-shrink: 0;
+  letter-spacing: 0.4px;
+  line-height: 1.3;
+  opacity: 0;
+  transition: opacity 0.15s ease, transform 0.15s ease;
+}
+
+.tree-node-actions {
+  opacity: 0;
+  transform: translateX(4px);
+  transition: opacity 0.15s ease, transform 0.15s ease;
+  flex-shrink: 0;
+
+  .more-btn {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    border-radius: 6px;
+    color: var(--el-text-color-secondary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.15s, color 0.15s, transform 0.15s ease, box-shadow 0.15s ease;
+
+    &:hover {
+      background: var(--el-fill-color);
+      color: var(--el-color-primary);
+      transform: translateY(-1px);
+      box-shadow: 0 6px 14px rgba(15, 23, 42, 0.08);
+    }
+
+    &:focus-visible {
+      outline: 2px solid color-mix(in srgb, var(--el-color-primary) 50%, transparent);
+      outline-offset: 1px;
+    }
+  }
+}
+
+.tree-node:hover {
+  background: color-mix(in srgb, var(--el-fill-color-light) 86%, transparent);
+  .tree-node-label { color: var(--el-color-primary); }
+  transform: translateX(1px);
+
+  .tree-node-dot {
+    transform: scale(1.12);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--el-color-primary) 10%, transparent);
+  }
+
+  .tree-node-ext,
+  .tree-node-actions {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+</style>

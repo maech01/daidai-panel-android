@@ -1,1 +1,330 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJzdHJpbmdzIgoJInRpbWUiCgoJInNvcnQiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9uZXR1dGlsIgoKCSJnb3JtLmlvL2dvcm0iCikKCmNvbnN0ICgKCU1heExvZ2luQXR0ZW1wdHMgPSA1CglMb2NrRHVyYXRpb24gICAgID0gMTUgKiB0aW1lLk1pbnV0ZQopCgpmdW5jIFJlY29yZExvZ2luTG9nKHVzZXJJRCB1aW50LCB1c2VybmFtZSwgaXAsIGNsaWVudE5hbWUsIHVzZXJBZ2VudCBzdHJpbmcsIHN0YXR1cyBpbnQsIG1lc3NhZ2Ugc3RyaW5nKSB7Cglsb2cgOj0gbW9kZWwuTG9naW5Mb2d7CgkJVXNlcklEOiAgICAgdXNlcklELAoJCVVzZXJuYW1lOiAgIHVzZXJuYW1lLAoJCUlQOiAgICAgICAgIGlwLAoJCUNsaWVudE5hbWU6IGNsaWVudE5hbWUsCgkJVXNlckFnZW50OiAgdXNlckFnZW50LAoJCVN0YXR1czogICAgIHN0YXR1cywKCQlNZXNzYWdlOiAgICBtZXNzYWdlLAoJfQoJZGF0YWJhc2UuREIuQ3JlYXRlKCZsb2cpCn0KCmZ1bmMgQ2hlY2tMb2dpbkxvY2soaXAsIHVzZXJuYW1lIHN0cmluZykgKGJvb2wsIHRpbWUuRHVyYXRpb24pIHsKCXZhciBhdHRlbXB0IG1vZGVsLkxvZ2luQXR0ZW1wdAoJZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJpcCA9ID8gQU5EIHVzZXJuYW1lID0gPyIsIGlwLCB1c2VybmFtZSkuCgkJVGFrZSgmYXR0ZW1wdCkuRXJyb3IKCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZmFsc2UsIDAKCX0KCglpZiBhdHRlbXB0LkNvdW50ID49IE1heExvZ2luQXR0ZW1wdHMgJiYgYXR0ZW1wdC5Mb2NrZWRBdCAhPSBuaWwgewoJCXJlbWFpbmluZyA6PSBhdHRlbXB0LkV4cGlyZXNBdC5TdWIodGltZS5Ob3coKSkKCQlpZiByZW1haW5pbmcgPiAwIHsKCQkJcmV0dXJuIHRydWUsIHJlbWFpbmluZwoJCX0KCX0KCglyZXR1cm4gZmFsc2UsIDAKfQoKZnVuYyBHZXRMb2dpbkF0dGVtcHRDb3VudChpcCwgdXNlcm5hbWUgc3RyaW5nKSBpbnQgewoJdmFyIGF0dGVtcHQgbW9kZWwuTG9naW5BdHRlbXB0CgllcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoImlwID0gPyBBTkQgdXNlcm5hbWUgPSA/IiwgaXAsIHVzZXJuYW1lKS4KCQlUYWtlKCZhdHRlbXB0KS5FcnJvcgoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIDAKCX0KCXJldHVybiBhdHRlbXB0LkNvdW50Cn0KCmZ1bmMgUmVjb3JkRmFpbGVkTG9naW4oaXAsIHVzZXJuYW1lIHN0cmluZykgaW50IHsKCXZhciBhdHRlbXB0IG1vZGVsLkxvZ2luQXR0ZW1wdAoJZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJpcCA9ID8gQU5EIHVzZXJuYW1lID0gPyIsIGlwLCB1c2VybmFtZSkuCgkJVGFrZSgmYXR0ZW1wdCkuRXJyb3IKCglpZiBlcnIgIT0gbmlsIHsKCQlpZiBlcnIgPT0gZ29ybS5FcnJSZWNvcmROb3RGb3VuZCB7CgkJCWF0dGVtcHQgPSBtb2RlbC5Mb2dpbkF0dGVtcHR7CgkJCQlJUDogICAgICAgIGlwLAoJCQkJVXNlcm5hbWU6ICB1c2VybmFtZSwKCQkJCUNvdW50OiAgICAgMSwKCQkJCUV4cGlyZXNBdDogdGltZS5Ob3coKS5BZGQoTG9ja0R1cmF0aW9uKSwKCQkJfQoJCQlkYXRhYmFzZS5EQi5DcmVhdGUoJmF0dGVtcHQpCgkJCXJldHVybiAxCgkJfQoJCXJldHVybiAwCgl9CgoJYXR0ZW1wdC5Db3VudCsrCglpZiBhdHRlbXB0LkNvdW50ID49IE1heExvZ2luQXR0ZW1wdHMgewoJCW5vdyA6PSB0aW1lLk5vdygpCgkJYXR0ZW1wdC5Mb2NrZWRBdCA9ICZub3cKCQlsb2NrVGltZXMgOj0gYXR0ZW1wdC5Db3VudCAtIE1heExvZ2luQXR0ZW1wdHMgKyAxCgkJYXR0ZW1wdC5FeHBpcmVzQXQgPSBub3cuQWRkKHRpbWUuRHVyYXRpb24obG9ja1RpbWVzKSAqIExvY2tEdXJhdGlvbikKCX0KCWRhdGFiYXNlLkRCLlNhdmUoJmF0dGVtcHQpCglyZXR1cm4gYXR0ZW1wdC5Db3VudAp9CgpmdW5jIENsZWFyTG9naW5BdHRlbXB0cyhpcCwgdXNlcm5hbWUgc3RyaW5nKSB7CglkYXRhYmFzZS5EQi5XaGVyZSgiaXAgPSA/IEFORCB1c2VybmFtZSA9ID8iLCBpcCwgdXNlcm5hbWUpLkRlbGV0ZSgmbW9kZWwuTG9naW5BdHRlbXB0e30pCn0KCmZ1bmMgQ2xlYW5FeHBpcmVkQXR0ZW1wdHMoKSB7CglkYXRhYmFzZS5EQi5XaGVyZSgiZXhwaXJlc19hdCA8ID8iLCB0aW1lLk5vdygpKS5EZWxldGUoJm1vZGVsLkxvZ2luQXR0ZW1wdHt9KQp9CgpmdW5jIENyZWF0ZVNlc3Npb25XaXRoUmVmcmVzaCh1c2VySUQgdWludCwgdXNlcm5hbWUsIGFjY2Vzc0pUSSwgcmVmcmVzaEpUSSwgY2xpZW50VHlwZSwgY2xpZW50TmFtZSwgaXAsIHVzZXJBZ2VudCBzdHJpbmcsIGFjY2Vzc0V4cGlyZXNBdCwgcmVmcmVzaEV4cGlyZXNBdCB0aW1lLlRpbWUpIHsKCXZhciByZWZyZXNoRXhwaXJ5UHRyICp0aW1lLlRpbWUKCWlmICFyZWZyZXNoRXhwaXJlc0F0LklzWmVybygpIHsKCQlyZWZyZXNoRXhwaXJ5UHRyID0gJnJlZnJlc2hFeHBpcmVzQXQKCX0KCglub3JtYWxpemVkQ2xpZW50VHlwZSA6PSBOb3JtYWxpemVTZXNzaW9uQ2xpZW50VHlwZShjbGllbnRUeXBlKQoJY29uZmlnS2V5IDo9ICJtYXhfd2ViX3Nlc3Npb25zIgoJaWYgbm9ybWFsaXplZENsaWVudFR5cGUgPT0gU2Vzc2lvbkNsaWVudEFwcCB7CgkJY29uZmlnS2V5ID0gIm1heF9hcHBfc2Vzc2lvbnMiCgl9CgltYXhTZXNzaW9ucyA6PSBtb2RlbC5HZXRDb25maWdJbnQoY29uZmlnS2V5LCAxKQoJaWYgbWF4U2Vzc2lvbnMgPCAxIHsKCQltYXhTZXNzaW9ucyA9IDEKCX0KCXJldm9rZUV4Y2Vzc1Nlc3Npb25zQnlDbGllbnRUeXBlKHVzZXJJRCwgbm9ybWFsaXplZENsaWVudFR5cGUsIG1heFNlc3Npb25zKQoKCXNlc3Npb24gOj0gbW9kZWwuVXNlclNlc3Npb257CgkJVXNlcklEOiAgICAgICAgICAgdXNlcklELAoJCVVzZXJuYW1lOiAgICAgICAgIHVzZXJuYW1lLAoJCUpUSTogICAgICAgICAgICAgIGFjY2Vzc0pUSSwKCQlSZWZyZXNoSlRJOiAgICAgICByZWZyZXNoSlRJLAoJCUNsaWVudFR5cGU6ICAgICAgIG5vcm1hbGl6ZWRDbGllbnRUeXBlLAoJCUNsaWVudE5hbWU6ICAgICAgIGNsaWVudE5hbWUsCgkJSVA6ICAgICAgICAgICAgICAgaXAsCgkJVXNlckFnZW50OiAgICAgICAgdXNlckFnZW50LAoJCUV4cGlyZXNBdDogICAgICAgIGFjY2Vzc0V4cGlyZXNBdCwKCQlSZWZyZXNoRXhwaXJlc0F0OiByZWZyZXNoRXhwaXJ5UHRyLAoJfQoJZGF0YWJhc2UuREIuQ3JlYXRlKCZzZXNzaW9uKQp9CgpmdW5jIENyZWF0ZVNlc3Npb24odXNlcklEIHVpbnQsIHVzZXJuYW1lLCBqdGksIGNsaWVudFR5cGUsIGNsaWVudE5hbWUsIGlwLCB1c2VyQWdlbnQgc3RyaW5nLCBleHBpcmVzQXQgdGltZS5UaW1lKSB7CglDcmVhdGVTZXNzaW9uV2l0aFJlZnJlc2godXNlcklELCB1c2VybmFtZSwganRpLCAiIiwgY2xpZW50VHlwZSwgY2xpZW50TmFtZSwgaXAsIHVzZXJBZ2VudCwgZXhwaXJlc0F0LCB0aW1lLlRpbWV7fSkKfQoKZnVuYyBlZmZlY3RpdmVTZXNzaW9uQ2xpZW50VHlwZShzZXNzaW9uIG1vZGVsLlVzZXJTZXNzaW9uKSBzdHJpbmcgewoJcmV0dXJuIERldGVjdFNlc3Npb25DbGllbnRUeXBlKHNlc3Npb24uQ2xpZW50VHlwZSwgIiIsIHNlc3Npb24uVXNlckFnZW50KQp9CgpmdW5jIHJldm9rZUV4Y2Vzc1Nlc3Npb25zQnlDbGllbnRUeXBlKHVzZXJJRCB1aW50LCBjbGllbnRUeXBlIHN0cmluZywgbWF4U2Vzc2lvbnMgaW50KSBpbnQ2NCB7Cgl0YXJnZXRUeXBlIDo9IE5vcm1hbGl6ZVNlc3Npb25DbGllbnRUeXBlKGNsaWVudFR5cGUpCglpZiBtYXhTZXNzaW9ucyA8IDEgewoJCW1heFNlc3Npb25zID0gMQoJfQoKCXZhciBzZXNzaW9ucyBbXW1vZGVsLlVzZXJTZXNzaW9uCglkYXRhYmFzZS5EQi5XaGVyZSgidXNlcl9pZCA9ID8iLCB1c2VySUQpLkZpbmQoJnNlc3Npb25zKQoKCXZhciBtYXRjaGVkIFtdbW9kZWwuVXNlclNlc3Npb24KCWZvciBpIDo9IHJhbmdlIHNlc3Npb25zIHsKCQlpZiBlZmZlY3RpdmVTZXNzaW9uQ2xpZW50VHlwZShzZXNzaW9uc1tpXSkgIT0gdGFyZ2V0VHlwZSB7CgkJCWNvbnRpbnVlCgkJfQoJCW1hdGNoZWQgPSBhcHBlbmQobWF0Y2hlZCwgc2Vzc2lvbnNbaV0pCgl9CgoJLy8ga2VlcCAobWF4U2Vzc2lvbnMgLSAxKSBuZXdlc3QsIHJldm9rZSB0aGUgcmVzdCAodGhlIG5ldyBzZXNzaW9uIHdpbGwgZmlsbCB0aGUgbGFzdCBzbG90KQoJa2VlcENvdW50IDo9IG1heFNlc3Npb25zIC0gMQoJaWYgbGVuKG1hdGNoZWQpIDw9IGtlZXBDb3VudCB7CgkJcmV0dXJuIDAKCX0KCglzb3J0LlNsaWNlKG1hdGNoZWQsIGZ1bmMoaSwgaiBpbnQpIGJvb2wgewoJCXJldHVybiBtYXRjaGVkW2ldLkNyZWF0ZWRBdC5BZnRlcihtYXRjaGVkW2pdLkNyZWF0ZWRBdCkKCX0pCgoJdG9SZXZva2UgOj0gbWF0Y2hlZFtrZWVwQ291bnQ6XQoJdmFyIGlkcyBbXXVpbnQKCWZvciBpIDo9IHJhbmdlIHRvUmV2b2tlIHsKCQlCbG9ja1Nlc3Npb25Ub2tlbnMoJnRvUmV2b2tlW2ldKQoJCWlkcyA9IGFwcGVuZChpZHMsIHRvUmV2b2tlW2ldLklEKQoJfQoKCWlmIGxlbihpZHMpID09IDAgewoJCXJldHVybiAwCgl9CgoJcmVzdWx0IDo9IGRhdGFiYXNlLkRCLkRlbGV0ZSgmbW9kZWwuVXNlclNlc3Npb257fSwgaWRzKQoJcmV0dXJuIHJlc3VsdC5Sb3dzQWZmZWN0ZWQKfQoKZnVuYyBibG9ja1Rva2VuKGp0aSwgdG9rZW5UeXBlIHN0cmluZywgdXNlcklEICp1aW50LCBleHBpcmVzQXQgdGltZS5UaW1lKSB7CglpZiBqdGkgPT0gIiIgewoJCXJldHVybgoJfQoJaWYgZXhwaXJlc0F0LklzWmVybygpIHsKCQlleHBpcmVzQXQgPSB0aW1lLk5vdygpLkFkZCgyNCAqIHRpbWUuSG91cikKCX0KCgl2YXIgZXhpc3RpbmcgbW9kZWwuVG9rZW5CbG9ja2xpc3QKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgianRpID0gPyIsIGp0aSkuRmlyc3QoJmV4aXN0aW5nKS5FcnJvcjsgZXJyID09IG5pbCB7CgkJcmV0dXJuCgl9CgoJZGF0YWJhc2UuREIuQ3JlYXRlKCZtb2RlbC5Ub2tlbkJsb2NrbGlzdHsKCQlKVEk6ICAgICAgIGp0aSwKCQlUb2tlblR5cGU6IHRva2VuVHlwZSwKCQlVc2VySUQ6ICAgIHVzZXJJRCwKCQlSZXZva2VkQXQ6IHRpbWUuTm93KCksCgkJRXhwaXJlc0F0OiBleHBpcmVzQXQsCgl9KQp9CgpmdW5jIEJsb2NrU2Vzc2lvblRva2VucyhzZXNzaW9uICptb2RlbC5Vc2VyU2Vzc2lvbikgewoJaWYgc2Vzc2lvbiA9PSBuaWwgewoJCXJldHVybgoJfQoJdXNlcklEIDo9IHNlc3Npb24uVXNlcklECglibG9ja1Rva2VuKHNlc3Npb24uSlRJLCAiYWNjZXNzIiwgJnVzZXJJRCwgc2Vzc2lvbi5FeHBpcmVzQXQpCglpZiBzZXNzaW9uLlJlZnJlc2hFeHBpcmVzQXQgIT0gbmlsIHsKCQlibG9ja1Rva2VuKHNlc3Npb24uUmVmcmVzaEpUSSwgInJlZnJlc2giLCAmdXNlcklELCAqc2Vzc2lvbi5SZWZyZXNoRXhwaXJlc0F0KQoJfQp9CgpmdW5jIFJldm9rZVNlc3Npb24oanRpIHN0cmluZykgewoJdmFyIHNlc3Npb24gbW9kZWwuVXNlclNlc3Npb24KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgianRpID0gPyIsIGp0aSkuRmlyc3QoJnNlc3Npb24pLkVycm9yOyBlcnIgPT0gbmlsIHsKCQlCbG9ja1Nlc3Npb25Ub2tlbnMoJnNlc3Npb24pCgkJZGF0YWJhc2UuREIuRGVsZXRlKCZzZXNzaW9uKQoJCXJldHVybgoJfQoKCWJsb2NrVG9rZW4oanRpLCAiYWNjZXNzIiwgbmlsLCB0aW1lLk5vdygpLkFkZCgyNCp0aW1lLkhvdXIpKQp9CgpmdW5jIFJldm9rZUFsbFVzZXJTZXNzaW9ucyh1c2VySUQgdWludCkgaW50NjQgewoJdmFyIHNlc3Npb25zIFtdbW9kZWwuVXNlclNlc3Npb24KCWRhdGFiYXNlLkRCLldoZXJlKCJ1c2VyX2lkID0gPyIsIHVzZXJJRCkuRmluZCgmc2Vzc2lvbnMpCglmb3IgaSA6PSByYW5nZSBzZXNzaW9ucyB7CgkJQmxvY2tTZXNzaW9uVG9rZW5zKCZzZXNzaW9uc1tpXSkKCX0KCglyZXN1bHQgOj0gZGF0YWJhc2UuREIuV2hlcmUoInVzZXJfaWQgPSA/IiwgdXNlcklEKS5EZWxldGUoJm1vZGVsLlVzZXJTZXNzaW9ue30pCglyZXR1cm4gcmVzdWx0LlJvd3NBZmZlY3RlZAp9CgpmdW5jIFJldm9rZU90aGVyVXNlclNlc3Npb25zKHVzZXJJRCB1aW50LCBjdXJyZW50SlRJIHN0cmluZykgaW50NjQgewoJdmFyIHNlc3Npb25zIFtdbW9kZWwuVXNlclNlc3Npb24KCWRhdGFiYXNlLkRCLldoZXJlKCJ1c2VyX2lkID0gPyBBTkQganRpICE9ID8iLCB1c2VySUQsIGN1cnJlbnRKVEkpLkZpbmQoJnNlc3Npb25zKQoJZm9yIGkgOj0gcmFuZ2Ugc2Vzc2lvbnMgewoJCUJsb2NrU2Vzc2lvblRva2Vucygmc2Vzc2lvbnNbaV0pCgl9CgoJcmVzdWx0IDo9IGRhdGFiYXNlLkRCLldoZXJlKCJ1c2VyX2lkID0gPyBBTkQganRpICE9ID8iLCB1c2VySUQsIGN1cnJlbnRKVEkpLkRlbGV0ZSgmbW9kZWwuVXNlclNlc3Npb257fSkKCXJldHVybiByZXN1bHQuUm93c0FmZmVjdGVkCn0KCmZ1bmMgQ2xlYW5FeHBpcmVkU2Vzc2lvbnMoKSB7Cglub3cgOj0gdGltZS5Ob3coKQoJZGF0YWJhc2UuREIuV2hlcmUoIihyZWZyZXNoX2V4cGlyZXNfYXQgSVMgTk9UIE5VTEwgQU5EIHJlZnJlc2hfZXhwaXJlc19hdCA8ID8pIE9SIChyZWZyZXNoX2V4cGlyZXNfYXQgSVMgTlVMTCBBTkQgZXhwaXJlc19hdCA8ID8pIiwgbm93LCBub3cpLkRlbGV0ZSgmbW9kZWwuVXNlclNlc3Npb257fSkKfQoKZnVuYyBJc0lQV2hpdGVsaXN0ZWQoaXAgc3RyaW5nKSBib29sIHsKCWlwID0gc3RyaW5ncy5UcmltU3BhY2UoaXApCglpZiBpcCA9PSAiIiB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJdmFyIHdoaXRlbGlzdCBbXW1vZGVsLklQV2hpdGVsaXN0CglkYXRhYmFzZS5EQi5PcmRlcigiaWQgQVNDIikuRmluZCgmd2hpdGVsaXN0KQoJaWYgbGVuKHdoaXRlbGlzdCkgPT0gMCB7CgkJcmV0dXJuIHRydWUKCX0KCglmb3IgXywgZW50cnkgOj0gcmFuZ2Ugd2hpdGVsaXN0IHsKCQlpZiBuZXR1dGlsLk1hdGNoSVBXaGl0ZWxpc3RFbnRyeShlbnRyeS5JUCwgaXApIHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CgoJcmV0dXJuIGZhbHNlCn0KCmZ1bmMgUmVjb3JkU2VjdXJpdHlBdWRpdCh1c2VySUQgKnVpbnQsIHVzZXJuYW1lLCBhY3Rpb24sIGRldGFpbCwgaXAgc3RyaW5nKSB7CglhdWRpdCA6PSBtb2RlbC5TZWN1cml0eUF1ZGl0ewoJCVVzZXJJRDogICB1c2VySUQsCgkJVXNlcm5hbWU6IHVzZXJuYW1lLAoJCUFjdGlvbjogICBhY3Rpb24sCgkJRGV0YWlsOiAgIGRldGFpbCwKCQlJUDogICAgICAgaXAsCgl9CglkYXRhYmFzZS5EQi5DcmVhdGUoJmF1ZGl0KQp9CgpmdW5jIEdldExvZ2luU3RhdHMoZGF5cyBpbnQpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJc2luY2UgOj0gdGltZS5Ob3coKS5BZGREYXRlKDAsIDAsIC1kYXlzKQoKCXZhciB0b3RhbExvZ2lucyBpbnQ2NAoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLkxvZ2luTG9ne30pLldoZXJlKCJjcmVhdGVkX2F0ID4gPyIsIHNpbmNlKS5Db3VudCgmdG90YWxMb2dpbnMpCgoJdmFyIHN1Y2Nlc3NMb2dpbnMgaW50NjQKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5Mb2dpbkxvZ3t9KS5XaGVyZSgiY3JlYXRlZF9hdCA+ID8gQU5EIHN0YXR1cyA9IDAiLCBzaW5jZSkuQ291bnQoJnN1Y2Nlc3NMb2dpbnMpCgoJdmFyIGZhaWxlZExvZ2lucyBpbnQ2NAoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLkxvZ2luTG9ne30pLldoZXJlKCJjcmVhdGVkX2F0ID4gPyBBTkQgc3RhdHVzID0gMSIsIHNpbmNlKS5Db3VudCgmZmFpbGVkTG9naW5zKQoKCXZhciBhY3RpdmVTZXNzaW9ucyBpbnQ2NAoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlVzZXJTZXNzaW9ue30pLldoZXJlKCJleHBpcmVzX2F0ID4gPyIsIHRpbWUuTm93KCkpLkNvdW50KCZhY3RpdmVTZXNzaW9ucykKCgl2YXIgbG9ja2VkQWNjb3VudHMgaW50NjQKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5Mb2dpbkF0dGVtcHR7fSkuCgkJV2hlcmUoImNvdW50ID49ID8gQU5EIGV4cGlyZXNfYXQgPiA/IiwgTWF4TG9naW5BdHRlbXB0cywgdGltZS5Ob3coKSkuQ291bnQoJmxvY2tlZEFjY291bnRzKQoKCXJldHVybiBtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCSJ0b3RhbF9sb2dpbnMiOiAgICB0b3RhbExvZ2lucywKCQkic3VjY2Vzc19sb2dpbnMiOiAgc3VjY2Vzc0xvZ2lucywKCQkiZmFpbGVkX2xvZ2lucyI6ICAgZmFpbGVkTG9naW5zLAoJCSJhY3RpdmVfc2Vzc2lvbnMiOiBhY3RpdmVTZXNzaW9ucywKCQkibG9ja2VkX2FjY291bnRzIjogbG9ja2VkQWNjb3VudHMsCgkJInBlcmlvZF9kYXlzIjogICAgIGRheXMsCgl9Cn0KCmZ1bmMgSXNTdXNwaWNpb3VzTG9naW4oaXAsIHVzZXJuYW1lIHN0cmluZykgKGJvb2wsIHN0cmluZykgewoJdmFyIGxhc3RMb2cgbW9kZWwuTG9naW5Mb2cKCWVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgidXNlcm5hbWUgPSA/IEFORCBzdGF0dXMgPSAwIiwgdXNlcm5hbWUpLgoJCU9yZGVyKCJjcmVhdGVkX2F0IERFU0MiKS5UYWtlKCZsYXN0TG9nKS5FcnJvcgoKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBmYWxzZSwgIiIKCX0KCglpZiBsYXN0TG9nLklQICE9IGlwIHsKCQlyZXR1cm4gdHJ1ZSwgZm10LlNwcmludGYoIklQIOS7jiAlcyDlj5jmm7TkuLogJXMiLCBsYXN0TG9nLklQLCBpcCkKCX0KCglyZXR1cm4gZmFsc2UsICIiCn0K
+package service
+
+import (
+	"fmt"
+	"strings"
+	"time"
+
+	"sort"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/netutil"
+
+	"gorm.io/gorm"
+)
+
+const (
+	MaxLoginAttempts = 5
+	LockDuration     = 15 * time.Minute
+)
+
+func RecordLoginLog(userID uint, username, ip, clientName, userAgent string, status int, message string) {
+	log := model.LoginLog{
+		UserID:     userID,
+		Username:   username,
+		IP:         ip,
+		ClientName: clientName,
+		UserAgent:  userAgent,
+		Status:     status,
+		Message:    message,
+	}
+	database.DB.Create(&log)
+}
+
+func CheckLoginLock(ip, username string) (bool, time.Duration) {
+	var attempt model.LoginAttempt
+	err := database.DB.Where("ip = ? AND username = ?", ip, username).
+		Take(&attempt).Error
+
+	if err != nil {
+		return false, 0
+	}
+
+	if attempt.Count >= MaxLoginAttempts && attempt.LockedAt != nil {
+		remaining := attempt.ExpiresAt.Sub(time.Now())
+		if remaining > 0 {
+			return true, remaining
+		}
+	}
+
+	return false, 0
+}
+
+func GetLoginAttemptCount(ip, username string) int {
+	var attempt model.LoginAttempt
+	err := database.DB.Where("ip = ? AND username = ?", ip, username).
+		Take(&attempt).Error
+	if err != nil {
+		return 0
+	}
+	return attempt.Count
+}
+
+func RecordFailedLogin(ip, username string) int {
+	var attempt model.LoginAttempt
+	err := database.DB.Where("ip = ? AND username = ?", ip, username).
+		Take(&attempt).Error
+
+	if err != nil {
+		if err == gorm.ErrRecordNotFound {
+			attempt = model.LoginAttempt{
+				IP:        ip,
+				Username:  username,
+				Count:     1,
+				ExpiresAt: time.Now().Add(LockDuration),
+			}
+			database.DB.Create(&attempt)
+			return 1
+		}
+		return 0
+	}
+
+	attempt.Count++
+	if attempt.Count >= MaxLoginAttempts {
+		now := time.Now()
+		attempt.LockedAt = &now
+		lockTimes := attempt.Count - MaxLoginAttempts + 1
+		attempt.ExpiresAt = now.Add(time.Duration(lockTimes) * LockDuration)
+	}
+	database.DB.Save(&attempt)
+	return attempt.Count
+}
+
+func ClearLoginAttempts(ip, username string) {
+	database.DB.Where("ip = ? AND username = ?", ip, username).Delete(&model.LoginAttempt{})
+}
+
+func CleanExpiredAttempts() {
+	database.DB.Where("expires_at < ?", time.Now()).Delete(&model.LoginAttempt{})
+}
+
+func CreateSessionWithRefresh(userID uint, username, accessJTI, refreshJTI, clientType, clientName, ip, userAgent string, accessExpiresAt, refreshExpiresAt time.Time) {
+	var refreshExpiryPtr *time.Time
+	if !refreshExpiresAt.IsZero() {
+		refreshExpiryPtr = &refreshExpiresAt
+	}
+
+	normalizedClientType := NormalizeSessionClientType(clientType)
+	configKey := "max_web_sessions"
+	if normalizedClientType == SessionClientApp {
+		configKey = "max_app_sessions"
+	}
+	maxSessions := model.GetConfigInt(configKey, 1)
+	if maxSessions < 1 {
+		maxSessions = 1
+	}
+	revokeExcessSessionsByClientType(userID, normalizedClientType, maxSessions)
+
+	session := model.UserSession{
+		UserID:           userID,
+		Username:         username,
+		JTI:              accessJTI,
+		RefreshJTI:       refreshJTI,
+		ClientType:       normalizedClientType,
+		ClientName:       clientName,
+		IP:               ip,
+		UserAgent:        userAgent,
+		ExpiresAt:        accessExpiresAt,
+		RefreshExpiresAt: refreshExpiryPtr,
+	}
+	database.DB.Create(&session)
+}
+
+func CreateSession(userID uint, username, jti, clientType, clientName, ip, userAgent string, expiresAt time.Time) {
+	CreateSessionWithRefresh(userID, username, jti, "", clientType, clientName, ip, userAgent, expiresAt, time.Time{})
+}
+
+func effectiveSessionClientType(session model.UserSession) string {
+	return DetectSessionClientType(session.ClientType, "", session.UserAgent)
+}
+
+func revokeExcessSessionsByClientType(userID uint, clientType string, maxSessions int) int64 {
+	targetType := NormalizeSessionClientType(clientType)
+	if maxSessions < 1 {
+		maxSessions = 1
+	}
+
+	var sessions []model.UserSession
+	database.DB.Where("user_id = ?", userID).Find(&sessions)
+
+	var matched []model.UserSession
+	for i := range sessions {
+		if effectiveSessionClientType(sessions[i]) != targetType {
+			continue
+		}
+		matched = append(matched, sessions[i])
+	}
+
+	// keep (maxSessions - 1) newest, revoke the rest (the new session will fill the last slot)
+	keepCount := maxSessions - 1
+	if len(matched) <= keepCount {
+		return 0
+	}
+
+	sort.Slice(matched, func(i, j int) bool {
+		return matched[i].CreatedAt.After(matched[j].CreatedAt)
+	})
+
+	toRevoke := matched[keepCount:]
+	var ids []uint
+	for i := range toRevoke {
+		BlockSessionTokens(&toRevoke[i])
+		ids = append(ids, toRevoke[i].ID)
+	}
+
+	if len(ids) == 0 {
+		return 0
+	}
+
+	result := database.DB.Delete(&model.UserSession{}, ids)
+	return result.RowsAffected
+}
+
+func blockToken(jti, tokenType string, userID *uint, expiresAt time.Time) {
+	if jti == "" {
+		return
+	}
+	if expiresAt.IsZero() {
+		expiresAt = time.Now().Add(24 * time.Hour)
+	}
+
+	var existing model.TokenBlocklist
+	if err := database.DB.Where("jti = ?", jti).First(&existing).Error; err == nil {
+		return
+	}
+
+	database.DB.Create(&model.TokenBlocklist{
+		JTI:       jti,
+		TokenType: tokenType,
+		UserID:    userID,
+		RevokedAt: time.Now(),
+		ExpiresAt: expiresAt,
+	})
+}
+
+func BlockSessionTokens(session *model.UserSession) {
+	if session == nil {
+		return
+	}
+	userID := session.UserID
+	blockToken(session.JTI, "access", &userID, session.ExpiresAt)
+	if session.RefreshExpiresAt != nil {
+		blockToken(session.RefreshJTI, "refresh", &userID, *session.RefreshExpiresAt)
+	}
+}
+
+func RevokeSession(jti string) {
+	var session model.UserSession
+	if err := database.DB.Where("jti = ?", jti).First(&session).Error; err == nil {
+		BlockSessionTokens(&session)
+		database.DB.Delete(&session)
+		return
+	}
+
+	blockToken(jti, "access", nil, time.Now().Add(24*time.Hour))
+}
+
+func RevokeAllUserSessions(userID uint) int64 {
+	var sessions []model.UserSession
+	database.DB.Where("user_id = ?", userID).Find(&sessions)
+	for i := range sessions {
+		BlockSessionTokens(&sessions[i])
+	}
+
+	result := database.DB.Where("user_id = ?", userID).Delete(&model.UserSession{})
+	return result.RowsAffected
+}
+
+func RevokeOtherUserSessions(userID uint, currentJTI string) int64 {
+	var sessions []model.UserSession
+	database.DB.Where("user_id = ? AND jti != ?", userID, currentJTI).Find(&sessions)
+	for i := range sessions {
+		BlockSessionTokens(&sessions[i])
+	}
+
+	result := database.DB.Where("user_id = ? AND jti != ?", userID, currentJTI).Delete(&model.UserSession{})
+	return result.RowsAffected
+}
+
+func CleanExpiredSessions() {
+	now := time.Now()
+	database.DB.Where("(refresh_expires_at IS NOT NULL AND refresh_expires_at < ?) OR (refresh_expires_at IS NULL AND expires_at < ?)", now, now).Delete(&model.UserSession{})
+}
+
+func IsIPWhitelisted(ip string) bool {
+	ip = strings.TrimSpace(ip)
+	if ip == "" {
+		return false
+	}
+
+	var whitelist []model.IPWhitelist
+	database.DB.Order("id ASC").Find(&whitelist)
+	if len(whitelist) == 0 {
+		return true
+	}
+
+	for _, entry := range whitelist {
+		if netutil.MatchIPWhitelistEntry(entry.IP, ip) {
+			return true
+		}
+	}
+
+	return false
+}
+
+func RecordSecurityAudit(userID *uint, username, action, detail, ip string) {
+	audit := model.SecurityAudit{
+		UserID:   userID,
+		Username: username,
+		Action:   action,
+		Detail:   detail,
+		IP:       ip,
+	}
+	database.DB.Create(&audit)
+}
+
+func GetLoginStats(days int) map[string]interface{} {
+	since := time.Now().AddDate(0, 0, -days)
+
+	var totalLogins int64
+	database.DB.Model(&model.LoginLog{}).Where("created_at > ?", since).Count(&totalLogins)
+
+	var successLogins int64
+	database.DB.Model(&model.LoginLog{}).Where("created_at > ? AND status = 0", since).Count(&successLogins)
+
+	var failedLogins int64
+	database.DB.Model(&model.LoginLog{}).Where("created_at > ? AND status = 1", since).Count(&failedLogins)
+
+	var activeSessions int64
+	database.DB.Model(&model.UserSession{}).Where("expires_at > ?", time.Now()).Count(&activeSessions)
+
+	var lockedAccounts int64
+	database.DB.Model(&model.LoginAttempt{}).
+		Where("count >= ? AND expires_at > ?", MaxLoginAttempts, time.Now()).Count(&lockedAccounts)
+
+	return map[string]interface{}{
+		"total_logins":    totalLogins,
+		"success_logins":  successLogins,
+		"failed_logins":   failedLogins,
+		"active_sessions": activeSessions,
+		"locked_accounts": lockedAccounts,
+		"period_days":     days,
+	}
+}
+
+func IsSuspiciousLogin(ip, username string) (bool, string) {
+	var lastLog model.LoginLog
+	err := database.DB.Where("username = ? AND status = 0", username).
+		Order("created_at DESC").Take(&lastLog).Error
+
+	if err != nil {
+		return false, ""
+	}
+
+	if lastLog.IP != ip {
+		return true, fmt.Sprintf("IP 从 %s 变更为 %s", lastLog.IP, ip)
+	}
+
+	return false, ""
+}

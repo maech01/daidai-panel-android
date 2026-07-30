@@ -1,1 +1,288 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiYnl0ZXMiCgkiZW5jb2RpbmcvanNvbiIKCSJmbXQiCgkibmV0L2h0dHAiCgkibmV0L2h0dHAvaHR0cHRlc3QiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCi8vIFRlc3RDcmVhdGVVcHNlcnRzT25OYW1lQW5kUmVtYXJrcyB3YXMgcHJldmlvdXNseSB0aGUgdXBzZXJ05aWR57qm77yb6Z2S6b6Z5YyW5ZCOCi8vIFBPU1QgL2VudnMg5LiN5YaN5oyJIChuYW1lLCByZW1hcmtzKSDopobnm5bml6fooYzvvIzogIzmmK/nuq8gaW5zZXJ044CC5Lik5qyhIFBPU1Qg5ZCMCi8vIChuYW1lLCByZW1hcmtzKSDlupTlvZPkuqfnlJ/kuKTooYzvvIzmr4/ooYzni6znq4sgaWTvvIx2YWx1ZSDkupLkuI3lubLmibAg4oCU4oCUIOWkmui0puWPt+WcuuaZr+OAggpmdW5jIFRlc3RDcmVhdGVVcHNlcnRzT25OYW1lQW5kUmVtYXJrcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiZW52LXVwc2VydC1vcGVyYXRvciIsICJvcGVyYXRvciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCWZpcnN0Qm9keSA6PSBgeyJuYW1lIjoiZWxtY2siLCJ2YWx1ZSI6IjEyMyIsInJlbWFya3MiOiLliLDmnJ/ml7bpl7QyLjEzIn1gCglmaXJzdFJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFBvc3QsICIvYXBpL3YxL2VudnMiLCBmaXJzdEJvZHksCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sICIiKQoJaWYgZmlyc3RSZWMuQ29kZSAhPSBodHRwLlN0YXR1c0NyZWF0ZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBpbml0aWFsIGNyZWF0ZSB0byByZXR1cm4gMjAxLCBnb3QgJWQgYm9keT0lcyIsIGZpcnN0UmVjLkNvZGUsIGZpcnN0UmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJZmlyc3RQYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgZmlyc3RSZWMpCglmaXJzdERhdGEsIF8gOj0gZmlyc3RQYXlsb2FkWyJkYXRhIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglmaXJzdElERmxvYXQsIF8gOj0gZmlyc3REYXRhWyJpZCJdLihmbG9hdDY0KQoJZmlyc3RJRCA6PSB1aW50KGZpcnN0SURGbG9hdCkKCWlmIGZpcnN0SUQgPT0gMCB7CgkJdC5GYXRhbGYoIm1pc3NpbmcgaWQgb24gZmlyc3QgY3JlYXRlLCBib2R5PSVzIiwgZmlyc3RSZWMuQm9keS5TdHJpbmcoKSkKCX0KCgkvLyBTZWNvbmQgcG9zdCDigJQgc2FtZSAobmFtZSwgcmVtYXJrcyksIG5ldyB2YWx1ZSDigJQg6Z2S6b6Z5YyW5ZCO5bqU5b2T5paw5aKe56ys5LqM6KGM77yM5LiN6KaG55uW44CCCglzZWNvbmRCb2R5IDo9IGB7Im5hbWUiOiJlbG1jayIsInZhbHVlIjoiNDU2IiwicmVtYXJrcyI6IuWIsOacn+aXtumXtDIuMTMifWAKCXNlY29uZFJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFBvc3QsICIvYXBpL3YxL2VudnMiLCBzZWNvbmRCb2R5LAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LCAiIikKCWlmIHNlY29uZFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQ3JlYXRlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNlY29uZCBpbnNlcnQgdG8gcmV0dXJuIDIwMSwgZ290ICVkIGJvZHk9JXMiLCBzZWNvbmRSZWMuQ29kZSwgc2Vjb25kUmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJc2Vjb25kUGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHNlY29uZFJlYykKCXNlY29uZERhdGEsIF8gOj0gc2Vjb25kUGF5bG9hZFsiZGF0YSJdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJc2Vjb25kSURGbG9hdCwgXyA6PSBzZWNvbmREYXRhWyJpZCJdLihmbG9hdDY0KQoJc2Vjb25kSUQgOj0gdWludChzZWNvbmRJREZsb2F0KQoJaWYgc2Vjb25kSUQgPT0gZmlyc3RJRCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRpc3RpbmN0IGlkIGZvciBzZWNvbmQgaW5zZXJ0LCBnb3QgZmlyc3RJRD0lZCA9PSBzZWNvbmRJRD0lZCIsIGZpcnN0SUQsIHNlY29uZElEKQoJfQoJaWYgZ290LCBfIDo9IHNlY29uZERhdGFbInZhbHVlIl0uKHN0cmluZyk7IGdvdCAhPSAiNDU2IiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNlY29uZCByb3cgdmFsdWU9NDU2LCBnb3QgJXEiLCBnb3QpCgl9CgoJdmFyIHJvd0NvdW50IGludDY0CglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuRW52VmFye30pLldoZXJlKCJuYW1lID0gPyIsICJlbG1jayIpLkNvdW50KCZyb3dDb3VudCkKCWlmIHJvd0NvdW50ICE9IDIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBleGFjdGx5IHR3byByb3dzIGFmdGVyIGR1cGxpY2F0ZSBQT1NULCBnb3QgJWQiLCByb3dDb3VudCkKCX0KfQoKLy8gVGVzdENyZWF0ZUluc2VydHNXaGVuUmVtYXJrc0RpZmZlciBtYWtlcyBzdXJlIGRpZmZlcmVudCByZW1hcmtzIGZvciB0aGUKLy8gc2FtZSBuYW1lIHN0aWxsIGNyZWF0ZSBzZXBhcmF0ZSByb3dzIChtdWx0aS1hY2NvdW50IHNjZW5hcmlvKS4KZnVuYyBUZXN0Q3JlYXRlSW5zZXJ0c1doZW5SZW1hcmtzRGlmZmVyKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtbXVsdGktb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCglib2RpZXMgOj0gW11zdHJpbmd7CgkJYHsibmFtZSI6ImVsbWNrIiwidmFsdWUiOiIxMjMiLCJyZW1hcmtzIjoiYWNjb3VudC1BIn1gLAoJCWB7Im5hbWUiOiJlbG1jayIsInZhbHVlIjoiNDU2IiwicmVtYXJrcyI6ImFjY291bnQtQiJ9YCwKCX0KCWZvciBfLCBib2R5IDo9IHJhbmdlIGJvZGllcyB7CgkJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kUG9zdCwgIi9hcGkvdjEvZW52cyIsIGJvZHksCgkJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LCAiIikKCQlpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c0NyZWF0ZWQgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JlYXRlIDIwMSBmb3IgJXMsIGdvdCAlZCBib2R5PSVzIiwgYm9keSwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJCX0KCX0KCgl2YXIgY291bnQgaW50NjQKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5FbnZWYXJ7fSkuV2hlcmUoIm5hbWUgPSA/IiwgImVsbWNrIikuQ291bnQoJmNvdW50KQoJaWYgY291bnQgIT0gMiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIgcm93cyBmb3IgbXVsdGktYWNjb3VudCBlbG1jaywgZ290ICVkIiwgY291bnQpCgl9Cn0KCi8vIFRlc3RDcmVhdGVVcHNlcnRzV2l0aEVtcHR5UmVtYXJrcyDpqozor4HnqbogcmVtYXJrcyDkuZ/otbDnuq8gaW5zZXJ0IOWIhuaUr++8mgovLyDkuKTmrKEgUE9TVCDlkIwgbmFtZSArIOepuiByZW1hcmtzIOW6lOW9k+S6p+eUn+S4pOihjO+8jOiAjOS4jeaYr+imhuebluOAggpmdW5jIFRlc3RDcmVhdGVVcHNlcnRzV2l0aEVtcHR5UmVtYXJrcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiZW52LWVtcHR5LW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZmlyc3RCb2R5IDo9IGB7Im5hbWUiOiJGT08iLCJ2YWx1ZSI6ImFscGhhIiwicmVtYXJrcyI6IiJ9YAoJZmlyc3RSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQb3N0LCAiL2FwaS92MS9lbnZzIiwgZmlyc3RCb2R5LAoJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LCAiIikKCWlmIGZpcnN0UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW5pdGlhbCAyMDEsIGdvdCAlZCBib2R5PSVzIiwgZmlyc3RSZWMuQ29kZSwgZmlyc3RSZWMuQm9keS5TdHJpbmcoKSkKCX0KCglzZWNvbmRCb2R5IDo9IGB7Im5hbWUiOiJGT08iLCJ2YWx1ZSI6ImJldGEiLCJyZW1hcmtzIjoiIn1gCglzZWNvbmRSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQb3N0LCAiL2FwaS92MS9lbnZzIiwgc2Vjb25kQm9keSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwgIiIpCglpZiBzZWNvbmRSZWMuQ29kZSAhPSBodHRwLlN0YXR1c0NyZWF0ZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzZWNvbmQgMjAxIGZvciBlbXB0eS1yZW1hcmtzIGR1cGxpY2F0ZSwgZ290ICVkIGJvZHk9JXMiLCBzZWNvbmRSZWMuQ29kZSwgc2Vjb25kUmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIGNvdW50IGludDY0CglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuRW52VmFye30pLldoZXJlKCJuYW1lID0gPyIsICJGT08iKS5Db3VudCgmY291bnQpCglpZiBjb3VudCAhPSAyIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdHdvIEZPTyByb3dzIGFmdGVyIGR1cGxpY2F0ZSBQT1NULCBnb3QgJWQiLCBjb3VudCkKCX0KfQoKLy8gVGVzdFVwZGF0ZUFjY2VwdHNFbmFibGVkQW5kVmFsdWVJblNpbmdsZVJlcXVlc3QgdmVyaWZpZXMgdGhlIGVuYWJsZWQgZmxhZwovLyBub3cgZmxvd3MgdGhyb3VnaCB0aGUgZ2VuZXJpYyBQVVQgZW5kcG9pbnQgaW5zdGVhZCBvZiBuZWVkaW5nIGEgc2VwYXJhdGUKLy8gL2VuYWJsZSBvciAvZGlzYWJsZSBjYWxsLgpmdW5jIFRlc3RVcGRhdGVBY2NlcHRzRW5hYmxlZEFuZFZhbHVlSW5TaW5nbGVSZXF1ZXN0KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtdXBkYXRlLW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZW52IDo9ICZtb2RlbC5FbnZWYXJ7TmFtZTogIlRPR0dMRUQiLCBWYWx1ZTogIm9uIiwgRW5hYmxlZDogdHJ1ZSwgUG9zaXRpb246IDEwMDB9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGVudikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZWVkIGVudjogJXYiLCBlcnIpCgl9CgoJYm9keSA6PSBgeyJ2YWx1ZSI6Im9mZiIsImVuYWJsZWQiOmZhbHNlLCJyZW1hcmtzIjoiZGlzYWJsZWQtYnktYWRtaW4ifWAKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFB1dCwgZm10LlNwcmludGYoIi9hcGkvdjEvZW52cy8lZCIsIGVudi5JRCksIGJvZHksCgkJbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0sICIiKQoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCwgZ290ICVkIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIHJlbG9hZGVkIG1vZGVsLkVudlZhcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZCwgZW52LklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCBlbnY6ICV2IiwgZXJyKQoJfQoJaWYgcmVsb2FkZWQuVmFsdWUgIT0gIm9mZiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB2YWx1ZSBvZmYsIGdvdCAlcSIsIHJlbG9hZGVkLlZhbHVlKQoJfQoJaWYgcmVsb2FkZWQuRW5hYmxlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGVuYWJsZWQ9ZmFsc2UsIGdvdCB0cnVlIikKCX0KCWlmIHJlbG9hZGVkLlJlbWFya3MgIT0gImRpc2FibGVkLWJ5LWFkbWluIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlbWFya3MgdXBkYXRlZCwgZ290ICVxIiwgcmVsb2FkZWQuUmVtYXJrcykKCX0KfQoKLy8gVGVzdFVwZGF0ZVJlamVjdHNJZGVudGl0eUNvbGxpc2lvbiDljp/kuLrmkp7lr7nnoIEgNDA5IOWlkee6pu+8m+mdkum+meWMluWQjiAobmFtZSwgcmVtYXJrcykKLy8g5LiN5YaN5piv5ZSv5LiA6ZSu77yM5oqK5LiA5p2hIHJvdyDnmoQgbmFtZS9yZW1hcmtzIOaUueWIsOWSjOWPpuS4gOadoeebuOWQjOW6lOW9k+ato+W4uCAyMDAgT0vvvIwKLy8g5Y6f6KGM6KKr5a6e6ZmF5pu05paw44CC5aSa6LSm5Y+35Zy65pmv5LiL5YWB6K645Lik5p2h6YO95pivICJLRUVQRVIvc3RhYmxlIuOAggpmdW5jIFRlc3RVcGRhdGVSZWplY3RzSWRlbnRpdHlDb2xsaXNpb24odCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImVudi1jb2xsaXNpb24tb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCglrZWVwZXIgOj0gJm1vZGVsLkVudlZhcntOYW1lOiAiS0VFUEVSIiwgVmFsdWU6ICJrIiwgUmVtYXJrczogInN0YWJsZSIsIEVuYWJsZWQ6IHRydWUsIFBvc2l0aW9uOiAxMDAwfQoJdmljdGltIDo9ICZtb2RlbC5FbnZWYXJ7TmFtZTogIlZJQ1RJTSIsIFZhbHVlOiAidiIsIFJlbWFya3M6ICJtb3ZhYmxlIiwgRW5hYmxlZDogdHJ1ZSwgUG9zaXRpb246IDIwMDB9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGtlZXBlcikuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZWVkIGtlZXBlcjogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKHZpY3RpbSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZWVkIHZpY3RpbTogJXYiLCBlcnIpCgl9CgoJYm9keSA6PSBgeyJuYW1lIjoiS0VFUEVSIiwicmVtYXJrcyI6InN0YWJsZSJ9YAoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kUHV0LCBmbXQuU3ByaW50ZigiL2FwaS92MS9lbnZzLyVkIiwgdmljdGltLklEKSwgYm9keSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwgIiIpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwIGFmdGVyIHJlbW92aW5nIGlkZW50aXR5IGNvbGxpc2lvbiBndWFyZCwgZ290ICVkIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIHJlbG9hZGVkIG1vZGVsLkVudlZhcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZCwgdmljdGltLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCB2aWN0aW06ICV2IiwgZXJyKQoJfQoJaWYgcmVsb2FkZWQuTmFtZSAhPSAiS0VFUEVSIiB8fCByZWxvYWRlZC5SZW1hcmtzICE9ICJzdGFibGUiIHsKCQl0LkZhdGFsZigidmljdGltIHNob3VsZCBiZSByZW5hbWVkIHRvIEtFRVBFUi9zdGFibGUsIGdvdCBuYW1lPSVxIHJlbWFya3M9JXEiLCByZWxvYWRlZC5OYW1lLCByZWxvYWRlZC5SZW1hcmtzKQoJfQoKCS8vIOS4pOadoSAoS0VFUEVSLCBzdGFibGUpIOmDveW6lOWtmOWcqOOAggoJdmFyIGNvdW50IGludDY0CglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuRW52VmFye30pLldoZXJlKCJuYW1lID0gPyBBTkQgcmVtYXJrcyA9ID8iLCAiS0VFUEVSIiwgInN0YWJsZSIpLkNvdW50KCZjb3VudCkKCWlmIGNvdW50ICE9IDIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0d28gcm93cyB3aXRoIChLRUVQRVIsIHN0YWJsZSkgYWZ0ZXIgcmVuYW1lLCBnb3QgJWQiLCBjb3VudCkKCX0KfQoKLy8gVGVzdFVwZGF0ZVNraXBzRGF0YWJhc2VXcml0ZVdoZW5Ob0NoYW5nZSBhc3NlcnRzIHRoZSBjaGFuZ2UtZGV0ZWN0aW9uIHNob3J0Ci8vIGNpcmN1aXQ6IHVuY2hhbmdlZCBwYXlsb2FkcyBtdXN0IG5vdCBidW1wIHVwZGF0ZWRfYXQuCmZ1bmMgVGVzdFVwZGF0ZVNraXBzRGF0YWJhc2VXcml0ZVdoZW5Ob0NoYW5nZSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAiZW52LW5vb3Atb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgllbnYgOj0gJm1vZGVsLkVudlZhcntOYW1lOiAiVU5DSEFOR0VEIiwgVmFsdWU6ICJzYW1lIiwgUmVtYXJrczogInNhbWUiLCBFbmFibGVkOiB0cnVlLCBQb3NpdGlvbjogMTAwMH0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoZW52KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNlZWQgZW52OiAldiIsIGVycikKCX0KCgl2YXIgYmVmb3JlIG1vZGVsLkVudlZhcgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZiZWZvcmUsIGVudi5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJsb2FkIGJlZm9yZTogJXYiLCBlcnIpCgl9CgliZWZvcmVVcGRhdGVkIDo9IGJlZm9yZS5VcGRhdGVkQXQKCglib2R5IDo9IGB7Im5hbWUiOiJVTkNIQU5HRUQiLCJ2YWx1ZSI6InNhbWUiLCJyZW1hcmtzIjoic2FtZSIsImVuYWJsZWQiOnRydWV9YAoJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kUHV0LCBmbXQuU3ByaW50ZigiL2FwaS92MS9lbnZzLyVkIiwgZW52LklEKSwgYm9keSwKCQltYXBbc3RyaW5nXXN0cmluZ3siQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRva2VufSwgIiIpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgYWZ0ZXIgbW9kZWwuRW52VmFyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJmFmdGVyLCBlbnYuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibG9hZCBhZnRlcjogJXYiLCBlcnIpCgl9CglpZiAhYWZ0ZXIuVXBkYXRlZEF0LkVxdWFsKGJlZm9yZVVwZGF0ZWQpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXBkYXRlZF9hdCB1bmNoYW5nZWQgb24gbm8tb3AgdXBkYXRlLCBiZWZvcmU9JXYgYWZ0ZXI9JXYiLCBiZWZvcmVVcGRhdGVkLCBhZnRlci5VcGRhdGVkQXQpCgl9Cn0KCi8vIFRlc3RJbXBvcnRNZXJnZU1hdGNoZXNPbk5hbWVBbmRSZW1hcmtzIHN3aXRjaGVzIHRoZSBpbXBvcnQgc2VtYW50aWNzIGZyb20KLy8gbWF0Y2hpbmcgb24gKG5hbWUsIHZhbHVlKSDigJQgd2hlcmUgYSByZWZyZXNoZWQgdmFsdWUgZm9ya2VkIGEgZHVwbGljYXRlIOKAlCB0bwovLyBtYXRjaGluZyBvbiAobmFtZSwgcmVtYXJrcyksIHNvIGltcG9ydHMgY2xlYW5seSBvdmVyd3JpdGUgdGhlIHZhbHVlLgpmdW5jIFRlc3RJbXBvcnRNZXJnZU1hdGNoZXNPbk5hbWVBbmRSZW1hcmtzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJlbnYtaW1wb3J0LW9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJZXhpc3RpbmcgOj0gJm1vZGVsLkVudlZhcntOYW1lOiAiUEFJUiIsIFZhbHVlOiAib2xkIiwgUmVtYXJrczogImlkLTEiLCBFbmFibGVkOiBmYWxzZSwgUG9zaXRpb246IDEwMDB9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKGV4aXN0aW5nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNlZWQgZXhpc3Rpbmc6ICV2IiwgZXJyKQoJfQoKCXBheWxvYWQgOj0gbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkibW9kZSI6ICJtZXJnZSIsCgkJImVudnMiOiBbXW1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCXsibmFtZSI6ICJQQUlSIiwgInZhbHVlIjogIm5ldyIsICJyZW1hcmtzIjogImlkLTEiLCAiZW5hYmxlZCI6IHRydWV9LAoJCX0sCgl9Cglib2R5LCBfIDo9IGpzb24uTWFyc2hhbChwYXlsb2FkKQoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2RQb3N0LCAiL2FwaS92MS9lbnZzL2ltcG9ydCIsIGJ5dGVzLk5ld1JlYWRlcihib2R5KSkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVxLkhlYWRlci5TZXQoIkNvbnRlbnQtVHlwZSIsICJhcHBsaWNhdGlvbi9qc29uIikKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQ3JlYXRlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMSwgZ290ICVkIGJvZHk9JXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJdmFyIGNvdW50IGludDY0CglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuRW52VmFye30pLldoZXJlKCJuYW1lID0gPyBBTkQgcmVtYXJrcyA9ID8iLCAiUEFJUiIsICJpZC0xIikuQ291bnQoJmNvdW50KQoJaWYgY291bnQgIT0gMSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNpbmdsZSByb3cgYWZ0ZXIgbWVyZ2UgaW1wb3J0LCBnb3QgJWQiLCBjb3VudCkKCX0KCgl2YXIgcmVsb2FkZWQgbW9kZWwuRW52VmFyCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnJlbG9hZGVkLCBleGlzdGluZy5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgZXhpc3Rpbmc6ICV2IiwgZXJyKQoJfQoJaWYgcmVsb2FkZWQuVmFsdWUgIT0gIm5ldyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtZXJnZWQgdmFsdWUgbmV3LCBnb3QgJXEiLCByZWxvYWRlZC5WYWx1ZSkKCX0KCWlmICFyZWxvYWRlZC5FbmFibGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5hYmxlZCBmbGlwcGVkIHRvIHRydWUgb24gbWVyZ2UsIGdvdCBmYWxzZSIpCgl9Cn0K
+package handler_test
+
+import (
+	"bytes"
+	"encoding/json"
+	"fmt"
+	"net/http"
+	"net/http/httptest"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+// TestCreateUpsertsOnNameAndRemarks was previously the upsert契约；青龙化后
+// POST /envs 不再按 (name, remarks) 覆盖旧行，而是纯 insert。两次 POST 同
+// (name, remarks) 应当产生两行，每行独立 id，value 互不干扰 —— 多账号场景。
+func TestCreateUpsertsOnNameAndRemarks(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-upsert-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	firstBody := `{"name":"elmck","value":"123","remarks":"到期时间2.13"}`
+	firstRec := performJSONRequest(engine, http.MethodPost, "/api/v1/envs", firstBody,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if firstRec.Code != http.StatusCreated {
+		t.Fatalf("expected initial create to return 201, got %d body=%s", firstRec.Code, firstRec.Body.String())
+	}
+
+	firstPayload := decodeJSONMap(t, firstRec)
+	firstData, _ := firstPayload["data"].(map[string]interface{})
+	firstIDFloat, _ := firstData["id"].(float64)
+	firstID := uint(firstIDFloat)
+	if firstID == 0 {
+		t.Fatalf("missing id on first create, body=%s", firstRec.Body.String())
+	}
+
+	// Second post — same (name, remarks), new value — 青龙化后应当新增第二行，不覆盖。
+	secondBody := `{"name":"elmck","value":"456","remarks":"到期时间2.13"}`
+	secondRec := performJSONRequest(engine, http.MethodPost, "/api/v1/envs", secondBody,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if secondRec.Code != http.StatusCreated {
+		t.Fatalf("expected second insert to return 201, got %d body=%s", secondRec.Code, secondRec.Body.String())
+	}
+
+	secondPayload := decodeJSONMap(t, secondRec)
+	secondData, _ := secondPayload["data"].(map[string]interface{})
+	secondIDFloat, _ := secondData["id"].(float64)
+	secondID := uint(secondIDFloat)
+	if secondID == firstID {
+		t.Fatalf("expected distinct id for second insert, got firstID=%d == secondID=%d", firstID, secondID)
+	}
+	if got, _ := secondData["value"].(string); got != "456" {
+		t.Fatalf("expected second row value=456, got %q", got)
+	}
+
+	var rowCount int64
+	database.DB.Model(&model.EnvVar{}).Where("name = ?", "elmck").Count(&rowCount)
+	if rowCount != 2 {
+		t.Fatalf("expected exactly two rows after duplicate POST, got %d", rowCount)
+	}
+}
+
+// TestCreateInsertsWhenRemarksDiffer makes sure different remarks for the
+// same name still create separate rows (multi-account scenario).
+func TestCreateInsertsWhenRemarksDiffer(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-multi-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	bodies := []string{
+		`{"name":"elmck","value":"123","remarks":"account-A"}`,
+		`{"name":"elmck","value":"456","remarks":"account-B"}`,
+	}
+	for _, body := range bodies {
+		rec := performJSONRequest(engine, http.MethodPost, "/api/v1/envs", body,
+			map[string]string{"Authorization": "Bearer " + token}, "")
+		if rec.Code != http.StatusCreated {
+			t.Fatalf("expected create 201 for %s, got %d body=%s", body, rec.Code, rec.Body.String())
+		}
+	}
+
+	var count int64
+	database.DB.Model(&model.EnvVar{}).Where("name = ?", "elmck").Count(&count)
+	if count != 2 {
+		t.Fatalf("expected 2 rows for multi-account elmck, got %d", count)
+	}
+}
+
+// TestCreateUpsertsWithEmptyRemarks 验证空 remarks 也走纯 insert 分支：
+// 两次 POST 同 name + 空 remarks 应当产生两行，而不是覆盖。
+func TestCreateUpsertsWithEmptyRemarks(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-empty-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	firstBody := `{"name":"FOO","value":"alpha","remarks":""}`
+	firstRec := performJSONRequest(engine, http.MethodPost, "/api/v1/envs", firstBody,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if firstRec.Code != http.StatusCreated {
+		t.Fatalf("expected initial 201, got %d body=%s", firstRec.Code, firstRec.Body.String())
+	}
+
+	secondBody := `{"name":"FOO","value":"beta","remarks":""}`
+	secondRec := performJSONRequest(engine, http.MethodPost, "/api/v1/envs", secondBody,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if secondRec.Code != http.StatusCreated {
+		t.Fatalf("expected second 201 for empty-remarks duplicate, got %d body=%s", secondRec.Code, secondRec.Body.String())
+	}
+
+	var count int64
+	database.DB.Model(&model.EnvVar{}).Where("name = ?", "FOO").Count(&count)
+	if count != 2 {
+		t.Fatalf("expected two FOO rows after duplicate POST, got %d", count)
+	}
+}
+
+// TestUpdateAcceptsEnabledAndValueInSingleRequest verifies the enabled flag
+// now flows through the generic PUT endpoint instead of needing a separate
+// /enable or /disable call.
+func TestUpdateAcceptsEnabledAndValueInSingleRequest(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-update-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	env := &model.EnvVar{Name: "TOGGLED", Value: "on", Enabled: true, Position: 1000}
+	if err := database.DB.Create(env).Error; err != nil {
+		t.Fatalf("seed env: %v", err)
+	}
+
+	body := `{"value":"off","enabled":false,"remarks":"disabled-by-admin"}`
+	rec := performJSONRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/envs/%d", env.ID), body,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	var reloaded model.EnvVar
+	if err := database.DB.First(&reloaded, env.ID).Error; err != nil {
+		t.Fatalf("reload env: %v", err)
+	}
+	if reloaded.Value != "off" {
+		t.Fatalf("expected value off, got %q", reloaded.Value)
+	}
+	if reloaded.Enabled {
+		t.Fatalf("expected enabled=false, got true")
+	}
+	if reloaded.Remarks != "disabled-by-admin" {
+		t.Fatalf("expected remarks updated, got %q", reloaded.Remarks)
+	}
+}
+
+// TestUpdateRejectsIdentityCollision 原为撞对码 409 契约；青龙化后 (name, remarks)
+// 不再是唯一键，把一条 row 的 name/remarks 改到和另一条相同应当正常 200 OK，
+// 原行被实际更新。多账号场景下允许两条都是 "KEEPER/stable"。
+func TestUpdateRejectsIdentityCollision(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-collision-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	keeper := &model.EnvVar{Name: "KEEPER", Value: "k", Remarks: "stable", Enabled: true, Position: 1000}
+	victim := &model.EnvVar{Name: "VICTIM", Value: "v", Remarks: "movable", Enabled: true, Position: 2000}
+	if err := database.DB.Create(keeper).Error; err != nil {
+		t.Fatalf("seed keeper: %v", err)
+	}
+	if err := database.DB.Create(victim).Error; err != nil {
+		t.Fatalf("seed victim: %v", err)
+	}
+
+	body := `{"name":"KEEPER","remarks":"stable"}`
+	rec := performJSONRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/envs/%d", victim.ID), body,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200 after removing identity collision guard, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	var reloaded model.EnvVar
+	if err := database.DB.First(&reloaded, victim.ID).Error; err != nil {
+		t.Fatalf("reload victim: %v", err)
+	}
+	if reloaded.Name != "KEEPER" || reloaded.Remarks != "stable" {
+		t.Fatalf("victim should be renamed to KEEPER/stable, got name=%q remarks=%q", reloaded.Name, reloaded.Remarks)
+	}
+
+	// 两条 (KEEPER, stable) 都应存在。
+	var count int64
+	database.DB.Model(&model.EnvVar{}).Where("name = ? AND remarks = ?", "KEEPER", "stable").Count(&count)
+	if count != 2 {
+		t.Fatalf("expected two rows with (KEEPER, stable) after rename, got %d", count)
+	}
+}
+
+// TestUpdateSkipsDatabaseWriteWhenNoChange asserts the change-detection short
+// circuit: unchanged payloads must not bump updated_at.
+func TestUpdateSkipsDatabaseWriteWhenNoChange(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-noop-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	env := &model.EnvVar{Name: "UNCHANGED", Value: "same", Remarks: "same", Enabled: true, Position: 1000}
+	if err := database.DB.Create(env).Error; err != nil {
+		t.Fatalf("seed env: %v", err)
+	}
+
+	var before model.EnvVar
+	if err := database.DB.First(&before, env.ID).Error; err != nil {
+		t.Fatalf("load before: %v", err)
+	}
+	beforeUpdated := before.UpdatedAt
+
+	body := `{"name":"UNCHANGED","value":"same","remarks":"same","enabled":true}`
+	rec := performJSONRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/envs/%d", env.ID), body,
+		map[string]string{"Authorization": "Bearer " + token}, "")
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	var after model.EnvVar
+	if err := database.DB.First(&after, env.ID).Error; err != nil {
+		t.Fatalf("load after: %v", err)
+	}
+	if !after.UpdatedAt.Equal(beforeUpdated) {
+		t.Fatalf("expected updated_at unchanged on no-op update, before=%v after=%v", beforeUpdated, after.UpdatedAt)
+	}
+}
+
+// TestImportMergeMatchesOnNameAndRemarks switches the import semantics from
+// matching on (name, value) — where a refreshed value forked a duplicate — to
+// matching on (name, remarks), so imports cleanly overwrite the value.
+func TestImportMergeMatchesOnNameAndRemarks(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "env-import-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	existing := &model.EnvVar{Name: "PAIR", Value: "old", Remarks: "id-1", Enabled: false, Position: 1000}
+	if err := database.DB.Create(existing).Error; err != nil {
+		t.Fatalf("seed existing: %v", err)
+	}
+
+	payload := map[string]interface{}{
+		"mode": "merge",
+		"envs": []map[string]interface{}{
+			{"name": "PAIR", "value": "new", "remarks": "id-1", "enabled": true},
+		},
+	}
+	body, _ := json.Marshal(payload)
+	req := httptest.NewRequest(http.MethodPost, "/api/v1/envs/import", bytes.NewReader(body))
+	req.Header.Set("Authorization", "Bearer "+token)
+	req.Header.Set("Content-Type", "application/json")
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected 201, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	var count int64
+	database.DB.Model(&model.EnvVar{}).Where("name = ? AND remarks = ?", "PAIR", "id-1").Count(&count)
+	if count != 1 {
+		t.Fatalf("expected single row after merge import, got %d", count)
+	}
+
+	var reloaded model.EnvVar
+	if err := database.DB.First(&reloaded, existing.ID).Error; err != nil {
+		t.Fatalf("reload existing: %v", err)
+	}
+	if reloaded.Value != "new" {
+		t.Fatalf("expected merged value new, got %q", reloaded.Value)
+	}
+	if !reloaded.Enabled {
+		t.Fatalf("expected enabled flipped to true on merge, got false")
+	}
+}

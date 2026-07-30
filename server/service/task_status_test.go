@@ -1,1 +1,72 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCgkiZ2l0aHViLmNvbS9yb2JmaWcvY3Jvbi92MyIKKQoKZnVuYyBUZXN0UmVzb2x2ZVRhc2tJbmFjdGl2ZVN0YXR1cyh0ICp0ZXN0aW5nLlQpIHsKCXByZXZpb3VzU2NoZWR1bGVyIDo9IGdsb2JhbFNjaGVkdWxlcgoJdC5DbGVhbnVwKGZ1bmMoKSB7CgkJZ2xvYmFsU2NoZWR1bGVyID0gcHJldmlvdXNTY2hlZHVsZXIKCX0pCgoJdC5SdW4oImRpc2FibGVkIHRhc2sgc3RheXMgZGlzYWJsZWQiLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCWdsb2JhbFNjaGVkdWxlciA9IG5pbAoJCXRhc2sgOj0gJm1vZGVsLlRhc2t7SUQ6IDEsIFN0YXR1czogbW9kZWwuVGFza1N0YXR1c0Rpc2FibGVkfQoJCWlmIGdvdCA6PSBSZXNvbHZlVGFza0luYWN0aXZlU3RhdHVzKHRhc2spOyBnb3QgIT0gbW9kZWwuVGFza1N0YXR1c0Rpc2FibGVkIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGRpc2FibGVkIHN0YXR1cywgZ290ICV2IiwgZ290KQoJCX0KCX0pCgoJdC5SdW4oImVuYWJsZWQgdGFzayBzdGF5cyBlbmFibGVkIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQlnbG9iYWxTY2hlZHVsZXIgPSBuaWwKCQl0YXNrIDo9ICZtb2RlbC5UYXNre0lEOiAyLCBTdGF0dXM6IG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkfQoJCWlmIGdvdCA6PSBSZXNvbHZlVGFza0luYWN0aXZlU3RhdHVzKHRhc2spOyBnb3QgIT0gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5hYmxlZCBzdGF0dXMsIGdvdCAldiIsIGdvdCkKCQl9Cgl9KQoKCXQuUnVuKCJydW5uaW5nIHRhc2sgd2l0aG91dCBzY2hlZHVsZWQgam9iIGZhbGxzIGJhY2sgdG8gZGlzYWJsZWQiLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCWdsb2JhbFNjaGVkdWxlciA9ICZTY2hlZHVsZXJWMnsKCQkJZW50cnlNYXA6IG1ha2UobWFwW3VpbnRdW11jcm9uLkVudHJ5SUQpLAoJCX0KCQl0YXNrIDo9ICZtb2RlbC5UYXNre0lEOiAzLCBTdGF0dXM6IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nfQoJCWlmIGdvdCA6PSBSZXNvbHZlVGFza0luYWN0aXZlU3RhdHVzKHRhc2spOyBnb3QgIT0gbW9kZWwuVGFza1N0YXR1c0Rpc2FibGVkIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGRpc2FibGVkIHN0YXR1cywgZ290ICV2IiwgZ290KQoJCX0KCX0pCgoJdC5SdW4oInJ1bm5pbmcgdGFzayB3aXRoIHNjaGVkdWxlZCBqb2IgZmFsbHMgYmFjayB0byBlbmFibGVkIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQlnbG9iYWxTY2hlZHVsZXIgPSAmU2NoZWR1bGVyVjJ7CgkJCWVudHJ5TWFwOiBtYXBbdWludF1bXWNyb24uRW50cnlJRHs0OiB7MX19LAoJCX0KCQl0YXNrIDo9ICZtb2RlbC5UYXNre0lEOiA0LCBTdGF0dXM6IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nfQoJCWlmIGdvdCA6PSBSZXNvbHZlVGFza0luYWN0aXZlU3RhdHVzKHRhc2spOyBnb3QgIT0gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW5hYmxlZCBzdGF0dXMsIGdvdCAldiIsIGdvdCkKCQl9Cgl9KQoKCXQuUnVuKCJydW5uaW5nIGVuYWJsZWQgbWFudWFsIHRhc2sgZmFsbHMgYmFjayB0byBlbmFibGVkIHdoZW4gcmVnaXN0ZXJlZCIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJZ2xvYmFsU2NoZWR1bGVyID0gJlNjaGVkdWxlclYyewoJCQllbnRyeU1hcDogbWFwW3VpbnRdW11jcm9uLkVudHJ5SUR7NToge319LAoJCX0KCQl0YXNrIDo9ICZtb2RlbC5UYXNre0lEOiA1LCBTdGF0dXM6IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nLCBUYXNrVHlwZTogbW9kZWwuVGFza1R5cGVNYW51YWx9CgkJaWYgZ290IDo9IFJlc29sdmVUYXNrSW5hY3RpdmVTdGF0dXModGFzayk7IGdvdCAhPSBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBlbmFibGVkIHN0YXR1cywgZ290ICV2IiwgZ290KQoJCX0KCX0pCgoJdC5SdW4oInJ1bm5pbmcgZGlzYWJsZWQgbWFudWFsIHRhc2sgZmFsbHMgYmFjayB0byBkaXNhYmxlZCB3aGVuIHVucmVnaXN0ZXJlZCIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJZ2xvYmFsU2NoZWR1bGVyID0gJlNjaGVkdWxlclYyewoJCQllbnRyeU1hcDogbWFrZShtYXBbdWludF1bXWNyb24uRW50cnlJRCksCgkJfQoJCXRhc2sgOj0gJm1vZGVsLlRhc2t7SUQ6IDYsIFN0YXR1czogbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcsIFRhc2tUeXBlOiBtb2RlbC5UYXNrVHlwZU1hbnVhbH0KCQlpZiBnb3QgOj0gUmVzb2x2ZVRhc2tJbmFjdGl2ZVN0YXR1cyh0YXNrKTsgZ290ICE9IG1vZGVsLlRhc2tTdGF0dXNEaXNhYmxlZCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBkaXNhYmxlZCBzdGF0dXMsIGdvdCAldiIsIGdvdCkKCQl9Cgl9KQp9Cg==
+package service
+
+import (
+	"testing"
+
+	"daidai-panel/model"
+
+	"github.com/robfig/cron/v3"
+)
+
+func TestResolveTaskInactiveStatus(t *testing.T) {
+	previousScheduler := globalScheduler
+	t.Cleanup(func() {
+		globalScheduler = previousScheduler
+	})
+
+	t.Run("disabled task stays disabled", func(t *testing.T) {
+		globalScheduler = nil
+		task := &model.Task{ID: 1, Status: model.TaskStatusDisabled}
+		if got := ResolveTaskInactiveStatus(task); got != model.TaskStatusDisabled {
+			t.Fatalf("expected disabled status, got %v", got)
+		}
+	})
+
+	t.Run("enabled task stays enabled", func(t *testing.T) {
+		globalScheduler = nil
+		task := &model.Task{ID: 2, Status: model.TaskStatusEnabled}
+		if got := ResolveTaskInactiveStatus(task); got != model.TaskStatusEnabled {
+			t.Fatalf("expected enabled status, got %v", got)
+		}
+	})
+
+	t.Run("running task without scheduled job falls back to disabled", func(t *testing.T) {
+		globalScheduler = &SchedulerV2{
+			entryMap: make(map[uint][]cron.EntryID),
+		}
+		task := &model.Task{ID: 3, Status: model.TaskStatusRunning}
+		if got := ResolveTaskInactiveStatus(task); got != model.TaskStatusDisabled {
+			t.Fatalf("expected disabled status, got %v", got)
+		}
+	})
+
+	t.Run("running task with scheduled job falls back to enabled", func(t *testing.T) {
+		globalScheduler = &SchedulerV2{
+			entryMap: map[uint][]cron.EntryID{4: {1}},
+		}
+		task := &model.Task{ID: 4, Status: model.TaskStatusRunning}
+		if got := ResolveTaskInactiveStatus(task); got != model.TaskStatusEnabled {
+			t.Fatalf("expected enabled status, got %v", got)
+		}
+	})
+
+	t.Run("running enabled manual task falls back to enabled when registered", func(t *testing.T) {
+		globalScheduler = &SchedulerV2{
+			entryMap: map[uint][]cron.EntryID{5: {}},
+		}
+		task := &model.Task{ID: 5, Status: model.TaskStatusRunning, TaskType: model.TaskTypeManual}
+		if got := ResolveTaskInactiveStatus(task); got != model.TaskStatusEnabled {
+			t.Fatalf("expected enabled status, got %v", got)
+		}
+	})
+
+	t.Run("running disabled manual task falls back to disabled when unregistered", func(t *testing.T) {
+		globalScheduler = &SchedulerV2{
+			entryMap: make(map[uint][]cron.EntryID),
+		}
+		task := &model.Task{ID: 6, Status: model.TaskStatusRunning, TaskType: model.TaskTypeManual}
+		if got := ResolveTaskInactiveStatus(task); got != model.TaskStatusDisabled {
+			t.Fatalf("expected disabled status, got %v", got)
+		}
+	})
+}

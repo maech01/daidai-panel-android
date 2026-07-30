@@ -1,1 +1,110 @@
-aW1wb3J0IGxvYWRlciwgeyB0eXBlIE1vbmFjbyB9IGZyb20gJ0Btb25hY28tZWRpdG9yL2xvYWRlcicKCmNvbnN0IE1PTkFDT19DRE5fVlMgPSAnaHR0cHM6Ly9jZG4uanNkZWxpdnIubmV0L25wbS9tb25hY28tZWRpdG9yQDAuNTUuMS9taW4vdnMnCmNvbnN0IExPQ0FMX01PTkFDT19WUyA9ICdtb25hY28vdnMnCmNvbnN0IExPQ0FMX01PTkFDT19SRVFVSVJFRF9GSUxFUyA9IFsKICAnbG9hZGVyLmpzJywKICAnZWRpdG9yL2VkaXRvci5tYWluLmpzJywKICAnZWRpdG9yL2VkaXRvci5tYWluLmNzcycsCiAgJ2xhbmd1YWdlL2Nzcy9tb25hY28uY29udHJpYnV0aW9uLmpzJywKICAnbGFuZ3VhZ2UvaHRtbC9tb25hY28uY29udHJpYnV0aW9uLmpzJywKICAnbGFuZ3VhZ2UvanNvbi9tb25hY28uY29udHJpYnV0aW9uLmpzJywKICAnbGFuZ3VhZ2UvdHlwZXNjcmlwdC9tb25hY28uY29udHJpYnV0aW9uLmpzJywKXQoKdHlwZSBNb25hY29Tb3VyY2UgPSAnbG9jYWwnIHwgJ2NkbicKCmV4cG9ydCBpbnRlcmZhY2UgTW9uYWNvTG9hZFJlc3VsdCB7CiAgbW9uYWNvOiBNb25hY28KICBzb3VyY2U6IE1vbmFjb1NvdXJjZQp9CgpsZXQgbW9uYWNvUHJvbWlzZTogUHJvbWlzZTxNb25hY29Mb2FkUmVzdWx0PiB8IG51bGwgPSBudWxsCgpmdW5jdGlvbiBnZXRMb2NhbE1vbmFjb1dvcmtlclVybCgpIHsKICByZXR1cm4gYCR7aW1wb3J0Lm1ldGEuZW52LkJBU0VfVVJMfSR7TE9DQUxfTU9OQUNPX1ZTfS9sb2FkZXIuanNgCn0KCmZ1bmN0aW9uIGdldExvY2FsTW9uYWNvQXNzZXRVcmwocmVsYXRpdmVQYXRoOiBzdHJpbmcpIHsKICByZXR1cm4gYCR7aW1wb3J0Lm1ldGEuZW52LkJBU0VfVVJMfSR7TE9DQUxfTU9OQUNPX1ZTfS8ke3JlbGF0aXZlUGF0aH1gCn0KCmFzeW5jIGZ1bmN0aW9uIGNoZWNrTW9uYWNvQXNzZXRFeGlzdHMocmVsYXRpdmVQYXRoOiBzdHJpbmcpIHsKICBjb25zdCBhc3NldFVybCA9IGdldExvY2FsTW9uYWNvQXNzZXRVcmwocmVsYXRpdmVQYXRoKQoKICB0cnkgewogICAgY29uc3QgaGVhZFJlc3BvbnNlID0gYXdhaXQgZmV0Y2goYXNzZXRVcmwsIHsgbWV0aG9kOiAnSEVBRCcsIGNhY2hlOiAnbm8tc3RvcmUnIH0pCiAgICBpZiAoaGVhZFJlc3BvbnNlLm9rKSB7CiAgICAgIHJldHVybiB0cnVlCiAgICB9CiAgICBpZiAoaGVhZFJlc3BvbnNlLnN0YXR1cyAhPT0gNDA1KSB7CiAgICAgIHJldHVybiBmYWxzZQogICAgfQogIH0gY2F0Y2ggewogICAgcmV0dXJuIGZhbHNlCiAgfQoKICB0cnkgewogICAgY29uc3QgZ2V0UmVzcG9uc2UgPSBhd2FpdCBmZXRjaChhc3NldFVybCwgeyBtZXRob2Q6ICdHRVQnLCBjYWNoZTogJ25vLXN0b3JlJyB9KQogICAgZ2V0UmVzcG9uc2UuYm9keT8uY2FuY2VsPy4oKQogICAgcmV0dXJuIGdldFJlc3BvbnNlLm9rCiAgfSBjYXRjaCB7CiAgICByZXR1cm4gZmFsc2UKICB9Cn0KCmFzeW5jIGZ1bmN0aW9uIGNhblVzZUxvY2FsTW9uYWNvKCkgewogIC8vIOS4jeiDveWPqueciyBsb2FkZXIuanPjgIIKICAvLyB2Mi4yLjE5IOeahOaVhemanOWwseaYryBsb2FkZXIuanMg6L+Y5Zyo77yM5L2GIGVkaXRvci9tYWlu44CBd29ya2Vy44CBYmFzaWMtbGFuZ3VhZ2VzIOetieW3suiiq+ijgeaOie+8jAogIC8vIOWvvOiHtOWJjeerr+ivr+WIpOKAnOacrOWcsCBNb25hY28g5Y+v55So4oCd77yM55yf5q2j5Yid5aeL5YyW5pe25omN5bSp44CCCiAgZm9yIChjb25zdCByZWxhdGl2ZVBhdGggb2YgTE9DQUxfTU9OQUNPX1JFUVVJUkVEX0ZJTEVTKSB7CiAgICBjb25zdCBleGlzdHMgPSBhd2FpdCBjaGVja01vbmFjb0Fzc2V0RXhpc3RzKHJlbGF0aXZlUGF0aCkKICAgIGlmICghZXhpc3RzKSB7CiAgICAgIHJldHVybiBmYWxzZQogICAgfQogIH0KICByZXR1cm4gdHJ1ZQp9Cgphc3luYyBmdW5jdGlvbiBsb2FkTG9jYWxNb25hY28oKTogUHJvbWlzZTxNb25hY29Mb2FkUmVzdWx0PiB7CiAgbG9hZGVyLmNvbmZpZyh7CiAgICBwYXRoczogewogICAgICB2czogYCR7aW1wb3J0Lm1ldGEuZW52LkJBU0VfVVJMfSR7TE9DQUxfTU9OQUNPX1ZTfWAKICAgIH0KICB9KQoKICBjb25zdCBtb25hY28gPSBhd2FpdCBsb2FkZXIuaW5pdCgpCiAgcmV0dXJuIHsgbW9uYWNvLCBzb3VyY2U6ICdsb2NhbCcgfQp9Cgphc3luYyBmdW5jdGlvbiBsb2FkQ2RuTW9uYWNvKCk6IFByb21pc2U8TW9uYWNvTG9hZFJlc3VsdD4gewogIGxvYWRlci5jb25maWcoewogICAgcGF0aHM6IHsKICAgICAgdnM6IE1PTkFDT19DRE5fVlMKICAgIH0KICB9KQoKICBjb25zdCBtb25hY28gPSBhd2FpdCBsb2FkZXIuaW5pdCgpCiAgcmV0dXJuIHsgbW9uYWNvLCBzb3VyY2U6ICdjZG4nIH0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxvYWRNb25hY29FZGl0b3IoKTogUHJvbWlzZTxNb25hY29Mb2FkUmVzdWx0PiB7CiAgaWYgKCFtb25hY29Qcm9taXNlKSB7CiAgICBtb25hY29Qcm9taXNlID0gKGFzeW5jICgpID0+IHsKICAgICAgaWYgKGF3YWl0IGNhblVzZUxvY2FsTW9uYWNvKCkpIHsKICAgICAgICB0cnkgewogICAgICAgICAgcmV0dXJuIGF3YWl0IGxvYWRMb2NhbE1vbmFjbygpCiAgICAgICAgfSBjYXRjaCAoZXJyb3IpIHsKICAgICAgICAgIGNvbnNvbGUud2Fybign5pys5ZywIE1vbmFjbyDotYTmupDliqDovb3lpLHotKXvvIzlt7Llm57pgIDliLAgQ0RO44CCJywgZXJyb3IpCiAgICAgICAgfQogICAgICB9CgogICAgICByZXR1cm4gbG9hZENkbk1vbmFjbygpCiAgICB9KSgpLmNhdGNoKChlcnJvcikgPT4gewogICAgICBtb25hY29Qcm9taXNlID0gbnVsbAogICAgICB0aHJvdyBlcnJvcgogICAgfSkKICB9CgogIHJldHVybiBtb25hY29Qcm9taXNlCn0K
+import loader, { type Monaco } from '@monaco-editor/loader'
+
+const MONACO_CDN_VS = 'https://cdn.jsdelivr.net/npm/monaco-editor@0.55.1/min/vs'
+const LOCAL_MONACO_VS = 'monaco/vs'
+const LOCAL_MONACO_REQUIRED_FILES = [
+  'loader.js',
+  'editor/editor.main.js',
+  'editor/editor.main.css',
+  'language/css/monaco.contribution.js',
+  'language/html/monaco.contribution.js',
+  'language/json/monaco.contribution.js',
+  'language/typescript/monaco.contribution.js',
+]
+
+type MonacoSource = 'local' | 'cdn'
+
+export interface MonacoLoadResult {
+  monaco: Monaco
+  source: MonacoSource
+}
+
+let monacoPromise: Promise<MonacoLoadResult> | null = null
+
+function getLocalMonacoWorkerUrl() {
+  return `${import.meta.env.BASE_URL}${LOCAL_MONACO_VS}/loader.js`
+}
+
+function getLocalMonacoAssetUrl(relativePath: string) {
+  return `${import.meta.env.BASE_URL}${LOCAL_MONACO_VS}/${relativePath}`
+}
+
+async function checkMonacoAssetExists(relativePath: string) {
+  const assetUrl = getLocalMonacoAssetUrl(relativePath)
+
+  try {
+    const headResponse = await fetch(assetUrl, { method: 'HEAD', cache: 'no-store' })
+    if (headResponse.ok) {
+      return true
+    }
+    if (headResponse.status !== 405) {
+      return false
+    }
+  } catch {
+    return false
+  }
+
+  try {
+    const getResponse = await fetch(assetUrl, { method: 'GET', cache: 'no-store' })
+    getResponse.body?.cancel?.()
+    return getResponse.ok
+  } catch {
+    return false
+  }
+}
+
+async function canUseLocalMonaco() {
+  // 不能只看 loader.js。
+  // v2.2.19 的故障就是 loader.js 还在，但 editor/main、worker、basic-languages 等已被裁掉，
+  // 导致前端误判“本地 Monaco 可用”，真正初始化时才崩。
+  for (const relativePath of LOCAL_MONACO_REQUIRED_FILES) {
+    const exists = await checkMonacoAssetExists(relativePath)
+    if (!exists) {
+      return false
+    }
+  }
+  return true
+}
+
+async function loadLocalMonaco(): Promise<MonacoLoadResult> {
+  loader.config({
+    paths: {
+      vs: `${import.meta.env.BASE_URL}${LOCAL_MONACO_VS}`
+    }
+  })
+
+  const monaco = await loader.init()
+  return { monaco, source: 'local' }
+}
+
+async function loadCdnMonaco(): Promise<MonacoLoadResult> {
+  loader.config({
+    paths: {
+      vs: MONACO_CDN_VS
+    }
+  })
+
+  const monaco = await loader.init()
+  return { monaco, source: 'cdn' }
+}
+
+export async function loadMonacoEditor(): Promise<MonacoLoadResult> {
+  if (!monacoPromise) {
+    monacoPromise = (async () => {
+      if (await canUseLocalMonaco()) {
+        try {
+          return await loadLocalMonaco()
+        } catch (error) {
+          console.warn('本地 Monaco 资源加载失败，已回退到 CDN。', error)
+        }
+      }
+
+      return loadCdnMonaco()
+    })().catch((error) => {
+      monacoPromise = null
+      throw error
+    })
+  }
+
+  return monacoPromise
+}

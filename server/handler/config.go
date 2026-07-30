@@ -1,1 +1,200 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImxvZyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9taWRkbGV3YXJlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCnR5cGUgQ29uZmlnSGFuZGxlciBzdHJ1Y3R7fQoKZnVuYyBOZXdDb25maWdIYW5kbGVyKCkgKkNvbmZpZ0hhbmRsZXIgewoJcmV0dXJuICZDb25maWdIYW5kbGVye30KfQoKZnVuYyByZWxvYWRSdW50aW1lQ29uZmlnS2V5cyhrZXlzIC4uLnN0cmluZykgewoJZm9yIF8sIGtleSA6PSByYW5nZSBrZXlzIHsKCQlzd2l0Y2gga2V5IHsKCQljYXNlIG1vZGVsLlBhbmVsVGltZXpvbmVDb25maWdLZXk6CgkJCWlmIGVyciA6PSBzZXJ2aWNlLkFwcGx5UmVnaXN0ZXJlZFBhbmVsVGltZXpvbmUoKTsgZXJyICE9IG5pbCB7CgkJCQlsb2cuUHJpbnRmKCJ3YXJuOiBhcHBseSBwYW5lbCB0aW1lem9uZSBmYWlsZWQ6ICV2IiwgZXJyKQoJCQl9CgkJY2FzZSAidHJ1c3RlZF9wcm94eV9jaWRycyI6CgkJCV8gPSBtaWRkbGV3YXJlLkNvbmZpZ3VyZVRydXN0ZWRQcm94eUNJRFJzKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoa2V5KSkKCQljYXNlICJiYWNrdXBfc2NoZWR1bGVfZW5hYmxlZCIsCgkJCSJiYWNrdXBfc2NoZWR1bGVfZnJlcXVlbmN5IiwKCQkJImJhY2t1cF9zY2hlZHVsZV90aW1lIiwKCQkJImJhY2t1cF9zY2hlZHVsZV93ZWVrZGF5IiwKCQkJImJhY2t1cF9zY2hlZHVsZV9tb250aGRheSIsCgkJCSJiYWNrdXBfc2NoZWR1bGVfbmFtZSIsCgkJCSJiYWNrdXBfc2NoZWR1bGVfcGFzc3dvcmQiLAoJCQkiYmFja3VwX3NjaGVkdWxlX3NlbGVjdGlvbiI6CgkJCXNlcnZpY2UuUmVsb2FkQmFja3VwU2NoZWR1bGVyKCkKCQl9Cgl9Cn0KCmZ1bmMgYnVpbGRDb25maWdSZXNwb25zZUl0ZW0oY2ZnICptb2RlbC5TeXN0ZW1Db25maWcsIGRlZiAqbW9kZWwuU3lzdGVtQ29uZmlnRGVmaW5pdGlvbikgZ2luLkggewoJaXRlbSA6PSBnaW4uSHsKCQkicmVnaXN0ZXJlZCI6IGZhbHNlLAoJCSJ1cGRhdGVkX2F0IjogbmlsLAoJfQoKCWlmIGNmZyAhPSBuaWwgewoJCWl0ZW1bInZhbHVlIl0gPSBjZmcuVmFsdWUKCQlpdGVtWyJkZXNjcmlwdGlvbiJdID0gY2ZnLkRlc2NyaXB0aW9uCgkJaXRlbVsidXBkYXRlZF9hdCJdID0gY2ZnLlVwZGF0ZWRBdAoJfSBlbHNlIHsKCQlpdGVtWyJ2YWx1ZSJdID0gIiIKCQlpdGVtWyJkZXNjcmlwdGlvbiJdID0gIiIKCX0KCglpZiBkZWYgIT0gbmlsIHsKCQlpdGVtWyJyZWdpc3RlcmVkIl0gPSB0cnVlCgkJaXRlbVsiZGVmYXVsdF92YWx1ZSJdID0gZGVmLkRlZmF1bHRWYWx1ZQoJCWl0ZW1bInZhbHVlX3R5cGUiXSA9IGRlZi5WYWx1ZVR5cGUKCQlpdGVtWyJncm91cCJdID0gZGVmLkdyb3VwCgkJaXRlbVsiZGVzY3JpcHRpb24iXSA9IGRlZi5EZXNjcmlwdGlvbgoJCWlmIGNmZyA9PSBuaWwgfHwgY2ZnLlZhbHVlID09ICIiIHsKCQkJaXRlbVsidmFsdWUiXSA9IGRlZi5EZWZhdWx0VmFsdWUKCQl9CgkJaWYgbGVuKGRlZi5PcHRpb25zKSA+IDAgewoJCQlpdGVtWyJvcHRpb25zIl0gPSBkZWYuT3B0aW9ucwoJCX0KCX0KCglyZXR1cm4gaXRlbQp9CgpmdW5jIChoICpDb25maWdIYW5kbGVyKSBMaXN0KGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgY29uZmlncyBbXW1vZGVsLlN5c3RlbUNvbmZpZwoJZGF0YWJhc2UuREIuT3JkZXIoImtleSBBU0MiKS5GaW5kKCZjb25maWdzKQoKCWNvbmZpZ01hcCA6PSBtYWtlKG1hcFtzdHJpbmddbW9kZWwuU3lzdGVtQ29uZmlnLCBsZW4oY29uZmlncykpCglmb3IgXywgY2ZnIDo9IHJhbmdlIGNvbmZpZ3MgewoJCWNvbmZpZ01hcFtjZmcuS2V5XSA9IGNmZwoJfQoKCWRhdGEgOj0gbWFrZShtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJZm9yIF8sIGRlZiA6PSByYW5nZSBtb2RlbC5TeXN0ZW1Db25maWdEZWZpbml0aW9ucygpIHsKCQljZmcsIGV4aXN0cyA6PSBjb25maWdNYXBbZGVmLktleV0KCQlpZiBleGlzdHMgewoJCQljZmdDb3B5IDo9IGNmZwoJCQlkYXRhW2RlZi5LZXldID0gYnVpbGRDb25maWdSZXNwb25zZUl0ZW0oJmNmZ0NvcHksICZkZWYpCgkJCWRlbGV0ZShjb25maWdNYXAsIGRlZi5LZXkpCgkJCWNvbnRpbnVlCgkJfQoJCWRlZkNvcHkgOj0gZGVmCgkJZGF0YVtkZWYuS2V5XSA9IGJ1aWxkQ29uZmlnUmVzcG9uc2VJdGVtKG5pbCwgJmRlZkNvcHkpCgl9CgoJZm9yIGtleSwgY2ZnIDo9IHJhbmdlIGNvbmZpZ01hcCB7CgkJY2ZnQ29weSA6PSBjZmcKCQlkYXRhW2tleV0gPSBidWlsZENvbmZpZ1Jlc3BvbnNlSXRlbSgmY2ZnQ29weSwgbmlsKQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBkYXRhfSkKfQoKZnVuYyAoaCAqQ29uZmlnSGFuZGxlcikgR2V0KGMgKmdpbi5Db250ZXh0KSB7CglrZXkgOj0gYy5QYXJhbSgia2V5IikKCgl2YXIgY2ZnIG1vZGVsLlN5c3RlbUNvbmZpZwoJY2ZnRXhpc3RzIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJga2V5YCA9ID8iLCBrZXkpLkZpcnN0KCZjZmcpLkVycm9yID09IG5pbAoKCWlmIGRlZiwgZXhpc3RzIDo9IG1vZGVsLkdldFN5c3RlbUNvbmZpZ0RlZmluaXRpb24oa2V5KTsgZXhpc3RzIHsKCQl2YXIgY2ZnUHRyICptb2RlbC5TeXN0ZW1Db25maWcKCQlpZiBjZmdFeGlzdHMgewoJCQljZmdQdHIgPSAmY2ZnCgkJfQoJCWl0ZW0gOj0gYnVpbGRDb25maWdSZXNwb25zZUl0ZW0oY2ZnUHRyLCAmZGVmKQoJCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImRhdGEiOiBnaW4uSHsKCQkJImtleSI6ICAgIGtleSwKCQkJInZhbHVlIjogIGl0ZW1bInZhbHVlIl0sCgkJCSJjb25maWciOiBpdGVtLAoJCX19KQoJCXJldHVybgoJfQoKCWlmICFjZmdFeGlzdHMgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLphY3nva7kuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCWl0ZW0gOj0gYnVpbGRDb25maWdSZXNwb25zZUl0ZW0oJmNmZywgbmlsKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsiZGF0YSI6IGdpbi5IewoJCSJrZXkiOiAgICBrZXksCgkJInZhbHVlIjogIGl0ZW1bInZhbHVlIl0sCgkJImNvbmZpZyI6IGl0ZW0sCgl9fSkKfQoKZnVuYyAoaCAqQ29uZmlnSGFuZGxlcikgU2V0KGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJS2V5ICAgICAgICAgc3RyaW5nIGBqc29uOiJrZXkiIGJpbmRpbmc6InJlcXVpcmVkImAKCQlWYWx1ZSAgICAgICBzdHJpbmcgYGpzb246InZhbHVlImAKCQlEZXNjcmlwdGlvbiBzdHJpbmcgYGpzb246ImRlc2NyaXB0aW9uImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcocmVxLktleSwgcmVxLlZhbHVlKTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCBlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCXJlbG9hZFJ1bnRpbWVDb25maWdLZXlzKHJlcS5LZXkpCgoJdmFyIGNmZyBtb2RlbC5TeXN0ZW1Db25maWcKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiYGtleWAgPSA/IiwgcmVxLktleSkuRmlyc3QoJmNmZykuRXJyb3I7IGVyciA9PSBuaWwgJiYgcmVxLkRlc2NyaXB0aW9uICE9ICIiIHsKCQlkYXRhYmFzZS5EQi5Nb2RlbCgmY2ZnKS5VcGRhdGUoImRlc2NyaXB0aW9uIiwgcmVxLkRlc2NyaXB0aW9uKQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7Im1lc3NhZ2UiOiAi6YWN572u5bey5pu05pawIn0pCn0KCmZ1bmMgKGggKkNvbmZpZ0hhbmRsZXIpIEJhdGNoU2V0KGMgKmdpbi5Db250ZXh0KSB7Cgl2YXIgcmVxIHN0cnVjdCB7CgkJQ29uZmlncyBtYXBbc3RyaW5nXXN0cmluZyBganNvbjoiY29uZmlncyIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJZm9yIGtleSwgdmFsdWUgOj0gcmFuZ2UgcmVxLkNvbmZpZ3MgewoJCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoa2V5LCB2YWx1ZSk7IGVyciAhPSBuaWwgewoJCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsIGVyci5FcnJvcigpKQoJCQlyZXR1cm4KCQl9Cgl9Cglmb3Iga2V5IDo9IHJhbmdlIHJlcS5Db25maWdzIHsKCQlyZWxvYWRSdW50aW1lQ29uZmlnS2V5cyhrZXkpCgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLphY3nva7lt7Lmm7TmlrAifSkKfQoKZnVuYyAoaCAqQ29uZmlnSGFuZGxlcikgRGVsZXRlKGMgKmdpbi5Db250ZXh0KSB7CglrZXkgOj0gYy5QYXJhbSgia2V5IikKCWRhdGFiYXNlLkRCLldoZXJlKCJga2V5YCA9ID8iLCBrZXkpLkRlbGV0ZSgmbW9kZWwuU3lzdGVtQ29uZmlne30pCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IeyJtZXNzYWdlIjogIumFjee9ruW3suWIoOmZpCJ9KQp9CgpmdW5jIChoICpDb25maWdIYW5kbGVyKSBSZWdpc3RlclJvdXRlcyhyICpnaW4uUm91dGVyR3JvdXApIHsKCWNmZ3MgOj0gci5Hcm91cCgiL2NvbmZpZ3MiLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgbWlkZGxld2FyZS5SZXF1aXJlQWRtaW4oKSkKCXsKCQljZmdzLkdFVCgiIiwgaC5MaXN0KQoJCWNmZ3MuR0VUKCIvOmtleSIsIGguR2V0KQoJCWNmZ3MuUE9TVCgiIiwgaC5TZXQpCgkJY2Zncy5QVVQoIi9iYXRjaCIsIGguQmF0Y2hTZXQpCgkJY2Zncy5ERUxFVEUoIi86a2V5IiwgaC5EZWxldGUpCgl9Cn0K
+package handler
+
+import (
+	"log"
+
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+type ConfigHandler struct{}
+
+func NewConfigHandler() *ConfigHandler {
+	return &ConfigHandler{}
+}
+
+func reloadRuntimeConfigKeys(keys ...string) {
+	for _, key := range keys {
+		switch key {
+		case model.PanelTimezoneConfigKey:
+			if err := service.ApplyRegisteredPanelTimezone(); err != nil {
+				log.Printf("warn: apply panel timezone failed: %v", err)
+			}
+		case "trusted_proxy_cidrs":
+			_ = middleware.ConfigureTrustedProxyCIDRs(model.GetRegisteredConfig(key))
+		case "backup_schedule_enabled",
+			"backup_schedule_frequency",
+			"backup_schedule_time",
+			"backup_schedule_weekday",
+			"backup_schedule_monthday",
+			"backup_schedule_name",
+			"backup_schedule_password",
+			"backup_schedule_selection":
+			service.ReloadBackupScheduler()
+		}
+	}
+}
+
+func buildConfigResponseItem(cfg *model.SystemConfig, def *model.SystemConfigDefinition) gin.H {
+	item := gin.H{
+		"registered": false,
+		"updated_at": nil,
+	}
+
+	if cfg != nil {
+		item["value"] = cfg.Value
+		item["description"] = cfg.Description
+		item["updated_at"] = cfg.UpdatedAt
+	} else {
+		item["value"] = ""
+		item["description"] = ""
+	}
+
+	if def != nil {
+		item["registered"] = true
+		item["default_value"] = def.DefaultValue
+		item["value_type"] = def.ValueType
+		item["group"] = def.Group
+		item["description"] = def.Description
+		if cfg == nil || cfg.Value == "" {
+			item["value"] = def.DefaultValue
+		}
+		if len(def.Options) > 0 {
+			item["options"] = def.Options
+		}
+	}
+
+	return item
+}
+
+func (h *ConfigHandler) List(c *gin.Context) {
+	var configs []model.SystemConfig
+	database.DB.Order("key ASC").Find(&configs)
+
+	configMap := make(map[string]model.SystemConfig, len(configs))
+	for _, cfg := range configs {
+		configMap[cfg.Key] = cfg
+	}
+
+	data := make(map[string]interface{})
+	for _, def := range model.SystemConfigDefinitions() {
+		cfg, exists := configMap[def.Key]
+		if exists {
+			cfgCopy := cfg
+			data[def.Key] = buildConfigResponseItem(&cfgCopy, &def)
+			delete(configMap, def.Key)
+			continue
+		}
+		defCopy := def
+		data[def.Key] = buildConfigResponseItem(nil, &defCopy)
+	}
+
+	for key, cfg := range configMap {
+		cfgCopy := cfg
+		data[key] = buildConfigResponseItem(&cfgCopy, nil)
+	}
+
+	response.Success(c, gin.H{"data": data})
+}
+
+func (h *ConfigHandler) Get(c *gin.Context) {
+	key := c.Param("key")
+
+	var cfg model.SystemConfig
+	cfgExists := database.DB.Where("`key` = ?", key).First(&cfg).Error == nil
+
+	if def, exists := model.GetSystemConfigDefinition(key); exists {
+		var cfgPtr *model.SystemConfig
+		if cfgExists {
+			cfgPtr = &cfg
+		}
+		item := buildConfigResponseItem(cfgPtr, &def)
+		response.Success(c, gin.H{"data": gin.H{
+			"key":    key,
+			"value":  item["value"],
+			"config": item,
+		}})
+		return
+	}
+
+	if !cfgExists {
+		response.NotFound(c, "配置不存在")
+		return
+	}
+
+	item := buildConfigResponseItem(&cfg, nil)
+	response.Success(c, gin.H{"data": gin.H{
+		"key":    key,
+		"value":  item["value"],
+		"config": item,
+	}})
+}
+
+func (h *ConfigHandler) Set(c *gin.Context) {
+	var req struct {
+		Key         string `json:"key" binding:"required"`
+		Value       string `json:"value"`
+		Description string `json:"description"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	if err := model.SetConfig(req.Key, req.Value); err != nil {
+		response.BadRequest(c, err.Error())
+		return
+	}
+	reloadRuntimeConfigKeys(req.Key)
+
+	var cfg model.SystemConfig
+	if err := database.DB.Where("`key` = ?", req.Key).First(&cfg).Error; err == nil && req.Description != "" {
+		database.DB.Model(&cfg).Update("description", req.Description)
+	}
+
+	response.Success(c, gin.H{"message": "配置已更新"})
+}
+
+func (h *ConfigHandler) BatchSet(c *gin.Context) {
+	var req struct {
+		Configs map[string]string `json:"configs" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	for key, value := range req.Configs {
+		if err := model.SetConfig(key, value); err != nil {
+			response.BadRequest(c, err.Error())
+			return
+		}
+	}
+	for key := range req.Configs {
+		reloadRuntimeConfigKeys(key)
+	}
+
+	response.Success(c, gin.H{"message": "配置已更新"})
+}
+
+func (h *ConfigHandler) Delete(c *gin.Context) {
+	key := c.Param("key")
+	database.DB.Where("`key` = ?", key).Delete(&model.SystemConfig{})
+	response.Success(c, gin.H{"message": "配置已删除"})
+}
+
+func (h *ConfigHandler) RegisterRoutes(r *gin.RouterGroup) {
+	cfgs := r.Group("/configs", middleware.JWTAuth(), middleware.RequireAdmin())
+	{
+		cfgs.GET("", h.List)
+		cfgs.GET("/:key", h.Get)
+		cfgs.POST("", h.Set)
+		cfgs.PUT("/batch", h.BatchSet)
+		cfgs.DELETE("/:key", h.Delete)
+	}
+}

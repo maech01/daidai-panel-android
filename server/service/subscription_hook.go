@@ -1,1 +1,121 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmNvbnYiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCikKCmNvbnN0IHN1YnNjcmlwdGlvbkhvb2tUaW1lb3V0U2Vjb25kcyA9IDkwMAoKZnVuYyBydW5TdWJzY3JpcHRpb25Ib29rSWZDb25maWd1cmVkKHN1YiAqbW9kZWwuU3Vic2NyaXB0aW9uLCBlbWl0IFB1bGxDYWxsYmFjaykgZXJyb3IgewoJaG9va1NjcmlwdCA6PSBub3JtYWxpemVTdWJzY3JpcHRpb25Ib29rU2NyaXB0KHN1YikKCWlmIGhvb2tTY3JpcHQgPT0gIiIgewoJCXJldHVybiBuaWwKCX0KCgl3b3JrRGlyIDo9IHN1YnNjcmlwdGlvbldvcmtpbmdEaXIoc3ViKQoJaWYgXywgZXJyIDo9IG9zLlN0YXQod29ya0Rpcik7IGVyciAhPSBuaWwgewoJCXdvcmtEaXIgPSBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIKCX0KCgllbWl0KCJb5omn6KGM6K6i6ZiF6ZKp5a2QXSIpCgllcnIgOj0gUnVuSW5saW5lU2NyaXB0KGhvb2tTY3JpcHQsIHdvcmtEaXIsIGJ1aWxkU3Vic2NyaXB0aW9uSG9va0VudihzdWIsIHdvcmtEaXIpLCBzdWJzY3JpcHRpb25Ib29rVGltZW91dFNlY29uZHMsIGZ1bmMobGluZSBzdHJpbmcpIHsKCQllbWl0KCJbaG9va10gIiArIGxpbmUpCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuaJp+ihjOiuoumYhemSqeWtkOWksei0pTogJXciLCBlcnIpCgl9CgoJZW1pdCgiW+iuoumYhemSqeWtkOWujOaIkF0iKQoJcmV0dXJuIG5pbAp9CgpmdW5jIGJ1aWxkU3Vic2NyaXB0aW9uSG9va0VudihzdWIgKm1vZGVsLlN1YnNjcmlwdGlvbiwgd29ya0RpciBzdHJpbmcpIG1hcFtzdHJpbmddc3RyaW5nIHsKCWRhdGFEaXIgOj0gc3RyaW5ncy5UcmltU3BhY2UoY29uZmlnLkMuRGF0YS5EaXIpCglxbERpciA6PSBkYXRhRGlyCglpZiBzdHJpbmdzLkVxdWFsRm9sZChmaWxlcGF0aC5CYXNlKGRhdGFEaXIpLCAiZGF0YSIpIHsKCQlxbERpciA9IGZpbGVwYXRoLkRpcihkYXRhRGlyKQoJfQoKCXJldHVybiBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiU1VCX0lEIjogICAgICAgICAgICBzdHJjb252LkZvcm1hdFVpbnQodWludDY0KHN1Yi5JRCksIDEwKSwKCQkiU1VCX05BTUUiOiAgICAgICAgICBzdWIuTmFtZSwKCQkiU1VCX1RZUEUiOiAgICAgICAgICBzdWIuVHlwZSwKCQkiU1VCX1VSTCI6ICAgICAgICAgICBzdWIuVVJMLAoJCSJTVUJfQlJBTkNIIjogICAgICAgIHN1Yi5CcmFuY2gsCgkJIlNVQl9TQVZFX0RJUiI6ICAgICAgc3Vic2NyaXB0aW9uU2F2ZURpcihzdWIpLAoJCSJTVUJfRElSIjogICAgICAgICAgIHdvcmtEaXIsCgkJIlNVQl9XT1JLX0RJUiI6ICAgICAgd29ya0RpciwKCQkiU0NSSVBUU19ESVIiOiAgICAgICBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsCgkJIlBBTkVMX0RBVEFfRElSIjogICAgZGF0YURpciwKCQkiUEFORUxfU0NSSVBUU19ESVIiOiBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsCgkJIlFMX0RJUiI6ICAgICAgICAgICAgcWxEaXIsCgl9Cn0KCmZ1bmMgbm9ybWFsaXplU3Vic2NyaXB0aW9uSG9va1NjcmlwdChzdWIgKm1vZGVsLlN1YnNjcmlwdGlvbikgc3RyaW5nIHsKCWhvb2tTY3JpcHQgOj0gc3RyaW5ncy5UcmltU3BhY2Uoc3ViLkhvb2tTY3JpcHQpCglpZiBob29rU2NyaXB0ID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCglyZXBvS2V5IDo9IGRlcml2ZVN1YnNjcmlwdGlvblJlcG9LZXkoc3ViLlVSTCkKCWlmIHJlcG9LZXkgPT0gIiIgewoJCXJldHVybiBob29rU2NyaXB0Cgl9CgoJcmVwbGFjZW1lbnRzIDo9IFtdc3RyaW5newoJCSIkUUxfRElSL2RhdGEvcmVwby8iICsgcmVwb0tleSwKCQkiJHtRTF9ESVJ9L2RhdGEvcmVwby8iICsgcmVwb0tleSwKCQkiJFFMX0RJUi9kYXRhL3NjcmlwdHMvIiArIHJlcG9LZXksCgkJIiR7UUxfRElSfS9kYXRhL3NjcmlwdHMvIiArIHJlcG9LZXksCgkJIiVRTF9ESVIlXFxkYXRhXFxyZXBvXFwiICsgcmVwb0tleSwKCQkiJVFMX0RJUiVcXGRhdGFcXHNjcmlwdHNcXCIgKyByZXBvS2V5LAoJfQoKCW5vcm1hbGl6ZWQgOj0gaG9va1NjcmlwdAoJZm9yIF8sIGZyb20gOj0gcmFuZ2UgcmVwbGFjZW1lbnRzIHsKCQlub3JtYWxpemVkID0gc3RyaW5ncy5SZXBsYWNlQWxsKG5vcm1hbGl6ZWQsIGZyb20sICIkU1VCX0RJUiIpCgl9CglyZXR1cm4gbm9ybWFsaXplZAp9CgpmdW5jIGRlcml2ZVN1YnNjcmlwdGlvblJlcG9LZXkocmF3VVJMIHN0cmluZykgc3RyaW5nIHsKCXRyaW1tZWQgOj0gc3RyaW5ncy5UcmltU3BhY2UocmF3VVJMKQoJdHJpbW1lZCA9IHN0cmluZ3MuVHJpbVN1ZmZpeCh0cmltbWVkLCAiLyIpCglpZiB0cmltbWVkID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCgl0cmltbWVkID0gc3RyaW5ncy5UcmltU3VmZml4KHRyaW1tZWQsICIuZ2l0IikKCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXQodHJpbW1lZCwgIi8iKQoJaWYgbGVuKHBhcnRzKSA+PSAyIHsKCQlvd25lciA6PSBzdHJpbmdzLlRyaW1TcGFjZShwYXJ0c1tsZW4ocGFydHMpLTJdKQoJCXJlcG8gOj0gc3RyaW5ncy5UcmltU3BhY2UocGFydHNbbGVuKHBhcnRzKS0xXSkKCQlpZiBvd25lciAhPSAiIiAmJiByZXBvICE9ICIiIHsKCQkJcmV0dXJuIG93bmVyICsgIl8iICsgcmVwbwoJCX0KCX0KCglpZiBsZW4ocGFydHMpID4gMCB7CgkJcmV0dXJuIHN0cmluZ3MuVHJpbVNwYWNlKHBhcnRzW2xlbihwYXJ0cyktMV0pCgl9CglyZXR1cm4gIiIKfQoKZnVuYyBzdWJzY3JpcHRpb25Xb3JraW5nRGlyKHN1YiAqbW9kZWwuU3Vic2NyaXB0aW9uKSBzdHJpbmcgewoJc2F2ZURpciA6PSBzdWJzY3JpcHRpb25TYXZlRGlyKHN1YikKCWlmIHN1Yi5UeXBlID09IG1vZGVsLlN1YlR5cGVTaW5nbGVGaWxlICYmIHNhdmVEaXIgPT0gIiIgewoJCXNhdmVEaXIgPSAiZG93bmxvYWRzIgoJfQoJaWYgc2F2ZURpciA9PSAiIiB7CgkJcmV0dXJuIGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpcgoJfQoJcmV0dXJuIGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBzYXZlRGlyKQp9Cg==
+package service
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"strconv"
+	"strings"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+)
+
+const subscriptionHookTimeoutSeconds = 900
+
+func runSubscriptionHookIfConfigured(sub *model.Subscription, emit PullCallback) error {
+	hookScript := normalizeSubscriptionHookScript(sub)
+	if hookScript == "" {
+		return nil
+	}
+
+	workDir := subscriptionWorkingDir(sub)
+	if _, err := os.Stat(workDir); err != nil {
+		workDir = config.C.Data.ScriptsDir
+	}
+
+	emit("[执行订阅钩子]")
+	err := RunInlineScript(hookScript, workDir, buildSubscriptionHookEnv(sub, workDir), subscriptionHookTimeoutSeconds, func(line string) {
+		emit("[hook] " + line)
+	})
+	if err != nil {
+		return fmt.Errorf("执行订阅钩子失败: %w", err)
+	}
+
+	emit("[订阅钩子完成]")
+	return nil
+}
+
+func buildSubscriptionHookEnv(sub *model.Subscription, workDir string) map[string]string {
+	dataDir := strings.TrimSpace(config.C.Data.Dir)
+	qlDir := dataDir
+	if strings.EqualFold(filepath.Base(dataDir), "data") {
+		qlDir = filepath.Dir(dataDir)
+	}
+
+	return map[string]string{
+		"SUB_ID":            strconv.FormatUint(uint64(sub.ID), 10),
+		"SUB_NAME":          sub.Name,
+		"SUB_TYPE":          sub.Type,
+		"SUB_URL":           sub.URL,
+		"SUB_BRANCH":        sub.Branch,
+		"SUB_SAVE_DIR":      subscriptionSaveDir(sub),
+		"SUB_DIR":           workDir,
+		"SUB_WORK_DIR":      workDir,
+		"SCRIPTS_DIR":       config.C.Data.ScriptsDir,
+		"PANEL_DATA_DIR":    dataDir,
+		"PANEL_SCRIPTS_DIR": config.C.Data.ScriptsDir,
+		"QL_DIR":            qlDir,
+	}
+}
+
+func normalizeSubscriptionHookScript(sub *model.Subscription) string {
+	hookScript := strings.TrimSpace(sub.HookScript)
+	if hookScript == "" {
+		return ""
+	}
+
+	repoKey := deriveSubscriptionRepoKey(sub.URL)
+	if repoKey == "" {
+		return hookScript
+	}
+
+	replacements := []string{
+		"$QL_DIR/data/repo/" + repoKey,
+		"${QL_DIR}/data/repo/" + repoKey,
+		"$QL_DIR/data/scripts/" + repoKey,
+		"${QL_DIR}/data/scripts/" + repoKey,
+		"%QL_DIR%\\data\\repo\\" + repoKey,
+		"%QL_DIR%\\data\\scripts\\" + repoKey,
+	}
+
+	normalized := hookScript
+	for _, from := range replacements {
+		normalized = strings.ReplaceAll(normalized, from, "$SUB_DIR")
+	}
+	return normalized
+}
+
+func deriveSubscriptionRepoKey(rawURL string) string {
+	trimmed := strings.TrimSpace(rawURL)
+	trimmed = strings.TrimSuffix(trimmed, "/")
+	if trimmed == "" {
+		return ""
+	}
+
+	trimmed = strings.TrimSuffix(trimmed, ".git")
+	parts := strings.Split(trimmed, "/")
+	if len(parts) >= 2 {
+		owner := strings.TrimSpace(parts[len(parts)-2])
+		repo := strings.TrimSpace(parts[len(parts)-1])
+		if owner != "" && repo != "" {
+			return owner + "_" + repo
+		}
+	}
+
+	if len(parts) > 0 {
+		return strings.TrimSpace(parts[len(parts)-1])
+	}
+	return ""
+}
+
+func subscriptionWorkingDir(sub *model.Subscription) string {
+	saveDir := subscriptionSaveDir(sub)
+	if sub.Type == model.SubTypeSingleFile && saveDir == "" {
+		saveDir = "downloads"
+	}
+	if saveDir == "" {
+		return config.C.Data.ScriptsDir
+	}
+	return filepath.Join(config.C.Data.ScriptsDir, saveDir)
+}

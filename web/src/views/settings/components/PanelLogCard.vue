@@ -1,1 +1,261 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoLCBuZXh0VGljayB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgQ29weURvY3VtZW50LCBEb3dubG9hZCwgUmVmcmVzaCwgU2VhcmNoLCBUaWNrZXRzIH0gZnJvbSAnQGVsZW1lbnQtcGx1cy9pY29ucy12dWUnCmltcG9ydCB7IGFuc2lUb0h0bWwsIG5vcm1hbGl6ZUFuc2kgfSBmcm9tICdAL3V0aWxzL2Fuc2knCmltcG9ydCB0eXBlIHsgUGFuZWxMb2dMZXZlbCB9IGZyb20gJy4uL3VzZVBhbmVsTG9nVmlld2VyJwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgbG9hZGluZzogYm9vbGVhbgogIHJlZnJlc2hpbmc/OiBib29sZWFuCiAgbGluZXM6IG51bWJlcgogIGtleXdvcmQ6IHN0cmluZwogIGxldmVsOiBQYW5lbExvZ0xldmVsCiAgYXV0b1JlZnJlc2g6IGJvb2xlYW4KICBsb2dzOiBzdHJpbmdbXQogIHRvdGFsOiBudW1iZXIKICBsYXN0TG9hZGVkQXQ6IHN0cmluZwogIGJ5dGVTaXplTGFiZWw6IHN0cmluZwogIGFjdGl2ZVByZXNldDogJ2RlZmF1bHQnIHwgJ3VwZGF0ZXMnIHwgJ2Vycm9ycycgfCAnJwogIG9uUmVmcmVzaDogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvbkFwcGx5VXBkYXRlUHJlc2V0OiAoKSA9PiB2b2lkCiAgb25BcHBseUVycm9yUHJlc2V0OiAoKSA9PiB2b2lkCiAgb25SZXNldEZpbHRlcnM6ICgpID0+IHZvaWQKICBvbkNvcHk6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25Eb3dubG9hZDogKCkgPT4gdm9pZAp9PigpCgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICd1cGRhdGU6bGluZXMnOiBbdmFsdWU6IG51bWJlcl0KICAndXBkYXRlOmtleXdvcmQnOiBbdmFsdWU6IHN0cmluZ10KICAndXBkYXRlOmxldmVsJzogW3ZhbHVlOiBQYW5lbExvZ0xldmVsXQogICd1cGRhdGU6YXV0b1JlZnJlc2gnOiBbdmFsdWU6IGJvb2xlYW5dCn0+KCkKCmNvbnN0IGxldmVsT3B0aW9uczogQXJyYXk8eyBsYWJlbDogc3RyaW5nOyB2YWx1ZTogUGFuZWxMb2dMZXZlbCB9PiA9IFsKICB7IGxhYmVsOiAn5YWo6YOo57qn5YirJywgdmFsdWU6ICcnIH0sCiAgeyBsYWJlbDogJ0RlYnVnIOWPiuS7peS4iicsIHZhbHVlOiAnZGVidWcnIH0sCiAgeyBsYWJlbDogJ0luZm8g5Y+K5Lul5LiKJywgdmFsdWU6ICdpbmZvJyB9LAogIHsgbGFiZWw6ICdXYXJuIOWPiuS7peS4iicsIHZhbHVlOiAnd2FybicgfSwKICB7IGxhYmVsOiAn5LuFIEVycm9yJywgdmFsdWU6ICdlcnJvcicgfSwKXQoKY29uc3QgbGluZU9wdGlvbnMgPSBbMTAwLCAyMDAsIDUwMCwgMTAwMF0KCmNvbnN0IHJlbmRlcmVkSHRtbCA9IGNvbXB1dGVkKCgpID0+IGFuc2lUb0h0bWwobm9ybWFsaXplQW5zaShwcm9wcy5sb2dzLmpvaW4oJ1xuJykpKSkKCmNvbnN0IGxvZ1ZpZXdSZWYgPSByZWY8SFRNTEVsZW1lbnQ+KCkKCndhdGNoKCgpID0+IHByb3BzLmxvZ3MsICgpID0+IHsKICBuZXh0VGljaygoKSA9PiB7CiAgICBjb25zdCBlbCA9IGxvZ1ZpZXdSZWYudmFsdWUKICAgIGlmIChlbCkgewogICAgICBlbC5zY3JvbGxUb3AgPSBlbC5zY3JvbGxIZWlnaHQKICAgIH0KICB9KQp9LCB7IGZsdXNoOiAncG9zdCcgfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgY2xhc3M9InBhbmVsLWxvZy1jYXJkIiB2LWxvYWRpbmc9ImxvYWRpbmciPgogICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyIj4KICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PFRpY2tldHMgLz48L2VsLWljb24+IOmdouadv+aXpeW/lzwvc3Bhbj4KICAgICAgPGRpdiBjbGFzcz0icGFuZWwtbG9nLWNhcmRfX21ldGEiPgogICAgICAgICAgPHNwYW4+5YWxIHt7IHRvdGFsIH19IOihjDwvc3Bhbj4KICAgICAgICAgIDxzcGFuPnt7IGJ5dGVTaXplTGFiZWwgfX08L3NwYW4+CiAgICAgICAgICA8c3BhbiB2LWlmPSJsYXN0TG9hZGVkQXQiPuabtOaWsOS6jiB7eyBsYXN0TG9hZGVkQXQgfX08L3NwYW4+CiAgICAgICAgICA8c3BhbiB2LWlmPSJyZWZyZXNoaW5nIiBjbGFzcz0icGFuZWwtbG9nLWNhcmRfX2JhZGdlIj7lkIzmraXkuK08L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KCiAgICA8ZGl2IGNsYXNzPSJwYW5lbC1sb2ctdG9vbGJhciI+CiAgICAgIDxlbC1pbnB1dAogICAgICAgIDptb2RlbC12YWx1ZT0ia2V5d29yZCIKICAgICAgICBwbGFjZWhvbGRlcj0i5pCc57Si5YWz6ZSu6K+NLi4uIgogICAgICAgIGNsZWFyYWJsZQogICAgICAgIGNsYXNzPSJwYW5lbC1sb2ctdG9vbGJhcl9fc2VhcmNoIgogICAgICAgIDpwcmVmaXgtaWNvbj0iU2VhcmNoIgogICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9ImVtaXQoJ3VwZGF0ZTprZXl3b3JkJywgU3RyaW5nKCRldmVudCB8fCAnJykpIgogICAgICAvPgoKICAgICAgPGVsLXNlbGVjdAogICAgICAgIDptb2RlbC12YWx1ZT0ibGV2ZWwiCiAgICAgICAgY2xhc3M9InBhbmVsLWxvZy10b29sYmFyX19zZWxlY3QiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOmxldmVsJywgJGV2ZW50IGFzIFBhbmVsTG9nTGV2ZWwpIgogICAgICA+CiAgICAgICAgPGVsLW9wdGlvbgogICAgICAgICAgdi1mb3I9Im9wdGlvbiBpbiBsZXZlbE9wdGlvbnMiCiAgICAgICAgICA6a2V5PSJvcHRpb24udmFsdWUgfHwgJ2FsbCciCiAgICAgICAgICA6bGFiZWw9Im9wdGlvbi5sYWJlbCIKICAgICAgICAgIDp2YWx1ZT0ib3B0aW9uLnZhbHVlIgogICAgICAgIC8+CiAgICAgIDwvZWwtc2VsZWN0PgoKICAgICAgPGVsLXNlbGVjdAogICAgICAgIDptb2RlbC12YWx1ZT0ibGluZXMiCiAgICAgICAgY2xhc3M9InBhbmVsLWxvZy10b29sYmFyX19zZWxlY3QgcGFuZWwtbG9nLXRvb2xiYXJfX3NlbGVjdC0tbGluZXMiCiAgICAgICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOmxpbmVzJywgTnVtYmVyKCRldmVudCkpIgogICAgICA+CiAgICAgICAgPGVsLW9wdGlvbiB2LWZvcj0iY291bnQgaW4gbGluZU9wdGlvbnMiIDprZXk9ImNvdW50IiA6bGFiZWw9ImDmnIDov5EgJHtjb3VudH0g6KGMYCIgOnZhbHVlPSJjb3VudCIgLz4KICAgICAgPC9lbC1zZWxlY3Q+CgogICAgICA8ZGl2IGNsYXNzPSJwYW5lbC1sb2ctdG9vbGJhcl9fYWN0aW9ucyI+CiAgICAgICAgPGVsLXN3aXRjaAogICAgICAgICAgOm1vZGVsLXZhbHVlPSJhdXRvUmVmcmVzaCIKICAgICAgICAgIGlubGluZS1wcm9tcHQKICAgICAgICAgIGFjdGl2ZS10ZXh0PSLoh6rliqjliLfmlrAiCiAgICAgICAgICBpbmFjdGl2ZS10ZXh0PSLmiYvliqgiCiAgICAgICAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCd1cGRhdGU6YXV0b1JlZnJlc2gnLCBCb29sZWFuKCRldmVudCkpIgogICAgICAgIC8+CiAgICAgICAgPGRpdiBjbGFzcz0icGFuZWwtbG9nLXRvb2xiYXJfX3ByZXNldHMiPgogICAgICAgICAgPGVsLWJ1dHRvbgogICAgICAgICAgICBzaXplPSJzbWFsbCIKICAgICAgICAgICAgOnR5cGU9ImFjdGl2ZVByZXNldCA9PT0gJ3VwZGF0ZXMnID8gJ3ByaW1hcnknIDogJ2RlZmF1bHQnIgogICAgICAgICAgICBwbGFpbgogICAgICAgICAgICBAY2xpY2s9Im9uQXBwbHlVcGRhdGVQcmVzZXQiCiAgICAgICAgICA+CiAgICAgICAgICAgIOWPqueci+abtOaWsOaXpeW/lwogICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgICA8ZWwtYnV0dG9uCiAgICAgICAgICAgIHNpemU9InNtYWxsIgogICAgICAgICAgICA6dHlwZT0iYWN0aXZlUHJlc2V0ID09PSAnZXJyb3JzJyA/ICdkYW5nZXInIDogJ2RlZmF1bHQnIgogICAgICAgICAgICBwbGFpbgogICAgICAgICAgICBAY2xpY2s9Im9uQXBwbHlFcnJvclByZXNldCIKICAgICAgICAgID4KICAgICAgICAgICAg5Y+q55yL6ZSZ6K+v5pel5b+XCiAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICAgIDxlbC1idXR0b24KICAgICAgICAgICAgc2l6ZT0ic21hbGwiCiAgICAgICAgICAgIDp0eXBlPSJhY3RpdmVQcmVzZXQgPT09ICdkZWZhdWx0JyA/ICdzdWNjZXNzJyA6ICdkZWZhdWx0JyIKICAgICAgICAgICAgcGxhaW4KICAgICAgICAgICAgQGNsaWNrPSJvblJlc2V0RmlsdGVycyIKICAgICAgICAgID4KICAgICAgICAgICAg5oGi5aSN6buY6K6k6KeG5Zu+CiAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0ib25SZWZyZXNoIj4KICAgICAgICAgIDxlbC1pY29uPjxSZWZyZXNoIC8+PC9lbC1pY29uPuWIt+aWsAogICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgIDxlbC1idXR0b24gOmRpc2FibGVkPSJsb2dzLmxlbmd0aCA9PT0gMCIgQGNsaWNrPSJvbkNvcHkiPgogICAgICAgICAgPGVsLWljb24+PENvcHlEb2N1bWVudCAvPjwvZWwtaWNvbj7lpI3liLYKICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICA8ZWwtYnV0dG9uIDpkaXNhYmxlZD0ibG9ncy5sZW5ndGggPT09IDAiIEBjbGljaz0ib25Eb3dubG9hZCI+CiAgICAgICAgICA8ZWwtaWNvbj48RG93bmxvYWQgLz48L2VsLWljb24+5LiL6L29CiAgICAgICAgPC9lbC1idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CgogICAgPGRpdiByZWY9ImxvZ1ZpZXdSZWYiIGNsYXNzPSJwYW5lbC1sb2ctdmlldyBkZC1sb2ctc3VyZmFjZSI+CiAgICAgIDxkaXYgdi1pZj0ibG9ncy5sZW5ndGggPT09IDAiIGNsYXNzPSJwYW5lbC1sb2ctZW1wdHkiPgogICAgICAgIOW9k+WJjeetm+mAieadoeS7tuS4i+aaguaXoOaXpeW/lwogICAgICA8L2Rpdj4KICAgICAgPHByZSB2LWVsc2UgY2xhc3M9InBhbmVsLWxvZy1wcmUiIHYtaHRtbD0icmVuZGVyZWRIdG1sIj48L3ByZT4KICAgIDwvZGl2PgogIDwvZWwtY2FyZD4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+CkB1c2UgJy4vY29uZmlnLWNhcmQtc2hhcmVkLnNjc3MnIGFzICo7CgoucGFuZWwtbG9nLWNhcmQgewogIGJvcmRlci1yYWRpdXM6IDE0cHg7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwp9CgoucGFuZWwtbG9nLWNhcmRfX21ldGEgewogIGRpc3BsYXk6IGlubGluZS1mbGV4OwogIGdhcDogMTJweDsKICBmbGV4LXdyYXA6IHdyYXA7CiAgZm9udC1zaXplOiAxMnB4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7Cn0KCi5wYW5lbC1sb2ctY2FyZF9fYmFkZ2UgewogIGRpc3BsYXk6IGlubGluZS1mbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgcGFkZGluZzogMnB4IDhweDsKICBib3JkZXItcmFkaXVzOiA5OTlweDsKICBmb250LXNpemU6IDExcHg7CiAgZm9udC13ZWlnaHQ6IDYwMDsKICBjb2xvcjogdmFyKC0tZWwtY29sb3ItcHJpbWFyeSk7CiAgYmFja2dyb3VuZDogY29sb3ItbWl4KGluIHNyZ2IsIHZhcigtLWVsLWNvbG9yLXByaW1hcnkpIDEwJSwgdHJhbnNwYXJlbnQpOwp9CgoucGFuZWwtbG9nLXRvb2xiYXIgewogIGRpc3BsYXk6IGdyaWQ7CiAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiBtaW5tYXgoMCwgMS40ZnIpIDE4MHB4IDE0MHB4IGF1dG87CiAgZ2FwOiAxMnB4OwogIG1hcmdpbi1ib3R0b206IDE2cHg7Cn0KCi5wYW5lbC1sb2ctdG9vbGJhcl9fc2VhcmNoIHsKICBtaW4td2lkdGg6IDA7Cn0KCi5wYW5lbC1sb2ctdG9vbGJhcl9fc2VsZWN0IHsKICB3aWR0aDogMTAwJTsKfQoKLnBhbmVsLWxvZy10b29sYmFyX19hY3Rpb25zIHsKICBwYWRkaW5nOiA0cHg7CiAgYm9yZGVyLXJhZGl1czogMTJweDsKICBiYWNrZ3JvdW5kOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCkgODQlLCB0cmFuc3BhcmVudCk7CiAgZGlzcGxheTogZmxleDsKICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtZW5kOwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiAxMHB4OwogIGZsZXgtd3JhcDogd3JhcDsKfQoKLnBhbmVsLWxvZy10b29sYmFyX19wcmVzZXRzIHsKICBkaXNwbGF5OiBpbmxpbmUtZmxleDsKICBnYXA6IDhweDsKICBmbGV4LXdyYXA6IHdyYXA7Cn0KCi5wYW5lbC1sb2ctdmlldyB7CiAgbWluLWhlaWdodDogNTQwcHg7CiAgbWF4LWhlaWdodDogNzZ2aDsKICBvdmVyZmxvdzogYXV0bzsKICBwYWRkaW5nOiAxOHB4IDIwcHg7Cn0KCi5wYW5lbC1sb2ctcHJlIHsKICBtYXJnaW46IDA7CiAgd2hpdGUtc3BhY2U6IHByZS13cmFwOwogIHdvcmQtYnJlYWs6IGJyZWFrLWFsbDsKICBmb250LWZhbWlseTogdmFyKC0tZGQtZm9udC1tb25vKTsKICBmb250LXNpemU6IDEzcHg7CiAgbGluZS1oZWlnaHQ6IDEuNzsKfQoKLnBhbmVsLWxvZy1lbXB0eSB7CiAgbWluLWhlaWdodDogMjQwcHg7CiAgZGlzcGxheTogZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGp1c3RpZnktY29udGVudDogY2VudGVyOwogIGNvbG9yOiBjb2xvci1taXgoaW4gc3JnYiwgdmFyKC0tZGQtbG9nLXRleHQtY29sb3IpIDY4JSwgdHJhbnNwYXJlbnQpOwogIGZvbnQtc2l6ZTogMTNweDsKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLnBhbmVsLWxvZy10b29sYmFyIHsKICAgIGdyaWQtdGVtcGxhdGUtY29sdW1uczogMWZyOwogIH0KCiAgLnBhbmVsLWxvZy10b29sYmFyX19hY3Rpb25zIHsKICAgIGp1c3RpZnktY29udGVudDogc3RyZXRjaDsKICB9CgogIC5wYW5lbC1sb2ctdmlldyB7CiAgICBtaW4taGVpZ2h0OiAzNjBweDsKICAgIG1heC1oZWlnaHQ6IGNhbGMoMTAwZHZoIC0gMjgwcHgpOwogICAgcGFkZGluZzogMTRweDsKICB9CgogIC5wYW5lbC1sb2ctY2FyZF9fbWV0YSB7CiAgICBnYXA6IDhweDsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { computed, ref, watch, nextTick } from 'vue'
+import { CopyDocument, Download, Refresh, Search, Tickets } from '@element-plus/icons-vue'
+import { ansiToHtml, normalizeAnsi } from '@/utils/ansi'
+import type { PanelLogLevel } from '../usePanelLogViewer'
+
+const props = defineProps<{
+  loading: boolean
+  refreshing?: boolean
+  lines: number
+  keyword: string
+  level: PanelLogLevel
+  autoRefresh: boolean
+  logs: string[]
+  total: number
+  lastLoadedAt: string
+  byteSizeLabel: string
+  activePreset: 'default' | 'updates' | 'errors' | ''
+  onRefresh: () => void | Promise<void>
+  onApplyUpdatePreset: () => void
+  onApplyErrorPreset: () => void
+  onResetFilters: () => void
+  onCopy: () => void | Promise<void>
+  onDownload: () => void
+}>()
+
+const emit = defineEmits<{
+  'update:lines': [value: number]
+  'update:keyword': [value: string]
+  'update:level': [value: PanelLogLevel]
+  'update:autoRefresh': [value: boolean]
+}>()
+
+const levelOptions: Array<{ label: string; value: PanelLogLevel }> = [
+  { label: '全部级别', value: '' },
+  { label: 'Debug 及以上', value: 'debug' },
+  { label: 'Info 及以上', value: 'info' },
+  { label: 'Warn 及以上', value: 'warn' },
+  { label: '仅 Error', value: 'error' },
+]
+
+const lineOptions = [100, 200, 500, 1000]
+
+const renderedHtml = computed(() => ansiToHtml(normalizeAnsi(props.logs.join('\n'))))
+
+const logViewRef = ref<HTMLElement>()
+
+watch(() => props.logs, () => {
+  nextTick(() => {
+    const el = logViewRef.value
+    if (el) {
+      el.scrollTop = el.scrollHeight
+    }
+  })
+}, { flush: 'post' })
+</script>
+
+<template>
+  <el-card shadow="never" class="panel-log-card" v-loading="loading">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Tickets /></el-icon> 面板日志</span>
+      <div class="panel-log-card__meta">
+          <span>共 {{ total }} 行</span>
+          <span>{{ byteSizeLabel }}</span>
+          <span v-if="lastLoadedAt">更新于 {{ lastLoadedAt }}</span>
+          <span v-if="refreshing" class="panel-log-card__badge">同步中</span>
+        </div>
+      </div>
+    </template>
+
+    <div class="panel-log-toolbar">
+      <el-input
+        :model-value="keyword"
+        placeholder="搜索关键词..."
+        clearable
+        class="panel-log-toolbar__search"
+        :prefix-icon="Search"
+        @update:model-value="emit('update:keyword', String($event || ''))"
+      />
+
+      <el-select
+        :model-value="level"
+        class="panel-log-toolbar__select"
+        @update:model-value="emit('update:level', $event as PanelLogLevel)"
+      >
+        <el-option
+          v-for="option in levelOptions"
+          :key="option.value || 'all'"
+          :label="option.label"
+          :value="option.value"
+        />
+      </el-select>
+
+      <el-select
+        :model-value="lines"
+        class="panel-log-toolbar__select panel-log-toolbar__select--lines"
+        @update:model-value="emit('update:lines', Number($event))"
+      >
+        <el-option v-for="count in lineOptions" :key="count" :label="`最近 ${count} 行`" :value="count" />
+      </el-select>
+
+      <div class="panel-log-toolbar__actions">
+        <el-switch
+          :model-value="autoRefresh"
+          inline-prompt
+          active-text="自动刷新"
+          inactive-text="手动"
+          @update:model-value="emit('update:autoRefresh', Boolean($event))"
+        />
+        <div class="panel-log-toolbar__presets">
+          <el-button
+            size="small"
+            :type="activePreset === 'updates' ? 'primary' : 'default'"
+            plain
+            @click="onApplyUpdatePreset"
+          >
+            只看更新日志
+          </el-button>
+          <el-button
+            size="small"
+            :type="activePreset === 'errors' ? 'danger' : 'default'"
+            plain
+            @click="onApplyErrorPreset"
+          >
+            只看错误日志
+          </el-button>
+          <el-button
+            size="small"
+            :type="activePreset === 'default' ? 'success' : 'default'"
+            plain
+            @click="onResetFilters"
+          >
+            恢复默认视图
+          </el-button>
+        </div>
+        <el-button @click="onRefresh">
+          <el-icon><Refresh /></el-icon>刷新
+        </el-button>
+        <el-button :disabled="logs.length === 0" @click="onCopy">
+          <el-icon><CopyDocument /></el-icon>复制
+        </el-button>
+        <el-button :disabled="logs.length === 0" @click="onDownload">
+          <el-icon><Download /></el-icon>下载
+        </el-button>
+      </div>
+    </div>
+
+    <div ref="logViewRef" class="panel-log-view dd-log-surface">
+      <div v-if="logs.length === 0" class="panel-log-empty">
+        当前筛选条件下暂无日志
+      </div>
+      <pre v-else class="panel-log-pre" v-html="renderedHtml"></pre>
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.panel-log-card {
+  border-radius: 14px;
+  border: 1px solid var(--el-border-color-lighter);
+}
+
+.panel-log-card__meta {
+  display: inline-flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 12px;
+  color: var(--el-text-color-secondary);
+}
+
+.panel-log-card__badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--el-color-primary);
+  background: color-mix(in srgb, var(--el-color-primary) 10%, transparent);
+}
+
+.panel-log-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) 180px 140px auto;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.panel-log-toolbar__search {
+  min-width: 0;
+}
+
+.panel-log-toolbar__select {
+  width: 100%;
+}
+
+.panel-log-toolbar__actions {
+  padding: 4px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.panel-log-toolbar__presets {
+  display: inline-flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.panel-log-view {
+  min-height: 540px;
+  max-height: 76vh;
+  overflow: auto;
+  padding: 18px 20px;
+}
+
+.panel-log-pre {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-all;
+  font-family: var(--dd-font-mono);
+  font-size: 13px;
+  line-height: 1.7;
+}
+
+.panel-log-empty {
+  min-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: color-mix(in srgb, var(--dd-log-text-color) 68%, transparent);
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .panel-log-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .panel-log-toolbar__actions {
+    justify-content: stretch;
+  }
+
+  .panel-log-view {
+    min-height: 360px;
+    max-height: calc(100dvh - 280px);
+    padding: 14px;
+  }
+
+  .panel-log-card__meta {
+    gap: 8px;
+  }
+}
+</style>

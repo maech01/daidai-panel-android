@@ -1,1 +1,25 @@
-Ly9nbzpidWlsZCAhd2luZG93cwoKcGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkic3lzY2FsbCIKKQoKZnVuYyBzZXRQZ2lkKGNtZCAqZXhlYy5DbWQpIHsKCWNtZC5TeXNQcm9jQXR0ciA9ICZzeXNjYWxsLlN5c1Byb2NBdHRye1NldHBnaWQ6IHRydWV9Cn0KCmZ1bmMgU2V0UGdpZChjbWQgKmV4ZWMuQ21kKSB7CglzZXRQZ2lkKGNtZCkKfQoKZnVuYyBraWxsR3JvdXAocCAqb3MuUHJvY2VzcykgewoJc3lzY2FsbC5LaWxsKC1wLlBpZCwgc3lzY2FsbC5TSUdLSUxMKQp9CgpmdW5jIGtpbGxHcm91cEJ5UGlkKHBpZCBpbnQpIHsKCXN5c2NhbGwuS2lsbCgtcGlkLCBzeXNjYWxsLlNJR0tJTEwpCn0K
+//go:build !windows
+
+package service
+
+import (
+	"os"
+	"os/exec"
+	"syscall"
+)
+
+func setPgid(cmd *exec.Cmd) {
+	cmd.SysProcAttr = &syscall.SysProcAttr{Setpgid: true}
+}
+
+func SetPgid(cmd *exec.Cmd) {
+	setPgid(cmd)
+}
+
+func killGroup(p *os.Process) {
+	syscall.Kill(-p.Pid, syscall.SIGKILL)
+}
+
+func killGroupByPid(pid int) {
+	syscall.Kill(-pid, syscall.SIGKILL)
+}

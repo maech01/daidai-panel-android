@@ -1,1 +1,137 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNyeXB0by9obWFjIgoJImNyeXB0by9yYW5kIgoJImNyeXB0by9zaGExIgoJImVuY29kaW5nL2Jhc2UzMiIKCSJlbmNvZGluZy9iaW5hcnkiCgkiZm10IgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCgkiZ29ybS5pby9nb3JtIgoJImdvcm0uaW8vZ29ybS9sb2dnZXIiCikKCmNvbnN0ICgKCVRPVFBEaWdpdHMgPSA2CglUT1RQUGVyaW9kID0gMzAKCVRPVFBJc3N1ZXIgPSAiRGFpRGFpUGFuZWwiCikKCmZ1bmMgc2lsZW50REIoKSAqZ29ybS5EQiB7CglyZXR1cm4gZGF0YWJhc2UuREIuU2Vzc2lvbigmZ29ybS5TZXNzaW9ue0xvZ2dlcjogZGF0YWJhc2UuREIuTG9nZ2VyLkxvZ01vZGUobG9nZ2VyLlNpbGVudCl9KQp9CgpmdW5jIEdlbmVyYXRlVE9UUFNlY3JldCgpIHN0cmluZyB7CglzZWNyZXQgOj0gbWFrZShbXWJ5dGUsIDIwKQoJcmFuZC5SZWFkKHNlY3JldCkKCXJldHVybiBiYXNlMzIuU3RkRW5jb2RpbmcuV2l0aFBhZGRpbmcoYmFzZTMyLk5vUGFkZGluZykuRW5jb2RlVG9TdHJpbmcoc2VjcmV0KQp9CgpmdW5jIEdlbmVyYXRlVE9UUFVSSSh1c2VybmFtZSwgc2VjcmV0IHN0cmluZykgc3RyaW5nIHsKCXJldHVybiBmbXQuU3ByaW50Zigib3RwYXV0aDovL3RvdHAvJXM6JXM/c2VjcmV0PSVzJmlzc3Vlcj0lcyZkaWdpdHM9JWQmcGVyaW9kPSVkIiwKCQlUT1RQSXNzdWVyLCB1c2VybmFtZSwgc2VjcmV0LCBUT1RQSXNzdWVyLCBUT1RQRGlnaXRzLCBUT1RQUGVyaW9kKQp9CgovLyBHZW5lcmF0ZUN1cnJlbnRUT1RQRm9yVGVzdCByZXR1cm5zIGEgY3VycmVudGx5LXZhbGlkIDYtZGlnaXQgVE9UUCBjb2RlIGZvcgovLyB0aGUgc3VwcGxpZWQgYmFzZTMyIHNlY3JldC4gRXhwb3J0ZWQgc28gZW5kLXRvLWVuZCB0ZXN0cyBjYW4gZXhlcmNpc2UgdGhlCi8vIDJGQSBmbG93cyB3aXRob3V0IHJlLWltcGxlbWVudGluZyB0aGUgSE1BQy1TSEExIGNvZGUgZ2VuZXJhdGlvbi4KZnVuYyBHZW5lcmF0ZUN1cnJlbnRUT1RQRm9yVGVzdChzZWNyZXQgc3RyaW5nKSBzdHJpbmcgewoJY291bnRlciA6PSB1aW50NjQodGltZS5Ob3coKS5Vbml4KCkgLyBpbnQ2NChUT1RQUGVyaW9kKSkKCXJldHVybiBnZW5lcmF0ZVRPVFBDb2RlKHNlY3JldCwgY291bnRlcikKfQoKZnVuYyBWYWxpZGF0ZVRPVFAoc2VjcmV0LCBjb2RlIHN0cmluZykgYm9vbCB7Cglub3cgOj0gdGltZS5Ob3coKS5Vbml4KCkKCWZvciBfLCBvZmZzZXQgOj0gcmFuZ2UgW11pbnQ2NHstMSwgMCwgMX0gewoJCWNvdW50ZXIgOj0gdWludDY0KChub3cgLyBpbnQ2NChUT1RQUGVyaW9kKSkgKyBvZmZzZXQpCgkJZ2VuZXJhdGVkIDo9IGdlbmVyYXRlVE9UUENvZGUoc2VjcmV0LCBjb3VudGVyKQoJCWlmIGdlbmVyYXRlZCA9PSBjb2RlIHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CglyZXR1cm4gZmFsc2UKfQoKZnVuYyBnZW5lcmF0ZVRPVFBDb2RlKHNlY3JldCBzdHJpbmcsIGNvdW50ZXIgdWludDY0KSBzdHJpbmcgewoJc2VjcmV0Qnl0ZXMsIGVyciA6PSBiYXNlMzIuU3RkRW5jb2RpbmcuV2l0aFBhZGRpbmcoYmFzZTMyLk5vUGFkZGluZykuRGVjb2RlU3RyaW5nKHN0cmluZ3MuVG9VcHBlcihzZWNyZXQpKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiCgl9CgoJYnVmIDo9IG1ha2UoW11ieXRlLCA4KQoJYmluYXJ5LkJpZ0VuZGlhbi5QdXRVaW50NjQoYnVmLCBjb3VudGVyKQoKCW1hYyA6PSBobWFjLk5ldyhzaGExLk5ldywgc2VjcmV0Qnl0ZXMpCgltYWMuV3JpdGUoYnVmKQoJaGFzaCA6PSBtYWMuU3VtKG5pbCkKCglvZmZzZXQgOj0gaGFzaFtsZW4oaGFzaCktMV0gJiAweDBmCgl0cnVuY2F0ZWQgOj0gYmluYXJ5LkJpZ0VuZGlhbi5VaW50MzIoaGFzaFtvZmZzZXQ6b2Zmc2V0KzRdKSAmIDB4N2ZmZmZmZmYKCgljb2RlIDo9IHRydW5jYXRlZCAlIDEwMDAwMDAKCXJldHVybiBmbXQuU3ByaW50ZigiJTA2ZCIsIGNvZGUpCn0KCmZ1bmMgU2V0dXBUd29GYWN0b3IodXNlcklEIHVpbnQpIChzdHJpbmcsIHN0cmluZywgZXJyb3IpIHsKCXNlY3JldCA6PSBHZW5lcmF0ZVRPVFBTZWNyZXQoKQoKCXZhciBleGlzdGluZyBtb2RlbC5Ud29GYWN0b3JBdXRoCgllcnIgOj0gc2lsZW50REIoKS5XaGVyZSgidXNlcl9pZCA9ID8iLCB1c2VySUQpLkZpcnN0KCZleGlzdGluZykuRXJyb3IKCWlmIGVyciA9PSBuaWwgewoJCWRhdGFiYXNlLkRCLk1vZGVsKCZleGlzdGluZykuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkic2VjcmV0IjogIHNlY3JldCwKCQkJImVuYWJsZWQiOiBmYWxzZSwKCQl9KQoJfSBlbHNlIHsKCQl0ZmEgOj0gbW9kZWwuVHdvRmFjdG9yQXV0aHsKCQkJVXNlcklEOiAgdXNlcklELAoJCQlTZWNyZXQ6ICBzZWNyZXQsCgkJCUVuYWJsZWQ6IGZhbHNlLAoJCX0KCQlkYXRhYmFzZS5EQi5DcmVhdGUoJnRmYSkKCX0KCgl2YXIgdXNlciBtb2RlbC5Vc2VyCglkYXRhYmFzZS5EQi5GaXJzdCgmdXNlciwgdXNlcklEKQoJdXJpIDo9IEdlbmVyYXRlVE9UUFVSSSh1c2VyLlVzZXJuYW1lLCBzZWNyZXQpCgoJcmV0dXJuIHNlY3JldCwgdXJpLCBuaWwKfQoKZnVuYyBWZXJpZnlBbmRFbmFibGVUd29GYWN0b3IodXNlcklEIHVpbnQsIGNvZGUgc3RyaW5nKSBlcnJvciB7Cgl2YXIgdGZhIG1vZGVsLlR3b0ZhY3RvckF1dGgKCWlmIGVyciA6PSBzaWxlbnREQigpLldoZXJlKCJ1c2VyX2lkID0gPyIsIHVzZXJJRCkuRmlyc3QoJnRmYSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJldHVybiBmbXQuRXJyb3JmKCIyRkEg5bCa5pyq6K6+572uIikKCX0KCglpZiAhVmFsaWRhdGVUT1RQKHRmYS5TZWNyZXQsIGNvZGUpIHsKCQlyZXR1cm4gZm10LkVycm9yZigi6aqM6K+B56CB5peg5pWIIikKCX0KCglkYXRhYmFzZS5EQi5Nb2RlbCgmdGZhKS5VcGRhdGUoImVuYWJsZWQiLCB0cnVlKQoJcmV0dXJuIG5pbAp9CgpmdW5jIERpc2FibGVUd29GYWN0b3IodXNlcklEIHVpbnQpIHsKCWRhdGFiYXNlLkRCLldoZXJlKCJ1c2VyX2lkID0gPyIsIHVzZXJJRCkuRGVsZXRlKCZtb2RlbC5Ud29GYWN0b3JBdXRoe30pCn0KCmZ1bmMgSXNUd29GYWN0b3JFbmFibGVkKHVzZXJJRCB1aW50KSBib29sIHsKCXZhciB0ZmEgbW9kZWwuVHdvRmFjdG9yQXV0aAoJZXJyIDo9IHNpbGVudERCKCkuV2hlcmUoInVzZXJfaWQgPSA/IEFORCBlbmFibGVkID0gPyIsIHVzZXJJRCwgdHJ1ZSkuRmlyc3QoJnRmYSkuRXJyb3IKCXJldHVybiBlcnIgPT0gbmlsCn0KCmZ1bmMgVmFsaWRhdGVVc2VyVE9UUCh1c2VySUQgdWludCwgY29kZSBzdHJpbmcpIGJvb2wgewoJdmFyIHRmYSBtb2RlbC5Ud29GYWN0b3JBdXRoCglpZiBlcnIgOj0gc2lsZW50REIoKS5XaGVyZSgidXNlcl9pZCA9ID8gQU5EIGVuYWJsZWQgPSA/IiwgdXNlcklELCB0cnVlKS5GaXJzdCgmdGZhKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZhbHNlCgl9CglyZXR1cm4gVmFsaWRhdGVUT1RQKHRmYS5TZWNyZXQsIGNvZGUpCn0K
+package service
+
+import (
+	"crypto/hmac"
+	"crypto/rand"
+	"crypto/sha1"
+	"encoding/base32"
+	"encoding/binary"
+	"fmt"
+	"strings"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
+)
+
+const (
+	TOTPDigits = 6
+	TOTPPeriod = 30
+	TOTPIssuer = "DaiDaiPanel"
+)
+
+func silentDB() *gorm.DB {
+	return database.DB.Session(&gorm.Session{Logger: database.DB.Logger.LogMode(logger.Silent)})
+}
+
+func GenerateTOTPSecret() string {
+	secret := make([]byte, 20)
+	rand.Read(secret)
+	return base32.StdEncoding.WithPadding(base32.NoPadding).EncodeToString(secret)
+}
+
+func GenerateTOTPURI(username, secret string) string {
+	return fmt.Sprintf("otpauth://totp/%s:%s?secret=%s&issuer=%s&digits=%d&period=%d",
+		TOTPIssuer, username, secret, TOTPIssuer, TOTPDigits, TOTPPeriod)
+}
+
+// GenerateCurrentTOTPForTest returns a currently-valid 6-digit TOTP code for
+// the supplied base32 secret. Exported so end-to-end tests can exercise the
+// 2FA flows without re-implementing the HMAC-SHA1 code generation.
+func GenerateCurrentTOTPForTest(secret string) string {
+	counter := uint64(time.Now().Unix() / int64(TOTPPeriod))
+	return generateTOTPCode(secret, counter)
+}
+
+func ValidateTOTP(secret, code string) bool {
+	now := time.Now().Unix()
+	for _, offset := range []int64{-1, 0, 1} {
+		counter := uint64((now / int64(TOTPPeriod)) + offset)
+		generated := generateTOTPCode(secret, counter)
+		if generated == code {
+			return true
+		}
+	}
+	return false
+}
+
+func generateTOTPCode(secret string, counter uint64) string {
+	secretBytes, err := base32.StdEncoding.WithPadding(base32.NoPadding).DecodeString(strings.ToUpper(secret))
+	if err != nil {
+		return ""
+	}
+
+	buf := make([]byte, 8)
+	binary.BigEndian.PutUint64(buf, counter)
+
+	mac := hmac.New(sha1.New, secretBytes)
+	mac.Write(buf)
+	hash := mac.Sum(nil)
+
+	offset := hash[len(hash)-1] & 0x0f
+	truncated := binary.BigEndian.Uint32(hash[offset:offset+4]) & 0x7fffffff
+
+	code := truncated % 1000000
+	return fmt.Sprintf("%06d", code)
+}
+
+func SetupTwoFactor(userID uint) (string, string, error) {
+	secret := GenerateTOTPSecret()
+
+	var existing model.TwoFactorAuth
+	err := silentDB().Where("user_id = ?", userID).First(&existing).Error
+	if err == nil {
+		database.DB.Model(&existing).Updates(map[string]interface{}{
+			"secret":  secret,
+			"enabled": false,
+		})
+	} else {
+		tfa := model.TwoFactorAuth{
+			UserID:  userID,
+			Secret:  secret,
+			Enabled: false,
+		}
+		database.DB.Create(&tfa)
+	}
+
+	var user model.User
+	database.DB.First(&user, userID)
+	uri := GenerateTOTPURI(user.Username, secret)
+
+	return secret, uri, nil
+}
+
+func VerifyAndEnableTwoFactor(userID uint, code string) error {
+	var tfa model.TwoFactorAuth
+	if err := silentDB().Where("user_id = ?", userID).First(&tfa).Error; err != nil {
+		return fmt.Errorf("2FA 尚未设置")
+	}
+
+	if !ValidateTOTP(tfa.Secret, code) {
+		return fmt.Errorf("验证码无效")
+	}
+
+	database.DB.Model(&tfa).Update("enabled", true)
+	return nil
+}
+
+func DisableTwoFactor(userID uint) {
+	database.DB.Where("user_id = ?", userID).Delete(&model.TwoFactorAuth{})
+}
+
+func IsTwoFactorEnabled(userID uint) bool {
+	var tfa model.TwoFactorAuth
+	err := silentDB().Where("user_id = ? AND enabled = ?", userID, true).First(&tfa).Error
+	return err == nil
+}
+
+func ValidateUserTOTP(userID uint, code string) bool {
+	var tfa model.TwoFactorAuth
+	if err := silentDB().Where("user_id = ? AND enabled = ?", userID, true).First(&tfa).Error; err != nil {
+		return false
+	}
+	return ValidateTOTP(tfa.Secret, code)
+}

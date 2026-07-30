@@ -1,1 +1,115 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJIm5ldC9odHRwIgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgpmdW5jIGlzQXBwVG9rZW4odXNlcm5hbWUsIHJvbGUgc3RyaW5nKSBib29sIHsKCXJldHVybiBzdHJpbmdzLkhhc1ByZWZpeCh1c2VybmFtZSwgImFwcDoiKSB8fCBzdHJpbmdzLkhhc1ByZWZpeChyb2xlLCAiYXBwOiIpCn0KCmZ1bmMgYXBwU2NvcGVBbGxvd2VkKHNjb3BlTGlzdCwgcmVxdWlyZWQgc3RyaW5nKSBib29sIHsKCXJlcXVpcmVkID0gc3RyaW5ncy5UcmltU3BhY2UocmVxdWlyZWQpCglpZiByZXF1aXJlZCA9PSAiIiB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJc2NvcGVMaXN0ID0gc3RyaW5ncy5UcmltU3BhY2Uoc2NvcGVMaXN0KQoJaWYgc2NvcGVMaXN0ID09ICIiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglmb3IgXywgaXRlbSA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KHNjb3BlTGlzdCwgIiwiKSB7CgkJaXRlbSA9IHN0cmluZ3MuVHJpbVNwYWNlKGl0ZW0pCgkJaWYgaXRlbSA9PSAiKiIgfHwgaXRlbSA9PSByZXF1aXJlZCB7CgkJCXJldHVybiB0cnVlCgkJfQoJfQoJcmV0dXJuIGZhbHNlCn0KCmZ1bmMgbG9hZE9wZW5BcHBCeVVzZXJuYW1lKHVzZXJuYW1lIHN0cmluZykgKCptb2RlbC5PcGVuQXBwLCBlcnJvcikgewoJYXBwS2V5IDo9IHN0cmluZ3MuVHJpbVByZWZpeCh1c2VybmFtZSwgImFwcDoiKQoJdmFyIGFwcCBtb2RlbC5PcGVuQXBwCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoImFwcF9rZXkgPSA/IiwgYXBwS2V5KS5GaXJzdCgmYXBwKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglyZXR1cm4gJmFwcCwgbmlsCn0KCmZ1bmMgUmVxdWlyZVVzZXJUb2tlbigpIGdpbi5IYW5kbGVyRnVuYyB7CglyZXR1cm4gZnVuYyhjICpnaW4uQ29udGV4dCkgewoJCXVzZXJuYW1lIDo9IGMuR2V0U3RyaW5nKCJ1c2VybmFtZSIpCgkJcm9sZSA6PSBjLkdldFN0cmluZygicm9sZSIpCgkJaWYgaXNBcHBUb2tlbih1c2VybmFtZSwgcm9sZSkgewoJCQljLkpTT04oaHR0cC5TdGF0dXNGb3JiaWRkZW4sIGdpbi5IeyJlcnJvciI6ICLlupTnlKjku6TniYzml6DmnYPorr/pl67mraTmjqXlj6MifSkKCQkJYy5BYm9ydCgpCgkJCXJldHVybgoJCX0KCQljLk5leHQoKQoJfQp9CgpmdW5jIE9wZW5BUElBY2Nlc3Moc2NvcGUgc3RyaW5nKSBnaW4uSGFuZGxlckZ1bmMgewoJcmV0dXJuIGZ1bmMoYyAqZ2luLkNvbnRleHQpIHsKCQljLlNldCgiYXBwX3Njb3BlX2F1dGhvcml6ZWQiLCBmYWxzZSkKCgkJdXNlcm5hbWUgOj0gYy5HZXRTdHJpbmcoInVzZXJuYW1lIikKCQlyb2xlIDo9IGMuR2V0U3RyaW5nKCJyb2xlIikKCQlpZiAhaXNBcHBUb2tlbih1c2VybmFtZSwgcm9sZSkgewoJCQljLk5leHQoKQoJCQlyZXR1cm4KCQl9CgoJCWFwcCwgZXJyIDo9IGxvYWRPcGVuQXBwQnlVc2VybmFtZSh1c2VybmFtZSkKCQlpZiBlcnIgIT0gbmlsIHx8ICFhcHAuRW5hYmxlZCB7CgkJCWMuSlNPTihodHRwLlN0YXR1c0ZvcmJpZGRlbiwgZ2luLkh7ImVycm9yIjogIuW6lOeUqOS4jeWtmOWcqOaIluW3suiiq+emgeeUqCJ9KQoJCQljLkFib3J0KCkKCQkJcmV0dXJuCgkJfQoKCQlpZiAhYXBwU2NvcGVBbGxvd2VkKGFwcC5TY29wZXMsIHNjb3BlKSB7CgkJCWMuSlNPTihodHRwLlN0YXR1c0ZvcmJpZGRlbiwgZ2luLkh7ImVycm9yIjogIuW6lOeUqOaXoOadg+iuv+mXruatpOi1hOa6kCJ9KQoJCQljLkFib3J0KCkKCQkJcmV0dXJuCgkJfQoKCQljLlNldCgiYXBwX3Njb3BlX2F1dGhvcml6ZWQiLCB0cnVlKQoKCQlpZiBhcHAuUmF0ZUxpbWl0ID4gMCB7CgkJCXNpbmNlIDo9IHRpbWUuTm93KCkuQWRkKC10aW1lLkhvdXIpCgkJCXZhciBjb3VudCBpbnQ2NAoJCQlkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuQXBpQ2FsbExvZ3t9KS5XaGVyZSgiYXBwX2lkID0gPyBBTkQgY3JlYXRlZF9hdCA+PSA/IiwgYXBwLklELCBzaW5jZSkuQ291bnQoJmNvdW50KQoJCQlpZiBjb3VudCA+PSBpbnQ2NChhcHAuUmF0ZUxpbWl0KSB7CgkJCQljLkpTT04oaHR0cC5TdGF0dXNUb29NYW55UmVxdWVzdHMsIGdpbi5IeyJlcnJvciI6ICLlupTnlKjosIPnlKjpopHnjofotoXpmZAifSkKCQkJCWMuQWJvcnQoKQoJCQkJcmV0dXJuCgkJCX0KCQl9CgoJCXN0YXJ0IDo9IHRpbWUuTm93KCkKCQljLk5leHQoKQoKCQllbmRwb2ludCA6PSBjLkZ1bGxQYXRoKCkKCQlpZiBlbmRwb2ludCA9PSAiIiB7CgkJCWVuZHBvaW50ID0gYy5SZXF1ZXN0LlVSTC5QYXRoCgkJfQoKCQlkYXRhYmFzZS5EQi5DcmVhdGUoJm1vZGVsLkFwaUNhbGxMb2d7CgkJCUFwcElEOiAgICBhcHAuSUQsCgkJCUFwcE5hbWU6ICBhcHAuTmFtZSwKCQkJRW5kcG9pbnQ6IGVuZHBvaW50LAoJCQlNZXRob2Q6ICAgYy5SZXF1ZXN0Lk1ldGhvZCwKCQkJU3RhdHVzOiAgIGMuV3JpdGVyLlN0YXR1cygpLAoJCQlEdXJhdGlvbjogZmxvYXQ2NCh0aW1lLlNpbmNlKHN0YXJ0KS5NaWxsaXNlY29uZHMoKSksCgkJCUlQOiAgICAgICBSZXNvbHZlQ2xpZW50SVAoYyksCgkJfSkKCX0KfQo=
+package middleware
+
+import (
+	"net/http"
+	"strings"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+
+	"github.com/gin-gonic/gin"
+)
+
+func isAppToken(username, role string) bool {
+	return strings.HasPrefix(username, "app:") || strings.HasPrefix(role, "app:")
+}
+
+func appScopeAllowed(scopeList, required string) bool {
+	required = strings.TrimSpace(required)
+	if required == "" {
+		return false
+	}
+
+	scopeList = strings.TrimSpace(scopeList)
+	if scopeList == "" {
+		return false
+	}
+
+	for _, item := range strings.Split(scopeList, ",") {
+		item = strings.TrimSpace(item)
+		if item == "*" || item == required {
+			return true
+		}
+	}
+	return false
+}
+
+func loadOpenAppByUsername(username string) (*model.OpenApp, error) {
+	appKey := strings.TrimPrefix(username, "app:")
+	var app model.OpenApp
+	if err := database.DB.Where("app_key = ?", appKey).First(&app).Error; err != nil {
+		return nil, err
+	}
+	return &app, nil
+}
+
+func RequireUserToken() gin.HandlerFunc {
+	return func(c *gin.Context) {
+		username := c.GetString("username")
+		role := c.GetString("role")
+		if isAppToken(username, role) {
+			c.JSON(http.StatusForbidden, gin.H{"error": "应用令牌无权访问此接口"})
+			c.Abort()
+			return
+		}
+		c.Next()
+	}
+}
+
+func OpenAPIAccess(scope string) gin.HandlerFunc {
+	return func(c *gin.Context) {
+		c.Set("app_scope_authorized", false)
+
+		username := c.GetString("username")
+		role := c.GetString("role")
+		if !isAppToken(username, role) {
+			c.Next()
+			return
+		}
+
+		app, err := loadOpenAppByUsername(username)
+		if err != nil || !app.Enabled {
+			c.JSON(http.StatusForbidden, gin.H{"error": "应用不存在或已被禁用"})
+			c.Abort()
+			return
+		}
+
+		if !appScopeAllowed(app.Scopes, scope) {
+			c.JSON(http.StatusForbidden, gin.H{"error": "应用无权访问此资源"})
+			c.Abort()
+			return
+		}
+
+		c.Set("app_scope_authorized", true)
+
+		if app.RateLimit > 0 {
+			since := time.Now().Add(-time.Hour)
+			var count int64
+			database.DB.Model(&model.ApiCallLog{}).Where("app_id = ? AND created_at >= ?", app.ID, since).Count(&count)
+			if count >= int64(app.RateLimit) {
+				c.JSON(http.StatusTooManyRequests, gin.H{"error": "应用调用频率超限"})
+				c.Abort()
+				return
+			}
+		}
+
+		start := time.Now()
+		c.Next()
+
+		endpoint := c.FullPath()
+		if endpoint == "" {
+			endpoint = c.Request.URL.Path
+		}
+
+		database.DB.Create(&model.ApiCallLog{
+			AppID:    app.ID,
+			AppName:  app.Name,
+			Endpoint: endpoint,
+			Method:   c.Request.Method,
+			Status:   c.Writer.Status(),
+			Duration: float64(time.Since(start).Milliseconds()),
+			IP:       ResolveClientIP(c),
+		})
+	}
+}

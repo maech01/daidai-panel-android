@@ -1,1 +1,147 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVycm9ycyIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmluZ3MiCgkidGVzdGluZyIKCSJ0aW1lIgopCgpmdW5jIFRlc3REZXRlY3RMaW51eFBhY2thZ2VNYW5hZ2VyV2l0aExvb2tQYXRoKHQgKnRlc3RpbmcuVCkgewoJbWFuYWdlciwgZXJyIDo9IGRldGVjdExpbnV4UGFja2FnZU1hbmFnZXJXaXRoTG9va1BhdGgoZnVuYyhmaWxlIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCQlpZiBmaWxlID09ICJhcGsiIHsKCQkJcmV0dXJuICIvc2Jpbi9hcGsiLCBuaWwKCQl9CgkJcmV0dXJuICIiLCBlcnJvcnMuTmV3KCJtaXNzaW5nIikKCX0pCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXBrIG1hbmFnZXIsIGdvdCBlcnJvcjogJXYiLCBlcnIpCgl9CglpZiBtYW5hZ2VyLk5hbWUgIT0gImFwayIgfHwgbWFuYWdlci5CaW5hcnkgIT0gImFwayIgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIG1hbmFnZXI6ICUrdiIsIG1hbmFnZXIpCgl9CgoJbWFuYWdlciwgZXJyID0gZGV0ZWN0TGludXhQYWNrYWdlTWFuYWdlcldpdGhMb29rUGF0aChmdW5jKGZpbGUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJCWlmIGZpbGUgPT0gImFwdC1nZXQiIHsKCQkJcmV0dXJuICIvdXNyL2Jpbi9hcHQtZ2V0IiwgbmlsCgkJfQoJCXJldHVybiAiIiwgZXJyb3JzLk5ldygibWlzc2luZyIpCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGFwdCBtYW5hZ2VyLCBnb3QgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgbWFuYWdlci5OYW1lICE9ICJhcHQiIHx8IG1hbmFnZXIuQmluYXJ5ICE9ICJhcHQtZ2V0IiB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgbWFuYWdlcjogJSt2IiwgbWFuYWdlcikKCX0KfQoKZnVuYyBUZXN0U2hvdWxkUmVmcmVzaEFwdFBhY2thZ2VMaXN0c0Zyb21EaXIodCAqdGVzdGluZy5UKSB7CglkaXIgOj0gdC5UZW1wRGlyKCkKCW5vdyA6PSB0aW1lLkRhdGUoMjAyNiwgMywgMjEsIDEyLCAwLCAwLCAwLCB0aW1lLlVUQykKCglpZiAhc2hvdWxkUmVmcmVzaEFwdFBhY2thZ2VMaXN0c0Zyb21EaXIoZGlyLCBub3csIHRpbWUuSG91cikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBlbXB0eSBhcHQgbGlzdHMgZGlyZWN0b3J5IHRvIHJlcXVpcmUgcmVmcmVzaCIpCgl9CgoJaW5kZXhGaWxlIDo9IGZpbGVwYXRoLkpvaW4oZGlyLCAiYXJjaGl2ZS5leGFtcGxlLmNvbV9kaXN0c19zdGFibGVfSW5SZWxlYXNlIikKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoaW5kZXhGaWxlLCBbXWJ5dGUoIm9rIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGFwdCBsaXN0IGZpbGU6ICV2IiwgZXJyKQoJfQoKCXJlY2VudFRpbWUgOj0gbm93LkFkZCgtMzAgKiB0aW1lLk1pbnV0ZSkKCWlmIGVyciA6PSBvcy5DaHRpbWVzKGluZGV4RmlsZSwgcmVjZW50VGltZSwgcmVjZW50VGltZSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgcmVjZW50IG10aW1lOiAldiIsIGVycikKCX0KCWlmIHNob3VsZFJlZnJlc2hBcHRQYWNrYWdlTGlzdHNGcm9tRGlyKGRpciwgbm93LCB0aW1lLkhvdXIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcmVjZW50IGFwdCBsaXN0cyB0byBza2lwIHJlZnJlc2giKQoJfQoKCW9sZFRpbWUgOj0gbm93LkFkZCgtMiAqIHRpbWUuSG91cikKCWlmIGVyciA6PSBvcy5DaHRpbWVzKGluZGV4RmlsZSwgb2xkVGltZSwgb2xkVGltZSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgb2xkIG10aW1lOiAldiIsIGVycikKCX0KCWlmICFzaG91bGRSZWZyZXNoQXB0UGFja2FnZUxpc3RzRnJvbURpcihkaXIsIG5vdywgdGltZS5Ib3VyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0YWxlIGFwdCBsaXN0cyB0byByZXF1aXJlIHJlZnJlc2giKQoJfQp9CgpmdW5jIFRlc3RMaW51eEluc3RhbGxDb21tYW5kU3BlYyh0ICp0ZXN0aW5nLlQpIHsKCWJpbiwgYXJncywgZXJyIDo9IGxpbnV4SW5zdGFsbENvbW1hbmRTcGVjKGxpbnV4UGFja2FnZU1hbmFnZXJ7TmFtZTogImFwayIsIEJpbmFyeTogImFwayJ9LCAiY3VybCIsIGZhbHNlKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImFwayBpbnN0YWxsIHNwZWMgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgYmluICE9ICJhcGsiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXBrIGJpbmFyeSwgZ290ICVzIiwgYmluKQoJfQoJaWYgc3RyaW5ncy5Kb2luKGFyZ3MsICIgIikgIT0gImFkZCAtLW5vLWNhY2hlIGN1cmwiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCBhcGsgYXJnczogJXYiLCBhcmdzKQoJfQoKCWJpbiwgYXJncywgZXJyID0gbGludXhJbnN0YWxsQ29tbWFuZFNwZWMobGludXhQYWNrYWdlTWFuYWdlcntOYW1lOiAiYXB0IiwgQmluYXJ5OiAiYXB0LWdldCJ9LCAicHl0aG9uMy1waXAiLCB0cnVlKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImFwdCBpbnN0YWxsIHNwZWMgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgYmluICE9ICJzaCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzaCB3cmFwcGVyIGZvciBhcHQgaW5zdGFsbCwgZ290ICVzIiwgYmluKQoJfQoJc2NyaXB0IDo9IHN0cmluZ3MuSm9pbihhcmdzLCAiICIpCglpZiAhc3RyaW5ncy5Db250YWlucyhzY3JpcHQsICJhcHQtZ2V0IHVwZGF0ZSIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXB0IHNjcmlwdCB0byByZWZyZXNoIGluZGV4ZXMsIGdvdCAldiIsIGFyZ3MpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhzY3JpcHQsICJhcHQtZ2V0IGluc3RhbGwgLXkgLS1uby1pbnN0YWxsLXJlY29tbWVuZHMgJ3B5dGhvbjMtcGlwJyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXB0IGluc3RhbGwgY29tbWFuZCBpbiBzY3JpcHQsIGdvdCAldiIsIGFyZ3MpCgl9Cn0KCmZ1bmMgVGVzdFJld3JpdGVBUFRMaXN0TGluZSh0ICp0ZXN0aW5nLlQpIHsKCWxpbmUgOj0gImRlYiBbYXJjaD1hbWQ2NF0gaHR0cDovL2FyY2hpdmUudWJ1bnR1LmNvbS91YnVudHUgamFtbXkgbWFpbiByZXN0cmljdGVkIgoJdXBkYXRlZCwgY2hhbmdlZCA6PSByZXdyaXRlQVBUTGlzdExpbmUobGluZSwgInVidW50dSIsICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS91YnVudHUiKQoJaWYgIWNoYW5nZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhcHQgbGlzdCBsaW5lIHRvIGNoYW5nZSIpCgl9CglpZiB1cGRhdGVkICE9ICJkZWIgW2FyY2g9YW1kNjRdIGh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL3VidW50dSBqYW1teSBtYWluIHJlc3RyaWN0ZWQiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCB1cGRhdGVkIGxpbmU6ICVzIiwgdXBkYXRlZCkKCX0KCglkZWZhdWx0ZWQsIGNoYW5nZWQgOj0gcmV3cml0ZUFQVExpc3RMaW5lKHVwZGF0ZWQsICJ1YnVudHUiLCAiIikKCWlmIGNoYW5nZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhcHQgbGlzdCBsaW5lIGFscmVhZHkgdXNpbmcgZGVmYXVsdCBhY2NlbGVyYXRlZCBtaXJyb3IgdG8gcmVtYWluIHVuY2hhbmdlZCIpCgl9CglpZiBkZWZhdWx0ZWQgIT0gImRlYiBbYXJjaD1hbWQ2NF0gaHR0cHM6Ly9taXJyb3JzLmFsaXl1bi5jb20vdWJ1bnR1IGphbW15IG1haW4gcmVzdHJpY3RlZCIgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGRlZmF1bHRlZCBsaW5lOiAlcyIsIGRlZmF1bHRlZCkKCX0KfQoKZnVuYyBUZXN0UmV3cml0ZUFQVFNvdXJjZXNDb250ZW50KHQgKnRlc3RpbmcuVCkgewoJY29udGVudCA6PSAiVHlwZXM6IGRlYlxuVVJJczogaHR0cDovL2FyY2hpdmUudWJ1bnR1LmNvbS91YnVudHUvXG5TdWl0ZXM6IG5vYmxlIG5vYmxlLXVwZGF0ZXNcbkNvbXBvbmVudHM6IG1haW4gcmVzdHJpY3RlZFxuIgoJdXBkYXRlZCwgY2hhbmdlZCA6PSByZXdyaXRlQVBUU291cmNlc0NvbnRlbnQoY29udGVudCwgInVidW50dSIsICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS91YnVudHUiKQoJaWYgIWNoYW5nZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhcHQgc291cmNlcyBjb250ZW50IHRvIGNoYW5nZSIpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyh1cGRhdGVkLCAiVVJJczogaHR0cHM6Ly9taXJyb3JzLmFsaXl1bi5jb20vdWJ1bnR1IikgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIHJld3JpdHRlbiBzb3VyY2VzIGNvbnRlbnQ6ICVzIiwgdXBkYXRlZCkKCX0KfQoKZnVuYyBUZXN0RWZmZWN0aXZlTGludXhNaXJyb3JGYWxsc0JhY2tUb0RlZmF1bHRBY2NlbGVyYXRlZE1pcnJvcih0ICp0ZXN0aW5nLlQpIHsKCWFwa01hbmFnZXIgOj0gbGludXhQYWNrYWdlTWFuYWdlcntOYW1lOiAiYXBrIiwgQmluYXJ5OiAiYXBrIn0KCWlmIGdvdCA6PSBlZmZlY3RpdmVMaW51eE1pcnJvcihhcGtNYW5hZ2VyLCAiIiwgIiIpOyBnb3QgIT0gImh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL2FscGluZSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhcGsgZGVmYXVsdCBtaXJyb3IsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBlZmZlY3RpdmVMaW51eE1pcnJvcihhcGtNYW5hZ2VyLCAiIiwgImh0dHBzOi8vZGwtY2RuLmFscGluZWxpbnV4Lm9yZy9hbHBpbmUiKTsgZ290ICE9ICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS9hbHBpbmUiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXBrIG9mZmljaWFsIG1pcnJvciB0byBmYWxsIGJhY2sgdG8gYWNjZWxlcmF0ZWQgbWlycm9yLCBnb3QgJXEiLCBnb3QpCgl9CgoJYXB0TWFuYWdlciA6PSBsaW51eFBhY2thZ2VNYW5hZ2Vye05hbWU6ICJhcHQiLCBCaW5hcnk6ICJhcHQtZ2V0In0KCWlmIGdvdCA6PSBlZmZlY3RpdmVMaW51eE1pcnJvcihhcHRNYW5hZ2VyLCAidWJ1bnR1IiwgIiIpOyBnb3QgIT0gImh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL3VidW50dSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1YnVudHUgZGVmYXVsdCBtaXJyb3IsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBlZmZlY3RpdmVMaW51eE1pcnJvcihhcHRNYW5hZ2VyLCAiZGViaWFuIiwgImh0dHA6Ly9kZWIuZGViaWFuLm9yZy9kZWJpYW4iKTsgZ290ICE9ICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS9kZWJpYW4iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGViaWFuIG9mZmljaWFsIG1pcnJvciB0byBmYWxsIGJhY2sgdG8gYWNjZWxlcmF0ZWQgbWlycm9yLCBnb3QgJXEiLCBnb3QpCgl9CglpZiBnb3QgOj0gZWZmZWN0aXZlTGludXhNaXJyb3IoYXB0TWFuYWdlciwgInVidW50dSIsICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS91YnVudHUiKTsgZ290ICE9ICJodHRwczovL21pcnJvcnMuYWxpeXVuLmNvbS91YnVudHUiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3VzdG9tIHVidW50dSBtaXJyb3IgdG8gYmUgcHJlc2VydmVkLCBnb3QgJXEiLCBnb3QpCgl9Cn0K
+package handler
+
+import (
+	"errors"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+	"time"
+)
+
+func TestDetectLinuxPackageManagerWithLookPath(t *testing.T) {
+	manager, err := detectLinuxPackageManagerWithLookPath(func(file string) (string, error) {
+		if file == "apk" {
+			return "/sbin/apk", nil
+		}
+		return "", errors.New("missing")
+	})
+	if err != nil {
+		t.Fatalf("expected apk manager, got error: %v", err)
+	}
+	if manager.Name != "apk" || manager.Binary != "apk" {
+		t.Fatalf("unexpected manager: %+v", manager)
+	}
+
+	manager, err = detectLinuxPackageManagerWithLookPath(func(file string) (string, error) {
+		if file == "apt-get" {
+			return "/usr/bin/apt-get", nil
+		}
+		return "", errors.New("missing")
+	})
+	if err != nil {
+		t.Fatalf("expected apt manager, got error: %v", err)
+	}
+	if manager.Name != "apt" || manager.Binary != "apt-get" {
+		t.Fatalf("unexpected manager: %+v", manager)
+	}
+}
+
+func TestShouldRefreshAptPackageListsFromDir(t *testing.T) {
+	dir := t.TempDir()
+	now := time.Date(2026, 3, 21, 12, 0, 0, 0, time.UTC)
+
+	if !shouldRefreshAptPackageListsFromDir(dir, now, time.Hour) {
+		t.Fatalf("expected empty apt lists directory to require refresh")
+	}
+
+	indexFile := filepath.Join(dir, "archive.example.com_dists_stable_InRelease")
+	if err := os.WriteFile(indexFile, []byte("ok"), 0o644); err != nil {
+		t.Fatalf("write apt list file: %v", err)
+	}
+
+	recentTime := now.Add(-30 * time.Minute)
+	if err := os.Chtimes(indexFile, recentTime, recentTime); err != nil {
+		t.Fatalf("set recent mtime: %v", err)
+	}
+	if shouldRefreshAptPackageListsFromDir(dir, now, time.Hour) {
+		t.Fatalf("expected recent apt lists to skip refresh")
+	}
+
+	oldTime := now.Add(-2 * time.Hour)
+	if err := os.Chtimes(indexFile, oldTime, oldTime); err != nil {
+		t.Fatalf("set old mtime: %v", err)
+	}
+	if !shouldRefreshAptPackageListsFromDir(dir, now, time.Hour) {
+		t.Fatalf("expected stale apt lists to require refresh")
+	}
+}
+
+func TestLinuxInstallCommandSpec(t *testing.T) {
+	bin, args, err := linuxInstallCommandSpec(linuxPackageManager{Name: "apk", Binary: "apk"}, "curl", false)
+	if err != nil {
+		t.Fatalf("apk install spec error: %v", err)
+	}
+	if bin != "apk" {
+		t.Fatalf("expected apk binary, got %s", bin)
+	}
+	if strings.Join(args, " ") != "add --no-cache curl" {
+		t.Fatalf("unexpected apk args: %v", args)
+	}
+
+	bin, args, err = linuxInstallCommandSpec(linuxPackageManager{Name: "apt", Binary: "apt-get"}, "python3-pip", true)
+	if err != nil {
+		t.Fatalf("apt install spec error: %v", err)
+	}
+	if bin != "sh" {
+		t.Fatalf("expected sh wrapper for apt install, got %s", bin)
+	}
+	script := strings.Join(args, " ")
+	if !strings.Contains(script, "apt-get update") {
+		t.Fatalf("expected apt script to refresh indexes, got %v", args)
+	}
+	if !strings.Contains(script, "apt-get install -y --no-install-recommends 'python3-pip'") {
+		t.Fatalf("expected apt install command in script, got %v", args)
+	}
+}
+
+func TestRewriteAPTListLine(t *testing.T) {
+	line := "deb [arch=amd64] http://archive.ubuntu.com/ubuntu jammy main restricted"
+	updated, changed := rewriteAPTListLine(line, "ubuntu", "https://mirrors.aliyun.com/ubuntu")
+	if !changed {
+		t.Fatalf("expected apt list line to change")
+	}
+	if updated != "deb [arch=amd64] https://mirrors.aliyun.com/ubuntu jammy main restricted" {
+		t.Fatalf("unexpected updated line: %s", updated)
+	}
+
+	defaulted, changed := rewriteAPTListLine(updated, "ubuntu", "")
+	if changed {
+		t.Fatalf("expected apt list line already using default accelerated mirror to remain unchanged")
+	}
+	if defaulted != "deb [arch=amd64] https://mirrors.aliyun.com/ubuntu jammy main restricted" {
+		t.Fatalf("unexpected defaulted line: %s", defaulted)
+	}
+}
+
+func TestRewriteAPTSourcesContent(t *testing.T) {
+	content := "Types: deb\nURIs: http://archive.ubuntu.com/ubuntu/\nSuites: noble noble-updates\nComponents: main restricted\n"
+	updated, changed := rewriteAPTSourcesContent(content, "ubuntu", "https://mirrors.aliyun.com/ubuntu")
+	if !changed {
+		t.Fatalf("expected apt sources content to change")
+	}
+	if !strings.Contains(updated, "URIs: https://mirrors.aliyun.com/ubuntu") {
+		t.Fatalf("unexpected rewritten sources content: %s", updated)
+	}
+}
+
+func TestEffectiveLinuxMirrorFallsBackToDefaultAcceleratedMirror(t *testing.T) {
+	apkManager := linuxPackageManager{Name: "apk", Binary: "apk"}
+	if got := effectiveLinuxMirror(apkManager, "", ""); got != "https://mirrors.aliyun.com/alpine" {
+		t.Fatalf("expected apk default mirror, got %q", got)
+	}
+	if got := effectiveLinuxMirror(apkManager, "", "https://dl-cdn.alpinelinux.org/alpine"); got != "https://mirrors.aliyun.com/alpine" {
+		t.Fatalf("expected apk official mirror to fall back to accelerated mirror, got %q", got)
+	}
+
+	aptManager := linuxPackageManager{Name: "apt", Binary: "apt-get"}
+	if got := effectiveLinuxMirror(aptManager, "ubuntu", ""); got != "https://mirrors.aliyun.com/ubuntu" {
+		t.Fatalf("expected ubuntu default mirror, got %q", got)
+	}
+	if got := effectiveLinuxMirror(aptManager, "debian", "http://deb.debian.org/debian"); got != "https://mirrors.aliyun.com/debian" {
+		t.Fatalf("expected debian official mirror to fall back to accelerated mirror, got %q", got)
+	}
+	if got := effectiveLinuxMirror(aptManager, "ubuntu", "https://mirrors.aliyun.com/ubuntu"); got != "https://mirrors.aliyun.com/ubuntu" {
+		t.Fatalf("expected custom ubuntu mirror to be preserved, got %q", got)
+	}
+}

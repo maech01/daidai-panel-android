@@ -1,1 +1,47 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInN5bmMiCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKLy8gbWFudWFsU3RvcE1hcmtzIOiusOW9leiiq+S4u+WKqOWBnOatoui/h+eahOS7u+WKoSBJROOAggovLwovLyDmiYvliqjlgZzmraLjgIHlrprml7blgZzmraLmiJblraTlhL8gUElEIOWFnOW6leWBnOatou+8jOW/hemhu+WcqOadgOi/m+eoi+S5i+WJjeaJk+agh+iusO+8jAovLyDov5nmoLfku7vliqHlrozmiJDnu5PnrpflnZfov5DooYzml7bmoIforrDlt7Llj6/op4HvvIzlj6/miormnKzmrKHov5DooYznu5PnrpfkuLogQWJvcnRlZOOAggovLyBrZXk6IHRhc2tJRCh1aW50KSAtPiBzdHJ1Y3R7fXt9CnZhciBtYW51YWxTdG9wTWFya3Mgc3luYy5NYXAKCi8vIG1hcmtNYW51YWxTdG9wIOagh+iusOafkOS7u+WKoeacrOasoei/kOihjOiiq+S4u+WKqOWBnOatouOAggovLwovLyDlv4XpobvlnKjmnYDov5vnqIvkuYvliY3osIPnlKjvvIzkv53or4HlrozmiJDlnZfov5DooYzml7bmoIforrDlj6/op4HvvJvph43lpI3moIforrDlronlhajvvIjluYLnrYnvvInjgIIKZnVuYyBtYXJrTWFudWFsU3RvcCh0YXNrSUQgdWludCkgewoJbWFudWFsU3RvcE1hcmtzLlN0b3JlKHRhc2tJRCwgc3RydWN0e317fSkKfQoKLy8gTWFya01hbnVhbFN0b3Ag5pivIG1hcmtNYW51YWxTdG9wIOeahOWvvOWHuuWMheijhe+8jOS+myBoYW5kbGVyIOetieWFtuS7luWMhei3qOWMheiwg+eUqOOAggpmdW5jIE1hcmtNYW51YWxTdG9wKHRhc2tJRCB1aW50KSB7CgltYXJrTWFudWFsU3RvcCh0YXNrSUQpCn0KCi8vIGNvbnN1bWVNYW51YWxTdG9wIOivu+WPluW5tua4hemZpOafkOS7u+WKoeeahOaJi+WKqOWBnOatouagh+iusO+8iOivu+WNs+a4he+8jExvYWRBbmREZWxldGUg6K+t5LmJ77yJ44CCCi8vCi8vIOi/lOWbniB0cnVlIOihqOekuuacrOasoei/kOihjOaYr+iiq+S4u+WKqOWBnOatoueahOOAguivu+WNs+a4heS/neivgeW5guetieOAgeS4jeaui+eVme+8mgovLyDoh6rnhLblrozmiJDvvIjmnKrmiZPmoIforrDvvInnmoTku7vliqHmtojotLnml7bov5Tlm54gZmFsc2XvvIzooYzkuLrlrozlhajkuI3lj5jjgIIKZnVuYyBjb25zdW1lTWFudWFsU3RvcCh0YXNrSUQgdWludCkgYm9vbCB7CglfLCBvayA6PSBtYW51YWxTdG9wTWFya3MuTG9hZEFuZERlbGV0ZSh0YXNrSUQpCglyZXR1cm4gb2sKfQoKLy8gYXBwbHlNYW51YWxTdG9wT3ZlcnJpZGUg5Zyo5Lu75Yqh5a6M5oiQ57uT566X5pe25bqU55So5Li75Yqo5YGc5q2i57uT566X6KeE5YiZ44CCCi8vCi8vIOWug+a2iOi0ueS4gOasoeWBnOatouagh+iusO+8iOivu+WNs+a4he+8ie+8mgovLyAgIC0g5ZG95Lit5qCH6K6w77ya5by65Yi25YaZ5YWlIEFib3J0ZWTvvIzosIPnlKjmlrnmja7mraTlj5HpgIHnu4jmraLpgJrnn6XjgIHot7Pov4fmiJDlip8v5aSx6LSl6YCa55+l77ybCi8vICAgLSDmnKrlkb3kuK3moIforrDvvJrljp/moLfov5Tlm57kvKDlhaXnirbmgIHvvIzoh6rnhLbmiJDlip8v5aSx6LSl5LuN5oyJ5Y6f6YC76L6R5aSE55CG44CCCmZ1bmMgYXBwbHlNYW51YWxTdG9wT3ZlcnJpZGUodGFza0lEIHVpbnQsIHJ1blN0YXR1cywgbG9nU3RhdHVzIGludCkgKGZpbmFsUnVuIGludCwgZmluYWxMb2cgaW50LCBhYm9ydGVkIGJvb2wpIHsKCWlmICFjb25zdW1lTWFudWFsU3RvcCh0YXNrSUQpIHsKCQlyZXR1cm4gcnVuU3RhdHVzLCBsb2dTdGF0dXMsIGZhbHNlCgl9CglyZXR1cm4gbW9kZWwuUnVuQWJvcnRlZCwgbW9kZWwuTG9nU3RhdHVzQWJvcnRlZCwgdHJ1ZQp9Cg==
+package service
+
+import (
+	"sync"
+
+	"daidai-panel/model"
+)
+
+// manualStopMarks 记录被主动停止过的任务 ID。
+//
+// 手动停止、定时停止或孤儿 PID 兜底停止，必须在杀进程之前打标记，
+// 这样任务完成结算块运行时标记已可见，可把本次运行结算为 Aborted。
+// key: taskID(uint) -> struct{}{}
+var manualStopMarks sync.Map
+
+// markManualStop 标记某任务本次运行被主动停止。
+//
+// 必须在杀进程之前调用，保证完成块运行时标记可见；重复标记安全（幂等）。
+func markManualStop(taskID uint) {
+	manualStopMarks.Store(taskID, struct{}{})
+}
+
+// MarkManualStop 是 markManualStop 的导出包装，供 handler 等其他包跨包调用。
+func MarkManualStop(taskID uint) {
+	markManualStop(taskID)
+}
+
+// consumeManualStop 读取并清除某任务的手动停止标记（读即清，LoadAndDelete 语义）。
+//
+// 返回 true 表示本次运行是被主动停止的。读即清保证幂等、不残留：
+// 自然完成（未打标记）的任务消费时返回 false，行为完全不变。
+func consumeManualStop(taskID uint) bool {
+	_, ok := manualStopMarks.LoadAndDelete(taskID)
+	return ok
+}
+
+// applyManualStopOverride 在任务完成结算时应用主动停止结算规则。
+//
+// 它消费一次停止标记（读即清）：
+//   - 命中标记：强制写入 Aborted，调用方据此发送终止通知、跳过成功/失败通知；
+//   - 未命中标记：原样返回传入状态，自然成功/失败仍按原逻辑处理。
+func applyManualStopOverride(taskID uint, runStatus, logStatus int) (finalRun int, finalLog int, aborted bool) {
+	if !consumeManualStop(taskID) {
+		return runStatus, logStatus, false
+	}
+	return model.RunAborted, model.LogStatusAborted, true
+}

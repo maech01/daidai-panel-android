@@ -1,1 +1,354 @@
-IyEvYmluL3NoCiMgZGFpZGFpLXBhbmVsIOWuueWZqOWFpeWPo+iEmuacrAojIOWFvOWuuemjnueJmyBPUyAvIOe+pOaZliAvIOe7v+iBlCAvIHVuUkFJRCDnrYnnrKzkuInmlrkgTkFTIOmDqOe9suWcuuaZr+OAggoKc2V0IC1lCgpEQVRBX0RJUj0ke0RBVEFfRElSOi0vYXBwL0R1bWItUGFuZWx9ClNFUlZFUl9QSURfRklMRT0iJHtEQVRBX0RJUn0vcnVuL2RhaWRhaS1zZXJ2ZXIucGlkIgpQQU5FTF9QT1JUPSR7UEFORUxfUE9SVDotNTcwMH0KQVBQX0NPTkZJR19GSUxFPSR7QVBQX0NPTkZJR19GSUxFOi0vYXBwL2NvbmZpZy55YW1sfQoKbG9nKCkgewogIHByaW50ZiAnW2VudHJ5cG9pbnRdICVzXG4nICIkKiIKfQoKZmFpbCgpIHsKICBwcmludGYgJ1tlbnRyeXBvaW50XVtFUlJPUl0gJXNcbicgIiQqIiA+JjIKICBleGl0IDEKfQoKIyAtLS0g5pWw5o2u55uu5b2V5Yid5aeL5YyWIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCm1rZGlyIC1wIFwKICAiJHtEQVRBX0RJUn0vc2NyaXB0cyIgXAogICIke0RBVEFfRElSfS9sb2dzIiBcCiAgIiR7REFUQV9ESVJ9L2JhY2t1cHMiIFwKICAiJHtEQVRBX0RJUn0vcnVuIiBcCiAgIiR7REFUQV9ESVJ9L2RlcHMvbm9kZWpzIiBcCiAgIiR7REFUQV9ESVJ9L2RlcHMvcHl0aG9uIgpta2RpciAtcCAvdG1wCmNobW9kIDE3NzcgL3RtcAoKIyAtLS0gUFVJRC9QR0lEIOaUr+aMge+8iExpbnV4U2VydmVyLmlvIOmjjuagvO+8jG9wdC1pbu+8iSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDpo57niZsgT1MgLyDnvqTmmZbnrYkgTkFTIOeUqOaIt+mAmuW4uOmcgOimgeiuqeWuueWZqOS7peWuv+S4u+acuueUqOaIt+i3ke+8jOaWueS+vyBTTUIvTkZTIOWFseS6q+OAggojIOS7heW9k+aYvuW8j+S8oOWFpSBQVUlEIOaJjeWIh+aNoueUqOaIt++8m+S/neaMgeWvueWOhuWPsumDqOe9su+8iOm7mOiupCByb29077yJ55qE5YW85a6544CCClJVTl9BU19VU0VSPSIiCmlmIFsgLW4gIiR7UFVJRH0iIF0gfHwgWyAtbiAiJHtQR0lEfSIgXTsgdGhlbgogIFRBUkdFVF9VSUQ9JHtQVUlEOi0wfQogIFRBUkdFVF9HSUQ9JHtQR0lEOi0ke1RBUkdFVF9VSUR9fQoKICBpZiAhIGNvbW1hbmQgLXYgc3UtZXhlYyA+L2Rldi9udWxsIDI+JjEgJiYgISBjb21tYW5kIC12IGdvc3UgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBsb2cgIuacquaJvuWIsCBzdS1leGVjL2dvc3XvvIxQVUlEL1BHSUQg6K6+572u5bey5b+955Wl77yI57un57ut5LulIHJvb3Qg6L+Q6KGM77yJIgogIGVsc2UKICAgIGlmIGNvbW1hbmQgLXYgYWRkZ3JvdXAgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICAgIGlmICEgZ2V0ZW50IGdyb3VwIGRhaWRhaSA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgICAgICBhZGRncm91cCAtZyAiJHtUQVJHRVRfR0lEfSIgZGFpZGFpIDI+L2Rldi9udWxsIHx8IGdyb3VwYWRkIC1nICIke1RBUkdFVF9HSUR9IiBkYWlkYWkKICAgICAgZmkKICAgIGVsc2UKICAgICAgZ3JvdXBhZGQgLWcgIiR7VEFSR0VUX0dJRH0iIGRhaWRhaSAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBmaQoKICAgIGlmIGNvbW1hbmQgLXYgYWRkdXNlciA+L2Rldi9udWxsIDI+JjE7IHRoZW4KICAgICAgaWYgISBpZCAtdSBkYWlkYWkgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICAgICAgYWRkdXNlciAtRCAtSCAtdSAiJHtUQVJHRVRfVUlEfSIgLUcgZGFpZGFpIGRhaWRhaSAyPi9kZXYvbnVsbCB8fCBcCiAgICAgICAgICB1c2VyYWRkIC1NIC11ICIke1RBUkdFVF9VSUR9IiAtZyAiJHtUQVJHRVRfR0lEfSIgLXMgL3NiaW4vbm9sb2dpbiBkYWlkYWkKICAgICAgZmkKICAgIGVsc2UKICAgICAgdXNlcmFkZCAtTSAtdSAiJHtUQVJHRVRfVUlEfSIgLWcgIiR7VEFSR0VUX0dJRH0iIC1zIC9zYmluL25vbG9naW4gZGFpZGFpIDI+L2Rldi9udWxsIHx8IHRydWUKICAgIGZpCgogICAgbG9nICLlupTnlKggUFVJRD0ke1RBUkdFVF9VSUR9IFBHSUQ9JHtUQVJHRVRfR0lEfe+8jOato+WcqOiwg+aVtOaVsOaNruebruW9leaJgOacieadgy4uLiIKICAgIGNob3duIC1SICIke1RBUkdFVF9VSUR9OiR7VEFSR0VUX0dJRH0iICIke0RBVEFfRElSfSIgL3RtcCAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBSVU5fQVNfVVNFUj0iZGFpZGFpIgogIGZpCmZpCgojIC0tLSDmlbDmja7nm67lvZXlj6/lhpnmgKfpooTmo4AgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KV1JJVEVfUFJPQkU9IiR7REFUQV9ESVJ9Ly5kYWlkYWktd3JpdGUtcHJvYmUtJCQiClBST0JFX0NNRD0idHJ1ZSIKaWYgWyAtbiAiJHtSVU5fQVNfVVNFUn0iIF07IHRoZW4KICBpZiBjb21tYW5kIC12IHN1LWV4ZWMgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBQUk9CRV9DTUQ9InN1LWV4ZWMgJHtSVU5fQVNfVVNFUn0gdG91Y2ggJHtXUklURV9QUk9CRX0iCiAgZWxpZiBjb21tYW5kIC12IGdvc3UgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBQUk9CRV9DTUQ9Imdvc3UgJHtSVU5fQVNfVVNFUn0gdG91Y2ggJHtXUklURV9QUk9CRX0iCiAgZmkKZWxzZQogIFBST0JFX0NNRD0idG91Y2ggJHtXUklURV9QUk9CRX0iCmZpCgppZiAhIHNoIC1jICIke1BST0JFX0NNRH0iIDI+L2Rldi9udWxsOyB0aGVuCiAgbG9nICLmlbDmja7nm67lvZUgJHtEQVRBX0RJUn0g5LiN5Y+v5YaZ44CC5bi46KeB5Y6f5Zug77yaIgogIGxvZyAiICAxKSBOQVMg5LiK5oyC6L2955qE5a6/5Li75py655uu5b2V5omA5pyJ5p2D5LiO5a655Zmo55So5oi35LiN5Yy56YWN44CCIgogIGxvZyAiICAgICDlnKjlrr/kuLvmnLrmiafooYzvvJpzdWRvIGNob3duIC1SIFwkKGlkIC11KTpcJChpZCAtZykgPOaMgui9veeCuT7vvIzmiJblnKggY29tcG9zZSDph4zorr7nva4gUFVJRC9QR0lE44CCIgogIGxvZyAiICAyKSBTRUxpbnV4L0FwcEFybW9yIOaLkue7neWGmeWFpeOAgiIKICBsb2cgIiAgMykg5Y+q6K+75Y235oyC6L2977yIY29tcG9zZSDphY3nva7kuK0gOnJvIOagh+W/l++8ieOAgiIKICBmYWlsICLmlbDmja7nm67lvZXlj6/lhpnmgKfpooTmo4DlpLHotKXvvIzlkK/liqjkuK3mraLjgIIiCmZpCnJtIC1mICIke1dSSVRFX1BST0JFfSIgMj4vZGV2L251bGwgfHwgdHJ1ZQoKIyAtLS0g5a2X56ym57yW56CBIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCiMg5LiOIERvY2tlcmZpbGUg55qEIEVOViDlr7nnp7DvvIzlj4zkv53pmanvvJrmnKrnu48gRU5WIOazqOWFpeeahOWcuuaZr++8iOWmgumDqOWIhuWuiOaKpOaWueW8j++8ieS5n+iDveaLv+WIsCBVVEYtOCBsb2NhbGXvvIwKIyDpgb/lhY3ku7vliqHmiafooYzkuI7nu4jnq6/ph4znmoTkuK3mlofmlofku7blkI0v6L6T5Ye65Lmx56CB44CCQy5VVEYtOCDlnKggQWxwaW5lIG11c2wg5LiOIERlYmlhbiBnbGliYyDlnYflhoXnva7jgIIKZXhwb3J0IExBTkc9IiR7TEFORzotQy5VVEYtOH0iCmV4cG9ydCBMQ19BTEw9IiR7TENfQUxMOi1DLlVURi04fSIKCiMgLS0tIFBBVEggLyBOT0RFX1BBVEggLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmV4cG9ydCBOT0RFX1BBVEg9IiR7REFUQV9ESVJ9L2RlcHMvbm9kZWpzL25vZGVfbW9kdWxlcyIKZXhwb3J0IERBSURBSV9QWVRIT05fUlVOVElNRV9ST09UPSIke0RBSURBSV9QWVRIT05fUlVOVElNRV9ST09UOi0vb3B0L2RhaWRhaS1weXRob259IgpEQUlEQUlfUFlUSE9OX0JJTl9QQVRIPSIiCkRBSURBSV9QWVRIT05fTElCX1BBVEg9IiIKZm9yIHB5X3ZlciBpbiAzLjEyIDMuMTEgMy4xMDsgZG8KICBweV9yb290PSIke0RBSURBSV9QWVRIT05fUlVOVElNRV9ST09UfS8ke3B5X3Zlcn0iCiAgaWYgWyAtZCAiJHtweV9yb290fS9iaW4iIF07IHRoZW4KICAgIERBSURBSV9QWVRIT05fQklOX1BBVEg9IiR7REFJREFJX1BZVEhPTl9CSU5fUEFUSDorJHtEQUlEQUlfUFlUSE9OX0JJTl9QQVRIfTp9JHtweV9yb290fS9iaW4iCiAgZmkKICBpZiBbIC1kICIke3B5X3Jvb3R9L2xpYiIgXTsgdGhlbgogICAgREFJREFJX1BZVEhPTl9MSUJfUEFUSD0iJHtEQUlEQUlfUFlUSE9OX0xJQl9QQVRIOiske0RBSURBSV9QWVRIT05fTElCX1BBVEh9On0ke3B5X3Jvb3R9L2xpYiIKICBmaQpkb25lCkRFRkFVTFRfUFlUSE9OX1ZFUlNJT049IiR7REFJREFJX1BZVEhPTl9WRVJTSU9OOi0zLjEyfSIKZXhwb3J0IFBBVEg9IiR7REFUQV9ESVJ9L2RlcHMvbm9kZWpzL25vZGVfbW9kdWxlcy8uYmluOiR7REFUQV9ESVJ9L2RlcHMvcHl0aG9uLyR7REVGQVVMVF9QWVRIT05fVkVSU0lPTn0vYmluOiR7REFJREFJX1BZVEhPTl9CSU5fUEFUSDorJHtEQUlEQUlfUFlUSE9OX0JJTl9QQVRIfTp9JHtQQVRIfSIKaWYgWyAtbiAiJHtEQUlEQUlfUFlUSE9OX0xJQl9QQVRIfSIgXTsgdGhlbgogIGV4cG9ydCBMRF9MSUJSQVJZX1BBVEg9IiR7REFJREFJX1BZVEhPTl9MSUJfUEFUSH0ke0xEX0xJQlJBUllfUEFUSDorOiR7TERfTElCUkFSWV9QQVRIfX0iCmZpCgppZiBbIC1kICIke0RBVEFfRElSfS9kZXBzL3B5dGhvbi8ke0RFRkFVTFRfUFlUSE9OX1ZFUlNJT059IiBdOyB0aGVuCiAgUFlfTUlOT1I9JChweXRob24zIC1jICdpbXBvcnQgc3lzO3ByaW50KGYie3N5cy52ZXJzaW9uX2luZm8ubWlub3J9IiknIDI+L2Rldi9udWxsIHx8IGVjaG8gIiIpCiAgaWYgWyAtbiAiJHtQWV9NSU5PUn0iIF07IHRoZW4KICAgIFBZX1NJVEU9IiR7REFUQV9ESVJ9L2RlcHMvcHl0aG9uLyR7REVGQVVMVF9QWVRIT05fVkVSU0lPTn0vbGliL3B5dGhvbjMuJHtQWV9NSU5PUn0vc2l0ZS1wYWNrYWdlcyIKICAgIGlmIFsgLWQgIiR7UFlfU0lURX0iIF07IHRoZW4KICAgICAgZXhwb3J0IFBZVEhPTlBBVEg9IiR7UFlfU0lURX0iCiAgICBmaQogIGZpCmZpCgojIOa4heeQhuWPr+iDveS4jumdouadv+WGhemDqCBwaXAg6LCD55So5Yay56qB55qE546v5aKD5Y+Y6YeP77yI5LiO5Luj56CB5L6nIFNhbml0aXplUGlwRW52IOWvueensO+8jOWPjOS/nemZqe+8ieOAggojIOeUqOaIt+WcqCBkb2NrZXIgcnVuIC1lIC8gc3lzdGVtZCBFbnZpcm9ubWVudD0g5Lit6aKE6K6+55qEIFBJUF9QUkVGSVgg562J5Lya6Kem5Y+RCiMgIkNhbm5vdCBzZXQgLS1ob21lIGFuZCAtLXByZWZpeCB0b2dldGhlciIg562J5Yay56qB44CCCnVuc2V0IFBJUF9QUkVGSVggUElQX0hPTUUgUElQX1RBUkdFVCBQSVBfUk9PVCBQSVBfVVNFUiBQSVBfSU5TVEFMTF9PUFRJT04gUFlUSE9OVVNFUkJBU0UKCiMgLS0tIG5naW54IOebkeWQrOerr+WPo+abv+aNoiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCk5HSU5YX0NPTkZfUEFUSD0ke05HSU5YX0RFRkFVTFRfQ09ORjotfQppZiBbIC16ICIke05HSU5YX0NPTkZfUEFUSH0iIF07IHRoZW4KICBmb3IgY2FuZGlkYXRlIGluIC9ldGMvbmdpbngvaHR0cC5kL2RlZmF1bHQuY29uZiAvZXRjL25naW54L2NvbmYuZC9kZWZhdWx0LmNvbmYgL2V0Yy9uZ2lueC9zaXRlcy1lbmFibGVkL2RlZmF1bHQ7IGRvCiAgICBpZiBbIC1mICIke2NhbmRpZGF0ZX0iIF07IHRoZW4KICAgICAgTkdJTlhfQ09ORl9QQVRIPSIke2NhbmRpZGF0ZX0iCiAgICAgIGJyZWFrCiAgICBmaQogIGRvbmUKZmkKCmlmIFsgLW4gIiR7TkdJTlhfQ09ORl9QQVRIfSIgXSAmJiBbIC1mICIke05HSU5YX0NPTkZfUEFUSH0iIF07IHRoZW4KICBzZWQgLWkgInMvbGlzdGVuIFswLTldKi9saXN0ZW4gJHtQQU5FTF9QT1JUfS8iICIke05HSU5YX0NPTkZfUEFUSH0iCmZpCgojIC0tLSBjb25maWcueWFtbCDluYLnrYnnlJ/miJAgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KIyDljoblj7Log4zmma/vvJoKIyAgIHYyLjIuNSDlj4rmm7Tml6nvvJrmr4/mrKHlkK/liqggY2F0IOimhuebliBjb25maWcueWFtbO+8jOeUqOaIt+WcqOmdouadv+mHjOaUuei/h+eahCBDT1JTIC8KIyAgICAg5L+h5Lu75Luj55CGIC8gSldUIOi/h+acn+aXtumXtOetieS8muiiq+W8uuWItuS4ouWkseOAggojICAgdjIuMi4277ya5pS55oiQIuW5guetiSLigJTigJTmlofku7blrZjlnKjlsLHkuI3liqjjgILkvYYgRG9ja2VyZmlsZSDmioogc2VydmVyL2NvbmZpZy55YW1sCiMgICAgIOmHjOeahCBgcGF0aDogLi9kYXRhL2RhaWRhaS5kYmAg6L+Z56eN55u45a+56Lev5b6E5Y2g5L2NIENPUFkg5Yiw5LqGIC9hcHAvY29uZmlnLnlhbWzvvIwKIyAgICAg5bmC562J6YC76L6R5L+d55WZ5LqG5Y2g5L2N77yMZGFpZGFpLXNlcnZlciDmjIkgY3dkIOino+aekOW+l+WIsCAvYXBwL2RhdGEvZGFpZGFpLmRi77yMCiMgICAgIOaWsOW7uuepuuW6k++8jOaXp+aVsOaNru+8iC9hcHAvRHVtYi1QYW5lbC9kYWlkYWkuZGLvvInmib7kuI3liLAg4oaSICLpnaLmnb/lg4/liJroo4Xlpb0i44CCCiMgICB2Mi4yLjfvvJrnlKjnoaznvJbnoIHlrZfnrKbkuLIgYC4vZGF0YS9kYWlkYWkuZGJgIC8gYGRpcjogLi9kYXRhYCDor4bliKsi5Y2g5L2NIuOAggojICAgICDnlKjmiLfmlLnov4cgY29uZmlnIOS9hiBwYXRoIOS7jeaYr+S7u+aEj+ebuOWvuei3r+W+hOeahOaDheW9ouS7jeS8mua8j+ajgOOAggojCiMgdjIuMi45IOS/ruWkjeetlueVpe+8iOS4juS7o+eggeWxgiBjZmcuRGF0YWJhc2UuUGF0aCDkuZ/ovaznu53lr7not6/lvoTphY3lkIjvvInvvJoKIyAgIOWPquimgSBkYXRhYmFzZS5wYXRoIOaIliBkYXRhLmRpciDkuI3mmK/nu53lr7not6/lvoTvvIzlsLHop4bkuLoi5b+F6aG76YeN5YaZIuOAguWNoOS9jeW9ouaAgeOAgQojICAg55So5oi356yU6K+v55qE55u45a+56Lev5b6E44CB5YW25LuW55u45a+56Lev5b6E5Y+Y5L2T5LiA5bm26KKr57qg5q2j5oiQICR7REFUQV9ESVJ9Ly4uLiDnu53lr7not6/lvoTjgIIKIyAgIOeUqOaIt+eUqOe7neWvuei3r+W+hCAo5ZCr6Ieq5a6a5LmJIGRhdGEgZGlyKSDnmoTkuI3kvJrooqvor6/opobnm5bjgIIKIyAgIOmHjeWGmeWQjuWGjeaJq+S4gOmBjeW3suefpeeahOWOhuWPsiBkYiDkvY3nva7vvIzlj5HnjrDpnZ7nqbogZGIg5L2G5LiO5b2T5YmNIERBVEFfRElSIOS4jeS4gOiHtOWwsQojICAg5omT5Y2wIFdBUk7vvIzmiormgaLlpI3lkb3ku6Tnm7TmjqXlloLnu5nnlKjmiLfvvIzpgb/lhY3mnoHnq6/lnLrmma/kuIvov5jopoHkurrogonmjpLmn6Xot6/lvoTjgIIKYnVpbGRfY29yc19vcmlnaW5zX3lhbWwoKSB7CiAgIyBDT1JTX09SSUdJTlMg5pSv5oyB6YCX5Y+3L+aNouihjC/nqbrmoLzliIbpmpTvvIzkvovlpoLvvJoKICAjICAgQ09SU19PUklHSU5TPWh0dHBzOi8vbmFzLmV4YW1wbGUuY29tLGh0dHA6Ly8xOTIuMTY4LjEuMTA6NTcwMAogIGRlZmF1bHRfbGluZXM9IiAgICAtIGh0dHA6Ly9sb2NhbGhvc3Q6NTE3MwogICAgLSBodHRwOi8vbG9jYWxob3N0OiR7UEFORUxfUE9SVH0iCiAgdXNlcl9pbnB1dD0ke0NPUlNfT1JJR0lOUzotfQogIGlmIFsgLXogIiR7dXNlcl9pbnB1dH0iIF07IHRoZW4KICAgIHByaW50ZiAnJXNcbicgIiR7ZGVmYXVsdF9saW5lc30iCiAgICByZXR1cm4KICBmaQoKICBwcmludGYgJyVzXG4nICIke2RlZmF1bHRfbGluZXN9IgogIHByaW50ZiAnJXMnICIke3VzZXJfaW5wdXR9IiB8IHRyICcsXG4nICcgICcgfCB0ciAtcyAnICcgJ1xuJyB8IHdoaWxlIElGUz0gcmVhZCAtciBvcmlnaW47IGRvCiAgICBvcmlnaW49JChwcmludGYgJyVzJyAiJHtvcmlnaW59IiB8IHNlZCAncy9eW1s6c3BhY2U6XV0qLy87IHMvW1s6c3BhY2U6XV0qJC8vJykKICAgIFsgLXogIiR7b3JpZ2lufSIgXSAmJiBjb250aW51ZQogICAgcHJpbnRmICcgICAgLSAlc1xuJyAiJHtvcmlnaW59IgogIGRvbmUKfQoKZXh0cmFjdF95YW1sX3NjYWxhcigpIHsKICAjIOWPlumhtuWxgiBkYXRhYmFzZS5wYXRoIC8gZGF0YS5kaXIg55qE5a2X6Z2i5YC844CCYXdrIOavlCBncmVwK3NlZCDmm7TnqLPvvIzog73lrrnlv43liY3lkI7nqbrnmb3jgIIKICAjIOWPguaVsO+8miQxPeaWh+S7tiAkMj1rZXnvvIhwYXRoIC8gZGly77yJCiAgYXdrIC12IGtleT0iJDIiICcKICAgICQwIH4gIl5bWzpzcGFjZTpdXSoiIGtleSAiW1s6c3BhY2U6XV0qOiIgewogICAgICBzdWIoIl5bWzpzcGFjZTpdXSoiIGtleSAiW1s6c3BhY2U6XV0qOltbOnNwYWNlOl1dKiIsICIiLCAkMCkKICAgICAgc3ViKCJbWzpzcGFjZTpdXSsjLiokIiwgIiIsICQwKQogICAgICBzdWIoIltbOnNwYWNlOl1dKyQiLCAiIiwgJDApCiAgICAgIGdzdWIoL15bIlwwNDddfFsiXDA0N10kLywgIiIsICQwKQogICAgICBwcmludCAkMAogICAgICBleGl0CiAgICB9CiAgJyAiJDEiIDI+L2Rldi9udWxsCn0KCmNvbmZpZ19uZWVkc19yZXdyaXRlKCkgewogICMg5paH5Lu257y65aSxIOKGkiDlv4XpobvnlJ/miJAKICBbIC1mICIkMSIgXSB8fCByZXR1cm4gMAogIGRiX3BhdGg9JChleHRyYWN0X3lhbWxfc2NhbGFyICIkMSIgcGF0aCkKICBkYXRhX2Rpcj0kKGV4dHJhY3RfeWFtbF9zY2FsYXIgIiQxIiBkaXIpCiAgIyDku7vkvZXkuIDpobnkuLrnqbrmiJbkuI3mmK/nu53lr7not6/lvoTlsLHop4bkuLoi5pyq5Yid5aeL5YyWIu+8jOmcgOimgemHjeWGmQogIGNhc2UgIiR7ZGJfcGF0aH0iIGluCiAgICAvKikgOzsKICAgICopIHJldHVybiAwIDs7CiAgZXNhYwogIGNhc2UgIiR7ZGF0YV9kaXJ9IiBpbgogICAgLyopIDs7CiAgICAqKSByZXR1cm4gMCA7OwogIGVzYWMKICByZXR1cm4gMQp9CgpzY2FuX2xlZ2FjeV9kYl9sb2NhdGlvbnMoKSB7CiAgIyB2Mi4yLjYg5Y+X5a6z55So5oi355qE5pWw5o2u5Y+v6IO95q6L55WZ5Zyo5Lik57G75L2N572u77yaCiAgIyAgIDEpIC9hcHAvZGF0YS9kYWlkYWkuZGIg4oCU4oCUIHYyLjIuNiDplJnkvY3nlJ/miJDnmoTnqbrlupMv5Y2K5bqTCiAgIyAgIDIpIOS7u+aEj+iHquWumuS5ieaMgui9veeCueS4i+eahOaXp+W6kyDigJTigJQg55So5oi355SoIGAtdiAvaG9zdC94Oi9kYXRhYCArIERBVEFfRElSPS9kYXRhCiAgIyAgICAgIOaIluiAheexu+S8vCAvY29uZmlnIC9vcHQvZGFpZGFpIC9zaGFyZS8uLi4g55qEIE5BUyDkuaDmg6/mjILovb3ngrnjgIIKICAjCiAgIyDnrKzkuIDpmLbmrrXvvJrmiavlt7Lnn6XluLjop4HmjILovb3ngrnvvJvnrKzkuozpmLbmrrXvvJrmtYUgZmluZCDlhZzlupXopobnm5bku7vmhI/oh6rlrprkuYnmjILovb3ngrnjgIIKICAjIOeUqOS4tOaXtuaWh+S7tuaxh+aAu+iAjOS4jeaYryBzaGVsbCDlj5jph4/igJTigJRwaXBlIHRvIHdoaWxlIOWcqCBQT1NJWCBzaCDph4zot5HlnKjlrZAgc2hlbGzvvIwKICAjIOeItiBzaGVsbCDmi7/kuI3liLDlj5jph4/kv67mlLnjgIIKICBjdXJyZW50PSIke0RBVEFfRElSfS9kYWlkYWkuZGIiCiAgdG1wX3NjYW5uZWQ9JChta3RlbXAgMj4vZGV2L251bGwgfHwgZWNobyAvdG1wLy5kYWlkYWktc2Nhbi0kJCkKICA6ID4gIiR7dG1wX3NjYW5uZWR9IgoKICBjb25zaWRlcl9jYW5kaWRhdGUoKSB7CiAgICBjYW5kaWRhdGU9JDEKICAgIFsgIiR7Y2FuZGlkYXRlfSIgPSAiJHtjdXJyZW50fSIgXSAmJiByZXR1cm4gMAogICAgWyAtcyAiJHtjYW5kaWRhdGV9IiBdIHx8IHJldHVybiAwCiAgICBncmVwIC1GeHEgIiR7Y2FuZGlkYXRlfSIgIiR7dG1wX3NjYW5uZWR9IiAyPi9kZXYvbnVsbCAmJiByZXR1cm4gMAogICAgcHJpbnRmICclc1xuJyAiJHtjYW5kaWRhdGV9IiA+PiAiJHt0bXBfc2Nhbm5lZH0iCiAgfQoKICAjIOesrOS4gOmYtuaute+8muW3suefpeW4uOingeaMgui9veeCuQogIGZvciBjYW5kaWRhdGUgaW4gXAogICAgICAvYXBwL2RhdGEvZGFpZGFpLmRiIFwKICAgICAgL2FwcC9EdW1iLVBhbmVsL2RhaWRhaS5kYiBcCiAgICAgIC9kYXRhL2RhaWRhaS5kYiBcCiAgICAgIC9jb25maWcvZGFpZGFpLmRiIFwKICAgICAgL29wdC9kYWlkYWkvZGFpZGFpLmRiIFwKICAgICAgL2FwcC9kYWlkYWkuZGI7IGRvCiAgICBjb25zaWRlcl9jYW5kaWRhdGUgIiR7Y2FuZGlkYXRlfSIKICBkb25lCgogICMg56ys5LqM6Zi25q6177ya5rWF5omr5o+P5YWc5bqV77yI5rex5bqmIDQg5bmz6KGh5oCn6IO95LiO6KaG55uW6Z2i77yJ44CC6Lez6L+H57O757uf55uu5b2V6YG/5YWN5Zmq6Z+z44CCCiAgaWYgY29tbWFuZCAtdiBmaW5kID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgZmluZCAvIC1tYXhkZXB0aCA0IC1uYW1lICdkYWlkYWkuZGInIC10eXBlIGYgXAogICAgICAtbm90IC1wYXRoICcvcHJvYy8qJyAtbm90IC1wYXRoICcvc3lzLyonIC1ub3QgLXBhdGggJy90bXAvKicgXAogICAgICAtbm90IC1wYXRoICcvZGV2LyonIC1ub3QgLXBhdGggJy9ydW4vKicgLW5vdCAtcGF0aCAnL3Zhci9jYWNoZS8qJyBcCiAgICAgIDI+L2Rldi9udWxsIHwgd2hpbGUgSUZTPSByZWFkIC1yIGZvdW5kX3BhdGg7IGRvCiAgICAgIGNvbnNpZGVyX2NhbmRpZGF0ZSAiJHtmb3VuZF9wYXRofSIKICAgIGRvbmUKICBmaQoKICAjIOaxh+aAu+i+k+WHugogIGlmIFsgLXMgIiR7dG1wX3NjYW5uZWR9IiBdOyB0aGVuCiAgICBsb2cgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCiAgICBsb2cgIuajgOa1i+WIsOWOhuWPsuaVsOaNruW6k+aui+eVme+8iOW9k+WJjemFjee9ruS9v+eUqO+8miR7Y3VycmVudH3vvInvvJoiCiAgICB3aGlsZSBJRlM9IHJlYWQgLXIgcDsgZG8KICAgICAgc2l6ZT0kKHN0YXQgLWMlcyAiJHtwfSIgMj4vZGV2L251bGwgfHwgZWNobyAnPycpCiAgICAgIG10aW1lPSQoZGF0ZSAtciAiJHtwfSIgJyslRiAlVCcgMj4vZGV2L251bGwgfHwgZWNobyAnPycpCiAgICAgIGxvZyAiICAke3B9ICAoJHtzaXplfSDlrZfoioIsIOS/ruaUueaXtumXtCAke210aW1lfSkiCiAgICBkb25lIDwgIiR7dG1wX3NjYW5uZWR9IgogICAgbG9nICIiCiAgICBsb2cgIuWmguWFtuS4reafkOS4quaYr+S9oOeahOecn+WunuaXp+aVsOaNru+8iHYyLjIuNiDljYfnuqfml7booqvplJnkvY3liJvlu7rvvInvvIzmiafooYzmgaLlpI3vvJoiCiAgICBsb2cgIiAgMSkg6YCJ5a6a6KaB5oGi5aSN55qE5rqQ6Lev5b6EIFNSQ++8iOaOqOiNkOaMkeaWh+S7tuacgOWkp+OAgeS/ruaUueaXtumXtOacgOaWsOeahO+8iSIKICAgIGxvZyAiICAyKSBkb2NrZXIgZXhlYyA85a655Zmo5ZCNPiBzaCAtYyBcImNwIC1hIFNSQyAke2N1cnJlbnR9OyBcXCIKICAgIGxvZyAiICAgICAgIGNwIC1hIFNSQy1zaG0gJHtjdXJyZW50fS1zaG0gMj4vZGV2L251bGw7IFxcIgogICAgbG9nICIgICAgICAgY3AgLWEgU1JDLXdhbCAke2N1cnJlbnR9LXdhbCAyPi9kZXYvbnVsbFwiIgogICAgbG9nICIgIDMpIGRvY2tlciByZXN0YXJ0IDzlrrnlmajlkI0+IgogICAgbG9nICIiCiAgICBsb2cgIuKaoO+4jyDoi6XmrovnlZnlj6rmmK8gdjIuMi42IOmUmeS9jeeUn+aIkOeahOWHoCBLQiDnqbrlupPvvIzlj6/lv73nlaXigJTigJTnm7TmjqXnlKjlvZPliY3mlbDmja7nm67lvZXljbPlj6/jgIIiCiAgICBsb2cgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCiAgZmkKCiAgcm0gLWYgIiR7dG1wX3NjYW5uZWR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCn0KCk5FRURTX1JFR0VORVJBVEU9MAppZiBbICEgLWYgIiR7QVBQX0NPTkZJR19GSUxFfSIgXTsgdGhlbgogIE5FRURTX1JFR0VORVJBVEU9MQogIGxvZyAi6aaW5qyh5ZCv5Yqo77yM55Sf5oiQ6buY6K6k6YWN572u77yaJHtBUFBfQ09ORklHX0ZJTEV9IgplbGlmIGNvbmZpZ19uZWVkc19yZXdyaXRlICIke0FQUF9DT05GSUdfRklMRX0iOyB0aGVuCiAgTkVFRFNfUkVHRU5FUkFURT0xCiAgbG9nICLmo4DmtYvliLAgJHtBUFBfQ09ORklHX0ZJTEV9IOWQq+ebuOWvuei3r+W+hO+8iGRhdGFiYXNlLnBhdGggLyBkYXRhLmRpciDmnKrmjIflkJHnu53lr7nkvY3nva7vvInvvIzph43lhpnkuLrnu53lr7not6/lvoTku6XmgaLlpI3mlbDmja7orr/pl64iCmVsc2UKICBsb2cgIuajgOa1i+WIsOW3suaciemFjee9ru+8miR7QVBQX0NPTkZJR19GSUxFfe+8jOi3s+i/h+imhueblu+8iOS/neeVmeeUqOaIt+iHquWumuS5ie+8iSIKZmkKCmlmIFsgIiR7TkVFRFNfUkVHRU5FUkFURX0iID0gIjEiIF07IHRoZW4KICBDT1JTX0JMT0NLPSQoYnVpbGRfY29yc19vcmlnaW5zX3lhbWwpCiAgY2F0ID4gIiR7QVBQX0NPTkZJR19GSUxFfSIgPDxZQU1MCnNlcnZlcjoKICBwb3J0OiA1NzAxCiAgbW9kZTogcmVsZWFzZQoKZGF0YWJhc2U6CiAgcGF0aDogJHtEQVRBX0RJUn0vZGFpZGFpLmRiCgpqd3Q6CiAgc2VjcmV0OiAiIgogIGFjY2Vzc190b2tlbl9leHBpcmU6IDQ4MGgKICByZWZyZXNoX3Rva2VuX2V4cGlyZTogMTQ0MGgKCmRhdGE6CiAgZGlyOiAke0RBVEFfRElSfQogIHNjcmlwdHNfZGlyOiAke0RBVEFfRElSfS9zY3JpcHRzCiAgbG9nX2RpcjogJHtEQVRBX0RJUn0vbG9ncwoKY29yczoKICBvcmlnaW5zOgoke0NPUlNfQkxPQ0t9CllBTUwKZmkKCnNjYW5fbGVnYWN5X2RiX2xvY2F0aW9ucwoKIyAtLS0g6Ieq5a6a5LmJIEVOVFJZUE9JTlQg6YCP5LygIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KaWYgWyAkIyAtZ3QgMCBdOyB0aGVuCiAgZXhlYyAiJEAiCmZpCgojIC0tLSDlkK/liqggbmdpbnggKyBkYWlkYWktc2VydmVyIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpuZ2lueAoKc2h1dGRvd24oKSB7CiAgaWYgWyAtbiAiJHtTRVJWRVJfUElEOi19IiBdOyB0aGVuCiAgICBraWxsICIke1NFUlZFUl9QSUR9IiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgZmkKICBybSAtZiAiJHtTRVJWRVJfUElEX0ZJTEV9IgogIGV4aXQgMAp9CnRyYXAgc2h1dGRvd24gVEVSTSBJTlQKCndoaWxlIHRydWU7IGRvCiAgaWYgWyAtbiAiJHtSVU5fQVNfVVNFUn0iIF0gJiYgY29tbWFuZCAtdiBzdS1leGVjID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgc3UtZXhlYyAiJHtSVU5fQVNfVVNFUn0iIC9hcHAvZGFpZGFpLXNlcnZlciAmCiAgZWxpZiBbIC1uICIke1JVTl9BU19VU0VSfSIgXSAmJiBjb21tYW5kIC12IGdvc3UgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBnb3N1ICIke1JVTl9BU19VU0VSfSIgL2FwcC9kYWlkYWktc2VydmVyICYKICBlbHNlCiAgICAvYXBwL2RhaWRhaS1zZXJ2ZXIgJgogIGZpCiAgU0VSVkVSX1BJRD0kIQogIGVjaG8gIiR7U0VSVkVSX1BJRH0iID4gIiR7U0VSVkVSX1BJRF9GSUxFfSIKICAjIOWFs+mXrSBzZXQgLWUg5YyF5L2PIHdhaXTvvJpzZXJ2ZXIg5byC5bi46YCA5Ye65pe25LuN6KaB6LWw6YeN5ZCv5b6q546v77yM5LiN6IO96K6pIHNldCAtZSDmiorohJrmnKzluKblh7rjgIIKICBzZXQgK2UKICB3YWl0ICIke1NFUlZFUl9QSUR9IgogIEVYSVRfQ09ERT0kPwogIHNldCAtZQogIHJtIC1mICIke1NFUlZFUl9QSURfRklMRX0iCiAgWyAke0VYSVRfQ09ERX0gLWVxIDAgXSAmJiBleGl0IDAKICBsb2cgImRhaWRhaS1zZXJ2ZXIg5byC5bi46YCA5Ye6IChjb2RlPSR7RVhJVF9DT0RFfSnvvIwyIOenkuWQjumHjeWQryIKICBzbGVlcCAyCmRvbmUK
+#!/bin/sh
+# daidai-panel 容器入口脚本
+# 兼容飞牛 OS / 群晖 / 绿联 / unRAID 等第三方 NAS 部署场景。
+
+set -e
+
+DATA_DIR=${DATA_DIR:-/app/Dumb-Panel}
+SERVER_PID_FILE="${DATA_DIR}/run/daidai-server.pid"
+PANEL_PORT=${PANEL_PORT:-5700}
+APP_CONFIG_FILE=${APP_CONFIG_FILE:-/app/config.yaml}
+
+log() {
+  printf '[entrypoint] %s\n' "$*"
+}
+
+fail() {
+  printf '[entrypoint][ERROR] %s\n' "$*" >&2
+  exit 1
+}
+
+# --- 数据目录初始化 -----------------------------------------------------------
+mkdir -p \
+  "${DATA_DIR}/scripts" \
+  "${DATA_DIR}/logs" \
+  "${DATA_DIR}/backups" \
+  "${DATA_DIR}/run" \
+  "${DATA_DIR}/deps/nodejs" \
+  "${DATA_DIR}/deps/python"
+mkdir -p /tmp
+chmod 1777 /tmp
+
+# --- PUID/PGID 支持（LinuxServer.io 风格，opt-in） ---------------------------
+# 飞牛 OS / 群晖等 NAS 用户通常需要让容器以宿主机用户跑，方便 SMB/NFS 共享。
+# 仅当显式传入 PUID 才切换用户；保持对历史部署（默认 root）的兼容。
+RUN_AS_USER=""
+if [ -n "${PUID}" ] || [ -n "${PGID}" ]; then
+  TARGET_UID=${PUID:-0}
+  TARGET_GID=${PGID:-${TARGET_UID}}
+
+  if ! command -v su-exec >/dev/null 2>&1 && ! command -v gosu >/dev/null 2>&1; then
+    log "未找到 su-exec/gosu，PUID/PGID 设置已忽略（继续以 root 运行）"
+  else
+    if command -v addgroup >/dev/null 2>&1; then
+      if ! getent group daidai >/dev/null 2>&1; then
+        addgroup -g "${TARGET_GID}" daidai 2>/dev/null || groupadd -g "${TARGET_GID}" daidai
+      fi
+    else
+      groupadd -g "${TARGET_GID}" daidai 2>/dev/null || true
+    fi
+
+    if command -v adduser >/dev/null 2>&1; then
+      if ! id -u daidai >/dev/null 2>&1; then
+        adduser -D -H -u "${TARGET_UID}" -G daidai daidai 2>/dev/null || \
+          useradd -M -u "${TARGET_UID}" -g "${TARGET_GID}" -s /sbin/nologin daidai
+      fi
+    else
+      useradd -M -u "${TARGET_UID}" -g "${TARGET_GID}" -s /sbin/nologin daidai 2>/dev/null || true
+    fi
+
+    log "应用 PUID=${TARGET_UID} PGID=${TARGET_GID}，正在调整数据目录所有权..."
+    chown -R "${TARGET_UID}:${TARGET_GID}" "${DATA_DIR}" /tmp 2>/dev/null || true
+    RUN_AS_USER="daidai"
+  fi
+fi
+
+# --- 数据目录可写性预检 -----------------------------------------------------
+WRITE_PROBE="${DATA_DIR}/.daidai-write-probe-$$"
+PROBE_CMD="true"
+if [ -n "${RUN_AS_USER}" ]; then
+  if command -v su-exec >/dev/null 2>&1; then
+    PROBE_CMD="su-exec ${RUN_AS_USER} touch ${WRITE_PROBE}"
+  elif command -v gosu >/dev/null 2>&1; then
+    PROBE_CMD="gosu ${RUN_AS_USER} touch ${WRITE_PROBE}"
+  fi
+else
+  PROBE_CMD="touch ${WRITE_PROBE}"
+fi
+
+if ! sh -c "${PROBE_CMD}" 2>/dev/null; then
+  log "数据目录 ${DATA_DIR} 不可写。常见原因："
+  log "  1) NAS 上挂载的宿主机目录所有权与容器用户不匹配。"
+  log "     在宿主机执行：sudo chown -R \$(id -u):\$(id -g) <挂载点>，或在 compose 里设置 PUID/PGID。"
+  log "  2) SELinux/AppArmor 拒绝写入。"
+  log "  3) 只读卷挂载（compose 配置中 :ro 标志）。"
+  fail "数据目录可写性预检失败，启动中止。"
+fi
+rm -f "${WRITE_PROBE}" 2>/dev/null || true
+
+# --- 字符编码 --------------------------------------------------------------
+# 与 Dockerfile 的 ENV 对称，双保险：未经 ENV 注入的场景（如部分守护方式）也能拿到 UTF-8 locale，
+# 避免任务执行与终端里的中文文件名/输出乱码。C.UTF-8 在 Alpine musl 与 Debian glibc 均内置。
+export LANG="${LANG:-C.UTF-8}"
+export LC_ALL="${LC_ALL:-C.UTF-8}"
+
+# --- PATH / NODE_PATH ------------------------------------------------------
+export NODE_PATH="${DATA_DIR}/deps/nodejs/node_modules"
+export DAIDAI_PYTHON_RUNTIME_ROOT="${DAIDAI_PYTHON_RUNTIME_ROOT:-/opt/daidai-python}"
+DAIDAI_PYTHON_BIN_PATH=""
+DAIDAI_PYTHON_LIB_PATH=""
+for py_ver in 3.12 3.11 3.10; do
+  py_root="${DAIDAI_PYTHON_RUNTIME_ROOT}/${py_ver}"
+  if [ -d "${py_root}/bin" ]; then
+    DAIDAI_PYTHON_BIN_PATH="${DAIDAI_PYTHON_BIN_PATH:+${DAIDAI_PYTHON_BIN_PATH}:}${py_root}/bin"
+  fi
+  if [ -d "${py_root}/lib" ]; then
+    DAIDAI_PYTHON_LIB_PATH="${DAIDAI_PYTHON_LIB_PATH:+${DAIDAI_PYTHON_LIB_PATH}:}${py_root}/lib"
+  fi
+done
+DEFAULT_PYTHON_VERSION="${DAIDAI_PYTHON_VERSION:-3.12}"
+export PATH="${DATA_DIR}/deps/nodejs/node_modules/.bin:${DATA_DIR}/deps/python/${DEFAULT_PYTHON_VERSION}/bin:${DAIDAI_PYTHON_BIN_PATH:+${DAIDAI_PYTHON_BIN_PATH}:}${PATH}"
+if [ -n "${DAIDAI_PYTHON_LIB_PATH}" ]; then
+  export LD_LIBRARY_PATH="${DAIDAI_PYTHON_LIB_PATH}${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}"
+fi
+
+if [ -d "${DATA_DIR}/deps/python/${DEFAULT_PYTHON_VERSION}" ]; then
+  PY_MINOR=$(python3 -c 'import sys;print(f"{sys.version_info.minor}")' 2>/dev/null || echo "")
+  if [ -n "${PY_MINOR}" ]; then
+    PY_SITE="${DATA_DIR}/deps/python/${DEFAULT_PYTHON_VERSION}/lib/python3.${PY_MINOR}/site-packages"
+    if [ -d "${PY_SITE}" ]; then
+      export PYTHONPATH="${PY_SITE}"
+    fi
+  fi
+fi
+
+# 清理可能与面板内部 pip 调用冲突的环境变量（与代码侧 SanitizePipEnv 对称，双保险）。
+# 用户在 docker run -e / systemd Environment= 中预设的 PIP_PREFIX 等会触发
+# "Cannot set --home and --prefix together" 等冲突。
+unset PIP_PREFIX PIP_HOME PIP_TARGET PIP_ROOT PIP_USER PIP_INSTALL_OPTION PYTHONUSERBASE
+
+# --- nginx 监听端口替换 ----------------------------------------------------
+NGINX_CONF_PATH=${NGINX_DEFAULT_CONF:-}
+if [ -z "${NGINX_CONF_PATH}" ]; then
+  for candidate in /etc/nginx/http.d/default.conf /etc/nginx/conf.d/default.conf /etc/nginx/sites-enabled/default; do
+    if [ -f "${candidate}" ]; then
+      NGINX_CONF_PATH="${candidate}"
+      break
+    fi
+  done
+fi
+
+if [ -n "${NGINX_CONF_PATH}" ] && [ -f "${NGINX_CONF_PATH}" ]; then
+  sed -i "s/listen [0-9]*/listen ${PANEL_PORT}/" "${NGINX_CONF_PATH}"
+fi
+
+# --- config.yaml 幂等生成 --------------------------------------------------
+# 历史背景：
+#   v2.2.5 及更早：每次启动 cat 覆盖 config.yaml，用户在面板里改过的 CORS /
+#     信任代理 / JWT 过期时间等会被强制丢失。
+#   v2.2.6：改成"幂等"——文件存在就不动。但 Dockerfile 把 server/config.yaml
+#     里的 `path: ./data/daidai.db` 这种相对路径占位 COPY 到了 /app/config.yaml，
+#     幂等逻辑保留了占位，daidai-server 按 cwd 解析得到 /app/data/daidai.db，
+#     新建空库，旧数据（/app/Dumb-Panel/daidai.db）找不到 → "面板像刚装好"。
+#   v2.2.7：用硬编码字符串 `./data/daidai.db` / `dir: ./data` 识别"占位"。
+#     用户改过 config 但 path 仍是任意相对路径的情形仍会漏检。
+#
+# v2.2.9 修复策略（与代码层 cfg.Database.Path 也转绝对路径配合）：
+#   只要 database.path 或 data.dir 不是绝对路径，就视为"必须重写"。占位形态、
+#   用户笔误的相对路径、其他相对路径变体一并被纠正成 ${DATA_DIR}/... 绝对路径。
+#   用户用绝对路径 (含自定义 data dir) 的不会被误覆盖。
+#   重写后再扫一遍已知的历史 db 位置，发现非空 db 但与当前 DATA_DIR 不一致就
+#   打印 WARN，把恢复命令直接喂给用户，避免极端场景下还要人肉排查路径。
+build_cors_origins_yaml() {
+  # CORS_ORIGINS 支持逗号/换行/空格分隔，例如：
+  #   CORS_ORIGINS=https://nas.example.com,http://192.168.1.10:5700
+  default_lines="    - http://localhost:5173
+    - http://localhost:${PANEL_PORT}"
+  user_input=${CORS_ORIGINS:-}
+  if [ -z "${user_input}" ]; then
+    printf '%s\n' "${default_lines}"
+    return
+  fi
+
+  printf '%s\n' "${default_lines}"
+  printf '%s' "${user_input}" | tr ',\n' '  ' | tr -s ' ' '\n' | while IFS= read -r origin; do
+    origin=$(printf '%s' "${origin}" | sed 's/^[[:space:]]*//; s/[[:space:]]*$//')
+    [ -z "${origin}" ] && continue
+    printf '    - %s\n' "${origin}"
+  done
+}
+
+extract_yaml_scalar() {
+  # 取顶层 database.path / data.dir 的字面值。awk 比 grep+sed 更稳，能容忍前后空白。
+  # 参数：$1=文件 $2=key（path / dir）
+  awk -v key="$2" '
+    $0 ~ "^[[:space:]]*" key "[[:space:]]*:" {
+      sub("^[[:space:]]*" key "[[:space:]]*:[[:space:]]*", "", $0)
+      sub("[[:space:]]+#.*$", "", $0)
+      sub("[[:space:]]+$", "", $0)
+      gsub(/^["\047]|["\047]$/, "", $0)
+      print $0
+      exit
+    }
+  ' "$1" 2>/dev/null
+}
+
+config_needs_rewrite() {
+  # 文件缺失 → 必须生成
+  [ -f "$1" ] || return 0
+  db_path=$(extract_yaml_scalar "$1" path)
+  data_dir=$(extract_yaml_scalar "$1" dir)
+  # 任何一项为空或不是绝对路径就视为"未初始化"，需要重写
+  case "${db_path}" in
+    /*) ;;
+    *) return 0 ;;
+  esac
+  case "${data_dir}" in
+    /*) ;;
+    *) return 0 ;;
+  esac
+  return 1
+}
+
+scan_legacy_db_locations() {
+  # v2.2.6 受害用户的数据可能残留在两类位置：
+  #   1) /app/data/daidai.db —— v2.2.6 错位生成的空库/半库
+  #   2) 任意自定义挂载点下的旧库 —— 用户用 `-v /host/x:/data` + DATA_DIR=/data
+  #      或者类似 /config /opt/daidai /share/... 的 NAS 习惯挂载点。
+  #
+  # 第一阶段：扫已知常见挂载点；第二阶段：浅 find 兜底覆盖任意自定义挂载点。
+  # 用临时文件汇总而不是 shell 变量——pipe to while 在 POSIX sh 里跑在子 shell，
+  # 父 shell 拿不到变量修改。
+  current="${DATA_DIR}/daidai.db"
+  tmp_scanned=$(mktemp 2>/dev/null || echo /tmp/.daidai-scan-$$)
+  : > "${tmp_scanned}"
+
+  consider_candidate() {
+    candidate=$1
+    [ "${candidate}" = "${current}" ] && return 0
+    [ -s "${candidate}" ] || return 0
+    grep -Fxq "${candidate}" "${tmp_scanned}" 2>/dev/null && return 0
+    printf '%s\n' "${candidate}" >> "${tmp_scanned}"
+  }
+
+  # 第一阶段：已知常见挂载点
+  for candidate in \
+      /app/data/daidai.db \
+      /app/Dumb-Panel/daidai.db \
+      /data/daidai.db \
+      /config/daidai.db \
+      /opt/daidai/daidai.db \
+      /app/daidai.db; do
+    consider_candidate "${candidate}"
+  done
+
+  # 第二阶段：浅扫描兜底（深度 4 平衡性能与覆盖面）。跳过系统目录避免噪音。
+  if command -v find >/dev/null 2>&1; then
+    find / -maxdepth 4 -name 'daidai.db' -type f \
+      -not -path '/proc/*' -not -path '/sys/*' -not -path '/tmp/*' \
+      -not -path '/dev/*' -not -path '/run/*' -not -path '/var/cache/*' \
+      2>/dev/null | while IFS= read -r found_path; do
+      consider_candidate "${found_path}"
+    done
+  fi
+
+  # 汇总输出
+  if [ -s "${tmp_scanned}" ]; then
+    log "================================================================"
+    log "检测到历史数据库残留（当前配置使用：${current}）："
+    while IFS= read -r p; do
+      size=$(stat -c%s "${p}" 2>/dev/null || echo '?')
+      mtime=$(date -r "${p}" '+%F %T' 2>/dev/null || echo '?')
+      log "  ${p}  (${size} 字节, 修改时间 ${mtime})"
+    done < "${tmp_scanned}"
+    log ""
+    log "如其中某个是你的真实旧数据（v2.2.6 升级时被错位创建），执行恢复："
+    log "  1) 选定要恢复的源路径 SRC（推荐挑文件最大、修改时间最新的）"
+    log "  2) docker exec <容器名> sh -c \"cp -a SRC ${current}; \\"
+    log "       cp -a SRC-shm ${current}-shm 2>/dev/null; \\"
+    log "       cp -a SRC-wal ${current}-wal 2>/dev/null\""
+    log "  3) docker restart <容器名>"
+    log ""
+    log "⚠️ 若残留只是 v2.2.6 错位生成的几 KB 空库，可忽略——直接用当前数据目录即可。"
+    log "================================================================"
+  fi
+
+  rm -f "${tmp_scanned}" 2>/dev/null || true
+}
+
+NEEDS_REGENERATE=0
+if [ ! -f "${APP_CONFIG_FILE}" ]; then
+  NEEDS_REGENERATE=1
+  log "首次启动，生成默认配置：${APP_CONFIG_FILE}"
+elif config_needs_rewrite "${APP_CONFIG_FILE}"; then
+  NEEDS_REGENERATE=1
+  log "检测到 ${APP_CONFIG_FILE} 含相对路径（database.path / data.dir 未指向绝对位置），重写为绝对路径以恢复数据访问"
+else
+  log "检测到已有配置：${APP_CONFIG_FILE}，跳过覆盖（保留用户自定义）"
+fi
+
+if [ "${NEEDS_REGENERATE}" = "1" ]; then
+  CORS_BLOCK=$(build_cors_origins_yaml)
+  cat > "${APP_CONFIG_FILE}" <<YAML
+server:
+  port: 5701
+  mode: release
+
+database:
+  path: ${DATA_DIR}/daidai.db
+
+jwt:
+  secret: ""
+  access_token_expire: 480h
+  refresh_token_expire: 1440h
+
+data:
+  dir: ${DATA_DIR}
+  scripts_dir: ${DATA_DIR}/scripts
+  log_dir: ${DATA_DIR}/logs
+
+cors:
+  origins:
+${CORS_BLOCK}
+YAML
+fi
+
+scan_legacy_db_locations
+
+# --- 自定义 ENTRYPOINT 透传 -------------------------------------------------
+if [ $# -gt 0 ]; then
+  exec "$@"
+fi
+
+# --- 启动 nginx + daidai-server ---------------------------------------------
+nginx
+
+shutdown() {
+  if [ -n "${SERVER_PID:-}" ]; then
+    kill "${SERVER_PID}" 2>/dev/null || true
+  fi
+  rm -f "${SERVER_PID_FILE}"
+  exit 0
+}
+trap shutdown TERM INT
+
+while true; do
+  if [ -n "${RUN_AS_USER}" ] && command -v su-exec >/dev/null 2>&1; then
+    su-exec "${RUN_AS_USER}" /app/daidai-server &
+  elif [ -n "${RUN_AS_USER}" ] && command -v gosu >/dev/null 2>&1; then
+    gosu "${RUN_AS_USER}" /app/daidai-server &
+  else
+    /app/daidai-server &
+  fi
+  SERVER_PID=$!
+  echo "${SERVER_PID}" > "${SERVER_PID_FILE}"
+  # 关闭 set -e 包住 wait：server 异常退出时仍要走重启循环，不能让 set -e 把脚本带出。
+  set +e
+  wait "${SERVER_PID}"
+  EXIT_CODE=$?
+  set -e
+  rm -f "${SERVER_PID_FILE}"
+  [ ${EXIT_CODE} -eq 0 ] && exit 0
+  log "daidai-server 异常退出 (code=${EXIT_CODE})，2 秒后重启"
+  sleep 2
+done

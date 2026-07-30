@@ -1,1 +1,118 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCwgVVJMIH0gZnJvbSAnbm9kZTp1cmwnCmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gJ3ZpdGUnCmltcG9ydCB2dWUgZnJvbSAnQHZpdGVqcy9wbHVnaW4tdnVlJwppbXBvcnQgdHlwZSB7IFBsdWdpbiwgUmVzb2x2ZWRDb25maWcgfSBmcm9tICd2aXRlJwppbXBvcnQgQ29tcG9uZW50cyBmcm9tICd1bnBsdWdpbi12dWUtY29tcG9uZW50cy92aXRlJwppbXBvcnQgeyBFbGVtZW50UGx1c1Jlc29sdmVyIH0gZnJvbSAndW5wbHVnaW4tdnVlLWNvbXBvbmVudHMvcmVzb2x2ZXJzJwoKY29uc3QgbG9jYWxNb25hY29Tb3VyY2VEaXIgPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJ25vZGVfbW9kdWxlcy9tb25hY28tZWRpdG9yL21pbicpCgpmdW5jdGlvbiBub3JtYWxpemVCYXNlKGJhc2U6IHN0cmluZykgewogIHJldHVybiBiYXNlID09PSAnLycgPyAnJyA6IGJhc2UucmVwbGFjZSgvXC8kLywgJycpCn0KCmZ1bmN0aW9uIGdldENvbnRlbnRUeXBlKGZpbGVQYXRoOiBzdHJpbmcpIHsKICBzd2l0Y2ggKHBhdGguZXh0bmFtZShmaWxlUGF0aCkpIHsKICAgIGNhc2UgJy5jc3MnOgogICAgICByZXR1cm4gJ3RleHQvY3NzOyBjaGFyc2V0PXV0Zi04JwogICAgY2FzZSAnLmpzJzoKICAgICAgcmV0dXJuICdhcHBsaWNhdGlvbi9qYXZhc2NyaXB0OyBjaGFyc2V0PXV0Zi04JwogICAgY2FzZSAnLmpzb24nOgogICAgY2FzZSAnLm1hcCc6CiAgICAgIHJldHVybiAnYXBwbGljYXRpb24vanNvbjsgY2hhcnNldD11dGYtOCcKICAgIGNhc2UgJy5zdmcnOgogICAgICByZXR1cm4gJ2ltYWdlL3N2Zyt4bWwnCiAgICBjYXNlICcudHRmJzoKICAgICAgcmV0dXJuICdmb250L3R0ZicKICAgIGRlZmF1bHQ6CiAgICAgIHJldHVybiAnYXBwbGljYXRpb24vb2N0ZXQtc3RyZWFtJwogIH0KfQoKZnVuY3Rpb24gbG9jYWxNb25hY29Bc3NldHNQbHVnaW4oKTogUGx1Z2luIHsKICBsZXQgcmVzb2x2ZWRDb25maWc6IFJlc29sdmVkQ29uZmlnCgogIHJldHVybiB7CiAgICBuYW1lOiAnbG9jYWwtbW9uYWNvLWFzc2V0cycsCiAgICBhcHBseTogJ3NlcnZlJywKICAgIGNvbmZpZ1Jlc29sdmVkKGNvbmZpZykgewogICAgICByZXNvbHZlZENvbmZpZyA9IGNvbmZpZwogICAgfSwKICAgIGNvbmZpZ3VyZVNlcnZlcihzZXJ2ZXIpIHsKICAgICAgc2VydmVyLm1pZGRsZXdhcmVzLnVzZSgocmVxLCByZXMsIG5leHQpID0+IHsKICAgICAgICBjb25zdCByZXF1ZXN0VXJsID0gcmVxLnVybD8uc3BsaXQoJz8nKVswXSB8fCAnJwogICAgICAgIGNvbnN0IHByZWZpeCA9IGAke25vcm1hbGl6ZUJhc2UocmVzb2x2ZWRDb25maWcuYmFzZSl9L21vbmFjby9gCiAgICAgICAgaWYgKCFyZXF1ZXN0VXJsLnN0YXJ0c1dpdGgocHJlZml4KSkgewogICAgICAgICAgbmV4dCgpCiAgICAgICAgICByZXR1cm4KICAgICAgICB9CgogICAgICAgIGNvbnN0IHJlbGF0aXZlUGF0aCA9IHJlcXVlc3RVcmwuc2xpY2UocHJlZml4Lmxlbmd0aCkKICAgICAgICBjb25zdCBmaWxlUGF0aCA9IHBhdGgucmVzb2x2ZShsb2NhbE1vbmFjb1NvdXJjZURpciwgcmVsYXRpdmVQYXRoKQogICAgICAgIGlmICghZmlsZVBhdGguc3RhcnRzV2l0aChsb2NhbE1vbmFjb1NvdXJjZURpcikgfHwgIWZzLmV4aXN0c1N5bmMoZmlsZVBhdGgpIHx8IGZzLnN0YXRTeW5jKGZpbGVQYXRoKS5pc0RpcmVjdG9yeSgpKSB7CiAgICAgICAgICBuZXh0KCkKICAgICAgICAgIHJldHVybgogICAgICAgIH0KCiAgICAgICAgcmVzLnNldEhlYWRlcignQ29udGVudC1UeXBlJywgZ2V0Q29udGVudFR5cGUoZmlsZVBhdGgpKQogICAgICAgIGZzLmNyZWF0ZVJlYWRTdHJlYW0oZmlsZVBhdGgpLnBpcGUocmVzKQogICAgICB9KQogICAgfQogIH0KfQoKZXhwb3J0IGRlZmF1bHQgZGVmaW5lQ29uZmlnKHsKICBwbHVnaW5zOiBbCiAgICB2dWUoKSwKICAgIGxvY2FsTW9uYWNvQXNzZXRzUGx1Z2luKCksCiAgICBDb21wb25lbnRzKHsKICAgICAgZHRzOiBmYWxzZSwKICAgICAgcmVzb2x2ZXJzOiBbCiAgICAgICAgRWxlbWVudFBsdXNSZXNvbHZlcih7CiAgICAgICAgICBpbXBvcnRTdHlsZTogJ2NzcycKICAgICAgICB9KQogICAgICBdCiAgICB9KQogIF0sCiAgcmVzb2x2ZTogewogICAgYWxpYXM6IHsKICAgICAgJ0AnOiBmaWxlVVJMVG9QYXRoKG5ldyBVUkwoJy4vc3JjJywgaW1wb3J0Lm1ldGEudXJsKSkKICAgIH0KICB9LAogIGJ1aWxkOiB7CiAgICBlbXB0eU91dERpcjogdHJ1ZSwKICAgIHJvbGx1cE9wdGlvbnM6IHsKICAgICAgb3V0cHV0OiB7CiAgICAgICAgbWFudWFsQ2h1bmtzKGlkKSB7CiAgICAgICAgICBpZiAoaWQuaW5jbHVkZXMoJ25vZGVfbW9kdWxlcy9AbW9uYWNvLWVkaXRvci9sb2FkZXInKSkgcmV0dXJuICdtb25hY28tbG9hZGVyJwogICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCdub2RlX21vZHVsZXMvQG1vbmFjby1lZGl0b3InKSkgcmV0dXJuICdtb25hY28tbG9hZGVyJwogICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCdub2RlX21vZHVsZXMvZWNoYXJ0cycpKSByZXR1cm4gJ2VjaGFydHMnCiAgICAgICAgICBpZiAoaWQuaW5jbHVkZXMoJ25vZGVfbW9kdWxlcy96cmVuZGVyJykpIHJldHVybiAnenJlbmRlcicKICAgICAgICAgIGlmIChpZC5pbmNsdWRlcygnbm9kZV9tb2R1bGVzL3FyY29kZScpKSByZXR1cm4gJ3FyY29kZScKICAgICAgICAgIGlmIChpZC5pbmNsdWRlcygnbm9kZV9tb2R1bGVzL3NvcnRhYmxlanMnKSkgcmV0dXJuICdzb3J0YWJsZWpzJwogICAgICAgICAgaWYgKGlkLmluY2x1ZGVzKCdub2RlX21vZHVsZXMvZWxlbWVudC1wbHVzJykpIHJldHVybiB1bmRlZmluZWQKICAgICAgICAgIGlmICgKICAgICAgICAgICAgaWQuaW5jbHVkZXMoJ25vZGVfbW9kdWxlcy92dWUnKSB8fAogICAgICAgICAgICBpZC5pbmNsdWRlcygnbm9kZV9tb2R1bGVzL0B2dWUnKSB8fAogICAgICAgICAgICBpZC5pbmNsdWRlcygndnVlLXJvdXRlcicpIHx8CiAgICAgICAgICAgIGlkLmluY2x1ZGVzKCdwaW5pYScpIHx8CiAgICAgICAgICAgIGlkLmluY2x1ZGVzKCdheGlvcycpCiAgICAgICAgICApIHJldHVybiAnYXBwLWNvcmUnCiAgICAgICAgICBpZiAoaWQuaW5jbHVkZXMoJ25vZGVfbW9kdWxlcycpKSByZXR1cm4gJ3ZlbmRvcicKICAgICAgICAgIHJldHVybiB1bmRlZmluZWQKICAgICAgICB9CiAgICAgIH0KICAgIH0KICB9LAogIHNlcnZlcjogewogICAgcG9ydDogNTE3MywKICAgIHByb3h5OiB7CiAgICAgICcvYXBpJzogewogICAgICAgIHRhcmdldDogJ2h0dHA6Ly9sb2NhbGhvc3Q6NTcwMScsCiAgICAgICAgY2hhbmdlT3JpZ2luOiB0cnVlCiAgICAgIH0KICAgIH0KICB9Cn0pCg==
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath, URL } from 'node:url'
+import { defineConfig } from 'vite'
+import vue from '@vitejs/plugin-vue'
+import type { Plugin, ResolvedConfig } from 'vite'
+import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
+
+const localMonacoSourceDir = path.resolve(process.cwd(), 'node_modules/monaco-editor/min')
+
+function normalizeBase(base: string) {
+  return base === '/' ? '' : base.replace(/\/$/, '')
+}
+
+function getContentType(filePath: string) {
+  switch (path.extname(filePath)) {
+    case '.css':
+      return 'text/css; charset=utf-8'
+    case '.js':
+      return 'application/javascript; charset=utf-8'
+    case '.json':
+    case '.map':
+      return 'application/json; charset=utf-8'
+    case '.svg':
+      return 'image/svg+xml'
+    case '.ttf':
+      return 'font/ttf'
+    default:
+      return 'application/octet-stream'
+  }
+}
+
+function localMonacoAssetsPlugin(): Plugin {
+  let resolvedConfig: ResolvedConfig
+
+  return {
+    name: 'local-monaco-assets',
+    apply: 'serve',
+    configResolved(config) {
+      resolvedConfig = config
+    },
+    configureServer(server) {
+      server.middlewares.use((req, res, next) => {
+        const requestUrl = req.url?.split('?')[0] || ''
+        const prefix = `${normalizeBase(resolvedConfig.base)}/monaco/`
+        if (!requestUrl.startsWith(prefix)) {
+          next()
+          return
+        }
+
+        const relativePath = requestUrl.slice(prefix.length)
+        const filePath = path.resolve(localMonacoSourceDir, relativePath)
+        if (!filePath.startsWith(localMonacoSourceDir) || !fs.existsSync(filePath) || fs.statSync(filePath).isDirectory()) {
+          next()
+          return
+        }
+
+        res.setHeader('Content-Type', getContentType(filePath))
+        fs.createReadStream(filePath).pipe(res)
+      })
+    }
+  }
+}
+
+export default defineConfig({
+  plugins: [
+    vue(),
+    localMonacoAssetsPlugin(),
+    Components({
+      dts: false,
+      resolvers: [
+        ElementPlusResolver({
+          importStyle: 'css'
+        })
+      ]
+    })
+  ],
+  resolve: {
+    alias: {
+      '@': fileURLToPath(new URL('./src', import.meta.url))
+    }
+  },
+  build: {
+    emptyOutDir: true,
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules/@monaco-editor/loader')) return 'monaco-loader'
+          if (id.includes('node_modules/@monaco-editor')) return 'monaco-loader'
+          if (id.includes('node_modules/echarts')) return 'echarts'
+          if (id.includes('node_modules/zrender')) return 'zrender'
+          if (id.includes('node_modules/qrcode')) return 'qrcode'
+          if (id.includes('node_modules/sortablejs')) return 'sortablejs'
+          if (id.includes('node_modules/element-plus')) return undefined
+          if (
+            id.includes('node_modules/vue') ||
+            id.includes('node_modules/@vue') ||
+            id.includes('vue-router') ||
+            id.includes('pinia') ||
+            id.includes('axios')
+          ) return 'app-core'
+          if (id.includes('node_modules')) return 'vendor'
+          return undefined
+        }
+      }
+    }
+  },
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': {
+        target: 'http://localhost:5701',
+        changeOrigin: true
+      }
+    }
+  }
+})

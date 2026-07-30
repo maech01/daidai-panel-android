@@ -1,1 +1,316 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJzdHJpbmdzIgopCgpjb25zdCAoCglTZXNzaW9uQ2xpZW50V2ViID0gIndlYiIKCVNlc3Npb25DbGllbnRBcHAgPSAiYXBwIgopCgp0eXBlIFNlc3Npb25DbGllbnRJbmZvIHN0cnVjdCB7CglUeXBlICAgICAgICBzdHJpbmcKCUFwcCAgICAgICAgIHN0cmluZwoJUGxhdGZvcm0gICAgc3RyaW5nCglEZXZpY2VNb2RlbCBzdHJpbmcKCURldmljZU5hbWUgIHN0cmluZwoJT1NWZXJzaW9uICAgc3RyaW5nCglCcm93c2VyICAgICBzdHJpbmcKCVVzZXJBZ2VudCAgIHN0cmluZwp9CgpmdW5jIERldGVjdFNlc3Npb25DbGllbnRUeXBlKGhlYWRlckNsaWVudFR5cGUsIGhlYWRlckNsaWVudEFwcCwgdXNlckFnZW50IHN0cmluZykgc3RyaW5nIHsKCWluZm8gOj0gRGV0ZWN0U2Vzc2lvbkNsaWVudEluZm8oCgkJaGVhZGVyQ2xpZW50VHlwZSwKCQloZWFkZXJDbGllbnRBcHAsCgkJIiIsCgkJIiIsCgkJIiIsCgkJIiIsCgkJdXNlckFnZW50LAoJKQoJcmV0dXJuIGluZm8uVHlwZQp9CgpmdW5jIERldGVjdFNlc3Npb25DbGllbnRJbmZvKAoJaGVhZGVyQ2xpZW50VHlwZSwKCWhlYWRlckNsaWVudEFwcCwKCWhlYWRlckNsaWVudFBsYXRmb3JtLAoJaGVhZGVyRGV2aWNlTW9kZWwsCgloZWFkZXJEZXZpY2VOYW1lLAoJaGVhZGVyT1NWZXJzaW9uLAoJdXNlckFnZW50IHN0cmluZywKKSBTZXNzaW9uQ2xpZW50SW5mbyB7Cgl1YSA6PSBzdHJpbmdzLlRyaW1TcGFjZSh1c2VyQWdlbnQpCglpbmZvIDo9IFNlc3Npb25DbGllbnRJbmZvewoJCUFwcDogICAgICAgICBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UoaGVhZGVyQ2xpZW50QXBwKSksCgkJUGxhdGZvcm06ICAgIHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShoZWFkZXJDbGllbnRQbGF0Zm9ybSkpLAoJCURldmljZU1vZGVsOiBzdHJpbmdzLlRyaW1TcGFjZShoZWFkZXJEZXZpY2VNb2RlbCksCgkJRGV2aWNlTmFtZTogIHN0cmluZ3MuVHJpbVNwYWNlKGhlYWRlckRldmljZU5hbWUpLAoJCU9TVmVyc2lvbjogICBzdHJpbmdzLlRyaW1TcGFjZShoZWFkZXJPU1ZlcnNpb24pLAoJCVVzZXJBZ2VudDogICB1YSwKCX0KCglpbmZvLlR5cGUgPSBkZXRlY3RTZXNzaW9uQ2xpZW50VHlwZSgKCQloZWFkZXJDbGllbnRUeXBlLAoJCWluZm8uQXBwLAoJCWluZm8uUGxhdGZvcm0sCgkJaW5mby5EZXZpY2VNb2RlbCwKCQlpbmZvLkRldmljZU5hbWUsCgkJdWEsCgkpCgoJaWYgaW5mby5QbGF0Zm9ybSA9PSAiIiB7CgkJaW5mby5QbGF0Zm9ybSA9IGRldGVjdFBsYXRmb3JtRnJvbVVzZXJBZ2VudCh1YSkKCX0KCWlmIGluZm8uVHlwZSA9PSBTZXNzaW9uQ2xpZW50V2ViICYmIGluZm8uQnJvd3NlciA9PSAiIiB7CgkJaW5mby5Ccm93c2VyID0gZGV0ZWN0QnJvd3NlckZyb21Vc2VyQWdlbnQodWEpCgl9CglpZiBpbmZvLlR5cGUgPT0gU2Vzc2lvbkNsaWVudEFwcCAmJiBpbmZvLkRldmljZU1vZGVsID09ICIiIHsKCQlpbmZvLkRldmljZU1vZGVsID0gZGV0ZWN0QXBwRGV2aWNlTW9kZWxGcm9tVXNlckFnZW50KHVhKQoJfQoJaWYgaW5mby5UeXBlID09IFNlc3Npb25DbGllbnRBcHAgJiYgaW5mby5PU1ZlcnNpb24gPT0gIiIgewoJCWluZm8uT1NWZXJzaW9uID0gZGV0ZWN0T1NWZXJzaW9uRnJvbVVzZXJBZ2VudChpbmZvLlBsYXRmb3JtLCB1YSkKCX0KCglyZXR1cm4gaW5mbwp9CgpmdW5jIGRldGVjdFNlc3Npb25DbGllbnRUeXBlKGhlYWRlckNsaWVudFR5cGUsIGhlYWRlckNsaWVudEFwcCwgaGVhZGVyQ2xpZW50UGxhdGZvcm0sIGhlYWRlckRldmljZU1vZGVsLCBoZWFkZXJEZXZpY2VOYW1lLCB1c2VyQWdlbnQgc3RyaW5nKSBzdHJpbmcgewoJY2xpZW50VHlwZSA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UoaGVhZGVyQ2xpZW50VHlwZSkpCglzd2l0Y2ggY2xpZW50VHlwZSB7CgljYXNlIFNlc3Npb25DbGllbnRXZWIsIFNlc3Npb25DbGllbnRBcHA6CgkJcmV0dXJuIGNsaWVudFR5cGUKCX0KCglzd2l0Y2ggaGVhZGVyQ2xpZW50QXBwIHsKCWNhc2UgImRhaWRhaS1wYW5lbC1hcHAiOgoJCXJldHVybiBTZXNzaW9uQ2xpZW50QXBwCgljYXNlICJkYWlkYWktcGFuZWwtd2ViIjoKCQlyZXR1cm4gU2Vzc2lvbkNsaWVudFdlYgoJfQoKCWlmIHN0cmluZ3MuVHJpbVNwYWNlKGhlYWRlckRldmljZU1vZGVsKSAhPSAiIiB8fCBzdHJpbmdzLlRyaW1TcGFjZShoZWFkZXJEZXZpY2VOYW1lKSAhPSAiIiB7CgkJcmV0dXJuIFNlc3Npb25DbGllbnRBcHAKCX0KCglzd2l0Y2ggc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKGhlYWRlckNsaWVudFBsYXRmb3JtKSkgewoJY2FzZSAiYW5kcm9pZCIsICJpb3MiLCAibWFjb3MiLCAid2luZG93cyIsICJsaW51eCI6CgkJaWYgaGVhZGVyQ2xpZW50QXBwID09ICJkYWlkYWktcGFuZWwtYXBwIiB7CgkJCXJldHVybiBTZXNzaW9uQ2xpZW50QXBwCgkJfQoJfQoKCXVhIDo9IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZSh1c2VyQWdlbnQpKQoJc3dpdGNoIHsKCWNhc2Ugc3RyaW5ncy5Db250YWlucyh1YSwgImRhaWRhaXBhbmVsYXBwLyIpOgoJCXJldHVybiBTZXNzaW9uQ2xpZW50QXBwCgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJkYXJ0LyIpLCBzdHJpbmdzLkNvbnRhaW5zKHVhLCAiZGFydDppbyIpOgoJCXJldHVybiBTZXNzaW9uQ2xpZW50QXBwCgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICIgY2ZuZXR3b3JrLyIpLCBzdHJpbmdzLkNvbnRhaW5zKHVhLCAiIG9raHR0cC8iKToKCQlyZXR1cm4gU2Vzc2lvbkNsaWVudEFwcAoJZGVmYXVsdDoKCQlyZXR1cm4gU2Vzc2lvbkNsaWVudFdlYgoJfQp9CgpmdW5jIE5vcm1hbGl6ZVNlc3Npb25DbGllbnRUeXBlKGNsaWVudFR5cGUgc3RyaW5nKSBzdHJpbmcgewoJaWYgc3RyaW5ncy5FcXVhbEZvbGQoc3RyaW5ncy5UcmltU3BhY2UoY2xpZW50VHlwZSksIFNlc3Npb25DbGllbnRBcHApIHsKCQlyZXR1cm4gU2Vzc2lvbkNsaWVudEFwcAoJfQoJcmV0dXJuIFNlc3Npb25DbGllbnRXZWIKfQoKZnVuYyBTZXNzaW9uQ2xpZW50TGFiZWwoY2xpZW50VHlwZSBzdHJpbmcpIHN0cmluZyB7CglpZiBOb3JtYWxpemVTZXNzaW9uQ2xpZW50VHlwZShjbGllbnRUeXBlKSA9PSBTZXNzaW9uQ2xpZW50QXBwIHsKCQlyZXR1cm4gIkFwcOerryIKCX0KCXJldHVybiAi572R6aG156uvIgp9CgpmdW5jIFNlc3Npb25DbGllbnREaXNwbGF5TmFtZShpbmZvIFNlc3Npb25DbGllbnRJbmZvKSBzdHJpbmcgewoJbGFiZWwgOj0gU2Vzc2lvbkNsaWVudExhYmVsKGluZm8uVHlwZSkKCglpZiBOb3JtYWxpemVTZXNzaW9uQ2xpZW50VHlwZShpbmZvLlR5cGUpID09IFNlc3Npb25DbGllbnRBcHAgewoJCXBhcnRzIDo9IFtdc3RyaW5ne2xhYmVsfQoJCWlmIGluZm8uRGV2aWNlTW9kZWwgIT0gIiIgewoJCQlwYXJ0cyA9IGFwcGVuZChwYXJ0cywgaW5mby5EZXZpY2VNb2RlbCkKCQl9IGVsc2UgaWYgaW5mby5EZXZpY2VOYW1lICE9ICIiIHsKCQkJcGFydHMgPSBhcHBlbmQocGFydHMsIGluZm8uRGV2aWNlTmFtZSkKCQl9CgoJCXBsYXRmb3JtTGFiZWwgOj0gcGxhdGZvcm1EaXNwbGF5TGFiZWwoaW5mby5QbGF0Zm9ybSwgaW5mby5PU1ZlcnNpb24pCgkJaWYgcGxhdGZvcm1MYWJlbCAhPSAiIiB7CgkJCXBhcnRzID0gYXBwZW5kKHBhcnRzLCBwbGF0Zm9ybUxhYmVsKQoJCX0KCgkJcmV0dXJuIHN0cmluZ3MuSm9pbihkZWR1cFBhcnRzKHBhcnRzKSwgIiDCtyAiKQoJfQoKCXBhcnRzIDo9IFtdc3RyaW5ne2xhYmVsfQoJaWYgaW5mby5Ccm93c2VyICE9ICIiIHsKCQlwYXJ0cyA9IGFwcGVuZChwYXJ0cywgaW5mby5Ccm93c2VyKQoJfQoJaWYgb3NMYWJlbCA6PSBwbGF0Zm9ybURpc3BsYXlMYWJlbChpbmZvLlBsYXRmb3JtLCBpbmZvLk9TVmVyc2lvbik7IG9zTGFiZWwgIT0gIiIgewoJCXBhcnRzID0gYXBwZW5kKHBhcnRzLCBvc0xhYmVsKQoJfQoJcmV0dXJuIHN0cmluZ3MuSm9pbihkZWR1cFBhcnRzKHBhcnRzKSwgIiDCtyAiKQp9CgpmdW5jIFJlc29sdmVTdG9yZWRTZXNzaW9uQ2xpZW50TmFtZShjbGllbnRUeXBlLCBjbGllbnROYW1lLCB1c2VyQWdlbnQgc3RyaW5nKSBzdHJpbmcgewoJY2xpZW50TmFtZSA9IHN0cmluZ3MuVHJpbVNwYWNlKGNsaWVudE5hbWUpCglpZiBjbGllbnROYW1lICE9ICIiIHsKCQlyZXR1cm4gY2xpZW50TmFtZQoJfQoKCWluZm8gOj0gRGV0ZWN0U2Vzc2lvbkNsaWVudEluZm8oY2xpZW50VHlwZSwgIiIsICIiLCAiIiwgIiIsICIiLCB1c2VyQWdlbnQpCglyZXR1cm4gU2Vzc2lvbkNsaWVudERpc3BsYXlOYW1lKGluZm8pCn0KCmZ1bmMgZGV0ZWN0UGxhdGZvcm1Gcm9tVXNlckFnZW50KHVzZXJBZ2VudCBzdHJpbmcpIHN0cmluZyB7Cgl1YSA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UodXNlckFnZW50KSkKCXN3aXRjaCB7CgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJhbmRyb2lkIik6CgkJcmV0dXJuICJhbmRyb2lkIgoJY2FzZSBzdHJpbmdzLkNvbnRhaW5zKHVhLCAiaXBob25lIiksIHN0cmluZ3MuQ29udGFpbnModWEsICJpcGFkIiksIHN0cmluZ3MuQ29udGFpbnModWEsICJpb3MiKToKCQlyZXR1cm4gImlvcyIKCWNhc2Ugc3RyaW5ncy5Db250YWlucyh1YSwgIndpbmRvd3MiKToKCQlyZXR1cm4gIndpbmRvd3MiCgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJtYWMgb3MiKSwgc3RyaW5ncy5Db250YWlucyh1YSwgIm1hY2ludG9zaCIpOgoJCXJldHVybiAibWFjb3MiCgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJsaW51eCIpOgoJCXJldHVybiAibGludXgiCglkZWZhdWx0OgoJCXJldHVybiAiIgoJfQp9CgpmdW5jIGRldGVjdEJyb3dzZXJGcm9tVXNlckFnZW50KHVzZXJBZ2VudCBzdHJpbmcpIHN0cmluZyB7Cgl1YSA6PSBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UodXNlckFnZW50KSkKCXN3aXRjaCB7CgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJlZGcvIik6CgkJcmV0dXJuICJFZGdlIgoJY2FzZSBzdHJpbmdzLkNvbnRhaW5zKHVhLCAiY2hyb21lLyIpICYmICFzdHJpbmdzLkNvbnRhaW5zKHVhLCAiZWRnLyIpOgoJCXJldHVybiAiQ2hyb21lIgoJY2FzZSBzdHJpbmdzLkNvbnRhaW5zKHVhLCAiZmlyZWZveC8iKToKCQlyZXR1cm4gIkZpcmVmb3giCgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJzYWZhcmkvIikgJiYgc3RyaW5ncy5Db250YWlucyh1YSwgInZlcnNpb24vIik6CgkJcmV0dXJuICJTYWZhcmkiCgljYXNlIHN0cmluZ3MuQ29udGFpbnModWEsICJtaWNyb21lc3Nlbmdlci8iKToKCQlyZXR1cm4gIuW+ruS/oSIKCWRlZmF1bHQ6CgkJcmV0dXJuICIiCgl9Cn0KCmZ1bmMgZGV0ZWN0QXBwRGV2aWNlTW9kZWxGcm9tVXNlckFnZW50KHVzZXJBZ2VudCBzdHJpbmcpIHN0cmluZyB7Cgl1YSA6PSBzdHJpbmdzLlRyaW1TcGFjZSh1c2VyQWdlbnQpCglzdGFydCA6PSBzdHJpbmdzLkluZGV4KHVhLCAiKCIpCgllbmQgOj0gc3RyaW5ncy5MYXN0SW5kZXgodWEsICIpIikKCWlmIHN0YXJ0IDwgMCB8fCBlbmQgPD0gc3RhcnQgewoJCXJldHVybiAiIgoJfQoKCXNlZ21lbnRzIDo9IHN0cmluZ3MuU3BsaXQodWFbc3RhcnQrMTplbmRdLCAiOyIpCgljbGVhbiA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4oc2VnbWVudHMpKQoJZm9yIF8sIHNlZ21lbnQgOj0gcmFuZ2Ugc2VnbWVudHMgewoJCXBhcnQgOj0gc3RyaW5ncy5UcmltU3BhY2Uoc2VnbWVudCkKCQlpZiBwYXJ0ICE9ICIiIHsKCQkJY2xlYW4gPSBhcHBlbmQoY2xlYW4sIHBhcnQpCgkJfQoJfQoJaWYgbGVuKGNsZWFuKSA8IDIgewoJCXJldHVybiAiIgoJfQoKCWZvciBfLCBwYXJ0IDo9IHJhbmdlIGNsZWFuWzE6XSB7CgkJbG93ZXIgOj0gc3RyaW5ncy5Ub0xvd2VyKHBhcnQpCgkJaWYgbG93ZXIgPT0gImZsdXR0ZXIiIHx8IGxvd2VyID09ICJkYXJ0IiB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIHN0cmluZ3MuSGFzUHJlZml4KGxvd2VyLCAiYW5kcm9pZCAiKSB8fCBzdHJpbmdzLkhhc1ByZWZpeChsb3dlciwgImlvcyAiKSB7CgkJCWNvbnRpbnVlCgkJfQoJCXJldHVybiBwYXJ0Cgl9CgoJcmV0dXJuICIiCn0KCmZ1bmMgZGV0ZWN0T1NWZXJzaW9uRnJvbVVzZXJBZ2VudChwbGF0Zm9ybSwgdXNlckFnZW50IHN0cmluZykgc3RyaW5nIHsKCXVhIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHVzZXJBZ2VudCkKCXN0YXJ0IDo9IHN0cmluZ3MuSW5kZXgodWEsICIoIikKCWVuZCA6PSBzdHJpbmdzLkxhc3RJbmRleCh1YSwgIikiKQoJaWYgc3RhcnQgPCAwIHx8IGVuZCA8PSBzdGFydCB7CgkJcmV0dXJuICIiCgl9CgoJc2VnbWVudHMgOj0gc3RyaW5ncy5TcGxpdCh1YVtzdGFydCsxOmVuZF0sICI7IikKCWZvciBfLCBzZWdtZW50IDo9IHJhbmdlIHNlZ21lbnRzIHsKCQlwYXJ0IDo9IHN0cmluZ3MuVHJpbVNwYWNlKHNlZ21lbnQpCgkJbG93ZXIgOj0gc3RyaW5ncy5Ub0xvd2VyKHBhcnQpCgkJc3dpdGNoIHBsYXRmb3JtIHsKCQljYXNlICJhbmRyb2lkIjoKCQkJaWYgc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJhbmRyb2lkICIpIHsKCQkJCXJldHVybiBzdHJpbmdzLlRyaW1TcGFjZShwYXJ0W2xlbigiQW5kcm9pZCAiKTpdKQoJCQl9CgkJY2FzZSAiaW9zIjoKCQkJaWYgc3RyaW5ncy5IYXNQcmVmaXgobG93ZXIsICJpb3MgIikgewoJCQkJcmV0dXJuIHN0cmluZ3MuVHJpbVNwYWNlKHBhcnRbbGVuKCJpT1MgIik6XSkKCQkJfQoJCX0KCX0KCglyZXR1cm4gIiIKfQoKZnVuYyBwbGF0Zm9ybURpc3BsYXlMYWJlbChwbGF0Zm9ybSwgdmVyc2lvbiBzdHJpbmcpIHN0cmluZyB7CglwbGF0Zm9ybSA9IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShwbGF0Zm9ybSkpCgl2ZXJzaW9uID0gc3RyaW5ncy5UcmltU3BhY2UodmVyc2lvbikKCgl2YXIgYmFzZSBzdHJpbmcKCXN3aXRjaCBwbGF0Zm9ybSB7CgljYXNlICJhbmRyb2lkIjoKCQliYXNlID0gIkFuZHJvaWQiCgljYXNlICJpb3MiOgoJCWJhc2UgPSAiaU9TIgoJY2FzZSAid2luZG93cyI6CgkJYmFzZSA9ICJXaW5kb3dzIgoJY2FzZSAibWFjb3MiOgoJCWJhc2UgPSAibWFjT1MiCgljYXNlICJsaW51eCI6CgkJYmFzZSA9ICJMaW51eCIKCWNhc2UgIndlYiI6CgkJYmFzZSA9ICJXZWIiCglkZWZhdWx0OgoJCWJhc2UgPSAiIgoJfQoKCWlmIGJhc2UgPT0gIiIgewoJCXJldHVybiAiIgoJfQoJaWYgdmVyc2lvbiA9PSAiIiB7CgkJcmV0dXJuIGJhc2UKCX0KCXJldHVybiBmbXQuU3ByaW50ZigiJXMgJXMiLCBiYXNlLCB2ZXJzaW9uKQp9CgpmdW5jIGRlZHVwUGFydHMocGFydHMgW11zdHJpbmcpIFtdc3RyaW5nIHsKCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4ocGFydHMpKQoJc2VlbiA6PSBtYWtlKG1hcFtzdHJpbmddc3RydWN0e30sIGxlbihwYXJ0cykpCglmb3IgXywgcGFydCA6PSByYW5nZSBwYXJ0cyB7CgkJcGFydCA9IHN0cmluZ3MuVHJpbVNwYWNlKHBhcnQpCgkJaWYgcGFydCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWtleSA6PSBzdHJpbmdzLlRvTG93ZXIocGFydCkKCQlpZiBfLCBleGlzdHMgOj0gc2VlbltrZXldOyBleGlzdHMgewoJCQljb250aW51ZQoJCX0KCQlzZWVuW2tleV0gPSBzdHJ1Y3R7fXt9CgkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgcGFydCkKCX0KCXJldHVybiByZXN1bHQKfQo=
+package service
+
+import (
+	"fmt"
+	"strings"
+)
+
+const (
+	SessionClientWeb = "web"
+	SessionClientApp = "app"
+)
+
+type SessionClientInfo struct {
+	Type        string
+	App         string
+	Platform    string
+	DeviceModel string
+	DeviceName  string
+	OSVersion   string
+	Browser     string
+	UserAgent   string
+}
+
+func DetectSessionClientType(headerClientType, headerClientApp, userAgent string) string {
+	info := DetectSessionClientInfo(
+		headerClientType,
+		headerClientApp,
+		"",
+		"",
+		"",
+		"",
+		userAgent,
+	)
+	return info.Type
+}
+
+func DetectSessionClientInfo(
+	headerClientType,
+	headerClientApp,
+	headerClientPlatform,
+	headerDeviceModel,
+	headerDeviceName,
+	headerOSVersion,
+	userAgent string,
+) SessionClientInfo {
+	ua := strings.TrimSpace(userAgent)
+	info := SessionClientInfo{
+		App:         strings.ToLower(strings.TrimSpace(headerClientApp)),
+		Platform:    strings.ToLower(strings.TrimSpace(headerClientPlatform)),
+		DeviceModel: strings.TrimSpace(headerDeviceModel),
+		DeviceName:  strings.TrimSpace(headerDeviceName),
+		OSVersion:   strings.TrimSpace(headerOSVersion),
+		UserAgent:   ua,
+	}
+
+	info.Type = detectSessionClientType(
+		headerClientType,
+		info.App,
+		info.Platform,
+		info.DeviceModel,
+		info.DeviceName,
+		ua,
+	)
+
+	if info.Platform == "" {
+		info.Platform = detectPlatformFromUserAgent(ua)
+	}
+	if info.Type == SessionClientWeb && info.Browser == "" {
+		info.Browser = detectBrowserFromUserAgent(ua)
+	}
+	if info.Type == SessionClientApp && info.DeviceModel == "" {
+		info.DeviceModel = detectAppDeviceModelFromUserAgent(ua)
+	}
+	if info.Type == SessionClientApp && info.OSVersion == "" {
+		info.OSVersion = detectOSVersionFromUserAgent(info.Platform, ua)
+	}
+
+	return info
+}
+
+func detectSessionClientType(headerClientType, headerClientApp, headerClientPlatform, headerDeviceModel, headerDeviceName, userAgent string) string {
+	clientType := strings.ToLower(strings.TrimSpace(headerClientType))
+	switch clientType {
+	case SessionClientWeb, SessionClientApp:
+		return clientType
+	}
+
+	switch headerClientApp {
+	case "daidai-panel-app":
+		return SessionClientApp
+	case "daidai-panel-web":
+		return SessionClientWeb
+	}
+
+	if strings.TrimSpace(headerDeviceModel) != "" || strings.TrimSpace(headerDeviceName) != "" {
+		return SessionClientApp
+	}
+
+	switch strings.ToLower(strings.TrimSpace(headerClientPlatform)) {
+	case "android", "ios", "macos", "windows", "linux":
+		if headerClientApp == "daidai-panel-app" {
+			return SessionClientApp
+		}
+	}
+
+	ua := strings.ToLower(strings.TrimSpace(userAgent))
+	switch {
+	case strings.Contains(ua, "daidaipanelapp/"):
+		return SessionClientApp
+	case strings.Contains(ua, "dart/"), strings.Contains(ua, "dart:io"):
+		return SessionClientApp
+	case strings.Contains(ua, " cfnetwork/"), strings.Contains(ua, " okhttp/"):
+		return SessionClientApp
+	default:
+		return SessionClientWeb
+	}
+}
+
+func NormalizeSessionClientType(clientType string) string {
+	if strings.EqualFold(strings.TrimSpace(clientType), SessionClientApp) {
+		return SessionClientApp
+	}
+	return SessionClientWeb
+}
+
+func SessionClientLabel(clientType string) string {
+	if NormalizeSessionClientType(clientType) == SessionClientApp {
+		return "App端"
+	}
+	return "网页端"
+}
+
+func SessionClientDisplayName(info SessionClientInfo) string {
+	label := SessionClientLabel(info.Type)
+
+	if NormalizeSessionClientType(info.Type) == SessionClientApp {
+		parts := []string{label}
+		if info.DeviceModel != "" {
+			parts = append(parts, info.DeviceModel)
+		} else if info.DeviceName != "" {
+			parts = append(parts, info.DeviceName)
+		}
+
+		platformLabel := platformDisplayLabel(info.Platform, info.OSVersion)
+		if platformLabel != "" {
+			parts = append(parts, platformLabel)
+		}
+
+		return strings.Join(dedupParts(parts), " · ")
+	}
+
+	parts := []string{label}
+	if info.Browser != "" {
+		parts = append(parts, info.Browser)
+	}
+	if osLabel := platformDisplayLabel(info.Platform, info.OSVersion); osLabel != "" {
+		parts = append(parts, osLabel)
+	}
+	return strings.Join(dedupParts(parts), " · ")
+}
+
+func ResolveStoredSessionClientName(clientType, clientName, userAgent string) string {
+	clientName = strings.TrimSpace(clientName)
+	if clientName != "" {
+		return clientName
+	}
+
+	info := DetectSessionClientInfo(clientType, "", "", "", "", "", userAgent)
+	return SessionClientDisplayName(info)
+}
+
+func detectPlatformFromUserAgent(userAgent string) string {
+	ua := strings.ToLower(strings.TrimSpace(userAgent))
+	switch {
+	case strings.Contains(ua, "android"):
+		return "android"
+	case strings.Contains(ua, "iphone"), strings.Contains(ua, "ipad"), strings.Contains(ua, "ios"):
+		return "ios"
+	case strings.Contains(ua, "windows"):
+		return "windows"
+	case strings.Contains(ua, "mac os"), strings.Contains(ua, "macintosh"):
+		return "macos"
+	case strings.Contains(ua, "linux"):
+		return "linux"
+	default:
+		return ""
+	}
+}
+
+func detectBrowserFromUserAgent(userAgent string) string {
+	ua := strings.ToLower(strings.TrimSpace(userAgent))
+	switch {
+	case strings.Contains(ua, "edg/"):
+		return "Edge"
+	case strings.Contains(ua, "chrome/") && !strings.Contains(ua, "edg/"):
+		return "Chrome"
+	case strings.Contains(ua, "firefox/"):
+		return "Firefox"
+	case strings.Contains(ua, "safari/") && strings.Contains(ua, "version/"):
+		return "Safari"
+	case strings.Contains(ua, "micromessenger/"):
+		return "微信"
+	default:
+		return ""
+	}
+}
+
+func detectAppDeviceModelFromUserAgent(userAgent string) string {
+	ua := strings.TrimSpace(userAgent)
+	start := strings.Index(ua, "(")
+	end := strings.LastIndex(ua, ")")
+	if start < 0 || end <= start {
+		return ""
+	}
+
+	segments := strings.Split(ua[start+1:end], ";")
+	clean := make([]string, 0, len(segments))
+	for _, segment := range segments {
+		part := strings.TrimSpace(segment)
+		if part != "" {
+			clean = append(clean, part)
+		}
+	}
+	if len(clean) < 2 {
+		return ""
+	}
+
+	for _, part := range clean[1:] {
+		lower := strings.ToLower(part)
+		if lower == "flutter" || lower == "dart" {
+			continue
+		}
+		if strings.HasPrefix(lower, "android ") || strings.HasPrefix(lower, "ios ") {
+			continue
+		}
+		return part
+	}
+
+	return ""
+}
+
+func detectOSVersionFromUserAgent(platform, userAgent string) string {
+	ua := strings.TrimSpace(userAgent)
+	start := strings.Index(ua, "(")
+	end := strings.LastIndex(ua, ")")
+	if start < 0 || end <= start {
+		return ""
+	}
+
+	segments := strings.Split(ua[start+1:end], ";")
+	for _, segment := range segments {
+		part := strings.TrimSpace(segment)
+		lower := strings.ToLower(part)
+		switch platform {
+		case "android":
+			if strings.HasPrefix(lower, "android ") {
+				return strings.TrimSpace(part[len("Android "):])
+			}
+		case "ios":
+			if strings.HasPrefix(lower, "ios ") {
+				return strings.TrimSpace(part[len("iOS "):])
+			}
+		}
+	}
+
+	return ""
+}
+
+func platformDisplayLabel(platform, version string) string {
+	platform = strings.ToLower(strings.TrimSpace(platform))
+	version = strings.TrimSpace(version)
+
+	var base string
+	switch platform {
+	case "android":
+		base = "Android"
+	case "ios":
+		base = "iOS"
+	case "windows":
+		base = "Windows"
+	case "macos":
+		base = "macOS"
+	case "linux":
+		base = "Linux"
+	case "web":
+		base = "Web"
+	default:
+		base = ""
+	}
+
+	if base == "" {
+		return ""
+	}
+	if version == "" {
+		return base
+	}
+	return fmt.Sprintf("%s %s", base, version)
+}
+
+func dedupParts(parts []string) []string {
+	result := make([]string, 0, len(parts))
+	seen := make(map[string]struct{}, len(parts))
+	for _, part := range parts {
+		part = strings.TrimSpace(part)
+		if part == "" {
+			continue
+		}
+		key := strings.ToLower(part)
+		if _, exists := seen[key]; exists {
+			continue
+		}
+		seen[key] = struct{}{}
+		result = append(result, part)
+	}
+	return result
+}

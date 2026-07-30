@@ -1,1 +1,135 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RFbnN1cmVOb2RlUGFja2FnZU1hbmlmZXN0UmVwYWlyc0Jyb2tlblBhY2thZ2VKU09OKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJbm9kZURpciA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiZGVwcyIsICJub2RlanMiKQoJbW9kdWxlRGlyIDo9IGZpbGVwYXRoLkpvaW4obm9kZURpciwgIm5vZGVfbW9kdWxlcyIsICJheGlvcyIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwobW9kdWxlRGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgbm9kZSBtb2R1bGUgZGlyOiAldiIsIGVycikKCX0KCgkvLyDmqKHmi5/miKrlm77ph4znmoQgRUpTT05QQVJTRe+8mnBhY2thZ2UuanNvbiDmnKvlsL7lpJrkuobkuIDkuKogYH1g77yMbnBtIGluc3RhbGwg5Lya55u05o6l5aSx6LSl44CCCglicm9rZW5QYWNrYWdlSlNPTiA6PSAie1xuICBcImRlcGVuZGVuY2llc1wiOiB7XG4gICAgXCJheGlvc1wiOiBcIl4xLjcuMFwiXG4gIH1cbn1cbn1cbiIKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihub2RlRGlyLCAicGFja2FnZS5qc29uIiksIFtdYnl0ZShicm9rZW5QYWNrYWdlSlNPTiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGJyb2tlbiBwYWNrYWdlLmpzb246ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKG1vZHVsZURpciwgInBhY2thZ2UuanNvbiIpLCBbXWJ5dGUoYHsibmFtZSI6ImF4aW9zIiwidmVyc2lvbiI6IjEuNy45In1gKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgbW9kdWxlIHBhY2thZ2UuanNvbjogJXYiLCBlcnIpCgl9CgoJaWYgZXJyIDo9IGVuc3VyZU5vZGVQYWNrYWdlTWFuaWZlc3Qobm9kZURpcik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZXBhaXIgbm9kZSBwYWNrYWdlIG1hbmlmZXN0OiAldiIsIGVycikKCX0KCglkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoZmlsZXBhdGguSm9pbihub2RlRGlyLCAicGFja2FnZS5qc29uIikpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVhZCByZXBhaXJlZCBwYWNrYWdlLmpzb246ICV2IiwgZXJyKQoJfQoJdmFyIG1hbmlmZXN0IG1hcFtzdHJpbmddYW55CglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoZGF0YSwgJm1hbmlmZXN0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInBhY2thZ2UuanNvbiBzaG91bGQgYmUgdmFsaWQgSlNPTiBhZnRlciByZXBhaXI6ICV2XG4lcyIsIGVyciwgc3RyaW5nKGRhdGEpKQoJfQoKCWRlcHMsIG9rIDo9IG1hbmlmZXN0WyJkZXBlbmRlbmNpZXMiXS4obWFwW3N0cmluZ11hbnkpCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkZXBlbmRlbmNpZXMgb2JqZWN0IGFmdGVyIHJlcGFpciwgZ290ICUjdiIsIG1hbmlmZXN0WyJkZXBlbmRlbmNpZXMiXSkKCX0KCWlmIGRlcHNbImF4aW9zIl0gIT0gIl4xLjcuOSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBheGlvcyBkZXBlbmRlbmN5IHRvIGJlIHJlYnVpbHQgZnJvbSBub2RlX21vZHVsZXMsIGdvdCAlI3YiLCBkZXBzWyJheGlvcyJdKQoJfQoKCWJhY2t1cHMsIGVyciA6PSBmaWxlcGF0aC5HbG9iKGZpbGVwYXRoLkpvaW4obm9kZURpciwgInBhY2thZ2UuanNvbi5icm9rZW4tKiIpKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImdsb2IgYnJva2VuIGJhY2t1cHM6ICV2IiwgZXJyKQoJfQoJaWYgbGVuKGJhY2t1cHMpICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbmUgYnJva2VuIHBhY2thZ2UuanNvbiBiYWNrdXAsIGdvdCAlZCIsIGxlbihiYWNrdXBzKSkKCX0KCWJhY2t1cERhdGEsIGVyciA6PSBvcy5SZWFkRmlsZShiYWNrdXBzWzBdKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgYnJva2VuIGJhY2t1cDogJXYiLCBlcnIpCgl9CglpZiBzdHJpbmdzLlRyaW1TcGFjZShzdHJpbmcoYmFja3VwRGF0YSkpICE9IHN0cmluZ3MuVHJpbVNwYWNlKGJyb2tlblBhY2thZ2VKU09OKSB7CgkJdC5GYXRhbGYoImJyb2tlbiBiYWNrdXAgc2hvdWxkIHByZXNlcnZlIG9yaWdpbmFsIGNvbnRlbnQsIGdvdDpcbiVzIiwgc3RyaW5nKGJhY2t1cERhdGEpKQoJfQp9CgpmdW5jIFRlc3RSZXNvbHZlTm9kZUluc3RhbGxQYWNrYWdlU3BlY1BpbnNSZXF1aXJlQ29tcGF0aWJsZURlZmF1bHRzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJInV1aWQiOiAgICAgICAgICAgICAgInV1aWRAOC4zLjIiLAoJCSJub2RlLWZldGNoIjogICAgICAgICJub2RlLWZldGNoQDIuNy4wIiwKCQkiY2hhbGsiOiAgICAgICAgICAgICAiY2hhbGtANC4xLjIiLAoJCSJnb3QiOiAgICAgICAgICAgICAgICJnb3RAMTEuOC42IiwKCQkibmFub2lkIjogICAgICAgICAgICAibmFub2lkQDMuMy43IiwKCQkiYXhpb3MiOiAgICAgICAgICAgICAiYXhpb3NAMC4yNy4yIiwKCQkiY2hlZXJpbyI6ICAgICAgICAgICAiY2hlZXJpb0AxLjAuMC1yYy4xMiIsCgkJImh0dHBzLXByb3h5LWFnZW50IjogImh0dHBzLXByb3h5LWFnZW50QDUuMC4xIiwKCQkicXVlcnktc3RyaW5nIjogICAgICAicXVlcnktc3RyaW5nQDcuMS4zIiwKCQkibGVmdC1wYWQiOiAgICAgICAgICAibGVmdC1wYWQiLAoJfQoKCWZvciBpbnB1dCwgZXhwZWN0ZWQgOj0gcmFuZ2UgdGVzdHMgewoJCWlmIGdvdCA6PSBSZXNvbHZlTm9kZUluc3RhbGxQYWNrYWdlU3BlYyhpbnB1dCk7IGdvdCAhPSBleHBlY3RlZCB7CgkJCXQuRmF0YWxmKCJSZXNvbHZlTm9kZUluc3RhbGxQYWNrYWdlU3BlYyglcSkgPSAlcSwgd2FudCAlcSIsIGlucHV0LCBnb3QsIGV4cGVjdGVkKQoJCX0KCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZU5vZGVJbnN0YWxsUGFja2FnZVNwZWNLZWVwc0V4cGxpY2l0VmVyc2lvbk9yU291cmNlKHQgKnRlc3RpbmcuVCkgewoJdGVzdHMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJInV1aWRAOS4wLjAiOiAgICAgICAgICAgICAgICAgICJ1dWlkQDkuMC4wIiwKCQkidXVpZEBsYXRlc3QiOiAgICAgICAgICAgICAgICAgInV1aWRAbGF0ZXN0IiwKCQkiQHNjb3BlL3BrZyI6ICAgICAgICAgICAgICAgICAgIkBzY29wZS9wa2ciLAoJCSJAc2NvcGUvcGtnQDEuMi4zIjogICAgICAgICAgICAiQHNjb3BlL3BrZ0AxLjIuMyIsCgkJImZpbGU6Li4vbG9jYWwtcGtnIjogICAgICAgICAgICJmaWxlOi4uL2xvY2FsLXBrZyIsCgkJImh0dHBzOi8vZXhhbXBsZS5jb20vcGtnLnRneiI6ICJodHRwczovL2V4YW1wbGUuY29tL3BrZy50Z3oiLAoJCSJnaXRodWI6dXNlci9yZXBvIjogICAgICAgICAgICAiZ2l0aHViOnVzZXIvcmVwbyIsCgl9CgoJZm9yIGlucHV0LCBleHBlY3RlZCA6PSByYW5nZSB0ZXN0cyB7CgkJaWYgZ290IDo9IFJlc29sdmVOb2RlSW5zdGFsbFBhY2thZ2VTcGVjKGlucHV0KTsgZ290ICE9IGV4cGVjdGVkIHsKCQkJdC5GYXRhbGYoIlJlc29sdmVOb2RlSW5zdGFsbFBhY2thZ2VTcGVjKCVxKSA9ICVxLCB3YW50ICVxIiwgaW5wdXQsIGdvdCwgZXhwZWN0ZWQpCgkJfQoJfQp9CgpmdW5jIFRlc3ROb2RlSW5zdGFsbENvbXBhdGliaWxpdHlOb3RpY2UodCAqdGVzdGluZy5UKSB7CgltYXBwZWQgOj0gTm9kZUluc3RhbGxDb21wYXRpYmlsaXR5Tm90aWNlKCJ1dWlkIikKCWlmICFzdHJpbmdzLkNvbnRhaW5zKG1hcHBlZCwgInV1aWRAOC4zLjIiKSB8fCAhc3RyaW5ncy5Db250YWlucyhtYXBwZWQsICJDb21tb25KUyDlhbzlrrnmmKDlsIQiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG1hcHBlZCBwYWNrYWdlIG5vdGljZSB0byBtZW50aW9uIHBpbm5lZCB2ZXJzaW9uLCBnb3QgJXEiLCBtYXBwZWQpCgl9CgoJdW5tYXBwZWQgOj0gTm9kZUluc3RhbGxDb21wYXRpYmlsaXR5Tm90aWNlKCJsZWZ0LXBhZCIpCglpZiAhc3RyaW5ncy5Db250YWlucyh1bm1hcHBlZCwgIuivpeWMheacquWcqOWFvOWuueaYoOWwhOS4re+8jOWwhuaMiSBucG0g6buY6K6k54mI5pys5a6J6KOF44CCIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1bm1hcHBlZCBwYWNrYWdlIG5vdGljZSwgZ290ICVxIiwgdW5tYXBwZWQpCgl9CgoJZXhwbGljaXQgOj0gTm9kZUluc3RhbGxDb21wYXRpYmlsaXR5Tm90aWNlKCJ1dWlkQDkuMC4wIikKCWlmICFzdHJpbmdzLkNvbnRhaW5zKGV4cGxpY2l0LCAi5bey5oyJ5L2g5oyH5a6a55qE54mI5pys5oiW5p2l5rqQ5a6J6KOFIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBleHBsaWNpdCB2ZXJzaW9uIG5vdGljZSwgZ290ICVxIiwgZXhwbGljaXQpCgl9Cn0KCmZ1bmMgVGVzdE5ld05wbUluc3RhbGxDb21tYW5kUGluc1JlcXVpcmVDb21wYXRpYmxlRGVmYXVsdCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWNtZCwgZXJyIDo9IE5ld05wbUluc3RhbGxDb21tYW5kKCJ1dWlkIikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJidWlsZCBucG0gaW5zdGFsbCBjb21tYW5kOiAldiIsIGVycikKCX0KCWlmIGxlbihjbWQuQXJncykgPT0gMCB8fCBjbWQuQXJnc1tsZW4oY21kLkFyZ3MpLTFdICE9ICJ1dWlkQDguMy4yIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5wbSBpbnN0YWxsIHRvIHBpbiB1dWlkQDguMy4yLCBhcmdzPSV2IiwgY21kLkFyZ3MpCgl9Cn0K
+package service
+
+import (
+	"encoding/json"
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestEnsureNodePackageManifestRepairsBrokenPackageJSON(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	nodeDir := filepath.Join(config.C.Data.Dir, "deps", "nodejs")
+	moduleDir := filepath.Join(nodeDir, "node_modules", "axios")
+	if err := os.MkdirAll(moduleDir, 0o755); err != nil {
+		t.Fatalf("create node module dir: %v", err)
+	}
+
+	// 模拟截图里的 EJSONPARSE：package.json 末尾多了一个 `}`，npm install 会直接失败。
+	brokenPackageJSON := "{\n  \"dependencies\": {\n    \"axios\": \"^1.7.0\"\n  }\n}\n}\n"
+	if err := os.WriteFile(filepath.Join(nodeDir, "package.json"), []byte(brokenPackageJSON), 0o644); err != nil {
+		t.Fatalf("write broken package.json: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(moduleDir, "package.json"), []byte(`{"name":"axios","version":"1.7.9"}`), 0o644); err != nil {
+		t.Fatalf("write module package.json: %v", err)
+	}
+
+	if err := ensureNodePackageManifest(nodeDir); err != nil {
+		t.Fatalf("repair node package manifest: %v", err)
+	}
+
+	data, err := os.ReadFile(filepath.Join(nodeDir, "package.json"))
+	if err != nil {
+		t.Fatalf("read repaired package.json: %v", err)
+	}
+	var manifest map[string]any
+	if err := json.Unmarshal(data, &manifest); err != nil {
+		t.Fatalf("package.json should be valid JSON after repair: %v\n%s", err, string(data))
+	}
+
+	deps, ok := manifest["dependencies"].(map[string]any)
+	if !ok {
+		t.Fatalf("expected dependencies object after repair, got %#v", manifest["dependencies"])
+	}
+	if deps["axios"] != "^1.7.9" {
+		t.Fatalf("expected axios dependency to be rebuilt from node_modules, got %#v", deps["axios"])
+	}
+
+	backups, err := filepath.Glob(filepath.Join(nodeDir, "package.json.broken-*"))
+	if err != nil {
+		t.Fatalf("glob broken backups: %v", err)
+	}
+	if len(backups) != 1 {
+		t.Fatalf("expected one broken package.json backup, got %d", len(backups))
+	}
+	backupData, err := os.ReadFile(backups[0])
+	if err != nil {
+		t.Fatalf("read broken backup: %v", err)
+	}
+	if strings.TrimSpace(string(backupData)) != strings.TrimSpace(brokenPackageJSON) {
+		t.Fatalf("broken backup should preserve original content, got:\n%s", string(backupData))
+	}
+}
+
+func TestResolveNodeInstallPackageSpecPinsRequireCompatibleDefaults(t *testing.T) {
+	tests := map[string]string{
+		"uuid":              "uuid@8.3.2",
+		"node-fetch":        "node-fetch@2.7.0",
+		"chalk":             "chalk@4.1.2",
+		"got":               "got@11.8.6",
+		"nanoid":            "nanoid@3.3.7",
+		"axios":             "axios@0.27.2",
+		"cheerio":           "cheerio@1.0.0-rc.12",
+		"https-proxy-agent": "https-proxy-agent@5.0.1",
+		"query-string":      "query-string@7.1.3",
+		"left-pad":          "left-pad",
+	}
+
+	for input, expected := range tests {
+		if got := ResolveNodeInstallPackageSpec(input); got != expected {
+			t.Fatalf("ResolveNodeInstallPackageSpec(%q) = %q, want %q", input, got, expected)
+		}
+	}
+}
+
+func TestResolveNodeInstallPackageSpecKeepsExplicitVersionOrSource(t *testing.T) {
+	tests := map[string]string{
+		"uuid@9.0.0":                  "uuid@9.0.0",
+		"uuid@latest":                 "uuid@latest",
+		"@scope/pkg":                  "@scope/pkg",
+		"@scope/pkg@1.2.3":            "@scope/pkg@1.2.3",
+		"file:../local-pkg":           "file:../local-pkg",
+		"https://example.com/pkg.tgz": "https://example.com/pkg.tgz",
+		"github:user/repo":            "github:user/repo",
+	}
+
+	for input, expected := range tests {
+		if got := ResolveNodeInstallPackageSpec(input); got != expected {
+			t.Fatalf("ResolveNodeInstallPackageSpec(%q) = %q, want %q", input, got, expected)
+		}
+	}
+}
+
+func TestNodeInstallCompatibilityNotice(t *testing.T) {
+	mapped := NodeInstallCompatibilityNotice("uuid")
+	if !strings.Contains(mapped, "uuid@8.3.2") || !strings.Contains(mapped, "CommonJS 兼容映射") {
+		t.Fatalf("expected mapped package notice to mention pinned version, got %q", mapped)
+	}
+
+	unmapped := NodeInstallCompatibilityNotice("left-pad")
+	if !strings.Contains(unmapped, "该包未在兼容映射中，将按 npm 默认版本安装。") {
+		t.Fatalf("expected unmapped package notice, got %q", unmapped)
+	}
+
+	explicit := NodeInstallCompatibilityNotice("uuid@9.0.0")
+	if !strings.Contains(explicit, "已按你指定的版本或来源安装") {
+		t.Fatalf("expected explicit version notice, got %q", explicit)
+	}
+}
+
+func TestNewNpmInstallCommandPinsRequireCompatibleDefault(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	cmd, err := NewNpmInstallCommand("uuid")
+	if err != nil {
+		t.Fatalf("build npm install command: %v", err)
+	}
+	if len(cmd.Args) == 0 || cmd.Args[len(cmd.Args)-1] != "uuid@8.3.2" {
+		t.Fatalf("expected npm install to pin uuid@8.3.2, args=%v", cmd.Args)
+	}
+}

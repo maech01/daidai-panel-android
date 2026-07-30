@@ -1,1 +1,19 @@
-Y29uc3Qgcm9sZUxldmVsOiBSZWNvcmQ8c3RyaW5nLCBudW1iZXI+ID0gewogIHZpZXdlcjogMSwKICBvcGVyYXRvcjogMiwKICBhZG1pbjogMywKfQoKZXhwb3J0IGZ1bmN0aW9uIGhhc1JlcXVpcmVkUm9sZShyb2xlOiBzdHJpbmcgfCB1bmRlZmluZWQgfCBudWxsLCBtaW5Sb2xlOiBzdHJpbmcgfCB1bmRlZmluZWQgfCBudWxsKSB7CiAgaWYgKCFtaW5Sb2xlKSByZXR1cm4gdHJ1ZQogIGlmICghcm9sZSkgcmV0dXJuIGZhbHNlCiAgcmV0dXJuIChyb2xlTGV2ZWxbcm9sZV0gfHwgMCkgPj0gKHJvbGVMZXZlbFttaW5Sb2xlXSB8fCAwKQp9CgpleHBvcnQgZnVuY3Rpb24gY2FuT3BlcmF0ZShyb2xlOiBzdHJpbmcgfCB1bmRlZmluZWQgfCBudWxsKSB7CiAgcmV0dXJuIGhhc1JlcXVpcmVkUm9sZShyb2xlLCAnb3BlcmF0b3InKQp9CgpleHBvcnQgZnVuY3Rpb24gY2FuQWRtaW5pc3Rlcihyb2xlOiBzdHJpbmcgfCB1bmRlZmluZWQgfCBudWxsKSB7CiAgcmV0dXJuIGhhc1JlcXVpcmVkUm9sZShyb2xlLCAnYWRtaW4nKQp9Cg==
+const roleLevel: Record<string, number> = {
+  viewer: 1,
+  operator: 2,
+  admin: 3,
+}
+
+export function hasRequiredRole(role: string | undefined | null, minRole: string | undefined | null) {
+  if (!minRole) return true
+  if (!role) return false
+  return (roleLevel[role] || 0) >= (roleLevel[minRole] || 0)
+}
+
+export function canOperate(role: string | undefined | null) {
+  return hasRequiredRole(role, 'operator')
+}
+
+export function canAdminister(role: string | undefined | null) {
+  return hasRequiredRole(role, 'admin')
+}

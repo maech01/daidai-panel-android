@@ -1,1 +1,24 @@
-aW1wb3J0IGZzIGZyb20gJ25vZGU6ZnMnCmltcG9ydCBwYXRoIGZyb20gJ25vZGU6cGF0aCcKCmNvbnN0IGRpc3REaXIgPSBwYXRoLnJlc29sdmUocHJvY2Vzcy5jd2QoKSwgJ2Rpc3QnKQoKZnVuY3Rpb24gcmVtb3ZlRW50cnkodGFyZ2V0UGF0aCkgewogIGNvbnN0IHN0YXQgPSBmcy5sc3RhdFN5bmModGFyZ2V0UGF0aCkKCiAgaWYgKHN0YXQuaXNEaXJlY3RvcnkoKSkgewogICAgZm9yIChjb25zdCBlbnRyeSBvZiBmcy5yZWFkZGlyU3luYyh0YXJnZXRQYXRoKSkgewogICAgICByZW1vdmVFbnRyeShwYXRoLmpvaW4odGFyZ2V0UGF0aCwgZW50cnkpKQogICAgfQogICAgZnMucm1kaXJTeW5jKHRhcmdldFBhdGgpCiAgICByZXR1cm4KICB9CgogIGZzLnVubGlua1N5bmModGFyZ2V0UGF0aCkKfQoKaWYgKGZzLmV4aXN0c1N5bmMoZGlzdERpcikpIHsKICBmb3IgKGNvbnN0IGVudHJ5IG9mIGZzLnJlYWRkaXJTeW5jKGRpc3REaXIpKSB7CiAgICByZW1vdmVFbnRyeShwYXRoLmpvaW4oZGlzdERpciwgZW50cnkpKQogIH0KfQo=
+import fs from 'node:fs'
+import path from 'node:path'
+
+const distDir = path.resolve(process.cwd(), 'dist')
+
+function removeEntry(targetPath) {
+  const stat = fs.lstatSync(targetPath)
+
+  if (stat.isDirectory()) {
+    for (const entry of fs.readdirSync(targetPath)) {
+      removeEntry(path.join(targetPath, entry))
+    }
+    fs.rmdirSync(targetPath)
+    return
+  }
+
+  fs.unlinkSync(targetPath)
+}
+
+if (fs.existsSync(distDir)) {
+  for (const entry of fs.readdirSync(distDir)) {
+    removeEntry(path.join(distDir, entry))
+  }
+}

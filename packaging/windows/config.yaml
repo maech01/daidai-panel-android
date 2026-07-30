@@ -1,1 +1,26 @@
-IyDlkYblkYbpnaLmnb8gV2luZG93cyDljZXmnLrniYjphY3nva4KIyDkv67mlLnmnKzmlofku7blkI7pnIDopoHph43lkK8gZGFpZGFpLXNlcnZlci5leGUg55Sf5pWICiMg6buY6K6k6Lev5b6E5Z2H5Li655u45a+56Lev5b6E77yI55u45a+5IGRhaWRhaS1zZXJ2ZXIuZXhlIOaJgOWcqOebruW9le+8iQoKc2VydmVyOgogIHBvcnQ6IDU3MDAgICAgICAgICAgICAgICAgICAgICAgICMg55uR5ZCs56uv5Y+j77yM5rWP6KeI5Zmo6K6/6ZeuIGh0dHA6Ly9sb2NhbGhvc3Q6NTcwMAogIG1vZGU6IHJlbGVhc2UgICAgICAgICAgICAgICAgICAgICMgZGVidWcgLyByZWxlYXNlCiAgd2ViX2RpcjogLi93ZWIgICAgICAgICAgICAgICAgICAgIyDliY3nq6/pnZnmgIHotYTmupDnm67lvZXvvJtHbyDlkI7nq6/nm7TmjqXmiZjnrqHliY3nq6/vvIzml6DpnIAgTmdpbngKCmRhdGFiYXNlOgogIHBhdGg6IC4vRHVtYi1QYW5lbC9kYWlkYWkuZGIKCmp3dDoKICBzZWNyZXQ6ICIiICAgICAgICAgICAgICAgICAgICAgICAjIOeVmeepuuiHquWKqOeUn+aIkOW5tuaMgeS5heWMluWIsOaVsOaNruW6kwogIGFjY2Vzc190b2tlbl9leHBpcmU6IDQ4MGgKICByZWZyZXNoX3Rva2VuX2V4cGlyZTogMTQ0MGgKCmRhdGE6CiAgZGlyOiAuL0R1bWItUGFuZWwgICAgICAgICAgICAgICAgIyDmlbDmja7moLnnm67lvZUKICBzY3JpcHRzX2RpcjogLi9EdW1iLVBhbmVsL3NjcmlwdHMKICBsb2dfZGlyOiAuL0R1bWItUGFuZWwvbG9ncwoKY29yczoKICBvcmlnaW5zOgogICAgLSBodHRwOi8vbG9jYWxob3N0OjU3MDAKICAgIC0gaHR0cDovLzEyNy4wLjAuMTo1NzAwCg==
+# 呆呆面板 Windows 单机版配置
+# 修改本文件后需要重启 daidai-server.exe 生效
+# 默认路径均为相对路径（相对 daidai-server.exe 所在目录）
+
+server:
+  port: 5700                       # 监听端口，浏览器访问 http://localhost:5700
+  mode: release                    # debug / release
+  web_dir: ./web                   # 前端静态资源目录；Go 后端直接托管前端，无需 Nginx
+
+database:
+  path: ./Dumb-Panel/daidai.db
+
+jwt:
+  secret: ""                       # 留空自动生成并持久化到数据库
+  access_token_expire: 480h
+  refresh_token_expire: 1440h
+
+data:
+  dir: ./Dumb-Panel                # 数据根目录
+  scripts_dir: ./Dumb-Panel/scripts
+  log_dir: ./Dumb-Panel/logs
+
+cors:
+  origins:
+    - http://localhost:5700
+    - http://127.0.0.1:5700

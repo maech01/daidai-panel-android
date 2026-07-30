@@ -1,1 +1,99 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IHJlZiwgd2F0Y2ggfSBmcm9tICd2dWUnCmltcG9ydCB7IEVsTWVzc2FnZSB9IGZyb20gJ2VsZW1lbnQtcGx1cycKaW1wb3J0IHsgdGFza0FwaSB9IGZyb20gJ0AvYXBpL3Rhc2snCmltcG9ydCB7IHVzZVJlc3BvbnNpdmUgfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZVJlc3BvbnNpdmUnCgpjb25zdCBwcm9wcyA9IGRlZmluZVByb3BzPHsKICB2aXNpYmxlOiBib29sZWFuCiAgdGFza0lkczogbnVtYmVyW10KfT4oKQoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAndXBkYXRlOnZpc2libGUnOiBbdmFsdWU6IGJvb2xlYW5dCiAgc3VjY2VzczogW10KfT4oKQoKY29uc3QgeyBkaWFsb2dGdWxsc2NyZWVuIH0gPSB1c2VSZXNwb25zaXZlKCkKY29uc3QgbGFiZWxzID0gcmVmPHN0cmluZ1tdPihbXSkKY29uc3Qgc3VibWl0dGluZyA9IHJlZihmYWxzZSkKCndhdGNoKAogICgpID0+IHByb3BzLnZpc2libGUsCiAgKHZpc2libGUpID0+IHsKICAgIGlmICh2aXNpYmxlKSB7CiAgICAgIGxhYmVscy52YWx1ZSA9IFtdCiAgICB9CiAgfQopCgpmdW5jdGlvbiBjbG9zZSgpIHsKICBlbWl0KCd1cGRhdGU6dmlzaWJsZScsIGZhbHNlKQp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVDb25maXJtKCkgewogIGNvbnN0IGNsZWFuZWQgPSBBcnJheS5mcm9tKAogICAgbmV3IFNldChsYWJlbHMudmFsdWUubWFwKGxhYmVsID0+IGxhYmVsLnRyaW0oKSkuZmlsdGVyKGxhYmVsID0+IGxhYmVsICE9PSAnJykpCiAgKQogIGlmIChjbGVhbmVkLmxlbmd0aCA9PT0gMCkgewogICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivt+i+k+WFpeiHs+WwkeS4gOS4quagh+etvicpCiAgICByZXR1cm4KICB9CiAgaWYgKHByb3BzLnRhc2tJZHMubGVuZ3RoID09PSAwKSB7CiAgICBFbE1lc3NhZ2Uud2FybmluZygn6K+35YWI6YCJ5oup5Lu75YqhJykKICAgIHJldHVybgogIH0KICBzdWJtaXR0aW5nLnZhbHVlID0gdHJ1ZQogIHRyeSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCB0YXNrQXBpLmJhdGNoQWRkTGFiZWxzKHByb3BzLnRhc2tJZHMsIGNsZWFuZWQpCiAgICBFbE1lc3NhZ2Uuc3VjY2VzcyhyZXM/Lm1lc3NhZ2UgfHwgYOaIkOWKn+S4uiAke3Jlcz8uc3VjY2Vzc19jb3VudCA/PyBwcm9wcy50YXNrSWRzLmxlbmd0aH0g5Liq5Lu75Yqh5re75Yqg5qCH562+YCkKICAgIGVtaXQoJ3N1Y2Nlc3MnKQogICAgY2xvc2UoKQogIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgJ+aJuemHj+a3u+WKoOagh+etvuWksei0pScpCiAgfSBmaW5hbGx5IHsKICAgIHN1Ym1pdHRpbmcudmFsdWUgPSBmYWxzZQogIH0KfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZWwtZGlhbG9nCiAgICA6bW9kZWwtdmFsdWU9InZpc2libGUiCiAgICB0aXRsZT0i5om56YeP5re75Yqg5qCH562+IgogICAgd2lkdGg9IjQ2MHB4IgogICAgOmZ1bGxzY3JlZW49ImRpYWxvZ0Z1bGxzY3JlZW4iCiAgICA6Y2xvc2Utb24tY2xpY2stbW9kYWw9ImZhbHNlIgogICAgZGVzdHJveS1vbi1jbG9zZQogICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iZW1pdCgndXBkYXRlOnZpc2libGUnLCAkZXZlbnQpIgogID4KICAgIDxkaXYgY2xhc3M9ImJhdGNoLWFkZC1sYWJlbCI+CiAgICAgIDxwIGNsYXNzPSJiYXRjaC1hZGQtbGFiZWxfX3RpcCI+CiAgICAgICAg5bCG5Li66YCJ5Lit55qEIHt7IHRhc2tJZHMubGVuZ3RoIH19IOS4quS7u+WKoei/veWKoOS7peS4i+agh+etvu+8iOS/neeVmeWOn+acieagh+etvu+8jOiHquWKqOWOu+mHje+8ieOAggogICAgICA8L3A+CiAgICAgIDxlbC1zZWxlY3QKICAgICAgICB2LW1vZGVsPSJsYWJlbHMiCiAgICAgICAgbXVsdGlwbGUKICAgICAgICBmaWx0ZXJhYmxlCiAgICAgICAgYWxsb3ctY3JlYXRlCiAgICAgICAgZGVmYXVsdC1maXJzdC1vcHRpb24KICAgICAgICA6cmVzZXJ2ZS1rZXl3b3JkPSJmYWxzZSIKICAgICAgICBwbGFjZWhvbGRlcj0i6L6T5YWl5qCH562+5ZCO5Zue6L2m77yM5Y+v5re75Yqg5aSa5LiqIgogICAgICAgIHN0eWxlPSJ3aWR0aDogMTAwJSIKICAgICAgLz4KICAgIDwvZGl2PgogICAgPHRlbXBsYXRlICNmb290ZXI+CiAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJjbG9zZSI+5Y+W5raIPC9lbC1idXR0b24+CiAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgOmxvYWRpbmc9InN1Ym1pdHRpbmciIEBjbGljaz0iaGFuZGxlQ29uZmlybSI+56Gu5a6aPC9lbC1idXR0b24+CiAgICA8L3RlbXBsYXRlPgogIDwvZWwtZGlhbG9nPgo8L3RlbXBsYXRlPgoKPHN0eWxlIHNjb3BlZD4KLmJhdGNoLWFkZC1sYWJlbF9fdGlwIHsKICBtYXJnaW46IDAgMCAxMnB4OwogIGZvbnQtc2l6ZTogMTNweDsKICBsaW5lLWhlaWdodDogMS42OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { ref, watch } from 'vue'
+import { ElMessage } from 'element-plus'
+import { taskApi } from '@/api/task'
+import { useResponsive } from '@/composables/useResponsive'
+
+const props = defineProps<{
+  visible: boolean
+  taskIds: number[]
+}>()
+
+const emit = defineEmits<{
+  'update:visible': [value: boolean]
+  success: []
+}>()
+
+const { dialogFullscreen } = useResponsive()
+const labels = ref<string[]>([])
+const submitting = ref(false)
+
+watch(
+  () => props.visible,
+  (visible) => {
+    if (visible) {
+      labels.value = []
+    }
+  }
+)
+
+function close() {
+  emit('update:visible', false)
+}
+
+async function handleConfirm() {
+  const cleaned = Array.from(
+    new Set(labels.value.map(label => label.trim()).filter(label => label !== ''))
+  )
+  if (cleaned.length === 0) {
+    ElMessage.warning('请输入至少一个标签')
+    return
+  }
+  if (props.taskIds.length === 0) {
+    ElMessage.warning('请先选择任务')
+    return
+  }
+  submitting.value = true
+  try {
+    const res = await taskApi.batchAddLabels(props.taskIds, cleaned)
+    ElMessage.success(res?.message || `成功为 ${res?.success_count ?? props.taskIds.length} 个任务添加标签`)
+    emit('success')
+    close()
+  } catch (err: any) {
+    ElMessage.error(err?.response?.data?.error || '批量添加标签失败')
+  } finally {
+    submitting.value = false
+  }
+}
+</script>
+
+<template>
+  <el-dialog
+    :model-value="visible"
+    title="批量添加标签"
+    width="460px"
+    :fullscreen="dialogFullscreen"
+    :close-on-click-modal="false"
+    destroy-on-close
+    @update:model-value="emit('update:visible', $event)"
+  >
+    <div class="batch-add-label">
+      <p class="batch-add-label__tip">
+        将为选中的 {{ taskIds.length }} 个任务追加以下标签（保留原有标签，自动去重）。
+      </p>
+      <el-select
+        v-model="labels"
+        multiple
+        filterable
+        allow-create
+        default-first-option
+        :reserve-keyword="false"
+        placeholder="输入标签后回车，可添加多个"
+        style="width: 100%"
+      />
+    </div>
+    <template #footer>
+      <el-button @click="close">取消</el-button>
+      <el-button type="primary" :loading="submitting" @click="handleConfirm">确定</el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped>
+.batch-add-label__tip {
+  margin: 0 0 12px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--el-text-color-secondary);
+}
+</style>

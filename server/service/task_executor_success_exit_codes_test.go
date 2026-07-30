@@ -1,1 +1,96 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0VGFza0V4ZWN1dG9yQXBwbGllc0NvbmZpZ3VyZWRTdWNjZXNzRXhpdENvZGVzKHQgKnRlc3RpbmcuVCkgewoJaWYgXywgZXJyIDo9IGV4ZWMuTG9va1BhdGgoIm5vZGUiKTsgZXJyICE9IG5pbCB7CgkJdC5Ta2lwKCJub2RlIG5vdCBmb3VuZCIpCgl9CgoJZm9yIF8sIHR0IDo9IHJhbmdlIFtdc3RydWN0IHsKCQluYW1lICAgICAgICAgICAgIHN0cmluZwoJCXN1Y2Nlc3NFeGl0Q29kZXMgc3RyaW5nCgkJd2FudFJ1blN0YXR1cyAgICBpbnQKCQl3YW50TG9nU3RhdHVzICAgIGludAoJCXdhbnROb3RlICAgICAgICAgYm9vbAoJfXsKCQl7bmFtZTogImRlZmF1bHQga2VlcHMgZXhpdCBjb2RlIG9uZSBmYWlsZWQiLCB3YW50UnVuU3RhdHVzOiBtb2RlbC5SdW5GYWlsZWQsIHdhbnRMb2dTdGF0dXM6IG1vZGVsLkxvZ1N0YXR1c0ZhaWxlZH0sCgkJe25hbWU6ICJjb25maWd1cmVkIGV4aXQgY29kZSBvbmUgc3VjY2VlZHMiLCBzdWNjZXNzRXhpdENvZGVzOiAiMCwxIiwgd2FudFJ1blN0YXR1czogbW9kZWwuUnVuU3VjY2Vzcywgd2FudExvZ1N0YXR1czogbW9kZWwuTG9nU3RhdHVzU3VjY2Vzcywgd2FudE5vdGU6IHRydWV9LAoJfSB7CgkJdC5SdW4odHQubmFtZSwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQkJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJCQlzY3JpcHRQYXRoIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAiZXhpdC1vbmUuanMiKQoJCQlpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNjcmlwdFBhdGgsIFtdYnl0ZSgiY29uc29sZS5sb2coJ2J1c2luZXNzIGNvbXBsZXRlZCcpOyBwcm9jZXNzLmV4aXQoMSk7XG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJ3cml0ZSBzY3JpcHQ6ICV2IiwgZXJyKQoJCQl9CgoJCQl0YXNrIDo9ICZtb2RlbC5UYXNrewoJCQkJTmFtZTogICAgICAgICAgICAgdHQubmFtZSwKCQkJCUNvbW1hbmQ6ICAgICAgICAgICJub2RlIGV4aXQtb25lLmpzIiwKCQkJCVRhc2tUeXBlOiAgICAgICAgIG1vZGVsLlRhc2tUeXBlTWFudWFsLAoJCQkJU3RhdHVzOiAgICAgICAgICAgbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcsCgkJCQlTdWNjZXNzRXhpdENvZGVzOiB0dC5zdWNjZXNzRXhpdENvZGVzLAoJCQkJVGltZW91dDogICAgICAgICAgMzAsCgkJCX0KCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigiY3JlYXRlIHRhc2s6ICV2IiwgZXJyKQoJCQl9CgoJCQlydW5uaW5nU3RhdHVzIDo9IG1vZGVsLkxvZ1N0YXR1c1J1bm5pbmcKCQkJdGFza0xvZyA6PSAmbW9kZWwuVGFza0xvZ3tUYXNrSUQ6IHRhc2suSUQsIFN0YXR1czogJnJ1bm5pbmdTdGF0dXMsIFN0YXJ0ZWRBdDogdGltZS5Ob3coKX0KCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrTG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigiY3JlYXRlIHRhc2sgbG9nOiAldiIsIGVycikKCQkJfQoJCQl0aW55TG9nLCBlcnIgOj0gTmV3VGlueUxvZygic3VjY2Vzcy1leGl0LWNvZGVzIikKCQkJaWYgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigiY3JlYXRlIHRpbnkgbG9nOiAldiIsIGVycikKCQkJfQoKCQkJcGxhbiwgZXJyIDo9IFBhcnNlQ29tbWFuZEV4ZWN1dGlvblBsYW4odGFzay5Db21tYW5kLCBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIpCgkJCWlmIGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoInBhcnNlIGV4ZWN1dGlvbiBwbGFuOiAldiIsIGVycikKCQkJfQoJCQlyZXEgOj0gJkV4ZWN1dGlvblJlcXVlc3R7VGFza0lEOiB0YXNrLklELCBUYXNrOiB0YXNrLCBUYXNrTG9nSUQ6IHRhc2tMb2cuSUQsIENvbW1hbmRQbGFuOiBwbGFufQoJCQlOZXdUYXNrRXhlY3V0b3IoKS5ydW5UYXNrKHJlcSwgdGFza0xvZywgdGlueUxvZykKCgkJCXZhciBzdG9yZWRUYXNrIG1vZGVsLlRhc2sKCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdG9yZWRUYXNrLCB0YXNrLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigicmVsb2FkIHRhc2s6ICV2IiwgZXJyKQoJCQl9CgkJCWlmIHN0b3JlZFRhc2suTGFzdFJ1blN0YXR1cyA9PSBuaWwgfHwgKnN0b3JlZFRhc2suTGFzdFJ1blN0YXR1cyAhPSB0dC53YW50UnVuU3RhdHVzIHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBydW4gc3RhdHVzICVkLCBnb3QgJSN2IiwgdHQud2FudFJ1blN0YXR1cywgc3RvcmVkVGFzay5MYXN0UnVuU3RhdHVzKQoJCQl9CgoJCQl2YXIgc3RvcmVkTG9nIG1vZGVsLlRhc2tMb2cKCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdG9yZWRMb2csIHRhc2tMb2cuSUQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJyZWxvYWQgdGFzayBsb2c6ICV2IiwgZXJyKQoJCQl9CgkJCWlmIHN0b3JlZExvZy5TdGF0dXMgPT0gbmlsIHx8ICpzdG9yZWRMb2cuU3RhdHVzICE9IHR0LndhbnRMb2dTdGF0dXMgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkIGxvZyBzdGF0dXMgJWQsIGdvdCAlI3YiLCB0dC53YW50TG9nU3RhdHVzLCBzdG9yZWRMb2cuU3RhdHVzKQoJCQl9CgkJCWNvbnRlbnQsIGVyciA6PSBEZWNvbXByZXNzRnJvbUJhc2U2NChzdG9yZWRMb2cuQ29udGVudCkKCQkJaWYgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigiZGVjb21wcmVzcyB0YXNrIGxvZzogJXYiLCBlcnIpCgkJCX0KCQkJaWYgIXN0cmluZ3MuQ29udGFpbnMoY29udGVudCwgIumAgOWHuueggSAxIikgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkIHJhdyBleGl0IGNvZGUgaW4gbG9nLCBnb3QgJXEiLCBjb250ZW50KQoJCQl9CgkJCWlmIGdvdCA6PSBzdHJpbmdzLkNvbnRhaW5zKGNvbnRlbnQsICLlt7LmjInku7vliqHphY3nva7liKTlrprmiJDlip8iKTsgZ290ICE9IHR0LndhbnROb3RlIHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBjb21wYXRpYmlsaXR5IG5vdGU9JXYsIGdvdCBsb2cgJXEiLCB0dC53YW50Tm90ZSwgY29udGVudCkKCQkJfQoJCX0pCgl9Cn0K
+package service
+
+import (
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestTaskExecutorAppliesConfiguredSuccessExitCodes(t *testing.T) {
+	if _, err := exec.LookPath("node"); err != nil {
+		t.Skip("node not found")
+	}
+
+	for _, tt := range []struct {
+		name             string
+		successExitCodes string
+		wantRunStatus    int
+		wantLogStatus    int
+		wantNote         bool
+	}{
+		{name: "default keeps exit code one failed", wantRunStatus: model.RunFailed, wantLogStatus: model.LogStatusFailed},
+		{name: "configured exit code one succeeds", successExitCodes: "0,1", wantRunStatus: model.RunSuccess, wantLogStatus: model.LogStatusSuccess, wantNote: true},
+	} {
+		t.Run(tt.name, func(t *testing.T) {
+			testutil.SetupTestEnv(t)
+
+			scriptPath := filepath.Join(config.C.Data.ScriptsDir, "exit-one.js")
+			if err := os.WriteFile(scriptPath, []byte("console.log('business completed'); process.exit(1);\n"), 0o644); err != nil {
+				t.Fatalf("write script: %v", err)
+			}
+
+			task := &model.Task{
+				Name:             tt.name,
+				Command:          "node exit-one.js",
+				TaskType:         model.TaskTypeManual,
+				Status:           model.TaskStatusRunning,
+				SuccessExitCodes: tt.successExitCodes,
+				Timeout:          30,
+			}
+			if err := database.DB.Create(task).Error; err != nil {
+				t.Fatalf("create task: %v", err)
+			}
+
+			runningStatus := model.LogStatusRunning
+			taskLog := &model.TaskLog{TaskID: task.ID, Status: &runningStatus, StartedAt: time.Now()}
+			if err := database.DB.Create(taskLog).Error; err != nil {
+				t.Fatalf("create task log: %v", err)
+			}
+			tinyLog, err := NewTinyLog("success-exit-codes")
+			if err != nil {
+				t.Fatalf("create tiny log: %v", err)
+			}
+
+			plan, err := ParseCommandExecutionPlan(task.Command, config.C.Data.ScriptsDir)
+			if err != nil {
+				t.Fatalf("parse execution plan: %v", err)
+			}
+			req := &ExecutionRequest{TaskID: task.ID, Task: task, TaskLogID: taskLog.ID, CommandPlan: plan}
+			NewTaskExecutor().runTask(req, taskLog, tinyLog)
+
+			var storedTask model.Task
+			if err := database.DB.First(&storedTask, task.ID).Error; err != nil {
+				t.Fatalf("reload task: %v", err)
+			}
+			if storedTask.LastRunStatus == nil || *storedTask.LastRunStatus != tt.wantRunStatus {
+				t.Fatalf("expected run status %d, got %#v", tt.wantRunStatus, storedTask.LastRunStatus)
+			}
+
+			var storedLog model.TaskLog
+			if err := database.DB.First(&storedLog, taskLog.ID).Error; err != nil {
+				t.Fatalf("reload task log: %v", err)
+			}
+			if storedLog.Status == nil || *storedLog.Status != tt.wantLogStatus {
+				t.Fatalf("expected log status %d, got %#v", tt.wantLogStatus, storedLog.Status)
+			}
+			content, err := DecompressFromBase64(storedLog.Content)
+			if err != nil {
+				t.Fatalf("decompress task log: %v", err)
+			}
+			if !strings.Contains(content, "退出码 1") {
+				t.Fatalf("expected raw exit code in log, got %q", content)
+			}
+			if got := strings.Contains(content, "已按任务配置判定成功"); got != tt.wantNote {
+				t.Fatalf("expected compatibility note=%v, got log %q", tt.wantNote, content)
+			}
+		})
+	}
+}

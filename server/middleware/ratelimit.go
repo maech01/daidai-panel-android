@@ -1,1 +1,78 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJIm5ldC9odHRwIgoJInN5bmMiCgkidGltZSIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgp0eXBlIHZpc2l0b3Igc3RydWN0IHsKCWNvdW50ICAgIGludAoJbGFzdFNlZW4gdGltZS5UaW1lCn0KCnR5cGUgUmF0ZUxpbWl0ZXIgc3RydWN0IHsKCW11ICAgICAgIHN5bmMuTXV0ZXgKCXZpc2l0b3JzIG1hcFtzdHJpbmddKnZpc2l0b3IKCWxpbWl0ICAgIGludAoJd2luZG93ICAgdGltZS5EdXJhdGlvbgp9CgpmdW5jIE5ld1JhdGVMaW1pdGVyKGxpbWl0IGludCwgd2luZG93IHRpbWUuRHVyYXRpb24pICpSYXRlTGltaXRlciB7CglybCA6PSAmUmF0ZUxpbWl0ZXJ7CgkJdmlzaXRvcnM6IG1ha2UobWFwW3N0cmluZ10qdmlzaXRvciksCgkJbGltaXQ6ICAgIGxpbWl0LAoJCXdpbmRvdzogICB3aW5kb3csCgl9CglnbyBybC5jbGVhbnVwKCkKCXJldHVybiBybAp9CgpmdW5jIChybCAqUmF0ZUxpbWl0ZXIpIGNsZWFudXAoKSB7Cglmb3IgewoJCXRpbWUuU2xlZXAocmwud2luZG93KQoJCXJsLm11LkxvY2soKQoJCWZvciBpcCwgdiA6PSByYW5nZSBybC52aXNpdG9ycyB7CgkJCWlmIHRpbWUuU2luY2Uodi5sYXN0U2VlbikgPiBybC53aW5kb3cgewoJCQkJZGVsZXRlKHJsLnZpc2l0b3JzLCBpcCkKCQkJfQoJCX0KCQlybC5tdS5VbmxvY2soKQoJfQp9CgpmdW5jIChybCAqUmF0ZUxpbWl0ZXIpIEFsbG93KGtleSBzdHJpbmcpIGJvb2wgewoJcmwubXUuTG9jaygpCglkZWZlciBybC5tdS5VbmxvY2soKQoKCXYsIGV4aXN0cyA6PSBybC52aXNpdG9yc1trZXldCglpZiAhZXhpc3RzIHsKCQlybC52aXNpdG9yc1trZXldID0gJnZpc2l0b3J7Y291bnQ6IDEsIGxhc3RTZWVuOiB0aW1lLk5vdygpfQoJCXJldHVybiB0cnVlCgl9CgoJaWYgdGltZS5TaW5jZSh2Lmxhc3RTZWVuKSA+IHJsLndpbmRvdyB7CgkJdi5jb3VudCA9IDEKCQl2Lmxhc3RTZWVuID0gdGltZS5Ob3coKQoJCXJldHVybiB0cnVlCgl9CgoJdi5jb3VudCsrCgl2Lmxhc3RTZWVuID0gdGltZS5Ob3coKQoJcmV0dXJuIHYuY291bnQgPD0gcmwubGltaXQKfQoKZnVuYyBSYXRlTGltaXQobGltaXQgaW50LCB3aW5kb3cgdGltZS5EdXJhdGlvbikgZ2luLkhhbmRsZXJGdW5jIHsKCWxpbWl0ZXIgOj0gTmV3UmF0ZUxpbWl0ZXIobGltaXQsIHdpbmRvdykKCXJldHVybiBmdW5jKGMgKmdpbi5Db250ZXh0KSB7CgkJaXAgOj0gUmVzb2x2ZUNsaWVudElQKGMpCgkJaWYgIWxpbWl0ZXIuQWxsb3coaXApIHsKCQkJYy5KU09OKGh0dHAuU3RhdHVzVG9vTWFueVJlcXVlc3RzLCBnaW4uSHsiZXJyb3IiOiAi6K+35rGC6L+H5LqO6aKR57mB77yM6K+356iN5ZCO5YaN6K+VIn0pCgkJCWMuQWJvcnQoKQoJCQlyZXR1cm4KCQl9CgkJYy5OZXh0KCkKCX0KfQo=
+package middleware
+
+import (
+	"net/http"
+	"sync"
+	"time"
+
+	"github.com/gin-gonic/gin"
+)
+
+type visitor struct {
+	count    int
+	lastSeen time.Time
+}
+
+type RateLimiter struct {
+	mu       sync.Mutex
+	visitors map[string]*visitor
+	limit    int
+	window   time.Duration
+}
+
+func NewRateLimiter(limit int, window time.Duration) *RateLimiter {
+	rl := &RateLimiter{
+		visitors: make(map[string]*visitor),
+		limit:    limit,
+		window:   window,
+	}
+	go rl.cleanup()
+	return rl
+}
+
+func (rl *RateLimiter) cleanup() {
+	for {
+		time.Sleep(rl.window)
+		rl.mu.Lock()
+		for ip, v := range rl.visitors {
+			if time.Since(v.lastSeen) > rl.window {
+				delete(rl.visitors, ip)
+			}
+		}
+		rl.mu.Unlock()
+	}
+}
+
+func (rl *RateLimiter) Allow(key string) bool {
+	rl.mu.Lock()
+	defer rl.mu.Unlock()
+
+	v, exists := rl.visitors[key]
+	if !exists {
+		rl.visitors[key] = &visitor{count: 1, lastSeen: time.Now()}
+		return true
+	}
+
+	if time.Since(v.lastSeen) > rl.window {
+		v.count = 1
+		v.lastSeen = time.Now()
+		return true
+	}
+
+	v.count++
+	v.lastSeen = time.Now()
+	return v.count <= rl.limit
+}
+
+func RateLimit(limit int, window time.Duration) gin.HandlerFunc {
+	limiter := NewRateLimiter(limit, window)
+	return func(c *gin.Context) {
+		ip := ResolveClientIP(c)
+		if !limiter.Allow(ip) {
+			c.JSON(http.StatusTooManyRequests, gin.H{"error": "请求过于频繁，请稍后再试"})
+			c.Abort()
+			return
+		}
+		c.Next()
+	}
+}

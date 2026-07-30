@@ -1,1 +1,204 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL21pZGRsZXdhcmUiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIFRlc3RCdWlsZE5vdGlmeUhlbHBlckVudkNyZWF0ZXNNYW5hZ2VkSGVscGVycyh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJc2NyaXB0c0RpciA6PSBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIKCXdvcmtEaXIgOj0gZmlsZXBhdGguSm9pbihzY3JpcHRzRGlyLCAibmVzdGVkIikKCgllbnYsIGVyciA6PSBCdWlsZE5vdGlmeUhlbHBlckVudihzY3JpcHRzRGlyLCB3b3JrRGlyLCBjb25maWcuQy5TZXJ2ZXIuUG9ydCwgbmlsLCB0aW1lLkhvdXIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiYnVpbGQgbm90aWZ5IGhlbHBlciBlbnY6ICV2IiwgZXJyKQoJfQoKCWlmIGVudlsiREFJREFJX05PVElGWV9VUkwiXSA9PSAiIiB8fCBlbnZbIkRBSURBSV9OT1RJRllfVE9LRU4iXSA9PSAiIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5vdGlmeSB1cmwvdG9rZW4gaW4gZW52LCBnb3QgJSN2IiwgZW52KQoJfQoJaWYgXywgZXJyIDo9IG1pZGRsZXdhcmUuUGFyc2VUb2tlbihlbnZbIkRBSURBSV9OT1RJRllfVE9LRU4iXSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJwYXJzZSBoZWxwZXIgdG9rZW46ICV2IiwgZXJyKQoJfQoKCXBhdGhzIDo9IFtdc3RyaW5newoJCWZpbGVwYXRoLkpvaW4oc2NyaXB0c0Rpciwgbm90aWZ5UHlGaWxlbmFtZSksCgkJZmlsZXBhdGguSm9pbihzY3JpcHRzRGlyLCBzZW5kTm90aWZ5SlNGaWxlbmFtZSksCgl9Cglmb3IgXywgcGF0aCA6PSByYW5nZSBwYXRocyB7CgkJY29udGVudCwgZXJyIDo9IG9zLlJlYWRGaWxlKHBhdGgpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJyZWFkIGhlbHBlciAlczogJXYiLCBwYXRoLCBlcnIpCgkJfQoJCWlmICFzdHJpbmdzLkNvbnRhaW5zKHN0cmluZyhjb250ZW50KSwgIkRBSURBSV9QQU5FTF9NQU5BR0VEX05PVElGWV9IRUxQRVIiKSB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBoZWxwZXIgbWFya2VyIGluICVzIiwgcGF0aCkKCQl9Cgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5Kb2luKHdvcmtEaXIsIG5vdGlmeVB5RmlsZW5hbWUpKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5lc3RlZCBub3RpZnkucHkgdG8gc3RheSBhYnNlbnQsIGdvdCBlcnI9JXYiLCBlcnIpCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5Kb2luKHdvcmtEaXIsIHNlbmROb3RpZnlKU0ZpbGVuYW1lKSk7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBuZXN0ZWQgc2VuZE5vdGlmeS5qcyB0byBzdGF5IGFic2VudCwgZ290IGVycj0ldiIsIGVycikKCX0KCWlmIGdvdCA6PSBlbnZbIkRBSURBSV9TQ1JJUFRTX0RJUiJdOyBnb3QgIT0gc2NyaXB0c0RpciB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIERBSURBSV9TQ1JJUFRTX0RJUj0lcSwgZ290ICVxIiwgc2NyaXB0c0RpciwgZ290KQoJfQoKCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4ocm9vdCwgImRhdGEiKSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0ZXN0IGRhdGEgZGlyIHRvIGV4aXN0OiAldiIsIGVycikKCX0KfQoKZnVuYyBUZXN0QnVpbGROb3RpZnlIZWxwZXJFbnZVc2VzQWJzb2x1dGVIZWxwZXJQYXRocyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXNjcmlwdHNEaXIgOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsICJuZXN0ZWQiKQoJd29ya0RpciA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImpvYnMiKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKHNjcmlwdHNEaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIHNjcmlwdHMgZGlyOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Na2RpckFsbCh3b3JrRGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciB3b3JrIGRpcjogJXYiLCBlcnIpCgl9CgoJZW52LCBlcnIgOj0gQnVpbGROb3RpZnlIZWxwZXJFbnYoc2NyaXB0c0Rpciwgd29ya0RpciwgY29uZmlnLkMuU2VydmVyLlBvcnQsIG5pbCwgdGltZS5Ib3VyKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIG5vdGlmeSBoZWxwZXIgZW52OiAldiIsIGVycikKCX0KCglmb3IgXywga2V5IDo9IHJhbmdlIFtdc3RyaW5neyJEQUlEQUlfU0NSSVBUU19ESVIiLCAiREFJREFJX05PVElGWV9QWSIsICJEQUlEQUlfU0VORF9OT1RJRllfSlMifSB7CgkJaWYgIWZpbGVwYXRoLklzQWJzKGVudltrZXldKSB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCAlcyB0byBiZSBhYnNvbHV0ZSwgZ290ICVxIiwga2V5LCBlbnZba2V5XSkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdEVuc3VyZU1hbmFnZWRIZWxwZXJGaWxlUmV3cml0ZXNNYW5hZ2VkSlNGaWxlKHQgKnRlc3RpbmcuVCkgewoJcGF0aCA6PSBmaWxlcGF0aC5Kb2luKHQuVGVtcERpcigpLCBzZW5kTm90aWZ5SlNGaWxlbmFtZSkKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUocGF0aCwgW11ieXRlKCIvLyAiK21hbmFnZWROb3RpZnlIZWxwZXJUb2tlbisiXG5tb2R1bGUuZXhwb3J0cyA9IHt9XG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2VlZCBoZWxwZXIgZmlsZTogJXYiLCBlcnIpCgl9CgoJaWYgZXJyIDo9IGVuc3VyZU1hbmFnZWRIZWxwZXJGaWxlKHBhdGgsIG1hbmFnZWRTZW5kTm90aWZ5SlNDb250ZW50KyJcbiIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmV3cml0ZSBtYW5hZ2VkIGhlbHBlciBmaWxlOiAldiIsIGVycikKCX0KCgljb250ZW50LCBlcnIgOj0gb3MuUmVhZEZpbGUocGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWFkIHJld3JpdHRlbiBoZWxwZXIgZmlsZTogJXYiLCBlcnIpCgl9CglpZiBzdHJpbmcoY29udGVudCkgIT0gbWFuYWdlZFNlbmROb3RpZnlKU0NvbnRlbnQrIlxuIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG1hbmFnZWQgSlMgaGVscGVyIHRvIGJlIHJlZnJlc2hlZCIpCgl9Cn0KCmZ1bmMgVGVzdE1hbmFnZWRIZWxwZXJDb250ZW50SW5jbHVkZXNVc2FnZURvY3ModCAqdGVzdGluZy5UKSB7CglpZiAhc3RyaW5ncy5Db250YWlucyhtYW5hZ2VkTm90aWZ5UHlDb250ZW50LCAiVXNhZ2U6IikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBweXRob24gaGVscGVyIHVzYWdlIGRvY3MiKQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMobWFuYWdlZE5vdGlmeVB5Q29udGVudCwgImRlZiBzZW5kKHRpdGxlLCBjb250ZW50LCBpZ25vcmVfZGVmYXVsdF9jb25maWc9RmFsc2UsICoqa3dhcmdzKToiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHB5dGhvbiBoZWxwZXIgc2VuZCBzaWduYXR1cmUgZG9jcyIpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhtYW5hZ2VkU2VuZE5vdGlmeUpTQ29udGVudCwgIlFpbmdMb25nLXN0eWxlIG5vdGlmeSBlbnRyeSBwb2ludC4iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGpzIGhlbHBlciBlbnRyeSBwb2ludCBkb2NzIikKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKG1hbmFnZWRTZW5kTm90aWZ5SlNDb250ZW50LCAiQHBhcmFtIHtvYmplY3R9IHBhcmFtcyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQganMgaGVscGVyIEpTRG9jIHBhcmFtcyIpCgl9Cn0KCmZ1bmMgVGVzdEFwcGVuZFNjcmlwdEhlbHBlclBhdGhzS2VlcHNFeGlzdGluZ0VudHJpZXModCAqdGVzdGluZy5UKSB7CgllbnYgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIk5PREVfUEFUSCI6ICAgICIvdG1wL25vZGVfbW9kdWxlcyIsCgkJIlBZVEhPTlBBVEgiOiAgICIvdG1wL3NpdGUtcGFja2FnZXMiLAoJCSJOT0RFX09QVElPTlMiOiAiLS10cmFjZS13YXJuaW5ncyIsCgl9CgoJQXBwZW5kU2NyaXB0SGVscGVyUGF0aHMoZW52LCAiL3RtcC9zY3JpcHRzIikKCUFwcGVuZFNjcmlwdEhlbHBlclBhdGhzKGVudiwgIi90bXAvc2NyaXB0cyIpCgoJaWYgZ290IDo9IGVudlsiTk9ERV9QQVRIIl07ICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIi90bXAvbm9kZV9tb2R1bGVzIikgfHwgIXN0cmluZ3MuQ29udGFpbnMoZ290LCAiL3RtcC9zY3JpcHRzIikgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIE5PREVfUEFUSDogJXEiLCBnb3QpCgl9CglpZiBzdHJpbmdzLkNvdW50KGVudlsiTk9ERV9QQVRIIl0sICIvdG1wL3NjcmlwdHMiKSAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVkdXBsaWNhdGVkIE5PREVfUEFUSCwgZ290ICVxIiwgZW52WyJOT0RFX1BBVEgiXSkKCX0KCWlmIGdvdCA6PSBlbnZbIlBZVEhPTlBBVEgiXTsgIXN0cmluZ3MuQ29udGFpbnMoZ290LCAiL3RtcC9zaXRlLXBhY2thZ2VzIikgfHwgIXN0cmluZ3MuQ29udGFpbnMoZ290LCAiL3RtcC9zY3JpcHRzIikgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIFBZVEhPTlBBVEg6ICVxIiwgZ290KQoJfQoJaWYgZ290IDo9IGVudlsiTk9ERV9PUFRJT05TIl07ICFzdHJpbmdzLkNvbnRhaW5zKGdvdCwgIi0tdHJhY2Utd2FybmluZ3MiKSB8fCAhc3RyaW5ncy5Db250YWlucyhnb3QsICIvdG1wL3NjcmlwdHMvc2VuZE5vdGlmeS5qcyIpIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCBOT0RFX09QVElPTlM6ICVxIiwgZ290KQoJfQoJaWYgc3RyaW5ncy5Db3VudChlbnZbIk5PREVfT1BUSU9OUyJdLCAiL3RtcC9zY3JpcHRzL3NlbmROb3RpZnkuanMiKSAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVkdXBsaWNhdGVkIE5PREVfT1BUSU9OUywgZ290ICVxIiwgZW52WyJOT0RFX09QVElPTlMiXSkKCX0KfQoKZnVuYyBUZXN0Q2xlYW51cE1hbmFnZWRIZWxwZXJDb3BpZXNSZW1vdmVzT25seU1hbmFnZWROZXN0ZWRIZWxwZXJzKHQgKnRlc3RpbmcuVCkgewoJc2NyaXB0c0RpciA6PSBmaWxlcGF0aC5Kb2luKHQuVGVtcERpcigpLCAic2NyaXB0cyIpCgl3b3JrRGlyIDo9IGZpbGVwYXRoLkpvaW4oc2NyaXB0c0RpciwgIm5lc3RlZCIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwod29ya0RpciwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgd29yayBkaXI6ICV2IiwgZXJyKQoJfQoKCW1hbmFnZWROZXN0ZWQgOj0gZmlsZXBhdGguSm9pbih3b3JrRGlyLCBzZW5kTm90aWZ5SlNGaWxlbmFtZSkKCWN1c3RvbU5lc3RlZCA6PSBmaWxlcGF0aC5Kb2luKHdvcmtEaXIsIG5vdGlmeVB5RmlsZW5hbWUpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKG1hbmFnZWROZXN0ZWQsIFtdYnl0ZSgiLy8gIittYW5hZ2VkTm90aWZ5SGVscGVyVG9rZW4rIlxubW9kdWxlLmV4cG9ydHM9e31cbiIpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBtYW5hZ2VkIG5lc3RlZCBoZWxwZXI6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShjdXN0b21OZXN0ZWQsIFtdYnl0ZSgiIyBjdXN0b20gaGVscGVyXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgY3VzdG9tIG5lc3RlZCBoZWxwZXI6ICV2IiwgZXJyKQoJfQoKCWlmIGVyciA6PSBjbGVhbnVwTWFuYWdlZEhlbHBlckNvcGllcyhzY3JpcHRzRGlyLCB3b3JrRGlyKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNsZWFudXAgaGVscGVyIGNvcGllczogJXYiLCBlcnIpCgl9CgoJaWYgXywgZXJyIDo9IG9zLlN0YXQobWFuYWdlZE5lc3RlZCk7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtYW5hZ2VkIG5lc3RlZCBoZWxwZXIgdG8gYmUgcmVtb3ZlZCwgZXJyPSV2IiwgZXJyKQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoY3VzdG9tTmVzdGVkKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGN1c3RvbSBuZXN0ZWQgaGVscGVyIHRvIGJlIHByZXNlcnZlZCwgZXJyPSV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RDbGVhbnVwTWFuYWdlZEhlbHBlckNvcGllc1VuZGVyUm9vdFJlbW92ZXNNYW5hZ2VkQ29waWVzSW5OZXN0ZWREaXJzKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSBmaWxlcGF0aC5Kb2luKHQuVGVtcERpcigpLCAic2NyaXB0cyIpCglmaXJzdE5lc3RlZCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJhIikKCXNlY29uZE5lc3RlZCA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJhIiwgImIiKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKHNlY29uZE5lc3RlZCwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgbmVzdGVkIGRpcnM6ICV2IiwgZXJyKQoJfQoKCXJvb3RIZWxwZXIgOj0gZmlsZXBhdGguSm9pbihyb290LCBzZW5kTm90aWZ5SlNGaWxlbmFtZSkKCWZpcnN0SGVscGVyIDo9IGZpbGVwYXRoLkpvaW4oZmlyc3ROZXN0ZWQsIHNlbmROb3RpZnlKU0ZpbGVuYW1lKQoJc2Vjb25kSGVscGVyIDo9IGZpbGVwYXRoLkpvaW4oc2Vjb25kTmVzdGVkLCBub3RpZnlQeUZpbGVuYW1lKQoJZm9yIF8sIHBhdGggOj0gcmFuZ2UgW11zdHJpbmd7cm9vdEhlbHBlciwgZmlyc3RIZWxwZXIsIHNlY29uZEhlbHBlcn0gewoJCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUocGF0aCwgW11ieXRlKCIvLyAiK21hbmFnZWROb3RpZnlIZWxwZXJUb2tlbisiXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoIndyaXRlIGhlbHBlciAlczogJXYiLCBwYXRoLCBlcnIpCgkJfQoJfQoKCWlmIGVyciA6PSBDbGVhbnVwTWFuYWdlZEhlbHBlckNvcGllc1VuZGVyUm9vdChyb290KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNsZWFudXAgdW5kZXIgcm9vdDogJXYiLCBlcnIpCgl9CgoJaWYgXywgZXJyIDo9IG9zLlN0YXQocm9vdEhlbHBlcik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByb290IGhlbHBlciB0byBzdGF5LCBlcnI9JXYiLCBlcnIpCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdChmaXJzdEhlbHBlcik7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmaXJzdCBuZXN0ZWQgaGVscGVyIHJlbW92ZWQsIGVycj0ldiIsIGVycikKCX0KCWlmIF8sIGVyciA6PSBvcy5TdGF0KHNlY29uZEhlbHBlcik7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzZWNvbmQgbmVzdGVkIGhlbHBlciByZW1vdmVkLCBlcnI9JXYiLCBlcnIpCgl9Cn0K
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/middleware"
+	"daidai-panel/testutil"
+)
+
+func TestBuildNotifyHelperEnvCreatesManagedHelpers(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	scriptsDir := config.C.Data.ScriptsDir
+	workDir := filepath.Join(scriptsDir, "nested")
+
+	env, err := BuildNotifyHelperEnv(scriptsDir, workDir, config.C.Server.Port, nil, time.Hour)
+	if err != nil {
+		t.Fatalf("build notify helper env: %v", err)
+	}
+
+	if env["DAIDAI_NOTIFY_URL"] == "" || env["DAIDAI_NOTIFY_TOKEN"] == "" {
+		t.Fatalf("expected notify url/token in env, got %#v", env)
+	}
+	if _, err := middleware.ParseToken(env["DAIDAI_NOTIFY_TOKEN"]); err != nil {
+		t.Fatalf("parse helper token: %v", err)
+	}
+
+	paths := []string{
+		filepath.Join(scriptsDir, notifyPyFilename),
+		filepath.Join(scriptsDir, sendNotifyJSFilename),
+	}
+	for _, path := range paths {
+		content, err := os.ReadFile(path)
+		if err != nil {
+			t.Fatalf("read helper %s: %v", path, err)
+		}
+		if !strings.Contains(string(content), "DAIDAI_PANEL_MANAGED_NOTIFY_HELPER") {
+			t.Fatalf("expected helper marker in %s", path)
+		}
+	}
+	if _, err := os.Stat(filepath.Join(workDir, notifyPyFilename)); !os.IsNotExist(err) {
+		t.Fatalf("expected nested notify.py to stay absent, got err=%v", err)
+	}
+	if _, err := os.Stat(filepath.Join(workDir, sendNotifyJSFilename)); !os.IsNotExist(err) {
+		t.Fatalf("expected nested sendNotify.js to stay absent, got err=%v", err)
+	}
+	if got := env["DAIDAI_SCRIPTS_DIR"]; got != scriptsDir {
+		t.Fatalf("expected DAIDAI_SCRIPTS_DIR=%q, got %q", scriptsDir, got)
+	}
+
+	if _, err := os.Stat(filepath.Join(root, "data")); err != nil {
+		t.Fatalf("expected test data dir to exist: %v", err)
+	}
+}
+
+func TestBuildNotifyHelperEnvUsesAbsoluteHelperPaths(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	scriptsDir := filepath.Join(config.C.Data.ScriptsDir, "nested")
+	workDir := filepath.Join(config.C.Data.ScriptsDir, "jobs")
+	if err := os.MkdirAll(scriptsDir, 0o755); err != nil {
+		t.Fatalf("mkdir scripts dir: %v", err)
+	}
+	if err := os.MkdirAll(workDir, 0o755); err != nil {
+		t.Fatalf("mkdir work dir: %v", err)
+	}
+
+	env, err := BuildNotifyHelperEnv(scriptsDir, workDir, config.C.Server.Port, nil, time.Hour)
+	if err != nil {
+		t.Fatalf("build notify helper env: %v", err)
+	}
+
+	for _, key := range []string{"DAIDAI_SCRIPTS_DIR", "DAIDAI_NOTIFY_PY", "DAIDAI_SEND_NOTIFY_JS"} {
+		if !filepath.IsAbs(env[key]) {
+			t.Fatalf("expected %s to be absolute, got %q", key, env[key])
+		}
+	}
+}
+
+func TestEnsureManagedHelperFileRewritesManagedJSFile(t *testing.T) {
+	path := filepath.Join(t.TempDir(), sendNotifyJSFilename)
+	if err := os.WriteFile(path, []byte("// "+managedNotifyHelperToken+"\nmodule.exports = {}\n"), 0o644); err != nil {
+		t.Fatalf("seed helper file: %v", err)
+	}
+
+	if err := ensureManagedHelperFile(path, managedSendNotifyJSContent+"\n"); err != nil {
+		t.Fatalf("rewrite managed helper file: %v", err)
+	}
+
+	content, err := os.ReadFile(path)
+	if err != nil {
+		t.Fatalf("read rewritten helper file: %v", err)
+	}
+	if string(content) != managedSendNotifyJSContent+"\n" {
+		t.Fatalf("expected managed JS helper to be refreshed")
+	}
+}
+
+func TestManagedHelperContentIncludesUsageDocs(t *testing.T) {
+	if !strings.Contains(managedNotifyPyContent, "Usage:") {
+		t.Fatalf("expected python helper usage docs")
+	}
+	if !strings.Contains(managedNotifyPyContent, "def send(title, content, ignore_default_config=False, **kwargs):") {
+		t.Fatalf("expected python helper send signature docs")
+	}
+	if !strings.Contains(managedSendNotifyJSContent, "QingLong-style notify entry point.") {
+		t.Fatalf("expected js helper entry point docs")
+	}
+	if !strings.Contains(managedSendNotifyJSContent, "@param {object} params") {
+		t.Fatalf("expected js helper JSDoc params")
+	}
+}
+
+func TestAppendScriptHelperPathsKeepsExistingEntries(t *testing.T) {
+	env := map[string]string{
+		"NODE_PATH":    "/tmp/node_modules",
+		"PYTHONPATH":   "/tmp/site-packages",
+		"NODE_OPTIONS": "--trace-warnings",
+	}
+
+	AppendScriptHelperPaths(env, "/tmp/scripts")
+	AppendScriptHelperPaths(env, "/tmp/scripts")
+
+	if got := env["NODE_PATH"]; !strings.Contains(got, "/tmp/node_modules") || !strings.Contains(got, "/tmp/scripts") {
+		t.Fatalf("unexpected NODE_PATH: %q", got)
+	}
+	if strings.Count(env["NODE_PATH"], "/tmp/scripts") != 1 {
+		t.Fatalf("expected deduplicated NODE_PATH, got %q", env["NODE_PATH"])
+	}
+	if got := env["PYTHONPATH"]; !strings.Contains(got, "/tmp/site-packages") || !strings.Contains(got, "/tmp/scripts") {
+		t.Fatalf("unexpected PYTHONPATH: %q", got)
+	}
+	if got := env["NODE_OPTIONS"]; !strings.Contains(got, "--trace-warnings") || !strings.Contains(got, "/tmp/scripts/sendNotify.js") {
+		t.Fatalf("unexpected NODE_OPTIONS: %q", got)
+	}
+	if strings.Count(env["NODE_OPTIONS"], "/tmp/scripts/sendNotify.js") != 1 {
+		t.Fatalf("expected deduplicated NODE_OPTIONS, got %q", env["NODE_OPTIONS"])
+	}
+}
+
+func TestCleanupManagedHelperCopiesRemovesOnlyManagedNestedHelpers(t *testing.T) {
+	scriptsDir := filepath.Join(t.TempDir(), "scripts")
+	workDir := filepath.Join(scriptsDir, "nested")
+	if err := os.MkdirAll(workDir, 0o755); err != nil {
+		t.Fatalf("mkdir work dir: %v", err)
+	}
+
+	managedNested := filepath.Join(workDir, sendNotifyJSFilename)
+	customNested := filepath.Join(workDir, notifyPyFilename)
+	if err := os.WriteFile(managedNested, []byte("// "+managedNotifyHelperToken+"\nmodule.exports={}\n"), 0o644); err != nil {
+		t.Fatalf("write managed nested helper: %v", err)
+	}
+	if err := os.WriteFile(customNested, []byte("# custom helper\n"), 0o644); err != nil {
+		t.Fatalf("write custom nested helper: %v", err)
+	}
+
+	if err := cleanupManagedHelperCopies(scriptsDir, workDir); err != nil {
+		t.Fatalf("cleanup helper copies: %v", err)
+	}
+
+	if _, err := os.Stat(managedNested); !os.IsNotExist(err) {
+		t.Fatalf("expected managed nested helper to be removed, err=%v", err)
+	}
+	if _, err := os.Stat(customNested); err != nil {
+		t.Fatalf("expected custom nested helper to be preserved, err=%v", err)
+	}
+}
+
+func TestCleanupManagedHelperCopiesUnderRootRemovesManagedCopiesInNestedDirs(t *testing.T) {
+	root := filepath.Join(t.TempDir(), "scripts")
+	firstNested := filepath.Join(root, "a")
+	secondNested := filepath.Join(root, "a", "b")
+	if err := os.MkdirAll(secondNested, 0o755); err != nil {
+		t.Fatalf("mkdir nested dirs: %v", err)
+	}
+
+	rootHelper := filepath.Join(root, sendNotifyJSFilename)
+	firstHelper := filepath.Join(firstNested, sendNotifyJSFilename)
+	secondHelper := filepath.Join(secondNested, notifyPyFilename)
+	for _, path := range []string{rootHelper, firstHelper, secondHelper} {
+		if err := os.WriteFile(path, []byte("// "+managedNotifyHelperToken+"\n"), 0o644); err != nil {
+			t.Fatalf("write helper %s: %v", path, err)
+		}
+	}
+
+	if err := CleanupManagedHelperCopiesUnderRoot(root); err != nil {
+		t.Fatalf("cleanup under root: %v", err)
+	}
+
+	if _, err := os.Stat(rootHelper); err != nil {
+		t.Fatalf("expected root helper to stay, err=%v", err)
+	}
+	if _, err := os.Stat(firstHelper); !os.IsNotExist(err) {
+		t.Fatalf("expected first nested helper removed, err=%v", err)
+	}
+	if _, err := os.Stat(secondHelper); !os.IsNotExist(err) {
+		t.Fatalf("expected second nested helper removed, err=%v", err)
+	}
+}

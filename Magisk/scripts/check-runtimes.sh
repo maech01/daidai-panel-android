@@ -1,1 +1,106 @@
-IyEvc3lzdGVtL2Jpbi9zaAojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIOiEmuacrOi/kOihjOaXtuiHquajgOW3peWFtwojCiMg55So5rOVOgojICAgc3UgLWMgInNoIC9kYXRhL2FkYi9tb2R1bGVzL2RhaWRhaS1wYW5lbC9zY3JpcHRzL2NoZWNrLXJ1bnRpbWVzLnNoIgojCiMg55So6YCUOgojICAg5qOA5p+l5ZGG5ZGG6Z2i5p2/5L6d6LWW55qE5bi46KeB6ISa5pys6L+Q6KGM5pe25piv5ZCm5Y+v55So77yM5bm257uZ5Ye65bu66K6u44CCCiMgICDosIPnlKjmlrnlvI/lj6/ku6XmmK8gYWRiIHNoZWxs77yM5Lmf5Y+v5Lul5piv5qih5Z2X5Y2h54mH5LiK55qE44CM6L+Q6KGM44CN5oyJ6ZKu44CCCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCgpQQU5FTF9ESVI9L2RhdGEvYWRiL2RhaWRhaS1wYW5lbAoKIyDnu4Too4XkuI4gc2VydmljZS5zaCDkuIDoh7TnmoQgUEFUSO+8jOehruS/neiHquajgOS4juWunumZhei/kOihjOaXtuS4gOiHtApNT0RESVI9Ii9kYXRhL2FkYi9tb2R1bGVzL2RhaWRhaS1wYW5lbCIKVEVSTVVYX1BBVEhTPSIiCmZvciBwIGluIFwKICAvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvdXNyL2JpbiBcCiAgL2RhdGEvZGF0YS9jb20udGVybXV4L2ZpbGVzL3Vzci9sb2NhbC9iaW4gXAogIC9kYXRhL3VzZXIvMC9jb20udGVybXV4L2ZpbGVzL3Vzci9iaW47IGRvCiAgWyAtZCAiJHAiIF0gJiYgVEVSTVVYX1BBVEhTPSIke1RFUk1VWF9QQVRIUzorJFRFUk1VWF9QQVRIUzp9JHAiCmRvbmUKUEFORUxfUlVOVElNRV9QQVRIUz0iIgpmb3IgcCBpbiBcCiAgIiRQQU5FTF9ESVIvYmluL3B5dGhvbi9iaW4iIFwKICAiJFBBTkVMX0RJUi9iaW4vbm9kZS9iaW4iIFwKICAiJFBBTkVMX0RJUi9iaW4iOyBkbwogIFsgLWQgIiRwIiBdICYmIFBBTkVMX1JVTlRJTUVfUEFUSFM9IiR7UEFORUxfUlVOVElNRV9QQVRIUzorJFBBTkVMX1JVTlRJTUVfUEFUSFM6fSRwIgpkb25lCmV4cG9ydCBQQVRIPSIke1BBTkVMX1JVTlRJTUVfUEFUSFM6KyRQQU5FTF9SVU5USU1FX1BBVEhTOn0kTU9ERElSJHtURVJNVVhfUEFUSFM6KzokVEVSTVVYX1BBVEhTfTovc2Jpbjovc3lzdGVtL2Jpbjovc3lzdGVtL3hiaW46L3ZlbmRvci9iaW46JFBBVEgiCgpzYXkoKSB7IGVjaG8gIiQxIjsgfQoKc2F5ICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKc2F5ICIg5ZGG5ZGG6Z2i5p2/IC0g6ISa5pys6L+Q6KGM5pe26Ieq5qOAIgpzYXkgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IgpzYXkgIlBBVEggPSAkUEFUSCIKc2F5ICIiCgpjaGVjaygpIHsKICBsb2NhbCBuYW1lPSIkMSI7IHNoaWZ0CiAgbG9jYWwgYmluCiAgYmluPSQoY29tbWFuZCAtdiAiJG5hbWUiIDI+L2Rldi9udWxsKQogIGlmIFsgLW4gIiRiaW4iIF07IHRoZW4KICAgIGxvY2FsIHZlcgogICAgdmVyPSQoIiRAIiAyPiYxIHwgaGVhZCAtbjEpCiAgICBzYXkgIuKchSAkbmFtZSAgLT4gJGJpbiIKICAgIFsgLW4gIiR2ZXIiIF0gJiYgc2F5ICIgICAgICR2ZXIiCiAgZWxzZQogICAgc2F5ICLinYwgJG5hbWUgICjmnKrmo4DmtYvliLApIgogIGZpCn0KCnNheSAiLS0g5Z+656GAIFNoZWxsIC0tIgpjaGVjayBzaCAgICBzaCAtYyAnZWNobyAkMCcKY2hlY2sgYmFzaCAgYmFzaCAtLXZlcnNpb24KY2hlY2sgYnVzeWJveCBidXN5Ym94IC0taGVscApzYXkgIiIKCnNheSAiLS0g6ISa5pys6Kej6YeK5ZmoIC0tIgpjaGVjayBweXRob24zIHB5dGhvbjMgLS12ZXJzaW9uCmNoZWNrIHB5dGhvbiAgcHl0aG9uIC0tdmVyc2lvbgpjaGVjayBub2RlICAgIG5vZGUgLS12ZXJzaW9uCmNoZWNrIG5wbSAgICAgbnBtIC0tdmVyc2lvbgpjaGVjayBwbnBtICAgIHBucG0gLS12ZXJzaW9uCmNoZWNrIHlhcm4gICAgeWFybiAtLXZlcnNpb24KY2hlY2sgInRzLW5vZGUiIHRzLW5vZGUgLS12ZXJzaW9uCmNoZWNrIGdvICAgICAgZ28gdmVyc2lvbgpzYXkgIiIKCnNheSAiLS0g5bel5YW36ZO+IC0tIgpjaGVjayBnaXQgICBnaXQgLS12ZXJzaW9uCmNoZWNrIGN1cmwgIGN1cmwgLS12ZXJzaW9uCmNoZWNrIHdnZXQgIHdnZXQgLS12ZXJzaW9uCmNoZWNrIHVuemlwIHVuemlwIC12CmNoZWNrIHRhciAgIHRhciAtLXZlcnNpb24Kc2F5ICIiCgpURVJNVVhfT0s9MApmb3IgcCBpbiAvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvdXNyL2JpbiAvZGF0YS91c2VyLzAvY29tLnRlcm11eC9maWxlcy91c3IvYmluOyBkbwogIFsgLWQgIiRwIiBdICYmIFRFUk1VWF9PSz0xCmRvbmUKCnNheSAiPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0iCmlmIFsgIiRURVJNVVhfT0siID0gIjEiIF07IHRoZW4KICBzYXkgIiDmo4DmtYvliLAgVGVybXV477yM5YW2IGJpbiDlt7LliqDlhaXpnaLmnb8gUEFUSCIKICBzYXkgIiAg5aaC57y65bCR5p+Q5Liq6Kej6YeK5Zmo77yM5ZyoIFRlcm11eCDlhoXmiafooYw6IgogIHNheSAiICAgIHBrZyB1cGRhdGUgJiYgcGtnIGluc3RhbGwgcHl0aG9uIG5vZGVqcyBnaXQiCiAgc2F5ICIgIOWGjemHjeWQr+aJi+acuuaIlumHjeWQr+mdouadv+WNs+WPr+OAgiIKZWxzZQogIHNheSAiIOacquajgOa1i+WIsCBUZXJtdXjjgIJBbmRyb2lkIOm7mOiupOS4jeW4piBQeXRob24gLyBOb2Rl77yMIgogIHNheSAiIOW7uuiuruS7u+mAieS7peS4i+S4gOenjeaWueahiO+8jOiuqemdouadv+iDvei3keiEmuacrO+8miIKICBzYXkgIiIKICBzYXkgIiAg5pa55qGIIEEgKOaOqOiNkCk6IOWuieijhSBUZXJtdXgiCiAgc2F5ICIgICAgMS4g5LuOIEYtRHJvaWQg5a6J6KOFIFRlcm11eCIKICBzYXkgIiAgICAyLiDmiZPlvIAgVGVybXV477yM5omn6KGMOiIKICBzYXkgIiAgICAgICAgIHBrZyB1cGRhdGUiCiAgc2F5ICIgICAgICAgICBwa2cgaW5zdGFsbCBweXRob24gbm9kZWpzIGdpdCBjdXJsIgogIHNheSAiICAgIDMuIOmHjeWQr+aJi+acuuaIlumdouadvyIKICBzYXkgIiIKICBzYXkgIiAg5pa55qGIIEI6IOaKiumdmeaAgee8luivkeeahCBweXRob24vbm9kZSDmlL7liLAiCiAgc2F5ICIgICAgL2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW4vIgogIHNheSAiICAgIOWug+S8muWcqOmdouadvyBQQVRIIOacgOWJjemdouiiq+WPkeeOsCIKZmkKc2F5ICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIK
+#!/system/bin/sh
+##########################################################################
+# 脚本运行时自检工具
+#
+# 用法:
+#   su -c "sh /data/adb/modules/daidai-panel/scripts/check-runtimes.sh"
+#
+# 用途:
+#   检查呆呆面板依赖的常见脚本运行时是否可用，并给出建议。
+#   调用方式可以是 adb shell，也可以是模块卡片上的「运行」按钮。
+##########################################################################
+
+PANEL_DIR=/data/adb/daidai-panel
+
+# 组装与 service.sh 一致的 PATH，确保自检与实际运行时一致
+MODDIR="/data/adb/modules/daidai-panel"
+TERMUX_PATHS=""
+for p in \
+  /data/data/com.termux/files/usr/bin \
+  /data/data/com.termux/files/usr/local/bin \
+  /data/user/0/com.termux/files/usr/bin; do
+  [ -d "$p" ] && TERMUX_PATHS="${TERMUX_PATHS:+$TERMUX_PATHS:}$p"
+done
+PANEL_RUNTIME_PATHS=""
+for p in \
+  "$PANEL_DIR/bin/python/bin" \
+  "$PANEL_DIR/bin/node/bin" \
+  "$PANEL_DIR/bin"; do
+  [ -d "$p" ] && PANEL_RUNTIME_PATHS="${PANEL_RUNTIME_PATHS:+$PANEL_RUNTIME_PATHS:}$p"
+done
+export PATH="${PANEL_RUNTIME_PATHS:+$PANEL_RUNTIME_PATHS:}$MODDIR${TERMUX_PATHS:+:$TERMUX_PATHS}:/sbin:/system/bin:/system/xbin:/vendor/bin:$PATH"
+
+say() { echo "$1"; }
+
+say "============================================"
+say " 呆呆面板 - 脚本运行时自检"
+say "============================================"
+say "PATH = $PATH"
+say ""
+
+check() {
+  local name="$1"; shift
+  local bin
+  bin=$(command -v "$name" 2>/dev/null)
+  if [ -n "$bin" ]; then
+    local ver
+    ver=$("$@" 2>&1 | head -n1)
+    say "✅ $name  -> $bin"
+    [ -n "$ver" ] && say "     $ver"
+  else
+    say "❌ $name  (未检测到)"
+  fi
+}
+
+say "-- 基础 Shell --"
+check sh    sh -c 'echo $0'
+check bash  bash --version
+check busybox busybox --help
+say ""
+
+say "-- 脚本解释器 --"
+check python3 python3 --version
+check python  python --version
+check node    node --version
+check npm     npm --version
+check pnpm    pnpm --version
+check yarn    yarn --version
+check "ts-node" ts-node --version
+check go      go version
+say ""
+
+say "-- 工具链 --"
+check git   git --version
+check curl  curl --version
+check wget  wget --version
+check unzip unzip -v
+check tar   tar --version
+say ""
+
+TERMUX_OK=0
+for p in /data/data/com.termux/files/usr/bin /data/user/0/com.termux/files/usr/bin; do
+  [ -d "$p" ] && TERMUX_OK=1
+done
+
+say "============================================"
+if [ "$TERMUX_OK" = "1" ]; then
+  say " 检测到 Termux，其 bin 已加入面板 PATH"
+  say "  如缺少某个解释器，在 Termux 内执行:"
+  say "    pkg update && pkg install python nodejs git"
+  say "  再重启手机或重启面板即可。"
+else
+  say " 未检测到 Termux。Android 默认不带 Python / Node，"
+  say " 建议任选以下一种方案，让面板能跑脚本："
+  say ""
+  say "  方案 A (推荐): 安装 Termux"
+  say "    1. 从 F-Droid 安装 Termux"
+  say "    2. 打开 Termux，执行:"
+  say "         pkg update"
+  say "         pkg install python nodejs git curl"
+  say "    3. 重启手机或面板"
+  say ""
+  say "  方案 B: 把静态编译的 python/node 放到"
+  say "    /data/adb/daidai-panel/bin/"
+  say "    它会在面板 PATH 最前面被发现"
+fi
+say "============================================"

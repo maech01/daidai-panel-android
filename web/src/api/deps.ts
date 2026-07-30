@@ -1,1 +1,81 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGludGVyZmFjZSBNaXJyb3JzUmVzcG9uc2UgewogIHBpcF9taXJyb3I6IHN0cmluZwogIG5wbV9taXJyb3I6IHN0cmluZwogIGxpbnV4X21pcnJvcjogc3RyaW5nCiAgbGludXhfcGFja2FnZV9tYW5hZ2VyOiBzdHJpbmcKICBsaW51eF9kaXN0cmlidXRpb246IHN0cmluZwogIGxpbnV4X21pcnJvcl9zdXBwb3J0ZWQ6IGJvb2xlYW4KICBsaW51eF9taXJyb3JfbGFiZWw6IHN0cmluZwogIGxpbnV4X21pcnJvcl9tZXNzYWdlOiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBQeXRob25SdW50aW1lSW5mbyB7CiAgdmVyc2lvbjogc3RyaW5nCiAgbGFiZWw6IHN0cmluZwogIGRlZmF1bHQ6IGJvb2xlYW4KICB2ZW52X3BhdGg6IHN0cmluZwogIHZlbnZfaGVhbHRoeTogYm9vbGVhbgogIHB5dGhvbl9wYXRoOiBzdHJpbmcKICBwaXBfcGF0aDogc3RyaW5nCiAgYXZhaWxhYmxlOiBib29sZWFuCiAgbWVzc2FnZTogc3RyaW5nCn0KCmV4cG9ydCBjb25zdCBkZXBzQXBpID0gewogIGxpc3QodHlwZTogc3RyaW5nLCBweXRob25WZXJzaW9uPzogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy9kZXBzJywgeyBwYXJhbXM6IHsgdHlwZSwgcHl0aG9uX3ZlcnNpb246IHB5dGhvblZlcnNpb24gfSB9KSBhcyBQcm9taXNlPHsgZGF0YTogYW55W107IHRvdGFsOiBudW1iZXIgfT4KICB9LAoKICBjcmVhdGUodHlwZTogc3RyaW5nLCBuYW1lczogc3RyaW5nW10sIHB5dGhvblZlcnNpb24/OiBzdHJpbmcpIHsKICAgIHJldHVybiByZXF1ZXN0LnBvc3QoJy9kZXBzJywgeyB0eXBlLCBuYW1lcywgcHl0aG9uX3ZlcnNpb246IHB5dGhvblZlcnNpb24gfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55W10gfT4KICB9LAoKICBkZWxldGUoaWQ6IG51bWJlciwgZm9yY2U/OiBib29sZWFuKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoYC9kZXBzLyR7aWR9YCwgeyBwYXJhbXM6IGZvcmNlID8geyBmb3JjZTogdHJ1ZSB9IDogdW5kZWZpbmVkIH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBiYXRjaERlbGV0ZShpZHM6IG51bWJlcltdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvZGVwcy9iYXRjaC1kZWxldGUnLCB7IGlkcyB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgYmF0Y2hSZWluc3RhbGwoaWRzOiBudW1iZXJbXSkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL2RlcHMvYmF0Y2gtcmVpbnN0YWxsJywgeyBpZHMgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGdldFN0YXR1cyhpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoYC9kZXBzLyR7aWR9L3N0YXR1c2ApIGFzIFByb21pc2U8eyBkYXRhOiBhbnkgfT4KICB9LAoKICByZWluc3RhbGwoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KGAvZGVwcy8ke2lkfS9yZWluc3RhbGxgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgZXhwb3J0TGlzdCh0eXBlOiBzdHJpbmcsIHB5dGhvblZlcnNpb24/OiBzdHJpbmcpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL2RlcHMvZXhwb3J0JywgeyBwYXJhbXM6IHsgdHlwZSwgcHl0aG9uX3ZlcnNpb246IHB5dGhvblZlcnNpb24gfSwgcmVzcG9uc2VUeXBlOiAnYmxvYicgfSkgYXMgUHJvbWlzZTxCbG9iPgogIH0sCgogIGNhbmNlbChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC9kZXBzLyR7aWR9L2NhbmNlbGApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBwaXBMaXN0OiAocHl0aG9uVmVyc2lvbj86IHN0cmluZykgPT4gcmVxdWVzdC5nZXQoJy9kZXBzL3BpcCcsIHsgcGFyYW1zOiB7IHB5dGhvbl92ZXJzaW9uOiBweXRob25WZXJzaW9uIH0gfSksCiAgbnBtTGlzdDogKCkgPT4gcmVxdWVzdC5nZXQoJy9kZXBzL25wbScpLAoKICBweXRob25SdW50aW1lcygpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL2RlcHMvcHl0aG9uLXJ1bnRpbWVzJykgYXMgUHJvbWlzZTx7IGRhdGE6IFB5dGhvblJ1bnRpbWVJbmZvW107IGRlZmF1bHRfdmVyc2lvbjogc3RyaW5nIH0+CiAgfSwKCiAgc2V0RGVmYXVsdFB5dGhvblJ1bnRpbWUodmVyc2lvbjogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy9kZXBzL3B5dGhvbi1ydW50aW1lLWRlZmF1bHQnLCB7IHZlcnNpb24gfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGVmYXVsdF92ZXJzaW9uOiBzdHJpbmcgfT4KICB9LAoKICBnZXRNaXJyb3JzKCkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvZGVwcy9taXJyb3JzJykgYXMgUHJvbWlzZTxNaXJyb3JzUmVzcG9uc2U+CiAgfSwKCiAgc2V0TWlycm9ycyhkYXRhOiB7IHBpcF9taXJyb3I/OiBzdHJpbmc7IG5wbV9taXJyb3I/OiBzdHJpbmc7IGxpbnV4X21pcnJvcj86IHN0cmluZyB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy9kZXBzL21pcnJvcnMnLCBkYXRhKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKfQo=
+import request from './request'
+
+export interface MirrorsResponse {
+  pip_mirror: string
+  npm_mirror: string
+  linux_mirror: string
+  linux_package_manager: string
+  linux_distribution: string
+  linux_mirror_supported: boolean
+  linux_mirror_label: string
+  linux_mirror_message: string
+}
+
+export interface PythonRuntimeInfo {
+  version: string
+  label: string
+  default: boolean
+  venv_path: string
+  venv_healthy: boolean
+  python_path: string
+  pip_path: string
+  available: boolean
+  message: string
+}
+
+export const depsApi = {
+  list(type: string, pythonVersion?: string) {
+    return request.get('/deps', { params: { type, python_version: pythonVersion } }) as Promise<{ data: any[]; total: number }>
+  },
+
+  create(type: string, names: string[], pythonVersion?: string) {
+    return request.post('/deps', { type, names, python_version: pythonVersion }) as Promise<{ message: string; data: any[] }>
+  },
+
+  delete(id: number, force?: boolean) {
+    return request.delete(`/deps/${id}`, { params: force ? { force: true } : undefined }) as Promise<{ message: string }>
+  },
+
+  batchDelete(ids: number[]) {
+    return request.post('/deps/batch-delete', { ids }) as Promise<{ message: string }>
+  },
+
+  batchReinstall(ids: number[]) {
+    return request.post('/deps/batch-reinstall', { ids }) as Promise<{ message: string }>
+  },
+
+  getStatus(id: number) {
+    return request.get(`/deps/${id}/status`) as Promise<{ data: any }>
+  },
+
+  reinstall(id: number) {
+    return request.put(`/deps/${id}/reinstall`) as Promise<{ message: string }>
+  },
+
+  exportList(type: string, pythonVersion?: string) {
+    return request.get('/deps/export', { params: { type, python_version: pythonVersion }, responseType: 'blob' }) as Promise<Blob>
+  },
+
+  cancel(id: number) {
+    return request.put(`/deps/${id}/cancel`) as Promise<{ message: string }>
+  },
+
+  pipList: (pythonVersion?: string) => request.get('/deps/pip', { params: { python_version: pythonVersion } }),
+  npmList: () => request.get('/deps/npm'),
+
+  pythonRuntimes() {
+    return request.get('/deps/python-runtimes') as Promise<{ data: PythonRuntimeInfo[]; default_version: string }>
+  },
+
+  setDefaultPythonRuntime(version: string) {
+    return request.put('/deps/python-runtime-default', { version }) as Promise<{ message: string; default_version: string }>
+  },
+
+  getMirrors() {
+    return request.get('/deps/mirrors') as Promise<MirrorsResponse>
+  },
+
+  setMirrors(data: { pip_mirror?: string; npm_mirror?: string; linux_mirror?: string }) {
+    return request.put('/deps/mirrors', data) as Promise<{ message: string }>
+  },
+}

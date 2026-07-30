@@ -1,1 +1,144 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJuZXQvaHR0cCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvcGtnL3Jlc3BvbnNlIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBMYXRlc3RMb2coYyAqZ2luLkNvbnRleHQpIHsKCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludChjLlBhcmFtKCJpZCIpLCAxMCwgMzIpCgoJdmFyIHRhc2tMb2cgbW9kZWwuVGFza0xvZwoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJ0YXNrX2lkID0gPyIsIHRhc2tJRCkuT3JkZXIoInN0YXJ0ZWRfYXQgREVTQyIpLkZpcnN0KCZ0YXNrTG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuaaguaXoOaXpeW/lyIpCgkJcmV0dXJuCgl9CgoJcmVzdWx0IDo9IHRhc2tMb2cuVG9EaWN0KCkKCWlmIHRhc2tMb2cuQ29udGVudCAhPSAiIiB7CgkJZGVjb21wcmVzc2VkLCBlcnIgOj0gc2VydmljZS5EZWNvbXByZXNzRnJvbUJhc2U2NCh0YXNrTG9nLkNvbnRlbnQpCgkJaWYgZXJyID09IG5pbCB7CgkJCXJlc3VsdFsiY29udGVudCJdID0gZGVjb21wcmVzc2VkCgkJfQoJfSBlbHNlIGlmIHRhc2tMb2cuTG9nUGF0aCAhPSBuaWwgewoJCWNvbnRlbnQsIGVyciA6PSBzZXJ2aWNlLlJlYWRMb2dGaWxlKCp0YXNrTG9nLkxvZ1BhdGgsIGNvbmZpZy5DLkRhdGEuTG9nRGlyKQoJCWlmIGVyciA9PSBuaWwgewoJCQlyZXN1bHRbImNvbnRlbnQiXSA9IGNvbnRlbnQKCQl9Cgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCByZXN1bHQpCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBMaXZlTG9ncyhjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCgl2YXIgdGFzayBtb2RlbC5UYXNrCglkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgdGFza0lEKQoKCWRvbmUgOj0gdGFzay5TdGF0dXMgIT0gbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcKCgl2YXIgbGluZXMgW11zdHJpbmcKCW1hbmFnZXIgOj0gc2VydmljZS5HZXRUaW55TG9nTWFuYWdlcigpCgl0aW55TG9nIDo9IG1hbmFnZXIuRmluZEJ5VGFza0lEKHVpbnQodGFza0lEKSkKCWlmIHRpbnlMb2cgIT0gbmlsIHsKCQlkYXRhLCBfIDo9IHRpbnlMb2cuUmVhZExhc3RMaW5lcygyMDApCgkJaWYgbGVuKGRhdGEpID4gMCB7CgkJCWxpbmVzID0gc3RyaW5ncy5TcGxpdChzdHJpbmcoZGF0YSksICJcbiIpCgkJfQoJfQoKCWlmIGxpbmVzID09IG5pbCB7CgkJbGluZXMgPSBbXXN0cmluZ3t9Cgl9CgoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibG9ncyI6ICAgbGluZXMsCgkJImRvbmUiOiAgIGRvbmUsCgkJInN0YXR1cyI6IHRhc2suU3RhdHVzLAoJfSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIExvZ0ZpbGVzKGMgKmdpbi5Db250ZXh0KSB7Cgl0YXNrSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJZmlsZXMgOj0gc2VydmljZS5MaXN0TG9nRmlsZXModWludCh0YXNrSUQpLCBjb25maWcuQy5EYXRhLkxvZ0RpcikKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZmlsZXMpCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBMb2dGaWxlQ29udGVudChjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCWZpbGVuYW1lIDo9IGMuUGFyYW0oImZpbGVuYW1lIikKCWZpbGVuYW1lT3JQYXRoIDo9IGMuRGVmYXVsdFF1ZXJ5KCJwYXRoIiwgZmlsZW5hbWUpCgoJbG9nUGF0aCwgZXJyIDo9IHNlcnZpY2UuUmVzb2x2ZVRhc2tMb2dQYXRoKHVpbnQodGFza0lEKSwgZmlsZW5hbWVPclBhdGgsIGNvbmZpZy5DLkRhdGEuTG9nRGlyKQoJaWYgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuaXpeW/l+aWh+S7tuS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9Cgljb250ZW50LCBlcnIgOj0gc2VydmljZS5SZWFkTG9nRmlsZShsb2dQYXRoLCBjb25maWcuQy5EYXRhLkxvZ0RpcikKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLml6Xlv5fmlofku7bkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgZ2luLkh7ImZpbGVuYW1lIjogZmlsZW5hbWUsICJjb250ZW50IjogY29udGVudH0pCn0KCmZ1bmMgKGggKlRhc2tIYW5kbGVyKSBEZWxldGVMb2dGaWxlKGMgKmdpbi5Db250ZXh0KSB7Cgl0YXNrSUQsIF8gOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJZmlsZW5hbWUgOj0gYy5QYXJhbSgiZmlsZW5hbWUiKQoJZmlsZW5hbWVPclBhdGggOj0gYy5EZWZhdWx0UXVlcnkoInBhdGgiLCBmaWxlbmFtZSkKCglsb2dQYXRoLCBlcnIgOj0gc2VydmljZS5SZXNvbHZlVGFza0xvZ1BhdGgodWludCh0YXNrSUQpLCBmaWxlbmFtZU9yUGF0aCwgY29uZmlnLkMuRGF0YS5Mb2dEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5Ob3RGb3VuZChjLCAi5pel5b+X5paH5Lu25LiN5a2Y5ZyoIikKCQlyZXR1cm4KCX0KCWlmIGVyciA6PSBzZXJ2aWNlLkRlbGV0ZUxvZ0ZpbGUobG9nUGF0aCwgY29uZmlnLkMuRGF0YS5Mb2dEaXIpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5JbnRlcm5hbEVycm9yKGMsICLliKDpmaTml6Xlv5fmlofku7blpLHotKUiKQoJCXJldHVybgoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLml6Xlv5fmlofku7blt7LliKDpmaQifSkKfQoKZnVuYyAoaCAqVGFza0hhbmRsZXIpIERvd25sb2FkTG9nRmlsZShjICpnaW4uQ29udGV4dCkgewoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCWZpbGVuYW1lIDo9IGMuUGFyYW0oImZpbGVuYW1lIikKCWZpbGVuYW1lT3JQYXRoIDo9IGMuRGVmYXVsdFF1ZXJ5KCJwYXRoIiwgZmlsZW5hbWUpCgoJbG9nUGF0aCwgZXJyIDo9IHNlcnZpY2UuUmVzb2x2ZVRhc2tMb2dQYXRoKHVpbnQodGFza0lEKSwgZmlsZW5hbWVPclBhdGgsIGNvbmZpZy5DLkRhdGEuTG9nRGlyKQoJaWYgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuTm90Rm91bmQoYywgIuaXpeW/l+aWh+S7tuS4jeWtmOWcqCIpCgkJcmV0dXJuCgl9Cgljb250ZW50LCBlcnIgOj0gc2VydmljZS5SZWFkTG9nRmlsZShsb2dQYXRoLCBjb25maWcuQy5EYXRhLkxvZ0RpcikKCWlmIGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLml6Xlv5fmlofku7bkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCWMuSGVhZGVyKCJDb250ZW50LURpc3Bvc2l0aW9uIiwgZm10LlNwcmludGYoImF0dGFjaG1lbnQ7IGZpbGVuYW1lPSVzIiwgZmlsZW5hbWUpKQoJYy5EYXRhKGh0dHAuU3RhdHVzT0ssICJ0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04IiwgW11ieXRlKGNvbnRlbnQpKQp9CgpmdW5jIChoICpUYXNrSGFuZGxlcikgQ2xlYW5Mb2dzKGMgKmdpbi5Db250ZXh0KSB7CglkZWZhdWx0RGF5cyA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnSW50KCJsb2dfcmV0ZW50aW9uX2RheXMiKQoJZGF5c1N0ciA6PSBjLkRlZmF1bHRRdWVyeSgiZGF5cyIsIHN0cmNvbnYuSXRvYShkZWZhdWx0RGF5cykpCglkYXlzLCBfIDo9IHN0cmNvbnYuQXRvaShkYXlzU3RyKQoJaWYgZGF5cyA8IDEgewoJCWRheXMgPSBkZWZhdWx0RGF5cwoJfQoKCWNvdW50IDo9IHNlcnZpY2UuQ2xlYW5PbGRMb2dzKGNvbmZpZy5DLkRhdGEuTG9nRGlyLCBkYXlzKQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6IGZtdC5TcHJpbnRmKCLlt7LmuIXnkIYgJWQg5Liq5pel5b+X5paH5Lu277yI5L+d55WZ5pyA6L+RICVkIOWkqe+8iSIsIGNvdW50LCBkYXlzKX0pCn0K
+package handler
+
+import (
+	"fmt"
+	"net/http"
+	"strconv"
+	"strings"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+func (h *TaskHandler) LatestLog(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var taskLog model.TaskLog
+	if err := database.DB.Where("task_id = ?", taskID).Order("started_at DESC").First(&taskLog).Error; err != nil {
+		response.NotFound(c, "暂无日志")
+		return
+	}
+
+	result := taskLog.ToDict()
+	if taskLog.Content != "" {
+		decompressed, err := service.DecompressFromBase64(taskLog.Content)
+		if err == nil {
+			result["content"] = decompressed
+		}
+	} else if taskLog.LogPath != nil {
+		content, err := service.ReadLogFile(*taskLog.LogPath, config.C.Data.LogDir)
+		if err == nil {
+			result["content"] = content
+		}
+	}
+
+	response.Success(c, result)
+}
+
+func (h *TaskHandler) LiveLogs(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var task model.Task
+	database.DB.First(&task, taskID)
+
+	done := task.Status != model.TaskStatusRunning
+
+	var lines []string
+	manager := service.GetTinyLogManager()
+	tinyLog := manager.FindByTaskID(uint(taskID))
+	if tinyLog != nil {
+		data, _ := tinyLog.ReadLastLines(200)
+		if len(data) > 0 {
+			lines = strings.Split(string(data), "\n")
+		}
+	}
+
+	if lines == nil {
+		lines = []string{}
+	}
+
+	response.Success(c, gin.H{
+		"logs":   lines,
+		"done":   done,
+		"status": task.Status,
+	})
+}
+
+func (h *TaskHandler) LogFiles(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	files := service.ListLogFiles(uint(taskID), config.C.Data.LogDir)
+	response.Success(c, files)
+}
+
+func (h *TaskHandler) LogFileContent(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	filename := c.Param("filename")
+	filenameOrPath := c.DefaultQuery("path", filename)
+
+	logPath, err := service.ResolveTaskLogPath(uint(taskID), filenameOrPath, config.C.Data.LogDir)
+	if err != nil {
+		response.NotFound(c, "日志文件不存在")
+		return
+	}
+	content, err := service.ReadLogFile(logPath, config.C.Data.LogDir)
+	if err != nil {
+		response.NotFound(c, "日志文件不存在")
+		return
+	}
+
+	response.Success(c, gin.H{"filename": filename, "content": content})
+}
+
+func (h *TaskHandler) DeleteLogFile(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	filename := c.Param("filename")
+	filenameOrPath := c.DefaultQuery("path", filename)
+
+	logPath, err := service.ResolveTaskLogPath(uint(taskID), filenameOrPath, config.C.Data.LogDir)
+	if err != nil {
+		response.NotFound(c, "日志文件不存在")
+		return
+	}
+	if err := service.DeleteLogFile(logPath, config.C.Data.LogDir); err != nil {
+		response.InternalError(c, "删除日志文件失败")
+		return
+	}
+	response.Success(c, gin.H{"message": "日志文件已删除"})
+}
+
+func (h *TaskHandler) DownloadLogFile(c *gin.Context) {
+	taskID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+	filename := c.Param("filename")
+	filenameOrPath := c.DefaultQuery("path", filename)
+
+	logPath, err := service.ResolveTaskLogPath(uint(taskID), filenameOrPath, config.C.Data.LogDir)
+	if err != nil {
+		response.NotFound(c, "日志文件不存在")
+		return
+	}
+	content, err := service.ReadLogFile(logPath, config.C.Data.LogDir)
+	if err != nil {
+		response.NotFound(c, "日志文件不存在")
+		return
+	}
+
+	c.Header("Content-Disposition", fmt.Sprintf("attachment; filename=%s", filename))
+	c.Data(http.StatusOK, "text/plain; charset=utf-8", []byte(content))
+}
+
+func (h *TaskHandler) CleanLogs(c *gin.Context) {
+	defaultDays := model.GetRegisteredConfigInt("log_retention_days")
+	daysStr := c.DefaultQuery("days", strconv.Itoa(defaultDays))
+	days, _ := strconv.Atoi(daysStr)
+	if days < 1 {
+		days = defaultDays
+	}
+
+	count := service.CleanOldLogs(config.C.Data.LogDir, days)
+	response.Success(c, gin.H{"message": fmt.Sprintf("已清理 %d 个日志文件（保留最近 %d 天）", count, days)})
+}

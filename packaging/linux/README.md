@@ -1,1 +1,71 @@
-IyBMaW51eCDkuozov5vliLbpg6jnvbLvvIjlkKvpo57niZsgT1MgLyDnvqTmmZYgLyDnu7/ogZTnrYkgTkFT77yJCgrmnKznm67lvZXmj5Dkvpsgc3lzdGVtZCDpg6jnvbLmqKHmnb/vvIzkuJPpl6jlpITnkIblm73kuqcgTkFTIOezu+e7n+S4iuW4uOingeeahOWHoOexu+WdkeOAggoKIyMg5a6J6KOF5q2l6aqkCgoxLiDkuIvovb3kuozov5vliLYgYGRhaWRhaS1zZXJ2ZXJgIOS4juWJjeerr+mdmeaAgei1hOa6kOWIsCBgL29wdC9kYWlkYWktcGFuZWxg44CCCjIuIOWkjeWItiBzeXN0ZW1kIOWNleWFg++8mgogICBgYGBiYXNoCiAgIHN1ZG8gY3AgZGFpZGFpLXBhbmVsLnNlcnZpY2UgL2V0Yy9zeXN0ZW1kL3N5c3RlbS9kYWlkYWktcGFuZWwuc2VydmljZQogICBgYGAKMy4g77yI5o6o6I2Q77yJ5Yib5bu65LiT55So55So5oi377yaCiAgIGBgYGJhc2gKICAgc3VkbyB1c2VyYWRkIC1yIC1zIC9zYmluL25vbG9naW4gLWQgL29wdC9kYWlkYWktcGFuZWwgZGFpZGFpCiAgIHN1ZG8gY2hvd24gLVIgZGFpZGFpOmRhaWRhaSAvb3B0L2RhaWRhaS1wYW5lbAogICBgYGAKICAg54S25ZCO5Y+W5raIIGBkYWlkYWktcGFuZWwuc2VydmljZWAg5LitIGBVc2VyPWRhaWRhaWAg5ZKMIGBHcm91cD1kYWlkYWlgIOeahOazqOmHiuOAggo0LiDlkK/liqjvvJoKICAgYGBgYmFzaAogICBzdWRvIHN5c3RlbWN0bCBkYWVtb24tcmVsb2FkCiAgIHN1ZG8gc3lzdGVtY3RsIGVuYWJsZSAtLW5vdyBkYWlkYWktcGFuZWwKICAgc3VkbyBzeXN0ZW1jdGwgc3RhdHVzIGRhaWRhaS1wYW5lbAogICBgYGAKCiMjIOmjnueJmyBPUyAvIOe+pOaZluetiSBOQVMg5rOo5oSP5LqL6aG5CgojIyMgMS4gcGlwIOaKpSAiQ2Fubm90IHNldCAtLWhvbWUgYW5kIC0tcHJlZml4IHRvZ2V0aGVyIgoK6YOo5YiGIE5BUyDlnKggYC9ldGMvZW52aXJvbm1lbnRgIOaIliBzeXN0ZW1kIOWFqOWxgOmFjee9rumHjOmihOiuvuS6hiBgUElQX0hPTUVgIC8gYFBJUF9QUkVGSVhgIOetieWPmOmHj++8jOmdouadv+i/m+eoi+e7p+aJv+WQjuiwg+eUqCBgcGlwIGluc3RhbGxgIOS8muWGsueqgeaKpemUmeOAggoKbW9kZWxlZCBzZXJ2aWNlIOaWh+S7tuW3sue7j+mAmui/hyBgRW52aXJvbm1lbnQ9UElQX1BSRUZJWD1gIOetieepuui1i+WAvOa4heeQhuaOiei/meS6m+WPmOmHj++8jOaXoOmcgOmineWkluWkhOeQhuOAguWmguaenOS9oOeUqOWIq+eahOaWueW8j+aLiei1t+mdouadv++8iOijuOi3keOAgeiHquWumuS5ieiEmuacrO+8ie+8jOWKoeW/heWcqOWQr+WKqOWJjSBgdW5zZXQgUElQX1BSRUZJWCBQSVBfSE9NRSBQSVBfVEFSR0VUIFBJUF9ST09UIFBJUF9VU0VSIFBJUF9JTlNUQUxMX09QVElPTiBQWVRIT05VU0VSQkFTRWDjgIIKCiMjIyAyLiDnmbvlvZXmiqUgNDAzCgrmtY/op4jlmajku44gTkFTIOWfn+WQjeiuv+mXruOAgemdouadv+WcqOWGhemDqOerr+WPo+i3keaXtu+8jENPUlMg6aKE5qOA5Lya6KKr5ouS44CC5Luj56CB5bey5a+556eB5pyJL+WxgOWfn+e9kSBJUCDoh6rliqjmlL7ooYzvvJvoi6XkvaDnlKjlhaznvZHln5/lkI3orr/pl67vvIzor7flnKggYGNvbmZpZy55YW1sYCDliqDvvJoKYGBgeWFtbApjb3JzOgogIG9yaWdpbnM6CiAgICAtIGh0dHBzOi8vcGFuZWwueW91ci1kb21haW4uY29tCmBgYArnhLblkI4gYHN1ZG8gc3lzdGVtY3RsIHJlc3RhcnQgZGFpZGFpLXBhbmVsYOOAggoKIyMjIDMuIOWPjeWQkeS7o+eQhuWQjiBJUCDmmL7npLrkuLrmnKzlnLAKCuWmguaenOmdouadv+aUvuWcqCBOQVMg5Y+N5Luj5LmL5ZCO77yM6K+36YWN572u5L+h5Lu75Luj55CGIENJRFLvvJoKYGBgaW5pCiMgL2V0Yy9zeXN0ZW1kL3N5c3RlbS9kYWlkYWktcGFuZWwuc2VydmljZQpFbnZpcm9ubWVudD1EQUlEQUlfVFJVU1RFRF9QUk9YWV9DSURSUz0xMjcuMC4wLjEvMzIsMTkyLjE2OC4wLjAvMTYKYGBgCgojIyMgNC4gU1FMaXRlIOWGmeWFpeWksei0pQoK56Gu5L+dIGBXb3JraW5nRGlyZWN0b3J5YCDlj4rlhbYgYGRhdGEvYCDlrZDnm67lvZXlr7nov5DooYznlKjmiLflj6/lhpnjgILlpoLmnpznlKggYFVzZXI9ZGFpZGFpYO+8mgpgYGBiYXNoCnN1ZG8gY2hvd24gLVIgZGFpZGFpOmRhaWRhaSAvb3B0L2RhaWRhaS1wYW5lbApgYGAKCiMjIyA1LiBTU0Ug6ZW/6L+e5o6l77yI5Lu75Yqh5a6e5pe25pel5b+X77yJCgrlpoLmnpzkvaDlnKjpnaLmnb/liY3pnaLlho3liqDkuobkuIDlsYIgbmdpbngg5Y+N5Luj77yM6K+36YWN572u77yaCmBgYG5naW54CnByb3h5X2h0dHBfdmVyc2lvbiAxLjE7CnByb3h5X3NldF9oZWFkZXIgQ29ubmVjdGlvbiAiIjsKcHJveHlfYnVmZmVyaW5nIG9mZjsKcHJveHlfcmVhZF90aW1lb3V0IDI0aDsKYWRkX2hlYWRlciBYLUFjY2VsLUJ1ZmZlcmluZyBubzsKYGBgCgojIyBEb2NrZXIg5pu/5Luj5pa55qGICgrmm7TnnIHlv4PnmoTmlrnlvI/mmK/nlKggRG9ja2VyIOi3ke+8iOS7k+W6k+agueebruW9leaPkOS+myBgZG9ja2VyLWNvbXBvc2UueW1sYO+8ieOAgkRvY2tlciDplZzlg4/ph4zlt7Lnu4/lpITnkIblpb3kuIrov7DmiYDmnInpl67popjvvIzlubbkuJTmlK/mjIEgYFBVSURgL2BQR0lEYCDnjq/looPlj5jph4/pgILphY0gTkFTIOeUqOaIt+OAggo=
+# Linux 二进制部署（含飞牛 OS / 群晖 / 绿联等 NAS）
+
+本目录提供 systemd 部署模板，专门处理国产 NAS 系统上常见的几类坑。
+
+## 安装步骤
+
+1. 下载二进制 `daidai-server` 与前端静态资源到 `/opt/daidai-panel`。
+2. 复制 systemd 单元：
+   ```bash
+   sudo cp daidai-panel.service /etc/systemd/system/daidai-panel.service
+   ```
+3. （推荐）创建专用用户：
+   ```bash
+   sudo useradd -r -s /sbin/nologin -d /opt/daidai-panel daidai
+   sudo chown -R daidai:daidai /opt/daidai-panel
+   ```
+   然后取消 `daidai-panel.service` 中 `User=daidai` 和 `Group=daidai` 的注释。
+4. 启动：
+   ```bash
+   sudo systemctl daemon-reload
+   sudo systemctl enable --now daidai-panel
+   sudo systemctl status daidai-panel
+   ```
+
+## 飞牛 OS / 群晖等 NAS 注意事项
+
+### 1. pip 报 "Cannot set --home and --prefix together"
+
+部分 NAS 在 `/etc/environment` 或 systemd 全局配置里预设了 `PIP_HOME` / `PIP_PREFIX` 等变量，面板进程继承后调用 `pip install` 会冲突报错。
+
+modeled service 文件已经通过 `Environment=PIP_PREFIX=` 等空赋值清理掉这些变量，无需额外处理。如果你用别的方式拉起面板（裸跑、自定义脚本），务必在启动前 `unset PIP_PREFIX PIP_HOME PIP_TARGET PIP_ROOT PIP_USER PIP_INSTALL_OPTION PYTHONUSERBASE`。
+
+### 2. 登录报 403
+
+浏览器从 NAS 域名访问、面板在内部端口跑时，CORS 预检会被拒。代码已对私有/局域网 IP 自动放行；若你用公网域名访问，请在 `config.yaml` 加：
+```yaml
+cors:
+  origins:
+    - https://panel.your-domain.com
+```
+然后 `sudo systemctl restart daidai-panel`。
+
+### 3. 反向代理后 IP 显示为本地
+
+如果面板放在 NAS 反代之后，请配置信任代理 CIDR：
+```ini
+# /etc/systemd/system/daidai-panel.service
+Environment=DAIDAI_TRUSTED_PROXY_CIDRS=127.0.0.1/32,192.168.0.0/16
+```
+
+### 4. SQLite 写入失败
+
+确保 `WorkingDirectory` 及其 `data/` 子目录对运行用户可写。如果用 `User=daidai`：
+```bash
+sudo chown -R daidai:daidai /opt/daidai-panel
+```
+
+### 5. SSE 长连接（任务实时日志）
+
+如果你在面板前面再加了一层 nginx 反代，请配置：
+```nginx
+proxy_http_version 1.1;
+proxy_set_header Connection "";
+proxy_buffering off;
+proxy_read_timeout 24h;
+add_header X-Accel-Buffering no;
+```
+
+## Docker 替代方案
+
+更省心的方式是用 Docker 跑（仓库根目录提供 `docker-compose.yml`）。Docker 镜像里已经处理好上述所有问题，并且支持 `PUID`/`PGID` 环境变量适配 NAS 用户。

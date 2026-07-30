@@ -1,1 +1,43 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGNvbnN0IHN1YnNjcmlwdGlvbkFwaSA9IHsKICBsaXN0KHBhcmFtcz86IHsga2V5d29yZD86IHN0cmluZzsgdHlwZT86IHN0cmluZzsgZW5hYmxlZD86IGJvb2xlYW47IHBhZ2U/OiBudW1iZXI7IHBhZ2Vfc2l6ZT86IG51bWJlciB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy9zdWJzY3JpcHRpb25zJywgeyBwYXJhbXMgfSkgYXMgUHJvbWlzZTx7IGRhdGE6IGFueVtdOyB0b3RhbDogbnVtYmVyOyBwYWdlOiBudW1iZXI7IHBhZ2Vfc2l6ZTogbnVtYmVyIH0+CiAgfSwKCiAgY3JlYXRlKGRhdGE6IGFueSkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL3N1YnNjcmlwdGlvbnMnLCBkYXRhKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICB1cGRhdGUoaWQ6IG51bWJlciwgZGF0YTogYW55KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC9zdWJzY3JpcHRpb25zLyR7aWR9YCwgZGF0YSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55IH0+CiAgfSwKCiAgZGVsZXRlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZShgL3N1YnNjcmlwdGlvbnMvJHtpZH1gKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgZW5hYmxlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3N1YnNjcmlwdGlvbnMvJHtpZH0vZW5hYmxlYCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55IH0+CiAgfSwKCiAgZGlzYWJsZShpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC9zdWJzY3JpcHRpb25zLyR7aWR9L2Rpc2FibGVgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBwdWxsKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3N1YnNjcmlwdGlvbnMvJHtpZH0vcHVsbGApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBzdG9wUHVsbChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC9zdWJzY3JpcHRpb25zLyR7aWR9L3B1bGwvc3RvcGApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBsb2dzKGlkOiBudW1iZXIsIHBhcmFtcz86IHsgcGFnZT86IG51bWJlcjsgcGFnZV9zaXplPzogbnVtYmVyIH0pIHsKICAgIHJldHVybiByZXF1ZXN0LmdldChgL3N1YnNjcmlwdGlvbnMvJHtpZH0vbG9nc2AsIHsgcGFyYW1zIH0pIGFzIFByb21pc2U8eyBkYXRhOiBhbnlbXTsgdG90YWw6IG51bWJlcjsgcGFnZTogbnVtYmVyOyBwYWdlX3NpemU6IG51bWJlciB9PgogIH0sCgogIGJhdGNoRGVsZXRlKGlkczogbnVtYmVyW10pIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZSgnL3N1YnNjcmlwdGlvbnMvYmF0Y2gnLCB7IGRhdGE6IHsgaWRzIH0gfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0KfQo=
+import request from './request'
+
+export const subscriptionApi = {
+  list(params?: { keyword?: string; type?: string; enabled?: boolean; page?: number; page_size?: number }) {
+    return request.get('/subscriptions', { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  create(data: any) {
+    return request.post('/subscriptions', data) as Promise<{ message: string; data: any }>
+  },
+
+  update(id: number, data: any) {
+    return request.put(`/subscriptions/${id}`, data) as Promise<{ message: string; data: any }>
+  },
+
+  delete(id: number) {
+    return request.delete(`/subscriptions/${id}`) as Promise<{ message: string }>
+  },
+
+  enable(id: number) {
+    return request.put(`/subscriptions/${id}/enable`) as Promise<{ message: string; data: any }>
+  },
+
+  disable(id: number) {
+    return request.put(`/subscriptions/${id}/disable`) as Promise<{ message: string; data: any }>
+  },
+
+  pull(id: number) {
+    return request.put(`/subscriptions/${id}/pull`) as Promise<{ message: string }>
+  },
+
+  stopPull(id: number) {
+    return request.put(`/subscriptions/${id}/pull/stop`) as Promise<{ message: string }>
+  },
+
+  logs(id: number, params?: { page?: number; page_size?: number }) {
+    return request.get(`/subscriptions/${id}/logs`, { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  batchDelete(ids: number[]) {
+    return request.delete('/subscriptions/batch', { data: { ids } }) as Promise<{ message: string }>
+  }
+}

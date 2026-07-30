@@ -1,1 +1,530 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkibWF0aC9yYW5kIgoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyY29udiIKCSJzdHJpbmdzIgoJInN5bmMiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJY3JvbnUgImRhaWRhaS1wYW5lbC9wa2cvY3JvbiIKCgkiZ2l0aHViLmNvbS9yb2JmaWcvY3Jvbi92MyIKCSJnb3JtLmlvL2dvcm0iCikKCnR5cGUgU2NoZWR1bGVyIHN0cnVjdCB7CgltdSAgICAgICAgICAgICAgIHN5bmMuTXV0ZXgKCWNyb24gICAgICAgICAgICAgKmNyb24uQ3JvbgoJZW50cnlNYXAgICAgICAgICBtYXBbdWludF1jcm9uLkVudHJ5SUQKCXJ1bm5pbmdQcm9jZXNzZXMgbWFwW3VpbnRdKm9zLlByb2Nlc3MKCXByb2Nlc3NMb2NrICAgICAgc3luYy5NdXRleAoJc2VtYXBob3JlICAgICAgICBjaGFuIHN0cnVjdHt9CglsaXZlTG9ncyAgICAgICAgIG1hcFt1aW50XVtdc3RyaW5nCglsaXZlRG9uZSAgICAgICAgIG1hcFt1aW50XWJvb2wKCWxvZ0xvY2sgICAgICAgICAgc3luYy5NdXRleAoJc2NyaXB0c0RpciAgICAgICBzdHJpbmcKCWxvZ0RpciAgICAgICAgICAgc3RyaW5nCn0KCnZhciBzY2hlZHVsZXIgKlNjaGVkdWxlcgoKZnVuYyBJbml0U2NoZWR1bGVyKCkgewoJbWF4Q29uY3VycmVudCA6PSBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnSW50KCJtYXhfY29uY3VycmVudF90YXNrcyIpCgoJc2NoZWR1bGVyID0gJlNjaGVkdWxlcnsKCQljcm9uOiAgICAgICAgICAgICBjcm9uLk5ldyhjcm9uLldpdGhTZWNvbmRzKCksIGNyb24uV2l0aENoYWluKGNyb24uUmVjb3Zlcihjcm9uLkRlZmF1bHRMb2dnZXIpKSksCgkJZW50cnlNYXA6ICAgICAgICAgbWFrZShtYXBbdWludF1jcm9uLkVudHJ5SUQpLAoJCXJ1bm5pbmdQcm9jZXNzZXM6IG1ha2UobWFwW3VpbnRdKm9zLlByb2Nlc3MpLAoJCXNlbWFwaG9yZTogICAgICAgIG1ha2UoY2hhbiBzdHJ1Y3R7fSwgbWF4Q29uY3VycmVudCksCgkJbGl2ZUxvZ3M6ICAgICAgICAgbWFrZShtYXBbdWludF1bXXN0cmluZyksCgkJbGl2ZURvbmU6ICAgICAgICAgbWFrZShtYXBbdWludF1ib29sKSwKCQlzY3JpcHRzRGlyOiAgICAgICBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsCgkJbG9nRGlyOiAgICAgICAgICAgY29uZmlnLkMuRGF0YS5Mb2dEaXIsCgl9CgoJdmFyIHRhc2tzIFtdbW9kZWwuVGFzawoJZGF0YWJhc2UuREIuV2hlcmUoInN0YXR1cyA9ID8iLCBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCkuRmluZCgmdGFza3MpCgoJZm9yIF8sIHRhc2sgOj0gcmFuZ2UgdGFza3MgewoJCXNjaGVkdWxlci5BZGRKb2IoJnRhc2spCgl9CgoJc2NoZWR1bGVyLmNyb24uU3RhcnQoKQoJbG9nLlByaW50Zigic2NoZWR1bGVyIHN0YXJ0ZWQsIGxvYWRlZCAlZCB0YXNrcyIsIGxlbih0YXNrcykpCn0KCmZ1bmMgU2h1dGRvd25TY2hlZHVsZXIoKSB7CglpZiBzY2hlZHVsZXIgPT0gbmlsIHsKCQlyZXR1cm4KCX0KCgljdHggOj0gc2NoZWR1bGVyLmNyb24uU3RvcCgpCgk8LWN0eC5Eb25lKCkKCglkZWFkbGluZSA6PSB0aW1lLkFmdGVyKDYwICogdGltZS5TZWNvbmQpCglmb3IgewoJCXNjaGVkdWxlci5wcm9jZXNzTG9jay5Mb2NrKCkKCQljb3VudCA6PSBsZW4oc2NoZWR1bGVyLnJ1bm5pbmdQcm9jZXNzZXMpCgkJc2NoZWR1bGVyLnByb2Nlc3NMb2NrLlVubG9jaygpCgoJCWlmIGNvdW50ID09IDAgewoJCQlicmVhawoJCX0KCgkJc2VsZWN0IHsKCQljYXNlIDwtZGVhZGxpbmU6CgkJCXNjaGVkdWxlci5wcm9jZXNzTG9jay5Mb2NrKCkKCQkJZm9yIF8sIHAgOj0gcmFuZ2Ugc2NoZWR1bGVyLnJ1bm5pbmdQcm9jZXNzZXMgewoJCQkJcC5LaWxsKCkKCQkJfQoJCQlzY2hlZHVsZXIucHJvY2Vzc0xvY2suVW5sb2NrKCkKCQkJcmV0dXJuCgkJZGVmYXVsdDoKCQkJdGltZS5TbGVlcCgyICogdGltZS5TZWNvbmQpCgkJfQoJfQoKCUdldExvZ1N0cmVhbU1hbmFnZXIoKS5DbG9zZUFsbCgpCn0KCmZ1bmMgR2V0U2NoZWR1bGVyKCkgKlNjaGVkdWxlciB7CglyZXR1cm4gc2NoZWR1bGVyCn0KCmZ1bmMgKHMgKlNjaGVkdWxlcikgQWRkSm9iKHRhc2sgKm1vZGVsLlRhc2spIHsKCXMubXUuTG9jaygpCglkZWZlciBzLm11LlVubG9jaygpCgoJaWYgb2xkSUQsIGV4aXN0cyA6PSBzLmVudHJ5TWFwW3Rhc2suSURdOyBleGlzdHMgewoJCXMuY3Jvbi5SZW1vdmUob2xkSUQpCgkJZGVsZXRlKHMuZW50cnlNYXAsIHRhc2suSUQpCgl9CgoJaWYgdGFzay5TdGF0dXMgIT0gbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQgewoJCXJldHVybgoJfQoKCWNyb25FeHByIDo9IHRvQ3JvblYzKHRhc2suQ3JvbkV4cHJlc3Npb24pCglpZiBjcm9uRXhwciA9PSAiIiB7CgkJbG9nLlByaW50ZigiaW52YWxpZCBjcm9uIGV4cHJlc3Npb24gZm9yIHRhc2sgJWQ6ICVzIiwgdGFzay5JRCwgdGFzay5Dcm9uRXhwcmVzc2lvbikKCQlyZXR1cm4KCX0KCgl0YXNrSUQgOj0gdGFzay5JRAoJZW50cnlJRCwgZXJyIDo9IHMuY3Jvbi5BZGRGdW5jKGNyb25FeHByLCBmdW5jKCkgewoJCXMuZXhlY3V0ZVRhc2sodGFza0lEKQoJfSkKCWlmIGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoImZhaWxlZCB0byBhZGQgY3JvbiBqb2IgZm9yIHRhc2sgJWQ6ICV2IiwgdGFzay5JRCwgZXJyKQoJCXJldHVybgoJfQoKCXMuZW50cnlNYXBbdGFzay5JRF0gPSBlbnRyeUlECn0KCmZ1bmMgKHMgKlNjaGVkdWxlcikgVXBkYXRlSm9iKHRhc2sgKm1vZGVsLlRhc2spIHsKCXMuQWRkSm9iKHRhc2spCn0KCmZ1bmMgKHMgKlNjaGVkdWxlcikgUmVtb3ZlSm9iKHRhc2tJRCB1aW50KSB7CglzLm11LkxvY2soKQoJZGVmZXIgcy5tdS5VbmxvY2soKQoKCWlmIGVudHJ5SUQsIGV4aXN0cyA6PSBzLmVudHJ5TWFwW3Rhc2tJRF07IGV4aXN0cyB7CgkJcy5jcm9uLlJlbW92ZShlbnRyeUlEKQoJCWRlbGV0ZShzLmVudHJ5TWFwLCB0YXNrSUQpCgl9Cn0KCmZ1bmMgKHMgKlNjaGVkdWxlcikgUnVuVGFza05vdyh0YXNrICptb2RlbC5UYXNrKSB7CglnbyBzLmV4ZWN1dGVUYXNrKHRhc2suSUQpCn0KCmZ1bmMgKHMgKlNjaGVkdWxlcikgU3RvcFJ1bm5pbmdUYXNrKHRhc2tJRCB1aW50KSBib29sIHsKCXMucHJvY2Vzc0xvY2suTG9jaygpCglkZWZlciBzLnByb2Nlc3NMb2NrLlVubG9jaygpCgoJaWYgcCwgb2sgOj0gcy5ydW5uaW5nUHJvY2Vzc2VzW3Rhc2tJRF07IG9rIHsKCQkvLyDlhYjmiZMi5omL5Yqo5YGc5q2iIuagh+iusOWGjSBraWxs77yM5L+d6K+B5a6M5oiQ5Z2X57uT566X5pe25qCH6K6w5bey5Y+v6KeB44CCCgkJbWFya01hbnVhbFN0b3AodGFza0lEKQoJCUtpbGxQcm9jZXNzR3JvdXAocCkKCQlkZWxldGUocy5ydW5uaW5nUHJvY2Vzc2VzLCB0YXNrSUQpCgkJcmV0dXJuIHRydWUKCX0KCXJldHVybiBmYWxzZQp9CgpmdW5jIChzICpTY2hlZHVsZXIpIEdldExpdmVMb2codGFza0lEIHVpbnQpIChbXXN0cmluZywgYm9vbCkgewoJcy5sb2dMb2NrLkxvY2soKQoJZGVmZXIgcy5sb2dMb2NrLlVubG9jaygpCgoJbGluZXMsIF8gOj0gcy5saXZlTG9nc1t0YXNrSURdCglkb25lLCBfIDo9IHMubGl2ZURvbmVbdGFza0lEXQoKCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCBsZW4obGluZXMpKQoJY29weShyZXN1bHQsIGxpbmVzKQoJcmV0dXJuIHJlc3VsdCwgZG9uZQp9CgpmdW5jIChzICpTY2hlZHVsZXIpIGV4ZWN1dGVUYXNrKHRhc2tJRCB1aW50KSB7CglzLnNlbWFwaG9yZSA8LSBzdHJ1Y3R7fXt9CglkZWZlciBmdW5jKCkgeyA8LXMuc2VtYXBob3JlIH0oKQoKCWRlZmVyIGZ1bmMoKSB7CgkJaWYgciA6PSByZWNvdmVyKCk7IHIgIT0gbmlsIHsKCQkJbG9nLlByaW50ZigidGFzayAlZCBwYW5pY2tlZDogJXYiLCB0YXNrSUQsIHIpCgkJCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNre30pLldoZXJlKCJpZCA9ID8iLCB0YXNrSUQpLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkJCSJzdGF0dXMiOiAgICAgICAgICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCQkJCSJsYXN0X3J1bl9zdGF0dXMiOiBtb2RlbC5SdW5GYWlsZWQsCgkJCQkicGlkIjogICAgICAgICAgICAgZ29ybS5FeHByKCJOVUxMIiksCgkJCQkibG9nX3BhdGgiOiAgICAgICAgZ29ybS5FeHByKCJOVUxMIiksCgkJCX0pCgkJCXMubG9nTG9jay5Mb2NrKCkKCQkJcy5saXZlRG9uZVt0YXNrSURdID0gdHJ1ZQoJCQlzLmxvZ0xvY2suVW5sb2NrKCkKCQl9Cgl9KCkKCglzLmV4ZWN1dGVUYXNrSW5uZXIodGFza0lEKQp9CgpmdW5jIChzICpTY2hlZHVsZXIpIGV4ZWN1dGVUYXNrSW5uZXIodGFza0lEIHVpbnQpIHsKCXZhciB0YXNrIG1vZGVsLlRhc2sKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgdGFza0lEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50ZigidGFzayAlZCBub3QgZm91bmQ6ICV2IiwgdGFza0lELCBlcnIpCgkJcmV0dXJuCgl9CgoJaWYgIXRhc2suQWxsb3dNdWx0aXBsZUluc3RhbmNlcyB7CgkJcy5wcm9jZXNzTG9jay5Mb2NrKCkKCQlpZiBfLCBydW5uaW5nIDo9IHMucnVubmluZ1Byb2Nlc3Nlc1t0YXNrSURdOyBydW5uaW5nIHsKCQkJcy5wcm9jZXNzTG9jay5VbmxvY2soKQoJCQlyZXR1cm4KCQl9CgkJcy5wcm9jZXNzTG9jay5VbmxvY2soKQoJfQoKCWlmIHRhc2suRGVwZW5kc09uICE9IG5pbCB7CgkJdmFyIGRlcFRhc2sgbW9kZWwuVGFzawoJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmZGVwVGFzaywgKnRhc2suRGVwZW5kc09uKS5FcnJvcjsgZXJyID09IG5pbCB7CgkJCWlmIGRlcFRhc2suTGFzdFJ1blN0YXR1cyA9PSBuaWwgfHwgKmRlcFRhc2suTGFzdFJ1blN0YXR1cyAhPSBtb2RlbC5SdW5TdWNjZXNzIHsKCQkJCXN0YXR1cyA6PSBtb2RlbC5Mb2dTdGF0dXNGYWlsZWQKCQkJCXRhc2tMb2cgOj0gbW9kZWwuVGFza0xvZ3sKCQkJCQlUYXNrSUQ6ICAgIHRhc2tJRCwKCQkJCQlDb250ZW50OiAgIGZtdC5TcHJpbnRmKCLot7Pov4c6IOS+nei1luS7u+WKoSAnJXMnIOS4iuasoeaJp+ihjOacquaIkOWKnyIsIGRlcFRhc2suTmFtZSksCgkJCQkJU3RhdHVzOiAgICAmc3RhdHVzLAoJCQkJCVN0YXJ0ZWRBdDogdGltZS5Ob3coKSwKCQkJCX0KCQkJCW5vdyA6PSB0aW1lLk5vdygpCgkJCQl0YXNrTG9nLkVuZGVkQXQgPSAmbm93CgkJCQlkYXRhYmFzZS5EQi5DcmVhdGUoJnRhc2tMb2cpCgkJCQlyZXR1cm4KCQkJfQoJCX0KCX0KCgljb21tYW5kUGxhbiwgZXJyIDo9IFBhcnNlQ29tbWFuZEV4ZWN1dGlvblBsYW4odGFzay5Db21tYW5kLCBzLnNjcmlwdHNEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJ0YXNrICVkIHBhcnNlIGNvbW1hbmQgZmFpbGVkOiAldiIsIHRhc2tJRCwgZXJyKQoJCXJldHVybgoJfQoKCW1heExvZ1NpemUgOj0gbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZ0ludCgibWF4X2xvZ19jb250ZW50X3NpemUiKQoKCWlmIHJhbmRvbURlbGF5IDo9IHJlc29sdmVUYXNrUmFuZG9tRGVsYXlTZWNvbmRzKCZ0YXNrLCBjb21tYW5kUGxhbik7IHJhbmRvbURlbGF5ID4gMCB7CgkJZGVsYXkgOj0gcmFuZC5JbnRuKHJhbmRvbURlbGF5KSArIDEKCQl0aW1lLlNsZWVwKHRpbWUuRHVyYXRpb24oZGVsYXkpICogdGltZS5TZWNvbmQpCgl9CgoJdmFyIGVudlZhclJlY29yZHMgW11tb2RlbC5FbnZWYXIKCS8vIOS9v+eUqOeos+WumuaOkuW6j+W5tuaMiSBuYW1lIOWIhue7hOWQiOW5tu+8jOS4jiBydW50aW1lX2V4ZWMuQnVpbGRNYW5hZ2VkUnVudGltZUVudk1hcCDkv53mjIHkuIDoh7TvvJsKCS8vIOmBv+WFjeWOn+WunueOsCLlkI7ogIXopobnm5bliY3ogIUi5a+86Ie05ZCM5ZCN5Y+Y6YeP5Y+q5pyJIDEg5Liq6LSm5Y+355Sf5pWI44CCCglkYXRhYmFzZS5EQi5XaGVyZSgiZW5hYmxlZCA9ID8iLCB0cnVlKS4KCQlPcmRlcigic29ydF9vcmRlciBERVNDLCBwb3NpdGlvbiBBU0MsIGNyZWF0ZWRfYXQgQVNDLCBpZCBBU0MiKS4KCQlGaW5kKCZlbnZWYXJSZWNvcmRzKQoJZW52R3JvdXBlZCA6PSBtYWtlKG1hcFtzdHJpbmddW11zdHJpbmcpCgllbnZPcmRlciA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4oZW52VmFyUmVjb3JkcykpCglmb3IgXywgZSA6PSByYW5nZSBlbnZWYXJSZWNvcmRzIHsKCQlpZiBfLCBvayA6PSBlbnZHcm91cGVkW2UuTmFtZV07ICFvayB7CgkJCWVudk9yZGVyID0gYXBwZW5kKGVudk9yZGVyLCBlLk5hbWUpCgkJfQoJCWVudkdyb3VwZWRbZS5OYW1lXSA9IGFwcGVuZChlbnZHcm91cGVkW2UuTmFtZV0sIGUuVmFsdWUpCgl9CgllbnZWYXJzIDo9IG1ha2UobWFwW3N0cmluZ11zdHJpbmcsIGxlbihlbnZHcm91cGVkKSkKCWZvciBfLCBuYW1lIDo9IHJhbmdlIGVudk9yZGVyIHsKCQllbnZWYXJzW25hbWVdID0gam9pblRhc2tFbnZWYWx1ZXMoZW52R3JvdXBlZFtuYW1lXSkKCX0KCgl0aW1lb3V0IDo9IHRhc2suVGltZW91dAoJaWYgdGltZW91dCA8IDAgewoJCXRpbWVvdXQgPSAwCgl9CglpZiBjb21tYW5kUGxhbi5UaW1lb3V0T3ZlcnJpZGUgIT0gbmlsICYmICpjb21tYW5kUGxhbi5UaW1lb3V0T3ZlcnJpZGUgPiAwIHsKCQl0aW1lb3V0ID0gKmNvbW1hbmRQbGFuLlRpbWVvdXRPdmVycmlkZQoJfQoKCWxvZ1JlbFBhdGggOj0gR2V0UmVsYXRpdmVMb2dQYXRoRm9yVGFzaygmdGFzaykKCWxvZ0Z1bGxQYXRoIDo9IGZpbGVwYXRoLkpvaW4ocy5sb2dEaXIsIGxvZ1JlbFBhdGgpCgoJc3RhdHVzIDo9IG1vZGVsLkxvZ1N0YXR1c1J1bm5pbmcKCXRhc2tMb2cgOj0gbW9kZWwuVGFza0xvZ3sKCQlUYXNrSUQ6ICAgIHRhc2tJRCwKCQlTdGF0dXM6ICAgICZzdGF0dXMsCgkJTG9nUGF0aDogICAmbG9nUmVsUGF0aCwKCQlTdGFydGVkQXQ6IHRpbWUuTm93KCksCgl9CglkYXRhYmFzZS5EQi5DcmVhdGUoJnRhc2tMb2cpCgoJbm93IDo9IHRpbWUuTm93KCkKCXRhc2suU3RhdHVzID0gbW9kZWwuVGFza1N0YXR1c1J1bm5pbmcKCXRhc2suTGFzdFJ1bkF0ID0gJm5vdwoJdGFzay5Mb2dQYXRoID0gJmxvZ1JlbFBhdGgKCWRhdGFiYXNlLkRCLlNhdmUoJnRhc2spCgoJcy5sb2dMb2NrLkxvY2soKQoJcy5saXZlTG9nc1t0YXNrSURdID0gW11zdHJpbmd7fQoJcy5saXZlRG9uZVt0YXNrSURdID0gZmFsc2UKCXMubG9nTG9jay5VbmxvY2soKQoKCWxzbSA6PSBHZXRMb2dTdHJlYW1NYW5hZ2VyKCkKCglvbk91dHB1dCA6PSBmdW5jKGNodW5rIHN0cmluZykgewoJCWxzbS5Xcml0ZShsb2dGdWxsUGF0aCwgY2h1bmspCgkJcy5sb2dMb2NrLkxvY2soKQoJCXMubGl2ZUxvZ3NbdGFza0lEXSA9IGFwcGVuZChzLmxpdmVMb2dzW3Rhc2tJRF0sIGNodW5rKQoJCXMubG9nTG9jay5VbmxvY2soKQoJfQoKCXN0YXJ0VGltZSA6PSB0aW1lLk5vdygpCglvbk91dHB1dChmbXQuU3ByaW50ZigiPT09IOW8gOWni+aJp+ihjCBbJXNdID09PVxuIiwgc3RhcnRUaW1lLkZvcm1hdCgiMjAwNi0wMS0wMiAxNTowNDowNSIpKSkKCglpZiB0YXNrLlRhc2tCZWZvcmUgIT0gbmlsICYmICp0YXNrLlRhc2tCZWZvcmUgIT0gIiIgewoJCW9uT3V0cHV0KCJb5omn6KGM5YmN572u6ISa5pysXVxuIikKCQlSdW5JbmxpbmVTY3JpcHQoKnRhc2suVGFza0JlZm9yZSwgcy5zY3JpcHRzRGlyLCBlbnZWYXJzLCA2MCwgb25PdXRwdXQsIGNvbW1hbmRQbGFuLlNjcmlwdEFyZ3MuLi4pCgl9CgoJUnVuSG9va1NjcmlwdCgidGFza19iZWZvcmUuc2giLCBzLnNjcmlwdHNEaXIsIGVudlZhcnMsIG9uT3V0cHV0LCBjb21tYW5kUGxhbi5TY3JpcHRBcmdzLi4uKQoKCXN1Y2Nlc3MgOj0gZmFsc2UKCXJldHJpZXMgOj0gMAoJdmFyIGxhc3RFeGl0Q29kZSBpbnQKCglmb3IgcmV0cmllcyA8PSB0YXNrLk1heFJldHJpZXMgewoJCWlmIHJldHJpZXMgPiAwIHsKCQkJb25PdXRwdXQoZm10LlNwcmludGYoIlvnrKwgJWQg5qyh6YeN6K+V77yM562J5b6FICVkIOenkl1cbiIsIHJldHJpZXMsIHRhc2suUmV0cnlJbnRlcnZhbCkpCgkJCXRpbWUuU2xlZXAodGltZS5EdXJhdGlvbih0YXNrLlJldHJ5SW50ZXJ2YWwpICogdGltZS5TZWNvbmQpCgkJfQoKCQlvblN0YXJ0IDo9IGZ1bmMocHJvY2VzcyAqb3MuUHJvY2VzcykgewoJCQlzLnByb2Nlc3NMb2NrLkxvY2soKQoJCQlzLnJ1bm5pbmdQcm9jZXNzZXNbdGFza0lEXSA9IHByb2Nlc3MKCQkJcGlkIDo9IHByb2Nlc3MuUGlkCgkJCXMucHJvY2Vzc0xvY2suVW5sb2NrKCkKCQkJZGF0YWJhc2UuREIuTW9kZWwoJnRhc2spLlVwZGF0ZSgicGlkIiwgcGlkKQoJCX0KCQlyZXN1bHQsIF8sIGVyciA6PSBSdW5Db21tYW5kV2l0aFBsYW4oY29tbWFuZFBsYW4sIHRpbWVvdXQsIGVudlZhcnMsIG1heExvZ1NpemUsIG9uT3V0cHV0LCBvblN0YXJ0KQoJCWlmIGVyciAhPSBuaWwgewoJCQlvbk91dHB1dChmbXQuU3ByaW50ZigiW+aJp+ihjOmUmeivrzogJXNdXG4iLCBlcnIuRXJyb3IoKSkpCgkJCXJldHJpZXMrKwoJCQlsYXN0RXhpdENvZGUgPSAxCgkJCWNvbnRpbnVlCgkJfQoKCQlsYXN0RXhpdENvZGUgPSByZXN1bHQuUmV0dXJuQ29kZQoJCWlmIHRhc2suSXNTdWNjZXNzRXhpdENvZGUocmVzdWx0LlJldHVybkNvZGUpIHsKCQkJc3VjY2VzcyA9IHRydWUKCQkJYnJlYWsKCQl9CgoJCXJldHJpZXMrKwoJfQoKCWlmIHRhc2suVGFza0FmdGVyICE9IG5pbCAmJiAqdGFzay5UYXNrQWZ0ZXIgIT0gIiIgewoJCW9uT3V0cHV0KCJb5omn6KGM5ZCO572u6ISa5pysXVxuIikKCQlSdW5JbmxpbmVTY3JpcHQoKnRhc2suVGFza0FmdGVyLCBzLnNjcmlwdHNEaXIsIGVudlZhcnMsIDYwLCBvbk91dHB1dCwgY29tbWFuZFBsYW4uU2NyaXB0QXJncy4uLikKCX0KCglSdW5Ib29rU2NyaXB0KCJ0YXNrX2FmdGVyLnNoIiwgcy5zY3JpcHRzRGlyLCBlbnZWYXJzLCBvbk91dHB1dCwgY29tbWFuZFBsYW4uU2NyaXB0QXJncy4uLikKCVJ1bkhvb2tTY3JpcHQoImV4dHJhLnNoIiwgcy5zY3JpcHRzRGlyLCBlbnZWYXJzLCBvbk91dHB1dCwgY29tbWFuZFBsYW4uU2NyaXB0QXJncy4uLikKCgllbmRUaW1lIDo9IHRpbWUuTm93KCkKCWR1cmF0aW9uIDo9IGVuZFRpbWUuU3ViKHN0YXJ0VGltZSkuU2Vjb25kcygpCgoJY29tcGxldGlvbk5vdGUgOj0gIiIKCWlmIHN1Y2Nlc3MgJiYgbGFzdEV4aXRDb2RlICE9IDAgewoJCWNvbXBsZXRpb25Ob3RlID0gIu+8iOW3suaMieS7u+WKoemFjee9ruWIpOWumuaIkOWKn++8iSIKCX0KCW9uT3V0cHV0KGZtdC5TcHJpbnRmKCI9PT0g5omn6KGM57uT5p2fIFslc10g6ICX5pe2ICUuMmYg56eSIOmAgOWHuueggSAlZCVzID09PVxuIiwKCQllbmRUaW1lLkZvcm1hdCgiMjAwNi0wMS0wMiAxNTowNDowNSIpLCBkdXJhdGlvbiwgbGFzdEV4aXRDb2RlLCBjb21wbGV0aW9uTm90ZSkpCgoJcnVuU3RhdHVzIDo9IG1vZGVsLlJ1blN1Y2Nlc3MKCWxvZ1N0YXR1cyA6PSBtb2RlbC5Mb2dTdGF0dXNTdWNjZXNzCglpZiAhc3VjY2VzcyB7CgkJcnVuU3RhdHVzID0gbW9kZWwuUnVuRmFpbGVkCgkJbG9nU3RhdHVzID0gbW9kZWwuTG9nU3RhdHVzRmFpbGVkCgl9CgoJLy8g5Li75Yqo5YGc5q2i77ya57uf5LiA57uT566X5Li6IEFib3J0ZWTvvIzpgb/lhY3mt7flhaXmiJDlip/miJblpLHotKXnu5/orqHjgIIKCS8vIGFwcGx5TWFudWFsU3RvcE92ZXJyaWRlIOivu+WNs+a4heagh+iusO+8jOiHqueEtuWujOaIkOaXtui/lOWbnuWOn+eKtuaAgeOAggoJcnVuU3RhdHVzLCBsb2dTdGF0dXMsIF8gPSBhcHBseU1hbnVhbFN0b3BPdmVycmlkZSh0YXNrSUQsIHJ1blN0YXR1cywgbG9nU3RhdHVzKQoKCWRhdGFiYXNlLkRCLk1vZGVsKCZ0YXNrKS5VcGRhdGVzKG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJInN0YXR1cyI6ICAgICAgICAgICAgbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQsCgkJImxhc3RfcnVuX3N0YXR1cyI6ICAgcnVuU3RhdHVzLAoJCSJsYXN0X3J1bm5pbmdfdGltZSI6IGR1cmF0aW9uLAoJCSJwaWQiOiAgICAgICAgICAgICAgIGdvcm0uRXhwcigiTlVMTCIpLAoJCSJsb2dfcGF0aCI6ICAgICAgICAgIGdvcm0uRXhwcigiTlVMTCIpLAoJfSkKCgllbmROb3cgOj0gdGltZS5Ob3coKQoJZGF0YWJhc2UuREIuTW9kZWwoJnRhc2tMb2cpLlVwZGF0ZXMobWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkiZW5kZWRfYXQiOiBlbmROb3csCgkJImR1cmF0aW9uIjogZHVyYXRpb24sCgkJInN0YXR1cyI6ICAgbG9nU3RhdHVzLAoJfSkKCglzLnByb2Nlc3NMb2NrLkxvY2soKQoJZGVsZXRlKHMucnVubmluZ1Byb2Nlc3NlcywgdGFza0lEKQoJcy5wcm9jZXNzTG9jay5VbmxvY2soKQoKCWxzbS5DbG9zZVN0cmVhbShsb2dGdWxsUGF0aCkKCglzLmxvZ0xvY2suTG9jaygpCglzLmxpdmVEb25lW3Rhc2tJRF0gPSB0cnVlCglzLmxvZ0xvY2suVW5sb2NrKCkKCglnbyBmdW5jKCkgewoJCXRpbWUuU2xlZXAoNjAgKiB0aW1lLlNlY29uZCkKCQlzLmxvZ0xvY2suTG9jaygpCgkJZGVsZXRlKHMubGl2ZUxvZ3MsIHRhc2tJRCkKCQlzLmxvZ0xvY2suVW5sb2NrKCkKCQl0aW1lLlNsZWVwKDQgKiB0aW1lLk1pbnV0ZSkKCQlzLmxvZ0xvY2suTG9jaygpCgkJZGVsZXRlKHMubGl2ZURvbmUsIHRhc2tJRCkKCQlzLmxvZ0xvY2suVW5sb2NrKCkKCX0oKQp9CgpmdW5jIHRvQ3JvblYzKGV4cHJlc3Npb24gc3RyaW5nKSBzdHJpbmcgewoJZXhwcmVzc2lvbiA9IHN0cmluZ3MuVHJpbVNwYWNlKGV4cHJlc3Npb24pCglwYXJ0cyA6PSBzdHJpbmdzLkZpZWxkcyhleHByZXNzaW9uKQoKCXJlc3VsdCA6PSBjcm9udS5QYXJzZShleHByZXNzaW9uKQoJaWYgIXJlc3VsdC5WYWxpZCB7CgkJcmV0dXJuICIiCgl9CgoJaWYgbGVuKHBhcnRzKSA9PSA1IHsKCQlyZXR1cm4gIjAgIiArIGV4cHJlc3Npb24KCX0KCWlmIGxlbihwYXJ0cykgPT0gNiB7CgkJcmV0dXJuIGV4cHJlc3Npb24KCX0KCXJldHVybiAiIgp9CgpmdW5jIEdldFRhc2tTdGF0cyh0YXNrSUQgdWludCwgZGF5cyBpbnQpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJc2luY2UgOj0gdGltZS5Ob3coKS5BZGREYXRlKDAsIDAsIC1kYXlzKQoKCXZhciB0YXNrIG1vZGVsLlRhc2sKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5GaXJzdCgmdGFzaywgdGFza0lEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbAoJfQoKCXZhciBsb2dzIFtdbW9kZWwuVGFza0xvZwoJZGF0YWJhc2UuREIuV2hlcmUoInRhc2tfaWQgPSA/IEFORCBzdGFydGVkX2F0ID4gPyIsIHRhc2tJRCwgc2luY2UpLgoJCU9yZGVyKCJzdGFydGVkX2F0IERFU0MiKS5GaW5kKCZsb2dzKQoKCXRvdGFsUnVucyA6PSBsZW4obG9ncykKCXN1Y2Nlc3NSdW5zIDo9IDAKCWZhaWxlZFJ1bnMgOj0gMAoJYWJvcnRlZFJ1bnMgOj0gMAoJdmFyIHRvdGFsRHVyYXRpb24sIG1heER1cmF0aW9uLCBtaW5EdXJhdGlvbiBmbG9hdDY0CgltaW5EdXJhdGlvbiA9IC0xCgoJZm9yIF8sIGwgOj0gcmFuZ2UgbG9ncyB7CgkJaWYgbC5TdGF0dXMgIT0gbmlsIHsKCQkJaWYgKmwuU3RhdHVzID09IG1vZGVsLkxvZ1N0YXR1c1N1Y2Nlc3MgewoJCQkJc3VjY2Vzc1J1bnMrKwoJCQl9IGVsc2UgaWYgKmwuU3RhdHVzID09IG1vZGVsLkxvZ1N0YXR1c0ZhaWxlZCB7CgkJCQlmYWlsZWRSdW5zKysKCQkJfSBlbHNlIGlmICpsLlN0YXR1cyA9PSBtb2RlbC5Mb2dTdGF0dXNBYm9ydGVkIHsKCQkJCWFib3J0ZWRSdW5zKysKCQkJfQoJCX0KCQlpZiBsLkR1cmF0aW9uICE9IG5pbCB7CgkJCXRvdGFsRHVyYXRpb24gKz0gKmwuRHVyYXRpb24KCQkJaWYgKmwuRHVyYXRpb24gPiBtYXhEdXJhdGlvbiB7CgkJCQltYXhEdXJhdGlvbiA9ICpsLkR1cmF0aW9uCgkJCX0KCQkJaWYgbWluRHVyYXRpb24gPCAwIHx8ICpsLkR1cmF0aW9uIDwgbWluRHVyYXRpb24gewoJCQkJbWluRHVyYXRpb24gPSAqbC5EdXJhdGlvbgoJCQl9CgkJfQoJfQoKCWF2Z0R1cmF0aW9uIDo9IDAuMAoJaWYgdG90YWxSdW5zID4gMCB7CgkJYXZnRHVyYXRpb24gPSB0b3RhbER1cmF0aW9uIC8gZmxvYXQ2NCh0b3RhbFJ1bnMpCgl9CglpZiBtaW5EdXJhdGlvbiA8IDAgewoJCW1pbkR1cmF0aW9uID0gMAoJfQoKCXN1Y2Nlc3NSYXRlIDo9IDAuMAoJLy8g5oiQ5Yqf546H5Y+q57uf6K6h6Ieq54S25a6M5oiQ55qE5oiQ5YqfIC8g5aSx6LSl77yMQWJvcnRlZCDljZXni6znu5/orqHvvIzkuI3mi4nkvY7miJDlip/njofjgIIKCWZpbmlzaGVkUnVucyA6PSBzdWNjZXNzUnVucyArIGZhaWxlZFJ1bnMKCWlmIGZpbmlzaGVkUnVucyA+IDAgewoJCXN1Y2Nlc3NSYXRlID0gZmxvYXQ2NChzdWNjZXNzUnVucykgLyBmbG9hdDY0KGZpbmlzaGVkUnVucykgKiAxMDAKCX0KCglyZWNlbnRMb2dzIDo9IGxvZ3MKCWlmIGxlbihyZWNlbnRMb2dzKSA+IDEwIHsKCQlyZWNlbnRMb2dzID0gcmVjZW50TG9nc1s6MTBdCgl9CgoJcmVjZW50RGF0YSA6PSBtYWtlKFtdbWFwW3N0cmluZ11pbnRlcmZhY2V7fSwgbGVuKHJlY2VudExvZ3MpKQoJZm9yIGksIGwgOj0gcmFuZ2UgcmVjZW50TG9ncyB7CgkJcmVjZW50RGF0YVtpXSA9IG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCSJpZCI6ICAgICAgICAgbC5JRCwKCQkJInN0YXJ0ZWRfYXQiOiBsLlN0YXJ0ZWRBdCwKCQkJImVuZGVkX2F0IjogICBsLkVuZGVkQXQsCgkJCSJzdGF0dXMiOiAgICAgbC5TdGF0dXMsCgkJCSJkdXJhdGlvbiI6ICAgbC5EdXJhdGlvbiwKCQl9Cgl9CgoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJInRhc2tfaWQiOiAgICAgdGFza0lELAoJCSJ0YXNrX25hbWUiOiAgIHRhc2suTmFtZSwKCQkicGVyaW9kX2RheXMiOiBkYXlzLAoJCSJzdGF0cyI6IG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJCSJ0b3RhbF9ydW5zIjogICB0b3RhbFJ1bnMsCgkJCSJzdWNjZXNzX3J1bnMiOiBzdWNjZXNzUnVucywKCQkJImZhaWxlZF9ydW5zIjogIGZhaWxlZFJ1bnMsCgkJCSJhYm9ydGVkX3J1bnMiOiBhYm9ydGVkUnVucywKCQkJInN1Y2Nlc3NfcmF0ZSI6IHJvdW5kRmxvYXQoc3VjY2Vzc1JhdGUsIDIpLAoJCQkiYXZnX2R1cmF0aW9uIjogcm91bmRGbG9hdChhdmdEdXJhdGlvbiwgMiksCgkJCSJtYXhfZHVyYXRpb24iOiByb3VuZEZsb2F0KG1heER1cmF0aW9uLCAyKSwKCQkJIm1pbl9kdXJhdGlvbiI6IHJvdW5kRmxvYXQobWluRHVyYXRpb24sIDIpLAoJCX0sCgkJInJlY2VudF9sb2dzIjogcmVjZW50RGF0YSwKCX0KfQoKZnVuYyByb3VuZEZsb2F0KHZhbCBmbG9hdDY0LCBwcmVjaXNpb24gaW50KSBmbG9hdDY0IHsKCXAgOj0gMS4wCglmb3IgaSA6PSAwOyBpIDwgcHJlY2lzaW9uOyBpKysgewoJCXAgKj0gMTAKCX0KCXJlc3VsdCwgXyA6PSBzdHJjb252LlBhcnNlRmxvYXQoZm10LlNwcmludGYoIiUuKmYiLCBwcmVjaXNpb24sIHZhbCksIDY0KQoJcmV0dXJuIHJlc3VsdAp9Cg==
+package service
+
+import (
+	"fmt"
+	"log"
+	"math/rand"
+	"os"
+	"path/filepath"
+	"strconv"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	cronu "daidai-panel/pkg/cron"
+
+	"github.com/robfig/cron/v3"
+	"gorm.io/gorm"
+)
+
+type Scheduler struct {
+	mu               sync.Mutex
+	cron             *cron.Cron
+	entryMap         map[uint]cron.EntryID
+	runningProcesses map[uint]*os.Process
+	processLock      sync.Mutex
+	semaphore        chan struct{}
+	liveLogs         map[uint][]string
+	liveDone         map[uint]bool
+	logLock          sync.Mutex
+	scriptsDir       string
+	logDir           string
+}
+
+var scheduler *Scheduler
+
+func InitScheduler() {
+	maxConcurrent := model.GetRegisteredConfigInt("max_concurrent_tasks")
+
+	scheduler = &Scheduler{
+		cron:             cron.New(cron.WithSeconds(), cron.WithChain(cron.Recover(cron.DefaultLogger))),
+		entryMap:         make(map[uint]cron.EntryID),
+		runningProcesses: make(map[uint]*os.Process),
+		semaphore:        make(chan struct{}, maxConcurrent),
+		liveLogs:         make(map[uint][]string),
+		liveDone:         make(map[uint]bool),
+		scriptsDir:       config.C.Data.ScriptsDir,
+		logDir:           config.C.Data.LogDir,
+	}
+
+	var tasks []model.Task
+	database.DB.Where("status = ?", model.TaskStatusEnabled).Find(&tasks)
+
+	for _, task := range tasks {
+		scheduler.AddJob(&task)
+	}
+
+	scheduler.cron.Start()
+	log.Printf("scheduler started, loaded %d tasks", len(tasks))
+}
+
+func ShutdownScheduler() {
+	if scheduler == nil {
+		return
+	}
+
+	ctx := scheduler.cron.Stop()
+	<-ctx.Done()
+
+	deadline := time.After(60 * time.Second)
+	for {
+		scheduler.processLock.Lock()
+		count := len(scheduler.runningProcesses)
+		scheduler.processLock.Unlock()
+
+		if count == 0 {
+			break
+		}
+
+		select {
+		case <-deadline:
+			scheduler.processLock.Lock()
+			for _, p := range scheduler.runningProcesses {
+				p.Kill()
+			}
+			scheduler.processLock.Unlock()
+			return
+		default:
+			time.Sleep(2 * time.Second)
+		}
+	}
+
+	GetLogStreamManager().CloseAll()
+}
+
+func GetScheduler() *Scheduler {
+	return scheduler
+}
+
+func (s *Scheduler) AddJob(task *model.Task) {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	if oldID, exists := s.entryMap[task.ID]; exists {
+		s.cron.Remove(oldID)
+		delete(s.entryMap, task.ID)
+	}
+
+	if task.Status != model.TaskStatusEnabled {
+		return
+	}
+
+	cronExpr := toCronV3(task.CronExpression)
+	if cronExpr == "" {
+		log.Printf("invalid cron expression for task %d: %s", task.ID, task.CronExpression)
+		return
+	}
+
+	taskID := task.ID
+	entryID, err := s.cron.AddFunc(cronExpr, func() {
+		s.executeTask(taskID)
+	})
+	if err != nil {
+		log.Printf("failed to add cron job for task %d: %v", task.ID, err)
+		return
+	}
+
+	s.entryMap[task.ID] = entryID
+}
+
+func (s *Scheduler) UpdateJob(task *model.Task) {
+	s.AddJob(task)
+}
+
+func (s *Scheduler) RemoveJob(taskID uint) {
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	if entryID, exists := s.entryMap[taskID]; exists {
+		s.cron.Remove(entryID)
+		delete(s.entryMap, taskID)
+	}
+}
+
+func (s *Scheduler) RunTaskNow(task *model.Task) {
+	go s.executeTask(task.ID)
+}
+
+func (s *Scheduler) StopRunningTask(taskID uint) bool {
+	s.processLock.Lock()
+	defer s.processLock.Unlock()
+
+	if p, ok := s.runningProcesses[taskID]; ok {
+		// 先打"手动停止"标记再 kill，保证完成块结算时标记已可见。
+		markManualStop(taskID)
+		KillProcessGroup(p)
+		delete(s.runningProcesses, taskID)
+		return true
+	}
+	return false
+}
+
+func (s *Scheduler) GetLiveLog(taskID uint) ([]string, bool) {
+	s.logLock.Lock()
+	defer s.logLock.Unlock()
+
+	lines, _ := s.liveLogs[taskID]
+	done, _ := s.liveDone[taskID]
+
+	result := make([]string, len(lines))
+	copy(result, lines)
+	return result, done
+}
+
+func (s *Scheduler) executeTask(taskID uint) {
+	s.semaphore <- struct{}{}
+	defer func() { <-s.semaphore }()
+
+	defer func() {
+		if r := recover(); r != nil {
+			log.Printf("task %d panicked: %v", taskID, r)
+			database.DB.Model(&model.Task{}).Where("id = ?", taskID).Updates(map[string]interface{}{
+				"status":          model.TaskStatusEnabled,
+				"last_run_status": model.RunFailed,
+				"pid":             gorm.Expr("NULL"),
+				"log_path":        gorm.Expr("NULL"),
+			})
+			s.logLock.Lock()
+			s.liveDone[taskID] = true
+			s.logLock.Unlock()
+		}
+	}()
+
+	s.executeTaskInner(taskID)
+}
+
+func (s *Scheduler) executeTaskInner(taskID uint) {
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		log.Printf("task %d not found: %v", taskID, err)
+		return
+	}
+
+	if !task.AllowMultipleInstances {
+		s.processLock.Lock()
+		if _, running := s.runningProcesses[taskID]; running {
+			s.processLock.Unlock()
+			return
+		}
+		s.processLock.Unlock()
+	}
+
+	if task.DependsOn != nil {
+		var depTask model.Task
+		if err := database.DB.First(&depTask, *task.DependsOn).Error; err == nil {
+			if depTask.LastRunStatus == nil || *depTask.LastRunStatus != model.RunSuccess {
+				status := model.LogStatusFailed
+				taskLog := model.TaskLog{
+					TaskID:    taskID,
+					Content:   fmt.Sprintf("跳过: 依赖任务 '%s' 上次执行未成功", depTask.Name),
+					Status:    &status,
+					StartedAt: time.Now(),
+				}
+				now := time.Now()
+				taskLog.EndedAt = &now
+				database.DB.Create(&taskLog)
+				return
+			}
+		}
+	}
+
+	commandPlan, err := ParseCommandExecutionPlan(task.Command, s.scriptsDir)
+	if err != nil {
+		log.Printf("task %d parse command failed: %v", taskID, err)
+		return
+	}
+
+	maxLogSize := model.GetRegisteredConfigInt("max_log_content_size")
+
+	if randomDelay := resolveTaskRandomDelaySeconds(&task, commandPlan); randomDelay > 0 {
+		delay := rand.Intn(randomDelay) + 1
+		time.Sleep(time.Duration(delay) * time.Second)
+	}
+
+	var envVarRecords []model.EnvVar
+	// 使用稳定排序并按 name 分组合并，与 runtime_exec.BuildManagedRuntimeEnvMap 保持一致；
+	// 避免原实现"后者覆盖前者"导致同名变量只有 1 个账号生效。
+	database.DB.Where("enabled = ?", true).
+		Order("sort_order DESC, position ASC, created_at ASC, id ASC").
+		Find(&envVarRecords)
+	envGrouped := make(map[string][]string)
+	envOrder := make([]string, 0, len(envVarRecords))
+	for _, e := range envVarRecords {
+		if _, ok := envGrouped[e.Name]; !ok {
+			envOrder = append(envOrder, e.Name)
+		}
+		envGrouped[e.Name] = append(envGrouped[e.Name], e.Value)
+	}
+	envVars := make(map[string]string, len(envGrouped))
+	for _, name := range envOrder {
+		envVars[name] = joinTaskEnvValues(envGrouped[name])
+	}
+
+	timeout := task.Timeout
+	if timeout < 0 {
+		timeout = 0
+	}
+	if commandPlan.TimeoutOverride != nil && *commandPlan.TimeoutOverride > 0 {
+		timeout = *commandPlan.TimeoutOverride
+	}
+
+	logRelPath := GetRelativeLogPathForTask(&task)
+	logFullPath := filepath.Join(s.logDir, logRelPath)
+
+	status := model.LogStatusRunning
+	taskLog := model.TaskLog{
+		TaskID:    taskID,
+		Status:    &status,
+		LogPath:   &logRelPath,
+		StartedAt: time.Now(),
+	}
+	database.DB.Create(&taskLog)
+
+	now := time.Now()
+	task.Status = model.TaskStatusRunning
+	task.LastRunAt = &now
+	task.LogPath = &logRelPath
+	database.DB.Save(&task)
+
+	s.logLock.Lock()
+	s.liveLogs[taskID] = []string{}
+	s.liveDone[taskID] = false
+	s.logLock.Unlock()
+
+	lsm := GetLogStreamManager()
+
+	onOutput := func(chunk string) {
+		lsm.Write(logFullPath, chunk)
+		s.logLock.Lock()
+		s.liveLogs[taskID] = append(s.liveLogs[taskID], chunk)
+		s.logLock.Unlock()
+	}
+
+	startTime := time.Now()
+	onOutput(fmt.Sprintf("=== 开始执行 [%s] ===\n", startTime.Format("2006-01-02 15:04:05")))
+
+	if task.TaskBefore != nil && *task.TaskBefore != "" {
+		onOutput("[执行前置脚本]\n")
+		RunInlineScript(*task.TaskBefore, s.scriptsDir, envVars, 60, onOutput, commandPlan.ScriptArgs...)
+	}
+
+	RunHookScript("task_before.sh", s.scriptsDir, envVars, onOutput, commandPlan.ScriptArgs...)
+
+	success := false
+	retries := 0
+	var lastExitCode int
+
+	for retries <= task.MaxRetries {
+		if retries > 0 {
+			onOutput(fmt.Sprintf("[第 %d 次重试，等待 %d 秒]\n", retries, task.RetryInterval))
+			time.Sleep(time.Duration(task.RetryInterval) * time.Second)
+		}
+
+		onStart := func(process *os.Process) {
+			s.processLock.Lock()
+			s.runningProcesses[taskID] = process
+			pid := process.Pid
+			s.processLock.Unlock()
+			database.DB.Model(&task).Update("pid", pid)
+		}
+		result, _, err := RunCommandWithPlan(commandPlan, timeout, envVars, maxLogSize, onOutput, onStart)
+		if err != nil {
+			onOutput(fmt.Sprintf("[执行错误: %s]\n", err.Error()))
+			retries++
+			lastExitCode = 1
+			continue
+		}
+
+		lastExitCode = result.ReturnCode
+		if task.IsSuccessExitCode(result.ReturnCode) {
+			success = true
+			break
+		}
+
+		retries++
+	}
+
+	if task.TaskAfter != nil && *task.TaskAfter != "" {
+		onOutput("[执行后置脚本]\n")
+		RunInlineScript(*task.TaskAfter, s.scriptsDir, envVars, 60, onOutput, commandPlan.ScriptArgs...)
+	}
+
+	RunHookScript("task_after.sh", s.scriptsDir, envVars, onOutput, commandPlan.ScriptArgs...)
+	RunHookScript("extra.sh", s.scriptsDir, envVars, onOutput, commandPlan.ScriptArgs...)
+
+	endTime := time.Now()
+	duration := endTime.Sub(startTime).Seconds()
+
+	completionNote := ""
+	if success && lastExitCode != 0 {
+		completionNote = "（已按任务配置判定成功）"
+	}
+	onOutput(fmt.Sprintf("=== 执行结束 [%s] 耗时 %.2f 秒 退出码 %d%s ===\n",
+		endTime.Format("2006-01-02 15:04:05"), duration, lastExitCode, completionNote))
+
+	runStatus := model.RunSuccess
+	logStatus := model.LogStatusSuccess
+	if !success {
+		runStatus = model.RunFailed
+		logStatus = model.LogStatusFailed
+	}
+
+	// 主动停止：统一结算为 Aborted，避免混入成功或失败统计。
+	// applyManualStopOverride 读即清标记，自然完成时返回原状态。
+	runStatus, logStatus, _ = applyManualStopOverride(taskID, runStatus, logStatus)
+
+	database.DB.Model(&task).Updates(map[string]interface{}{
+		"status":            model.TaskStatusEnabled,
+		"last_run_status":   runStatus,
+		"last_running_time": duration,
+		"pid":               gorm.Expr("NULL"),
+		"log_path":          gorm.Expr("NULL"),
+	})
+
+	endNow := time.Now()
+	database.DB.Model(&taskLog).Updates(map[string]interface{}{
+		"ended_at": endNow,
+		"duration": duration,
+		"status":   logStatus,
+	})
+
+	s.processLock.Lock()
+	delete(s.runningProcesses, taskID)
+	s.processLock.Unlock()
+
+	lsm.CloseStream(logFullPath)
+
+	s.logLock.Lock()
+	s.liveDone[taskID] = true
+	s.logLock.Unlock()
+
+	go func() {
+		time.Sleep(60 * time.Second)
+		s.logLock.Lock()
+		delete(s.liveLogs, taskID)
+		s.logLock.Unlock()
+		time.Sleep(4 * time.Minute)
+		s.logLock.Lock()
+		delete(s.liveDone, taskID)
+		s.logLock.Unlock()
+	}()
+}
+
+func toCronV3(expression string) string {
+	expression = strings.TrimSpace(expression)
+	parts := strings.Fields(expression)
+
+	result := cronu.Parse(expression)
+	if !result.Valid {
+		return ""
+	}
+
+	if len(parts) == 5 {
+		return "0 " + expression
+	}
+	if len(parts) == 6 {
+		return expression
+	}
+	return ""
+}
+
+func GetTaskStats(taskID uint, days int) map[string]interface{} {
+	since := time.Now().AddDate(0, 0, -days)
+
+	var task model.Task
+	if err := database.DB.First(&task, taskID).Error; err != nil {
+		return nil
+	}
+
+	var logs []model.TaskLog
+	database.DB.Where("task_id = ? AND started_at > ?", taskID, since).
+		Order("started_at DESC").Find(&logs)
+
+	totalRuns := len(logs)
+	successRuns := 0
+	failedRuns := 0
+	abortedRuns := 0
+	var totalDuration, maxDuration, minDuration float64
+	minDuration = -1
+
+	for _, l := range logs {
+		if l.Status != nil {
+			if *l.Status == model.LogStatusSuccess {
+				successRuns++
+			} else if *l.Status == model.LogStatusFailed {
+				failedRuns++
+			} else if *l.Status == model.LogStatusAborted {
+				abortedRuns++
+			}
+		}
+		if l.Duration != nil {
+			totalDuration += *l.Duration
+			if *l.Duration > maxDuration {
+				maxDuration = *l.Duration
+			}
+			if minDuration < 0 || *l.Duration < minDuration {
+				minDuration = *l.Duration
+			}
+		}
+	}
+
+	avgDuration := 0.0
+	if totalRuns > 0 {
+		avgDuration = totalDuration / float64(totalRuns)
+	}
+	if minDuration < 0 {
+		minDuration = 0
+	}
+
+	successRate := 0.0
+	// 成功率只统计自然完成的成功 / 失败，Aborted 单独统计，不拉低成功率。
+	finishedRuns := successRuns + failedRuns
+	if finishedRuns > 0 {
+		successRate = float64(successRuns) / float64(finishedRuns) * 100
+	}
+
+	recentLogs := logs
+	if len(recentLogs) > 10 {
+		recentLogs = recentLogs[:10]
+	}
+
+	recentData := make([]map[string]interface{}, len(recentLogs))
+	for i, l := range recentLogs {
+		recentData[i] = map[string]interface{}{
+			"id":         l.ID,
+			"started_at": l.StartedAt,
+			"ended_at":   l.EndedAt,
+			"status":     l.Status,
+			"duration":   l.Duration,
+		}
+	}
+
+	return map[string]interface{}{
+		"task_id":     taskID,
+		"task_name":   task.Name,
+		"period_days": days,
+		"stats": map[string]interface{}{
+			"total_runs":   totalRuns,
+			"success_runs": successRuns,
+			"failed_runs":  failedRuns,
+			"aborted_runs": abortedRuns,
+			"success_rate": roundFloat(successRate, 2),
+			"avg_duration": roundFloat(avgDuration, 2),
+			"max_duration": roundFloat(maxDuration, 2),
+			"min_duration": roundFloat(minDuration, 2),
+		},
+		"recent_logs": recentData,
+	}
+}
+
+func roundFloat(val float64, precision int) float64 {
+	p := 1.0
+	for i := 0; i < precision; i++ {
+		p *= 10
+	}
+	result, _ := strconv.ParseFloat(fmt.Sprintf("%.*f", precision, val), 64)
+	return result
+}

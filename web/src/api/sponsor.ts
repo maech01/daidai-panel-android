@@ -1,1 +1,25 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGludGVyZmFjZSBTcG9uc29yUmVjb3JkIHsKICBpZDogbnVtYmVyCiAgbmFtZTogc3RyaW5nCiAgYW1vdW50OiBudW1iZXIKICBhdmF0YXJfdXJsOiBzdHJpbmcKICBpbml0aWFsOiBzdHJpbmcKICBjcmVhdGVkX2F0OiBzdHJpbmcKICB1cGRhdGVkX2F0OiBzdHJpbmcKfQoKZXhwb3J0IGludGVyZmFjZSBTcG9uc29yU3VtbWFyeSB7CiAgc3BvbnNvcnM6IFNwb25zb3JSZWNvcmRbXQogIGNvdW50OiBudW1iZXIKICB0b3RhbF9hbW91bnQ6IG51bWJlcgogIHVwZGF0ZWRfYXQ6IHN0cmluZyB8IG51bGwKICB1bmF2YWlsYWJsZT86IGJvb2xlYW4KfQoKZXhwb3J0IGNvbnN0IHNwb25zb3JBcGkgPSB7CiAgbGlzdCgpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL3Nwb25zb3JzJykgYXMgUHJvbWlzZTx7IGRhdGE6IFNwb25zb3JTdW1tYXJ5IH0+CiAgfQp9Cg==
+import request from './request'
+
+export interface SponsorRecord {
+  id: number
+  name: string
+  amount: number
+  avatar_url: string
+  initial: string
+  created_at: string
+  updated_at: string
+}
+
+export interface SponsorSummary {
+  sponsors: SponsorRecord[]
+  count: number
+  total_amount: number
+  updated_at: string | null
+  unavailable?: boolean
+}
+
+export const sponsorApi = {
+  list() {
+    return request.get('/sponsors') as Promise<{ data: SponsorSummary }>
+  }
+}

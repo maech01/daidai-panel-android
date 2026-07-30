@@ -1,1 +1,120 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNvbnRleHQiCgkiZm10IgoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKZnVuYyBHaXRDbG9uZSh1cmwsIGJyYW5jaCwgZGVzdERpciBzdHJpbmcsIHNzaEtleVBhdGggc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGRlc3REaXIsIDA3NTUpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuWIm+W7uuebruW9leWksei0pTogJXciLCBlcnIpCgl9CgoJYXJncyA6PSBbXXN0cmluZ3siY2xvbmUiLCAiLS1kZXB0aCIsICIxIn0KCWlmIGJyYW5jaCAhPSAiIiB7CgkJYXJncyA9IGFwcGVuZChhcmdzLCAiLWIiLCBicmFuY2gpCgl9CglhcmdzID0gYXBwZW5kKGFyZ3MsIHVybCwgZGVzdERpcikKCgljbWQgOj0gZXhlYy5Db21tYW5kKCJnaXQiLCBhcmdzLi4uKQoJY21kLkRpciA9IGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpcgoKCWF1dGhDZmcsIGVyciA6PSBidWlsZEdpdEF1dGhDb25maWcob3MuRW52aXJvbigpLCB1cmwsICZtb2RlbC5TdWJzY3JpcHRpb257CgkJVVJMOiAgICAgIHVybCwKCQlTU0hLZXlJRDogbmlsLAoJfSwgc3NoS2V5UGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZXJyCgl9CglkZWZlciBhdXRoQ2ZnLkNsZWFudXBGdW5jKCkKCWNtZC5FbnYgPSBhdXRoQ2ZnLkVudgoKCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCglyZXR1cm4gc3RyaW5nKG91dHB1dCksIGVycgp9CgpmdW5jIEdpdFB1bGwocmVwb0RpciBzdHJpbmcsIHNzaEtleVBhdGggc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJY21kIDo9IGV4ZWMuQ29tbWFuZCgiZ2l0IiwgInB1bGwiKQoJY21kLkRpciA9IHJlcG9EaXIKCglhdXRoQ2ZnLCBlcnIgOj0gYnVpbGRHaXRBdXRoQ29uZmlnKG9zLkVudmlyb24oKSwgIiIsICZtb2RlbC5TdWJzY3JpcHRpb257fSwgc3NoS2V5UGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZXJyCgl9CglkZWZlciBhdXRoQ2ZnLkNsZWFudXBGdW5jKCkKCWNtZC5FbnYgPSBhdXRoQ2ZnLkVudgoKCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCglyZXR1cm4gc3RyaW5nKG91dHB1dCksIGVycgp9CgpmdW5jIEdpdFJlc2V0KHJlcG9EaXIgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJY21kIDo9IGV4ZWMuQ29tbWFuZCgiZ2l0IiwgInJlc2V0IiwgIi0taGFyZCIpCgljbWQuRGlyID0gcmVwb0RpcgoKCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gc3RyaW5nKG91dHB1dCksIGVycgoJfQoKCWNtZDIgOj0gZXhlYy5Db21tYW5kKCJnaXQiLCAiY2xlYW4iLCAiLWZkIikKCWNtZDIuRGlyID0gcmVwb0RpcgoJb3V0cHV0MiwgZXJyMiA6PSBjbWQyLkNvbWJpbmVkT3V0cHV0KCkKCXJldHVybiBzdHJpbmcob3V0cHV0KSArICJcbiIgKyBzdHJpbmcob3V0cHV0MiksIGVycjIKfQoKZnVuYyBJc0dpdFJlcG8oZGlyIHN0cmluZykgYm9vbCB7CglnaXREaXIgOj0gZmlsZXBhdGguSm9pbihkaXIsICIuZ2l0IikKCWluZm8sIGVyciA6PSBvcy5TdGF0KGdpdERpcikKCXJldHVybiBlcnIgPT0gbmlsICYmIGluZm8uSXNEaXIoKQp9CgpmdW5jIERvd25sb2FkRmlsZSh1cmwsIGRlc3RQYXRoIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCXJldHVybiBEb3dubG9hZEZpbGVXaXRoQ29udGV4dChjb250ZXh0LkJhY2tncm91bmQoKSwgdXJsLCBkZXN0UGF0aCkKfQoKZnVuYyBEb3dubG9hZEZpbGVXaXRoQ29udGV4dChjdHggY29udGV4dC5Db250ZXh0LCB1cmwsIGRlc3RQYXRoIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCWRpciA6PSBmaWxlcGF0aC5EaXIoZGVzdFBhdGgpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZGlyLCAwNzU1KTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLliJvlu7rnm67lvZXlpLHotKU6ICV3IiwgZXJyKQoJfQoKCWFyZ3MgOj0gW11zdHJpbmd7Ii1mc1NMIiwgIi1vIiwgZGVzdFBhdGgsIHVybH0KCWNtZCA6PSBleGVjLkNvbW1hbmRDb250ZXh0KGN0eCwgImN1cmwiLCBhcmdzLi4uKQoJY21kLkVudiA9IEFwcGVuZFByb3h5RW52KG9zLkVudmlyb24oKSkKCW91dHB1dCwgZXJyIDo9IGNtZC5Db21iaW5lZE91dHB1dCgpCglpZiBlcnIgIT0gbmlsIHsKCQlhcmdzID0gW11zdHJpbmd7Ii1xIiwgIi1PIiwgZGVzdFBhdGgsIHVybH0KCQljbWQgPSBleGVjLkNvbW1hbmRDb250ZXh0KGN0eCwgIndnZXQiLCBhcmdzLi4uKQoJCWNtZC5FbnYgPSBBcHBlbmRQcm94eUVudihvcy5FbnZpcm9uKCkpCgkJb3V0cHV0LCBlcnIgPSBjbWQuQ29tYmluZWRPdXRwdXQoKQoJfQoJcmV0dXJuIHN0cmluZyhvdXRwdXQpLCBlcnIKfQoKZnVuYyBMaXN0UmVwb0ZpbGVzKHJlcG9EaXIgc3RyaW5nKSAoW11zdHJpbmcsIGVycm9yKSB7Cgl2YXIgZmlsZXMgW11zdHJpbmcKCWVyciA6PSBmaWxlcGF0aC5XYWxrKHJlcG9EaXIsIGZ1bmMocGF0aCBzdHJpbmcsIGluZm8gb3MuRmlsZUluZm8sIGVyciBlcnJvcikgZXJyb3IgewoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJCWlmIGluZm8uSXNEaXIoKSB7CgkJCWlmIGluZm8uTmFtZSgpID09ICIuZ2l0IiB8fCBpbmZvLk5hbWUoKSA9PSAibm9kZV9tb2R1bGVzIiB7CgkJCQlyZXR1cm4gZmlsZXBhdGguU2tpcERpcgoJCQl9CgkJCXJldHVybiBuaWwKCQl9CgkJcmVsLCBfIDo9IGZpbGVwYXRoLlJlbChyZXBvRGlyLCBwYXRoKQoJCXJlbCA9IHN0cmluZ3MuUmVwbGFjZUFsbChyZWwsICJcXCIsICIvIikKCQlmaWxlcyA9IGFwcGVuZChmaWxlcywgcmVsKQoJCXJldHVybiBuaWwKCX0pCglyZXR1cm4gZmlsZXMsIGVycgp9Cg==
+package service
+
+import (
+	"context"
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+)
+
+func GitClone(url, branch, destDir string, sshKeyPath string) (string, error) {
+	if err := os.MkdirAll(destDir, 0755); err != nil {
+		return "", fmt.Errorf("创建目录失败: %w", err)
+	}
+
+	args := []string{"clone", "--depth", "1"}
+	if branch != "" {
+		args = append(args, "-b", branch)
+	}
+	args = append(args, url, destDir)
+
+	cmd := exec.Command("git", args...)
+	cmd.Dir = config.C.Data.ScriptsDir
+
+	authCfg, err := buildGitAuthConfig(os.Environ(), url, &model.Subscription{
+		URL:      url,
+		SSHKeyID: nil,
+	}, sshKeyPath)
+	if err != nil {
+		return "", err
+	}
+	defer authCfg.CleanupFunc()
+	cmd.Env = authCfg.Env
+
+	output, err := cmd.CombinedOutput()
+	return string(output), err
+}
+
+func GitPull(repoDir string, sshKeyPath string) (string, error) {
+	cmd := exec.Command("git", "pull")
+	cmd.Dir = repoDir
+
+	authCfg, err := buildGitAuthConfig(os.Environ(), "", &model.Subscription{}, sshKeyPath)
+	if err != nil {
+		return "", err
+	}
+	defer authCfg.CleanupFunc()
+	cmd.Env = authCfg.Env
+
+	output, err := cmd.CombinedOutput()
+	return string(output), err
+}
+
+func GitReset(repoDir string) (string, error) {
+	cmd := exec.Command("git", "reset", "--hard")
+	cmd.Dir = repoDir
+
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		return string(output), err
+	}
+
+	cmd2 := exec.Command("git", "clean", "-fd")
+	cmd2.Dir = repoDir
+	output2, err2 := cmd2.CombinedOutput()
+	return string(output) + "\n" + string(output2), err2
+}
+
+func IsGitRepo(dir string) bool {
+	gitDir := filepath.Join(dir, ".git")
+	info, err := os.Stat(gitDir)
+	return err == nil && info.IsDir()
+}
+
+func DownloadFile(url, destPath string) (string, error) {
+	return DownloadFileWithContext(context.Background(), url, destPath)
+}
+
+func DownloadFileWithContext(ctx context.Context, url, destPath string) (string, error) {
+	dir := filepath.Dir(destPath)
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		return "", fmt.Errorf("创建目录失败: %w", err)
+	}
+
+	args := []string{"-fsSL", "-o", destPath, url}
+	cmd := exec.CommandContext(ctx, "curl", args...)
+	cmd.Env = AppendProxyEnv(os.Environ())
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		args = []string{"-q", "-O", destPath, url}
+		cmd = exec.CommandContext(ctx, "wget", args...)
+		cmd.Env = AppendProxyEnv(os.Environ())
+		output, err = cmd.CombinedOutput()
+	}
+	return string(output), err
+}
+
+func ListRepoFiles(repoDir string) ([]string, error) {
+	var files []string
+	err := filepath.Walk(repoDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil {
+			return err
+		}
+		if info.IsDir() {
+			if info.Name() == ".git" || info.Name() == "node_modules" {
+				return filepath.SkipDir
+			}
+			return nil
+		}
+		rel, _ := filepath.Rel(repoDir, path)
+		rel = strings.ReplaceAll(rel, "\\", "/")
+		files = append(files, rel)
+		return nil
+	})
+	return files, err
+}

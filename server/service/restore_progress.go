@@ -1,1 +1,136 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJzdHJpbmdzIgoJInN5bmMiCgkidGltZSIKKQoKY29uc3QgKAoJUmVzdG9yZVByb2dyZXNzU3RhdHVzSWRsZSAgICAgID0gImlkbGUiCglSZXN0b3JlUHJvZ3Jlc3NTdGF0dXNSdW5uaW5nICAgPSAicnVubmluZyIKCVJlc3RvcmVQcm9ncmVzc1N0YXR1c0NvbXBsZXRlZCA9ICJjb21wbGV0ZWQiCglSZXN0b3JlUHJvZ3Jlc3NTdGF0dXNGYWlsZWQgICAgPSAiZmFpbGVkIgopCgp0eXBlIFJlc3RvcmVQcm9ncmVzcyBzdHJ1Y3QgewoJQWN0aXZlICAgIGJvb2wgICAgICAgICAgICAgYGpzb246ImFjdGl2ZSJgCglTdGF0dXMgICAgc3RyaW5nICAgICAgICAgICBganNvbjoic3RhdHVzImAKCUZpbGVuYW1lICBzdHJpbmcgICAgICAgICAgIGBqc29uOiJmaWxlbmFtZSxvbWl0ZW1wdHkiYAoJU291cmNlICAgIHN0cmluZyAgICAgICAgICAgYGpzb246InNvdXJjZSxvbWl0ZW1wdHkiYAoJU2VsZWN0aW9uICpCYWNrdXBTZWxlY3Rpb24gYGpzb246InNlbGVjdGlvbixvbWl0ZW1wdHkiYAoJU3RhZ2UgICAgIHN0cmluZyAgICAgICAgICAgYGpzb246InN0YWdlLG9taXRlbXB0eSJgCglNZXNzYWdlICAgc3RyaW5nICAgICAgICAgICBganNvbjoibWVzc2FnZSxvbWl0ZW1wdHkiYAoJUGVyY2VudCAgIGludCAgICAgICAgICAgICAgYGpzb246InBlcmNlbnQiYAoJRXJyb3IgICAgIHN0cmluZyAgICAgICAgICAgYGpzb246ImVycm9yLG9taXRlbXB0eSJgCglTdGFydGVkQXQgKnRpbWUuVGltZSAgICAgICBganNvbjoic3RhcnRlZF9hdCxvbWl0ZW1wdHkiYAoJVXBkYXRlZEF0IHRpbWUuVGltZSAgICAgICAgYGpzb246InVwZGF0ZWRfYXQiYAp9Cgp2YXIgcmVzdG9yZVByb2dyZXNzU3RhdGUgPSBzdHJ1Y3QgewoJbXUgICAgICAgc3luYy5SV011dGV4Cglwcm9ncmVzcyBSZXN0b3JlUHJvZ3Jlc3MKfXsKCXByb2dyZXNzOiBSZXN0b3JlUHJvZ3Jlc3N7CgkJU3RhdHVzOiBSZXN0b3JlUHJvZ3Jlc3NTdGF0dXNJZGxlLAoJfSwKfQoKZnVuYyBCZWdpblJlc3RvcmVQcm9ncmVzcyhmaWxlbmFtZSBzdHJpbmcpIGVycm9yIHsKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLm11LkxvY2soKQoJZGVmZXIgcmVzdG9yZVByb2dyZXNzU3RhdGUubXUuVW5sb2NrKCkKCglpZiByZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5BY3RpdmUgewoJCXJldHVybiBmbXQuRXJyb3JmKCLlt7LmnInmgaLlpI3ku7vliqHmraPlnKjov5vooYzvvIzor7fnqI3lkI7lho3or5UiKQoJfQoKCW5vdyA6PSB0aW1lLk5vdygpCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcyA9IFJlc3RvcmVQcm9ncmVzc3sKCQlBY3RpdmU6ICAgIHRydWUsCgkJU3RhdHVzOiAgICBSZXN0b3JlUHJvZ3Jlc3NTdGF0dXNSdW5uaW5nLAoJCUZpbGVuYW1lOiAgc3RyaW5ncy5UcmltU3BhY2UoZmlsZW5hbWUpLAoJCVN0YWdlOiAgICAgInByZXBhcmluZyIsCgkJTWVzc2FnZTogICAi5q2j5Zyo5YeG5aSH5oGi5aSN546v5aKDLi4uIiwKCQlQZXJjZW50OiAgIDMsCgkJU3RhcnRlZEF0OiAmbm93LAoJCVVwZGF0ZWRBdDogbm93LAoJfQoKCXJldHVybiBuaWwKfQoKZnVuYyBVcGRhdGVSZXN0b3JlUHJvZ3Jlc3Moc3RhZ2UsIG1lc3NhZ2Ugc3RyaW5nLCBwZXJjZW50IGludCkgewoJcmVzdG9yZVByb2dyZXNzU3RhdGUubXUuTG9jaygpCglkZWZlciByZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5tdS5VbmxvY2soKQoKCWlmICFyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5BY3RpdmUgJiYgcmVzdG9yZVByb2dyZXNzU3RhdGUucHJvZ3Jlc3MuU3RhdHVzICE9IFJlc3RvcmVQcm9ncmVzc1N0YXR1c1J1bm5pbmcgewoJCXJldHVybgoJfQoKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLlN0YXR1cyA9IFJlc3RvcmVQcm9ncmVzc1N0YXR1c1J1bm5pbmcKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLlN0YWdlID0gc3RyaW5ncy5UcmltU3BhY2Uoc3RhZ2UpCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5NZXNzYWdlID0gc3RyaW5ncy5UcmltU3BhY2UobWVzc2FnZSkKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLlBlcmNlbnQgPSBjbGFtcFJlc3RvcmVQcm9ncmVzc1BlcmNlbnQocGVyY2VudCkKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLkVycm9yID0gIiIKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLlVwZGF0ZWRBdCA9IHRpbWUuTm93KCkKfQoKZnVuYyBCaW5kUmVzdG9yZVByb2dyZXNzUGxhbihzb3VyY2Ugc3RyaW5nLCBzZWxlY3Rpb24gQmFja3VwU2VsZWN0aW9uKSB7CglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5tdS5Mb2NrKCkKCWRlZmVyIHJlc3RvcmVQcm9ncmVzc1N0YXRlLm11LlVubG9jaygpCgoJcHJvZ3Jlc3MgOj0gJnJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzCglpZiBwcm9ncmVzcy5TdGF0dXMgPT0gUmVzdG9yZVByb2dyZXNzU3RhdHVzSWRsZSAmJiAhcHJvZ3Jlc3MuQWN0aXZlIHsKCQlyZXR1cm4KCX0KCglub3JtYWxpemVkIDo9IHNlbGVjdGlvbi5Ob3JtYWxpemVEZWZhdWx0cygpCglwcm9ncmVzcy5Tb3VyY2UgPSBzdHJpbmdzLlRyaW1TcGFjZShzb3VyY2UpCglwcm9ncmVzcy5TZWxlY3Rpb24gPSAmbm9ybWFsaXplZAoJcHJvZ3Jlc3MuVXBkYXRlZEF0ID0gdGltZS5Ob3coKQp9CgpmdW5jIENvbXBsZXRlUmVzdG9yZVByb2dyZXNzKG1lc3NhZ2Ugc3RyaW5nKSB7CglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5tdS5Mb2NrKCkKCWRlZmVyIHJlc3RvcmVQcm9ncmVzc1N0YXRlLm11LlVubG9jaygpCgoJcmVzdG9yZVByb2dyZXNzU3RhdGUucHJvZ3Jlc3MuQWN0aXZlID0gZmFsc2UKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLlN0YXR1cyA9IFJlc3RvcmVQcm9ncmVzc1N0YXR1c0NvbXBsZXRlZAoJcmVzdG9yZVByb2dyZXNzU3RhdGUucHJvZ3Jlc3MuU3RhZ2UgPSAiY29tcGxldGVkIgoJcmVzdG9yZVByb2dyZXNzU3RhdGUucHJvZ3Jlc3MuTWVzc2FnZSA9IHN0cmluZ3MuVHJpbVNwYWNlKG1lc3NhZ2UpCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5QZXJjZW50ID0gMTAwCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5FcnJvciA9ICIiCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5VcGRhdGVkQXQgPSB0aW1lLk5vdygpCn0KCmZ1bmMgRmFpbFJlc3RvcmVQcm9ncmVzcyhlcnIgZXJyb3IpIHsKCXJlc3RvcmVQcm9ncmVzc1N0YXRlLm11LkxvY2soKQoJZGVmZXIgcmVzdG9yZVByb2dyZXNzU3RhdGUubXUuVW5sb2NrKCkKCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5BY3RpdmUgPSBmYWxzZQoJcmVzdG9yZVByb2dyZXNzU3RhdGUucHJvZ3Jlc3MuU3RhdHVzID0gUmVzdG9yZVByb2dyZXNzU3RhdHVzRmFpbGVkCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5TdGFnZSA9ICJmYWlsZWQiCglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5NZXNzYWdlID0gIuaBouWkjei/h+eoi+S4reWHuueOsOW8guW4uCIKCWlmIGVyciAhPSBuaWwgewoJCXJlc3RvcmVQcm9ncmVzc1N0YXRlLnByb2dyZXNzLkVycm9yID0gc3RyaW5ncy5UcmltU3BhY2UoZXJyLkVycm9yKCkpCgl9CglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcy5VcGRhdGVkQXQgPSB0aW1lLk5vdygpCn0KCmZ1bmMgQ3VycmVudFJlc3RvcmVQcm9ncmVzcygpIFJlc3RvcmVQcm9ncmVzcyB7CglyZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5tdS5STG9jaygpCglkZWZlciByZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5tdS5SVW5sb2NrKCkKCXJldHVybiByZXN0b3JlUHJvZ3Jlc3NTdGF0ZS5wcm9ncmVzcwp9CgpmdW5jIGNsYW1wUmVzdG9yZVByb2dyZXNzUGVyY2VudChwZXJjZW50IGludCkgaW50IHsKCXN3aXRjaCB7CgljYXNlIHBlcmNlbnQgPCAwOgoJCXJldHVybiAwCgljYXNlIHBlcmNlbnQgPiAxMDA6CgkJcmV0dXJuIDEwMAoJZGVmYXVsdDoKCQlyZXR1cm4gcGVyY2VudAoJfQp9Cg==
+package service
+
+import (
+	"fmt"
+	"strings"
+	"sync"
+	"time"
+)
+
+const (
+	RestoreProgressStatusIdle      = "idle"
+	RestoreProgressStatusRunning   = "running"
+	RestoreProgressStatusCompleted = "completed"
+	RestoreProgressStatusFailed    = "failed"
+)
+
+type RestoreProgress struct {
+	Active    bool             `json:"active"`
+	Status    string           `json:"status"`
+	Filename  string           `json:"filename,omitempty"`
+	Source    string           `json:"source,omitempty"`
+	Selection *BackupSelection `json:"selection,omitempty"`
+	Stage     string           `json:"stage,omitempty"`
+	Message   string           `json:"message,omitempty"`
+	Percent   int              `json:"percent"`
+	Error     string           `json:"error,omitempty"`
+	StartedAt *time.Time       `json:"started_at,omitempty"`
+	UpdatedAt time.Time        `json:"updated_at"`
+}
+
+var restoreProgressState = struct {
+	mu       sync.RWMutex
+	progress RestoreProgress
+}{
+	progress: RestoreProgress{
+		Status: RestoreProgressStatusIdle,
+	},
+}
+
+func BeginRestoreProgress(filename string) error {
+	restoreProgressState.mu.Lock()
+	defer restoreProgressState.mu.Unlock()
+
+	if restoreProgressState.progress.Active {
+		return fmt.Errorf("已有恢复任务正在进行，请稍后再试")
+	}
+
+	now := time.Now()
+	restoreProgressState.progress = RestoreProgress{
+		Active:    true,
+		Status:    RestoreProgressStatusRunning,
+		Filename:  strings.TrimSpace(filename),
+		Stage:     "preparing",
+		Message:   "正在准备恢复环境...",
+		Percent:   3,
+		StartedAt: &now,
+		UpdatedAt: now,
+	}
+
+	return nil
+}
+
+func UpdateRestoreProgress(stage, message string, percent int) {
+	restoreProgressState.mu.Lock()
+	defer restoreProgressState.mu.Unlock()
+
+	if !restoreProgressState.progress.Active && restoreProgressState.progress.Status != RestoreProgressStatusRunning {
+		return
+	}
+
+	restoreProgressState.progress.Status = RestoreProgressStatusRunning
+	restoreProgressState.progress.Stage = strings.TrimSpace(stage)
+	restoreProgressState.progress.Message = strings.TrimSpace(message)
+	restoreProgressState.progress.Percent = clampRestoreProgressPercent(percent)
+	restoreProgressState.progress.Error = ""
+	restoreProgressState.progress.UpdatedAt = time.Now()
+}
+
+func BindRestoreProgressPlan(source string, selection BackupSelection) {
+	restoreProgressState.mu.Lock()
+	defer restoreProgressState.mu.Unlock()
+
+	progress := &restoreProgressState.progress
+	if progress.Status == RestoreProgressStatusIdle && !progress.Active {
+		return
+	}
+
+	normalized := selection.NormalizeDefaults()
+	progress.Source = strings.TrimSpace(source)
+	progress.Selection = &normalized
+	progress.UpdatedAt = time.Now()
+}
+
+func CompleteRestoreProgress(message string) {
+	restoreProgressState.mu.Lock()
+	defer restoreProgressState.mu.Unlock()
+
+	restoreProgressState.progress.Active = false
+	restoreProgressState.progress.Status = RestoreProgressStatusCompleted
+	restoreProgressState.progress.Stage = "completed"
+	restoreProgressState.progress.Message = strings.TrimSpace(message)
+	restoreProgressState.progress.Percent = 100
+	restoreProgressState.progress.Error = ""
+	restoreProgressState.progress.UpdatedAt = time.Now()
+}
+
+func FailRestoreProgress(err error) {
+	restoreProgressState.mu.Lock()
+	defer restoreProgressState.mu.Unlock()
+
+	restoreProgressState.progress.Active = false
+	restoreProgressState.progress.Status = RestoreProgressStatusFailed
+	restoreProgressState.progress.Stage = "failed"
+	restoreProgressState.progress.Message = "恢复过程中出现异常"
+	if err != nil {
+		restoreProgressState.progress.Error = strings.TrimSpace(err.Error())
+	}
+	restoreProgressState.progress.UpdatedAt = time.Now()
+}
+
+func CurrentRestoreProgress() RestoreProgress {
+	restoreProgressState.mu.RLock()
+	defer restoreProgressState.mu.RUnlock()
+	return restoreProgressState.progress
+}
+
+func clampRestoreProgressPercent(percent int) int {
+	switch {
+	case percent < 0:
+		return 0
+	case percent > 100:
+		return 100
+	default:
+		return percent
+	}
+}

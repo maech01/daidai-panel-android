@@ -1,1 +1,128 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNyeXB0by9zaGEyNTYiCgkibG9nIgoJIm9zIgoJInJlZ2V4cCIKCSJydW50aW1lIgoJInN0cmNvbnYiCgkic3RyaW5ncyIKCSJzeW5jIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgoJImdpdGh1Yi5jb20vZ29vZ2xlL3V1aWQiCikKCmNvbnN0ICgKCW1hY2hpbmVDb2RlQ29uZmlnS2V5ICAgPSAibWFjaGluZV9jb2RlIgoJbWFjaGluZUNvZGVEZXNjcmlwdGlvbiA9ICLpnaLmnb/mnLrlmajnoIHvvIjpppbmrKHlkK/liqjoh6rliqjnlJ/miJDvvIzph43lkK8v5Y2H57qn5LiN5Lya5pS55Y+Y77yJIgopCgovLyBtYWNoaW5lQ29kZVBhdHRlcm4gbWF0Y2hlcyBhbiBSRkMgNDEyMiB2NCBVVUlEIGluIHVwcGVyY2FzZSBmb3JtLCBlLmcuCi8vIEExQjJDM0Q0LUU1RjYtNDc4OS1BQkNELTEyMzQ1Njc4OTBBQi4gVmFsdWVzIHN0b3JlZCBpbiB0aGUgZGF0YWJhc2UgdGhhdAovLyBkbyBub3QgbWF0Y2ggYXJlIHRyZWF0ZWQgYXMgbGVnYWN5IGFuZCByZWdlbmVyYXRlZCBvbiBuZXh0IHN0YXJ0dXAuCnZhciBtYWNoaW5lQ29kZVBhdHRlcm4gPSByZWdleHAuTXVzdENvbXBpbGUoYF5bMC05QS1GXXs4fS1bMC05QS1GXXs0fS00WzAtOUEtRl17M30tWzg5QUJdWzAtOUEtRl17M30tWzAtOUEtRl17MTJ9JGApCgp2YXIgKAoJY2FjaGVkTWFjaGluZUNvZGUgc3RyaW5nCgltYWNoaW5lQ29kZU11ICAgICBzeW5jLk11dGV4CikKCmZ1bmMgaXNWYWxpZE1hY2hpbmVDb2RlKHMgc3RyaW5nKSBib29sIHsKCXJldHVybiBtYWNoaW5lQ29kZVBhdHRlcm4uTWF0Y2hTdHJpbmcocykKfQoKLy8gRW5zdXJlTWFjaGluZUNvZGUgcmV0dXJucyB0aGUgcGFuZWwncyBzdGFibGUgaW5zdGFsbGF0aW9uIGlkZW50aWZpZXIuCi8vIFRoZSBmaXJzdCBpbnZvY2F0aW9uIGdlbmVyYXRlcyBhIHJhbmRvbSB2YWx1ZSBhbmQgcGVyc2lzdHMgaXQgaW50byB0aGUKLy8gc3lzdGVtX2NvbmZpZ3MgdGFibGU7IHN1YnNlcXVlbnQgY2FsbHMgKGluY2x1ZGluZyBhY3Jvc3MgcHJvY2VzcyByZXN0YXJ0cykKLy8gcmVhZCB0aGUgc3RvcmVkIHZhbHVlLCBzbyB0aGUgY29kZSBuZXZlciBjaGFuZ2VzIHVubGVzcyB0aGUgZGF0YWJhc2Ugcm93Ci8vIGlzIGV4cGxpY2l0bHkgY2xlYXJlZC4KZnVuYyBFbnN1cmVNYWNoaW5lQ29kZSgpIHN0cmluZyB7CgltYWNoaW5lQ29kZU11LkxvY2soKQoJZGVmZXIgbWFjaGluZUNvZGVNdS5VbmxvY2soKQoKCWlmIGNhY2hlZE1hY2hpbmVDb2RlICE9ICIiIHsKCQlyZXR1cm4gY2FjaGVkTWFjaGluZUNvZGUKCX0KCglpZiBkYXRhYmFzZS5EQiA9PSBuaWwgewoJCXJldHVybiAiIgoJfQoKCXZhciBleGlzdGluZyBtb2RlbC5TeXN0ZW1Db25maWcKCWVyciA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiYGtleWAgPSA/IiwgbWFjaGluZUNvZGVDb25maWdLZXkpLkZpcnN0KCZleGlzdGluZykuRXJyb3IKCWlmIGVyciA9PSBuaWwgewoJCWlmIHYgOj0gc3RyaW5ncy5UcmltU3BhY2UoZXhpc3RpbmcuVmFsdWUpOyBpc1ZhbGlkTWFjaGluZUNvZGUodikgewoJCQljYWNoZWRNYWNoaW5lQ29kZSA9IHYKCQkJcmV0dXJuIGNhY2hlZE1hY2hpbmVDb2RlCgkJfQoJfQoKCWNvZGUgOj0gZ2VuZXJhdGVNYWNoaW5lQ29kZSgpCglyZWNvcmQgOj0gbW9kZWwuU3lzdGVtQ29uZmlnewoJCUtleTogICAgICAgICBtYWNoaW5lQ29kZUNvbmZpZ0tleSwKCQlWYWx1ZTogICAgICAgY29kZSwKCQlEZXNjcmlwdGlvbjogbWFjaGluZUNvZGVEZXNjcmlwdGlvbiwKCX0KCglpZiBlcnIgPT0gbmlsIHsKCQkvLyBSb3cgZXhpc3RzIHdpdGggZW1wdHkgb3IgbGVnYWN5IChub24tVVVJRC12NCkgdmFsdWUg4oCUIG92ZXJ3cml0ZSBpdCBzbwoJCS8vIGZ1dHVyZSBzdGFydHVwcyByZXR1cm4gdGhlIG5ldyB1cHBlcmNhc2UgVVVJRCBmb3JtYXQuCgkJaWYgdXBkYXRlRXJyIDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZleGlzdGluZykuVXBkYXRlcyhtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCQkidmFsdWUiOiAgICAgICBjb2RlLAoJCQkiZGVzY3JpcHRpb24iOiBtYWNoaW5lQ29kZURlc2NyaXB0aW9uLAoJCX0pLkVycm9yOyB1cGRhdGVFcnIgIT0gbmlsIHsKCQkJbG9nLlByaW50ZigibWFjaGluZSBjb2RlOiBtaWdyYXRlIGV4aXN0aW5nIHJvdyBmYWlsZWQ6ICV2IiwgdXBkYXRlRXJyKQoJCX0KCX0gZWxzZSBpZiBjcmVhdGVFcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZyZWNvcmQpLkVycm9yOyBjcmVhdGVFcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJtYWNoaW5lIGNvZGU6IGNyZWF0ZSByb3cgZmFpbGVkOiAldiIsIGNyZWF0ZUVycikKCQkvLyBGYWxsIGJhY2sgdG8gaW4tbWVtb3J5IG9ubHkgc28gY2FsbGVycyBzdGlsbCBzZWUgYSBzdGFibGUgdmFsdWUKCQkvLyBmb3IgdGhpcyBwcm9jZXNzIGxpZmV0aW1lLgoJfQoKCWNhY2hlZE1hY2hpbmVDb2RlID0gY29kZQoJcmV0dXJuIGNhY2hlZE1hY2hpbmVDb2RlCn0KCi8vIFJlc2V0TWFjaGluZUNvZGVDYWNoZUZvclRlc3QgY2xlYXJzIHRoZSBpbi1tZW1vcnkgY2FjaGUgc28gdGVzdHMgY2FuCi8vIHNpbXVsYXRlIGEgZnJlc2ggcHJvY2VzcyByZWFkaW5nIGFuIGV4aXN0aW5nIGRhdGFiYXNlIHJvdy4KZnVuYyBSZXNldE1hY2hpbmVDb2RlQ2FjaGVGb3JUZXN0KCkgewoJbWFjaGluZUNvZGVNdS5Mb2NrKCkKCWRlZmVyIG1hY2hpbmVDb2RlTXUuVW5sb2NrKCkKCWNhY2hlZE1hY2hpbmVDb2RlID0gIiIKfQoKZnVuYyBnZW5lcmF0ZU1hY2hpbmVDb2RlKCkgc3RyaW5nIHsKCWlmIGlkLCBlcnIgOj0gdXVpZC5OZXdSYW5kb20oKTsgZXJyID09IG5pbCB7CgkJcmV0dXJuIHN0cmluZ3MuVG9VcHBlcihpZC5TdHJpbmcoKSkKCX0KCgkvLyBGYWxsYmFjayBvbmx5IHJlYWNoZWQgaWYgY3J5cHRvL3JhbmQgZmFpbHMgKGV4dHJlbWVseSByYXJlKS4gRGVyaXZlIGEKCS8vIGRldGVybWluaXN0aWMgMTYtYnl0ZSBzZWVkIGFuZCBjb25mb3JtIHRvIHRoZSBSRkMgNDEyMiB2NCBsYXlvdXQgc28KCS8vIHRoZSByZXN1bHQgaXMgaW5kaXN0aW5ndWlzaGFibGUgaW4gc2hhcGUgZnJvbSBhIHJlYWwgcmFuZG9tIFVVSUQuCglzZWVkIDo9IHN0cmluZ3MuSm9pbihbXXN0cmluZ3sKCQlydW50aW1lLkdPT1MsCgkJcnVudGltZS5HT0FSQ0gsCgkJaG9zdG5hbWVPclVua25vd24oKSwKCQlzdHJjb252Lkl0b2Eob3MuR2V0cGlkKCkpLAoJCXRpbWUuTm93KCkuVVRDKCkuRm9ybWF0KHRpbWUuUkZDMzMzOU5hbm8pLAoJfSwgInwiKQoJc3VtIDo9IHNoYTI1Ni5TdW0yNTYoW11ieXRlKHNlZWQpKQoJdmFyIHJhdyBbMTZdYnl0ZQoJY29weShyYXdbOl0sIHN1bVs6MTZdKQoJcmF3WzZdID0gKHJhd1s2XSAmIDB4MEYpIHwgMHg0MAoJcmF3WzhdID0gKHJhd1s4XSAmIDB4M0YpIHwgMHg4MAoJaWQsIF8gOj0gdXVpZC5Gcm9tQnl0ZXMocmF3WzpdKQoJcmV0dXJuIHN0cmluZ3MuVG9VcHBlcihpZC5TdHJpbmcoKSkKfQoKZnVuYyBob3N0bmFtZU9yVW5rbm93bigpIHN0cmluZyB7CglpZiBoLCBlcnIgOj0gb3MuSG9zdG5hbWUoKTsgZXJyID09IG5pbCAmJiBzdHJpbmdzLlRyaW1TcGFjZShoKSAhPSAiIiB7CgkJcmV0dXJuIGgKCX0KCXJldHVybiAidW5rbm93biIKfQo=
+package service
+
+import (
+	"crypto/sha256"
+	"log"
+	"os"
+	"regexp"
+	"runtime"
+	"strconv"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+
+	"github.com/google/uuid"
+)
+
+const (
+	machineCodeConfigKey   = "machine_code"
+	machineCodeDescription = "面板机器码（首次启动自动生成，重启/升级不会改变）"
+)
+
+// machineCodePattern matches an RFC 4122 v4 UUID in uppercase form, e.g.
+// A1B2C3D4-E5F6-4789-ABCD-1234567890AB. Values stored in the database that
+// do not match are treated as legacy and regenerated on next startup.
+var machineCodePattern = regexp.MustCompile(`^[0-9A-F]{8}-[0-9A-F]{4}-4[0-9A-F]{3}-[89AB][0-9A-F]{3}-[0-9A-F]{12}$`)
+
+var (
+	cachedMachineCode string
+	machineCodeMu     sync.Mutex
+)
+
+func isValidMachineCode(s string) bool {
+	return machineCodePattern.MatchString(s)
+}
+
+// EnsureMachineCode returns the panel's stable installation identifier.
+// The first invocation generates a random value and persists it into the
+// system_configs table; subsequent calls (including across process restarts)
+// read the stored value, so the code never changes unless the database row
+// is explicitly cleared.
+func EnsureMachineCode() string {
+	machineCodeMu.Lock()
+	defer machineCodeMu.Unlock()
+
+	if cachedMachineCode != "" {
+		return cachedMachineCode
+	}
+
+	if database.DB == nil {
+		return ""
+	}
+
+	var existing model.SystemConfig
+	err := database.DB.Where("`key` = ?", machineCodeConfigKey).First(&existing).Error
+	if err == nil {
+		if v := strings.TrimSpace(existing.Value); isValidMachineCode(v) {
+			cachedMachineCode = v
+			return cachedMachineCode
+		}
+	}
+
+	code := generateMachineCode()
+	record := model.SystemConfig{
+		Key:         machineCodeConfigKey,
+		Value:       code,
+		Description: machineCodeDescription,
+	}
+
+	if err == nil {
+		// Row exists with empty or legacy (non-UUID-v4) value — overwrite it so
+		// future startups return the new uppercase UUID format.
+		if updateErr := database.DB.Model(&existing).Updates(map[string]interface{}{
+			"value":       code,
+			"description": machineCodeDescription,
+		}).Error; updateErr != nil {
+			log.Printf("machine code: migrate existing row failed: %v", updateErr)
+		}
+	} else if createErr := database.DB.Create(&record).Error; createErr != nil {
+		log.Printf("machine code: create row failed: %v", createErr)
+		// Fall back to in-memory only so callers still see a stable value
+		// for this process lifetime.
+	}
+
+	cachedMachineCode = code
+	return cachedMachineCode
+}
+
+// ResetMachineCodeCacheForTest clears the in-memory cache so tests can
+// simulate a fresh process reading an existing database row.
+func ResetMachineCodeCacheForTest() {
+	machineCodeMu.Lock()
+	defer machineCodeMu.Unlock()
+	cachedMachineCode = ""
+}
+
+func generateMachineCode() string {
+	if id, err := uuid.NewRandom(); err == nil {
+		return strings.ToUpper(id.String())
+	}
+
+	// Fallback only reached if crypto/rand fails (extremely rare). Derive a
+	// deterministic 16-byte seed and conform to the RFC 4122 v4 layout so
+	// the result is indistinguishable in shape from a real random UUID.
+	seed := strings.Join([]string{
+		runtime.GOOS,
+		runtime.GOARCH,
+		hostnameOrUnknown(),
+		strconv.Itoa(os.Getpid()),
+		time.Now().UTC().Format(time.RFC3339Nano),
+	}, "|")
+	sum := sha256.Sum256([]byte(seed))
+	var raw [16]byte
+	copy(raw[:], sum[:16])
+	raw[6] = (raw[6] & 0x0F) | 0x40
+	raw[8] = (raw[8] & 0x3F) | 0x80
+	id, _ := uuid.FromBytes(raw[:])
+	return strings.ToUpper(id.String())
+}
+
+func hostnameOrUnknown() string {
+	if h, err := os.Hostname(); err == nil && strings.TrimSpace(h) != "" {
+		return h
+	}
+	return "unknown"
+}

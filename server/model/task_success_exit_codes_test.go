@@ -1,1 +1,58 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICJ0ZXN0aW5nIgoKZnVuYyBUZXN0Tm9ybWFsaXplU3VjY2Vzc0V4aXRDb2Rlcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3RzIDo9IFtdc3RydWN0IHsKCQluYW1lICAgIHN0cmluZwoJCXJhdyAgICAgc3RyaW5nCgkJd2FudCAgICBzdHJpbmcKCQl3YW50RXJyIGJvb2wKCX17CgkJe25hbWU6ICJlbXB0eSB1c2VzIGRlZmF1bHQiLCByYXc6ICIiLCB3YW50OiAiMCJ9LAoJCXtuYW1lOiAiZGVkdXBsaWNhdGVzIGFuZCBhY2NlcHRzIGNoaW5lc2UgY29tbWEiLCByYXc6ICIgMO+8jCAxLDEgIiwgd2FudDogIjAsMSJ9LAoJCXtuYW1lOiAiYWNjZXB0cyB3aGl0ZXNwYWNlIHNlcGFyYXRvcnMiLCByYXc6ICIwICAyXG4zIiwgd2FudDogIjAsMiwzIn0sCgkJe25hbWU6ICJyZWplY3RzIHRleHQiLCByYXc6ICIwLGRvbmUiLCB3YW50RXJyOiB0cnVlfSwKCQl7bmFtZTogInJlamVjdHMgbmVnYXRpdmUgY29kZSIsIHJhdzogIjAsLTEiLCB3YW50RXJyOiB0cnVlfSwKCQl7bmFtZTogInJlamVjdHMgY29kZSBvdmVyIHNoZWxsIHJhbmdlIiwgcmF3OiAiMCwyNTYiLCB3YW50RXJyOiB0cnVlfSwKCX0KCglmb3IgXywgdHQgOj0gcmFuZ2UgdGVzdHMgewoJCXQuUnVuKHR0Lm5hbWUsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJCWdvdCwgZXJyIDo9IE5vcm1hbGl6ZVN1Y2Nlc3NFeGl0Q29kZXModHQucmF3KQoJCQlpZiB0dC53YW50RXJyIHsKCQkJCWlmIGVyciA9PSBuaWwgewoJCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBlcnJvciwgZ290ICVxIiwgZ290KQoJCQkJfQoJCQkJcmV0dXJuCgkJCX0KCQkJaWYgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigibm9ybWFsaXplIHN1Y2Nlc3MgZXhpdCBjb2RlczogJXYiLCBlcnIpCgkJCX0KCQkJaWYgZ290ICE9IHR0LndhbnQgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkICVxLCBnb3QgJXEiLCB0dC53YW50LCBnb3QpCgkJCX0KCQl9KQoJfQp9CgpmdW5jIFRlc3RUYXNrSXNTdWNjZXNzRXhpdENvZGUodCAqdGVzdGluZy5UKSB7CglkZWZhdWx0VGFzayA6PSAmVGFza3t9CglpZiAhZGVmYXVsdFRhc2suSXNTdWNjZXNzRXhpdENvZGUoMCkgewoJCXQuRmF0YWwoImV4cGVjdGVkIGVtcHR5IGxlZ2FjeSBzZXR0aW5nIHRvIGFjY2VwdCBleGl0IGNvZGUgMCIpCgl9CglpZiBkZWZhdWx0VGFzay5Jc1N1Y2Nlc3NFeGl0Q29kZSgxKSB7CgkJdC5GYXRhbCgiZGlkIG5vdCBleHBlY3QgZW1wdHkgbGVnYWN5IHNldHRpbmcgdG8gYWNjZXB0IGV4aXQgY29kZSAxIikKCX0KCgljb21wYXRpYmxlVGFzayA6PSAmVGFza3tTdWNjZXNzRXhpdENvZGVzOiAiMCwxIn0KCWlmICFjb21wYXRpYmxlVGFzay5Jc1N1Y2Nlc3NFeGl0Q29kZSgxKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgY29uZmlndXJlZCB0YXNrIHRvIGFjY2VwdCBleGl0IGNvZGUgMSIpCgl9CglpZiBjb21wYXRpYmxlVGFzay5Jc1N1Y2Nlc3NFeGl0Q29kZSgyKSB7CgkJdC5GYXRhbCgiZGlkIG5vdCBleHBlY3QgY29uZmlndXJlZCB0YXNrIHRvIGFjY2VwdCBleGl0IGNvZGUgMiIpCgl9CglpZiBjb21wYXRpYmxlVGFzay5Jc1N1Y2Nlc3NFeGl0Q29kZSgtMSkgewoJCXQuRmF0YWwoInRpbWVvdXQgb3Igc2lnbmFsIGV4aXQgY29kZSAtMSBtdXN0IG5ldmVyIGJlIGFjY2VwdGVkIikKCX0KfQo=
+package model
+
+import "testing"
+
+func TestNormalizeSuccessExitCodes(t *testing.T) {
+	tests := []struct {
+		name    string
+		raw     string
+		want    string
+		wantErr bool
+	}{
+		{name: "empty uses default", raw: "", want: "0"},
+		{name: "deduplicates and accepts chinese comma", raw: " 0， 1,1 ", want: "0,1"},
+		{name: "accepts whitespace separators", raw: "0  2\n3", want: "0,2,3"},
+		{name: "rejects text", raw: "0,done", wantErr: true},
+		{name: "rejects negative code", raw: "0,-1", wantErr: true},
+		{name: "rejects code over shell range", raw: "0,256", wantErr: true},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			got, err := NormalizeSuccessExitCodes(tt.raw)
+			if tt.wantErr {
+				if err == nil {
+					t.Fatalf("expected error, got %q", got)
+				}
+				return
+			}
+			if err != nil {
+				t.Fatalf("normalize success exit codes: %v", err)
+			}
+			if got != tt.want {
+				t.Fatalf("expected %q, got %q", tt.want, got)
+			}
+		})
+	}
+}
+
+func TestTaskIsSuccessExitCode(t *testing.T) {
+	defaultTask := &Task{}
+	if !defaultTask.IsSuccessExitCode(0) {
+		t.Fatal("expected empty legacy setting to accept exit code 0")
+	}
+	if defaultTask.IsSuccessExitCode(1) {
+		t.Fatal("did not expect empty legacy setting to accept exit code 1")
+	}
+
+	compatibleTask := &Task{SuccessExitCodes: "0,1"}
+	if !compatibleTask.IsSuccessExitCode(1) {
+		t.Fatal("expected configured task to accept exit code 1")
+	}
+	if compatibleTask.IsSuccessExitCode(2) {
+		t.Fatal("did not expect configured task to accept exit code 2")
+	}
+	if compatibleTask.IsSuccessExitCode(-1) {
+		t.Fatal("timeout or signal exit code -1 must never be accepted")
+	}
+}

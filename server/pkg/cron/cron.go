@@ -1,1 +1,336 @@
-cGFja2FnZSBjcm9uCgppbXBvcnQgKAoJImZtdCIKCSJzb3J0IgoJInN0cmluZ3MiCgkidGltZSIKCglyb2JmaWdjcm9uICJnaXRodWIuY29tL3JvYmZpZy9jcm9uL3YzIgopCgp0eXBlIFBhcnNlUmVzdWx0IHN0cnVjdCB7CglWYWxpZCAgICAgICBib29sCglIYXNTZWNvbmQgICBib29sCglGaWVsZHMgICAgICBtYXBbc3RyaW5nXXN0cmluZwoJRGVzY3JpcHRpb24gc3RyaW5nCglFcnJvciAgICAgICBzdHJpbmcKfQoKZnVuYyBTcGxpdEV4cHJlc3Npb25zKHJhdyBzdHJpbmcpIFtdc3RyaW5nIHsKCWxpbmVzIDo9IHN0cmluZ3MuRmllbGRzRnVuYyhyYXcsIGZ1bmMociBydW5lKSBib29sIHsKCQlyZXR1cm4gciA9PSAnXG4nIHx8IHIgPT0gJ1xyJwoJfSkKCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4obGluZXMpKQoJZm9yIF8sIGxpbmUgOj0gcmFuZ2UgbGluZXMgewoJCWxpbmUgPSBzdHJpbmdzLlRyaW1TcGFjZShsaW5lKQoJCWlmIGxpbmUgIT0gIiIgewoJCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCBsaW5lKQoJCX0KCX0KCXJldHVybiByZXN1bHQKfQoKZnVuYyBOb3JtYWxpemVFeHByZXNzaW9ucyhyYXcgc3RyaW5nKSBzdHJpbmcgewoJcmV0dXJuIHN0cmluZ3MuSm9pbihTcGxpdEV4cHJlc3Npb25zKHJhdyksICJcbiIpCn0KCmZ1bmMgVmFsaWRhdGVFeHByZXNzaW9ucyhyYXcgc3RyaW5nKSBlcnJvciB7CglleHByZXNzaW9ucyA6PSBTcGxpdEV4cHJlc3Npb25zKHJhdykKCWlmIGxlbihleHByZXNzaW9ucykgPT0gMCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuivt+iHs+WwkeWhq+WGmeS4gOadoeWumuaXtuinhOWImSIpCgl9CgoJZm9yIGluZGV4LCBleHByZXNzaW9uIDo9IHJhbmdlIGV4cHJlc3Npb25zIHsKCQlyZXN1bHQgOj0gUGFyc2UoZXhwcmVzc2lvbikKCQlpZiAhcmVzdWx0LlZhbGlkIHsKCQkJcmV0dXJuIGZtdC5FcnJvcmYoIuesrCAlZCDmnaHlrprml7bop4TliJnml6DmlYg6ICVzIiwgaW5kZXgrMSwgcmVzdWx0LkVycm9yKQoJCX0KCX0KCXJldHVybiBuaWwKfQoKZnVuYyBQYXJzZShleHByZXNzaW9uIHN0cmluZykgUGFyc2VSZXN1bHQgewoJZXhwcmVzc2lvbiA9IHN0cmluZ3MuVHJpbVNwYWNlKGV4cHJlc3Npb24pCglwYXJ0cyA6PSBzdHJpbmdzLkZpZWxkcyhleHByZXNzaW9uKQoKCXBhcnNlciwgaGFzU2Vjb25kLCBlcnIgOj0gcGFyc2VyRm9yUGFydHMocGFydHMpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gUGFyc2VSZXN1bHR7VmFsaWQ6IGZhbHNlLCBFcnJvcjogZXJyLkVycm9yKCl9Cgl9CgoJaWYgXywgZXJyIDo9IHBhcnNlci5QYXJzZShleHByZXNzaW9uKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIFBhcnNlUmVzdWx0e1ZhbGlkOiBmYWxzZSwgRXJyb3I6IGVyci5FcnJvcigpfQoJfQoKCWZpZWxkcyA6PSBidWlsZEZpZWxkcyhwYXJ0cywgaGFzU2Vjb25kKQoJcmV0dXJuIFBhcnNlUmVzdWx0ewoJCVZhbGlkOiAgICAgICB0cnVlLAoJCUhhc1NlY29uZDogICBoYXNTZWNvbmQsCgkJRmllbGRzOiAgICAgIGZpZWxkcywKCQlEZXNjcmlwdGlvbjogZGVzY3JpYmUoZmllbGRzLCBoYXNTZWNvbmQpLAoJfQp9CgpmdW5jIE5leHRSdW5UaW1lcyhleHByZXNzaW9uIHN0cmluZywgY291bnQgaW50KSBbXXRpbWUuVGltZSB7CglyZXR1cm4gTmV4dFJ1blRpbWVzRnJvbShleHByZXNzaW9uLCBjb3VudCwgdGltZS5Ob3coKSkKfQoKZnVuYyBOZXh0UnVuVGltZXNGcm9tKGV4cHJlc3Npb24gc3RyaW5nLCBjb3VudCBpbnQsIGZyb20gdGltZS5UaW1lKSBbXXRpbWUuVGltZSB7CglpZiBjb3VudCA8PSAwIHsKCQlyZXR1cm4gbmlsCgl9CgoJc2NoZWR1bGUsIGVyciA6PSBQYXJzZVNjaGVkdWxlKGV4cHJlc3Npb24pCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsCgl9CgoJdGltZXMgOj0gbWFrZShbXXRpbWUuVGltZSwgMCwgY291bnQpCgluZXh0IDo9IGZyb20KCWZvciBpIDo9IDA7IGkgPCBjb3VudDsgaSsrIHsKCQluZXh0ID0gc2NoZWR1bGUuTmV4dChuZXh0KQoJCWlmIG5leHQuSXNaZXJvKCkgewoJCQlicmVhawoJCX0KCQl0aW1lcyA9IGFwcGVuZCh0aW1lcywgbmV4dCkKCX0KCXJldHVybiB0aW1lcwp9CgpmdW5jIE5leHRSdW5UaW1lc0ZvckV4cHJlc3Npb25zKHJhdyBzdHJpbmcsIGNvdW50IGludCkgW110aW1lLlRpbWUgewoJcmV0dXJuIE5leHRSdW5UaW1lc0ZvckV4cHJlc3Npb25zRnJvbShyYXcsIGNvdW50LCB0aW1lLk5vdygpKQp9CgpmdW5jIE5leHRSdW5UaW1lc0ZvckV4cHJlc3Npb25zRnJvbShyYXcgc3RyaW5nLCBjb3VudCBpbnQsIGZyb20gdGltZS5UaW1lKSBbXXRpbWUuVGltZSB7CglpZiBjb3VudCA8PSAwIHsKCQlyZXR1cm4gbmlsCgl9CgoJZXhwcmVzc2lvbnMgOj0gU3BsaXRFeHByZXNzaW9ucyhyYXcpCglpZiBsZW4oZXhwcmVzc2lvbnMpID09IDAgewoJCXJldHVybiBuaWwKCX0KCgl0aW1lcyA6PSBtYWtlKFtddGltZS5UaW1lLCAwLCBsZW4oZXhwcmVzc2lvbnMpKmNvdW50KQoJZm9yIF8sIGV4cHJlc3Npb24gOj0gcmFuZ2UgZXhwcmVzc2lvbnMgewoJCXRpbWVzID0gYXBwZW5kKHRpbWVzLCBOZXh0UnVuVGltZXNGcm9tKGV4cHJlc3Npb24sIGNvdW50LCBmcm9tKS4uLikKCX0KCglzb3J0LlNsaWNlKHRpbWVzLCBmdW5jKGksIGogaW50KSBib29sIHsKCQlyZXR1cm4gdGltZXNbaV0uQmVmb3JlKHRpbWVzW2pdKQoJfSkKCglpZiBsZW4odGltZXMpID4gY291bnQgewoJCXRpbWVzID0gdGltZXNbOmNvdW50XQoJfQoJcmV0dXJuIHRpbWVzCn0KCmZ1bmMgcGFyc2VyRm9yUGFydHMocGFydHMgW11zdHJpbmcpIChyb2JmaWdjcm9uLlBhcnNlciwgYm9vbCwgZXJyb3IpIHsKCXN3aXRjaCBsZW4ocGFydHMpIHsKCWNhc2UgNToKCQlyZXR1cm4gcm9iZmlnY3Jvbi5OZXdQYXJzZXIoCgkJCXJvYmZpZ2Nyb24uTWludXRlIHwKCQkJCXJvYmZpZ2Nyb24uSG91ciB8CgkJCQlyb2JmaWdjcm9uLkRvbSB8CgkJCQlyb2JmaWdjcm9uLk1vbnRoIHwKCQkJCXJvYmZpZ2Nyb24uRG93IHwKCQkJCXJvYmZpZ2Nyb24uRGVzY3JpcHRvciwKCQkpLCBmYWxzZSwgbmlsCgljYXNlIDY6CgkJcmV0dXJuIHJvYmZpZ2Nyb24uTmV3UGFyc2VyKAoJCQlyb2JmaWdjcm9uLlNlY29uZCB8CgkJCQlyb2JmaWdjcm9uLk1pbnV0ZSB8CgkJCQlyb2JmaWdjcm9uLkhvdXIgfAoJCQkJcm9iZmlnY3Jvbi5Eb20gfAoJCQkJcm9iZmlnY3Jvbi5Nb250aCB8CgkJCQlyb2JmaWdjcm9uLkRvdyB8CgkJCQlyb2JmaWdjcm9uLkRlc2NyaXB0b3IsCgkJKSwgdHJ1ZSwgbmlsCglkZWZhdWx0OgoJCXJldHVybiByb2JmaWdjcm9uLlBhcnNlcnt9LCBmYWxzZSwgZXJySW52YWxpZEZpZWxkQ291bnQKCX0KfQoKZnVuYyBwYXJzZVNjaGVkdWxlKGV4cHJlc3Npb24gc3RyaW5nKSAocm9iZmlnY3Jvbi5TY2hlZHVsZSwgZXJyb3IpIHsKCXJldHVybiBQYXJzZVNjaGVkdWxlKGV4cHJlc3Npb24pCn0KCmZ1bmMgUGFyc2VTY2hlZHVsZShleHByZXNzaW9uIHN0cmluZykgKHJvYmZpZ2Nyb24uU2NoZWR1bGUsIGVycm9yKSB7CglleHByZXNzaW9uID0gc3RyaW5ncy5UcmltU3BhY2UoZXhwcmVzc2lvbikKCXBhcnRzIDo9IHN0cmluZ3MuRmllbGRzKGV4cHJlc3Npb24pCglwYXJzZXIsIF8sIGVyciA6PSBwYXJzZXJGb3JQYXJ0cyhwYXJ0cykKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoJcmV0dXJuIHBhcnNlci5QYXJzZShleHByZXNzaW9uKQp9Cgp2YXIgZXJySW52YWxpZEZpZWxkQ291bnQgPSAmcGFyc2VFcnJvcnttZXNzYWdlOiAiY3JvbiBleHByZXNzaW9uIG11c3QgaGF2ZSA1IG9yIDYgZmllbGRzIn0KCnR5cGUgcGFyc2VFcnJvciBzdHJ1Y3QgewoJbWVzc2FnZSBzdHJpbmcKfQoKZnVuYyAoZSAqcGFyc2VFcnJvcikgRXJyb3IoKSBzdHJpbmcgewoJcmV0dXJuIGUubWVzc2FnZQp9CgpmdW5jIGJ1aWxkRmllbGRzKHBhcnRzIFtdc3RyaW5nLCBoYXNTZWNvbmQgYm9vbCkgbWFwW3N0cmluZ11zdHJpbmcgewoJaWYgaGFzU2Vjb25kIHsKCQlyZXR1cm4gbWFwW3N0cmluZ11zdHJpbmd7CgkJCSJzZWNvbmQiOiAgICAgIHBhcnRzWzBdLAoJCQkibWludXRlIjogICAgICBwYXJ0c1sxXSwKCQkJImhvdXIiOiAgICAgICAgcGFydHNbMl0sCgkJCSJkYXkiOiAgICAgICAgIHBhcnRzWzNdLAoJCQkibW9udGgiOiAgICAgICBwYXJ0c1s0XSwKCQkJImRheV9vZl93ZWVrIjogcGFydHNbNV0sCgkJfQoJfQoKCXJldHVybiBtYXBbc3RyaW5nXXN0cmluZ3sKCQkibWludXRlIjogICAgICBwYXJ0c1swXSwKCQkiaG91ciI6ICAgICAgICBwYXJ0c1sxXSwKCQkiZGF5IjogICAgICAgICBwYXJ0c1syXSwKCQkibW9udGgiOiAgICAgICBwYXJ0c1szXSwKCQkiZGF5X29mX3dlZWsiOiBwYXJ0c1s0XSwKCX0KfQoKZnVuYyBkZXNjcmliZShmaWVsZHMgbWFwW3N0cmluZ11zdHJpbmcsIGhhc1NlY29uZCBib29sKSBzdHJpbmcgewoJaWYgaGFzU2Vjb25kIHsKCQlpZiBkZXNjLCBvayA6PSBkZXNjcmliZVNpbXBsZVN0ZXAoZmllbGRzWyJzZWNvbmQiXSwgIuenkiIpOyBvayB7CgkJCXJldHVybiBkZXNjCgkJfQoJfQoJaWYgZGVzYywgb2sgOj0gZGVzY3JpYmVTaW1wbGVTdGVwKGZpZWxkc1sibWludXRlIl0sICLliIbpkp8iKTsgb2sgewoJCXJldHVybiBkZXNjCgl9CglpZiBkZXNjLCBvayA6PSBkZXNjcmliZVNpbXBsZVN0ZXAoZmllbGRzWyJob3VyIl0sICLlsI/ml7YiKTsgb2sgewoJCXJldHVybiBkZXNjCgl9CgoJbWludXRlIDo9IGZpZWxkc1sibWludXRlIl0KCWhvdXIgOj0gZmllbGRzWyJob3VyIl0KCWRheSA6PSBmaWVsZHNbImRheSJdCgltb250aCA6PSBub3JtYWxpemVNb250aChmaWVsZHNbIm1vbnRoIl0pCglkb3cgOj0gbm9ybWFsaXplV2VlayhmaWVsZHNbImRheV9vZl93ZWVrIl0pCgoJaWYgaXNFdmVyeShtb250aCkgJiYgaXNFdmVyeShkYXkpICYmIGlzRXZlcnkoaG91cikgJiYgaXNFdmVyeShtaW51dGUpIHsKCQlyZXR1cm4gIuavj+WIhumSnyIKCX0KCWlmIGlzRXZlcnkobW9udGgpICYmIGlzRXZlcnkoZGF5KSAmJiBob3VyID09ICIwIiAmJiBtaW51dGUgPT0gIjAiIHsKCQlyZXR1cm4gIuavj+WkqSAwMDowMCIKCX0KCWlmIGlzRXZlcnkobW9udGgpICYmIGlzRXZlcnkoZGF5KSAmJiBpc051bWVyaWMoaG91cikgJiYgaXNOdW1lcmljKG1pbnV0ZSkgewoJCXJldHVybiAi5q+P5aSpICIgKyB0d29EaWdpdHMoaG91cikgKyAiOiIgKyB0d29EaWdpdHMobWludXRlKQoJfQoJaWYgaXNFdmVyeShtb250aCkgJiYgZGF5ID09ICIqIiAmJiAhaXNFdmVyeShkb3cpICYmIGlzTnVtZXJpYyhob3VyKSAmJiBpc051bWVyaWMobWludXRlKSB7CgkJcmV0dXJuICLmr4/lkaggIiArIGRvdyArICIgIiArIHR3b0RpZ2l0cyhob3VyKSArICI6IiArIHR3b0RpZ2l0cyhtaW51dGUpCgl9CglpZiBtb250aCAhPSAiKiIgJiYgZGF5ICE9ICIqIiAmJiBpc051bWVyaWMoaG91cikgJiYgaXNOdW1lcmljKG1pbnV0ZSkgewoJCXJldHVybiAi5q+P5bm0ICIgKyBtb250aCArICIgIiArIGRheSArICLml6UgIiArIHR3b0RpZ2l0cyhob3VyKSArICI6IiArIHR3b0RpZ2l0cyhtaW51dGUpCgl9CglpZiBkYXkgIT0gIioiICYmIGlzTnVtZXJpYyhob3VyKSAmJiBpc051bWVyaWMobWludXRlKSB7CgkJcmV0dXJuICLmr4/mnIggIiArIGRheSArICLml6UgIiArIHR3b0RpZ2l0cyhob3VyKSArICI6IiArIHR3b0RpZ2l0cyhtaW51dGUpCgl9CglyZXR1cm4gIuiHquWumuS5iSBjcm9uIOihqOi+vuW8jyIKfQoKZnVuYyBkZXNjcmliZVNpbXBsZVN0ZXAoZmllbGQsIHVuaXQgc3RyaW5nKSAoc3RyaW5nLCBib29sKSB7CglpZiBzdHJpbmdzLkhhc1ByZWZpeChmaWVsZCwgIiovIikgewoJCXJldHVybiAi5q+PIiArIHN0cmluZ3MuVHJpbVByZWZpeChmaWVsZCwgIiovIikgKyB1bml0LCB0cnVlCgl9CglyZXR1cm4gIiIsIGZhbHNlCn0KCmZ1bmMgbm9ybWFsaXplV2Vlayh2YWx1ZSBzdHJpbmcpIHN0cmluZyB7Cgl1cHBlciA6PSBzdHJpbmdzLlRvVXBwZXIoc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpKQoJcmVwbGFjZXIgOj0gc3RyaW5ncy5OZXdSZXBsYWNlcigKCQkiU1VOIiwgIuWRqOaXpSIsCgkJIk1PTiIsICLlkajkuIAiLAoJCSJUVUUiLCAi5ZGo5LqMIiwKCQkiV0VEIiwgIuWRqOS4iSIsCgkJIlRIVSIsICLlkajlm5siLAoJCSJGUkkiLCAi5ZGo5LqUIiwKCQkiU0FUIiwgIuWRqOWFrSIsCgkJIjAiLCAi5ZGo5pelIiwKCQkiMSIsICLlkajkuIAiLAoJCSIyIiwgIuWRqOS6jCIsCgkJIjMiLCAi5ZGo5LiJIiwKCQkiNCIsICLlkajlm5siLAoJCSI1IiwgIuWRqOS6lCIsCgkJIjYiLCAi5ZGo5YWtIiwKCQkiNyIsICLlkajml6UiLAoJKQoJcmV0dXJuIHJlcGxhY2VyLlJlcGxhY2UodXBwZXIpCn0KCmZ1bmMgbm9ybWFsaXplTW9udGgodmFsdWUgc3RyaW5nKSBzdHJpbmcgewoJdXBwZXIgOj0gc3RyaW5ncy5Ub1VwcGVyKHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKSkKCXJlcGxhY2VyIDo9IHN0cmluZ3MuTmV3UmVwbGFjZXIoCgkJIkpBTiIsICIx5pyIIiwKCQkiRkVCIiwgIjLmnIgiLAoJCSJNQVIiLCAiM+aciCIsCgkJIkFQUiIsICI05pyIIiwKCQkiTUFZIiwgIjXmnIgiLAoJCSJKVU4iLCAiNuaciCIsCgkJIkpVTCIsICI35pyIIiwKCQkiQVVHIiwgIjjmnIgiLAoJCSJTRVAiLCAiOeaciCIsCgkJIk9DVCIsICIxMOaciCIsCgkJIk5PViIsICIxMeaciCIsCgkJIkRFQyIsICIxMuaciCIsCgkpCglyZXR1cm4gcmVwbGFjZXIuUmVwbGFjZSh1cHBlcikKfQoKZnVuYyBpc0V2ZXJ5KHZhbHVlIHN0cmluZykgYm9vbCB7CglyZXR1cm4gdmFsdWUgPT0gIioiIHx8IHZhbHVlID09ICI/Igp9CgpmdW5jIGlzTnVtZXJpYyh2YWx1ZSBzdHJpbmcpIGJvb2wgewoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiBmYWxzZQoJfQoJZm9yIF8sIHIgOj0gcmFuZ2UgdmFsdWUgewoJCWlmIHIgPCAnMCcgfHwgciA+ICc5JyB7CgkJCXJldHVybiBmYWxzZQoJCX0KCX0KCXJldHVybiB0cnVlCn0KCmZ1bmMgdHdvRGlnaXRzKHZhbHVlIHN0cmluZykgc3RyaW5nIHsKCWlmIGxlbih2YWx1ZSkgPT0gMSB7CgkJcmV0dXJuICIwIiArIHZhbHVlCgl9CglyZXR1cm4gdmFsdWUKfQoKZnVuYyBHZXRUZW1wbGF0ZXMoKSBbXW1hcFtzdHJpbmddc3RyaW5nIHsKCXJldHVybiBbXW1hcFtzdHJpbmddc3RyaW5newoJCXsibmFtZSI6ICLmr4/liIbpkp8iLCAiZXhwcmVzc2lvbiI6ICIwICogKiAqICogKiIsICJkZXNjcmlwdGlvbiI6ICLmr4/liIbpkp/miafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi6auY6aKRIn0sCgkJeyJuYW1lIjogIuavjzXliIbpkp8iLCAiZXhwcmVzc2lvbiI6ICIwICovNSAqICogKiAqIiwgImRlc2NyaXB0aW9uIjogIuavjzXliIbpkp/miafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi6auY6aKRIn0sCgkJeyJuYW1lIjogIuavjzEw5YiG6ZKfIiwgImV4cHJlc3Npb24iOiAiMCAqLzEwICogKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PMTDliIbpkp/miafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi6auY6aKRIn0sCgkJeyJuYW1lIjogIuavjzE15YiG6ZKfIiwgImV4cHJlc3Npb24iOiAiMCAqLzE1ICogKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PMTXliIbpkp/miafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi6auY6aKRIn0sCgkJeyJuYW1lIjogIuavjzMw5YiG6ZKfIiwgImV4cHJlc3Npb24iOiAiMCAqLzMwICogKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PMzDliIbpkp/miafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi5bi455SoIn0sCgkJeyJuYW1lIjogIuavj+Wwj+aXtiIsICJleHByZXNzaW9uIjogIjAgMCAqICogKiAqIiwgImRlc2NyaXB0aW9uIjogIuavj+Wwj+aXtuaVtOeCueaJp+ihjCIsICJjYXRlZ29yeSI6ICLluLjnlKgifSwKCQl7Im5hbWUiOiAi5q+PMuWwj+aXtiIsICJleHByZXNzaW9uIjogIjAgMCAqLzIgKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PMuWwj+aXtuaJp+ihjOS4gOasoSIsICJjYXRlZ29yeSI6ICLluLjnlKgifSwKCQl7Im5hbWUiOiAi5q+PNuWwj+aXtiIsICJleHByZXNzaW9uIjogIjAgMCAqLzYgKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PNuWwj+aXtuaJp+ihjOS4gOasoSIsICJjYXRlZ29yeSI6ICLluLjnlKgifSwKCQl7Im5hbWUiOiAi5q+P5aSpMOeCuSIsICJleHByZXNzaW9uIjogIjAgMCAwICogKiAqIiwgImRlc2NyaXB0aW9uIjogIuavj+WkqeWHjOaZqDDngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5q+P5aSpIn0sCgkJeyJuYW1lIjogIuavj+WkqTbngrkiLCAiZXhwcmVzc2lvbiI6ICIwIDAgNiAqICogKiIsICJkZXNjcmlwdGlvbiI6ICLmr4/lpKnml6nkuIo254K55omn6KGMIiwgImNhdGVnb3J5IjogIuavj+WkqSJ9LAoJCXsibmFtZSI6ICLmr4/lpKk554K5IiwgImV4cHJlc3Npb24iOiAiMCAwIDkgKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+P5aSp5LiK5Y2IOeeCueaJp+ihjCIsICJjYXRlZ29yeSI6ICLmr4/lpKkifSwKCQl7Im5hbWUiOiAi5q+P5aSpMTLngrkiLCAiZXhwcmVzc2lvbiI6ICIwIDAgMTIgKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+P5aSp5Lit5Y2IMTLngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5q+P5aSpIn0sCgkJeyJuYW1lIjogIuavj+WkqTE454K5IiwgImV4cHJlc3Npb24iOiAiMCAwIDE4ICogKiAqIiwgImRlc2NyaXB0aW9uIjogIuavj+WkqeS4i+WNiDbngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5q+P5aSpIn0sCgkJeyJuYW1lIjogIuW3peS9nOaXpTnngrkiLCAiZXhwcmVzc2lvbiI6ICIwIDAgOSAqICogMS01IiwgImRlc2NyaXB0aW9uIjogIuW3peS9nOaXpeS4iuWNiDnngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5bel5L2c5pelIn0sCgkJeyJuYW1lIjogIuW3peS9nOaXpTE454K5IiwgImV4cHJlc3Npb24iOiAiMCAwIDE4ICogKiAxLTUiLCAiZGVzY3JpcHRpb24iOiAi5bel5L2c5pel5LiL5Y2INueCueaJp+ihjCIsICJjYXRlZ29yeSI6ICLlt6XkvZzml6UifSwKCQl7Im5hbWUiOiAi5ZGo5pyrMTDngrkiLCAiZXhwcmVzc2lvbiI6ICIwIDAgMTAgKiAqIDAsNiIsICJkZXNjcmlwdGlvbiI6ICLlkajmnKvkuIrljYgxMOeCueaJp+ihjCIsICJjYXRlZ29yeSI6ICLlkajmnKsifSwKCQl7Im5hbWUiOiAi5q+P5ZGo5LiAMOeCuSIsICJleHByZXNzaW9uIjogIjAgMCAwICogKiAxIiwgImRlc2NyaXB0aW9uIjogIuavj+WRqOS4gOWHjOaZqDDngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5q+P5ZGoIn0sCgkJeyJuYW1lIjogIuavj+aciDHml6Uw54K5IiwgImV4cHJlc3Npb24iOiAiMCAwIDAgMSAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+P5pyIMeaXpeWHjOaZqDDngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5q+P5pyIIn0sCgkJeyJuYW1lIjogIuavj+aciDE15pelMOeCuSIsICJleHByZXNzaW9uIjogIjAgMCAwIDE1ICogKiIsICJkZXNjcmlwdGlvbiI6ICLmr4/mnIgxNeaXpeWHjOaZqDDngrnmiafooYwiLCAiY2F0ZWdvcnkiOiAi5q+P5pyIIn0sCgkJeyJuYW1lIjogIuavjzEw56eSIiwgImV4cHJlc3Npb24iOiAiKi8xMCAqICogKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PMTDnp5LmiafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi56eS57qnIn0sCgkJeyJuYW1lIjogIuavjzMw56eSIiwgImV4cHJlc3Npb24iOiAiKi8zMCAqICogKiAqICoiLCAiZGVzY3JpcHRpb24iOiAi5q+PMzDnp5LmiafooYzkuIDmrKEiLCAiY2F0ZWdvcnkiOiAi56eS57qnIn0sCgl9Cn0K
+package cron
+
+import (
+	"fmt"
+	"sort"
+	"strings"
+	"time"
+
+	robfigcron "github.com/robfig/cron/v3"
+)
+
+type ParseResult struct {
+	Valid       bool
+	HasSecond   bool
+	Fields      map[string]string
+	Description string
+	Error       string
+}
+
+func SplitExpressions(raw string) []string {
+	lines := strings.FieldsFunc(raw, func(r rune) bool {
+		return r == '\n' || r == '\r'
+	})
+	result := make([]string, 0, len(lines))
+	for _, line := range lines {
+		line = strings.TrimSpace(line)
+		if line != "" {
+			result = append(result, line)
+		}
+	}
+	return result
+}
+
+func NormalizeExpressions(raw string) string {
+	return strings.Join(SplitExpressions(raw), "\n")
+}
+
+func ValidateExpressions(raw string) error {
+	expressions := SplitExpressions(raw)
+	if len(expressions) == 0 {
+		return fmt.Errorf("请至少填写一条定时规则")
+	}
+
+	for index, expression := range expressions {
+		result := Parse(expression)
+		if !result.Valid {
+			return fmt.Errorf("第 %d 条定时规则无效: %s", index+1, result.Error)
+		}
+	}
+	return nil
+}
+
+func Parse(expression string) ParseResult {
+	expression = strings.TrimSpace(expression)
+	parts := strings.Fields(expression)
+
+	parser, hasSecond, err := parserForParts(parts)
+	if err != nil {
+		return ParseResult{Valid: false, Error: err.Error()}
+	}
+
+	if _, err := parser.Parse(expression); err != nil {
+		return ParseResult{Valid: false, Error: err.Error()}
+	}
+
+	fields := buildFields(parts, hasSecond)
+	return ParseResult{
+		Valid:       true,
+		HasSecond:   hasSecond,
+		Fields:      fields,
+		Description: describe(fields, hasSecond),
+	}
+}
+
+func NextRunTimes(expression string, count int) []time.Time {
+	return NextRunTimesFrom(expression, count, time.Now())
+}
+
+func NextRunTimesFrom(expression string, count int, from time.Time) []time.Time {
+	if count <= 0 {
+		return nil
+	}
+
+	schedule, err := ParseSchedule(expression)
+	if err != nil {
+		return nil
+	}
+
+	times := make([]time.Time, 0, count)
+	next := from
+	for i := 0; i < count; i++ {
+		next = schedule.Next(next)
+		if next.IsZero() {
+			break
+		}
+		times = append(times, next)
+	}
+	return times
+}
+
+func NextRunTimesForExpressions(raw string, count int) []time.Time {
+	return NextRunTimesForExpressionsFrom(raw, count, time.Now())
+}
+
+func NextRunTimesForExpressionsFrom(raw string, count int, from time.Time) []time.Time {
+	if count <= 0 {
+		return nil
+	}
+
+	expressions := SplitExpressions(raw)
+	if len(expressions) == 0 {
+		return nil
+	}
+
+	times := make([]time.Time, 0, len(expressions)*count)
+	for _, expression := range expressions {
+		times = append(times, NextRunTimesFrom(expression, count, from)...)
+	}
+
+	sort.Slice(times, func(i, j int) bool {
+		return times[i].Before(times[j])
+	})
+
+	if len(times) > count {
+		times = times[:count]
+	}
+	return times
+}
+
+func parserForParts(parts []string) (robfigcron.Parser, bool, error) {
+	switch len(parts) {
+	case 5:
+		return robfigcron.NewParser(
+			robfigcron.Minute |
+				robfigcron.Hour |
+				robfigcron.Dom |
+				robfigcron.Month |
+				robfigcron.Dow |
+				robfigcron.Descriptor,
+		), false, nil
+	case 6:
+		return robfigcron.NewParser(
+			robfigcron.Second |
+				robfigcron.Minute |
+				robfigcron.Hour |
+				robfigcron.Dom |
+				robfigcron.Month |
+				robfigcron.Dow |
+				robfigcron.Descriptor,
+		), true, nil
+	default:
+		return robfigcron.Parser{}, false, errInvalidFieldCount
+	}
+}
+
+func parseSchedule(expression string) (robfigcron.Schedule, error) {
+	return ParseSchedule(expression)
+}
+
+func ParseSchedule(expression string) (robfigcron.Schedule, error) {
+	expression = strings.TrimSpace(expression)
+	parts := strings.Fields(expression)
+	parser, _, err := parserForParts(parts)
+	if err != nil {
+		return nil, err
+	}
+	return parser.Parse(expression)
+}
+
+var errInvalidFieldCount = &parseError{message: "cron expression must have 5 or 6 fields"}
+
+type parseError struct {
+	message string
+}
+
+func (e *parseError) Error() string {
+	return e.message
+}
+
+func buildFields(parts []string, hasSecond bool) map[string]string {
+	if hasSecond {
+		return map[string]string{
+			"second":      parts[0],
+			"minute":      parts[1],
+			"hour":        parts[2],
+			"day":         parts[3],
+			"month":       parts[4],
+			"day_of_week": parts[5],
+		}
+	}
+
+	return map[string]string{
+		"minute":      parts[0],
+		"hour":        parts[1],
+		"day":         parts[2],
+		"month":       parts[3],
+		"day_of_week": parts[4],
+	}
+}
+
+func describe(fields map[string]string, hasSecond bool) string {
+	if hasSecond {
+		if desc, ok := describeSimpleStep(fields["second"], "秒"); ok {
+			return desc
+		}
+	}
+	if desc, ok := describeSimpleStep(fields["minute"], "分钟"); ok {
+		return desc
+	}
+	if desc, ok := describeSimpleStep(fields["hour"], "小时"); ok {
+		return desc
+	}
+
+	minute := fields["minute"]
+	hour := fields["hour"]
+	day := fields["day"]
+	month := normalizeMonth(fields["month"])
+	dow := normalizeWeek(fields["day_of_week"])
+
+	if isEvery(month) && isEvery(day) && isEvery(hour) && isEvery(minute) {
+		return "每分钟"
+	}
+	if isEvery(month) && isEvery(day) && hour == "0" && minute == "0" {
+		return "每天 00:00"
+	}
+	if isEvery(month) && isEvery(day) && isNumeric(hour) && isNumeric(minute) {
+		return "每天 " + twoDigits(hour) + ":" + twoDigits(minute)
+	}
+	if isEvery(month) && day == "*" && !isEvery(dow) && isNumeric(hour) && isNumeric(minute) {
+		return "每周 " + dow + " " + twoDigits(hour) + ":" + twoDigits(minute)
+	}
+	if month != "*" && day != "*" && isNumeric(hour) && isNumeric(minute) {
+		return "每年 " + month + " " + day + "日 " + twoDigits(hour) + ":" + twoDigits(minute)
+	}
+	if day != "*" && isNumeric(hour) && isNumeric(minute) {
+		return "每月 " + day + "日 " + twoDigits(hour) + ":" + twoDigits(minute)
+	}
+	return "自定义 cron 表达式"
+}
+
+func describeSimpleStep(field, unit string) (string, bool) {
+	if strings.HasPrefix(field, "*/") {
+		return "每" + strings.TrimPrefix(field, "*/") + unit, true
+	}
+	return "", false
+}
+
+func normalizeWeek(value string) string {
+	upper := strings.ToUpper(strings.TrimSpace(value))
+	replacer := strings.NewReplacer(
+		"SUN", "周日",
+		"MON", "周一",
+		"TUE", "周二",
+		"WED", "周三",
+		"THU", "周四",
+		"FRI", "周五",
+		"SAT", "周六",
+		"0", "周日",
+		"1", "周一",
+		"2", "周二",
+		"3", "周三",
+		"4", "周四",
+		"5", "周五",
+		"6", "周六",
+		"7", "周日",
+	)
+	return replacer.Replace(upper)
+}
+
+func normalizeMonth(value string) string {
+	upper := strings.ToUpper(strings.TrimSpace(value))
+	replacer := strings.NewReplacer(
+		"JAN", "1月",
+		"FEB", "2月",
+		"MAR", "3月",
+		"APR", "4月",
+		"MAY", "5月",
+		"JUN", "6月",
+		"JUL", "7月",
+		"AUG", "8月",
+		"SEP", "9月",
+		"OCT", "10月",
+		"NOV", "11月",
+		"DEC", "12月",
+	)
+	return replacer.Replace(upper)
+}
+
+func isEvery(value string) bool {
+	return value == "*" || value == "?"
+}
+
+func isNumeric(value string) bool {
+	if value == "" {
+		return false
+	}
+	for _, r := range value {
+		if r < '0' || r > '9' {
+			return false
+		}
+	}
+	return true
+}
+
+func twoDigits(value string) string {
+	if len(value) == 1 {
+		return "0" + value
+	}
+	return value
+}
+
+func GetTemplates() []map[string]string {
+	return []map[string]string{
+		{"name": "每分钟", "expression": "0 * * * * *", "description": "每分钟执行一次", "category": "高频"},
+		{"name": "每5分钟", "expression": "0 */5 * * * *", "description": "每5分钟执行一次", "category": "高频"},
+		{"name": "每10分钟", "expression": "0 */10 * * * *", "description": "每10分钟执行一次", "category": "高频"},
+		{"name": "每15分钟", "expression": "0 */15 * * * *", "description": "每15分钟执行一次", "category": "高频"},
+		{"name": "每30分钟", "expression": "0 */30 * * * *", "description": "每30分钟执行一次", "category": "常用"},
+		{"name": "每小时", "expression": "0 0 * * * *", "description": "每小时整点执行", "category": "常用"},
+		{"name": "每2小时", "expression": "0 0 */2 * * *", "description": "每2小时执行一次", "category": "常用"},
+		{"name": "每6小时", "expression": "0 0 */6 * * *", "description": "每6小时执行一次", "category": "常用"},
+		{"name": "每天0点", "expression": "0 0 0 * * *", "description": "每天凌晨0点执行", "category": "每天"},
+		{"name": "每天6点", "expression": "0 0 6 * * *", "description": "每天早上6点执行", "category": "每天"},
+		{"name": "每天9点", "expression": "0 0 9 * * *", "description": "每天上午9点执行", "category": "每天"},
+		{"name": "每天12点", "expression": "0 0 12 * * *", "description": "每天中午12点执行", "category": "每天"},
+		{"name": "每天18点", "expression": "0 0 18 * * *", "description": "每天下午6点执行", "category": "每天"},
+		{"name": "工作日9点", "expression": "0 0 9 * * 1-5", "description": "工作日上午9点执行", "category": "工作日"},
+		{"name": "工作日18点", "expression": "0 0 18 * * 1-5", "description": "工作日下午6点执行", "category": "工作日"},
+		{"name": "周末10点", "expression": "0 0 10 * * 0,6", "description": "周末上午10点执行", "category": "周末"},
+		{"name": "每周一0点", "expression": "0 0 0 * * 1", "description": "每周一凌晨0点执行", "category": "每周"},
+		{"name": "每月1日0点", "expression": "0 0 0 1 * *", "description": "每月1日凌晨0点执行", "category": "每月"},
+		{"name": "每月15日0点", "expression": "0 0 0 15 * *", "description": "每月15日凌晨0点执行", "category": "每月"},
+		{"name": "每10秒", "expression": "*/10 * * * * *", "description": "每10秒执行一次", "category": "秒级"},
+		{"name": "每30秒", "expression": "*/30 * * * * *", "description": "每30秒执行一次", "category": "秒级"},
+	}
+}

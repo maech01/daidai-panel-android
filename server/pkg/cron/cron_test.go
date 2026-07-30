@@ -1,1 +1,57 @@
-cGFja2FnZSBjcm9uCgppbXBvcnQgKAoJInN0cmluZ3MiCgkidGVzdGluZyIKCSJ0aW1lIgopCgpmdW5jIFRlc3RQYXJzZU1hdGNoZXNTY2hlZHVsZXJQYXJzZXIodCAqdGVzdGluZy5UKSB7CgljYXNlcyA6PSBbXXN0cmluZ3sKCQkiMCAqLzUgKiAqICogKiIsCgkJIjAgOSAqIEpBTiBNT04iLAoJCSIwIDAgTCAqICoiLAoJCSIwIDAgMTVXICogKiIsCgkJIjAgMCAqICogTU9OIzIiLAoJfQoKCWZvciBfLCBleHByIDo9IHJhbmdlIGNhc2VzIHsKCQlwYXJzZXIsIF8sIGVyciA6PSBwYXJzZXJGb3JQYXJ0cyhzdHJpbmdzLkZpZWxkcyhleHByKSkKCQlfLCBwYXJzZUVyciA6PSBwYXJzZXIuUGFyc2UoZXhwcikKCQlleHBlY3RWYWxpZCA6PSBlcnIgPT0gbmlsICYmIHBhcnNlRXJyID09IG5pbAoKCQlyZXN1bHQgOj0gUGFyc2UoZXhwcikKCQlpZiByZXN1bHQuVmFsaWQgIT0gZXhwZWN0VmFsaWQgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCB2YWxpZGl0eSBmb3IgJXE6IGdvdCAldiB3YW50ICV2IiwgZXhwciwgcmVzdWx0LlZhbGlkLCBleHBlY3RWYWxpZCkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdE5leHRSdW5UaW1lc01hdGNoZXNTY2hlZHVsZSh0ICp0ZXN0aW5nLlQpIHsKCWV4cHIgOj0gIjAgKi81ICogKiAqICoiCglzY2hlZHVsZSwgZXJyIDo9IHBhcnNlU2NoZWR1bGUoZXhwcikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJwYXJzZVNjaGVkdWxlIGVycm9yOiAldiIsIGVycikKCX0KCglnb3QgOj0gTmV4dFJ1blRpbWVzKGV4cHIsIDMpCglpZiBsZW4oZ290KSAhPSAzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMyBuZXh0IHJ1biB0aW1lcywgZ290ICVkIiwgbGVuKGdvdCkpCgl9CgoJY3Vyc29yIDo9IHRpbWUuTm93KCkKCWZvciBpLCBuZXh0IDo9IHJhbmdlIGdvdCB7CgkJZXhwZWN0ZWQgOj0gc2NoZWR1bGUuTmV4dChjdXJzb3IpCgkJaWYgIW5leHQuRXF1YWwoZXhwZWN0ZWQpIHsKCQkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgbmV4dCBydW4gYXQgaW5kZXggJWQ6IGdvdCAldiB3YW50ICV2IiwgaSwgbmV4dCwgZXhwZWN0ZWQpCgkJfQoJCWN1cnNvciA9IGV4cGVjdGVkCgl9Cn0KCmZ1bmMgVGVzdFBhcnNlSW52YWxpZEZpZWxkQ291bnQodCAqdGVzdGluZy5UKSB7CglyZXN1bHQgOj0gUGFyc2UoIiogKiAqICoiKQoJaWYgcmVzdWx0LlZhbGlkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW52YWxpZCBmaWVsZCBjb3VudCB0byBiZSByZWplY3RlZCIpCgl9Cn0K
+package cron
+
+import (
+	"strings"
+	"testing"
+	"time"
+)
+
+func TestParseMatchesSchedulerParser(t *testing.T) {
+	cases := []string{
+		"0 */5 * * * *",
+		"0 9 * JAN MON",
+		"0 0 L * *",
+		"0 0 15W * *",
+		"0 0 * * MON#2",
+	}
+
+	for _, expr := range cases {
+		parser, _, err := parserForParts(strings.Fields(expr))
+		_, parseErr := parser.Parse(expr)
+		expectValid := err == nil && parseErr == nil
+
+		result := Parse(expr)
+		if result.Valid != expectValid {
+			t.Fatalf("unexpected validity for %q: got %v want %v", expr, result.Valid, expectValid)
+		}
+	}
+}
+
+func TestNextRunTimesMatchesSchedule(t *testing.T) {
+	expr := "0 */5 * * * *"
+	schedule, err := parseSchedule(expr)
+	if err != nil {
+		t.Fatalf("parseSchedule error: %v", err)
+	}
+
+	got := NextRunTimes(expr, 3)
+	if len(got) != 3 {
+		t.Fatalf("expected 3 next run times, got %d", len(got))
+	}
+
+	cursor := time.Now()
+	for i, next := range got {
+		expected := schedule.Next(cursor)
+		if !next.Equal(expected) {
+			t.Fatalf("unexpected next run at index %d: got %v want %v", i, next, expected)
+		}
+		cursor = expected
+	}
+}
+
+func TestParseInvalidFieldCount(t *testing.T) {
+	result := Parse("* * * *")
+	if result.Valid {
+		t.Fatalf("expected invalid field count to be rejected")
+	}
+}

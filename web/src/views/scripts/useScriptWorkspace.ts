@@ -1,1 +1,77 @@
-aW1wb3J0IHsgb25BY3RpdmF0ZWQsIG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkLCB3YXRjaCB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgdXNlUm91dGUsIHVzZVJvdXRlciB9IGZyb20gJ3Z1ZS1yb3V0ZXInCmltcG9ydCB7IHVzZVNjcmlwdFdvcmtzcGFjZUFjdGlvbnMgfSBmcm9tICcuL3VzZVNjcmlwdFdvcmtzcGFjZUFjdGlvbnMnCmltcG9ydCB7IHVzZVNjcmlwdFdvcmtzcGFjZUJyb3dzZXIgfSBmcm9tICcuL3VzZVNjcmlwdFdvcmtzcGFjZUJyb3dzZXInCgpleHBvcnQgZnVuY3Rpb24gdXNlU2NyaXB0V29ya3NwYWNlKCkgewogIGNvbnN0IHJvdXRlciA9IHVzZVJvdXRlcigpCiAgY29uc3Qgcm91dGUgPSB1c2VSb3V0ZSgpCgogIGNvbnN0IGJyb3dzZXIgPSB1c2VTY3JpcHRXb3Jrc3BhY2VCcm93c2VyKCkKICBjb25zdCBhY3Rpb25zID0gdXNlU2NyaXB0V29ya3NwYWNlQWN0aW9ucyh7CiAgICBzZWxlY3RlZEZpbGU6IGJyb3dzZXIuc2VsZWN0ZWRGaWxlLAogICAgZmlsZUNvbnRlbnQ6IGJyb3dzZXIuZmlsZUNvbnRlbnQsCiAgICBvcmlnaW5hbENvbnRlbnQ6IGJyb3dzZXIub3JpZ2luYWxDb250ZW50LAogICAgaXNCaW5hcnk6IGJyb3dzZXIuaXNCaW5hcnksCiAgICBpc0VkaXRpbmc6IGJyb3dzZXIuaXNFZGl0aW5nLAogICAgaGFzQ2hhbmdlczogYnJvd3Nlci5oYXNDaGFuZ2VzLAogICAgbG9hZFRyZWU6IGJyb3dzZXIubG9hZFRyZWUsCiAgICBsb2FkRmlsZUNvbnRlbnQ6IGJyb3dzZXIubG9hZEZpbGVDb250ZW50LAogICAgZXh0cmFjdFNjcmlwdEVycm9yTWVzc2FnZTogYnJvd3Nlci5leHRyYWN0U2NyaXB0RXJyb3JNZXNzYWdlLAogICAgb3BlbkZpbGU6IGJyb3dzZXIub3BlbkZpbGUsCiAgICB0cmlnZ2VyRWRpdG9yQXV0b0ZvY3VzOiBicm93c2VyLnRyaWdnZXJFZGl0b3JBdXRvRm9jdXMKICB9KQogIGxldCBza2lwSW5pdGlhbEFjdGl2YXRlZCA9IHRydWUKCiAgb25Nb3VudGVkKCgpID0+IHsKICAgIHdpbmRvdy5hZGRFdmVudExpc3RlbmVyKCdrZXlkb3duJywgYWN0aW9ucy5oYW5kbGVLZXlEb3duKQogICAgdm9pZCBicm93c2VyLmxvYWRUcmVlKCkKICB9KQoKICBvbkFjdGl2YXRlZCgoKSA9PiB7CiAgICBpZiAoc2tpcEluaXRpYWxBY3RpdmF0ZWQpIHsKICAgICAgc2tpcEluaXRpYWxBY3RpdmF0ZWQgPSBmYWxzZQogICAgICByZXR1cm4KICAgIH0KICAgIHZvaWQgYnJvd3Nlci5sb2FkVHJlZSgpCiAgfSkKCiAgYXN5bmMgZnVuY3Rpb24gb3BlbkZpbGVGcm9tUm91dGUoZmlsZVBhcmFtPzogc3RyaW5nKSB7CiAgICBpZiAoIWZpbGVQYXJhbSkgcmV0dXJuCgogICAgYXdhaXQgYnJvd3Nlci5vcGVuRmlsZShmaWxlUGFyYW0pCiAgICBhd2FpdCByb3V0ZXIucmVwbGFjZSh7IHBhdGg6ICcvc2NyaXB0cycgfSkKICB9CgogIHdhdGNoKAogICAgKCkgPT4gcm91dGUucXVlcnkuZmlsZSwKICAgIChmaWxlUGFyYW0pID0+IHsKICAgICAgaWYgKHR5cGVvZiBmaWxlUGFyYW0gIT09ICdzdHJpbmcnIHx8ICFmaWxlUGFyYW0udHJpbSgpKSB7CiAgICAgICAgcmV0dXJuCiAgICAgIH0KICAgICAgdm9pZCBvcGVuRmlsZUZyb21Sb3V0ZShmaWxlUGFyYW0pCiAgICB9LAogICAgeyBpbW1lZGlhdGU6IHRydWUgfQogICkKCiAgd2F0Y2goCiAgICAoKSA9PiByb3V0ZS5xdWVyeS51cGxvYWQsCiAgICAodXBsb2FkUGFyYW0pID0+IHsKICAgICAgaWYgKHVwbG9hZFBhcmFtICE9PSAnMScpIHsKICAgICAgICByZXR1cm4KICAgICAgfQogICAgICBhY3Rpb25zLm9wZW5VcGxvYWREaWFsb2coKQogICAgICB2b2lkIHJvdXRlci5yZXBsYWNlKHsgcGF0aDogJy9zY3JpcHRzJyB9KQogICAgfSwKICAgIHsgaW1tZWRpYXRlOiB0cnVlIH0KICApCgogIG9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgICB3aW5kb3cucmVtb3ZlRXZlbnRMaXN0ZW5lcigna2V5ZG93bicsIGFjdGlvbnMuaGFuZGxlS2V5RG93bikKICB9KQoKICByZXR1cm4gewogICAgLi4uYnJvd3NlciwKICAgIC4uLmFjdGlvbnMKICB9Cn0K
+import { onActivated, onBeforeUnmount, onMounted, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
+import { useScriptWorkspaceActions } from './useScriptWorkspaceActions'
+import { useScriptWorkspaceBrowser } from './useScriptWorkspaceBrowser'
+
+export function useScriptWorkspace() {
+  const router = useRouter()
+  const route = useRoute()
+
+  const browser = useScriptWorkspaceBrowser()
+  const actions = useScriptWorkspaceActions({
+    selectedFile: browser.selectedFile,
+    fileContent: browser.fileContent,
+    originalContent: browser.originalContent,
+    isBinary: browser.isBinary,
+    isEditing: browser.isEditing,
+    hasChanges: browser.hasChanges,
+    loadTree: browser.loadTree,
+    loadFileContent: browser.loadFileContent,
+    extractScriptErrorMessage: browser.extractScriptErrorMessage,
+    openFile: browser.openFile,
+    triggerEditorAutoFocus: browser.triggerEditorAutoFocus
+  })
+  let skipInitialActivated = true
+
+  onMounted(() => {
+    window.addEventListener('keydown', actions.handleKeyDown)
+    void browser.loadTree()
+  })
+
+  onActivated(() => {
+    if (skipInitialActivated) {
+      skipInitialActivated = false
+      return
+    }
+    void browser.loadTree()
+  })
+
+  async function openFileFromRoute(fileParam?: string) {
+    if (!fileParam) return
+
+    await browser.openFile(fileParam)
+    await router.replace({ path: '/scripts' })
+  }
+
+  watch(
+    () => route.query.file,
+    (fileParam) => {
+      if (typeof fileParam !== 'string' || !fileParam.trim()) {
+        return
+      }
+      void openFileFromRoute(fileParam)
+    },
+    { immediate: true }
+  )
+
+  watch(
+    () => route.query.upload,
+    (uploadParam) => {
+      if (uploadParam !== '1') {
+        return
+      }
+      actions.openUploadDialog()
+      void router.replace({ path: '/scripts' })
+    },
+    { immediate: true }
+  )
+
+  onBeforeUnmount(() => {
+    window.removeEventListener('keydown', actions.handleKeyDown)
+  })
+
+  return {
+    ...browser,
+    ...actions
+  }
+}

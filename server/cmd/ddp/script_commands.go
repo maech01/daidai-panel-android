@@ -1,1 +1,256 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgKAoJImZtdCIKCSJpbyIKCSJuZXQvaHR0cCIKCW5ldHVybCAibmV0L3VybCIKCSJvcyIKCSJwYXRoIgoJInBhdGgvZmlsZXBhdGgiCgkicmVnZXhwIgoJInNvcnQiCgkic3RyaW5ncyIKCSJ0aW1lIgopCgp2YXIgY2xpQWxsb3dlZFNjcmlwdEV4dGVuc2lvbnMgPSBtYXBbc3RyaW5nXWJvb2x7CgkiLnB5IjogdHJ1ZSwgIi5qcyI6IHRydWUsICIubWpzIjogdHJ1ZSwgIi5zaCI6IHRydWUsICIudHMiOiB0cnVlLCAiLmpzb24iOiB0cnVlLAoJIi55YW1sIjogdHJ1ZSwgIi55bWwiOiB0cnVlLCAiLnR4dCI6IHRydWUsICIubWQiOiB0cnVlLCAiLmNvbmYiOiB0cnVlLAoJIi5pbmkiOiB0cnVlLCAiLmVudiI6IHRydWUsICIudG9tbCI6IHRydWUsICIueG1sIjogdHJ1ZSwgIi5jc3YiOiB0cnVlLAoJIi5wbmciOiB0cnVlLCAiLmpwZyI6IHRydWUsICIuanBlZyI6IHRydWUsICIuZ2lmIjogdHJ1ZSwgIi5zdmciOiB0cnVlLAoJIi5pY28iOiB0cnVlLCAiLmJtcCI6IHRydWUsICIud2VicCI6IHRydWUsICIubG9nIjogdHJ1ZSwgIi5odG0iOiB0cnVlLAoJIi5odG1sIjogdHJ1ZSwgIi5jc3MiOiB0cnVlLCAiLnNxbCI6IHRydWUsICIuYmF0IjogdHJ1ZSwgIi5jbWQiOiB0cnVlLCAiLnBzMSI6IHRydWUsICIuZ28iOiB0cnVlLAoJIi5zbyI6IHRydWUsCn0KCnZhciBjbGlCaW5hcnlTY3JpcHRFeHRlbnNpb25zID0gbWFwW3N0cmluZ11ib29sewoJIi5wbmciOiB0cnVlLCAiLmpwZyI6IHRydWUsICIuanBlZyI6IHRydWUsICIuZ2lmIjogdHJ1ZSwKCSIuaWNvIjogdHJ1ZSwgIi5ibXAiOiB0cnVlLCAiLndlYnAiOiB0cnVlLCAiLnNvIjogdHJ1ZSwKfQoKdmFyIGludmFsaWRDTElQYXRoQ2hhcnNQYXR0ZXJuID0gcmVnZXhwLk11c3RDb21waWxlKGBbPD46IlxcfD8qXHgwMC1ceDFGXWApCgpmdW5jIHJ1blNjcmlwdChydCAqY2xpUnVudGltZSwgYXJncyBbXXN0cmluZykgZXJyb3IgewoJaWYgbGVuKGFyZ3MpID09IDAgewoJCXJldHVybiBmbXQuRXJyb3JmKCLnlKjms5U6IGRkcCBzY3JpcHQgPGxpc3R8Y2F0fGZldGNoPiAuLi4iKQoJfQoKCXN3aXRjaCBhcmdzWzBdIHsKCWNhc2UgImxpc3QiOgoJCXJldHVybiBydW5TY3JpcHRMaXN0KHJ0KQoJY2FzZSAiY2F0IjoKCQlyZXR1cm4gcnVuU2NyaXB0Q2F0KHJ0LCBhcmdzWzE6XSkKCWNhc2UgImZldGNoIjoKCQlyZXR1cm4gcnVuU2NyaXB0RmV0Y2gocnQsIGFyZ3NbMTpdKQoJZGVmYXVsdDoKCQlyZXR1cm4gZm10LkVycm9yZigi5pyq55+lIHNjcmlwdCDlrZDlkb3ku6Q6ICVzIiwgYXJnc1swXSkKCX0KfQoKZnVuYyBydW5TY3JpcHRMaXN0KHJ0ICpjbGlSdW50aW1lKSBlcnJvciB7CglpZiBlcnIgOj0gcnQuYm9vdHN0cmFwKCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCgl2YXIgZmlsZXMgW11zdHJpbmcKCWVyciA6PSBmaWxlcGF0aC5XYWxrKHJ0LmNmZy5EYXRhLlNjcmlwdHNEaXIsIGZ1bmMoY3VycmVudCBzdHJpbmcsIGluZm8gb3MuRmlsZUluZm8sIHdhbGtFcnIgZXJyb3IpIGVycm9yIHsKCQlpZiB3YWxrRXJyICE9IG5pbCB8fCBpbmZvID09IG5pbCB8fCBpbmZvLklzRGlyKCkgewoJCQlyZXR1cm4gbmlsCgkJfQoKCQlyZWwsIGVyciA6PSBmaWxlcGF0aC5SZWwocnQuY2ZnLkRhdGEuU2NyaXB0c0RpciwgY3VycmVudCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbAoJCX0KCQlyZWwgPSBmaWxlcGF0aC5Ub1NsYXNoKHJlbCkKCgkJZXh0IDo9IHN0cmluZ3MuVG9Mb3dlcihmaWxlcGF0aC5FeHQoaW5mby5OYW1lKCkpKQoJCWlmIGV4dCAhPSAiIiAmJiAhY2xpQWxsb3dlZFNjcmlwdEV4dGVuc2lvbnNbZXh0XSB7CgkJCXJldHVybiBuaWwKCQl9CgoJCWZpbGVzID0gYXBwZW5kKGZpbGVzLCByZWwpCgkJcmV0dXJuIG5pbAoJfSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglzb3J0LlN0cmluZ3MoZmlsZXMpCglpZiBsZW4oZmlsZXMpID09IDAgewoJCWZtdC5QcmludGxuKCLohJrmnKznm67lvZXlvZPliY3msqHmnInmlofku7YiKQoJCXJldHVybiBuaWwKCX0KCglmb3IgXywgZmlsZSA6PSByYW5nZSBmaWxlcyB7CgkJZm10LlByaW50bG4oZmlsZSkKCX0KCXJldHVybiBuaWwKfQoKZnVuYyBydW5TY3JpcHRDYXQocnQgKmNsaVJ1bnRpbWUsIGFyZ3MgW11zdHJpbmcpIGVycm9yIHsKCWlmIGVyciA6PSBydC5ib290c3RyYXAoKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJaWYgbGVuKGFyZ3MpICE9IDEgewoJCXJldHVybiBmbXQuRXJyb3JmKCLnlKjms5U6IGRkcCBzY3JpcHQgY2F0IDznm7jlr7not6/lvoQ+IikKCX0KCglmdWxsLCByZWwsIGVyciA6PSByZXNvbHZlQ0xJU2NyaXB0UGF0aChydC5jZmcuRGF0YS5TY3JpcHRzRGlyLCBhcmdzWzBdLCB0cnVlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCWV4dCA6PSBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguRXh0KGZ1bGwpKQoJaWYgY2xpQmluYXJ5U2NyaXB0RXh0ZW5zaW9uc1tleHRdIHsKCQlyZXR1cm4gZm10LkVycm9yZigi6ISa5pysICVzIOaYr+S6jOi/m+WItuaWh+S7tu+8jOS4jeiDveebtOaOpei+k+WHuiIsIHJlbCkKCX0KCglkYXRhLCBlcnIgOj0gb3MuUmVhZEZpbGUoZnVsbCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglmbXQuUHJpbnQoc3RyaW5nKGRhdGEpKQoJcmV0dXJuIG5pbAp9CgpmdW5jIHJ1blNjcmlwdEZldGNoKHJ0ICpjbGlSdW50aW1lLCBhcmdzIFtdc3RyaW5nKSBlcnJvciB7CglpZiBlcnIgOj0gcnQuYm9vdHN0cmFwKCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCWlmIGxlbihhcmdzKSA9PSAwIHsKCQlyZXR1cm4gZm10LkVycm9yZigi55So5rOVOiBkZHAgc2NyaXB0IGZldGNoIDx1cmw+IFstLXBhdGgg55u45a+56Lev5b6EXSBbLS1mb3JjZV0iKQoJfQoKCXJhd1VSTCA6PSBzdHJpbmdzLlRyaW1TcGFjZShhcmdzWzBdKQoJdGFyZ2V0UGF0aCA6PSAiIgoJZm9yY2UgOj0gZmFsc2UKCWZvciBpIDo9IDE7IGkgPCBsZW4oYXJncyk7IGkrKyB7CgkJc3dpdGNoIGFyZ3NbaV0gewoJCWNhc2UgIi0tcGF0aCI6CgkJCWlmIGkrMSA+PSBsZW4oYXJncykgewoJCQkJcmV0dXJuIGZtdC5FcnJvcmYoIi0tcGF0aCDpnIDopoHlj4LmlbAiKQoJCQl9CgkJCXRhcmdldFBhdGggPSBhcmdzW2krMV0KCQkJaSsrCgkJY2FzZSAiLS1mb3JjZSI6CgkJCWZvcmNlID0gdHJ1ZQoJCWRlZmF1bHQ6CgkJCXJldHVybiBmbXQuRXJyb3JmKCLmnKrnn6Xlj4LmlbA6ICVzIiwgYXJnc1tpXSkKCQl9Cgl9CgoJcGFyc2VkLCBlcnIgOj0gbmV0dXJsLlBhcnNlKHJhd1VSTCkKCWlmIGVyciAhPSBuaWwgfHwgcGFyc2VkLlNjaGVtZSA9PSAiIiB8fCBwYXJzZWQuSG9zdCA9PSAiIiB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuaXoOaViOeahOS4i+i9veWcsOWdgCIpCgl9CgoJaWYgdGFyZ2V0UGF0aCA9PSAiIiB7CgkJdGFyZ2V0UGF0aCA9IHBhdGguQmFzZShwYXJzZWQuUGF0aCkKCQlpZiBzdHJpbmdzLlRyaW1TcGFjZSh0YXJnZXRQYXRoKSA9PSAiIiB8fCB0YXJnZXRQYXRoID09ICIuIiB8fCB0YXJnZXRQYXRoID09ICIvIiB7CgkJCXJldHVybiBmbXQuRXJyb3JmKCLml6Dms5Xku44gVVJMIOaOqOaWreaWh+S7tuWQje+8jOivt+S9v+eUqCAtLXBhdGgg5oyH5a6a5L+d5a2Y6Lev5b6EIikKCQl9Cgl9CgoJZnVsbCwgcmVsLCBlcnIgOj0gcmVzb2x2ZUNMSVNjcmlwdFBhdGgocnQuY2ZnLkRhdGEuU2NyaXB0c0RpciwgdGFyZ2V0UGF0aCwgZmFsc2UpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglpZiAhZm9yY2UgewoJCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZ1bGwpOyBlcnIgPT0gbmlsIHsKCQkJcmV0dXJuIGZtdC5FcnJvcmYoIuebruagh+aWh+S7tuW3suWtmOWcqO+8jOivt+WKoCAtLWZvcmNlIOimhuebljogJXMiLCByZWwpCgkJfQoJfQoKCWNsaWVudCA6PSAmaHR0cC5DbGllbnR7VGltZW91dDogNjAgKiB0aW1lLlNlY29uZH0KCXJlc3AsIGVyciA6PSBjbGllbnQuR2V0KHJhd1VSTCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCWRlZmVyIHJlc3AuQm9keS5DbG9zZSgpCgoJaWYgcmVzcC5TdGF0dXNDb2RlIDwgMjAwIHx8IHJlc3AuU3RhdHVzQ29kZSA+PSAzMDAgewoJCXJldHVybiBmbXQuRXJyb3JmKCLkuIvovb3lpLHotKXvvIxIVFRQIOeKtuaAgeeggSAlZCIsIHJlc3AuU3RhdHVzQ29kZSkKCX0KCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKGZ1bGwpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglmaWxlLCBlcnIgOj0gb3MuT3BlbkZpbGUoZnVsbCwgb3MuT19DUkVBVEV8b3MuT19UUlVOQ3xvcy5PX1dST05MWSwgMG82NDQpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglkZWZlciBmaWxlLkNsb3NlKCkKCglpZiBfLCBlcnIgOj0gaW8uQ29weShmaWxlLCByZXNwLkJvZHkpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJZm10LlByaW50Zigi5bey5L+d5a2Y6ISa5pysOiAlc1xuIiwgcmVsKQoJcmV0dXJuIG5pbAp9CgpmdW5jIHJlc29sdmVDTElTY3JpcHRQYXRoKGJhc2VEaXIsIHJlbGF0aXZlUGF0aCBzdHJpbmcsIG11c3RFeGlzdCBib29sKSAoc3RyaW5nLCBzdHJpbmcsIGVycm9yKSB7Cglub3JtYWxpemVkLCBlcnIgOj0gbm9ybWFsaXplQ0xJU2NyaXB0UmVsYXRpdmVQYXRoKHJlbGF0aXZlUGF0aCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgIiIsIGVycgoJfQoKCWZ1bGwgOj0gZmlsZXBhdGguSm9pbihiYXNlRGlyLCBmaWxlcGF0aC5Gcm9tU2xhc2gobm9ybWFsaXplZCkpCgliYXNlQWJzLCBlcnIgOj0gZmlsZXBhdGguQWJzKGJhc2VEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsICIiLCBlcnIKCX0KCWZ1bGxBYnMsIGVyciA6PSBmaWxlcGF0aC5BYnMoZnVsbCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgIiIsIGVycgoJfQoKCWJhc2VQcmVmaXggOj0gYmFzZUFicwoJaWYgIXN0cmluZ3MuSGFzU3VmZml4KGJhc2VQcmVmaXgsIHN0cmluZyhvcy5QYXRoU2VwYXJhdG9yKSkgewoJCWJhc2VQcmVmaXggKz0gc3RyaW5nKG9zLlBhdGhTZXBhcmF0b3IpCgl9CglpZiBmdWxsQWJzICE9IGJhc2VBYnMgJiYgIXN0cmluZ3MuSGFzUHJlZml4KGZ1bGxBYnMsIGJhc2VQcmVmaXgpIHsKCQlyZXR1cm4gIiIsICIiLCBmbXQuRXJyb3JmKCLkuI3lhYHorrjot6/lvoTnqb/otooiKQoJfQoKCWV4dCA6PSBzdHJpbmdzLlRvTG93ZXIoZmlsZXBhdGguRXh0KGZ1bGxBYnMpKQoJaWYgZXh0ICE9ICIiICYmICFjbGlBbGxvd2VkU2NyaXB0RXh0ZW5zaW9uc1tleHRdIHsKCQlyZXR1cm4gIiIsICIiLCBmbXQuRXJyb3JmKCLkuI3mlK/mjIHnmoTmlofku7bnsbvlnos6ICVzIiwgZXh0KQoJfQoKCWlmIG11c3RFeGlzdCB7CgkJaWYgXywgZXJyIDo9IG9zLlN0YXQoZnVsbEFicyk7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gIiIsICIiLCBmbXQuRXJyb3JmKCLmlofku7bkuI3lrZjlnKg6ICVzIiwgbm9ybWFsaXplZCkKCQl9Cgl9CgoJcmV0dXJuIGZ1bGxBYnMsIG5vcm1hbGl6ZWQsIG5pbAp9CgpmdW5jIG5vcm1hbGl6ZUNMSVNjcmlwdFJlbGF0aXZlUGF0aChyZWxhdGl2ZVBhdGggc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJdHJpbW1lZCA6PSBzdHJpbmdzLlRyaW1TcGFjZShyZWxhdGl2ZVBhdGgpCglpZiB0cmltbWVkID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIui3r+W+hOS4jeiDveS4uuepuiIpCgl9CgoJbm9ybWFsaXplZCA6PSBzdHJpbmdzLlJlcGxhY2VBbGwodHJpbW1lZCwgIlxcIiwgIi8iKQoJbm9ybWFsaXplZCA9IHN0cmluZ3MuVHJpbVByZWZpeChwYXRoLkNsZWFuKCIvIitub3JtYWxpemVkKSwgIi8iKQoJaWYgbm9ybWFsaXplZCA9PSAiIiB8fCBub3JtYWxpemVkID09ICIuIiB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLot6/lvoTkuI3og73kuLrnqboiKQoJfQoKCWZvciBfLCBzZWdtZW50IDo9IHJhbmdlIHN0cmluZ3MuU3BsaXQobm9ybWFsaXplZCwgIi8iKSB7CgkJaWYgc2VnbWVudCA9PSAiIiB8fCBzZWdtZW50ID09ICIuIiB8fCBzZWdtZW50ID09ICIuLiIgewoJCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuS4jeWFgeiuuOi3r+W+hOepv+i2iiIpCgkJfQoJCWlmIGludmFsaWRDTElQYXRoQ2hhcnNQYXR0ZXJuLk1hdGNoU3RyaW5nKHNlZ21lbnQpIHsKCQkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLot6/lvoTljIXlkKvpnZ7ms5XlrZfnrKYiKQoJCX0KCX0KCglyZXR1cm4gbm9ybWFsaXplZCwgbmlsCn0K
+package main
+
+import (
+	"fmt"
+	"io"
+	"net/http"
+	neturl "net/url"
+	"os"
+	"path"
+	"path/filepath"
+	"regexp"
+	"sort"
+	"strings"
+	"time"
+)
+
+var cliAllowedScriptExtensions = map[string]bool{
+	".py": true, ".js": true, ".mjs": true, ".sh": true, ".ts": true, ".json": true,
+	".yaml": true, ".yml": true, ".txt": true, ".md": true, ".conf": true,
+	".ini": true, ".env": true, ".toml": true, ".xml": true, ".csv": true,
+	".png": true, ".jpg": true, ".jpeg": true, ".gif": true, ".svg": true,
+	".ico": true, ".bmp": true, ".webp": true, ".log": true, ".htm": true,
+	".html": true, ".css": true, ".sql": true, ".bat": true, ".cmd": true, ".ps1": true, ".go": true,
+	".so": true,
+}
+
+var cliBinaryScriptExtensions = map[string]bool{
+	".png": true, ".jpg": true, ".jpeg": true, ".gif": true,
+	".ico": true, ".bmp": true, ".webp": true, ".so": true,
+}
+
+var invalidCLIPathCharsPattern = regexp.MustCompile(`[<>:"\\|?*\x00-\x1F]`)
+
+func runScript(rt *cliRuntime, args []string) error {
+	if len(args) == 0 {
+		return fmt.Errorf("用法: ddp script <list|cat|fetch> ...")
+	}
+
+	switch args[0] {
+	case "list":
+		return runScriptList(rt)
+	case "cat":
+		return runScriptCat(rt, args[1:])
+	case "fetch":
+		return runScriptFetch(rt, args[1:])
+	default:
+		return fmt.Errorf("未知 script 子命令: %s", args[0])
+	}
+}
+
+func runScriptList(rt *cliRuntime) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	var files []string
+	err := filepath.Walk(rt.cfg.Data.ScriptsDir, func(current string, info os.FileInfo, walkErr error) error {
+		if walkErr != nil || info == nil || info.IsDir() {
+			return nil
+		}
+
+		rel, err := filepath.Rel(rt.cfg.Data.ScriptsDir, current)
+		if err != nil {
+			return nil
+		}
+		rel = filepath.ToSlash(rel)
+
+		ext := strings.ToLower(filepath.Ext(info.Name()))
+		if ext != "" && !cliAllowedScriptExtensions[ext] {
+			return nil
+		}
+
+		files = append(files, rel)
+		return nil
+	})
+	if err != nil {
+		return err
+	}
+
+	sort.Strings(files)
+	if len(files) == 0 {
+		fmt.Println("脚本目录当前没有文件")
+		return nil
+	}
+
+	for _, file := range files {
+		fmt.Println(file)
+	}
+	return nil
+}
+
+func runScriptCat(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+	if len(args) != 1 {
+		return fmt.Errorf("用法: ddp script cat <相对路径>")
+	}
+
+	full, rel, err := resolveCLIScriptPath(rt.cfg.Data.ScriptsDir, args[0], true)
+	if err != nil {
+		return err
+	}
+
+	ext := strings.ToLower(filepath.Ext(full))
+	if cliBinaryScriptExtensions[ext] {
+		return fmt.Errorf("脚本 %s 是二进制文件，不能直接输出", rel)
+	}
+
+	data, err := os.ReadFile(full)
+	if err != nil {
+		return err
+	}
+
+	fmt.Print(string(data))
+	return nil
+}
+
+func runScriptFetch(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+	if len(args) == 0 {
+		return fmt.Errorf("用法: ddp script fetch <url> [--path 相对路径] [--force]")
+	}
+
+	rawURL := strings.TrimSpace(args[0])
+	targetPath := ""
+	force := false
+	for i := 1; i < len(args); i++ {
+		switch args[i] {
+		case "--path":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--path 需要参数")
+			}
+			targetPath = args[i+1]
+			i++
+		case "--force":
+			force = true
+		default:
+			return fmt.Errorf("未知参数: %s", args[i])
+		}
+	}
+
+	parsed, err := neturl.Parse(rawURL)
+	if err != nil || parsed.Scheme == "" || parsed.Host == "" {
+		return fmt.Errorf("无效的下载地址")
+	}
+
+	if targetPath == "" {
+		targetPath = path.Base(parsed.Path)
+		if strings.TrimSpace(targetPath) == "" || targetPath == "." || targetPath == "/" {
+			return fmt.Errorf("无法从 URL 推断文件名，请使用 --path 指定保存路径")
+		}
+	}
+
+	full, rel, err := resolveCLIScriptPath(rt.cfg.Data.ScriptsDir, targetPath, false)
+	if err != nil {
+		return err
+	}
+	if !force {
+		if _, err := os.Stat(full); err == nil {
+			return fmt.Errorf("目标文件已存在，请加 --force 覆盖: %s", rel)
+		}
+	}
+
+	client := &http.Client{Timeout: 60 * time.Second}
+	resp, err := client.Get(rawURL)
+	if err != nil {
+		return err
+	}
+	defer resp.Body.Close()
+
+	if resp.StatusCode < 200 || resp.StatusCode >= 300 {
+		return fmt.Errorf("下载失败，HTTP 状态码 %d", resp.StatusCode)
+	}
+
+	if err := os.MkdirAll(filepath.Dir(full), 0o755); err != nil {
+		return err
+	}
+
+	file, err := os.OpenFile(full, os.O_CREATE|os.O_TRUNC|os.O_WRONLY, 0o644)
+	if err != nil {
+		return err
+	}
+	defer file.Close()
+
+	if _, err := io.Copy(file, resp.Body); err != nil {
+		return err
+	}
+
+	fmt.Printf("已保存脚本: %s\n", rel)
+	return nil
+}
+
+func resolveCLIScriptPath(baseDir, relativePath string, mustExist bool) (string, string, error) {
+	normalized, err := normalizeCLIScriptRelativePath(relativePath)
+	if err != nil {
+		return "", "", err
+	}
+
+	full := filepath.Join(baseDir, filepath.FromSlash(normalized))
+	baseAbs, err := filepath.Abs(baseDir)
+	if err != nil {
+		return "", "", err
+	}
+	fullAbs, err := filepath.Abs(full)
+	if err != nil {
+		return "", "", err
+	}
+
+	basePrefix := baseAbs
+	if !strings.HasSuffix(basePrefix, string(os.PathSeparator)) {
+		basePrefix += string(os.PathSeparator)
+	}
+	if fullAbs != baseAbs && !strings.HasPrefix(fullAbs, basePrefix) {
+		return "", "", fmt.Errorf("不允许路径穿越")
+	}
+
+	ext := strings.ToLower(filepath.Ext(fullAbs))
+	if ext != "" && !cliAllowedScriptExtensions[ext] {
+		return "", "", fmt.Errorf("不支持的文件类型: %s", ext)
+	}
+
+	if mustExist {
+		if _, err := os.Stat(fullAbs); err != nil {
+			return "", "", fmt.Errorf("文件不存在: %s", normalized)
+		}
+	}
+
+	return fullAbs, normalized, nil
+}
+
+func normalizeCLIScriptRelativePath(relativePath string) (string, error) {
+	trimmed := strings.TrimSpace(relativePath)
+	if trimmed == "" {
+		return "", fmt.Errorf("路径不能为空")
+	}
+
+	normalized := strings.ReplaceAll(trimmed, "\\", "/")
+	normalized = strings.TrimPrefix(path.Clean("/"+normalized), "/")
+	if normalized == "" || normalized == "." {
+		return "", fmt.Errorf("路径不能为空")
+	}
+
+	for _, segment := range strings.Split(normalized, "/") {
+		if segment == "" || segment == "." || segment == ".." {
+			return "", fmt.Errorf("不允许路径穿越")
+		}
+		if invalidCLIPathCharsPattern.MatchString(segment) {
+			return "", fmt.Errorf("路径包含非法字符")
+		}
+	}
+
+	return normalized, nil
+}

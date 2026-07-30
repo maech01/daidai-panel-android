@@ -1,1 +1,79 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJzdHJpbmdzIgoJInRpbWUiCikKCnR5cGUgRW52VmFyIHN0cnVjdCB7CglJRCAgICAgICAgdWludCAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglOYW1lICAgICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjEyODtpbmRleDtub3QgbnVsbCIganNvbjoibmFtZSJgCglWYWx1ZSAgICAgc3RyaW5nICAgIGBnb3JtOiJ0eXBlOnRleHQ7ZGVmYXVsdDonJyIganNvbjoidmFsdWUiYAoJUmVtYXJrcyAgIHN0cmluZyAgICBgZ29ybToic2l6ZToyNTY7ZGVmYXVsdDonJyIganNvbjoicmVtYXJrcyJgCglFbmFibGVkICAgYm9vbCAgICAgIGBnb3JtOiJkZWZhdWx0OnRydWUiIGpzb246ImVuYWJsZWQiYAoJUG9zaXRpb24gIGZsb2F0NjQgICBgZ29ybToiZGVmYXVsdDoxMDAwMC4wO2luZGV4IiBqc29uOiJwb3NpdGlvbiJgCglTb3J0T3JkZXIgaW50ICAgICAgIGBnb3JtOiJkZWZhdWx0OjAiIGpzb246InNvcnRfb3JkZXIiYAoJR3JvdXAgICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo1MTI7ZGVmYXVsdDonJztpbmRleCIganNvbjoiZ3JvdXAiYAoJQ3JlYXRlZEF0IHRpbWUuVGltZSBganNvbjoiY3JlYXRlZF9hdCJgCglVcGRhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJ1cGRhdGVkX2F0ImAKfQoKZnVuYyAoRW52VmFyKSBUYWJsZU5hbWUoKSBzdHJpbmcgewoJcmV0dXJuICJlbnZfdmFycyIKfQoKZnVuYyBTcGxpdEVudkdyb3Vwcyh2YWx1ZSBzdHJpbmcpIFtdc3RyaW5nIHsKCWZpZWxkcyA6PSBzdHJpbmdzLkZpZWxkc0Z1bmModmFsdWUsIGZ1bmMociBydW5lKSBib29sIHsKCQlyZXR1cm4gciA9PSAnLCcgfHwgciA9PSAn77yMJyB8fCByID09ICc7JyB8fCByID09ICfvvJsnIHx8IHIgPT0gJ1xuJyB8fCByID09ICdccicgfHwgciA9PSAnXHQnCgl9KQoKCWdyb3VwcyA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4oZmllbGRzKSkKCXNlZW4gOj0gbWFrZShtYXBbc3RyaW5nXXN0cnVjdHt9LCBsZW4oZmllbGRzKSkKCWZvciBfLCBmaWVsZCA6PSByYW5nZSBmaWVsZHMgewoJCWdyb3VwIDo9IHN0cmluZ3MuVHJpbVNwYWNlKGZpZWxkKQoJCWlmIGdyb3VwID09ICIiIHsKCQkJY29udGludWUKCQl9CgkJaWYgXywgZXhpc3RzIDo9IHNlZW5bZ3JvdXBdOyBleGlzdHMgewoJCQljb250aW51ZQoJCX0KCQlzZWVuW2dyb3VwXSA9IHN0cnVjdHt9e30KCQlncm91cHMgPSBhcHBlbmQoZ3JvdXBzLCBncm91cCkKCX0KCXJldHVybiBncm91cHMKfQoKZnVuYyBKb2luRW52R3JvdXBzKGdyb3VwcyBbXXN0cmluZykgc3RyaW5nIHsKCW5vcm1hbGl6ZWQgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGdyb3VwcykpCglzZWVuIDo9IG1ha2UobWFwW3N0cmluZ11zdHJ1Y3R7fSwgbGVuKGdyb3VwcykpCglmb3IgXywgcmF3IDo9IHJhbmdlIGdyb3VwcyB7CgkJZm9yIF8sIGdyb3VwIDo9IHJhbmdlIFNwbGl0RW52R3JvdXBzKHJhdykgewoJCQlpZiBfLCBleGlzdHMgOj0gc2Vlbltncm91cF07IGV4aXN0cyB7CgkJCQljb250aW51ZQoJCQl9CgkJCXNlZW5bZ3JvdXBdID0gc3RydWN0e317fQoJCQlub3JtYWxpemVkID0gYXBwZW5kKG5vcm1hbGl6ZWQsIGdyb3VwKQoJCX0KCX0KCXJldHVybiBzdHJpbmdzLkpvaW4obm9ybWFsaXplZCwgIiwiKQp9CgpmdW5jIE5vcm1hbGl6ZUVudkdyb3VwVmFsdWUodmFsdWUgc3RyaW5nKSBzdHJpbmcgewoJcmV0dXJuIEpvaW5FbnZHcm91cHMoW11zdHJpbmd7dmFsdWV9KQp9CgpmdW5jIChlICpFbnZWYXIpIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICBlLklELAoJCSJuYW1lIjogICAgICAgZS5OYW1lLAoJCSJ2YWx1ZSI6ICAgICAgZS5WYWx1ZSwKCQkicmVtYXJrcyI6ICAgIGUuUmVtYXJrcywKCQkiZW5hYmxlZCI6ICAgIGUuRW5hYmxlZCwKCQkicG9zaXRpb24iOiAgIGUuUG9zaXRpb24sCgkJInNvcnRfb3JkZXIiOiBlLlNvcnRPcmRlciwKCQkiZ3JvdXAiOiAgICAgIGUuR3JvdXAsCgkJImdyb3VwcyI6ICAgICBTcGxpdEVudkdyb3VwcyhlLkdyb3VwKSwKCQkiY3JlYXRlZF9hdCI6IGUuQ3JlYXRlZEF0LAoJCSJ1cGRhdGVkX2F0IjogZS5VcGRhdGVkQXQsCgl9Cn0K
+package model
+
+import (
+	"strings"
+	"time"
+)
+
+type EnvVar struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	Name      string    `gorm:"size:128;index;not null" json:"name"`
+	Value     string    `gorm:"type:text;default:''" json:"value"`
+	Remarks   string    `gorm:"size:256;default:''" json:"remarks"`
+	Enabled   bool      `gorm:"default:true" json:"enabled"`
+	Position  float64   `gorm:"default:10000.0;index" json:"position"`
+	SortOrder int       `gorm:"default:0" json:"sort_order"`
+	Group     string    `gorm:"size:512;default:'';index" json:"group"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+func (EnvVar) TableName() string {
+	return "env_vars"
+}
+
+func SplitEnvGroups(value string) []string {
+	fields := strings.FieldsFunc(value, func(r rune) bool {
+		return r == ',' || r == '，' || r == ';' || r == '；' || r == '\n' || r == '\r' || r == '\t'
+	})
+
+	groups := make([]string, 0, len(fields))
+	seen := make(map[string]struct{}, len(fields))
+	for _, field := range fields {
+		group := strings.TrimSpace(field)
+		if group == "" {
+			continue
+		}
+		if _, exists := seen[group]; exists {
+			continue
+		}
+		seen[group] = struct{}{}
+		groups = append(groups, group)
+	}
+	return groups
+}
+
+func JoinEnvGroups(groups []string) string {
+	normalized := make([]string, 0, len(groups))
+	seen := make(map[string]struct{}, len(groups))
+	for _, raw := range groups {
+		for _, group := range SplitEnvGroups(raw) {
+			if _, exists := seen[group]; exists {
+				continue
+			}
+			seen[group] = struct{}{}
+			normalized = append(normalized, group)
+		}
+	}
+	return strings.Join(normalized, ",")
+}
+
+func NormalizeEnvGroupValue(value string) string {
+	return JoinEnvGroups([]string{value})
+}
+
+func (e *EnvVar) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         e.ID,
+		"name":       e.Name,
+		"value":      e.Value,
+		"remarks":    e.Remarks,
+		"enabled":    e.Enabled,
+		"position":   e.Position,
+		"sort_order": e.SortOrder,
+		"group":      e.Group,
+		"groups":     SplitEnvGroups(e.Group),
+		"created_at": e.CreatedAt,
+		"updated_at": e.UpdatedAt,
+	}
+}

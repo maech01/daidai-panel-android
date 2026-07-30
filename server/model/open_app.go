@@ -1,1 +1,72 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIE9wZW5BcHAgc3RydWN0IHsKCUlEICAgICAgICB1aW50ICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCU5hbWUgICAgICBzdHJpbmcgICAgYGdvcm06InNpemU6MTI4O25vdCBudWxsIiBqc29uOiJuYW1lImAKCUFwcEtleSAgICBzdHJpbmcgICAgYGdvcm06InNpemU6NjQ7dW5pcXVlSW5kZXg7bm90IG51bGwiIGpzb246ImFwcF9rZXkiYAoJQXBwU2VjcmV0IHN0cmluZyAgICBgZ29ybToic2l6ZToxMjg7bm90IG51bGwiIGpzb246Ii0iYAoJU2NvcGVzICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo1MTI7ZGVmYXVsdDonJyIganNvbjoic2NvcGVzImAKCUVuYWJsZWQgICBib29sICAgICAgYGdvcm06ImRlZmF1bHQ6dHJ1ZSIganNvbjoiZW5hYmxlZCJgCglSYXRlTGltaXQgaW50ICAgICAgIGBnb3JtOiJkZWZhdWx0OjAiIGpzb246InJhdGVfbGltaXQiYAoJQ2FsbENvdW50IGludDY0ICAgICBgZ29ybToiZGVmYXVsdDowIiBqc29uOiJjYWxsX2NvdW50ImAKCUNyZWF0ZWRBdCB0aW1lLlRpbWUgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0IHRpbWUuVGltZSBganNvbjoidXBkYXRlZF9hdCJgCn0KCmZ1bmMgKE9wZW5BcHApIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gIm9wZW5fYXBwcyIKfQoKZnVuYyAoYSAqT3BlbkFwcCkgVG9EaWN0KCkgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7CglyZXR1cm4gbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkiaWQiOiAgICAgICAgIGEuSUQsCgkJIm5hbWUiOiAgICAgICBhLk5hbWUsCgkJImFwcF9rZXkiOiAgICBhLkFwcEtleSwKCQkic2NvcGVzIjogICAgIGEuU2NvcGVzLAoJCSJlbmFibGVkIjogICAgYS5FbmFibGVkLAoJCSJyYXRlX2xpbWl0IjogYS5SYXRlTGltaXQsCgkJImNhbGxfY291bnQiOiBhLkNhbGxDb3VudCwKCQkiY3JlYXRlZF9hdCI6IGEuQ3JlYXRlZEF0LAoJCSJ1cGRhdGVkX2F0IjogYS5VcGRhdGVkQXQsCgl9Cn0KCmZ1bmMgKGEgKk9wZW5BcHApIFRvRGljdFdpdGhTZWNyZXQoKSBtYXBbc3RyaW5nXWludGVyZmFjZXt9IHsKCXJlc3VsdCA6PSBhLlRvRGljdCgpCglyZXN1bHRbImFwcF9zZWNyZXQiXSA9IGEuQXBwU2VjcmV0CglyZXR1cm4gcmVzdWx0Cn0KCnR5cGUgQXBpQ2FsbExvZyBzdHJ1Y3QgewoJSUQgICAgICAgIHVpbnQgICAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJQXBwSUQgICAgIHVpbnQgICAgICBgZ29ybToiaW5kZXgiIGpzb246ImFwcF9pZCJgCglBcHBOYW1lICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjEyOCIganNvbjoiYXBwX25hbWUiYAoJRW5kcG9pbnQgIHN0cmluZyAgICBgZ29ybToic2l6ZToyNTYiIGpzb246ImVuZHBvaW50ImAKCU1ldGhvZCAgICBzdHJpbmcgICAgYGdvcm06InNpemU6MTYiIGpzb246Im1ldGhvZCJgCglTdGF0dXMgICAgaW50ICAgICAgIGBnb3JtOiJkZWZhdWx0OjIwMCIganNvbjoic3RhdHVzImAKCUR1cmF0aW9uICBmbG9hdDY0ICAgYGdvcm06ImRlZmF1bHQ6MCIganNvbjoiZHVyYXRpb24iYAoJSVAgICAgICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo2NCIganNvbjoiaXAiYAoJQ3JlYXRlZEF0IHRpbWUuVGltZSBganNvbjoiY3JlYXRlZF9hdCJgCn0KCmZ1bmMgKEFwaUNhbGxMb2cpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gImFwaV9jYWxsX2xvZ3MiCn0KCmZ1bmMgKGwgKkFwaUNhbGxMb2cpIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICBsLklELAoJCSJhcHBfaWQiOiAgICAgbC5BcHBJRCwKCQkiYXBwX25hbWUiOiAgIGwuQXBwTmFtZSwKCQkiZW5kcG9pbnQiOiAgIGwuRW5kcG9pbnQsCgkJIm1ldGhvZCI6ICAgICBsLk1ldGhvZCwKCQkic3RhdHVzIjogICAgIGwuU3RhdHVzLAoJCSJkdXJhdGlvbiI6ICAgbC5EdXJhdGlvbiwKCQkiaXAiOiAgICAgICAgIGwuSVAsCgkJImNyZWF0ZWRfYXQiOiBsLkNyZWF0ZWRBdCwKCX0KfQo=
+package model
+
+import (
+	"time"
+)
+
+type OpenApp struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	Name      string    `gorm:"size:128;not null" json:"name"`
+	AppKey    string    `gorm:"size:64;uniqueIndex;not null" json:"app_key"`
+	AppSecret string    `gorm:"size:128;not null" json:"-"`
+	Scopes    string    `gorm:"size:512;default:''" json:"scopes"`
+	Enabled   bool      `gorm:"default:true" json:"enabled"`
+	RateLimit int       `gorm:"default:0" json:"rate_limit"`
+	CallCount int64     `gorm:"default:0" json:"call_count"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+func (OpenApp) TableName() string {
+	return "open_apps"
+}
+
+func (a *OpenApp) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         a.ID,
+		"name":       a.Name,
+		"app_key":    a.AppKey,
+		"scopes":     a.Scopes,
+		"enabled":    a.Enabled,
+		"rate_limit": a.RateLimit,
+		"call_count": a.CallCount,
+		"created_at": a.CreatedAt,
+		"updated_at": a.UpdatedAt,
+	}
+}
+
+func (a *OpenApp) ToDictWithSecret() map[string]interface{} {
+	result := a.ToDict()
+	result["app_secret"] = a.AppSecret
+	return result
+}
+
+type ApiCallLog struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	AppID     uint      `gorm:"index" json:"app_id"`
+	AppName   string    `gorm:"size:128" json:"app_name"`
+	Endpoint  string    `gorm:"size:256" json:"endpoint"`
+	Method    string    `gorm:"size:16" json:"method"`
+	Status    int       `gorm:"default:200" json:"status"`
+	Duration  float64   `gorm:"default:0" json:"duration"`
+	IP        string    `gorm:"size:64" json:"ip"`
+	CreatedAt time.Time `json:"created_at"`
+}
+
+func (ApiCallLog) TableName() string {
+	return "api_call_logs"
+}
+
+func (l *ApiCallLog) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         l.ID,
+		"app_id":     l.AppID,
+		"app_name":   l.AppName,
+		"endpoint":   l.Endpoint,
+		"method":     l.Method,
+		"status":     l.Status,
+		"duration":   l.Duration,
+		"ip":         l.IP,
+		"created_at": l.CreatedAt,
+	}
+}

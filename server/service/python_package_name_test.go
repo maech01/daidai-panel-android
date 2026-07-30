@@ -1,1 +1,120 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdENhbm9uaWNhbGl6ZVB5dGhvblBhY2thZ2VOYW1lKHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJInJlcXVlc3RzIjogICAgICAgICAgICAgICAgICAgICJyZXF1ZXN0cyIsCgkJIlJlcXVlc3RzIjogICAgICAgICAgICAgICAgICAgICJyZXF1ZXN0cyIsCgkJIiAgUkVRVUVTVFMgICI6ICAgICAgICAgICAgICAgICJyZXF1ZXN0cyIsCgkJIkZsYXNrX1NRTEFsY2hlbXkiOiAgICAgICAgICAgICJmbGFzay1zcWxhbGNoZW15IiwKCQkiZmxhc2stc3FsYWxjaGVteSI6ICAgICAgICAgICAgImZsYXNrLXNxbGFsY2hlbXkiLAoJCSJ6b3BlLmludGVyZmFjZSI6ICAgICAgICAgICAgICAiem9wZS1pbnRlcmZhY2UiLAoJCSJyZXF1ZXN0cz09Mi4zMS4wIjogICAgICAgICAgICAicmVxdWVzdHMiLAoJCSJyZXF1ZXN0cz49Mi4wIjogICAgICAgICAgICAgICAicmVxdWVzdHMiLAoJCSJyZXF1ZXN0c349Mi4zMS4wIjogICAgICAgICAgICAicmVxdWVzdHMiLAoJCSJyZXF1ZXN0cyE9Mi4wIjogICAgICAgICAgICAgICAicmVxdWVzdHMiLAoJCSJyZXF1ZXN0czwzIjogICAgICAgICAgICAgICAgICAicmVxdWVzdHMiLAoJCSJyZXF1ZXN0c1tzZWN1cml0eV0iOiAgICAgICAgICAicmVxdWVzdHMiLAoJCSJ6b3BlLmludGVyZmFjZVt0ZXN0XSI6ICAgICAgICAiem9wZS1pbnRlcmZhY2UiLAoJCSJyZXF1ZXN0czsgcHl0aG9uX3ZlcnNpb248JzMnIjogInJlcXVlc3RzIiwKCQkicmVxdWVzdHMgPT0gMi4zMS4wIjogICAgICAgICAgInJlcXVlc3RzIiwKCQkiIjogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIsCgkJIiAgICI6ICAgICAgICAgICAgICAgICAgICAgICAgICIiLAoJfQoKCWZvciBpbnB1dCwgZXhwZWN0ZWQgOj0gcmFuZ2UgY2FzZXMgewoJCWlmIGdvdCA6PSBDYW5vbmljYWxpemVQeXRob25QYWNrYWdlTmFtZShpbnB1dCk7IGdvdCAhPSBleHBlY3RlZCB7CgkJCXQuRXJyb3JmKCJDYW5vbmljYWxpemVQeXRob25QYWNrYWdlTmFtZSglcSkgPSAlcSwgd2FudCAlcSIsIGlucHV0LCBnb3QsIGV4cGVjdGVkKQoJCX0KCX0KfQoKZnVuYyBUZXN0RmluZEV4aXN0aW5nUHl0aG9uRGVwZW5kZW5jeUlnbm9yZXNDYXNlQW5kU2VwYXJhdG9ycyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJm1vZGVsLkRlcGVuZGVuY3l7CgkJVHlwZTogICAgICAgICAgbW9kZWwuRGVwVHlwZVB5dGhvbiwKCQlOYW1lOiAgICAgICAgICAicmVxdWVzdHMiLAoJCVB5dGhvblZlcnNpb246ICIzLjEyIiwKCQlTdGF0dXM6ICAgICAgICBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsZWQsCgl9KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNlZWQgZGVwZW5kZW5jeTogJXYiLCBlcnIpCgl9CgoJLy8g5aSn5bCP5YaZ5LiN5ZCM55qE5ZCM5LiA5Liq5YyF5bqU6KKr6K+G5Yir5Li65bey5a2Y5Zyo44CCCglpZiBfLCBvayA6PSBGaW5kRXhpc3RpbmdQeXRob25EZXBlbmRlbmN5KCJSZXF1ZXN0cyIsICIzLjEyIiwgbW9kZWwuRGVwU3RhdHVzSW5zdGFsbGVkKTsgIW9rIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBSZXF1ZXN0cyB0byBtYXRjaCBleGlzdGluZyByZXF1ZXN0cyByZWNvcmQiKQoJfQoJLy8g5bim54mI5pys5Y+355qE5ZCM5LiA5Liq5YyF5Lmf5bqU6K+G5Yir5Li65bey5a2Y5Zyo44CCCglpZiBfLCBvayA6PSBGaW5kRXhpc3RpbmdQeXRob25EZXBlbmRlbmN5KCJyZXF1ZXN0cz09Mi4zMS4wIiwgIjMuMTIiKTsgIW9rIHsKCQl0LkZhdGFsKCJleHBlY3RlZCByZXF1ZXN0cz09Mi4zMS4wIHRvIG1hdGNoIGV4aXN0aW5nIHJlcXVlc3RzIHJlY29yZCIpCgl9CgkvLyDkuI3lkIwgUHl0aG9uIOeJiOacrOS4jeW6lOWRveS4reOAggoJaWYgXywgb2sgOj0gRmluZEV4aXN0aW5nUHl0aG9uRGVwZW5kZW5jeSgicmVxdWVzdHMiLCAiMy4xMCIpOyBvayB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgbm8gbWF0Y2ggZm9yIGEgZGlmZmVyZW50IHB5dGhvbiB2ZXJzaW9uIikKCX0KCS8vIOS4jeWQjOeahOWMheS4jeW6lOWRveS4reOAggoJaWYgXywgb2sgOj0gRmluZEV4aXN0aW5nUHl0aG9uRGVwZW5kZW5jeSgiZmxhc2siLCAiMy4xMiIpOyBvayB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgbm8gbWF0Y2ggZm9yIGEgZGlmZmVyZW50IHBhY2thZ2UiKQoJfQp9CgpmdW5jIFRlc3RNZXJnZUR1cGxpY2F0ZVB5dGhvbkRlcGVuZGVuY2llc0tlZXBzSW5zdGFsbGVkV2lubmVyKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJbm93IDo9IHRpbWUuTm93KCkKCXNlZWQgOj0gW11tb2RlbC5EZXBlbmRlbmN5ewoJCXtUeXBlOiBtb2RlbC5EZXBUeXBlUHl0aG9uLCBOYW1lOiAicmVxdWVzdHMiLCBQeXRob25WZXJzaW9uOiAiMy4xMiIsIFN0YXR1czogbW9kZWwuRGVwU3RhdHVzRmFpbGVkLCBVcGRhdGVkQXQ6IG5vdy5BZGQoLTIgKiB0aW1lLkhvdXIpfSwKCQl7VHlwZTogbW9kZWwuRGVwVHlwZVB5dGhvbiwgTmFtZTogIlJlcXVlc3RzIiwgUHl0aG9uVmVyc2lvbjogIjMuMTIiLCBTdGF0dXM6IG1vZGVsLkRlcFN0YXR1c0luc3RhbGxlZCwgVXBkYXRlZEF0OiBub3cuQWRkKC0xICogdGltZS5Ib3VyKX0sCgkJe1R5cGU6IG1vZGVsLkRlcFR5cGVQeXRob24sIE5hbWU6ICJSRVFVRVNUUyIsIFB5dGhvblZlcnNpb246ICIzLjEyIiwgU3RhdHVzOiBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsaW5nLCBVcGRhdGVkQXQ6IG5vd30sCgkJLy8g5LiN5ZCM54mI5pys77yM5bqU54us56uL5L+d55WZ44CCCgkJe1R5cGU6IG1vZGVsLkRlcFR5cGVQeXRob24sIE5hbWU6ICJyZXF1ZXN0cyIsIFB5dGhvblZlcnNpb246ICIzLjEwIiwgU3RhdHVzOiBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsZWQsIFVwZGF0ZWRBdDogbm93fSwKCQkvLyDkuI3lkIzljIXvvIzlupTkv53nlZnjgIIKCQl7VHlwZTogbW9kZWwuRGVwVHlwZVB5dGhvbiwgTmFtZTogImZsYXNrIiwgUHl0aG9uVmVyc2lvbjogIjMuMTIiLCBTdGF0dXM6IG1vZGVsLkRlcFN0YXR1c0luc3RhbGxlZCwgVXBkYXRlZEF0OiBub3d9LAoJCS8vIOmdniBQeXRob27vvIzkuI3lj4LkuI7lkIjlubbjgIIKCQl7VHlwZTogbW9kZWwuRGVwVHlwZU5vZGVKUywgTmFtZTogIlJlcXVlc3RzIiwgUHl0aG9uVmVyc2lvbjogIiIsIFN0YXR1czogbW9kZWwuRGVwU3RhdHVzSW5zdGFsbGVkLCBVcGRhdGVkQXQ6IG5vd30sCgl9Cglmb3IgaSA6PSByYW5nZSBzZWVkIHsKCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZzZWVkW2ldKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJzZWVkIGRlcGVuZGVuY3kgJWQ6ICV2IiwgaSwgZXJyKQoJCX0KCX0KCglNZXJnZUR1cGxpY2F0ZVB5dGhvbkRlcGVuZGVuY2llcygpCgoJLy8gMy4xMiDnmoTkuInmnaEgcmVxdWVzdHMg5bqU5ZCI5bm25Li65LiA5p2h77yM5L+d55WZIGluc3RhbGxlZCDnmoTpgqPmnaHjgIIKCXZhciByZW1haW5pbmcgW11tb2RlbC5EZXBlbmRlbmN5CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInR5cGUgPSA/IEFORCBweXRob25fdmVyc2lvbiA9ID8iLCBtb2RlbC5EZXBUeXBlUHl0aG9uLCAiMy4xMiIpLgoJCVdoZXJlKCJuYW1lIElOID8iLCBbXXN0cmluZ3sicmVxdWVzdHMiLCAiUmVxdWVzdHMiLCAiUkVRVUVTVFMifSkuRmluZCgmcmVtYWluaW5nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInF1ZXJ5IHJlbWFpbmluZzogJXYiLCBlcnIpCgl9CglpZiBsZW4ocmVtYWluaW5nKSAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMSByZW1haW5pbmcgcmVxdWVzdHMgcm93IGZvciAzLjEyLCBnb3QgJWQiLCBsZW4ocmVtYWluaW5nKSkKCX0KCWlmIHJlbWFpbmluZ1swXS5TdGF0dXMgIT0gbW9kZWwuRGVwU3RhdHVzSW5zdGFsbGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW5zdGFsbGVkIHdpbm5lciB0byBzdXJ2aXZlLCBnb3Qgc3RhdHVzICVxIChuYW1lICVxKSIsIHJlbWFpbmluZ1swXS5TdGF0dXMsIHJlbWFpbmluZ1swXS5OYW1lKQoJfQoKCS8vIOWFtuWug+WIhue7hOW6lOWOn+agt+S/neeVmeOAggoJdmFyIHRvdGFsIGludDY0CglkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuRGVwZW5kZW5jeXt9KS5Db3VudCgmdG90YWwpCgkvLyDlkIjlubblkI7lianvvJozLjEyIHJlcXVlc3RzKDEpICsgMy4xMCByZXF1ZXN0cygxKSArIDMuMTIgZmxhc2soMSkgKyBub2RlanMgUmVxdWVzdHMoMSkgPSA0CglpZiB0b3RhbCAhPSA0IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgNCB0b3RhbCBkZXBlbmRlbmN5IHJvd3MgYWZ0ZXIgbWVyZ2UsIGdvdCAlZCIsIHRvdGFsKQoJfQoKCS8vIOW5guetie+8muWGjei3keS4gOasoeS4jeW6lOWGjeWIoOS7u+S9leihjOOAggoJTWVyZ2VEdXBsaWNhdGVQeXRob25EZXBlbmRlbmNpZXMoKQoJZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLkRlcGVuZGVuY3l7fSkuQ291bnQoJnRvdGFsKQoJaWYgdG90YWwgIT0gNCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG1lcmdlIHRvIGJlIGlkZW1wb3RlbnQgKHN0aWxsIDQgcm93cyksIGdvdCAlZCIsIHRvdGFsKQoJfQp9Cg==
+package service
+
+import (
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestCanonicalizePythonPackageName(t *testing.T) {
+	cases := map[string]string{
+		"requests":                    "requests",
+		"Requests":                    "requests",
+		"  REQUESTS  ":                "requests",
+		"Flask_SQLAlchemy":            "flask-sqlalchemy",
+		"flask-sqlalchemy":            "flask-sqlalchemy",
+		"zope.interface":              "zope-interface",
+		"requests==2.31.0":            "requests",
+		"requests>=2.0":               "requests",
+		"requests~=2.31.0":            "requests",
+		"requests!=2.0":               "requests",
+		"requests<3":                  "requests",
+		"requests[security]":          "requests",
+		"zope.interface[test]":        "zope-interface",
+		"requests; python_version<'3'": "requests",
+		"requests == 2.31.0":          "requests",
+		"":                            "",
+		"   ":                         "",
+	}
+
+	for input, expected := range cases {
+		if got := CanonicalizePythonPackageName(input); got != expected {
+			t.Errorf("CanonicalizePythonPackageName(%q) = %q, want %q", input, got, expected)
+		}
+	}
+}
+
+func TestFindExistingPythonDependencyIgnoresCaseAndSeparators(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if err := database.DB.Create(&model.Dependency{
+		Type:          model.DepTypePython,
+		Name:          "requests",
+		PythonVersion: "3.12",
+		Status:        model.DepStatusInstalled,
+	}).Error; err != nil {
+		t.Fatalf("seed dependency: %v", err)
+	}
+
+	// 大小写不同的同一个包应被识别为已存在。
+	if _, ok := FindExistingPythonDependency("Requests", "3.12", model.DepStatusInstalled); !ok {
+		t.Fatal("expected Requests to match existing requests record")
+	}
+	// 带版本号的同一个包也应识别为已存在。
+	if _, ok := FindExistingPythonDependency("requests==2.31.0", "3.12"); !ok {
+		t.Fatal("expected requests==2.31.0 to match existing requests record")
+	}
+	// 不同 Python 版本不应命中。
+	if _, ok := FindExistingPythonDependency("requests", "3.10"); ok {
+		t.Fatal("expected no match for a different python version")
+	}
+	// 不同的包不应命中。
+	if _, ok := FindExistingPythonDependency("flask", "3.12"); ok {
+		t.Fatal("expected no match for a different package")
+	}
+}
+
+func TestMergeDuplicatePythonDependenciesKeepsInstalledWinner(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	now := time.Now()
+	seed := []model.Dependency{
+		{Type: model.DepTypePython, Name: "requests", PythonVersion: "3.12", Status: model.DepStatusFailed, UpdatedAt: now.Add(-2 * time.Hour)},
+		{Type: model.DepTypePython, Name: "Requests", PythonVersion: "3.12", Status: model.DepStatusInstalled, UpdatedAt: now.Add(-1 * time.Hour)},
+		{Type: model.DepTypePython, Name: "REQUESTS", PythonVersion: "3.12", Status: model.DepStatusInstalling, UpdatedAt: now},
+		// 不同版本，应独立保留。
+		{Type: model.DepTypePython, Name: "requests", PythonVersion: "3.10", Status: model.DepStatusInstalled, UpdatedAt: now},
+		// 不同包，应保留。
+		{Type: model.DepTypePython, Name: "flask", PythonVersion: "3.12", Status: model.DepStatusInstalled, UpdatedAt: now},
+		// 非 Python，不参与合并。
+		{Type: model.DepTypeNodeJS, Name: "Requests", PythonVersion: "", Status: model.DepStatusInstalled, UpdatedAt: now},
+	}
+	for i := range seed {
+		if err := database.DB.Create(&seed[i]).Error; err != nil {
+			t.Fatalf("seed dependency %d: %v", i, err)
+		}
+	}
+
+	MergeDuplicatePythonDependencies()
+
+	// 3.12 的三条 requests 应合并为一条，保留 installed 的那条。
+	var remaining []model.Dependency
+	if err := database.DB.Where("type = ? AND python_version = ?", model.DepTypePython, "3.12").
+		Where("name IN ?", []string{"requests", "Requests", "REQUESTS"}).Find(&remaining).Error; err != nil {
+		t.Fatalf("query remaining: %v", err)
+	}
+	if len(remaining) != 1 {
+		t.Fatalf("expected 1 remaining requests row for 3.12, got %d", len(remaining))
+	}
+	if remaining[0].Status != model.DepStatusInstalled {
+		t.Fatalf("expected installed winner to survive, got status %q (name %q)", remaining[0].Status, remaining[0].Name)
+	}
+
+	// 其它分组应原样保留。
+	var total int64
+	database.DB.Model(&model.Dependency{}).Count(&total)
+	// 合并后剩：3.12 requests(1) + 3.10 requests(1) + 3.12 flask(1) + nodejs Requests(1) = 4
+	if total != 4 {
+		t.Fatalf("expected 4 total dependency rows after merge, got %d", total)
+	}
+
+	// 幂等：再跑一次不应再删任何行。
+	MergeDuplicatePythonDependencies()
+	database.DB.Model(&model.Dependency{}).Count(&total)
+	if total != 4 {
+		t.Fatalf("expected merge to be idempotent (still 4 rows), got %d", total)
+	}
+}

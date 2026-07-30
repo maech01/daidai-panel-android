@@ -1,1 +1,180 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgopCgpmdW5jIFRlc3RTYW5pdGl6ZVBpcEVudlN0cmlwc0NvbmZsaWN0aW5nVmFycyh0ICp0ZXN0aW5nLlQpIHsKCWJhc2UgOj0gW11zdHJpbmd7CgkJIlBBVEg9L3Vzci9iaW4iLAoJCSJIT01FPS9yb290IiwKCQkiUElQX0hPTUU9L29wdC9waXAtaG9tZSIsCgkJIlBJUF9QUkVGSVg9L29wdC9waXAtcHJlZml4IiwKCQkiUElQX1RBUkdFVD0vb3B0L3BpcC10YXJnZXQiLAoJCSJQSVBfUk9PVD0vb3B0L3BpcC1yb290IiwKCQkiUElQX1VTRVI9dHJ1ZSIsCgkJIlBJUF9JTlNUQUxMX09QVElPTj0tLWhvbWU9L29wdC9mb28iLAoJCSJQWVRIT05VU0VSQkFTRT0vb3B0L3VzZXJiYXNlIiwKCQkiUFlUSE9OUEFUSD0vb2xkL3NpdGUtcGFja2FnZXMiLAoJCSJQWVRIT05IT01FPS9vbGQvcHl0aG9uIiwKCQkiUElQX0lOREVYX1VSTD1odHRwczovL2V4YW1wbGUuY29tL3NpbXBsZSIsCgkJIlBJUF9UUlVTVEVEX0hPU1Q9ZXhhbXBsZS5jb20iLAoJCSJMQU5HPXpoX0NOLlVURi04IiwKCQkiTk9UX0FfS1ZfUEFJUiIsCgl9CgoJY2xlYW5lZCA6PSBTYW5pdGl6ZVBpcEVudihiYXNlKQoKCW11c3RLZWVwIDo9IFtdc3RyaW5newoJCSJQQVRIPS91c3IvYmluIiwKCQkiSE9NRT0vcm9vdCIsCgkJIlBJUF9JTkRFWF9VUkw9aHR0cHM6Ly9leGFtcGxlLmNvbS9zaW1wbGUiLAoJCSJQSVBfVFJVU1RFRF9IT1NUPWV4YW1wbGUuY29tIiwKCQkiTEFORz16aF9DTi5VVEYtOCIsCgkJIk5PVF9BX0tWX1BBSVIiLAoJfQoJZm9yIF8sIHdhbnQgOj0gcmFuZ2UgbXVzdEtlZXAgewoJCWZvdW5kIDo9IGZhbHNlCgkJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGNsZWFuZWQgewoJCQlpZiBlbnRyeSA9PSB3YW50IHsKCQkJCWZvdW5kID0gdHJ1ZQoJCQkJYnJlYWsKCQkJfQoJCX0KCQlpZiAhZm91bmQgewoJCQl0LkVycm9yZigiZXhwZWN0ZWQgc2FuaXRpemVkIGVudiB0byByZXRhaW4gJXEsIGdvdCAldiIsIHdhbnQsIGNsZWFuZWQpCgkJfQoJfQoKCW11c3REcm9wUHJlZml4ZXMgOj0gW11zdHJpbmd7CgkJIlBJUF9IT01FPSIsCgkJIlBJUF9QUkVGSVg9IiwKCQkiUElQX1RBUkdFVD0iLAoJCSJQSVBfUk9PVD0iLAoJCSJQSVBfVVNFUj0iLAoJCSJQSVBfSU5TVEFMTF9PUFRJT049IiwKCQkiUFlUSE9OVVNFUkJBU0U9IiwKCQkiUFlUSE9OUEFUSD0iLAoJCSJQWVRIT05IT01FPSIsCgl9Cglmb3IgXywgcHJlZml4IDo9IHJhbmdlIG11c3REcm9wUHJlZml4ZXMgewoJCWZvciBfLCBlbnRyeSA6PSByYW5nZSBjbGVhbmVkIHsKCQkJaWYgc3RyaW5ncy5IYXNQcmVmaXgoZW50cnksIHByZWZpeCkgewoJCQkJdC5FcnJvcmYoImV4cGVjdGVkICVxIHRvIGJlIHN0cmlwcGVkLCBidXQgZm91bmQgJXEiLCBwcmVmaXgsIGVudHJ5KQoJCQl9CgkJfQoJfQp9CgpmdW5jIFRlc3RTYW5pdGl6ZVBpcEVudklzQ2FzZUluc2Vuc2l0aXZlRm9yS2V5cyh0ICp0ZXN0aW5nLlQpIHsKCWNsZWFuZWQgOj0gU2FuaXRpemVQaXBFbnYoW11zdHJpbmd7InBpcF9wcmVmaXg9L29wdC94IiwgIlBpcF9Ib21lPS9vcHQveSJ9KQoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGNsZWFuZWQgewoJCWlmIHN0cmluZ3MuQ29udGFpbnMoc3RyaW5ncy5Ub0xvd2VyKGVudHJ5KSwgInBpcF9wcmVmaXg9IikgfHwgc3RyaW5ncy5Db250YWlucyhzdHJpbmdzLlRvTG93ZXIoZW50cnkpLCAicGlwX2hvbWU9IikgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2FzZS1pbnNlbnNpdGl2ZSBzdHJpcCwgZ290IGVudHJ5ICVxIiwgZW50cnkpCgkJfQoJfQp9CgpmdW5jIFRlc3RQaXBJbnN0YWxsRW52UmVtb3Zlc0NvbmZsaWN0aW5nVmFyc0FuZEluamVjdHNNaXJyb3IodCAqdGVzdGluZy5UKSB7CgliYXNlIDo9IFtdc3RyaW5newoJCSJQQVRIPS91c3IvYmluIiwKCQkiUElQX1BSRUZJWD0vb3B0L3BpcC1wcmVmaXgiLAoJCSJQSVBfSE9NRT0vb3B0L3BpcC1ob21lIiwKCX0KCWVudiA6PSBQaXBJbnN0YWxsRW52KGJhc2UsICJodHRwczovL2V4YW1wbGUuY29tL3NpbXBsZSIpCgoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudiB7CgkJaWYgc3RyaW5ncy5IYXNQcmVmaXgoZW50cnksICJQSVBfUFJFRklYPSIpIHx8IHN0cmluZ3MuSGFzUHJlZml4KGVudHJ5LCAiUElQX0hPTUU9IikgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgUElQX1BSRUZJWC9QSVBfSE9NRSBzdHJpcHBlZCwgZ290ICVxIiwgZW50cnkpCgkJfQoJfQoKCWhhc0luZGV4IDo9IGZhbHNlCglmb3IgXywgZW50cnkgOj0gcmFuZ2UgZW52IHsKCQlpZiBlbnRyeSA9PSAiUElQX0lOREVYX1VSTD1odHRwczovL2V4YW1wbGUuY29tL3NpbXBsZSIgewoJCQloYXNJbmRleCA9IHRydWUKCQl9Cgl9CglpZiAhaGFzSW5kZXggewoJCXQuRmF0YWxmKCJleHBlY3RlZCBQSVBfSU5ERVhfVVJMIHRvIGJlIGluamVjdGVkLCBlbnY9JXYiLCBlbnYpCgl9Cn0KCmZ1bmMgVGVzdEVmZmVjdGl2ZVBpcE1pcnJvckZhbGxzQmFja1RvRGVmYXVsdEFjY2VsZXJhdGVkTWlycm9yKHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gW11zdHJ1Y3QgewoJCW5hbWUgIHN0cmluZwoJCWlucHV0IHN0cmluZwoJCXdhbnQgIHN0cmluZwoJfXsKCQl7bmFtZTogImVtcHR5IHVzZXMgZGVmYXVsdCIsIGlucHV0OiAiIiwgd2FudDogRGVmYXVsdFBpcE1pcnJvcn0sCgkJe25hbWU6ICJvZmZpY2lhbCB1c2VzIGRlZmF1bHQiLCBpbnB1dDogImh0dHBzOi8vcHlwaS5vcmcvc2ltcGxlIiwgd2FudDogRGVmYXVsdFBpcE1pcnJvcn0sCgkJe25hbWU6ICJjdXN0b20gbWlycm9yIHByZXNlcnZlZCIsIGlucHV0OiAiaHR0cHM6Ly9weXBpLnR1bmEudHNpbmdodWEuZWR1LmNuL3NpbXBsZSIsIHdhbnQ6ICJodHRwczovL3B5cGkudHVuYS50c2luZ2h1YS5lZHUuY24vc2ltcGxlIn0sCgl9CgoJZm9yIF8sIHRjIDo9IHJhbmdlIGNhc2VzIHsKCQlpZiBnb3QgOj0gRWZmZWN0aXZlUGlwTWlycm9yKHRjLmlucHV0KTsgZ290ICE9IHRjLndhbnQgewoJCQl0LkZhdGFsZigiJXM6IEVmZmVjdGl2ZVBpcE1pcnJvciglcSkgPSAlcSwgd2FudCAlcSIsIHRjLm5hbWUsIHRjLmlucHV0LCBnb3QsIHRjLndhbnQpCgkJfQoJfQp9CgpmdW5jIFRlc3RFZmZlY3RpdmVOcG1NaXJyb3JGYWxsc0JhY2tUb0RlZmF1bHRBY2NlbGVyYXRlZE1pcnJvcih0ICp0ZXN0aW5nLlQpIHsKCWNhc2VzIDo9IFtdc3RydWN0IHsKCQluYW1lICBzdHJpbmcKCQlpbnB1dCBzdHJpbmcKCQl3YW50ICBzdHJpbmcKCX17CgkJe25hbWU6ICJlbXB0eSB1c2VzIGRlZmF1bHQiLCBpbnB1dDogIiIsIHdhbnQ6ICJodHRwczovL3JlZ2lzdHJ5Lm5wbW1pcnJvci5jb20vIn0sCgkJe25hbWU6ICJvZmZpY2lhbCB1c2VzIGRlZmF1bHQiLCBpbnB1dDogImh0dHBzOi8vcmVnaXN0cnkubnBtanMub3JnLyIsIHdhbnQ6ICJodHRwczovL3JlZ2lzdHJ5Lm5wbW1pcnJvci5jb20vIn0sCgkJe25hbWU6ICJjdXN0b20gbWlycm9yIHByZXNlcnZlZCIsIGlucHV0OiAiaHR0cHM6Ly9taXJyb3JzLmNsb3VkLnRlbmNlbnQuY29tL25wbS8iLCB3YW50OiAiaHR0cHM6Ly9taXJyb3JzLmNsb3VkLnRlbmNlbnQuY29tL25wbS8ifSwKCX0KCglmb3IgXywgdGMgOj0gcmFuZ2UgY2FzZXMgewoJCWlmIGdvdCA6PSBFZmZlY3RpdmVOcG1NaXJyb3IodGMuaW5wdXQpOyBnb3QgIT0gdGMud2FudCB7CgkJCXQuRmF0YWxmKCIlczogRWZmZWN0aXZlTnBtTWlycm9yKCVxKSA9ICVxLCB3YW50ICVxIiwgdGMubmFtZSwgdGMuaW5wdXQsIGdvdCwgdGMud2FudCkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdFNldFBpcE1pcnJvcldyaXRlc0FuZENsZWFyc0NvbmZpZyh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCWhvbWUgOj0gZmlsZXBhdGguSm9pbihyb290LCAiaG9tZSIpCgl0LlNldGVudigiSE9NRSIsIGhvbWUpCgl0LlNldGVudigiWERHX0NPTkZJR19IT01FIiwgZmlsZXBhdGguSm9pbihob21lLCAiLmNvbmZpZyIpKQoKCWlmIGVyciA6PSBTZXRQaXBNaXJyb3IoImh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL3B5cGkvc2ltcGxlIik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgcGlwIG1pcnJvcjogJXYiLCBlcnIpCgl9CglpZiBnb3QgOj0gQ3VycmVudFBpcE1pcnJvcigpOyBnb3QgIT0gImh0dHBzOi8vbWlycm9ycy5hbGl5dW4uY29tL3B5cGkvc2ltcGxlIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHNhdmVkIHBpcCBtaXJyb3IsIGdvdCAlcSIsIGdvdCkKCX0KCglpZiBlcnIgOj0gU2V0UGlwTWlycm9yKCIiKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNsZWFyIHBpcCBtaXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgZ290IDo9IEN1cnJlbnRQaXBNaXJyb3IoKTsgZ290ICE9ICIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2xlYXJlZCBwaXAgbWlycm9yLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFNldE5wbU1pcnJvcldyaXRlc0FuZENsZWFyc0NvbmZpZyh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCWhvbWUgOj0gZmlsZXBhdGguSm9pbihyb290LCAiaG9tZSIpCgl0LlNldGVudigiSE9NRSIsIGhvbWUpCgoJaWYgZXJyIDo9IFNldE5wbU1pcnJvcigiaHR0cHM6Ly9taXJyb3JzLmNsb3VkLnRlbmNlbnQuY29tL25wbS8iKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInNldCBucG0gbWlycm9yOiAldiIsIGVycikKCX0KCWlmIGdvdCA6PSBDdXJyZW50TnBtTWlycm9yKCk7IGdvdCAhPSAiaHR0cHM6Ly9taXJyb3JzLmNsb3VkLnRlbmNlbnQuY29tL25wbS8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc2F2ZWQgbnBtIG1pcnJvciwgZ290ICVxIiwgZ290KQoJfQoKCWlmIGVyciA6PSBTZXROcG1NaXJyb3IoIiIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY2xlYXIgbnBtIG1pcnJvcjogJXYiLCBlcnIpCgl9CglpZiBnb3QgOj0gQ3VycmVudE5wbU1pcnJvcigpOyBnb3QgIT0gIiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjbGVhcmVkIG5wbSBtaXJyb3IsIGdvdCAlcSIsIGdvdCkKCX0KfQo=
+package service
+
+import (
+	"path/filepath"
+	"strings"
+	"testing"
+)
+
+func TestSanitizePipEnvStripsConflictingVars(t *testing.T) {
+	base := []string{
+		"PATH=/usr/bin",
+		"HOME=/root",
+		"PIP_HOME=/opt/pip-home",
+		"PIP_PREFIX=/opt/pip-prefix",
+		"PIP_TARGET=/opt/pip-target",
+		"PIP_ROOT=/opt/pip-root",
+		"PIP_USER=true",
+		"PIP_INSTALL_OPTION=--home=/opt/foo",
+		"PYTHONUSERBASE=/opt/userbase",
+		"PYTHONPATH=/old/site-packages",
+		"PYTHONHOME=/old/python",
+		"PIP_INDEX_URL=https://example.com/simple",
+		"PIP_TRUSTED_HOST=example.com",
+		"LANG=zh_CN.UTF-8",
+		"NOT_A_KV_PAIR",
+	}
+
+	cleaned := SanitizePipEnv(base)
+
+	mustKeep := []string{
+		"PATH=/usr/bin",
+		"HOME=/root",
+		"PIP_INDEX_URL=https://example.com/simple",
+		"PIP_TRUSTED_HOST=example.com",
+		"LANG=zh_CN.UTF-8",
+		"NOT_A_KV_PAIR",
+	}
+	for _, want := range mustKeep {
+		found := false
+		for _, entry := range cleaned {
+			if entry == want {
+				found = true
+				break
+			}
+		}
+		if !found {
+			t.Errorf("expected sanitized env to retain %q, got %v", want, cleaned)
+		}
+	}
+
+	mustDropPrefixes := []string{
+		"PIP_HOME=",
+		"PIP_PREFIX=",
+		"PIP_TARGET=",
+		"PIP_ROOT=",
+		"PIP_USER=",
+		"PIP_INSTALL_OPTION=",
+		"PYTHONUSERBASE=",
+		"PYTHONPATH=",
+		"PYTHONHOME=",
+	}
+	for _, prefix := range mustDropPrefixes {
+		for _, entry := range cleaned {
+			if strings.HasPrefix(entry, prefix) {
+				t.Errorf("expected %q to be stripped, but found %q", prefix, entry)
+			}
+		}
+	}
+}
+
+func TestSanitizePipEnvIsCaseInsensitiveForKeys(t *testing.T) {
+	cleaned := SanitizePipEnv([]string{"pip_prefix=/opt/x", "Pip_Home=/opt/y"})
+	for _, entry := range cleaned {
+		if strings.Contains(strings.ToLower(entry), "pip_prefix=") || strings.Contains(strings.ToLower(entry), "pip_home=") {
+			t.Fatalf("expected case-insensitive strip, got entry %q", entry)
+		}
+	}
+}
+
+func TestPipInstallEnvRemovesConflictingVarsAndInjectsMirror(t *testing.T) {
+	base := []string{
+		"PATH=/usr/bin",
+		"PIP_PREFIX=/opt/pip-prefix",
+		"PIP_HOME=/opt/pip-home",
+	}
+	env := PipInstallEnv(base, "https://example.com/simple")
+
+	for _, entry := range env {
+		if strings.HasPrefix(entry, "PIP_PREFIX=") || strings.HasPrefix(entry, "PIP_HOME=") {
+			t.Fatalf("expected PIP_PREFIX/PIP_HOME stripped, got %q", entry)
+		}
+	}
+
+	hasIndex := false
+	for _, entry := range env {
+		if entry == "PIP_INDEX_URL=https://example.com/simple" {
+			hasIndex = true
+		}
+	}
+	if !hasIndex {
+		t.Fatalf("expected PIP_INDEX_URL to be injected, env=%v", env)
+	}
+}
+
+func TestEffectivePipMirrorFallsBackToDefaultAcceleratedMirror(t *testing.T) {
+	cases := []struct {
+		name  string
+		input string
+		want  string
+	}{
+		{name: "empty uses default", input: "", want: DefaultPipMirror},
+		{name: "official uses default", input: "https://pypi.org/simple", want: DefaultPipMirror},
+		{name: "custom mirror preserved", input: "https://pypi.tuna.tsinghua.edu.cn/simple", want: "https://pypi.tuna.tsinghua.edu.cn/simple"},
+	}
+
+	for _, tc := range cases {
+		if got := EffectivePipMirror(tc.input); got != tc.want {
+			t.Fatalf("%s: EffectivePipMirror(%q) = %q, want %q", tc.name, tc.input, got, tc.want)
+		}
+	}
+}
+
+func TestEffectiveNpmMirrorFallsBackToDefaultAcceleratedMirror(t *testing.T) {
+	cases := []struct {
+		name  string
+		input string
+		want  string
+	}{
+		{name: "empty uses default", input: "", want: "https://registry.npmmirror.com/"},
+		{name: "official uses default", input: "https://registry.npmjs.org/", want: "https://registry.npmmirror.com/"},
+		{name: "custom mirror preserved", input: "https://mirrors.cloud.tencent.com/npm/", want: "https://mirrors.cloud.tencent.com/npm/"},
+	}
+
+	for _, tc := range cases {
+		if got := EffectiveNpmMirror(tc.input); got != tc.want {
+			t.Fatalf("%s: EffectiveNpmMirror(%q) = %q, want %q", tc.name, tc.input, got, tc.want)
+		}
+	}
+}
+
+func TestSetPipMirrorWritesAndClearsConfig(t *testing.T) {
+	root := t.TempDir()
+	home := filepath.Join(root, "home")
+	t.Setenv("HOME", home)
+	t.Setenv("XDG_CONFIG_HOME", filepath.Join(home, ".config"))
+
+	if err := SetPipMirror("https://mirrors.aliyun.com/pypi/simple"); err != nil {
+		t.Fatalf("set pip mirror: %v", err)
+	}
+	if got := CurrentPipMirror(); got != "https://mirrors.aliyun.com/pypi/simple" {
+		t.Fatalf("expected saved pip mirror, got %q", got)
+	}
+
+	if err := SetPipMirror(""); err != nil {
+		t.Fatalf("clear pip mirror: %v", err)
+	}
+	if got := CurrentPipMirror(); got != "" {
+		t.Fatalf("expected cleared pip mirror, got %q", got)
+	}
+}
+
+func TestSetNpmMirrorWritesAndClearsConfig(t *testing.T) {
+	root := t.TempDir()
+	home := filepath.Join(root, "home")
+	t.Setenv("HOME", home)
+
+	if err := SetNpmMirror("https://mirrors.cloud.tencent.com/npm/"); err != nil {
+		t.Fatalf("set npm mirror: %v", err)
+	}
+	if got := CurrentNpmMirror(); got != "https://mirrors.cloud.tencent.com/npm/" {
+		t.Fatalf("expected saved npm mirror, got %q", got)
+	}
+
+	if err := SetNpmMirror(""); err != nil {
+		t.Fatalf("clear npm mirror: %v", err)
+	}
+	if got := CurrentNpmMirror(); got != "" {
+		t.Fatalf("expected cleared npm mirror, got %q", got)
+	}
+}

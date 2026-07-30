@@ -1,1 +1,185 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJInRlc3RpbmciCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvaGFuZGxlciIKCSJkYWlkYWktcGFuZWwvbWlkZGxld2FyZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCmZ1bmMgVGVzdFVzZXJMaXN0SW5jbHVkZXNUd29GYWN0b3JFbmFibGVkU3RhdGUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gZ2luLk5ldygpCglhcGkgOj0gZW5naW5lLkdyb3VwKCIvYXBpL3YxIikKCWhhbmRsZXIuTmV3VXNlckhhbmRsZXIoKS5SZWdpc3RlclJvdXRlcyhhcGkpCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidXNlci1hZG1pbiIsICJhZG1pbiIpCglhZG1pblRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBhZG1pbi5Vc2VybmFtZSwgYWRtaW4uUm9sZSkKCglzZWN1cmVkVXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidXNlci13aXRoLTJmYSIsICJvcGVyYXRvciIpCglwbGFpblVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgInVzZXItd2l0aG91dC0yZmEiLCAidmlld2VyIikKCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZtb2RlbC5Ud29GYWN0b3JBdXRoewoJCVVzZXJJRDogIHNlY3VyZWRVc2VyLklELAoJCVNlY3JldDogICJTRUNSRVQiLAoJCUVuYWJsZWQ6IHRydWUsCgl9KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSAyZmEgcmVjb3JkOiAldiIsIGVycikKCX0KCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZtb2RlbC5Ud29GYWN0b3JBdXRoewoJCVVzZXJJRDogIHBsYWluVXNlci5JRCwKCQlTZWNyZXQ6ICAiRElTQUJMRUQiLAoJCUVuYWJsZWQ6IGZhbHNlLAoJfSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgZGlzYWJsZWQgMmZhIHJlY29yZDogJXYiLCBlcnIpCgl9CgoJcmVjIDo9IHBlcmZvcm1SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RHZXQsICIvYXBpL3YxL3VzZXJzIiwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBhZG1pblRva2VuLAoJfSkKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAsIGdvdCAlZDogJXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJcGF5bG9hZCA6PSBkZWNvZGVKU09OTWFwKHQsIHJlYykKCWl0ZW1zLCBvayA6PSBwYXlsb2FkWyJkYXRhIl0uKFtdaW50ZXJmYWNle30pCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1c2VyIGxpc3QgYXJyYXksIGdvdCAlI3YiLCBwYXlsb2FkWyJkYXRhIl0pCgl9CgoJc3RhdGVCeVVzZXJuYW1lIDo9IG1ha2UobWFwW3N0cmluZ11ib29sLCBsZW4oaXRlbXMpKQoJZm9yIF8sIHJhdyA6PSByYW5nZSBpdGVtcyB7CgkJaXRlbSA6PSByYXcuKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCgkJdXNlcm5hbWUsIF8gOj0gaXRlbVsidXNlcm5hbWUiXS4oc3RyaW5nKQoJCWVuYWJsZWQsIF8gOj0gaXRlbVsidHdvX2ZhY3Rvcl9lbmFibGVkIl0uKGJvb2wpCgkJc3RhdGVCeVVzZXJuYW1lW3VzZXJuYW1lXSA9IGVuYWJsZWQKCX0KCglpZiAhc3RhdGVCeVVzZXJuYW1lW3NlY3VyZWRVc2VyLlVzZXJuYW1lXSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkICVzIHRvIGV4cG9zZSB0d29fZmFjdG9yX2VuYWJsZWQ9dHJ1ZSwgZ290ICUjdiIsIHNlY3VyZWRVc2VyLlVzZXJuYW1lLCBzdGF0ZUJ5VXNlcm5hbWUpCgl9CglpZiBzdGF0ZUJ5VXNlcm5hbWVbcGxhaW5Vc2VyLlVzZXJuYW1lXSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkICVzIHRvIGV4cG9zZSB0d29fZmFjdG9yX2VuYWJsZWQ9ZmFsc2UsIGdvdCAlI3YiLCBwbGFpblVzZXIuVXNlcm5hbWUsIHN0YXRlQnlVc2VybmFtZSkKCX0KfQoKZnVuYyBUZXN0VXNlclVwZGF0ZVJldm9rZXNFeGlzdGluZ1Nlc3Npb25zKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IGdpbi5OZXcoKQoJYXBpIDo9IGVuZ2luZS5Hcm91cCgiL2FwaS92MSIpCgloYW5kbGVyLk5ld1VzZXJIYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoJaGFuZGxlci5OZXdTeXN0ZW1IYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoKCWFkbWluIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ1c2VyLWFkbWluLXVwZGF0ZSIsICJhZG1pbiIpCglhZG1pblRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBhZG1pbi5Vc2VybmFtZSwgYWRtaW4uUm9sZSkKCXRhcmdldCA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAicmV2b2tlZC11c2VyIiwgIm9wZXJhdG9yIikKCWFjY2Vzc0luZm8sIGVyciA6PSBtaWRkbGV3YXJlLkdlbmVyYXRlQWNjZXNzVG9rZW5JbmZvKHRhcmdldC5Vc2VybmFtZSwgdGFyZ2V0LlJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZ2VuZXJhdGUgdGFyZ2V0IGFjY2VzcyB0b2tlbjogJXYiLCBlcnIpCgl9CglyZWZyZXNoSW5mbywgZXJyIDo9IG1pZGRsZXdhcmUuR2VuZXJhdGVSZWZyZXNoVG9rZW5JbmZvKHRhcmdldC5Vc2VybmFtZSwgdGFyZ2V0LlJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZ2VuZXJhdGUgdGFyZ2V0IHJlZnJlc2ggdG9rZW46ICV2IiwgZXJyKQoJfQoJc2VydmljZS5DcmVhdGVTZXNzaW9uV2l0aFJlZnJlc2goCgkJdGFyZ2V0LklELAoJCXRhcmdldC5Vc2VybmFtZSwKCQlhY2Nlc3NJbmZvLkpUSSwKCQlyZWZyZXNoSW5mby5KVEksCgkJc2VydmljZS5TZXNzaW9uQ2xpZW50V2ViLAoJCSJ0ZXN0LXdlYiIsCgkJIjE5OC41MS4xMDAuNTAiLAoJCSJNb3ppbGxhLzUuMCIsCgkJYWNjZXNzSW5mby5FeHBpcmVzQXQsCgkJcmVmcmVzaEluZm8uRXhwaXJlc0F0LAoJKQoJdGFyZ2V0VG9rZW4gOj0gYWNjZXNzSW5mby5Ub2tlbgoKCWJlZm9yZVJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9zeXN0ZW0vdmVyc2lvbiIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdGFyZ2V0VG9rZW4sCgl9KQoJaWYgYmVmb3JlUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRhcmdldCB0b2tlbiB0byB3b3JrIGJlZm9yZSB1cGRhdGUsIGdvdCAlZCwgYm9keT0lcyIsIGJlZm9yZVJlYy5Db2RlLCBiZWZvcmVSZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl1cGRhdGVCb2R5IDo9IGB7ImVuYWJsZWQiOmZhbHNlLCJyb2xlIjoidmlld2VyIn1gCgl1cGRhdGVSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQdXQsIGZtdC5TcHJpbnRmKCIvYXBpL3YxL3VzZXJzLyVkIiwgdGFyZ2V0LklEKSwgdXBkYXRlQm9keSwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBhZG1pblRva2VuLAoJfSwgIiIpCglpZiB1cGRhdGVSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXNlciB1cGRhdGUgc3VjY2VzcywgZ290ICVkLCBib2R5PSVzIiwgdXBkYXRlUmVjLkNvZGUsIHVwZGF0ZVJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWFmdGVyUmVjIDo9IHBlcmZvcm1SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RHZXQsICIvYXBpL3YxL3N5c3RlbS92ZXJzaW9uIiwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0YXJnZXRUb2tlbiwKCX0pCglpZiBhZnRlclJlYy5Db2RlICE9IGh0dHAuU3RhdHVzVW5hdXRob3JpemVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdGFyZ2V0IHRva2VuIHRvIGJlIHJldm9rZWQgYWZ0ZXIgdXBkYXRlLCBnb3QgJWQsIGJvZHk9JXMiLCBhZnRlclJlYy5Db2RlLCBhZnRlclJlYy5Cb2R5LlN0cmluZygpKQoJfQp9CgpmdW5jIFRlc3RVc2VyUmVzZXRQYXNzd29yZFJldm9rZXNFeGlzdGluZ1Nlc3Npb25zKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IGdpbi5OZXcoKQoJYXBpIDo9IGVuZ2luZS5Hcm91cCgiL2FwaS92MSIpCgloYW5kbGVyLk5ld1VzZXJIYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoJaGFuZGxlci5OZXdTeXN0ZW1IYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoKCWFkbWluIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJ1c2VyLWFkbWluLXJlc2V0IiwgImFkbWluIikKCWFkbWluVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIGFkbWluLlVzZXJuYW1lLCBhZG1pbi5Sb2xlKQoJdGFyZ2V0IDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJyZXNldC11c2VyIiwgIm9wZXJhdG9yIikKCWFjY2Vzc0luZm8sIGVyciA6PSBtaWRkbGV3YXJlLkdlbmVyYXRlQWNjZXNzVG9rZW5JbmZvKHRhcmdldC5Vc2VybmFtZSwgdGFyZ2V0LlJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZ2VuZXJhdGUgdGFyZ2V0IGFjY2VzcyB0b2tlbjogJXYiLCBlcnIpCgl9CglyZWZyZXNoSW5mbywgZXJyIDo9IG1pZGRsZXdhcmUuR2VuZXJhdGVSZWZyZXNoVG9rZW5JbmZvKHRhcmdldC5Vc2VybmFtZSwgdGFyZ2V0LlJvbGUpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZ2VuZXJhdGUgdGFyZ2V0IHJlZnJlc2ggdG9rZW46ICV2IiwgZXJyKQoJfQoJc2VydmljZS5DcmVhdGVTZXNzaW9uV2l0aFJlZnJlc2goCgkJdGFyZ2V0LklELAoJCXRhcmdldC5Vc2VybmFtZSwKCQlhY2Nlc3NJbmZvLkpUSSwKCQlyZWZyZXNoSW5mby5KVEksCgkJc2VydmljZS5TZXNzaW9uQ2xpZW50V2ViLAoJCSJ0ZXN0LXdlYiIsCgkJIjE5OC41MS4xMDAuNjAiLAoJCSJNb3ppbGxhLzUuMCIsCgkJYWNjZXNzSW5mby5FeHBpcmVzQXQsCgkJcmVmcmVzaEluZm8uRXhwaXJlc0F0LAoJKQoJdGFyZ2V0VG9rZW4gOj0gYWNjZXNzSW5mby5Ub2tlbgoKCWJlZm9yZVJlYyA6PSBwZXJmb3JtUmVxdWVzdChlbmdpbmUsIGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9zeXN0ZW0vdmVyc2lvbiIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdGFyZ2V0VG9rZW4sCgl9KQoJaWYgYmVmb3JlUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRhcmdldCB0b2tlbiB0byB3b3JrIGJlZm9yZSBwYXNzd29yZCByZXNldCwgZ290ICVkLCBib2R5PSVzIiwgYmVmb3JlUmVjLkNvZGUsIGJlZm9yZVJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXJlc2V0Qm9keSA6PSBgeyJwYXNzd29yZCI6Ik5ld1Bhc3N3b3JkMTIzISJ9YAoJcmVzZXRSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQdXQsIGZtdC5TcHJpbnRmKCIvYXBpL3YxL3VzZXJzLyVkL3Jlc2V0LXBhc3N3b3JkIiwgdGFyZ2V0LklEKSwgcmVzZXRCb2R5LCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIGFkbWluVG9rZW4sCgl9LCAiIikKCWlmIHJlc2V0UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlc2V0IHBhc3N3b3JkIHN1Y2Nlc3MsIGdvdCAlZCwgYm9keT0lcyIsIHJlc2V0UmVjLkNvZGUsIHJlc2V0UmVjLkJvZHkuU3RyaW5nKCkpCgl9CgoJYWZ0ZXJSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvc3lzdGVtL3ZlcnNpb24iLCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIHRhcmdldFRva2VuLAoJfSkKCWlmIGFmdGVyUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNVbmF1dGhvcml6ZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0YXJnZXQgdG9rZW4gdG8gYmUgcmV2b2tlZCBhZnRlciBwYXNzd29yZCByZXNldCwgZ290ICVkLCBib2R5PSVzIiwgYWZ0ZXJSZWMuQ29kZSwgYWZ0ZXJSZWMuQm9keS5TdHJpbmcoKSkKCX0KfQo=
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/handler"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/service"
+	"daidai-panel/testutil"
+
+	"github.com/gin-gonic/gin"
+)
+
+func TestUserListIncludesTwoFactorEnabledState(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := gin.New()
+	api := engine.Group("/api/v1")
+	handler.NewUserHandler().RegisterRoutes(api)
+	admin := testutil.MustCreateUser(t, "user-admin", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	securedUser := testutil.MustCreateUser(t, "user-with-2fa", "operator")
+	plainUser := testutil.MustCreateUser(t, "user-without-2fa", "viewer")
+
+	if err := database.DB.Create(&model.TwoFactorAuth{
+		UserID:  securedUser.ID,
+		Secret:  "SECRET",
+		Enabled: true,
+	}).Error; err != nil {
+		t.Fatalf("create 2fa record: %v", err)
+	}
+
+	if err := database.DB.Create(&model.TwoFactorAuth{
+		UserID:  plainUser.ID,
+		Secret:  "DISABLED",
+		Enabled: false,
+	}).Error; err != nil {
+		t.Fatalf("create disabled 2fa record: %v", err)
+	}
+
+	rec := performRequest(engine, http.MethodGet, "/api/v1/users", map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	})
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d: %s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	items, ok := payload["data"].([]interface{})
+	if !ok {
+		t.Fatalf("expected user list array, got %#v", payload["data"])
+	}
+
+	stateByUsername := make(map[string]bool, len(items))
+	for _, raw := range items {
+		item := raw.(map[string]interface{})
+		username, _ := item["username"].(string)
+		enabled, _ := item["two_factor_enabled"].(bool)
+		stateByUsername[username] = enabled
+	}
+
+	if !stateByUsername[securedUser.Username] {
+		t.Fatalf("expected %s to expose two_factor_enabled=true, got %#v", securedUser.Username, stateByUsername)
+	}
+	if stateByUsername[plainUser.Username] {
+		t.Fatalf("expected %s to expose two_factor_enabled=false, got %#v", plainUser.Username, stateByUsername)
+	}
+}
+
+func TestUserUpdateRevokesExistingSessions(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := gin.New()
+	api := engine.Group("/api/v1")
+	handler.NewUserHandler().RegisterRoutes(api)
+	handler.NewSystemHandler().RegisterRoutes(api)
+
+	admin := testutil.MustCreateUser(t, "user-admin-update", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	target := testutil.MustCreateUser(t, "revoked-user", "operator")
+	accessInfo, err := middleware.GenerateAccessTokenInfo(target.Username, target.Role)
+	if err != nil {
+		t.Fatalf("generate target access token: %v", err)
+	}
+	refreshInfo, err := middleware.GenerateRefreshTokenInfo(target.Username, target.Role)
+	if err != nil {
+		t.Fatalf("generate target refresh token: %v", err)
+	}
+	service.CreateSessionWithRefresh(
+		target.ID,
+		target.Username,
+		accessInfo.JTI,
+		refreshInfo.JTI,
+		service.SessionClientWeb,
+		"test-web",
+		"198.51.100.50",
+		"Mozilla/5.0",
+		accessInfo.ExpiresAt,
+		refreshInfo.ExpiresAt,
+	)
+	targetToken := accessInfo.Token
+
+	beforeRec := performRequest(engine, http.MethodGet, "/api/v1/system/version", map[string]string{
+		"Authorization": "Bearer " + targetToken,
+	})
+	if beforeRec.Code != http.StatusOK {
+		t.Fatalf("expected target token to work before update, got %d, body=%s", beforeRec.Code, beforeRec.Body.String())
+	}
+
+	updateBody := `{"enabled":false,"role":"viewer"}`
+	updateRec := performJSONRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/users/%d", target.ID), updateBody, map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	}, "")
+	if updateRec.Code != http.StatusOK {
+		t.Fatalf("expected user update success, got %d, body=%s", updateRec.Code, updateRec.Body.String())
+	}
+
+	afterRec := performRequest(engine, http.MethodGet, "/api/v1/system/version", map[string]string{
+		"Authorization": "Bearer " + targetToken,
+	})
+	if afterRec.Code != http.StatusUnauthorized {
+		t.Fatalf("expected target token to be revoked after update, got %d, body=%s", afterRec.Code, afterRec.Body.String())
+	}
+}
+
+func TestUserResetPasswordRevokesExistingSessions(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := gin.New()
+	api := engine.Group("/api/v1")
+	handler.NewUserHandler().RegisterRoutes(api)
+	handler.NewSystemHandler().RegisterRoutes(api)
+
+	admin := testutil.MustCreateUser(t, "user-admin-reset", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	target := testutil.MustCreateUser(t, "reset-user", "operator")
+	accessInfo, err := middleware.GenerateAccessTokenInfo(target.Username, target.Role)
+	if err != nil {
+		t.Fatalf("generate target access token: %v", err)
+	}
+	refreshInfo, err := middleware.GenerateRefreshTokenInfo(target.Username, target.Role)
+	if err != nil {
+		t.Fatalf("generate target refresh token: %v", err)
+	}
+	service.CreateSessionWithRefresh(
+		target.ID,
+		target.Username,
+		accessInfo.JTI,
+		refreshInfo.JTI,
+		service.SessionClientWeb,
+		"test-web",
+		"198.51.100.60",
+		"Mozilla/5.0",
+		accessInfo.ExpiresAt,
+		refreshInfo.ExpiresAt,
+	)
+	targetToken := accessInfo.Token
+
+	beforeRec := performRequest(engine, http.MethodGet, "/api/v1/system/version", map[string]string{
+		"Authorization": "Bearer " + targetToken,
+	})
+	if beforeRec.Code != http.StatusOK {
+		t.Fatalf("expected target token to work before password reset, got %d, body=%s", beforeRec.Code, beforeRec.Body.String())
+	}
+
+	resetBody := `{"password":"NewPassword123!"}`
+	resetRec := performJSONRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/users/%d/reset-password", target.ID), resetBody, map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	}, "")
+	if resetRec.Code != http.StatusOK {
+		t.Fatalf("expected reset password success, got %d, body=%s", resetRec.Code, resetRec.Body.String())
+	}
+
+	afterRec := performRequest(engine, http.MethodGet, "/api/v1/system/version", map[string]string{
+		"Authorization": "Bearer " + targetToken,
+	})
+	if afterRec.Code != http.StatusUnauthorized {
+		t.Fatalf("expected target token to be revoked after password reset, got %d, body=%s", afterRec.Code, afterRec.Body.String())
+	}
+}

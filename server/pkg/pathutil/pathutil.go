@@ -1,1 +1,132 @@
-cGFja2FnZSBwYXRodXRpbAoKaW1wb3J0ICgKCSJmbXQiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJydW50aW1lIgoJInN0cmluZ3MiCikKCi8vIFJlc29sdmVXaXRoaW5CYXNlIHJlc29sdmVzIHRhcmdldCBhZ2FpbnN0IGJhc2VEaXIgYW5kIGVuc3VyZXMgdGhlIGZpbmFsIHBhdGgKLy8gc3RheXMgaW5zaWRlIGJhc2VEaXIgYWZ0ZXIgYWNjb3VudGluZyBmb3IgYWJzb2x1dGUgcGF0aHMgYW5kIHN5bWxpbmtzLgpmdW5jIFJlc29sdmVXaXRoaW5CYXNlKGJhc2VEaXIsIHRhcmdldCBzdHJpbmcsIG11c3RFeGlzdCBib29sKSAoc3RyaW5nLCBlcnJvcikgewoJYmFzZURpciA9IHN0cmluZ3MuVHJpbVNwYWNlKGJhc2VEaXIpCgl0YXJnZXQgPSBzdHJpbmdzLlRyaW1TcGFjZSh0YXJnZXQpCglpZiBiYXNlRGlyID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuWfuuehgOebruW9leS4jeiDveS4uuepuiIpCgl9CglpZiB0YXJnZXQgPT0gIiIgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigi6Lev5b6E5LiN6IO95Li656m6IikKCX0KCgliYXNlQWJzLCBlcnIgOj0gZmlsZXBhdGguQWJzKGJhc2VEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuWfuuehgOebruW9leaXoOaViDogJXciLCBlcnIpCgl9CgliYXNlUmVzb2x2ZWQgOj0gcmVzb2x2ZVBhdGhGcm9tRXhpc3RpbmdBbmNlc3RvcihiYXNlQWJzKQoKCWNhbmRpZGF0ZSA6PSB0YXJnZXQKCWlmICFmaWxlcGF0aC5Jc0Ficyh0YXJnZXQpIHsKCQljYW5kaWRhdGUgPSBmaWxlcGF0aC5Kb2luKGJhc2VBYnMsIHRhcmdldCkKCX0KCgljYW5kaWRhdGVBYnMsIGVyciA6PSBmaWxlcGF0aC5BYnMoY2FuZGlkYXRlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLml6DmlYjot6/lvoQ6ICV3IiwgZXJyKQoJfQoKCXJlc29sdmVkVGFyZ2V0LCBlcnIgOj0gcmVzb2x2ZVRhcmdldFBhdGgoY2FuZGlkYXRlQWJzLCBtdXN0RXhpc3QpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoKCWlmICFpc1dpdGhpblJlc29sdmVkQmFzZShiYXNlUmVzb2x2ZWQsIHJlc29sdmVkVGFyZ2V0KSB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLmo4DmtYvliLDot6/lvoTnqb/otooiKQoJfQoKCXJldHVybiByZXNvbHZlZFRhcmdldCwgbmlsCn0KCmZ1bmMgSXNXaXRoaW5CYXNlKGJhc2VEaXIsIHRhcmdldCBzdHJpbmcpIGJvb2wgewoJYmFzZUFicywgZXJyIDo9IGZpbGVwYXRoLkFicyhiYXNlRGlyKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZhbHNlCgl9Cgl0YXJnZXRBYnMsIGVyciA6PSBmaWxlcGF0aC5BYnModGFyZ2V0KQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJYmFzZVJlc29sdmVkIDo9IHJlc29sdmVQYXRoRnJvbUV4aXN0aW5nQW5jZXN0b3IoYmFzZUFicykKCXRhcmdldFJlc29sdmVkIDo9IHJlc29sdmVQYXRoRnJvbUV4aXN0aW5nQW5jZXN0b3IodGFyZ2V0QWJzKQoKCXJldHVybiBpc1dpdGhpblJlc29sdmVkQmFzZShiYXNlUmVzb2x2ZWQsIHRhcmdldFJlc29sdmVkKQp9CgpmdW5jIGlzV2l0aGluUmVzb2x2ZWRCYXNlKGJhc2VSZXNvbHZlZCwgdGFyZ2V0UmVzb2x2ZWQgc3RyaW5nKSBib29sIHsKCWJhc2VSZXNvbHZlZCA9IGZpbGVwYXRoLkNsZWFuKGJhc2VSZXNvbHZlZCkKCXRhcmdldFJlc29sdmVkID0gZmlsZXBhdGguQ2xlYW4odGFyZ2V0UmVzb2x2ZWQpCglpZiBydW50aW1lLkdPT1MgPT0gIndpbmRvd3MiIHsKCQliYXNlUmVzb2x2ZWQgPSBzdHJpbmdzLlRvTG93ZXIoYmFzZVJlc29sdmVkKQoJCXRhcmdldFJlc29sdmVkID0gc3RyaW5ncy5Ub0xvd2VyKHRhcmdldFJlc29sdmVkKQoJfQoKCXJlbCwgZXJyIDo9IGZpbGVwYXRoLlJlbChiYXNlUmVzb2x2ZWQsIHRhcmdldFJlc29sdmVkKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZhbHNlCgl9CgoJaWYgcmVsID09ICIuIiB7CgkJcmV0dXJuIHRydWUKCX0KCglyZXR1cm4gcmVsICE9ICIuLiIgJiYgIXN0cmluZ3MuSGFzUHJlZml4KHJlbCwgIi4uIitzdHJpbmcoZmlsZXBhdGguU2VwYXJhdG9yKSkKfQoKZnVuYyByZXNvbHZlVGFyZ2V0UGF0aChwYXRoIHN0cmluZywgbXVzdEV4aXN0IGJvb2wpIChzdHJpbmcsIGVycm9yKSB7CglpZiBtdXN0RXhpc3QgewoJCWlmIF8sIGVyciA6PSBvcy5TdGF0KHBhdGgpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuICIiLCBlcnIKCQl9CgkJcmV0dXJuIHJlc29sdmVFeGlzdGluZ1BhdGgocGF0aCksIG5pbAoJfQoKCXJldHVybiByZXNvbHZlUGF0aEZyb21FeGlzdGluZ0FuY2VzdG9yKHBhdGgpLCBuaWwKfQoKZnVuYyByZXNvbHZlRXhpc3RpbmdQYXRoKHBhdGggc3RyaW5nKSBzdHJpbmcgewoJY2xlYW5lZCA6PSBmaWxlcGF0aC5DbGVhbihwYXRoKQoJcmVzb2x2ZWQsIGVyciA6PSBmaWxlcGF0aC5FdmFsU3ltbGlua3MoY2xlYW5lZCkKCWlmIGVyciA9PSBuaWwgewoJCWNsZWFuZWQgPSByZXNvbHZlZAoJfQoJYWJzLCBlcnIgOj0gZmlsZXBhdGguQWJzKGNsZWFuZWQpCglpZiBlcnIgPT0gbmlsIHsKCQlyZXR1cm4gYWJzCgl9CglyZXR1cm4gY2xlYW5lZAp9CgpmdW5jIHJlc29sdmVQYXRoRnJvbUV4aXN0aW5nQW5jZXN0b3IocGF0aCBzdHJpbmcpIHN0cmluZyB7CgljdXJyZW50IDo9IGZpbGVwYXRoLkNsZWFuKHBhdGgpCglzZWdtZW50cyA6PSBtYWtlKFtdc3RyaW5nLCAwKQoKCWZvciB7CgkJaWYgXywgZXJyIDo9IG9zLlN0YXQoY3VycmVudCk7IGVyciA9PSBuaWwgewoJCQlyZXNvbHZlZCA6PSByZXNvbHZlRXhpc3RpbmdQYXRoKGN1cnJlbnQpCgkJCWZvciBpIDo9IGxlbihzZWdtZW50cykgLSAxOyBpID49IDA7IGktLSB7CgkJCQlyZXNvbHZlZCA9IGZpbGVwYXRoLkpvaW4ocmVzb2x2ZWQsIHNlZ21lbnRzW2ldKQoJCQl9CgkJCXJldHVybiByZXNvbHZlZAoJCX0KCgkJcGFyZW50IDo9IGZpbGVwYXRoLkRpcihjdXJyZW50KQoJCWlmIHBhcmVudCA9PSBjdXJyZW50IHsKCQkJcmV0dXJuIHJlc29sdmVFeGlzdGluZ1BhdGgocGF0aCkKCQl9CgoJCXNlZ21lbnRzID0gYXBwZW5kKHNlZ21lbnRzLCBmaWxlcGF0aC5CYXNlKGN1cnJlbnQpKQoJCWN1cnJlbnQgPSBwYXJlbnQKCX0KfQo=
+package pathutil
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"runtime"
+	"strings"
+)
+
+// ResolveWithinBase resolves target against baseDir and ensures the final path
+// stays inside baseDir after accounting for absolute paths and symlinks.
+func ResolveWithinBase(baseDir, target string, mustExist bool) (string, error) {
+	baseDir = strings.TrimSpace(baseDir)
+	target = strings.TrimSpace(target)
+	if baseDir == "" {
+		return "", fmt.Errorf("基础目录不能为空")
+	}
+	if target == "" {
+		return "", fmt.Errorf("路径不能为空")
+	}
+
+	baseAbs, err := filepath.Abs(baseDir)
+	if err != nil {
+		return "", fmt.Errorf("基础目录无效: %w", err)
+	}
+	baseResolved := resolvePathFromExistingAncestor(baseAbs)
+
+	candidate := target
+	if !filepath.IsAbs(target) {
+		candidate = filepath.Join(baseAbs, target)
+	}
+
+	candidateAbs, err := filepath.Abs(candidate)
+	if err != nil {
+		return "", fmt.Errorf("无效路径: %w", err)
+	}
+
+	resolvedTarget, err := resolveTargetPath(candidateAbs, mustExist)
+	if err != nil {
+		return "", err
+	}
+
+	if !isWithinResolvedBase(baseResolved, resolvedTarget) {
+		return "", fmt.Errorf("检测到路径穿越")
+	}
+
+	return resolvedTarget, nil
+}
+
+func IsWithinBase(baseDir, target string) bool {
+	baseAbs, err := filepath.Abs(baseDir)
+	if err != nil {
+		return false
+	}
+	targetAbs, err := filepath.Abs(target)
+	if err != nil {
+		return false
+	}
+
+	baseResolved := resolvePathFromExistingAncestor(baseAbs)
+	targetResolved := resolvePathFromExistingAncestor(targetAbs)
+
+	return isWithinResolvedBase(baseResolved, targetResolved)
+}
+
+func isWithinResolvedBase(baseResolved, targetResolved string) bool {
+	baseResolved = filepath.Clean(baseResolved)
+	targetResolved = filepath.Clean(targetResolved)
+	if runtime.GOOS == "windows" {
+		baseResolved = strings.ToLower(baseResolved)
+		targetResolved = strings.ToLower(targetResolved)
+	}
+
+	rel, err := filepath.Rel(baseResolved, targetResolved)
+	if err != nil {
+		return false
+	}
+
+	if rel == "." {
+		return true
+	}
+
+	return rel != ".." && !strings.HasPrefix(rel, ".."+string(filepath.Separator))
+}
+
+func resolveTargetPath(path string, mustExist bool) (string, error) {
+	if mustExist {
+		if _, err := os.Stat(path); err != nil {
+			return "", err
+		}
+		return resolveExistingPath(path), nil
+	}
+
+	return resolvePathFromExistingAncestor(path), nil
+}
+
+func resolveExistingPath(path string) string {
+	cleaned := filepath.Clean(path)
+	resolved, err := filepath.EvalSymlinks(cleaned)
+	if err == nil {
+		cleaned = resolved
+	}
+	abs, err := filepath.Abs(cleaned)
+	if err == nil {
+		return abs
+	}
+	return cleaned
+}
+
+func resolvePathFromExistingAncestor(path string) string {
+	current := filepath.Clean(path)
+	segments := make([]string, 0)
+
+	for {
+		if _, err := os.Stat(current); err == nil {
+			resolved := resolveExistingPath(current)
+			for i := len(segments) - 1; i >= 0; i-- {
+				resolved = filepath.Join(resolved, segments[i])
+			}
+			return resolved
+		}
+
+		parent := filepath.Dir(current)
+		if parent == current {
+			return resolveExistingPath(path)
+		}
+
+		segments = append(segments, filepath.Base(current))
+		current = parent
+	}
+}

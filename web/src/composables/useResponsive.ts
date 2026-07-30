@@ -1,1 +1,42 @@
-aW1wb3J0IHsgY29tcHV0ZWQsIG9uQmVmb3JlVW5tb3VudCwgb25Nb3VudGVkLCByZWYgfSBmcm9tICd2dWUnCgpjb25zdCBNT0JJTEVfQlJFQUtQT0lOVCA9IDc2OApjb25zdCBUQUJMRVRfQlJFQUtQT0lOVCA9IDEwMjQKCmV4cG9ydCBmdW5jdGlvbiB1c2VSZXNwb25zaXZlKCkgewogIGNvbnN0IHdpZHRoID0gcmVmKHR5cGVvZiB3aW5kb3cgIT09ICd1bmRlZmluZWQnID8gd2luZG93LmlubmVyV2lkdGggOiBUQUJMRVRfQlJFQUtQT0lOVCkKICBjb25zdCBoZWlnaHQgPSByZWYodHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCcgPyB3aW5kb3cuaW5uZXJIZWlnaHQgOiAwKQoKICBmdW5jdGlvbiB1cGRhdGVWaWV3cG9ydCgpIHsKICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJykgcmV0dXJuCiAgICAvLyDmnIDlsI/ljJYv5YiH5ZCO5Y+w5a6I5Y2r77yaRWRnZS9DaHJvbWl1bSDlnKjnqpflj6PmnIDlsI/ljJbml7bkvJrmtL7lj5EgaW5uZXJXaWR0aD09PTAg55qEIHJlc2l6ZSDkuovku7bjgIIKICAgIC8vIOiLpeaKiiAwIOWGmei/myB3aWR0aO+8jOS8muiuqSBpc01vYmlsZS9kaWFsb2dGdWxsc2NyZWVuIOivr+e/u+S4uiB0cnVl77yM5a+86Ie05by556qX5YWo5bGP44CB5L6n5qCP5pS26LW344CB5YWo56uZ5YiH56e75Yqo56uv44CCCiAgICAvLyDov5nnsbvpm7blsLrlr7jkuI3mmK/nnJ/lrp7luIPlsYDmgIHvvIznm7TmjqXot7Pov4fvvIznrYnnqpflj6PmgaLlpI3lkI7nmoTnnJ/lrp4gcmVzaXplIOWGjeabtOaWsO+8m+ecn+Wunuenu+WKqOerry/nvKnmlL7vvIhpbm5lcldpZHRoPjDvvInooYzkuLrkuI3lj5jjgIIKICAgIGlmICh3aW5kb3cuaW5uZXJXaWR0aCA9PT0gMCB8fCBkb2N1bWVudC5oaWRkZW4pIHJldHVybgogICAgd2lkdGgudmFsdWUgPSB3aW5kb3cuaW5uZXJXaWR0aAogICAgaGVpZ2h0LnZhbHVlID0gd2luZG93LmlubmVySGVpZ2h0CiAgfQoKICBvbk1vdW50ZWQoKCkgPT4gewogICAgdXBkYXRlVmlld3BvcnQoKQogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoJ3Jlc2l6ZScsIHVwZGF0ZVZpZXdwb3J0LCB7IHBhc3NpdmU6IHRydWUgfSkKICB9KQoKICBvbkJlZm9yZVVubW91bnQoKCkgPT4gewogICAgaWYgKHR5cGVvZiB3aW5kb3cgPT09ICd1bmRlZmluZWQnKSByZXR1cm4KICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCdyZXNpemUnLCB1cGRhdGVWaWV3cG9ydCkKICB9KQoKICBjb25zdCBpc01vYmlsZSA9IGNvbXB1dGVkKCgpID0+IHdpZHRoLnZhbHVlIDw9IE1PQklMRV9CUkVBS1BPSU5UKQogIGNvbnN0IGlzVGFibGV0ID0gY29tcHV0ZWQoKCkgPT4gd2lkdGgudmFsdWUgPD0gVEFCTEVUX0JSRUFLUE9JTlQpCiAgY29uc3QgZGlhbG9nRnVsbHNjcmVlbiA9IGNvbXB1dGVkKCgpID0+IGlzTW9iaWxlLnZhbHVlKQoKICByZXR1cm4gewogICAgd2lkdGgsCiAgICBoZWlnaHQsCiAgICBpc01vYmlsZSwKICAgIGlzVGFibGV0LAogICAgZGlhbG9nRnVsbHNjcmVlbiwKICAgIHVwZGF0ZVZpZXdwb3J0LAogIH0KfQo=
+import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+
+const MOBILE_BREAKPOINT = 768
+const TABLET_BREAKPOINT = 1024
+
+export function useResponsive() {
+  const width = ref(typeof window !== 'undefined' ? window.innerWidth : TABLET_BREAKPOINT)
+  const height = ref(typeof window !== 'undefined' ? window.innerHeight : 0)
+
+  function updateViewport() {
+    if (typeof window === 'undefined') return
+    // 最小化/切后台守卫：Edge/Chromium 在窗口最小化时会派发 innerWidth===0 的 resize 事件。
+    // 若把 0 写进 width，会让 isMobile/dialogFullscreen 误翻为 true，导致弹窗全屏、侧栏收起、全站切移动端。
+    // 这类零尺寸不是真实布局态，直接跳过，等窗口恢复后的真实 resize 再更新；真实移动端/缩放（innerWidth>0）行为不变。
+    if (window.innerWidth === 0 || document.hidden) return
+    width.value = window.innerWidth
+    height.value = window.innerHeight
+  }
+
+  onMounted(() => {
+    updateViewport()
+    window.addEventListener('resize', updateViewport, { passive: true })
+  })
+
+  onBeforeUnmount(() => {
+    if (typeof window === 'undefined') return
+    window.removeEventListener('resize', updateViewport)
+  })
+
+  const isMobile = computed(() => width.value <= MOBILE_BREAKPOINT)
+  const isTablet = computed(() => width.value <= TABLET_BREAKPOINT)
+  const dialogFullscreen = computed(() => isMobile.value)
+
+  return {
+    width,
+    height,
+    isMobile,
+    isTablet,
+    dialogFullscreen,
+    updateViewport,
+  }
+}

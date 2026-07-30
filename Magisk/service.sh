@@ -1,1 +1,283 @@
-IyEvc3lzdGVtL2Jpbi9zaAojIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIOWRhuWRhumdouadvyBNYWdpc2sg5qih5Z2XIC0gbGF0ZV9zdGFydCBzZXJ2aWNlCiMKIyDov5vlhaUgQWxwaW5lIOWuueWZqOWQr+WKqCBkYWlkYWktc2VydmVy77yI56uv5Y+j5Y+v6YCa6L+HIHBvcnRzLmNvbmYg6YWN572u77yJ44CCCiMg5YmN56uv6Z2Z5oCB6LWE5rqQ55SxIGRhaWRhaS1zZXJ2ZXIg55u05o6l5omY566h77yM5LiN5YaN5L6d6LWWIG5naW5444CCCiMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjCgpleHBvcnQgUEFUSD0vZGF0YS9hZGIvYXAvYmluOi9kYXRhL2FkYi9rc3UvYmluOi9kYXRhL2FkYi9tYWdpc2s6JFBBVEgKCiMgcm9vdGZzIOS9jee9ruaOoua1iwpyb290ZnM9L2RhdGEvZGFpZGFpCmlmIFsgISAtZCAiJHJvb3RmcyIgXTsgdGhlbgogIHJvb3Rmcz0vZGF0YS9sb2NhbC9kYWlkYWkKZmkKCiMg5qih5Z2X55uu5b2V5o6i5rWLCk1PRERJUj0ke01PRERJUjotL2RhdGEvYWRiL21vZHVsZXMvZGFpZGFpLXBhbmVsfQpbICEgLWQgIiRNT0RESVIiIF0gJiYgTU9ERElSPS9kYXRhL2FkYi9tYWdpc2svbW9kdWxlcy9kYWlkYWktcGFuZWwKWyAhIC1kICIkTU9ERElSIiBdICYmIE1PRERJUj0vc2Jpbi8ubWFnaXNrL21vZHVsZXMvZGFpZGFpLXBhbmVsClsgISAtZCAiJE1PRERJUiIgXSAmJiBNT0RESVI9JChkaXJuYW1lICIkMCIpClJVUklNQT0kTU9ERElSL3N5c3RlbS9iaW4vcnVyaW1hCgpQRVJTSVNUX0RJUj0vZGF0YS9hZGIvZGFpZGFpLXBhbmVsCkxPR19GSUxFPSIkUEVSU0lTVF9ESVIvc2VydmljZS5sb2ciClBPUlRTX0NPTkY9IiRQRVJTSVNUX0RJUi9wb3J0cy5jb25mIgoKbWtkaXIgLXAgIiRQRVJTSVNUX0RJUiIKCmxvZygpIHsKICBlY2hvICJbJChkYXRlICcrJVktJW0tJWQgJUg6JU06JVMnKV0gJDEiID4+ICIkTE9HX0ZJTEUiIDI+L2Rldi9udWxsCn0KCiMg5pel5b+X5rua5YqoCmlmIFsgLWYgIiRMT0dfRklMRSIgXTsgdGhlbgogIHNpemU9JChzdGF0IC1jJXMgIiRMT0dfRklMRSIgMj4vZGV2L251bGwgfHwgZWNobyAwKQogIFsgIiR7c2l6ZTotMH0iIC1ndCAyMDk3MTUyIF0gJiYgbXYgLWYgIiRMT0dfRklMRSIgIiRMT0dfRklMRS5vbGQiIDI+L2Rldi9udWxsCmZpCgojIC0tLS0g56uv5Y+j6YWN572u77yI55So5oi35Y+v57yW6L6RIHBvcnRzLmNvbmYg6Ieq5a6a5LmJ77yJIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIOesrOS4gOasoei/kOihjOaXtuiLpeaWh+S7tue8uuWkse+8jOiHquWKqOihpeS4gOS7vem7mOiupOWAvAppZiBbICEgLWYgIiRQT1JUU19DT05GIiBdOyB0aGVuCiAgY2F0ID4gIiRQT1JUU19DT05GIiA8PCAnUENPTkYnCiMg5ZGG5ZGG6Z2i5p2/56uv5Y+j6YWN572uIOKAlOKAlCDkv67mlLnlkI7ph43lkK/mqKHlnZfnlJ/mlYgKUEFORUxfUE9SVD01NzAwClNTSF9QT1JUPTIyClNTSF9VU0VSPXJvb3QKU1NIX1BBU1NXT1JEPTEyMzQ1NgpQQ09ORgpmaQoKUEFORUxfUE9SVD01NzAwClNTSF9QT1JUPTIyClNTSF9VU0VSPXJvb3QKU1NIX1BBU1NXT1JEPTEyMzQ1NgpFWFRSQV9DT1JTX09SSUdJTlM9IiIKIyBzaGVsbGNoZWNrIGRpc2FibGU9U0MxMDkwCi4gIiRQT1JUU19DT05GIiAyPi9kZXYvbnVsbCB8fCB0cnVlCgojIOWQiOazleaAp+agoemqjO+8iOW/hemhu+aYryAxLi42NTUzNSDkuYvpl7TnmoTmlbTmlbDvvIkKdmFsaWRhdGVfcG9ydCgpIHsKICBjYXNlICIkMSIgaW4KICAgICcnfCpbITAtOV0qKSByZXR1cm4gMSA7OwogIGVzYWMKICBbICIkMSIgLWdlIDEgXSAmJiBbICIkMSIgLWxlIDY1NTM1IF0KfQppZiAhIHZhbGlkYXRlX3BvcnQgIiRQQU5FTF9QT1JUIjsgdGhlbgogIGxvZyAiISEgcG9ydHMuY29uZiDkuK0gUEFORUxfUE9SVD0nJFBBTkVMX1BPUlQnIOmdnuazle+8jOWbnumAgOS4uiA1NzAwIgogIFBBTkVMX1BPUlQ9NTcwMApmaQppZiAhIHZhbGlkYXRlX3BvcnQgIiRTU0hfUE9SVCI7IHRoZW4KICBsb2cgIiEhIHBvcnRzLmNvbmYg5LitIFNTSF9QT1JUPSckU1NIX1BPUlQnIOmdnuazle+8jOWbnumAgOS4uiAyMiIKICBTU0hfUE9SVD0yMgpmaQoKbG9nICI9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PSIKbG9nICLlkYblkYbpnaLmnb/mqKHlnZflkK/liqggKE1PRERJUj0kTU9ERElSLCByb290ZnM9JHJvb3RmcykiCmxvZyAi56uv5Y+jOiBQQU5FTF9QT1JUPSRQQU5FTF9QT1JUICjnu5HlrpogMC4wLjAuMCksIFNTSF9QT1JUPSRTU0hfUE9SVCAo5p2l5rqQOiAkUE9SVFNfQ09ORikiCmxvZyAiU1NIIOWHreaNrjog55So5oi3PSRTU0hfVVNFUiIKaWYgWyAtbiAiJEVYVFJBX0NPUlNfT1JJR0lOUyIgXTsgdGhlbgogIGxvZyAi6aKd5aSWIENPUlMg5p2l5rqQOiAkRVhUUkFfQ09SU19PUklHSU5TIgpmaQpsb2cgIj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IgoKZWNobyAibm9TdXNwZW5kIiA+IC9zeXMvcG93ZXIvd2FrZV9sb2NrIDI+L2Rldi9udWxsCmR1bXBzeXMgZGV2aWNlaWRsZSBkaXNhYmxlIDI+L2Rldi9udWxsIHx8IHRydWUKCiMg562J572R57uc5bCx57uq77yI5bC96YeP77yM5aSx6LSl5Lmf5LiN6Zi75aGe77yJCmZvciBpIGluIDEgMiAzIDQgNTsgZG8KICBpZiBidXN5Ym94IG5zbG9va3VwIG0uYmFpZHUuY29tID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgbG9nICLnvZHnu5zlt7LlsLHnu6oiCiAgICBicmVhawogIGZpCiAgc2xlZXAgNQpkb25lCgppZiBbICEgLWYgIiRSVVJJTUEiIF07IHRoZW4KICBsb2cgIiEhIOaJvuS4jeWIsCBydXJpbWEg5LqM6L+b5Yi2OiAkUlVSSU1BIgogIGV4aXQgMQpmaQoKY2htb2QgK3ggIiRSVVJJTUEiIDI+L2Rldi9udWxsCgppZiBbICEgLWQgIiRyb290ZnMiIF07IHRoZW4KICBsb2cgIiEhIOaJvuS4jeWIsCByb290ZnM6ICRyb290ZnPvvIzmqKHlnZflj6/og73mnKrlrozmiJDlronoo4XvvIzor7fph43oo4UiCiAgZXhpdCAxCmZpCgojIEtlcm5lbFNVIOS4iyAvZGF0YSDlj6/og73ku6Ugcm8g5oyC6L2977yM56Gu5L+d5Y+v5YaZCmlmIFsgLWQgIi9kYXRhL2FkYi9rc3UiIF07IHRoZW4KICBtb3VudCAtbyByZW1vdW50LHJ3IC9kYXRhIDI+L2Rldi9udWxsCmZpCgojIOaKiuacgOaWsOeahOWJjeerr+WSjCBkYWlkYWktc2VydmVyIOWQjOatpei/m+WuueWZqApta2RpciAtcCAkcm9vdGZzL2FwcC93ZWIgJHJvb3Rmcy9hcHAvRHVtYi1QYW5lbCAkcm9vdGZzL3Vzci9sb2NhbC9iaW4KY3AgLXJmICRNT0RESVIvd2ViLyogJHJvb3Rmcy9hcHAvd2ViLyAyPi9kZXYvbnVsbApjcCAtZiAgJE1PRERJUi9zeXN0ZW0vYmluL2RhaWRhaS1zZXJ2ZXIgJHJvb3Rmcy91c3IvbG9jYWwvYmluL2RhaWRhaS1zZXJ2ZXIgMj4vZGV2L251bGwKY2htb2QgNzU1ICRyb290ZnMvdXNyL2xvY2FsL2Jpbi9kYWlkYWktc2VydmVyIDI+L2Rldi9udWxsCgojIOaBouWkjeaMgeS5heWMlueahOS+nei1luebruW9le+8iOWuueWZqCBvdmVybGF5ZnMg6YeN5ZCv5ZCO5Y+v6IO95Lii5aSx5YaZ5YWl5bGC77yJCkRFUFNfUEVSU0lTVD0iJFBFUlNJU1RfRElSL2RlcHMtc25hcHNob3QiCmlmIFsgLWQgIiRERVBTX1BFUlNJU1QiIF07IHRoZW4KICBta2RpciAtcCAkcm9vdGZzL2FwcC9EdW1iLVBhbmVsL2RlcHMKICBjcCAtcmYgIiRERVBTX1BFUlNJU1QvLiIgJHJvb3Rmcy9hcHAvRHVtYi1QYW5lbC9kZXBzLyAyPi9kZXYvbnVsbAogIGxvZyAi5bey5LuO5oyB5LmF5YyW5b+r54Wn5oGi5aSNIGRlcHMg55uu5b2VIgpmaQoKaWYgWyAtZiAkTU9ERElSL3N5c3RlbS9iaW4vZGRwIF07IHRoZW4KICBjcCAtZiAgJE1PRERJUi9zeXN0ZW0vYmluL2RkcCAkcm9vdGZzL3Vzci9sb2NhbC9iaW4vZGRwIDI+L2Rldi9udWxsCiAgY2htb2QgNzU1ICRyb290ZnMvdXNyL2xvY2FsL2Jpbi9kZHAgMj4vZGV2L251bGwKZmkKCmNwIC1mICRNT0RESVIvbW9kdWxlLnByb3AgJHJvb3Rmcy9hcHAvbW9kdWxlLnByb3AgMj4vZGV2L251bGwKCiMg5oqK5oyB5LmF5YyW55qEIHBvcnRzLmNvbmYg5ZCM5q2l6L+b5a655Zmo77yM5a655Zmo5ZCv5Yqo6ISa5pys55u05o6lIHNvdXJjZQpta2RpciAtcCAkcm9vdGZzL3RtcApjcCAtZiAiJFBPUlRTX0NPTkYiICIkcm9vdGZzL3RtcC9wb3J0cy5jb25mIiAyPi9kZXYvbnVsbAoKIyAtLS0tIOeUn+aIkOWuueWZqOWQr+WKqOiEmuacrO+8iOWFqOWtl+mdoiBoZXJlZG9j77yM5Y+Y6YeP55Sx5a655Zmo5YaFIC4gL3RtcC9wb3J0cy5jb25mIOazqOWFpe+8iSAtLS0tClNUQVJUVVA9JHJvb3Rmcy90bXAvZGFpZGFpLXN0YXJ0dXAuc2gKCmNhdCA+ICIkU1RBUlRVUCIgPDwgJ0NPTlRBSU5FUl9FT0YnCiMhL2Jpbi9hc2gKIyDpu5jorqTlgLwgKyDnlKjmiLcgcG9ydHMuY29uZiDopobnm5bvvIjlkIzmlofku7blt7LnlLHlrr/kuLsgc2VydmljZS5zaCDmoKHpqozov4flkIjms5XmgKfvvIkKUEFORUxfUE9SVD01NzAwClNTSF9QT1JUPTIyClNTSF9VU0VSPXJvb3QKU1NIX1BBU1NXT1JEPTEyMzQ1NgpFWFRSQV9DT1JTX09SSUdJTlM9IiIKWyAtZiAvdG1wL3BvcnRzLmNvbmYgXSAmJiAuIC90bXAvcG9ydHMuY29uZgoKZXhwb3J0IERBSURBSV9ESVI9L2FwcC9EdW1iLVBhbmVsCmV4cG9ydCBMQU5HPUMuVVRGLTgKZXhwb3J0IEhPTUU9L3Jvb3QKZXhwb3J0IFNIRUxMPS9iaW4vYmFzaApleHBvcnQgREFJREFJX01BR0lTS19NT0RVTEU9MQpleHBvcnQgREFJREFJX0FORFJPSURfUlVOVElNRV9CSU5fRElSPS9kYXRhL2FkYi9kYWlkYWktcGFuZWwvYmluCmV4cG9ydCBQQVRIPS9kYXRhL2FkYi9kYWlkYWktcGFuZWwvYmluL3B5dGhvbi9iaW46L2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW4vbm9kZS9iaW46L2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW46L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluOi9hcHAKZXhwb3J0IE5PREVfUEFUSD0vdXNyL2xvY2FsL2xpYi9ub2RlX21vZHVsZXMKCm1rZGlyIC1wICREQUlEQUlfRElSL3NjcmlwdHMgJERBSURBSV9ESVIvbG9ncyAkREFJREFJX0RJUi9kZXBzL25vZGVqcyAkREFJREFJX0RJUi9kZXBzL3B5dGhvbiAkREFJREFJX0RJUi9iYWNrdXBzCmNobW9kIDc3NyAkREFJREFJX0RJUgoKIyBQeXRob24g6Jma5ouf546v5aKD77yI56ys5LiA5qyh6L+b5YWl5pe25Yib5bu677yJCiMg5qih5Z2X54mI5b2T5YmN6YCa5bi45Y+q5pyJ5LiA5Liq57O757ufIHB5dGhvbjPvvIzkuI3kv53or4HnnJ/nmoTlkIzml7bmnIkgMy4xMCAvIDMuMTEgLyAzLjEy44CCCiMg6L+Z6YeM5b+F6aG755So5a655Zmo6YeM55yf5a6eIHB5dGhvbjMg5bCP54mI5pys5Yaz5a6a5omY566h546v5aKD55uu5b2V77yM5LiN6IO95YaN56Gs57yW56CBIDMuMTLvvIwKIyDlkKbliJnlvZMgQWxwaW5lIOmHjOeahCBweXRob24zIOWunumZheaYryAzLjExIOaXtu+8jOWwseS8muWHuueOsAojIOKAnOebruW9leWPqyAzLjEy77yM5L2G6YeM6Z2i5a6e6ZmF5pivIDMuMTEgdmVuduKAne+8jOWQjuerr+eJiOacrOaOoua1i+S8muebtOaOpeWIpOWumiBQeXRob24gMy4xMiDkuI3lj6/nlKjjgIIKUFlfTUlOT1I9IiIKaWYgY29tbWFuZCAtdiBweXRob24zID4vZGV2L251bGwgMj4mMTsgdGhlbgogIFBZX01JTk9SPSQocHl0aG9uMyAtYyAiaW1wb3J0IHN5czsgcHJpbnQoZid7c3lzLnZlcnNpb25faW5mby5tYWpvcn0ue3N5cy52ZXJzaW9uX2luZm8ubWlub3J9JykiIDI+L2Rldi9udWxsIHx8IHRydWUpCmZpCmNhc2UgIiRQWV9NSU5PUiIgaW4KICAzLjEwfDMuMTF8My4xMikKICAgIGV4cG9ydCBEQUlEQUlfUFlUSE9OX1ZFUlNJT049IiRQWV9NSU5PUiIKICAgIGlmIFsgISAtZCAiJERBSURBSV9ESVIvZGVwcy9weXRob24vJFBZX01JTk9SIiBdOyB0aGVuCiAgICAgIHB5dGhvbjMgLW0gdmVudiAiJERBSURBSV9ESVIvZGVwcy9weXRob24vJFBZX01JTk9SIiAyPi9kZXYvbnVsbCB8fCB0cnVlCiAgICBmaQogICAgOzsKZXNhYwoKIyDmjInphY3nva7lhpnlhaUgY29uZmlnLnlhbWzvvIjmr4/mrKHlkK/liqjpg73opobnm5bvvIzkv53or4Hnq6/lj6PkuI4gcG9ydHMuY29uZiDkuIDoh7TvvIkKIyDlkI7nq6/nlKggbmV0Lkxpc3RlbigiOlBPUlQiKSDnu5HlrpogMC4wLjAuMO+8jOepv+mAjy/lsYDln5/nvZHnm7Tov57lnYflj6/vvJsKIyBDT1JTIOWIl+ihqOWPquW9seWTjea1j+iniOWZqOi3qOWfn+ajgOafpe+8jCLlkIzmupDor7fmsYIi5bey55Sx5Lit6Ze05Lu26Ieq5Yqo5pS+6KGM44CCCmNhdCA+ICREQUlEQUlfRElSL2NvbmZpZy55YW1sIDw8IFlBTUwKc2VydmVyOgogIHBvcnQ6ICR7UEFORUxfUE9SVH0KICBtb2RlOiByZWxlYXNlCiAgd2ViX2RpcjogL2FwcC93ZWIKCmRhdGFiYXNlOgogIHBhdGg6IC9hcHAvRHVtYi1QYW5lbC9kYWlkYWkuZGIKCmp3dDoKICBzZWNyZXQ6ICIiCiAgYWNjZXNzX3Rva2VuX2V4cGlyZTogNDgwaAogIHJlZnJlc2hfdG9rZW5fZXhwaXJlOiAxNDQwaAoKZGF0YToKICBkaXI6IC9hcHAvRHVtYi1QYW5lbAogIHNjcmlwdHNfZGlyOiAvYXBwL0R1bWItUGFuZWwvc2NyaXB0cwogIGxvZ19kaXI6IC9hcHAvRHVtYi1QYW5lbC9sb2dzCgpjb3JzOgogIG9yaWdpbnM6CiAgICAtIGh0dHA6Ly9sb2NhbGhvc3Q6JHtQQU5FTF9QT1JUfQogICAgLSBodHRwOi8vMTI3LjAuMC4xOiR7UEFORUxfUE9SVH0KWUFNTAoKIyDov73liqAgRVhUUkFfQ09SU19PUklHSU5T77yI56m/6YCPIC8g5Y+N5LujIC8g5YWs572R5Z+f5ZCN5Zy65pmv5pi+5byP5pS+6KGM77yJCmlmIFsgLW4gIiR7RVhUUkFfQ09SU19PUklHSU5TfSIgXTsgdGhlbgogIGVjaG8gIiR7RVhUUkFfQ09SU19PUklHSU5TfSIgfCB0ciAnLDsnICdcbicgfCB3aGlsZSBJRlM9IHJlYWQgLXIgb3JpZ2luOyBkbwogICAgIyDljrvpppblsL7nqbrnmb0KICAgIG9yaWdpbj0kKGVjaG8gIiRvcmlnaW4iIHwgc2VkICdzL15bWzpzcGFjZTpdXSovLztzL1tbOnNwYWNlOl1dKiQvLycpCiAgICBbIC16ICIkb3JpZ2luIiBdICYmIGNvbnRpbnVlCiAgICBlY2hvICIgICAgLSAke29yaWdpbn0iID4+ICREQUlEQUlfRElSL2NvbmZpZy55YW1sCiAgZG9uZQpmaQoKIyAtLS0tIFNTSDog5ZCM5q2l55So5oi35ZCNL+Wvhuegge+8jOaMiSBTU0hfUE9SVCDmm7TmlrAgc3NoZF9jb25maWcg5bm25ZCv5YqoIC0tLS0tLS0tCiMg5q+P5qyh5ZCv5Yqo6YO95ZCM5q2l5a+G56CB77yM56Gu5L+dIHBvcnRzLmNvbmYg5pS55LqG5a+G56CB5ZCO6YeN5ZCv5Y2z55Sf5pWICmlmIFsgLW4gIiR7U1NIX1VTRVJ9IiBdICYmIFsgLW4gIiR7U1NIX1BBU1NXT1JEfSIgXTsgdGhlbgogIGlmIFsgIiR7U1NIX1VTRVJ9IiAhPSAicm9vdCIgXTsgdGhlbgogICAgaWQgIiR7U1NIX1VTRVJ9IiA+L2Rldi9udWxsIDI+JjEgfHwgYWRkdXNlciAtRCAtcyAvYmluL2Jhc2ggIiR7U1NIX1VTRVJ9IiAyPi9kZXYvbnVsbAogIGZpCiAgZWNobyAiJHtTU0hfVVNFUn06JHtTU0hfUEFTU1dPUkR9IiB8IGNocGFzc3dkIDI+L2Rldi9udWxsCmZpCgppZiBbIC1mIC9ldGMvc3NoL3NzaGRfY29uZmlnIF07IHRoZW4KICAjIOa4hemZpOW3suaciSBQb3J0IOihjO+8iOWMheaLrOazqOmHiueahO+8ie+8jOWGjei/veWKoOW9k+WJjeerr+WPowogIHNlZCAtaSAtRSAnL15bI1s6c3BhY2U6XV0qUG9ydFtbOnNwYWNlOl1dKy9kJyAvZXRjL3NzaC9zc2hkX2NvbmZpZwogIGVjaG8gIlBvcnQgJHtTU0hfUE9SVH0iID4+IC9ldGMvc3NoL3NzaGRfY29uZmlnCiAgIyDmsqHmnIkgaG9zdCBrZXkg55qE6K+d5YWI55Sf5oiQ5LiA5LiLCiAgWyAtZiAvZXRjL3NzaC9zc2hfaG9zdF9yc2Ffa2V5IF0gfHwgc3NoLWtleWdlbiAtQSA+L2Rldi9udWxsIDI+JjEKICAjIOWQr+WKqCBzc2hk77yI5bey5Zyo6LeR5bCx6Lez6L+H77yJCiAgaWYgISBwZ3JlcCAteCBzc2hkID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgbWtkaXIgLXAgL3J1bi9zc2hkCiAgICAvdXNyL3NiaW4vc3NoZCA+L2Rldi9udWxsIDI+JjEgfHwgdHJ1ZQogIGZpCmZpCgojIOmBv+WFjemHjeWkjeaLiei1tyBkYWlkYWktc2VydmVyCmlmIHBncmVwIC1mIC91c3IvbG9jYWwvYmluL2RhaWRhaS1zZXJ2ZXIgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgZWNobyAiZGFpZGFpLXNlcnZlciDlt7LlnKjov5DooYwiID4+ICREQUlEQUlfRElSL3NlcnZpY2UubG9nCiAgZXhpdCAwCmZpCgpjZCAkREFJREFJX0RJUgpub2h1cCAvdXNyL2xvY2FsL2Jpbi9kYWlkYWktc2VydmVyID4gJERBSURBSV9ESVIvZGFpZGFpLmxvZyAyPiYxICYKZWNobyAiZGFpZGFpLXNlcnZlciDlt7Lmi4notbcgUElEPSQhIChwb3J0PSR7UEFORUxfUE9SVH0pIiA+PiAkREFJREFJX0RJUi9zZXJ2aWNlLmxvZwpleGl0IDAKQ09OVEFJTkVSX0VPRgpjaG1vZCAreCAiJFNUQVJUVVAiIDI+L2Rldi9udWxsCgpsb2cgIui/m+WFpSBBbHBpbmUg5a655Zmo5ZCv5YqoIGRhaWRhaS1zZXJ2ZXIgKHBhbmVsPSRQQU5FTF9QT1JULCBzc2g9JFNTSF9QT1JUKS4uLiIKCiIkUlVSSU1BIiBydXJpIC1wIC1OIC1TIC1BICRyb290ZnMgL2Jpbi9hc2ggL3RtcC9kYWlkYWktc3RhcnR1cC5zaAoKc2xlZXAgMgoKIyDlrrnlmajlhoXlkK/liqjlkI7nroDljZXpqozor4EKaWYgIiRSVVJJTUEiIHJ1cmkgLXAgLU4gLVMgLUEgJHJvb3RmcyAvYmluL2FzaCAtYyAicGdyZXAgLWYgL3Vzci9sb2NhbC9iaW4vZGFpZGFpLXNlcnZlciA+L2Rldi9udWxsIDI+JjEiOyB0aGVuCiAgbG9nICLpnaLmnb/lkK/liqjmiJDlip/vvIzorr/pl64gaHR0cDovLzEyNy4wLjAuMToke1BBTkVMX1BPUlR9IgplbHNlCiAgbG9nICIhISDpnaLmnb/lkK/liqjlpLHotKXvvIzmn6XnnIsgJHJvb3Rmcy9hcHAvRHVtYi1QYW5lbC9kYWlkYWkubG9nIgpmaQoKIyAtLS0tIOWQjuWPsOWumuaXtuW/q+eFpyBkZXBzIOebruW9leWIsOWuv+S4u+aMgeS5heWMluWtmOWCqCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQojIOWuueWZqCBvdmVybGF5ZnMg55qE5YaZ5YWl5bGC5Zyo6YeN5ZCv5ZCO5Y+v6IO95Lii5aSx77yM5Zug5q2k5q+P6ZqUIDEwIOWIhumSnwojIOWwhiBkZXBzIOebruW9leWQjOatpeWIsOWuv+S4uyAvZGF0YS9hZGIvZGFpZGFpLXBhbmVsL2RlcHMtc25hcHNob3Qv77yMCiMg5LiL5qyh5byA5py65pe2IHNlcnZpY2Uuc2gg5Lya6Ieq5Yqo5Zue5aGr5Yiw5a655Zmo5YaF44CCCigKICBERVBTX1BFUlNJU1Q9IiRQRVJTSVNUX0RJUi9kZXBzLXNuYXBzaG90IgogIERFUFNfQ09OVEFJTkVSPSIkcm9vdGZzL2FwcC9EdW1iLVBhbmVsL2RlcHMiCiAgd2hpbGUgdHJ1ZTsgZG8KICAgIHNsZWVwIDYwMAogICAgaWYgWyAtZCAiJERFUFNfQ09OVEFJTkVSIiBdICYmIFsgIiQobHMgLUEgIiRERVBTX0NPTlRBSU5FUiIgMj4vZGV2L251bGwpIiBdOyB0aGVuCiAgICAgIG1rZGlyIC1wICIkREVQU19QRVJTSVNUIgogICAgICByc3luYyAtYSAtLWRlbGV0ZSAiJERFUFNfQ09OVEFJTkVSLyIgIiRERVBTX1BFUlNJU1QvIiAyPi9kZXYvbnVsbCB8fCBcCiAgICAgICAgY3AgLXJmICIkREVQU19DT05UQUlORVIvLiIgIiRERVBTX1BFUlNJU1QvIiAyPi9kZXYvbnVsbAogICAgZmkKICBkb25lCikgJgo=
+#!/system/bin/sh
+##########################################################################
+# 呆呆面板 Magisk 模块 - late_start service
+#
+# 进入 Alpine 容器启动 daidai-server（端口可通过 ports.conf 配置）。
+# 前端静态资源由 daidai-server 直接托管，不再依赖 nginx。
+##########################################################################
+
+export PATH=/data/adb/ap/bin:/data/adb/ksu/bin:/data/adb/magisk:$PATH
+
+# rootfs 位置探测
+rootfs=/data/daidai
+if [ ! -d "$rootfs" ]; then
+  rootfs=/data/local/daidai
+fi
+
+# 模块目录探测
+MODDIR=${MODDIR:-/data/adb/modules/daidai-panel}
+[ ! -d "$MODDIR" ] && MODDIR=/data/adb/magisk/modules/daidai-panel
+[ ! -d "$MODDIR" ] && MODDIR=/sbin/.magisk/modules/daidai-panel
+[ ! -d "$MODDIR" ] && MODDIR=$(dirname "$0")
+RURIMA=$MODDIR/system/bin/rurima
+
+PERSIST_DIR=/data/adb/daidai-panel
+LOG_FILE="$PERSIST_DIR/service.log"
+PORTS_CONF="$PERSIST_DIR/ports.conf"
+
+mkdir -p "$PERSIST_DIR"
+
+log() {
+  echo "[$(date '+%Y-%m-%d %H:%M:%S')] $1" >> "$LOG_FILE" 2>/dev/null
+}
+
+# 日志滚动
+if [ -f "$LOG_FILE" ]; then
+  size=$(stat -c%s "$LOG_FILE" 2>/dev/null || echo 0)
+  [ "${size:-0}" -gt 2097152 ] && mv -f "$LOG_FILE" "$LOG_FILE.old" 2>/dev/null
+fi
+
+# ---- 端口配置（用户可编辑 ports.conf 自定义） ---------------------------
+# 第一次运行时若文件缺失，自动补一份默认值
+if [ ! -f "$PORTS_CONF" ]; then
+  cat > "$PORTS_CONF" << 'PCONF'
+# 呆呆面板端口配置 —— 修改后重启模块生效
+PANEL_PORT=5700
+SSH_PORT=22
+SSH_USER=root
+SSH_PASSWORD=123456
+PCONF
+fi
+
+PANEL_PORT=5700
+SSH_PORT=22
+SSH_USER=root
+SSH_PASSWORD=123456
+EXTRA_CORS_ORIGINS=""
+# shellcheck disable=SC1090
+. "$PORTS_CONF" 2>/dev/null || true
+
+# 合法性校验（必须是 1..65535 之间的整数）
+validate_port() {
+  case "$1" in
+    ''|*[!0-9]*) return 1 ;;
+  esac
+  [ "$1" -ge 1 ] && [ "$1" -le 65535 ]
+}
+if ! validate_port "$PANEL_PORT"; then
+  log "!! ports.conf 中 PANEL_PORT='$PANEL_PORT' 非法，回退为 5700"
+  PANEL_PORT=5700
+fi
+if ! validate_port "$SSH_PORT"; then
+  log "!! ports.conf 中 SSH_PORT='$SSH_PORT' 非法，回退为 22"
+  SSH_PORT=22
+fi
+
+log "========================================="
+log "呆呆面板模块启动 (MODDIR=$MODDIR, rootfs=$rootfs)"
+log "端口: PANEL_PORT=$PANEL_PORT (绑定 0.0.0.0), SSH_PORT=$SSH_PORT (来源: $PORTS_CONF)"
+log "SSH 凭据: 用户=$SSH_USER"
+if [ -n "$EXTRA_CORS_ORIGINS" ]; then
+  log "额外 CORS 来源: $EXTRA_CORS_ORIGINS"
+fi
+log "========================================="
+
+echo "noSuspend" > /sys/power/wake_lock 2>/dev/null
+dumpsys deviceidle disable 2>/dev/null || true
+
+# 等网络就绪（尽量，失败也不阻塞）
+for i in 1 2 3 4 5; do
+  if busybox nslookup m.baidu.com >/dev/null 2>&1; then
+    log "网络已就绪"
+    break
+  fi
+  sleep 5
+done
+
+if [ ! -f "$RURIMA" ]; then
+  log "!! 找不到 rurima 二进制: $RURIMA"
+  exit 1
+fi
+
+chmod +x "$RURIMA" 2>/dev/null
+
+if [ ! -d "$rootfs" ]; then
+  log "!! 找不到 rootfs: $rootfs，模块可能未完成安装，请重装"
+  exit 1
+fi
+
+# KernelSU 下 /data 可能以 ro 挂载，确保可写
+if [ -d "/data/adb/ksu" ]; then
+  mount -o remount,rw /data 2>/dev/null
+fi
+
+# 把最新的前端和 daidai-server 同步进容器
+mkdir -p $rootfs/app/web $rootfs/app/Dumb-Panel $rootfs/usr/local/bin
+cp -rf $MODDIR/web/* $rootfs/app/web/ 2>/dev/null
+cp -f  $MODDIR/system/bin/daidai-server $rootfs/usr/local/bin/daidai-server 2>/dev/null
+chmod 755 $rootfs/usr/local/bin/daidai-server 2>/dev/null
+
+# 恢复持久化的依赖目录（容器 overlayfs 重启后可能丢失写入层）
+DEPS_PERSIST="$PERSIST_DIR/deps-snapshot"
+if [ -d "$DEPS_PERSIST" ]; then
+  mkdir -p $rootfs/app/Dumb-Panel/deps
+  cp -rf "$DEPS_PERSIST/." $rootfs/app/Dumb-Panel/deps/ 2>/dev/null
+  log "已从持久化快照恢复 deps 目录"
+fi
+
+if [ -f $MODDIR/system/bin/ddp ]; then
+  cp -f  $MODDIR/system/bin/ddp $rootfs/usr/local/bin/ddp 2>/dev/null
+  chmod 755 $rootfs/usr/local/bin/ddp 2>/dev/null
+fi
+
+cp -f $MODDIR/module.prop $rootfs/app/module.prop 2>/dev/null
+
+# 把持久化的 ports.conf 同步进容器，容器启动脚本直接 source
+mkdir -p $rootfs/tmp
+cp -f "$PORTS_CONF" "$rootfs/tmp/ports.conf" 2>/dev/null
+
+# ---- 生成容器启动脚本（全字面 heredoc，变量由容器内 . /tmp/ports.conf 注入） ----
+STARTUP=$rootfs/tmp/daidai-startup.sh
+
+cat > "$STARTUP" << 'CONTAINER_EOF'
+#!/bin/ash
+# 默认值 + 用户 ports.conf 覆盖（同文件已由宿主 service.sh 校验过合法性）
+PANEL_PORT=5700
+SSH_PORT=22
+SSH_USER=root
+SSH_PASSWORD=123456
+EXTRA_CORS_ORIGINS=""
+[ -f /tmp/ports.conf ] && . /tmp/ports.conf
+
+export DAIDAI_DIR=/app/Dumb-Panel
+export LANG=C.UTF-8
+export HOME=/root
+export SHELL=/bin/bash
+export DAIDAI_MAGISK_MODULE=1
+export DAIDAI_ANDROID_RUNTIME_BIN_DIR=/data/adb/daidai-panel/bin
+export PATH=/data/adb/daidai-panel/bin/python/bin:/data/adb/daidai-panel/bin/node/bin:/data/adb/daidai-panel/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/app
+export NODE_PATH=/usr/local/lib/node_modules
+
+mkdir -p $DAIDAI_DIR/scripts $DAIDAI_DIR/logs $DAIDAI_DIR/deps/nodejs $DAIDAI_DIR/deps/python $DAIDAI_DIR/backups
+chmod 777 $DAIDAI_DIR
+
+# Python 虚拟环境（第一次进入时创建）
+# 模块版当前通常只有一个系统 python3，不保证真的同时有 3.10 / 3.11 / 3.12。
+# 这里必须用容器里真实 python3 小版本决定托管环境目录，不能再硬编码 3.12，
+# 否则当 Alpine 里的 python3 实际是 3.11 时，就会出现
+# “目录叫 3.12，但里面实际是 3.11 venv”，后端版本探测会直接判定 Python 3.12 不可用。
+PY_MINOR=""
+if command -v python3 >/dev/null 2>&1; then
+  PY_MINOR=$(python3 -c "import sys; print(f'{sys.version_info.major}.{sys.version_info.minor}')" 2>/dev/null || true)
+fi
+case "$PY_MINOR" in
+  3.10|3.11|3.12)
+    export DAIDAI_PYTHON_VERSION="$PY_MINOR"
+    if [ ! -d "$DAIDAI_DIR/deps/python/$PY_MINOR" ]; then
+      python3 -m venv "$DAIDAI_DIR/deps/python/$PY_MINOR" 2>/dev/null || true
+    fi
+    ;;
+esac
+
+# 按配置写入 config.yaml（每次启动都覆盖，保证端口与 ports.conf 一致）
+# 后端用 net.Listen(":PORT") 绑定 0.0.0.0，穿透/局域网直连均可；
+# CORS 列表只影响浏览器跨域检查，"同源请求"已由中间件自动放行。
+cat > $DAIDAI_DIR/config.yaml << YAML
+server:
+  port: ${PANEL_PORT}
+  mode: release
+  web_dir: /app/web
+
+database:
+  path: /app/Dumb-Panel/daidai.db
+
+jwt:
+  secret: ""
+  access_token_expire: 480h
+  refresh_token_expire: 1440h
+
+data:
+  dir: /app/Dumb-Panel
+  scripts_dir: /app/Dumb-Panel/scripts
+  log_dir: /app/Dumb-Panel/logs
+
+cors:
+  origins:
+    - http://localhost:${PANEL_PORT}
+    - http://127.0.0.1:${PANEL_PORT}
+YAML
+
+# 追加 EXTRA_CORS_ORIGINS（穿透 / 反代 / 公网域名场景显式放行）
+if [ -n "${EXTRA_CORS_ORIGINS}" ]; then
+  echo "${EXTRA_CORS_ORIGINS}" | tr ',;' '\n' | while IFS= read -r origin; do
+    # 去首尾空白
+    origin=$(echo "$origin" | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+    [ -z "$origin" ] && continue
+    echo "    - ${origin}" >> $DAIDAI_DIR/config.yaml
+  done
+fi
+
+# ---- SSH: 同步用户名/密码，按 SSH_PORT 更新 sshd_config 并启动 --------
+# 每次启动都同步密码，确保 ports.conf 改了密码后重启即生效
+if [ -n "${SSH_USER}" ] && [ -n "${SSH_PASSWORD}" ]; then
+  if [ "${SSH_USER}" != "root" ]; then
+    id "${SSH_USER}" >/dev/null 2>&1 || adduser -D -s /bin/bash "${SSH_USER}" 2>/dev/null
+  fi
+  echo "${SSH_USER}:${SSH_PASSWORD}" | chpasswd 2>/dev/null
+fi
+
+if [ -f /etc/ssh/sshd_config ]; then
+  # 清除已有 Port 行（包括注释的），再追加当前端口
+  sed -i -E '/^[#[:space:]]*Port[[:space:]]+/d' /etc/ssh/sshd_config
+  echo "Port ${SSH_PORT}" >> /etc/ssh/sshd_config
+  # 没有 host key 的话先生成一下
+  [ -f /etc/ssh/ssh_host_rsa_key ] || ssh-keygen -A >/dev/null 2>&1
+  # 启动 sshd（已在跑就跳过）
+  if ! pgrep -x sshd >/dev/null 2>&1; then
+    mkdir -p /run/sshd
+    /usr/sbin/sshd >/dev/null 2>&1 || true
+  fi
+fi
+
+# 避免重复拉起 daidai-server
+if pgrep -f /usr/local/bin/daidai-server >/dev/null 2>&1; then
+  echo "daidai-server 已在运行" >> $DAIDAI_DIR/service.log
+  exit 0
+fi
+
+cd $DAIDAI_DIR
+nohup /usr/local/bin/daidai-server > $DAIDAI_DIR/daidai.log 2>&1 &
+echo "daidai-server 已拉起 PID=$! (port=${PANEL_PORT})" >> $DAIDAI_DIR/service.log
+exit 0
+CONTAINER_EOF
+chmod +x "$STARTUP" 2>/dev/null
+
+log "进入 Alpine 容器启动 daidai-server (panel=$PANEL_PORT, ssh=$SSH_PORT)..."
+
+"$RURIMA" ruri -p -N -S -A $rootfs /bin/ash /tmp/daidai-startup.sh
+
+sleep 2
+
+# 容器内启动后简单验证
+if "$RURIMA" ruri -p -N -S -A $rootfs /bin/ash -c "pgrep -f /usr/local/bin/daidai-server >/dev/null 2>&1"; then
+  log "面板启动成功，访问 http://127.0.0.1:${PANEL_PORT}"
+else
+  log "!! 面板启动失败，查看 $rootfs/app/Dumb-Panel/daidai.log"
+fi
+
+# ---- 后台定时快照 deps 目录到宿主持久化存储 --------------------------------
+# 容器 overlayfs 的写入层在重启后可能丢失，因此每隔 10 分钟
+# 将 deps 目录同步到宿主 /data/adb/daidai-panel/deps-snapshot/，
+# 下次开机时 service.sh 会自动回填到容器内。
+(
+  DEPS_PERSIST="$PERSIST_DIR/deps-snapshot"
+  DEPS_CONTAINER="$rootfs/app/Dumb-Panel/deps"
+  while true; do
+    sleep 600
+    if [ -d "$DEPS_CONTAINER" ] && [ "$(ls -A "$DEPS_CONTAINER" 2>/dev/null)" ]; then
+      mkdir -p "$DEPS_PERSIST"
+      rsync -a --delete "$DEPS_CONTAINER/" "$DEPS_PERSIST/" 2>/dev/null || \
+        cp -rf "$DEPS_CONTAINER/." "$DEPS_PERSIST/" 2>/dev/null
+    fi
+  done
+) &

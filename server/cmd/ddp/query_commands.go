@@ -1,1 +1,269 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgKAoJImZtdCIKCSJzb3J0IgoJInN0cmNvbnYiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKZnVuYyBydW5UYXNrTGlzdChydCAqY2xpUnVudGltZSwgYXJncyBbXXN0cmluZykgZXJyb3IgewoJaWYgZXJyIDo9IHJ0LmJvb3RzdHJhcCgpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJc3RhdHVzRmlsdGVyIDo9ICIiCglrZXl3b3JkIDo9ICIiCglmb3IgaSA6PSAwOyBpIDwgbGVuKGFyZ3MpOyBpKysgewoJCXN3aXRjaCBhcmdzW2ldIHsKCQljYXNlICItLXN0YXR1cyI6CgkJCWlmIGkrMSA+PSBsZW4oYXJncykgewoJCQkJcmV0dXJuIGZtdC5FcnJvcmYoIi0tc3RhdHVzIOmcgOimgeWPguaVsCIpCgkJCX0KCQkJc3RhdHVzRmlsdGVyID0gc3RyaW5ncy5UcmltU3BhY2UoYXJnc1tpKzFdKQoJCQlpKysKCQljYXNlICItLWtleXdvcmQiOgoJCQlpZiBpKzEgPj0gbGVuKGFyZ3MpIHsKCQkJCXJldHVybiBmbXQuRXJyb3JmKCItLWtleXdvcmQg6ZyA6KaB5Y+C5pWwIikKCQkJfQoJCQlrZXl3b3JkID0gc3RyaW5ncy5UcmltU3BhY2UoYXJnc1tpKzFdKQoJCQlpKysKCQlkZWZhdWx0OgoJCQlyZXR1cm4gZm10LkVycm9yZigi5pyq55+l5Y+C5pWwOiAlcyIsIGFyZ3NbaV0pCgkJfQoJfQoKCXF1ZXJ5IDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNre30pCglpZiBrZXl3b3JkICE9ICIiIHsKCQlsaWtlIDo9ICIlIiArIGtleXdvcmQgKyAiJSIKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJuYW1lIExJS0UgPyBPUiBjb21tYW5kIExJS0UgPyIsIGxpa2UsIGxpa2UpCgl9CgoJdmFyIHRhc2tzIFtdbW9kZWwuVGFzawoJaWYgZXJyIDo9IHF1ZXJ5LkZpbmQoJnRhc2tzKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXNvcnQuU2xpY2VTdGFibGUodGFza3MsIGZ1bmMoaSwgaiBpbnQpIGJvb2wgewoJCWlmIHRhc2tzW2ldLklzUGlubmVkICE9IHRhc2tzW2pdLklzUGlubmVkIHsKCQkJcmV0dXJuIHRhc2tzW2ldLklzUGlubmVkCgkJfQoJCWlmIHRhc2tzW2ldLlNvcnRPcmRlciAhPSB0YXNrc1tqXS5Tb3J0T3JkZXIgewoJCQlyZXR1cm4gdGFza3NbaV0uU29ydE9yZGVyIDwgdGFza3Nbal0uU29ydE9yZGVyCgkJfQoJCXJldHVybiB0YXNrc1tpXS5DcmVhdGVkQXQuQWZ0ZXIodGFza3Nbal0uQ3JlYXRlZEF0KQoJfSkKCglwcmludGVkIDo9IDAKCWZvciBfLCB0YXNrIDo9IHJhbmdlIHRhc2tzIHsKCQlpZiBzdGF0dXNGaWx0ZXIgIT0gIiIgJiYgIXRhc2tTdGF0dXNNYXRjaGVzKHRhc2suU3RhdHVzLCBzdGF0dXNGaWx0ZXIpIHsKCQkJY29udGludWUKCQl9CgkJZm10LlByaW50ZigiWyVkXSAlcyAlc1xuIiwgdGFzay5JRCwgdGFza1N0YXR1c1RleHQodGFzay5TdGF0dXMpLCB0YXNrLk5hbWUpCgkJZm10LlByaW50ZigiICAgIGNvbW1hbmQ6ICVzXG4iLCB0cnVuY2F0ZVRleHQoc3RyaW5ncy5UcmltU3BhY2UodGFzay5Db21tYW5kKSwgMjAwKSkKCQlpZiBjcm9uIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHRhc2suQ3JvbkV4cHJlc3Npb24pOyBjcm9uICE9ICIiIHsKCQkJZm10LlByaW50ZigiICAgIGNyb246ICVzXG4iLCBjcm9uKQoJCX0KCQlwcmludGVkKysKCX0KCglpZiBwcmludGVkID09IDAgewoJCWZtdC5QcmludGxuKCLlvZPliY3msqHmnInljLnphY3nmoTku7vliqEiKQoJfQoJcmV0dXJuIG5pbAp9CgpmdW5jIHJ1blRhc2tMb2dzKHJ0ICpjbGlSdW50aW1lLCBhcmdzIFtdc3RyaW5nKSBlcnJvciB7CglpZiBlcnIgOj0gcnQuYm9vdHN0cmFwKCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCWlmIGxlbihhcmdzKSA9PSAwIHsKCQlyZXR1cm4gZm10LkVycm9yZigi55So5rOVOiBkZHAgdGFzayBsb2dzIDzku7vliqFJROaIluWQjeensD4gWy0tbGluZXMgTl0iKQoJfQoKCWxpbmVzIDo9IDEyMAoJaWRlbnRpZmllciA6PSAiIgoJZm9yIGkgOj0gMDsgaSA8IGxlbihhcmdzKTsgaSsrIHsKCQlzd2l0Y2ggYXJnc1tpXSB7CgkJY2FzZSAiLS1saW5lcyI6CgkJCWlmIGkrMSA+PSBsZW4oYXJncykgewoJCQkJcmV0dXJuIGZtdC5FcnJvcmYoIi0tbGluZXMg6ZyA6KaB5Y+C5pWwIikKCQkJfQoJCQlwYXJzZWQsIGVyciA6PSBzdHJjb252LkF0b2koYXJnc1tpKzFdKQoJCQlpZiBlcnIgIT0gbmlsIHx8IHBhcnNlZCA8PSAwIHsKCQkJCXJldHVybiBmbXQuRXJyb3JmKCLml6DmlYjnmoTml6Xlv5fooYzmlbA6ICVzIiwgYXJnc1tpKzFdKQoJCQl9CgkJCWxpbmVzID0gcGFyc2VkCgkJCWkrKwoJCWRlZmF1bHQ6CgkJCWlmIGlkZW50aWZpZXIgIT0gIiIgewoJCQkJcmV0dXJuIGZtdC5FcnJvcmYoIuWPquiDveaMh+WumuS4gOS4quS7u+WKoeagh+ivhiIpCgkJCX0KCQkJaWRlbnRpZmllciA9IGFyZ3NbaV0KCQl9Cgl9CglpZiBpZGVudGlmaWVyID09ICIiIHsKCQlyZXR1cm4gZm10LkVycm9yZigi57y65bCR5Lu75Yqh5qCH6K+GIikKCX0KCgl0YXNrLCBlcnIgOj0gZmluZFRhc2soaWRlbnRpZmllcikKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCgl2YXIgdGFza0xvZyBtb2RlbC5UYXNrTG9nCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuV2hlcmUoInRhc2tfaWQgPSA/IiwgdGFzay5JRCkuT3JkZXIoInN0YXJ0ZWRfYXQgREVTQyIpLkZpcnN0KCZ0YXNrTG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuS7u+WKoeaaguaXoOaJp+ihjOaXpeW/lyIpCgl9CgoJb3V0cHV0IDo9IGxhdGVzdFRhc2tMb2dPdXRwdXQodGFza0xvZykKCWlmIG91dHB1dCA9PSAiIiB7CgkJZm10LlByaW50bG4oIuivpeS7u+WKoeacgOi/keS4gOasoeaJp+ihjOayoeacieWPr+ivu+WPlueahOaXpeW/l+WGheWuuSIpCgkJcmV0dXJuIG5pbAoJfQoKCWZvciBfLCBsaW5lIDo9IHJhbmdlIHRhaWxMaW5lcyhvdXRwdXQsIGxpbmVzKSB7CgkJZm10LlByaW50bG4obGluZSkKCX0KCXJldHVybiBuaWwKfQoKZnVuYyBydW5TdWJzY3JpcHRpb25MaXN0KHJ0ICpjbGlSdW50aW1lLCBhcmdzIFtdc3RyaW5nKSBlcnJvciB7CglpZiBlcnIgOj0gcnQuYm9vdHN0cmFwKCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCglzdWJUeXBlIDo9ICIiCglrZXl3b3JkIDo9ICIiCglmb3IgaSA6PSAwOyBpIDwgbGVuKGFyZ3MpOyBpKysgewoJCXN3aXRjaCBhcmdzW2ldIHsKCQljYXNlICItLXR5cGUiOgoJCQlpZiBpKzEgPj0gbGVuKGFyZ3MpIHsKCQkJCXJldHVybiBmbXQuRXJyb3JmKCItLXR5cGUg6ZyA6KaB5Y+C5pWwIikKCQkJfQoJCQlzdWJUeXBlID0gc3RyaW5ncy5UcmltU3BhY2UoYXJnc1tpKzFdKQoJCQlpKysKCQljYXNlICItLWtleXdvcmQiOgoJCQlpZiBpKzEgPj0gbGVuKGFyZ3MpIHsKCQkJCXJldHVybiBmbXQuRXJyb3JmKCItLWtleXdvcmQg6ZyA6KaB5Y+C5pWwIikKCQkJfQoJCQlrZXl3b3JkID0gc3RyaW5ncy5UcmltU3BhY2UoYXJnc1tpKzFdKQoJCQlpKysKCQlkZWZhdWx0OgoJCQlyZXR1cm4gZm10LkVycm9yZigi5pyq55+l5Y+C5pWwOiAlcyIsIGFyZ3NbaV0pCgkJfQoJfQoKCXF1ZXJ5IDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5TdWJzY3JpcHRpb257fSkuT3JkZXIoImNyZWF0ZWRfYXQgREVTQyIpCglpZiBzdWJUeXBlICE9ICIiIHsKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJ0eXBlID0gPyIsIHN1YlR5cGUpCgl9CglpZiBrZXl3b3JkICE9ICIiIHsKCQlsaWtlIDo9ICIlIiArIGtleXdvcmQgKyAiJSIKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJuYW1lIExJS0UgPyBPUiB1cmwgTElLRSA/IiwgbGlrZSwgbGlrZSkKCX0KCgl2YXIgc3VicyBbXW1vZGVsLlN1YnNjcmlwdGlvbgoJaWYgZXJyIDo9IHF1ZXJ5LkZpbmQoJnN1YnMpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglpZiBsZW4oc3VicykgPT0gMCB7CgkJZm10LlByaW50bG4oIuW9k+WJjeayoeacieWMuemFjeeahOiuoumYhSIpCgkJcmV0dXJuIG5pbAoJfQoKCWZvciBfLCBzdWIgOj0gcmFuZ2Ugc3VicyB7CgkJbGFzdFB1bGxBdCA6PSAiLSIKCQlpZiBzdWIuTGFzdFB1bGxBdCAhPSBuaWwgewoJCQlsYXN0UHVsbEF0ID0gc3ViLkxhc3RQdWxsQXQuRm9ybWF0KCIyMDA2LTAxLTAyIDE1OjA0OjA1IikKCQl9CgkJZm10LlByaW50ZigiWyVkXSAlcyAlcyAoJXMpXG4iLCBzdWIuSUQsIGJvb2xMYWJlbChzdWIuRW5hYmxlZCwgIuWQr+eUqCIsICLnpoHnlKgiKSwgc3ViLk5hbWUsIHN1Yi5UeXBlKQoJCWZtdC5QcmludGYoIiAgICB1cmw6ICVzXG4iLCBzdWIuVVJMKQoJCWlmIHN0cmluZ3MuVHJpbVNwYWNlKHN1Yi5TY2hlZHVsZSkgIT0gIiIgewoJCQlmbXQuUHJpbnRmKCIgICAgc2NoZWR1bGU6ICVzXG4iLCBzdWIuU2NoZWR1bGUpCgkJfQoJCWZtdC5QcmludGYoIiAgICBsYXN0X3B1bGw6ICVzXG4iLCBsYXN0UHVsbEF0KQoJfQoJcmV0dXJuIG5pbAp9CgpmdW5jIHJ1blN1YnNjcmlwdGlvbkxvZ3MocnQgKmNsaVJ1bnRpbWUsIGFyZ3MgW11zdHJpbmcpIGVycm9yIHsKCWlmIGVyciA6PSBydC5ib290c3RyYXAoKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJaWYgbGVuKGFyZ3MpID09IDAgewoJCXJldHVybiBmbXQuRXJyb3JmKCLnlKjms5U6IGRkcCBzdWIgbG9ncyA86K6i6ZiFSUTmiJblkI3np7A+IFstLWxpbmVzIE5dIikKCX0KCglsaW5lcyA6PSAxMjAKCWlkZW50aWZpZXIgOj0gIiIKCWZvciBpIDo9IDA7IGkgPCBsZW4oYXJncyk7IGkrKyB7CgkJc3dpdGNoIGFyZ3NbaV0gewoJCWNhc2UgIi0tbGluZXMiOgoJCQlpZiBpKzEgPj0gbGVuKGFyZ3MpIHsKCQkJCXJldHVybiBmbXQuRXJyb3JmKCItLWxpbmVzIOmcgOimgeWPguaVsCIpCgkJCX0KCQkJcGFyc2VkLCBlcnIgOj0gc3RyY29udi5BdG9pKGFyZ3NbaSsxXSkKCQkJaWYgZXJyICE9IG5pbCB8fCBwYXJzZWQgPD0gMCB7CgkJCQlyZXR1cm4gZm10LkVycm9yZigi5peg5pWI55qE5pel5b+X6KGM5pWwOiAlcyIsIGFyZ3NbaSsxXSkKCQkJfQoJCQlsaW5lcyA9IHBhcnNlZAoJCQlpKysKCQlkZWZhdWx0OgoJCQlpZiBpZGVudGlmaWVyICE9ICIiIHsKCQkJCXJldHVybiBmbXQuRXJyb3JmKCLlj6rog73mjIflrprkuIDkuKrorqLpmIXmoIfor4YiKQoJCQl9CgkJCWlkZW50aWZpZXIgPSBhcmdzW2ldCgkJfQoJfQoJaWYgaWRlbnRpZmllciA9PSAiIiB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIue8uuWwkeiuoumYheagh+ivhiIpCgl9CgoJc3ViLCBlcnIgOj0gZmluZFN1YnNjcmlwdGlvbihpZGVudGlmaWVyKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXZhciBsb2dJdGVtIG1vZGVsLlN1YkxvZwoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJzdWJzY3JpcHRpb25faWQgPSA/Iiwgc3ViLklEKS5PcmRlcigiY3JlYXRlZF9hdCBERVNDIikuRmlyc3QoJmxvZ0l0ZW0pLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZm10LkVycm9yZigi6K6i6ZiF5pqC5peg5ouJ5Y+W5pel5b+XIikKCX0KCgljb250ZW50IDo9IHN0cmluZ3MuVHJpbVNwYWNlKGxvZ0l0ZW0uQ29udGVudCkKCWlmIGNvbnRlbnQgPT0gIiIgewoJCWZtdC5QcmludGxuKCLor6XorqLpmIXmnIDov5HkuIDmrKHmi4nlj5bmsqHmnInlj6/or7vlj5bnmoTml6Xlv5flhoXlrrkiKQoJCXJldHVybiBuaWwKCX0KCglmb3IgXywgbGluZSA6PSByYW5nZSB0YWlsTGluZXMoY29udGVudCwgbGluZXMpIHsKCQlmbXQuUHJpbnRsbihsaW5lKQoJfQoJcmV0dXJuIG5pbAp9CgpmdW5jIHRhaWxMaW5lcyh0ZXh0IHN0cmluZywgbGluZXMgaW50KSBbXXN0cmluZyB7CglwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0KHN0cmluZ3MuUmVwbGFjZUFsbChzdHJpbmdzLlRyaW1SaWdodCh0ZXh0LCAiXG4iKSwgIlxyXG4iLCAiXG4iKSwgIlxuIikKCWlmIGxpbmVzID4gMCAmJiBsZW4ocGFydHMpID4gbGluZXMgewoJCXBhcnRzID0gcGFydHNbbGVuKHBhcnRzKS1saW5lczpdCgl9CglyZXR1cm4gcGFydHMKfQoKZnVuYyB0YXNrU3RhdHVzTWF0Y2hlcyhzdGF0dXMgZmxvYXQ2NCwgcmF3IHN0cmluZykgYm9vbCB7Cglzd2l0Y2ggc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHJhdykpIHsKCWNhc2UgInJ1bm5pbmciLCAicnVuIjoKCQlyZXR1cm4gc3RhdHVzID09IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nCgljYXNlICJxdWV1ZWQiLCAicXVldWUiOgoJCXJldHVybiBzdGF0dXMgPT0gbW9kZWwuVGFza1N0YXR1c1F1ZXVlZAoJY2FzZSAiZGlzYWJsZWQiLCAiZGlzYWJsZSIsICJvZmYiOgoJCXJldHVybiBzdGF0dXMgPT0gbW9kZWwuVGFza1N0YXR1c0Rpc2FibGVkCgljYXNlICJlbmFibGVkIiwgImVuYWJsZSIsICJpZGxlIiwgInJlYWR5IjoKCQlyZXR1cm4gc3RhdHVzID09IG1vZGVsLlRhc2tTdGF0dXNFbmFibGVkCglkZWZhdWx0OgoJCXJldHVybiBmYWxzZQoJfQp9Cg==
+package main
+
+import (
+	"fmt"
+	"sort"
+	"strconv"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+)
+
+func runTaskList(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	statusFilter := ""
+	keyword := ""
+	for i := 0; i < len(args); i++ {
+		switch args[i] {
+		case "--status":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--status 需要参数")
+			}
+			statusFilter = strings.TrimSpace(args[i+1])
+			i++
+		case "--keyword":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--keyword 需要参数")
+			}
+			keyword = strings.TrimSpace(args[i+1])
+			i++
+		default:
+			return fmt.Errorf("未知参数: %s", args[i])
+		}
+	}
+
+	query := database.DB.Model(&model.Task{})
+	if keyword != "" {
+		like := "%" + keyword + "%"
+		query = query.Where("name LIKE ? OR command LIKE ?", like, like)
+	}
+
+	var tasks []model.Task
+	if err := query.Find(&tasks).Error; err != nil {
+		return err
+	}
+
+	sort.SliceStable(tasks, func(i, j int) bool {
+		if tasks[i].IsPinned != tasks[j].IsPinned {
+			return tasks[i].IsPinned
+		}
+		if tasks[i].SortOrder != tasks[j].SortOrder {
+			return tasks[i].SortOrder < tasks[j].SortOrder
+		}
+		return tasks[i].CreatedAt.After(tasks[j].CreatedAt)
+	})
+
+	printed := 0
+	for _, task := range tasks {
+		if statusFilter != "" && !taskStatusMatches(task.Status, statusFilter) {
+			continue
+		}
+		fmt.Printf("[%d] %s %s\n", task.ID, taskStatusText(task.Status), task.Name)
+		fmt.Printf("    command: %s\n", truncateText(strings.TrimSpace(task.Command), 200))
+		if cron := strings.TrimSpace(task.CronExpression); cron != "" {
+			fmt.Printf("    cron: %s\n", cron)
+		}
+		printed++
+	}
+
+	if printed == 0 {
+		fmt.Println("当前没有匹配的任务")
+	}
+	return nil
+}
+
+func runTaskLogs(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+	if len(args) == 0 {
+		return fmt.Errorf("用法: ddp task logs <任务ID或名称> [--lines N]")
+	}
+
+	lines := 120
+	identifier := ""
+	for i := 0; i < len(args); i++ {
+		switch args[i] {
+		case "--lines":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--lines 需要参数")
+			}
+			parsed, err := strconv.Atoi(args[i+1])
+			if err != nil || parsed <= 0 {
+				return fmt.Errorf("无效的日志行数: %s", args[i+1])
+			}
+			lines = parsed
+			i++
+		default:
+			if identifier != "" {
+				return fmt.Errorf("只能指定一个任务标识")
+			}
+			identifier = args[i]
+		}
+	}
+	if identifier == "" {
+		return fmt.Errorf("缺少任务标识")
+	}
+
+	task, err := findTask(identifier)
+	if err != nil {
+		return err
+	}
+
+	var taskLog model.TaskLog
+	if err := database.DB.Where("task_id = ?", task.ID).Order("started_at DESC").First(&taskLog).Error; err != nil {
+		return fmt.Errorf("任务暂无执行日志")
+	}
+
+	output := latestTaskLogOutput(taskLog)
+	if output == "" {
+		fmt.Println("该任务最近一次执行没有可读取的日志内容")
+		return nil
+	}
+
+	for _, line := range tailLines(output, lines) {
+		fmt.Println(line)
+	}
+	return nil
+}
+
+func runSubscriptionList(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	subType := ""
+	keyword := ""
+	for i := 0; i < len(args); i++ {
+		switch args[i] {
+		case "--type":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--type 需要参数")
+			}
+			subType = strings.TrimSpace(args[i+1])
+			i++
+		case "--keyword":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--keyword 需要参数")
+			}
+			keyword = strings.TrimSpace(args[i+1])
+			i++
+		default:
+			return fmt.Errorf("未知参数: %s", args[i])
+		}
+	}
+
+	query := database.DB.Model(&model.Subscription{}).Order("created_at DESC")
+	if subType != "" {
+		query = query.Where("type = ?", subType)
+	}
+	if keyword != "" {
+		like := "%" + keyword + "%"
+		query = query.Where("name LIKE ? OR url LIKE ?", like, like)
+	}
+
+	var subs []model.Subscription
+	if err := query.Find(&subs).Error; err != nil {
+		return err
+	}
+	if len(subs) == 0 {
+		fmt.Println("当前没有匹配的订阅")
+		return nil
+	}
+
+	for _, sub := range subs {
+		lastPullAt := "-"
+		if sub.LastPullAt != nil {
+			lastPullAt = sub.LastPullAt.Format("2006-01-02 15:04:05")
+		}
+		fmt.Printf("[%d] %s %s (%s)\n", sub.ID, boolLabel(sub.Enabled, "启用", "禁用"), sub.Name, sub.Type)
+		fmt.Printf("    url: %s\n", sub.URL)
+		if strings.TrimSpace(sub.Schedule) != "" {
+			fmt.Printf("    schedule: %s\n", sub.Schedule)
+		}
+		fmt.Printf("    last_pull: %s\n", lastPullAt)
+	}
+	return nil
+}
+
+func runSubscriptionLogs(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+	if len(args) == 0 {
+		return fmt.Errorf("用法: ddp sub logs <订阅ID或名称> [--lines N]")
+	}
+
+	lines := 120
+	identifier := ""
+	for i := 0; i < len(args); i++ {
+		switch args[i] {
+		case "--lines":
+			if i+1 >= len(args) {
+				return fmt.Errorf("--lines 需要参数")
+			}
+			parsed, err := strconv.Atoi(args[i+1])
+			if err != nil || parsed <= 0 {
+				return fmt.Errorf("无效的日志行数: %s", args[i+1])
+			}
+			lines = parsed
+			i++
+		default:
+			if identifier != "" {
+				return fmt.Errorf("只能指定一个订阅标识")
+			}
+			identifier = args[i]
+		}
+	}
+	if identifier == "" {
+		return fmt.Errorf("缺少订阅标识")
+	}
+
+	sub, err := findSubscription(identifier)
+	if err != nil {
+		return err
+	}
+
+	var logItem model.SubLog
+	if err := database.DB.Where("subscription_id = ?", sub.ID).Order("created_at DESC").First(&logItem).Error; err != nil {
+		return fmt.Errorf("订阅暂无拉取日志")
+	}
+
+	content := strings.TrimSpace(logItem.Content)
+	if content == "" {
+		fmt.Println("该订阅最近一次拉取没有可读取的日志内容")
+		return nil
+	}
+
+	for _, line := range tailLines(content, lines) {
+		fmt.Println(line)
+	}
+	return nil
+}
+
+func tailLines(text string, lines int) []string {
+	parts := strings.Split(strings.ReplaceAll(strings.TrimRight(text, "\n"), "\r\n", "\n"), "\n")
+	if lines > 0 && len(parts) > lines {
+		parts = parts[len(parts)-lines:]
+	}
+	return parts
+}
+
+func taskStatusMatches(status float64, raw string) bool {
+	switch strings.ToLower(strings.TrimSpace(raw)) {
+	case "running", "run":
+		return status == model.TaskStatusRunning
+	case "queued", "queue":
+		return status == model.TaskStatusQueued
+	case "disabled", "disable", "off":
+		return status == model.TaskStatusDisabled
+	case "enabled", "enable", "idle", "ready":
+		return status == model.TaskStatusEnabled
+	default:
+		return false
+	}
+}

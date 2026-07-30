@@ -1,1 +1,111 @@
-cGFja2FnZSByb3V0ZXIKCmltcG9ydCAoCgkiZGFpZGFpLXBhbmVsL2hhbmRsZXIiCgkiZGFpZGFpLXBhbmVsL21pZGRsZXdhcmUiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKZnVuYyBTZXR1cChlbmdpbmUgKmdpbi5FbmdpbmUpIHsKCWVuZ2luZS5Vc2UobWlkZGxld2FyZS5DT1JTKCkpCgllbmdpbmUuVXNlKG1pZGRsZXdhcmUuU2VjdXJpdHlIZWFkZXJzKCkpCgoJdjEgOj0gZW5naW5lLkdyb3VwKCIvYXBpL3YxIikKCWxlZ2FjeSA6PSBlbmdpbmUuR3JvdXAoIi9hcGkiKQoKCWF1dGhIYW5kbGVyIDo9IGhhbmRsZXIuTmV3QXV0aEhhbmRsZXIoKQoJdGFza0hhbmRsZXIgOj0gaGFuZGxlci5OZXdUYXNrSGFuZGxlcigpCglsb2dIYW5kbGVyIDo9IGhhbmRsZXIuTmV3TG9nSGFuZGxlcigpCglzY3JpcHRIYW5kbGVyIDo9IGhhbmRsZXIuTmV3U2NyaXB0SGFuZGxlcigpCgllbnZIYW5kbGVyIDo9IGhhbmRsZXIuTmV3RW52SGFuZGxlcigpCglzdWJIYW5kbGVyIDo9IGhhbmRsZXIuTmV3U3Vic2NyaXB0aW9uSGFuZGxlcigpCglub3RpZnlIYW5kbGVyIDo9IGhhbmRsZXIuTmV3Tm90aWZpY2F0aW9uSGFuZGxlcigpCglzc2hLZXlIYW5kbGVyIDo9IGhhbmRsZXIuTmV3U1NIS2V5SGFuZGxlcigpCgl1c2VySGFuZGxlciA6PSBoYW5kbGVyLk5ld1VzZXJIYW5kbGVyKCkKCXNlY3VyaXR5SGFuZGxlciA6PSBoYW5kbGVyLk5ld1NlY3VyaXR5SGFuZGxlcigpCglzeXN0ZW1IYW5kbGVyIDo9IGhhbmRsZXIuTmV3U3lzdGVtSGFuZGxlcigpCglvcGVuQVBJSGFuZGxlciA6PSBoYW5kbGVyLk5ld09wZW5BUElIYW5kbGVyKCkKCWRlcHNIYW5kbGVyIDo9IGhhbmRsZXIuTmV3RGVwc0hhbmRsZXIoKQoJY29uZmlnSGFuZGxlciA6PSBoYW5kbGVyLk5ld0NvbmZpZ0hhbmRsZXIoKQoJcGxhdGZvcm1Ub2tlbkhhbmRsZXIgOj0gaGFuZGxlci5OZXdQbGF0Zm9ybVRva2VuSGFuZGxlcigpCglzcG9uc29ySGFuZGxlciA6PSBoYW5kbGVyLk5ld1Nwb25zb3JIYW5kbGVyKCkKCWFuZHJvaWRSdW50aW1lSGFuZGxlciA6PSBoYW5kbGVyLk5ld0FuZHJvaWRSdW50aW1lSGFuZGxlcigpCgoJYXV0aEhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCglhdXRoSGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJdGFza0hhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCgl0YXNrSGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJbG9nSGFuZGxlci5SZWdpc3RlclJvdXRlcyh2MSkKCWxvZ0hhbmRsZXIuUmVnaXN0ZXJSb3V0ZXMobGVnYWN5KQoKCXNjcmlwdEhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCglzY3JpcHRIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKGxlZ2FjeSkKCgllbnZIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKHYxKQoJZW52SGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJc3ViSGFuZGxlci5SZWdpc3RlclJvdXRlcyh2MSkKCXN1YkhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXMobGVnYWN5KQoKCW5vdGlmeUhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCglub3RpZnlIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKGxlZ2FjeSkKCglzc2hLZXlIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKHYxKQoJc3NoS2V5SGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJdXNlckhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCgl1c2VySGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJc2VjdXJpdHlIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKHYxKQoJc2VjdXJpdHlIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKGxlZ2FjeSkKCglzeXN0ZW1IYW5kbGVyLlJlZ2lzdGVyUm91dGVzKHYxKQoJc3lzdGVtSGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJb3BlbkFQSUhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCglvcGVuQVBJSGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJZGVwc0hhbmRsZXIuUmVnaXN0ZXJSb3V0ZXModjEpCglkZXBzSGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJY29uZmlnSGFuZGxlci5SZWdpc3RlclJvdXRlcyh2MSkKCWNvbmZpZ0hhbmRsZXIuUmVnaXN0ZXJSb3V0ZXMobGVnYWN5KQoKCXBsYXRmb3JtVG9rZW5IYW5kbGVyLlJlZ2lzdGVyUm91dGVzKHYxKQoJcGxhdGZvcm1Ub2tlbkhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXMobGVnYWN5KQoKCXNwb25zb3JIYW5kbGVyLlJlZ2lzdGVyUm91dGVzKHYxKQoJc3BvbnNvckhhbmRsZXIuUmVnaXN0ZXJSb3V0ZXMobGVnYWN5KQoKCWFuZHJvaWRSdW50aW1lSGFuZGxlci5SZWdpc3RlclJvdXRlcyh2MSkKCWFuZHJvaWRSdW50aW1lSGFuZGxlci5SZWdpc3RlclJvdXRlcyhsZWdhY3kpCgoJZW5naW5lLkdFVCgiL3JvYm90cy50eHQiLCBmdW5jKGMgKmdpbi5Db250ZXh0KSB7CgkJYy5EYXRhKDIwMCwgInRleHQvcGxhaW47IGNoYXJzZXQ9dXRmLTgiLCBbXWJ5dGUoIlVzZXItYWdlbnQ6ICpcbkRpc2FsbG93OiAvXG4iKSkKCX0pCgoJZW5naW5lLkdFVCgiL2FwaS92MS92ZXJzaW9uIiwgZnVuYyhjICpnaW4uQ29udGV4dCkgewoJCWMuSlNPTigyMDAsIGdpbi5IewoJCQkidmVyc2lvbiI6ICAgICBoYW5kbGVyLlZlcnNpb24sCgkJCSJhcGlfdmVyc2lvbiI6ICJ2MSIsCgkJCSJmcmFtZXdvcmsiOiAgICJnaW4iLAoJCX0pCgl9KQoJZW5naW5lLkdFVCgiL2FwaS92MS9oZWFsdGgiLCBmdW5jKGMgKmdpbi5Db250ZXh0KSB7CgkJYy5KU09OKDIwMCwgZ2luLkh7InN0YXR1cyI6ICJvayJ9KQoJfSkKCgllbmdpbmUuR0VUKCIvYXBpL3ZlcnNpb24iLCBmdW5jKGMgKmdpbi5Db250ZXh0KSB7CgkJYy5KU09OKDIwMCwgZ2luLkh7CgkJCSJ2ZXJzaW9uIjogICAgIGhhbmRsZXIuVmVyc2lvbiwKCQkJImFwaV92ZXJzaW9uIjogInYxIiwKCQkJImZyYW1ld29yayI6ICAgImdpbiIsCgkJfSkKCX0pCgllbmdpbmUuR0VUKCIvYXBpL2hlYWx0aCIsIGZ1bmMoYyAqZ2luLkNvbnRleHQpIHsKCQljLkpTT04oMjAwLCBnaW4uSHsic3RhdHVzIjogIm9rIn0pCgl9KQp9Cg==
+package router
+
+import (
+	"daidai-panel/handler"
+	"daidai-panel/middleware"
+
+	"github.com/gin-gonic/gin"
+)
+
+func Setup(engine *gin.Engine) {
+	engine.Use(middleware.CORS())
+	engine.Use(middleware.SecurityHeaders())
+
+	v1 := engine.Group("/api/v1")
+	legacy := engine.Group("/api")
+
+	authHandler := handler.NewAuthHandler()
+	taskHandler := handler.NewTaskHandler()
+	logHandler := handler.NewLogHandler()
+	scriptHandler := handler.NewScriptHandler()
+	envHandler := handler.NewEnvHandler()
+	subHandler := handler.NewSubscriptionHandler()
+	notifyHandler := handler.NewNotificationHandler()
+	sshKeyHandler := handler.NewSSHKeyHandler()
+	userHandler := handler.NewUserHandler()
+	securityHandler := handler.NewSecurityHandler()
+	systemHandler := handler.NewSystemHandler()
+	openAPIHandler := handler.NewOpenAPIHandler()
+	depsHandler := handler.NewDepsHandler()
+	configHandler := handler.NewConfigHandler()
+	platformTokenHandler := handler.NewPlatformTokenHandler()
+	sponsorHandler := handler.NewSponsorHandler()
+	androidRuntimeHandler := handler.NewAndroidRuntimeHandler()
+
+	authHandler.RegisterRoutes(v1)
+	authHandler.RegisterRoutes(legacy)
+
+	taskHandler.RegisterRoutes(v1)
+	taskHandler.RegisterRoutes(legacy)
+
+	logHandler.RegisterRoutes(v1)
+	logHandler.RegisterRoutes(legacy)
+
+	scriptHandler.RegisterRoutes(v1)
+	scriptHandler.RegisterRoutes(legacy)
+
+	envHandler.RegisterRoutes(v1)
+	envHandler.RegisterRoutes(legacy)
+
+	subHandler.RegisterRoutes(v1)
+	subHandler.RegisterRoutes(legacy)
+
+	notifyHandler.RegisterRoutes(v1)
+	notifyHandler.RegisterRoutes(legacy)
+
+	sshKeyHandler.RegisterRoutes(v1)
+	sshKeyHandler.RegisterRoutes(legacy)
+
+	userHandler.RegisterRoutes(v1)
+	userHandler.RegisterRoutes(legacy)
+
+	securityHandler.RegisterRoutes(v1)
+	securityHandler.RegisterRoutes(legacy)
+
+	systemHandler.RegisterRoutes(v1)
+	systemHandler.RegisterRoutes(legacy)
+
+	openAPIHandler.RegisterRoutes(v1)
+	openAPIHandler.RegisterRoutes(legacy)
+
+	depsHandler.RegisterRoutes(v1)
+	depsHandler.RegisterRoutes(legacy)
+
+	configHandler.RegisterRoutes(v1)
+	configHandler.RegisterRoutes(legacy)
+
+	platformTokenHandler.RegisterRoutes(v1)
+	platformTokenHandler.RegisterRoutes(legacy)
+
+	sponsorHandler.RegisterRoutes(v1)
+	sponsorHandler.RegisterRoutes(legacy)
+
+	androidRuntimeHandler.RegisterRoutes(v1)
+	androidRuntimeHandler.RegisterRoutes(legacy)
+
+	engine.GET("/robots.txt", func(c *gin.Context) {
+		c.Data(200, "text/plain; charset=utf-8", []byte("User-agent: *\nDisallow: /\n"))
+	})
+
+	engine.GET("/api/v1/version", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"version":     handler.Version,
+			"api_version": "v1",
+			"framework":   "gin",
+		})
+	})
+	engine.GET("/api/v1/health", func(c *gin.Context) {
+		c.JSON(200, gin.H{"status": "ok"})
+	})
+
+	engine.GET("/api/version", func(c *gin.Context) {
+		c.JSON(200, gin.H{
+			"version":     handler.Version,
+			"api_version": "v1",
+			"framework":   "gin",
+		})
+	})
+	engine.GET("/api/health", func(c *gin.Context) {
+		c.JSON(200, gin.H{"status": "ok"})
+	})
+}

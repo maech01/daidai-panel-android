@@ -1,1 +1,4 @@
-ZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNyZWF0ZVFyQ29kZURhdGFVcmwodGV4dDogc3RyaW5nLCB3aWR0aCA9IDIyMCkgewogIGNvbnN0IHsgdG9EYXRhVVJMIH0gPSBhd2FpdCBpbXBvcnQoJ3FyY29kZScpCiAgcmV0dXJuIHRvRGF0YVVSTCh0ZXh0LCB7IHdpZHRoLCBtYXJnaW46IDIgfSkKfQo=
+export async function createQrCodeDataUrl(text: string, width = 220) {
+  const { toDataURL } = await import('qrcode')
+  return toDataURL(text, { width, margin: 2 })
+}

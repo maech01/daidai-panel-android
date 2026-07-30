@@ -1,1 +1,102 @@
-cGFja2FnZSBuZXR1dGlsCgppbXBvcnQgKAoJImZtdCIKCSJuZXQiCgkic3RyaW5ncyIKCSJ1bmljb2RlIgopCgp2YXIgZGVmYXVsdFRydXN0ZWRQcm94eUNJRFJzID0gW11zdHJpbmd7CgkiMTI3LjAuMC4xLzMyIiwKCSI6OjEvMTI4IiwKCSIxMC4wLjAuMC84IiwKCSIxNzIuMTYuMC4wLzEyIiwKCSIxOTIuMTY4LjAuMC8xNiIsCn0KCmZ1bmMgRGVmYXVsdFRydXN0ZWRQcm94eUNJRFJzKCkgW11zdHJpbmcgewoJcmVzdWx0IDo9IG1ha2UoW11zdHJpbmcsIGxlbihkZWZhdWx0VHJ1c3RlZFByb3h5Q0lEUnMpKQoJY29weShyZXN1bHQsIGRlZmF1bHRUcnVzdGVkUHJveHlDSURScykKCXJldHVybiByZXN1bHQKfQoKZnVuYyBOb3JtYWxpemVUcnVzdGVkUHJveHlDSURScyh2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CgljaWRycywgZXJyIDo9IFBhcnNlVHJ1c3RlZFByb3h5Q0lEUnModmFsdWUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoJcmV0dXJuIHN0cmluZ3MuSm9pbihjaWRycywgIlxuIiksIG5pbAp9CgpmdW5jIFBhcnNlVHJ1c3RlZFByb3h5Q0lEUnModmFsdWUgc3RyaW5nKSAoW11zdHJpbmcsIGVycm9yKSB7CglwYXJ0cyA6PSBzcGxpdFRydXN0ZWRQcm94eUNJRFJzKHZhbHVlKQoJaWYgbGVuKHBhcnRzKSA9PSAwIHsKCQlyZXR1cm4gRGVmYXVsdFRydXN0ZWRQcm94eUNJRFJzKCksIG5pbAoJfQoKCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4ocGFydHMpKQoJc2VlbiA6PSBtYWtlKG1hcFtzdHJpbmddc3RydWN0e30sIGxlbihwYXJ0cykpCglmb3IgXywgcGFydCA6PSByYW5nZSBwYXJ0cyB7CgkJY2Fub25pY2FsLCBlcnIgOj0gbm9ybWFsaXplVHJ1c3RlZFByb3h5VG9rZW4ocGFydCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgZm10LkVycm9yZigi5Y+v5L+h5Luj55CGIENJRFIvSVAgJXEg5peg5pWIIiwgcGFydCkKCQl9CgkJaWYgXywgZXhpc3RzIDo9IHNlZW5bY2Fub25pY2FsXTsgZXhpc3RzIHsKCQkJY29udGludWUKCQl9CgkJc2VlbltjYW5vbmljYWxdID0gc3RydWN0e317fQoJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIGNhbm9uaWNhbCkKCX0KCglyZXR1cm4gcmVzdWx0LCBuaWwKfQoKZnVuYyBQYXJzZVRydXN0ZWRQcm94eU5ldHdvcmtzKHZhbHVlIHN0cmluZykgKFtdKm5ldC5JUE5ldCwgZXJyb3IpIHsKCWNpZHJzLCBlcnIgOj0gUGFyc2VUcnVzdGVkUHJveHlDSURScyh2YWx1ZSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCXJlc3VsdCA6PSBtYWtlKFtdKm5ldC5JUE5ldCwgMCwgbGVuKGNpZHJzKSkKCWZvciBfLCBjaWRyIDo9IHJhbmdlIGNpZHJzIHsKCQlfLCBuZXR3b3JrLCBlcnIgOj0gbmV0LlBhcnNlQ0lEUihjaWRyKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gbmlsLCBlcnIKCQl9CgkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgbmV0d29yaykKCX0KCglyZXR1cm4gcmVzdWx0LCBuaWwKfQoKZnVuYyBzcGxpdFRydXN0ZWRQcm94eUNJRFJzKHZhbHVlIHN0cmluZykgW11zdHJpbmcgewoJcmV0dXJuIHN0cmluZ3MuRmllbGRzRnVuYyh2YWx1ZSwgZnVuYyhyIHJ1bmUpIGJvb2wgewoJCXJldHVybiB1bmljb2RlLklzU3BhY2UocikgfHwgciA9PSAnLCcgfHwgciA9PSAnOycKCX0pCn0KCmZ1bmMgbm9ybWFsaXplVHJ1c3RlZFByb3h5VG9rZW4odmFsdWUgc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJdmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZSh2YWx1ZSkKCWlmIHZhbHVlID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoImVtcHR5IHRydXN0ZWQgcHJveHkiKQoJfQoKCWlmIHN0cmluZ3MuQ29udGFpbnModmFsdWUsICIvIikgewoJCV8sIG5ldHdvcmssIGVyciA6PSBuZXQuUGFyc2VDSURSKHZhbHVlKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gIiIsIGVycgoJCX0KCQlyZXR1cm4gbmV0d29yay5TdHJpbmcoKSwgbmlsCgl9CgoJaXAgOj0gbmV0LlBhcnNlSVAodmFsdWUpCglpZiBpcCA9PSBuaWwgewoJCXJldHVybiAiIiwgZm10LkVycm9yZigiaW52YWxpZCBJUCIpCgl9CgoJaWYgdjQgOj0gaXAuVG80KCk7IHY0ICE9IG5pbCB7CgkJcmV0dXJuIHY0LlN0cmluZygpICsgIi8zMiIsIG5pbAoJfQoJcmV0dXJuIGlwLlN0cmluZygpICsgIi8xMjgiLCBuaWwKfQo=
+package netutil
+
+import (
+	"fmt"
+	"net"
+	"strings"
+	"unicode"
+)
+
+var defaultTrustedProxyCIDRs = []string{
+	"127.0.0.1/32",
+	"::1/128",
+	"10.0.0.0/8",
+	"172.16.0.0/12",
+	"192.168.0.0/16",
+}
+
+func DefaultTrustedProxyCIDRs() []string {
+	result := make([]string, len(defaultTrustedProxyCIDRs))
+	copy(result, defaultTrustedProxyCIDRs)
+	return result
+}
+
+func NormalizeTrustedProxyCIDRs(value string) (string, error) {
+	cidrs, err := ParseTrustedProxyCIDRs(value)
+	if err != nil {
+		return "", err
+	}
+	return strings.Join(cidrs, "\n"), nil
+}
+
+func ParseTrustedProxyCIDRs(value string) ([]string, error) {
+	parts := splitTrustedProxyCIDRs(value)
+	if len(parts) == 0 {
+		return DefaultTrustedProxyCIDRs(), nil
+	}
+
+	result := make([]string, 0, len(parts))
+	seen := make(map[string]struct{}, len(parts))
+	for _, part := range parts {
+		canonical, err := normalizeTrustedProxyToken(part)
+		if err != nil {
+			return nil, fmt.Errorf("可信代理 CIDR/IP %q 无效", part)
+		}
+		if _, exists := seen[canonical]; exists {
+			continue
+		}
+		seen[canonical] = struct{}{}
+		result = append(result, canonical)
+	}
+
+	return result, nil
+}
+
+func ParseTrustedProxyNetworks(value string) ([]*net.IPNet, error) {
+	cidrs, err := ParseTrustedProxyCIDRs(value)
+	if err != nil {
+		return nil, err
+	}
+
+	result := make([]*net.IPNet, 0, len(cidrs))
+	for _, cidr := range cidrs {
+		_, network, err := net.ParseCIDR(cidr)
+		if err != nil {
+			return nil, err
+		}
+		result = append(result, network)
+	}
+
+	return result, nil
+}
+
+func splitTrustedProxyCIDRs(value string) []string {
+	return strings.FieldsFunc(value, func(r rune) bool {
+		return unicode.IsSpace(r) || r == ',' || r == ';'
+	})
+}
+
+func normalizeTrustedProxyToken(value string) (string, error) {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return "", fmt.Errorf("empty trusted proxy")
+	}
+
+	if strings.Contains(value, "/") {
+		_, network, err := net.ParseCIDR(value)
+		if err != nil {
+			return "", err
+		}
+		return network.String(), nil
+	}
+
+	ip := net.ParseIP(value)
+	if ip == nil {
+		return "", fmt.Errorf("invalid IP")
+	}
+
+	if v4 := ip.To4(); v4 != nil {
+		return v4.String() + "/32", nil
+	}
+	return ip.String() + "/128", nil
+}

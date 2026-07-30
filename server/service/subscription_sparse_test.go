@@ -1,1 +1,125 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNvbnRleHQiCgkib3MiCgkicGF0aC9maWxlcGF0aCIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdFB1bGxHaXRSZXBvV2l0aENhbGxiYWNrU3ViUGF0aERvZXNOb3RDaGVja291dFJlcG9Sb290RmlsZXModCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXJlbW90ZURpciA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJyZW1vdGUuZ2l0IikKCXdvcmt0cmVlRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgIndvcmt0cmVlIikKCXJ1bkdpdCh0LCByb290LCAiaW5pdCIsICItLWJhcmUiLCByZW1vdGVEaXIpCglydW5HaXQodCwgcm9vdCwgImNsb25lIiwgcmVtb3RlRGlyLCB3b3JrdHJlZURpcikKCgkvLyDmqKHmi5/nlKjmiLfku5PlupPvvJrmoLnnm67lvZXlkozlhbbku5bnm67lvZXpg73mnInmlofku7bvvIzkvYborqLpmIXlj6rmg7PopoEgc2NyaXB0cy9kYWlseeOAggoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGZpbGVwYXRoLkpvaW4od29ya3RyZWVEaXIsICJzY3JpcHRzIiwgImRhaWx5IiksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBkYWlseSBkaXI6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGZpbGVwYXRoLkpvaW4od29ya3RyZWVEaXIsICJzY3JpcHRzIiwgIm90aGVyIiksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBvdGhlciBkaXI6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHdvcmt0cmVlRGlyLCAicm9vdC5qcyIpLCBbXWJ5dGUoImNvbnNvbGUubG9nKCdyb290JylcbiIpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSByb290IGZpbGU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHdvcmt0cmVlRGlyLCAic2NyaXB0cyIsICJkYWlseSIsICJrZWVwLmpzIiksIFtdYnl0ZSgiY29uc29sZS5sb2coJ2tlZXAnKVxuIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGtlZXAgZmlsZTogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4od29ya3RyZWVEaXIsICJzY3JpcHRzIiwgIm90aGVyIiwgInNraXAuanMiKSwgW11ieXRlKCJjb25zb2xlLmxvZygnc2tpcCcpXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgc2tpcCBmaWxlOiAldiIsIGVycikKCX0KCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgImFkZCIsICIuIikKCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgIi1jIiwgInVzZXIubmFtZT1UZXN0IFVzZXIiLCAiLWMiLCAidXNlci5lbWFpbD10ZXN0QGV4YW1wbGUuY29tIiwgImNvbW1pdCIsICItbSIsICJpbml0IikKCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgInB1c2giLCAib3JpZ2luIiwgIkhFQUQ6bWFpbiIpCgoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJTmFtZTogICAgImRhaWx5LXN1YiIsCgkJVHlwZTogICAgbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAgICAgcmVtb3RlRGlyLAoJCUJyYW5jaDogICJtYWluIiwKCQlTYXZlRGlyOiAiZGFpbHktcmVwbyIsCgkJU3ViUGF0aDogInNjcmlwdHMvZGFpbHkiLAoJfQoJYXV0aENmZywgZXJyIDo9IGJ1aWxkR2l0QXV0aENvbmZpZyhvcy5FbnZpcm9uKCksIHN1Yi5VUkwsIHN1YiwgIiIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiYnVpbGQgZ2l0IGF1dGggY29uZmlnOiAldiIsIGVycikKCX0KCglvdXRwdXQsIGVyciA6PSBwdWxsR2l0UmVwb1dpdGhDYWxsYmFjayhjb250ZXh0LkJhY2tncm91bmQoKSwgc3ViLCBhdXRoQ2ZnLCBmdW5jKHN0cmluZykge30pCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicHVsbCBzdWIgcGF0aCByZXBvOiAldlxuJXMiLCBlcnIsIG91dHB1dCkKCX0KCglkZXN0RGlyIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBzdWIuU2F2ZURpcikKCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oZGVzdERpciwgInNjcmlwdHMiLCAiZGFpbHkiLCAia2VlcC5qcyIpKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN1Yl9wYXRoIGZpbGUgdG8gZXhpc3Q6ICV2IiwgZXJyKQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoZmlsZXBhdGguSm9pbihkZXN0RGlyLCAicm9vdC5qcyIpKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoInJvb3QgZmlsZSBzaG91bGQgbm90IGJlIGNoZWNrZWQgb3V0IHdoZW4gc3ViX3BhdGggaXMgc2V0LCBzdGF0IGVycj0ldiIsIGVycikKCX0KCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oZGVzdERpciwgInNjcmlwdHMiLCAib3RoZXIiLCAic2tpcC5qcyIpKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoIm90aGVyIGRpcmVjdG9yeSBmaWxlIHNob3VsZCBub3QgYmUgY2hlY2tlZCBvdXQgd2hlbiBzdWJfcGF0aCBpcyBzZXQsIHN0YXQgZXJyPSV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RQdWxsR2l0UmVwb1dpdGhDYWxsYmFja1doaXRlbGlzdExpbWl0c0NoZWNrZWRPdXRGaWxlcyh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJcmVtb3RlRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInJlbW90ZS5naXQiKQoJd29ya3RyZWVEaXIgOj0gZmlsZXBhdGguSm9pbihyb290LCAid29ya3RyZWUiKQoJcnVuR2l0KHQsIHJvb3QsICJpbml0IiwgIi0tYmFyZSIsIHJlbW90ZURpcikKCXJ1bkdpdCh0LCByb290LCAiY2xvbmUiLCByZW1vdGVEaXIsIHdvcmt0cmVlRGlyKQoKCS8vIOeZveWQjeWNleWOn+acrOWPquW9seWTjeS7u+WKoeaJq+aPj++8jOi/memHjOmqjOivgeWug+S5n+S8mumZkOWItuecn+WunuiQveebmOaWh+S7tu+8jOmBv+WFjeWkp+S7k+W6k+WFqOmDqOiQveWIsCBzY3JpcHRz44CCCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguSm9pbih3b3JrdHJlZURpciwgInNjcmlwdHMiKSwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHNjcmlwdHMgZGlyOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbih3b3JrdHJlZURpciwgInNjcmlwdHMiLCAia2VlcF90YXNrLmpzIiksIFtdYnl0ZSgiY29uc29sZS5sb2coJ2tlZXAnKVxuIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGtlZXAgZmlsZTogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4od29ya3RyZWVEaXIsICJzY3JpcHRzIiwgInNraXBfdGFzay5qcyIpLCBbXWJ5dGUoImNvbnNvbGUubG9nKCdza2lwJylcbiIpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBza2lwIGZpbGU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHdvcmt0cmVlRGlyLCAiUkVBRE1FLm1kIiksIFtdYnl0ZSgicmVhZG1lXG4iKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgcmVhZG1lOiAldiIsIGVycikKCX0KCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgImFkZCIsICIuIikKCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgIi1jIiwgInVzZXIubmFtZT1UZXN0IFVzZXIiLCAiLWMiLCAidXNlci5lbWFpbD10ZXN0QGV4YW1wbGUuY29tIiwgImNvbW1pdCIsICItbSIsICJpbml0IikKCXJ1bkdpdCh0LCB3b3JrdHJlZURpciwgInB1c2giLCAib3JpZ2luIiwgIkhFQUQ6bWFpbiIpCgoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJTmFtZTogICAgICAid2hpdGVsaXN0LXN1YiIsCgkJVHlwZTogICAgICBtb2RlbC5TdWJUeXBlR2l0UmVwbywKCQlVUkw6ICAgICAgIHJlbW90ZURpciwKCQlCcmFuY2g6ICAgICJtYWluIiwKCQlTYXZlRGlyOiAgICJ3aGl0ZWxpc3QtcmVwbyIsCgkJV2hpdGVsaXN0OiAia2VlcF90YXNrIiwKCX0KCWF1dGhDZmcsIGVyciA6PSBidWlsZEdpdEF1dGhDb25maWcob3MuRW52aXJvbigpLCBzdWIuVVJMLCBzdWIsICIiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIGdpdCBhdXRoIGNvbmZpZzogJXYiLCBlcnIpCgl9CgoJb3V0cHV0LCBlcnIgOj0gcHVsbEdpdFJlcG9XaXRoQ2FsbGJhY2soY29udGV4dC5CYWNrZ3JvdW5kKCksIHN1YiwgYXV0aENmZywgZnVuYyhzdHJpbmcpIHt9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInB1bGwgd2hpdGVsaXN0IHJlcG86ICV2XG4lcyIsIGVyciwgb3V0cHV0KQoJfQoKCWRlc3REaXIgOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsIHN1Yi5TYXZlRGlyKQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoZmlsZXBhdGguSm9pbihkZXN0RGlyLCAic2NyaXB0cyIsICJrZWVwX3Rhc2suanMiKSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB3aGl0ZWxpc3RlZCBmaWxlIHRvIGV4aXN0OiAldiIsIGVycikKCX0KCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oZGVzdERpciwgInNjcmlwdHMiLCAic2tpcF90YXNrLmpzIikpOyAhb3MuSXNOb3RFeGlzdChlcnIpIHsKCQl0LkZhdGFsZigibm9uLXdoaXRlbGlzdGVkIGZpbGUgc2hvdWxkIG5vdCBiZSBjaGVja2VkIG91dCwgc3RhdCBlcnI9JXYiLCBlcnIpCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5Kb2luKGRlc3REaXIsICJSRUFETUUubWQiKSk7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJub24td2hpdGVsaXN0ZWQgcmVhZG1lIHNob3VsZCBub3QgYmUgY2hlY2tlZCBvdXQsIHN0YXQgZXJyPSV2IiwgZXJyKQoJfQp9Cg==
+package service
+
+import (
+	"context"
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestPullGitRepoWithCallbackSubPathDoesNotCheckoutRepoRootFiles(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	remoteDir := filepath.Join(root, "remote.git")
+	worktreeDir := filepath.Join(root, "worktree")
+	runGit(t, root, "init", "--bare", remoteDir)
+	runGit(t, root, "clone", remoteDir, worktreeDir)
+
+	// 模拟用户仓库：根目录和其他目录都有文件，但订阅只想要 scripts/daily。
+	if err := os.MkdirAll(filepath.Join(worktreeDir, "scripts", "daily"), 0o755); err != nil {
+		t.Fatalf("create daily dir: %v", err)
+	}
+	if err := os.MkdirAll(filepath.Join(worktreeDir, "scripts", "other"), 0o755); err != nil {
+		t.Fatalf("create other dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(worktreeDir, "root.js"), []byte("console.log('root')\n"), 0o644); err != nil {
+		t.Fatalf("write root file: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(worktreeDir, "scripts", "daily", "keep.js"), []byte("console.log('keep')\n"), 0o644); err != nil {
+		t.Fatalf("write keep file: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(worktreeDir, "scripts", "other", "skip.js"), []byte("console.log('skip')\n"), 0o644); err != nil {
+		t.Fatalf("write skip file: %v", err)
+	}
+	runGit(t, worktreeDir, "add", ".")
+	runGit(t, worktreeDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "init")
+	runGit(t, worktreeDir, "push", "origin", "HEAD:main")
+
+	sub := &model.Subscription{
+		Name:    "daily-sub",
+		Type:    model.SubTypeGitRepo,
+		URL:     remoteDir,
+		Branch:  "main",
+		SaveDir: "daily-repo",
+		SubPath: "scripts/daily",
+	}
+	authCfg, err := buildGitAuthConfig(os.Environ(), sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+
+	output, err := pullGitRepoWithCallback(context.Background(), sub, authCfg, func(string) {})
+	if err != nil {
+		t.Fatalf("pull sub path repo: %v\n%s", err, output)
+	}
+
+	destDir := filepath.Join(config.C.Data.ScriptsDir, sub.SaveDir)
+	if _, err := os.Stat(filepath.Join(destDir, "scripts", "daily", "keep.js")); err != nil {
+		t.Fatalf("expected sub_path file to exist: %v", err)
+	}
+	if _, err := os.Stat(filepath.Join(destDir, "root.js")); !os.IsNotExist(err) {
+		t.Fatalf("root file should not be checked out when sub_path is set, stat err=%v", err)
+	}
+	if _, err := os.Stat(filepath.Join(destDir, "scripts", "other", "skip.js")); !os.IsNotExist(err) {
+		t.Fatalf("other directory file should not be checked out when sub_path is set, stat err=%v", err)
+	}
+}
+
+func TestPullGitRepoWithCallbackWhitelistLimitsCheckedOutFiles(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	remoteDir := filepath.Join(root, "remote.git")
+	worktreeDir := filepath.Join(root, "worktree")
+	runGit(t, root, "init", "--bare", remoteDir)
+	runGit(t, root, "clone", remoteDir, worktreeDir)
+
+	// 白名单原本只影响任务扫描，这里验证它也会限制真实落盘文件，避免大仓库全部落到 scripts。
+	if err := os.MkdirAll(filepath.Join(worktreeDir, "scripts"), 0o755); err != nil {
+		t.Fatalf("create scripts dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(worktreeDir, "scripts", "keep_task.js"), []byte("console.log('keep')\n"), 0o644); err != nil {
+		t.Fatalf("write keep file: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(worktreeDir, "scripts", "skip_task.js"), []byte("console.log('skip')\n"), 0o644); err != nil {
+		t.Fatalf("write skip file: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(worktreeDir, "README.md"), []byte("readme\n"), 0o644); err != nil {
+		t.Fatalf("write readme: %v", err)
+	}
+	runGit(t, worktreeDir, "add", ".")
+	runGit(t, worktreeDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "init")
+	runGit(t, worktreeDir, "push", "origin", "HEAD:main")
+
+	sub := &model.Subscription{
+		Name:      "whitelist-sub",
+		Type:      model.SubTypeGitRepo,
+		URL:       remoteDir,
+		Branch:    "main",
+		SaveDir:   "whitelist-repo",
+		Whitelist: "keep_task",
+	}
+	authCfg, err := buildGitAuthConfig(os.Environ(), sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+
+	output, err := pullGitRepoWithCallback(context.Background(), sub, authCfg, func(string) {})
+	if err != nil {
+		t.Fatalf("pull whitelist repo: %v\n%s", err, output)
+	}
+
+	destDir := filepath.Join(config.C.Data.ScriptsDir, sub.SaveDir)
+	if _, err := os.Stat(filepath.Join(destDir, "scripts", "keep_task.js")); err != nil {
+		t.Fatalf("expected whitelisted file to exist: %v", err)
+	}
+	if _, err := os.Stat(filepath.Join(destDir, "scripts", "skip_task.js")); !os.IsNotExist(err) {
+		t.Fatalf("non-whitelisted file should not be checked out, stat err=%v", err)
+	}
+	if _, err := os.Stat(filepath.Join(destDir, "README.md")); !os.IsNotExist(err) {
+		t.Fatalf("non-whitelisted readme should not be checked out, stat err=%v", err)
+	}
+}

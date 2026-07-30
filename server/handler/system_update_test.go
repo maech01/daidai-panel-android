@@ -1,1 +1,491 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkiZXJyb3JzIgoJIm5ldC9odHRwIgoJIm5ldC9odHRwL2h0dHB0ZXN0IgoJInBhdGgvZmlsZXBhdGgiCgkic2xpY2VzIgoJInN0cmluZ3MiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0UmVzb2x2ZVVwZGF0ZUltYWdlVGFyZ2V0VXNlc01pcnJvckZvckRvY2tlckh1YkltYWdlKHQgKnRlc3RpbmcuVCkgewoJcHVsbEltYWdlLCBtaXJyb3JIb3N0LCByZWdpc3RyeVVSTCA6PSByZXNvbHZlVXBkYXRlSW1hZ2VUYXJnZXQoImxpbnppeHVhbnp6L2RhaWRhaS1wYW5lbDpsYXRlc3QiLCAiZG9ja2VyLjFtcy5ydW4iKQoKCWlmIHB1bGxJbWFnZSAhPSAiZG9ja2VyLjFtcy5ydW4vbGlueml4dWFuenovZGFpZGFpLXBhbmVsOmxhdGVzdCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaXJyb3JlZCBwdWxsIGltYWdlLCBnb3QgJXEiLCBwdWxsSW1hZ2UpCgl9CglpZiBtaXJyb3JIb3N0ICE9ICJkb2NrZXIuMW1zLnJ1biIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaXJyb3IgaG9zdCBkb2NrZXIuMW1zLnJ1biwgZ290ICVxIiwgbWlycm9ySG9zdCkKCX0KCWlmIHJlZ2lzdHJ5VVJMICE9ICJodHRwczovL2RvY2tlci4xbXMucnVuL3YyLyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaXJyb3IgcmVnaXN0cnkgdXJsLCBnb3QgJXEiLCByZWdpc3RyeVVSTCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZUJpbmFyeVVwZGF0ZURvd25sb2FkVVJMVXNlc0NvbmZpZ3VyZWRQcm94eSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWFzc2V0VVJMIDo9ICJodHRwczovL2dpdGh1Yi5jb20vbGlueml4dWFuenovZGFpZGFpLXBhbmVsL3JlbGVhc2VzL2Rvd25sb2FkL3YyLjIuMTcvZGFpZGFpLWxpbnV4LWFtZDY0LnRhci5neiIKCWlmIGdvdCA6PSByZXNvbHZlQmluYXJ5VXBkYXRlRG93bmxvYWRVUkwoYXNzZXRVUkwpOyBnb3QgIT0gYXNzZXRVUkwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkaXJlY3QgYXNzZXQgVVJMIHdpdGhvdXQgcHJveHksIGdvdCAlcSIsIGdvdCkKCX0KCglpZiBlcnIgOj0gbW9kZWwuU2V0Q29uZmlnKCJiaW5hcnlfdXBkYXRlX3Byb3h5IiwgImh0dHBzOi8vZ2gtcHJveHkub3JnLyIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IGJpbmFyeV91cGRhdGVfcHJveHk6ICV2IiwgZXJyKQoJfQoJZXhwZWN0ZWQgOj0gImh0dHBzOi8vZ2gtcHJveHkub3JnLyIgKyBhc3NldFVSTAoJaWYgZ290IDo9IHJlc29sdmVCaW5hcnlVcGRhdGVEb3dubG9hZFVSTChhc3NldFVSTCk7IGdvdCAhPSBleHBlY3RlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHByb3hpZWQgYXNzZXQgVVJMICVxLCBnb3QgJXEiLCBleHBlY3RlZCwgZ290KQoJfQp9CgpmdW5jIFRlc3RSZXNvbHZlVXBkYXRlSW1hZ2VUYXJnZXRTdHJpcHNFeHBsaWNpdERvY2tlckh1Ykhvc3QodCAqdGVzdGluZy5UKSB7CglwdWxsSW1hZ2UsIG1pcnJvckhvc3QsIHJlZ2lzdHJ5VVJMIDo9IHJlc29sdmVVcGRhdGVJbWFnZVRhcmdldCgiZG9ja2VyLmlvL2xpbnppeHVhbnp6L2RhaWRhaS1wYW5lbDpsYXRlc3QiLCAiZG9ja2VyLjFtcy5ydW4iKQoKCWlmIHB1bGxJbWFnZSAhPSAiZG9ja2VyLjFtcy5ydW4vbGlueml4dWFuenovZGFpZGFpLXBhbmVsOmxhdGVzdCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaXJyb3JlZCBwdWxsIGltYWdlIHdpdGhvdXQgZXhwbGljaXQgZG9ja2VyLmlvIHByZWZpeCwgZ290ICVxIiwgcHVsbEltYWdlKQoJfQoJaWYgbWlycm9ySG9zdCAhPSAiZG9ja2VyLjFtcy5ydW4iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbWlycm9yIGhvc3QgZG9ja2VyLjFtcy5ydW4sIGdvdCAlcSIsIG1pcnJvckhvc3QpCgl9CglpZiByZWdpc3RyeVVSTCAhPSAiaHR0cHM6Ly9kb2NrZXIuMW1zLnJ1bi92Mi8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbWlycm9yIHJlZ2lzdHJ5IHVybCwgZ290ICVxIiwgcmVnaXN0cnlVUkwpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVVcGRhdGVJbWFnZVRhcmdldEtlZXBzQ3VzdG9tUmVnaXN0cnlEaXJlY3QodCAqdGVzdGluZy5UKSB7CglwdWxsSW1hZ2UsIG1pcnJvckhvc3QsIHJlZ2lzdHJ5VVJMIDo9IHJlc29sdmVVcGRhdGVJbWFnZVRhcmdldCgiZ2hjci5pby9hY21lL3BhbmVsOmxhdGVzdCIsICJkb2NrZXIuMW1zLnJ1biIpCgoJaWYgcHVsbEltYWdlICE9ICJnaGNyLmlvL2FjbWUvcGFuZWw6bGF0ZXN0IiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGN1c3RvbSByZWdpc3RyeSBpbWFnZSB0byByZW1haW4gdW5jaGFuZ2VkLCBnb3QgJXEiLCBwdWxsSW1hZ2UpCgl9CglpZiBtaXJyb3JIb3N0ICE9ICIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbWlycm9yIGhvc3QgdG8gYmUgaWdub3JlZCBmb3IgY3VzdG9tIHJlZ2lzdHJ5LCBnb3QgJXEiLCBtaXJyb3JIb3N0KQoJfQoJaWYgcmVnaXN0cnlVUkwgIT0gImh0dHBzOi8vZ2hjci5pby92Mi8iIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZ2hjciByZWdpc3RyeSB1cmwsIGdvdCAlcSIsIHJlZ2lzdHJ5VVJMKQoJfQp9CgpmdW5jIFRlc3ROb3JtYWxpemVQYW5lbFVwZGF0ZUltYWdlTmFtZVVzZXNSb2xsaW5nRGViaWFuVGFnKHQgKnRlc3RpbmcuVCkgewoJZ290IDo9IG5vcm1hbGl6ZVBhbmVsVXBkYXRlSW1hZ2VOYW1lKCJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6MS45LjgtZGViaWFuIikKCWlmIGdvdCAhPSAibGlueml4dWFuenovZGFpZGFpLXBhbmVsOmRlYmlhbiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkZWJpYW4gcm9sbGluZyB0YWcsIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0Tm9ybWFsaXplUGFuZWxVcGRhdGVJbWFnZU5hbWVVc2VzUm9sbGluZ0xhdGVzdFRhZyh0ICp0ZXN0aW5nLlQpIHsKCWdvdCA6PSBub3JtYWxpemVQYW5lbFVwZGF0ZUltYWdlTmFtZSgiZG9ja2VyLmlvL2xpbnppeHVhbnp6L2RhaWRhaS1wYW5lbDoxLjkuOCIpCglpZiBnb3QgIT0gImRvY2tlci5pby9saW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGxhdGVzdCByb2xsaW5nIHRhZywgZ290ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3ROb3JtYWxpemVQYW5lbFVwZGF0ZUltYWdlTmFtZUtlZXBzQ3VzdG9tUmVwbyh0ICp0ZXN0aW5nLlQpIHsKCWdvdCA6PSBub3JtYWxpemVQYW5lbFVwZGF0ZUltYWdlTmFtZSgiZ2hjci5pby9hY21lL3BhbmVsOjEuMC4wIikKCWlmIGdvdCAhPSAiZ2hjci5pby9hY21lL3BhbmVsOjEuMC4wIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGN1c3RvbSByZXBvIHRvIHN0YXkgdW5jaGFuZ2VkLCBnb3QgJXEiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdEZvcm1hdFBhbmVsVXBkYXRlUHVsbEVycm9yQWRkc05ldHdvcmtIaW50KHQgKnRlc3RpbmcuVCkgewoJcGxhbiA6PSAmcGFuZWxVcGRhdGVQbGFuewoJCUltYWdlTmFtZTogICAgICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IiwKCQlQdWxsSW1hZ2VOYW1lOiAiZG9ja2VyLjFtcy5ydW4vbGlueml4dWFuenovZGFpZGFpLXBhbmVsOmxhdGVzdCIsCgkJTWlycm9ySG9zdDogICAgImRvY2tlci4xbXMucnVuIiwKCQlSZWdpc3RyeVVSTDogICAiaHR0cHM6Ly9kb2NrZXIuMW1zLnJ1bi92Mi8iLAoJfQoKCWVyciA6PSBmb3JtYXRQYW5lbFVwZGF0ZVB1bGxFcnJvcigKCQlwbGFuLAoJCWVyckNvbnRleHREZWFkbGluZUV4Y2VlZGVkLAoJCVtdYnl0ZShgR2V0ICJodHRwczovL2RvY2tlci4xbXMucnVuL3YyLyI6IGNvbnRleHQgZGVhZGxpbmUgZXhjZWVkZWQgKENsaWVudC5UaW1lb3V0IGV4Y2VlZGVkIHdoaWxlIGF3YWl0aW5nIGhlYWRlcnMpYCksCgkpCgoJbXNnIDo9IGVyci5FcnJvcigpCglpZiAhc3RyaW5ncy5Db250YWlucyhtc2csICLlrr/kuLvmnLrliLDplZzlg4/ku5PlupPnmoTnvZHnu5zmiJYgRE5TIOW8guW4uCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbmV0d29yayBoaW50IGluIGVycm9yIG1lc3NhZ2UsIGdvdCAlcSIsIG1zZykKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKG1zZywgImRvY2tlci4xbXMucnVuIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtaXJyb3IgaG9zdCBpbiBlcnJvciBtZXNzYWdlLCBnb3QgJXEiLCBtc2cpCgl9Cn0KCmZ1bmMgVGVzdENvbGxlY3RWb2x1bWVNYXBwaW5nc0tlZXBzQ3VzdG9tQmluZFBhdGgodCAqdGVzdGluZy5UKSB7CglpbmZvIDo9ICZkb2NrZXJJbnNwZWN0SW5mb3sKCQlIb3N0Q29uZmlnOiBkb2NrZXJJbnNwZWN0SG9zdENvbmZpZ3sKCQkJQmluZHM6IFtdc3RyaW5newoJCQkJIi9zcnYvcGFuZWwtZGF0YTovYXBwL0R1bWItUGFuZWwiLAoJCQl9LAoJCX0sCgkJTW91bnRzOiBbXWRvY2tlckluc3BlY3RNb3VudHsKCQkJe1R5cGU6ICJiaW5kIiwgU291cmNlOiAiL3Nydi9wYW5lbC1kYXRhIiwgRGVzdGluYXRpb246ICIvYXBwL0R1bWItUGFuZWwiLCBSVzogdHJ1ZX0sCgkJCXtUeXBlOiAiYmluZCIsIFNvdXJjZTogIi92YXIvcnVuL2RvY2tlci5zb2NrIiwgRGVzdGluYXRpb246ICIvdmFyL3J1bi9kb2NrZXIuc29jayIsIFJXOiB0cnVlfSwKCQl9LAoJfQoKCWdvdCA6PSBjb2xsZWN0Vm9sdW1lTWFwcGluZ3MoaW5mbykKCWlmIGxlbihnb3QpICE9IDIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB0d28gZGlzdGluY3Qgdm9sdW1lIG1hcHBpbmdzLCBnb3QgJXYiLCBnb3QpCgl9CglpZiBnb3RbMF0gIT0gIi9zcnYvcGFuZWwtZGF0YTovYXBwL0R1bWItUGFuZWwiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3VzdG9tIGRhdGEgYmluZCB0byBiZSBwcmVzZXJ2ZWQsIGdvdCAldiIsIGdvdCkKCX0KCWlmIGdvdFsxXSAhPSAiL3Zhci9ydW4vZG9ja2VyLnNvY2s6L3Zhci9ydW4vZG9ja2VyLnNvY2siIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZG9ja2VyIHNvY2tldCBiaW5kIHRvIGJlIHByZXNlcnZlZCwgZ290ICV2IiwgZ290KQoJfQp9CgpmdW5jIFRlc3RDb2xsZWN0Vm9sdW1lTWFwcGluZ3NQcmVzZXJ2ZXNOYW1lZFZvbHVtZUFsb25nc2lkZUJpbmQodCAqdGVzdGluZy5UKSB7CglpbmZvIDo9ICZkb2NrZXJJbnNwZWN0SW5mb3sKCQlIb3N0Q29uZmlnOiBkb2NrZXJJbnNwZWN0SG9zdENvbmZpZ3sKCQkJQmluZHM6IFtdc3RyaW5newoJCQkJIi92YXIvcnVuL2RvY2tlci5zb2NrOi92YXIvcnVuL2RvY2tlci5zb2NrIiwKCQkJfSwKCQl9LAoJCU1vdW50czogW11kb2NrZXJJbnNwZWN0TW91bnR7CgkJCXtUeXBlOiAidm9sdW1lIiwgTmFtZTogImRhaWRhaV9wYW5lbF9kYXRhIiwgRGVzdGluYXRpb246ICIvYXBwL0R1bWItUGFuZWwiLCBSVzogdHJ1ZX0sCgkJCXtUeXBlOiAiYmluZCIsIFNvdXJjZTogIi92YXIvcnVuL2RvY2tlci5zb2NrIiwgRGVzdGluYXRpb246ICIvdmFyL3J1bi9kb2NrZXIuc29jayIsIFJXOiB0cnVlfSwKCQl9LAoJfQoKCWdvdCA6PSBjb2xsZWN0Vm9sdW1lTWFwcGluZ3MoaW5mbykKCWlmIGxlbihnb3QpICE9IDIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBib3RoIG5hbWVkIHZvbHVtZSBhbmQgYmluZCBtb3VudCB0byBiZSBwcmVzZXJ2ZWQsIGdvdCAldiIsIGdvdCkKCX0KCglnb3RTZXQgOj0gbWFrZShtYXBbc3RyaW5nXXN0cnVjdHt9LCBsZW4oZ290KSkKCWZvciBfLCBtYXBwaW5nIDo9IHJhbmdlIGdvdCB7CgkJZ290U2V0W21hcHBpbmddID0gc3RydWN0e317fQoJfQoKCWlmIF8sIGV4aXN0cyA6PSBnb3RTZXRbImRhaWRhaV9wYW5lbF9kYXRhOi9hcHAvRHVtYi1QYW5lbCJdOyAhZXhpc3RzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbmFtZWQgZGF0YSB2b2x1bWUgdG8gYmUgcHJlc2VydmVkLCBnb3QgJXYiLCBnb3QpCgl9CglpZiBfLCBleGlzdHMgOj0gZ290U2V0WyIvdmFyL3J1bi9kb2NrZXIuc29jazovdmFyL3J1bi9kb2NrZXIuc29jayJdOyAhZXhpc3RzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZG9ja2VyIHNvY2tldCBiaW5kIHRvIGJlIHByZXNlcnZlZCwgZ290ICV2IiwgZ290KQoJfQp9CgpmdW5jIFRlc3RDb2xsZWN0Vm9sdW1lTWFwcGluZ3NEZWR1cGxpY2F0ZXNFcXVpdmFsZW50UldCaW5kaW5ncyh0ICp0ZXN0aW5nLlQpIHsKCWluZm8gOj0gJmRvY2tlckluc3BlY3RJbmZvewoJCUhvc3RDb25maWc6IGRvY2tlckluc3BlY3RIb3N0Q29uZmlnewoJCQlCaW5kczogW11zdHJpbmd7CgkJCQkiL3Nydi9wYW5lbC1kYXRhOi9hcHAvRHVtYi1QYW5lbDpydyIsCgkJCQkiL3Zhci9ydW4vZG9ja2VyLnNvY2s6L3Zhci9ydW4vZG9ja2VyLnNvY2s6cnciLAoJCQl9LAoJCX0sCgkJTW91bnRzOiBbXWRvY2tlckluc3BlY3RNb3VudHsKCQkJe1R5cGU6ICJiaW5kIiwgU291cmNlOiAiL3Nydi9wYW5lbC1kYXRhIiwgRGVzdGluYXRpb246ICIvYXBwL0R1bWItUGFuZWwiLCBSVzogdHJ1ZX0sCgkJCXtUeXBlOiAiYmluZCIsIFNvdXJjZTogIi92YXIvcnVuL2RvY2tlci5zb2NrIiwgRGVzdGluYXRpb246ICIvdmFyL3J1bi9kb2NrZXIuc29jayIsIFJXOiB0cnVlfSwKCQl9LAoJfQoKCWdvdCA6PSBjb2xsZWN0Vm9sdW1lTWFwcGluZ3MoaW5mbykKCWlmIGxlbihnb3QpICE9IDIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBlcXVpdmFsZW50IHJ3IGJpbmRpbmdzIHRvIGJlIGRlZHVwbGljYXRlZCwgZ290ICV2IiwgZ290KQoJfQoKCWdvdFNldCA6PSBtYWtlKG1hcFtzdHJpbmddc3RydWN0e30sIGxlbihnb3QpKQoJZm9yIF8sIG1hcHBpbmcgOj0gcmFuZ2UgZ290IHsKCQlnb3RTZXRbbWFwcGluZ10gPSBzdHJ1Y3R7fXt9Cgl9CgoJaWYgXywgZXhpc3RzIDo9IGdvdFNldFsiL3Nydi9wYW5lbC1kYXRhOi9hcHAvRHVtYi1QYW5lbDpydyJdOyAhZXhpc3RzIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgb3JpZ2luYWwgZGF0YSBiaW5kIHRvIGJlIHByZXNlcnZlZCwgZ290ICV2IiwgZ290KQoJfQoJaWYgXywgZXhpc3RzIDo9IGdvdFNldFsiL3Zhci9ydW4vZG9ja2VyLnNvY2s6L3Zhci9ydW4vZG9ja2VyLnNvY2s6cnciXTsgIWV4aXN0cyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG9yaWdpbmFsIGRvY2tlciBzb2NrZXQgYmluZCB0byBiZSBwcmVzZXJ2ZWQsIGdvdCAldiIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0QnVpbGRDb250YWluZXJSdW5BcmdzUHJlc2VydmVzQ3VzdG9tRGF0YURpckVudkFuZE1vdW50KHQgKnRlc3RpbmcuVCkgewoJaW5mbyA6PSAmZG9ja2VySW5zcGVjdEluZm97CgkJSG9zdENvbmZpZzogZG9ja2VySW5zcGVjdEhvc3RDb25maWd7CgkJCUJpbmRzOiBbXXN0cmluZ3sKCQkJCSIvb3B0L2RhaWRhaS1kYXRhOi9zcnYvY3VzdG9tLWRhdGEiLAoJCQkJIi92YXIvcnVuL2RvY2tlci5zb2NrOi92YXIvcnVuL2RvY2tlci5zb2NrIiwKCQkJfSwKCQl9LAoJCUNvbmZpZzogZG9ja2VySW5zcGVjdENvbmZpZ3sKCQkJRW52OiBbXXN0cmluZ3sKCQkJCSJUWj1Bc2lhL1NoYW5naGFpIiwKCQkJCSJEQVRBX0RJUj0vc3J2L2N1c3RvbS1kYXRhIiwKCQkJCSJDT05UQUlORVJfTkFNRT1kYWlkYWktcGFuZWwiLAoJCQkJIlBBVEg9L3Vzci9sb2NhbC9zYmluOi91c3IvbG9jYWwvYmluOi91c3Ivc2JpbjovdXNyL2Jpbjovc2JpbjovYmluIiwKCQkJfSwKCQl9LAoJCU1vdW50czogW11kb2NrZXJJbnNwZWN0TW91bnR7CgkJCXtUeXBlOiAiYmluZCIsIFNvdXJjZTogIi9vcHQvZGFpZGFpLWRhdGEiLCBEZXN0aW5hdGlvbjogIi9zcnYvY3VzdG9tLWRhdGEiLCBSVzogdHJ1ZX0sCgkJCXtUeXBlOiAiYmluZCIsIFNvdXJjZTogIi92YXIvcnVuL2RvY2tlci5zb2NrIiwgRGVzdGluYXRpb246ICIvdmFyL3J1bi9kb2NrZXIuc29jayIsIFJXOiB0cnVlfSwKCQl9LAoJfQoKCWdvdCA6PSBidWlsZENvbnRhaW5lclJ1bkFyZ3MoImRhaWRhaS1wYW5lbCIsICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IiwgaW5mbykKCglpZiAhc2xpY2VzLkNvbnRhaW5zKGdvdCwgIi9vcHQvZGFpZGFpLWRhdGE6L3Nydi9jdXN0b20tZGF0YSIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3VzdG9tIGRhdGEgbW91bnQgdG8gYmUgcHJlc2VydmVkLCBnb3QgJXYiLCBnb3QpCgl9CglpZiAhc2xpY2VzLkNvbnRhaW5zKGdvdCwgIkRBVEFfRElSPS9zcnYvY3VzdG9tLWRhdGEiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGN1c3RvbSBEQVRBX0RJUiBlbnYgdG8gYmUgcHJlc2VydmVkLCBnb3QgJXYiLCBnb3QpCgl9CglpZiBzbGljZXMuQ29udGFpbnMoZ290LCAiUEFUSD0vdXNyL2xvY2FsL3NiaW46L3Vzci9sb2NhbC9iaW46L3Vzci9zYmluOi91c3IvYmluOi9zYmluOi9iaW4iKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJ1bnRpbWUgUEFUSCBlbnYgdG8gYmUgZmlsdGVyZWQgb3V0LCBnb3QgJXYiLCBnb3QpCgl9CglpZiBnb3RbbGVuKGdvdCktMV0gIT0gImxpbnppeHVhbnp6L2RhaWRhaS1wYW5lbDpsYXRlc3QiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW1hZ2UgbmFtZSB0byByZW1haW4gdGhlIGZpbmFsIHJ1biBhcmcsIGdvdCAldiIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZUJpbmFyeVJlbGVhc2VUYXJnZXRNYXRjaGVzUmVsZWFzZUFzc2V0cyh0ICp0ZXN0aW5nLlQpIHsKCWNhc2VzIDo9IFtdc3RydWN0IHsKCQlnb29zICAgICAgIHN0cmluZwoJCWdvYXJjaCAgICAgc3RyaW5nCgkJYXNzZXROYW1lICBzdHJpbmcKCQliaW5hcnlOYW1lIHN0cmluZwoJfXsKCQl7IndpbmRvd3MiLCAiYW1kNjQiLCAiZGFpZGFpLXdpbmRvd3MtYW1kNjQuemlwIiwgImRhaWRhaS1zZXJ2ZXIuZXhlIn0sCgkJeyJsaW51eCIsICJhbWQ2NCIsICJkYWlkYWktbGludXgtYW1kNjQudGFyLmd6IiwgImRhaWRhaS1saW51eC1hbWQ2NCJ9LAoJCXsibGludXgiLCAiYXJtNjQiLCAiZGFpZGFpLWxpbnV4LWFybTY0LnRhci5neiIsICJkYWlkYWktbGludXgtYXJtNjQifSwKCQl7ImxpbnV4IiwgIjM4NiIsICJkYWlkYWktbGludXgtMzg2LnRhci5neiIsICJkYWlkYWktbGludXgtMzg2In0sCgkJeyJsaW51eCIsICJhcm0iLCAiZGFpZGFpLWxpbnV4LWFybXY3LnRhci5neiIsICJkYWlkYWktbGludXgtYXJtdjcifSwKCX0KCglmb3IgXywgdGMgOj0gcmFuZ2UgY2FzZXMgewoJCWFzc2V0TmFtZSwgYmluYXJ5TmFtZSwgZXJyIDo9IHJlc29sdmVCaW5hcnlSZWxlYXNlVGFyZ2V0KHRjLmdvb3MsIHRjLmdvYXJjaCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgZXJyb3IgZm9yICVzLyVzOiAldiIsIHRjLmdvb3MsIHRjLmdvYXJjaCwgZXJyKQoJCX0KCQlpZiBhc3NldE5hbWUgIT0gdGMuYXNzZXROYW1lIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGFzc2V0ICVxIGZvciAlcy8lcywgZ290ICVxIiwgdGMuYXNzZXROYW1lLCB0Yy5nb29zLCB0Yy5nb2FyY2gsIGFzc2V0TmFtZSkKCQl9CgkJaWYgYmluYXJ5TmFtZSAhPSB0Yy5iaW5hcnlOYW1lIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGJpbmFyeSAlcSBmb3IgJXMvJXMsIGdvdCAlcSIsIHRjLmJpbmFyeU5hbWUsIHRjLmdvb3MsIHRjLmdvYXJjaCwgYmluYXJ5TmFtZSkKCQl9Cgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVCaW5hcnlSZWxlYXNlVGFyZ2V0UmVqZWN0c1Vuc3VwcG9ydGVkUGxhdGZvcm0odCAqdGVzdGluZy5UKSB7CglpZiBfLCBfLCBlcnIgOj0gcmVzb2x2ZUJpbmFyeVJlbGVhc2VUYXJnZXQoImRhcndpbiIsICJhcm02NCIpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdW5zdXBwb3J0ZWQgcGxhdGZvcm0gZXJyb3IiKQoJfQp9CgpmdW5jIFRlc3RQYW5lbFJlbGVhc2VGaW5kQXNzZXRCeU5hbWUodCAqdGVzdGluZy5UKSB7CglyZWxlYXNlIDo9IHBhbmVsUmVsZWFzZUluZm97CgkJQXNzZXRzOiBbXXBhbmVsUmVsZWFzZUFzc2V0ewoJCQl7TmFtZTogImRhaWRhaS1saW51eC1hbWQ2NC50YXIuZ3oiLCBCcm93c2VyRG93bmxvYWRVUkw6ICJodHRwczovL2V4YW1wbGUuY29tL2xpbnV4In0sCgkJfSwKCX0KCglhc3NldCwgb2sgOj0gcmVsZWFzZS5maW5kQXNzZXQoIkRBSURBSS1MSU5VWC1BTUQ2NC5UQVIuR1oiKQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXNzZXQgdG8gYmUgZm91bmQgY2FzZS1pbnNlbnNpdGl2ZWx5IikKCX0KCWlmIGFzc2V0LkJyb3dzZXJEb3dubG9hZFVSTCAhPSAiaHR0cHM6Ly9leGFtcGxlLmNvbS9saW51eCIgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGFzc2V0IHVybDogJXMiLCBhc3NldC5Ccm93c2VyRG93bmxvYWRVUkwpCgl9Cn0KCmZ1bmMgVGVzdFNhZmVBcmNoaXZlVGFyZ2V0UGF0aFJlamVjdHNUcmF2ZXJzYWwodCAqdGVzdGluZy5UKSB7CgliYXNlIDo9IHQuVGVtcERpcigpCglpZiBfLCBlcnIgOj0gc2FmZUFyY2hpdmVUYXJnZXRQYXRoKGJhc2UsICIuLi9jb25maWcueWFtbCIpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdHJhdmVyc2FsIHBhdGggdG8gYmUgcmVqZWN0ZWQiKQoJfQoJaWYgXywgZXJyIDo9IHNhZmVBcmNoaXZlVGFyZ2V0UGF0aChiYXNlLCAid2ViLy4uLy4uL2NvbmZpZy55YW1sIik7IGVyciA9PSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBuZXN0ZWQgdHJhdmVyc2FsIHBhdGggdG8gYmUgcmVqZWN0ZWQiKQoJfQp9CgpmdW5jIFRlc3RTYWZlQXJjaGl2ZVRhcmdldFBhdGhBbGxvd3NOZXN0ZWRGaWxlKHQgKnRlc3RpbmcuVCkgewoJYmFzZSA6PSB0LlRlbXBEaXIoKQoJZ290LCBlcnIgOj0gc2FmZUFyY2hpdmVUYXJnZXRQYXRoKGJhc2UsICJ3ZWIvYXNzZXRzL2FwcC5qcyIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbmVzdGVkIGZpbGUgdG8gYmUgYWxsb3dlZDogJXYiLCBlcnIpCgl9Cgl3YW50IDo9IGZpbGVwYXRoLkpvaW4oYmFzZSwgIndlYiIsICJhc3NldHMiLCAiYXBwLmpzIikKCWlmIGdvdCAhPSB3YW50IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgJXEsIGdvdCAlcSIsIHdhbnQsIGdvdCkKCX0KfQoKdmFyIGVyckNvbnRleHREZWFkbGluZUV4Y2VlZGVkID0gZXJyb3JzLk5ldygiY29udGV4dCBkZWFkbGluZSBleGNlZWRlZCIpCgpmdW5jIFRlc3ROb3JtYWxpemVEb2NrZXJJbWFnZUlEKHQgKnRlc3RpbmcuVCkgewoJdmFsaWQgOj0gInNoYTI1NjoiICsgc3RyaW5ncy5SZXBlYXQoIkEiLCA2NCkKCXdhbnQgOj0gInNoYTI1NjoiICsgc3RyaW5ncy5SZXBlYXQoImEiLCA2NCkKCWlmIGdvdCA6PSBub3JtYWxpemVEb2NrZXJJbWFnZUlEKHZhbGlkKTsgZ290ICE9IHdhbnQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBub3JtYWxpemVkIGRpZ2VzdCAlcSwgZ290ICVxIiwgd2FudCwgZ290KQoJfQoKCWludmFsaWRWYWx1ZXMgOj0gW11zdHJpbmd7CgkJImxpbnppeHVhbnp6L2RhaWRhaS1wYW5lbDpsYXRlc3QiLAoJCSJzaGEyNTY6IiArIHN0cmluZ3MuUmVwZWF0KCJhIiwgNjMpLAoJCSJzaGEyNTY6IiArIHN0cmluZ3MuUmVwZWF0KCJnIiwgNjQpLAoJCSIiLAoJfQoJZm9yIF8sIHZhbHVlIDo9IHJhbmdlIGludmFsaWRWYWx1ZXMgewoJCWlmIGdvdCA6PSBub3JtYWxpemVEb2NrZXJJbWFnZUlEKHZhbHVlKTsgZ290ICE9ICIiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGludmFsaWQgaW1hZ2UgaWQgJXEgdG8gYmUgcmVqZWN0ZWQsIGdvdCAlcSIsIHZhbHVlLCBnb3QpCgkJfQoJfQp9CgpmdW5jIFRlc3RCdWlsZFBhbmVsVXBkYXRlSGVscGVyU2NyaXB0Q2xlYW5zUHJldmlvdXNJbWFnZUFmdGVyU3VjY2Vzc2Z1bFJ1bih0ICp0ZXN0aW5nLlQpIHsKCXByZXZpb3VzSW1hZ2VJRCA6PSAic2hhMjU2OiIgKyBzdHJpbmdzLlJlcGVhdCgiYiIsIDY0KQoJcGxhbiA6PSAmcGFuZWxVcGRhdGVQbGFuewoJCUNvbnRhaW5lck5hbWU6ICAgImRhaWRhaS1wYW5lbCIsCgkJUHJldmlvdXNJbWFnZUlEOiBwcmV2aW91c0ltYWdlSUQsCgkJUnVuQXJnczogW11zdHJpbmd7CgkJCSJydW4iLAoJCQkiLWQiLAoJCQkiLS1uYW1lIiwKCQkJImRhaWRhaS1wYW5lbCIsCgkJCSJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IiwKCQl9LAoJfQoKCXNjcmlwdCA6PSBidWlsZFBhbmVsVXBkYXRlSGVscGVyU2NyaXB0KHBsYW4pCgoJc3RhdHVzSW5kZXggOj0gc3RyaW5ncy5JbmRleChzY3JpcHQsICJzdGF0dXM9JD8iKQoJY2xlYW51cEluZGV4IDo9IHN0cmluZ3MuSW5kZXgoc2NyaXB0LCAiZG9ja2VyIGltYWdlIHJtICciK3ByZXZpb3VzSW1hZ2VJRCsiJyA+L2Rldi9udWxsIDI+JjEgfHwgdHJ1ZSIpCglpZiBjbGVhbnVwSW5kZXggPCAwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaGVscGVyIHNjcmlwdCB0byBjbGVhbiBwcmV2aW91cyBpbWFnZSBpZCwgZ290OlxuJXMiLCBzY3JpcHQpCgl9CglpZiBzdGF0dXNJbmRleCA8IDAgfHwgY2xlYW51cEluZGV4IDwgc3RhdHVzSW5kZXggewoJCXQuRmF0YWxmKCJleHBlY3RlZCBwcmV2aW91cyBpbWFnZSBjbGVhbnVwIGFmdGVyIGRvY2tlciBydW4gc3RhdHVzIGNhcHR1cmUsIGdvdDpcbiVzIiwgc2NyaXB0KQoJfQoJaWYgIXN0cmluZ3MuQ29udGFpbnMoc2NyaXB0LCAiaWYgWyBcIiRzdGF0dXNcIiAtZXEgMCBdOyB0aGVuIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjbGVhbnVwIHRvIHJ1biBvbmx5IGFmdGVyIHN1Y2Nlc3NmdWwgY29udGFpbmVyIHN0YXJ0LCBnb3Q6XG4lcyIsIHNjcmlwdCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHNjcmlwdCwgImV4aXQgXCIkc3RhdHVzXCIiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGhlbHBlciBzY3JpcHQgdG8gcHJlc2VydmUgZG9ja2VyIHJ1biBleGl0IHN0YXR1cywgZ290OlxuJXMiLCBzY3JpcHQpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkUGFuZWxVcGRhdGVIZWxwZXJTY3JpcHRTa2lwc0ludmFsaWRQcmV2aW91c0ltYWdlSUQodCAqdGVzdGluZy5UKSB7CglwbGFuIDo9ICZwYW5lbFVwZGF0ZVBsYW57CgkJQ29udGFpbmVyTmFtZTogICAiZGFpZGFpLXBhbmVsIiwKCQlQcmV2aW91c0ltYWdlSUQ6ICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IiwKCQlSdW5BcmdzOiAgICAgICAgIFtdc3RyaW5neyJydW4iLCAiLWQiLCAiLS1uYW1lIiwgImRhaWRhaS1wYW5lbCIsICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0In0sCgl9CgoJc2NyaXB0IDo9IGJ1aWxkUGFuZWxVcGRhdGVIZWxwZXJTY3JpcHQocGxhbikKCWlmIHN0cmluZ3MuQ29udGFpbnMoc2NyaXB0LCAiZG9ja2VyIGltYWdlIHJtIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBpbnZhbGlkIHByZXZpb3VzIGltYWdlIGlkIHRvIGJlIGlnbm9yZWQsIGdvdDpcbiVzIiwgc2NyaXB0KQoJfQp9CgpmdW5jIFRlc3RUcmlnZ2VyV2F0Y2h0b3dlclVwZGF0ZUFsbG93c05vQ29udGVudFN1Y2Nlc3ModCAqdGVzdGluZy5UKSB7CglzZXJ2ZXIgOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCWlmIHIuTWV0aG9kICE9IGh0dHAuTWV0aG9kUG9zdCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBQT1NUIHJlcXVlc3QsIGdvdCAlcyIsIHIuTWV0aG9kKQoJCX0KCQlpZiBnb3QgOj0gci5IZWFkZXIuR2V0KCJBdXRob3JpemF0aW9uIik7IGdvdCAhPSAiQmVhcmVyIGRlbW8tdG9rZW4iIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGJlYXJlciB0b2tlbiBoZWFkZXIsIGdvdCAlcSIsIGdvdCkKCQl9CgkJdy5Xcml0ZUhlYWRlcihodHRwLlN0YXR1c05vQ29udGVudCkKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCglyZXN1bHQsIGVyciA6PSB0cmlnZ2VyV2F0Y2h0b3dlclVwZGF0ZSh3YXRjaHRvd2VyUnVudGltZUNvbmZpZ3sKCQlNYW5hZ2VkOiAgICAgICAgICAgICAgICB0cnVlLAoJCUFQSVVSTDogICAgICAgICAgICAgICAgIHNlcnZlci5VUkwsCgkJQVBJVG9rZW46ICAgICAgICAgICAgICAgImRlbW8tdG9rZW4iLAoJCU1hbnVhbFRyaWdnZXJTdXBwb3J0ZWQ6IHRydWUsCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwNCBubyBjb250ZW50IHRvIGJlIHRyZWF0ZWQgYXMgc3VjY2VzcywgZ290ICV2IiwgZXJyKQoJfQoJaWYgcmVzdWx0ID09IG5pbCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgbm9uLW5pbCByZXN1bHQgbWFwIG9uIHN1Y2Nlc3MiKQoJfQoJaWYgbGVuKHJlc3VsdCkgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGVtcHR5IHBheWxvYWQgZm9yIDIwNCByZXNwb25zZSwgZ290ICUjdiIsIHJlc3VsdCkKCX0KfQoKZnVuYyBUZXN0VHJpZ2dlcldhdGNodG93ZXJVcGRhdGVBbGxvd3NFbXB0eTIwMEJvZHkodCAqdGVzdGluZy5UKSB7CglzZXJ2ZXIgOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCXcuV3JpdGVIZWFkZXIoaHR0cC5TdGF0dXNPSykKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCglyZXN1bHQsIGVyciA6PSB0cmlnZ2VyV2F0Y2h0b3dlclVwZGF0ZSh3YXRjaHRvd2VyUnVudGltZUNvbmZpZ3sKCQlNYW5hZ2VkOiAgICAgICAgICAgICAgICB0cnVlLAoJCUFQSVVSTDogICAgICAgICAgICAgICAgIHNlcnZlci5VUkwsCgkJQVBJVG9rZW46ICAgICAgICAgICAgICAgImRlbW8tdG9rZW4iLAoJCU1hbnVhbFRyaWdnZXJTdXBwb3J0ZWQ6IHRydWUsCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIDIwMCBlbXB0eSBib2R5IHRvIGJlIHRyZWF0ZWQgYXMgc3VjY2VzcywgZ290ICV2IiwgZXJyKQoJfQoJaWYgcmVzdWx0ID09IG5pbCB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgbm9uLW5pbCByZXN1bHQgbWFwIG9uIHN1Y2Nlc3MiKQoJfQoJaWYgbGVuKHJlc3VsdCkgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGVtcHR5IHBheWxvYWQgZm9yIGVtcHR5IDIwMCBib2R5LCBnb3QgJSN2IiwgcmVzdWx0KQoJfQp9CgpmdW5jIFRlc3RUcmlnZ2VyV2F0Y2h0b3dlclVwZGF0ZVJldHVybnNFcnJvclBheWxvYWRNZXNzYWdlKHQgKnRlc3RpbmcuVCkgewoJc2VydmVyIDo9IGh0dHB0ZXN0Lk5ld1NlcnZlcihodHRwLkhhbmRsZXJGdW5jKGZ1bmModyBodHRwLlJlc3BvbnNlV3JpdGVyLCByICpodHRwLlJlcXVlc3QpIHsKCQl3LldyaXRlSGVhZGVyKGh0dHAuU3RhdHVzQmFkR2F0ZXdheSkKCQlfID0ganNvbi5OZXdFbmNvZGVyKHcpLkVuY29kZShtYXBbc3RyaW5nXXN0cmluZ3sKCQkJImVycm9yIjogIndhdGNodG93ZXIgdXBzdHJlYW0gZmFpbGVkIiwKCQl9KQoJfSkpCglkZWZlciBzZXJ2ZXIuQ2xvc2UoKQoKCV8sIGVyciA6PSB0cmlnZ2VyV2F0Y2h0b3dlclVwZGF0ZSh3YXRjaHRvd2VyUnVudGltZUNvbmZpZ3sKCQlNYW5hZ2VkOiAgICAgICAgICAgICAgICB0cnVlLAoJCUFQSVVSTDogICAgICAgICAgICAgICAgIHNlcnZlci5VUkwsCgkJQVBJVG9rZW46ICAgICAgICAgICAgICAgImRlbW8tdG9rZW4iLAoJCU1hbnVhbFRyaWdnZXJTdXBwb3J0ZWQ6IHRydWUsCgl9KQoJaWYgZXJyID09IG5pbCB8fCAhc3RyaW5ncy5Db250YWlucyhlcnIuRXJyb3IoKSwgIndhdGNodG93ZXIgdXBzdHJlYW0gZmFpbGVkIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBlcnJvciBwYXlsb2FkIG1lc3NhZ2UgdG8gc3VyZmFjZSwgZ290ICV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RTaG91bGRSZXF1aXJlRG9ja2VyUGFuZWxVcGRhdGVJZ25vcmVzRG9ja2VyRW52VmFyc091dHNpZGVDb250YWluZXIodCAqdGVzdGluZy5UKSB7Cgl0LlNldGVudigiSU1BR0VfTkFNRSIsICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IikKCXQuU2V0ZW52KCJDT05UQUlORVJfTkFNRSIsICJkYWlkYWktcGFuZWwiKQoKCWlmIHNob3VsZFJlcXVpcmVEb2NrZXJQYW5lbFVwZGF0ZSgpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBkb2NrZXIgZW52IHZhcnMgYWxvbmUgdG8gbm90IGZvcmNlIGRvY2tlci1vbmx5IHVwZGF0ZSBwYXRoIG91dHNpZGUgY29udGFpbmVyIikKCX0KfQoKZnVuYyBUZXN0QnVpbGRQYW5lbFVwZGF0ZVBsYW5Gb3JSZWxlYXNlRmFsbHNCYWNrVG9CaW5hcnlXaGVuRG9ja2VyRW52VmFyc0xlYWsodCAqdGVzdGluZy5UKSB7Cgl0LlNldGVudigiSU1BR0VfTkFNRSIsICJsaW56aXh1YW56ei9kYWlkYWktcGFuZWw6bGF0ZXN0IikKCXQuU2V0ZW52KCJDT05UQUlORVJfTkFNRSIsICJkYWlkYWktcGFuZWwiKQoKCXJlbGVhc2UgOj0gJnBhbmVsUmVsZWFzZUluZm97CgkJVGFnTmFtZTogInYyLjIuMTkiLAoJCU5hbWU6ICAgICJ2Mi4yLjE5IiwKCQlBc3NldHM6IFtdcGFuZWxSZWxlYXNlQXNzZXR7CgkJCXsKCQkJCU5hbWU6ICAgICAgICAgICAgICAgImRhaWRhaS13aW5kb3dzLWFtZDY0LnppcCIsCgkJCQlCcm93c2VyRG93bmxvYWRVUkw6ICJodHRwczovL2V4YW1wbGUuY29tL2RhaWRhaS13aW5kb3dzLWFtZDY0LnppcCIsCgkJCX0sCgkJfSwKCX0KCglwbGFuLCBlcnIgOj0gYnVpbGRQYW5lbFVwZGF0ZVBsYW5Gb3JSZWxlYXNlKHJlbGVhc2UpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYmluYXJ5IGZhbGxiYWNrIHdoZW4gb25seSBkb2NrZXIgZW52IHZhcnMgbGVhaywgZ290ICV2IiwgZXJyKQoJfQoJaWYgcGxhbi5EZXBsb3ltZW50VHlwZSAhPSBwYW5lbFVwZGF0ZURlcGxveW1lbnRCaW5hcnkgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBiaW5hcnkgZmFsbGJhY2sgcGxhbiwgZ290ICUjdiIsIHBsYW4pCgl9CglpZiBwbGFuLkFzc2V0TmFtZSAhPSAiZGFpZGFpLXdpbmRvd3MtYW1kNjQuemlwIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHdpbmRvd3MgYmluYXJ5IGFzc2V0IGZhbGxiYWNrLCBnb3QgJSN2IiwgcGxhbikKCX0KfQo=
+package handler
+
+import (
+	"encoding/json"
+	"errors"
+	"net/http"
+	"net/http/httptest"
+	"path/filepath"
+	"slices"
+	"strings"
+	"testing"
+
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestResolveUpdateImageTargetUsesMirrorForDockerHubImage(t *testing.T) {
+	pullImage, mirrorHost, registryURL := resolveUpdateImageTarget("linzixuanzz/daidai-panel:latest", "docker.1ms.run")
+
+	if pullImage != "docker.1ms.run/linzixuanzz/daidai-panel:latest" {
+		t.Fatalf("expected mirrored pull image, got %q", pullImage)
+	}
+	if mirrorHost != "docker.1ms.run" {
+		t.Fatalf("expected mirror host docker.1ms.run, got %q", mirrorHost)
+	}
+	if registryURL != "https://docker.1ms.run/v2/" {
+		t.Fatalf("expected mirror registry url, got %q", registryURL)
+	}
+}
+
+func TestResolveBinaryUpdateDownloadURLUsesConfiguredProxy(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	assetURL := "https://github.com/linzixuanzz/daidai-panel/releases/download/v2.2.17/daidai-linux-amd64.tar.gz"
+	if got := resolveBinaryUpdateDownloadURL(assetURL); got != assetURL {
+		t.Fatalf("expected direct asset URL without proxy, got %q", got)
+	}
+
+	if err := model.SetConfig("binary_update_proxy", "https://gh-proxy.org/"); err != nil {
+		t.Fatalf("set binary_update_proxy: %v", err)
+	}
+	expected := "https://gh-proxy.org/" + assetURL
+	if got := resolveBinaryUpdateDownloadURL(assetURL); got != expected {
+		t.Fatalf("expected proxied asset URL %q, got %q", expected, got)
+	}
+}
+
+func TestResolveUpdateImageTargetStripsExplicitDockerHubHost(t *testing.T) {
+	pullImage, mirrorHost, registryURL := resolveUpdateImageTarget("docker.io/linzixuanzz/daidai-panel:latest", "docker.1ms.run")
+
+	if pullImage != "docker.1ms.run/linzixuanzz/daidai-panel:latest" {
+		t.Fatalf("expected mirrored pull image without explicit docker.io prefix, got %q", pullImage)
+	}
+	if mirrorHost != "docker.1ms.run" {
+		t.Fatalf("expected mirror host docker.1ms.run, got %q", mirrorHost)
+	}
+	if registryURL != "https://docker.1ms.run/v2/" {
+		t.Fatalf("expected mirror registry url, got %q", registryURL)
+	}
+}
+
+func TestResolveUpdateImageTargetKeepsCustomRegistryDirect(t *testing.T) {
+	pullImage, mirrorHost, registryURL := resolveUpdateImageTarget("ghcr.io/acme/panel:latest", "docker.1ms.run")
+
+	if pullImage != "ghcr.io/acme/panel:latest" {
+		t.Fatalf("expected custom registry image to remain unchanged, got %q", pullImage)
+	}
+	if mirrorHost != "" {
+		t.Fatalf("expected mirror host to be ignored for custom registry, got %q", mirrorHost)
+	}
+	if registryURL != "https://ghcr.io/v2/" {
+		t.Fatalf("expected ghcr registry url, got %q", registryURL)
+	}
+}
+
+func TestNormalizePanelUpdateImageNameUsesRollingDebianTag(t *testing.T) {
+	got := normalizePanelUpdateImageName("linzixuanzz/daidai-panel:1.9.8-debian")
+	if got != "linzixuanzz/daidai-panel:debian" {
+		t.Fatalf("expected debian rolling tag, got %q", got)
+	}
+}
+
+func TestNormalizePanelUpdateImageNameUsesRollingLatestTag(t *testing.T) {
+	got := normalizePanelUpdateImageName("docker.io/linzixuanzz/daidai-panel:1.9.8")
+	if got != "docker.io/linzixuanzz/daidai-panel:latest" {
+		t.Fatalf("expected latest rolling tag, got %q", got)
+	}
+}
+
+func TestNormalizePanelUpdateImageNameKeepsCustomRepo(t *testing.T) {
+	got := normalizePanelUpdateImageName("ghcr.io/acme/panel:1.0.0")
+	if got != "ghcr.io/acme/panel:1.0.0" {
+		t.Fatalf("expected custom repo to stay unchanged, got %q", got)
+	}
+}
+
+func TestFormatPanelUpdatePullErrorAddsNetworkHint(t *testing.T) {
+	plan := &panelUpdatePlan{
+		ImageName:     "linzixuanzz/daidai-panel:latest",
+		PullImageName: "docker.1ms.run/linzixuanzz/daidai-panel:latest",
+		MirrorHost:    "docker.1ms.run",
+		RegistryURL:   "https://docker.1ms.run/v2/",
+	}
+
+	err := formatPanelUpdatePullError(
+		plan,
+		errContextDeadlineExceeded,
+		[]byte(`Get "https://docker.1ms.run/v2/": context deadline exceeded (Client.Timeout exceeded while awaiting headers)`),
+	)
+
+	msg := err.Error()
+	if !strings.Contains(msg, "宿主机到镜像仓库的网络或 DNS 异常") {
+		t.Fatalf("expected network hint in error message, got %q", msg)
+	}
+	if !strings.Contains(msg, "docker.1ms.run") {
+		t.Fatalf("expected mirror host in error message, got %q", msg)
+	}
+}
+
+func TestCollectVolumeMappingsKeepsCustomBindPath(t *testing.T) {
+	info := &dockerInspectInfo{
+		HostConfig: dockerInspectHostConfig{
+			Binds: []string{
+				"/srv/panel-data:/app/Dumb-Panel",
+			},
+		},
+		Mounts: []dockerInspectMount{
+			{Type: "bind", Source: "/srv/panel-data", Destination: "/app/Dumb-Panel", RW: true},
+			{Type: "bind", Source: "/var/run/docker.sock", Destination: "/var/run/docker.sock", RW: true},
+		},
+	}
+
+	got := collectVolumeMappings(info)
+	if len(got) != 2 {
+		t.Fatalf("expected two distinct volume mappings, got %v", got)
+	}
+	if got[0] != "/srv/panel-data:/app/Dumb-Panel" {
+		t.Fatalf("expected custom data bind to be preserved, got %v", got)
+	}
+	if got[1] != "/var/run/docker.sock:/var/run/docker.sock" {
+		t.Fatalf("expected docker socket bind to be preserved, got %v", got)
+	}
+}
+
+func TestCollectVolumeMappingsPreservesNamedVolumeAlongsideBind(t *testing.T) {
+	info := &dockerInspectInfo{
+		HostConfig: dockerInspectHostConfig{
+			Binds: []string{
+				"/var/run/docker.sock:/var/run/docker.sock",
+			},
+		},
+		Mounts: []dockerInspectMount{
+			{Type: "volume", Name: "daidai_panel_data", Destination: "/app/Dumb-Panel", RW: true},
+			{Type: "bind", Source: "/var/run/docker.sock", Destination: "/var/run/docker.sock", RW: true},
+		},
+	}
+
+	got := collectVolumeMappings(info)
+	if len(got) != 2 {
+		t.Fatalf("expected both named volume and bind mount to be preserved, got %v", got)
+	}
+
+	gotSet := make(map[string]struct{}, len(got))
+	for _, mapping := range got {
+		gotSet[mapping] = struct{}{}
+	}
+
+	if _, exists := gotSet["daidai_panel_data:/app/Dumb-Panel"]; !exists {
+		t.Fatalf("expected named data volume to be preserved, got %v", got)
+	}
+	if _, exists := gotSet["/var/run/docker.sock:/var/run/docker.sock"]; !exists {
+		t.Fatalf("expected docker socket bind to be preserved, got %v", got)
+	}
+}
+
+func TestCollectVolumeMappingsDeduplicatesEquivalentRWBindings(t *testing.T) {
+	info := &dockerInspectInfo{
+		HostConfig: dockerInspectHostConfig{
+			Binds: []string{
+				"/srv/panel-data:/app/Dumb-Panel:rw",
+				"/var/run/docker.sock:/var/run/docker.sock:rw",
+			},
+		},
+		Mounts: []dockerInspectMount{
+			{Type: "bind", Source: "/srv/panel-data", Destination: "/app/Dumb-Panel", RW: true},
+			{Type: "bind", Source: "/var/run/docker.sock", Destination: "/var/run/docker.sock", RW: true},
+		},
+	}
+
+	got := collectVolumeMappings(info)
+	if len(got) != 2 {
+		t.Fatalf("expected equivalent rw bindings to be deduplicated, got %v", got)
+	}
+
+	gotSet := make(map[string]struct{}, len(got))
+	for _, mapping := range got {
+		gotSet[mapping] = struct{}{}
+	}
+
+	if _, exists := gotSet["/srv/panel-data:/app/Dumb-Panel:rw"]; !exists {
+		t.Fatalf("expected original data bind to be preserved, got %v", got)
+	}
+	if _, exists := gotSet["/var/run/docker.sock:/var/run/docker.sock:rw"]; !exists {
+		t.Fatalf("expected original docker socket bind to be preserved, got %v", got)
+	}
+}
+
+func TestBuildContainerRunArgsPreservesCustomDataDirEnvAndMount(t *testing.T) {
+	info := &dockerInspectInfo{
+		HostConfig: dockerInspectHostConfig{
+			Binds: []string{
+				"/opt/daidai-data:/srv/custom-data",
+				"/var/run/docker.sock:/var/run/docker.sock",
+			},
+		},
+		Config: dockerInspectConfig{
+			Env: []string{
+				"TZ=Asia/Shanghai",
+				"DATA_DIR=/srv/custom-data",
+				"CONTAINER_NAME=daidai-panel",
+				"PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+			},
+		},
+		Mounts: []dockerInspectMount{
+			{Type: "bind", Source: "/opt/daidai-data", Destination: "/srv/custom-data", RW: true},
+			{Type: "bind", Source: "/var/run/docker.sock", Destination: "/var/run/docker.sock", RW: true},
+		},
+	}
+
+	got := buildContainerRunArgs("daidai-panel", "linzixuanzz/daidai-panel:latest", info)
+
+	if !slices.Contains(got, "/opt/daidai-data:/srv/custom-data") {
+		t.Fatalf("expected custom data mount to be preserved, got %v", got)
+	}
+	if !slices.Contains(got, "DATA_DIR=/srv/custom-data") {
+		t.Fatalf("expected custom DATA_DIR env to be preserved, got %v", got)
+	}
+	if slices.Contains(got, "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin") {
+		t.Fatalf("expected runtime PATH env to be filtered out, got %v", got)
+	}
+	if got[len(got)-1] != "linzixuanzz/daidai-panel:latest" {
+		t.Fatalf("expected image name to remain the final run arg, got %v", got)
+	}
+}
+
+func TestResolveBinaryReleaseTargetMatchesReleaseAssets(t *testing.T) {
+	cases := []struct {
+		goos       string
+		goarch     string
+		assetName  string
+		binaryName string
+	}{
+		{"windows", "amd64", "daidai-windows-amd64.zip", "daidai-server.exe"},
+		{"linux", "amd64", "daidai-linux-amd64.tar.gz", "daidai-linux-amd64"},
+		{"linux", "arm64", "daidai-linux-arm64.tar.gz", "daidai-linux-arm64"},
+		{"linux", "386", "daidai-linux-386.tar.gz", "daidai-linux-386"},
+		{"linux", "arm", "daidai-linux-armv7.tar.gz", "daidai-linux-armv7"},
+	}
+
+	for _, tc := range cases {
+		assetName, binaryName, err := resolveBinaryReleaseTarget(tc.goos, tc.goarch)
+		if err != nil {
+			t.Fatalf("unexpected error for %s/%s: %v", tc.goos, tc.goarch, err)
+		}
+		if assetName != tc.assetName {
+			t.Fatalf("expected asset %q for %s/%s, got %q", tc.assetName, tc.goos, tc.goarch, assetName)
+		}
+		if binaryName != tc.binaryName {
+			t.Fatalf("expected binary %q for %s/%s, got %q", tc.binaryName, tc.goos, tc.goarch, binaryName)
+		}
+	}
+}
+
+func TestResolveBinaryReleaseTargetRejectsUnsupportedPlatform(t *testing.T) {
+	if _, _, err := resolveBinaryReleaseTarget("darwin", "arm64"); err == nil {
+		t.Fatalf("expected unsupported platform error")
+	}
+}
+
+func TestPanelReleaseFindAssetByName(t *testing.T) {
+	release := panelReleaseInfo{
+		Assets: []panelReleaseAsset{
+			{Name: "daidai-linux-amd64.tar.gz", BrowserDownloadURL: "https://example.com/linux"},
+		},
+	}
+
+	asset, ok := release.findAsset("DAIDAI-LINUX-AMD64.TAR.GZ")
+	if !ok {
+		t.Fatalf("expected asset to be found case-insensitively")
+	}
+	if asset.BrowserDownloadURL != "https://example.com/linux" {
+		t.Fatalf("unexpected asset url: %s", asset.BrowserDownloadURL)
+	}
+}
+
+func TestSafeArchiveTargetPathRejectsTraversal(t *testing.T) {
+	base := t.TempDir()
+	if _, err := safeArchiveTargetPath(base, "../config.yaml"); err == nil {
+		t.Fatalf("expected traversal path to be rejected")
+	}
+	if _, err := safeArchiveTargetPath(base, "web/../../config.yaml"); err == nil {
+		t.Fatalf("expected nested traversal path to be rejected")
+	}
+}
+
+func TestSafeArchiveTargetPathAllowsNestedFile(t *testing.T) {
+	base := t.TempDir()
+	got, err := safeArchiveTargetPath(base, "web/assets/app.js")
+	if err != nil {
+		t.Fatalf("expected nested file to be allowed: %v", err)
+	}
+	want := filepath.Join(base, "web", "assets", "app.js")
+	if got != want {
+		t.Fatalf("expected %q, got %q", want, got)
+	}
+}
+
+var errContextDeadlineExceeded = errors.New("context deadline exceeded")
+
+func TestNormalizeDockerImageID(t *testing.T) {
+	valid := "sha256:" + strings.Repeat("A", 64)
+	want := "sha256:" + strings.Repeat("a", 64)
+	if got := normalizeDockerImageID(valid); got != want {
+		t.Fatalf("expected normalized digest %q, got %q", want, got)
+	}
+
+	invalidValues := []string{
+		"linzixuanzz/daidai-panel:latest",
+		"sha256:" + strings.Repeat("a", 63),
+		"sha256:" + strings.Repeat("g", 64),
+		"",
+	}
+	for _, value := range invalidValues {
+		if got := normalizeDockerImageID(value); got != "" {
+			t.Fatalf("expected invalid image id %q to be rejected, got %q", value, got)
+		}
+	}
+}
+
+func TestBuildPanelUpdateHelperScriptCleansPreviousImageAfterSuccessfulRun(t *testing.T) {
+	previousImageID := "sha256:" + strings.Repeat("b", 64)
+	plan := &panelUpdatePlan{
+		ContainerName:   "daidai-panel",
+		PreviousImageID: previousImageID,
+		RunArgs: []string{
+			"run",
+			"-d",
+			"--name",
+			"daidai-panel",
+			"linzixuanzz/daidai-panel:latest",
+		},
+	}
+
+	script := buildPanelUpdateHelperScript(plan)
+
+	statusIndex := strings.Index(script, "status=$?")
+	cleanupIndex := strings.Index(script, "docker image rm '"+previousImageID+"' >/dev/null 2>&1 || true")
+	if cleanupIndex < 0 {
+		t.Fatalf("expected helper script to clean previous image id, got:\n%s", script)
+	}
+	if statusIndex < 0 || cleanupIndex < statusIndex {
+		t.Fatalf("expected previous image cleanup after docker run status capture, got:\n%s", script)
+	}
+	if !strings.Contains(script, "if [ \"$status\" -eq 0 ]; then") {
+		t.Fatalf("expected cleanup to run only after successful container start, got:\n%s", script)
+	}
+	if !strings.Contains(script, "exit \"$status\"") {
+		t.Fatalf("expected helper script to preserve docker run exit status, got:\n%s", script)
+	}
+}
+
+func TestBuildPanelUpdateHelperScriptSkipsInvalidPreviousImageID(t *testing.T) {
+	plan := &panelUpdatePlan{
+		ContainerName:   "daidai-panel",
+		PreviousImageID: "linzixuanzz/daidai-panel:latest",
+		RunArgs:         []string{"run", "-d", "--name", "daidai-panel", "linzixuanzz/daidai-panel:latest"},
+	}
+
+	script := buildPanelUpdateHelperScript(plan)
+	if strings.Contains(script, "docker image rm") {
+		t.Fatalf("expected invalid previous image id to be ignored, got:\n%s", script)
+	}
+}
+
+func TestTriggerWatchtowerUpdateAllowsNoContentSuccess(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodPost {
+			t.Fatalf("expected POST request, got %s", r.Method)
+		}
+		if got := r.Header.Get("Authorization"); got != "Bearer demo-token" {
+			t.Fatalf("expected bearer token header, got %q", got)
+		}
+		w.WriteHeader(http.StatusNoContent)
+	}))
+	defer server.Close()
+
+	result, err := triggerWatchtowerUpdate(watchtowerRuntimeConfig{
+		Managed:                true,
+		APIURL:                 server.URL,
+		APIToken:               "demo-token",
+		ManualTriggerSupported: true,
+	})
+	if err != nil {
+		t.Fatalf("expected 204 no content to be treated as success, got %v", err)
+	}
+	if result == nil {
+		t.Fatal("expected non-nil result map on success")
+	}
+	if len(result) != 0 {
+		t.Fatalf("expected empty payload for 204 response, got %#v", result)
+	}
+}
+
+func TestTriggerWatchtowerUpdateAllowsEmpty200Body(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusOK)
+	}))
+	defer server.Close()
+
+	result, err := triggerWatchtowerUpdate(watchtowerRuntimeConfig{
+		Managed:                true,
+		APIURL:                 server.URL,
+		APIToken:               "demo-token",
+		ManualTriggerSupported: true,
+	})
+	if err != nil {
+		t.Fatalf("expected 200 empty body to be treated as success, got %v", err)
+	}
+	if result == nil {
+		t.Fatal("expected non-nil result map on success")
+	}
+	if len(result) != 0 {
+		t.Fatalf("expected empty payload for empty 200 body, got %#v", result)
+	}
+}
+
+func TestTriggerWatchtowerUpdateReturnsErrorPayloadMessage(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusBadGateway)
+		_ = json.NewEncoder(w).Encode(map[string]string{
+			"error": "watchtower upstream failed",
+		})
+	}))
+	defer server.Close()
+
+	_, err := triggerWatchtowerUpdate(watchtowerRuntimeConfig{
+		Managed:                true,
+		APIURL:                 server.URL,
+		APIToken:               "demo-token",
+		ManualTriggerSupported: true,
+	})
+	if err == nil || !strings.Contains(err.Error(), "watchtower upstream failed") {
+		t.Fatalf("expected error payload message to surface, got %v", err)
+	}
+}
+
+func TestShouldRequireDockerPanelUpdateIgnoresDockerEnvVarsOutsideContainer(t *testing.T) {
+	t.Setenv("IMAGE_NAME", "linzixuanzz/daidai-panel:latest")
+	t.Setenv("CONTAINER_NAME", "daidai-panel")
+
+	if shouldRequireDockerPanelUpdate() {
+		t.Fatal("expected docker env vars alone to not force docker-only update path outside container")
+	}
+}
+
+func TestBuildPanelUpdatePlanForReleaseFallsBackToBinaryWhenDockerEnvVarsLeak(t *testing.T) {
+	t.Setenv("IMAGE_NAME", "linzixuanzz/daidai-panel:latest")
+	t.Setenv("CONTAINER_NAME", "daidai-panel")
+
+	release := &panelReleaseInfo{
+		TagName: "v2.2.19",
+		Name:    "v2.2.19",
+		Assets: []panelReleaseAsset{
+			{
+				Name:               "daidai-windows-amd64.zip",
+				BrowserDownloadURL: "https://example.com/daidai-windows-amd64.zip",
+			},
+		},
+	}
+
+	plan, err := buildPanelUpdatePlanForRelease(release)
+	if err != nil {
+		t.Fatalf("expected binary fallback when only docker env vars leak, got %v", err)
+	}
+	if plan.DeploymentType != panelUpdateDeploymentBinary {
+		t.Fatalf("expected binary fallback plan, got %#v", plan)
+	}
+	if plan.AssetName != "daidai-windows-amd64.zip" {
+		t.Fatalf("expected windows binary asset fallback, got %#v", plan)
+	}
+}

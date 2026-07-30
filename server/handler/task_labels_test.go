@@ -1,1 +1,105 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJInNvcnQiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdEJhdGNoQWRkTGFiZWxzQXBwZW5kc0RlZHVwc0FuZEtlZXBzSW50ZXJuYWxMYWJlbHModCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbmdpbmUgOj0gbmV3UHJvdGVjdGVkUm91dGVyKCkKCXVzZXIgOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgIm9wZXJhdG9yIiwgIm9wZXJhdG9yIikKCWFjY2Vzc1Rva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgoJLy8gdGFzazHvvJrlt7LmnInmma7pgJrmoIfnrb4gKyDkuIDkuKrlhoXpg6jliIbnu4TmoIfnrb4gKyDkuIDkuKrorqLpmIXlhoXpg6jmoIfnrb7jgIIKCXRhc2sxIDo9ICZtb2RlbC5UYXNre05hbWU6ICJ0MSIsIENvbW1hbmQ6ICJlY2hvIHQxIiwgQ3JvbkV4cHJlc3Npb246ICIwIDAgKiAqICoifQoJdGFzazEuU2V0TGFiZWxzRnJvbVNsaWNlKFtdc3RyaW5neyLml6fmoIfnrb4iLCAi5YiG57uEOuW3peS9nCIsICJzdWJzY3JpcHRpb246MSJ9KQoJLy8gdGFzazLvvJrlt7LmnInkuIDkuKrkuI7lvoXov73liqDph43lpI3nmoTmoIfnrb7vvIzpqozor4Hljrvph43jgIIKCXRhc2syIDo9ICZtb2RlbC5UYXNre05hbWU6ICJ0MiIsIENvbW1hbmQ6ICJlY2hvIHQyIiwgQ3JvbkV4cHJlc3Npb246ICIwIDAgKiAqICoifQoJdGFzazIuU2V0TGFiZWxzRnJvbVNsaWNlKFtdc3RyaW5neyLmtYvor5UifSkKCWZvciBfLCB0YXNrIDo9IHJhbmdlIFtdKm1vZGVsLlRhc2t7dGFzazEsIHRhc2syfSB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJjcmVhdGUgdGFzayAlcTogJXYiLCB0YXNrLk5hbWUsIGVycikKCQl9Cgl9CgoJLy8g6K+35rGC5L2T77ya5ZCr6YeN5aSN6L6T5YWl44CM5rWL6K+V44CN44CB5ZCr5YaF6YOo5YmN57yA6L6T5YWl77yI5bqU6KKr5b+955Wl77yJ44CB5ZCr56m655m96L6T5YWl44CCCglib2R5IDo9IGZtdC5TcHJpbnRmKAoJCWB7InRhc2tfaWRzIjpbJWQsJWRdLCJsYWJlbHMiOlsi5rWL6K+VIiwi5rWL6K+VIiwiIOmHjeimgSAiLCIiLCLliIbnu4Q65rOo5YWlIiwic3Vic2NyaXB0aW9uOjk5Il19YCwKCQl0YXNrMS5JRCwgdGFzazIuSUQsCgkpCglyZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQdXQsICIvYXBpL3YxL3Rhc2tzL2JhdGNoL2FkZC1sYWJlbHMiLCBib2R5LCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIGFjY2Vzc1Rva2VuLAoJfSwgIiIpCglpZiByZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RhdHVzIDIwMCwgZ290ICVkOiAlcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglwYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgcmVjKQoJZ290LCBvayA6PSBwYXlsb2FkWyJzdWNjZXNzX2NvdW50Il0uKGZsb2F0NjQpCglpZiAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzdWNjZXNzX2NvdW50IGluIHJlc3BvbnNlLCBnb3QgJSN2IiwgcGF5bG9hZCkKCX0KCWlmIGdvdCAhPSAyIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3VjY2Vzc19jb3VudCAyLCBnb3QgJXYiLCBnb3QpCgl9CgoJLy8gdGFzazHvvJrkv53nlZnljp/mnInlhajpg6jmoIfnrb7vvIjlkKvlhoXpg6jmoIfnrb7vvInvvIzov73liqDjgIzmtYvor5XjgI3jgIzph43opoHjgI3vvIzlv73nlaXlhoXpg6jliY3nvIDovpPlhaXjgIIKCXZhciByZWxvYWRlZDEgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZDEsIHRhc2sxLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCB0YXNrMTogJXYiLCBlcnIpCgl9Cglhc3NlcnRMYWJlbFNldCh0LCByZWxvYWRlZDEuR2V0TGFiZWxzKCksIFtdc3RyaW5neyLml6fmoIfnrb4iLCAi5YiG57uEOuW3peS9nCIsICJzdWJzY3JpcHRpb246MSIsICLmtYvor5UiLCAi6YeN6KaBIn0pCgoJLy8gdGFzazLvvJrljp/mnInjgIzmtYvor5XjgI3kuI3ph43lpI3vvIzov73liqDjgIzph43opoHjgI3jgIIKCXZhciByZWxvYWRlZDIgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZDIsIHRhc2syLklEKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlbG9hZCB0YXNrMjogJXYiLCBlcnIpCgl9Cglhc3NlcnRMYWJlbFNldCh0LCByZWxvYWRlZDIuR2V0TGFiZWxzKCksIFtdc3RyaW5neyLmtYvor5UiLCAi6YeN6KaBIn0pCn0KCmZ1bmMgVGVzdEJhdGNoQWRkTGFiZWxzUmVqZWN0c1doZW5Ob1ZhbGlkTGFiZWxzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJvcGVyYXRvciIsICJvcGVyYXRvciIpCglhY2Nlc3NUb2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoKCXRhc2sgOj0gJm1vZGVsLlRhc2t7TmFtZTogInQiLCBDb21tYW5kOiAiZWNobyB0IiwgQ3JvbkV4cHJlc3Npb246ICIwIDAgKiAqICoifQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh0YXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrOiAldiIsIGVycikKCX0KCgkvLyDlhajpg6jmmK/lhoXpg6jliY3nvIAv56m655m977yM5peg5pyJ5pWI5qCH562+IOKGkiA0MDDjgIIKCWJvZHkgOj0gZm10LlNwcmludGYoYHsidGFza19pZHMiOlslZF0sImxhYmVscyI6WyIiLCLliIbnu4Q6eCIsInN1YnNjcmlwdGlvbjoxIl19YCwgdGFzay5JRCkKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFB1dCwgIi9hcGkvdjEvdGFza3MvYmF0Y2gvYWRkLWxhYmVscyIsIGJvZHksIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYWNjZXNzVG9rZW4sCgl9LCAiIikKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0YXR1cyA0MDAsIGdvdCAlZDogJXMiLCByZWMuQ29kZSwgcmVjLkJvZHkuU3RyaW5nKCkpCgl9Cn0KCmZ1bmMgYXNzZXJ0TGFiZWxTZXQodCAqdGVzdGluZy5ULCBnb3QsIHdhbnQgW11zdHJpbmcpIHsKCXQuSGVscGVyKCkKCWdvdFNvcnRlZCA6PSBhcHBlbmQoW11zdHJpbmcobmlsKSwgZ290Li4uKQoJd2FudFNvcnRlZCA6PSBhcHBlbmQoW11zdHJpbmcobmlsKSwgd2FudC4uLikKCXNvcnQuU3RyaW5ncyhnb3RTb3J0ZWQpCglzb3J0LlN0cmluZ3Mod2FudFNvcnRlZCkKCWlmIGxlbihnb3RTb3J0ZWQpICE9IGxlbih3YW50U29ydGVkKSB7CgkJdC5GYXRhbGYoImxhYmVsIHNldCBtaXNtYXRjaDogZ290ICV2LCB3YW50ICV2IiwgZ290LCB3YW50KQoJfQoJZm9yIGkgOj0gcmFuZ2UgZ290U29ydGVkIHsKCQlpZiBnb3RTb3J0ZWRbaV0gIT0gd2FudFNvcnRlZFtpXSB7CgkJCXQuRmF0YWxmKCJsYWJlbCBzZXQgbWlzbWF0Y2g6IGdvdCAldiwgd2FudCAldiIsIGdvdCwgd2FudCkKCQl9Cgl9Cn0K
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"sort"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestBatchAddLabelsAppendsDedupsAndKeepsInternalLabels(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "operator", "operator")
+	accessToken := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	// task1：已有普通标签 + 一个内部分组标签 + 一个订阅内部标签。
+	task1 := &model.Task{Name: "t1", Command: "echo t1", CronExpression: "0 0 * * *"}
+	task1.SetLabelsFromSlice([]string{"旧标签", "分组:工作", "subscription:1"})
+	// task2：已有一个与待追加重复的标签，验证去重。
+	task2 := &model.Task{Name: "t2", Command: "echo t2", CronExpression: "0 0 * * *"}
+	task2.SetLabelsFromSlice([]string{"测试"})
+	for _, task := range []*model.Task{task1, task2} {
+		if err := database.DB.Create(task).Error; err != nil {
+			t.Fatalf("create task %q: %v", task.Name, err)
+		}
+	}
+
+	// 请求体：含重复输入「测试」、含内部前缀输入（应被忽略）、含空白输入。
+	body := fmt.Sprintf(
+		`{"task_ids":[%d,%d],"labels":["测试","测试"," 重要 ","","分组:注入","subscription:99"]}`,
+		task1.ID, task2.ID,
+	)
+	rec := performJSONRequest(engine, http.MethodPut, "/api/v1/tasks/batch/add-labels", body, map[string]string{
+		"Authorization": "Bearer " + accessToken,
+	}, "")
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected status 200, got %d: %s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	got, ok := payload["success_count"].(float64)
+	if !ok {
+		t.Fatalf("expected success_count in response, got %#v", payload)
+	}
+	if got != 2 {
+		t.Fatalf("expected success_count 2, got %v", got)
+	}
+
+	// task1：保留原有全部标签（含内部标签），追加「测试」「重要」，忽略内部前缀输入。
+	var reloaded1 model.Task
+	if err := database.DB.First(&reloaded1, task1.ID).Error; err != nil {
+		t.Fatalf("reload task1: %v", err)
+	}
+	assertLabelSet(t, reloaded1.GetLabels(), []string{"旧标签", "分组:工作", "subscription:1", "测试", "重要"})
+
+	// task2：原有「测试」不重复，追加「重要」。
+	var reloaded2 model.Task
+	if err := database.DB.First(&reloaded2, task2.ID).Error; err != nil {
+		t.Fatalf("reload task2: %v", err)
+	}
+	assertLabelSet(t, reloaded2.GetLabels(), []string{"测试", "重要"})
+}
+
+func TestBatchAddLabelsRejectsWhenNoValidLabels(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "operator", "operator")
+	accessToken := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	task := &model.Task{Name: "t", Command: "echo t", CronExpression: "0 0 * * *"}
+	if err := database.DB.Create(task).Error; err != nil {
+		t.Fatalf("create task: %v", err)
+	}
+
+	// 全部是内部前缀/空白，无有效标签 → 400。
+	body := fmt.Sprintf(`{"task_ids":[%d],"labels":["","分组:x","subscription:1"]}`, task.ID)
+	rec := performJSONRequest(engine, http.MethodPut, "/api/v1/tasks/batch/add-labels", body, map[string]string{
+		"Authorization": "Bearer " + accessToken,
+	}, "")
+	if rec.Code != http.StatusBadRequest {
+		t.Fatalf("expected status 400, got %d: %s", rec.Code, rec.Body.String())
+	}
+}
+
+func assertLabelSet(t *testing.T, got, want []string) {
+	t.Helper()
+	gotSorted := append([]string(nil), got...)
+	wantSorted := append([]string(nil), want...)
+	sort.Strings(gotSorted)
+	sort.Strings(wantSorted)
+	if len(gotSorted) != len(wantSorted) {
+		t.Fatalf("label set mismatch: got %v, want %v", got, want)
+	}
+	for i := range gotSorted {
+		if gotSorted[i] != wantSorted[i] {
+			t.Fatalf("label set mismatch: got %v, want %v", got, want)
+		}
+	}
+}

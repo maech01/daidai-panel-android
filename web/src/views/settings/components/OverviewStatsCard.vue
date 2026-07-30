@@ -1,1 +1,105 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEluZm9GaWxsZWQgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKCmRlZmluZVByb3BzPHsKICBzeXN0ZW1TdGF0czogYW55Cn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgY2xhc3M9InN0YXRzLWNhcmQiIHYtaWY9InN5c3RlbVN0YXRzIj4KICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJjYXJkLWhlYWRlciI+CiAgICAgICAgPHNwYW4gY2xhc3M9ImNhcmQtdGl0bGUiPjxlbC1pY29uPjxJbmZvRmlsbGVkIC8+PC9lbC1pY29uPiDns7vnu5/mpoLlhrU8L3NwYW4+CiAgICAgIDwvZGl2PgogICAgPC90ZW1wbGF0ZT4KICAgIDxkaXYgY2xhc3M9Im92ZXJ2aWV3LXN0YXRzLWdyaWQiPgogICAgICA8ZGl2IGNsYXNzPSJvcy1pdGVtIj4KICAgICAgICA8ZGl2IGNsYXNzPSJvcy1sYWJlbCI+5Lu75Yqh5oC75pWwPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ib3MtdmFsdWUiPnt7IHN5c3RlbVN0YXRzLnRhc2tzPy50b3RhbCB8fCAwIH19PC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJvcy1pdGVtIj4KICAgICAgICA8ZGl2IGNsYXNzPSJvcy1sYWJlbCI+5bey5ZCv55SoPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ib3MtdmFsdWUgY29sb3Itc3VjY2VzcyI+e3sgc3lzdGVtU3RhdHMudGFza3M/LmVuYWJsZWQgfHwgMCB9fTwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ib3MtaXRlbSI+CiAgICAgICAgPGRpdiBjbGFzcz0ib3MtbGFiZWwiPui/kOihjOS4rTwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9Im9zLXZhbHVlIGNvbG9yLXdhcm5pbmciPnt7IHN5c3RlbVN0YXRzLnRhc2tzPy5ydW5uaW5nIHx8IDAgfX08L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9Im9zLWl0ZW0iPgogICAgICAgIDxkaXYgY2xhc3M9Im9zLWxhYmVsIj7miafooYzml6Xlv5c8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJvcy12YWx1ZSI+e3sgc3lzdGVtU3RhdHMubG9ncz8udG90YWwgfHwgMCB9fTwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0ib3MtaXRlbSI+CiAgICAgICAgPGRpdiBjbGFzcz0ib3MtbGFiZWwiPuaIkOWKn+eOhzwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9Im9zLXZhbHVlIGNvbG9yLXN1Y2Nlc3MiPnt7IChzeXN0ZW1TdGF0cy5sb2dzPy5zdWNjZXNzX3JhdGUgfHwgMCkudG9GaXhlZCgxKSB9fSU8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxkaXYgY2xhc3M9Im9zLWl0ZW0iPgogICAgICAgIDxkaXYgY2xhc3M9Im9zLWxhYmVsIj7ohJrmnKzmlbA8L2Rpdj4KICAgICAgICA8ZGl2IGNsYXNzPSJvcy12YWx1ZSI+e3sgc3lzdGVtU3RhdHMuc2NyaXB0cz8udG90YWwgfHwgMCB9fTwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogIDwvZWwtY2FyZD4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+CkB1c2UgJy4vY29uZmlnLWNhcmQtc2hhcmVkLnNjc3MnIGFzICo7Cgouc3RhdHMtY2FyZCB7CiAgLy8g5ZyG6KeSL+mYtOW9seWvuem9kOiuvuiuoeS7pOeJjO+8iOWOn+WGmeatu+mYtOW9seWcqOaal+iJsuS4i+S4jeS8muWPmOa3se+8jOe7n+S4gOS4uiAtLWRkLXNoYWRvdy1jYXJk77yJCiAgYm9yZGVyLXJhZGl1czogdmFyKC0tZGQtY2FyZC1yYWRpdXMpOwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodGVyKTsKICBib3gtc2hhZG93OiB2YXIoLS1kZC1zaGFkb3ctY2FyZCk7CiAgaGVpZ2h0OiAxMDAlOwp9Cgoub3ZlcnZpZXctc3RhdHMtZ3JpZCB7CiAgZGlzcGxheTogZ3JpZDsKICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IHJlcGVhdCgzLCAxZnIpOwogIHRleHQtYWxpZ246IGNlbnRlcjsKICBnYXA6IDEwcHg7Cn0KCi5vcy1pdGVtIHsKICBwYWRkaW5nOiAxOHB4IDEwcHg7CiAgYm9yZGVyLXJhZGl1czogMTJweDsKICB0cmFuc2l0aW9uOiBiYWNrZ3JvdW5kIDAuMThzLCB0cmFuc2Zvcm0gMC4xOHM7CiAgYmFja2dyb3VuZDogdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCk7CgogICY6aG92ZXIgewogICAgYmFja2dyb3VuZDogY29sb3ItbWl4KGluIHNyZ2IsIHZhcigtLWVsLWNvbG9yLXByaW1hcnkpIDYlLCB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0KSk7CiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoLTFweCk7CiAgfQp9Cgoub3MtbGFiZWwgewogIGZvbnQtc2l6ZTogMTNweDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogIG1hcmdpbi1ib3R0b206IDhweDsKICBmb250LXdlaWdodDogNTAwOwp9Cgoub3MtdmFsdWUgewogIGZvbnQtc2l6ZTogMjRweDsKICBmb250LXdlaWdodDogNzAwOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwogIGZvbnQtZmFtaWx5OiAnSW50ZXInLCB2YXIoLS1kZC1mb250LXVpKSwgc2Fucy1zZXJpZjsKICBmb250LXZhcmlhbnQtbnVtZXJpYzogdGFidWxhci1udW1zOwogIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkOwogIGxldHRlci1zcGFjaW5nOiAtMC4wMWVtOwp9CgouY29sb3Itc3VjY2VzcyB7CiAgY29sb3I6ICMxMGI5ODE7Cn0KCi5jb2xvci13YXJuaW5nIHsKICBjb2xvcjogI2Y1OWUwYjsKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLm92ZXJ2aWV3LXN0YXRzLWdyaWQgewogICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMiwgMWZyKTsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { InfoFilled } from '@element-plus/icons-vue'
+
+defineProps<{
+  systemStats: any
+}>()
+</script>
+
+<template>
+  <el-card shadow="never" class="stats-card" v-if="systemStats">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><InfoFilled /></el-icon> 系统概况</span>
+      </div>
+    </template>
+    <div class="overview-stats-grid">
+      <div class="os-item">
+        <div class="os-label">任务总数</div>
+        <div class="os-value">{{ systemStats.tasks?.total || 0 }}</div>
+      </div>
+      <div class="os-item">
+        <div class="os-label">已启用</div>
+        <div class="os-value color-success">{{ systemStats.tasks?.enabled || 0 }}</div>
+      </div>
+      <div class="os-item">
+        <div class="os-label">运行中</div>
+        <div class="os-value color-warning">{{ systemStats.tasks?.running || 0 }}</div>
+      </div>
+      <div class="os-item">
+        <div class="os-label">执行日志</div>
+        <div class="os-value">{{ systemStats.logs?.total || 0 }}</div>
+      </div>
+      <div class="os-item">
+        <div class="os-label">成功率</div>
+        <div class="os-value color-success">{{ (systemStats.logs?.success_rate || 0).toFixed(1) }}%</div>
+      </div>
+      <div class="os-item">
+        <div class="os-label">脚本数</div>
+        <div class="os-value">{{ systemStats.scripts?.total || 0 }}</div>
+      </div>
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.stats-card {
+  // 圆角/阴影对齐设计令牌（原写死阴影在暗色下不会变深，统一为 --dd-shadow-card）
+  border-radius: var(--dd-card-radius);
+  border: 1px solid var(--el-border-color-lighter);
+  box-shadow: var(--dd-shadow-card);
+  height: 100%;
+}
+
+.overview-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 10px;
+}
+
+.os-item {
+  padding: 18px 10px;
+  border-radius: 12px;
+  transition: background 0.18s, transform 0.18s;
+  background: var(--el-fill-color-light);
+
+  &:hover {
+    background: color-mix(in srgb, var(--el-color-primary) 6%, var(--el-fill-color-light));
+    transform: translateY(-1px);
+  }
+}
+
+.os-label {
+  font-size: 13px;
+  color: var(--el-text-color-secondary);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.os-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--el-text-color-primary);
+  font-family: 'Inter', var(--dd-font-ui), sans-serif;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: -0.01em;
+}
+
+.color-success {
+  color: #10b981;
+}
+
+.color-warning {
+  color: #f59e0b;
+}
+
+@media (max-width: 768px) {
+  .overview-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+</style>

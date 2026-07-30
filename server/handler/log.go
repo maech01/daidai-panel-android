@@ -1,1 +1,272 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJpbyIKCSJzdHJjb252IgoJInN0cmluZ3MiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21pZGRsZXdhcmUiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgkiZGFpZGFpLXBhbmVsL3NlcnZpY2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKdHlwZSBMb2dIYW5kbGVyIHN0cnVjdHt9CgpmdW5jIE5ld0xvZ0hhbmRsZXIoKSAqTG9nSGFuZGxlciB7CglyZXR1cm4gJkxvZ0hhbmRsZXJ7fQp9CgpmdW5jIChoICpMb2dIYW5kbGVyKSBMaXN0KGMgKmdpbi5Db250ZXh0KSB7Cgl0YXNrSURTdHIgOj0gYy5RdWVyeSgidGFza19pZCIpCglzdGF0dXNTdHIgOj0gYy5RdWVyeSgic3RhdHVzIikKCWtleXdvcmQgOj0gYy5RdWVyeSgia2V5d29yZCIpCglwYWdlLCBfIDo9IHN0cmNvbnYuQXRvaShjLkRlZmF1bHRRdWVyeSgicGFnZSIsICIxIikpCglwYWdlU2l6ZSwgXyA6PSBzdHJjb252LkF0b2koYy5EZWZhdWx0UXVlcnkoInBhZ2Vfc2l6ZSIsICIyMCIpKQoKCWlmIHBhZ2UgPCAxIHsKCQlwYWdlID0gMQoJfQoJaWYgcGFnZVNpemUgPCAxIHx8IHBhZ2VTaXplID4gMTAwIHsKCQlwYWdlU2l6ZSA9IDIwCgl9CgoJcXVlcnkgOj0gZGF0YWJhc2UuREIuTW9kZWwoJm1vZGVsLlRhc2tMb2d7fSkuCgkJSm9pbnMoIkxFRlQgSk9JTiB0YXNrcyBPTiB0YXNrcy5pZCA9IHRhc2tfbG9ncy50YXNrX2lkIikKCglpZiB0YXNrSURTdHIgIT0gIiIgewoJCXRhc2tJRCwgXyA6PSBzdHJjb252LlBhcnNlVWludCh0YXNrSURTdHIsIDEwLCAzMikKCQlxdWVyeSA9IHF1ZXJ5LldoZXJlKCJ0YXNrX2xvZ3MudGFza19pZCA9ID8iLCB0YXNrSUQpCgl9CglpZiBzdGF0dXNTdHIgIT0gIiIgewoJCXN0YXR1cywgZXJyIDo9IHN0cmNvbnYuQXRvaShzdGF0dXNTdHIpCgkJaWYgZXJyID09IG5pbCB7CgkJCXF1ZXJ5ID0gcXVlcnkuV2hlcmUoInRhc2tfbG9ncy5zdGF0dXMgPSA/Iiwgc3RhdHVzKQoJCX0KCX0KCWlmIGtleXdvcmQgIT0gIiIgewoJCXF1ZXJ5ID0gcXVlcnkuV2hlcmUoInRhc2tzLm5hbWUgTElLRSA/IiwgIiUiK2tleXdvcmQrIiUiKQoJfQoKCXZhciB0b3RhbCBpbnQ2NAoJcXVlcnkuQ291bnQoJnRvdGFsKQoKCXZhciBsb2dzIFtdbW9kZWwuVGFza0xvZwoJcXVlcnkuU2VsZWN0KCJ0YXNrX2xvZ3MuKiIpLgoJCVByZWxvYWQoIlRhc2siKS4KCQlPcmRlcigidGFza19sb2dzLnN0YXJ0ZWRfYXQgREVTQyIpLgoJCU9mZnNldCgocGFnZSAtIDEpICogcGFnZVNpemUpLkxpbWl0KHBhZ2VTaXplKS5GaW5kKCZsb2dzKQoKCWRhdGEgOj0gbWFrZShbXW1hcFtzdHJpbmddaW50ZXJmYWNle30sIGxlbihsb2dzKSkKCWZvciBpLCBsIDo9IHJhbmdlIGxvZ3MgewoJCWRhdGFbaV0gPSBsLlRvRGljdCgpCgl9CgoJcmVzcG9uc2UuUGFnaW5hdGVkKGMsIGRhdGEsIHRvdGFsLCBwYWdlLCBwYWdlU2l6ZSkKfQoKZnVuYyAoaCAqTG9nSGFuZGxlcikgU3RyZWFtKGMgKmdpbi5Db250ZXh0KSB7Cgl0YXNrSURTdHIgOj0gYy5QYXJhbSgiaWQiKQoJdGFza0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KHRhc2tJRFN0ciwgMTAsIDMyKQoKCWMuSGVhZGVyKCJDb250ZW50LVR5cGUiLCAidGV4dC9ldmVudC1zdHJlYW0iKQoJYy5IZWFkZXIoIkNhY2hlLUNvbnRyb2wiLCAibm8tY2FjaGUiKQoJYy5IZWFkZXIoIkNvbm5lY3Rpb24iLCAia2VlcC1hbGl2ZSIpCgljLkhlYWRlcigiWC1BY2NlbC1CdWZmZXJpbmciLCAibm8iKQoKCW1nciA6PSBzZXJ2aWNlLkdldFRpbnlMb2dNYW5hZ2VyKCkKCXRsIDo9IG1nci5GaW5kQnlUYXNrSUQodWludCh0YXNrSUQpKQoKCWlmIHRsICE9IG5pbCB7CgkJaGlzdG9yeSwgXyA6PSB0bC5SZWFkQWxsKCkKCQlpZiBsZW4oaGlzdG9yeSkgPiAwIHsKCQkJd3JpdGVTU0VEYXRhKGMuV3JpdGVyLCBzdHJpbmcoaGlzdG9yeSkpCgkJCWMuV3JpdGVyLkZsdXNoKCkKCQl9CgoJCXN1YiA6PSB0bC5TdWJzY3JpYmUoKQoJCWRlZmVyIHRsLlVuc3Vic2NyaWJlKHN1YikKCgkJY3R4IDo9IGMuUmVxdWVzdC5Db250ZXh0KCkKCQlmb3IgewoJCQlzZWxlY3QgewoJCQljYXNlIGRhdGEsIG9rIDo9IDwtc3ViOgoJCQkJaWYgIW9rIHsKCQkJCQlmbXQuRnByaW50ZihjLldyaXRlciwgImV2ZW50OiBkb25lXG5kYXRhOiBmaW5pc2hlZFxuXG4iKQoJCQkJCWMuV3JpdGVyLkZsdXNoKCkKCQkJCQlyZXR1cm4KCQkJCX0KCQkJCXdyaXRlU1NFRGF0YShjLldyaXRlciwgc3RyaW5nKGRhdGEpKQoJCQkJYy5Xcml0ZXIuRmx1c2goKQoJCQljYXNlIDwtY3R4LkRvbmUoKToKCQkJCXJldHVybgoJCQljYXNlIDwtdGltZS5BZnRlcigzMCAqIHRpbWUuU2Vjb25kKToKCQkJCS8vIOmdmem7mCAzMHMg5LiN5Luj6KGo5Lu75Yqh57uT5p2f77yI5oWi5o6l5Y+jL+mVv+iuoeeuly/kuIvovb0vc2xlZXAg6YO95Lya5peg6L6T5Ye677yJ44CCCgkJCQkvLyDov5nph4zlj5HkuIDmnaEgU1NFIGtlZXBhbGl2ZSDms6jph4rlv4Pot7Plubbnu6fnu63kv53mjIHov57mjqXvvIjkuI0gcmV0dXJu77yJ77yaCgkJCQkvLyAgIC0g57u05oyB6ZW/6L+e5o6l77yM6YG/5YWN5Y+N5LujL+e9keWFs+epuumXsui2heaXtuS4u+WKqOaWreW8gO+8mwoJCQkJLy8gICAtIOS4jeWGjeaWreW8gOmHjei/numHjeWPkeaVtOauteWOhuWPsu+8jOa2iOmZpOWuiemdmeS7u+WKoeeahOWRqOacn+aAp+WFqOmHj+mHjea4suafk+WNoemhv++8mwoJCQkJLy8gICAtIOS7u+WKoeecn+ato+e7k+adn+aXtiBzdWIg6YCa6YGT5Lya5YWz6Zet77yM6Ieq54S26LWw5LiK6Z2i5bey5pyJ55qEIGRvbmU6ZmluaXNoZWQg5YiG5pSv44CCCgkJCQkvLyDliY3nq68gc3NlLnRzIGRpc3BhdGNoRXZlbnRTZWdtZW50IOWvuSAiOiIg5byA5aS055qE6KGM55u05o6lIGNvbnRpbnVl77yM5rOo6YeK5b+D6Lez5piv5peg5Ymv5L2c55SoIG5vLW9w44CCCgkJCQlmbXQuRnByaW50ZihjLldyaXRlciwgIjoga2VlcGFsaXZlXG5cbiIpCgkJCQljLldyaXRlci5GbHVzaCgpCgkJCX0KCQl9Cgl9CgoJdmFyIHRhc2sgbW9kZWwuVGFzawoJZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIHRhc2tJRCkKCWlmIHRhc2suU3RhdHVzICE9IG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nIHsKCQl0aW1lLlNsZWVwKDE1MDAgKiB0aW1lLk1pbGxpc2Vjb25kKQoJCXRsID0gbWdyLkZpbmRCeVRhc2tJRCh1aW50KHRhc2tJRCkpCgkJaWYgdGwgIT0gbmlsIHsKCQkJaGlzdG9yeSwgXyA6PSB0bC5SZWFkQWxsKCkKCQkJaWYgbGVuKGhpc3RvcnkpID4gMCB7CgkJCQl3cml0ZVNTRURhdGEoYy5Xcml0ZXIsIHN0cmluZyhoaXN0b3J5KSkKCQkJCWMuV3JpdGVyLkZsdXNoKCkKCQkJfQoJCX0KCQkvLyDlkK/liqjnq57mgIHvvJrmiZPlvIDml6Xlv5fnqpfml7bku7vliqHlj6/og73liJrlhaXpmJ/jgIFydW5UYXNrIOWwmuacque9rui/kOihjOS4rS/mnKrlu7ogVGlueUxvZ+OAggoJCS8vIHNsZWVwIOWQjumHjeafpeecn+WunueKtuaAge+8jOiLpeW3suW8gOWni+i/kOihjCDihpIgcmVjb25uZWN077yI5YmN56uv6YeN6L+e5ZCO6L+b5YWlIHRsICE9IG5pbCDmtYHlvI/liIbmlK/vvInvvIzlkKbliJnmiY3liKTlrozmiJDjgIIKCQl2YXIgdCBtb2RlbC5UYXNrCgkJZGF0YWJhc2UuREIuU2VsZWN0KCJzdGF0dXMiKS5GaXJzdCgmdCwgdGFza0lEKQoJCWZtdC5GcHJpbnRmKGMuV3JpdGVyLCAiZXZlbnQ6IGRvbmVcbmRhdGE6ICVzXG5cbiIsIHN0cmVhbURvbmVFdmVudEZvclN0YXR1cyh0LlN0YXR1cykpCgkJYy5Xcml0ZXIuRmx1c2goKQoJfSBlbHNlIHsKCQlpZGxlQ291bnQgOj0gMAoJCWMuU3RyZWFtKGZ1bmModyBpby5Xcml0ZXIpIGJvb2wgewoJCQl0bCA9IG1nci5GaW5kQnlUYXNrSUQodWludCh0YXNrSUQpKQoJCQlpZiB0bCAhPSBuaWwgewoJCQkJaGlzdG9yeSwgXyA6PSB0bC5SZWFkQWxsKCkKCQkJCWlmIGxlbihoaXN0b3J5KSA+IDAgewoJCQkJCXdyaXRlU1NFRGF0YSh3LCBzdHJpbmcoaGlzdG9yeSkpCgkJCQkJYy5Xcml0ZXIuRmx1c2goKQoJCQkJfQoJCQkJZm10LkZwcmludGYodywgImV2ZW50OiBkb25lXG5kYXRhOiByZWNvbm5lY3RcblxuIikKCQkJCWMuV3JpdGVyLkZsdXNoKCkKCQkJCXJldHVybiBmYWxzZQoJCQl9CgoJCQlpZGxlQ291bnQrKwoJCQlpZiBpZGxlQ291bnQgPj0gMTIwIHsKCQkJCS8vIOetiea7oee6piA2MHPvvIgxMjAgKiA1MDBtc++8iVRpbnlMb2cg5aeL57uI5pyq5Ye6546w77ya6K+l5Lu75Yqh5rKh5pyJ5Y+v5rWB5byP55qE5a6e5pe25pel5b+XCgkJCQkvLyDvvIjlhbjlnovkuLogY29uYyAvIFN1cHByZXNzTGl2ZU91dHB1dCDmipHliLbovpPlh7rnmoTov5DooYzku7vliqHvvInjgILmraTlpITnm7TmjqXlj5EgZmluaXNoZWTvvIwKCQkJCS8vIOS4jeWGjeeUqCBzdHJlYW1Eb25lRXZlbnRGb3JTdGF0dXMg4oCU4oCUIOWQpuWImSBzdGF0dXM9PXJ1bm5pbmcg5Lya5ZueIHJlY29ubmVjdO+8jAoJCQkJLy8g6ICM5YmN56uv6YeN6L+e5ZCO5LuN5pivIHRsPT1uaWzvvIw2MHMg5ZCO5Y+I6LaF5pe277yM5b2i5oiQ5peg5Y+v57ut5rWB55qE5peg6ZmQ6YeN6L+e6aOO5pq044CCCgkJCQlmbXQuRnByaW50Zih3LCAiZXZlbnQ6IGRvbmVcbmRhdGE6IGZpbmlzaGVkXG5cbiIpCgkJCQljLldyaXRlci5GbHVzaCgpCgkJCQlyZXR1cm4gZmFsc2UKCQkJfQoKCQkJdGltZS5TbGVlcCg1MDAgKiB0aW1lLk1pbGxpc2Vjb25kKQoJCQlyZXR1cm4gdHJ1ZQoJCX0pCgl9Cn0KCmZ1bmMgd3JpdGVTU0VEYXRhKHcgaW8uV3JpdGVyLCBkYXRhIHN0cmluZykgewoJLy8gU1NFIOWIhuW4p+WPqumcgOimgeS/neivgeavj+S4qiBkYXRhOiDooYzmnKzouqvkuI3ot6jniannkIbmjaLooYzjgIIKCS8vIOi/memHjOS/neeVmeijuCBccu+8jOmBv+WFjee7iOerr+i/m+W6puadoeeahOimhuebluWIt+aWsOivreS5ieWcqOS8oOi+k+Wxguiiq+aKueaOieOAggoJZGF0YSA9IHN0cmluZ3MuUmVwbGFjZUFsbChkYXRhLCAiXHJcbiIsICJcbiIpCglmb3IgXywgbGluZSA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KGRhdGEsICJcbiIpIHsKCQlmbXQuRnByaW50Zih3LCAiZGF0YTogJXNcbiIsIGxpbmUpCgl9CglmbXQuRnByaW50KHcsICJcbiIpCn0KCi8vIHN0cmVhbURvbmVFdmVudEZvclN0YXR1cyDmoLnmja7ku7vliqHnnJ/lrp7nirbmgIHlhrPlrpogU1NFIGRvbmUg5LqL5Lu255qEIGRhdGEg5YC844CCCi8vIOS7u+WKoeS7jeWcqOi/kOihjCDihpIgInJlY29ubmVjdCLvvIzorqnliY3nq68gTG9nVmlld2VyIOaXoOe8nemHjei/nue7rea1ge+8jOmBv+WFjeivr+WIpCLlt7LlrozmiJAi77ybCi8vIOWFtuWug+eKtuaAge+8iOW3sue7k+adny/mjpLpmJ8v56aB55So562J77yJ4oaSICJmaW5pc2hlZCLvvIzliY3nq6/mraPluLjnva7kuLoi5bey5a6M5oiQIuOAggpmdW5jIHN0cmVhbURvbmVFdmVudEZvclN0YXR1cyhzdGF0dXMgZmxvYXQ2NCkgc3RyaW5nIHsKCWlmIHN0YXR1cyA9PSBtb2RlbC5UYXNrU3RhdHVzUnVubmluZyB7CgkJcmV0dXJuICJyZWNvbm5lY3QiCgl9CglyZXR1cm4gImZpbmlzaGVkIgp9CgpmdW5jIChoICpMb2dIYW5kbGVyKSBEZXRhaWwoYyAqZ2luLkNvbnRleHQpIHsKCWxvZ0lELCBfIDo9IHN0cmNvbnYuUGFyc2VVaW50KGMuUGFyYW0oImlkIiksIDEwLCAzMikKCgl2YXIgdGFza0xvZyBtb2RlbC5UYXNrTG9nCglpZiBlcnIgOj0gZGF0YWJhc2UuREIuUHJlbG9hZCgiVGFzayIpLkZpcnN0KCZ0YXNrTG9nLCBsb2dJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLml6Xlv5fkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoKCXJlc3VsdCA6PSB0YXNrTG9nLlRvRGljdCgpCglpZiB0YXNrTG9nLkNvbnRlbnQgIT0gIiIgewoJCWRlY29tcHJlc3NlZCwgZXJyIDo9IHNlcnZpY2UuRGVjb21wcmVzc0Zyb21CYXNlNjQodGFza0xvZy5Db250ZW50KQoJCWlmIGVyciA9PSBuaWwgewoJCQlyZXN1bHRbImNvbnRlbnQiXSA9IGRlY29tcHJlc3NlZAoJCX0KCX0gZWxzZSBpZiB0YXNrTG9nLkxvZ1BhdGggIT0gbmlsIHsKCQljb250ZW50LCBlcnIgOj0gc2VydmljZS5SZWFkTG9nRmlsZSgqdGFza0xvZy5Mb2dQYXRoLCBjb25maWcuQy5EYXRhLkxvZ0RpcikKCQlpZiBlcnIgPT0gbmlsIHsKCQkJcmVzdWx0WyJjb250ZW50Il0gPSBjb250ZW50CgkJfQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgcmVzdWx0KQp9CgpmdW5jIChoICpMb2dIYW5kbGVyKSBEZWxldGUoYyAqZ2luLkNvbnRleHQpIHsKCWxvZ0lELCBlcnIgOj0gc3RyY29udi5QYXJzZVVpbnQoYy5QYXJhbSgiaWQiKSwgMTAsIDMyKQoJaWYgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuQmFkUmVxdWVzdChjLCAi5peg5pWI55qE5pel5b+XSUQiKQoJCXJldHVybgoJfQoJcmVzdWx0IDo9IGRhdGFiYXNlLkRCLldoZXJlKCJpZCA9ID8iLCBsb2dJRCkuRGVsZXRlKCZtb2RlbC5UYXNrTG9ne30pCglpZiByZXN1bHQuUm93c0FmZmVjdGVkID09IDAgewoJCXJlc3BvbnNlLk5vdEZvdW5kKGMsICLml6Xlv5fkuI3lrZjlnKgiKQoJCXJldHVybgoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsibWVzc2FnZSI6ICLml6Xlv5flt7LliKDpmaQifSkKfQoKZnVuYyAoaCAqTG9nSGFuZGxlcikgQmF0Y2hEZWxldGUoYyAqZ2luLkNvbnRleHQpIHsKCXZhciByZXEgc3RydWN0IHsKCQlJRHMgW111aW50IGBqc29uOiJpZHMiIGJpbmRpbmc6InJlcXVpcmVkImAKCX0KCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHx8IGxlbihyZXEuSURzKSA9PSAwIHsKCQlyZXNwb25zZS5CYWRSZXF1ZXN0KGMsICLor7fmsYLlj4LmlbDplJnor68iKQoJCXJldHVybgoJfQoKCXJlc3VsdCA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiaWQgSU4gPyIsIHJlcS5JRHMpLkRlbGV0ZSgmbW9kZWwuVGFza0xvZ3t9KQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsKCQkibWVzc2FnZSI6IGZtdC5TcHJpbnRmKCLlt7LliKDpmaQgJWQg5p2h5pel5b+XIiwgcmVzdWx0LlJvd3NBZmZlY3RlZCksCgl9KQp9CgpmdW5jIChoICpMb2dIYW5kbGVyKSBDbGVhbihjICpnaW4uQ29udGV4dCkgewoJZGVmYXVsdERheXMgOj0gbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZ0ludCgibG9nX3JldGVudGlvbl9kYXlzIikKCWRheXNTdHIgOj0gYy5EZWZhdWx0UXVlcnkoImRheXMiLCBzdHJjb252Lkl0b2EoZGVmYXVsdERheXMpKQoJZGF5cywgXyA6PSBzdHJjb252LkF0b2koZGF5c1N0cikKCWlmIGRheXMgPCAxIHsKCQlkYXlzID0gZGVmYXVsdERheXMKCX0KCgljdXRvZmYgOj0gdGltZS5Ob3coKS5BZGREYXRlKDAsIDAsIC1kYXlzKQoJcmVzdWx0IDo9IGRhdGFiYXNlLkRCLldoZXJlKCJzdGFydGVkX2F0IDwgPyIsIGN1dG9mZikuRGVsZXRlKCZtb2RlbC5UYXNrTG9ne30pCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IewoJCSJtZXNzYWdlIjogZm10LlNwcmludGYoIuW3sua4heeQhiAlZCDmnaHml6Xlv5fvvIjkv53nlZnmnIDov5EgJWQg5aSp77yJIiwgcmVzdWx0LlJvd3NBZmZlY3RlZCwgZGF5cyksCgl9KQp9CgpmdW5jIChoICpMb2dIYW5kbGVyKSBSZWdpc3RlclJvdXRlcyhyICpnaW4uUm91dGVyR3JvdXApIHsKCWxvZ3MgOj0gci5Hcm91cCgiL2xvZ3MiKQoJewoJCWxvZ3MuR0VUKCIiLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgbWlkZGxld2FyZS5PcGVuQVBJQWNjZXNzKCJsb2dzIiksIG1pZGRsZXdhcmUuUmVxdWlyZVJvbGUoInZpZXdlciIpLCBoLkxpc3QpCgkJbG9ncy5ERUxFVEUoIi9iYXRjaCIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBtaWRkbGV3YXJlLlJlcXVpcmVVc2VyVG9rZW4oKSwgbWlkZGxld2FyZS5SZXF1aXJlUm9sZSgib3BlcmF0b3IiKSwgaC5CYXRjaERlbGV0ZSkKCQlsb2dzLlBPU1QoIi9iYXRjaC1kZWxldGUiLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgbWlkZGxld2FyZS5SZXF1aXJlVXNlclRva2VuKCksIG1pZGRsZXdhcmUuUmVxdWlyZVJvbGUoIm9wZXJhdG9yIiksIGguQmF0Y2hEZWxldGUpCgkJbG9ncy5ERUxFVEUoIi9jbGVhbiIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBtaWRkbGV3YXJlLlJlcXVpcmVVc2VyVG9rZW4oKSwgbWlkZGxld2FyZS5SZXF1aXJlUm9sZSgib3BlcmF0b3IiKSwgaC5DbGVhbikKCQlsb2dzLkdFVCgiLzppZC9zdHJlYW0iLCBtaWRkbGV3YXJlLkpXVEF1dGgoKSwgbWlkZGxld2FyZS5SZXF1aXJlVXNlclRva2VuKCksIG1pZGRsZXdhcmUuUmVxdWlyZVJvbGUoInZpZXdlciIpLCBoLlN0cmVhbSkKCQlsb2dzLkdFVCgiLzppZCIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBtaWRkbGV3YXJlLk9wZW5BUElBY2Nlc3MoImxvZ3MiKSwgbWlkZGxld2FyZS5SZXF1aXJlUm9sZSgidmlld2VyIiksIGguRGV0YWlsKQoJCWxvZ3MuREVMRVRFKCIvOmlkIiwgbWlkZGxld2FyZS5KV1RBdXRoKCksIG1pZGRsZXdhcmUuUmVxdWlyZVVzZXJUb2tlbigpLCBtaWRkbGV3YXJlLlJlcXVpcmVSb2xlKCJvcGVyYXRvciIpLCBoLkRlbGV0ZSkKCX0KfQo=
+package handler
+
+import (
+	"fmt"
+	"io"
+	"strconv"
+	"strings"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/middleware"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+	"daidai-panel/service"
+
+	"github.com/gin-gonic/gin"
+)
+
+type LogHandler struct{}
+
+func NewLogHandler() *LogHandler {
+	return &LogHandler{}
+}
+
+func (h *LogHandler) List(c *gin.Context) {
+	taskIDStr := c.Query("task_id")
+	statusStr := c.Query("status")
+	keyword := c.Query("keyword")
+	page, _ := strconv.Atoi(c.DefaultQuery("page", "1"))
+	pageSize, _ := strconv.Atoi(c.DefaultQuery("page_size", "20"))
+
+	if page < 1 {
+		page = 1
+	}
+	if pageSize < 1 || pageSize > 100 {
+		pageSize = 20
+	}
+
+	query := database.DB.Model(&model.TaskLog{}).
+		Joins("LEFT JOIN tasks ON tasks.id = task_logs.task_id")
+
+	if taskIDStr != "" {
+		taskID, _ := strconv.ParseUint(taskIDStr, 10, 32)
+		query = query.Where("task_logs.task_id = ?", taskID)
+	}
+	if statusStr != "" {
+		status, err := strconv.Atoi(statusStr)
+		if err == nil {
+			query = query.Where("task_logs.status = ?", status)
+		}
+	}
+	if keyword != "" {
+		query = query.Where("tasks.name LIKE ?", "%"+keyword+"%")
+	}
+
+	var total int64
+	query.Count(&total)
+
+	var logs []model.TaskLog
+	query.Select("task_logs.*").
+		Preload("Task").
+		Order("task_logs.started_at DESC").
+		Offset((page - 1) * pageSize).Limit(pageSize).Find(&logs)
+
+	data := make([]map[string]interface{}, len(logs))
+	for i, l := range logs {
+		data[i] = l.ToDict()
+	}
+
+	response.Paginated(c, data, total, page, pageSize)
+}
+
+func (h *LogHandler) Stream(c *gin.Context) {
+	taskIDStr := c.Param("id")
+	taskID, _ := strconv.ParseUint(taskIDStr, 10, 32)
+
+	c.Header("Content-Type", "text/event-stream")
+	c.Header("Cache-Control", "no-cache")
+	c.Header("Connection", "keep-alive")
+	c.Header("X-Accel-Buffering", "no")
+
+	mgr := service.GetTinyLogManager()
+	tl := mgr.FindByTaskID(uint(taskID))
+
+	if tl != nil {
+		history, _ := tl.ReadAll()
+		if len(history) > 0 {
+			writeSSEData(c.Writer, string(history))
+			c.Writer.Flush()
+		}
+
+		sub := tl.Subscribe()
+		defer tl.Unsubscribe(sub)
+
+		ctx := c.Request.Context()
+		for {
+			select {
+			case data, ok := <-sub:
+				if !ok {
+					fmt.Fprintf(c.Writer, "event: done\ndata: finished\n\n")
+					c.Writer.Flush()
+					return
+				}
+				writeSSEData(c.Writer, string(data))
+				c.Writer.Flush()
+			case <-ctx.Done():
+				return
+			case <-time.After(30 * time.Second):
+				// 静默 30s 不代表任务结束（慢接口/长计算/下载/sleep 都会无输出）。
+				// 这里发一条 SSE keepalive 注释心跳并继续保持连接（不 return）：
+				//   - 维持长连接，避免反代/网关空闲超时主动断开；
+				//   - 不再断开重连重发整段历史，消除安静任务的周期性全量重渲染卡顿；
+				//   - 任务真正结束时 sub 通道会关闭，自然走上面已有的 done:finished 分支。
+				// 前端 sse.ts dispatchEventSegment 对 ":" 开头的行直接 continue，注释心跳是无副作用 no-op。
+				fmt.Fprintf(c.Writer, ": keepalive\n\n")
+				c.Writer.Flush()
+			}
+		}
+	}
+
+	var task model.Task
+	database.DB.First(&task, taskID)
+	if task.Status != model.TaskStatusRunning {
+		time.Sleep(1500 * time.Millisecond)
+		tl = mgr.FindByTaskID(uint(taskID))
+		if tl != nil {
+			history, _ := tl.ReadAll()
+			if len(history) > 0 {
+				writeSSEData(c.Writer, string(history))
+				c.Writer.Flush()
+			}
+		}
+		// 启动竞态：打开日志窗时任务可能刚入队、runTask 尚未置运行中/未建 TinyLog。
+		// sleep 后重查真实状态，若已开始运行 → reconnect（前端重连后进入 tl != nil 流式分支），否则才判完成。
+		var t model.Task
+		database.DB.Select("status").First(&t, taskID)
+		fmt.Fprintf(c.Writer, "event: done\ndata: %s\n\n", streamDoneEventForStatus(t.Status))
+		c.Writer.Flush()
+	} else {
+		idleCount := 0
+		c.Stream(func(w io.Writer) bool {
+			tl = mgr.FindByTaskID(uint(taskID))
+			if tl != nil {
+				history, _ := tl.ReadAll()
+				if len(history) > 0 {
+					writeSSEData(w, string(history))
+					c.Writer.Flush()
+				}
+				fmt.Fprintf(w, "event: done\ndata: reconnect\n\n")
+				c.Writer.Flush()
+				return false
+			}
+
+			idleCount++
+			if idleCount >= 120 {
+				// 等满约 60s（120 * 500ms）TinyLog 始终未出现：该任务没有可流式的实时日志
+				// （典型为 conc / SuppressLiveOutput 抑制输出的运行任务）。此处直接发 finished，
+				// 不再用 streamDoneEventForStatus —— 否则 status==running 会回 reconnect，
+				// 而前端重连后仍是 tl==nil，60s 后又超时，形成无可续流的无限重连风暴。
+				fmt.Fprintf(w, "event: done\ndata: finished\n\n")
+				c.Writer.Flush()
+				return false
+			}
+
+			time.Sleep(500 * time.Millisecond)
+			return true
+		})
+	}
+}
+
+func writeSSEData(w io.Writer, data string) {
+	// SSE 分帧只需要保证每个 data: 行本身不跨物理换行。
+	// 这里保留裸 \r，避免终端进度条的覆盖刷新语义在传输层被抹掉。
+	data = strings.ReplaceAll(data, "\r\n", "\n")
+	for _, line := range strings.Split(data, "\n") {
+		fmt.Fprintf(w, "data: %s\n", line)
+	}
+	fmt.Fprint(w, "\n")
+}
+
+// streamDoneEventForStatus 根据任务真实状态决定 SSE done 事件的 data 值。
+// 任务仍在运行 → "reconnect"，让前端 LogViewer 无缝重连续流，避免误判"已完成"；
+// 其它状态（已结束/排队/禁用等）→ "finished"，前端正常置为"已完成"。
+func streamDoneEventForStatus(status float64) string {
+	if status == model.TaskStatusRunning {
+		return "reconnect"
+	}
+	return "finished"
+}
+
+func (h *LogHandler) Detail(c *gin.Context) {
+	logID, _ := strconv.ParseUint(c.Param("id"), 10, 32)
+
+	var taskLog model.TaskLog
+	if err := database.DB.Preload("Task").First(&taskLog, logID).Error; err != nil {
+		response.NotFound(c, "日志不存在")
+		return
+	}
+
+	result := taskLog.ToDict()
+	if taskLog.Content != "" {
+		decompressed, err := service.DecompressFromBase64(taskLog.Content)
+		if err == nil {
+			result["content"] = decompressed
+		}
+	} else if taskLog.LogPath != nil {
+		content, err := service.ReadLogFile(*taskLog.LogPath, config.C.Data.LogDir)
+		if err == nil {
+			result["content"] = content
+		}
+	}
+
+	response.Success(c, result)
+}
+
+func (h *LogHandler) Delete(c *gin.Context) {
+	logID, err := strconv.ParseUint(c.Param("id"), 10, 32)
+	if err != nil {
+		response.BadRequest(c, "无效的日志ID")
+		return
+	}
+	result := database.DB.Where("id = ?", logID).Delete(&model.TaskLog{})
+	if result.RowsAffected == 0 {
+		response.NotFound(c, "日志不存在")
+		return
+	}
+	response.Success(c, gin.H{"message": "日志已删除"})
+}
+
+func (h *LogHandler) BatchDelete(c *gin.Context) {
+	var req struct {
+		IDs []uint `json:"ids" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil || len(req.IDs) == 0 {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	result := database.DB.Where("id IN ?", req.IDs).Delete(&model.TaskLog{})
+	response.Success(c, gin.H{
+		"message": fmt.Sprintf("已删除 %d 条日志", result.RowsAffected),
+	})
+}
+
+func (h *LogHandler) Clean(c *gin.Context) {
+	defaultDays := model.GetRegisteredConfigInt("log_retention_days")
+	daysStr := c.DefaultQuery("days", strconv.Itoa(defaultDays))
+	days, _ := strconv.Atoi(daysStr)
+	if days < 1 {
+		days = defaultDays
+	}
+
+	cutoff := time.Now().AddDate(0, 0, -days)
+	result := database.DB.Where("started_at < ?", cutoff).Delete(&model.TaskLog{})
+	response.Success(c, gin.H{
+		"message": fmt.Sprintf("已清理 %d 条日志（保留最近 %d 天）", result.RowsAffected, days),
+	})
+}
+
+func (h *LogHandler) RegisterRoutes(r *gin.RouterGroup) {
+	logs := r.Group("/logs")
+	{
+		logs.GET("", middleware.JWTAuth(), middleware.OpenAPIAccess("logs"), middleware.RequireRole("viewer"), h.List)
+		logs.DELETE("/batch", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireRole("operator"), h.BatchDelete)
+		logs.POST("/batch-delete", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireRole("operator"), h.BatchDelete)
+		logs.DELETE("/clean", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireRole("operator"), h.Clean)
+		logs.GET("/:id/stream", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireRole("viewer"), h.Stream)
+		logs.GET("/:id", middleware.JWTAuth(), middleware.OpenAPIAccess("logs"), middleware.RequireRole("viewer"), h.Detail)
+		logs.DELETE("/:id", middleware.JWTAuth(), middleware.RequireUserToken(), middleware.RequireRole("operator"), h.Delete)
+	}
+}

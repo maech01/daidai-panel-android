@@ -1,1 +1,195 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbkJlZm9yZVVubW91bnQsIG9uTW91bnRlZCwgcmVmLCB3YXRjaCB9IGZyb20gJ3Z1ZScKaW1wb3J0ICogYXMgZWNoYXJ0cyBmcm9tICdlY2hhcnRzL2NvcmUnCmltcG9ydCB7IExpbmVDaGFydCB9IGZyb20gJ2VjaGFydHMvY2hhcnRzJwppbXBvcnQgeyBHcmlkQ29tcG9uZW50LCBUb29sdGlwQ29tcG9uZW50LCBMZWdlbmRDb21wb25lbnQgfSBmcm9tICdlY2hhcnRzL2NvbXBvbmVudHMnCmltcG9ydCB7IENhbnZhc1JlbmRlcmVyIH0gZnJvbSAnZWNoYXJ0cy9yZW5kZXJlcnMnCmltcG9ydCB7IHVzZVRoZW1lU3RvcmUgfSBmcm9tICdAL3N0b3Jlcy90aGVtZScKCmNvbnN0IHByb3BzID0gZGVmaW5lUHJvcHM8ewogIHN0YXRzOiBBcnJheTx7CiAgICBkYXRlPzogc3RyaW5nCiAgICBzdWNjZXNzPzogbnVtYmVyCiAgICBmYWlsZWQ/OiBudW1iZXIKICAgIGFib3J0ZWQ/OiBudW1iZXIKICB9Pgp9PigpCgplY2hhcnRzLnVzZShbTGluZUNoYXJ0LCBHcmlkQ29tcG9uZW50LCBUb29sdGlwQ29tcG9uZW50LCBMZWdlbmRDb21wb25lbnQsIENhbnZhc1JlbmRlcmVyXSkKCmNvbnN0IGNoYXJ0UmVmID0gcmVmPEhUTUxFbGVtZW50PigpCmxldCBjaGFydDogZWNoYXJ0cy5FQ2hhcnRzIHwgbnVsbCA9IG51bGwKbGV0IHJlc2l6ZUhhbmRsZXI6ICgoKSA9PiB2b2lkKSB8IG51bGwgPSBudWxsCgpjb25zdCB0aGVtZSA9IHVzZVRoZW1lU3RvcmUoKQoKY29uc3QgY29sb3JzID0gY29tcHV0ZWQoKCkgPT4gewogIGlmICh0aGVtZS5pc0RhcmspIHsKICAgIHJldHVybiB7CiAgICAgIHRvb2x0aXBCZzogJyMxZTI5M2InLAogICAgICB0b29sdGlwQm9yZGVyOiAnIzMzNDE1NScsCiAgICAgIHRvb2x0aXBUZXh0OiAnI2UyZThmMCcsCiAgICAgIGF4aXNMaW5lOiAnIzMzNDE1NScsCiAgICAgIHNwbGl0TGluZTogJyMxZTI5M2InLAogICAgICBsYWJlbENvbG9yOiAnIzk0YTNiOCcsCiAgICAgIHBvaW50Qm9yZGVyOiAnIzFlMjkzYicsCiAgICAgIHNoYWRvdzogJ3JnYmEoMCwwLDAsMC4yNSknLAogICAgfQogIH0KICByZXR1cm4gewogICAgdG9vbHRpcEJnOiAnI2ZmZicsCiAgICB0b29sdGlwQm9yZGVyOiAnI2YwZjBmMCcsCiAgICB0b29sdGlwVGV4dDogJyMzMzMnLAogICAgYXhpc0xpbmU6ICcjZjBmMGYwJywKICAgIHNwbGl0TGluZTogJyNmNWY1ZjUnLAogICAgbGFiZWxDb2xvcjogJyM4YzhjOGMnLAogICAgcG9pbnRCb3JkZXI6ICcjZmZmJywKICAgIHNoYWRvdzogJ3JnYmEoMCwwLDAsMC4wOCknLAogIH0KfSkKCmZ1bmN0aW9uIHJlbmRlckNoYXJ0KCkgewogIGlmICghY2hhcnRSZWYudmFsdWUpIHJldHVybgogIGlmICghY2hhcnQpIHsKICAgIGNoYXJ0ID0gZWNoYXJ0cy5pbml0KGNoYXJ0UmVmLnZhbHVlKQogIH0KCiAgY29uc3QgYyA9IGNvbG9ycy52YWx1ZQoKICBjaGFydC5zZXRPcHRpb24oewogICAgdG9vbHRpcDogewogICAgICB0cmlnZ2VyOiAnYXhpcycsCiAgICAgIGJhY2tncm91bmRDb2xvcjogYy50b29sdGlwQmcsCiAgICAgIGJvcmRlckNvbG9yOiBjLnRvb2x0aXBCb3JkZXIsCiAgICAgIGJvcmRlcldpZHRoOiAxLAogICAgICB0ZXh0U3R5bGU6IHsgY29sb3I6IGMudG9vbHRpcFRleHQsIGZvbnRTaXplOiAxMiB9LAogICAgICBleHRyYUNzc1RleHQ6IGBib3JkZXItcmFkaXVzOiA4cHg7IGJveC1zaGFkb3c6IDAgMnB4IDhweCAke2Muc2hhZG93fTtgLAogICAgfSwKICAgIGxlZ2VuZDogewogICAgICBkYXRhOiBbJ+aJp+ihjOaAu+aVsCcsICfmiJDlip8nLCAn5aSx6LSlJywgJ+e7iOatoiddLAogICAgICBpY29uOiAnY2lyY2xlJywKICAgICAgaXRlbVdpZHRoOiA4LAogICAgICB0ZXh0U3R5bGU6IHsgZm9udFNpemU6IDEyLCBjb2xvcjogYy5sYWJlbENvbG9yIH0sCiAgICAgIHRvcDogMCwKICAgIH0sCiAgICAvLyDov5nph4zmlLnnlKggb3V0ZXJCb3VuZHMg6K+t5LmJ77yM6YG/5YWN5paw54mIIEVDaGFydHMg5a+5IGNvbnRhaW5MYWJlbCDnu5nlh7rlhbzlrrnmgKforablkYrjgIIKICAgIGdyaWQ6IHsKICAgICAgbGVmdDogJzMlJywKICAgICAgcmlnaHQ6ICc0JScsCiAgICAgIGJvdHRvbTogJzMlJywKICAgICAgdG9wOiA0MCwKICAgICAgb3V0ZXJCb3VuZHNNb2RlOiAnc2FtZScsCiAgICAgIG91dGVyQm91bmRzQ29udGFpbjogJ2F4aXNMYWJlbCcsCiAgICB9LAogICAgeEF4aXM6IHsKICAgICAgdHlwZTogJ2NhdGVnb3J5JywKICAgICAgZGF0YTogcHJvcHMuc3RhdHMubWFwKChpdGVtKSA9PiBpdGVtLmRhdGUpLAogICAgICBheGlzTGluZTogeyBsaW5lU3R5bGU6IHsgY29sb3I6IGMuYXhpc0xpbmUgfSB9LAogICAgICBheGlzVGljazogeyBzaG93OiBmYWxzZSB9LAogICAgICBheGlzTGFiZWw6IHsgY29sb3I6IGMubGFiZWxDb2xvciwgZm9udFNpemU6IDExIH0sCiAgICB9LAogICAgeUF4aXM6IHsKICAgICAgdHlwZTogJ3ZhbHVlJywKICAgICAgbWluSW50ZXJ2YWw6IDEsCiAgICAgIGF4aXNMaW5lOiB7IGxpbmVTdHlsZTogeyBjb2xvcjogYy5heGlzTGluZSB9IH0sCiAgICAgIHNwbGl0TGluZTogeyBsaW5lU3R5bGU6IHsgY29sb3I6IGMuc3BsaXRMaW5lIH0gfSwKICAgICAgYXhpc0xhYmVsOiB7IGNvbG9yOiBjLmxhYmVsQ29sb3IsIGZvbnRTaXplOiAxMSB9LAogICAgfSwKICAgIHNlcmllczogWwogICAgICB7CiAgICAgICAgbmFtZTogJ+aJp+ihjOaAu+aVsCcsCiAgICAgICAgdHlwZTogJ2xpbmUnLAogICAgICAgIGRhdGE6IHByb3BzLnN0YXRzLm1hcCgKICAgICAgICAgIChpdGVtKSA9PiAoaXRlbS5zdWNjZXNzIHx8IDApICsgKGl0ZW0uZmFpbGVkIHx8IDApICsgKGl0ZW0uYWJvcnRlZCB8fCAwKSwKICAgICAgICApLAogICAgICAgIC8vIOS4u+e6v+abtOmhuuOAgXN5bWJvbC/nur/lrr3nu5/kuIDvvJvpnaLnp6/muJDlj5jmm7TmmI7mmL7vvIzlvLrosIMi5omn6KGM5oC75pWwIuS4u+e6vwogICAgICAgIHNtb290aDogMC41LAogICAgICAgIHNob3dTeW1ib2w6IGZhbHNlLAogICAgICAgIHN5bWJvbDogJ2NpcmNsZScsCiAgICAgICAgc3ltYm9sU2l6ZTogNiwKICAgICAgICBsaW5lU3R5bGU6IHsgd2lkdGg6IDMsIGNvbG9yOiAnIzQwOUVGRicgfSwKICAgICAgICBpdGVtU3R5bGU6IHsgY29sb3I6ICcjNDA5RUZGJywgYm9yZGVyV2lkdGg6IDIsIGJvcmRlckNvbG9yOiBjLnBvaW50Qm9yZGVyIH0sCiAgICAgICAgLy8g5LiN55SoIGZvY3VzOidzZXJpZXMn77ya5bim5riQ5Y+Y6Z2i56ev5pe25a6D5Lya6K6pIGhvdmVyIOavj+W4p+mHjee7mOaVtOWbvu+8jOWvvOiHtOaOieW4pwogICAgICAgIGFyZWFTdHlsZTogewogICAgICAgICAgY29sb3I6IG5ldyBlY2hhcnRzLmdyYXBoaWMuTGluZWFyR3JhZGllbnQoMCwgMCwgMCwgMSwgWwogICAgICAgICAgICB7IG9mZnNldDogMCwgY29sb3I6ICdyZ2JhKDY0LDE1OCwyNTUsMC4zMiknIH0sCiAgICAgICAgICAgIHsgb2Zmc2V0OiAxLCBjb2xvcjogJ3JnYmEoNjQsMTU4LDI1NSwwKScgfSwKICAgICAgICAgIF0pCiAgICAgICAgfSwKICAgICAgfSwKICAgICAgewogICAgICAgIG5hbWU6ICfmiJDlip8nLAogICAgICAgIHR5cGU6ICdsaW5lJywKICAgICAgICBkYXRhOiBwcm9wcy5zdGF0cy5tYXAoKGl0ZW0pID0+IGl0ZW0uc3VjY2VzcyB8fCAwKSwKICAgICAgICBzbW9vdGg6IDAuNSwKICAgICAgICBzaG93U3ltYm9sOiBmYWxzZSwKICAgICAgICBzeW1ib2w6ICdjaXJjbGUnLAogICAgICAgIHN5bWJvbFNpemU6IDYsCiAgICAgICAgbGluZVN0eWxlOiB7IHdpZHRoOiAyLjUsIGNvbG9yOiAnIzY3QzIzQScgfSwKICAgICAgICBpdGVtU3R5bGU6IHsgY29sb3I6ICcjNjdDMjNBJywgYm9yZGVyV2lkdGg6IDIsIGJvcmRlckNvbG9yOiBjLnBvaW50Qm9yZGVyIH0sCiAgICAgICAgLy8g5LiN55SoIGZvY3VzOidzZXJpZXMn77ya5bim5riQ5Y+Y6Z2i56ev5pe25a6D5Lya6K6pIGhvdmVyIOavj+W4p+mHjee7mOaVtOWbvu+8jOWvvOiHtOaOieW4pwogICAgICAgIGFyZWFTdHlsZTogewogICAgICAgICAgY29sb3I6IG5ldyBlY2hhcnRzLmdyYXBoaWMuTGluZWFyR3JhZGllbnQoMCwgMCwgMCwgMSwgWwogICAgICAgICAgICB7IG9mZnNldDogMCwgY29sb3I6ICdyZ2JhKDEwMywxOTQsNTgsMC4xNCknIH0sCiAgICAgICAgICAgIHsgb2Zmc2V0OiAxLCBjb2xvcjogJ3JnYmEoMTAzLDE5NCw1OCwwKScgfSwKICAgICAgICAgIF0pCiAgICAgICAgfSwKICAgICAgfSwKICAgICAgewogICAgICAgIG5hbWU6ICflpLHotKUnLAogICAgICAgIHR5cGU6ICdsaW5lJywKICAgICAgICBkYXRhOiBwcm9wcy5zdGF0cy5tYXAoKGl0ZW0pID0+IGl0ZW0uZmFpbGVkIHx8IDApLAogICAgICAgIHNtb290aDogMC41LAogICAgICAgIHNob3dTeW1ib2w6IGZhbHNlLAogICAgICAgIHN5bWJvbDogJ2NpcmNsZScsCiAgICAgICAgc3ltYm9sU2l6ZTogNiwKICAgICAgICBsaW5lU3R5bGU6IHsgd2lkdGg6IDIuNSwgY29sb3I6ICcjRjU2QzZDJyB9LAogICAgICAgIGl0ZW1TdHlsZTogeyBjb2xvcjogJyNGNTZDNkMnLCBib3JkZXJXaWR0aDogMiwgYm9yZGVyQ29sb3I6IGMucG9pbnRCb3JkZXIgfSwKICAgICAgICAvLyDkuI3nlKggZm9jdXM6J3NlcmllcyfvvJrluKbmuJDlj5jpnaLnp6/ml7blroPkvJrorqkgaG92ZXIg5q+P5bin6YeN57uY5pW05Zu+77yM5a+86Ie05o6J5binCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBuYW1lOiAn57uI5q2iJywKICAgICAgICB0eXBlOiAnbGluZScsCiAgICAgICAgLy8gQWJvcnRlZCDmmK/nlKjmiLfkuLvliqjnu4jmraLnmoTni6znq4vnirbmgIHvvIzkuI3lho3mt7fov5vmiJDlip/miJblpLHotKXjgIIKICAgICAgICBkYXRhOiBwcm9wcy5zdGF0cy5tYXAoKGl0ZW0pID0+IGl0ZW0uYWJvcnRlZCB8fCAwKSwKICAgICAgICBzbW9vdGg6IDAuNSwKICAgICAgICBzaG93U3ltYm9sOiBmYWxzZSwKICAgICAgICBzeW1ib2w6ICdjaXJjbGUnLAogICAgICAgIHN5bWJvbFNpemU6IDYsCiAgICAgICAgbGluZVN0eWxlOiB7IHdpZHRoOiAyLjUsIGNvbG9yOiAnI0U2QTIzQycgfSwKICAgICAgICBpdGVtU3R5bGU6IHsgY29sb3I6ICcjRTZBMjNDJywgYm9yZGVyV2lkdGg6IDIsIGJvcmRlckNvbG9yOiBjLnBvaW50Qm9yZGVyIH0sCiAgICAgICAgLy8g5LiN55SoIGZvY3VzOidzZXJpZXMn77ya5L+d5oyB5ZKM5YW25a6D57q/5LiA6Ie077yM6YG/5YWNIGhvdmVyIOaXtuaVtOWbvumikee5gemHjee7mOOAggogICAgICB9LAogICAgXSwKICB9KQp9Cgp3YXRjaCgoKSA9PiBwcm9wcy5zdGF0cywgcmVuZGVyQ2hhcnQsIHsgZGVlcDogdHJ1ZSB9KQp3YXRjaCgoKSA9PiB0aGVtZS5pc0RhcmssIHJlbmRlckNoYXJ0KQoKb25Nb3VudGVkKCgpID0+IHsKICByZW5kZXJDaGFydCgpCiAgcmVzaXplSGFuZGxlciA9ICgpID0+IHsKICAgIGNoYXJ0Py5yZXNpemUoKQogIH0KICB3aW5kb3cuYWRkRXZlbnRMaXN0ZW5lcigncmVzaXplJywgcmVzaXplSGFuZGxlcikKfSkKCm9uQmVmb3JlVW5tb3VudCgoKSA9PiB7CiAgaWYgKHJlc2l6ZUhhbmRsZXIpIHsKICAgIHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCdyZXNpemUnLCByZXNpemVIYW5kbGVyKQogIH0KICBjaGFydD8uZGlzcG9zZSgpCiAgY2hhcnQgPSBudWxsCn0pCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxkaXYgcmVmPSJjaGFydFJlZiIgY2xhc3M9InRyZW5kLWNoYXJ0Ij48L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQ+Ci50cmVuZC1jaGFydCB7CiAgaGVpZ2h0OiAzMDBweDsKfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import * as echarts from 'echarts/core'
+import { LineChart } from 'echarts/charts'
+import { GridComponent, TooltipComponent, LegendComponent } from 'echarts/components'
+import { CanvasRenderer } from 'echarts/renderers'
+import { useThemeStore } from '@/stores/theme'
+
+const props = defineProps<{
+  stats: Array<{
+    date?: string
+    success?: number
+    failed?: number
+    aborted?: number
+  }>
+}>()
+
+echarts.use([LineChart, GridComponent, TooltipComponent, LegendComponent, CanvasRenderer])
+
+const chartRef = ref<HTMLElement>()
+let chart: echarts.ECharts | null = null
+let resizeHandler: (() => void) | null = null
+
+const theme = useThemeStore()
+
+const colors = computed(() => {
+  if (theme.isDark) {
+    return {
+      tooltipBg: '#1e293b',
+      tooltipBorder: '#334155',
+      tooltipText: '#e2e8f0',
+      axisLine: '#334155',
+      splitLine: '#1e293b',
+      labelColor: '#94a3b8',
+      pointBorder: '#1e293b',
+      shadow: 'rgba(0,0,0,0.25)',
+    }
+  }
+  return {
+    tooltipBg: '#fff',
+    tooltipBorder: '#f0f0f0',
+    tooltipText: '#333',
+    axisLine: '#f0f0f0',
+    splitLine: '#f5f5f5',
+    labelColor: '#8c8c8c',
+    pointBorder: '#fff',
+    shadow: 'rgba(0,0,0,0.08)',
+  }
+})
+
+function renderChart() {
+  if (!chartRef.value) return
+  if (!chart) {
+    chart = echarts.init(chartRef.value)
+  }
+
+  const c = colors.value
+
+  chart.setOption({
+    tooltip: {
+      trigger: 'axis',
+      backgroundColor: c.tooltipBg,
+      borderColor: c.tooltipBorder,
+      borderWidth: 1,
+      textStyle: { color: c.tooltipText, fontSize: 12 },
+      extraCssText: `border-radius: 8px; box-shadow: 0 2px 8px ${c.shadow};`,
+    },
+    legend: {
+      data: ['执行总数', '成功', '失败', '终止'],
+      icon: 'circle',
+      itemWidth: 8,
+      textStyle: { fontSize: 12, color: c.labelColor },
+      top: 0,
+    },
+    // 这里改用 outerBounds 语义，避免新版 ECharts 对 containLabel 给出兼容性警告。
+    grid: {
+      left: '3%',
+      right: '4%',
+      bottom: '3%',
+      top: 40,
+      outerBoundsMode: 'same',
+      outerBoundsContain: 'axisLabel',
+    },
+    xAxis: {
+      type: 'category',
+      data: props.stats.map((item) => item.date),
+      axisLine: { lineStyle: { color: c.axisLine } },
+      axisTick: { show: false },
+      axisLabel: { color: c.labelColor, fontSize: 11 },
+    },
+    yAxis: {
+      type: 'value',
+      minInterval: 1,
+      axisLine: { lineStyle: { color: c.axisLine } },
+      splitLine: { lineStyle: { color: c.splitLine } },
+      axisLabel: { color: c.labelColor, fontSize: 11 },
+    },
+    series: [
+      {
+        name: '执行总数',
+        type: 'line',
+        data: props.stats.map(
+          (item) => (item.success || 0) + (item.failed || 0) + (item.aborted || 0),
+        ),
+        // 主线更顺、symbol/线宽统一；面积渐变更明显，强调"执行总数"主线
+        smooth: 0.5,
+        showSymbol: false,
+        symbol: 'circle',
+        symbolSize: 6,
+        lineStyle: { width: 3, color: '#409EFF' },
+        itemStyle: { color: '#409EFF', borderWidth: 2, borderColor: c.pointBorder },
+        // 不用 focus:'series'：带渐变面积时它会让 hover 每帧重绘整图，导致掉帧
+        areaStyle: {
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            { offset: 0, color: 'rgba(64,158,255,0.32)' },
+            { offset: 1, color: 'rgba(64,158,255,0)' },
+          ])
+        },
+      },
+      {
+        name: '成功',
+        type: 'line',
+        data: props.stats.map((item) => item.success || 0),
+        smooth: 0.5,
+        showSymbol: false,
+        symbol: 'circle',
+        symbolSize: 6,
+        lineStyle: { width: 2.5, color: '#67C23A' },
+        itemStyle: { color: '#67C23A', borderWidth: 2, borderColor: c.pointBorder },
+        // 不用 focus:'series'：带渐变面积时它会让 hover 每帧重绘整图，导致掉帧
+        areaStyle: {
+          color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+            { offset: 0, color: 'rgba(103,194,58,0.14)' },
+            { offset: 1, color: 'rgba(103,194,58,0)' },
+          ])
+        },
+      },
+      {
+        name: '失败',
+        type: 'line',
+        data: props.stats.map((item) => item.failed || 0),
+        smooth: 0.5,
+        showSymbol: false,
+        symbol: 'circle',
+        symbolSize: 6,
+        lineStyle: { width: 2.5, color: '#F56C6C' },
+        itemStyle: { color: '#F56C6C', borderWidth: 2, borderColor: c.pointBorder },
+        // 不用 focus:'series'：带渐变面积时它会让 hover 每帧重绘整图，导致掉帧
+      },
+      {
+        name: '终止',
+        type: 'line',
+        // Aborted 是用户主动终止的独立状态，不再混进成功或失败。
+        data: props.stats.map((item) => item.aborted || 0),
+        smooth: 0.5,
+        showSymbol: false,
+        symbol: 'circle',
+        symbolSize: 6,
+        lineStyle: { width: 2.5, color: '#E6A23C' },
+        itemStyle: { color: '#E6A23C', borderWidth: 2, borderColor: c.pointBorder },
+        // 不用 focus:'series'：保持和其它线一致，避免 hover 时整图频繁重绘。
+      },
+    ],
+  })
+}
+
+watch(() => props.stats, renderChart, { deep: true })
+watch(() => theme.isDark, renderChart)
+
+onMounted(() => {
+  renderChart()
+  resizeHandler = () => {
+    chart?.resize()
+  }
+  window.addEventListener('resize', resizeHandler)
+})
+
+onBeforeUnmount(() => {
+  if (resizeHandler) {
+    window.removeEventListener('resize', resizeHandler)
+  }
+  chart?.dispose()
+  chart = null
+})
+</script>
+
+<template>
+  <div ref="chartRef" class="trend-chart"></div>
+</template>
+
+<style scoped>
+.trend-chart {
+  height: 300px;
+}
+</style>

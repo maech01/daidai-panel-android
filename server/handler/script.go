@@ -1,1 +1,116 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoIgoJInBhdGgvZmlsZXBhdGgiCgkicmVnZXhwIgoJInN0cmluZ3MiCgkic3luYyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvcGtnL3BhdGh1dGlsIgopCgp2YXIgYWxsb3dlZEV4dGVuc2lvbnMgPSBtYXBbc3RyaW5nXWJvb2x7CgkiLnB5IjogdHJ1ZSwgIi5qcyI6IHRydWUsICIubWpzIjogdHJ1ZSwgIi5zaCI6IHRydWUsICIudHMiOiB0cnVlLCAiLmpzb24iOiB0cnVlLAoJIi55YW1sIjogdHJ1ZSwgIi55bWwiOiB0cnVlLCAiLnR4dCI6IHRydWUsICIubWQiOiB0cnVlLCAiLmNvbmYiOiB0cnVlLAoJIi5pbmkiOiB0cnVlLCAiLmVudiI6IHRydWUsICIudG9tbCI6IHRydWUsICIueG1sIjogdHJ1ZSwgIi5jc3YiOiB0cnVlLAoJIi5wbmciOiB0cnVlLCAiLmpwZyI6IHRydWUsICIuanBlZyI6IHRydWUsICIuZ2lmIjogdHJ1ZSwgIi5zdmciOiB0cnVlLAoJIi5pY28iOiB0cnVlLCAiLmJtcCI6IHRydWUsICIud2VicCI6IHRydWUsICIubG9nIjogdHJ1ZSwgIi5odG0iOiB0cnVlLAoJIi5odG1sIjogdHJ1ZSwgIi5jc3MiOiB0cnVlLCAiLnNxbCI6IHRydWUsICIuYmF0IjogdHJ1ZSwgIi5jbWQiOiB0cnVlLCAiLnBzMSI6IHRydWUsICIuZ28iOiB0cnVlLAoJIi5zbyI6IHRydWUsCn0KCnZhciBiaW5hcnlFeHRlbnNpb25zID0gbWFwW3N0cmluZ11ib29sewoJIi5wbmciOiB0cnVlLCAiLmpwZyI6IHRydWUsICIuanBlZyI6IHRydWUsICIuZ2lmIjogdHJ1ZSwKCSIuaWNvIjogdHJ1ZSwgIi5ibXAiOiB0cnVlLCAiLndlYnAiOiB0cnVlLCAiLnNvIjogdHJ1ZSwKfQoKdmFyIGludmFsaWRTY3JpcHRQYXRoQ2hhcnNQYXR0ZXJuID0gcmVnZXhwLk11c3RDb21waWxlKGBbPD46Inw/Klx4MDAtXHgxRl1gKQoKY29uc3QgbWF4VXBsb2FkU2l6ZSA9IDEwMCAqIDEwMjQgKiAxMDI0Cgp0eXBlIGRlYnVnUnVuIHN0cnVjdCB7CglQcm9jZXNzICAqb3MuUHJvY2VzcwoJTG9ncyAgICAgW11zdHJpbmcKCURvbmUgICAgIGJvb2wKCUV4aXRDb2RlICppbnQKCVN0YXR1cyAgIHN0cmluZwoJbXUgICAgICAgc3luYy5NdXRleAp9Cgp0eXBlIFNjcmlwdEhhbmRsZXIgc3RydWN0IHsKCWRlYnVnUnVucyBtYXBbc3RyaW5nXSpkZWJ1Z1J1bgoJbXUgICAgICAgIHN5bmMuTXV0ZXgKfQoKZnVuYyBOZXdTY3JpcHRIYW5kbGVyKCkgKlNjcmlwdEhhbmRsZXIgewoJcmV0dXJuICZTY3JpcHRIYW5kbGVyewoJCWRlYnVnUnVuczogbWFrZShtYXBbc3RyaW5nXSpkZWJ1Z1J1biksCgl9Cn0KCmZ1bmMgc2NyaXB0c0RpcigpIHN0cmluZyB7CglyZXR1cm4gY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyCn0KCmZ1bmMgbm9ybWFsaXplU2NyaXB0UmVsYXRpdmVQYXRoKHJlbFBhdGggc3RyaW5nKSAoc3RyaW5nLCBlcnJvcikgewoJcmVsUGF0aCA9IHN0cmluZ3MuVHJpbVNwYWNlKHJlbFBhdGgpCglpZiByZWxQYXRoID09ICIiIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIui3r+W+hOS4jeiDveS4uuepuiIpCgl9CgoJbm9ybWFsaXplZCA6PSBzdHJpbmdzLlJlcGxhY2VBbGwocmVsUGF0aCwgIlxcIiwgIi8iKQoJaWYgc3RyaW5ncy5IYXNQcmVmaXgobm9ybWFsaXplZCwgIi8iKSB7CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLkuI3lhYHorrjot6/lvoTnqb/otooiKQoJfQoKCXJhd1NlZ21lbnRzIDo9IHN0cmluZ3MuU3BsaXQobm9ybWFsaXplZCwgIi8iKQoJc2VnbWVudHMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKHJhd1NlZ21lbnRzKSkKCWZvciBfLCBzZWdtZW50IDo9IHJhbmdlIHJhd1NlZ21lbnRzIHsKCQlzZWdtZW50ID0gc3RyaW5ncy5UcmltU3BhY2Uoc2VnbWVudCkKCQlpZiBzZWdtZW50ID09ICIiIHx8IHNlZ21lbnQgPT0gIi4iIHsKCQkJY29udGludWUKCQl9CgkJaWYgc2VnbWVudCA9PSAiLi4iIHsKCQkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLkuI3lhYHorrjot6/lvoTnqb/otooiKQoJCX0KCQlpZiBpbnZhbGlkU2NyaXB0UGF0aENoYXJzUGF0dGVybi5NYXRjaFN0cmluZyhzZWdtZW50KSB7CgkJCXJldHVybiAiIiwgZm10LkVycm9yZigi6Lev5b6E5YyF5ZCr6Z2e5rOV5a2X56ymIikKCQl9CgkJc2VnbWVudHMgPSBhcHBlbmQoc2VnbWVudHMsIHNlZ21lbnQpCgl9CgoJaWYgbGVuKHNlZ21lbnRzKSA9PSAwIHsKCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIui3r+W+hOS4jeiDveS4uuepuiIpCgl9CgoJcmV0dXJuIHBhdGguSm9pbihzZWdtZW50cy4uLiksIG5pbAp9CgpmdW5jIHNhZmVQYXRoKHJlbFBhdGggc3RyaW5nLCBtdXN0RXhpc3QgYm9vbCkgKHN0cmluZywgZXJyb3IpIHsKCW5vcm1hbGl6ZWRQYXRoLCBlcnIgOj0gbm9ybWFsaXplU2NyaXB0UmVsYXRpdmVQYXRoKHJlbFBhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoKCWZ1bGwsIGVyciA6PSBwYXRodXRpbC5SZXNvbHZlV2l0aGluQmFzZShzY3JpcHRzRGlyKCksIG5vcm1hbGl6ZWRQYXRoLCBmYWxzZSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZXJyCgl9CgoJaWYgbXVzdEV4aXN0IHsKCQlpZiBfLCBlcnIgOj0gb3MuU3RhdChmdWxsKTsgb3MuSXNOb3RFeGlzdChlcnIpIHsKCQkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLmlofku7bkuI3lrZjlnKg6ICVzIiwgbm9ybWFsaXplZFBhdGgpCgkJfQoJfQoJcmV0dXJuIGZ1bGwsIG5pbAp9CgpmdW5jIHJlbFBhdGgoYWJzUGF0aCBzdHJpbmcpIHN0cmluZyB7CglhYnNEaXIsIF8gOj0gZmlsZXBhdGguQWJzKHNjcmlwdHNEaXIoKSkKCXJlbCwgXyA6PSBmaWxlcGF0aC5SZWwoYWJzRGlyLCBhYnNQYXRoKQoJcmV0dXJuIGZpbGVwYXRoLlRvU2xhc2gocmVsKQp9Cg==
+package handler
+
+import (
+	"fmt"
+	"os"
+	"path"
+	"path/filepath"
+	"regexp"
+	"strings"
+	"sync"
+
+	"daidai-panel/config"
+	"daidai-panel/pkg/pathutil"
+)
+
+var allowedExtensions = map[string]bool{
+	".py": true, ".js": true, ".mjs": true, ".sh": true, ".ts": true, ".json": true,
+	".yaml": true, ".yml": true, ".txt": true, ".md": true, ".conf": true,
+	".ini": true, ".env": true, ".toml": true, ".xml": true, ".csv": true,
+	".png": true, ".jpg": true, ".jpeg": true, ".gif": true, ".svg": true,
+	".ico": true, ".bmp": true, ".webp": true, ".log": true, ".htm": true,
+	".html": true, ".css": true, ".sql": true, ".bat": true, ".cmd": true, ".ps1": true, ".go": true,
+	".so": true,
+}
+
+var binaryExtensions = map[string]bool{
+	".png": true, ".jpg": true, ".jpeg": true, ".gif": true,
+	".ico": true, ".bmp": true, ".webp": true, ".so": true,
+}
+
+var invalidScriptPathCharsPattern = regexp.MustCompile(`[<>:"|?*\x00-\x1F]`)
+
+const maxUploadSize = 100 * 1024 * 1024
+
+type debugRun struct {
+	Process  *os.Process
+	Logs     []string
+	Done     bool
+	ExitCode *int
+	Status   string
+	mu       sync.Mutex
+}
+
+type ScriptHandler struct {
+	debugRuns map[string]*debugRun
+	mu        sync.Mutex
+}
+
+func NewScriptHandler() *ScriptHandler {
+	return &ScriptHandler{
+		debugRuns: make(map[string]*debugRun),
+	}
+}
+
+func scriptsDir() string {
+	return config.C.Data.ScriptsDir
+}
+
+func normalizeScriptRelativePath(relPath string) (string, error) {
+	relPath = strings.TrimSpace(relPath)
+	if relPath == "" {
+		return "", fmt.Errorf("路径不能为空")
+	}
+
+	normalized := strings.ReplaceAll(relPath, "\\", "/")
+	if strings.HasPrefix(normalized, "/") {
+		return "", fmt.Errorf("不允许路径穿越")
+	}
+
+	rawSegments := strings.Split(normalized, "/")
+	segments := make([]string, 0, len(rawSegments))
+	for _, segment := range rawSegments {
+		segment = strings.TrimSpace(segment)
+		if segment == "" || segment == "." {
+			continue
+		}
+		if segment == ".." {
+			return "", fmt.Errorf("不允许路径穿越")
+		}
+		if invalidScriptPathCharsPattern.MatchString(segment) {
+			return "", fmt.Errorf("路径包含非法字符")
+		}
+		segments = append(segments, segment)
+	}
+
+	if len(segments) == 0 {
+		return "", fmt.Errorf("路径不能为空")
+	}
+
+	return path.Join(segments...), nil
+}
+
+func safePath(relPath string, mustExist bool) (string, error) {
+	normalizedPath, err := normalizeScriptRelativePath(relPath)
+	if err != nil {
+		return "", err
+	}
+
+	full, err := pathutil.ResolveWithinBase(scriptsDir(), normalizedPath, false)
+	if err != nil {
+		return "", err
+	}
+
+	if mustExist {
+		if _, err := os.Stat(full); os.IsNotExist(err) {
+			return "", fmt.Errorf("文件不存在: %s", normalizedPath)
+		}
+	}
+	return full, nil
+}
+
+func relPath(absPath string) string {
+	absDir, _ := filepath.Abs(scriptsDir())
+	rel, _ := filepath.Rel(absDir, absPath)
+	return filepath.ToSlash(rel)
+}

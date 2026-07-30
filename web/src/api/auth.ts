@@ -1,1 +1,85 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwppbXBvcnQgYXhpb3MgZnJvbSAnYXhpb3MnCmltcG9ydCB0eXBlIHsgR2VlVGVzdFZhbGlkYXRlUmVzdWx0IH0gZnJvbSAnQC91dGlscy9nZWV0ZXN0JwoKZXhwb3J0IGNvbnN0IGF1dGhBcGkgPSB7CiAgY2hlY2tJbml0KCkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvYXV0aC9jaGVjay1pbml0JykgYXMgUHJvbWlzZTx7IG5lZWRfaW5pdDogYm9vbGVhbiB9PgogIH0sCgogIGluaXQodXNlcm5hbWU6IHN0cmluZywgcGFzc3dvcmQ6IHN0cmluZykgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL2F1dGgvaW5pdCcsIHsgdXNlcm5hbWUsIHBhc3N3b3JkIH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IHVzZXI6IGFueSB9PgogIH0sCgogIGxvZ2luKHVzZXJuYW1lOiBzdHJpbmcsIHBhc3N3b3JkOiBzdHJpbmcsIHRvdHBDb2RlPzogc3RyaW5nLCBjYXB0Y2hhPzogR2VlVGVzdFZhbGlkYXRlUmVzdWx0IHwgbnVsbCkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL2F1dGgvbG9naW4nLCB7CiAgICAgIHVzZXJuYW1lLAogICAgICBwYXNzd29yZCwKICAgICAgdG90cF9jb2RlOiB0b3RwQ29kZSB8fCAnJywKICAgICAgY2FwdGNoYTogY2FwdGNoYSB8fCB1bmRlZmluZWQKICAgIH0pIGFzIFByb21pc2U8ewogICAgICBtZXNzYWdlOiBzdHJpbmcKICAgICAgYWNjZXNzX3Rva2VuOiBzdHJpbmcKICAgICAgcmVmcmVzaF90b2tlbjogc3RyaW5nCiAgICAgIHVzZXI6IGFueQogICAgICB0d29fZmFjdG9yX3JlcXVpcmVkPzogYm9vbGVhbgogICAgICBjYXB0Y2hhX3JlcXVpcmVkPzogYm9vbGVhbgogICAgfT4KICB9LAoKICBsb2dvdXQoKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvYXV0aC9sb2dvdXQnKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgcmVmcmVzaCgpIHsKICAgIGNvbnN0IHJlZnJlc2hUb2tlbiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdyZWZyZXNoX3Rva2VuJykKICAgIHJldHVybiBheGlvcy5wb3N0KCcvYXBpL2F1dGgvcmVmcmVzaCcsIG51bGwsIHsKICAgICAgaGVhZGVyczogewogICAgICAgIEF1dGhvcml6YXRpb246IGBCZWFyZXIgJHtyZWZyZXNoVG9rZW59YCwKICAgICAgICAnWC1DbGllbnQtVHlwZSc6ICd3ZWInLAogICAgICAgICdYLUNsaWVudC1BcHAnOiAnZGFpZGFpLXBhbmVsLXdlYicKICAgICAgfQogICAgfSkudGhlbihyZXMgPT4gcmVzLmRhdGEpIGFzIFByb21pc2U8eyBhY2Nlc3NfdG9rZW46IHN0cmluZyB9PgogIH0sCgogIGdldFVzZXIoKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy9hdXRoL3VzZXInKSBhcyBQcm9taXNlPHsgdXNlcjogYW55IH0+CiAgfSwKCiAgY2hhbmdlUGFzc3dvcmQob2xkUGFzc3dvcmQ6IHN0cmluZywgbmV3UGFzc3dvcmQ6IHN0cmluZykgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KCcvYXV0aC9wYXNzd29yZCcsIHsKICAgICAgb2xkX3Bhc3N3b3JkOiBvbGRQYXNzd29yZCwKICAgICAgbmV3X3Bhc3N3b3JkOiBuZXdQYXNzd29yZAogICAgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGNhcHRjaGFDb25maWcodXNlcm5hbWU/OiBzdHJpbmcpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL2F1dGgvY2FwdGNoYS1jb25maWcnLCB7CiAgICAgIHBhcmFtczogdXNlcm5hbWUgPyB7IHVzZXJuYW1lIH0gOiB1bmRlZmluZWQKICAgIH0pIGFzIFByb21pc2U8ewogICAgICBlbmFibGVkOiBib29sZWFuCiAgICAgIGNhcHRjaGFfaWQ6IHN0cmluZwogICAgICBjb25maWd1cmVkOiBib29sZWFuCiAgICAgIGltcGxlbWVudGVkOiBib29sZWFuCiAgICAgIHJlcXVpcmVkOiBib29sZWFuCiAgICAgIHJlcXVpcmVfYWZ0ZXJfZmFpbHVyZXM6IG51bWJlcgogICAgICBtZXNzYWdlOiBzdHJpbmcKICAgIH0+CiAgfSwKCiAgdXBsb2FkQXZhdGFyKGZpbGU6IEZpbGUpIHsKICAgIGNvbnN0IGZvcm1EYXRhID0gbmV3IEZvcm1EYXRhKCkKICAgIGZvcm1EYXRhLmFwcGVuZCgnYXZhdGFyJywgZmlsZSkKICAgIHJldHVybiByZXF1ZXN0LnBvc3QoJy9hdXRoL2F2YXRhcicsIGZvcm1EYXRhLCB7CiAgICAgIGhlYWRlcnM6IHsgJ0NvbnRlbnQtVHlwZSc6ICdtdWx0aXBhcnQvZm9ybS1kYXRhJyB9CiAgICB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBhdmF0YXJfdXJsOiBzdHJpbmcgfT4KICB9LAoKICBkZWxldGVBdmF0YXIoKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoJy9hdXRoL2F2YXRhcicpIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBjaGFuZ2VVc2VybmFtZSh1c2VybmFtZTogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy9hdXRoL3VzZXJuYW1lJywgeyB1c2VybmFtZSB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyB1c2VyOiBhbnkgfT4KICB9Cn0K
+import request from './request'
+import axios from 'axios'
+import type { GeeTestValidateResult } from '@/utils/geetest'
+
+export const authApi = {
+  checkInit() {
+    return request.get('/auth/check-init') as Promise<{ need_init: boolean }>
+  },
+
+  init(username: string, password: string) {
+    return request.post('/auth/init', { username, password }) as Promise<{ message: string; user: any }>
+  },
+
+  login(username: string, password: string, totpCode?: string, captcha?: GeeTestValidateResult | null) {
+    return request.post('/auth/login', {
+      username,
+      password,
+      totp_code: totpCode || '',
+      captcha: captcha || undefined
+    }) as Promise<{
+      message: string
+      access_token: string
+      refresh_token: string
+      user: any
+      two_factor_required?: boolean
+      captcha_required?: boolean
+    }>
+  },
+
+  logout() {
+    return request.post('/auth/logout') as Promise<{ message: string }>
+  },
+
+  refresh() {
+    const refreshToken = localStorage.getItem('refresh_token')
+    return axios.post('/api/auth/refresh', null, {
+      headers: {
+        Authorization: `Bearer ${refreshToken}`,
+        'X-Client-Type': 'web',
+        'X-Client-App': 'daidai-panel-web'
+      }
+    }).then(res => res.data) as Promise<{ access_token: string }>
+  },
+
+  getUser() {
+    return request.get('/auth/user') as Promise<{ user: any }>
+  },
+
+  changePassword(oldPassword: string, newPassword: string) {
+    return request.put('/auth/password', {
+      old_password: oldPassword,
+      new_password: newPassword
+    }) as Promise<{ message: string }>
+  },
+
+  captchaConfig(username?: string) {
+    return request.get('/auth/captcha-config', {
+      params: username ? { username } : undefined
+    }) as Promise<{
+      enabled: boolean
+      captcha_id: string
+      configured: boolean
+      implemented: boolean
+      required: boolean
+      require_after_failures: number
+      message: string
+    }>
+  },
+
+  uploadAvatar(file: File) {
+    const formData = new FormData()
+    formData.append('avatar', file)
+    return request.post('/auth/avatar', formData, {
+      headers: { 'Content-Type': 'multipart/form-data' }
+    }) as Promise<{ message: string; avatar_url: string }>
+  },
+
+  deleteAvatar() {
+    return request.delete('/auth/avatar') as Promise<{ message: string }>
+  },
+
+  changeUsername(username: string) {
+    return request.put('/auth/username', { username }) as Promise<{ message: string; user: any }>
+  }
+}

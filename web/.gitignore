@@ -1,1 +1,24 @@
-IyBMb2dzCi9sb2dzCioubG9nCm5wbS1kZWJ1Zy5sb2cqCnlhcm4tZGVidWcubG9nKgp5YXJuLWVycm9yLmxvZyoKcG5wbS1kZWJ1Zy5sb2cqCmxlcm5hLWRlYnVnLmxvZyoKCm5vZGVfbW9kdWxlcwpkaXN0CmRpc3Qtc3NyCioubG9jYWwKCiMgRWRpdG9yIGRpcmVjdG9yaWVzIGFuZCBmaWxlcwoudnNjb2RlLyoKIS52c2NvZGUvZXh0ZW5zaW9ucy5qc29uCi5pZGVhCi5EU19TdG9yZQoqLnN1bwoqLm50dnMqCioubmpzcHJvagoqLnNsbgoqLnN3Pwo=
+# Logs
+/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

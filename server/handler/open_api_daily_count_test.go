@@ -1,1 +1,132 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9oYW5kbGVyIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKZnVuYyBuZXdPcGVuQVBJUm91dGVyKCkgKmdpbi5FbmdpbmUgewoJZW5naW5lIDo9IGdpbi5OZXcoKQoJYXBpIDo9IGVuZ2luZS5Hcm91cCgiL2FwaS92MSIpCgloYW5kbGVyLk5ld09wZW5BUElIYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoJcmV0dXJuIGVuZ2luZQp9CgpmdW5jIFRlc3RPcGVuQVBJTWFuYWdlbWVudFJlc3BvbnNlc1VzZVRvZGF5Q2FsbENvdW50KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJYWRtaW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgIm9wZW4tYXBpLWFkbWluIiwgImFkbWluIikKCWFkbWluVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIGFkbWluLlVzZXJuYW1lLCBhZG1pbi5Sb2xlKQoJZW5naW5lIDo9IG5ld09wZW5BUElSb3V0ZXIoKQoKCWFwcCA6PSAmbW9kZWwuT3BlbkFwcHsKCQlOYW1lOiAgICAgICJkZW1vLWFwcCIsCgkJQXBwS2V5OiAgICAiZGVtby1rZXkiLAoJCUFwcFNlY3JldDogImRlbW8tc2VjcmV0IiwKCQlTY29wZXM6ICAgICJ0YXNrcyIsCgkJRW5hYmxlZDogICB0cnVlLAoJCVJhdGVMaW1pdDogMCwKCQlDYWxsQ291bnQ6IDg4LAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShhcHApLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIGFwcDogJXYiLCBlcnIpCgl9CgoJbm93IDo9IHRpbWUuTm93KCkKCXN0YXJ0T2ZUb2RheSA6PSB0aW1lLkRhdGUobm93LlllYXIoKSwgbm93Lk1vbnRoKCksIG5vdy5EYXkoKSwgMCwgMCwgMCwgMCwgbm93LkxvY2F0aW9uKCkpCgl0b2RheUxvZyA6PSAmbW9kZWwuQXBpQ2FsbExvZ3sKCQlBcHBJRDogICAgIGFwcC5JRCwKCQlBcHBOYW1lOiAgIGFwcC5OYW1lLAoJCUVuZHBvaW50OiAgIi9hcGkvdjEvdGFza3MiLAoJCU1ldGhvZDogICAgaHR0cC5NZXRob2RHZXQsCgkJU3RhdHVzOiAgICBodHRwLlN0YXR1c09LLAoJCUNyZWF0ZWRBdDogc3RhcnRPZlRvZGF5LkFkZCgyICogdGltZS5Ib3VyKSwKCX0KCXllc3RlcmRheUxvZyA6PSAmbW9kZWwuQXBpQ2FsbExvZ3sKCQlBcHBJRDogICAgIGFwcC5JRCwKCQlBcHBOYW1lOiAgIGFwcC5OYW1lLAoJCUVuZHBvaW50OiAgIi9hcGkvdjEvdGFza3MiLAoJCU1ldGhvZDogICAgaHR0cC5NZXRob2RHZXQsCgkJU3RhdHVzOiAgICBodHRwLlN0YXR1c09LLAoJCUNyZWF0ZWRBdDogc3RhcnRPZlRvZGF5LkFkZCgtMiAqIHRpbWUuSG91ciksCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKHRvZGF5TG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB0b2RheSBsb2c6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSh5ZXN0ZXJkYXlMb2cpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHllc3RlcmRheSBsb2c6ICV2IiwgZXJyKQoJfQoKCWxpc3RSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvb3Blbi1hcGkvYXBwcyIsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYWRtaW5Ub2tlbiwKCX0pCglpZiBsaXN0UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGxpc3QgdG8gc3VjY2VlZCwgZ290ICVkIGJvZHk9JXMiLCBsaXN0UmVjLkNvZGUsIGxpc3RSZWMuQm9keS5TdHJpbmcoKSkKCX0KCWxpc3RQYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgbGlzdFJlYykKCWFwcHMsIG9rIDo9IGxpc3RQYXlsb2FkWyJkYXRhIl0uKFtdaW50ZXJmYWNle30pCglpZiAhb2sgfHwgbGVuKGFwcHMpICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBhIHNpbmdsZSBhcHAgaW4gbGlzdCByZXNwb25zZSwgZ290ICUjdiIsIGxpc3RQYXlsb2FkWyJkYXRhIl0pCgl9CglsaXN0SXRlbSA6PSBhcHBzWzBdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgZ290IDo9IGludChsaXN0SXRlbVsiY2FsbF9jb3VudCJdLihmbG9hdDY0KSk7IGdvdCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbGlzdCB0b2RheSBjYWxsX2NvdW50IHRvIGJlIDEsIGdvdCAlZCIsIGdvdCkKCX0KCgl1cGRhdGVSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQdXQsIGZtdC5TcHJpbnRmKCIvYXBpL3YxL29wZW4tYXBpL2FwcHMvJWQiLCBhcHAuSUQpLCBgeyJuYW1lIjoicmVuYW1lZC1hcHAifWAsIG1hcFtzdHJpbmddc3RyaW5newoJCSJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgYWRtaW5Ub2tlbiwKCX0sICIiKQoJaWYgdXBkYXRlUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHVwZGF0ZSB0byBzdWNjZWVkLCBnb3QgJWQgYm9keT0lcyIsIHVwZGF0ZVJlYy5Db2RlLCB1cGRhdGVSZWMuQm9keS5TdHJpbmcoKSkKCX0KCXVwZGF0ZVBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCB1cGRhdGVSZWMpCgl1cGRhdGVEYXRhIDo9IHVwZGF0ZVBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmIGdvdCA6PSBpbnQodXBkYXRlRGF0YVsiY2FsbF9jb3VudCJdLihmbG9hdDY0KSk7IGdvdCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXBkYXRlIHJlc3BvbnNlIHRvZGF5IGNhbGxfY291bnQgdG8gYmUgMSwgZ290ICVkIiwgZ290KQoJfQoKCXJlc2V0UmVjIDo9IHBlcmZvcm1SZXF1ZXN0KGVuZ2luZSwgaHR0cC5NZXRob2RQdXQsIGZtdC5TcHJpbnRmKCIvYXBpL3YxL29wZW4tYXBpL2FwcHMvJWQvcmVzZXQtc2VjcmV0IiwgYXBwLklEKSwgbWFwW3N0cmluZ11zdHJpbmd7CgkJIkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyBhZG1pblRva2VuLAoJfSkKCWlmIHJlc2V0UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJlc2V0IHNlY3JldCB0byBzdWNjZWVkLCBnb3QgJWQgYm9keT0lcyIsIHJlc2V0UmVjLkNvZGUsIHJlc2V0UmVjLkJvZHkuU3RyaW5nKCkpCgl9CglyZXNldFBheWxvYWQgOj0gZGVjb2RlSlNPTk1hcCh0LCByZXNldFJlYykKCXJlc2V0RGF0YSA6PSByZXNldFBheWxvYWRbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmIGdvdCA6PSBpbnQocmVzZXREYXRhWyJjYWxsX2NvdW50Il0uKGZsb2F0NjQpKTsgZ290ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXNldCByZXNwb25zZSB0b2RheSBjYWxsX2NvdW50IHRvIGJlIDEsIGdvdCAlZCIsIGdvdCkKCX0KCWlmIF8sIG9rIDo9IHJlc2V0RGF0YVsiYXBwX3NlY3JldCJdLihzdHJpbmcpOyAhb2sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXNldCByZXNwb25zZSB0byBpbmNsdWRlIGFwcF9zZWNyZXQsIGdvdCAlI3YiLCByZXNldERhdGEpCgl9Cn0KCmZ1bmMgVGVzdE9wZW5BUElDcmVhdGVSZXNwb25zZVN0YXJ0c1dpdGhaZXJvVG9kYXlDYWxsQ291bnQodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCglhZG1pbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAib3Blbi1hcGktY3JlYXRlLWFkbWluIiwgImFkbWluIikKCWFkbWluVG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIGFkbWluLlVzZXJuYW1lLCBhZG1pbi5Sb2xlKQoJZW5naW5lIDo9IG5ld09wZW5BUElSb3V0ZXIoKQoKCXJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZFBvc3QsICIvYXBpL3YxL29wZW4tYXBpL2FwcHMiLCBgeyJuYW1lIjoibmV3LWFwcCIsInNjb3BlcyI6InRhc2tzIiwicmF0ZV9saW1pdCI6MH1gLCBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiQXV0aG9yaXphdGlvbiI6ICJCZWFyZXIgIiArIGFkbWluVG9rZW4sCgl9LCAiIikKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQ3JlYXRlZCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGNyZWF0ZSB0byBzdWNjZWVkLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglwYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgcmVjKQoJZGF0YSA6PSBwYXlsb2FkWyJkYXRhIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglpZiBnb3QgOj0gaW50KGRhdGFbImNhbGxfY291bnQiXS4oZmxvYXQ2NCkpOyBnb3QgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5ldyBhcHAgdG9kYXkgY2FsbF9jb3VudCB0byBzdGFydCBhdCAwLCBnb3QgJWQiLCBnb3QpCgl9Cn0K
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/handler"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+
+	"github.com/gin-gonic/gin"
+)
+
+func newOpenAPIRouter() *gin.Engine {
+	engine := gin.New()
+	api := engine.Group("/api/v1")
+	handler.NewOpenAPIHandler().RegisterRoutes(api)
+	return engine
+}
+
+func TestOpenAPIManagementResponsesUseTodayCallCount(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "open-api-admin", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	engine := newOpenAPIRouter()
+
+	app := &model.OpenApp{
+		Name:      "demo-app",
+		AppKey:    "demo-key",
+		AppSecret: "demo-secret",
+		Scopes:    "tasks",
+		Enabled:   true,
+		RateLimit: 0,
+		CallCount: 88,
+	}
+	if err := database.DB.Create(app).Error; err != nil {
+		t.Fatalf("create app: %v", err)
+	}
+
+	now := time.Now()
+	startOfToday := time.Date(now.Year(), now.Month(), now.Day(), 0, 0, 0, 0, now.Location())
+	todayLog := &model.ApiCallLog{
+		AppID:     app.ID,
+		AppName:   app.Name,
+		Endpoint:  "/api/v1/tasks",
+		Method:    http.MethodGet,
+		Status:    http.StatusOK,
+		CreatedAt: startOfToday.Add(2 * time.Hour),
+	}
+	yesterdayLog := &model.ApiCallLog{
+		AppID:     app.ID,
+		AppName:   app.Name,
+		Endpoint:  "/api/v1/tasks",
+		Method:    http.MethodGet,
+		Status:    http.StatusOK,
+		CreatedAt: startOfToday.Add(-2 * time.Hour),
+	}
+	if err := database.DB.Create(todayLog).Error; err != nil {
+		t.Fatalf("create today log: %v", err)
+	}
+	if err := database.DB.Create(yesterdayLog).Error; err != nil {
+		t.Fatalf("create yesterday log: %v", err)
+	}
+
+	listRec := performRequest(engine, http.MethodGet, "/api/v1/open-api/apps", map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	})
+	if listRec.Code != http.StatusOK {
+		t.Fatalf("expected list to succeed, got %d body=%s", listRec.Code, listRec.Body.String())
+	}
+	listPayload := decodeJSONMap(t, listRec)
+	apps, ok := listPayload["data"].([]interface{})
+	if !ok || len(apps) != 1 {
+		t.Fatalf("expected a single app in list response, got %#v", listPayload["data"])
+	}
+	listItem := apps[0].(map[string]interface{})
+	if got := int(listItem["call_count"].(float64)); got != 1 {
+		t.Fatalf("expected list today call_count to be 1, got %d", got)
+	}
+
+	updateRec := performJSONRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/open-api/apps/%d", app.ID), `{"name":"renamed-app"}`, map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	}, "")
+	if updateRec.Code != http.StatusOK {
+		t.Fatalf("expected update to succeed, got %d body=%s", updateRec.Code, updateRec.Body.String())
+	}
+	updatePayload := decodeJSONMap(t, updateRec)
+	updateData := updatePayload["data"].(map[string]interface{})
+	if got := int(updateData["call_count"].(float64)); got != 1 {
+		t.Fatalf("expected update response today call_count to be 1, got %d", got)
+	}
+
+	resetRec := performRequest(engine, http.MethodPut, fmt.Sprintf("/api/v1/open-api/apps/%d/reset-secret", app.ID), map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	})
+	if resetRec.Code != http.StatusOK {
+		t.Fatalf("expected reset secret to succeed, got %d body=%s", resetRec.Code, resetRec.Body.String())
+	}
+	resetPayload := decodeJSONMap(t, resetRec)
+	resetData := resetPayload["data"].(map[string]interface{})
+	if got := int(resetData["call_count"].(float64)); got != 1 {
+		t.Fatalf("expected reset response today call_count to be 1, got %d", got)
+	}
+	if _, ok := resetData["app_secret"].(string); !ok {
+		t.Fatalf("expected reset response to include app_secret, got %#v", resetData)
+	}
+}
+
+func TestOpenAPICreateResponseStartsWithZeroTodayCallCount(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "open-api-create-admin", "admin")
+	adminToken := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	engine := newOpenAPIRouter()
+
+	rec := performJSONRequest(engine, http.MethodPost, "/api/v1/open-api/apps", `{"name":"new-app","scopes":"tasks","rate_limit":0}`, map[string]string{
+		"Authorization": "Bearer " + adminToken,
+	}, "")
+	if rec.Code != http.StatusCreated {
+		t.Fatalf("expected create to succeed, got %d body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	data := payload["data"].(map[string]interface{})
+	if got := int(data["call_count"].(float64)); got != 0 {
+		t.Fatalf("expected new app today call_count to start at 0, got %d", got)
+	}
+}

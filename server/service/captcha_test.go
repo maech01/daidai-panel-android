@@ -1,1 +1,219 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNyeXB0by9obWFjIgoJImNyeXB0by9zaGEyNTYiCgkiZW5jb2RpbmcvaGV4IgoJIm5ldC9odHRwIgoJIm5ldC9odHRwL2h0dHB0ZXN0IgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0SXNDYXB0Y2hhUmVxdWlyZWRXaGVuRW5hYmxlZCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWlmIElzQ2FwdGNoYVJlcXVpcmVkKCIxOTguNTEuMTAwLjEwIiwgImFkbWluIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYXB0Y2hhIHRvIGJlIGRpc2FibGVkIGJ5IGRlZmF1bHQiKQoJfQoKCW1vZGVsLlNldENvbmZpZygiY2FwdGNoYV9lbmFibGVkIiwgInRydWUiKQoJbW9kZWwuU2V0Q29uZmlnKCJjYXB0Y2hhX2lkIiwgImNhcHRjaGEtaWQiKQoJbW9kZWwuU2V0Q29uZmlnKCJjYXB0Y2hhX2tleSIsICJzZWNyZXQta2V5IikKCglpZiAhSXNDYXB0Y2hhUmVxdWlyZWQoIjE5OC41MS4xMDAuMTAiLCAiIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBlbmFibGVkIGNhcHRjaGEgdG8gYmUgcmVxdWlyZWQgYmVmb3JlIGFueSBmYWlsZWQgbG9naW4iKQoJfQp9CgpmdW5jIFRlc3RWYWxpZGF0ZUdlZVRlc3RTdWNjZXNzKHQgKnRlc3RpbmcuVCkgewoJcGF5bG9hZCA6PSBDYXB0Y2hhUGF5bG9hZHsKCQlMb3ROdW1iZXI6ICAgICAibG90LTEyMyIsCgkJQ2FwdGNoYU91dHB1dDogImNhcHRjaGEtb3V0cHV0IiwKCQlQYXNzVG9rZW46ICAgICAicGFzcy10b2tlbiIsCgkJR2VuVGltZTogICAgICAgIjE3MTEwMDAwMDAiLAoJfQoKCXNlcnZlciA6PSBodHRwdGVzdC5OZXdTZXJ2ZXIoaHR0cC5IYW5kbGVyRnVuYyhmdW5jKHcgaHR0cC5SZXNwb25zZVdyaXRlciwgciAqaHR0cC5SZXF1ZXN0KSB7CgkJaWYgci5NZXRob2QgIT0gaHR0cC5NZXRob2RQb3N0IHsKCQkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgbWV0aG9kOiAlcyIsIHIuTWV0aG9kKQoJCX0KCQlpZiBnb3QgOj0gci5VUkwuUXVlcnkoKS5HZXQoImNhcHRjaGFfaWQiKTsgZ290ICE9ICJjYXB0Y2hhLWlkIiB7CgkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGNhcHRjaGFfaWQ6ICVzIiwgZ290KQoJCX0KCgkJaWYgZXJyIDo9IHIuUGFyc2VGb3JtKCk7IGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigicGFyc2UgZm9ybTogJXYiLCBlcnIpCgkJfQoKCQlpZiBnb3QgOj0gci5Gb3JtLkdldCgibG90X251bWJlciIpOyBnb3QgIT0gcGF5bG9hZC5Mb3ROdW1iZXIgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBsb3RfbnVtYmVyOiAlcyIsIGdvdCkKCQl9CgkJaWYgZ290IDo9IHIuRm9ybS5HZXQoImNhcHRjaGFfb3V0cHV0Iik7IGdvdCAhPSBwYXlsb2FkLkNhcHRjaGFPdXRwdXQgewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBjYXB0Y2hhX291dHB1dDogJXMiLCBnb3QpCgkJfQoJCWlmIGdvdCA6PSByLkZvcm0uR2V0KCJwYXNzX3Rva2VuIik7IGdvdCAhPSBwYXlsb2FkLlBhc3NUb2tlbiB7CgkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIHBhc3NfdG9rZW46ICVzIiwgZ290KQoJCX0KCQlpZiBnb3QgOj0gci5Gb3JtLkdldCgiZ2VuX3RpbWUiKTsgZ290ICE9IHBheWxvYWQuR2VuVGltZSB7CgkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGdlbl90aW1lOiAlcyIsIGdvdCkKCQl9CgoJCWV4cGVjdGVkU2lnbiA6PSBleHBlY3RlZFNpZ25Ub2tlbigic2VjcmV0LWtleSIsIHBheWxvYWQuTG90TnVtYmVyKQoJCWlmIGdvdCA6PSByLkZvcm0uR2V0KCJzaWduX3Rva2VuIik7IGdvdCAhPSBleHBlY3RlZFNpZ24gewoJCQl0LkZhdGFsZigidW5leHBlY3RlZCBzaWduX3Rva2VuOiAlcyIsIGdvdCkKCQl9CgoJCXcuSGVhZGVyKCkuU2V0KCJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIpCgkJXywgXyA9IHcuV3JpdGUoW11ieXRlKGB7InJlc3VsdCI6InN1Y2Nlc3MiLCJyZWFzb24iOiJzdWNjZXNzIn1gKSkKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCglvbGRVUkwgOj0gZ2VldGVzdFZhbGlkYXRlVVJMCglvbGRDbGllbnQgOj0gZ2VldGVzdEhUVFBDbGllbnQKCWdlZXRlc3RWYWxpZGF0ZVVSTCA9IHNlcnZlci5VUkwKCWdlZXRlc3RIVFRQQ2xpZW50ID0gJmh0dHAuQ2xpZW50e1RpbWVvdXQ6IHRpbWUuU2Vjb25kfQoJZGVmZXIgZnVuYygpIHsKCQlnZWV0ZXN0VmFsaWRhdGVVUkwgPSBvbGRVUkwKCQlnZWV0ZXN0SFRUUENsaWVudCA9IG9sZENsaWVudAoJfSgpCgoJcmVzdWx0LCBlcnIgOj0gdmFsaWRhdGVHZWVUZXN0KCJjYXB0Y2hhLWlkIiwgInNlY3JldC1rZXkiLCBDYXB0Y2hhRmFpbE1vZGVPcGVuLCBwYXlsb2FkKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInZhbGlkYXRlIGdlZXRlc3QgcmV0dXJuZWQgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgIXJlc3VsdC5QYXNzZWQgfHwgcmVzdWx0LkZhaWxPcGVuIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY2FwdGNoYSB2YWxpZGF0aW9uIHN1Y2Nlc3MsIGdvdCAlK3YiLCByZXN1bHQpCgl9Cn0KCmZ1bmMgVGVzdFZhbGlkYXRlR2VlVGVzdFJlamVjdHNJbnZhbGlkUmVzdWx0KHQgKnRlc3RpbmcuVCkgewoJc2VydmVyIDo9IGh0dHB0ZXN0Lk5ld1NlcnZlcihodHRwLkhhbmRsZXJGdW5jKGZ1bmModyBodHRwLlJlc3BvbnNlV3JpdGVyLCByICpodHRwLlJlcXVlc3QpIHsKCQl3LkhlYWRlcigpLlNldCgiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iKQoJCV8sIF8gPSB3LldyaXRlKFtdYnl0ZShgeyJyZXN1bHQiOiJmYWlsIiwicmVhc29uIjoiZm9yYmlkZGVuIn1gKSkKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCglvbGRVUkwgOj0gZ2VldGVzdFZhbGlkYXRlVVJMCglvbGRDbGllbnQgOj0gZ2VldGVzdEhUVFBDbGllbnQKCWdlZXRlc3RWYWxpZGF0ZVVSTCA9IHNlcnZlci5VUkwKCWdlZXRlc3RIVFRQQ2xpZW50ID0gJmh0dHAuQ2xpZW50e1RpbWVvdXQ6IHRpbWUuU2Vjb25kfQoJZGVmZXIgZnVuYygpIHsKCQlnZWV0ZXN0VmFsaWRhdGVVUkwgPSBvbGRVUkwKCQlnZWV0ZXN0SFRUUENsaWVudCA9IG9sZENsaWVudAoJfSgpCgoJcmVzdWx0LCBlcnIgOj0gdmFsaWRhdGVHZWVUZXN0KCJjYXB0Y2hhLWlkIiwgInNlY3JldC1rZXkiLCBDYXB0Y2hhRmFpbE1vZGVPcGVuLCBDYXB0Y2hhUGF5bG9hZHsKCQlMb3ROdW1iZXI6ICAgICAibG90LTEyMyIsCgkJQ2FwdGNoYU91dHB1dDogImNhcHRjaGEtb3V0cHV0IiwKCQlQYXNzVG9rZW46ICAgICAicGFzcy10b2tlbiIsCgkJR2VuVGltZTogICAgICAgIjE3MTEwMDAwMDAiLAoJfSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ2YWxpZGF0ZSBnZWV0ZXN0IHJldHVybmVkIGVycm9yOiAldiIsIGVycikKCX0KCWlmIHJlc3VsdC5QYXNzZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjYXB0Y2hhIHZhbGlkYXRpb24gdG8gZmFpbCwgZ290ICUrdiIsIHJlc3VsdCkKCX0KCWlmIHJlc3VsdC5SZWFzb24gIT0gImZvcmJpZGRlbiIgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGZhaWwgcmVhc29uOiAlcyIsIHJlc3VsdC5SZWFzb24pCgl9Cn0KCmZ1bmMgVGVzdFZhbGlkYXRlR2VlVGVzdEZhaWxPcGVuT25VcHN0cmVhbUZhaWx1cmUodCAqdGVzdGluZy5UKSB7CglzZXJ2ZXIgOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCWh0dHAuRXJyb3IodywgInVwc3RyZWFtIGVycm9yIiwgaHR0cC5TdGF0dXNCYWRHYXRld2F5KQoJfSkpCglkZWZlciBzZXJ2ZXIuQ2xvc2UoKQoKCW9sZFVSTCA6PSBnZWV0ZXN0VmFsaWRhdGVVUkwKCW9sZENsaWVudCA6PSBnZWV0ZXN0SFRUUENsaWVudAoJZ2VldGVzdFZhbGlkYXRlVVJMID0gc2VydmVyLlVSTAoJZ2VldGVzdEhUVFBDbGllbnQgPSAmaHR0cC5DbGllbnR7VGltZW91dDogdGltZS5TZWNvbmR9CglkZWZlciBmdW5jKCkgewoJCWdlZXRlc3RWYWxpZGF0ZVVSTCA9IG9sZFVSTAoJCWdlZXRlc3RIVFRQQ2xpZW50ID0gb2xkQ2xpZW50Cgl9KCkKCglyZXN1bHQsIGVyciA6PSB2YWxpZGF0ZUdlZVRlc3QoImNhcHRjaGEtaWQiLCAic2VjcmV0LWtleSIsIENhcHRjaGFGYWlsTW9kZU9wZW4sIENhcHRjaGFQYXlsb2FkewoJCUxvdE51bWJlcjogICAgICJsb3QtMTIzIiwKCQlDYXB0Y2hhT3V0cHV0OiAiY2FwdGNoYS1vdXRwdXQiLAoJCVBhc3NUb2tlbjogICAgICJwYXNzLXRva2VuIiwKCQlHZW5UaW1lOiAgICAgICAiMTcxMTAwMDAwMCIsCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInZhbGlkYXRlIGdlZXRlc3QgcmV0dXJuZWQgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgIXJlc3VsdC5QYXNzZWQgfHwgIXJlc3VsdC5GYWlsT3BlbiB8fCAhcmVzdWx0LlVwc3RyZWFtRXJyb3IgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBmYWlsLW9wZW4gcmVzdWx0IG9uIHVwc3RyZWFtIGZhaWx1cmUsIGdvdCAlK3YiLCByZXN1bHQpCgl9Cn0KCmZ1bmMgVGVzdFZhbGlkYXRlR2VlVGVzdFN0cmljdE9uVXBzdHJlYW1GYWlsdXJlKHQgKnRlc3RpbmcuVCkgewoJc2VydmVyIDo9IGh0dHB0ZXN0Lk5ld1NlcnZlcihodHRwLkhhbmRsZXJGdW5jKGZ1bmModyBodHRwLlJlc3BvbnNlV3JpdGVyLCByICpodHRwLlJlcXVlc3QpIHsKCQlodHRwLkVycm9yKHcsICJ1cHN0cmVhbSBlcnJvciIsIGh0dHAuU3RhdHVzQmFkR2F0ZXdheSkKCX0pKQoJZGVmZXIgc2VydmVyLkNsb3NlKCkKCglvbGRVUkwgOj0gZ2VldGVzdFZhbGlkYXRlVVJMCglvbGRDbGllbnQgOj0gZ2VldGVzdEhUVFBDbGllbnQKCWdlZXRlc3RWYWxpZGF0ZVVSTCA9IHNlcnZlci5VUkwKCWdlZXRlc3RIVFRQQ2xpZW50ID0gJmh0dHAuQ2xpZW50e1RpbWVvdXQ6IHRpbWUuU2Vjb25kfQoJZGVmZXIgZnVuYygpIHsKCQlnZWV0ZXN0VmFsaWRhdGVVUkwgPSBvbGRVUkwKCQlnZWV0ZXN0SFRUUENsaWVudCA9IG9sZENsaWVudAoJfSgpCgoJcmVzdWx0LCBlcnIgOj0gdmFsaWRhdGVHZWVUZXN0KCJjYXB0Y2hhLWlkIiwgInNlY3JldC1rZXkiLCBDYXB0Y2hhRmFpbE1vZGVTdHJpY3QsIENhcHRjaGFQYXlsb2FkewoJCUxvdE51bWJlcjogICAgICJsb3QtMTIzIiwKCQlDYXB0Y2hhT3V0cHV0OiAiY2FwdGNoYS1vdXRwdXQiLAoJCVBhc3NUb2tlbjogICAgICJwYXNzLXRva2VuIiwKCQlHZW5UaW1lOiAgICAgICAiMTcxMTAwMDAwMCIsCgl9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInZhbGlkYXRlIGdlZXRlc3QgcmV0dXJuZWQgZXJyb3I6ICV2IiwgZXJyKQoJfQoJaWYgcmVzdWx0LlBhc3NlZCB8fCByZXN1bHQuRmFpbE9wZW4gfHwgIXJlc3VsdC5VcHN0cmVhbUVycm9yIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgc3RyaWN0IGZhaWx1cmUgcmVzdWx0IG9uIHVwc3RyZWFtIGZhaWx1cmUsIGdvdCAlK3YiLCByZXN1bHQpCgl9CglpZiByZXN1bHQuUmVhc29uICE9ICJ1cHN0cmVhbV81eHgiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCBzdHJpY3QgZmFpbCByZWFzb246ICVzIiwgcmVzdWx0LlJlYXNvbikKCX0KfQoKZnVuYyBUZXN0Tm9ybWFsaXplQ2FwdGNoYUZhaWxNb2RlKHQgKnRlc3RpbmcuVCkgewoJY2FzZXMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIiI6ICAgICAgICAgQ2FwdGNoYUZhaWxNb2RlT3BlbiwKCQkib3BlbiI6ICAgICBDYXB0Y2hhRmFpbE1vZGVPcGVuLAoJCSIgc3RyaWN0ICI6IENhcHRjaGFGYWlsTW9kZVN0cmljdCwKCQkidW5rbm93biI6ICBDYXB0Y2hhRmFpbE1vZGVPcGVuLAoJfQoKCWZvciBpbnB1dCwgd2FudCA6PSByYW5nZSBjYXNlcyB7CgkJaWYgZ290IDo9IE5vcm1hbGl6ZUNhcHRjaGFGYWlsTW9kZShpbnB1dCk7IGdvdCAhPSB3YW50IHsKCQkJdC5GYXRhbGYoIk5vcm1hbGl6ZUNhcHRjaGFGYWlsTW9kZSglcSkgPSAlcSwgd2FudCAlcSIsIGlucHV0LCBnb3QsIHdhbnQpCgkJfQoJfQoKCWlmICFJc0NhcHRjaGFGYWlsTW9kZVZhbGlkKCIiKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgZW1wdHkgdmFsdWUgdG8gYmUgYWNjZXB0ZWQgYXMgZGVmYXVsdC1vcGVuIikKCX0KCWlmICFJc0NhcHRjaGFGYWlsTW9kZVZhbGlkKCJvcGVuIikgewoJCXQuRmF0YWwoImV4cGVjdGVkIG9wZW4gdG8gYmUgdmFsaWQiKQoJfQoJaWYgIUlzQ2FwdGNoYUZhaWxNb2RlVmFsaWQoInN0cmljdCIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBzdHJpY3QgdG8gYmUgdmFsaWQiKQoJfQoJaWYgSXNDYXB0Y2hhRmFpbE1vZGVWYWxpZCgiaW52YWxpZCIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBpbnZhbGlkIG1vZGUgdG8gYmUgcmVqZWN0ZWQiKQoJfQp9CgpmdW5jIGV4cGVjdGVkU2lnblRva2VuKHNlY3JldCwgbG90TnVtYmVyIHN0cmluZykgc3RyaW5nIHsKCW1hYyA6PSBobWFjLk5ldyhzaGEyNTYuTmV3LCBbXWJ5dGUoc2VjcmV0KSkKCW1hYy5Xcml0ZShbXWJ5dGUobG90TnVtYmVyKSkKCXJldHVybiBoZXguRW5jb2RlVG9TdHJpbmcobWFjLlN1bShuaWwpKQp9Cg==
+package service
+
+import (
+	"crypto/hmac"
+	"crypto/sha256"
+	"encoding/hex"
+	"net/http"
+	"net/http/httptest"
+	"testing"
+	"time"
+
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestIsCaptchaRequiredWhenEnabled(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	if IsCaptchaRequired("198.51.100.10", "admin") {
+		t.Fatalf("expected captcha to be disabled by default")
+	}
+
+	model.SetConfig("captcha_enabled", "true")
+	model.SetConfig("captcha_id", "captcha-id")
+	model.SetConfig("captcha_key", "secret-key")
+
+	if !IsCaptchaRequired("198.51.100.10", "") {
+		t.Fatalf("expected enabled captcha to be required before any failed login")
+	}
+}
+
+func TestValidateGeeTestSuccess(t *testing.T) {
+	payload := CaptchaPayload{
+		LotNumber:     "lot-123",
+		CaptchaOutput: "captcha-output",
+		PassToken:     "pass-token",
+		GenTime:       "1711000000",
+	}
+
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if r.Method != http.MethodPost {
+			t.Fatalf("unexpected method: %s", r.Method)
+		}
+		if got := r.URL.Query().Get("captcha_id"); got != "captcha-id" {
+			t.Fatalf("unexpected captcha_id: %s", got)
+		}
+
+		if err := r.ParseForm(); err != nil {
+			t.Fatalf("parse form: %v", err)
+		}
+
+		if got := r.Form.Get("lot_number"); got != payload.LotNumber {
+			t.Fatalf("unexpected lot_number: %s", got)
+		}
+		if got := r.Form.Get("captcha_output"); got != payload.CaptchaOutput {
+			t.Fatalf("unexpected captcha_output: %s", got)
+		}
+		if got := r.Form.Get("pass_token"); got != payload.PassToken {
+			t.Fatalf("unexpected pass_token: %s", got)
+		}
+		if got := r.Form.Get("gen_time"); got != payload.GenTime {
+			t.Fatalf("unexpected gen_time: %s", got)
+		}
+
+		expectedSign := expectedSignToken("secret-key", payload.LotNumber)
+		if got := r.Form.Get("sign_token"); got != expectedSign {
+			t.Fatalf("unexpected sign_token: %s", got)
+		}
+
+		w.Header().Set("Content-Type", "application/json")
+		_, _ = w.Write([]byte(`{"result":"success","reason":"success"}`))
+	}))
+	defer server.Close()
+
+	oldURL := geetestValidateURL
+	oldClient := geetestHTTPClient
+	geetestValidateURL = server.URL
+	geetestHTTPClient = &http.Client{Timeout: time.Second}
+	defer func() {
+		geetestValidateURL = oldURL
+		geetestHTTPClient = oldClient
+	}()
+
+	result, err := validateGeeTest("captcha-id", "secret-key", CaptchaFailModeOpen, payload)
+	if err != nil {
+		t.Fatalf("validate geetest returned error: %v", err)
+	}
+	if !result.Passed || result.FailOpen {
+		t.Fatalf("expected captcha validation success, got %+v", result)
+	}
+}
+
+func TestValidateGeeTestRejectsInvalidResult(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		_, _ = w.Write([]byte(`{"result":"fail","reason":"forbidden"}`))
+	}))
+	defer server.Close()
+
+	oldURL := geetestValidateURL
+	oldClient := geetestHTTPClient
+	geetestValidateURL = server.URL
+	geetestHTTPClient = &http.Client{Timeout: time.Second}
+	defer func() {
+		geetestValidateURL = oldURL
+		geetestHTTPClient = oldClient
+	}()
+
+	result, err := validateGeeTest("captcha-id", "secret-key", CaptchaFailModeOpen, CaptchaPayload{
+		LotNumber:     "lot-123",
+		CaptchaOutput: "captcha-output",
+		PassToken:     "pass-token",
+		GenTime:       "1711000000",
+	})
+	if err != nil {
+		t.Fatalf("validate geetest returned error: %v", err)
+	}
+	if result.Passed {
+		t.Fatalf("expected captcha validation to fail, got %+v", result)
+	}
+	if result.Reason != "forbidden" {
+		t.Fatalf("unexpected fail reason: %s", result.Reason)
+	}
+}
+
+func TestValidateGeeTestFailOpenOnUpstreamFailure(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		http.Error(w, "upstream error", http.StatusBadGateway)
+	}))
+	defer server.Close()
+
+	oldURL := geetestValidateURL
+	oldClient := geetestHTTPClient
+	geetestValidateURL = server.URL
+	geetestHTTPClient = &http.Client{Timeout: time.Second}
+	defer func() {
+		geetestValidateURL = oldURL
+		geetestHTTPClient = oldClient
+	}()
+
+	result, err := validateGeeTest("captcha-id", "secret-key", CaptchaFailModeOpen, CaptchaPayload{
+		LotNumber:     "lot-123",
+		CaptchaOutput: "captcha-output",
+		PassToken:     "pass-token",
+		GenTime:       "1711000000",
+	})
+	if err != nil {
+		t.Fatalf("validate geetest returned error: %v", err)
+	}
+	if !result.Passed || !result.FailOpen || !result.UpstreamError {
+		t.Fatalf("expected fail-open result on upstream failure, got %+v", result)
+	}
+}
+
+func TestValidateGeeTestStrictOnUpstreamFailure(t *testing.T) {
+	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		http.Error(w, "upstream error", http.StatusBadGateway)
+	}))
+	defer server.Close()
+
+	oldURL := geetestValidateURL
+	oldClient := geetestHTTPClient
+	geetestValidateURL = server.URL
+	geetestHTTPClient = &http.Client{Timeout: time.Second}
+	defer func() {
+		geetestValidateURL = oldURL
+		geetestHTTPClient = oldClient
+	}()
+
+	result, err := validateGeeTest("captcha-id", "secret-key", CaptchaFailModeStrict, CaptchaPayload{
+		LotNumber:     "lot-123",
+		CaptchaOutput: "captcha-output",
+		PassToken:     "pass-token",
+		GenTime:       "1711000000",
+	})
+	if err != nil {
+		t.Fatalf("validate geetest returned error: %v", err)
+	}
+	if result.Passed || result.FailOpen || !result.UpstreamError {
+		t.Fatalf("expected strict failure result on upstream failure, got %+v", result)
+	}
+	if result.Reason != "upstream_5xx" {
+		t.Fatalf("unexpected strict fail reason: %s", result.Reason)
+	}
+}
+
+func TestNormalizeCaptchaFailMode(t *testing.T) {
+	cases := map[string]string{
+		"":         CaptchaFailModeOpen,
+		"open":     CaptchaFailModeOpen,
+		" strict ": CaptchaFailModeStrict,
+		"unknown":  CaptchaFailModeOpen,
+	}
+
+	for input, want := range cases {
+		if got := NormalizeCaptchaFailMode(input); got != want {
+			t.Fatalf("NormalizeCaptchaFailMode(%q) = %q, want %q", input, got, want)
+		}
+	}
+
+	if !IsCaptchaFailModeValid("") {
+		t.Fatal("expected empty value to be accepted as default-open")
+	}
+	if !IsCaptchaFailModeValid("open") {
+		t.Fatal("expected open to be valid")
+	}
+	if !IsCaptchaFailModeValid("strict") {
+		t.Fatal("expected strict to be valid")
+	}
+	if IsCaptchaFailModeValid("invalid") {
+		t.Fatal("expected invalid mode to be rejected")
+	}
+}
+
+func expectedSignToken(secret, lotNumber string) string {
+	mac := hmac.New(sha256.New, []byte(secret))
+	mac.Write([]byte(lotNumber))
+	return hex.EncodeToString(mac.Sum(nil))
+}

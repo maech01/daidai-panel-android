@@ -1,1 +1,75 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkibmV0L2h0dHAvaHR0cHRlc3QiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0TG9nQ2xlYW51cFVzZXNSZWdpc3RlcmVkUmV0ZW50aW9uRGF5c0J5RGVmYXVsdCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWFkbWluIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJjbGVhbnVwLWFkbWluIiwgImFkbWluIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCBhZG1pbi5Vc2VybmFtZSwgYWRtaW4uUm9sZSkKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoImxvZ19yZXRlbnRpb25fZGF5cyIsICIzMCIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IGxvZ19yZXRlbnRpb25fZGF5czogJXYiLCBlcnIpCgl9CgoJdGFzayA6PSBtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAgICAgICAiY2xlYW51cC10YXNrIiwKCQlDb21tYW5kOiAgICAgICAgImVjaG8gdGVzdCIsCgkJQ3JvbkV4cHJlc3Npb246ICIwIDAgKiAqICoiLAoJCVN0YXR1czogICAgICAgICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJnRhc2spLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHRhc2s6ICV2IiwgZXJyKQoJfQoKCW9sZExvZ1N0YXR1cyA6PSBtb2RlbC5Mb2dTdGF0dXNTdWNjZXNzCglvbGRTdGFydGVkQXQgOj0gdGltZS5Ob3coKS5BZGREYXRlKDAsIDAsIC0zMSkKCXJlY2VudFN0YXJ0ZWRBdCA6PSB0aW1lLk5vdygpLkFkZERhdGUoMCwgMCwgLTEwKQoKCW9sZExvZyA6PSBtb2RlbC5UYXNrTG9newoJCVRhc2tJRDogICAgdGFzay5JRCwKCQlTdGF0dXM6ICAgICZvbGRMb2dTdGF0dXMsCgkJU3RhcnRlZEF0OiBvbGRTdGFydGVkQXQsCgl9CglyZWNlbnRMb2cgOj0gbW9kZWwuVGFza0xvZ3sKCQlUYXNrSUQ6ICAgIHRhc2suSUQsCgkJU3RhdHVzOiAgICAmb2xkTG9nU3RhdHVzLAoJCVN0YXJ0ZWRBdDogcmVjZW50U3RhcnRlZEF0LAoJfQoKCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJm9sZExvZykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgb2xkIGxvZzogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuQ3JlYXRlKCZyZWNlbnRMb2cpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHJlY2VudCBsb2c6ICV2IiwgZXJyKQoJfQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2REZWxldGUsICIvYXBpL3YxL2xvZ3MvY2xlYW4iLCBuaWwpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgY291bnQgaW50NjQKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNrTG9ne30pLldoZXJlKCJpZCA9ID8iLCBvbGRMb2cuSUQpLkNvdW50KCZjb3VudCkKCWlmIGNvdW50ICE9IDAgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbGQgbG9nIHRvIGJlIGRlbGV0ZWQsIHJlbWFpbmluZz0lZCIsIGNvdW50KQoJfQoKCWRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNrTG9ne30pLldoZXJlKCJpZCA9ID8iLCByZWNlbnRMb2cuSUQpLkNvdW50KCZjb3VudCkKCWlmIGNvdW50ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZWNlbnQgbG9nIHRvIHJlbWFpbiwgcmVtYWluaW5nPSVkIiwgY291bnQpCgl9Cn0K
+package handler_test
+
+import (
+	"net/http"
+	"net/http/httptest"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestLogCleanupUsesRegisteredRetentionDaysByDefault(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "cleanup-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+	if err := model.SetConfig("log_retention_days", "30"); err != nil {
+		t.Fatalf("set log_retention_days: %v", err)
+	}
+
+	task := model.Task{
+		Name:           "cleanup-task",
+		Command:        "echo test",
+		CronExpression: "0 0 * * *",
+		Status:         model.TaskStatusEnabled,
+	}
+	if err := database.DB.Create(&task).Error; err != nil {
+		t.Fatalf("create task: %v", err)
+	}
+
+	oldLogStatus := model.LogStatusSuccess
+	oldStartedAt := time.Now().AddDate(0, 0, -31)
+	recentStartedAt := time.Now().AddDate(0, 0, -10)
+
+	oldLog := model.TaskLog{
+		TaskID:    task.ID,
+		Status:    &oldLogStatus,
+		StartedAt: oldStartedAt,
+	}
+	recentLog := model.TaskLog{
+		TaskID:    task.ID,
+		Status:    &oldLogStatus,
+		StartedAt: recentStartedAt,
+	}
+
+	if err := database.DB.Create(&oldLog).Error; err != nil {
+		t.Fatalf("create old log: %v", err)
+	}
+	if err := database.DB.Create(&recentLog).Error; err != nil {
+		t.Fatalf("create recent log: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodDelete, "/api/v1/logs/clean", nil)
+	req.Header.Set("Authorization", "Bearer "+token)
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	var count int64
+	database.DB.Model(&model.TaskLog{}).Where("id = ?", oldLog.ID).Count(&count)
+	if count != 0 {
+		t.Fatalf("expected old log to be deleted, remaining=%d", count)
+	}
+
+	database.DB.Model(&model.TaskLog{}).Where("id = ?", recentLog.ID).Count(&count)
+	if count != 1 {
+		t.Fatalf("expected recent log to remain, remaining=%d", count)
+	}
+}

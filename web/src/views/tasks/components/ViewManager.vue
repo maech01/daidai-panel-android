@@ -1,1 +1,343 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoLCBvbk1vdW50ZWQgfSBmcm9tICd2dWUnCmltcG9ydCB7IHRhc2tWaWV3QXBpLCB0eXBlIFRhc2tWaWV3LCB0eXBlIFRhc2tWaWV3RmlsdGVyLCB0eXBlIFRhc2tWaWV3U29ydFJ1bGUgfSBmcm9tICdAL2FwaS90YXNrVmlldycKaW1wb3J0IHsgRWxNZXNzYWdlLCBFbE1lc3NhZ2VCb3ggfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IFBsdXMsIERlbGV0ZSwgQ2xvc2UsIEVkaXQsIFNldHRpbmcgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKaW1wb3J0IFZpZXdNYW5hZ2VtZW50RGlhbG9nIGZyb20gJy4vVmlld01hbmFnZW1lbnREaWFsb2cudnVlJwoKY29uc3QgZW1pdCA9IGRlZmluZUVtaXRzPHsKICAndmlldy1jaGFuZ2UnOiBbZmlsdGVyczogVGFza1ZpZXdGaWx0ZXJbXSwgc29ydFJ1bGVzOiBUYXNrVmlld1NvcnRSdWxlW11dCn0+KCkKCmNvbnN0IHsgZGlhbG9nRnVsbHNjcmVlbiB9ID0gdXNlUmVzcG9uc2l2ZSgpCmNvbnN0IHZpZXdzID0gcmVmPFRhc2tWaWV3W10+KFtdKQpjb25zdCBhY3RpdmVWaWV3SWQgPSByZWY8bnVtYmVyIHwgbnVsbD4obnVsbCkKY29uc3Qgc2hvd0RpYWxvZyA9IHJlZihmYWxzZSkKY29uc3QgaXNFZGl0TW9kZSA9IHJlZihmYWxzZSkKY29uc3QgZWRpdGluZ1ZpZXdJZCA9IHJlZjxudW1iZXIgfCBudWxsPihudWxsKQpjb25zdCBzaG93TWFuYWdlbWVudERpYWxvZyA9IHJlZihmYWxzZSkKCmNvbnN0IHZpc2libGVWaWV3cyA9IGNvbXB1dGVkKCgpID0+IHZpZXdzLnZhbHVlLmZpbHRlcih2aWV3ID0+ICF2aWV3LmhpZGRlbikpCgpjb25zdCBmaWx0ZXJGaWVsZHMgPSBbCiAgeyB2YWx1ZTogJ2NvbW1hbmQnLCBsYWJlbDogJ+WRveS7pCcgfSwKICB7IHZhbHVlOiAnbmFtZScsIGxhYmVsOiAn5ZCN56ewJyB9LAogIHsgdmFsdWU6ICdjcm9uX2V4cHJlc3Npb24nLCBsYWJlbDogJ+WumuaXtuinhOWImScgfSwKICB7IHZhbHVlOiAnc3RhdHVzJywgbGFiZWw6ICfnirbmgIEnIH0sCiAgeyB2YWx1ZTogJ2xhYmVscycsIGxhYmVsOiAn5qCH562+JyB9LAogIHsgdmFsdWU6ICdzdWJzY3JpcHRpb24nLCBsYWJlbDogJ+iuoumYhScgfQpdCgpjb25zdCBzdGF0dXNPcHRpb25zID0gWwogIHsgbGFiZWw6ICflt7LlkK/nlKggLyDnqbrpl7LkuK0nLCB2YWx1ZTogJzEnIH0sCiAgeyBsYWJlbDogJ+W3suemgeeUqCcsIHZhbHVlOiAnMCcgfSwKICB7IGxhYmVsOiAn6L+Q6KGM5LitJywgdmFsdWU6ICcyJyB9LAogIHsgbGFiZWw6ICfmjpLpmJ/kuK0nLCB2YWx1ZTogJzAuNScgfSwKXQoKY29uc3QgZmlsdGVyT3BlcmF0b3JzID0gWwogIHsgdmFsdWU6ICdjb250YWlucycsIGxhYmVsOiAn5YyF5ZCrJyB9LAogIHsgdmFsdWU6ICdub3RfY29udGFpbnMnLCBsYWJlbDogJ+S4jeWMheWQqycgfSwKICB7IHZhbHVlOiAnZXF1YWxzJywgbGFiZWw6ICfnrYnkuo4nIH0sCiAgeyB2YWx1ZTogJ25vdF9lcXVhbHMnLCBsYWJlbDogJ+S4jeetieS6jicgfQpdCgpjb25zdCBzb3J0RGlyZWN0aW9ucyA9IFsKICB7IHZhbHVlOiAnYXNjJywgbGFiZWw6ICfljYfluo8nIH0sCiAgeyB2YWx1ZTogJ2Rlc2MnLCBsYWJlbDogJ+mZjeW6jycgfQpdCgpjb25zdCBlZGl0Rm9ybSA9IHJlZih7CiAgbmFtZTogJycsCiAgZmlsdGVyczogW3sgZmllbGQ6ICdjb21tYW5kJywgb3BlcmF0b3I6ICdjb250YWlucycsIHZhbHVlOiAnJyB9XSBhcyBUYXNrVmlld0ZpbHRlcltdLAogIHNvcnRSdWxlczogW10gYXMgVGFza1ZpZXdTb3J0UnVsZVtdCn0pCgphc3luYyBmdW5jdGlvbiBsb2FkVmlld3MoKSB7CiAgdHJ5IHsKICAgIHZpZXdzLnZhbHVlID0gYXdhaXQgdGFza1ZpZXdBcGkubGlzdCgpCiAgfSBjYXRjaCB7CiAgICB2aWV3cy52YWx1ZSA9IFtdCiAgfQogIC8vIElmIHRoZSBjdXJyZW50bHkgYWN0aXZlIHZpZXcgd2FzIGp1c3QgaGlkZGVuIGZyb20gdGhlIG1hbmFnZW1lbnQgZGlhbG9nLAogIC8vIGZhbGwgYmFjayB0byB0aGUg5YWo6YOoIHRhYiBzbyB0aGUgdXNlciBpc24ndCBsb29raW5nIGF0IGEgdGFiIHRoZXkgY2FuIG5vCiAgLy8gbG9uZ2VyIHNlZS4KICBpZiAoYWN0aXZlVmlld0lkLnZhbHVlICE9PSBudWxsKSB7CiAgICBjb25zdCBjdXJyZW50ID0gdmlld3MudmFsdWUuZmluZCh2ID0+IHYuaWQgPT09IGFjdGl2ZVZpZXdJZC52YWx1ZSkKICAgIGlmICghY3VycmVudCB8fCBjdXJyZW50LmhpZGRlbikgewogICAgICBzZWxlY3RWaWV3KG51bGwpCiAgICB9CiAgfQp9CgpmdW5jdGlvbiBvcGVuTWFuYWdlbWVudERpYWxvZygpIHsKICBzaG93TWFuYWdlbWVudERpYWxvZy52YWx1ZSA9IHRydWUKfQoKYXN5bmMgZnVuY3Rpb24gaGFuZGxlTWFuYWdlbWVudFNhdmVkKCkgewogIGF3YWl0IGxvYWRWaWV3cygpCn0KCmZ1bmN0aW9uIHNlbGVjdFZpZXcodmlld0lkOiBudW1iZXIgfCBudWxsKSB7CiAgYWN0aXZlVmlld0lkLnZhbHVlID0gdmlld0lkCiAgaWYgKCF2aWV3SWQpIHsKICAgIGVtaXQoJ3ZpZXctY2hhbmdlJywgW10sIFtdKQogICAgcmV0dXJuCiAgfQogIGNvbnN0IHZpZXcgPSB2aWV3cy52YWx1ZS5maW5kKHYgPT4gdi5pZCA9PT0gdmlld0lkKQogIGlmICh2aWV3KSB7CiAgICB0cnkgewogICAgICBjb25zdCBmaWx0ZXJzID0gSlNPTi5wYXJzZSh2aWV3LmZpbHRlcnMgfHwgJ1tdJykKICAgICAgY29uc3Qgc29ydFJ1bGVzID0gSlNPTi5wYXJzZSh2aWV3LnNvcnRfcnVsZXMgfHwgJ1tdJykKICAgICAgZW1pdCgndmlldy1jaGFuZ2UnLCBmaWx0ZXJzLCBzb3J0UnVsZXMpCiAgICB9IGNhdGNoIHsKICAgICAgZW1pdCgndmlldy1jaGFuZ2UnLCBbXSwgW10pCiAgICB9CiAgfQp9CgpmdW5jdGlvbiBvcGVuQ3JlYXRlRGlhbG9nKCkgewogIGlzRWRpdE1vZGUudmFsdWUgPSBmYWxzZQogIGVkaXRpbmdWaWV3SWQudmFsdWUgPSBudWxsCiAgZWRpdEZvcm0udmFsdWUgPSB7CiAgICBuYW1lOiAnJywKICAgIGZpbHRlcnM6IFt7IGZpZWxkOiAnY29tbWFuZCcsIG9wZXJhdG9yOiAnY29udGFpbnMnLCB2YWx1ZTogJycgfV0sCiAgICBzb3J0UnVsZXM6IFtdCiAgfQogIHNob3dEaWFsb2cudmFsdWUgPSB0cnVlCn0KCmZ1bmN0aW9uIG9wZW5FZGl0RGlhbG9nKHZpZXc6IFRhc2tWaWV3KSB7CiAgaXNFZGl0TW9kZS52YWx1ZSA9IHRydWUKICBlZGl0aW5nVmlld0lkLnZhbHVlID0gdmlldy5pZAogIGxldCBmaWx0ZXJzOiBUYXNrVmlld0ZpbHRlcltdID0gW10KICBsZXQgc29ydFJ1bGVzOiBUYXNrVmlld1NvcnRSdWxlW10gPSBbXQogIHRyeSB7CiAgICBmaWx0ZXJzID0gSlNPTi5wYXJzZSh2aWV3LmZpbHRlcnMgfHwgJ1tdJykKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICB0cnkgewogICAgc29ydFJ1bGVzID0gSlNPTi5wYXJzZSh2aWV3LnNvcnRfcnVsZXMgfHwgJ1tdJykKICB9IGNhdGNoIHsgLyogaWdub3JlICovIH0KICBpZiAoZmlsdGVycy5sZW5ndGggPT09IDApIHsKICAgIGZpbHRlcnMgPSBbeyBmaWVsZDogJ2NvbW1hbmQnLCBvcGVyYXRvcjogJ2NvbnRhaW5zJywgdmFsdWU6ICcnIH1dCiAgfQogIGVkaXRGb3JtLnZhbHVlID0gewogICAgbmFtZTogdmlldy5uYW1lLAogICAgZmlsdGVycywKICAgIHNvcnRSdWxlcwogIH0KICBzaG93RGlhbG9nLnZhbHVlID0gdHJ1ZQp9CgpmdW5jdGlvbiBhZGRGaWx0ZXIoKSB7CiAgZWRpdEZvcm0udmFsdWUuZmlsdGVycy5wdXNoKHsgZmllbGQ6ICdjb21tYW5kJywgb3BlcmF0b3I6ICdjb250YWlucycsIHZhbHVlOiAnJyB9KQp9CgpmdW5jdGlvbiByZW1vdmVGaWx0ZXIoaW5kZXg6IG51bWJlcikgewogIGVkaXRGb3JtLnZhbHVlLmZpbHRlcnMuc3BsaWNlKGluZGV4LCAxKQp9CgpmdW5jdGlvbiBhZGRTb3J0UnVsZSgpIHsKICBlZGl0Rm9ybS52YWx1ZS5zb3J0UnVsZXMucHVzaCh7IGZpZWxkOiAnbmFtZScsIGRpcmVjdGlvbjogJ2FzYycgfSkKfQoKZnVuY3Rpb24gcmVtb3ZlU29ydFJ1bGUoaW5kZXg6IG51bWJlcikgewogIGVkaXRGb3JtLnZhbHVlLnNvcnRSdWxlcy5zcGxpY2UoaW5kZXgsIDEpCn0KCmZ1bmN0aW9uIGlzU3RhdHVzRmllbGQoZmlsdGVyOiBUYXNrVmlld0ZpbHRlcikgewogIHJldHVybiBmaWx0ZXIuZmllbGQgPT09ICdzdGF0dXMnCn0KCmFzeW5jIGZ1bmN0aW9uIGhhbmRsZVNhdmUoKSB7CiAgaWYgKCFlZGl0Rm9ybS52YWx1ZS5uYW1lLnRyaW0oKSkgewogICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivt+i+k+WFpeinhuWbvuWQjeensCcpCiAgICByZXR1cm4KICB9CiAgY29uc3QgdmFsaWRGaWx0ZXJzID0gZWRpdEZvcm0udmFsdWUuZmlsdGVycy5maWx0ZXIoZiA9PiBmLnZhbHVlLnRyaW0oKSAhPT0gJycpCiAgaWYgKHZhbGlkRmlsdGVycy5sZW5ndGggPT09IDApIHsKICAgIEVsTWVzc2FnZS53YXJuaW5nKCfor7foh7PlsJHmt7vliqDkuIDkuKrmnInmlYjnmoTnrZvpgInmnaHku7YnKQogICAgcmV0dXJuCiAgfQogIHRyeSB7CiAgICBjb25zdCBwYXlsb2FkID0gewogICAgICBuYW1lOiBlZGl0Rm9ybS52YWx1ZS5uYW1lLAogICAgICBmaWx0ZXJzOiBKU09OLnN0cmluZ2lmeSh2YWxpZEZpbHRlcnMpLAogICAgICBzb3J0X3J1bGVzOiBKU09OLnN0cmluZ2lmeShlZGl0Rm9ybS52YWx1ZS5zb3J0UnVsZXMpCiAgICB9CiAgICBpZiAoaXNFZGl0TW9kZS52YWx1ZSAmJiBlZGl0aW5nVmlld0lkLnZhbHVlKSB7CiAgICAgIGF3YWl0IHRhc2tWaWV3QXBpLnVwZGF0ZShlZGl0aW5nVmlld0lkLnZhbHVlLCBwYXlsb2FkKQogICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn6KeG5Zu+5pu05paw5oiQ5YqfJykKICAgICAgLy8gSWYgZWRpdGluZyB0aGUgYWN0aXZlIHZpZXcsIHJlLWFwcGx5IGl0cyBmaWx0ZXJzCiAgICAgIGlmIChhY3RpdmVWaWV3SWQudmFsdWUgPT09IGVkaXRpbmdWaWV3SWQudmFsdWUpIHsKICAgICAgICBlbWl0KCd2aWV3LWNoYW5nZScsIHZhbGlkRmlsdGVycywgZWRpdEZvcm0udmFsdWUuc29ydFJ1bGVzKQogICAgICB9CiAgICB9IGVsc2UgewogICAgICBhd2FpdCB0YXNrVmlld0FwaS5jcmVhdGUocGF5bG9hZCkKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+inhuWbvuWIm+W7uuaIkOWKnycpCiAgICB9CiAgICBzaG93RGlhbG9nLnZhbHVlID0gZmFsc2UKICAgIGF3YWl0IGxvYWRWaWV3cygpCiAgfSBjYXRjaCB7CiAgICBFbE1lc3NhZ2UuZXJyb3IoaXNFZGl0TW9kZS52YWx1ZSA/ICfmm7TmlrDlpLHotKUnIDogJ+WIm+W7uuWksei0pScpCiAgfQp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVEZWxldGUodmlld0lkOiBudW1iZXIpIHsKICB0cnkgewogICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oJ+ehruiupOWIoOmZpOivpeinhuWbvuWQl++8nycsICfliKDpmaTnoa7orqQnLCB7IHR5cGU6ICd3YXJuaW5nJyB9KQogICAgYXdhaXQgZG9EZWxldGVWaWV3KHZpZXdJZCkKICB9IGNhdGNoIHt9Cn0KCmFzeW5jIGZ1bmN0aW9uIGRvRGVsZXRlVmlldyh2aWV3SWQ6IG51bWJlcikgewogIHRyeSB7CiAgICBhd2FpdCB0YXNrVmlld0FwaS5kZWxldGUodmlld0lkKQogICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+W3suWIoOmZpCcpCiAgICBpZiAoYWN0aXZlVmlld0lkLnZhbHVlID09PSB2aWV3SWQpIHsKICAgICAgc2VsZWN0VmlldyhudWxsKQogICAgfQogICAgYXdhaXQgbG9hZFZpZXdzKCkKICB9IGNhdGNoIHt9Cn0KCm9uTW91bnRlZChsb2FkVmlld3MpCgpkZWZpbmVFeHBvc2UoeyBsb2FkVmlld3MgfSkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGRpdiBjbGFzcz0idmlldy1tYW5hZ2VyIj4KICAgIDxkaXYgY2xhc3M9InZpZXctdGFicyI+CiAgICAgIDxlbC1idXR0b24KICAgICAgICA6dHlwZT0iYWN0aXZlVmlld0lkID09PSBudWxsID8gJ3ByaW1hcnknIDogJ2RlZmF1bHQnIgogICAgICAgIHNpemU9InNtYWxsIgogICAgICAgIEBjbGljaz0ic2VsZWN0VmlldyhudWxsKSIKICAgICAgPgogICAgICAgIOWFqOmDqAogICAgICA8L2VsLWJ1dHRvbj4KICAgICAgPGVsLWJ1dHRvbgogICAgICAgIHYtZm9yPSJ2aWV3IGluIHZpc2libGVWaWV3cyIKICAgICAgICA6a2V5PSJ2aWV3LmlkIgogICAgICAgIDp0eXBlPSJhY3RpdmVWaWV3SWQgPT09IHZpZXcuaWQgPyAncHJpbWFyeScgOiAnZGVmYXVsdCciCiAgICAgICAgc2l6ZT0ic21hbGwiCiAgICAgICAgY2xhc3M9InZpZXctdGFiLWJ0biIKICAgICAgICBAY2xpY2s9InNlbGVjdFZpZXcodmlldy5pZCkiCiAgICAgID4KICAgICAgICB7eyB2aWV3Lm5hbWUgfX0KICAgICAgPC9lbC1idXR0b24+CiAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIEBjbGljaz0ib3BlbkNyZWF0ZURpYWxvZyI+CiAgICAgICAgPGVsLWljb24+PFBsdXMgLz48L2VsLWljb24+CiAgICAgIDwvZWwtYnV0dG9uPgogICAgICA8ZWwtdG9vbHRpcCB2LWlmPSJ2aWV3cy5sZW5ndGggPiAwIiBjb250ZW50PSLop4blm77nrqHnkIYiIHBsYWNlbWVudD0idG9wIj4KICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIiBAY2xpY2s9Im9wZW5NYW5hZ2VtZW50RGlhbG9nIj4KICAgICAgICAgIDxlbC1pY29uPjxTZXR0aW5nIC8+PC9lbC1pY29uPgogICAgICAgIDwvZWwtYnV0dG9uPgogICAgICA8L2VsLXRvb2x0aXA+CiAgICA8L2Rpdj4KCiAgICA8Vmlld01hbmFnZW1lbnREaWFsb2cKICAgICAgdi1tb2RlbD0ic2hvd01hbmFnZW1lbnREaWFsb2ciCiAgICAgIDp2aWV3cz0idmlld3MiCiAgICAgIEBzYXZlZD0iaGFuZGxlTWFuYWdlbWVudFNhdmVkIgogICAgICBAZWRpdD0ib3BlbkVkaXREaWFsb2ciCiAgICAgIEBkZWxldGU9ImRvRGVsZXRlVmlldyIKICAgIC8+CgogICAgPGVsLWRpYWxvZwogICAgICB2LW1vZGVsPSJzaG93RGlhbG9nIgogICAgICA6dGl0bGU9ImlzRWRpdE1vZGUgPyAn57yW6L6R6KeG5Zu+JyA6ICfliJvlu7rop4blm74nIgogICAgICB3aWR0aD0iNjAwcHgiCiAgICAgIDpmdWxsc2NyZWVuPSJkaWFsb2dGdWxsc2NyZWVuIgogICAgICA6bG9jay1zY3JvbGw9ImZhbHNlIgogICAgPgogICAgICA8ZWwtZm9ybSA6bGFiZWwtd2lkdGg9ImRpYWxvZ0Z1bGxzY3JlZW4gPyAnYXV0bycgOiAnOTBweCciIDpsYWJlbC1wb3NpdGlvbj0iZGlhbG9nRnVsbHNjcmVlbiA/ICd0b3AnIDogJ3JpZ2h0JyI+CiAgICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i6KeG5Zu+5ZCN56ewIiByZXF1aXJlZD4KICAgICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsPSJlZGl0Rm9ybS5uYW1lIiBwbGFjZWhvbGRlcj0i6K+36L6T5YWl6KeG5Zu+5ZCN56ewIiAvPgogICAgICAgIDwvZWwtZm9ybS1pdGVtPgoKICAgICAgICA8ZWwtZm9ybS1pdGVtIGxhYmVsPSLnrZvpgInmnaHku7YiIHJlcXVpcmVkPgogICAgICAgICAgPGRpdiBjbGFzcz0iZmlsdGVyLWxpc3QiPgogICAgICAgICAgICA8ZGl2IHYtZm9yPSIoZmlsdGVyLCBpbmRleCkgaW4gZWRpdEZvcm0uZmlsdGVycyIgOmtleT0iaW5kZXgiIGNsYXNzPSJmaWx0ZXItcm93Ij4KICAgICAgICAgICAgICA8ZWwtc2VsZWN0IHYtbW9kZWw9ImZpbHRlci5maWVsZCIgc3R5bGU9IndpZHRoOiAxMjBweCIgc2l6ZT0ic21hbGwiIEBjaGFuZ2U9ImZpbHRlci52YWx1ZSA9ICcnIj4KICAgICAgICAgICAgICAgIDxlbC1vcHRpb24gdi1mb3I9ImYgaW4gZmlsdGVyRmllbGRzIiA6a2V5PSJmLnZhbHVlIiA6bGFiZWw9ImYubGFiZWwiIDp2YWx1ZT0iZi52YWx1ZSIgLz4KICAgICAgICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgICAgICAgICA8ZWwtc2VsZWN0IHYtbW9kZWw9ImZpbHRlci5vcGVyYXRvciIgc3R5bGU9IndpZHRoOiAxMDBweCIgc2l6ZT0ic21hbGwiPgogICAgICAgICAgICAgICAgPGVsLW9wdGlvbiB2LWZvcj0ib3AgaW4gZmlsdGVyT3BlcmF0b3JzIiA6a2V5PSJvcC52YWx1ZSIgOmxhYmVsPSJvcC5sYWJlbCIgOnZhbHVlPSJvcC52YWx1ZSIgLz4KICAgICAgICAgICAgICA8L2VsLXNlbGVjdD4KICAgICAgICAgICAgICA8ZWwtc2VsZWN0CiAgICAgICAgICAgICAgICB2LWlmPSJpc1N0YXR1c0ZpZWxkKGZpbHRlcikiCiAgICAgICAgICAgICAgICB2LW1vZGVsPSJmaWx0ZXIudmFsdWUiCiAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0i6YCJ5oup54q25oCBIgogICAgICAgICAgICAgICAgc2l6ZT0ic21hbGwiCiAgICAgICAgICAgICAgICBzdHlsZT0iZmxleDogMSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZWwtb3B0aW9uIHYtZm9yPSJvcHQgaW4gc3RhdHVzT3B0aW9ucyIgOmtleT0ib3B0LnZhbHVlIiA6bGFiZWw9Im9wdC5sYWJlbCIgOnZhbHVlPSJvcHQudmFsdWUiIC8+CiAgICAgICAgICAgICAgPC9lbC1zZWxlY3Q+CiAgICAgICAgICAgICAgPGVsLWlucHV0IHYtZWxzZSB2LW1vZGVsPSJmaWx0ZXIudmFsdWUiIHBsYWNlaG9sZGVyPSLor7fovpPlhaXlhoXlrrkiIHNpemU9InNtYWxsIiBzdHlsZT0iZmxleDogMSIgLz4KICAgICAgICAgICAgICA8ZWwtYnV0dG9uIHYtaWY9ImVkaXRGb3JtLmZpbHRlcnMubGVuZ3RoID4gMSIgOmljb249IkRlbGV0ZSIgc2l6ZT0ic21hbGwiIGNpcmNsZSBAY2xpY2s9InJlbW92ZUZpbHRlcihpbmRleCkiIC8+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIiB0eXBlPSJwcmltYXJ5IiBsaW5rIEBjbGljaz0iYWRkRmlsdGVyIj4rIOaWsOWinuetm+mAieadoeS7tjwvZWwtYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CgogICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9IuaOkuW6j+aWueW8jyI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmaWx0ZXItbGlzdCI+CiAgICAgICAgICAgIDxkaXYgdi1mb3I9IihydWxlLCBpbmRleCkgaW4gZWRpdEZvcm0uc29ydFJ1bGVzIiA6a2V5PSJpbmRleCIgY2xhc3M9ImZpbHRlci1yb3ciPgogICAgICAgICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0icnVsZS5maWVsZCIgc3R5bGU9IndpZHRoOiAxMjBweCIgc2l6ZT0ic21hbGwiPgogICAgICAgICAgICAgICAgPGVsLW9wdGlvbiB2LWZvcj0iZiBpbiBmaWx0ZXJGaWVsZHMiIDprZXk9ImYudmFsdWUiIDpsYWJlbD0iZi5sYWJlbCIgOnZhbHVlPSJmLnZhbHVlIiAvPgogICAgICAgICAgICAgIDwvZWwtc2VsZWN0PgogICAgICAgICAgICAgIDxlbC1zZWxlY3Qgdi1tb2RlbD0icnVsZS5kaXJlY3Rpb24iIHN0eWxlPSJ3aWR0aDogMTAwcHgiIHNpemU9InNtYWxsIj4KICAgICAgICAgICAgICAgIDxlbC1vcHRpb24gdi1mb3I9ImQgaW4gc29ydERpcmVjdGlvbnMiIDprZXk9ImQudmFsdWUiIDpsYWJlbD0iZC5sYWJlbCIgOnZhbHVlPSJkLnZhbHVlIiAvPgogICAgICAgICAgICAgIDwvZWwtc2VsZWN0PgogICAgICAgICAgICAgIDxlbC1idXR0b24gOmljb249IkRlbGV0ZSIgc2l6ZT0ic21hbGwiIGNpcmNsZSBAY2xpY2s9InJlbW92ZVNvcnRSdWxlKGluZGV4KSIgLz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIHR5cGU9InByaW1hcnkiIGxpbmsgQGNsaWNrPSJhZGRTb3J0UnVsZSI+KyDmlrDlop7mjpLluo/mlrnlvI88L2VsLWJ1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8L2VsLWZvcm0+CiAgICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICAgIDxlbC1idXR0b24gQGNsaWNrPSJzaG93RGlhbG9nID0gZmFsc2UiPuWPlua2iDwvZWwtYnV0dG9uPgogICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgQGNsaWNrPSJoYW5kbGVTYXZlIj57eyBpc0VkaXRNb2RlID8gJ+S/neWtmCcgOiAn5Yib5bu6JyB9fTwvZWwtYnV0dG9uPgogICAgICA8L3RlbXBsYXRlPgogICAgPC9lbC1kaWFsb2c+CiAgPC9kaXY+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgoudmlldy1tYW5hZ2VyIHsKICBtYXJnaW4tYm90dG9tOiAxMnB4Owp9Cgoudmlldy10YWJzIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtd3JhcDogd3JhcDsKICBnYXA6IDZweDsKICBhbGlnbi1pdGVtczogY2VudGVyOwp9Cgoudmlldy10YWItYnRuIHsKICBtaW4td2lkdGg6IDY0cHg7CiAgcGFkZGluZzogMCAxNnB4OwogIGhlaWdodDogMzJweDsKICBmb250LXNpemU6IDEzcHg7Cn0KCi5maWx0ZXItbGlzdCB7CiAgd2lkdGg6IDEwMCU7Cn0KCi5maWx0ZXItcm93IHsKICBkaXNwbGF5OiBmbGV4OwogIGdhcDogOHB4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgbWFyZ2luLWJvdHRvbTogOHB4Owp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAuZmlsdGVyLXJvdyB7CiAgICBmbGV4LXdyYXA6IHdyYXA7CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { computed, ref, watch, onMounted } from 'vue'
+import { taskViewApi, type TaskView, type TaskViewFilter, type TaskViewSortRule } from '@/api/taskView'
+import { ElMessage, ElMessageBox } from 'element-plus'
+import { Plus, Delete, Close, Edit, Setting } from '@element-plus/icons-vue'
+import { useResponsive } from '@/composables/useResponsive'
+import ViewManagementDialog from './ViewManagementDialog.vue'
+
+const emit = defineEmits<{
+  'view-change': [filters: TaskViewFilter[], sortRules: TaskViewSortRule[]]
+}>()
+
+const { dialogFullscreen } = useResponsive()
+const views = ref<TaskView[]>([])
+const activeViewId = ref<number | null>(null)
+const showDialog = ref(false)
+const isEditMode = ref(false)
+const editingViewId = ref<number | null>(null)
+const showManagementDialog = ref(false)
+
+const visibleViews = computed(() => views.value.filter(view => !view.hidden))
+
+const filterFields = [
+  { value: 'command', label: '命令' },
+  { value: 'name', label: '名称' },
+  { value: 'cron_expression', label: '定时规则' },
+  { value: 'status', label: '状态' },
+  { value: 'labels', label: '标签' },
+  { value: 'subscription', label: '订阅' }
+]
+
+const statusOptions = [
+  { label: '已启用 / 空闲中', value: '1' },
+  { label: '已禁用', value: '0' },
+  { label: '运行中', value: '2' },
+  { label: '排队中', value: '0.5' },
+]
+
+const filterOperators = [
+  { value: 'contains', label: '包含' },
+  { value: 'not_contains', label: '不包含' },
+  { value: 'equals', label: '等于' },
+  { value: 'not_equals', label: '不等于' }
+]
+
+const sortDirections = [
+  { value: 'asc', label: '升序' },
+  { value: 'desc', label: '降序' }
+]
+
+const editForm = ref({
+  name: '',
+  filters: [{ field: 'command', operator: 'contains', value: '' }] as TaskViewFilter[],
+  sortRules: [] as TaskViewSortRule[]
+})
+
+async function loadViews() {
+  try {
+    views.value = await taskViewApi.list()
+  } catch {
+    views.value = []
+  }
+  // If the currently active view was just hidden from the management dialog,
+  // fall back to the 全部 tab so the user isn't looking at a tab they can no
+  // longer see.
+  if (activeViewId.value !== null) {
+    const current = views.value.find(v => v.id === activeViewId.value)
+    if (!current || current.hidden) {
+      selectView(null)
+    }
+  }
+}
+
+function openManagementDialog() {
+  showManagementDialog.value = true
+}
+
+async function handleManagementSaved() {
+  await loadViews()
+}
+
+function selectView(viewId: number | null) {
+  activeViewId.value = viewId
+  if (!viewId) {
+    emit('view-change', [], [])
+    return
+  }
+  const view = views.value.find(v => v.id === viewId)
+  if (view) {
+    try {
+      const filters = JSON.parse(view.filters || '[]')
+      const sortRules = JSON.parse(view.sort_rules || '[]')
+      emit('view-change', filters, sortRules)
+    } catch {
+      emit('view-change', [], [])
+    }
+  }
+}
+
+function openCreateDialog() {
+  isEditMode.value = false
+  editingViewId.value = null
+  editForm.value = {
+    name: '',
+    filters: [{ field: 'command', operator: 'contains', value: '' }],
+    sortRules: []
+  }
+  showDialog.value = true
+}
+
+function openEditDialog(view: TaskView) {
+  isEditMode.value = true
+  editingViewId.value = view.id
+  let filters: TaskViewFilter[] = []
+  let sortRules: TaskViewSortRule[] = []
+  try {
+    filters = JSON.parse(view.filters || '[]')
+  } catch { /* ignore */ }
+  try {
+    sortRules = JSON.parse(view.sort_rules || '[]')
+  } catch { /* ignore */ }
+  if (filters.length === 0) {
+    filters = [{ field: 'command', operator: 'contains', value: '' }]
+  }
+  editForm.value = {
+    name: view.name,
+    filters,
+    sortRules
+  }
+  showDialog.value = true
+}
+
+function addFilter() {
+  editForm.value.filters.push({ field: 'command', operator: 'contains', value: '' })
+}
+
+function removeFilter(index: number) {
+  editForm.value.filters.splice(index, 1)
+}
+
+function addSortRule() {
+  editForm.value.sortRules.push({ field: 'name', direction: 'asc' })
+}
+
+function removeSortRule(index: number) {
+  editForm.value.sortRules.splice(index, 1)
+}
+
+function isStatusField(filter: TaskViewFilter) {
+  return filter.field === 'status'
+}
+
+async function handleSave() {
+  if (!editForm.value.name.trim()) {
+    ElMessage.warning('请输入视图名称')
+    return
+  }
+  const validFilters = editForm.value.filters.filter(f => f.value.trim() !== '')
+  if (validFilters.length === 0) {
+    ElMessage.warning('请至少添加一个有效的筛选条件')
+    return
+  }
+  try {
+    const payload = {
+      name: editForm.value.name,
+      filters: JSON.stringify(validFilters),
+      sort_rules: JSON.stringify(editForm.value.sortRules)
+    }
+    if (isEditMode.value && editingViewId.value) {
+      await taskViewApi.update(editingViewId.value, payload)
+      ElMessage.success('视图更新成功')
+      // If editing the active view, re-apply its filters
+      if (activeViewId.value === editingViewId.value) {
+        emit('view-change', validFilters, editForm.value.sortRules)
+      }
+    } else {
+      await taskViewApi.create(payload)
+      ElMessage.success('视图创建成功')
+    }
+    showDialog.value = false
+    await loadViews()
+  } catch {
+    ElMessage.error(isEditMode.value ? '更新失败' : '创建失败')
+  }
+}
+
+async function handleDelete(viewId: number) {
+  try {
+    await ElMessageBox.confirm('确认删除该视图吗？', '删除确认', { type: 'warning' })
+    await doDeleteView(viewId)
+  } catch {}
+}
+
+async function doDeleteView(viewId: number) {
+  try {
+    await taskViewApi.delete(viewId)
+    ElMessage.success('已删除')
+    if (activeViewId.value === viewId) {
+      selectView(null)
+    }
+    await loadViews()
+  } catch {}
+}
+
+onMounted(loadViews)
+
+defineExpose({ loadViews })
+</script>
+
+<template>
+  <div class="view-manager">
+    <div class="view-tabs">
+      <el-button
+        :type="activeViewId === null ? 'primary' : 'default'"
+        size="small"
+        @click="selectView(null)"
+      >
+        全部
+      </el-button>
+      <el-button
+        v-for="view in visibleViews"
+        :key="view.id"
+        :type="activeViewId === view.id ? 'primary' : 'default'"
+        size="small"
+        class="view-tab-btn"
+        @click="selectView(view.id)"
+      >
+        {{ view.name }}
+      </el-button>
+      <el-button size="small" @click="openCreateDialog">
+        <el-icon><Plus /></el-icon>
+      </el-button>
+      <el-tooltip v-if="views.length > 0" content="视图管理" placement="top">
+        <el-button size="small" @click="openManagementDialog">
+          <el-icon><Setting /></el-icon>
+        </el-button>
+      </el-tooltip>
+    </div>
+
+    <ViewManagementDialog
+      v-model="showManagementDialog"
+      :views="views"
+      @saved="handleManagementSaved"
+      @edit="openEditDialog"
+      @delete="doDeleteView"
+    />
+
+    <el-dialog
+      v-model="showDialog"
+      :title="isEditMode ? '编辑视图' : '创建视图'"
+      width="600px"
+      :fullscreen="dialogFullscreen"
+      :lock-scroll="false"
+    >
+      <el-form :label-width="dialogFullscreen ? 'auto' : '90px'" :label-position="dialogFullscreen ? 'top' : 'right'">
+        <el-form-item label="视图名称" required>
+          <el-input v-model="editForm.name" placeholder="请输入视图名称" />
+        </el-form-item>
+
+        <el-form-item label="筛选条件" required>
+          <div class="filter-list">
+            <div v-for="(filter, index) in editForm.filters" :key="index" class="filter-row">
+              <el-select v-model="filter.field" style="width: 120px" size="small" @change="filter.value = ''">
+                <el-option v-for="f in filterFields" :key="f.value" :label="f.label" :value="f.value" />
+              </el-select>
+              <el-select v-model="filter.operator" style="width: 100px" size="small">
+                <el-option v-for="op in filterOperators" :key="op.value" :label="op.label" :value="op.value" />
+              </el-select>
+              <el-select
+                v-if="isStatusField(filter)"
+                v-model="filter.value"
+                placeholder="选择状态"
+                size="small"
+                style="flex: 1"
+              >
+                <el-option v-for="opt in statusOptions" :key="opt.value" :label="opt.label" :value="opt.value" />
+              </el-select>
+              <el-input v-else v-model="filter.value" placeholder="请输入内容" size="small" style="flex: 1" />
+              <el-button v-if="editForm.filters.length > 1" :icon="Delete" size="small" circle @click="removeFilter(index)" />
+            </div>
+            <el-button size="small" type="primary" link @click="addFilter">+ 新增筛选条件</el-button>
+          </div>
+        </el-form-item>
+
+        <el-form-item label="排序方式">
+          <div class="filter-list">
+            <div v-for="(rule, index) in editForm.sortRules" :key="index" class="filter-row">
+              <el-select v-model="rule.field" style="width: 120px" size="small">
+                <el-option v-for="f in filterFields" :key="f.value" :label="f.label" :value="f.value" />
+              </el-select>
+              <el-select v-model="rule.direction" style="width: 100px" size="small">
+                <el-option v-for="d in sortDirections" :key="d.value" :label="d.label" :value="d.value" />
+              </el-select>
+              <el-button :icon="Delete" size="small" circle @click="removeSortRule(index)" />
+            </div>
+            <el-button size="small" type="primary" link @click="addSortRule">+ 新增排序方式</el-button>
+          </div>
+        </el-form-item>
+      </el-form>
+      <template #footer>
+        <el-button @click="showDialog = false">取消</el-button>
+        <el-button type="primary" @click="handleSave">{{ isEditMode ? '保存' : '创建' }}</el-button>
+      </template>
+    </el-dialog>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.view-manager {
+  margin-bottom: 12px;
+}
+
+.view-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.view-tab-btn {
+  min-width: 64px;
+  padding: 0 16px;
+  height: 32px;
+  font-size: 13px;
+}
+
+.filter-list {
+  width: 100%;
+}
+
+.filter-row {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+  .filter-row {
+    flex-wrap: wrap;
+  }
+}
+</style>

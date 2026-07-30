@@ -1,1 +1,290 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJImxvZyIKCSJuZXQiCgkibmV0L3VybCIKCSJzdHJpbmdzIgoJInN5bmMiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCgkiZ2l0aHViLmNvbS9naW4tY29udHJpYi9jb3JzIgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKZnVuYyBtYXRjaGVzQ29uZmlndXJlZE9yaWdpbihvcmlnaW4gc3RyaW5nLCBhbGxvd2VkT3JpZ2lucyBbXXN0cmluZykgYm9vbCB7Cglub3JtYWxpemVkT3JpZ2luIDo9IG5vcm1hbGl6ZUNvbmZpZ3VyZWRPcmlnaW4ob3JpZ2luKQoJZm9yIF8sIGFsbG93ZWQgOj0gcmFuZ2UgYWxsb3dlZE9yaWdpbnMgewoJCWlmIG5vcm1hbGl6ZUNvbmZpZ3VyZWRPcmlnaW4oYWxsb3dlZCkgPT0gbm9ybWFsaXplZE9yaWdpbiB7CgkJCXJldHVybiB0cnVlCgkJfQoJfQoJcmV0dXJuIGZhbHNlCn0KCmZ1bmMgbm9ybWFsaXplQ29uZmlndXJlZE9yaWdpbihvcmlnaW4gc3RyaW5nKSBzdHJpbmcgewoJdHJpbW1lZCA6PSBzdHJpbmdzLlRyaW1TcGFjZShvcmlnaW4pCglpZiB0cmltbWVkID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCglwYXJzZWQsIGVyciA6PSB1cmwuUGFyc2UodHJpbW1lZCkKCWlmIGVyciAhPSBuaWwgfHwgcGFyc2VkLlNjaGVtZSA9PSAiIiB8fCBwYXJzZWQuSG9zdCA9PSAiIiB7CgkJcmV0dXJuIHN0cmluZ3MuVG9Mb3dlcih0cmltbWVkKQoJfQoKCWhvc3RuYW1lIDo9IHN0cmluZ3MuVG9Mb3dlcihwYXJzZWQuSG9zdG5hbWUoKSkKCWlmIGlzTG9vcGJhY2tIb3N0KGhvc3RuYW1lKSB7CgkJaG9zdG5hbWUgPSAibG9vcGJhY2siCgl9CgoJcG9ydCA6PSBwYXJzZWQuUG9ydCgpCglpZiBwb3J0ICE9ICIiIHsKCQlob3N0bmFtZSA9IG5ldC5Kb2luSG9zdFBvcnQoaG9zdG5hbWUsIHBvcnQpCgl9CgoJcmV0dXJuIHN0cmluZ3MuVG9Mb3dlcihwYXJzZWQuU2NoZW1lKSArICI6Ly8iICsgaG9zdG5hbWUKfQoKZnVuYyBpc0xvb3BiYWNrSG9zdChob3N0bmFtZSBzdHJpbmcpIGJvb2wgewoJc3dpdGNoIGhvc3RuYW1lIHsKCWNhc2UgImxvY2FsaG9zdCIsICIxMjcuMC4wLjEiLCAiOjoxIjoKCQlyZXR1cm4gdHJ1ZQoJZGVmYXVsdDoKCQlyZXR1cm4gZmFsc2UKCX0KfQoKZnVuYyBleHRyYWN0SG9zdCh2YWx1ZSBzdHJpbmcpIHN0cmluZyB7Cgl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiAiIgoJfQoKCWlmIHN0cmluZ3MuQ29udGFpbnModmFsdWUsICIsIikgewoJCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2Uoc3RyaW5ncy5TcGxpdCh2YWx1ZSwgIiwiKVswXSkKCX0KCglpZiBwYXJzZWQsIGVyciA6PSB1cmwuUGFyc2UodmFsdWUpOyBlcnIgPT0gbmlsICYmIHBhcnNlZC5Ib3N0ICE9ICIiIHsKCQlyZXR1cm4gc3RyaW5ncy5Ub0xvd2VyKHBhcnNlZC5Ib3N0KQoJfQoKCXJldHVybiBzdHJpbmdzLlRvTG93ZXIodmFsdWUpCn0KCmZ1bmMgc3BsaXRIb3N0QW5kUG9ydCh2YWx1ZSBzdHJpbmcpIChzdHJpbmcsIHN0cmluZykgewoJaG9zdCA6PSBleHRyYWN0SG9zdCh2YWx1ZSkKCWlmIGhvc3QgPT0gIiIgewoJCXJldHVybiAiIiwgIiIKCX0KCglpZiBoLCBwLCBlcnIgOj0gbmV0LlNwbGl0SG9zdFBvcnQoaG9zdCk7IGVyciA9PSBuaWwgewoJCXJldHVybiBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltKGgsICJbXSIpKSwgbm9ybWFsaXplUG9ydChwKQoJfQoKCS8vIOaZrumAmuWfn+WQjS9JUHY0IOeahCBob3N0OnBvcnQg5rKh5pyJ5pa55ous5Y+377yM5Y+v5Lul55So5pyA5ZCO5LiA5Liq5YaS5Y+35ouG56uv5Y+j44CCCgkvLyBJUHY2IOS4jeW4puerr+WPo+aXtuS8muacieWkmuS4quWGkuWPt++8jOS4jeiDveaMiei/meS4quWIhuaUr+WkhOeQhuOAggoJaWYgc3RyaW5ncy5Db3VudChob3N0LCAiOiIpID09IDEgewoJCWgsIHAsIF8gOj0gc3RyaW5ncy5DdXQoaG9zdCwgIjoiKQoJCWlmIGggIT0gIiIgJiYgbm9ybWFsaXplUG9ydChwKSAhPSAiIiB7CgkJCXJldHVybiBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltKGgsICJbXSIpKSwgbm9ybWFsaXplUG9ydChwKQoJCX0KCX0KCglyZXR1cm4gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbShob3N0LCAiW10iKSksICIiCn0KCmZ1bmMgbm9ybWFsaXplUG9ydCh2YWx1ZSBzdHJpbmcpIHN0cmluZyB7Cgl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiAiIgoJfQoJaWYgc3RyaW5ncy5Db250YWlucyh2YWx1ZSwgIiwiKSB7CgkJdmFsdWUgPSBzdHJpbmdzLlRyaW1TcGFjZShzdHJpbmdzLlNwbGl0KHZhbHVlLCAiLCIpWzBdKQoJfQoJZm9yIF8sIHIgOj0gcmFuZ2UgdmFsdWUgewoJCWlmIHIgPCAnMCcgfHwgciA+ICc5JyB7CgkJCXJldHVybiAiIgoJCX0KCX0KCXJldHVybiB2YWx1ZQp9CgpmdW5jIGRlZmF1bHRQb3J0Rm9yU2NoZW1lKHNjaGVtZSBzdHJpbmcpIHN0cmluZyB7Cglzd2l0Y2ggc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHNjaGVtZSkpIHsKCWNhc2UgImh0dHAiOgoJCXJldHVybiAiODAiCgljYXNlICJodHRwcyI6CgkJcmV0dXJuICI0NDMiCglkZWZhdWx0OgoJCXJldHVybiAiIgoJfQp9CgpmdW5jIG9yaWdpblBhcnRzKG9yaWdpbiBzdHJpbmcpIChzdHJpbmcsIHN0cmluZywgc3RyaW5nKSB7CglwYXJzZWQsIGVyciA6PSB1cmwuUGFyc2Uoc3RyaW5ncy5UcmltU3BhY2Uob3JpZ2luKSkKCWlmIGVyciAhPSBuaWwgfHwgcGFyc2VkLlNjaGVtZSA9PSAiIiB8fCBwYXJzZWQuSG9zdCA9PSAiIiB7CgkJcmV0dXJuICIiLCAiIiwgIiIKCX0KCXJldHVybiBzdHJpbmdzLlRvTG93ZXIocGFyc2VkLlNjaGVtZSksIHN0cmluZ3MuVG9Mb3dlcihwYXJzZWQuSG9zdG5hbWUoKSksIG5vcm1hbGl6ZVBvcnQocGFyc2VkLlBvcnQoKSkKfQoKZnVuYyBob3N0TWF0Y2hlc09yaWdpbihvcmlnaW5TY2hlbWUsIG9yaWdpbkhvc3RuYW1lLCBvcmlnaW5Qb3J0LCBjYW5kaWRhdGUsIGZvcndhcmRlZFBvcnQgc3RyaW5nKSBib29sIHsKCWNhbmRpZGF0ZUhvc3RuYW1lLCBjYW5kaWRhdGVQb3J0IDo9IHNwbGl0SG9zdEFuZFBvcnQoY2FuZGlkYXRlKQoJaWYgb3JpZ2luSG9zdG5hbWUgPT0gIiIgfHwgY2FuZGlkYXRlSG9zdG5hbWUgPT0gIiIgfHwgY2FuZGlkYXRlSG9zdG5hbWUgIT0gb3JpZ2luSG9zdG5hbWUgewoJCXJldHVybiBmYWxzZQoJfQoKCWlmIG9yaWdpblBvcnQgPT0gIiIgewoJCWRlZmF1bHRQb3J0IDo9IGRlZmF1bHRQb3J0Rm9yU2NoZW1lKG9yaWdpblNjaGVtZSkKCQlyZXR1cm4gY2FuZGlkYXRlUG9ydCA9PSAiIiB8fCBjYW5kaWRhdGVQb3J0ID09IGRlZmF1bHRQb3J0Cgl9CgoJaWYgY2FuZGlkYXRlUG9ydCA9PSBvcmlnaW5Qb3J0IHsKCQlyZXR1cm4gdHJ1ZQoJfQoJaWYgY2FuZGlkYXRlUG9ydCA9PSAiIiB7CgkJaWYgZm9yd2FyZGVkUG9ydCAhPSAiIiB7CgkJCXJldHVybiBmb3J3YXJkZWRQb3J0ID09IG9yaWdpblBvcnQKCQl9CgkJaWYgb3JpZ2luUG9ydCA9PSBkZWZhdWx0UG9ydEZvclNjaGVtZShvcmlnaW5TY2hlbWUpIHsKCQkJcmV0dXJuIHRydWUKCQl9CgkJLy8gTkFTIC8gTmdpbnggUHJveHkgTWFuYWdlciDnrYnlpJrlsYLlj43ku6Pnu4/luLjlj6rmiorlpJbpg6jln5/lkI3mlL7ov5sgSG9zdCAvIFgtRm9yd2FyZGVkLUhvc3TvvIwKCQkvLyDkvYbmiornlKjmiLforr/pl67nlKjnmoTlhaznvZHnq6/lj6PkuKLmjonjgILmraTml7YgT3JpZ2luIOaYryBodHRwczovL+Wfn+WQjTrnq6/lj6PvvIzlkI7nq6/lj6rnnIvliLDln5/lkI3jgIIKCQkvLyDln5/lkI3kuIDoh7Tml7bmjInigJzlj43ku6PlkIzmupDkvYbnq6/lj6PkuKLlpLHigJ3mlL7ooYzvvJvkuI3lkIzln5/lkI3ku43kvJrooqvmi5Lnu53vvIzpgb/lhY3pgIDljJbmiJDlhajnvZEgQ09SU+OAggoJCXJldHVybiB0cnVlCgl9CgoJcmV0dXJuIGZhbHNlCn0KCmZ1bmMgaXNTYW1lT3JpZ2luUmVxdWVzdChjICpnaW4uQ29udGV4dCwgb3JpZ2luIHN0cmluZykgYm9vbCB7CglvcmlnaW5TY2hlbWUsIG9yaWdpbkhvc3RuYW1lLCBvcmlnaW5Qb3J0IDo9IG9yaWdpblBhcnRzKG9yaWdpbikKCWlmIG9yaWdpbkhvc3RuYW1lID09ICIiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCWZvcndhcmRlZFBvcnQgOj0gbm9ybWFsaXplUG9ydChjLkdldEhlYWRlcigiWC1Gb3J3YXJkZWQtUG9ydCIpKQoKCWNhbmRpZGF0ZXMgOj0gW11zdHJpbmd7CgkJYy5SZXF1ZXN0Lkhvc3QsCgkJYy5HZXRIZWFkZXIoIlgtRm9yd2FyZGVkLUhvc3QiKSwKCQljLkdldEhlYWRlcigiWC1PcmlnaW5hbC1Ib3N0IiksCgl9CglpZiBmb3J3YXJkZWQgOj0gYy5HZXRIZWFkZXIoIkZvcndhcmRlZCIpOyBmb3J3YXJkZWQgIT0gIiIgewoJCWNhbmRpZGF0ZXMgPSBhcHBlbmQoY2FuZGlkYXRlcywgcGFyc2VGb3J3YXJkZWRIb3N0cyhmb3J3YXJkZWQpLi4uKQoJfQoKCWZvciBfLCBjYW5kaWRhdGUgOj0gcmFuZ2UgY2FuZGlkYXRlcyB7CgkJaWYgaG9zdE1hdGNoZXNPcmlnaW4ob3JpZ2luU2NoZW1lLCBvcmlnaW5Ib3N0bmFtZSwgb3JpZ2luUG9ydCwgY2FuZGlkYXRlLCBmb3J3YXJkZWRQb3J0KSB7CgkJCXJldHVybiB0cnVlCgkJfQoJfQoKCXJldHVybiBmYWxzZQp9CgovLyBwYXJzZUZvcndhcmRlZEhvc3RzIOS7jiBSRkMgNzIzOSBgRm9yd2FyZGVkYCBoZWFkZXIg5Lit6Kej5p6Q5omA5pyJIGhvc3Q9IOWtl+auteOAggovLyDkvovlpoLvvJpGb3J3YXJkZWQ6IGZvcj0xOTIuMC4yLjYwO3Byb3RvPWh0dHA7aG9zdD1leGFtcGxlLmNvbSwgZm9yPTE5OC41MS4xMDAuMTcKZnVuYyBwYXJzZUZvcndhcmRlZEhvc3RzKHZhbHVlIHN0cmluZykgW11zdHJpbmcgewoJdmFyIGhvc3RzIFtdc3RyaW5nCglmb3IgXywgc2VnbWVudCA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KHZhbHVlLCAiLCIpIHsKCQlmb3IgXywgcGFpciA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KHNlZ21lbnQsICI7IikgewoJCQlwYWlyID0gc3RyaW5ncy5UcmltU3BhY2UocGFpcikKCQkJaWYgbGVuKHBhaXIpIDwgNSB7CgkJCQljb250aW51ZQoJCQl9CgkJCWlmICFzdHJpbmdzLkVxdWFsRm9sZChwYWlyWzo1XSwgImhvc3Q9IikgewoJCQkJY29udGludWUKCQkJfQoJCQlob3N0IDo9IHN0cmluZ3MuVHJpbShwYWlyWzU6XSwgYCJgKQoJCQlpZiBob3N0ICE9ICIiIHsKCQkJCWhvc3RzID0gYXBwZW5kKGhvc3RzLCBob3N0KQoJCQl9CgkJfQoJfQoJcmV0dXJuIGhvc3RzCn0KCi8vIGlzUHJpdmF0ZU9yTG9vcGJhY2tPcmlnaW4g5Yik5patIE9yaWdpbiDnmoQgaG9zdCDmmK/lkKbkuLogSVAg5LiU5Zyo56eB5pyJL+WxgOWfn+e9kS9Mb29wYmFjayDnvZHmrrXjgIIKLy8g5ZG95Lit5ZCO6KeG5Li65Y+v5L+h5p2l5rqQ77yI5YW45Z6L5Zy65pmv77ya6aOe54mbIE9TIC8g576k5pmWIC8g5a6255SoIE5BUyDnrYnpgJrov4cgTEFOIElQIOiuv+mXru+8ie+8jOi3s+i/h+S4peagvCBDT1JTIOajgOafpeOAggovLyDln5/lkI0gb3JpZ2luIOS4jeS8muWRveS4reacrOWHveaVsO+8jOS7jemcgOi1sCBhbGxvd2VkT3JpZ2lucyDmiJblkIzmupDmoKHpqozjgIIKZnVuYyBpc1ByaXZhdGVPckxvb3BiYWNrT3JpZ2luKG9yaWdpbiBzdHJpbmcpIGJvb2wgewoJaG9zdCA6PSBleHRyYWN0SG9zdChvcmlnaW4pCglpZiBob3N0ID09ICIiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCWlmIGgsIF8sIGVyciA6PSBuZXQuU3BsaXRIb3N0UG9ydChob3N0KTsgZXJyID09IG5pbCB7CgkJaG9zdCA9IGgKCX0KCWhvc3QgPSBzdHJpbmdzLlRyaW0oaG9zdCwgIltdIikKCWlwIDo9IG5ldC5QYXJzZUlQKGhvc3QpCglpZiBpcCA9PSBuaWwgewoJCXJldHVybiBmYWxzZQoJfQoJcmV0dXJuIGlzUHJpdmF0ZU9yTG9jYWxJUChpcCkKfQoKdmFyICgKCWNvcnNSZWplY3RMb2dPbmNlIHN5bmMuTWFwCgljb3JzUmVqZWN0TG9nVFRMICA9IDUgKiB0aW1lLk1pbnV0ZQopCgpmdW5jIGxvZ0NPUlNSZWplY3Rpb24oYyAqZ2luLkNvbnRleHQsIG9yaWdpbiBzdHJpbmcpIHsKCWtleSA6PSBvcmlnaW4gKyAifCIgKyBjLlJlcXVlc3QuSG9zdAoJbm93IDo9IHRpbWUuTm93KCkKCWlmIGxhc3QsIG9rIDo9IGNvcnNSZWplY3RMb2dPbmNlLkxvYWQoa2V5KTsgb2sgewoJCWlmIHdoZW4sIG9rIDo9IGxhc3QuKHRpbWUuVGltZSk7IG9rICYmIG5vdy5TdWIod2hlbikgPCBjb3JzUmVqZWN0TG9nVFRMIHsKCQkJcmV0dXJuCgkJfQoJfQoJY29yc1JlamVjdExvZ09uY2UuU3RvcmUoa2V5LCBub3cpCgoJbG9nLlByaW50ZigKCQkiW0NPUlNdIOaLkue7nei3qOWfn+ivt+axgiBvcmlnaW49JXEgaG9zdD0lcSBYLUZvcndhcmRlZC1Ib3N0PSVxIFgtRm9yd2FyZGVkLVBvcnQ9JXEgWC1Gb3J3YXJkZWQtUHJvdG89JXEgRm9yd2FyZGVkPSVxIG1ldGhvZD0lcyBwYXRoPSVzIOKAlCDlpoLpnIDmlL7ooYzor7flnKggY29uZmlnLnlhbWwg55qEIGNvcnMub3JpZ2lucyDkuK3liqDlhaXor6Ugb3JpZ2luIiwKCQlvcmlnaW4sCgkJYy5SZXF1ZXN0Lkhvc3QsCgkJYy5HZXRIZWFkZXIoIlgtRm9yd2FyZGVkLUhvc3QiKSwKCQljLkdldEhlYWRlcigiWC1Gb3J3YXJkZWQtUG9ydCIpLAoJCWMuR2V0SGVhZGVyKCJYLUZvcndhcmRlZC1Qcm90byIpLAoJCWMuR2V0SGVhZGVyKCJGb3J3YXJkZWQiKSwKCQljLlJlcXVlc3QuTWV0aG9kLAoJCWMuUmVxdWVzdC5VUkwuUGF0aCwKCSkKfQoKZnVuYyBDT1JTKCkgZ2luLkhhbmRsZXJGdW5jIHsKCWFsbG93ZWRPcmlnaW5zIDo9IFtdc3RyaW5newoJCSJodHRwOi8vbG9jYWxob3N0OjUxNzMiLAoJCSJodHRwOi8vbG9jYWxob3N0OjU3MDAiLAoJfQoJaWYgY29uZmlnLkMgIT0gbmlsICYmIGxlbihjb25maWcuQy5DT1JTLk9yaWdpbnMpID4gMCB7CgkJYWxsb3dlZE9yaWdpbnMgPSBjb25maWcuQy5DT1JTLk9yaWdpbnMKCX0KCglyZXR1cm4gY29ycy5OZXcoY29ycy5Db25maWd7CgkJQWxsb3dPcmlnaW5XaXRoQ29udGV4dEZ1bmM6IGZ1bmMoYyAqZ2luLkNvbnRleHQsIG9yaWdpbiBzdHJpbmcpIGJvb2wgewoJCQlpZiBvcmlnaW4gPT0gIiIgfHwgb3JpZ2luID09ICJudWxsIiB7CgkJCQlyZXR1cm4gdHJ1ZQoJCQl9CgkJCWlmIG1hdGNoZXNDb25maWd1cmVkT3JpZ2luKG9yaWdpbiwgYWxsb3dlZE9yaWdpbnMpIHsKCQkJCXJldHVybiB0cnVlCgkJCX0KCQkJaWYgaXNTYW1lT3JpZ2luUmVxdWVzdChjLCBvcmlnaW4pIHsKCQkJCXJldHVybiB0cnVlCgkJCX0KCQkJaWYgaXNQcml2YXRlT3JMb29wYmFja09yaWdpbihvcmlnaW4pIHsKCQkJCXJldHVybiB0cnVlCgkJCX0KCQkJbG9nQ09SU1JlamVjdGlvbihjLCBvcmlnaW4pCgkJCXJldHVybiBmYWxzZQoJCX0sCgkJQWxsb3dNZXRob2RzOiAgICAgW11zdHJpbmd7IkdFVCIsICJQT1NUIiwgIlBVVCIsICJERUxFVEUiLCAiT1BUSU9OUyIsICJQQVRDSCJ9LAoJCUFsbG93SGVhZGVyczogICAgIFtdc3RyaW5neyJPcmlnaW4iLCAiQ29udGVudC1UeXBlIiwgIkF1dGhvcml6YXRpb24iLCAiQWNjZXB0IiwgIlgtUmVxdWVzdGVkLVdpdGgifSwKCQlFeHBvc2VIZWFkZXJzOiAgICBbXXN0cmluZ3siQ29udGVudC1MZW5ndGgiLCAiQ29udGVudC1EaXNwb3NpdGlvbiJ9LAoJCUFsbG93Q3JlZGVudGlhbHM6IHRydWUsCgkJTWF4QWdlOiAgICAgICAgICAgMTIgKiB0aW1lLkhvdXIsCgl9KQp9Cg==
+package middleware
+
+import (
+	"log"
+	"net"
+	"net/url"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/config"
+
+	"github.com/gin-contrib/cors"
+	"github.com/gin-gonic/gin"
+)
+
+func matchesConfiguredOrigin(origin string, allowedOrigins []string) bool {
+	normalizedOrigin := normalizeConfiguredOrigin(origin)
+	for _, allowed := range allowedOrigins {
+		if normalizeConfiguredOrigin(allowed) == normalizedOrigin {
+			return true
+		}
+	}
+	return false
+}
+
+func normalizeConfiguredOrigin(origin string) string {
+	trimmed := strings.TrimSpace(origin)
+	if trimmed == "" {
+		return ""
+	}
+
+	parsed, err := url.Parse(trimmed)
+	if err != nil || parsed.Scheme == "" || parsed.Host == "" {
+		return strings.ToLower(trimmed)
+	}
+
+	hostname := strings.ToLower(parsed.Hostname())
+	if isLoopbackHost(hostname) {
+		hostname = "loopback"
+	}
+
+	port := parsed.Port()
+	if port != "" {
+		hostname = net.JoinHostPort(hostname, port)
+	}
+
+	return strings.ToLower(parsed.Scheme) + "://" + hostname
+}
+
+func isLoopbackHost(hostname string) bool {
+	switch hostname {
+	case "localhost", "127.0.0.1", "::1":
+		return true
+	default:
+		return false
+	}
+}
+
+func extractHost(value string) string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return ""
+	}
+
+	if strings.Contains(value, ",") {
+		value = strings.TrimSpace(strings.Split(value, ",")[0])
+	}
+
+	if parsed, err := url.Parse(value); err == nil && parsed.Host != "" {
+		return strings.ToLower(parsed.Host)
+	}
+
+	return strings.ToLower(value)
+}
+
+func splitHostAndPort(value string) (string, string) {
+	host := extractHost(value)
+	if host == "" {
+		return "", ""
+	}
+
+	if h, p, err := net.SplitHostPort(host); err == nil {
+		return strings.ToLower(strings.Trim(h, "[]")), normalizePort(p)
+	}
+
+	// 普通域名/IPv4 的 host:port 没有方括号，可以用最后一个冒号拆端口。
+	// IPv6 不带端口时会有多个冒号，不能按这个分支处理。
+	if strings.Count(host, ":") == 1 {
+		h, p, _ := strings.Cut(host, ":")
+		if h != "" && normalizePort(p) != "" {
+			return strings.ToLower(strings.Trim(h, "[]")), normalizePort(p)
+		}
+	}
+
+	return strings.ToLower(strings.Trim(host, "[]")), ""
+}
+
+func normalizePort(value string) string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return ""
+	}
+	if strings.Contains(value, ",") {
+		value = strings.TrimSpace(strings.Split(value, ",")[0])
+	}
+	for _, r := range value {
+		if r < '0' || r > '9' {
+			return ""
+		}
+	}
+	return value
+}
+
+func defaultPortForScheme(scheme string) string {
+	switch strings.ToLower(strings.TrimSpace(scheme)) {
+	case "http":
+		return "80"
+	case "https":
+		return "443"
+	default:
+		return ""
+	}
+}
+
+func originParts(origin string) (string, string, string) {
+	parsed, err := url.Parse(strings.TrimSpace(origin))
+	if err != nil || parsed.Scheme == "" || parsed.Host == "" {
+		return "", "", ""
+	}
+	return strings.ToLower(parsed.Scheme), strings.ToLower(parsed.Hostname()), normalizePort(parsed.Port())
+}
+
+func hostMatchesOrigin(originScheme, originHostname, originPort, candidate, forwardedPort string) bool {
+	candidateHostname, candidatePort := splitHostAndPort(candidate)
+	if originHostname == "" || candidateHostname == "" || candidateHostname != originHostname {
+		return false
+	}
+
+	if originPort == "" {
+		defaultPort := defaultPortForScheme(originScheme)
+		return candidatePort == "" || candidatePort == defaultPort
+	}
+
+	if candidatePort == originPort {
+		return true
+	}
+	if candidatePort == "" {
+		if forwardedPort != "" {
+			return forwardedPort == originPort
+		}
+		if originPort == defaultPortForScheme(originScheme) {
+			return true
+		}
+		// NAS / Nginx Proxy Manager 等多层反代经常只把外部域名放进 Host / X-Forwarded-Host，
+		// 但把用户访问用的公网端口丢掉。此时 Origin 是 https://域名:端口，后端只看到域名。
+		// 域名一致时按“反代同源但端口丢失”放行；不同域名仍会被拒绝，避免退化成全网 CORS。
+		return true
+	}
+
+	return false
+}
+
+func isSameOriginRequest(c *gin.Context, origin string) bool {
+	originScheme, originHostname, originPort := originParts(origin)
+	if originHostname == "" {
+		return false
+	}
+	forwardedPort := normalizePort(c.GetHeader("X-Forwarded-Port"))
+
+	candidates := []string{
+		c.Request.Host,
+		c.GetHeader("X-Forwarded-Host"),
+		c.GetHeader("X-Original-Host"),
+	}
+	if forwarded := c.GetHeader("Forwarded"); forwarded != "" {
+		candidates = append(candidates, parseForwardedHosts(forwarded)...)
+	}
+
+	for _, candidate := range candidates {
+		if hostMatchesOrigin(originScheme, originHostname, originPort, candidate, forwardedPort) {
+			return true
+		}
+	}
+
+	return false
+}
+
+// parseForwardedHosts 从 RFC 7239 `Forwarded` header 中解析所有 host= 字段。
+// 例如：Forwarded: for=192.0.2.60;proto=http;host=example.com, for=198.51.100.17
+func parseForwardedHosts(value string) []string {
+	var hosts []string
+	for _, segment := range strings.Split(value, ",") {
+		for _, pair := range strings.Split(segment, ";") {
+			pair = strings.TrimSpace(pair)
+			if len(pair) < 5 {
+				continue
+			}
+			if !strings.EqualFold(pair[:5], "host=") {
+				continue
+			}
+			host := strings.Trim(pair[5:], `"`)
+			if host != "" {
+				hosts = append(hosts, host)
+			}
+		}
+	}
+	return hosts
+}
+
+// isPrivateOrLoopbackOrigin 判断 Origin 的 host 是否为 IP 且在私有/局域网/Loopback 网段。
+// 命中后视为可信来源（典型场景：飞牛 OS / 群晖 / 家用 NAS 等通过 LAN IP 访问），跳过严格 CORS 检查。
+// 域名 origin 不会命中本函数，仍需走 allowedOrigins 或同源校验。
+func isPrivateOrLoopbackOrigin(origin string) bool {
+	host := extractHost(origin)
+	if host == "" {
+		return false
+	}
+	if h, _, err := net.SplitHostPort(host); err == nil {
+		host = h
+	}
+	host = strings.Trim(host, "[]")
+	ip := net.ParseIP(host)
+	if ip == nil {
+		return false
+	}
+	return isPrivateOrLocalIP(ip)
+}
+
+var (
+	corsRejectLogOnce sync.Map
+	corsRejectLogTTL  = 5 * time.Minute
+)
+
+func logCORSRejection(c *gin.Context, origin string) {
+	key := origin + "|" + c.Request.Host
+	now := time.Now()
+	if last, ok := corsRejectLogOnce.Load(key); ok {
+		if when, ok := last.(time.Time); ok && now.Sub(when) < corsRejectLogTTL {
+			return
+		}
+	}
+	corsRejectLogOnce.Store(key, now)
+
+	log.Printf(
+		"[CORS] 拒绝跨域请求 origin=%q host=%q X-Forwarded-Host=%q X-Forwarded-Port=%q X-Forwarded-Proto=%q Forwarded=%q method=%s path=%s — 如需放行请在 config.yaml 的 cors.origins 中加入该 origin",
+		origin,
+		c.Request.Host,
+		c.GetHeader("X-Forwarded-Host"),
+		c.GetHeader("X-Forwarded-Port"),
+		c.GetHeader("X-Forwarded-Proto"),
+		c.GetHeader("Forwarded"),
+		c.Request.Method,
+		c.Request.URL.Path,
+	)
+}
+
+func CORS() gin.HandlerFunc {
+	allowedOrigins := []string{
+		"http://localhost:5173",
+		"http://localhost:5700",
+	}
+	if config.C != nil && len(config.C.CORS.Origins) > 0 {
+		allowedOrigins = config.C.CORS.Origins
+	}
+
+	return cors.New(cors.Config{
+		AllowOriginWithContextFunc: func(c *gin.Context, origin string) bool {
+			if origin == "" || origin == "null" {
+				return true
+			}
+			if matchesConfiguredOrigin(origin, allowedOrigins) {
+				return true
+			}
+			if isSameOriginRequest(c, origin) {
+				return true
+			}
+			if isPrivateOrLoopbackOrigin(origin) {
+				return true
+			}
+			logCORSRejection(c, origin)
+			return false
+		},
+		AllowMethods:     []string{"GET", "POST", "PUT", "DELETE", "OPTIONS", "PATCH"},
+		AllowHeaders:     []string{"Origin", "Content-Type", "Authorization", "Accept", "X-Requested-With"},
+		ExposeHeaders:    []string{"Content-Length", "Content-Disposition"},
+		AllowCredentials: true,
+		MaxAge:           12 * time.Hour,
+	})
+}

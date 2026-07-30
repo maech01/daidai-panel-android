@@ -1,1 +1,465 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImFyY2hpdmUvdGFyIgoJImNvbXByZXNzL2d6aXAiCgkiY29udGV4dCIKCSJmbXQiCgkiaW8iCgkibmV0L2h0dHAiCgkib3MiCgkib3MvZXhlYyIKCSJwYXRoL2ZpbGVwYXRoIgoJInJ1bnRpbWUiCgkic3RyaW5ncyIKCSJzeW5jIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9taWRkbGV3YXJlIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKLy8gQW5kcm9pZFJ1bnRpbWVIYW5kbGVyIOaPkOS+m+WcqCBNYWdpc2sg546v5aKD6YeM5LiA6ZSu5a6J6KOFIFB5dGhvbiAvIE5vZGUuanMg562J6ISa5pys6L+Q6KGM5pe255qE6IO95Yqb44CCCi8vCi8vIOiDjOaZr++8mkRvY2tlciDplZzlg4/ph4wgYXBrIC8gYXB0IOijheWlveS6hiBweXRob27jgIFub2RlanPvvIzkvYblnKggQW5kcm9pZCDkuIrmsqHmnInov5nkupvjgILmqKHlnZfpu5jorqQKLy8g5Y+q5omT5YyF6Z2i5p2/5pys5L2T77yM6Kej6YeK5Zmo6ZyA6KaB55So5oi35Y+m5aSW5o+Q5L6b44CC6L+Z5LiqIGhhbmRsZXIg6K6p55So5oi35Y+v5Lul77yaCi8vICAgLSDlnKjpnaLmnb/ph4znnIvliLDlvZPliY0gQW5kcm9pZCDov5DooYzml7bnmoQgYmluIOebruW9leacieayoeaciSBweXRob24vbm9kZe+8mwovLyAgIC0g5LiA6ZSu6Kem5Y+R5LiL6L29ICsg6Kej5Y6L77yI6Iul55So5oi35bey6KOFIFRlcm11eCDliJnkvJjlhYjkvb/nlKggVGVybXV4IOeahCBwa2fvvInjgIIKLy8KLy8g5Y+q5Zyo5qOA5rWL5Yiw5b2T5YmN5pivIEFuZHJvaWQg546v5aKD5pe25omN5pq06Zyy57uZ5YmN56uv44CCCnR5cGUgQW5kcm9pZFJ1bnRpbWVIYW5kbGVyIHN0cnVjdHt9CgpmdW5jIE5ld0FuZHJvaWRSdW50aW1lSGFuZGxlcigpICpBbmRyb2lkUnVudGltZUhhbmRsZXIgeyByZXR1cm4gJkFuZHJvaWRSdW50aW1lSGFuZGxlcnt9IH0KCi8vIGJpbiDnm67lvZXnuqblrprvvJpNYWdpc2sgc2VydmljZS5zaCDkvJrmiorov5nph4zliqDlhaUgUEFUSCAvIExEX0xJQlJBUllfUEFUSOOAggpjb25zdCBkZWZhdWx0QW5kcm9pZFJ1bnRpbWVCaW5EaXIgPSAiL2RhdGEvYWRiL2RhaWRhaS1wYW5lbC9iaW4iCgovLyBhbmRyb2lkUnVudGltZVByZXNldCDlrprkuYnkuobpnaLmnb/pooTnva7nmoTov5DooYzml7bkuIvovb3mupDjgIIKdHlwZSBhbmRyb2lkUnVudGltZVByZXNldCBzdHJ1Y3QgewoJTmFtZSAgICAgICAgICAgIHN0cmluZyBganNvbjoibmFtZSJgICAgICAgICAgICAgICAvLyBweXRob24gLyBub2RlCglMYWJlbCAgICAgICAgICAgc3RyaW5nIGBqc29uOiJsYWJlbCJgICAgICAgICAgICAgIC8vIOWxleekuueUqAoJQXJjaCAgICAgICAgICAgIHN0cmluZyBganNvbjoiYXJjaCJgICAgICAgICAgICAgICAvLyBhcm02NCAvIGFtZDY0CglVUkwgICAgICAgICAgICAgc3RyaW5nIGBqc29uOiJ1cmwiYCAgICAgICAgICAgICAgIC8vIOS4i+i9veWcsOWdgCAodGFyLmd6KQoJU3RyaXBDb21wb25lbnRzIGludCAgICBganNvbjoic3RyaXBfY29tcG9uZW50cyJgICAvLyDop6Pljovml7bljrvmjonnmoTpobblsYLnm67lvZXlsYLmlbAKCUNoZWNrQmluICAgICAgICBzdHJpbmcgYGpzb246ImNoZWNrX2JpbiJgICAgICAgICAgLy8g6Kej5Y6L5ZCO5pyf5pyb5a2Y5Zyo55qE5Y+v5omn6KGM5paH5Lu255u45a+56Lev5b6EICjnm7jlr7kgYmluIOebruW9lSkKCVNpemVNQiAgICAgICAgICBpbnQgICAgYGpzb246InNpemVfbWIiYCAgICAgICAgICAgLy8g6aKE5Lyw5aSn5bCPCglOb3RlICAgICAgICAgICAgc3RyaW5nIGBqc29uOiJub3RlImAgICAgICAgICAgICAgIC8vIOWkh+azqAp9CgovLyDpooTnva7kuIvovb3mupAg4oCU4oCUIOS8mui3n+maj+WQjue7rSBSZWxlYXNlIOabtOaWsO+8jOeUqOaIt+S5n+WPr+S7pemAmui/hyBgL2luc3RhbGxgIOaOpeWPo+S8oOWFpeiHquWumuS5iSBVUkzjgIIKLy8g6L+Z6YeM6YCJ5oup55qE5piv56S+5Yy65bi455So55qE6Z2Z5oCBL+WPr+enu+akjeaehOW7uu+8mgovLyAgIC0gUHl0aG9uOiBweXRob24tYnVpbGQtc3RhbmRhbG9uZSAoaW5keWdyZWcpIGFhcmNoNjQtdW5rbm93bi1saW51eC1nbnUgLyB4ODZfNjQtdW5rbm93bi1saW51eC1nbnUKLy8gICAtIE5vZGUuanM6IOWumOaWuSBub2RlanMub3JnIGxpbnV4LWFybTY0IC8gbGludXgteDY0IOWMhQovLyDnlLHkuo4gQW5kcm9pZCDmmK8gYmlvbmljIGxpYmPvvIzov5nkupvpooTmnoTlu7rlubbkuI3mgLvmmK/og73ot5HvvIzlm6DmraTlkIzml7bkv53nlZkgVGVybXV4IOS4gOmUruaWueahiOOAggp2YXIgYW5kcm9pZFJ1bnRpbWVQcmVzZXRzID0gW11hbmRyb2lkUnVudGltZVByZXNldHsKCXsKCQlOYW1lOiAgICAgICAgICAgICJweXRob24iLAoJCUxhYmVsOiAgICAgICAgICAgIlB5dGhvbiAzLjEyIChweXRob24tYnVpbGQtc3RhbmRhbG9uZSkiLAoJCUFyY2g6ICAgICAgICAgICAgImFybTY0IiwKCQlVUkw6ICAgICAgICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vaW5keWdyZWcvcHl0aG9uLWJ1aWxkLXN0YW5kYWxvbmUvcmVsZWFzZXMvZG93bmxvYWQvMjAyNDA0MTUvY3B5dGhvbi0zLjEyLjMrMjAyNDA0MTUtYWFyY2g2NC11bmtub3duLWxpbnV4LWdudS1pbnN0YWxsX29ubHkudGFyLmd6IiwKCQlTdHJpcENvbXBvbmVudHM6IDEsCgkJQ2hlY2tCaW46ICAgICAgICAicHl0aG9uL2Jpbi9weXRob24zIiwKCQlTaXplTUI6ICAgICAgICAgIDI4LAoJfSwKCXsKCQlOYW1lOiAgICAgICAgICAgICJweXRob24iLAoJCUxhYmVsOiAgICAgICAgICAgIlB5dGhvbiAzLjEyIChweXRob24tYnVpbGQtc3RhbmRhbG9uZSkiLAoJCUFyY2g6ICAgICAgICAgICAgImFtZDY0IiwKCQlVUkw6ICAgICAgICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vaW5keWdyZWcvcHl0aG9uLWJ1aWxkLXN0YW5kYWxvbmUvcmVsZWFzZXMvZG93bmxvYWQvMjAyNDA0MTUvY3B5dGhvbi0zLjEyLjMrMjAyNDA0MTUteDg2XzY0LXVua25vd24tbGludXgtZ251LWluc3RhbGxfb25seS50YXIuZ3oiLAoJCVN0cmlwQ29tcG9uZW50czogMSwKCQlDaGVja0JpbjogICAgICAgICJweXRob24vYmluL3B5dGhvbjMiLAoJCVNpemVNQjogICAgICAgICAgMzAsCgl9LAoJewoJCU5hbWU6ICAgICAgICAgICAgIm5vZGUiLAoJCUxhYmVsOiAgICAgICAgICAgIk5vZGUuanMgdjIwIExUUyAobm9kZWpzLm9yZykiLAoJCUFyY2g6ICAgICAgICAgICAgImFybTY0IiwKCQlVUkw6ICAgICAgICAgICAgICJodHRwczovL25vZGVqcy5vcmcvZGlzdC92MjAuMTcuMC9ub2RlLXYyMC4xNy4wLWxpbnV4LWFybTY0LnRhci5neiIsCgkJU3RyaXBDb21wb25lbnRzOiAxLAoJCUNoZWNrQmluOiAgICAgICAgIm5vZGUvYmluL25vZGUiLAoJCVNpemVNQjogICAgICAgICAgMzIsCgkJTm90ZTogICAgICAgICAgICAiQW5kcm9pZCBiaW9uaWMgbGliYyDkuIvlj6/og73pnIDopoEgVGVybXV4IOaPkOS+m+eahOWKqOaAgeW6kyIsCgl9LAoJewoJCU5hbWU6ICAgICAgICAgICAgIm5vZGUiLAoJCUxhYmVsOiAgICAgICAgICAgIk5vZGUuanMgdjIwIExUUyAobm9kZWpzLm9yZykiLAoJCUFyY2g6ICAgICAgICAgICAgImFtZDY0IiwKCQlVUkw6ICAgICAgICAgICAgICJodHRwczovL25vZGVqcy5vcmcvZGlzdC92MjAuMTcuMC9ub2RlLXYyMC4xNy4wLWxpbnV4LXg2NC50YXIuZ3oiLAoJCVN0cmlwQ29tcG9uZW50czogMSwKCQlDaGVja0JpbjogICAgICAgICJub2RlL2Jpbi9ub2RlIiwKCQlTaXplTUI6ICAgICAgICAgIDMyLAoJfSwKfQoKdHlwZSBhbmRyb2lkUnVudGltZVN0YXR1cyBzdHJ1Y3QgewoJU3VwcG9ydGVkIGJvb2wgICAgICAgICAgICAgICAgICAgICAgIGBqc29uOiJzdXBwb3J0ZWQiYAoJQXJjaCAgICAgIHN0cmluZyAgICAgICAgICAgICAgICAgICAgIGBqc29uOiJhcmNoImAKCUJpbkRpciAgICBzdHJpbmcgICAgICAgICAgICAgICAgICAgICBganNvbjoiYmluX2RpciJgCglUZXJtdXggICAgYm9vbCAgICAgICAgICAgICAgICAgICAgICAgYGpzb246InRlcm11eF9kZXRlY3RlZCJgCglSdW50aW1lcyAgW11hbmRyb2lkUnVudGltZUl0ZW0gICAgICAgYGpzb246InJ1bnRpbWVzImAKCVByZXNldHMgICBbXWFuZHJvaWRSdW50aW1lUHJlc2V0ICAgICBganNvbjoicHJlc2V0cyJgCn0KCnR5cGUgYW5kcm9pZFJ1bnRpbWVJdGVtIHN0cnVjdCB7CglOYW1lICAgICAgc3RyaW5nIGBqc29uOiJuYW1lImAKCUluc3RhbGxlZCBib29sICAgYGpzb246Imluc3RhbGxlZCJgCglQYXRoICAgICAgc3RyaW5nIGBqc29uOiJwYXRoImAKCVZlcnNpb24gICBzdHJpbmcgYGpzb246InZlcnNpb24iYAp9CgovLyBhbmRyb2lkU3VwcG9ydGVkIOWIpOaWreW9k+WJjei/m+eoi+aYr+S4jeaYr+i3keWcqCBBbmRyb2lkIOS4iu+8iOmdouWFt+eJiO+8ieOAggovLyDliKTlrprmlrnlvI/vvJoKLy8gICAxKSDnnJ/lrp4gQW5kcm9pZCDkuozov5vliLbvvIhydW50aW1lLkdPT1MgPT0gImFuZHJvaWQi77yJCi8vICAgMikgTWFnaXNrIOaooeWdl+aYvuW8j+azqOWFpeeahOeOr+Wig+WPmOmHjwovLyAgIDMpIOWuv+S4u+S+p+WPr+ingeeahOaooeWdl+ebruW9lQpmdW5jIGFuZHJvaWRTdXBwb3J0ZWQoKSBib29sIHsKCWlmIHJ1bnRpbWUuR09PUyA9PSAiYW5kcm9pZCIgewoJCXJldHVybiB0cnVlCgl9CglpZiBzdHJpbmdzLlRyaW1TcGFjZShvcy5HZXRlbnYoIkRBSURBSV9NQUdJU0tfTU9EVUxFIikpICE9ICIiIHsKCQlyZXR1cm4gdHJ1ZQoJfQoJaWYgc3RyaW5ncy5UcmltU3BhY2Uob3MuR2V0ZW52KCJEQUlEQUlfQU5EUk9JRF9BUFAiKSkgIT0gIiIgewoJCXJldHVybiB0cnVlCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdCgiL2RhdGEvYWRiL21vZHVsZXMvZGFpZGFpLXBhbmVsIik7IGVyciA9PSBuaWwgewoJCXJldHVybiB0cnVlCgl9CglyZXR1cm4gZmFsc2UKfQoKZnVuYyByZXNvbHZlQW5kcm9pZFJ1bnRpbWVCaW5EaXIoKSBzdHJpbmcgewoJaWYgZGlyIDo9IHN0cmluZ3MuVHJpbVNwYWNlKG9zLkdldGVudigiREFJREFJX0FORFJPSURfUlVOVElNRV9CSU5fRElSIikpOyBkaXIgIT0gIiIgewoJCXJldHVybiBkaXIKCX0KCXJldHVybiBkZWZhdWx0QW5kcm9pZFJ1bnRpbWVCaW5EaXIKfQoKZnVuYyBkZXRlY3RBcmNoKCkgc3RyaW5nIHsKCXN3aXRjaCBydW50aW1lLkdPQVJDSCB7CgljYXNlICJhcm02NCI6CgkJcmV0dXJuICJhcm02NCIKCWNhc2UgImFtZDY0IjoKCQlyZXR1cm4gImFtZDY0IgoJfQoJcmV0dXJuIHJ1bnRpbWUuR09BUkNICn0KCmZ1bmMgdGVybXV4RGV0ZWN0ZWQoKSBib29sIHsKCWZvciBfLCBwIDo9IHJhbmdlIFtdc3RyaW5newoJCSIvZGF0YS9kYXRhL2NvbS50ZXJtdXgvZmlsZXMvdXNyL2JpbiIsCgkJIi9kYXRhL3VzZXIvMC9jb20udGVybXV4L2ZpbGVzL3Vzci9iaW4iLAoJfSB7CgkJaWYgaW5mbywgZXJyIDo9IG9zLlN0YXQocCk7IGVyciA9PSBuaWwgJiYgaW5mby5Jc0RpcigpIHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CglyZXR1cm4gZmFsc2UKfQoKLy8gcHJvYmVSdW50aW1lIOWcqCBhbmRyb2lkQmluRGlyICsgVGVybXV4IFBBVEgg5LiL5p+l5om+5oyH5a6a5ZG95Luk44CCCmZ1bmMgcHJvYmVSdW50aW1lKGNtZE5hbWUgc3RyaW5nKSBhbmRyb2lkUnVudGltZUl0ZW0gewoJaXRlbSA6PSBhbmRyb2lkUnVudGltZUl0ZW17TmFtZTogY21kTmFtZX0KCWFuZHJvaWRCaW5EaXIgOj0gcmVzb2x2ZUFuZHJvaWRSdW50aW1lQmluRGlyKCkKCgljYW5kaWRhdGVzIDo9IFtdc3RyaW5newoJCWZpbGVwYXRoLkpvaW4oYW5kcm9pZEJpbkRpciwgY21kTmFtZSwgImJpbiIsIGNtZE5hbWUpLAoJCWZpbGVwYXRoLkpvaW4oYW5kcm9pZEJpbkRpciwgY21kTmFtZSksCgkJZmlsZXBhdGguSm9pbigiL2RhdGEvZGF0YS9jb20udGVybXV4L2ZpbGVzL3Vzci9iaW4iLCBjbWROYW1lKSwKCQlmaWxlcGF0aC5Kb2luKCIvdXNyL2JpbiIsIGNtZE5hbWUpLAoJfQoJaWYgY21kTmFtZSA9PSAicHl0aG9uIiB7CgkJY2FuZGlkYXRlcyA9IGFwcGVuZChbXXN0cmluZ3sKCQkJZmlsZXBhdGguSm9pbihhbmRyb2lkQmluRGlyLCAicHl0aG9uIiwgImJpbiIsICJweXRob24zIiksCgkJCWZpbGVwYXRoLkpvaW4oYW5kcm9pZEJpbkRpciwgInB5dGhvbjMiKSwKCQl9LCBjYW5kaWRhdGVzLi4uKQoJfQoKCWZvciBfLCBjIDo9IHJhbmdlIGNhbmRpZGF0ZXMgewoJCWluZm8sIGVyciA6PSBvcy5TdGF0KGMpCgkJaWYgZXJyICE9IG5pbCB8fCBpbmZvLklzRGlyKCkgewoJCQljb250aW51ZQoJCX0KCQlpZiBpbmZvLk1vZGUoKSYwbzExMSA9PSAwIHsKCQkJY29udGludWUKCQl9CgkJaXRlbS5JbnN0YWxsZWQgPSB0cnVlCgkJaXRlbS5QYXRoID0gYwoKCQljdHgsIGNhbmNlbCA6PSBjb250ZXh0LldpdGhUaW1lb3V0KGNvbnRleHQuQmFja2dyb3VuZCgpLCA1KnRpbWUuU2Vjb25kKQoJCW91dCwgZXJyIDo9IGV4ZWMuQ29tbWFuZENvbnRleHQoY3R4LCBjLCAiLS12ZXJzaW9uIikuQ29tYmluZWRPdXRwdXQoKQoJCWNhbmNlbCgpCgkJaWYgZXJyID09IG5pbCB7CgkJCWl0ZW0uVmVyc2lvbiA9IHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhvdXQpKQoJCX0KCQlyZXR1cm4gaXRlbQoJfQoJcmV0dXJuIGl0ZW0KfQoKZnVuYyAoaCAqQW5kcm9pZFJ1bnRpbWVIYW5kbGVyKSBTdGF0dXMoYyAqZ2luLkNvbnRleHQpIHsKCWFuZHJvaWRCaW5EaXIgOj0gcmVzb2x2ZUFuZHJvaWRSdW50aW1lQmluRGlyKCkKCWlmICFhbmRyb2lkU3VwcG9ydGVkKCkgewoJCXJlc3BvbnNlLlN1Y2Nlc3MoYywgYW5kcm9pZFJ1bnRpbWVTdGF0dXN7CgkJCVN1cHBvcnRlZDogZmFsc2UsCgkJCUFyY2g6ICAgICAgZGV0ZWN0QXJjaCgpLAoJCQlCaW5EaXI6ICAgIGFuZHJvaWRCaW5EaXIsCgkJfSkKCQlyZXR1cm4KCX0KCglhcmNoIDo9IGRldGVjdEFyY2goKQoJcnVudGltZXMgOj0gW11hbmRyb2lkUnVudGltZUl0ZW17CgkJcHJvYmVSdW50aW1lKCJweXRob24iKSwKCQlwcm9iZVJ1bnRpbWUoIm5vZGUiKSwKCX0KCgkvLyDov4fmu6Tlh7rlkozlvZPliY0gYXJjaCDljLnphY3nmoTpooTnva4KCXZhciBwcmVzZXRzIFtdYW5kcm9pZFJ1bnRpbWVQcmVzZXQKCWZvciBfLCBwIDo9IHJhbmdlIGFuZHJvaWRSdW50aW1lUHJlc2V0cyB7CgkJaWYgcC5BcmNoID09IGFyY2ggewoJCQlwcmVzZXRzID0gYXBwZW5kKHByZXNldHMsIHApCgkJfQoJfQoKCXJlc3BvbnNlLlN1Y2Nlc3MoYywgYW5kcm9pZFJ1bnRpbWVTdGF0dXN7CgkJU3VwcG9ydGVkOiB0cnVlLAoJCUFyY2g6ICAgICAgYXJjaCwKCQlCaW5EaXI6ICAgIGFuZHJvaWRCaW5EaXIsCgkJVGVybXV4OiAgICB0ZXJtdXhEZXRlY3RlZCgpLAoJCVJ1bnRpbWVzOiAgcnVudGltZXMsCgkJUHJlc2V0czogICBwcmVzZXRzLAoJfSkKfQoKdHlwZSBhbmRyb2lkSW5zdGFsbFJlcXVlc3Qgc3RydWN0IHsKCU5hbWUgICAgICAgICAgICBzdHJpbmcgYGpzb246Im5hbWUiIGJpbmRpbmc6InJlcXVpcmVkImAgICAgICAgIC8vIHB5dGhvbiAvIG5vZGUKCVVSTCAgICAgICAgICAgICBzdHJpbmcgYGpzb246InVybCJgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAvLyDlj6/pgInvvJroh6rlrprkuYnkuIvovb3mupAKCVN0cmlwQ29tcG9uZW50cyBpbnQgICAgYGpzb246InN0cmlwX2NvbXBvbmVudHMiYCAgICAgICAgICAgICAgICAvLyDop6PljovlsYLmlbAKfQoKLy8gSW5zdGFsbCDku6UgU1NFIOW9ouW8j+a1geW8j+i/lOWbnuS4i+i9vS/op6Pljovov5vluqbjgIIKZnVuYyAoaCAqQW5kcm9pZFJ1bnRpbWVIYW5kbGVyKSBJbnN0YWxsKGMgKmdpbi5Db250ZXh0KSB7CglhbmRyb2lkQmluRGlyIDo9IHJlc29sdmVBbmRyb2lkUnVudGltZUJpbkRpcigpCglpZiAhYW5kcm9pZFN1cHBvcnRlZCgpIHsKCQlyZXNwb25zZS5FcnJvcihjLCBodHRwLlN0YXR1c0ZvcmJpZGRlbiwgIuS7hSBBbmRyb2lkIOmdouWFt+eJiOaUr+aMgeivpeaTjeS9nCIpCgkJcmV0dXJuCgl9CgoJdmFyIHJlcSBhbmRyb2lkSW5zdGFsbFJlcXVlc3QKCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5FcnJvcihjLCBodHRwLlN0YXR1c0JhZFJlcXVlc3QsICLlj4LmlbDplJnor686ICIrZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CgoJaWYgcmVxLk5hbWUgIT0gInB5dGhvbiIgJiYgcmVxLk5hbWUgIT0gIm5vZGUiIHsKCQlyZXNwb25zZS5FcnJvcihjLCBodHRwLlN0YXR1c0JhZFJlcXVlc3QsICJuYW1lIOWPquiDveaYryBweXRob24g5oiWIG5vZGUiKQoJCXJldHVybgoJfQoKCS8vIOWmguaenOayoeS8oCBVUkzvvIzku47pooTnva7ph4zmjJHljLnphY3lvZPliY0gYXJjaCDnmoQKCWlmIHN0cmluZ3MuVHJpbVNwYWNlKHJlcS5VUkwpID09ICIiIHsKCQlhcmNoIDo9IGRldGVjdEFyY2goKQoJCWZvciBfLCBwIDo9IHJhbmdlIGFuZHJvaWRSdW50aW1lUHJlc2V0cyB7CgkJCWlmIHAuTmFtZSA9PSByZXEuTmFtZSAmJiBwLkFyY2ggPT0gYXJjaCB7CgkJCQlyZXEuVVJMID0gcC5VUkwKCQkJCWlmIHJlcS5TdHJpcENvbXBvbmVudHMgPT0gMCB7CgkJCQkJcmVxLlN0cmlwQ29tcG9uZW50cyA9IHAuU3RyaXBDb21wb25lbnRzCgkJCQl9CgkJCQlicmVhawoJCQl9CgkJfQoJfQoJaWYgcmVxLlVSTCA9PSAiIiB7CgkJcmVzcG9uc2UuRXJyb3IoYywgaHR0cC5TdGF0dXNCYWRSZXF1ZXN0LCAi5b2T5YmN5p625p6E5rKh5pyJ6aKE572u5LiL6L295rqQ77yM6K+35omL5Yqo5aGr5YaZIHVybCIpCgkJcmV0dXJuCgl9CgoJYy5Xcml0ZXIuSGVhZGVyKCkuU2V0KCJDb250ZW50LVR5cGUiLCAidGV4dC9ldmVudC1zdHJlYW0iKQoJYy5Xcml0ZXIuSGVhZGVyKCkuU2V0KCJDYWNoZS1Db250cm9sIiwgIm5vLWNhY2hlIikKCWMuV3JpdGVyLkhlYWRlcigpLlNldCgiQ29ubmVjdGlvbiIsICJrZWVwLWFsaXZlIikKCWMuV3JpdGVyLldyaXRlSGVhZGVyKGh0dHAuU3RhdHVzT0spCglmbHVzaGVyLCBfIDo9IGMuV3JpdGVyLihodHRwLkZsdXNoZXIpCgllbWl0IDo9IGZ1bmMobXNnIHN0cmluZykgewoJCWZtdC5GcHJpbnRmKGMuV3JpdGVyLCAiZGF0YTogJXNcblxuIiwgc3RyaW5ncy5SZXBsYWNlQWxsKG1zZywgIlxuIiwgIlxcbiIpKQoJCWlmIGZsdXNoZXIgIT0gbmlsIHsKCQkJZmx1c2hlci5GbHVzaCgpCgkJfQoJfQoKCWVtaXQoZm10LlNwcmludGYoIuS4i+i9veebruaghzogJXMiLCByZXEuVVJMKSkKCWVtaXQoZm10LlNwcmludGYoIuino+WOi+WIsDogJXMvJXMiLCBhbmRyb2lkQmluRGlyLCByZXEuTmFtZSkpCgoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGFuZHJvaWRCaW5EaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJZW1pdCgi4p2MIOaXoOazleWIm+W7uuebruagh+ebruW9lTogIiArIGVyci5FcnJvcigpKQoJCXJldHVybgoJfQoKCXRhcmdldERpciA6PSBmaWxlcGF0aC5Kb2luKGFuZHJvaWRCaW5EaXIsIHJlcS5OYW1lKQoJLy8g5riF55CG5pen55uu5b2VCglpZiBfLCBlcnIgOj0gb3MuU3RhdCh0YXJnZXREaXIpOyBlcnIgPT0gbmlsIHsKCQllbWl0KCLmuIXnkIbml6fniYjmnKw6ICIgKyB0YXJnZXREaXIpCgkJaWYgZXJyIDo9IG9zLlJlbW92ZUFsbCh0YXJnZXREaXIpOyBlcnIgIT0gbmlsIHsKCQkJZW1pdCgi4p2MIOa4heeQhuWksei0pTogIiArIGVyci5FcnJvcigpKQoJCQlyZXR1cm4KCQl9Cgl9CglpZiBlcnIgOj0gb3MuTWtkaXJBbGwodGFyZ2V0RGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCWVtaXQoIuKdjCDliJvlu7rnm67moIfnm67lvZXlpLHotKU6ICIgKyBlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCgljbGllbnQgOj0gJmh0dHAuQ2xpZW50e1RpbWVvdXQ6IDMwICogdGltZS5NaW51dGV9CglyZXNwLCBlcnIgOj0gY2xpZW50LkdldChyZXEuVVJMKQoJaWYgZXJyICE9IG5pbCB7CgkJZW1pdCgi4p2MIOS4i+i9veWksei0pTogIiArIGVyci5FcnJvcigpKQoJCXJldHVybgoJfQoJZGVmZXIgcmVzcC5Cb2R5LkNsb3NlKCkKCWlmIHJlc3AuU3RhdHVzQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQllbWl0KGZtdC5TcHJpbnRmKCLinYwgSFRUUCAlZCIsIHJlc3AuU3RhdHVzQ29kZSkpCgkJcmV0dXJuCgl9CgoJZW1pdChmbXQuU3ByaW50Zigi6L+e5o6l5oiQ5Yqf77yMQ29udGVudC1MZW5ndGg9JWQiLCByZXNwLkNvbnRlbnRMZW5ndGgpKQoKCWd6ciwgZXJyIDo9IGd6aXAuTmV3UmVhZGVyKHJlc3AuQm9keSkKCWlmIGVyciAhPSBuaWwgewoJCWVtaXQoIuKdjCDop6PljosgZ3ppcCDlpLHotKU6ICIgKyBlcnIuRXJyb3IoKSkKCQlyZXR1cm4KCX0KCWRlZmVyIGd6ci5DbG9zZSgpCgoJdHIgOj0gdGFyLk5ld1JlYWRlcihnenIpCgl2YXIgZXh0cmFjdGVkRmlsZXMgaW50NjQKCWxhc3RSZXBvcnQgOj0gdGltZS5Ob3coKQoKCWZvciB7CgkJaGRyLCBlcnIgOj0gdHIuTmV4dCgpCgkJaWYgZXJyID09IGlvLkVPRiB7CgkJCWJyZWFrCgkJfQoJCWlmIGVyciAhPSBuaWwgewoJCQllbWl0KCLinYwg6Kej5p6QIHRhciDlpLHotKU6ICIgKyBlcnIuRXJyb3IoKSkKCQkJcmV0dXJuCgkJfQoKCQkvLyDljrvmjonliY0gTiDlsYLnm67lvZUKCQluYW1lIDo9IGhkci5OYW1lCgkJaWYgcmVxLlN0cmlwQ29tcG9uZW50cyA+IDAgewoJCQlwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0TihuYW1lLCAiLyIsIHJlcS5TdHJpcENvbXBvbmVudHMrMSkKCQkJaWYgbGVuKHBhcnRzKSA8PSByZXEuU3RyaXBDb21wb25lbnRzIHsKCQkJCWNvbnRpbnVlCgkJCX0KCQkJbmFtZSA9IHBhcnRzW2xlbihwYXJ0cyktMV0KCQl9CgkJaWYgbmFtZSA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoKCQlvdXRQYXRoIDo9IGZpbGVwYXRoLkpvaW4odGFyZ2V0RGlyLCBuYW1lKQoJCS8vIOmYsuatoiB0YXIgc2xpcAoJCWlmICFzdHJpbmdzLkhhc1ByZWZpeChvdXRQYXRoLCB0YXJnZXREaXIrc3RyaW5nKG9zLlBhdGhTZXBhcmF0b3IpKSAmJiBvdXRQYXRoICE9IHRhcmdldERpciB7CgkJCWVtaXQoIuKaoCDot7Pov4fotornlYzot6/lvoQ6ICIgKyBoZHIuTmFtZSkKCQkJY29udGludWUKCQl9CgoJCXN3aXRjaCBoZHIuVHlwZWZsYWcgewoJCWNhc2UgdGFyLlR5cGVEaXI6CgkJCWlmIGVyciA6PSBvcy5Na2RpckFsbChvdXRQYXRoLCBvcy5GaWxlTW9kZShoZHIuTW9kZSkmMG83Nzd8MG83NTUpOyBlcnIgIT0gbmlsIHsKCQkJCWVtaXQoIuKdjCDliJvlu7rnm67lvZXlpLHotKU6ICIgKyBlcnIuRXJyb3IoKSkKCQkJCXJldHVybgoJCQl9CgkJY2FzZSB0YXIuVHlwZVJlZywgdGFyLlR5cGVSZWdBOgoJCQlpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKG91dFBhdGgpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCQkJZW1pdCgi4p2MIOWIm+W7uueItuebruW9leWksei0pTogIiArIGVyci5FcnJvcigpKQoJCQkJcmV0dXJuCgkJCX0KCQkJZiwgZXJyIDo9IG9zLk9wZW5GaWxlKG91dFBhdGgsIG9zLk9fQ1JFQVRFfG9zLk9fV1JPTkxZfG9zLk9fVFJVTkMsIG9zLkZpbGVNb2RlKGhkci5Nb2RlKSYwbzc3NykKCQkJaWYgZXJyICE9IG5pbCB7CgkJCQllbWl0KCLinYwg5YaZ5YWl5paH5Lu25aSx6LSlOiAiICsgZXJyLkVycm9yKCkpCgkJCQlyZXR1cm4KCQkJfQoJCQlpZiBfLCBlcnIgOj0gaW8uQ29weShmLCB0cik7IGVyciAhPSBuaWwgewoJCQkJZi5DbG9zZSgpCgkJCQllbWl0KCLinYwg5aSN5Yi25YaF5a655aSx6LSlOiAiICsgZXJyLkVycm9yKCkpCgkJCQlyZXR1cm4KCQkJfQoJCQlmLkNsb3NlKCkKCQljYXNlIHRhci5UeXBlU3ltbGluazoKCQkJXyA9IG9zLlJlbW92ZShvdXRQYXRoKQoJCQlpZiBlcnIgOj0gb3MuU3ltbGluayhoZHIuTGlua25hbWUsIG91dFBhdGgpOyBlcnIgIT0gbmlsIHsKCQkJCWVtaXQoIuKaoCDliJvlu7rova/pk77lpLHotKUoIiArIG91dFBhdGggKyAiKTogIiArIGVyci5FcnJvcigpKQoJCQl9CgkJfQoKCQlleHRyYWN0ZWRGaWxlcysrCgkJaWYgdGltZS5TaW5jZShsYXN0UmVwb3J0KSA+IDUwMCp0aW1lLk1pbGxpc2Vjb25kIHsKCQkJZW1pdChmbXQuU3ByaW50Zigi6Kej5Y6L5LitLi4uIOW3suWkhOeQhiAlZCDkuKrmnaHnm64iLCBleHRyYWN0ZWRGaWxlcykpCgkJCWxhc3RSZXBvcnQgPSB0aW1lLk5vdygpCgkJfQoJfQoKCWVtaXQoZm10LlNwcmludGYoIuKchSDop6PljovlrozmiJDvvIzlhbEgJWQg5Liq5p2h55uuIiwgZXh0cmFjdGVkRmlsZXMpKQoKCS8vIOWwneivlemqjOivgQoJcHJvYmUgOj0gcHJvYmVSdW50aW1lKHJlcS5OYW1lKQoJaWYgcHJvYmUuSW5zdGFsbGVkIHsKCQllbWl0KCLinIUg5qOA5rWL5Yiw5Y+v5omn6KGMOiAiICsgcHJvYmUuUGF0aCkKCQlpZiBwcm9iZS5WZXJzaW9uICE9ICIiIHsKCQkJZW1pdCgi54mI5pysOiAiICsgcHJvYmUuVmVyc2lvbikKCQl9Cgl9IGVsc2UgewoJCWVtaXQoIuKaoCDop6PljovmiJDlip/kvYbmnKrmo4DmtYvliLDlj6/miafooYzmlofku7bvvIzlj6/og73mnrbmnoTkuI3lhbzlrrnvvIzor7fmn6XnnIsgIiArIHRhcmdldERpcikKCX0KCgllbWl0KCLlrozmiJDjgILor7flnKjjgIzku7vliqHjgI3pobXpnaLpgInmi6kgUHl0aG9uL05vZGUg6L+Q6KGM5pe25rWL6K+V6ISa5pys5omn6KGM44CCIikKfQoKdHlwZSBhbmRyb2lkVW5pbnN0YWxsUmVxdWVzdCBzdHJ1Y3QgewoJTmFtZSBzdHJpbmcgYGpzb246Im5hbWUiIGJpbmRpbmc6InJlcXVpcmVkImAKfQoKZnVuYyAoaCAqQW5kcm9pZFJ1bnRpbWVIYW5kbGVyKSBVbmluc3RhbGwoYyAqZ2luLkNvbnRleHQpIHsKCWFuZHJvaWRCaW5EaXIgOj0gcmVzb2x2ZUFuZHJvaWRSdW50aW1lQmluRGlyKCkKCWlmICFhbmRyb2lkU3VwcG9ydGVkKCkgewoJCXJlc3BvbnNlLkVycm9yKGMsIGh0dHAuU3RhdHVzRm9yYmlkZGVuLCAi5LuFIEFuZHJvaWQg6Z2i5YW354mI5pSv5oyB6K+l5pON5L2cIikKCQlyZXR1cm4KCX0KCXZhciByZXEgYW5kcm9pZFVuaW5zdGFsbFJlcXVlc3QKCWlmIGVyciA6PSBjLlNob3VsZEJpbmRKU09OKCZyZXEpOyBlcnIgIT0gbmlsIHsKCQlyZXNwb25zZS5FcnJvcihjLCBodHRwLlN0YXR1c0JhZFJlcXVlc3QsICLlj4LmlbDplJnor686ICIrZXJyLkVycm9yKCkpCgkJcmV0dXJuCgl9CglpZiByZXEuTmFtZSAhPSAicHl0aG9uIiAmJiByZXEuTmFtZSAhPSAibm9kZSIgewoJCXJlc3BvbnNlLkVycm9yKGMsIGh0dHAuU3RhdHVzQmFkUmVxdWVzdCwgIm5hbWUg5Y+q6IO95pivIHB5dGhvbiDmiJYgbm9kZSIpCgkJcmV0dXJuCgl9Cgl0YXJnZXQgOj0gZmlsZXBhdGguSm9pbihhbmRyb2lkQmluRGlyLCByZXEuTmFtZSkKCWlmIGVyciA6PSBvcy5SZW1vdmVBbGwodGFyZ2V0KTsgZXJyICE9IG5pbCB7CgkJcmVzcG9uc2UuRXJyb3IoYywgaHR0cC5TdGF0dXNJbnRlcm5hbFNlcnZlckVycm9yLCAi5Yig6Zmk5aSx6LSlOiAiK2Vyci5FcnJvcigpKQoJCXJldHVybgoJfQoJcmVzcG9uc2UuU3VjY2VzcyhjLCBnaW4uSHsicmVtb3ZlZCI6IHRhcmdldH0pCn0KCi8vIOS6kuaWpemUge+8jOmBv+WFjeWQjOaXtuinpuWPkeWkmuasoeS4i+i9vQp2YXIgYW5kcm9pZEluc3RhbGxNdSBzeW5jLk11dGV4CgpmdW5jIChoICpBbmRyb2lkUnVudGltZUhhbmRsZXIpIEluc3RhbGxHdWFyZGVkKGMgKmdpbi5Db250ZXh0KSB7CglpZiAhYW5kcm9pZEluc3RhbGxNdS5UcnlMb2NrKCkgewoJCXJlc3BvbnNlLkVycm9yKGMsIGh0dHAuU3RhdHVzQ29uZmxpY3QsICLlt7LmnInlronoo4Xku7vliqHlnKjov5vooYzkuK3vvIzor7fnrYnlvoXlrozmiJAiKQoJCXJldHVybgoJfQoJZGVmZXIgYW5kcm9pZEluc3RhbGxNdS5VbmxvY2soKQoJaC5JbnN0YWxsKGMpCn0KCmZ1bmMgKGggKkFuZHJvaWRSdW50aW1lSGFuZGxlcikgUmVnaXN0ZXJSb3V0ZXMociAqZ2luLlJvdXRlckdyb3VwKSB7CglncnAgOj0gci5Hcm91cCgiL2FuZHJvaWQtcnVudGltZSIsIG1pZGRsZXdhcmUuSldUQXV0aCgpLCBtaWRkbGV3YXJlLlJlcXVpcmVBZG1pbigpKQoJZ3JwLkdFVCgiL3N0YXR1cyIsIGguU3RhdHVzKQoJZ3JwLlBPU1QoIi9pbnN0YWxsIiwgaC5JbnN0YWxsR3VhcmRlZCkKCWdycC5QT1NUKCIvdW5pbnN0YWxsIiwgaC5Vbmluc3RhbGwpCn0K
+package handler
+
+import (
+	"archive/tar"
+	"compress/gzip"
+	"context"
+	"fmt"
+	"io"
+	"net/http"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/middleware"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+)
+
+// AndroidRuntimeHandler 提供在 Magisk 环境里一键安装 Python / Node.js 等脚本运行时的能力。
+//
+// 背景：Docker 镜像里 apk / apt 装好了 python、nodejs，但在 Android 上没有这些。模块默认
+// 只打包面板本体，解释器需要用户另外提供。这个 handler 让用户可以：
+//   - 在面板里看到当前 Android 运行时的 bin 目录有没有 python/node；
+//   - 一键触发下载 + 解压（若用户已装 Termux 则优先使用 Termux 的 pkg）。
+//
+// 只在检测到当前是 Android 环境时才暴露给前端。
+type AndroidRuntimeHandler struct{}
+
+func NewAndroidRuntimeHandler() *AndroidRuntimeHandler { return &AndroidRuntimeHandler{} }
+
+// bin 目录约定：Magisk service.sh 会把这里加入 PATH / LD_LIBRARY_PATH。
+const defaultAndroidRuntimeBinDir = "/data/adb/daidai-panel/bin"
+
+// androidRuntimePreset 定义了面板预置的运行时下载源。
+type androidRuntimePreset struct {
+	Name            string `json:"name"`              // python / node
+	Label           string `json:"label"`             // 展示用
+	Arch            string `json:"arch"`              // arm64 / amd64
+	URL             string `json:"url"`               // 下载地址 (tar.gz)
+	StripComponents int    `json:"strip_components"`  // 解压时去掉的顶层目录层数
+	CheckBin        string `json:"check_bin"`         // 解压后期望存在的可执行文件相对路径 (相对 bin 目录)
+	SizeMB          int    `json:"size_mb"`           // 预估大小
+	Note            string `json:"note"`              // 备注
+}
+
+// 预置下载源 —— 会跟随后续 Release 更新，用户也可以通过 `/install` 接口传入自定义 URL。
+// 这里选择的是社区常用的静态/可移植构建：
+//   - Python: python-build-standalone (indygreg) aarch64-unknown-linux-gnu / x86_64-unknown-linux-gnu
+//   - Node.js: 官方 nodejs.org linux-arm64 / linux-x64 包
+// 由于 Android 是 bionic libc，这些预构建并不总是能跑，因此同时保留 Termux 一键方案。
+var androidRuntimePresets = []androidRuntimePreset{
+	{
+		Name:            "python",
+		Label:           "Python 3.12 (python-build-standalone)",
+		Arch:            "arm64",
+		URL:             "https://github.com/indygreg/python-build-standalone/releases/download/20240415/cpython-3.12.3+20240415-aarch64-unknown-linux-gnu-install_only.tar.gz",
+		StripComponents: 1,
+		CheckBin:        "python/bin/python3",
+		SizeMB:          28,
+	},
+	{
+		Name:            "python",
+		Label:           "Python 3.12 (python-build-standalone)",
+		Arch:            "amd64",
+		URL:             "https://github.com/indygreg/python-build-standalone/releases/download/20240415/cpython-3.12.3+20240415-x86_64-unknown-linux-gnu-install_only.tar.gz",
+		StripComponents: 1,
+		CheckBin:        "python/bin/python3",
+		SizeMB:          30,
+	},
+	{
+		Name:            "node",
+		Label:           "Node.js v20 LTS (nodejs.org)",
+		Arch:            "arm64",
+		URL:             "https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-arm64.tar.gz",
+		StripComponents: 1,
+		CheckBin:        "node/bin/node",
+		SizeMB:          32,
+		Note:            "Android bionic libc 下可能需要 Termux 提供的动态库",
+	},
+	{
+		Name:            "node",
+		Label:           "Node.js v20 LTS (nodejs.org)",
+		Arch:            "amd64",
+		URL:             "https://nodejs.org/dist/v20.17.0/node-v20.17.0-linux-x64.tar.gz",
+		StripComponents: 1,
+		CheckBin:        "node/bin/node",
+		SizeMB:          32,
+	},
+}
+
+type androidRuntimeStatus struct {
+	Supported bool                       `json:"supported"`
+	Arch      string                     `json:"arch"`
+	BinDir    string                     `json:"bin_dir"`
+	Termux    bool                       `json:"termux_detected"`
+	Runtimes  []androidRuntimeItem       `json:"runtimes"`
+	Presets   []androidRuntimePreset     `json:"presets"`
+}
+
+type androidRuntimeItem struct {
+	Name      string `json:"name"`
+	Installed bool   `json:"installed"`
+	Path      string `json:"path"`
+	Version   string `json:"version"`
+}
+
+// androidSupported 判断当前进程是不是跑在 Android 上（面具版）。
+// 判定方式：
+//   1) 真实 Android 二进制（runtime.GOOS == "android"）
+//   2) Magisk 模块显式注入的环境变量
+//   3) 宿主侧可见的模块目录
+func androidSupported() bool {
+	if runtime.GOOS == "android" {
+		return true
+	}
+	if strings.TrimSpace(os.Getenv("DAIDAI_MAGISK_MODULE")) != "" {
+		return true
+	}
+	if strings.TrimSpace(os.Getenv("DAIDAI_ANDROID_APP")) != "" {
+		return true
+	}
+	if _, err := os.Stat("/data/adb/modules/daidai-panel"); err == nil {
+		return true
+	}
+	return false
+}
+
+func resolveAndroidRuntimeBinDir() string {
+	if dir := strings.TrimSpace(os.Getenv("DAIDAI_ANDROID_RUNTIME_BIN_DIR")); dir != "" {
+		return dir
+	}
+	return defaultAndroidRuntimeBinDir
+}
+
+func detectArch() string {
+	switch runtime.GOARCH {
+	case "arm64":
+		return "arm64"
+	case "amd64":
+		return "amd64"
+	}
+	return runtime.GOARCH
+}
+
+func termuxDetected() bool {
+	for _, p := range []string{
+		"/data/data/com.termux/files/usr/bin",
+		"/data/user/0/com.termux/files/usr/bin",
+	} {
+		if info, err := os.Stat(p); err == nil && info.IsDir() {
+			return true
+		}
+	}
+	return false
+}
+
+// probeRuntime 在 androidBinDir + Termux PATH 下查找指定命令。
+func probeRuntime(cmdName string) androidRuntimeItem {
+	item := androidRuntimeItem{Name: cmdName}
+	androidBinDir := resolveAndroidRuntimeBinDir()
+
+	candidates := []string{
+		filepath.Join(androidBinDir, cmdName, "bin", cmdName),
+		filepath.Join(androidBinDir, cmdName),
+		filepath.Join("/data/data/com.termux/files/usr/bin", cmdName),
+		filepath.Join("/usr/bin", cmdName),
+	}
+	if cmdName == "python" {
+		candidates = append([]string{
+			filepath.Join(androidBinDir, "python", "bin", "python3"),
+			filepath.Join(androidBinDir, "python3"),
+		}, candidates...)
+	}
+
+	for _, c := range candidates {
+		info, err := os.Stat(c)
+		if err != nil || info.IsDir() {
+			continue
+		}
+		if info.Mode()&0o111 == 0 {
+			continue
+		}
+		item.Installed = true
+		item.Path = c
+
+		ctx, cancel := context.WithTimeout(context.Background(), 5*time.Second)
+		out, err := exec.CommandContext(ctx, c, "--version").CombinedOutput()
+		cancel()
+		if err == nil {
+			item.Version = strings.TrimSpace(string(out))
+		}
+		return item
+	}
+	return item
+}
+
+func (h *AndroidRuntimeHandler) Status(c *gin.Context) {
+	androidBinDir := resolveAndroidRuntimeBinDir()
+	if !androidSupported() {
+		response.Success(c, androidRuntimeStatus{
+			Supported: false,
+			Arch:      detectArch(),
+			BinDir:    androidBinDir,
+		})
+		return
+	}
+
+	arch := detectArch()
+	runtimes := []androidRuntimeItem{
+		probeRuntime("python"),
+		probeRuntime("node"),
+	}
+
+	// 过滤出和当前 arch 匹配的预置
+	var presets []androidRuntimePreset
+	for _, p := range androidRuntimePresets {
+		if p.Arch == arch {
+			presets = append(presets, p)
+		}
+	}
+
+	response.Success(c, androidRuntimeStatus{
+		Supported: true,
+		Arch:      arch,
+		BinDir:    androidBinDir,
+		Termux:    termuxDetected(),
+		Runtimes:  runtimes,
+		Presets:   presets,
+	})
+}
+
+type androidInstallRequest struct {
+	Name            string `json:"name" binding:"required"`        // python / node
+	URL             string `json:"url"`                             // 可选：自定义下载源
+	StripComponents int    `json:"strip_components"`                // 解压层数
+}
+
+// Install 以 SSE 形式流式返回下载/解压进度。
+func (h *AndroidRuntimeHandler) Install(c *gin.Context) {
+	androidBinDir := resolveAndroidRuntimeBinDir()
+	if !androidSupported() {
+		response.Error(c, http.StatusForbidden, "仅 Android 面具版支持该操作")
+		return
+	}
+
+	var req androidInstallRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.Error(c, http.StatusBadRequest, "参数错误: "+err.Error())
+		return
+	}
+
+	if req.Name != "python" && req.Name != "node" {
+		response.Error(c, http.StatusBadRequest, "name 只能是 python 或 node")
+		return
+	}
+
+	// 如果没传 URL，从预置里挑匹配当前 arch 的
+	if strings.TrimSpace(req.URL) == "" {
+		arch := detectArch()
+		for _, p := range androidRuntimePresets {
+			if p.Name == req.Name && p.Arch == arch {
+				req.URL = p.URL
+				if req.StripComponents == 0 {
+					req.StripComponents = p.StripComponents
+				}
+				break
+			}
+		}
+	}
+	if req.URL == "" {
+		response.Error(c, http.StatusBadRequest, "当前架构没有预置下载源，请手动填写 url")
+		return
+	}
+
+	c.Writer.Header().Set("Content-Type", "text/event-stream")
+	c.Writer.Header().Set("Cache-Control", "no-cache")
+	c.Writer.Header().Set("Connection", "keep-alive")
+	c.Writer.WriteHeader(http.StatusOK)
+	flusher, _ := c.Writer.(http.Flusher)
+	emit := func(msg string) {
+		fmt.Fprintf(c.Writer, "data: %s\n\n", strings.ReplaceAll(msg, "\n", "\\n"))
+		if flusher != nil {
+			flusher.Flush()
+		}
+	}
+
+	emit(fmt.Sprintf("下载目标: %s", req.URL))
+	emit(fmt.Sprintf("解压到: %s/%s", androidBinDir, req.Name))
+
+	if err := os.MkdirAll(androidBinDir, 0o755); err != nil {
+		emit("❌ 无法创建目标目录: " + err.Error())
+		return
+	}
+
+	targetDir := filepath.Join(androidBinDir, req.Name)
+	// 清理旧目录
+	if _, err := os.Stat(targetDir); err == nil {
+		emit("清理旧版本: " + targetDir)
+		if err := os.RemoveAll(targetDir); err != nil {
+			emit("❌ 清理失败: " + err.Error())
+			return
+		}
+	}
+	if err := os.MkdirAll(targetDir, 0o755); err != nil {
+		emit("❌ 创建目标目录失败: " + err.Error())
+		return
+	}
+
+	client := &http.Client{Timeout: 30 * time.Minute}
+	resp, err := client.Get(req.URL)
+	if err != nil {
+		emit("❌ 下载失败: " + err.Error())
+		return
+	}
+	defer resp.Body.Close()
+	if resp.StatusCode != http.StatusOK {
+		emit(fmt.Sprintf("❌ HTTP %d", resp.StatusCode))
+		return
+	}
+
+	emit(fmt.Sprintf("连接成功，Content-Length=%d", resp.ContentLength))
+
+	gzr, err := gzip.NewReader(resp.Body)
+	if err != nil {
+		emit("❌ 解压 gzip 失败: " + err.Error())
+		return
+	}
+	defer gzr.Close()
+
+	tr := tar.NewReader(gzr)
+	var extractedFiles int64
+	lastReport := time.Now()
+
+	for {
+		hdr, err := tr.Next()
+		if err == io.EOF {
+			break
+		}
+		if err != nil {
+			emit("❌ 解析 tar 失败: " + err.Error())
+			return
+		}
+
+		// 去掉前 N 层目录
+		name := hdr.Name
+		if req.StripComponents > 0 {
+			parts := strings.SplitN(name, "/", req.StripComponents+1)
+			if len(parts) <= req.StripComponents {
+				continue
+			}
+			name = parts[len(parts)-1]
+		}
+		if name == "" {
+			continue
+		}
+
+		outPath := filepath.Join(targetDir, name)
+		// 防止 tar slip
+		if !strings.HasPrefix(outPath, targetDir+string(os.PathSeparator)) && outPath != targetDir {
+			emit("⚠ 跳过越界路径: " + hdr.Name)
+			continue
+		}
+
+		switch hdr.Typeflag {
+		case tar.TypeDir:
+			if err := os.MkdirAll(outPath, os.FileMode(hdr.Mode)&0o777|0o755); err != nil {
+				emit("❌ 创建目录失败: " + err.Error())
+				return
+			}
+		case tar.TypeReg, tar.TypeRegA:
+			if err := os.MkdirAll(filepath.Dir(outPath), 0o755); err != nil {
+				emit("❌ 创建父目录失败: " + err.Error())
+				return
+			}
+			f, err := os.OpenFile(outPath, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, os.FileMode(hdr.Mode)&0o777)
+			if err != nil {
+				emit("❌ 写入文件失败: " + err.Error())
+				return
+			}
+			if _, err := io.Copy(f, tr); err != nil {
+				f.Close()
+				emit("❌ 复制内容失败: " + err.Error())
+				return
+			}
+			f.Close()
+		case tar.TypeSymlink:
+			_ = os.Remove(outPath)
+			if err := os.Symlink(hdr.Linkname, outPath); err != nil {
+				emit("⚠ 创建软链失败(" + outPath + "): " + err.Error())
+			}
+		}
+
+		extractedFiles++
+		if time.Since(lastReport) > 500*time.Millisecond {
+			emit(fmt.Sprintf("解压中... 已处理 %d 个条目", extractedFiles))
+			lastReport = time.Now()
+		}
+	}
+
+	emit(fmt.Sprintf("✅ 解压完成，共 %d 个条目", extractedFiles))
+
+	// 尝试验证
+	probe := probeRuntime(req.Name)
+	if probe.Installed {
+		emit("✅ 检测到可执行: " + probe.Path)
+		if probe.Version != "" {
+			emit("版本: " + probe.Version)
+		}
+	} else {
+		emit("⚠ 解压成功但未检测到可执行文件，可能架构不兼容，请查看 " + targetDir)
+	}
+
+	emit("完成。请在「任务」页面选择 Python/Node 运行时测试脚本执行。")
+}
+
+type androidUninstallRequest struct {
+	Name string `json:"name" binding:"required"`
+}
+
+func (h *AndroidRuntimeHandler) Uninstall(c *gin.Context) {
+	androidBinDir := resolveAndroidRuntimeBinDir()
+	if !androidSupported() {
+		response.Error(c, http.StatusForbidden, "仅 Android 面具版支持该操作")
+		return
+	}
+	var req androidUninstallRequest
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.Error(c, http.StatusBadRequest, "参数错误: "+err.Error())
+		return
+	}
+	if req.Name != "python" && req.Name != "node" {
+		response.Error(c, http.StatusBadRequest, "name 只能是 python 或 node")
+		return
+	}
+	target := filepath.Join(androidBinDir, req.Name)
+	if err := os.RemoveAll(target); err != nil {
+		response.Error(c, http.StatusInternalServerError, "删除失败: "+err.Error())
+		return
+	}
+	response.Success(c, gin.H{"removed": target})
+}
+
+// 互斥锁，避免同时触发多次下载
+var androidInstallMu sync.Mutex
+
+func (h *AndroidRuntimeHandler) InstallGuarded(c *gin.Context) {
+	if !androidInstallMu.TryLock() {
+		response.Error(c, http.StatusConflict, "已有安装任务在进行中，请等待完成")
+		return
+	}
+	defer androidInstallMu.Unlock()
+	h.Install(c)
+}
+
+func (h *AndroidRuntimeHandler) RegisterRoutes(r *gin.RouterGroup) {
+	grp := r.Group("/android-runtime", middleware.JWTAuth(), middleware.RequireAdmin())
+	grp.GET("/status", h.Status)
+	grp.POST("/install", h.InstallGuarded)
+	grp.POST("/uninstall", h.Uninstall)
+}

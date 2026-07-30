@@ -1,1 +1,205 @@
-cGFja2FnZSBtYWluCgppbXBvcnQgKAoJImZtdCIKCSJzdHJjb252IgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3BrZy9uZXR1dGlsIgoKCSJnb3JtLmlvL2dvcm0iCikKCmZ1bmMgcnVuSVBXaGl0ZWxpc3QocnQgKmNsaVJ1bnRpbWUsIGFyZ3MgW11zdHJpbmcpIGVycm9yIHsKCWlmIGxlbihhcmdzKSA9PSAwIHsKCQlyZXR1cm4gZm10LkVycm9yZigi55So5rOVOiBkZHAgaXAtd2hpdGVsaXN0IDxsaXN0fGFkZHxkZWxldGV8Y2xlYXJ8c2V0PiAuLi4iKQoJfQoKCXN3aXRjaCBhcmdzWzBdIHsKCWNhc2UgImxpc3QiLCAibHMiOgoJCXJldHVybiBydW5JUFdoaXRlbGlzdExpc3QocnQpCgljYXNlICJhZGQiOgoJCXJldHVybiBydW5JUFdoaXRlbGlzdEFkZChydCwgYXJnc1sxOl0pCgljYXNlICJkZWxldGUiLCAiZGVsIiwgInJlbW92ZSIsICJybSI6CgkJcmV0dXJuIHJ1bklQV2hpdGVsaXN0RGVsZXRlKHJ0LCBhcmdzWzE6XSkKCWNhc2UgImNsZWFyIiwgInJlc2V0IjoKCQlyZXR1cm4gcnVuSVBXaGl0ZWxpc3RDbGVhcihydCkKCWNhc2UgInNldCI6CgkJcmV0dXJuIHJ1bklQV2hpdGVsaXN0U2V0KHJ0LCBhcmdzWzE6XSkKCWRlZmF1bHQ6CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuacquefpSBpcC13aGl0ZWxpc3Qg5a2Q5ZG95LukOiAlcyIsIGFyZ3NbMF0pCgl9Cn0KCmZ1bmMgcnVuSVBXaGl0ZWxpc3RMaXN0KHJ0ICpjbGlSdW50aW1lKSBlcnJvciB7CglpZiBlcnIgOj0gcnQuYm9vdHN0cmFwKCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCgl2YXIgZW50cmllcyBbXW1vZGVsLklQV2hpdGVsaXN0CglpZiBlcnIgOj0gZGF0YWJhc2UuREIuT3JkZXIoImlkIEFTQyIpLkZpbmQoJmVudHJpZXMpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglpZiBsZW4oZW50cmllcykgPT0gMCB7CgkJZm10LlByaW50bG4oIuW9k+WJjeacquiuvue9riBJUCDnmb3lkI3ljZXvvIzmiYDmnIkgSVAg5Z2H5Y+v6K6/6Zeu55m75b2V6aG1IikKCQlyZXR1cm4gbmlsCgl9CgoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudHJpZXMgewoJCWZtdC5QcmludGYoIlslZF0gJXMiLCBlbnRyeS5JRCwgZW50cnkuSVApCgkJaWYgc3RyaW5ncy5UcmltU3BhY2UoZW50cnkuUmVtYXJrcykgIT0gIiIgewoJCQlmbXQuUHJpbnRmKCIg5aSH5rOoPSVzIiwgZW50cnkuUmVtYXJrcykKCQl9CgkJZm10LlByaW50bG4oKQoJfQoJcmV0dXJuIG5pbAp9CgpmdW5jIHJ1bklQV2hpdGVsaXN0QWRkKHJ0ICpjbGlSdW50aW1lLCBhcmdzIFtdc3RyaW5nKSBlcnJvciB7CglpZiBlcnIgOj0gcnQuYm9vdHN0cmFwKCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCgl0YXJnZXRzLCByZW1hcmtzLCBlcnIgOj0gcGFyc2VJUFdoaXRlbGlzdFRhcmdldHMoYXJncywgdHJ1ZSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCgljcmVhdGVkIDo9IDAKCWZvciBfLCB0YXJnZXQgOj0gcmFuZ2UgdGFyZ2V0cyB7CgkJZW50cnkgOj0gbW9kZWwuSVBXaGl0ZWxpc3R7CgkJCUlQOiAgICAgIHRhcmdldCwKCQkJUmVtYXJrczogcmVtYXJrcywKCQl9CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmZW50cnkpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJaWYgaXNVbmlxdWVDb25zdHJhaW50RXJyb3IoZXJyKSB7CgkJCQlyZXR1cm4gZm10LkVycm9yZigiSVAg55m95ZCN5Y2V5bey5a2Y5ZyoOiAlcyIsIHRhcmdldCkKCQkJfQoJCQlyZXR1cm4gZXJyCgkJfQoJCWZtdC5QcmludGYoIuW3sua3u+WKoCBJUCDnmb3lkI3ljZU6ICVzICgjJWQpXG4iLCBlbnRyeS5JUCwgZW50cnkuSUQpCgkJY3JlYXRlZCsrCgl9CglpZiBjcmVhdGVkID09IDAgewoJCWZtdC5QcmludGxuKCLmnKrmt7vliqDku7vkvZUgSVAg55m95ZCN5Y2VIikKCX0KCXJldHVybiBuaWwKfQoKZnVuYyBydW5JUFdoaXRlbGlzdERlbGV0ZShydCAqY2xpUnVudGltZSwgYXJncyBbXXN0cmluZykgZXJyb3IgewoJaWYgZXJyIDo9IHJ0LmJvb3RzdHJhcCgpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CglpZiBsZW4oYXJncykgIT0gMSB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIueUqOazlTogZGRwIGlwLXdoaXRlbGlzdCBkZWxldGUgPElE5oiWSVAv572R5q61PiIpCgl9CgoJdGFyZ2V0IDo9IHN0cmluZ3MuVHJpbVNwYWNlKGFyZ3NbMF0pCglxdWVyeSA6PSBkYXRhYmFzZS5EQi5Nb2RlbCgmbW9kZWwuSVBXaGl0ZWxpc3R7fSkKCWlmIGlkLCBlcnIgOj0gc3RyY29udi5QYXJzZVVpbnQodGFyZ2V0LCAxMCwgMzIpOyBlcnIgPT0gbmlsICYmIGlkID4gMCB7CgkJcXVlcnkgPSBxdWVyeS5XaGVyZSgiaWQgPSA/IiwgaWQpCgl9IGVsc2UgewoJCW5vcm1hbGl6ZWQsIGVyciA6PSBuZXR1dGlsLk5vcm1hbGl6ZUlQV2hpdGVsaXN0RW50cnkodGFyZ2V0KQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJCXF1ZXJ5ID0gcXVlcnkuV2hlcmUoImlwID0gPyIsIG5vcm1hbGl6ZWQpCgl9CgoJcmVzdWx0IDo9IHF1ZXJ5LkRlbGV0ZSgmbW9kZWwuSVBXaGl0ZWxpc3R7fSkKCWlmIHJlc3VsdC5FcnJvciAhPSBuaWwgewoJCXJldHVybiByZXN1bHQuRXJyb3IKCX0KCWlmIHJlc3VsdC5Sb3dzQWZmZWN0ZWQgPT0gMCB7CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuacquaJvuWIsOWMuemFjeeahCBJUCDnmb3lkI3ljZU6ICVzIiwgdGFyZ2V0KQoJfQoKCWZtdC5QcmludGYoIuW3suWIoOmZpCAlZCDmnaEgSVAg55m95ZCN5Y2VXG4iLCByZXN1bHQuUm93c0FmZmVjdGVkKQoJcmV0dXJuIG5pbAp9CgpmdW5jIHJ1bklQV2hpdGVsaXN0Q2xlYXIocnQgKmNsaVJ1bnRpbWUpIGVycm9yIHsKCWlmIGVyciA6PSBydC5ib290c3RyYXAoKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXJlc3VsdCA6PSBkYXRhYmFzZS5EQi5XaGVyZSgiMSA9IDEiKS5EZWxldGUoJm1vZGVsLklQV2hpdGVsaXN0e30pCglpZiByZXN1bHQuRXJyb3IgIT0gbmlsIHsKCQlyZXR1cm4gcmVzdWx0LkVycm9yCgl9CglmbXQuUHJpbnRmKCLlt7LmuIXnqbogJWQg5p2hIElQIOeZveWQjeWNle+8m+W9k+WJjeaJgOaciSBJUCDlnYflj6/orr/pl67nmbvlvZXpobVcbiIsIHJlc3VsdC5Sb3dzQWZmZWN0ZWQpCglyZXR1cm4gbmlsCn0KCmZ1bmMgcnVuSVBXaGl0ZWxpc3RTZXQocnQgKmNsaVJ1bnRpbWUsIGFyZ3MgW11zdHJpbmcpIGVycm9yIHsKCWlmIGVyciA6PSBydC5ib290c3RyYXAoKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXRhcmdldHMsIHJlbWFya3MsIGVyciA6PSBwYXJzZUlQV2hpdGVsaXN0VGFyZ2V0cyhhcmdzLCB0cnVlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCXJldHVybiBkYXRhYmFzZS5EQi5UcmFuc2FjdGlvbihmdW5jKHR4ICpnb3JtLkRCKSBlcnJvciB7CgkJaWYgZXJyIDo9IHR4LldoZXJlKCIxID0gMSIpLkRlbGV0ZSgmbW9kZWwuSVBXaGl0ZWxpc3R7fSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJCWZvciBfLCB0YXJnZXQgOj0gcmFuZ2UgdGFyZ2V0cyB7CgkJCWVudHJ5IDo9IG1vZGVsLklQV2hpdGVsaXN0ewoJCQkJSVA6ICAgICAgdGFyZ2V0LAoJCQkJUmVtYXJrczogcmVtYXJrcywKCQkJfQoJCQlpZiBlcnIgOj0gdHguQ3JlYXRlKCZlbnRyeSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCQkJcmV0dXJuIGVycgoJCQl9CgkJfQoJCWZtdC5QcmludGYoIuW3sumHjeiuviBJUCDnmb3lkI3ljZXvvIzlhbEgJWQg5p2hXG4iLCBsZW4odGFyZ2V0cykpCgkJcmV0dXJuIG5pbAoJfSkKfQoKZnVuYyBwYXJzZUlQV2hpdGVsaXN0VGFyZ2V0cyhhcmdzIFtdc3RyaW5nLCByZXF1aXJlVGFyZ2V0IGJvb2wpIChbXXN0cmluZywgc3RyaW5nLCBlcnJvcikgewoJcmVtYXJrcyA6PSAiIgoJcmF3VGFyZ2V0cyA6PSBtYWtlKFtdc3RyaW5nLCAwLCBsZW4oYXJncykpCglmb3IgaSA6PSAwOyBpIDwgbGVuKGFyZ3MpOyBpKysgewoJCXN3aXRjaCBhcmdzW2ldIHsKCQljYXNlICItLXJlbWFya3MiLCAiLS1yZW1hcmsiLCAiLXIiOgoJCQlpZiBpKzEgPj0gbGVuKGFyZ3MpIHsKCQkJCXJldHVybiBuaWwsICIiLCBmbXQuRXJyb3JmKCIlcyDpnIDopoHlj4LmlbAiLCBhcmdzW2ldKQoJCQl9CgkJCXJlbWFya3MgPSBzdHJpbmdzLlRyaW1TcGFjZShhcmdzW2krMV0pCgkJCWkrKwoJCWRlZmF1bHQ6CgkJCXJhd1RhcmdldHMgPSBhcHBlbmQocmF3VGFyZ2V0cywgYXJnc1tpXSkKCQl9Cgl9CglpZiByZXF1aXJlVGFyZ2V0ICYmIGxlbihyYXdUYXJnZXRzKSA9PSAwIHsKCQlyZXR1cm4gbmlsLCAiIiwgZm10LkVycm9yZigi6K+35o+Q5L6b6Iez5bCR5LiA5LiqIElQ44CBQ0lEUiDmiJYgSVB2NCDpgJrphY3nvZHmrrUiKQoJfQoKCXNlZW4gOj0gbWFrZShtYXBbc3RyaW5nXWJvb2wsIGxlbihyYXdUYXJnZXRzKSkKCXRhcmdldHMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKHJhd1RhcmdldHMpKQoJZm9yIF8sIHJhdyA6PSByYW5nZSByYXdUYXJnZXRzIHsKCQlub3JtYWxpemVkLCBlcnIgOj0gbmV0dXRpbC5Ob3JtYWxpemVJUFdoaXRlbGlzdEVudHJ5KHJhdykKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgIiIsIGVycgoJCX0KCQlpZiBzZWVuW25vcm1hbGl6ZWRdIHsKCQkJY29udGludWUKCQl9CgkJc2Vlbltub3JtYWxpemVkXSA9IHRydWUKCQl0YXJnZXRzID0gYXBwZW5kKHRhcmdldHMsIG5vcm1hbGl6ZWQpCgl9CglyZXR1cm4gdGFyZ2V0cywgcmVtYXJrcywgbmlsCn0KCmZ1bmMgaXNVbmlxdWVDb25zdHJhaW50RXJyb3IoZXJyIGVycm9yKSBib29sIHsKCWlmIGVyciA9PSBuaWwgewoJCXJldHVybiBmYWxzZQoJfQoJdGV4dCA6PSBzdHJpbmdzLlRvTG93ZXIoZXJyLkVycm9yKCkpCglyZXR1cm4gc3RyaW5ncy5Db250YWlucyh0ZXh0LCAidW5pcXVlIikgfHwgc3RyaW5ncy5Db250YWlucyh0ZXh0LCAiZHVwbGljYXRlIikKfQo=
+package main
+
+import (
+	"fmt"
+	"strconv"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/netutil"
+
+	"gorm.io/gorm"
+)
+
+func runIPWhitelist(rt *cliRuntime, args []string) error {
+	if len(args) == 0 {
+		return fmt.Errorf("用法: ddp ip-whitelist <list|add|delete|clear|set> ...")
+	}
+
+	switch args[0] {
+	case "list", "ls":
+		return runIPWhitelistList(rt)
+	case "add":
+		return runIPWhitelistAdd(rt, args[1:])
+	case "delete", "del", "remove", "rm":
+		return runIPWhitelistDelete(rt, args[1:])
+	case "clear", "reset":
+		return runIPWhitelistClear(rt)
+	case "set":
+		return runIPWhitelistSet(rt, args[1:])
+	default:
+		return fmt.Errorf("未知 ip-whitelist 子命令: %s", args[0])
+	}
+}
+
+func runIPWhitelistList(rt *cliRuntime) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	var entries []model.IPWhitelist
+	if err := database.DB.Order("id ASC").Find(&entries).Error; err != nil {
+		return err
+	}
+	if len(entries) == 0 {
+		fmt.Println("当前未设置 IP 白名单，所有 IP 均可访问登录页")
+		return nil
+	}
+
+	for _, entry := range entries {
+		fmt.Printf("[%d] %s", entry.ID, entry.IP)
+		if strings.TrimSpace(entry.Remarks) != "" {
+			fmt.Printf(" 备注=%s", entry.Remarks)
+		}
+		fmt.Println()
+	}
+	return nil
+}
+
+func runIPWhitelistAdd(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	targets, remarks, err := parseIPWhitelistTargets(args, true)
+	if err != nil {
+		return err
+	}
+
+	created := 0
+	for _, target := range targets {
+		entry := model.IPWhitelist{
+			IP:      target,
+			Remarks: remarks,
+		}
+		if err := database.DB.Create(&entry).Error; err != nil {
+			if isUniqueConstraintError(err) {
+				return fmt.Errorf("IP 白名单已存在: %s", target)
+			}
+			return err
+		}
+		fmt.Printf("已添加 IP 白名单: %s (#%d)\n", entry.IP, entry.ID)
+		created++
+	}
+	if created == 0 {
+		fmt.Println("未添加任何 IP 白名单")
+	}
+	return nil
+}
+
+func runIPWhitelistDelete(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+	if len(args) != 1 {
+		return fmt.Errorf("用法: ddp ip-whitelist delete <ID或IP/网段>")
+	}
+
+	target := strings.TrimSpace(args[0])
+	query := database.DB.Model(&model.IPWhitelist{})
+	if id, err := strconv.ParseUint(target, 10, 32); err == nil && id > 0 {
+		query = query.Where("id = ?", id)
+	} else {
+		normalized, err := netutil.NormalizeIPWhitelistEntry(target)
+		if err != nil {
+			return err
+		}
+		query = query.Where("ip = ?", normalized)
+	}
+
+	result := query.Delete(&model.IPWhitelist{})
+	if result.Error != nil {
+		return result.Error
+	}
+	if result.RowsAffected == 0 {
+		return fmt.Errorf("未找到匹配的 IP 白名单: %s", target)
+	}
+
+	fmt.Printf("已删除 %d 条 IP 白名单\n", result.RowsAffected)
+	return nil
+}
+
+func runIPWhitelistClear(rt *cliRuntime) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	result := database.DB.Where("1 = 1").Delete(&model.IPWhitelist{})
+	if result.Error != nil {
+		return result.Error
+	}
+	fmt.Printf("已清空 %d 条 IP 白名单；当前所有 IP 均可访问登录页\n", result.RowsAffected)
+	return nil
+}
+
+func runIPWhitelistSet(rt *cliRuntime, args []string) error {
+	if err := rt.bootstrap(); err != nil {
+		return err
+	}
+
+	targets, remarks, err := parseIPWhitelistTargets(args, true)
+	if err != nil {
+		return err
+	}
+
+	return database.DB.Transaction(func(tx *gorm.DB) error {
+		if err := tx.Where("1 = 1").Delete(&model.IPWhitelist{}).Error; err != nil {
+			return err
+		}
+		for _, target := range targets {
+			entry := model.IPWhitelist{
+				IP:      target,
+				Remarks: remarks,
+			}
+			if err := tx.Create(&entry).Error; err != nil {
+				return err
+			}
+		}
+		fmt.Printf("已重设 IP 白名单，共 %d 条\n", len(targets))
+		return nil
+	})
+}
+
+func parseIPWhitelistTargets(args []string, requireTarget bool) ([]string, string, error) {
+	remarks := ""
+	rawTargets := make([]string, 0, len(args))
+	for i := 0; i < len(args); i++ {
+		switch args[i] {
+		case "--remarks", "--remark", "-r":
+			if i+1 >= len(args) {
+				return nil, "", fmt.Errorf("%s 需要参数", args[i])
+			}
+			remarks = strings.TrimSpace(args[i+1])
+			i++
+		default:
+			rawTargets = append(rawTargets, args[i])
+		}
+	}
+	if requireTarget && len(rawTargets) == 0 {
+		return nil, "", fmt.Errorf("请提供至少一个 IP、CIDR 或 IPv4 通配网段")
+	}
+
+	seen := make(map[string]bool, len(rawTargets))
+	targets := make([]string, 0, len(rawTargets))
+	for _, raw := range rawTargets {
+		normalized, err := netutil.NormalizeIPWhitelistEntry(raw)
+		if err != nil {
+			return nil, "", err
+		}
+		if seen[normalized] {
+			continue
+		}
+		seen[normalized] = true
+		targets = append(targets, normalized)
+	}
+	return targets, remarks, nil
+}
+
+func isUniqueConstraintError(err error) bool {
+	if err == nil {
+		return false
+	}
+	text := strings.ToLower(err.Error())
+	return strings.Contains(text, "unique") || strings.Contains(text, "duplicate")
+}

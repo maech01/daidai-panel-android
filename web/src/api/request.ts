@@ -1,1 +1,102 @@
-aW1wb3J0IGF4aW9zIGZyb20gJ2F4aW9zJwppbXBvcnQgdHlwZSB7IEF4aW9zSW5zdGFuY2UsIEludGVybmFsQXhpb3NSZXF1ZXN0Q29uZmlnLCBBeGlvc1Jlc3BvbnNlIH0gZnJvbSAnYXhpb3MnCmltcG9ydCB7IHVzZUF1dGhTdG9yZSB9IGZyb20gJ0Avc3RvcmVzL2F1dGgnCmltcG9ydCByb3V0ZXIgZnJvbSAnQC9yb3V0ZXInCgpjb25zdCByZXF1ZXN0OiBBeGlvc0luc3RhbmNlID0gYXhpb3MuY3JlYXRlKHsKICBiYXNlVVJMOiAnL2FwaScsCiAgdGltZW91dDogMzAwMDAsCiAgaGVhZGVyczogewogICAgJ0NvbnRlbnQtVHlwZSc6ICdhcHBsaWNhdGlvbi9qc29uJywKICAgICdYLUNsaWVudC1UeXBlJzogJ3dlYicsCiAgICAnWC1DbGllbnQtQXBwJzogJ2RhaWRhaS1wYW5lbC13ZWInCiAgfQp9KQoKbGV0IGlzUmVmcmVzaGluZyA9IGZhbHNlCgovLyDliLfmlrAgdG9rZW4g5pyf6Ze055qE5o6S6Zif6K+35rGC77ya5ZCM5pe25L+d5a2YIHJlc29sdmUg5LiOIHJlamVjdOOAggovLyDliLfmlrDmiJDlip8g4oaSIOeUqOaWsCB0b2tlbiDph43mlL7lubYgcmVzb2x2Ze+8m+WIt+aWsOWksei0pSDihpIg6YCQ5LiqIHJlamVjdOOAggovLyDoi6Xlj6rlrZggcmVzb2x2Ze+8iOaXp+WunueOsO+8ie+8jOWIt+aWsOWksei0peaXtua4heepuumYn+WIl+S8muS4ouW8g+Wbnuiwg++8jOaXouS4jSByZXNvbHZlIOS5n+S4jSByZWplY3TvvIwKLy8g5a+86Ie05bm25Y+R6K+35rGC5rC45LmF5oyC6LW344CBbG9hZGluZyDmsLjkuI3nu5PmnZ/vvIjkvJror53ooqvpobbkuIvnur/ml7bnmoTigJzml6DpmZDliqDovb3igJ3moLnlm6DvvInjgIIKaW50ZXJmYWNlIFBlbmRpbmdSZXF1ZXN0IHsKICByZXNvbHZlOiAodG9rZW46IHN0cmluZykgPT4gdm9pZAogIHJlamVjdDogKGVycm9yOiB1bmtub3duKSA9PiB2b2lkCn0KbGV0IHBlbmRpbmdSZXF1ZXN0czogUGVuZGluZ1JlcXVlc3RbXSA9IFtdCgpmdW5jdGlvbiByZXNvbHZlUGVuZGluZyh0b2tlbjogc3RyaW5nKSB7CiAgcGVuZGluZ1JlcXVlc3RzLmZvckVhY2goKHsgcmVzb2x2ZSB9KSA9PiByZXNvbHZlKHRva2VuKSkKICBwZW5kaW5nUmVxdWVzdHMgPSBbXQp9CgpmdW5jdGlvbiByZWplY3RQZW5kaW5nKGVycm9yOiB1bmtub3duKSB7CiAgcGVuZGluZ1JlcXVlc3RzLmZvckVhY2goKHsgcmVqZWN0IH0pID0+IHJlamVjdChlcnJvcikpCiAgcGVuZGluZ1JlcXVlc3RzID0gW10KfQoKcmVxdWVzdC5pbnRlcmNlcHRvcnMucmVxdWVzdC51c2UoCiAgKGNvbmZpZzogSW50ZXJuYWxBeGlvc1JlcXVlc3RDb25maWcpID0+IHsKICAgIGNvbnN0IGF1dGhTdG9yZSA9IHVzZUF1dGhTdG9yZSgpCiAgICBpZiAoYXV0aFN0b3JlLmFjY2Vzc1Rva2VuKSB7CiAgICAgIGNvbmZpZy5oZWFkZXJzLkF1dGhvcml6YXRpb24gPSBgQmVhcmVyICR7YXV0aFN0b3JlLmFjY2Vzc1Rva2VufWAKICAgIH0KICAgIHJldHVybiBjb25maWcKICB9LAogIChlcnJvcikgPT4gUHJvbWlzZS5yZWplY3QoZXJyb3IpCikKCnJlcXVlc3QuaW50ZXJjZXB0b3JzLnJlc3BvbnNlLnVzZSgKICAocmVzcG9uc2U6IEF4aW9zUmVzcG9uc2UpID0+IHJlc3BvbnNlLmRhdGEsCiAgYXN5bmMgKGVycm9yKSA9PiB7CiAgICBjb25zdCBvcmlnaW5hbFJlcXVlc3QgPSBlcnJvci5jb25maWcKCiAgICBpZiAoZXJyb3IucmVzcG9uc2U/LnN0YXR1cyA9PT0gNDAxICYmICFvcmlnaW5hbFJlcXVlc3QuX3JldHJ5KSB7CiAgICAgIGNvbnN0IGF1dGhTdG9yZSA9IHVzZUF1dGhTdG9yZSgpCgogICAgICBpZiAoIWF1dGhTdG9yZS5yZWZyZXNoVG9rZW4pIHsKICAgICAgICBhdXRoU3RvcmUuY2xlYXJBdXRoKCkKICAgICAgICByb3V0ZXIucHVzaCgnL2xvZ2luJykKICAgICAgICByZXR1cm4gUHJvbWlzZS5yZWplY3QoZXJyb3IpCiAgICAgIH0KCiAgICAgIGlmIChpc1JlZnJlc2hpbmcpIHsKICAgICAgICAvLyDlt7LmnInor7fmsYLlnKjliLfmlrAgdG9rZW7vvIzmnKzor7fmsYLlhaXpmJ/nrYnlvoUKICAgICAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgICAgcGVuZGluZ1JlcXVlc3RzLnB1c2goewogICAgICAgICAgICByZXNvbHZlOiAodG9rZW46IHN0cmluZykgPT4gewogICAgICAgICAgICAgIC8vIOWIt+aWsOaIkOWKn+WQjueUqOaWsCB0b2tlbiDph43mlL7vvJvooaUgX3JldHJ5IOmYsumHjeaUvue7k+aenOWGjeasoei/m+WFpeWIt+aWsOa1geeoiwogICAgICAgICAgICAgIG9yaWdpbmFsUmVxdWVzdC5fcmV0cnkgPSB0cnVlCiAgICAgICAgICAgICAgb3JpZ2luYWxSZXF1ZXN0LmhlYWRlcnMuQXV0aG9yaXphdGlvbiA9IGBCZWFyZXIgJHt0b2tlbn1gCiAgICAgICAgICAgICAgcmVzb2x2ZShyZXF1ZXN0KG9yaWdpbmFsUmVxdWVzdCkpCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIHJlamVjdCwKICAgICAgICAgIH0pCiAgICAgICAgfSkKICAgICAgfQoKICAgICAgb3JpZ2luYWxSZXF1ZXN0Ll9yZXRyeSA9IHRydWUKICAgICAgaXNSZWZyZXNoaW5nID0gdHJ1ZQoKICAgICAgdHJ5IHsKICAgICAgICBjb25zdCBuZXdUb2tlbiA9IGF3YWl0IGF1dGhTdG9yZS5yZWZyZXNoQWNjZXNzVG9rZW4oKQogICAgICAgIGlzUmVmcmVzaGluZyA9IGZhbHNlCiAgICAgICAgcmVzb2x2ZVBlbmRpbmcobmV3VG9rZW4pCiAgICAgICAgb3JpZ2luYWxSZXF1ZXN0LmhlYWRlcnMuQXV0aG9yaXphdGlvbiA9IGBCZWFyZXIgJHtuZXdUb2tlbn1gCiAgICAgICAgcmV0dXJuIHJlcXVlc3Qob3JpZ2luYWxSZXF1ZXN0KQogICAgICB9IGNhdGNoIHsKICAgICAgICAvLyDliLfmlrDlpLHotKXvvIjlpoLkvJror53ooqvpobbjgIFyZWZyZXNoIOW3suWkseaViO+8ie+8mumAkOS4qiByZWplY3Qg5o6S6Zif6K+35rGC77yMCiAgICAgICAgLy8g6K6p5q+P5Liq6LCD55So5pa55ZCE6Ieq57uT5p2fIGxvYWRpbmcv5oqb6ZSZ77yM5YaN57uf5LiA5riF55CG55m75b2V5oCB5bm26Lez6L2s55m75b2V6aG1CiAgICAgICAgaXNSZWZyZXNoaW5nID0gZmFsc2UKICAgICAgICByZWplY3RQZW5kaW5nKGVycm9yKQogICAgICAgIGF1dGhTdG9yZS5jbGVhckF1dGgoKQogICAgICAgIHJvdXRlci5wdXNoKCcvbG9naW4nKQogICAgICAgIHJldHVybiBQcm9taXNlLnJlamVjdChlcnJvcikKICAgICAgfQogICAgfQoKICAgIHJldHVybiBQcm9taXNlLnJlamVjdChlcnJvcikKICB9CikKCmV4cG9ydCBkZWZhdWx0IHJlcXVlc3QK
+import axios from 'axios'
+import type { AxiosInstance, InternalAxiosRequestConfig, AxiosResponse } from 'axios'
+import { useAuthStore } from '@/stores/auth'
+import router from '@/router'
+
+const request: AxiosInstance = axios.create({
+  baseURL: '/api',
+  timeout: 30000,
+  headers: {
+    'Content-Type': 'application/json',
+    'X-Client-Type': 'web',
+    'X-Client-App': 'daidai-panel-web'
+  }
+})
+
+let isRefreshing = false
+
+// 刷新 token 期间的排队请求：同时保存 resolve 与 reject。
+// 刷新成功 → 用新 token 重放并 resolve；刷新失败 → 逐个 reject。
+// 若只存 resolve（旧实现），刷新失败时清空队列会丢弃回调，既不 resolve 也不 reject，
+// 导致并发请求永久挂起、loading 永不结束（会话被顶下线时的“无限加载”根因）。
+interface PendingRequest {
+  resolve: (token: string) => void
+  reject: (error: unknown) => void
+}
+let pendingRequests: PendingRequest[] = []
+
+function resolvePending(token: string) {
+  pendingRequests.forEach(({ resolve }) => resolve(token))
+  pendingRequests = []
+}
+
+function rejectPending(error: unknown) {
+  pendingRequests.forEach(({ reject }) => reject(error))
+  pendingRequests = []
+}
+
+request.interceptors.request.use(
+  (config: InternalAxiosRequestConfig) => {
+    const authStore = useAuthStore()
+    if (authStore.accessToken) {
+      config.headers.Authorization = `Bearer ${authStore.accessToken}`
+    }
+    return config
+  },
+  (error) => Promise.reject(error)
+)
+
+request.interceptors.response.use(
+  (response: AxiosResponse) => response.data,
+  async (error) => {
+    const originalRequest = error.config
+
+    if (error.response?.status === 401 && !originalRequest._retry) {
+      const authStore = useAuthStore()
+
+      if (!authStore.refreshToken) {
+        authStore.clearAuth()
+        router.push('/login')
+        return Promise.reject(error)
+      }
+
+      if (isRefreshing) {
+        // 已有请求在刷新 token，本请求入队等待
+        return new Promise((resolve, reject) => {
+          pendingRequests.push({
+            resolve: (token: string) => {
+              // 刷新成功后用新 token 重放；补 _retry 防重放结果再次进入刷新流程
+              originalRequest._retry = true
+              originalRequest.headers.Authorization = `Bearer ${token}`
+              resolve(request(originalRequest))
+            },
+            reject,
+          })
+        })
+      }
+
+      originalRequest._retry = true
+      isRefreshing = true
+
+      try {
+        const newToken = await authStore.refreshAccessToken()
+        isRefreshing = false
+        resolvePending(newToken)
+        originalRequest.headers.Authorization = `Bearer ${newToken}`
+        return request(originalRequest)
+      } catch {
+        // 刷新失败（如会话被顶、refresh 已失效）：逐个 reject 排队请求，
+        // 让每个调用方各自结束 loading/抛错，再统一清理登录态并跳转登录页
+        isRefreshing = false
+        rejectPending(error)
+        authStore.clearAuth()
+        router.push('/login')
+        return Promise.reject(error)
+      }
+    }
+
+    return Promise.reject(error)
+  }
+)
+
+export default request

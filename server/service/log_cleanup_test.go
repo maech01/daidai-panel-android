@@ -1,1 +1,100 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC9kYXRhYmFzZSIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIGNvdW50VGFza0xvZ3ModCAqdGVzdGluZy5UKSBpbnQ2NCB7Cgl0LkhlbHBlcigpCgl2YXIgbiBpbnQ2NAoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLk1vZGVsKCZtb2RlbC5UYXNrTG9ne30pLkNvdW50KCZuKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNvdW50IHRhc2sgbG9nczogJXYiLCBlcnIpCgl9CglyZXR1cm4gbgp9CgpmdW5jIGNyZWF0ZVRhc2tMb2dTdGFydGVkQXQodCAqdGVzdGluZy5ULCB0YXNrSUQgdWludCwgc3RhcnRlZEF0IHRpbWUuVGltZSkgewoJdC5IZWxwZXIoKQoJbG9nRW50cnkgOj0gJm1vZGVsLlRhc2tMb2d7VGFza0lEOiB0YXNrSUQsIFN0YXJ0ZWRBdDogc3RhcnRlZEF0fQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShsb2dFbnRyeSkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgdGFzayBsb2c6ICV2IiwgZXJyKQoJfQp9CgpmdW5jIHdyaXRlTG9nRmlsZVdpdGhNVGltZSh0ICp0ZXN0aW5nLlQsIG5hbWUgc3RyaW5nLCBtdGltZSB0aW1lLlRpbWUpIHN0cmluZyB7Cgl0LkhlbHBlcigpCglwYXRoIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5Mb2dEaXIsIG5hbWUpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHBhdGgsIFtdYnl0ZSgibG9nIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGxvZyBmaWxlICVxOiAldiIsIG5hbWUsIGVycikKCX0KCWlmIGVyciA6PSBvcy5DaHRpbWVzKHBhdGgsIG10aW1lLCBtdGltZSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjaHRpbWVzICVxOiAldiIsIG5hbWUsIGVycikKCX0KCXJldHVybiBwYXRoCn0KCmZ1bmMgY3JlYXRlVGFza0ZvckxvZyh0ICp0ZXN0aW5nLlQpIHVpbnQgewoJdC5IZWxwZXIoKQoJdGFzayA6PSAmbW9kZWwuVGFza3tOYW1lOiAibG9nLW93bmVyIiwgQ29tbWFuZDogImVjaG8geCIsIENyb25FeHByZXNzaW9uOiAiMCAwICogKiAqIn0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUodGFzaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgdGFzazogJXYiLCBlcnIpCgl9CglyZXR1cm4gdGFzay5JRAp9CgpmdW5jIFRlc3RDbGVhbnVwT2xkTG9nc1JlbW92ZXNPbGRLZWVwc1JlY2VudCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXRhc2tJRCA6PSBjcmVhdGVUYXNrRm9yTG9nKHQpCgoJLy8g6buY6K6k5L+d55WZIDcg5aSp44CCCglub3cgOj0gdGltZS5Ob3coKQoJY3JlYXRlVGFza0xvZ1N0YXJ0ZWRBdCh0LCB0YXNrSUQsIG5vdy5BZGREYXRlKDAsIDAsIC0xMCkpIC8vIOaXp+iusOW9le+8jOW6lOWIoAoJY3JlYXRlVGFza0xvZ1N0YXJ0ZWRBdCh0LCB0YXNrSUQsIG5vdy5BZGREYXRlKDAsIDAsIC0xKSkgIC8vIOi/kSAxIOWkqe+8jOW6lOeVmQoKCW9sZEZpbGUgOj0gd3JpdGVMb2dGaWxlV2l0aE1UaW1lKHQsICJvbGQubG9nIiwgbm93LkFkZERhdGUoMCwgMCwgLTEwKSkKCXJlY2VudEZpbGUgOj0gd3JpdGVMb2dGaWxlV2l0aE1UaW1lKHQsICJyZWNlbnQubG9nIiwgbm93LkFkZERhdGUoMCwgMCwgLTEpKQoKCWNsZWFudXBPbGRMb2dzKCkKCglpZiBnb3QgOj0gY291bnRUYXNrTG9ncyh0KTsgZ290ICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAxIHRhc2sgbG9nIHJlbWFpbmluZywgZ290ICVkIiwgZ290KQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQob2xkRmlsZSk7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbGQubG9nIHJlbW92ZWQsIHN0YXQgZXJyPSV2IiwgZXJyKQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQocmVjZW50RmlsZSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZWNlbnQubG9nIGtlcHQsIGdvdCBlcnI9JXYiLCBlcnIpCgl9Cn0KCmZ1bmMgVGVzdENsZWFudXBPbGRMb2dzSG9ub3JzUmV0ZW50aW9uRGF5cyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCS8vIOaKiuS/neeVmeWkqeaVsOaUueaIkCAzMO+8jOWImSAxMCDlpKnliY3nmoTorrDlvZXkuI7mlofku7blupTooqvkv53nlZnjgIIKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoImxvZ19yZXRlbnRpb25fZGF5cyIsICIzMCIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IGxvZ19yZXRlbnRpb25fZGF5czogJXYiLCBlcnIpCgl9CgoJdGFza0lEIDo9IGNyZWF0ZVRhc2tGb3JMb2codCkKCW5vdyA6PSB0aW1lLk5vdygpCgljcmVhdGVUYXNrTG9nU3RhcnRlZEF0KHQsIHRhc2tJRCwgbm93LkFkZERhdGUoMCwgMCwgLTEwKSkKCWtlcHRGaWxlIDo9IHdyaXRlTG9nRmlsZVdpdGhNVGltZSh0LCAidGVuLWRheXMubG9nIiwgbm93LkFkZERhdGUoMCwgMCwgLTEwKSkKCgljbGVhbnVwT2xkTG9ncygpCgoJaWYgZ290IDo9IGNvdW50VGFza0xvZ3ModCk7IGdvdCAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgMSB0YXNrIGxvZyBrZXB0IHVuZGVyIDMwLWRheSByZXRlbnRpb24sIGdvdCAlZCIsIGdvdCkKCX0KCWlmIF8sIGVyciA6PSBvcy5TdGF0KGtlcHRGaWxlKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRlbi1kYXlzLmxvZyBrZXB0IHVuZGVyIDMwLWRheSByZXRlbnRpb24sIGdvdCBlcnI9JXYiLCBlcnIpCgl9Cn0K
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func countTaskLogs(t *testing.T) int64 {
+	t.Helper()
+	var n int64
+	if err := database.DB.Model(&model.TaskLog{}).Count(&n).Error; err != nil {
+		t.Fatalf("count task logs: %v", err)
+	}
+	return n
+}
+
+func createTaskLogStartedAt(t *testing.T, taskID uint, startedAt time.Time) {
+	t.Helper()
+	logEntry := &model.TaskLog{TaskID: taskID, StartedAt: startedAt}
+	if err := database.DB.Create(logEntry).Error; err != nil {
+		t.Fatalf("create task log: %v", err)
+	}
+}
+
+func writeLogFileWithMTime(t *testing.T, name string, mtime time.Time) string {
+	t.Helper()
+	path := filepath.Join(config.C.Data.LogDir, name)
+	if err := os.WriteFile(path, []byte("log"), 0o644); err != nil {
+		t.Fatalf("write log file %q: %v", name, err)
+	}
+	if err := os.Chtimes(path, mtime, mtime); err != nil {
+		t.Fatalf("chtimes %q: %v", name, err)
+	}
+	return path
+}
+
+func createTaskForLog(t *testing.T) uint {
+	t.Helper()
+	task := &model.Task{Name: "log-owner", Command: "echo x", CronExpression: "0 0 * * *"}
+	if err := database.DB.Create(task).Error; err != nil {
+		t.Fatalf("create task: %v", err)
+	}
+	return task.ID
+}
+
+func TestCleanupOldLogsRemovesOldKeepsRecent(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	taskID := createTaskForLog(t)
+
+	// 默认保留 7 天。
+	now := time.Now()
+	createTaskLogStartedAt(t, taskID, now.AddDate(0, 0, -10)) // 旧记录，应删
+	createTaskLogStartedAt(t, taskID, now.AddDate(0, 0, -1))  // 近 1 天，应留
+
+	oldFile := writeLogFileWithMTime(t, "old.log", now.AddDate(0, 0, -10))
+	recentFile := writeLogFileWithMTime(t, "recent.log", now.AddDate(0, 0, -1))
+
+	cleanupOldLogs()
+
+	if got := countTaskLogs(t); got != 1 {
+		t.Fatalf("expected 1 task log remaining, got %d", got)
+	}
+	if _, err := os.Stat(oldFile); !os.IsNotExist(err) {
+		t.Fatalf("expected old.log removed, stat err=%v", err)
+	}
+	if _, err := os.Stat(recentFile); err != nil {
+		t.Fatalf("expected recent.log kept, got err=%v", err)
+	}
+}
+
+func TestCleanupOldLogsHonorsRetentionDays(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	// 把保留天数改成 30，则 10 天前的记录与文件应被保留。
+	if err := model.SetConfig("log_retention_days", "30"); err != nil {
+		t.Fatalf("set log_retention_days: %v", err)
+	}
+
+	taskID := createTaskForLog(t)
+	now := time.Now()
+	createTaskLogStartedAt(t, taskID, now.AddDate(0, 0, -10))
+	keptFile := writeLogFileWithMTime(t, "ten-days.log", now.AddDate(0, 0, -10))
+
+	cleanupOldLogs()
+
+	if got := countTaskLogs(t); got != 1 {
+		t.Fatalf("expected 1 task log kept under 30-day retention, got %d", got)
+	}
+	if _, err := os.Stat(keptFile); err != nil {
+		t.Fatalf("expected ten-days.log kept under 30-day retention, got err=%v", err)
+	}
+}

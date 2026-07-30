@@ -1,1 +1,501 @@
-aW1wb3J0IHsgcmVmLCB0eXBlIENvbXB1dGVkUmVmLCB0eXBlIFJlZiB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgdXNlUm91dGVyIH0gZnJvbSAndnVlLXJvdXRlcicKaW1wb3J0IHsgRWxNZXNzYWdlLCBFbE1lc3NhZ2VCb3ggfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IHNjcmlwdEFwaSB9IGZyb20gJ0AvYXBpL3NjcmlwdCcKaW1wb3J0IHR5cGUgeyBTY3JpcHRWZXJzaW9uRGV0YWlsLCBTY3JpcHRWZXJzaW9uUmVjb3JkIH0gZnJvbSAnLi90eXBlcycKCmludGVyZmFjZSBTY3JpcHRXb3Jrc3BhY2VBY3Rpb25zT3B0aW9ucyB7CiAgc2VsZWN0ZWRGaWxlOiBSZWY8c3RyaW5nPgogIGZpbGVDb250ZW50OiBSZWY8c3RyaW5nPgogIG9yaWdpbmFsQ29udGVudDogUmVmPHN0cmluZz4KICBpc0JpbmFyeTogUmVmPGJvb2xlYW4+CiAgaXNFZGl0aW5nOiBSZWY8Ym9vbGVhbj4KICBoYXNDaGFuZ2VzOiBDb21wdXRlZFJlZjxib29sZWFuPgogIGxvYWRUcmVlOiAoKSA9PiBQcm9taXNlPHZvaWQ+CiAgbG9hZEZpbGVDb250ZW50OiAocGF0aDogc3RyaW5nLCBvcHRpb25zPzogeyBzaWxlbnQ/OiBib29sZWFuIH0pID0+IFByb21pc2U8Ym9vbGVhbj4KICBleHRyYWN0U2NyaXB0RXJyb3JNZXNzYWdlOiAoZXJyOiBhbnksIGZhbGxiYWNrOiBzdHJpbmcpID0+IHN0cmluZwogIG9wZW5GaWxlPzogKHBhdGg6IHN0cmluZywgb3B0aW9ucz86IHsgc2tpcFVuc2F2ZWRDaGVjaz86IGJvb2xlYW4gfSkgPT4gUHJvbWlzZTxib29sZWFuPgogIHRyaWdnZXJFZGl0b3JBdXRvRm9jdXM/OiAoKSA9PiB2b2lkCn0KCmV4cG9ydCBmdW5jdGlvbiB1c2VTY3JpcHRXb3Jrc3BhY2VBY3Rpb25zKHsKICBzZWxlY3RlZEZpbGUsCiAgZmlsZUNvbnRlbnQsCiAgb3JpZ2luYWxDb250ZW50LAogIGlzQmluYXJ5LAogIGlzRWRpdGluZywKICBoYXNDaGFuZ2VzLAogIGxvYWRUcmVlLAogIGxvYWRGaWxlQ29udGVudCwKICBleHRyYWN0U2NyaXB0RXJyb3JNZXNzYWdlLAogIG9wZW5GaWxlLAogIHRyaWdnZXJFZGl0b3JBdXRvRm9jdXMKfTogU2NyaXB0V29ya3NwYWNlQWN0aW9uc09wdGlvbnMpIHsKICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKQoKICBjb25zdCBzYXZpbmcgPSByZWYoZmFsc2UpCiAgY29uc3QgZm9ybWF0dGluZyA9IHJlZihmYWxzZSkKCiAgY29uc3Qgc2hvd0NyZWF0ZUZpbGVEaWFsb2cgPSByZWYoZmFsc2UpCiAgY29uc3Qgc2hvd0NyZWF0ZURpckRpYWxvZyA9IHJlZihmYWxzZSkKICBjb25zdCBzaG93UmVuYW1lRGlhbG9nID0gcmVmKGZhbHNlKQogIGNvbnN0IHNob3dWZXJzaW9uRGlhbG9nID0gcmVmKGZhbHNlKQogIGNvbnN0IHNob3dWZXJzaW9uRGlmZkRpYWxvZyA9IHJlZihmYWxzZSkKICBjb25zdCBzaG93VXBsb2FkRGlhbG9nID0gcmVmKGZhbHNlKQoKICBjb25zdCB1cGxvYWREaXIgPSByZWYoJycpCiAgY29uc3QgdXBsb2FkRmlsZUxpc3QgPSByZWY8RmlsZVtdPihbXSkKCiAgY29uc3QgbmV3RmlsZU5hbWUgPSByZWYoJycpCiAgY29uc3QgbmV3RmlsZVBhcmVudCA9IHJlZignJykKICBjb25zdCBuZXdEaXJOYW1lID0gcmVmKCcnKQogIGNvbnN0IG5ld0RpclBhcmVudCA9IHJlZignJykKICBjb25zdCByZW5hbWVUYXJnZXQgPSByZWYoJycpCiAgY29uc3QgcmVuYW1lUGF0aCA9IHJlZignJykKCiAgY29uc3QgdmVyc2lvbnMgPSByZWY8U2NyaXB0VmVyc2lvblJlY29yZFtdPihbXSkKICBjb25zdCB2ZXJzaW9uc0xvYWRpbmcgPSByZWYoZmFsc2UpCiAgY29uc3QgdmVyc2lvbkRpZmZMb2FkaW5nID0gcmVmKGZhbHNlKQogIGNvbnN0IHZlcnNpb25EaWZmT3JpZ2luYWxUaXRsZSA9IHJlZignJykKICBjb25zdCB2ZXJzaW9uRGlmZk1vZGlmaWVkVGl0bGUgPSByZWYoJycpCiAgY29uc3QgdmVyc2lvbkRpZmZPcmlnaW5hbENvbnRlbnQgPSByZWYoJycpCiAgY29uc3QgdmVyc2lvbkRpZmZNb2RpZmllZENvbnRlbnQgPSByZWYoJycpCgogIGZ1bmN0aW9uIGlzQWN0aW9uQ2FuY2VsbGVkKGVycjogdW5rbm93bikgewogICAgcmV0dXJuIGVyciA9PT0gJ2NhbmNlbCcgfHwgZXJyID09PSAnY2xvc2UnIHx8IFN0cmluZyhlcnIpID09PSAnY2FuY2VsJyB8fCBTdHJpbmcoZXJyKSA9PT0gJ2Nsb3NlJwogIH0KCiAgYXN5bmMgZnVuY3Rpb24gdmVyaWZ5RWRpdGFibGVUYXJnZXQocGF0aDogc3RyaW5nKSB7CiAgICBjb25zdCBub3JtYWxpemVkUGF0aCA9IHBhdGgudHJpbSgpCiAgICBpZiAoIW5vcm1hbGl6ZWRQYXRoKSB7CiAgICAgIEVsTWVzc2FnZS53YXJuaW5nKCflvZPliY3msqHmnInlj6/kv53lrZjnmoTohJrmnKwnKQogICAgICByZXR1cm4gZmFsc2UKICAgIH0KCiAgICBjb25zdCBsb2FkZWQgPSBhd2FpdCBsb2FkRmlsZUNvbnRlbnQobm9ybWFsaXplZFBhdGgsIHsgc2lsZW50OiB0cnVlIH0pCiAgICBpZiAoIWxvYWRlZCkgewogICAgICBFbE1lc3NhZ2UuZXJyb3IoJ+S/neWtmOWksei0pe+8muiEmuacrOWPr+iDveW3suiiq+WIoOmZpOOAgeenu+WKqO+8jOaIluW9k+WJjemAieS4reeahOS4jeaYr+WPr+e8lui+keaWh+S7ticpCiAgICAgIHJldHVybiBmYWxzZQogICAgfQoKICAgIGlmIChpc0JpbmFyeS52YWx1ZSkgewogICAgICBFbE1lc3NhZ2Uud2FybmluZygn5b2T5YmN5paH5Lu25Li65LqM6L+b5Yi25paH5Lu277yM5LiN6IO95Zyo57q/5L+d5a2YJykKICAgICAgcmV0dXJuIGZhbHNlCiAgICB9CgogICAgcmV0dXJuIHRydWUKICB9CgogIGFzeW5jIGZ1bmN0aW9uIHNhdmVDdXJyZW50RmlsZSgpIHsKICAgIGlmICghc2VsZWN0ZWRGaWxlLnZhbHVlIHx8IGlzQmluYXJ5LnZhbHVlKSByZXR1cm4KICAgIHNhdmluZy52YWx1ZSA9IHRydWUKICAgIHRyeSB7CiAgICAgIGNvbnN0IGN1cnJlbnRQYXRoID0gc2VsZWN0ZWRGaWxlLnZhbHVlCiAgICAgIGNvbnN0IHNuYXBzaG90Q29udGVudCA9IGZpbGVDb250ZW50LnZhbHVlCiAgICAgIGNvbnN0IHZlcmlmaWVkID0gYXdhaXQgdmVyaWZ5RWRpdGFibGVUYXJnZXQoY3VycmVudFBhdGgpCiAgICAgIGlmICghdmVyaWZpZWQpIHsKICAgICAgICByZXR1cm4gZmFsc2UKICAgICAgfQoKICAgICAgLy8g5qCh6aqM5Lya5Yi35paw5ZCO56uv5pyA5paw5YaF5a6577yb5aaC5p6c55So5oi35pys5Zyw5q2j5pyJ5pS55Yqo77yM6ZyA6KaB5oqK5b6F5L+d5a2Y5YaF5a656KaG55uW5Zue5Y6744CCCiAgICAgIGZpbGVDb250ZW50LnZhbHVlID0gc25hcHNob3RDb250ZW50CgogICAgICBsZXQgdmVyc2lvbk1lc3NhZ2UgPSAnVjEg5Yid5aeL54mI5pysJwogICAgICBpZiAob3JpZ2luYWxDb250ZW50LnZhbHVlICE9PSAnJykgewogICAgICAgIHRyeSB7CiAgICAgICAgICBjb25zdCByZXMgPSBhd2FpdCBzY3JpcHRBcGkubGlzdFZlcnNpb25zKGN1cnJlbnRQYXRoKQogICAgICAgICAgY29uc3QgdmVyc2lvbkNvdW50ID0gcmVzLmRhdGE/Lmxlbmd0aCB8fCAwCiAgICAgICAgICB2ZXJzaW9uTWVzc2FnZSA9IGBWJHt2ZXJzaW9uQ291bnQgKyAxfSDmm7TmlrBgCiAgICAgICAgfSBjYXRjaCB7CiAgICAgICAgICB2ZXJzaW9uTWVzc2FnZSA9ICdWMiDmm7TmlrAnCiAgICAgICAgfQogICAgICB9CiAgICAgIGF3YWl0IHNjcmlwdEFwaS5zYXZlQ29udGVudChjdXJyZW50UGF0aCwgZmlsZUNvbnRlbnQudmFsdWUsIHZlcnNpb25NZXNzYWdlKQogICAgICBvcmlnaW5hbENvbnRlbnQudmFsdWUgPSBmaWxlQ29udGVudC52YWx1ZQogICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn5L+d5a2Y5oiQ5YqfJykKICAgICAgcmV0dXJuIHRydWUKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIEVsTWVzc2FnZS5lcnJvcihleHRyYWN0U2NyaXB0RXJyb3JNZXNzYWdlKGVyciwgJ+S/neWtmOWksei0pScpKQogICAgICByZXR1cm4gZmFsc2UKICAgIH0gZmluYWxseSB7CiAgICAgIHNhdmluZy52YWx1ZSA9IGZhbHNlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVTYXZlKCkgewogICAgYXdhaXQgc2F2ZUN1cnJlbnRGaWxlKCkKICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUNyZWF0ZUZpbGUoKSB7CiAgICBpZiAoIW5ld0ZpbGVOYW1lLnZhbHVlLnRyaW0oKSkgcmV0dXJuCiAgICB0cnkgewogICAgICBjb25zdCBmdWxsUGF0aCA9IG5ld0ZpbGVQYXJlbnQudmFsdWUKICAgICAgICA/IGAke25ld0ZpbGVQYXJlbnQudmFsdWV9LyR7bmV3RmlsZU5hbWUudmFsdWUudHJpbSgpfWAKICAgICAgICA6IG5ld0ZpbGVOYW1lLnZhbHVlLnRyaW0oKQogICAgICBhd2FpdCBzY3JpcHRBcGkuc2F2ZUNvbnRlbnQoZnVsbFBhdGgsICcnLCAnVjEg5Yid5aeL54mI5pysJykKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+WIm+W7uuaIkOWKnycpCiAgICAgIHNob3dDcmVhdGVGaWxlRGlhbG9nLnZhbHVlID0gZmFsc2UKICAgICAgbmV3RmlsZU5hbWUudmFsdWUgPSAnJwogICAgICBuZXdGaWxlUGFyZW50LnZhbHVlID0gJycKICAgICAgYXdhaXQgbG9hZFRyZWUoKQogICAgICBpZiAob3BlbkZpbGUpIHsKICAgICAgICBjb25zdCBvcGVuZWQgPSBhd2FpdCBvcGVuRmlsZShmdWxsUGF0aCwgeyBza2lwVW5zYXZlZENoZWNrOiB0cnVlIH0pCiAgICAgICAgaWYgKG9wZW5lZCkgewogICAgICAgICAgaXNFZGl0aW5nLnZhbHVlID0gdHJ1ZQogICAgICAgICAgdHJpZ2dlckVkaXRvckF1dG9Gb2N1cz8uKCkKICAgICAgICB9CiAgICAgIH0gZWxzZSB7CiAgICAgICAgc2VsZWN0ZWRGaWxlLnZhbHVlID0gZnVsbFBhdGgKICAgICAgICBpc0VkaXRpbmcudmFsdWUgPSB0cnVlCiAgICAgICAgYXdhaXQgbG9hZEZpbGVDb250ZW50KGZ1bGxQYXRoKQogICAgICAgIHRyaWdnZXJFZGl0b3JBdXRvRm9jdXM/LigpCiAgICAgIH0KICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIEVsTWVzc2FnZS5lcnJvcihlcnI/LnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCBlcnI/Lm1lc3NhZ2UgfHwgJ+WIm+W7uuWksei0pScpCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVDcmVhdGVEaXIoKSB7CiAgICBpZiAoIW5ld0Rpck5hbWUudmFsdWUudHJpbSgpKSByZXR1cm4KICAgIHRyeSB7CiAgICAgIGNvbnN0IGZ1bGxQYXRoID0gbmV3RGlyUGFyZW50LnZhbHVlCiAgICAgICAgPyBgJHtuZXdEaXJQYXJlbnQudmFsdWV9LyR7bmV3RGlyTmFtZS52YWx1ZS50cmltKCl9YAogICAgICAgIDogbmV3RGlyTmFtZS52YWx1ZS50cmltKCkKICAgICAgYXdhaXQgc2NyaXB0QXBpLmNyZWF0ZURpcmVjdG9yeShmdWxsUGF0aCkKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+WIm+W7uuaIkOWKnycpCiAgICAgIHNob3dDcmVhdGVEaXJEaWFsb2cudmFsdWUgPSBmYWxzZQogICAgICBuZXdEaXJOYW1lLnZhbHVlID0gJycKICAgICAgbmV3RGlyUGFyZW50LnZhbHVlID0gJycKICAgICAgYXdhaXQgbG9hZFRyZWUoKQogICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn5Yib5bu65aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZU1vdmVUb1Jvb3QocGF0aDogc3RyaW5nLCBfaXNEaXIgPSBmYWxzZSkgewogICAgY29uc3QgZmlsZU5hbWUgPSBwYXRoLnNwbGl0KCcvJykucG9wKCkgfHwgcGF0aAogICAgdHJ5IHsKICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oYOehruWumuimgeWwhiAke2ZpbGVOYW1lfSDnp7vliqjliLDmoLnvv73vv73vv73lvZXlkJfvvJ9gLCAn56e75Yqo5Yiw5qC555uu5b2VJywgeyB0eXBlOiAnaW5mbycgfSkKICAgICAgYXdhaXQgc2NyaXB0QXBpLm1vdmUocGF0aCwgJy8nKQogICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn56e75Yqo5oiQ5YqfJykKICAgICAgaWYgKHNlbGVjdGVkRmlsZS52YWx1ZSA9PT0gcGF0aCkgewogICAgICAgIHNlbGVjdGVkRmlsZS52YWx1ZSA9IGZpbGVOYW1lCiAgICAgICAgYXdhaXQgbG9hZEZpbGVDb250ZW50KGZpbGVOYW1lKQogICAgICB9CiAgICAgIGF3YWl0IGxvYWRUcmVlKCkKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGlmIChpc0FjdGlvbkNhbmNlbGxlZChlcnIpKSByZXR1cm4KICAgICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn56e75Yqo5aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZURlbGV0ZShwYXRoOiBzdHJpbmcsIGlzRGlyID0gZmFsc2UpIHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IEVsTWVzc2FnZUJveC5jb25maXJtKGDnoa7lrpropoHliKDpmaQgJHtwYXRofSDlkJfvvJ8ke2lzRGlyID8gJ1xu5rOo5oSP77ya5bCG5ZCM5pe25Yig6Zmk5paH5Lu25aS55YaF5omA5pyJ5paH5Lu277yBJyA6ICcnfWAsICfnoa7orqTliKDpmaQnLCB7IHR5cGU6ICd3YXJuaW5nJyB9KQogICAgICBhd2FpdCBzY3JpcHRBcGkuZGVsZXRlKHBhdGgsIGlzRGlyID8gJ2RpcmVjdG9yeScgOiAnZmlsZScpCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfliKDpmaTmiJDlip8nKQogICAgICBpZiAoc2VsZWN0ZWRGaWxlLnZhbHVlID09PSBwYXRoIHx8IChpc0RpciAmJiBzZWxlY3RlZEZpbGUudmFsdWUuc3RhcnRzV2l0aChwYXRoICsgJy8nKSkpIHsKICAgICAgICBzZWxlY3RlZEZpbGUudmFsdWUgPSAnJwogICAgICAgIGZpbGVDb250ZW50LnZhbHVlID0gJycKICAgICAgICBvcmlnaW5hbENvbnRlbnQudmFsdWUgPSAnJwogICAgICB9CiAgICAgIGF3YWl0IGxvYWRUcmVlKCkKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGlmIChpc0FjdGlvbkNhbmNlbGxlZChlcnIpKSByZXR1cm4KICAgICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn5Yig6Zmk5aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZVJlbmFtZSgpIHsKICAgIGlmICghcmVuYW1lVGFyZ2V0LnZhbHVlLnRyaW0oKSkgcmV0dXJuCiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBzY3JpcHRBcGkucmVuYW1lKHJlbmFtZVBhdGgudmFsdWUsIHJlbmFtZVRhcmdldC52YWx1ZS50cmltKCkpCiAgICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfph43lkb3lkI3miJDlip8nKQogICAgICBzaG93UmVuYW1lRGlhbG9nLnZhbHVlID0gZmFsc2UKICAgICAgaWYgKHNlbGVjdGVkRmlsZS52YWx1ZSA9PT0gcmVuYW1lUGF0aC52YWx1ZSkgewogICAgICAgIHNlbGVjdGVkRmlsZS52YWx1ZSA9IHJlcy5uZXdfcGF0aCB8fCByZW5hbWVUYXJnZXQudmFsdWUudHJpbSgpCiAgICAgIH0KICAgICAgYXdhaXQgbG9hZFRyZWUoKQogICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn6YeN5ZG95ZCN5aSx6LSlJykKICAgIH0KICB9CgogIGZ1bmN0aW9uIG9wZW5SZW5hbWUocGF0aDogc3RyaW5nKSB7CiAgICByZW5hbWVQYXRoLnZhbHVlID0gcGF0aAogICAgcmVuYW1lVGFyZ2V0LnZhbHVlID0gcGF0aC5zcGxpdCgnLycpLnBvcCgpIHx8IHBhdGgKICAgIHNob3dSZW5hbWVEaWFsb2cudmFsdWUgPSB0cnVlCiAgfQoKICBmdW5jdGlvbiBvcGVuVXBsb2FkRGlhbG9nKCkgewogICAgc2hvd1VwbG9hZERpYWxvZy52YWx1ZSA9IHRydWUKICAgIHVwbG9hZERpci52YWx1ZSA9ICcnCiAgICB1cGxvYWRGaWxlTGlzdC52YWx1ZSA9IFtdCiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVVcGxvYWQoZmlsZXM6IEZpbGVbXSkgewogICAgY29uc3QgZm9ybURhdGEgPSBuZXcgRm9ybURhdGEoKQogICAgZm9yIChjb25zdCBmaWxlIG9mIGZpbGVzKSB7CiAgICAgIGZvcm1EYXRhLmFwcGVuZCgnZmlsZScsIGZpbGUpCiAgICB9CiAgICBpZiAodXBsb2FkRGlyLnZhbHVlKSB7CiAgICAgIGZvcm1EYXRhLmFwcGVuZCgnZGlyJywgdXBsb2FkRGlyLnZhbHVlKQogICAgfQogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgc2NyaXB0QXBpLnVwbG9hZChmb3JtRGF0YSkKICAgICAgY29uc3QgdXBsb2FkZWRQYXRocyA9IEFycmF5LmlzQXJyYXkocmVzLnBhdGhzKSAmJiByZXMucGF0aHMubGVuZ3RoID4gMAogICAgICAgID8gcmVzLnBhdGhzCiAgICAgICAgOiBmaWxlcy5tYXAoKGZpbGUpID0+ICh1cGxvYWREaXIudmFsdWUgPyBgJHt1cGxvYWREaXIudmFsdWV9LyR7ZmlsZS5uYW1lfWAgOiBmaWxlLm5hbWUpKQoKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3ModXBsb2FkZWRQYXRocy5sZW5ndGggPiAxID8gYOaIkOWKn+S4iuS8oCAke3VwbG9hZGVkUGF0aHMubGVuZ3RofSDkuKrmlofku7ZgIDogJ+S4iuS8oOaIkOWKnycpCiAgICAgIHNob3dVcGxvYWREaWFsb2cudmFsdWUgPSBmYWxzZQogICAgICB1cGxvYWREaXIudmFsdWUgPSAnJwogICAgICB1cGxvYWRGaWxlTGlzdC52YWx1ZSA9IFtdCiAgICAgIGF3YWl0IGxvYWRUcmVlKCkKCiAgICAgIGlmICh1cGxvYWRlZFBhdGhzLmxlbmd0aCA9PT0gMSkgewogICAgICAgIGNvbnN0IHRhcmdldFBhdGggPSB1cGxvYWRlZFBhdGhzWzBdCiAgICAgICAgaWYgKCF0YXJnZXRQYXRoKSByZXR1cm4gZmFsc2UKICAgICAgICB0cnkgewogICAgICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oJ+aYr+WQpuWwhuatpOiEmuacrOa3u+WKoOWIsOWumuaXtuS7u+WKoe+8nycsICfmj5DnpLonLCB7CiAgICAgICAgICAgIGNvbmZpcm1CdXR0b25UZXh0OiAn56Gu5a6aJywKICAgICAgICAgICAgY2FuY2VsQnV0dG9uVGV4dDogJ+WPlua2iCcsCiAgICAgICAgICAgIHR5cGU6ICdpbmZvJwogICAgICAgICAgfSkKICAgICAgICAgIG5hdmlnYXRlVG9UYXNrV2l0aFNjcmlwdCh0YXJnZXRQYXRoKQogICAgICAgIH0gY2F0Y2ggewogICAgICAgICAgLy8gY2FuY2VsbGVkCiAgICAgICAgfQogICAgICB9CiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZXJyPy5tZXNzYWdlIHx8ICfkuIrkvKDlpLHotKUnKQogICAgfQogICAgcmV0dXJuIGZhbHNlCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVVcGxvYWRGaWxlQ2hhbmdlKF9maWxlOiB7IHJhdz86IEZpbGUgfSB8IHVuZGVmaW5lZCwgZmlsZXM6IEFycmF5PHsgcmF3PzogRmlsZSB9PikgewogICAgdXBsb2FkRmlsZUxpc3QudmFsdWUgPSBmaWxlcwogICAgICAubWFwKChpdGVtKSA9PiBpdGVtLnJhdykKICAgICAgLmZpbHRlcigoZmlsZSk6IGZpbGUgaXMgRmlsZSA9PiBCb29sZWFuKGZpbGUpKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlVXBsb2FkU3VibWl0KCkgewogICAgaWYgKHVwbG9hZEZpbGVMaXN0LnZhbHVlLmxlbmd0aCA9PT0gMCkgewogICAgICBFbE1lc3NhZ2Uud2FybmluZygn6K+36Iez5bCR6YCJ5oup5LiA5Liq5paH5Lu2JykKICAgICAgcmV0dXJuCiAgICB9CiAgICBhd2FpdCBoYW5kbGVVcGxvYWQodXBsb2FkRmlsZUxpc3QudmFsdWUpCiAgfQoKICBmdW5jdGlvbiBuYXZpZ2F0ZVRvVGFza1dpdGhTY3JpcHQoZmlsZVBhdGg6IHN0cmluZykgewogICAgY29uc3QgZmlsZU5hbWUgPSBmaWxlUGF0aC5zcGxpdCgnLycpLnBvcCgpIHx8IGZpbGVQYXRoCiAgICBjb25zdCB0YXNrTmFtZSA9IGZpbGVOYW1lLnJlcGxhY2UoL1wuW14vLl0rJC8sICcnKQogICAgY29uc3QgY29tbWFuZCA9IGB0YXNrICR7ZmlsZVBhdGh9YAogICAgdm9pZCByb3V0ZXIucHVzaCh7CiAgICAgIHBhdGg6ICcvdGFza3MnLAogICAgICBxdWVyeTogeyBhdXRvQ3JlYXRlOiAnMScsIG5hbWU6IHRhc2tOYW1lLCBjb21tYW5kIH0KICAgIH0pCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVBZGRUb1Rhc2soKSB7CiAgICBpZiAoIXNlbGVjdGVkRmlsZS52YWx1ZSkgcmV0dXJuCiAgICBuYXZpZ2F0ZVRvVGFza1dpdGhTY3JpcHQoc2VsZWN0ZWRGaWxlLnZhbHVlKQogIH0KCiAgYXN5bmMgZnVuY3Rpb24gbG9hZFZlcnNpb25zKCkgewogICAgaWYgKCFzZWxlY3RlZEZpbGUudmFsdWUpIHJldHVybgogICAgdmVyc2lvbnNMb2FkaW5nLnZhbHVlID0gdHJ1ZQogICAgc2hvd1ZlcnNpb25EaWFsb2cudmFsdWUgPSB0cnVlCiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBzY3JpcHRBcGkubGlzdFZlcnNpb25zKHNlbGVjdGVkRmlsZS52YWx1ZSkKICAgICAgdmVyc2lvbnMudmFsdWUgPSByZXMuZGF0YSB8fCBbXQogICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn5Yqg6L2954mI5pys5Y6G5Y+y5aSx6LSlJykKICAgIH0gZmluYWxseSB7CiAgICAgIHZlcnNpb25zTG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgICB9CiAgfQoKICBhc3luYyBmdW5jdGlvbiBoYW5kbGVSb2xsYmFjayh2ZXJzaW9uSWQ6IG51bWJlcikgewogICAgdHJ5IHsKICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oJ+ehruWumuimgeWbnua7muWIsOatpOeJiOacrOWQl++8nycsICfnoa7orqTlm57mu5onLCB7IHR5cGU6ICd3YXJuaW5nJyB9KQogICAgfSBjYXRjaCB7CiAgICAgIHJldHVybgogICAgfQogICAgdHJ5IHsKICAgICAgYXdhaXQgc2NyaXB0QXBpLnJvbGxiYWNrKHZlcnNpb25JZCkKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+Wbnua7muaIkOWKnycpCiAgICAgIHNob3dWZXJzaW9uRGlhbG9nLnZhbHVlID0gZmFsc2UKICAgICAgYXdhaXQgbG9hZEZpbGVDb250ZW50KHNlbGVjdGVkRmlsZS52YWx1ZSkKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIEVsTWVzc2FnZS5lcnJvcihlcnI/LnJlc3BvbnNlPy5kYXRhPy5lcnJvciB8fCAn5Zue5rua5aSx6LSlJykKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUNsZWFyVmVyc2lvbnMoKSB7CiAgICBpZiAoIXNlbGVjdGVkRmlsZS52YWx1ZSkgcmV0dXJuCgogICAgdHJ5IHsKICAgICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oCiAgICAgICAgYOehruWumuimgea4heepuiAke3NlbGVjdGVkRmlsZS52YWx1ZX0g55qE5YWo6YOo54mI5pys5Y6G5Y+y5ZCX77yfXG7mraTmk43kvZzkuI3lj6/mgaLlpI3vvIzkvYbkuI3kvJrliKDpmaTlvZPliY3ohJrmnKzmlofku7bjgIJgLAogICAgICAgICfmuIXnqbrniYjmnKzljoblj7InLAogICAgICAgIHsKICAgICAgICAgIHR5cGU6ICd3YXJuaW5nJywKICAgICAgICAgIGNvbmZpcm1CdXR0b25UZXh0OiAn56Gu6K6k5riF56m6JywKICAgICAgICAgIGNhbmNlbEJ1dHRvblRleHQ6ICflj5bmtognCiAgICAgICAgfQogICAgICApCgogICAgICBjb25zdCByZXMgPSBhd2FpdCBzY3JpcHRBcGkuY2xlYXJWZXJzaW9ucyhzZWxlY3RlZEZpbGUudmFsdWUpCiAgICAgIGNvbnN0IGNsZWFyZWRDb3VudCA9IE51bWJlcihyZXMuY2xlYXJlZF9jb3VudCB8fCB2ZXJzaW9ucy52YWx1ZS5sZW5ndGggfHwgMCkKICAgICAgdmVyc2lvbnMudmFsdWUgPSBbXQogICAgICBzaG93VmVyc2lvbkRpZmZEaWFsb2cudmFsdWUgPSBmYWxzZQogICAgICB2ZXJzaW9uRGlmZk9yaWdpbmFsVGl0bGUudmFsdWUgPSAnJwogICAgICB2ZXJzaW9uRGlmZk1vZGlmaWVkVGl0bGUudmFsdWUgPSAnJwogICAgICB2ZXJzaW9uRGlmZk9yaWdpbmFsQ29udGVudC52YWx1ZSA9ICcnCiAgICAgIHZlcnNpb25EaWZmTW9kaWZpZWRDb250ZW50LnZhbHVlID0gJycKICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoY2xlYXJlZENvdW50ID4gMCA/IGDlt7LmuIXnqbogJHtjbGVhcmVkQ291bnR9IOadoeeJiOacrOiusOW9lWAgOiAn54mI5pys5Y6G5Y+y5bey5riF56m6JykKICAgIH0gY2F0Y2ggKGVycjogYW55KSB7CiAgICAgIGlmIChpc0FjdGlvbkNhbmNlbGxlZChlcnIpKSByZXR1cm4KICAgICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn5riF56m654mI5pys5Y6G5Y+y5aSx6LSlJykKICAgIH0KICB9CgogIGZ1bmN0aW9uIGJ1aWxkVmVyc2lvbkxhYmVsKHZlcnNpb246IFNjcmlwdFZlcnNpb25SZWNvcmQpIHsKICAgIGNvbnN0IG1lc3NhZ2UgPSB2ZXJzaW9uLm1lc3NhZ2U/LnRyaW0oKQogICAgcmV0dXJuIG1lc3NhZ2UgPyBgViR7dmVyc2lvbi52ZXJzaW9ufSDCtyAke21lc3NhZ2V9YCA6IGBWJHt2ZXJzaW9uLnZlcnNpb259YAogIH0KCiAgYXN5bmMgZnVuY3Rpb24gaGFuZGxlQ29tcGFyZVZlcnNpb24odmVyc2lvbjogU2NyaXB0VmVyc2lvblJlY29yZCkgewogICAgaWYgKCFzZWxlY3RlZEZpbGUudmFsdWUpIHJldHVybgoKICAgIGNvbnN0IGN1cnJlbnRDb250ZW50U25hcHNob3QgPSBmaWxlQ29udGVudC52YWx1ZQogICAgY29uc3QgY3VycmVudEZpbGVOYW1lID0gZ2V0RmlsZU5hbWUoc2VsZWN0ZWRGaWxlLnZhbHVlKQoKICAgIHZlcnNpb25EaWZmTG9hZGluZy52YWx1ZSA9IHRydWUKICAgIHZlcnNpb25EaWZmT3JpZ2luYWxUaXRsZS52YWx1ZSA9IGJ1aWxkVmVyc2lvbkxhYmVsKHZlcnNpb24pCiAgICB2ZXJzaW9uRGlmZk1vZGlmaWVkVGl0bGUudmFsdWUgPSBoYXNDaGFuZ2VzLnZhbHVlCiAgICAgID8gYCR7Y3VycmVudEZpbGVOYW1lfSDCtyDlvZPliY3mnKrkv53lrZjku6PnoIFgCiAgICAgIDogYCR7Y3VycmVudEZpbGVOYW1lfSDCtyDlvZPliY3ku6PnoIFgCiAgICB2ZXJzaW9uRGlmZk9yaWdpbmFsQ29udGVudC52YWx1ZSA9ICcnCiAgICB2ZXJzaW9uRGlmZk1vZGlmaWVkQ29udGVudC52YWx1ZSA9IGN1cnJlbnRDb250ZW50U25hcHNob3QKICAgIHNob3dWZXJzaW9uRGlmZkRpYWxvZy52YWx1ZSA9IHRydWUKCiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBzY3JpcHRBcGkuZ2V0VmVyc2lvbih2ZXJzaW9uLmlkKQogICAgICBjb25zdCBkZXRhaWwgPSByZXMuZGF0YSBhcyBTY3JpcHRWZXJzaW9uRGV0YWlsIHwgdW5kZWZpbmVkCiAgICAgIHZlcnNpb25EaWZmT3JpZ2luYWxDb250ZW50LnZhbHVlID0gZGV0YWlsPy5jb250ZW50IHx8ICcnCiAgICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgICBzaG93VmVyc2lvbkRpZmZEaWFsb2cudmFsdWUgPSBmYWxzZQogICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZXJyPy5tZXNzYWdlIHx8ICfliqDovb3niYjmnKzlr7nmr5TlpLHotKUnKQogICAgfSBmaW5hbGx5IHsKICAgICAgdmVyc2lvbkRpZmZMb2FkaW5nLnZhbHVlID0gZmFsc2UKICAgIH0KICB9CgogIGFzeW5jIGZ1bmN0aW9uIGhhbmRsZUZvcm1hdCgpIHsKICAgIGlmICghc2VsZWN0ZWRGaWxlLnZhbHVlIHx8IGlzQmluYXJ5LnZhbHVlKSByZXR1cm4KICAgIGNvbnN0IGxhbmdNYXA6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7CiAgICAgIHB5OiAncHl0aG9uJywKICAgICAgc2g6ICdzaGVsbCcsCiAgICAgIGdvOiAnZ28nLAogICAgICBqc29uOiAnanNvbicKICAgIH0KICAgIGNvbnN0IGV4dCA9IHNlbGVjdGVkRmlsZS52YWx1ZS5zcGxpdCgnLicpLnBvcCgpPy50b0xvd2VyQ2FzZSgpIHx8ICcnCiAgICBjb25zdCBsYW5nID0gbGFuZ01hcFtleHRdCiAgICBpZiAoIWxhbmcpIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivpeaWh+S7tuexu+Wei+S4jeaUr+aMgeagvOW8j+WMlicpCiAgICAgIHJldHVybgogICAgfQogICAgZm9ybWF0dGluZy52YWx1ZSA9IHRydWUKICAgIHRyeSB7CiAgICAgIGNvbnN0IHJlcyA9IGF3YWl0IHNjcmlwdEFwaS5mb3JtYXQoeyBjb250ZW50OiBmaWxlQ29udGVudC52YWx1ZSwgbGFuZ3VhZ2U6IGxhbmcgfSkKICAgICAgaWYgKHJlcy5kYXRhPy5jb250ZW50KSB7CiAgICAgICAgZmlsZUNvbnRlbnQudmFsdWUgPSByZXMuZGF0YS5jb250ZW50CiAgICAgICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+agvOW8j+WMluWujOaIkCcpCiAgICAgIH0KICAgIH0gY2F0Y2ggewogICAgICBFbE1lc3NhZ2UuZXJyb3IoJ+agvOW8j+WMluWksei0pScpCiAgICB9IGZpbmFsbHkgewogICAgICBmb3JtYXR0aW5nLnZhbHVlID0gZmFsc2UKICAgIH0KICB9CgogIGZ1bmN0aW9uIGdldEZpbGVOYW1lKHBhdGg6IHN0cmluZykgewogICAgcmV0dXJuIHBhdGguc3BsaXQoJy8nKS5wb3AoKSB8fCBwYXRoCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVEb3dubG9hZCgpIHsKICAgIGlmICghc2VsZWN0ZWRGaWxlLnZhbHVlKSByZXR1cm4KICAgIHZvaWQgKGFzeW5jICgpID0+IHsKICAgICAgdHJ5IHsKICAgICAgICBpZiAoaGFzQ2hhbmdlcy52YWx1ZSAmJiAhaXNCaW5hcnkudmFsdWUpIHsKICAgICAgICAgIGNvbnN0IHNhdmVkID0gYXdhaXQgc2F2ZUN1cnJlbnRGaWxlKCkKICAgICAgICAgIGlmICghc2F2ZWQpIHsKICAgICAgICAgICAgcmV0dXJuCiAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGNvbnN0IGJsb2IgPSBhd2FpdCBzY3JpcHRBcGkuZG93bmxvYWQoc2VsZWN0ZWRGaWxlLnZhbHVlKQogICAgICAgIGNvbnN0IHVybCA9IFVSTC5jcmVhdGVPYmplY3RVUkwoYmxvYikKICAgICAgICBjb25zdCBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYScpCiAgICAgICAgYS5ocmVmID0gdXJsCiAgICAgICAgYS5kb3dubG9hZCA9IGdldEZpbGVOYW1lKHNlbGVjdGVkRmlsZS52YWx1ZSkKICAgICAgICBhLmNsaWNrKCkKICAgICAgICBVUkwucmV2b2tlT2JqZWN0VVJMKHVybCkKICAgICAgfSBjYXRjaCAoZXJyOiBhbnkpIHsKICAgICAgICBFbE1lc3NhZ2UuZXJyb3IoZXJyPy5yZXNwb25zZT8uZGF0YT8uZXJyb3IgfHwgZXJyPy5tZXNzYWdlIHx8ICfkuIvovb3lpLHotKUnKQogICAgICB9CiAgICB9KSgpCiAgfQoKICBmdW5jdGlvbiBoYW5kbGVLZXlEb3duKGU6IEtleWJvYXJkRXZlbnQpIHsKICAgIGlmICgoZS5jdHJsS2V5IHx8IGUubWV0YUtleSkgJiYgZS5rZXkgPT09ICdzJykgewogICAgICBlLnByZXZlbnREZWZhdWx0KCkKICAgICAgaWYgKHNlbGVjdGVkRmlsZS52YWx1ZSAmJiAhaXNCaW5hcnkudmFsdWUgJiYgaGFzQ2hhbmdlcy52YWx1ZSkgewogICAgICAgIHZvaWQgaGFuZGxlU2F2ZSgpCiAgICAgIH0KICAgIH0KICB9CgogIHJldHVybiB7CiAgICBzYXZpbmcsCiAgICBmb3JtYXR0aW5nLAogICAgc2hvd0NyZWF0ZUZpbGVEaWFsb2csCiAgICBzaG93Q3JlYXRlRGlyRGlhbG9nLAogICAgc2hvd1JlbmFtZURpYWxvZywKICAgIHNob3dWZXJzaW9uRGlhbG9nLAogICAgc2hvd1ZlcnNpb25EaWZmRGlhbG9nLAogICAgc2hvd1VwbG9hZERpYWxvZywKICAgIHVwbG9hZERpciwKICAgIG5ld0ZpbGVOYW1lLAogICAgbmV3RmlsZVBhcmVudCwKICAgIG5ld0Rpck5hbWUsCiAgICBuZXdEaXJQYXJlbnQsCiAgICByZW5hbWVUYXJnZXQsCiAgICB2ZXJzaW9ucywKICAgIHZlcnNpb25zTG9hZGluZywKICAgIHZlcnNpb25EaWZmTG9hZGluZywKICAgIHZlcnNpb25EaWZmT3JpZ2luYWxUaXRsZSwKICAgIHZlcnNpb25EaWZmTW9kaWZpZWRUaXRsZSwKICAgIHZlcnNpb25EaWZmT3JpZ2luYWxDb250ZW50LAogICAgdmVyc2lvbkRpZmZNb2RpZmllZENvbnRlbnQsCiAgICBoYW5kbGVTYXZlLAogICAgaGFuZGxlQ3JlYXRlRmlsZSwKICAgIGhhbmRsZUNyZWF0ZURpciwKICAgIGhhbmRsZURlbGV0ZSwKICAgIGhhbmRsZU1vdmVUb1Jvb3QsCiAgICBoYW5kbGVSZW5hbWUsCiAgICBvcGVuUmVuYW1lLAogICAgb3BlblVwbG9hZERpYWxvZywKICAgIGhhbmRsZVVwbG9hZEZpbGVDaGFuZ2UsCiAgICBoYW5kbGVVcGxvYWRTdWJtaXQsCiAgICBoYW5kbGVBZGRUb1Rhc2ssCiAgICBsb2FkVmVyc2lvbnMsCiAgICBoYW5kbGVSb2xsYmFjaywKICAgIGhhbmRsZUNsZWFyVmVyc2lvbnMsCiAgICBoYW5kbGVDb21wYXJlVmVyc2lvbiwKICAgIGhhbmRsZUZvcm1hdCwKICAgIGhhbmRsZURvd25sb2FkLAogICAgaGFuZGxlS2V5RG93bgogIH0KfQo=
+import { ref, type ComputedRef, type Ref } from 'vue'
+import { useRouter } from 'vue-router'
+import { ElMessage, ElMessageBox } from 'element-plus'
+import { scriptApi } from '@/api/script'
+import type { ScriptVersionDetail, ScriptVersionRecord } from './types'
+
+interface ScriptWorkspaceActionsOptions {
+  selectedFile: Ref<string>
+  fileContent: Ref<string>
+  originalContent: Ref<string>
+  isBinary: Ref<boolean>
+  isEditing: Ref<boolean>
+  hasChanges: ComputedRef<boolean>
+  loadTree: () => Promise<void>
+  loadFileContent: (path: string, options?: { silent?: boolean }) => Promise<boolean>
+  extractScriptErrorMessage: (err: any, fallback: string) => string
+  openFile?: (path: string, options?: { skipUnsavedCheck?: boolean }) => Promise<boolean>
+  triggerEditorAutoFocus?: () => void
+}
+
+export function useScriptWorkspaceActions({
+  selectedFile,
+  fileContent,
+  originalContent,
+  isBinary,
+  isEditing,
+  hasChanges,
+  loadTree,
+  loadFileContent,
+  extractScriptErrorMessage,
+  openFile,
+  triggerEditorAutoFocus
+}: ScriptWorkspaceActionsOptions) {
+  const router = useRouter()
+
+  const saving = ref(false)
+  const formatting = ref(false)
+
+  const showCreateFileDialog = ref(false)
+  const showCreateDirDialog = ref(false)
+  const showRenameDialog = ref(false)
+  const showVersionDialog = ref(false)
+  const showVersionDiffDialog = ref(false)
+  const showUploadDialog = ref(false)
+
+  const uploadDir = ref('')
+  const uploadFileList = ref<File[]>([])
+
+  const newFileName = ref('')
+  const newFileParent = ref('')
+  const newDirName = ref('')
+  const newDirParent = ref('')
+  const renameTarget = ref('')
+  const renamePath = ref('')
+
+  const versions = ref<ScriptVersionRecord[]>([])
+  const versionsLoading = ref(false)
+  const versionDiffLoading = ref(false)
+  const versionDiffOriginalTitle = ref('')
+  const versionDiffModifiedTitle = ref('')
+  const versionDiffOriginalContent = ref('')
+  const versionDiffModifiedContent = ref('')
+
+  function isActionCancelled(err: unknown) {
+    return err === 'cancel' || err === 'close' || String(err) === 'cancel' || String(err) === 'close'
+  }
+
+  async function verifyEditableTarget(path: string) {
+    const normalizedPath = path.trim()
+    if (!normalizedPath) {
+      ElMessage.warning('当前没有可保存的脚本')
+      return false
+    }
+
+    const loaded = await loadFileContent(normalizedPath, { silent: true })
+    if (!loaded) {
+      ElMessage.error('保存失败：脚本可能已被删除、移动，或当前选中的不是可编辑文件')
+      return false
+    }
+
+    if (isBinary.value) {
+      ElMessage.warning('当前文件为二进制文件，不能在线保存')
+      return false
+    }
+
+    return true
+  }
+
+  async function saveCurrentFile() {
+    if (!selectedFile.value || isBinary.value) return
+    saving.value = true
+    try {
+      const currentPath = selectedFile.value
+      const snapshotContent = fileContent.value
+      const verified = await verifyEditableTarget(currentPath)
+      if (!verified) {
+        return false
+      }
+
+      // 校验会刷新后端最新内容；如果用户本地正有改动，需要把待保存内容覆盖回去。
+      fileContent.value = snapshotContent
+
+      let versionMessage = 'V1 初始版本'
+      if (originalContent.value !== '') {
+        try {
+          const res = await scriptApi.listVersions(currentPath)
+          const versionCount = res.data?.length || 0
+          versionMessage = `V${versionCount + 1} 更新`
+        } catch {
+          versionMessage = 'V2 更新'
+        }
+      }
+      await scriptApi.saveContent(currentPath, fileContent.value, versionMessage)
+      originalContent.value = fileContent.value
+      ElMessage.success('保存成功')
+      return true
+    } catch (err: any) {
+      ElMessage.error(extractScriptErrorMessage(err, '保存失败'))
+      return false
+    } finally {
+      saving.value = false
+    }
+  }
+
+  async function handleSave() {
+    await saveCurrentFile()
+  }
+
+  async function handleCreateFile() {
+    if (!newFileName.value.trim()) return
+    try {
+      const fullPath = newFileParent.value
+        ? `${newFileParent.value}/${newFileName.value.trim()}`
+        : newFileName.value.trim()
+      await scriptApi.saveContent(fullPath, '', 'V1 初始版本')
+      ElMessage.success('创建成功')
+      showCreateFileDialog.value = false
+      newFileName.value = ''
+      newFileParent.value = ''
+      await loadTree()
+      if (openFile) {
+        const opened = await openFile(fullPath, { skipUnsavedCheck: true })
+        if (opened) {
+          isEditing.value = true
+          triggerEditorAutoFocus?.()
+        }
+      } else {
+        selectedFile.value = fullPath
+        isEditing.value = true
+        await loadFileContent(fullPath)
+        triggerEditorAutoFocus?.()
+      }
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || err?.message || '创建失败')
+    }
+  }
+
+  async function handleCreateDir() {
+    if (!newDirName.value.trim()) return
+    try {
+      const fullPath = newDirParent.value
+        ? `${newDirParent.value}/${newDirName.value.trim()}`
+        : newDirName.value.trim()
+      await scriptApi.createDirectory(fullPath)
+      ElMessage.success('创建成功')
+      showCreateDirDialog.value = false
+      newDirName.value = ''
+      newDirParent.value = ''
+      await loadTree()
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || err?.message || '创建失败')
+    }
+  }
+
+  async function handleMoveToRoot(path: string, _isDir = false) {
+    const fileName = path.split('/').pop() || path
+    try {
+      await ElMessageBox.confirm(`确定要将 ${fileName} 移动到根���录吗？`, '移动到根目录', { type: 'info' })
+      await scriptApi.move(path, '/')
+      ElMessage.success('移动成功')
+      if (selectedFile.value === path) {
+        selectedFile.value = fileName
+        await loadFileContent(fileName)
+      }
+      await loadTree()
+    } catch (err: any) {
+      if (isActionCancelled(err)) return
+      ElMessage.error(err?.response?.data?.error || err?.message || '移动失败')
+    }
+  }
+
+  async function handleDelete(path: string, isDir = false) {
+    try {
+      await ElMessageBox.confirm(`确定要删除 ${path} 吗？${isDir ? '\n注意：将同时删除文件夹内所有文件！' : ''}`, '确认删除', { type: 'warning' })
+      await scriptApi.delete(path, isDir ? 'directory' : 'file')
+      ElMessage.success('删除成功')
+      if (selectedFile.value === path || (isDir && selectedFile.value.startsWith(path + '/'))) {
+        selectedFile.value = ''
+        fileContent.value = ''
+        originalContent.value = ''
+      }
+      await loadTree()
+    } catch (err: any) {
+      if (isActionCancelled(err)) return
+      ElMessage.error(err?.response?.data?.error || err?.message || '删除失败')
+    }
+  }
+
+  async function handleRename() {
+    if (!renameTarget.value.trim()) return
+    try {
+      const res = await scriptApi.rename(renamePath.value, renameTarget.value.trim())
+      ElMessage.success('重命名成功')
+      showRenameDialog.value = false
+      if (selectedFile.value === renamePath.value) {
+        selectedFile.value = res.new_path || renameTarget.value.trim()
+      }
+      await loadTree()
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || err?.message || '重命名失败')
+    }
+  }
+
+  function openRename(path: string) {
+    renamePath.value = path
+    renameTarget.value = path.split('/').pop() || path
+    showRenameDialog.value = true
+  }
+
+  function openUploadDialog() {
+    showUploadDialog.value = true
+    uploadDir.value = ''
+    uploadFileList.value = []
+  }
+
+  async function handleUpload(files: File[]) {
+    const formData = new FormData()
+    for (const file of files) {
+      formData.append('file', file)
+    }
+    if (uploadDir.value) {
+      formData.append('dir', uploadDir.value)
+    }
+    try {
+      const res = await scriptApi.upload(formData)
+      const uploadedPaths = Array.isArray(res.paths) && res.paths.length > 0
+        ? res.paths
+        : files.map((file) => (uploadDir.value ? `${uploadDir.value}/${file.name}` : file.name))
+
+      ElMessage.success(uploadedPaths.length > 1 ? `成功上传 ${uploadedPaths.length} 个文件` : '上传成功')
+      showUploadDialog.value = false
+      uploadDir.value = ''
+      uploadFileList.value = []
+      await loadTree()
+
+      if (uploadedPaths.length === 1) {
+        const targetPath = uploadedPaths[0]
+        if (!targetPath) return false
+        try {
+          await ElMessageBox.confirm('是否将此脚本添加到定时任务？', '提示', {
+            confirmButtonText: '确定',
+            cancelButtonText: '取消',
+            type: 'info'
+          })
+          navigateToTaskWithScript(targetPath)
+        } catch {
+          // cancelled
+        }
+      }
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || err?.message || '上传失败')
+    }
+    return false
+  }
+
+  function handleUploadFileChange(_file: { raw?: File } | undefined, files: Array<{ raw?: File }>) {
+    uploadFileList.value = files
+      .map((item) => item.raw)
+      .filter((file): file is File => Boolean(file))
+  }
+
+  async function handleUploadSubmit() {
+    if (uploadFileList.value.length === 0) {
+      ElMessage.warning('请至少选择一个文件')
+      return
+    }
+    await handleUpload(uploadFileList.value)
+  }
+
+  function navigateToTaskWithScript(filePath: string) {
+    const fileName = filePath.split('/').pop() || filePath
+    const taskName = fileName.replace(/\.[^/.]+$/, '')
+    const command = `task ${filePath}`
+    void router.push({
+      path: '/tasks',
+      query: { autoCreate: '1', name: taskName, command }
+    })
+  }
+
+  function handleAddToTask() {
+    if (!selectedFile.value) return
+    navigateToTaskWithScript(selectedFile.value)
+  }
+
+  async function loadVersions() {
+    if (!selectedFile.value) return
+    versionsLoading.value = true
+    showVersionDialog.value = true
+    try {
+      const res = await scriptApi.listVersions(selectedFile.value)
+      versions.value = res.data || []
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || err?.message || '加载版本历史失败')
+    } finally {
+      versionsLoading.value = false
+    }
+  }
+
+  async function handleRollback(versionId: number) {
+    try {
+      await ElMessageBox.confirm('确定要回滚到此版本吗？', '确认回滚', { type: 'warning' })
+    } catch {
+      return
+    }
+    try {
+      await scriptApi.rollback(versionId)
+      ElMessage.success('回滚成功')
+      showVersionDialog.value = false
+      await loadFileContent(selectedFile.value)
+    } catch (err: any) {
+      ElMessage.error(err?.response?.data?.error || '回滚失败')
+    }
+  }
+
+  async function handleClearVersions() {
+    if (!selectedFile.value) return
+
+    try {
+      await ElMessageBox.confirm(
+        `确定要清空 ${selectedFile.value} 的全部版本历史吗？\n此操作不可恢复，但不会删除当前脚本文件。`,
+        '清空版本历史',
+        {
+          type: 'warning',
+          confirmButtonText: '确认清空',
+          cancelButtonText: '取消'
+        }
+      )
+
+      const res = await scriptApi.clearVersions(selectedFile.value)
+      const clearedCount = Number(res.cleared_count || versions.value.length || 0)
+      versions.value = []
+      showVersionDiffDialog.value = false
+      versionDiffOriginalTitle.value = ''
+      versionDiffModifiedTitle.value = ''
+      versionDiffOriginalContent.value = ''
+      versionDiffModifiedContent.value = ''
+      ElMessage.success(clearedCount > 0 ? `已清空 ${clearedCount} 条版本记录` : '版本历史已清空')
+    } catch (err: any) {
+      if (isActionCancelled(err)) return
+      ElMessage.error(err?.response?.data?.error || err?.message || '清空版本历史失败')
+    }
+  }
+
+  function buildVersionLabel(version: ScriptVersionRecord) {
+    const message = version.message?.trim()
+    return message ? `V${version.version} · ${message}` : `V${version.version}`
+  }
+
+  async function handleCompareVersion(version: ScriptVersionRecord) {
+    if (!selectedFile.value) return
+
+    const currentContentSnapshot = fileContent.value
+    const currentFileName = getFileName(selectedFile.value)
+
+    versionDiffLoading.value = true
+    versionDiffOriginalTitle.value = buildVersionLabel(version)
+    versionDiffModifiedTitle.value = hasChanges.value
+      ? `${currentFileName} · 当前未保存代码`
+      : `${currentFileName} · 当前代码`
+    versionDiffOriginalContent.value = ''
+    versionDiffModifiedContent.value = currentContentSnapshot
+    showVersionDiffDialog.value = true
+
+    try {
+      const res = await scriptApi.getVersion(version.id)
+      const detail = res.data as ScriptVersionDetail | undefined
+      versionDiffOriginalContent.value = detail?.content || ''
+    } catch (err: any) {
+      showVersionDiffDialog.value = false
+      ElMessage.error(err?.response?.data?.error || err?.message || '加载版本对比失败')
+    } finally {
+      versionDiffLoading.value = false
+    }
+  }
+
+  async function handleFormat() {
+    if (!selectedFile.value || isBinary.value) return
+    const langMap: Record<string, string> = {
+      py: 'python',
+      sh: 'shell',
+      go: 'go',
+      json: 'json'
+    }
+    const ext = selectedFile.value.split('.').pop()?.toLowerCase() || ''
+    const lang = langMap[ext]
+    if (!lang) {
+      ElMessage.warning('该文件类型不支持格式化')
+      return
+    }
+    formatting.value = true
+    try {
+      const res = await scriptApi.format({ content: fileContent.value, language: lang })
+      if (res.data?.content) {
+        fileContent.value = res.data.content
+        ElMessage.success('格式化完成')
+      }
+    } catch {
+      ElMessage.error('格式化失败')
+    } finally {
+      formatting.value = false
+    }
+  }
+
+  function getFileName(path: string) {
+    return path.split('/').pop() || path
+  }
+
+  function handleDownload() {
+    if (!selectedFile.value) return
+    void (async () => {
+      try {
+        if (hasChanges.value && !isBinary.value) {
+          const saved = await saveCurrentFile()
+          if (!saved) {
+            return
+          }
+        }
+        const blob = await scriptApi.download(selectedFile.value)
+        const url = URL.createObjectURL(blob)
+        const a = document.createElement('a')
+        a.href = url
+        a.download = getFileName(selectedFile.value)
+        a.click()
+        URL.revokeObjectURL(url)
+      } catch (err: any) {
+        ElMessage.error(err?.response?.data?.error || err?.message || '下载失败')
+      }
+    })()
+  }
+
+  function handleKeyDown(e: KeyboardEvent) {
+    if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+      e.preventDefault()
+      if (selectedFile.value && !isBinary.value && hasChanges.value) {
+        void handleSave()
+      }
+    }
+  }
+
+  return {
+    saving,
+    formatting,
+    showCreateFileDialog,
+    showCreateDirDialog,
+    showRenameDialog,
+    showVersionDialog,
+    showVersionDiffDialog,
+    showUploadDialog,
+    uploadDir,
+    newFileName,
+    newFileParent,
+    newDirName,
+    newDirParent,
+    renameTarget,
+    versions,
+    versionsLoading,
+    versionDiffLoading,
+    versionDiffOriginalTitle,
+    versionDiffModifiedTitle,
+    versionDiffOriginalContent,
+    versionDiffModifiedContent,
+    handleSave,
+    handleCreateFile,
+    handleCreateDir,
+    handleDelete,
+    handleMoveToRoot,
+    handleRename,
+    openRename,
+    openUploadDialog,
+    handleUploadFileChange,
+    handleUploadSubmit,
+    handleAddToTask,
+    loadVersions,
+    handleRollback,
+    handleClearVersions,
+    handleCompareVersion,
+    handleFormat,
+    handleDownload,
+    handleKeyDown
+  }
+}

@@ -1,1 +1,52 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIFVzZXIgc3RydWN0IHsKCUlEICAgICAgICAgIHVpbnQgICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCVVzZXJuYW1lICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6NjQ7dW5pcXVlSW5kZXg7bm90IG51bGwiIGpzb246InVzZXJuYW1lImAKCVBhc3N3b3JkICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MjU2O25vdCBudWxsIiBqc29uOiItImAKCVJvbGUgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MTY7ZGVmYXVsdDphZG1pbiIganNvbjoicm9sZSJgCglFbmFibGVkICAgICBib29sICAgICAgIGBnb3JtOiJkZWZhdWx0OnRydWUiIGpzb246ImVuYWJsZWQiYAoJQXZhdGFyVVJMICAgc3RyaW5nICAgICBgZ29ybToic2l6ZTo1MTI7ZGVmYXVsdDonJyIganNvbjoiYXZhdGFyX3VybCJgCglMYXN0TG9naW5BdCAqdGltZS5UaW1lIGBqc29uOiJsYXN0X2xvZ2luX2F0ImAKCUNyZWF0ZWRBdCAgIHRpbWUuVGltZSAgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0ICAgdGltZS5UaW1lICBganNvbjoidXBkYXRlZF9hdCJgCn0KCmZ1bmMgKFVzZXIpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInVzZXJzIgp9CgpmdW5jICh1ICpVc2VyKSBUb0RpY3QoKSBtYXBbc3RyaW5nXWludGVyZmFjZXt9IHsKCXJlc3VsdCA6PSBtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCSJpZCI6ICAgICAgICAgdS5JRCwKCQkidXNlcm5hbWUiOiAgIHUuVXNlcm5hbWUsCgkJInJvbGUiOiAgICAgICB1LlJvbGUsCgkJImVuYWJsZWQiOiAgICB1LkVuYWJsZWQsCgkJImF2YXRhcl91cmwiOiB1LkF2YXRhclVSTCwKCQkiY3JlYXRlZF9hdCI6IHUuQ3JlYXRlZEF0LAoJCSJ1cGRhdGVkX2F0IjogdS5VcGRhdGVkQXQsCgl9CglpZiB1Lkxhc3RMb2dpbkF0ICE9IG5pbCB7CgkJcmVzdWx0WyJsYXN0X2xvZ2luX2F0Il0gPSB1Lkxhc3RMb2dpbkF0Cgl9IGVsc2UgewoJCXJlc3VsdFsibGFzdF9sb2dpbl9hdCJdID0gbmlsCgl9CglyZXR1cm4gcmVzdWx0Cn0KCnR5cGUgVG9rZW5CbG9ja2xpc3Qgc3RydWN0IHsKCUlEICAgICAgICB1aW50ICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCUpUSSAgICAgICBzdHJpbmcgICAgYGdvcm06InNpemU6MzY7dW5pcXVlSW5kZXgiIGpzb246Imp0aSJgCglUb2tlblR5cGUgc3RyaW5nICAgIGBnb3JtOiJzaXplOjE2IiBqc29uOiJ0b2tlbl90eXBlImAKCVVzZXJJRCAgICAqdWludCAgICAgYGpzb246InVzZXJfaWQiYAoJUmV2b2tlZEF0IHRpbWUuVGltZSBganNvbjoicmV2b2tlZF9hdCJgCglFeHBpcmVzQXQgdGltZS5UaW1lIGBqc29uOiJleHBpcmVzX2F0ImAKfQoKZnVuYyAoVG9rZW5CbG9ja2xpc3QpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInRva2VuX2Jsb2NrbGlzdCIKfQo=
+package model
+
+import (
+	"time"
+)
+
+type User struct {
+	ID          uint       `gorm:"primarykey" json:"id"`
+	Username    string     `gorm:"size:64;uniqueIndex;not null" json:"username"`
+	Password    string     `gorm:"size:256;not null" json:"-"`
+	Role        string     `gorm:"size:16;default:admin" json:"role"`
+	Enabled     bool       `gorm:"default:true" json:"enabled"`
+	AvatarURL   string     `gorm:"size:512;default:''" json:"avatar_url"`
+	LastLoginAt *time.Time `json:"last_login_at"`
+	CreatedAt   time.Time  `json:"created_at"`
+	UpdatedAt   time.Time  `json:"updated_at"`
+}
+
+func (User) TableName() string {
+	return "users"
+}
+
+func (u *User) ToDict() map[string]interface{} {
+	result := map[string]interface{}{
+		"id":         u.ID,
+		"username":   u.Username,
+		"role":       u.Role,
+		"enabled":    u.Enabled,
+		"avatar_url": u.AvatarURL,
+		"created_at": u.CreatedAt,
+		"updated_at": u.UpdatedAt,
+	}
+	if u.LastLoginAt != nil {
+		result["last_login_at"] = u.LastLoginAt
+	} else {
+		result["last_login_at"] = nil
+	}
+	return result
+}
+
+type TokenBlocklist struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	JTI       string    `gorm:"size:36;uniqueIndex" json:"jti"`
+	TokenType string    `gorm:"size:16" json:"token_type"`
+	UserID    *uint     `json:"user_id"`
+	RevokedAt time.Time `json:"revoked_at"`
+	ExpiresAt time.Time `json:"expires_at"`
+}
+
+func (TokenBlocklist) TableName() string {
+	return "token_blocklist"
+}

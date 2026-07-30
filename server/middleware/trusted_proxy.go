@@ -1,1 +1,64 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJIm5ldCIKCSJzeW5jIgoKCSJkYWlkYWktcGFuZWwvcGtnL25ldHV0aWwiCikKCnR5cGUgdHJ1c3RlZFByb3h5Q29uZmlnU3RhdGUgc3RydWN0IHsKCW11ICAgICAgIHN5bmMuUldNdXRleAoJY2lkcnMgICAgW11zdHJpbmcKCW5ldHdvcmtzIFtdKm5ldC5JUE5ldAp9Cgp2YXIgdHJ1c3RlZFByb3h5U3RhdGUgdHJ1c3RlZFByb3h5Q29uZmlnU3RhdGUKCmZ1bmMgaW5pdCgpIHsKCV8gPSBDb25maWd1cmVUcnVzdGVkUHJveHlDSURScygiIikKfQoKZnVuYyBDb25maWd1cmVUcnVzdGVkUHJveHlDSURScyh2YWx1ZSBzdHJpbmcpIGVycm9yIHsKCWNpZHJzLCBlcnIgOj0gbmV0dXRpbC5QYXJzZVRydXN0ZWRQcm94eUNJRFJzKHZhbHVlKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoKCW5ldHdvcmtzIDo9IG1ha2UoW10qbmV0LklQTmV0LCAwLCBsZW4oY2lkcnMpKQoJZm9yIF8sIGNpZHIgOj0gcmFuZ2UgY2lkcnMgewoJCV8sIG5ldHdvcmssIGVyciA6PSBuZXQuUGFyc2VDSURSKGNpZHIpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXJldHVybiBlcnIKCQl9CgkJbmV0d29ya3MgPSBhcHBlbmQobmV0d29ya3MsIG5ldHdvcmspCgl9CgoJdHJ1c3RlZFByb3h5U3RhdGUubXUuTG9jaygpCglkZWZlciB0cnVzdGVkUHJveHlTdGF0ZS5tdS5VbmxvY2soKQoKCXRydXN0ZWRQcm94eVN0YXRlLmNpZHJzID0gYXBwZW5kKFtdc3RyaW5nKG5pbCksIGNpZHJzLi4uKQoJdHJ1c3RlZFByb3h5U3RhdGUubmV0d29ya3MgPSBhcHBlbmQoW10qbmV0LklQTmV0KG5pbCksIG5ldHdvcmtzLi4uKQoJcmV0dXJuIG5pbAp9CgpmdW5jIEN1cnJlbnRUcnVzdGVkUHJveHlDSURScygpIFtdc3RyaW5nIHsKCXRydXN0ZWRQcm94eVN0YXRlLm11LlJMb2NrKCkKCWRlZmVyIHRydXN0ZWRQcm94eVN0YXRlLm11LlJVbmxvY2soKQoKCXJlc3VsdCA6PSBtYWtlKFtdc3RyaW5nLCBsZW4odHJ1c3RlZFByb3h5U3RhdGUuY2lkcnMpKQoJY29weShyZXN1bHQsIHRydXN0ZWRQcm94eVN0YXRlLmNpZHJzKQoJcmV0dXJuIHJlc3VsdAp9CgpmdW5jIGlzQ29uZmlndXJlZFRydXN0ZWRQcm94eShpcCBuZXQuSVApIGJvb2wgewoJdHJ1c3RlZFByb3h5U3RhdGUubXUuUkxvY2soKQoJZGVmZXIgdHJ1c3RlZFByb3h5U3RhdGUubXUuUlVubG9jaygpCgoJZm9yIF8sIG5ldHdvcmsgOj0gcmFuZ2UgdHJ1c3RlZFByb3h5U3RhdGUubmV0d29ya3MgewoJCWlmIG5ldHdvcmsuQ29udGFpbnMoaXApIHsKCQkJcmV0dXJuIHRydWUKCQl9Cgl9CglyZXR1cm4gZmFsc2UKfQo=
+package middleware
+
+import (
+	"net"
+	"sync"
+
+	"daidai-panel/pkg/netutil"
+)
+
+type trustedProxyConfigState struct {
+	mu       sync.RWMutex
+	cidrs    []string
+	networks []*net.IPNet
+}
+
+var trustedProxyState trustedProxyConfigState
+
+func init() {
+	_ = ConfigureTrustedProxyCIDRs("")
+}
+
+func ConfigureTrustedProxyCIDRs(value string) error {
+	cidrs, err := netutil.ParseTrustedProxyCIDRs(value)
+	if err != nil {
+		return err
+	}
+
+	networks := make([]*net.IPNet, 0, len(cidrs))
+	for _, cidr := range cidrs {
+		_, network, err := net.ParseCIDR(cidr)
+		if err != nil {
+			return err
+		}
+		networks = append(networks, network)
+	}
+
+	trustedProxyState.mu.Lock()
+	defer trustedProxyState.mu.Unlock()
+
+	trustedProxyState.cidrs = append([]string(nil), cidrs...)
+	trustedProxyState.networks = append([]*net.IPNet(nil), networks...)
+	return nil
+}
+
+func CurrentTrustedProxyCIDRs() []string {
+	trustedProxyState.mu.RLock()
+	defer trustedProxyState.mu.RUnlock()
+
+	result := make([]string, len(trustedProxyState.cidrs))
+	copy(result, trustedProxyState.cidrs)
+	return result
+}
+
+func isConfiguredTrustedProxy(ip net.IP) bool {
+	trustedProxyState.mu.RLock()
+	defer trustedProxyState.mu.RUnlock()
+
+	for _, network := range trustedProxyState.networks {
+		if network.Contains(ip) {
+			return true
+		}
+	}
+	return false
+}

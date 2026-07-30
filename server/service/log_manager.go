@@ -1,1 +1,347 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInNvcnQiCgkic3RyaW5ncyIKCSJzeW5jIgoJInRpbWUiCgkidW5pY29kZSIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9wa2cvcGF0aHV0aWwiCikKCnR5cGUgTG9nU3RyZWFtTWFuYWdlciBzdHJ1Y3QgewoJbXUgICAgICAgIHN5bmMuTXV0ZXgKCXN0cmVhbXMgICBtYXBbc3RyaW5nXSpvcy5GaWxlCglmaWxlU2l6ZXMgbWFwW3N0cmluZ11pbnQ2NAoJbWF4U2l6ZSAgIGludDY0Cn0KCnZhciBsb2dTdHJlYW1NZ3IgPSAmTG9nU3RyZWFtTWFuYWdlcnsKCXN0cmVhbXM6ICAgbWFrZShtYXBbc3RyaW5nXSpvcy5GaWxlKSwKCWZpbGVTaXplczogbWFrZShtYXBbc3RyaW5nXWludDY0KSwKCW1heFNpemU6ICAgMTAgKiAxMDI0ICogMTAyNCwKfQoKZnVuYyBHZXRMb2dTdHJlYW1NYW5hZ2VyKCkgKkxvZ1N0cmVhbU1hbmFnZXIgewoJcmV0dXJuIGxvZ1N0cmVhbU1ncgp9CgpmdW5jIChtICpMb2dTdHJlYW1NYW5hZ2VyKSBXcml0ZShmaWxlUGF0aCwgZGF0YSBzdHJpbmcpIGVycm9yIHsKCW0ubXUuTG9jaygpCglkZWZlciBtLm11LlVubG9jaygpCgoJZiwgZXhpc3RzIDo9IG0uc3RyZWFtc1tmaWxlUGF0aF0KCWlmICFleGlzdHMgewoJCWRpciA6PSBmaWxlcGF0aC5EaXIoZmlsZVBhdGgpCgkJb3MuTWtkaXJBbGwoZGlyLCAwNzU1KQoKCQl2YXIgZXJyIGVycm9yCgkJZiwgZXJyID0gb3MuT3BlbkZpbGUoZmlsZVBhdGgsIG9zLk9fQ1JFQVRFfG9zLk9fV1JPTkxZfG9zLk9fQVBQRU5ELCAwNjQ0KQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gZXJyCgkJfQoJCW0uc3RyZWFtc1tmaWxlUGF0aF0gPSBmCgkJbS5maWxlU2l6ZXNbZmlsZVBhdGhdID0gMAoJfQoKCWlmIG0uZmlsZVNpemVzW2ZpbGVQYXRoXSA+PSBtLm1heFNpemUgewoJCXJldHVybiBuaWwKCX0KCgluLCBlcnIgOj0gZi5Xcml0ZVN0cmluZyhkYXRhKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGVycgoJfQoJZi5TeW5jKCkKCW0uZmlsZVNpemVzW2ZpbGVQYXRoXSArPSBpbnQ2NChuKQoKCWlmIG0uZmlsZVNpemVzW2ZpbGVQYXRoXSA+PSBtLm1heFNpemUgewoJCWYuV3JpdGVTdHJpbmcoIlxuW+aXpeW/l+aWh+S7tuW3sui+vuWIsOWkp+Wwj+mZkOWItu+8jOWBnOatouWGmeWFpV0iKQoJCWYuU3luYygpCgl9CgoJcmV0dXJuIG5pbAp9CgpmdW5jIChtICpMb2dTdHJlYW1NYW5hZ2VyKSBDbG9zZVN0cmVhbShmaWxlUGF0aCBzdHJpbmcpIHsKCW0ubXUuTG9jaygpCglkZWZlciBtLm11LlVubG9jaygpCgoJaWYgZiwgb2sgOj0gbS5zdHJlYW1zW2ZpbGVQYXRoXTsgb2sgewoJCWYuQ2xvc2UoKQoJCWRlbGV0ZShtLnN0cmVhbXMsIGZpbGVQYXRoKQoJCWRlbGV0ZShtLmZpbGVTaXplcywgZmlsZVBhdGgpCgl9Cn0KCmZ1bmMgKG0gKkxvZ1N0cmVhbU1hbmFnZXIpIENsb3NlQWxsKCkgewoJbS5tdS5Mb2NrKCkKCWRlZmVyIG0ubXUuVW5sb2NrKCkKCglmb3IgXywgZiA6PSByYW5nZSBtLnN0cmVhbXMgewoJCWYuQ2xvc2UoKQoJfQoJbS5zdHJlYW1zID0gbWFrZShtYXBbc3RyaW5nXSpvcy5GaWxlKQoJbS5maWxlU2l6ZXMgPSBtYWtlKG1hcFtzdHJpbmddaW50NjQpCn0KCmZ1bmMgR2V0TG9nUGF0aCh0YXNrSUQgdWludCwgbG9nRGlyIHN0cmluZykgc3RyaW5nIHsKCXRzIDo9IHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2LTAxLTAyLTE1LTA0LTA1LTAwMCIpCglkaXIgOj0gZmlsZXBhdGguSm9pbihsb2dEaXIsIGZtdC5TcHJpbnRmKCJ0YXNrXyVkIiwgdGFza0lEKSkKCXJldHVybiBmaWxlcGF0aC5Kb2luKGRpciwgdHMrIi5sb2ciKQp9CgpmdW5jIEdldFJlbGF0aXZlTG9nUGF0aCh0YXNrSUQgdWludCkgc3RyaW5nIHsKCXRzIDo9IHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2LTAxLTAyLTE1LTA0LTA1LTAwMCIpCglyZXR1cm4gZm10LlNwcmludGYoInRhc2tfJWQvJXMubG9nIiwgdGFza0lELCB0cykKfQoKZnVuYyBHZXRSZWxhdGl2ZUxvZ1BhdGhGb3JUYXNrKHRhc2sgKm1vZGVsLlRhc2spIHN0cmluZyB7CglpZiB0YXNrID09IG5pbCB7CgkJcmV0dXJuIEdldFJlbGF0aXZlTG9nUGF0aCgwKQoJfQoKCXRzIDo9IHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2LTAxLTAyLTE1LTA0LTA1LTAwMCIpCglyZXR1cm4gZmlsZXBhdGguVG9TbGFzaChmaWxlcGF0aC5Kb2luKGdldFRhc2tMb2dEaXJOYW1lKHRhc2spLCB0cysiLmxvZyIpKQp9CgpmdW5jIFJlYWRMb2dGaWxlKGxvZ1BhdGgsIGxvZ0RpciBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7CglmdWxsUGF0aCA6PSBsb2dQYXRoCglpZiAhZmlsZXBhdGguSXNBYnMobG9nUGF0aCkgewoJCWZ1bGxQYXRoID0gZmlsZXBhdGguSm9pbihsb2dEaXIsIGxvZ1BhdGgpCgl9CgoJYWJzUGF0aCwgZXJyIDo9IHBhdGh1dGlsLlJlc29sdmVXaXRoaW5CYXNlKGxvZ0RpciwgZnVsbFBhdGgsIHRydWUpCglpZiBlcnIgIT0gbmlsIHsKCQlpZiBvcy5Jc05vdEV4aXN0KGVycikgewoJCQlyZXR1cm4gIiIsIGVycgoJCX0KCQlyZXR1cm4gIiIsIGZtdC5FcnJvcmYoIuajgOa1i+WIsOi3r+W+hOmBjeWOhuaUu+WHuyIpCgl9CgoJZGF0YSwgZXJyIDo9IG9zLlJlYWRGaWxlKGFic1BhdGgpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gIiIsIGVycgoJfQoJcmV0dXJuIHN0cmluZyhkYXRhKSwgbmlsCn0KCnR5cGUgTG9nRmlsZUluZm8gc3RydWN0IHsKCUZpbGVuYW1lICBzdHJpbmcgYGpzb246ImZpbGVuYW1lImAKCVBhdGggICAgICBzdHJpbmcgYGpzb246InBhdGgiYAoJU2l6ZSAgICAgIGludDY0ICBganNvbjoic2l6ZSJgCglDcmVhdGVkQXQgc3RyaW5nIGBqc29uOiJjcmVhdGVkX2F0ImAKfQoKZnVuYyBMaXN0TG9nRmlsZXModGFza0lEIHVpbnQsIGxvZ0RpciBzdHJpbmcpIFtdTG9nRmlsZUluZm8gewoJZmlsZXMgOj0gbWFrZShbXUxvZ0ZpbGVJbmZvLCAwKQoJZm9yIF8sIHRhc2tEaXIgOj0gcmFuZ2UgbGlzdFRhc2tMb2dEaXJzKHRhc2tJRCwgbG9nRGlyKSB7CgkJZW50cmllcywgZXJyIDo9IG9zLlJlYWREaXIoZmlsZXBhdGguSm9pbihsb2dEaXIsIHRhc2tEaXIpKQoJCWlmIGVyciAhPSBuaWwgewoJCQljb250aW51ZQoJCX0KCgkJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudHJpZXMgewoJCQlpZiBlbnRyeS5Jc0RpcigpIHx8ICFzdHJpbmdzLkhhc1N1ZmZpeChlbnRyeS5OYW1lKCksICIubG9nIikgewoJCQkJY29udGludWUKCQkJfQoJCQlpbmZvLCBlcnIgOj0gZW50cnkuSW5mbygpCgkJCWlmIGVyciAhPSBuaWwgewoJCQkJY29udGludWUKCQkJfQoJCQlyZWxQYXRoIDo9IGZpbGVwYXRoLlRvU2xhc2goZmlsZXBhdGguSm9pbih0YXNrRGlyLCBlbnRyeS5OYW1lKCkpKQoJCQlmaWxlcyA9IGFwcGVuZChmaWxlcywgTG9nRmlsZUluZm97CgkJCQlGaWxlbmFtZTogIGVudHJ5Lk5hbWUoKSwKCQkJCVBhdGg6ICAgICAgcmVsUGF0aCwKCQkJCVNpemU6ICAgICAgaW5mby5TaXplKCksCgkJCQlDcmVhdGVkQXQ6IGluZm8uTW9kVGltZSgpLkZvcm1hdCh0aW1lLlJGQzMzMzkpLAoJCQl9KQoJCX0KCX0KCglzb3J0LlNsaWNlKGZpbGVzLCBmdW5jKGksIGogaW50KSBib29sIHsKCQlpZiBmaWxlc1tpXS5DcmVhdGVkQXQgPT0gZmlsZXNbal0uQ3JlYXRlZEF0IHsKCQkJcmV0dXJuIGZpbGVzW2ldLlBhdGggPiBmaWxlc1tqXS5QYXRoCgkJfQoJCXJldHVybiBmaWxlc1tpXS5DcmVhdGVkQXQgPiBmaWxlc1tqXS5DcmVhdGVkQXQKCX0pCgoJcmV0dXJuIGZpbGVzCn0KCmZ1bmMgUmVzb2x2ZVRhc2tMb2dQYXRoKHRhc2tJRCB1aW50LCBmaWxlbmFtZU9yUGF0aCwgbG9nRGlyIHN0cmluZykgKHN0cmluZywgZXJyb3IpIHsKCW5hbWUgOj0gc3RyaW5ncy5UcmltU3BhY2UoZmlsZW5hbWVPclBhdGgpCglpZiBuYW1lID09ICIiIHx8IGZpbGVwYXRoLklzQWJzKG5hbWUpIHsKCQlyZXR1cm4gIiIsIG9zLkVyck5vdEV4aXN0Cgl9CgoJbm9ybWFsaXplZCA6PSBmaWxlcGF0aC5Ub1NsYXNoKGZpbGVwYXRoLkNsZWFuKG5hbWUpKQoJaWYgc3RyaW5ncy5Db250YWlucyhub3JtYWxpemVkLCAiLyIpIHsKCQlkaXIgOj0gc3RyaW5ncy5TcGxpdChub3JtYWxpemVkLCAiLyIpWzBdCgkJaWYgIWlzVGFza0xvZ0RpckZvclRhc2soZGlyLCB0YXNrSUQpIHsKCQkJcmV0dXJuICIiLCBvcy5FcnJOb3RFeGlzdAoJCX0KCQlpZiBfLCBlcnIgOj0gcGF0aHV0aWwuUmVzb2x2ZVdpdGhpbkJhc2UobG9nRGlyLCBmaWxlcGF0aC5Kb2luKGxvZ0Rpciwgbm9ybWFsaXplZCksIHRydWUpOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuICIiLCBlcnIKCQl9CgkJcmV0dXJuIG5vcm1hbGl6ZWQsIG5pbAoJfQoKCWZvciBfLCB0YXNrRGlyIDo9IHJhbmdlIGxpc3RUYXNrTG9nRGlycyh0YXNrSUQsIGxvZ0RpcikgewoJCXJlbFBhdGggOj0gZmlsZXBhdGguVG9TbGFzaChmaWxlcGF0aC5Kb2luKHRhc2tEaXIsIG5vcm1hbGl6ZWQpKQoJCWlmIF8sIGVyciA6PSBwYXRodXRpbC5SZXNvbHZlV2l0aGluQmFzZShsb2dEaXIsIGZpbGVwYXRoLkpvaW4obG9nRGlyLCByZWxQYXRoKSwgdHJ1ZSk7IGVyciA9PSBuaWwgewoJCQlyZXR1cm4gcmVsUGF0aCwgbmlsCgkJfQoJfQoKCXJldHVybiAiIiwgb3MuRXJyTm90RXhpc3QKfQoKZnVuYyBEZWxldGVMb2dGaWxlKGxvZ1BhdGgsIGxvZ0RpciBzdHJpbmcpIGVycm9yIHsKCWZ1bGxQYXRoIDo9IGxvZ1BhdGgKCWlmICFmaWxlcGF0aC5Jc0Ficyhsb2dQYXRoKSB7CgkJZnVsbFBhdGggPSBmaWxlcGF0aC5Kb2luKGxvZ0RpciwgbG9nUGF0aCkKCX0KCglhYnNQYXRoLCBlcnIgOj0gcGF0aHV0aWwuUmVzb2x2ZVdpdGhpbkJhc2UobG9nRGlyLCBmdWxsUGF0aCwgdHJ1ZSkKCWlmIGVyciAhPSBuaWwgewoJCWlmIG9zLklzTm90RXhpc3QoZXJyKSB7CgkJCXJldHVybiBlcnIKCQl9CgkJcmV0dXJuIGZtdC5FcnJvcmYoIuajgOa1i+WIsOi3r+W+hOmBjeWOhuaUu+WHuyIpCgl9CgoJcmV0dXJuIG9zLlJlbW92ZShhYnNQYXRoKQp9CgpmdW5jIENsZWFuT2xkTG9ncyhsb2dEaXIgc3RyaW5nLCBkYXlzIGludCkgaW50IHsKCWN1dG9mZiA6PSB0aW1lLk5vdygpLkFkZERhdGUoMCwgMCwgLWRheXMpCgljb3VudCA6PSAwCgoJZmlsZXBhdGguV2Fsayhsb2dEaXIsIGZ1bmMocGF0aCBzdHJpbmcsIGluZm8gb3MuRmlsZUluZm8sIGVyciBlcnJvcikgZXJyb3IgewoJCWlmIGVyciAhPSBuaWwgfHwgaW5mby5Jc0RpcigpIHsKCQkJcmV0dXJuIG5pbAoJCX0KCQlpZiAhc3RyaW5ncy5IYXNTdWZmaXgoaW5mby5OYW1lKCksICIubG9nIikgewoJCQlyZXR1cm4gbmlsCgkJfQoJCWlmIGluZm8uTW9kVGltZSgpLkJlZm9yZShjdXRvZmYpIHsKCQkJaWYgb3MuUmVtb3ZlKHBhdGgpID09IG5pbCB7CgkJCQljb3VudCsrCgkJCX0KCQl9CgkJcmV0dXJuIG5pbAoJfSkKCgllbnRyaWVzLCBfIDo9IG9zLlJlYWREaXIobG9nRGlyKQoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudHJpZXMgewoJCWlmIGVudHJ5LklzRGlyKCkgJiYgc3RyaW5ncy5IYXNQcmVmaXgoZW50cnkuTmFtZSgpLCAidGFza18iKSB7CgkJCXRhc2tEaXIgOj0gZmlsZXBhdGguSm9pbihsb2dEaXIsIGVudHJ5Lk5hbWUoKSkKCQkJc3ViRW50cmllcywgXyA6PSBvcy5SZWFkRGlyKHRhc2tEaXIpCgkJCWlmIGxlbihzdWJFbnRyaWVzKSA9PSAwIHsKCQkJCW9zLlJlbW92ZSh0YXNrRGlyKQoJCQl9CgkJfQoJfQoKCXJldHVybiBjb3VudAp9CgpmdW5jIGdldFRhc2tMb2dEaXJOYW1lKHRhc2sgKm1vZGVsLlRhc2spIHN0cmluZyB7CglyZXR1cm4gZm9ybWF0VGFza0xvZ0Rpck5hbWUodGFzay5JRCwgcmVzb2x2ZVRhc2tMb2dEaXJMYWJlbCh0YXNrKSkKfQoKZnVuYyBmb3JtYXRUYXNrTG9nRGlyTmFtZSh0YXNrSUQgdWludCwgbGFiZWwgc3RyaW5nKSBzdHJpbmcgewoJYmFzZSA6PSBmbXQuU3ByaW50ZigidGFza18lZCIsIHRhc2tJRCkKCWxhYmVsID0gc2FuaXRpemVUYXNrTG9nRGlyTGFiZWwobGFiZWwpCglpZiBsYWJlbCA9PSAiIiB7CgkJcmV0dXJuIGJhc2UKCX0KCXJldHVybiBiYXNlICsgIl8iICsgbGFiZWwKfQoKZnVuYyByZXNvbHZlVGFza0xvZ0RpckxhYmVsKHRhc2sgKm1vZGVsLlRhc2spIHN0cmluZyB7Cglmb3IgXywgY2FuZGlkYXRlIDo9IHJhbmdlIFtdc3RyaW5newoJCXRhc2suTmFtZSwKCQlmaWxlcGF0aC5CYXNlKGV4dHJhY3RUYXNrU2NyaXB0UGF0aCh0YXNrLkNvbW1hbmQpKSwKCX0gewoJCWxhYmVsIDo9IHNhbml0aXplVGFza0xvZ0RpckxhYmVsKGNhbmRpZGF0ZSkKCQlpZiBsYWJlbCAhPSAiIiB7CgkJCXJldHVybiBsYWJlbAoJCX0KCX0KCXJldHVybiAidGFzayIKfQoKZnVuYyBzYW5pdGl6ZVRhc2tMb2dEaXJMYWJlbCh2YWx1ZSBzdHJpbmcpIHN0cmluZyB7Cgl2YWx1ZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHZhbHVlKQoJaWYgdmFsdWUgPT0gIiIgewoJCXJldHVybiAiIgoJfQoKCXZhciBiIHN0cmluZ3MuQnVpbGRlcgoJbGFzdFdhc1NlcCA6PSBmYWxzZQoJcnVuZUNvdW50IDo9IDAKCWZvciBfLCByIDo9IHJhbmdlIHZhbHVlIHsKCQlpZiBydW5lQ291bnQgPj0gNDggewoJCQlicmVhawoJCX0KCQlpZiBpc1Rhc2tMb2dEaXJVbnNhZmVSdW5lKHIpIHsKCQkJaWYgIWxhc3RXYXNTZXAgJiYgYi5MZW4oKSA+IDAgewoJCQkJYi5Xcml0ZUJ5dGUoJ18nKQoJCQkJbGFzdFdhc1NlcCA9IHRydWUKCQkJfQoJCQljb250aW51ZQoJCX0KCQliLldyaXRlUnVuZShyKQoJCWxhc3RXYXNTZXAgPSBmYWxzZQoJCXJ1bmVDb3VudCsrCgl9CgoJcmV0dXJuIHN0cmluZ3MuVHJpbShzdHJpbmdzLlRyaW1TcGFjZShiLlN0cmluZygpKSwgIi5fLSIpCn0KCmZ1bmMgaXNUYXNrTG9nRGlyVW5zYWZlUnVuZShyIHJ1bmUpIGJvb2wgewoJc3dpdGNoIHIgewoJY2FzZSAnPCcsICc+JywgJzonLCAnIicsICcvJywgJ1xcJywgJ3wnLCAnPycsICcqJzoKCQlyZXR1cm4gdHJ1ZQoJZGVmYXVsdDoKCQlyZXR1cm4gdW5pY29kZS5Jc0NvbnRyb2wocikgfHwgdW5pY29kZS5Jc1NwYWNlKHIpCgl9Cn0KCmZ1bmMgbGlzdFRhc2tMb2dEaXJzKHRhc2tJRCB1aW50LCBsb2dEaXIgc3RyaW5nKSBbXXN0cmluZyB7CgllbnRyaWVzLCBlcnIgOj0gb3MuUmVhZERpcihsb2dEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gW11zdHJpbmd7fQoJfQoKCWRpcnMgOj0gbWFrZShbXXN0cmluZywgMCkKCWZvciBfLCBlbnRyeSA6PSByYW5nZSBlbnRyaWVzIHsKCQlpZiBlbnRyeS5Jc0RpcigpICYmIGlzVGFza0xvZ0RpckZvclRhc2soZW50cnkuTmFtZSgpLCB0YXNrSUQpIHsKCQkJZGlycyA9IGFwcGVuZChkaXJzLCBlbnRyeS5OYW1lKCkpCgkJfQoJfQoKCXNvcnQuU2xpY2VTdGFibGUoZGlycywgZnVuYyhpLCBqIGludCkgYm9vbCB7CgkJaWYgZGlyc1tpXSA9PSBmbXQuU3ByaW50ZigidGFza18lZCIsIHRhc2tJRCkgewoJCQlyZXR1cm4gZmFsc2UKCQl9CgkJaWYgZGlyc1tqXSA9PSBmbXQuU3ByaW50ZigidGFza18lZCIsIHRhc2tJRCkgewoJCQlyZXR1cm4gdHJ1ZQoJCX0KCQlyZXR1cm4gZGlyc1tpXSA+IGRpcnNbal0KCX0pCgoJcmV0dXJuIGRpcnMKfQoKZnVuYyBpc1Rhc2tMb2dEaXJGb3JUYXNrKGRpck5hbWUgc3RyaW5nLCB0YXNrSUQgdWludCkgYm9vbCB7CgliYXNlIDo9IGZtdC5TcHJpbnRmKCJ0YXNrXyVkIiwgdGFza0lEKQoJcmV0dXJuIGRpck5hbWUgPT0gYmFzZSB8fCBzdHJpbmdzLkhhc1ByZWZpeChkaXJOYW1lLCBiYXNlKyJfIikKfQo=
+package service
+
+import (
+	"fmt"
+	"os"
+	"path/filepath"
+	"sort"
+	"strings"
+	"sync"
+	"time"
+	"unicode"
+
+	"daidai-panel/model"
+	"daidai-panel/pkg/pathutil"
+)
+
+type LogStreamManager struct {
+	mu        sync.Mutex
+	streams   map[string]*os.File
+	fileSizes map[string]int64
+	maxSize   int64
+}
+
+var logStreamMgr = &LogStreamManager{
+	streams:   make(map[string]*os.File),
+	fileSizes: make(map[string]int64),
+	maxSize:   10 * 1024 * 1024,
+}
+
+func GetLogStreamManager() *LogStreamManager {
+	return logStreamMgr
+}
+
+func (m *LogStreamManager) Write(filePath, data string) error {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	f, exists := m.streams[filePath]
+	if !exists {
+		dir := filepath.Dir(filePath)
+		os.MkdirAll(dir, 0755)
+
+		var err error
+		f, err = os.OpenFile(filePath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
+		if err != nil {
+			return err
+		}
+		m.streams[filePath] = f
+		m.fileSizes[filePath] = 0
+	}
+
+	if m.fileSizes[filePath] >= m.maxSize {
+		return nil
+	}
+
+	n, err := f.WriteString(data)
+	if err != nil {
+		return err
+	}
+	f.Sync()
+	m.fileSizes[filePath] += int64(n)
+
+	if m.fileSizes[filePath] >= m.maxSize {
+		f.WriteString("\n[日志文件已达到大小限制，停止写入]")
+		f.Sync()
+	}
+
+	return nil
+}
+
+func (m *LogStreamManager) CloseStream(filePath string) {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	if f, ok := m.streams[filePath]; ok {
+		f.Close()
+		delete(m.streams, filePath)
+		delete(m.fileSizes, filePath)
+	}
+}
+
+func (m *LogStreamManager) CloseAll() {
+	m.mu.Lock()
+	defer m.mu.Unlock()
+
+	for _, f := range m.streams {
+		f.Close()
+	}
+	m.streams = make(map[string]*os.File)
+	m.fileSizes = make(map[string]int64)
+}
+
+func GetLogPath(taskID uint, logDir string) string {
+	ts := time.Now().Format("2006-01-02-15-04-05-000")
+	dir := filepath.Join(logDir, fmt.Sprintf("task_%d", taskID))
+	return filepath.Join(dir, ts+".log")
+}
+
+func GetRelativeLogPath(taskID uint) string {
+	ts := time.Now().Format("2006-01-02-15-04-05-000")
+	return fmt.Sprintf("task_%d/%s.log", taskID, ts)
+}
+
+func GetRelativeLogPathForTask(task *model.Task) string {
+	if task == nil {
+		return GetRelativeLogPath(0)
+	}
+
+	ts := time.Now().Format("2006-01-02-15-04-05-000")
+	return filepath.ToSlash(filepath.Join(getTaskLogDirName(task), ts+".log"))
+}
+
+func ReadLogFile(logPath, logDir string) (string, error) {
+	fullPath := logPath
+	if !filepath.IsAbs(logPath) {
+		fullPath = filepath.Join(logDir, logPath)
+	}
+
+	absPath, err := pathutil.ResolveWithinBase(logDir, fullPath, true)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return "", err
+		}
+		return "", fmt.Errorf("检测到路径遍历攻击")
+	}
+
+	data, err := os.ReadFile(absPath)
+	if err != nil {
+		return "", err
+	}
+	return string(data), nil
+}
+
+type LogFileInfo struct {
+	Filename  string `json:"filename"`
+	Path      string `json:"path"`
+	Size      int64  `json:"size"`
+	CreatedAt string `json:"created_at"`
+}
+
+func ListLogFiles(taskID uint, logDir string) []LogFileInfo {
+	files := make([]LogFileInfo, 0)
+	for _, taskDir := range listTaskLogDirs(taskID, logDir) {
+		entries, err := os.ReadDir(filepath.Join(logDir, taskDir))
+		if err != nil {
+			continue
+		}
+
+		for _, entry := range entries {
+			if entry.IsDir() || !strings.HasSuffix(entry.Name(), ".log") {
+				continue
+			}
+			info, err := entry.Info()
+			if err != nil {
+				continue
+			}
+			relPath := filepath.ToSlash(filepath.Join(taskDir, entry.Name()))
+			files = append(files, LogFileInfo{
+				Filename:  entry.Name(),
+				Path:      relPath,
+				Size:      info.Size(),
+				CreatedAt: info.ModTime().Format(time.RFC3339),
+			})
+		}
+	}
+
+	sort.Slice(files, func(i, j int) bool {
+		if files[i].CreatedAt == files[j].CreatedAt {
+			return files[i].Path > files[j].Path
+		}
+		return files[i].CreatedAt > files[j].CreatedAt
+	})
+
+	return files
+}
+
+func ResolveTaskLogPath(taskID uint, filenameOrPath, logDir string) (string, error) {
+	name := strings.TrimSpace(filenameOrPath)
+	if name == "" || filepath.IsAbs(name) {
+		return "", os.ErrNotExist
+	}
+
+	normalized := filepath.ToSlash(filepath.Clean(name))
+	if strings.Contains(normalized, "/") {
+		dir := strings.Split(normalized, "/")[0]
+		if !isTaskLogDirForTask(dir, taskID) {
+			return "", os.ErrNotExist
+		}
+		if _, err := pathutil.ResolveWithinBase(logDir, filepath.Join(logDir, normalized), true); err != nil {
+			return "", err
+		}
+		return normalized, nil
+	}
+
+	for _, taskDir := range listTaskLogDirs(taskID, logDir) {
+		relPath := filepath.ToSlash(filepath.Join(taskDir, normalized))
+		if _, err := pathutil.ResolveWithinBase(logDir, filepath.Join(logDir, relPath), true); err == nil {
+			return relPath, nil
+		}
+	}
+
+	return "", os.ErrNotExist
+}
+
+func DeleteLogFile(logPath, logDir string) error {
+	fullPath := logPath
+	if !filepath.IsAbs(logPath) {
+		fullPath = filepath.Join(logDir, logPath)
+	}
+
+	absPath, err := pathutil.ResolveWithinBase(logDir, fullPath, true)
+	if err != nil {
+		if os.IsNotExist(err) {
+			return err
+		}
+		return fmt.Errorf("检测到路径遍历攻击")
+	}
+
+	return os.Remove(absPath)
+}
+
+func CleanOldLogs(logDir string, days int) int {
+	cutoff := time.Now().AddDate(0, 0, -days)
+	count := 0
+
+	filepath.Walk(logDir, func(path string, info os.FileInfo, err error) error {
+		if err != nil || info.IsDir() {
+			return nil
+		}
+		if !strings.HasSuffix(info.Name(), ".log") {
+			return nil
+		}
+		if info.ModTime().Before(cutoff) {
+			if os.Remove(path) == nil {
+				count++
+			}
+		}
+		return nil
+	})
+
+	entries, _ := os.ReadDir(logDir)
+	for _, entry := range entries {
+		if entry.IsDir() && strings.HasPrefix(entry.Name(), "task_") {
+			taskDir := filepath.Join(logDir, entry.Name())
+			subEntries, _ := os.ReadDir(taskDir)
+			if len(subEntries) == 0 {
+				os.Remove(taskDir)
+			}
+		}
+	}
+
+	return count
+}
+
+func getTaskLogDirName(task *model.Task) string {
+	return formatTaskLogDirName(task.ID, resolveTaskLogDirLabel(task))
+}
+
+func formatTaskLogDirName(taskID uint, label string) string {
+	base := fmt.Sprintf("task_%d", taskID)
+	label = sanitizeTaskLogDirLabel(label)
+	if label == "" {
+		return base
+	}
+	return base + "_" + label
+}
+
+func resolveTaskLogDirLabel(task *model.Task) string {
+	for _, candidate := range []string{
+		task.Name,
+		filepath.Base(extractTaskScriptPath(task.Command)),
+	} {
+		label := sanitizeTaskLogDirLabel(candidate)
+		if label != "" {
+			return label
+		}
+	}
+	return "task"
+}
+
+func sanitizeTaskLogDirLabel(value string) string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return ""
+	}
+
+	var b strings.Builder
+	lastWasSep := false
+	runeCount := 0
+	for _, r := range value {
+		if runeCount >= 48 {
+			break
+		}
+		if isTaskLogDirUnsafeRune(r) {
+			if !lastWasSep && b.Len() > 0 {
+				b.WriteByte('_')
+				lastWasSep = true
+			}
+			continue
+		}
+		b.WriteRune(r)
+		lastWasSep = false
+		runeCount++
+	}
+
+	return strings.Trim(strings.TrimSpace(b.String()), "._-")
+}
+
+func isTaskLogDirUnsafeRune(r rune) bool {
+	switch r {
+	case '<', '>', ':', '"', '/', '\\', '|', '?', '*':
+		return true
+	default:
+		return unicode.IsControl(r) || unicode.IsSpace(r)
+	}
+}
+
+func listTaskLogDirs(taskID uint, logDir string) []string {
+	entries, err := os.ReadDir(logDir)
+	if err != nil {
+		return []string{}
+	}
+
+	dirs := make([]string, 0)
+	for _, entry := range entries {
+		if entry.IsDir() && isTaskLogDirForTask(entry.Name(), taskID) {
+			dirs = append(dirs, entry.Name())
+		}
+	}
+
+	sort.SliceStable(dirs, func(i, j int) bool {
+		if dirs[i] == fmt.Sprintf("task_%d", taskID) {
+			return false
+		}
+		if dirs[j] == fmt.Sprintf("task_%d", taskID) {
+			return true
+		}
+		return dirs[i] > dirs[j]
+	})
+
+	return dirs
+}
+
+func isTaskLogDirForTask(dirName string, taskID uint) bool {
+	base := fmt.Sprintf("task_%d", taskID)
+	return dirName == base || strings.HasPrefix(dirName, base+"_")
+}

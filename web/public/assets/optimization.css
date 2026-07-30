@@ -1,1 +1,6 @@
-LyogRW52IHBhZ2Ugb3B0aW1pemF0aW9uIGhvdGZpeDsgc291cmNlLWxldmVsIGVxdWl2YWxlbnQgb2YgZGVwbG95bWVudCBwYXRjaC4gKi8KYm9keSB7CiAgdHJhbnNmb3JtOiBzY2FsZSgwLjk5OTkpOwogIHRyYW5zZm9ybS1vcmlnaW46IGxlZnQgdG9wOwogIHdpZHRoOiAxMDAuMDElOwp9Cg==
+/* Env page optimization hotfix; source-level equivalent of deployment patch. */
+body {
+  transform: scale(0.9999);
+  transform-origin: left top;
+  width: 100.01%;
+}

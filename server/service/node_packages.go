@@ -1,1 +1,318 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkiZm10IgoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzdHJpbmdzIgoJInN5bmMiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKKQoKdmFyIG5vZGVQYWNrYWdlT3BlcmF0aW9uTXUgc3luYy5NdXRleAoKdmFyIG5vZGVSZXF1aXJlQ29tcGF0aWJsZVBhY2thZ2VTcGVjcyA9IG1hcFtzdHJpbmddc3RyaW5newoJInV1aWQiOiAgICAgICAgICAgICAgICAgICAidXVpZEA4LjMuMiIsCgkiYXhpb3MiOiAgICAgICAgICAgICAgICAgICJheGlvc0AwLjI3LjIiLAoJIm5vZGUtZmV0Y2giOiAgICAgICAgICAgICAibm9kZS1mZXRjaEAyLjcuMCIsCgkiZ290IjogICAgICAgICAgICAgICAgICAgICJnb3RAMTEuOC42IiwKCSJjaGFsayI6ICAgICAgICAgICAgICAgICAgImNoYWxrQDQuMS4yIiwKCSJvcmEiOiAgICAgICAgICAgICAgICAgICAgIm9yYUA1LjQuMSIsCgkiZXhlY2EiOiAgICAgICAgICAgICAgICAgICJleGVjYUA1LjEuMSIsCgkibmFub2lkIjogICAgICAgICAgICAgICAgICJuYW5vaWRAMy4zLjciLAoJInAtbGltaXQiOiAgICAgICAgICAgICAgICAicC1saW1pdEAzLjEuMCIsCgkicC1xdWV1ZSI6ICAgICAgICAgICAgICAgICJwLXF1ZXVlQDYuNi4yIiwKCSJwLXJldHJ5IjogICAgICAgICAgICAgICAgInAtcmV0cnlANC42LjIiLAoJInAtdGltZW91dCI6ICAgICAgICAgICAgICAicC10aW1lb3V0QDQuMS4wIiwKCSJxdWljay1scnUiOiAgICAgICAgICAgICAgInF1aWNrLWxydUA1LjEuMSIsCgkieW9jdG8tcXVldWUiOiAgICAgICAgICAgICJ5b2N0by1xdWV1ZUAwLjEuMCIsCgkiaXMtc3RyZWFtIjogICAgICAgICAgICAgICJpcy1zdHJlYW1AMi4wLjEiLAoJImlzLXBvcnQtcmVhY2hhYmxlIjogICAgICAiaXMtcG9ydC1yZWFjaGFibGVAMy4xLjAiLAoJIm1ha2UtZGlyIjogICAgICAgICAgICAgICAibWFrZS1kaXJAMy4xLjAiLAoJImZpbmQtdXAiOiAgICAgICAgICAgICAgICAiZmluZC11cEA1LjAuMCIsCgkibG9jYXRlLXBhdGgiOiAgICAgICAgICAgICJsb2NhdGUtcGF0aEA2LjAuMCIsCgkicGF0aC1leGlzdHMiOiAgICAgICAgICAgICJwYXRoLWV4aXN0c0A0LjAuMCIsCgkiY2FtZWxjYXNlIjogICAgICAgICAgICAgICJjYW1lbGNhc2VANi4zLjAiLAoJImRlY2FtZWxpemUiOiAgICAgICAgICAgICAiZGVjYW1lbGl6ZUA0LjAuMCIsCgkic3VwcG9ydHMtY29sb3IiOiAgICAgICAgICJzdXBwb3J0cy1jb2xvckA4LjEuMSIsCgkiZmlsZS10eXBlIjogICAgICAgICAgICAgICJmaWxlLXR5cGVAMTYuNS40IiwKCSJtaW1lIjogICAgICAgICAgICAgICAgICAgIm1pbWVAMy4wLjAiLAoJInN0cmlwLWFuc2kiOiAgICAgICAgICAgICAic3RyaXAtYW5zaUA2LjAuMSIsCgkic3RyaW5nLXdpZHRoIjogICAgICAgICAgICJzdHJpbmctd2lkdGhANC4yLjMiLAoJIndyYXAtYW5zaSI6ICAgICAgICAgICAgICAid3JhcC1hbnNpQDcuMC4wIiwKCSJjbGktdHJ1bmNhdGUiOiAgICAgICAgICAgImNsaS10cnVuY2F0ZUAyLjEuMCIsCgkiYm94ZW4iOiAgICAgICAgICAgICAgICAgICJib3hlbkA1LjEuMiIsCgkib3BlbiI6ICAgICAgICAgICAgICAgICAgICJvcGVuQDguNC4yIiwKCSJkZWwiOiAgICAgICAgICAgICAgICAgICAgImRlbEA2LjEuMSIsCgkiZ2xvYmJ5IjogICAgICAgICAgICAgICAgICJnbG9iYnlAMTEuMS4wIiwKCSJjaGVlcmlvIjogICAgICAgICAgICAgICAgImNoZWVyaW9AMS4wLjAtcmMuMTIiLAoJInVuZGljaSI6ICAgICAgICAgICAgICAgICAidW5kaWNpQDUuMjguNSIsCgkid3MiOiAgICAgICAgICAgICAgICAgICAgICJ3c0A3LjUuMTAiLAoJInRvdWdoLWNvb2tpZSI6ICAgICAgICAgICAidG91Z2gtY29va2llQDQuMS40IiwKCSJmb3JtLWRhdGEiOiAgICAgICAgICAgICAgImZvcm0tZGF0YUA0LjAuMCIsCgkiaHR0cHMtcHJveHktYWdlbnQiOiAgICAgICJodHRwcy1wcm94eS1hZ2VudEA1LjAuMSIsCgkiaHR0cC1wcm94eS1hZ2VudCI6ICAgICAgICJodHRwLXByb3h5LWFnZW50QDUuMC4wIiwKCSJzb2Nrcy1wcm94eS1hZ2VudCI6ICAgICAgInNvY2tzLXByb3h5LWFnZW50QDcuMC4wIiwKCSJocGFnZW50IjogICAgICAgICAgICAgICAgImhwYWdlbnRAMS4yLjAiLAoJInR1bm5lbCI6ICAgICAgICAgICAgICAgICAidHVubmVsQDAuMC42IiwKCSJ0dW5uZWwtYWdlbnQiOiAgICAgICAgICAgInR1bm5lbC1hZ2VudEAwLjYuMCIsCgkicmVxdWVzdCI6ICAgICAgICAgICAgICAgICJyZXF1ZXN0QDIuODguMiIsCgkicmVxdWVzdC1wcm9taXNlIjogICAgICAgICJyZXF1ZXN0LXByb21pc2VANC4yLjYiLAoJInJlcXVlc3QtcHJvbWlzZS1uYXRpdmUiOiAicmVxdWVzdC1wcm9taXNlLW5hdGl2ZUAxLjAuOSIsCgkiY3J5cHRvLWpzIjogICAgICAgICAgICAgICJjcnlwdG8tanNANC4yLjAiLAoJIm1kNSI6ICAgICAgICAgICAgICAgICAgICAibWQ1QDIuMy4wIiwKCSJqcy1tZDUiOiAgICAgICAgICAgICAgICAgImpzLW1kNUAwLjcuMyIsCgkicXMiOiAgICAgICAgICAgICAgICAgICAgICJxc0A2LjExLjIiLAoJInF1ZXJ5LXN0cmluZyI6ICAgICAgICAgICAicXVlcnktc3RyaW5nQDcuMS4zIiwKCSJxdWVyeXN0cmluZyI6ICAgICAgICAgICAgInF1ZXJ5c3RyaW5nQDAuMi4xIiwKCSJtb21lbnQiOiAgICAgICAgICAgICAgICAgIm1vbWVudEAyLjI5LjQiLAoJImRheWpzIjogICAgICAgICAgICAgICAgICAiZGF5anNAMS4xMS4xMCIsCgkibG9kYXNoIjogICAgICAgICAgICAgICAgICJsb2Rhc2hANC4xNy4yMSIsCgkiZG90ZW52IjogICAgICAgICAgICAgICAgICJkb3RlbnZAMTYuNC41IiwKCSJ5YW1sIjogICAgICAgICAgICAgICAgICAgInlhbWxAMi4zLjQiLAoJImpzLXlhbWwiOiAgICAgICAgICAgICAgICAianMteWFtbEA0LjEuMCIsCgkiYWRtLXppcCI6ICAgICAgICAgICAgICAgICJhZG0temlwQDAuNS4xMCIsCgkibm9kZS1yc2EiOiAgICAgICAgICAgICAgICJub2RlLXJzYUAxLjEuMSIsCgkicnNhLXBlbS1mcm9tLW1vZC1leHAiOiAgICJyc2EtcGVtLWZyb20tbW9kLWV4cEAwLjguNSIsCgkiaWNvbnYtbGl0ZSI6ICAgICAgICAgICAgICJpY29udi1saXRlQDAuNi4zIiwKCSJkYXRlLWZucyI6ICAgICAgICAgICAgICAgImRhdGUtZm5zQDIuMzAuMCIsCgkiY3N2LXBhcnNlIjogICAgICAgICAgICAgICJjc3YtcGFyc2VANS41LjYiLAoJImZhc3QteG1sLXBhcnNlciI6ICAgICAgICAiZmFzdC14bWwtcGFyc2VyQDQuMy42IiwKCSJ4bWwyanMiOiAgICAgICAgICAgICAgICAgInhtbDJqc0AwLjYuMiIsCgkianNvbndlYnRva2VuIjogICAgICAgICAgICJqc29ud2VidG9rZW5AOS4wLjIiLAoJImppbXAiOiAgICAgICAgICAgICAgICAgICAiamltcEAwLjIyLjEyIiwKCSJmcy1leHRyYSI6ICAgICAgICAgICAgICAgImZzLWV4dHJhQDExLjIuMCIsCgkiZGF0YS11cmktdG8tYnVmZmVyIjogICAgICJkYXRhLXVyaS10by1idWZmZXJAMy4wLjEiLAoJImZldGNoLWJsb2IiOiAgICAgICAgICAgICAiZmV0Y2gtYmxvYkAyLjEuMiIsCgkiZm9ybWRhdGEtcG9seWZpbGwiOiAgICAgICJmb3JtZGF0YS1wb2x5ZmlsbEA0LjAuMTAiLAp9CgovLyBMb2NrTm9kZVBhY2thZ2VPcGVyYXRpb24g5Liy6KGM5YyWIG5wbSBpbnN0YWxsIC8gdW5pbnN0YWxs44CCCi8vIG5wbSDkvJrlkIzml7bmlLkgcGFja2FnZS5qc29uIC8gcGFja2FnZS1sb2NrLmpzb27vvIzlubblj5HmiafooYzml7blvojlrrnmmJPmioogSlNPTiDlhpnlnY/jgIIKZnVuYyBMb2NrTm9kZVBhY2thZ2VPcGVyYXRpb24oKSBmdW5jKCkgewoJbm9kZVBhY2thZ2VPcGVyYXRpb25NdS5Mb2NrKCkKCXJldHVybiBub2RlUGFja2FnZU9wZXJhdGlvbk11LlVubG9jawp9CgpmdW5jIE5ld05wbUluc3RhbGxDb21tYW5kKHBhY2thZ2VOYW1lIHN0cmluZykgKCpleGVjLkNtZCwgZXJyb3IpIHsKCW5vZGVEaXIgOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLkRpciwgImRlcHMiLCAibm9kZWpzIikKCWlmIGVyciA6PSBlbnN1cmVOb2RlUGFja2FnZU1hbmlmZXN0KG5vZGVEaXIpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gbmlsLCBlcnIKCX0KCglpbnN0YWxsU3BlYyA6PSBSZXNvbHZlTm9kZUluc3RhbGxQYWNrYWdlU3BlYyhwYWNrYWdlTmFtZSkKCWNtZCA6PSBleGVjLkNvbW1hbmQoIm5wbSIsICJpbnN0YWxsIiwgIi0tcHJlZml4Iiwgbm9kZURpciwgaW5zdGFsbFNwZWMpCgljbWQuRW52ID0gTnBtSW5zdGFsbEVudihBcHBlbmRQcm94eUVudihvcy5FbnZpcm9uKCkpLCBDdXJyZW50TnBtTWlycm9yKCkpCglyZXR1cm4gY21kLCBuaWwKfQoKZnVuYyBSZXNvbHZlTm9kZUluc3RhbGxQYWNrYWdlU3BlYyhwYWNrYWdlTmFtZSBzdHJpbmcpIHN0cmluZyB7CglwYWNrYWdlTmFtZSA9IHN0cmluZ3MuVHJpbVNwYWNlKHBhY2thZ2VOYW1lKQoJaWYgcGFja2FnZU5hbWUgPT0gIiIgfHwgbm9kZVBhY2thZ2VTcGVjSGFzRXhwbGljaXRWZXJzaW9uT3JTb3VyY2UocGFja2FnZU5hbWUpIHsKCQlyZXR1cm4gcGFja2FnZU5hbWUKCX0KCgkvLyDluLjop4EgbnBtIOWMheeahOaWsOeJiOacrOW3sue7j+WIh+WIsCBFU00tb25see+8jOaXp+iEmuacrOeUqCByZXF1aXJlKCkg5Lya55u05o6lIEVSUl9SRVFVSVJFX0VTTeOAggoJLy8g6L+Z6YeM5LuF5a+56KO45YyF5ZCN5YGa5YW85a6554mI5pys6ZKJ5a6a77yb55So5oi35piO56Gu5YaZ54mI5pys44CBdGFn44CBVVJM44CBR2l0IOaIluacrOWcsOi3r+W+hOaXtuS/neaMgeWOn+agt+OAggoJbm9ybWFsaXplZCA6PSBOb3JtYWxpemVOb2RlRGVwZW5kZW5jeVBhY2thZ2VOYW1lKHBhY2thZ2VOYW1lKQoJaWYgcGlubmVkLCBvayA6PSBub2RlUmVxdWlyZUNvbXBhdGlibGVQYWNrYWdlU3BlY3Nbbm9ybWFsaXplZF07IG9rIHsKCQlyZXR1cm4gcGlubmVkCgl9CglyZXR1cm4gcGFja2FnZU5hbWUKfQoKZnVuYyBOb2RlSW5zdGFsbENvbXBhdGliaWxpdHlOb3RpY2UocGFja2FnZU5hbWUgc3RyaW5nKSBzdHJpbmcgewoJcGFja2FnZU5hbWUgPSBzdHJpbmdzLlRyaW1TcGFjZShwYWNrYWdlTmFtZSkKCWlmIHBhY2thZ2VOYW1lID09ICIiIHsKCQlyZXR1cm4gIiIKCX0KCglpZiBub2RlUGFja2FnZVNwZWNIYXNFeHBsaWNpdFZlcnNpb25PclNvdXJjZShwYWNrYWdlTmFtZSkgewoJCXJldHVybiBmbXQuU3ByaW50ZigiW05vZGUuanMg5L6d6LWWXSDlt7LmjInkvaDmjIflrprnmoTniYjmnKzmiJbmnaXmupDlronoo4XvvJolcyIsIHBhY2thZ2VOYW1lKQoJfQoKCWluc3RhbGxTcGVjIDo9IFJlc29sdmVOb2RlSW5zdGFsbFBhY2thZ2VTcGVjKHBhY2thZ2VOYW1lKQoJaWYgaW5zdGFsbFNwZWMgIT0gcGFja2FnZU5hbWUgewoJCXJldHVybiBmbXQuU3ByaW50ZigiW05vZGUuanMg5L6d6LWWXSAlcyDlt7Llkb3kuK0gQ29tbW9uSlMg5YW85a655pig5bCE77yM5bCG5a6J6KOF77yaJXMiLCBwYWNrYWdlTmFtZSwgaW5zdGFsbFNwZWMpCgl9CgoJLy8g5rKh5pyJ5ZG95Lit5pig5bCE5pe25b+F6aG75o+Q5YmN6K+05riF5qWa77yM6YG/5YWN55So5oi36K+v5Lul5Li66Z2i5p2/5LuN54S25Lya6Ieq5Yqo6ZmN57qn5YiwIENKUyDml6fniYjjgIIKCXJldHVybiBmbXQuU3ByaW50ZigiW05vZGUuanMg5L6d6LWWXSAlc++8muivpeWMheacquWcqOWFvOWuueaYoOWwhOS4re+8jOWwhuaMiSBucG0g6buY6K6k54mI5pys5a6J6KOF44CCIiwgcGFja2FnZU5hbWUpCn0KCmZ1bmMgbm9kZVBhY2thZ2VTcGVjSGFzRXhwbGljaXRWZXJzaW9uT3JTb3VyY2Uoc3BlYyBzdHJpbmcpIGJvb2wgewoJc3BlYyA9IHN0cmluZ3MuVHJpbVNwYWNlKHNwZWMpCglpZiBzcGVjID09ICIiIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglsb3dlciA6PSBzdHJpbmdzLlRvTG93ZXIoc3BlYykKCWZvciBfLCBwcmVmaXggOj0gcmFuZ2UgW11zdHJpbmd7CgkJImZpbGU6IiwgImxpbms6IiwgIndvcmtzcGFjZToiLCAibnBtOiIsCgkJImh0dHA6Ly8iLCAiaHR0cHM6Ly8iLAoJCSJnaXQrIiwgImdpdDovLyIsICJzc2g6Ly8iLAoJCSJnaXRodWI6IiwgImdpdGxhYjoiLCAiYml0YnVja2V0OiIsCgl9IHsKCQlpZiBzdHJpbmdzLkhhc1ByZWZpeChsb3dlciwgcHJlZml4KSB7CgkJCXJldHVybiB0cnVlCgkJfQoJfQoKCWlmIHN0cmluZ3MuSGFzUHJlZml4KHNwZWMsICJAIikgewoJCXBhcnRzIDo9IHN0cmluZ3MuU3BsaXROKHNwZWMsICIvIiwgMikKCQlpZiBsZW4ocGFydHMpICE9IDIgewoJCQlyZXR1cm4gZmFsc2UKCQl9CgkJcmV0dXJuIHN0cmluZ3MuTGFzdEluZGV4KHBhcnRzWzFdLCAiQCIpID4gMAoJfQoKCXJldHVybiBzdHJpbmdzLkxhc3RJbmRleChzcGVjLCAiQCIpID4gMAp9CgpmdW5jIE5ld05wbVVuaW5zdGFsbENvbW1hbmQocGFja2FnZU5hbWUgc3RyaW5nLCBmb3JjZSBib29sKSAoKmV4ZWMuQ21kLCBlcnJvcikgewoJbm9kZURpciA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuRGlyLCAiZGVwcyIsICJub2RlanMiKQoJaWYgZXJyIDo9IGVuc3VyZU5vZGVQYWNrYWdlTWFuaWZlc3Qobm9kZURpcik7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCWFyZ3MgOj0gW11zdHJpbmd7InVuaW5zdGFsbCIsICItLXByZWZpeCIsIG5vZGVEaXJ9CglpZiBmb3JjZSB7CgkJYXJncyA9IGFwcGVuZChhcmdzLCAiLS1mb3JjZSIpCgl9CglhcmdzID0gYXBwZW5kKGFyZ3MsIHBhY2thZ2VOYW1lKQoKCWNtZCA6PSBleGVjLkNvbW1hbmQoIm5wbSIsIGFyZ3MuLi4pCgljbWQuRW52ID0gTnBtSW5zdGFsbEVudihBcHBlbmRQcm94eUVudihvcy5FbnZpcm9uKCkpLCBDdXJyZW50TnBtTWlycm9yKCkpCglyZXR1cm4gY21kLCBuaWwKfQoKZnVuYyBlbnN1cmVOb2RlUGFja2FnZU1hbmlmZXN0KG5vZGVEaXIgc3RyaW5nKSBlcnJvciB7CglpZiBlcnIgOj0gb3MuTWtkaXJBbGwobm9kZURpciwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZm10LkVycm9yZigi5Yib5bu6IE5vZGUuanMg5L6d6LWW55uu5b2V5aSx6LSlOiAldyIsIGVycikKCX0KCglwYWNrYWdlSlNPTlBhdGggOj0gZmlsZXBhdGguSm9pbihub2RlRGlyLCAicGFja2FnZS5qc29uIikKCWRhdGEsIGVyciA6PSBvcy5SZWFkRmlsZShwYWNrYWdlSlNPTlBhdGgpCglpZiBvcy5Jc05vdEV4aXN0KGVycikgewoJCXJldHVybiB3cml0ZU5vZGVQYWNrYWdlTWFuaWZlc3QocGFja2FnZUpTT05QYXRoLCBjb2xsZWN0SW5zdGFsbGVkTm9kZURlcGVuZGVuY2llcyhub2RlRGlyKSkKCX0KCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBmbXQuRXJyb3JmKCLor7vlj5YgTm9kZS5qcyBwYWNrYWdlLmpzb24g5aSx6LSlOiAldyIsIGVycikKCX0KCgl2YXIgbWFuaWZlc3QgbWFwW3N0cmluZ11hbnkKCWlmIGVyciA6PSBqc29uLlVubWFyc2hhbChkYXRhLCAmbWFuaWZlc3QpOyBlcnIgPT0gbmlsICYmIG1hbmlmZXN0ICE9IG5pbCB7CgkJaWYgZGVwc1ZhbHVlLCBleGlzdHMgOj0gbWFuaWZlc3RbImRlcGVuZGVuY2llcyJdOyBleGlzdHMgewoJCQlpZiBfLCBvayA6PSBkZXBzVmFsdWUuKG1hcFtzdHJpbmddYW55KTsgIW9rIHsKCQkJCXJldHVybiBiYWNrdXBBbmRSZXdyaXRlTm9kZVBhY2thZ2VNYW5pZmVzdChwYWNrYWdlSlNPTlBhdGgsIG5vZGVEaXIpCgkJCX0KCQl9CgkJcmV0dXJuIG5pbAoJfQoKCXJldHVybiBiYWNrdXBBbmRSZXdyaXRlTm9kZVBhY2thZ2VNYW5pZmVzdChwYWNrYWdlSlNPTlBhdGgsIG5vZGVEaXIpCn0KCmZ1bmMgYmFja3VwQW5kUmV3cml0ZU5vZGVQYWNrYWdlTWFuaWZlc3QocGFja2FnZUpTT05QYXRoLCBub2RlRGlyIHN0cmluZykgZXJyb3IgewoJYmFja3VwUGF0aCA6PSBwYWNrYWdlSlNPTlBhdGggKyAiLmJyb2tlbi0iICsgdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYwMTAyMTUwNDA1IikKCWZvciBpbmRleCA6PSAxOyA7IGluZGV4KysgewoJCWlmIF8sIGVyciA6PSBvcy5TdGF0KGJhY2t1cFBhdGgpOyBvcy5Jc05vdEV4aXN0KGVycikgewoJCQlicmVhawoJCX0KCQliYWNrdXBQYXRoID0gZm10LlNwcmludGYoIiVzLmJyb2tlbi0lcy0lZCIsIHBhY2thZ2VKU09OUGF0aCwgdGltZS5Ob3coKS5Gb3JtYXQoIjIwMDYwMTAyMTUwNDA1IiksIGluZGV4KQoJfQoKCS8vIOWFiOWkh+S7veWdj+aWh+S7tu+8jOaWueS+v+eUqOaIt+WQjue7reaOkuafpe+8m+WGjeagueaNriBub2RlX21vZHVsZXMg6YeN5bu65LiA5LiqIG5wbSDog73op6PmnpDnmoTmnIDlsI8gcGFja2FnZS5qc29u44CCCglpZiBlcnIgOj0gb3MuUmVuYW1lKHBhY2thZ2VKU09OUGF0aCwgYmFja3VwUGF0aCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBmbXQuRXJyb3JmKCLlpIfku73mjZ/lnY/nmoQgTm9kZS5qcyBwYWNrYWdlLmpzb24g5aSx6LSlOiAldyIsIGVycikKCX0KCWlmIGVyciA6PSB3cml0ZU5vZGVQYWNrYWdlTWFuaWZlc3QocGFja2FnZUpTT05QYXRoLCBjb2xsZWN0SW5zdGFsbGVkTm9kZURlcGVuZGVuY2llcyhub2RlRGlyKSk7IGVyciAhPSBuaWwgewoJCXJldHVybiBlcnIKCX0KCXJldHVybiBuaWwKfQoKZnVuYyB3cml0ZU5vZGVQYWNrYWdlTWFuaWZlc3QocGFja2FnZUpTT05QYXRoIHN0cmluZywgZGVwZW5kZW5jaWVzIG1hcFtzdHJpbmddc3RyaW5nKSBlcnJvciB7CgltYW5pZmVzdCA6PSBtYXBbc3RyaW5nXWFueXsKCQkicHJpdmF0ZSI6ICAgICAgdHJ1ZSwKCQkiZGVwZW5kZW5jaWVzIjogZGVwZW5kZW5jaWVzLAoJfQoJZGF0YSwgZXJyIDo9IGpzb24uTWFyc2hhbEluZGVudChtYW5pZmVzdCwgIiIsICIgICIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZm10LkVycm9yZigi55Sf5oiQIE5vZGUuanMgcGFja2FnZS5qc29uIOWksei0pTogJXciLCBlcnIpCgl9CglkYXRhID0gYXBwZW5kKGRhdGEsICdcbicpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHBhY2thZ2VKU09OUGF0aCwgZGF0YSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZm10LkVycm9yZigi5YaZ5YWlIE5vZGUuanMgcGFja2FnZS5qc29uIOWksei0pTogJXciLCBlcnIpCgl9CglyZXR1cm4gbmlsCn0KCmZ1bmMgY29sbGVjdEluc3RhbGxlZE5vZGVEZXBlbmRlbmNpZXMobm9kZURpciBzdHJpbmcpIG1hcFtzdHJpbmddc3RyaW5nIHsKCWRlcGVuZGVuY2llcyA6PSBtYXBbc3RyaW5nXXN0cmluZ3t9Cglub2RlTW9kdWxlc0RpciA6PSBmaWxlcGF0aC5Kb2luKG5vZGVEaXIsICJub2RlX21vZHVsZXMiKQoJZW50cmllcywgZXJyIDo9IG9zLlJlYWREaXIobm9kZU1vZHVsZXNEaXIpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZGVwZW5kZW5jaWVzCgl9CgoJZm9yIF8sIGVudHJ5IDo9IHJhbmdlIGVudHJpZXMgewoJCWlmICFlbnRyeS5Jc0RpcigpIHx8IHN0cmluZ3MuSGFzUHJlZml4KGVudHJ5Lk5hbWUoKSwgIi4iKSB7CgkJCWNvbnRpbnVlCgkJfQoKCQlpZiBzdHJpbmdzLkhhc1ByZWZpeChlbnRyeS5OYW1lKCksICJAIikgewoJCQlzY29wZURpciA6PSBmaWxlcGF0aC5Kb2luKG5vZGVNb2R1bGVzRGlyLCBlbnRyeS5OYW1lKCkpCgkJCXNjb3BlRW50cmllcywgZXJyIDo9IG9zLlJlYWREaXIoc2NvcGVEaXIpCgkJCWlmIGVyciAhPSBuaWwgewoJCQkJY29udGludWUKCQkJfQoJCQlmb3IgXywgc2NvcGVFbnRyeSA6PSByYW5nZSBzY29wZUVudHJpZXMgewoJCQkJaWYgIXNjb3BlRW50cnkuSXNEaXIoKSB8fCBzdHJpbmdzLkhhc1ByZWZpeChzY29wZUVudHJ5Lk5hbWUoKSwgIi4iKSB7CgkJCQkJY29udGludWUKCQkJCX0KCQkJCWZhbGxiYWNrTmFtZSA6PSBmaWxlcGF0aC5Ub1NsYXNoKGZpbGVwYXRoLkpvaW4oZW50cnkuTmFtZSgpLCBzY29wZUVudHJ5Lk5hbWUoKSkpCgkJCQlhZGRJbnN0YWxsZWROb2RlRGVwZW5kZW5jeShkZXBlbmRlbmNpZXMsIGZpbGVwYXRoLkpvaW4oc2NvcGVEaXIsIHNjb3BlRW50cnkuTmFtZSgpKSwgZmFsbGJhY2tOYW1lKQoJCQl9CgkJCWNvbnRpbnVlCgkJfQoKCQlhZGRJbnN0YWxsZWROb2RlRGVwZW5kZW5jeShkZXBlbmRlbmNpZXMsIGZpbGVwYXRoLkpvaW4obm9kZU1vZHVsZXNEaXIsIGVudHJ5Lk5hbWUoKSksIGVudHJ5Lk5hbWUoKSkKCX0KCglyZXR1cm4gZGVwZW5kZW5jaWVzCn0KCmZ1bmMgYWRkSW5zdGFsbGVkTm9kZURlcGVuZGVuY3koZGVwZW5kZW5jaWVzIG1hcFtzdHJpbmddc3RyaW5nLCBtb2R1bGVEaXIsIGZhbGxiYWNrTmFtZSBzdHJpbmcpIHsKCWRhdGEsIGVyciA6PSBvcy5SZWFkRmlsZShmaWxlcGF0aC5Kb2luKG1vZHVsZURpciwgInBhY2thZ2UuanNvbiIpKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuCgl9CgoJdmFyIHBrZyBzdHJ1Y3QgewoJCU5hbWUgICAgc3RyaW5nIGBqc29uOiJuYW1lImAKCQlWZXJzaW9uIHN0cmluZyBganNvbjoidmVyc2lvbiJgCgl9CglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwoZGF0YSwgJnBrZyk7IGVyciAhPSBuaWwgewoJCXJldHVybgoJfQoKCW5hbWUgOj0gc3RyaW5ncy5UcmltU3BhY2UocGtnLk5hbWUpCglpZiBuYW1lID09ICIiIHsKCQluYW1lID0gc3RyaW5ncy5UcmltU3BhY2UoZmlsZXBhdGguVG9TbGFzaChmYWxsYmFja05hbWUpKQoJfQoJaWYgbmFtZSA9PSAiIiB7CgkJcmV0dXJuCgl9CgoJdmVyc2lvbiA6PSBzdHJpbmdzLlRyaW1TcGFjZShwa2cuVmVyc2lvbikKCWlmIHZlcnNpb24gPT0gIiIgewoJCWRlcGVuZGVuY2llc1tuYW1lXSA9ICIqIgoJCXJldHVybgoJfQoJZGVwZW5kZW5jaWVzW25hbWVdID0gIl4iICsgdmVyc2lvbgp9Cg==
+package service
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/config"
+)
+
+var nodePackageOperationMu sync.Mutex
+
+var nodeRequireCompatiblePackageSpecs = map[string]string{
+	"uuid":                   "uuid@8.3.2",
+	"axios":                  "axios@0.27.2",
+	"node-fetch":             "node-fetch@2.7.0",
+	"got":                    "got@11.8.6",
+	"chalk":                  "chalk@4.1.2",
+	"ora":                    "ora@5.4.1",
+	"execa":                  "execa@5.1.1",
+	"nanoid":                 "nanoid@3.3.7",
+	"p-limit":                "p-limit@3.1.0",
+	"p-queue":                "p-queue@6.6.2",
+	"p-retry":                "p-retry@4.6.2",
+	"p-timeout":              "p-timeout@4.1.0",
+	"quick-lru":              "quick-lru@5.1.1",
+	"yocto-queue":            "yocto-queue@0.1.0",
+	"is-stream":              "is-stream@2.0.1",
+	"is-port-reachable":      "is-port-reachable@3.1.0",
+	"make-dir":               "make-dir@3.1.0",
+	"find-up":                "find-up@5.0.0",
+	"locate-path":            "locate-path@6.0.0",
+	"path-exists":            "path-exists@4.0.0",
+	"camelcase":              "camelcase@6.3.0",
+	"decamelize":             "decamelize@4.0.0",
+	"supports-color":         "supports-color@8.1.1",
+	"file-type":              "file-type@16.5.4",
+	"mime":                   "mime@3.0.0",
+	"strip-ansi":             "strip-ansi@6.0.1",
+	"string-width":           "string-width@4.2.3",
+	"wrap-ansi":              "wrap-ansi@7.0.0",
+	"cli-truncate":           "cli-truncate@2.1.0",
+	"boxen":                  "boxen@5.1.2",
+	"open":                   "open@8.4.2",
+	"del":                    "del@6.1.1",
+	"globby":                 "globby@11.1.0",
+	"cheerio":                "cheerio@1.0.0-rc.12",
+	"undici":                 "undici@5.28.5",
+	"ws":                     "ws@7.5.10",
+	"tough-cookie":           "tough-cookie@4.1.4",
+	"form-data":              "form-data@4.0.0",
+	"https-proxy-agent":      "https-proxy-agent@5.0.1",
+	"http-proxy-agent":       "http-proxy-agent@5.0.0",
+	"socks-proxy-agent":      "socks-proxy-agent@7.0.0",
+	"hpagent":                "hpagent@1.2.0",
+	"tunnel":                 "tunnel@0.0.6",
+	"tunnel-agent":           "tunnel-agent@0.6.0",
+	"request":                "request@2.88.2",
+	"request-promise":        "request-promise@4.2.6",
+	"request-promise-native": "request-promise-native@1.0.9",
+	"crypto-js":              "crypto-js@4.2.0",
+	"md5":                    "md5@2.3.0",
+	"js-md5":                 "js-md5@0.7.3",
+	"qs":                     "qs@6.11.2",
+	"query-string":           "query-string@7.1.3",
+	"querystring":            "querystring@0.2.1",
+	"moment":                 "moment@2.29.4",
+	"dayjs":                  "dayjs@1.11.10",
+	"lodash":                 "lodash@4.17.21",
+	"dotenv":                 "dotenv@16.4.5",
+	"yaml":                   "yaml@2.3.4",
+	"js-yaml":                "js-yaml@4.1.0",
+	"adm-zip":                "adm-zip@0.5.10",
+	"node-rsa":               "node-rsa@1.1.1",
+	"rsa-pem-from-mod-exp":   "rsa-pem-from-mod-exp@0.8.5",
+	"iconv-lite":             "iconv-lite@0.6.3",
+	"date-fns":               "date-fns@2.30.0",
+	"csv-parse":              "csv-parse@5.5.6",
+	"fast-xml-parser":        "fast-xml-parser@4.3.6",
+	"xml2js":                 "xml2js@0.6.2",
+	"jsonwebtoken":           "jsonwebtoken@9.0.2",
+	"jimp":                   "jimp@0.22.12",
+	"fs-extra":               "fs-extra@11.2.0",
+	"data-uri-to-buffer":     "data-uri-to-buffer@3.0.1",
+	"fetch-blob":             "fetch-blob@2.1.2",
+	"formdata-polyfill":      "formdata-polyfill@4.0.10",
+}
+
+// LockNodePackageOperation 串行化 npm install / uninstall。
+// npm 会同时改 package.json / package-lock.json，并发执行时很容易把 JSON 写坏。
+func LockNodePackageOperation() func() {
+	nodePackageOperationMu.Lock()
+	return nodePackageOperationMu.Unlock
+}
+
+func NewNpmInstallCommand(packageName string) (*exec.Cmd, error) {
+	nodeDir := filepath.Join(config.C.Data.Dir, "deps", "nodejs")
+	if err := ensureNodePackageManifest(nodeDir); err != nil {
+		return nil, err
+	}
+
+	installSpec := ResolveNodeInstallPackageSpec(packageName)
+	cmd := exec.Command("npm", "install", "--prefix", nodeDir, installSpec)
+	cmd.Env = NpmInstallEnv(AppendProxyEnv(os.Environ()), CurrentNpmMirror())
+	return cmd, nil
+}
+
+func ResolveNodeInstallPackageSpec(packageName string) string {
+	packageName = strings.TrimSpace(packageName)
+	if packageName == "" || nodePackageSpecHasExplicitVersionOrSource(packageName) {
+		return packageName
+	}
+
+	// 常见 npm 包的新版本已经切到 ESM-only，旧脚本用 require() 会直接 ERR_REQUIRE_ESM。
+	// 这里仅对裸包名做兼容版本钉定；用户明确写版本、tag、URL、Git 或本地路径时保持原样。
+	normalized := NormalizeNodeDependencyPackageName(packageName)
+	if pinned, ok := nodeRequireCompatiblePackageSpecs[normalized]; ok {
+		return pinned
+	}
+	return packageName
+}
+
+func NodeInstallCompatibilityNotice(packageName string) string {
+	packageName = strings.TrimSpace(packageName)
+	if packageName == "" {
+		return ""
+	}
+
+	if nodePackageSpecHasExplicitVersionOrSource(packageName) {
+		return fmt.Sprintf("[Node.js 依赖] 已按你指定的版本或来源安装：%s", packageName)
+	}
+
+	installSpec := ResolveNodeInstallPackageSpec(packageName)
+	if installSpec != packageName {
+		return fmt.Sprintf("[Node.js 依赖] %s 已命中 CommonJS 兼容映射，将安装：%s", packageName, installSpec)
+	}
+
+	// 没有命中映射时必须提前说清楚，避免用户误以为面板仍然会自动降级到 CJS 旧版。
+	return fmt.Sprintf("[Node.js 依赖] %s：该包未在兼容映射中，将按 npm 默认版本安装。", packageName)
+}
+
+func nodePackageSpecHasExplicitVersionOrSource(spec string) bool {
+	spec = strings.TrimSpace(spec)
+	if spec == "" {
+		return false
+	}
+
+	lower := strings.ToLower(spec)
+	for _, prefix := range []string{
+		"file:", "link:", "workspace:", "npm:",
+		"http://", "https://",
+		"git+", "git://", "ssh://",
+		"github:", "gitlab:", "bitbucket:",
+	} {
+		if strings.HasPrefix(lower, prefix) {
+			return true
+		}
+	}
+
+	if strings.HasPrefix(spec, "@") {
+		parts := strings.SplitN(spec, "/", 2)
+		if len(parts) != 2 {
+			return false
+		}
+		return strings.LastIndex(parts[1], "@") > 0
+	}
+
+	return strings.LastIndex(spec, "@") > 0
+}
+
+func NewNpmUninstallCommand(packageName string, force bool) (*exec.Cmd, error) {
+	nodeDir := filepath.Join(config.C.Data.Dir, "deps", "nodejs")
+	if err := ensureNodePackageManifest(nodeDir); err != nil {
+		return nil, err
+	}
+
+	args := []string{"uninstall", "--prefix", nodeDir}
+	if force {
+		args = append(args, "--force")
+	}
+	args = append(args, packageName)
+
+	cmd := exec.Command("npm", args...)
+	cmd.Env = NpmInstallEnv(AppendProxyEnv(os.Environ()), CurrentNpmMirror())
+	return cmd, nil
+}
+
+func ensureNodePackageManifest(nodeDir string) error {
+	if err := os.MkdirAll(nodeDir, 0o755); err != nil {
+		return fmt.Errorf("创建 Node.js 依赖目录失败: %w", err)
+	}
+
+	packageJSONPath := filepath.Join(nodeDir, "package.json")
+	data, err := os.ReadFile(packageJSONPath)
+	if os.IsNotExist(err) {
+		return writeNodePackageManifest(packageJSONPath, collectInstalledNodeDependencies(nodeDir))
+	}
+	if err != nil {
+		return fmt.Errorf("读取 Node.js package.json 失败: %w", err)
+	}
+
+	var manifest map[string]any
+	if err := json.Unmarshal(data, &manifest); err == nil && manifest != nil {
+		if depsValue, exists := manifest["dependencies"]; exists {
+			if _, ok := depsValue.(map[string]any); !ok {
+				return backupAndRewriteNodePackageManifest(packageJSONPath, nodeDir)
+			}
+		}
+		return nil
+	}
+
+	return backupAndRewriteNodePackageManifest(packageJSONPath, nodeDir)
+}
+
+func backupAndRewriteNodePackageManifest(packageJSONPath, nodeDir string) error {
+	backupPath := packageJSONPath + ".broken-" + time.Now().Format("20060102150405")
+	for index := 1; ; index++ {
+		if _, err := os.Stat(backupPath); os.IsNotExist(err) {
+			break
+		}
+		backupPath = fmt.Sprintf("%s.broken-%s-%d", packageJSONPath, time.Now().Format("20060102150405"), index)
+	}
+
+	// 先备份坏文件，方便用户后续排查；再根据 node_modules 重建一个 npm 能解析的最小 package.json。
+	if err := os.Rename(packageJSONPath, backupPath); err != nil {
+		return fmt.Errorf("备份损坏的 Node.js package.json 失败: %w", err)
+	}
+	if err := writeNodePackageManifest(packageJSONPath, collectInstalledNodeDependencies(nodeDir)); err != nil {
+		return err
+	}
+	return nil
+}
+
+func writeNodePackageManifest(packageJSONPath string, dependencies map[string]string) error {
+	manifest := map[string]any{
+		"private":      true,
+		"dependencies": dependencies,
+	}
+	data, err := json.MarshalIndent(manifest, "", "  ")
+	if err != nil {
+		return fmt.Errorf("生成 Node.js package.json 失败: %w", err)
+	}
+	data = append(data, '\n')
+	if err := os.WriteFile(packageJSONPath, data, 0o644); err != nil {
+		return fmt.Errorf("写入 Node.js package.json 失败: %w", err)
+	}
+	return nil
+}
+
+func collectInstalledNodeDependencies(nodeDir string) map[string]string {
+	dependencies := map[string]string{}
+	nodeModulesDir := filepath.Join(nodeDir, "node_modules")
+	entries, err := os.ReadDir(nodeModulesDir)
+	if err != nil {
+		return dependencies
+	}
+
+	for _, entry := range entries {
+		if !entry.IsDir() || strings.HasPrefix(entry.Name(), ".") {
+			continue
+		}
+
+		if strings.HasPrefix(entry.Name(), "@") {
+			scopeDir := filepath.Join(nodeModulesDir, entry.Name())
+			scopeEntries, err := os.ReadDir(scopeDir)
+			if err != nil {
+				continue
+			}
+			for _, scopeEntry := range scopeEntries {
+				if !scopeEntry.IsDir() || strings.HasPrefix(scopeEntry.Name(), ".") {
+					continue
+				}
+				fallbackName := filepath.ToSlash(filepath.Join(entry.Name(), scopeEntry.Name()))
+				addInstalledNodeDependency(dependencies, filepath.Join(scopeDir, scopeEntry.Name()), fallbackName)
+			}
+			continue
+		}
+
+		addInstalledNodeDependency(dependencies, filepath.Join(nodeModulesDir, entry.Name()), entry.Name())
+	}
+
+	return dependencies
+}
+
+func addInstalledNodeDependency(dependencies map[string]string, moduleDir, fallbackName string) {
+	data, err := os.ReadFile(filepath.Join(moduleDir, "package.json"))
+	if err != nil {
+		return
+	}
+
+	var pkg struct {
+		Name    string `json:"name"`
+		Version string `json:"version"`
+	}
+	if err := json.Unmarshal(data, &pkg); err != nil {
+		return
+	}
+
+	name := strings.TrimSpace(pkg.Name)
+	if name == "" {
+		name = strings.TrimSpace(filepath.ToSlash(fallbackName))
+	}
+	if name == "" {
+		return
+	}
+
+	version := strings.TrimSpace(pkg.Version)
+	if version == "" {
+		dependencies[name] = "*"
+		return
+	}
+	dependencies[name] = "^" + version
+}

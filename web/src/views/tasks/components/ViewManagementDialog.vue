@@ -1,1 +1,307 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBuZXh0VGljaywgcmVmLCB3YXRjaCB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgRWxNZXNzYWdlLCBFbE1lc3NhZ2VCb3ggfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IFJhbmssIFZpZXcsIEhpZGUsIEVkaXQsIERlbGV0ZSB9IGZyb20gJ0BlbGVtZW50LXBsdXMvaWNvbnMtdnVlJwppbXBvcnQgeyB0YXNrVmlld0FwaSwgdHlwZSBUYXNrVmlldyB9IGZyb20gJ0AvYXBpL3Rhc2tWaWV3JwppbXBvcnQgeyB1c2VSZXNwb25zaXZlIH0gZnJvbSAnQC9jb21wb3NhYmxlcy91c2VSZXNwb25zaXZlJwoKaW50ZXJmYWNlIE1hbmFnZWRWaWV3IGV4dGVuZHMgVGFza1ZpZXcgewogIC8vIExvY2FsIHdvcmtpbmcgY29weSBvZiBgaGlkZGVuYCB0aGF0IG1heSBkaXZlcmdlIGZyb20gdGhlIHNhdmVkIHZhbHVlIHVudGlsCiAgLy8gdGhlIHVzZXIgY2xpY2tzIOS/neWtmC4gVGhlIG9yaWdpbmFsIGBoaWRkZW5gIGlzIGtlcHQgb24gdGhlIFRhc2tWaWV3IHNoYXBlLgogIF9oaWRkZW46IGJvb2xlYW4KfQoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgbW9kZWxWYWx1ZTogYm9vbGVhbgogIHZpZXdzOiBUYXNrVmlld1tdCn0+KCkKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgJ3VwZGF0ZTptb2RlbFZhbHVlJzogW3ZhbHVlOiBib29sZWFuXQogIHNhdmVkOiBbXQogIGVkaXQ6IFt2aWV3OiBUYXNrVmlld10KICBkZWxldGU6IFt2aWV3SWQ6IG51bWJlcl0KfT4oKQoKY29uc3QgeyBkaWFsb2dGdWxsc2NyZWVuIH0gPSB1c2VSZXNwb25zaXZlKCkKY29uc3Qgc2F2aW5nID0gcmVmKGZhbHNlKQpjb25zdCBtYW5hZ2VkID0gcmVmPE1hbmFnZWRWaWV3W10+KFtdKQpjb25zdCBsaXN0Q29udGFpbmVyID0gcmVmPEhUTUxFbGVtZW50IHwgbnVsbD4obnVsbCkKbGV0IHNvcnRhYmxlSW5zdGFuY2U6IGFueSA9IG51bGwKbGV0IHNvcnRhYmxlTG9hZGVyOiBQcm9taXNlPGFueT4gfCBudWxsID0gbnVsbAoKY29uc3QgaGlkZGVuQ291bnQgPSBjb21wdXRlZCgoKSA9PiBtYW5hZ2VkLnZhbHVlLmZpbHRlcih2ID0+IHYuX2hpZGRlbikubGVuZ3RoKQpjb25zdCB2aXNpYmxlQ291bnQgPSBjb21wdXRlZCgoKSA9PiBtYW5hZ2VkLnZhbHVlLmxlbmd0aCAtIGhpZGRlbkNvdW50LnZhbHVlKQoKZnVuY3Rpb24gY2xvbmVUb01hbmFnZWQoc291cmNlOiBUYXNrVmlld1tdKTogTWFuYWdlZFZpZXdbXSB7CiAgcmV0dXJuIHNvdXJjZS5tYXAodiA9PiAoeyAuLi52LCBfaGlkZGVuOiBCb29sZWFuKHYuaGlkZGVuKSB9KSkKfQoKZnVuY3Rpb24gbG9hZFNvcnRhYmxlKCkgewogIGlmICghc29ydGFibGVMb2FkZXIpIHsKICAgIHNvcnRhYmxlTG9hZGVyID0gaW1wb3J0KCdzb3J0YWJsZWpzJykudGhlbihtb2QgPT4gbW9kLmRlZmF1bHQpCiAgfQogIHJldHVybiBzb3J0YWJsZUxvYWRlcgp9Cgphc3luYyBmdW5jdGlvbiBpbml0U29ydGFibGUoKSB7CiAgdGVhcmRvd25Tb3J0YWJsZSgpCiAgaWYgKCFsaXN0Q29udGFpbmVyLnZhbHVlKSByZXR1cm4KICB0cnkgewogICAgY29uc3QgU29ydGFibGUgPSBhd2FpdCBsb2FkU29ydGFibGUoKQogICAgc29ydGFibGVJbnN0YW5jZSA9IFNvcnRhYmxlLmNyZWF0ZShsaXN0Q29udGFpbmVyLnZhbHVlLCB7CiAgICAgIGFuaW1hdGlvbjogMTUwLAogICAgICBoYW5kbGU6ICcudmlldy1kcmFnLWhhbmRsZScsCiAgICAgIGdob3N0Q2xhc3M6ICd2aWV3LXJvdy1naG9zdCcsCiAgICAgIGNob3NlbkNsYXNzOiAndmlldy1yb3ctY2hvc2VuJywKICAgICAgZHJhZ0NsYXNzOiAndmlldy1yb3ctZHJhZ2dpbmcnLAogICAgICBmb3JjZUZhbGxiYWNrOiB0cnVlLAogICAgICBvbkVuZDogKGV2dDogYW55KSA9PiB7CiAgICAgICAgY29uc3QgeyBvbGRJbmRleCwgbmV3SW5kZXggfSA9IGV2dAogICAgICAgIGlmIChvbGRJbmRleCA9PSBudWxsIHx8IG5ld0luZGV4ID09IG51bGwgfHwgb2xkSW5kZXggPT09IG5ld0luZGV4KSByZXR1cm4KICAgICAgICBjb25zdCBbbW92ZWRdID0gbWFuYWdlZC52YWx1ZS5zcGxpY2Uob2xkSW5kZXgsIDEpCiAgICAgICAgaWYgKCFtb3ZlZCkgcmV0dXJuCiAgICAgICAgbWFuYWdlZC52YWx1ZS5zcGxpY2UobmV3SW5kZXgsIDAsIG1vdmVkKQogICAgICB9CiAgICB9KQogIH0gY2F0Y2ggKGVycikgewogICAgY29uc29sZS53YXJuKCdmYWlsZWQgdG8gaW5pdCBzb3J0YWJsZSBmb3IgdmlldyBtYW5hZ2VyJywgZXJyKQogIH0KfQoKZnVuY3Rpb24gdGVhcmRvd25Tb3J0YWJsZSgpIHsKICBpZiAoc29ydGFibGVJbnN0YW5jZSkgewogICAgc29ydGFibGVJbnN0YW5jZS5kZXN0cm95KCkKICAgIHNvcnRhYmxlSW5zdGFuY2UgPSBudWxsCiAgfQp9CgpmdW5jdGlvbiB0b2dnbGVIaWRkZW4odmlldzogTWFuYWdlZFZpZXcpIHsKICB2aWV3Ll9oaWRkZW4gPSAhdmlldy5faGlkZGVuCn0KCmZ1bmN0aW9uIGhhbmRsZUVkaXQodmlldzogTWFuYWdlZFZpZXcpIHsKICBlbWl0KCdlZGl0JywgdmlldyBhcyBUYXNrVmlldykKICBlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsIGZhbHNlKQp9Cgphc3luYyBmdW5jdGlvbiBoYW5kbGVEZWxldGUodmlldzogTWFuYWdlZFZpZXcpIHsKICB0cnkgewogICAgYXdhaXQgRWxNZXNzYWdlQm94LmNvbmZpcm0oYOehruiupOWIoOmZpOinhuWbvuOAjCR7dmlldy5uYW1lfeOAjeWQl++8n2AsICfliKDpmaTnoa7orqQnLCB7IHR5cGU6ICd3YXJuaW5nJyB9KQogICAgZW1pdCgnZGVsZXRlJywgdmlldy5pZCkKICB9IGNhdGNoIHsKICAgIC8vIGNhbmNlbGxlZAogIH0KfQoKYXN5bmMgZnVuY3Rpb24gaGFuZGxlU2F2ZSgpIHsKICBpZiAobWFuYWdlZC52YWx1ZS5sZW5ndGggPT09IDApIHsKICAgIGVtaXQoJ3VwZGF0ZTptb2RlbFZhbHVlJywgZmFsc2UpCiAgICByZXR1cm4KICB9CiAgc2F2aW5nLnZhbHVlID0gdHJ1ZQogIHRyeSB7CiAgICAvLyBEZW5zZSByZS1udW1iZXJpbmcga2VlcHMgc29ydF9vcmRlciBjb250aWd1b3VzIGFuZCBtaXJyb3JzIHRoZQogICAgLy8gdmlzaWJsZSBsaXN0IG9yZGVyLgogICAgY29uc3QgcGF5bG9hZCA9IG1hbmFnZWQudmFsdWUubWFwKCh2aWV3LCBpbmRleCkgPT4gKHsKICAgICAgaWQ6IHZpZXcuaWQsCiAgICAgIHNvcnRfb3JkZXI6IChpbmRleCArIDEpICogMTAsCiAgICAgIGhpZGRlbjogdmlldy5faGlkZGVuCiAgICB9KSkKICAgIGF3YWl0IHRhc2tWaWV3QXBpLnJlb3JkZXIocGF5bG9hZCkKICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfop4blm77orr7nva7lt7Lkv53lrZgnKQogICAgZW1pdCgnc2F2ZWQnKQogICAgZW1pdCgndXBkYXRlOm1vZGVsVmFsdWUnLCBmYWxzZSkKICB9IGNhdGNoIChlcnI6IGFueSkgewogICAgRWxNZXNzYWdlLmVycm9yKGVycj8ucmVzcG9uc2U/LmRhdGE/LmVycm9yIHx8IGVycj8ubWVzc2FnZSB8fCAn5L+d5a2Y5aSx6LSlJykKICB9IGZpbmFsbHkgewogICAgc2F2aW5nLnZhbHVlID0gZmFsc2UKICB9Cn0KCmZ1bmN0aW9uIGhhbmRsZUNsb3NlKHZpc2libGU6IGJvb2xlYW4pIHsKICBlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsIHZpc2libGUpCn0KCndhdGNoKAogICgpID0+IHByb3BzLm1vZGVsVmFsdWUsCiAgYXN5bmMgKG9wZW4pID0+IHsKICAgIGlmIChvcGVuKSB7CiAgICAgIG1hbmFnZWQudmFsdWUgPSBjbG9uZVRvTWFuYWdlZChwcm9wcy52aWV3cykKICAgICAgYXdhaXQgbmV4dFRpY2soKQogICAgICBhd2FpdCBpbml0U29ydGFibGUoKQogICAgfSBlbHNlIHsKICAgICAgdGVhcmRvd25Tb3J0YWJsZSgpCiAgICB9CiAgfQopCgp3YXRjaCgKICAoKSA9PiBwcm9wcy52aWV3cywKICAobmV4dCkgPT4gewogICAgaWYgKHByb3BzLm1vZGVsVmFsdWUpIHsKICAgICAgbWFuYWdlZC52YWx1ZSA9IGNsb25lVG9NYW5hZ2VkKG5leHQpCiAgICB9CiAgfSwKICB7IGRlZXA6IHRydWUgfQopCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1kaWFsb2cKICAgIDptb2RlbC12YWx1ZT0ibW9kZWxWYWx1ZSIKICAgIHRpdGxlPSLop4blm77nrqHnkIYiCiAgICB3aWR0aD0iNTIwcHgiCiAgICA6ZnVsbHNjcmVlbj0iZGlhbG9nRnVsbHNjcmVlbiIKICAgIDpsb2NrLXNjcm9sbD0iZmFsc2UiCiAgICA6Y2xvc2Utb24tY2xpY2stbW9kYWw9ImZhbHNlIgogICAgQHVwZGF0ZTptb2RlbC12YWx1ZT0iaGFuZGxlQ2xvc2UiCiAgPgogICAgPGRpdiB2LWlmPSJtYW5hZ2VkLmxlbmd0aCA9PT0gMCIgY2xhc3M9InZpZXctbWFuYWdlci1lbXB0eSI+CiAgICAgIOi/mOayoeacieS7u+S9leiHquWumuS5ieinhuWbvu+8jOWFiOS7juagh+etvuagj+WPs+S+p+eahOOAjCvjgI3liJvlu7rkuIDkuKror5Xor5XjgIIKICAgIDwvZGl2PgogICAgPHRlbXBsYXRlIHYtZWxzZT4KICAgICAgPGRpdiBjbGFzcz0idmlldy1tYW5hZ2VyLWhpbnQiPgogICAgICAgIOaLluWKqOW3puS+p+aKiuaJi+iwg+aVtOmhuuW6j++8jOWPs+S+p+W8gOWFs+aOp+WItuaYr+WQpuWcqOagh+etvuagj+WxleekuuOAggogICAgICAgIDxzcGFuIGNsYXNzPSJ2aWV3LW1hbmFnZXItY291bnRzIj7lhbEge3sgbWFuYWdlZC5sZW5ndGggfX0g5LiqIMK3IOaYvuekuiB7eyB2aXNpYmxlQ291bnQgfX0gwrcg6ZqQ6JePIHt7IGhpZGRlbkNvdW50IH19PC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiByZWY9Imxpc3RDb250YWluZXIiIGNsYXNzPSJ2aWV3LW1hbmFnZXItbGlzdCI+CiAgICAgICAgPGRpdgogICAgICAgICAgdi1mb3I9InZpZXcgaW4gbWFuYWdlZCIKICAgICAgICAgIDprZXk9InZpZXcuaWQiCiAgICAgICAgICBjbGFzcz0idmlldy1tYW5hZ2VyLXJvdyIKICAgICAgICAgIDpjbGFzcz0ieyAnaXMtaGlkZGVuJzogdmlldy5faGlkZGVuIH0iCiAgICAgICAgICA6ZGF0YS1pZD0idmlldy5pZCIKICAgICAgICA+CiAgICAgICAgICA8c3BhbiBjbGFzcz0idmlldy1kcmFnLWhhbmRsZSIgOnRpdGxlPSIn5ouW5Yqo5o6S5bqPJyI+CiAgICAgICAgICAgIDxlbC1pY29uPjxSYW5rIC8+PC9lbC1pY29uPgogICAgICAgICAgPC9zcGFuPgogICAgICAgICAgPHNwYW4gY2xhc3M9InZpZXctcm93LW5hbWUiPnt7IHZpZXcubmFtZSB9fTwvc3Bhbj4KICAgICAgICAgIDxkaXYgY2xhc3M9InZpZXctcm93LWFjdGlvbnMiPgogICAgICAgICAgICA8ZWwtdG9vbHRpcCBjb250ZW50PSLnvJbovpEiIHBsYWNlbWVudD0idG9wIj4KICAgICAgICAgICAgICA8ZWwtYnV0dG9uIHNpemU9InNtYWxsIiB0eXBlPSJwcmltYXJ5IiBwbGFpbiBjaXJjbGUgQGNsaWNrPSJoYW5kbGVFZGl0KHZpZXcpIj4KICAgICAgICAgICAgICAgIDxlbC1pY29uPjxFZGl0IC8+PC9lbC1pY29uPgogICAgICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgICA8L2VsLXRvb2x0aXA+CiAgICAgICAgICAgIDxlbC10b29sdGlwIGNvbnRlbnQ9IuWIoOmZpCIgcGxhY2VtZW50PSJ0b3AiPgogICAgICAgICAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIHR5cGU9ImRhbmdlciIgcGxhaW4gY2lyY2xlIEBjbGljaz0iaGFuZGxlRGVsZXRlKHZpZXcpIj4KICAgICAgICAgICAgICAgIDxlbC1pY29uPjxEZWxldGUgLz48L2VsLWljb24+CiAgICAgICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgICAgIDwvZWwtdG9vbHRpcD4KICAgICAgICAgICAgPGVsLXRvb2x0aXAgOmNvbnRlbnQ9InZpZXcuX2hpZGRlbiA/ICflnKjmoIfnrb7moI/pmpDol48nIDogJ+WcqOagh+etvuagj+aYvuekuiciIHBsYWNlbWVudD0idG9wIj4KICAgICAgICAgICAgICA8ZWwtc3dpdGNoCiAgICAgICAgICAgICAgICA6bW9kZWwtdmFsdWU9IiF2aWV3Ll9oaWRkZW4iCiAgICAgICAgICAgICAgICBpbmxpbmUtcHJvbXB0CiAgICAgICAgICAgICAgICA6YWN0aXZlLWljb249IlZpZXciCiAgICAgICAgICAgICAgICA6aW5hY3RpdmUtaWNvbj0iSGlkZSIKICAgICAgICAgICAgICAgIEB1cGRhdGU6bW9kZWwtdmFsdWU9InRvZ2dsZUhpZGRlbih2aWV3KSIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L2VsLXRvb2x0aXA+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgoKICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICA8ZWwtYnV0dG9uIEBjbGljaz0iaGFuZGxlQ2xvc2UoZmFsc2UpIj7lj5bmtog8L2VsLWJ1dHRvbj4KICAgICAgPGVsLWJ1dHRvbgogICAgICAgIHR5cGU9InByaW1hcnkiCiAgICAgICAgOmxvYWRpbmc9InNhdmluZyIKICAgICAgICA6ZGlzYWJsZWQ9Im1hbmFnZWQubGVuZ3RoID09PSAwIgogICAgICAgIEBjbGljaz0iaGFuZGxlU2F2ZSIKICAgICAgPgogICAgICAgIOS/neWtmAogICAgICA8L2VsLWJ1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgoudmlldy1tYW5hZ2VyLWVtcHR5IHsKICBwYWRkaW5nOiAyNHB4IDA7CiAgdGV4dC1hbGlnbjogY2VudGVyOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7Cn0KCi52aWV3LW1hbmFnZXItaGludCB7CiAgZm9udC1zaXplOiAxM3B4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7CiAgbWFyZ2luLWJvdHRvbTogMTJweDsKICBkaXNwbGF5OiBmbGV4OwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKICBnYXA6IDEycHg7CiAgZmxleC13cmFwOiB3cmFwOwp9Cgoudmlldy1tYW5hZ2VyLWNvdW50cyB7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcGxhY2Vob2xkZXIpOwp9Cgoudmlldy1tYW5hZ2VyLWxpc3QgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDZweDsKICBtYXgtaGVpZ2h0OiA0MjBweDsKICBvdmVyZmxvdy15OiBhdXRvOwogIHBhZGRpbmctcmlnaHQ6IDRweDsKfQoKLnZpZXctbWFuYWdlci1yb3cgewogIGRpc3BsYXk6IGZsZXg7CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEycHg7CiAgcGFkZGluZzogOHB4IDEwcHg7CiAgYmFja2dyb3VuZDogdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodGVyKTsKICBib3JkZXI6IDFweCBzb2xpZCB0cmFuc3BhcmVudDsKICBib3JkZXItcmFkaXVzOiA2cHg7CiAgdHJhbnNpdGlvbjogYm9yZGVyLWNvbG9yIDAuMTVzLCBiYWNrZ3JvdW5kIDAuMTVzLCBvcGFjaXR5IDAuMTVzOwoKICAmOmhvdmVyIHsKICAgIGJvcmRlci1jb2xvcjogdmFyKC0tZWwtYm9yZGVyLWNvbG9yKTsKICB9CgogICYuaXMtaGlkZGVuIHsKICAgIG9wYWNpdHk6IDAuNTU7CiAgfQp9Cgoudmlldy1kcmFnLWhhbmRsZSB7CiAgY3Vyc29yOiBncmFiOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXBsYWNlaG9sZGVyKTsKICBkaXNwbGF5OiBpbmxpbmUtZmxleDsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIHBhZGRpbmc6IDJweDsKCiAgJjphY3RpdmUgewogICAgY3Vyc29yOiBncmFiYmluZzsKICB9Cn0KCi52aWV3LXJvdy1uYW1lIHsKICBmbGV4OiAxOwogIGZvbnQtc2l6ZTogMTRweDsKICBmb250LXdlaWdodDogNTAwOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwogIHdvcmQtYnJlYWs6IGJyZWFrLXdvcmQ7Cn0KCi52aWV3LXJvdy1hY3Rpb25zIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA4cHg7CiAgZmxleC1zaHJpbms6IDA7Cn0KCi52aWV3LXJvdy1naG9zdCB7CiAgb3BhY2l0eTogMC40OwogIGJhY2tncm91bmQ6IHZhcigtLWVsLWNvbG9yLXByaW1hcnktbGlnaHQtOSk7Cn0KCi52aWV3LXJvdy1jaG9zZW4gewogIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3IpOwp9Cgoudmlldy1yb3ctZHJhZ2dpbmcgewogIGJveC1zaGFkb3c6IDAgNnB4IDE2cHggcmdiYSgwLCAwLCAwLCAwLjEyKTsKfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import { computed, nextTick, ref, watch } from 'vue'
+import { ElMessage, ElMessageBox } from 'element-plus'
+import { Rank, View, Hide, Edit, Delete } from '@element-plus/icons-vue'
+import { taskViewApi, type TaskView } from '@/api/taskView'
+import { useResponsive } from '@/composables/useResponsive'
+
+interface ManagedView extends TaskView {
+  // Local working copy of `hidden` that may diverge from the saved value until
+  // the user clicks 保存. The original `hidden` is kept on the TaskView shape.
+  _hidden: boolean
+}
+
+const props = defineProps<{
+  modelValue: boolean
+  views: TaskView[]
+}>()
+
+const emit = defineEmits<{
+  'update:modelValue': [value: boolean]
+  saved: []
+  edit: [view: TaskView]
+  delete: [viewId: number]
+}>()
+
+const { dialogFullscreen } = useResponsive()
+const saving = ref(false)
+const managed = ref<ManagedView[]>([])
+const listContainer = ref<HTMLElement | null>(null)
+let sortableInstance: any = null
+let sortableLoader: Promise<any> | null = null
+
+const hiddenCount = computed(() => managed.value.filter(v => v._hidden).length)
+const visibleCount = computed(() => managed.value.length - hiddenCount.value)
+
+function cloneToManaged(source: TaskView[]): ManagedView[] {
+  return source.map(v => ({ ...v, _hidden: Boolean(v.hidden) }))
+}
+
+function loadSortable() {
+  if (!sortableLoader) {
+    sortableLoader = import('sortablejs').then(mod => mod.default)
+  }
+  return sortableLoader
+}
+
+async function initSortable() {
+  teardownSortable()
+  if (!listContainer.value) return
+  try {
+    const Sortable = await loadSortable()
+    sortableInstance = Sortable.create(listContainer.value, {
+      animation: 150,
+      handle: '.view-drag-handle',
+      ghostClass: 'view-row-ghost',
+      chosenClass: 'view-row-chosen',
+      dragClass: 'view-row-dragging',
+      forceFallback: true,
+      onEnd: (evt: any) => {
+        const { oldIndex, newIndex } = evt
+        if (oldIndex == null || newIndex == null || oldIndex === newIndex) return
+        const [moved] = managed.value.splice(oldIndex, 1)
+        if (!moved) return
+        managed.value.splice(newIndex, 0, moved)
+      }
+    })
+  } catch (err) {
+    console.warn('failed to init sortable for view manager', err)
+  }
+}
+
+function teardownSortable() {
+  if (sortableInstance) {
+    sortableInstance.destroy()
+    sortableInstance = null
+  }
+}
+
+function toggleHidden(view: ManagedView) {
+  view._hidden = !view._hidden
+}
+
+function handleEdit(view: ManagedView) {
+  emit('edit', view as TaskView)
+  emit('update:modelValue', false)
+}
+
+async function handleDelete(view: ManagedView) {
+  try {
+    await ElMessageBox.confirm(`确认删除视图「${view.name}」吗？`, '删除确认', { type: 'warning' })
+    emit('delete', view.id)
+  } catch {
+    // cancelled
+  }
+}
+
+async function handleSave() {
+  if (managed.value.length === 0) {
+    emit('update:modelValue', false)
+    return
+  }
+  saving.value = true
+  try {
+    // Dense re-numbering keeps sort_order contiguous and mirrors the
+    // visible list order.
+    const payload = managed.value.map((view, index) => ({
+      id: view.id,
+      sort_order: (index + 1) * 10,
+      hidden: view._hidden
+    }))
+    await taskViewApi.reorder(payload)
+    ElMessage.success('视图设置已保存')
+    emit('saved')
+    emit('update:modelValue', false)
+  } catch (err: any) {
+    ElMessage.error(err?.response?.data?.error || err?.message || '保存失败')
+  } finally {
+    saving.value = false
+  }
+}
+
+function handleClose(visible: boolean) {
+  emit('update:modelValue', visible)
+}
+
+watch(
+  () => props.modelValue,
+  async (open) => {
+    if (open) {
+      managed.value = cloneToManaged(props.views)
+      await nextTick()
+      await initSortable()
+    } else {
+      teardownSortable()
+    }
+  }
+)
+
+watch(
+  () => props.views,
+  (next) => {
+    if (props.modelValue) {
+      managed.value = cloneToManaged(next)
+    }
+  },
+  { deep: true }
+)
+</script>
+
+<template>
+  <el-dialog
+    :model-value="modelValue"
+    title="视图管理"
+    width="520px"
+    :fullscreen="dialogFullscreen"
+    :lock-scroll="false"
+    :close-on-click-modal="false"
+    @update:model-value="handleClose"
+  >
+    <div v-if="managed.length === 0" class="view-manager-empty">
+      还没有任何自定义视图，先从标签栏右侧的「+」创建一个试试。
+    </div>
+    <template v-else>
+      <div class="view-manager-hint">
+        拖动左侧把手调整顺序，右侧开关控制是否在标签栏展示。
+        <span class="view-manager-counts">共 {{ managed.length }} 个 · 显示 {{ visibleCount }} · 隐藏 {{ hiddenCount }}</span>
+      </div>
+      <div ref="listContainer" class="view-manager-list">
+        <div
+          v-for="view in managed"
+          :key="view.id"
+          class="view-manager-row"
+          :class="{ 'is-hidden': view._hidden }"
+          :data-id="view.id"
+        >
+          <span class="view-drag-handle" :title="'拖动排序'">
+            <el-icon><Rank /></el-icon>
+          </span>
+          <span class="view-row-name">{{ view.name }}</span>
+          <div class="view-row-actions">
+            <el-tooltip content="编辑" placement="top">
+              <el-button size="small" type="primary" plain circle @click="handleEdit(view)">
+                <el-icon><Edit /></el-icon>
+              </el-button>
+            </el-tooltip>
+            <el-tooltip content="删除" placement="top">
+              <el-button size="small" type="danger" plain circle @click="handleDelete(view)">
+                <el-icon><Delete /></el-icon>
+              </el-button>
+            </el-tooltip>
+            <el-tooltip :content="view._hidden ? '在标签栏隐藏' : '在标签栏显示'" placement="top">
+              <el-switch
+                :model-value="!view._hidden"
+                inline-prompt
+                :active-icon="View"
+                :inactive-icon="Hide"
+                @update:model-value="toggleHidden(view)"
+              />
+            </el-tooltip>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <template #footer>
+      <el-button @click="handleClose(false)">取消</el-button>
+      <el-button
+        type="primary"
+        :loading="saving"
+        :disabled="managed.length === 0"
+        @click="handleSave"
+      >
+        保存
+      </el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+.view-manager-empty {
+  padding: 24px 0;
+  text-align: center;
+  color: var(--el-text-color-secondary);
+}
+
+.view-manager-hint {
+  font-size: 13px;
+  color: var(--el-text-color-secondary);
+  margin-bottom: 12px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.view-manager-counts {
+  color: var(--el-text-color-placeholder);
+}
+
+.view-manager-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 420px;
+  overflow-y: auto;
+  padding-right: 4px;
+}
+
+.view-manager-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 10px;
+  background: var(--el-fill-color-lighter);
+  border: 1px solid transparent;
+  border-radius: 6px;
+  transition: border-color 0.15s, background 0.15s, opacity 0.15s;
+
+  &:hover {
+    border-color: var(--el-border-color);
+  }
+
+  &.is-hidden {
+    opacity: 0.55;
+  }
+}
+
+.view-drag-handle {
+  cursor: grab;
+  color: var(--el-text-color-placeholder);
+  display: inline-flex;
+  align-items: center;
+  padding: 2px;
+
+  &:active {
+    cursor: grabbing;
+  }
+}
+
+.view-row-name {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--el-text-color-primary);
+  word-break: break-word;
+}
+
+.view-row-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.view-row-ghost {
+  opacity: 0.4;
+  background: var(--el-color-primary-light-9);
+}
+
+.view-row-chosen {
+  background: var(--el-fill-color);
+}
+
+.view-row-dragging {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+</style>

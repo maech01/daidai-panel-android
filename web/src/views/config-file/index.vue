@@ -1,1 +1,366 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCBvbk1vdW50ZWQsIHJlZiB9IGZyb20gJ3Z1ZScKaW1wb3J0IHsgRWxNZXNzYWdlIH0gZnJvbSAnZWxlbWVudC1wbHVzJwppbXBvcnQgeyBDaGVjaywgQ29weURvY3VtZW50LCBEb2N1bWVudCwgUmVmcmVzaCB9IGZyb20gJ0BlbGVtZW50LXBsdXMvaWNvbnMtdnVlJwppbXBvcnQgeyBjb25maWdTY3JpcHRBcGkgfSBmcm9tICdAL2FwaS9zeXN0ZW0nCmltcG9ydCBNb25hY29FZGl0b3IgZnJvbSAnQC9jb21wb25lbnRzL01vbmFjb0VkaXRvci52dWUnCmltcG9ydCB7IGNvcHlUZXh0IH0gZnJvbSAnQC91dGlscy9jbGlwYm9hcmQnCgpjb25zdCBjb250ZW50ID0gcmVmKCcnKQpjb25zdCBzYXZlZENvbnRlbnQgPSByZWYoJycpCmNvbnN0IGNvbmZpZ1BhdGggPSByZWYoJ2NvbmZpZy5zaCcpCmNvbnN0IGxvYWRpbmcgPSByZWYoZmFsc2UpCmNvbnN0IHNhdmluZyA9IHJlZihmYWxzZSkKY29uc3QgY29weWluZyA9IHJlZihmYWxzZSkKCmNvbnN0IGhhc0NoYW5nZWQgPSBjb21wdXRlZCgoKSA9PiBjb250ZW50LnZhbHVlICE9PSBzYXZlZENvbnRlbnQudmFsdWUpCmNvbnN0IGxpbmVDb3VudCA9IGNvbXB1dGVkKCgpID0+IGNvbnRlbnQudmFsdWUgPT09ICcnID8gMCA6IGNvbnRlbnQudmFsdWUuc3BsaXQoL1xyXG58XG58XHIvKS5sZW5ndGgpCmNvbnN0IGJ5dGVTaXplTGFiZWwgPSBjb21wdXRlZCgoKSA9PiB7CiAgY29uc3QgYnl0ZXMgPSBuZXcgQmxvYihbY29udGVudC52YWx1ZV0pLnNpemUKICBpZiAoYnl0ZXMgPCAxMDI0KSByZXR1cm4gYCR7Ynl0ZXN9IEJgCiAgaWYgKGJ5dGVzIDwgMTAyNCAqIDEwMjQpIHJldHVybiBgJHsoYnl0ZXMgLyAxMDI0KS50b0ZpeGVkKDEpfSBLQmAKICByZXR1cm4gYCR7KGJ5dGVzIC8gMTAyNCAvIDEwMjQpLnRvRml4ZWQoMSl9IE1CYAp9KQoKb25Nb3VudGVkKCgpID0+IHsKICB2b2lkIGxvYWRDb25maWdTY3JpcHQoKQp9KQoKYXN5bmMgZnVuY3Rpb24gbG9hZENvbmZpZ1NjcmlwdChzaG93U3VjY2VzcyA9IGZhbHNlKSB7CiAgbG9hZGluZy52YWx1ZSA9IHRydWUKICB0cnkgewogICAgY29uc3QgcmVzID0gYXdhaXQgY29uZmlnU2NyaXB0QXBpLmdldCgpCiAgICBjb250ZW50LnZhbHVlID0gcmVzLmNvbnRlbnQgPz8gJycKICAgIHNhdmVkQ29udGVudC52YWx1ZSA9IHJlcy5jb250ZW50ID8/ICcnCiAgICBjb25maWdQYXRoLnZhbHVlID0gcmVzLnBhdGggfHwgJ2NvbmZpZy5zaCcKICAgIGlmIChzaG93U3VjY2VzcykgewogICAgICBFbE1lc3NhZ2Uuc3VjY2Vzcygn6YWN572u5paH5Lu25bey5Yi35pawJykKICAgIH0KICB9IGNhdGNoIHsKICAgIGNvbnRlbnQudmFsdWUgPSAnJwogICAgc2F2ZWRDb250ZW50LnZhbHVlID0gJycKICAgIEVsTWVzc2FnZS5lcnJvcign5Yqg6L296YWN572u5paH5Lu25aSx6LSlJykKICB9IGZpbmFsbHkgewogICAgbG9hZGluZy52YWx1ZSA9IGZhbHNlCiAgfQp9Cgphc3luYyBmdW5jdGlvbiBzYXZlQ29uZmlnU2NyaXB0KCkgewogIHNhdmluZy52YWx1ZSA9IHRydWUKICB0cnkgewogICAgYXdhaXQgY29uZmlnU2NyaXB0QXBpLnNhdmUoY29udGVudC52YWx1ZSkKICAgIHNhdmVkQ29udGVudC52YWx1ZSA9IGNvbnRlbnQudmFsdWUKICAgIEVsTWVzc2FnZS5zdWNjZXNzKCfphY3nva7mlofku7blt7Lkv53lrZgnKQogIH0gY2F0Y2ggewogICAgRWxNZXNzYWdlLmVycm9yKCfkv53lrZjphY3nva7mlofku7blpLHotKUnKQogIH0gZmluYWxseSB7CiAgICBzYXZpbmcudmFsdWUgPSBmYWxzZQogIH0KfQoKYXN5bmMgZnVuY3Rpb24gY29weUNvbmZpZ1NjcmlwdCgpIHsKICBjb3B5aW5nLnZhbHVlID0gdHJ1ZQogIHRyeSB7CiAgICBhd2FpdCBjb3B5VGV4dChjb250ZW50LnZhbHVlKQogICAgRWxNZXNzYWdlLnN1Y2Nlc3MoJ+mFjee9ruaWh+S7tuWGheWuueW3suWkjeWIticpCiAgfSBjYXRjaCB7CiAgICBFbE1lc3NhZ2UuZXJyb3IoJ+WkjeWItuWksei0pe+8jOivt+ajgOafpea1j+iniOWZqOadg+mZkOaIluermeeCueiuv+mXruaWueW8jycpCiAgfSBmaW5hbGx5IHsKICAgIGNvcHlpbmcudmFsdWUgPSBmYWxzZQogIH0KfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZGl2IGNsYXNzPSJjb25maWctZmlsZS1wYWdlIGRkLXNjcm9sbC1wYWdlIGRkLXBhZ2UtaGlkZS1oZWFkaW5nIj4KICAgIDxkaXYgY2xhc3M9InBhZ2UtaGVhZGVyIj4KICAgICAgPGRpdj4KICAgICAgICA8aDIgY2xhc3M9InBhZ2UtdGl0bGUtd2l0aC1pY29uIj4KICAgICAgICAgIDxlbC1pY29uPjxEb2N1bWVudCAvPjwvZWwtaWNvbj4KICAgICAgICAgIDxzcGFuPumFjee9ruaWh+S7tjwvc3Bhbj4KICAgICAgICA8L2gyPgogICAgICAgIDxwIGNsYXNzPSJwYWdlLXN1YnRpdGxlIj4KICAgICAgICAgIOmbhuS4ree7tOaKpCA8Y29kZT5jb25maWcuc2g8L2NvZGU+77yM6ISa5pys6L+Q6KGM5YmN5Lya6Ieq5Yqo5Yqg6L296L+Z6YeM55qE5YWx5Lqr6YWN572u44CCCiAgICAgICAgPC9wPgogICAgICA8L2Rpdj4KICAgICAgPGRpdiBjbGFzcz0iaGVhZGVyLWFjdGlvbnMiPgogICAgICAgIDxlbC10YWcgdi1pZj0iaGFzQ2hhbmdlZCIgdHlwZT0id2FybmluZyIgZWZmZWN0PSJwbGFpbiI+5pyJ5pyq5L+d5a2Y5L+u5pS5PC9lbC10YWc+CiAgICAgICAgPGVsLXRhZyB2LWVsc2UgdHlwZT0ic3VjY2VzcyIgZWZmZWN0PSJwbGFpbiI+CiAgICAgICAgICA8ZWwtaWNvbj48Q2hlY2sgLz48L2VsLWljb24+CiAgICAgICAgICDlt7Lkv53lrZgKICAgICAgICA8L2VsLXRhZz4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KCiAgICA8ZGl2IGNsYXNzPSJjb25maWctbGF5b3V0Ij4KICAgICAgPGVsLWNhcmQgY2xhc3M9ImVkaXRvci1jYXJkIiBzaGFkb3c9Im5ldmVyIiB2LWxvYWRpbmc9ImxvYWRpbmciPgogICAgICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICAgICAgPGRpdiBjbGFzcz0iZWRpdG9yLWNhcmRfX2hlYWRlciI+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZWRpdG9yLWNhcmRfX3RpdGxlIj57eyBjb25maWdQYXRoIH19PC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzcz0iZWRpdG9yLWNhcmRfX2Rlc2MiPuaMiSBTaGVsbCDor63ms5XnvJbovpHvvIzmr4/ooYzkuIDkuKrlj5jph4/miJbms6jph4rjgII8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImVkaXRvci1jYXJkX19hY3Rpb25zIj4KICAgICAgICAgICAgICA8ZWwtYnV0dG9uIDpsb2FkaW5nPSJsb2FkaW5nIiBAY2xpY2s9ImxvYWRDb25maWdTY3JpcHQodHJ1ZSkiPgogICAgICAgICAgICAgICAgPGVsLWljb24+PFJlZnJlc2ggLz48L2VsLWljb24+CiAgICAgICAgICAgICAgICDliLfmlrAKICAgICAgICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgICAgICAgICA8ZWwtYnV0dG9uIDpsb2FkaW5nPSJjb3B5aW5nIiBAY2xpY2s9ImNvcHlDb25maWdTY3JpcHQiPgogICAgICAgICAgICAgICAgPGVsLWljb24+PENvcHlEb2N1bWVudCAvPjwvZWwtaWNvbj4KICAgICAgICAgICAgICAgIOWkjeWItgogICAgICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgICAgIDxlbC1idXR0b24KICAgICAgICAgICAgICAgIHR5cGU9InByaW1hcnkiCiAgICAgICAgICAgICAgICA6bG9hZGluZz0ic2F2aW5nIgogICAgICAgICAgICAgICAgOmRpc2FibGVkPSJsb2FkaW5nIHx8ICFoYXNDaGFuZ2VkIgogICAgICAgICAgICAgICAgQGNsaWNrPSJzYXZlQ29uZmlnU2NyaXB0IgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIOS/neWtmAogICAgICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CgogICAgICAgIDwhLS0gTW9uYWNvIOWIneWni+WMlui+g+mHje+8jOetieaOpeWPo+i/lOWbnuWQjuWGjeaMgui9ve+8jOmBv+WFjeWFiOmXquS4gOS4i+epuuWGheWuueOAgiAtLT4KICAgICAgICA8TW9uYWNvRWRpdG9yCiAgICAgICAgICB2LWlmPSIhbG9hZGluZyIKICAgICAgICAgIHYtbW9kZWw9ImNvbnRlbnQiCiAgICAgICAgICBsYW5ndWFnZT0ic2hlbGwiCiAgICAgICAgICBtaW4taGVpZ2h0PSI1NjBweCIKICAgICAgICAvPgogICAgICAgIDxkaXYgdi1lbHNlIGNsYXNzPSJlZGl0b3ItcGxhY2Vob2xkZXIiPgogICAgICAgICAg5q2j5Zyo6K+75Y+W6YWN572u5paH5Lu2Li4uCiAgICAgICAgPC9kaXY+CiAgICAgIDwvZWwtY2FyZD4KCiAgICAgIDxhc2lkZSBjbGFzcz0ic2lkZS1wYW5lbCI+CiAgICAgICAgPGVsLWNhcmQgY2xhc3M9ImluZm8tY2FyZCIgc2hhZG93PSJuZXZlciI+CiAgICAgICAgICA8dGVtcGxhdGUgI2hlYWRlcj4KICAgICAgICAgICAgPHNwYW4+5paH5Lu26K+05piOPC9zcGFuPgogICAgICAgICAgPC90ZW1wbGF0ZT4KICAgICAgICAgIDxkaXYgY2xhc3M9ImluZm8tbGlzdCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImluZm8tcm93Ij4KICAgICAgICAgICAgICA8c3Bhbj7mlofku7blkI08L3NwYW4+CiAgICAgICAgICAgICAgPGNvZGU+e3sgY29uZmlnUGF0aCB9fTwvY29kZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImluZm8tcm93Ij4KICAgICAgICAgICAgICA8c3Bhbj7lvZPliY3ooYzmlbA8L3NwYW4+CiAgICAgICAgICAgICAgPHN0cm9uZz57eyBsaW5lQ291bnQgfX08L3N0cm9uZz4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImluZm8tcm93Ij4KICAgICAgICAgICAgICA8c3Bhbj7lhoXlrrnlpKflsI88L3NwYW4+CiAgICAgICAgICAgICAgPHN0cm9uZz57eyBieXRlU2l6ZUxhYmVsIH19PC9zdHJvbmc+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9lbC1jYXJkPgoKICAgICAgICA8ZWwtY2FyZCBjbGFzcz0idGlwcy1jYXJkIiBzaGFkb3c9Im5ldmVyIj4KICAgICAgICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICAgICAgICA8c3Bhbj7lhpnms5Xmj5DnpLo8L3NwYW4+CiAgICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgICAgPHVsIGNsYXNzPSJ0aXBzLWxpc3QiPgogICAgICAgICAgICA8bGk+PGNvZGU+S0VZPVZBTFVFPC9jb2RlPu+8muWGmeWFpeaZrumAmuWPmOmHj+OAgjwvbGk+CiAgICAgICAgICAgIDxsaT48Y29kZT5leHBvcnQgS0VZPSJWQUxVRSI8L2NvZGU+77ya5YaZ5YWl5bm25a+85Ye65Y+Y6YeP44CCPC9saT4KICAgICAgICAgICAgPGxpPjxjb2RlPiM8L2NvZGU+IOW8gOWktOihqOekuuazqOmHiu+8jOWPr+iusOW9leeUqOmAlOOAgjwvbGk+CiAgICAgICAgICAgIDxsaT7njq/looPlj5jph4/pobXpnaLph4znmoTlkIzlkI3lj5jph4/kvJjlhYjnuqfmm7Tpq5jjgII8L2xpPgogICAgICAgICAgPC91bD4KICAgICAgICA8L2VsLWNhcmQ+CiAgICAgIDwvYXNpZGU+CiAgICA8L2Rpdj4KICA8L2Rpdj4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+Ci5jb25maWctZmlsZS1wYWdlIHsKICBwYWRkaW5nOiAwOwp9CgoucGFnZS1oZWFkZXIgewogIGRpc3BsYXk6IGZsZXg7CiAganVzdGlmeS1jb250ZW50OiBzcGFjZS1iZXR3ZWVuOwogIGFsaWduLWl0ZW1zOiBmbGV4LXN0YXJ0OwogIGdhcDogMTZweDsKICBtYXJnaW4tYm90dG9tOiAxOHB4OwoKICAucGFnZS10aXRsZS13aXRoLWljb24gewogICAgZGlzcGxheTogZmxleDsKICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgICBnYXA6IDhweDsKICAgIG1hcmdpbjogMDsKICAgIGZvbnQtc2l6ZTogMjJweDsKICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKICAgIGxpbmUtaGVpZ2h0OiAxLjM7CiAgfQoKICAucGFnZS1zdWJ0aXRsZSB7CiAgICBtYXJnaW46IDZweCAwIDA7CiAgICBmb250LXNpemU6IDEzcHg7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogIH0KCiAgLmhlYWRlci1hY3Rpb25zIHsKICAgIGRpc3BsYXk6IGZsZXg7CiAgICBhbGlnbi1pdGVtczogY2VudGVyOwogICAgZ2FwOiAxMHB4OwogICAgZmxleC1zaHJpbms6IDA7CiAgfQp9CgouY29uZmlnLWxheW91dCB7CiAgZGlzcGxheTogZ3JpZDsKICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IG1pbm1heCgwLCAxZnIpIDMwMHB4OwogIGdhcDogMTZweDsKICBhbGlnbi1pdGVtczogc3RhcnQ7Cn0KCi5lZGl0b3ItY2FyZCwKLmluZm8tY2FyZCwKLnRpcHMtY2FyZCB7CiAgYm9yZGVyLXJhZGl1czogdmFyKC0tZGQtY2FyZC1yYWRpdXMpOwogIGJvcmRlci1jb2xvcjogdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0ZXIpOwogIGJveC1zaGFkb3c6IHZhcigtLWRkLXNoYWRvdy1jYXJkKTsKfQoKLmVkaXRvci1jYXJkIHsKICBvdmVyZmxvdzogaGlkZGVuOwoKICA6ZGVlcCguZWwtY2FyZF9faGVhZGVyKSB7CiAgICBwYWRkaW5nOiAxNnB4IDE4cHg7CiAgfQoKICA6ZGVlcCguZWwtY2FyZF9fYm9keSkgewogICAgcGFkZGluZzogMDsKICB9Cn0KCi5lZGl0b3ItY2FyZF9faGVhZGVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2VlbjsKICBhbGlnbi1pdGVtczogY2VudGVyOwogIGdhcDogMTJweDsKICBmbGV4LXdyYXA6IHdyYXA7Cn0KCi5lZGl0b3ItY2FyZF9fdGl0bGUgewogIGZvbnQtc2l6ZTogMTZweDsKICBmb250LXdlaWdodDogNzAwOwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwp9CgouZWRpdG9yLWNhcmRfX2Rlc2MgewogIG1hcmdpbi10b3A6IDRweDsKICBmb250LXNpemU6IDEycHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKfQoKLmVkaXRvci1jYXJkX19hY3Rpb25zIHsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAgZ2FwOiA4cHg7CiAgZmxleC13cmFwOiB3cmFwOwp9CgouZWRpdG9yLXBsYWNlaG9sZGVyIHsKICBtaW4taGVpZ2h0OiA1NjBweDsKICBkaXNwbGF5OiBmbGV4OwogIGFsaWduLWl0ZW1zOiBjZW50ZXI7CiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBiYWNrZ3JvdW5kOiB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0ZXIpOwogIGZvbnQtc2l6ZTogMTRweDsKfQoKLnNpZGUtcGFuZWwgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDE2cHg7Cn0KCi5pbmZvLWNhcmQsCi50aXBzLWNhcmQgewogIDpkZWVwKC5lbC1jYXJkX19oZWFkZXIpIHsKICAgIHBhZGRpbmc6IDE0cHggMTZweDsKICAgIGZvbnQtd2VpZ2h0OiA3MDA7CiAgfQoKICA6ZGVlcCguZWwtY2FyZF9fYm9keSkgewogICAgcGFkZGluZzogMTZweDsKICB9Cn0KCi5pbmZvLWxpc3QgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDEycHg7Cn0KCi5pbmZvLXJvdyB7CiAgZGlzcGxheTogZmxleDsKICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDEycHg7CiAgZm9udC1zaXplOiAxM3B4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSk7CgogIGNvZGUsCiAgc3Ryb25nIHsKICAgIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXByaW1hcnkpOwogICAgZm9udC13ZWlnaHQ6IDYwMDsKICB9Cn0KCi50aXBzLWxpc3QgewogIG1hcmdpbjogMDsKICBwYWRkaW5nLWxlZnQ6IDE4cHg7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGdhcDogMTBweDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1yZWd1bGFyKTsKICBmb250LXNpemU6IDEzcHg7CiAgbGluZS1oZWlnaHQ6IDEuNjsKfQoKY29kZSB7CiAgcGFkZGluZzogMXB4IDVweDsKICBib3JkZXItcmFkaXVzOiB2YXIoLS1kZC1yYWRpdXMtc20pOwogIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3ItbGlnaHRlcik7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7CiAgZm9udC1mYW1pbHk6IHZhcigtLWRkLWZvbnQtbW9ubyk7CiAgZm9udC1zaXplOiAxMnB4Owp9CgpAbWVkaWEgKG1heC13aWR0aDogMTA4MHB4KSB7CiAgLmNvbmZpZy1sYXlvdXQgewogICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnI7CiAgfQoKICAuc2lkZS1wYW5lbCB7CiAgICBkaXNwbGF5OiBncmlkOwogICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiByZXBlYXQoMiwgbWlubWF4KDAsIDFmcikpOwogIH0KfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgLnBhZ2UtaGVhZGVyIHsKICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgfQoKICAuZWRpdG9yLWNhcmRfX2hlYWRlciwKICAuZWRpdG9yLWNhcmRfX2FjdGlvbnMgewogICAgYWxpZ24taXRlbXM6IHN0cmV0Y2g7CiAgfQoKICAuZWRpdG9yLWNhcmRfX2FjdGlvbnMgewogICAgd2lkdGg6IDEwMCU7CgogICAgLmVsLWJ1dHRvbiB7CiAgICAgIGZsZXg6IDE7CiAgICB9CiAgfQoKICAuc2lkZS1wYW5lbCB7CiAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmcjsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { computed, onMounted, ref } from 'vue'
+import { ElMessage } from 'element-plus'
+import { Check, CopyDocument, Document, Refresh } from '@element-plus/icons-vue'
+import { configScriptApi } from '@/api/system'
+import MonacoEditor from '@/components/MonacoEditor.vue'
+import { copyText } from '@/utils/clipboard'
+
+const content = ref('')
+const savedContent = ref('')
+const configPath = ref('config.sh')
+const loading = ref(false)
+const saving = ref(false)
+const copying = ref(false)
+
+const hasChanged = computed(() => content.value !== savedContent.value)
+const lineCount = computed(() => content.value === '' ? 0 : content.value.split(/\r\n|\n|\r/).length)
+const byteSizeLabel = computed(() => {
+  const bytes = new Blob([content.value]).size
+  if (bytes < 1024) return `${bytes} B`
+  if (bytes < 1024 * 1024) return `${(bytes / 1024).toFixed(1)} KB`
+  return `${(bytes / 1024 / 1024).toFixed(1)} MB`
+})
+
+onMounted(() => {
+  void loadConfigScript()
+})
+
+async function loadConfigScript(showSuccess = false) {
+  loading.value = true
+  try {
+    const res = await configScriptApi.get()
+    content.value = res.content ?? ''
+    savedContent.value = res.content ?? ''
+    configPath.value = res.path || 'config.sh'
+    if (showSuccess) {
+      ElMessage.success('配置文件已刷新')
+    }
+  } catch {
+    content.value = ''
+    savedContent.value = ''
+    ElMessage.error('加载配置文件失败')
+  } finally {
+    loading.value = false
+  }
+}
+
+async function saveConfigScript() {
+  saving.value = true
+  try {
+    await configScriptApi.save(content.value)
+    savedContent.value = content.value
+    ElMessage.success('配置文件已保存')
+  } catch {
+    ElMessage.error('保存配置文件失败')
+  } finally {
+    saving.value = false
+  }
+}
+
+async function copyConfigScript() {
+  copying.value = true
+  try {
+    await copyText(content.value)
+    ElMessage.success('配置文件内容已复制')
+  } catch {
+    ElMessage.error('复制失败，请检查浏览器权限或站点访问方式')
+  } finally {
+    copying.value = false
+  }
+}
+</script>
+
+<template>
+  <div class="config-file-page dd-scroll-page dd-page-hide-heading">
+    <div class="page-header">
+      <div>
+        <h2 class="page-title-with-icon">
+          <el-icon><Document /></el-icon>
+          <span>配置文件</span>
+        </h2>
+        <p class="page-subtitle">
+          集中维护 <code>config.sh</code>，脚本运行前会自动加载这里的共享配置。
+        </p>
+      </div>
+      <div class="header-actions">
+        <el-tag v-if="hasChanged" type="warning" effect="plain">有未保存修改</el-tag>
+        <el-tag v-else type="success" effect="plain">
+          <el-icon><Check /></el-icon>
+          已保存
+        </el-tag>
+      </div>
+    </div>
+
+    <div class="config-layout">
+      <el-card class="editor-card" shadow="never" v-loading="loading">
+        <template #header>
+          <div class="editor-card__header">
+            <div>
+              <div class="editor-card__title">{{ configPath }}</div>
+              <div class="editor-card__desc">按 Shell 语法编辑，每行一个变量或注释。</div>
+            </div>
+            <div class="editor-card__actions">
+              <el-button :loading="loading" @click="loadConfigScript(true)">
+                <el-icon><Refresh /></el-icon>
+                刷新
+              </el-button>
+              <el-button :loading="copying" @click="copyConfigScript">
+                <el-icon><CopyDocument /></el-icon>
+                复制
+              </el-button>
+              <el-button
+                type="primary"
+                :loading="saving"
+                :disabled="loading || !hasChanged"
+                @click="saveConfigScript"
+              >
+                保存
+              </el-button>
+            </div>
+          </div>
+        </template>
+
+        <!-- Monaco 初始化较重，等接口返回后再挂载，避免先闪一下空内容。 -->
+        <MonacoEditor
+          v-if="!loading"
+          v-model="content"
+          language="shell"
+          min-height="560px"
+        />
+        <div v-else class="editor-placeholder">
+          正在读取配置文件...
+        </div>
+      </el-card>
+
+      <aside class="side-panel">
+        <el-card class="info-card" shadow="never">
+          <template #header>
+            <span>文件说明</span>
+          </template>
+          <div class="info-list">
+            <div class="info-row">
+              <span>文件名</span>
+              <code>{{ configPath }}</code>
+            </div>
+            <div class="info-row">
+              <span>当前行数</span>
+              <strong>{{ lineCount }}</strong>
+            </div>
+            <div class="info-row">
+              <span>内容大小</span>
+              <strong>{{ byteSizeLabel }}</strong>
+            </div>
+          </div>
+        </el-card>
+
+        <el-card class="tips-card" shadow="never">
+          <template #header>
+            <span>写法提示</span>
+          </template>
+          <ul class="tips-list">
+            <li><code>KEY=VALUE</code>：写入普通变量。</li>
+            <li><code>export KEY="VALUE"</code>：写入并导出变量。</li>
+            <li><code>#</code> 开头表示注释，可记录用途。</li>
+            <li>环境变量页面里的同名变量优先级更高。</li>
+          </ul>
+        </el-card>
+      </aside>
+    </div>
+  </div>
+</template>
+
+<style scoped lang="scss">
+.config-file-page {
+  padding: 0;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 18px;
+
+  .page-title-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--el-text-color-primary);
+    line-height: 1.3;
+  }
+
+  .page-subtitle {
+    margin: 6px 0 0;
+    font-size: 13px;
+    color: var(--el-text-color-secondary);
+  }
+
+  .header-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+}
+
+.config-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  gap: 16px;
+  align-items: start;
+}
+
+.editor-card,
+.info-card,
+.tips-card {
+  border-radius: var(--dd-card-radius);
+  border-color: var(--el-border-color-lighter);
+  box-shadow: var(--dd-shadow-card);
+}
+
+.editor-card {
+  overflow: hidden;
+
+  :deep(.el-card__header) {
+    padding: 16px 18px;
+  }
+
+  :deep(.el-card__body) {
+    padding: 0;
+  }
+}
+
+.editor-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.editor-card__title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--el-text-color-primary);
+}
+
+.editor-card__desc {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--el-text-color-secondary);
+}
+
+.editor-card__actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.editor-placeholder {
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--el-text-color-secondary);
+  background: var(--el-fill-color-lighter);
+  font-size: 14px;
+}
+
+.side-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.info-card,
+.tips-card {
+  :deep(.el-card__header) {
+    padding: 14px 16px;
+    font-weight: 700;
+  }
+
+  :deep(.el-card__body) {
+    padding: 16px;
+  }
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 13px;
+  color: var(--el-text-color-secondary);
+
+  code,
+  strong {
+    color: var(--el-text-color-primary);
+    font-weight: 600;
+  }
+}
+
+.tips-list {
+  margin: 0;
+  padding-left: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--el-text-color-regular);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+code {
+  padding: 1px 5px;
+  border-radius: var(--dd-radius-sm);
+  background: var(--el-fill-color-lighter);
+  color: var(--el-text-color-primary);
+  font-family: var(--dd-font-mono);
+  font-size: 12px;
+}
+
+@media (max-width: 1080px) {
+  .config-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .side-panel {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    flex-direction: column;
+  }
+
+  .editor-card__header,
+  .editor-card__actions {
+    align-items: stretch;
+  }
+
+  .editor-card__actions {
+    width: 100%;
+
+    .el-button {
+      flex: 1;
+    }
+  }
+
+  .side-panel {
+    grid-template-columns: 1fr;
+  }
+}
+</style>

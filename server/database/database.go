@@ -1,1 +1,238 @@
-cGFja2FnZSBkYXRhYmFzZQoKaW1wb3J0ICgKCSJmbXQiCgkibG9nIgoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCgkiZ2l0aHViLmNvbS9nbGViYXJlei9zcWxpdGUiCgkiZ29ybS5pby9nb3JtIgoJImdvcm0uaW8vZ29ybS9sb2dnZXIiCikKCnZhciBEQiAqZ29ybS5EQgoKZnVuYyBJbml0KGNmZyAqY29uZmlnLkRhdGFiYXNlQ29uZmlnKSB7CglkYlBhdGggOj0gY2ZnLlBhdGgKCWlmIGRiUGF0aCA9PSAiIiB7CgkJZGJQYXRoID0gIi4vZGF0YS9kYWlkYWkuZGIiCgl9CgoJZGlyIDo9IGZpbGVwYXRoLkRpcihkYlBhdGgpCglvcy5Na2RpckFsbChkaXIsIDA3NTUpCgoJY3VzdG9tTG9nZ2VyIDo9IGxvZ2dlci5OZXcoCgkJbG9nLk5ldyhvcy5TdGRvdXQsICJcclxuIiwgbG9nLkxzdGRGbGFncyksCgkJbG9nZ2VyLkNvbmZpZ3sKCQkJU2xvd1RocmVzaG9sZDogICAgICAgICAgICAgMjAwMDAwMDAwLAoJCQlMb2dMZXZlbDogICAgICAgICAgICAgICAgICBsb2dnZXIuV2FybiwKCQkJSWdub3JlUmVjb3JkTm90Rm91bmRFcnJvcjogdHJ1ZSwKCQkJQ29sb3JmdWw6ICAgICAgICAgICAgICAgICAgZmFsc2UsCgkJfSwKCSkKCgl2YXIgZXJyIGVycm9yCglEQiwgZXJyID0gZ29ybS5PcGVuKHNxbGl0ZS5PcGVuKGRiUGF0aCksICZnb3JtLkNvbmZpZ3sKCQlMb2dnZXI6IGN1c3RvbUxvZ2dlciwKCX0pCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuRmF0YWxmKCJmYWlsZWQgdG8gY29ubmVjdCBkYXRhYmFzZTogJXYiLCBlcnIpCgl9CgoJc3FsREIsIGVyciA6PSBEQi5EQigpCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuRmF0YWxmKCJmYWlsZWQgdG8gZ2V0IHNxbC5EQjogJXYiLCBlcnIpCgl9CgoJc3FsREIuU2V0TWF4T3BlbkNvbm5zKDEpCglzcWxEQi5TZXRNYXhJZGxlQ29ubnMoMSkKCglEQi5FeGVjKCJQUkFHTUEgam91cm5hbF9tb2RlPVdBTCIpCglEQi5FeGVjKCJQUkFHTUEgYnVzeV90aW1lb3V0PTUwMDAiKQoJREIuRXhlYygiUFJBR01BIGZvcmVpZ25fa2V5cz1PTiIpCgoJbG9nLlByaW50ZigiZGF0YWJhc2UgY29ubmVjdGVkOiAlcyIsIGRiUGF0aCkKfQoKZnVuYyBBdXRvTWlncmF0ZShtb2RlbHMgLi4uaW50ZXJmYWNle30pIHsKCWlmIGVyciA6PSBEQi5BdXRvTWlncmF0ZShtb2RlbHMuLi4pOyBlcnIgIT0gbmlsIHsKCQlsb2cuRmF0YWxmKCJhdXRvIG1pZ3JhdGUgZmFpbGVkOiAldiIsIGVycikKCX0KfQoKdHlwZSBjb2x1bW5EZWYgc3RydWN0IHsKCU5hbWUgICAgc3RyaW5nCglTUUxUeXBlIHN0cmluZwp9CgpmdW5jIGdldEV4aXN0aW5nQ29sdW1ucyh0YWJsZSBzdHJpbmcpIG1hcFtzdHJpbmddYm9vbCB7Cgljb2xzIDo9IG1ha2UobWFwW3N0cmluZ11ib29sKQoJdHlwZSBwcmFnbWFSb3cgc3RydWN0IHsKCQlOYW1lIHN0cmluZwoJfQoJdmFyIHJvd3MgW11wcmFnbWFSb3cKCURCLlJhdyhmbXQuU3ByaW50ZigiUFJBR01BIHRhYmxlX2luZm8oJXMpIiwgdGFibGUpKS5TY2FuKCZyb3dzKQoJZm9yIF8sIHIgOj0gcmFuZ2Ugcm93cyB7CgkJY29sc1tzdHJpbmdzLlRvTG93ZXIoci5OYW1lKV0gPSB0cnVlCgl9CglyZXR1cm4gY29scwp9CgpmdW5jIGVuc3VyZVRhYmxlQ29sdW1ucyh0YWJsZSBzdHJpbmcsIGNvbHVtbnMgW11jb2x1bW5EZWYpIHsKCWV4aXN0aW5nIDo9IGdldEV4aXN0aW5nQ29sdW1ucyh0YWJsZSkKCWlmIGxlbihleGlzdGluZykgPT0gMCB7CgkJcmV0dXJuCgl9Cglmb3IgXywgY29sIDo9IHJhbmdlIGNvbHVtbnMgewoJCWxvb2t1cE5hbWUgOj0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbShjb2wuTmFtZSwgIlwiIikpCgkJaWYgIWV4aXN0aW5nW2xvb2t1cE5hbWVdIHsKCQkJc3FsIDo9IGZtdC5TcHJpbnRmKCJBTFRFUiBUQUJMRSAlcyBBREQgQ09MVU1OICVzICVzIiwgdGFibGUsIGNvbC5OYW1lLCBjb2wuU1FMVHlwZSkKCQkJaWYgZXJyIDo9IERCLkV4ZWMoc3FsKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQlsb2cuUHJpbnRmKCJ3YXJuOiBmYWlsZWQgdG8gYWRkIGNvbHVtbiAlcy4lczogJXYiLCB0YWJsZSwgY29sLk5hbWUsIGVycikKCQkJfSBlbHNlIHsKCQkJCWxvZy5QcmludGYoImFkZGVkIG1pc3NpbmcgY29sdW1uOiAlcy4lcyIsIHRhYmxlLCBjb2wuTmFtZSkKCQkJfQoJCX0KCX0KfQoKZnVuYyBFbnN1cmVDb2x1bW5zKCkgewoJZW5zdXJlVGFibGVDb2x1bW5zKCJ0YXNrcyIsIFtdY29sdW1uRGVmewoJCXsicGlkIiwgIklOVEVHRVIifSwKCQl7ImxvZ19wYXRoIiwgIlZBUkNIQVIoMjU2KSJ9LAoJCXsibGFzdF9ydW5uaW5nX3RpbWUiLCAiUkVBTCJ9LAoJCXsidGFza19iZWZvcmUiLCAiVEVYVCJ9LAoJCXsidGFza19hZnRlciIsICJURVhUIn0sCgkJeyJ0YXNrX3R5cGUiLCAiVkFSQ0hBUigxNikgREVGQVVMVCAnY3JvbicifSwKCQl7Imxhc3Rfc3RhcnR1cF9hdXRvX3J1bl9kYXRlIiwgIlZBUkNIQVIoMTApIERFRkFVTFQgJycifSwKCQl7ImFsbG93X211bHRpcGxlX2luc3RhbmNlcyIsICJCT09MRUFOIERFRkFVTFQgMCJ9LAoJCXsidGltZW91dCIsICJJTlRFR0VSIERFRkFVTFQgMCJ9LAoJCXsic3VjY2Vzc19leGl0X2NvZGVzIiwgIlZBUkNIQVIoMTI4KSBOT1QgTlVMTCBERUZBVUxUICcwJyJ9LAoJCXsicmFuZG9tX2RlbGF5X3NlY29uZHMiLCAiSU5URUdFUiJ9LAoJCXsibWF4X3JldHJpZXMiLCAiSU5URUdFUiBERUZBVUxUIDAifSwKCQl7InJldHJ5X2ludGVydmFsIiwgIklOVEVHRVIgREVGQVVMVCA2MCJ9LAoJCXsibm90aWZ5X29uX2ZhaWx1cmUiLCAiQk9PTEVBTiBERUZBVUxUIDAifSwKCQl7Im5vdGlmeV9vbl9zdWNjZXNzIiwgIkJPT0xFQU4gREVGQVVMVCAwIn0sCgkJeyJub3RpZnlfb25fYWJvcnQiLCAiQk9PTEVBTiBERUZBVUxUIDAifSwKCQl7Im5vdGlmaWNhdGlvbl9jaGFubmVsX2lkIiwgIklOVEVHRVIifSwKCQl7ImRlcGVuZHNfb24iLCAiSU5URUdFUiJ9LAoJCXsic29ydF9vcmRlciIsICJJTlRFR0VSIERFRkFVTFQgMCJ9LAoJCXsiaXNfcGlubmVkIiwgIkJPT0xFQU4gREVGQVVMVCAwIn0sCgkJeyJweXRob25fdmVyc2lvbiIsICJWQVJDSEFSKDE2KSBERUZBVUxUICcnIn0sCgl9KQoJbWlncmF0ZUxlZ2FjeVRhc2tQSURDb2x1bW4oKQoKCWVuc3VyZVRhYmxlQ29sdW1ucygidGFza19sb2dzIiwgW11jb2x1bW5EZWZ7CgkJeyJsb2dfcGF0aCIsICJWQVJDSEFSKDI1NikifSwKCQl7ImR1cmF0aW9uIiwgIlJFQUwifSwKCQl7InN0YXJ0ZWRfYXQiLCAiREFURVRJTUUifSwKCQl7ImVuZGVkX2F0IiwgIkRBVEVUSU1FIn0sCgl9KQoKCWVuc3VyZVRhYmxlQ29sdW1ucygiZW52X3ZhcnMiLCBbXWNvbHVtbkRlZnsKCQl7InBvc2l0aW9uIiwgIlJFQUwgREVGQVVMVCAxMDAwMC4wIn0sCgkJeyJzb3J0X29yZGVyIiwgIklOVEVHRVIgREVGQVVMVCAwIn0sCgkJeyJcImdyb3VwXCIiLCAiVkFSQ0hBUig1MTIpIERFRkFVTFQgJycifSwKCX0pCgoJZW5zdXJlVGFibGVDb2x1bW5zKCJzdWJzY3JpcHRpb25zIiwgW11jb2x1bW5EZWZ7CgkJeyJzYXZlX2RpciIsICJWQVJDSEFSKDUxMikgREVGQVVMVCAnJyJ9LAoJCXsic3NoX2tleV9pZCIsICJJTlRFR0VSIn0sCgkJeyJhdXRoX3R5cGUiLCAiVkFSQ0hBUigxNikgREVGQVVMVCAnJyJ9LAoJCXsiYXV0aF90b2tlbiIsICJURVhUIERFRkFVTFQgJycifSwKCQl7ImFsaWFzIiwgIlZBUkNIQVIoMTI4KSBERUZBVUxUICcnIn0sCgkJeyJhdXRvX2FkZF90YXNrIiwgIkJPT0xFQU4gREVGQVVMVCAwIn0sCgkJeyJhdXRvX2RlbF90YXNrIiwgIkJPT0xFQU4gREVGQVVMVCAwIn0sCgkJeyJ3aGl0ZWxpc3QiLCAiVkFSQ0hBUig1MTIpIERFRkFVTFQgJycifSwKCQl7ImJsYWNrbGlzdCIsICJWQVJDSEFSKDUxMikgREVGQVVMVCAnJyJ9LAoJCXsiZGVwZW5kX29uIiwgIlZBUkNIQVIoNTEyKSBERUZBVUxUICcnIn0sCgkJeyJob29rX3NjcmlwdCIsICJURVhUIERFRkFVTFQgJycifSwKCX0pCgoJZW5zdXJlVGFibGVDb2x1bW5zKCJub3RpZnlfY2hhbm5lbHMiLCBbXWNvbHVtbkRlZnsKCQl7InRvZGF5X3NlbmRfY291bnQiLCAiSU5URUdFUiBERUZBVUxUIDAifSwKCQl7InRvZGF5X3NlbmRfZGF0ZSIsICJWQVJDSEFSKDEwKSBERUZBVUxUICcnIn0sCgkJeyJsYXN0X3Rlc3RfYXQiLCAiREFURVRJTUUifSwKCQl7Imxhc3RfdGVzdF9zdGF0dXMiLCAiVkFSQ0hBUigxNikgREVGQVVMVCAnJyJ9LAoJfSkKCgllbnN1cmVUYWJsZUNvbHVtbnMoIm9wZW5fYXBwcyIsIFtdY29sdW1uRGVmewoJCXsicmF0ZV9saW1pdCIsICJJTlRFR0VSIERFRkFVTFQgMCJ9LAoJCXsiY2FsbF9jb3VudCIsICJJTlRFR0VSIERFRkFVTFQgMCJ9LAoJfSkKCgllbnN1cmVUYWJsZUNvbHVtbnMoImFwaV9jYWxsX2xvZ3MiLCBbXWNvbHVtbkRlZnsKCQl7ImFwcF9uYW1lIiwgIlZBUkNIQVIoMTI4KSJ9LAoJCXsiZHVyYXRpb24iLCAiUkVBTCBERUZBVUxUIDAifSwKCX0pCgoJZW5zdXJlVGFibGVDb2x1bW5zKCJsb2dpbl9sb2dzIiwgW11jb2x1bW5EZWZ7CgkJeyJtZXRob2QiLCAiVkFSQ0hBUigzMikgREVGQVVMVCAn5a+G56CB55m75b2VJyJ9LAoJCXsiY2xpZW50X25hbWUiLCAiVkFSQ0hBUigyNTUpIERFRkFVTFQgJycifSwKCX0pCgoJZW5zdXJlVGFibGVDb2x1bW5zKCJ1c2VyX3Nlc3Npb25zIiwgW11jb2x1bW5EZWZ7CgkJeyJyZWZyZXNoX2p0aSIsICJWQVJDSEFSKDM2KSJ9LAoJCXsicmVmcmVzaF9leHBpcmVzX2F0IiwgIkRBVEVUSU1FIn0sCgkJeyJjbGllbnRfdHlwZSIsICJWQVJDSEFSKDE2KSBERUZBVUxUICd3ZWInIn0sCgkJeyJjbGllbnRfbmFtZSIsICJWQVJDSEFSKDI1NSkgREVGQVVMVCAnJyJ9LAoJfSkKCgllbnN1cmVUYWJsZUNvbHVtbnMoInRhc2tfdmlld3MiLCBbXWNvbHVtbkRlZnsKCQl7ImhpZGRlbiIsICJCT09MRUFOIERFRkFVTFQgMCJ9LAoJCXsic29ydF9vcmRlciIsICJJTlRFR0VSIERFRkFVTFQgMCJ9LAoJfSkKCgllbnN1cmVUYWJsZUNvbHVtbnMoImRlcGVuZGVuY2llcyIsIFtdY29sdW1uRGVmewoJCXsicHl0aG9uX3ZlcnNpb24iLCAiVkFSQ0hBUigxNikgREVGQVVMVCAnJyJ9LAoJfSkKCgllbnN1cmVUYWJsZUNvbHVtbnMoInVzZXJzIiwgW11jb2x1bW5EZWZ7CgkJeyJhdmF0YXJfdXJsIiwgIlZBUkNIQVIoNTEyKSBERUZBVUxUICcnIn0sCgl9KQoKCWRyb3BFbnZWYXJVbmlxdWVJbmRleCgpCgoJbG9nLlByaW50ZigiY29sdW1uIGNoZWNrIGNvbXBsZXRlZCIpCn0KCi8vIG1pZ3JhdGVMZWdhY3lUYXNrUElEQ29sdW1uIGNvcGllcyB2YWx1ZXMgZnJvbSB0aGUgb2xkIEdPUk0tZGVyaXZlZCBwX2lkIGNvbHVtbgovLyBpbnRvIHBpZC4gVGhlIFRhc2suUElEIGZpZWxkIGlzIG5vdyBleHBsaWNpdGx5IG1hcHBlZCB0byBwaWQsIGJ1dCBvbGRlciBsb2NhbAovLyBTUUxpdGUgZGF0YWJhc2VzIG1heSBzdGlsbCBjb250YWluIHBfaWQgZnJvbSBwcmV2aW91cyBBdXRvTWlncmF0ZSBydW5zLgpmdW5jIG1pZ3JhdGVMZWdhY3lUYXNrUElEQ29sdW1uKCkgewoJZXhpc3RpbmcgOj0gZ2V0RXhpc3RpbmdDb2x1bW5zKCJ0YXNrcyIpCglpZiAhZXhpc3RpbmdbInBfaWQiXSB8fCAhZXhpc3RpbmdbInBpZCJdIHsKCQlyZXR1cm4KCX0KCWlmIGVyciA6PSBEQi5FeGVjKCJVUERBVEUgdGFza3MgU0VUIHBpZCA9IHBfaWQgV0hFUkUgcGlkIElTIE5VTEwgQU5EIHBfaWQgSVMgTk9UIE5VTEwiKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50Zigid2FybjogZmFpbGVkIHRvIG1pZ3JhdGUgbGVnYWN5IHRhc2tzLnBfaWQgdmFsdWVzIHRvIHRhc2tzLnBpZDogJXYiLCBlcnIpCgl9Cn0KCi8vIGRyb3BFbnZWYXJVbmlxdWVJbmRleCDov4Hnp7vvvJrpnZLpvpnljJblkI4gKG5hbWUsIHJlbWFya3MpIOS4jeWGjeaYr+S4muWKoeWUr+S4gOmUru+8jAovLyDml6fpg6jnvbLph4zlpoLmnpzmrovnlZnkuoYgaWR4X2Vudl92YXJzX25hbWVfcmVtYXJrcyDllK/kuIDntKLlvJXvvIzpnIDopoHmuIXnkIbmjonvvIwKLy8g5ZCm5YiZ5YaZ5YWl56uv5pS+5byA5ZCOIERCIOWxguS7jeS8muaLkue7neWQjCAobmFtZSwgcmVtYXJrcykg55qE5paw5aKe44CC5bmC562J5pON5L2c44CCCmZ1bmMgZHJvcEVudlZhclVuaXF1ZUluZGV4KCkgewoJaWYgREIgPT0gbmlsIHsKCQlyZXR1cm4KCX0KCWlmIF8sIGVyciA6PSBEQi5EQigpOyBlcnIgIT0gbmlsIHsKCQlyZXR1cm4KCX0KCXZhciBjb3VudCBpbnQ2NAoJaWYgZXJyIDo9IERCLlJhdygiU0VMRUNUIENPVU5UKCopIEZST00gc3FsaXRlX21hc3RlciBXSEVSRSB0eXBlID0gJ2luZGV4JyBBTkQgbmFtZSA9ICdpZHhfZW52X3ZhcnNfbmFtZV9yZW1hcmtzJyIpLlNjYW4oJmNvdW50KS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuCgl9CglpZiBjb3VudCA9PSAwIHsKCQlyZXR1cm4KCX0KCWlmIGVyciA6PSBEQi5FeGVjKGBEUk9QIElOREVYIElGIEVYSVNUUyBpZHhfZW52X3ZhcnNfbmFtZV9yZW1hcmtzYCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoIndhcm46IGZhaWxlZCB0byBkcm9wIGxlZ2FjeSB1bmlxdWUgaW5kZXggaWR4X2Vudl92YXJzX25hbWVfcmVtYXJrczogJXYiLCBlcnIpCgkJcmV0dXJuCgl9Cglsb2cuUHJpbnRmKCJkcm9wcGVkIGxlZ2FjeSB1bmlxdWUgaW5kZXggZW52X3ZhcnMobmFtZSwgcmVtYXJrcykgdG8gYWxsb3cgcWluZ2xvbmctc3R5bGUgbXVsdGktYWNjb3VudCBpbnNlcnRzIikKfQo=
+package database
+
+import (
+	"fmt"
+	"log"
+	"os"
+	"path/filepath"
+	"strings"
+
+	"daidai-panel/config"
+
+	"github.com/glebarez/sqlite"
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
+)
+
+var DB *gorm.DB
+
+func Init(cfg *config.DatabaseConfig) {
+	dbPath := cfg.Path
+	if dbPath == "" {
+		dbPath = "./data/daidai.db"
+	}
+
+	dir := filepath.Dir(dbPath)
+	os.MkdirAll(dir, 0755)
+
+	customLogger := logger.New(
+		log.New(os.Stdout, "\r\n", log.LstdFlags),
+		logger.Config{
+			SlowThreshold:             200000000,
+			LogLevel:                  logger.Warn,
+			IgnoreRecordNotFoundError: true,
+			Colorful:                  false,
+		},
+	)
+
+	var err error
+	DB, err = gorm.Open(sqlite.Open(dbPath), &gorm.Config{
+		Logger: customLogger,
+	})
+	if err != nil {
+		log.Fatalf("failed to connect database: %v", err)
+	}
+
+	sqlDB, err := DB.DB()
+	if err != nil {
+		log.Fatalf("failed to get sql.DB: %v", err)
+	}
+
+	sqlDB.SetMaxOpenConns(1)
+	sqlDB.SetMaxIdleConns(1)
+
+	DB.Exec("PRAGMA journal_mode=WAL")
+	DB.Exec("PRAGMA busy_timeout=5000")
+	DB.Exec("PRAGMA foreign_keys=ON")
+
+	log.Printf("database connected: %s", dbPath)
+}
+
+func AutoMigrate(models ...interface{}) {
+	if err := DB.AutoMigrate(models...); err != nil {
+		log.Fatalf("auto migrate failed: %v", err)
+	}
+}
+
+type columnDef struct {
+	Name    string
+	SQLType string
+}
+
+func getExistingColumns(table string) map[string]bool {
+	cols := make(map[string]bool)
+	type pragmaRow struct {
+		Name string
+	}
+	var rows []pragmaRow
+	DB.Raw(fmt.Sprintf("PRAGMA table_info(%s)", table)).Scan(&rows)
+	for _, r := range rows {
+		cols[strings.ToLower(r.Name)] = true
+	}
+	return cols
+}
+
+func ensureTableColumns(table string, columns []columnDef) {
+	existing := getExistingColumns(table)
+	if len(existing) == 0 {
+		return
+	}
+	for _, col := range columns {
+		lookupName := strings.ToLower(strings.Trim(col.Name, "\""))
+		if !existing[lookupName] {
+			sql := fmt.Sprintf("ALTER TABLE %s ADD COLUMN %s %s", table, col.Name, col.SQLType)
+			if err := DB.Exec(sql).Error; err != nil {
+				log.Printf("warn: failed to add column %s.%s: %v", table, col.Name, err)
+			} else {
+				log.Printf("added missing column: %s.%s", table, col.Name)
+			}
+		}
+	}
+}
+
+func EnsureColumns() {
+	ensureTableColumns("tasks", []columnDef{
+		{"pid", "INTEGER"},
+		{"log_path", "VARCHAR(256)"},
+		{"last_running_time", "REAL"},
+		{"task_before", "TEXT"},
+		{"task_after", "TEXT"},
+		{"task_type", "VARCHAR(16) DEFAULT 'cron'"},
+		{"last_startup_auto_run_date", "VARCHAR(10) DEFAULT ''"},
+		{"allow_multiple_instances", "BOOLEAN DEFAULT 0"},
+		{"timeout", "INTEGER DEFAULT 0"},
+		{"success_exit_codes", "VARCHAR(128) NOT NULL DEFAULT '0'"},
+		{"random_delay_seconds", "INTEGER"},
+		{"max_retries", "INTEGER DEFAULT 0"},
+		{"retry_interval", "INTEGER DEFAULT 60"},
+		{"notify_on_failure", "BOOLEAN DEFAULT 0"},
+		{"notify_on_success", "BOOLEAN DEFAULT 0"},
+		{"notify_on_abort", "BOOLEAN DEFAULT 0"},
+		{"notification_channel_id", "INTEGER"},
+		{"depends_on", "INTEGER"},
+		{"sort_order", "INTEGER DEFAULT 0"},
+		{"is_pinned", "BOOLEAN DEFAULT 0"},
+		{"python_version", "VARCHAR(16) DEFAULT ''"},
+	})
+	migrateLegacyTaskPIDColumn()
+
+	ensureTableColumns("task_logs", []columnDef{
+		{"log_path", "VARCHAR(256)"},
+		{"duration", "REAL"},
+		{"started_at", "DATETIME"},
+		{"ended_at", "DATETIME"},
+	})
+
+	ensureTableColumns("env_vars", []columnDef{
+		{"position", "REAL DEFAULT 10000.0"},
+		{"sort_order", "INTEGER DEFAULT 0"},
+		{"\"group\"", "VARCHAR(512) DEFAULT ''"},
+	})
+
+	ensureTableColumns("subscriptions", []columnDef{
+		{"save_dir", "VARCHAR(512) DEFAULT ''"},
+		{"ssh_key_id", "INTEGER"},
+		{"auth_type", "VARCHAR(16) DEFAULT ''"},
+		{"auth_token", "TEXT DEFAULT ''"},
+		{"alias", "VARCHAR(128) DEFAULT ''"},
+		{"auto_add_task", "BOOLEAN DEFAULT 0"},
+		{"auto_del_task", "BOOLEAN DEFAULT 0"},
+		{"whitelist", "VARCHAR(512) DEFAULT ''"},
+		{"blacklist", "VARCHAR(512) DEFAULT ''"},
+		{"depend_on", "VARCHAR(512) DEFAULT ''"},
+		{"hook_script", "TEXT DEFAULT ''"},
+	})
+
+	ensureTableColumns("notify_channels", []columnDef{
+		{"today_send_count", "INTEGER DEFAULT 0"},
+		{"today_send_date", "VARCHAR(10) DEFAULT ''"},
+		{"last_test_at", "DATETIME"},
+		{"last_test_status", "VARCHAR(16) DEFAULT ''"},
+	})
+
+	ensureTableColumns("open_apps", []columnDef{
+		{"rate_limit", "INTEGER DEFAULT 0"},
+		{"call_count", "INTEGER DEFAULT 0"},
+	})
+
+	ensureTableColumns("api_call_logs", []columnDef{
+		{"app_name", "VARCHAR(128)"},
+		{"duration", "REAL DEFAULT 0"},
+	})
+
+	ensureTableColumns("login_logs", []columnDef{
+		{"method", "VARCHAR(32) DEFAULT '密码登录'"},
+		{"client_name", "VARCHAR(255) DEFAULT ''"},
+	})
+
+	ensureTableColumns("user_sessions", []columnDef{
+		{"refresh_jti", "VARCHAR(36)"},
+		{"refresh_expires_at", "DATETIME"},
+		{"client_type", "VARCHAR(16) DEFAULT 'web'"},
+		{"client_name", "VARCHAR(255) DEFAULT ''"},
+	})
+
+	ensureTableColumns("task_views", []columnDef{
+		{"hidden", "BOOLEAN DEFAULT 0"},
+		{"sort_order", "INTEGER DEFAULT 0"},
+	})
+
+	ensureTableColumns("dependencies", []columnDef{
+		{"python_version", "VARCHAR(16) DEFAULT ''"},
+	})
+
+	ensureTableColumns("users", []columnDef{
+		{"avatar_url", "VARCHAR(512) DEFAULT ''"},
+	})
+
+	dropEnvVarUniqueIndex()
+
+	log.Printf("column check completed")
+}
+
+// migrateLegacyTaskPIDColumn copies values from the old GORM-derived p_id column
+// into pid. The Task.PID field is now explicitly mapped to pid, but older local
+// SQLite databases may still contain p_id from previous AutoMigrate runs.
+func migrateLegacyTaskPIDColumn() {
+	existing := getExistingColumns("tasks")
+	if !existing["p_id"] || !existing["pid"] {
+		return
+	}
+	if err := DB.Exec("UPDATE tasks SET pid = p_id WHERE pid IS NULL AND p_id IS NOT NULL").Error; err != nil {
+		log.Printf("warn: failed to migrate legacy tasks.p_id values to tasks.pid: %v", err)
+	}
+}
+
+// dropEnvVarUniqueIndex 迁移：青龙化后 (name, remarks) 不再是业务唯一键，
+// 旧部署里如果残留了 idx_env_vars_name_remarks 唯一索引，需要清理掉，
+// 否则写入端放开后 DB 层仍会拒绝同 (name, remarks) 的新增。幂等操作。
+func dropEnvVarUniqueIndex() {
+	if DB == nil {
+		return
+	}
+	if _, err := DB.DB(); err != nil {
+		return
+	}
+	var count int64
+	if err := DB.Raw("SELECT COUNT(*) FROM sqlite_master WHERE type = 'index' AND name = 'idx_env_vars_name_remarks'").Scan(&count).Error; err != nil {
+		return
+	}
+	if count == 0 {
+		return
+	}
+	if err := DB.Exec(`DROP INDEX IF EXISTS idx_env_vars_name_remarks`).Error; err != nil {
+		log.Printf("warn: failed to drop legacy unique index idx_env_vars_name_remarks: %v", err)
+		return
+	}
+	log.Printf("dropped legacy unique index env_vars(name, remarks) to allow qinglong-style multi-account inserts")
+}

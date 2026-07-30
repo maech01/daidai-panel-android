@@ -1,1 +1,52 @@
-cGFja2FnZSByZXNwb25zZQoKaW1wb3J0ICgKCSJuZXQvaHR0cCIKCgkiZ2l0aHViLmNvbS9naW4tZ29uaWMvZ2luIgopCgpmdW5jIFN1Y2Nlc3MoYyAqZ2luLkNvbnRleHQsIGRhdGEgaW50ZXJmYWNle30pIHsKCWMuSlNPTihodHRwLlN0YXR1c09LLCBkYXRhKQp9CgpmdW5jIENyZWF0ZWQoYyAqZ2luLkNvbnRleHQsIGRhdGEgaW50ZXJmYWNle30pIHsKCWMuSlNPTihodHRwLlN0YXR1c0NyZWF0ZWQsIGRhdGEpCn0KCmZ1bmMgRXJyb3IoYyAqZ2luLkNvbnRleHQsIHN0YXR1c0NvZGUgaW50LCBtZXNzYWdlIHN0cmluZykgewoJYy5KU09OKHN0YXR1c0NvZGUsIGdpbi5IeyJlcnJvciI6IG1lc3NhZ2V9KQp9CgpmdW5jIEJhZFJlcXVlc3QoYyAqZ2luLkNvbnRleHQsIG1lc3NhZ2Ugc3RyaW5nKSB7CglFcnJvcihjLCBodHRwLlN0YXR1c0JhZFJlcXVlc3QsIG1lc3NhZ2UpCn0KCmZ1bmMgVW5hdXRob3JpemVkKGMgKmdpbi5Db250ZXh0LCBtZXNzYWdlIHN0cmluZykgewoJRXJyb3IoYywgaHR0cC5TdGF0dXNVbmF1dGhvcml6ZWQsIG1lc3NhZ2UpCn0KCmZ1bmMgRm9yYmlkZGVuKGMgKmdpbi5Db250ZXh0LCBtZXNzYWdlIHN0cmluZykgewoJRXJyb3IoYywgaHR0cC5TdGF0dXNGb3JiaWRkZW4sIG1lc3NhZ2UpCn0KCmZ1bmMgTm90Rm91bmQoYyAqZ2luLkNvbnRleHQsIG1lc3NhZ2Ugc3RyaW5nKSB7CglFcnJvcihjLCBodHRwLlN0YXR1c05vdEZvdW5kLCBtZXNzYWdlKQp9CgpmdW5jIEludGVybmFsRXJyb3IoYyAqZ2luLkNvbnRleHQsIG1lc3NhZ2Ugc3RyaW5nKSB7CglFcnJvcihjLCBodHRwLlN0YXR1c0ludGVybmFsU2VydmVyRXJyb3IsIG1lc3NhZ2UpCn0KCmZ1bmMgVG9vTWFueVJlcXVlc3RzKGMgKmdpbi5Db250ZXh0LCBtZXNzYWdlIHN0cmluZykgewoJRXJyb3IoYywgaHR0cC5TdGF0dXNUb29NYW55UmVxdWVzdHMsIG1lc3NhZ2UpCn0KCmZ1bmMgUGFnaW5hdGVkKGMgKmdpbi5Db250ZXh0LCBkYXRhIGludGVyZmFjZXt9LCB0b3RhbCBpbnQ2NCwgcGFnZSwgcGFnZVNpemUgaW50KSB7CgljLkpTT04oaHR0cC5TdGF0dXNPSywgZ2luLkh7CgkJImRhdGEiOiAgICAgIGRhdGEsCgkJInRvdGFsIjogICAgIHRvdGFsLAoJCSJwYWdlIjogICAgICBwYWdlLAoJCSJwYWdlX3NpemUiOiBwYWdlU2l6ZSwKCX0pCn0K
+package response
+
+import (
+	"net/http"
+
+	"github.com/gin-gonic/gin"
+)
+
+func Success(c *gin.Context, data interface{}) {
+	c.JSON(http.StatusOK, data)
+}
+
+func Created(c *gin.Context, data interface{}) {
+	c.JSON(http.StatusCreated, data)
+}
+
+func Error(c *gin.Context, statusCode int, message string) {
+	c.JSON(statusCode, gin.H{"error": message})
+}
+
+func BadRequest(c *gin.Context, message string) {
+	Error(c, http.StatusBadRequest, message)
+}
+
+func Unauthorized(c *gin.Context, message string) {
+	Error(c, http.StatusUnauthorized, message)
+}
+
+func Forbidden(c *gin.Context, message string) {
+	Error(c, http.StatusForbidden, message)
+}
+
+func NotFound(c *gin.Context, message string) {
+	Error(c, http.StatusNotFound, message)
+}
+
+func InternalError(c *gin.Context, message string) {
+	Error(c, http.StatusInternalServerError, message)
+}
+
+func TooManyRequests(c *gin.Context, message string) {
+	Error(c, http.StatusTooManyRequests, message)
+}
+
+func Paginated(c *gin.Context, data interface{}, total int64, page, pageSize int) {
+	c.JSON(http.StatusOK, gin.H{
+		"data":      data,
+		"total":     total,
+		"page":      page,
+		"page_size": pageSize,
+	})
+}

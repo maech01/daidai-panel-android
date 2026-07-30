@@ -1,1 +1,79 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IEJlbGwsIERvY3VtZW50IH0gZnJvbSAnQGVsZW1lbnQtcGx1cy9pY29ucy12dWUnCmltcG9ydCB0eXBlIHsgU2V0dGluZ3NDb25maWdGb3JtIH0gZnJvbSAnLi4vdHlwZXMnCgpkZWZpbmVQcm9wczx7CiAgY29uZmlnc0xvYWRpbmc6IGJvb2xlYW4KICBjb25maWdzU2F2aW5nOiBib29sZWFuCiAgZm9ybTogU2V0dGluZ3NDb25maWdGb3JtCiAgb25TYXZlOiAoKSA9PiB2b2lkCn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgdi1sb2FkaW5nPSJjb25maWdzTG9hZGluZyI+CiAgICA8dGVtcGxhdGUgI2hlYWRlcj4KICAgICAgPGRpdiBjbGFzcz0iY2FyZC1oZWFkZXIiPgogICAgICAgIDxzcGFuIGNsYXNzPSJjYXJkLXRpdGxlIj48ZWwtaWNvbj48QmVsbCAvPjwvZWwtaWNvbj4g5ZGK6K2m6YCa55+lPC9zcGFuPgogICAgICAgIDxlbC1idXR0b24gdHlwZT0icHJpbWFyeSIgOmxvYWRpbmc9ImNvbmZpZ3NTYXZpbmciIEBjbGljaz0ib25TYXZlIj4KICAgICAgICAgIDxlbC1pY29uPjxEb2N1bWVudCAvPjwvZWwtaWNvbj7kv53lrZjphY3nva4KICAgICAgICA8L2VsLWJ1dHRvbj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgoKICAgIDxkaXYgY2xhc3M9ImNvbmZpZy1zZWN0aW9uIj4KICAgICAgPGg0IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj7otYTmupDlkYroraY8L2g0PgogICAgICA8ZWwtcm93IDpndXR0ZXI9IjE2Ij4KICAgICAgICA8ZWwtY29sIDp4cz0iMjQiIDptZD0iOCI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgICAgICAgPGxhYmVsPkNQVSDpmIjlgLwgKCUpPC9sYWJlbD4KICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWwubnVtYmVyPSJmb3JtLmNwdV93YXJuIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9lbC1jb2w+CiAgICAgICAgPGVsLWNvbCA6eHM9IjI0IiA6bWQ9IjgiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgICAgICAgIDxsYWJlbD7lhoXlrZjpmIjlgLwgKCUpPC9sYWJlbD4KICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWwubnVtYmVyPSJmb3JtLm1lbW9yeV93YXJuIiAvPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9lbC1jb2w+CiAgICAgICAgPGVsLWNvbCA6eHM9IjI0IiA6bWQ9IjgiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgICAgICAgIDxsYWJlbD7no4Hnm5jpmIjlgLwgKCUpPC9sYWJlbD4KICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWwubnVtYmVyPSJmb3JtLmRpc2tfd2FybiIgLz4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZWwtY29sPgogICAgICA8L2VsLXJvdz4KICAgICAgPGRpdiBjbGFzcz0ic3dpdGNoLXJvdyI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3dpdGNoLWl0ZW0iPgogICAgICAgICAgPHNwYW4gY2xhc3M9InN3aXRjaC1sYWJlbCI+6LWE5rqQ6LaF6ZmQ5Y+R6YCB6YCa55+lPC9zcGFuPgogICAgICAgICAgPGVsLXN3aXRjaCB2LW1vZGVsPSJmb3JtLm5vdGlmeV9vbl9yZXNvdXJjZV93YXJuIiBpbmxpbmUtcHJvbXB0IGFjdGl2ZS10ZXh0PSLlvIAiIGluYWN0aXZlLXRleHQ9IuWFsyIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPuW8gOWQr+WQju+8jOi1hOa6kOS9v+eUqOeOh+i2hei/h+S4iuaWuemYiOWAvOaXtuWwhuWQkeaJgOacieW3suWQr+eUqOeahOmAmuefpea4oOmBk+WPkemAgemAmuefpTwvc3Bhbj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImNvbmZpZy1zZWN0aW9uIj4KICAgICAgPGg0IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj7pgJrnn6XmoIfor4Y8L2g0PgogICAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgICA8bGFiZWw+6YCa55+l6Z2i5p2/5ZCN56ewPC9sYWJlbD4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5ub3RpZnlfcGFuZWxfbGFiZWwiIHBsYWNlaG9sZGVyPSLnlZnnqbrkuI3pmYTluKbvvIzkvovlpoLvvJrlrrbph4xOQVMiIG1heGxlbmd0aD0iMzIiIHNob3ctd29yZC1saW1pdCBjbGVhcmFibGUgLz4KICAgICAgPC9kaXY+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPuWhq+WGmeWQjuaJgOaciemAmuefpeagh+mimOe7n+S4gOWKoOS4iuOAjOOAkOmdouadv+WQjeOAkeOAjeWJjee8gO+8jOaWueS+v+WkmuS4qumdouadv+WFseeUqOWQjOS4gOmAmuefpea4oOmBk+aXtuWMuuWIhuadpea6kO+8m+eVmeepuuWImeS4jemZhOW4pjwvc3Bhbj4KICAgIDwvZGl2PgoKICAgIDxkaXYgY2xhc3M9ImNvbmZpZy1zZWN0aW9uIj4KICAgICAgPGg0IGNsYXNzPSJzZWN0aW9uLXRpdGxlIj7nmbvlvZXpgJrnn6U8L2g0PgogICAgICA8ZGl2IGNsYXNzPSJzd2l0Y2gtcm93Ij4KICAgICAgICA8ZGl2IGNsYXNzPSJzd2l0Y2gtaXRlbSI+CiAgICAgICAgICA8c3BhbiBjbGFzcz0ic3dpdGNoLWxhYmVsIj7nmbvlvZXmiJDlip/lj5HpgIHpgJrnn6U8L3NwYW4+CiAgICAgICAgICA8ZWwtc3dpdGNoIHYtbW9kZWw9ImZvcm0ubm90aWZ5X29uX2xvZ2luIiBpbmxpbmUtcHJvbXB0IGFjdGl2ZS10ZXh0PSLlvIAiIGluYWN0aXZlLXRleHQ9IuWFsyIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPuW8gOWQr+WQju+8jOavj+asoeeZu+W9leaIkOWKn+WwhuWQkeaJgOacieW3suWQr+eUqOeahOmAmuefpea4oOmBk+WPkemAgemAmuefpTwvc3Bhbj4KICAgIDwvZGl2PgogIDwvZWwtY2FyZD4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+CkB1c2UgJy4vY29uZmlnLWNhcmQtc2hhcmVkLnNjc3MnIGFzICo7Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { Bell, Document } from '@element-plus/icons-vue'
+import type { SettingsConfigForm } from '../types'
+
+defineProps<{
+  configsLoading: boolean
+  configsSaving: boolean
+  form: SettingsConfigForm
+  onSave: () => void
+}>()
+</script>
+
+<template>
+  <el-card shadow="never" v-loading="configsLoading">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Bell /></el-icon> 告警通知</span>
+        <el-button type="primary" :loading="configsSaving" @click="onSave">
+          <el-icon><Document /></el-icon>保存配置
+        </el-button>
+      </div>
+    </template>
+
+    <div class="config-section">
+      <h4 class="section-title">资源告警</h4>
+      <el-row :gutter="16">
+        <el-col :xs="24" :md="8">
+          <div class="form-field">
+            <label>CPU 阈值 (%)</label>
+            <el-input v-model.number="form.cpu_warn" />
+          </div>
+        </el-col>
+        <el-col :xs="24" :md="8">
+          <div class="form-field">
+            <label>内存阈值 (%)</label>
+            <el-input v-model.number="form.memory_warn" />
+          </div>
+        </el-col>
+        <el-col :xs="24" :md="8">
+          <div class="form-field">
+            <label>磁盘阈值 (%)</label>
+            <el-input v-model.number="form.disk_warn" />
+          </div>
+        </el-col>
+      </el-row>
+      <div class="switch-row">
+        <div class="switch-item">
+          <span class="switch-label">资源超限发送通知</span>
+          <el-switch v-model="form.notify_on_resource_warn" inline-prompt active-text="开" inactive-text="关" />
+        </div>
+      </div>
+      <span class="form-hint">开启后，资源使用率超过上方阈值时将向所有已启用的通知渠道发送通知</span>
+    </div>
+
+    <div class="config-section">
+      <h4 class="section-title">通知标识</h4>
+      <div class="form-field">
+        <label>通知面板名称</label>
+        <el-input v-model="form.notify_panel_label" placeholder="留空不附带，例如：家里NAS" maxlength="32" show-word-limit clearable />
+      </div>
+      <span class="form-hint">填写后所有通知标题统一加上「【面板名】」前缀，方便多个面板共用同一通知渠道时区分来源；留空则不附带</span>
+    </div>
+
+    <div class="config-section">
+      <h4 class="section-title">登录通知</h4>
+      <div class="switch-row">
+        <div class="switch-item">
+          <span class="switch-label">登录成功发送通知</span>
+          <el-switch v-model="form.notify_on_login" inline-prompt active-text="开" inactive-text="关" />
+        </div>
+      </div>
+      <span class="form-hint">开启后，每次登录成功将向所有已启用的通知渠道发送通知</span>
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+</style>

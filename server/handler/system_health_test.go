@@ -1,1 +1,187 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkibmV0L2h0dHAiCgkibmV0L2h0dHAvaHR0cHRlc3QiCgkicmVmbGVjdCIKCSJ0ZXN0aW5nIgoJInN0cmluZ3MiCgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvc2VydmljZSIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKZnVuYyBuZXdTeXN0ZW1IZWFsdGhUZXN0Um91dGVyKCkgKmdpbi5FbmdpbmUgewoJZW5naW5lIDo9IGdpbi5OZXcoKQoJYXBpIDo9IGVuZ2luZS5Hcm91cCgiL2FwaS92MSIpCglOZXdTeXN0ZW1IYW5kbGVyKCkuUmVnaXN0ZXJSb3V0ZXMoYXBpKQoJcmV0dXJuIGVuZ2luZQp9CgpmdW5jIGRlY29kZVN5c3RlbUhlYWx0aFNuYXBzaG90KHQgKnRlc3RpbmcuVCwgcmVjICpodHRwdGVzdC5SZXNwb25zZVJlY29yZGVyKSBzeXN0ZW1IZWFsdGhTbmFwc2hvdCB7Cgl0LkhlbHBlcigpCgoJdmFyIHNuYXBzaG90IHN5c3RlbUhlYWx0aFNuYXBzaG90CglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwocmVjLkJvZHkuQnl0ZXMoKSwgJnNuYXBzaG90KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImRlY29kZSBoZWFsdGggc25hcHNob3Q6ICV2IiwgZXJyKQoJfQoJcmV0dXJuIHNuYXBzaG90Cn0KCmZ1bmMgVGVzdFJ1bkhlYWx0aENoZWNrUGVyc2lzdHNTbmFwc2hvdCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXVwc3RyZWFtIDo9IGh0dHB0ZXN0Lk5ld1NlcnZlcihodHRwLkhhbmRsZXJGdW5jKGZ1bmModyBodHRwLlJlc3BvbnNlV3JpdGVyLCByICpodHRwLlJlcXVlc3QpIHsKCQl3LldyaXRlSGVhZGVyKGh0dHAuU3RhdHVzTm9Db250ZW50KQoJfSkpCglkZWZlciB1cHN0cmVhbS5DbG9zZSgpCgoJcHJldmlvdXNDbGllbnQgOj0gc3lzdGVtSGVhbHRoQ2hlY2tIVFRQQ2xpZW50CglwcmV2aW91c1VSTCA6PSBzeXN0ZW1IZWFsdGhDaGVja1VSTAoJc3lzdGVtSGVhbHRoQ2hlY2tIVFRQQ2xpZW50ID0gdXBzdHJlYW0uQ2xpZW50KCkKCXN5c3RlbUhlYWx0aENoZWNrVVJMID0gdXBzdHJlYW0uVVJMCgl0LkNsZWFudXAoZnVuYygpIHsKCQlzeXN0ZW1IZWFsdGhDaGVja0hUVFBDbGllbnQgPSBwcmV2aW91c0NsaWVudAoJCXN5c3RlbUhlYWx0aENoZWNrVVJMID0gcHJldmlvdXNVUkwKCX0pCgoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAic3lzdGVtLWhlYWx0aC12aWV3ZXIiLCAidmlld2VyIikKCXRva2VuIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVBY2Nlc3NUb2tlbih0LCB1c2VyLlVzZXJuYW1lLCB1c2VyLlJvbGUpCgllbmdpbmUgOj0gbmV3U3lzdGVtSGVhbHRoVGVzdFJvdXRlcigpCgoJaW5pdGlhbFJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kR2V0LCAiL2FwaS92MS9zeXN0ZW0vaGVhbHRoLWNoZWNrIiwgbmlsKQoJaW5pdGlhbFJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJaW5pdGlhbFJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKGluaXRpYWxSZWMsIGluaXRpYWxSZXEpCgoJaWYgaW5pdGlhbFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBpbml0aWFsIEdFVCB0byByZXR1cm4gMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCBpbml0aWFsUmVjLkNvZGUsIGluaXRpYWxSZWMuQm9keS5TdHJpbmcoKSkKCX0KCglpbml0aWFsU25hcHNob3QgOj0gZGVjb2RlU3lzdGVtSGVhbHRoU25hcHNob3QodCwgaW5pdGlhbFJlYykKCWlmIGluaXRpYWxTbmFwc2hvdC5MYXN0Q2hlY2tlZEF0ICE9ICIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm8gbGFzdF9jaGVja2VkX2F0IGJlZm9yZSBydW5uaW5nIGhlYWx0aCBjaGVjaywgZ290ICVxIiwgaW5pdGlhbFNuYXBzaG90Lkxhc3RDaGVja2VkQXQpCgl9CglpZiBsZW4oaW5pdGlhbFNuYXBzaG90Lkl0ZW1zKSAhPSAwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm8gcGVyc2lzdGVkIGhlYWx0aCBpdGVtcyBiZWZvcmUgcnVubmluZyBoZWFsdGggY2hlY2ssIGdvdCAlI3YiLCBpbml0aWFsU25hcHNob3QuSXRlbXMpCgl9CgoJcG9zdFJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUG9zdCwgIi9hcGkvdjEvc3lzdGVtL2hlYWx0aC1jaGVjayIsIG5pbCkKCXBvc3RSZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXBvc3RSZWMgOj0gaHR0cHRlc3QuTmV3UmVjb3JkZXIoKQoJZW5naW5lLlNlcnZlSFRUUChwb3N0UmVjLCBwb3N0UmVxKQoKCWlmIHBvc3RSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgUE9TVCB0byByZXR1cm4gMjAwLCBnb3QgJWQsIGJvZHk9JXMiLCBwb3N0UmVjLkNvZGUsIHBvc3RSZWMuQm9keS5TdHJpbmcoKSkKCX0KCglwb3N0U25hcHNob3QgOj0gZGVjb2RlU3lzdGVtSGVhbHRoU25hcHNob3QodCwgcG9zdFJlYykKCWlmIHBvc3RTbmFwc2hvdC5MYXN0Q2hlY2tlZEF0ID09ICIiIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBsYXN0X2NoZWNrZWRfYXQgdG8gYmUgcGVyc2lzdGVkIGFmdGVyIHJ1bm5pbmcgaGVhbHRoIGNoZWNrIikKCX0KCWlmIGxlbihwb3N0U25hcHNob3QuSXRlbXMpID09IDAgewoJCXQuRmF0YWwoImV4cGVjdGVkIGhlYWx0aCBpdGVtcyBhZnRlciBydW5uaW5nIGhlYWx0aCBjaGVjayIpCgl9CgoJZXhwZWN0ZWROYW1lcyA6PSBtYXBbc3RyaW5nXWJvb2x7CgkJImRhdGFiYXNlIjogIGZhbHNlLAoJCSJtZW1vcnkiOiAgICBmYWxzZSwKCQkic2NoZWR1bGVyIjogZmFsc2UsCgkJIm5ldHdvcmsiOiAgIGZhbHNlLAoJfQoJZm9yIF8sIGl0ZW0gOj0gcmFuZ2UgcG9zdFNuYXBzaG90Lkl0ZW1zIHsKCQlpZiBfLCBleGlzdHMgOj0gZXhwZWN0ZWROYW1lc1tpdGVtLk5hbWVdOyBleGlzdHMgewoJCQlleHBlY3RlZE5hbWVzW2l0ZW0uTmFtZV0gPSB0cnVlCgkJfQoJfQoJZm9yIG5hbWUsIHNlZW4gOj0gcmFuZ2UgZXhwZWN0ZWROYW1lcyB7CgkJaWYgIXNlZW4gewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgcGVyc2lzdGVkIGhlYWx0aCBzbmFwc2hvdCB0byBpbmNsdWRlICVzLCBnb3QgJSN2IiwgbmFtZSwgcG9zdFNuYXBzaG90Lkl0ZW1zKQoJCX0KCX0KCglpZiBnb3QgOj0gbW9kZWwuR2V0Q29uZmlnKHN5c3RlbUhlYWx0aExhc3RDaGVja2VkQXRLZXksICIiKTsgZ290ICE9IHBvc3RTbmFwc2hvdC5MYXN0Q2hlY2tlZEF0IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcGVyc2lzdGVkIGxhc3RfY2hlY2tlZF9hdCAlcSwgZ290ICVxIiwgcG9zdFNuYXBzaG90Lkxhc3RDaGVja2VkQXQsIGdvdCkKCX0KCWlmIGdvdCA6PSBtb2RlbC5HZXRDb25maWcoc3lzdGVtSGVhbHRoTGFzdFJlc3VsdEtleSwgIiIpOyBnb3QgPT0gIiIgewoJCXQuRmF0YWwoImV4cGVjdGVkIHBlcnNpc3RlZCBoZWFsdGggcmVzdWx0IEpTT04gdG8gYmUgc3RvcmVkIikKCX0KCglnZXRSZXEgOj0gaHR0cHRlc3QuTmV3UmVxdWVzdChodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvc3lzdGVtL2hlYWx0aC1jaGVjayIsIG5pbCkKCWdldFJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJZ2V0UmVjIDo9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAoZ2V0UmVjLCBnZXRSZXEpCgoJaWYgZ2V0UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIEdFVCBhZnRlciBQT1NUIHRvIHJldHVybiAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIGdldFJlYy5Db2RlLCBnZXRSZWMuQm9keS5TdHJpbmcoKSkKCX0KCglnZXRTbmFwc2hvdCA6PSBkZWNvZGVTeXN0ZW1IZWFsdGhTbmFwc2hvdCh0LCBnZXRSZWMpCglpZiBnZXRTbmFwc2hvdC5MYXN0Q2hlY2tlZEF0ICE9IHBvc3RTbmFwc2hvdC5MYXN0Q2hlY2tlZEF0IHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgR0VUIGxhc3RfY2hlY2tlZF9hdCAlcSwgZ290ICVxIiwgcG9zdFNuYXBzaG90Lkxhc3RDaGVja2VkQXQsIGdldFNuYXBzaG90Lkxhc3RDaGVja2VkQXQpCgl9CglpZiAhcmVmbGVjdC5EZWVwRXF1YWwoZ2V0U25hcHNob3QuSXRlbXMsIHBvc3RTbmFwc2hvdC5JdGVtcykgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBHRVQgdG8gcmV0dXJuIHBlcnNpc3RlZCBpdGVtcyAlI3YsIGdvdCAlI3YiLCBwb3N0U25hcHNob3QuSXRlbXMsIGdldFNuYXBzaG90Lkl0ZW1zKQoJfQp9CgpmdW5jIFRlc3RSdW5IZWFsdGhDaGVja1VzZXNVbmF2YWlsYWJsZVdhcm5pbmdXaGVuTWVtb3J5VG90YWxNaXNzaW5nKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdXBzdHJlYW0gOj0gaHR0cHRlc3QuTmV3U2VydmVyKGh0dHAuSGFuZGxlckZ1bmMoZnVuYyh3IGh0dHAuUmVzcG9uc2VXcml0ZXIsIHIgKmh0dHAuUmVxdWVzdCkgewoJCXcuV3JpdGVIZWFkZXIoaHR0cC5TdGF0dXNOb0NvbnRlbnQpCgl9KSkKCWRlZmVyIHVwc3RyZWFtLkNsb3NlKCkKCglwcmV2aW91c0NsaWVudCA6PSBzeXN0ZW1IZWFsdGhDaGVja0hUVFBDbGllbnQKCXByZXZpb3VzVVJMIDo9IHN5c3RlbUhlYWx0aENoZWNrVVJMCglwcmV2aW91c0dldFJlc291cmNlSW5mbyA6PSBzeXN0ZW1IZWFsdGhHZXRSZXNvdXJjZUluZm8KCXN5c3RlbUhlYWx0aENoZWNrSFRUUENsaWVudCA9IHVwc3RyZWFtLkNsaWVudCgpCglzeXN0ZW1IZWFsdGhDaGVja1VSTCA9IHVwc3RyZWFtLlVSTAoJc3lzdGVtSGVhbHRoR2V0UmVzb3VyY2VJbmZvID0gZnVuYygpIHNlcnZpY2UuUmVzb3VyY2VJbmZvIHsKCQlyZXR1cm4gc2VydmljZS5SZXNvdXJjZUluZm97CgkJCU1lbW9yeVRvdGFsOiAwLAoJCQlNZW1vcnlVc2FnZTogMCwKCQl9Cgl9Cgl0LkNsZWFudXAoZnVuYygpIHsKCQlzeXN0ZW1IZWFsdGhDaGVja0hUVFBDbGllbnQgPSBwcmV2aW91c0NsaWVudAoJCXN5c3RlbUhlYWx0aENoZWNrVVJMID0gcHJldmlvdXNVUkwKCQlzeXN0ZW1IZWFsdGhHZXRSZXNvdXJjZUluZm8gPSBwcmV2aW91c0dldFJlc291cmNlSW5mbwoJfSkKCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzeXN0ZW0taGVhbHRoLW1pc3NpbmctbWVtb3J5IiwgInZpZXdlciIpCgl0b2tlbiA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlQWNjZXNzVG9rZW4odCwgdXNlci5Vc2VybmFtZSwgdXNlci5Sb2xlKQoJZW5naW5lIDo9IG5ld1N5c3RlbUhlYWx0aFRlc3RSb3V0ZXIoKQoKCXJlcSA6PSBodHRwdGVzdC5OZXdSZXF1ZXN0KGh0dHAuTWV0aG9kUG9zdCwgIi9hcGkvdjEvc3lzdGVtL2hlYWx0aC1jaGVjayIsIG5pbCkKCXJlcS5IZWFkZXIuU2V0KCJBdXRob3JpemF0aW9uIiwgIkJlYXJlciAiK3Rva2VuKQoJcmVjIDo9IGh0dHB0ZXN0Lk5ld1JlY29yZGVyKCkKCWVuZ2luZS5TZXJ2ZUhUVFAocmVjLCByZXEpCgoJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIFBPU1QgdG8gcmV0dXJuIDIwMCwgZ290ICVkLCBib2R5PSVzIiwgcmVjLkNvZGUsIHJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCXNuYXBzaG90IDo9IGRlY29kZVN5c3RlbUhlYWx0aFNuYXBzaG90KHQsIHJlYykKCXZhciBtZW1vcnlJdGVtICpzeXN0ZW1IZWFsdGhDaGVja0l0ZW0KCWZvciBpIDo9IHJhbmdlIHNuYXBzaG90Lkl0ZW1zIHsKCQlpZiBzbmFwc2hvdC5JdGVtc1tpXS5OYW1lID09ICJtZW1vcnkiIHsKCQkJbWVtb3J5SXRlbSA9ICZzbmFwc2hvdC5JdGVtc1tpXQoJCQlicmVhawoJCX0KCX0KCWlmIG1lbW9yeUl0ZW0gPT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbWVtb3J5IGhlYWx0aCBpdGVtLCBnb3QgJSN2Iiwgc25hcHNob3QuSXRlbXMpCgl9CglpZiBtZW1vcnlJdGVtLlN0YXR1cyAhPSAid2FybmluZyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBtZW1vcnkgc3RhdHVzIHdhcm5pbmcgd2hlbiBtZW1vcnlfdG90YWwgaXMgbWlzc2luZywgZ290ICUjdiIsIG1lbW9yeUl0ZW0pCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhtZW1vcnlJdGVtLk1lc3NhZ2UsICLotYTmupDph4fpm4bkuI3lj6/nlKgiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG1lbW9yeSB3YXJuaW5nIG1lc3NhZ2UgdG8gZXhwbGFpbiB1bmF2YWlsYWJsZSByZXNvdXJjZSBjb2xsZWN0aW9uLCBnb3QgJSN2IiwgbWVtb3J5SXRlbSkKCX0KfQo=
+package handler
+
+import (
+	"encoding/json"
+	"net/http"
+	"net/http/httptest"
+	"reflect"
+	"testing"
+	"strings"
+
+	"daidai-panel/model"
+	"daidai-panel/service"
+	"daidai-panel/testutil"
+
+	"github.com/gin-gonic/gin"
+)
+
+func newSystemHealthTestRouter() *gin.Engine {
+	engine := gin.New()
+	api := engine.Group("/api/v1")
+	NewSystemHandler().RegisterRoutes(api)
+	return engine
+}
+
+func decodeSystemHealthSnapshot(t *testing.T, rec *httptest.ResponseRecorder) systemHealthSnapshot {
+	t.Helper()
+
+	var snapshot systemHealthSnapshot
+	if err := json.Unmarshal(rec.Body.Bytes(), &snapshot); err != nil {
+		t.Fatalf("decode health snapshot: %v", err)
+	}
+	return snapshot
+}
+
+func TestRunHealthCheckPersistsSnapshot(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	upstream := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusNoContent)
+	}))
+	defer upstream.Close()
+
+	previousClient := systemHealthCheckHTTPClient
+	previousURL := systemHealthCheckURL
+	systemHealthCheckHTTPClient = upstream.Client()
+	systemHealthCheckURL = upstream.URL
+	t.Cleanup(func() {
+		systemHealthCheckHTTPClient = previousClient
+		systemHealthCheckURL = previousURL
+	})
+
+	user := testutil.MustCreateUser(t, "system-health-viewer", "viewer")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	engine := newSystemHealthTestRouter()
+
+	initialReq := httptest.NewRequest(http.MethodGet, "/api/v1/system/health-check", nil)
+	initialReq.Header.Set("Authorization", "Bearer "+token)
+	initialRec := httptest.NewRecorder()
+	engine.ServeHTTP(initialRec, initialReq)
+
+	if initialRec.Code != http.StatusOK {
+		t.Fatalf("expected initial GET to return 200, got %d, body=%s", initialRec.Code, initialRec.Body.String())
+	}
+
+	initialSnapshot := decodeSystemHealthSnapshot(t, initialRec)
+	if initialSnapshot.LastCheckedAt != "" {
+		t.Fatalf("expected no last_checked_at before running health check, got %q", initialSnapshot.LastCheckedAt)
+	}
+	if len(initialSnapshot.Items) != 0 {
+		t.Fatalf("expected no persisted health items before running health check, got %#v", initialSnapshot.Items)
+	}
+
+	postReq := httptest.NewRequest(http.MethodPost, "/api/v1/system/health-check", nil)
+	postReq.Header.Set("Authorization", "Bearer "+token)
+	postRec := httptest.NewRecorder()
+	engine.ServeHTTP(postRec, postReq)
+
+	if postRec.Code != http.StatusOK {
+		t.Fatalf("expected POST to return 200, got %d, body=%s", postRec.Code, postRec.Body.String())
+	}
+
+	postSnapshot := decodeSystemHealthSnapshot(t, postRec)
+	if postSnapshot.LastCheckedAt == "" {
+		t.Fatal("expected last_checked_at to be persisted after running health check")
+	}
+	if len(postSnapshot.Items) == 0 {
+		t.Fatal("expected health items after running health check")
+	}
+
+	expectedNames := map[string]bool{
+		"database":  false,
+		"memory":    false,
+		"scheduler": false,
+		"network":   false,
+	}
+	for _, item := range postSnapshot.Items {
+		if _, exists := expectedNames[item.Name]; exists {
+			expectedNames[item.Name] = true
+		}
+	}
+	for name, seen := range expectedNames {
+		if !seen {
+			t.Fatalf("expected persisted health snapshot to include %s, got %#v", name, postSnapshot.Items)
+		}
+	}
+
+	if got := model.GetConfig(systemHealthLastCheckedAtKey, ""); got != postSnapshot.LastCheckedAt {
+		t.Fatalf("expected persisted last_checked_at %q, got %q", postSnapshot.LastCheckedAt, got)
+	}
+	if got := model.GetConfig(systemHealthLastResultKey, ""); got == "" {
+		t.Fatal("expected persisted health result JSON to be stored")
+	}
+
+	getReq := httptest.NewRequest(http.MethodGet, "/api/v1/system/health-check", nil)
+	getReq.Header.Set("Authorization", "Bearer "+token)
+	getRec := httptest.NewRecorder()
+	engine.ServeHTTP(getRec, getReq)
+
+	if getRec.Code != http.StatusOK {
+		t.Fatalf("expected GET after POST to return 200, got %d, body=%s", getRec.Code, getRec.Body.String())
+	}
+
+	getSnapshot := decodeSystemHealthSnapshot(t, getRec)
+	if getSnapshot.LastCheckedAt != postSnapshot.LastCheckedAt {
+		t.Fatalf("expected GET last_checked_at %q, got %q", postSnapshot.LastCheckedAt, getSnapshot.LastCheckedAt)
+	}
+	if !reflect.DeepEqual(getSnapshot.Items, postSnapshot.Items) {
+		t.Fatalf("expected GET to return persisted items %#v, got %#v", postSnapshot.Items, getSnapshot.Items)
+	}
+}
+
+func TestRunHealthCheckUsesUnavailableWarningWhenMemoryTotalMissing(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	upstream := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.WriteHeader(http.StatusNoContent)
+	}))
+	defer upstream.Close()
+
+	previousClient := systemHealthCheckHTTPClient
+	previousURL := systemHealthCheckURL
+	previousGetResourceInfo := systemHealthGetResourceInfo
+	systemHealthCheckHTTPClient = upstream.Client()
+	systemHealthCheckURL = upstream.URL
+	systemHealthGetResourceInfo = func() service.ResourceInfo {
+		return service.ResourceInfo{
+			MemoryTotal: 0,
+			MemoryUsage: 0,
+		}
+	}
+	t.Cleanup(func() {
+		systemHealthCheckHTTPClient = previousClient
+		systemHealthCheckURL = previousURL
+		systemHealthGetResourceInfo = previousGetResourceInfo
+	})
+
+	user := testutil.MustCreateUser(t, "system-health-missing-memory", "viewer")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	engine := newSystemHealthTestRouter()
+
+	req := httptest.NewRequest(http.MethodPost, "/api/v1/system/health-check", nil)
+	req.Header.Set("Authorization", "Bearer "+token)
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected POST to return 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	snapshot := decodeSystemHealthSnapshot(t, rec)
+	var memoryItem *systemHealthCheckItem
+	for i := range snapshot.Items {
+		if snapshot.Items[i].Name == "memory" {
+			memoryItem = &snapshot.Items[i]
+			break
+		}
+	}
+	if memoryItem == nil {
+		t.Fatalf("expected memory health item, got %#v", snapshot.Items)
+	}
+	if memoryItem.Status != "warning" {
+		t.Fatalf("expected memory status warning when memory_total is missing, got %#v", memoryItem)
+	}
+	if !strings.Contains(memoryItem.Message, "资源采集不可用") {
+		t.Fatalf("expected memory warning message to explain unavailable resource collection, got %#v", memoryItem)
+	}
+}

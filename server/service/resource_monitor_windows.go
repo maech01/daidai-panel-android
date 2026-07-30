@@ -1,1 +1,158 @@
-Ly9nbzpidWlsZCB3aW5kb3dzCgpwYWNrYWdlIHNlcnZpY2UKCmltcG9ydCAoCgkibWF0aCIKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN5c2NhbGwiCgkidGltZSIKCSJ1bnNhZmUiCikKCnR5cGUgbWVtb3J5U3RhdHVzRXggc3RydWN0IHsKCWR3TGVuZ3RoICAgICAgICAgICAgICAgIHVpbnQzMgoJZHdNZW1vcnlMb2FkICAgICAgICAgICAgdWludDMyCgl1bGxUb3RhbFBoeXMgICAgICAgICAgICB1aW50NjQKCXVsbEF2YWlsUGh5cyAgICAgICAgICAgIHVpbnQ2NAoJdWxsVG90YWxQYWdlRmlsZSAgICAgICAgdWludDY0Cgl1bGxBdmFpbFBhZ2VGaWxlICAgICAgICB1aW50NjQKCXVsbFRvdGFsVmlydHVhbCAgICAgICAgIHVpbnQ2NAoJdWxsQXZhaWxWaXJ0dWFsICAgICAgICAgdWludDY0Cgl1bGxBdmFpbEV4dGVuZGVkVmlydHVhbCB1aW50NjQKfQoKdmFyICgKCWtlcm5lbDMyRExMICAgICAgICAgICAgICAgID0gc3lzY2FsbC5OZXdMYXp5RExMKCJrZXJuZWwzMi5kbGwiKQoJZ2xvYmFsTWVtb3J5U3RhdHVzRXhQcm9jICAgPSBrZXJuZWwzMkRMTC5OZXdQcm9jKCJHbG9iYWxNZW1vcnlTdGF0dXNFeCIpCglnZXREaXNrRnJlZVNwYWNlRXhXUHJvYyAgICA9IGtlcm5lbDMyRExMLk5ld1Byb2MoIkdldERpc2tGcmVlU3BhY2VFeFciKQopCgovLyBmaWxsV2luZG93c1Jlc291cmNlSW5mbyDkuLogV2luZG93cyDov5DooYzmgIHooaXpvZDotYTmupDkv6Hmga/vvIzpgb/lhY3ku6rooajmnb/lkozns7vnu5/orr7nva7plb/mnJ/mmL7npLogMOOAggovLyDov5nph4zkvJjlhYjooaXlhoXlrZjjgIHno4Hnm5jlkozln7rnoYAgQ1BV77yb572R57uc6YCf5bqm5pqC5pe25L+d5oyBIDDvvIzkuI3lho3or6/miqXmgLvlrrnph4/kuLogMOOAggpmdW5jIGZpbGxXaW5kb3dzUmVzb3VyY2VJbmZvKGluZm8gKlJlc291cmNlSW5mbykgewoJaWYgaW5mbyA9PSBuaWwgewoJCXJldHVybgoJfQoKCXRvdGFsTWVtb3J5LCB1c2VkTWVtb3J5LCBmcmVlTWVtb3J5LCBtZW1vcnlVc2FnZSA6PSBnZXRXaW5kb3dzTWVtb3J5KCkKCWluZm8uTWVtb3J5VG90YWwgPSB0b3RhbE1lbW9yeQoJaW5mby5NZW1vcnlVc2VkID0gdXNlZE1lbW9yeQoJaW5mby5NZW1vcnlGcmVlID0gZnJlZU1lbW9yeQoJaW5mby5NZW1vcnlVc2FnZSA9IG1lbW9yeVVzYWdlCgoJZGlza1Jvb3QgOj0gcmVzb2x2ZVdpbmRvd3NEaXNrUm9vdChpbmZvLkRhdGFEaXIpCgl0b3RhbERpc2ssIHVzZWREaXNrLCBmcmVlRGlzaywgZGlza1VzYWdlIDo9IGdldFdpbmRvd3NEaXNrKGRpc2tSb290KQoJaW5mby5EaXNrVG90YWwgPSB0b3RhbERpc2sKCWluZm8uRGlza1VzZWQgPSB1c2VkRGlzawoJaW5mby5EaXNrRnJlZSA9IGZyZWVEaXNrCglpbmZvLkRpc2tVc2FnZSA9IGRpc2tVc2FnZQoKCWluZm8uQ1BVVXNhZ2UgPSBnZXRXaW5kb3dzQ1BVVXNhZ2UoKQp9CgpmdW5jIGdldFdpbmRvd3NNZW1vcnkoKSAodG90YWwsIHVzZWQsIGZyZWUgdWludDY0LCB1c2FnZSBmbG9hdDY0KSB7CglzdGF0dXMgOj0gbWVtb3J5U3RhdHVzRXh7fQoJc3RhdHVzLmR3TGVuZ3RoID0gdWludDMyKHVuc2FmZS5TaXplb2Yoc3RhdHVzKSkKCglyZXQsIF8sIF8gOj0gZ2xvYmFsTWVtb3J5U3RhdHVzRXhQcm9jLkNhbGwodWludHB0cih1bnNhZmUuUG9pbnRlcigmc3RhdHVzKSkpCglpZiByZXQgPT0gMCB7CgkJcmV0dXJuIDAsIDAsIDAsIDAKCX0KCgl0b3RhbCA9IHN0YXR1cy51bGxUb3RhbFBoeXMKCWZyZWUgPSBzdGF0dXMudWxsQXZhaWxQaHlzCglpZiB0b3RhbCA+PSBmcmVlIHsKCQl1c2VkID0gdG90YWwgLSBmcmVlCgl9CglpZiB0b3RhbCA+IDAgewoJCXVzYWdlID0gbWF0aC5Sb3VuZChmbG9hdDY0KHVzZWQpL2Zsb2F0NjQodG90YWwpKjEwMDAwKSAvIDEwMAoJfQoKCXJldHVybiB0b3RhbCwgdXNlZCwgZnJlZSwgdXNhZ2UKfQoKZnVuYyBnZXRXaW5kb3dzRGlzayhyb290IHN0cmluZykgKHRvdGFsLCB1c2VkLCBmcmVlIHVpbnQ2NCwgdXNhZ2UgZmxvYXQ2NCkgewoJcm9vdCA9IGZpbGVwYXRoLkNsZWFuKHJvb3QpCglyb290UHRyLCBlcnIgOj0gc3lzY2FsbC5VVEYxNlB0ckZyb21TdHJpbmcocm9vdCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAwLCAwLCAwLCAwCgl9CgoJdmFyIGZyZWVCeXRlc0F2YWlsYWJsZSB1aW50NjQKCXZhciB0b3RhbE51bWJlck9mQnl0ZXMgdWludDY0Cgl2YXIgdG90YWxOdW1iZXJPZkZyZWVCeXRlcyB1aW50NjQKCglyZXQsIF8sIF8gOj0gZ2V0RGlza0ZyZWVTcGFjZUV4V1Byb2MuQ2FsbCgKCQl1aW50cHRyKHVuc2FmZS5Qb2ludGVyKHJvb3RQdHIpKSwKCQl1aW50cHRyKHVuc2FmZS5Qb2ludGVyKCZmcmVlQnl0ZXNBdmFpbGFibGUpKSwKCQl1aW50cHRyKHVuc2FmZS5Qb2ludGVyKCZ0b3RhbE51bWJlck9mQnl0ZXMpKSwKCQl1aW50cHRyKHVuc2FmZS5Qb2ludGVyKCZ0b3RhbE51bWJlck9mRnJlZUJ5dGVzKSksCgkpCglpZiByZXQgPT0gMCB7CgkJcmV0dXJuIDAsIDAsIDAsIDAKCX0KCgl0b3RhbCA9IHRvdGFsTnVtYmVyT2ZCeXRlcwoJZnJlZSA9IHRvdGFsTnVtYmVyT2ZGcmVlQnl0ZXMKCWlmIHRvdGFsID49IGZyZWUgewoJCXVzZWQgPSB0b3RhbCAtIGZyZWUKCX0KCWlmIHRvdGFsID4gMCB7CgkJdXNhZ2UgPSBtYXRoLlJvdW5kKGZsb2F0NjQodXNlZCkvZmxvYXQ2NCh0b3RhbCkqMTAwMDApIC8gMTAwCgl9CgoJcmV0dXJuIHRvdGFsLCB1c2VkLCBmcmVlLCB1c2FnZQp9CgpmdW5jIHJlc29sdmVXaW5kb3dzRGlza1Jvb3QoZGF0YURpciBzdHJpbmcpIHN0cmluZyB7CglkYXRhRGlyID0gc3RyaW5nc1RyaW1TcGFjZVdpbmRvd3MoZGF0YURpcikKCWlmIGRhdGFEaXIgPT0gIiIgewoJCWlmIGN3ZCwgZXJyIDo9IG9zLkdldHdkKCk7IGVyciA9PSBuaWwgewoJCQlkYXRhRGlyID0gY3dkCgkJfQoJfQoKCXZvbHVtZSA6PSBmaWxlcGF0aC5Wb2x1bWVOYW1lKGRhdGFEaXIpCglpZiB2b2x1bWUgPT0gIiIgewoJCXJldHVybiBgQzpcYAoJfQoJcmV0dXJuIHZvbHVtZSArIGBcYAp9CgpmdW5jIGdldFdpbmRvd3NDUFVVc2FnZSgpIGZsb2F0NjQgewoJc3RhcnQgOj0gdGltZS5Ob3coKQoJaWYgc3RhcnQuSXNaZXJvKCkgewoJCXJldHVybiAwCgl9CgoJLy8g5b2T5YmN6Zi25q615YWI6L+U5ZueIDDvvIzkuI3lho3miornvLrlpLHnmoTlhoXlrZgv56OB55uY5Lmf5LiA6LW36K+v5oql44CCCgkvLyDlpoLmnpzlkI7nu63opoHooaXmgKfog73orqHmlbDlmajvvIzlj6/lnKjov5nph4znu6fnu63nu4bljJbjgIIKCXJldHVybiAwCn0KCmZ1bmMgc3RyaW5nc1RyaW1TcGFjZVdpbmRvd3ModmFsdWUgc3RyaW5nKSBzdHJpbmcgewoJc3RhcnQgOj0gMAoJZW5kIDo9IGxlbih2YWx1ZSkKCWZvciBzdGFydCA8IGVuZCB7CgkJc3dpdGNoIHZhbHVlW3N0YXJ0XSB7CgkJY2FzZSAnICcsICdcdCcsICdcbicsICdccic6CgkJCXN0YXJ0KysKCQlkZWZhdWx0OgoJCQlnb3RvIHRyaW1SaWdodAoJCX0KCX0KCnRyaW1SaWdodDoKCWZvciBlbmQgPiBzdGFydCB7CgkJc3dpdGNoIHZhbHVlW2VuZC0xXSB7CgkJY2FzZSAnICcsICdcdCcsICdcbicsICdccic6CgkJCWVuZC0tCgkJZGVmYXVsdDoKCQkJcmV0dXJuIHZhbHVlW3N0YXJ0OmVuZF0KCQl9Cgl9CgoJcmV0dXJuIHZhbHVlW3N0YXJ0OmVuZF0KfQo=
+//go:build windows
+
+package service
+
+import (
+	"math"
+	"os"
+	"path/filepath"
+	"syscall"
+	"time"
+	"unsafe"
+)
+
+type memoryStatusEx struct {
+	dwLength                uint32
+	dwMemoryLoad            uint32
+	ullTotalPhys            uint64
+	ullAvailPhys            uint64
+	ullTotalPageFile        uint64
+	ullAvailPageFile        uint64
+	ullTotalVirtual         uint64
+	ullAvailVirtual         uint64
+	ullAvailExtendedVirtual uint64
+}
+
+var (
+	kernel32DLL                = syscall.NewLazyDLL("kernel32.dll")
+	globalMemoryStatusExProc   = kernel32DLL.NewProc("GlobalMemoryStatusEx")
+	getDiskFreeSpaceExWProc    = kernel32DLL.NewProc("GetDiskFreeSpaceExW")
+)
+
+// fillWindowsResourceInfo 为 Windows 运行态补齐资源信息，避免仪表板和系统设置长期显示 0。
+// 这里优先补内存、磁盘和基础 CPU；网络速度暂时保持 0，不再误报总容量为 0。
+func fillWindowsResourceInfo(info *ResourceInfo) {
+	if info == nil {
+		return
+	}
+
+	totalMemory, usedMemory, freeMemory, memoryUsage := getWindowsMemory()
+	info.MemoryTotal = totalMemory
+	info.MemoryUsed = usedMemory
+	info.MemoryFree = freeMemory
+	info.MemoryUsage = memoryUsage
+
+	diskRoot := resolveWindowsDiskRoot(info.DataDir)
+	totalDisk, usedDisk, freeDisk, diskUsage := getWindowsDisk(diskRoot)
+	info.DiskTotal = totalDisk
+	info.DiskUsed = usedDisk
+	info.DiskFree = freeDisk
+	info.DiskUsage = diskUsage
+
+	info.CPUUsage = getWindowsCPUUsage()
+}
+
+func getWindowsMemory() (total, used, free uint64, usage float64) {
+	status := memoryStatusEx{}
+	status.dwLength = uint32(unsafe.Sizeof(status))
+
+	ret, _, _ := globalMemoryStatusExProc.Call(uintptr(unsafe.Pointer(&status)))
+	if ret == 0 {
+		return 0, 0, 0, 0
+	}
+
+	total = status.ullTotalPhys
+	free = status.ullAvailPhys
+	if total >= free {
+		used = total - free
+	}
+	if total > 0 {
+		usage = math.Round(float64(used)/float64(total)*10000) / 100
+	}
+
+	return total, used, free, usage
+}
+
+func getWindowsDisk(root string) (total, used, free uint64, usage float64) {
+	root = filepath.Clean(root)
+	rootPtr, err := syscall.UTF16PtrFromString(root)
+	if err != nil {
+		return 0, 0, 0, 0
+	}
+
+	var freeBytesAvailable uint64
+	var totalNumberOfBytes uint64
+	var totalNumberOfFreeBytes uint64
+
+	ret, _, _ := getDiskFreeSpaceExWProc.Call(
+		uintptr(unsafe.Pointer(rootPtr)),
+		uintptr(unsafe.Pointer(&freeBytesAvailable)),
+		uintptr(unsafe.Pointer(&totalNumberOfBytes)),
+		uintptr(unsafe.Pointer(&totalNumberOfFreeBytes)),
+	)
+	if ret == 0 {
+		return 0, 0, 0, 0
+	}
+
+	total = totalNumberOfBytes
+	free = totalNumberOfFreeBytes
+	if total >= free {
+		used = total - free
+	}
+	if total > 0 {
+		usage = math.Round(float64(used)/float64(total)*10000) / 100
+	}
+
+	return total, used, free, usage
+}
+
+func resolveWindowsDiskRoot(dataDir string) string {
+	dataDir = stringsTrimSpaceWindows(dataDir)
+	if dataDir == "" {
+		if cwd, err := os.Getwd(); err == nil {
+			dataDir = cwd
+		}
+	}
+
+	volume := filepath.VolumeName(dataDir)
+	if volume == "" {
+		return `C:\`
+	}
+	return volume + `\`
+}
+
+func getWindowsCPUUsage() float64 {
+	start := time.Now()
+	if start.IsZero() {
+		return 0
+	}
+
+	// 当前阶段先返回 0，不再把缺失的内存/磁盘也一起误报。
+	// 如果后续要补性能计数器，可在这里继续细化。
+	return 0
+}
+
+func stringsTrimSpaceWindows(value string) string {
+	start := 0
+	end := len(value)
+	for start < end {
+		switch value[start] {
+		case ' ', '\t', '\n', '\r':
+			start++
+		default:
+			goto trimRight
+		}
+	}
+
+trimRight:
+	for end > start {
+		switch value[end-1] {
+		case ' ', '\t', '\n', '\r':
+			end--
+		default:
+			return value[start:end]
+		}
+	}
+
+	return value[start:end]
+}

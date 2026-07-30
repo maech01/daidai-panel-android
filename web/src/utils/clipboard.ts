@@ -1,1 +1,50 @@
-ZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGNvcHlUZXh0KHRleHQ6IHN0cmluZykgewogIGlmICghdGV4dCkgewogICAgcmV0dXJuCiAgfQoKICBpZiAoCiAgICB0eXBlb2YgbmF2aWdhdG9yICE9PSAndW5kZWZpbmVkJyAmJgogICAgbmF2aWdhdG9yLmNsaXBib2FyZCAmJgogICAgdHlwZW9mIHdpbmRvdyAhPT0gJ3VuZGVmaW5lZCcgJiYKICAgIHdpbmRvdy5pc1NlY3VyZUNvbnRleHQKICApIHsKICAgIGF3YWl0IG5hdmlnYXRvci5jbGlwYm9hcmQud3JpdGVUZXh0KHRleHQpCiAgICByZXR1cm4KICB9CgogIGlmICh0eXBlb2YgZG9jdW1lbnQgPT09ICd1bmRlZmluZWQnKSB7CiAgICB0aHJvdyBuZXcgRXJyb3IoJ2NsaXBib2FyZCB1bmF2YWlsYWJsZScpCiAgfQoKICBjb25zdCB0ZXh0YXJlYSA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3RleHRhcmVhJykKICB0ZXh0YXJlYS52YWx1ZSA9IHRleHQKICB0ZXh0YXJlYS5zZXRBdHRyaWJ1dGUoJ3JlYWRvbmx5JywgJycpCiAgdGV4dGFyZWEuc3R5bGUucG9zaXRpb24gPSAnZml4ZWQnCiAgdGV4dGFyZWEuc3R5bGUudG9wID0gJy05OTk5cHgnCiAgdGV4dGFyZWEuc3R5bGUubGVmdCA9ICctOTk5OXB4JwogIHRleHRhcmVhLnN0eWxlLm9wYWNpdHkgPSAnMCcKCiAgZG9jdW1lbnQuYm9keS5hcHBlbmRDaGlsZCh0ZXh0YXJlYSkKCiAgY29uc3Qgc2VsZWN0aW9uID0gZG9jdW1lbnQuZ2V0U2VsZWN0aW9uKCkKICBjb25zdCBvcmlnaW5hbFJhbmdlID0gc2VsZWN0aW9uICYmIHNlbGVjdGlvbi5yYW5nZUNvdW50ID4gMCA/IHNlbGVjdGlvbi5nZXRSYW5nZUF0KDApIDogbnVsbAoKICB0ZXh0YXJlYS5mb2N1cygpCiAgdGV4dGFyZWEuc2VsZWN0KCkKICB0ZXh0YXJlYS5zZXRTZWxlY3Rpb25SYW5nZSgwLCB0ZXh0Lmxlbmd0aCkKCiAgY29uc3QgY29waWVkID0gZG9jdW1lbnQuZXhlY0NvbW1hbmQoJ2NvcHknKQogIGRvY3VtZW50LmJvZHkucmVtb3ZlQ2hpbGQodGV4dGFyZWEpCgogIGlmIChzZWxlY3Rpb24pIHsKICAgIHNlbGVjdGlvbi5yZW1vdmVBbGxSYW5nZXMoKQogICAgaWYgKG9yaWdpbmFsUmFuZ2UpIHsKICAgICAgc2VsZWN0aW9uLmFkZFJhbmdlKG9yaWdpbmFsUmFuZ2UpCiAgICB9CiAgfQoKICBpZiAoIWNvcGllZCkgewogICAgdGhyb3cgbmV3IEVycm9yKCdjb3B5IGZhaWxlZCcpCiAgfQp9Cg==
+export async function copyText(text: string) {
+  if (!text) {
+    return
+  }
+
+  if (
+    typeof navigator !== 'undefined' &&
+    navigator.clipboard &&
+    typeof window !== 'undefined' &&
+    window.isSecureContext
+  ) {
+    await navigator.clipboard.writeText(text)
+    return
+  }
+
+  if (typeof document === 'undefined') {
+    throw new Error('clipboard unavailable')
+  }
+
+  const textarea = document.createElement('textarea')
+  textarea.value = text
+  textarea.setAttribute('readonly', '')
+  textarea.style.position = 'fixed'
+  textarea.style.top = '-9999px'
+  textarea.style.left = '-9999px'
+  textarea.style.opacity = '0'
+
+  document.body.appendChild(textarea)
+
+  const selection = document.getSelection()
+  const originalRange = selection && selection.rangeCount > 0 ? selection.getRangeAt(0) : null
+
+  textarea.focus()
+  textarea.select()
+  textarea.setSelectionRange(0, text.length)
+
+  const copied = document.execCommand('copy')
+  document.body.removeChild(textarea)
+
+  if (selection) {
+    selection.removeAllRanges()
+    if (originalRange) {
+      selection.addRange(originalRange)
+    }
+  }
+
+  if (!copied) {
+    throw new Error('copy failed')
+  }
+}

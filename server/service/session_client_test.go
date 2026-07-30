@@ -1,1 +1,34 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgInRlc3RpbmciCgpmdW5jIFRlc3REZXRlY3RTZXNzaW9uQ2xpZW50SW5mb0J1aWxkc0FwcERpc3BsYXlOYW1lRnJvbUhlYWRlcnModCAqdGVzdGluZy5UKSB7CglpbmZvIDo9IERldGVjdFNlc3Npb25DbGllbnRJbmZvKAoJCSJhcHAiLAoJCSJkYWlkYWktcGFuZWwtYXBwIiwKCQkiYW5kcm9pZCIsCgkJIlhpYW9taSAxNSBQcm8iLAoJCSJ1bWkiLAoJCSIxNSIsCgkJIkRhcnQvMy4xMSAoZGFydDppbykiLAoJKQoKCWlmIGluZm8uVHlwZSAhPSBTZXNzaW9uQ2xpZW50QXBwIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYXBwIHR5cGUsIGdvdCAlcSIsIGluZm8uVHlwZSkKCX0KCWlmIGdvdCA6PSBTZXNzaW9uQ2xpZW50RGlzcGxheU5hbWUoaW5mbyk7IGdvdCAhPSAiQXBw56uvIMK3IFhpYW9taSAxNSBQcm8gwrcgQW5kcm9pZCAxNSIgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGFwcCBkaXNwbGF5IG5hbWU6ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3RSZXNvbHZlU3RvcmVkU2Vzc2lvbkNsaWVudE5hbWVGYWxsc0JhY2tUb0Jyb3dzZXJEaXNwbGF5KHQgKnRlc3RpbmcuVCkgewoJZ290IDo9IFJlc29sdmVTdG9yZWRTZXNzaW9uQ2xpZW50TmFtZSgKCQlTZXNzaW9uQ2xpZW50V2ViLAoJCSIiLAoJCSJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTM0LjAuMC4wIFNhZmFyaS81MzcuMzYiLAoJKQoKCWlmIGdvdCAhPSAi572R6aG156uvIMK3IENocm9tZSDCtyBXaW5kb3dzIiB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgd2ViIGRpc3BsYXkgbmFtZTogJXEiLCBnb3QpCgl9Cn0K
+package service
+
+import "testing"
+
+func TestDetectSessionClientInfoBuildsAppDisplayNameFromHeaders(t *testing.T) {
+	info := DetectSessionClientInfo(
+		"app",
+		"daidai-panel-app",
+		"android",
+		"Xiaomi 15 Pro",
+		"umi",
+		"15",
+		"Dart/3.11 (dart:io)",
+	)
+
+	if info.Type != SessionClientApp {
+		t.Fatalf("expected app type, got %q", info.Type)
+	}
+	if got := SessionClientDisplayName(info); got != "App端 · Xiaomi 15 Pro · Android 15" {
+		t.Fatalf("unexpected app display name: %q", got)
+	}
+}
+
+func TestResolveStoredSessionClientNameFallsBackToBrowserDisplay(t *testing.T) {
+	got := ResolveStoredSessionClientName(
+		SessionClientWeb,
+		"",
+		"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36",
+	)
+
+	if got != "网页端 · Chrome · Windows" {
+		t.Fatalf("unexpected web display name: %q", got)
+	}
+}

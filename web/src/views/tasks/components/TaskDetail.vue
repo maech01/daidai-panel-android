@@ -1,1 +1,139 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkIH0gZnJvbSAndnVlJwppbXBvcnQgeyBnZXREaXNwbGF5VGFza0xhYmVscyB9IGZyb20gJy4uL3Rhc2tMYWJlbHMnCmltcG9ydCB7IHVzZVJlc3BvbnNpdmUgfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZVJlc3BvbnNpdmUnCmltcG9ydCBUYXNrQ3Jvbkxpc3QgZnJvbSAnLi9UYXNrQ3Jvbkxpc3QudnVlJwoKY29uc3QgcHJvcHMgPSBkZWZpbmVQcm9wczx7CiAgdmlzaWJsZTogYm9vbGVhbgogIHRhc2s6IGFueQp9PigpCgpjb25zdCBlbWl0ID0gZGVmaW5lRW1pdHM8ewogICd1cGRhdGU6dmlzaWJsZSc6IFt2YWx1ZTogYm9vbGVhbl0KfT4oKQpjb25zdCB7IGRpYWxvZ0Z1bGxzY3JlZW4gfSA9IHVzZVJlc3BvbnNpdmUoKQoKY29uc3Qgc3RhdHVzVGV4dCA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAocHJvcHMudGFzaz8uc3RhdHVzID09PSAwKSByZXR1cm4gJ+W3suemgeeUqCcKICBpZiAocHJvcHMudGFzaz8uc3RhdHVzID09PSAwLjUpIHJldHVybiAn5o6S6Zif5LitJwogIGlmIChwcm9wcy50YXNrPy5zdGF0dXMgPT09IDIpIHJldHVybiAn6L+Q6KGM5LitJwogIHJldHVybiAn5bey5ZCv55SoJwp9KQoKY29uc3Qgc3RhdHVzVHlwZSA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAocHJvcHMudGFzaz8uc3RhdHVzID09PSAwKSByZXR1cm4gJ2luZm8nCiAgaWYgKHByb3BzLnRhc2s/LnN0YXR1cyA9PT0gMC41KSByZXR1cm4gJ3dhcm5pbmcnCiAgaWYgKHByb3BzLnRhc2s/LnN0YXR1cyA9PT0gMikgcmV0dXJuICd3YXJuaW5nJwogIHJldHVybiAnc3VjY2VzcycKfSkKCmNvbnN0IGRpc3BsYXlMYWJlbHMgPSBjb21wdXRlZCgoKSA9PiB7CiAgaWYgKEFycmF5LmlzQXJyYXkocHJvcHMudGFzaz8uZGlzcGxheV9sYWJlbHMpICYmIHByb3BzLnRhc2suZGlzcGxheV9sYWJlbHMubGVuZ3RoID4gMCkgewogICAgcmV0dXJuIHByb3BzLnRhc2suZGlzcGxheV9sYWJlbHMKICB9CiAgcmV0dXJuIGdldERpc3BsYXlUYXNrTGFiZWxzKHByb3BzLnRhc2s/LmxhYmVscyB8fCBbXSkKfSkKCmNvbnN0IGZvcm1hdFRpbWUgPSAodDogc3RyaW5nKSA9PiB7CiAgaWYgKCF0KSByZXR1cm4gJy0nCiAgcmV0dXJuIG5ldyBEYXRlKHQpLnRvTG9jYWxlU3RyaW5nKCd6aC1DTicpCn0KCmNvbnN0IHRhc2tUeXBlVGV4dCA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAocHJvcHMudGFzaz8udGFza190eXBlID09PSAnbWFudWFsJykgcmV0dXJuICfmiYvliqjov5DooYwnCiAgaWYgKHByb3BzLnRhc2s/LnRhc2tfdHlwZSA9PT0gJ3N0YXJ0dXAnKSByZXR1cm4gJ+W8gOacuui/kOihjCcKICByZXR1cm4gJ+W4uOinhOWumuaXticKfSkKCmNvbnN0IGNyb25FeHByZXNzaW9ucyA9IGNvbXB1dGVkKCgpID0+IHsKICBpZiAoQXJyYXkuaXNBcnJheShwcm9wcy50YXNrPy5jcm9uX2V4cHJlc3Npb25zKSAmJiBwcm9wcy50YXNrLmNyb25fZXhwcmVzc2lvbnMubGVuZ3RoID4gMCkgewogICAgcmV0dXJuIHByb3BzLnRhc2suY3Jvbl9leHByZXNzaW9ucwogIH0KICByZXR1cm4gU3RyaW5nKHByb3BzLnRhc2s/LmNyb25fZXhwcmVzc2lvbiB8fCAnJykKICAgIC5zcGxpdCgvXHI/XG4vKQogICAgLm1hcChpdGVtID0+IGl0ZW0udHJpbSgpKQogICAgLmZpbHRlcihCb29sZWFuKQp9KQoKZnVuY3Rpb24gaGFuZGxlQ2xvc2UoKSB7CiAgZW1pdCgndXBkYXRlOnZpc2libGUnLCBmYWxzZSkKfQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZWwtZGlhbG9nCiAgICA6bW9kZWwtdmFsdWU9InZpc2libGUiCiAgICB0aXRsZT0i5Lu75Yqh6K+m5oOFIgogICAgd2lkdGg9IjcwMHB4IgogICAgOmZ1bGxzY3JlZW49ImRpYWxvZ0Z1bGxzY3JlZW4iCiAgICA6bG9jay1zY3JvbGw9ImZhbHNlIgogICAgQGNsb3NlPSJoYW5kbGVDbG9zZSIKICA+CiAgICA8ZWwtZGVzY3JpcHRpb25zIHYtaWY9InRhc2siIDpjb2x1bW49ImRpYWxvZ0Z1bGxzY3JlZW4gPyAxIDogMiIgYm9yZGVyPgogICAgICA8ZWwtZGVzY3JpcHRpb25zLWl0ZW0gbGFiZWw9IuS7u+WKoeWQjeensCIgOnNwYW49IjIiPgogICAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogOHB4Ij4KICAgICAgICAgIDxlbC1pY29uIHYtaWY9InRhc2suaXNfcGlubmVkIiBjb2xvcj0idmFyKC0tZWwtY29sb3Itd2FybmluZykiPjxTdGFyIC8+PC9lbC1pY29uPgogICAgICAgICAgPHNwYW4+e3sgdGFzay5uYW1lIH19PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICA8L2VsLWRlc2NyaXB0aW9ucy1pdGVtPgogICAgICA8ZWwtZGVzY3JpcHRpb25zLWl0ZW0gbGFiZWw9IuS7u+WKoUlEIj57eyB0YXNrLmlkIH19PC9lbC1kZXNjcmlwdGlvbnMtaXRlbT4KICAgICAgPGVsLWRlc2NyaXB0aW9ucy1pdGVtIGxhYmVsPSLnirbmgIEiPgogICAgICAgIDxlbC10YWcgOnR5cGU9InN0YXR1c1R5cGUiIHNpemU9InNtYWxsIj57eyBzdGF0dXNUZXh0IH19PC9lbC10YWc+CiAgICAgIDwvZWwtZGVzY3JpcHRpb25zLWl0ZW0+CiAgICAgIDxlbC1kZXNjcmlwdGlvbnMtaXRlbSBsYWJlbD0i5a6a5pe257G75Z6LIj4KICAgICAgICB7eyB0YXNrVHlwZVRleHQgfX0KICAgICAgPC9lbC1kZXNjcmlwdGlvbnMtaXRlbT4KICAgICAgPGVsLWRlc2NyaXB0aW9ucy1pdGVtIGxhYmVsPSLlrprml7bop4TliJkiPgogICAgICAgIDxUYXNrQ3Jvbkxpc3QKICAgICAgICAgIHYtaWY9InRhc2sudGFza190eXBlID09PSAnY3JvbiciCiAgICAgICAgICA6ZXhwcmVzc2lvbnM9ImNyb25FeHByZXNzaW9ucyIKICAgICAgICAvPgogICAgICAgIDxzcGFuIHYtZWxzZSBzdHlsZT0iY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcGxhY2Vob2xkZXIpIj7kuI3kvb/nlKggQ3Jvbjwvc3Bhbj4KICAgICAgPC9lbC1kZXNjcmlwdGlvbnMtaXRlbT4KICAgICAgPGVsLWRlc2NyaXB0aW9ucy1pdGVtIGxhYmVsPSLmiafooYzlkb3ku6QiIDpzcGFuPSIyIj4KICAgICAgICA8Y29kZSBzdHlsZT0id29yZC1icmVhazogYnJlYWstYWxsIj57eyB0YXNrLmNvbW1hbmQgfX08L2NvZGU+CiAgICAgIDwvZWwtZGVzY3JpcHRpb25zLWl0ZW0+CiAgICAgIDxlbC1kZXNjcmlwdGlvbnMtaXRlbSBsYWJlbD0i6ZqP5py65bu26L+fIj4KICAgICAgICA8c3BhbiB2LWlmPSJ0YXNrLnJhbmRvbV9kZWxheV9zZWNvbmRzID09IG51bGwiIHN0eWxlPSJjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpIj7nu6fmib/ns7vnu5/orr7nva48L3NwYW4+CiAgICAgICAgPHNwYW4gdi1lbHNlLWlmPSJ0YXNrLnJhbmRvbV9kZWxheV9zZWNvbmRzID09PSAwIj7kuI3pmo/mnLrlu7bov588L3NwYW4+CiAgICAgICAgPHNwYW4gdi1lbHNlPuacgOWkmiB7eyB0YXNrLnJhbmRvbV9kZWxheV9zZWNvbmRzIH19IOenkjwvc3Bhbj4KICAgICAgPC9lbC1kZXNjcmlwdGlvbnMtaXRlbT4KICAgICAgPGVsLWRlc2NyaXB0aW9ucy1pdGVtIGxhYmVsPSLmoIfnrb4iIDpzcGFuPSIyIj4KICAgICAgICA8ZWwtdGFnIHYtZm9yPSJsYWJlbCBpbiBkaXNwbGF5TGFiZWxzIiA6a2V5PSJsYWJlbCIgc2l6ZT0ic21hbGwiIGVmZmVjdD0icGxhaW4iIHN0eWxlPSJtYXJnaW4tcmlnaHQ6IDZweCI+CiAgICAgICAgICB7eyBsYWJlbCB9fQogICAgICAgIDwvZWwtdGFnPgogICAgICAgIDxzcGFuIHYtaWY9ImRpc3BsYXlMYWJlbHMubGVuZ3RoID09PSAwIiBzdHlsZT0iY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcGxhY2Vob2xkZXIpIj7ml6A8L3NwYW4+CiAgICAgIDwvZWwtZGVzY3JpcHRpb25zLWl0ZW0+CiAgICAgIDxlbC1kZXNjcmlwdGlvbnMtaXRlbSBsYWJlbD0i5LiK5qyh6L+Q6KGM54q25oCBIj4KICAgICAgICA8ZWwtdGFnIHYtaWY9InRhc2subGFzdF9ydW5fc3RhdHVzID09PSBudWxsIiB0eXBlPSJpbmZvIiBzaXplPSJzbWFsbCI+5pyq6L+Q6KGMPC9lbC10YWc+CiAgICAgICAgPGVsLXRhZyB2LWVsc2UtaWY9InRhc2subGFzdF9ydW5fc3RhdHVzID09PSAwIiB0eXBlPSJzdWNjZXNzIiBzaXplPSJzbWFsbCI+5oiQ5YqfPC9lbC10YWc+CiAgICAgICAgPGVsLXRhZyB2LWVsc2UtaWY9InRhc2subGFzdF9ydW5fc3RhdHVzID09PSAyIiB0eXBlPSJ3YXJuaW5nIiBzaXplPSJzbWFsbCI+5bey57uI5q2iPC9lbC10YWc+CiAgICAgICAgPGVsLXRhZyB2LWVsc2UgdHlwZT0iZGFuZ2VyIiBzaXplPSJzbWFsbCI+5aSx6LSlPC9lbC10YWc+CiAgICAgIDwvZWwtZGVzY3JpcHRpb25zLWl0ZW0+CiAgICAgIDxlbC1kZXNjcmlwdGlvbnMtaXRlbSBsYWJlbD0i5LiK5qyh6L+Q6KGM6ICX5pe2Ij4KICAgICAgICA8c3BhbiB2LWlmPSJ0YXNrLmxhc3RfcnVubmluZ190aW1lICE9IG51bGwiPnt7IHRhc2subGFzdF9ydW5uaW5nX3RpbWUudG9GaXhlZCgyKSB9fXM8L3NwYW4+CiAgICAgICAgPHNwYW4gdi1lbHNlIHN0eWxlPSJjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wbGFjZWhvbGRlcikiPi08L3NwYW4+CiAgICAgIDwvZWwtZGVzY3JpcHRpb25zLWl0ZW0+CiAgICAgIDxlbC1kZXNjcmlwdGlvbnMtaXRlbSBsYWJlbD0i5LiK5qyh6L+Q6KGM5pe26Ze0IiA6c3Bhbj0iMiI+CiAgICAgICAge3sgZm9ybWF0VGltZSh0YXNrLmxhc3RfcnVuX2F0KSB9fQogICAgICA8L2VsLWRlc2NyaXB0aW9ucy1pdGVtPgogICAgICA8ZWwtZGVzY3JpcHRpb25zLWl0ZW0gbGFiZWw9IumAmuefpea4oOmBkyIgOnNwYW49IjIiPgogICAgICAgIDxzcGFuIHYtaWY9InRhc2subm90aWZpY2F0aW9uX2NoYW5uZWxfbmFtZSI+CiAgICAgICAgICB7eyB0YXNrLm5vdGlmaWNhdGlvbl9jaGFubmVsX25hbWUgfX0KICAgICAgICAgIDxzcGFuIHYtaWY9InRhc2subm90aWZpY2F0aW9uX2NoYW5uZWxfZW5hYmxlZCA9PT0gZmFsc2UiIHN0eWxlPSJjb2xvcjogdmFyKC0tZWwtY29sb3ItZGFuZ2VyKSI+77yI5bey56aB55So77yJPC9zcGFuPgogICAgICAgIDwvc3Bhbj4KICAgICAgICA8c3BhbiB2LWVsc2Ugc3R5bGU9ImNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXBsYWNlaG9sZGVyKSI+5YWo6YOo5bey5ZCv55So5rig6YGTPC9zcGFuPgogICAgICA8L2VsLWRlc2NyaXB0aW9ucy1pdGVtPgogICAgICA8ZWwtZGVzY3JpcHRpb25zLWl0ZW0gbGFiZWw9IuS4i+asoei/kOihjOaXtumXtCIgOnNwYW49IjIiPgogICAgICAgIHt7IGZvcm1hdFRpbWUodGFzay5uZXh0X3J1bl9hdCkgfX0KICAgICAgPC9lbC1kZXNjcmlwdGlvbnMtaXRlbT4KICAgICAgPGVsLWRlc2NyaXB0aW9ucy1pdGVtIGxhYmVsPSLliJvlu7rml7bpl7QiPnt7IGZvcm1hdFRpbWUodGFzay5jcmVhdGVkX2F0KSB9fTwvZWwtZGVzY3JpcHRpb25zLWl0ZW0+CiAgICAgIDxlbC1kZXNjcmlwdGlvbnMtaXRlbSBsYWJlbD0i5pu05paw5pe26Ze0Ij57eyBmb3JtYXRUaW1lKHRhc2sudXBkYXRlZF9hdCkgfX08L2VsLWRlc2NyaXB0aW9ucy1pdGVtPgogICAgICA8ZWwtZGVzY3JpcHRpb25zLWl0ZW0gbGFiZWw9IuWkh+azqCIgOnNwYW49IjIiPgogICAgICAgIDxzcGFuIHYtaWY9InRhc2sucmVtYXJrIj57eyB0YXNrLnJlbWFyayB9fTwvc3Bhbj4KICAgICAgICA8c3BhbiB2LWVsc2Ugc3R5bGU9ImNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXBsYWNlaG9sZGVyKSI+5pegPC9zcGFuPgogICAgICA8L2VsLWRlc2NyaXB0aW9ucy1pdGVtPgogICAgPC9lbC1kZXNjcmlwdGlvbnM+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cg==
+<script setup lang="ts">
+import { computed } from 'vue'
+import { getDisplayTaskLabels } from '../taskLabels'
+import { useResponsive } from '@/composables/useResponsive'
+import TaskCronList from './TaskCronList.vue'
+
+const props = defineProps<{
+  visible: boolean
+  task: any
+}>()
+
+const emit = defineEmits<{
+  'update:visible': [value: boolean]
+}>()
+const { dialogFullscreen } = useResponsive()
+
+const statusText = computed(() => {
+  if (props.task?.status === 0) return '已禁用'
+  if (props.task?.status === 0.5) return '排队中'
+  if (props.task?.status === 2) return '运行中'
+  return '已启用'
+})
+
+const statusType = computed(() => {
+  if (props.task?.status === 0) return 'info'
+  if (props.task?.status === 0.5) return 'warning'
+  if (props.task?.status === 2) return 'warning'
+  return 'success'
+})
+
+const displayLabels = computed(() => {
+  if (Array.isArray(props.task?.display_labels) && props.task.display_labels.length > 0) {
+    return props.task.display_labels
+  }
+  return getDisplayTaskLabels(props.task?.labels || [])
+})
+
+const formatTime = (t: string) => {
+  if (!t) return '-'
+  return new Date(t).toLocaleString('zh-CN')
+}
+
+const taskTypeText = computed(() => {
+  if (props.task?.task_type === 'manual') return '手动运行'
+  if (props.task?.task_type === 'startup') return '开机运行'
+  return '常规定时'
+})
+
+const cronExpressions = computed(() => {
+  if (Array.isArray(props.task?.cron_expressions) && props.task.cron_expressions.length > 0) {
+    return props.task.cron_expressions
+  }
+  return String(props.task?.cron_expression || '')
+    .split(/\r?\n/)
+    .map(item => item.trim())
+    .filter(Boolean)
+})
+
+function handleClose() {
+  emit('update:visible', false)
+}
+</script>
+
+<template>
+  <el-dialog
+    :model-value="visible"
+    title="任务详情"
+    width="700px"
+    :fullscreen="dialogFullscreen"
+    :lock-scroll="false"
+    @close="handleClose"
+  >
+    <el-descriptions v-if="task" :column="dialogFullscreen ? 1 : 2" border>
+      <el-descriptions-item label="任务名称" :span="2">
+        <div style="display: flex; align-items: center; gap: 8px">
+          <el-icon v-if="task.is_pinned" color="var(--el-color-warning)"><Star /></el-icon>
+          <span>{{ task.name }}</span>
+        </div>
+      </el-descriptions-item>
+      <el-descriptions-item label="任务ID">{{ task.id }}</el-descriptions-item>
+      <el-descriptions-item label="状态">
+        <el-tag :type="statusType" size="small">{{ statusText }}</el-tag>
+      </el-descriptions-item>
+      <el-descriptions-item label="定时类型">
+        {{ taskTypeText }}
+      </el-descriptions-item>
+      <el-descriptions-item label="定时规则">
+        <TaskCronList
+          v-if="task.task_type === 'cron'"
+          :expressions="cronExpressions"
+        />
+        <span v-else style="color: var(--el-text-color-placeholder)">不使用 Cron</span>
+      </el-descriptions-item>
+      <el-descriptions-item label="执行命令" :span="2">
+        <code style="word-break: break-all">{{ task.command }}</code>
+      </el-descriptions-item>
+      <el-descriptions-item label="随机延迟">
+        <span v-if="task.random_delay_seconds == null" style="color: var(--el-text-color-secondary)">继承系统设置</span>
+        <span v-else-if="task.random_delay_seconds === 0">不随机延迟</span>
+        <span v-else>最多 {{ task.random_delay_seconds }} 秒</span>
+      </el-descriptions-item>
+      <el-descriptions-item label="标签" :span="2">
+        <el-tag v-for="label in displayLabels" :key="label" size="small" effect="plain" style="margin-right: 6px">
+          {{ label }}
+        </el-tag>
+        <span v-if="displayLabels.length === 0" style="color: var(--el-text-color-placeholder)">无</span>
+      </el-descriptions-item>
+      <el-descriptions-item label="上次运行状态">
+        <el-tag v-if="task.last_run_status === null" type="info" size="small">未运行</el-tag>
+        <el-tag v-else-if="task.last_run_status === 0" type="success" size="small">成功</el-tag>
+        <el-tag v-else-if="task.last_run_status === 2" type="warning" size="small">已终止</el-tag>
+        <el-tag v-else type="danger" size="small">失败</el-tag>
+      </el-descriptions-item>
+      <el-descriptions-item label="上次运行耗时">
+        <span v-if="task.last_running_time != null">{{ task.last_running_time.toFixed(2) }}s</span>
+        <span v-else style="color: var(--el-text-color-placeholder)">-</span>
+      </el-descriptions-item>
+      <el-descriptions-item label="上次运行时间" :span="2">
+        {{ formatTime(task.last_run_at) }}
+      </el-descriptions-item>
+      <el-descriptions-item label="通知渠道" :span="2">
+        <span v-if="task.notification_channel_name">
+          {{ task.notification_channel_name }}
+          <span v-if="task.notification_channel_enabled === false" style="color: var(--el-color-danger)">（已禁用）</span>
+        </span>
+        <span v-else style="color: var(--el-text-color-placeholder)">全部已启用渠道</span>
+      </el-descriptions-item>
+      <el-descriptions-item label="下次运行时间" :span="2">
+        {{ formatTime(task.next_run_at) }}
+      </el-descriptions-item>
+      <el-descriptions-item label="创建时间">{{ formatTime(task.created_at) }}</el-descriptions-item>
+      <el-descriptions-item label="更新时间">{{ formatTime(task.updated_at) }}</el-descriptions-item>
+      <el-descriptions-item label="备注" :span="2">
+        <span v-if="task.remark">{{ task.remark }}</span>
+        <span v-else style="color: var(--el-text-color-placeholder)">无</span>
+      </el-descriptions-item>
+    </el-descriptions>
+  </el-dialog>
+</template>

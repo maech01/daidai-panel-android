@@ -1,1 +1,170 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENpcmNsZUNoZWNrLCBLZXksIExvY2sgfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKCmNvbnN0IG9sZFBhc3N3b3JkID0gZGVmaW5lTW9kZWw8c3RyaW5nPignb2xkUGFzc3dvcmQnLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IG5ld1Bhc3N3b3JkID0gZGVmaW5lTW9kZWw8c3RyaW5nPignbmV3UGFzc3dvcmQnLCB7IHJlcXVpcmVkOiB0cnVlIH0pCmNvbnN0IGNvbmZpcm1QYXNzd29yZCA9IGRlZmluZU1vZGVsPHN0cmluZz4oJ2NvbmZpcm1QYXNzd29yZCcsIHsgcmVxdWlyZWQ6IHRydWUgfSkKY29uc3Qgc2hvd1NldHVwMkZBID0gZGVmaW5lTW9kZWw8Ym9vbGVhbj4oJ3Nob3dTZXR1cDJGQScsIHsgcmVxdWlyZWQ6IHRydWUgfSkKY29uc3QgdHdvRkFDb2RlID0gZGVmaW5lTW9kZWw8c3RyaW5nPigndHdvRkFDb2RlJywgeyByZXF1aXJlZDogdHJ1ZSB9KQoKZGVmaW5lUHJvcHM8ewogIHR3b0ZBRW5hYmxlZDogYm9vbGVhbgogIHR3b0ZBU2VjcmV0OiBzdHJpbmcKICB0d29GQVFyVXJsOiBzdHJpbmcKICBvbkNoYW5nZVBhc3N3b3JkOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uU2V0dXAyRkE6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25EaXNhYmxlMkZBOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgogIG9uVmVyaWZ5MkZBOiAoKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPgp9PigpCgpjb25zdCB7IGRpYWxvZ0Z1bGxzY3JlZW4gfSA9IHVzZVJlc3BvbnNpdmUoKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZWwtcm93IDpndXR0ZXI9IjE2Ij4KICAgIDxlbC1jb2wgOnhzPSIyNCIgOnNtPSIyNCIgOm1kPSIxNCI+CiAgICAgIDxlbC1jYXJkIHNoYWRvdz0ibmV2ZXIiPgogICAgICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICAgICAgPGRpdiBjbGFzcz0iY2FyZC1oZWFkZXIiPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PExvY2sgLz48L2VsLWljb24+IOS/ruaUueWvhueggTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvdGVtcGxhdGU+CiAgICAgICAgPGVsLWZvcm0gbGFiZWwtcG9zaXRpb249InRvcCIgc3R5bGU9Im1heC13aWR0aDogNDIwcHgiPgogICAgICAgICAgPGZvcm0gQHN1Ym1pdC5wcmV2ZW50PSJvbkNoYW5nZVBhc3N3b3JkIj4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Iiog5b2T5YmN5a+G56CBIj4KICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9Im9sZFBhc3N3b3JkIiB0eXBlPSJwYXNzd29yZCIgc2hvdy1wYXNzd29yZCBwbGFjZWhvbGRlcj0i5b2T5YmN5a+G56CBIiBhcmlhLWxhYmVsPSLlvZPliY3lr4bnoIEiIC8+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Iiog5paw5a+G56CBIj4KICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9Im5ld1Bhc3N3b3JkIiB0eXBlPSJwYXNzd29yZCIgc2hvdy1wYXNzd29yZCBwbGFjZWhvbGRlcj0i5paw5a+G56CB77yI6Iez5bCRIDYg5L2N77yJIiBhcmlhLWxhYmVsPSLmlrDlr4bnoIEiIC8+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDxlbC1mb3JtLWl0ZW0gbGFiZWw9Iiog56Gu6K6k5a+G56CBIj4KICAgICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9ImNvbmZpcm1QYXNzd29yZCIgdHlwZT0icGFzc3dvcmQiIHNob3ctcGFzc3dvcmQgcGxhY2Vob2xkZXI9IuWGjeasoei+k+WFpeaWsOWvhueggSIgYXJpYS1sYWJlbD0i56Gu6K6k5paw5a+G56CBIiAvPgogICAgICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgICAgICA8ZWwtZm9ybS1pdGVtPgogICAgICAgICAgICA8ZWwtYnV0dG9uIHR5cGU9InByaW1hcnkiIG5hdGl2ZS10eXBlPSJzdWJtaXQiPgogICAgICAgICAgICAgIDxlbC1pY29uPjxDaXJjbGVDaGVjayAvPjwvZWwtaWNvbj7kv67mlLnlr4bnoIEKICAgICAgICAgICAgPC9lbC1idXR0b24+CiAgICAgICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgICAgIDwvZm9ybT4KICAgICAgICA8L2VsLWZvcm0+CiAgICAgIDwvZWwtY2FyZD4KICAgIDwvZWwtY29sPgogICAgPGVsLWNvbCA6eHM9IjI0IiA6c209IjI0IiA6bWQ9IjEwIj4KICAgICAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciI+CiAgICAgICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJjYXJkLWhlYWRlciI+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJjYXJkLXRpdGxlIj48ZWwtaWNvbj48S2V5IC8+PC9lbC1pY29uPiDlj4zlm6DntKDorqTor4EgKDJGQSk8L3NwYW4+CiAgICAgICAgICAgIDxlbC10YWcgOnR5cGU9InR3b0ZBRW5hYmxlZCA/ICdzdWNjZXNzJyA6ICdpbmZvJyIgc2l6ZT0ic21hbGwiPgogICAgICAgICAgICAgIHt7IHR3b0ZBRW5hYmxlZCA/ICflt7LlkK/nlKgnIDogJ+acquWQr+eUqCcgfX0KICAgICAgICAgICAgPC9lbC10YWc+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICAgIDxwIGNsYXNzPSJ0d29mYS1kZXNjIj4KICAgICAgICAgIOWPjOWboOe0oOiupOivgeS4uuaCqOeahOi0puaIt+aPkOS+m+mineWklueahOWuieWFqOS/neaKpOOAguWQr+eUqOWQju+8jOeZu+W9leaXtumZpOS6huWvhueggeWklu+8jOi/mOmcgOimgei+k+WFpeiupOivgeWZqOW6lOeUqOeUn+aIkOeahOmqjOivgeeggeOAggogICAgICAgIDwvcD4KICAgICAgICA8ZWwtYnV0dG9uIHYtaWY9IiF0d29GQUVuYWJsZWQiIHR5cGU9InByaW1hcnkiIEBjbGljaz0ib25TZXR1cDJGQSI+CiAgICAgICAgICA8ZWwtaWNvbj48S2V5IC8+PC9lbC1pY29uPuWQr+eUqOWPjOWboOe0oOiupOivgQogICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgIDxlbC1idXR0b24gdi1lbHNlIHR5cGU9ImRhbmdlciIgQGNsaWNrPSJvbkRpc2FibGUyRkEiPuemgeeUqOWPjOWboOe0oOiupOivgTwvZWwtYnV0dG9uPgogICAgICA8L2VsLWNhcmQ+CiAgICA8L2VsLWNvbD4KICA8L2VsLXJvdz4KCiAgPGVsLWRpYWxvZyB2LW1vZGVsPSJzaG93U2V0dXAyRkEiIHRpdGxlPSLorr7nva7lj4zlm6DntKDorqTor4EiIHdpZHRoPSI0ODBweCIgOmZ1bGxzY3JlZW49ImRpYWxvZ0Z1bGxzY3JlZW4iIDpjbG9zZS1vbi1jbGljay1tb2RhbD0iZmFsc2UiPgogICAgPGRpdiBjbGFzcz0ic2V0dXAtMmZhIj4KICAgICAgPGRpdiBjbGFzcz0ic2V0dXAtMmZhLXN0ZXAiPgogICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtdGl0bGUiPuatpemqpCAx77ya5omr5o+P5LqM57u056CBPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0icXItY29kZS13cmFwcGVyIj4KICAgICAgICAgIDxpbWcgdi1pZj0idHdvRkFRclVybCIgOnNyYz0idHdvRkFRclVybCIgYWx0PSIyRkEgUVIgQ29kZSIgY2xhc3M9InFyLWNvZGUtaW1nIiAvPgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtaGludCI+5L2/55SoIEdvb2dsZSBBdXRoZW50aWNhdG9y44CBTWljcm9zb2Z0IEF1dGhlbnRpY2F0b3Ig5oiW5YW25LuWIFRPVFAg6K6k6K+B5Zmo5bqU55So5omr5o+P5q2k5LqM57u056CBPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJzZXR1cC0yZmEtc3RlcCI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3RlcC10aXRsZSI+5oiW5omL5Yqo6L6T5YWl5a+G6ZKlPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0ic2VjcmV0LWRpc3BsYXkiPgogICAgICAgICAgPGNvZGU+e3sgdHdvRkFTZWNyZXQgfX08L2NvZGU+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgICA8ZGl2IGNsYXNzPSJzZXR1cC0yZmEtc3RlcCI+CiAgICAgICAgPGRpdiBjbGFzcz0ic3RlcC10aXRsZSI+5q2l6aqkIDLvvJrovpPlhaXpqozor4HnoIE8L2Rpdj4KICAgICAgICA8Zm9ybSBjbGFzcz0idHdvZmEtdmVyaWZ5LWZvcm0iIEBzdWJtaXQucHJldmVudD0ib25WZXJpZnkyRkEiPgogICAgICAgICAgPGVsLWlucHV0IHYtbW9kZWw9InR3b0ZBQ29kZSIgcGxhY2Vob2xkZXI9Iuivt+i+k+WFpSA2IOS9jemqjOivgeeggSIgbWF4bGVuZ3RoPSI2IiBzaXplPSJsYXJnZSIgc3R5bGU9IndpZHRoOiAyMjBweCIgYXJpYS1sYWJlbD0i5Y+M5Zug57Sg6aqM6K+B56CBIiBAa2V5dXAuZW50ZXI9Im9uVmVyaWZ5MkZBIiAvPgogICAgICAgIDwvZm9ybT4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICA8ZWwtYnV0dG9uIEBjbGljaz0ic2hvd1NldHVwMkZBID0gZmFsc2UiPuWPlua2iDwvZWwtYnV0dG9uPgogICAgICA8ZWwtYnV0dG9uIHR5cGU9InByaW1hcnkiIEBjbGljaz0ib25WZXJpZnkyRkEiPumqjOivgeW5tuWQr+eUqDwvZWwtYnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICA8L2VsLWRpYWxvZz4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+CkB1c2UgJy4vY29uZmlnLWNhcmQtc2hhcmVkLnNjc3MnIGFzICo7CgoudHdvZmEtZGVzYyB7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBmb250LXNpemU6IDE0cHg7CiAgbGluZS1oZWlnaHQ6IDEuNjsKICBtYXJnaW46IDAgMCAyMHB4Owp9Cgpmb3JtIHsKICBtYXJnaW46IDA7Cn0KCi50d29mYS12ZXJpZnktZm9ybSB7CiAgZGlzcGxheTogaW5saW5lLWJsb2NrOwp9Cgouc2V0dXAtMmZhIHsKICAuc2V0dXAtMmZhLXN0ZXAgewogICAgbWFyZ2luLWJvdHRvbTogMjBweDsKCiAgICAmOmxhc3QtY2hpbGQgewogICAgICBtYXJnaW4tYm90dG9tOiAwOwogICAgfQogIH0KCiAgLnN0ZXAtdGl0bGUgewogICAgZm9udC13ZWlnaHQ6IDYwMDsKICAgIGZvbnQtc2l6ZTogMTRweDsKICAgIG1hcmdpbi1ib3R0b206IDEwcHg7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KTsKICB9CgogIC5zdGVwLWhpbnQgewogICAgZm9udC1zaXplOiAxMnB4OwogICAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICAgIG1hcmdpbi10b3A6IDhweDsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKICB9CgogIC5xci1jb2RlLXdyYXBwZXIgewogICAgdGV4dC1hbGlnbjogY2VudGVyOwogICAgcGFkZGluZzogMTZweCAwOwoKICAgIC5xci1jb2RlLWltZyB7CiAgICAgIHdpZHRoOiAyMDBweDsKICAgICAgaGVpZ2h0OiAyMDBweDsKICAgICAgYm9yZGVyLXJhZGl1czogOHB4OwogICAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1lbC1ib3JkZXItY29sb3ItbGlnaHQpOwogICAgfQogIH0KCiAgLnNlY3JldC1kaXNwbGF5IHsKICAgIHBhZGRpbmc6IDEycHg7CiAgICBiYWNrZ3JvdW5kOiB2YXIoLS1lbC1maWxsLWNvbG9yLWxpZ2h0KTsKICAgIGJvcmRlci1yYWRpdXM6IDRweDsKICAgIHRleHQtYWxpZ246IGNlbnRlcjsKCiAgICBjb2RlIHsKICAgICAgZm9udC1zaXplOiAxNXB4OwogICAgICBmb250LXdlaWdodDogNjAwOwogICAgICBsZXR0ZXItc3BhY2luZzogMnB4OwogICAgICB1c2VyLXNlbGVjdDogYWxsOwogICAgfQogIH0KfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import { CircleCheck, Key, Lock } from '@element-plus/icons-vue'
+import { useResponsive } from '@/composables/useResponsive'
+
+const oldPassword = defineModel<string>('oldPassword', { required: true })
+const newPassword = defineModel<string>('newPassword', { required: true })
+const confirmPassword = defineModel<string>('confirmPassword', { required: true })
+const showSetup2FA = defineModel<boolean>('showSetup2FA', { required: true })
+const twoFACode = defineModel<string>('twoFACode', { required: true })
+
+defineProps<{
+  twoFAEnabled: boolean
+  twoFASecret: string
+  twoFAQrUrl: string
+  onChangePassword: () => void | Promise<void>
+  onSetup2FA: () => void | Promise<void>
+  onDisable2FA: () => void | Promise<void>
+  onVerify2FA: () => void | Promise<void>
+}>()
+
+const { dialogFullscreen } = useResponsive()
+</script>
+
+<template>
+  <el-row :gutter="16">
+    <el-col :xs="24" :sm="24" :md="14">
+      <el-card shadow="never">
+        <template #header>
+          <div class="card-header">
+            <span class="card-title"><el-icon><Lock /></el-icon> 修改密码</span>
+          </div>
+        </template>
+        <el-form label-position="top" style="max-width: 420px">
+          <form @submit.prevent="onChangePassword">
+          <el-form-item label="* 当前密码">
+            <el-input v-model="oldPassword" type="password" show-password placeholder="当前密码" aria-label="当前密码" />
+          </el-form-item>
+          <el-form-item label="* 新密码">
+            <el-input v-model="newPassword" type="password" show-password placeholder="新密码（至少 6 位）" aria-label="新密码" />
+          </el-form-item>
+          <el-form-item label="* 确认密码">
+            <el-input v-model="confirmPassword" type="password" show-password placeholder="再次输入新密码" aria-label="确认新密码" />
+          </el-form-item>
+          <el-form-item>
+            <el-button type="primary" native-type="submit">
+              <el-icon><CircleCheck /></el-icon>修改密码
+            </el-button>
+          </el-form-item>
+          </form>
+        </el-form>
+      </el-card>
+    </el-col>
+    <el-col :xs="24" :sm="24" :md="10">
+      <el-card shadow="never">
+        <template #header>
+          <div class="card-header">
+            <span class="card-title"><el-icon><Key /></el-icon> 双因素认证 (2FA)</span>
+            <el-tag :type="twoFAEnabled ? 'success' : 'info'" size="small">
+              {{ twoFAEnabled ? '已启用' : '未启用' }}
+            </el-tag>
+          </div>
+        </template>
+        <p class="twofa-desc">
+          双因素认证为您的账户提供额外的安全保护。启用后，登录时除了密码外，还需要输入认证器应用生成的验证码。
+        </p>
+        <el-button v-if="!twoFAEnabled" type="primary" @click="onSetup2FA">
+          <el-icon><Key /></el-icon>启用双因素认证
+        </el-button>
+        <el-button v-else type="danger" @click="onDisable2FA">禁用双因素认证</el-button>
+      </el-card>
+    </el-col>
+  </el-row>
+
+  <el-dialog v-model="showSetup2FA" title="设置双因素认证" width="480px" :fullscreen="dialogFullscreen" :close-on-click-modal="false">
+    <div class="setup-2fa">
+      <div class="setup-2fa-step">
+        <div class="step-title">步骤 1：扫描二维码</div>
+        <div class="qr-code-wrapper">
+          <img v-if="twoFAQrUrl" :src="twoFAQrUrl" alt="2FA QR Code" class="qr-code-img" />
+        </div>
+        <div class="step-hint">使用 Google Authenticator、Microsoft Authenticator 或其他 TOTP 认证器应用扫描此二维码</div>
+      </div>
+      <div class="setup-2fa-step">
+        <div class="step-title">或手动输入密钥</div>
+        <div class="secret-display">
+          <code>{{ twoFASecret }}</code>
+        </div>
+      </div>
+      <div class="setup-2fa-step">
+        <div class="step-title">步骤 2：输入验证码</div>
+        <form class="twofa-verify-form" @submit.prevent="onVerify2FA">
+          <el-input v-model="twoFACode" placeholder="请输入 6 位验证码" maxlength="6" size="large" style="width: 220px" aria-label="双因素验证码" @keyup.enter="onVerify2FA" />
+        </form>
+      </div>
+    </div>
+    <template #footer>
+      <el-button @click="showSetup2FA = false">取消</el-button>
+      <el-button type="primary" @click="onVerify2FA">验证并启用</el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.twofa-desc {
+  color: var(--el-text-color-secondary);
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+}
+
+form {
+  margin: 0;
+}
+
+.twofa-verify-form {
+  display: inline-block;
+}
+
+.setup-2fa {
+  .setup-2fa-step {
+    margin-bottom: 20px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .step-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: var(--el-text-color-primary);
+  }
+
+  .step-hint {
+    font-size: 12px;
+    color: var(--el-text-color-secondary);
+    margin-top: 8px;
+    text-align: center;
+  }
+
+  .qr-code-wrapper {
+    text-align: center;
+    padding: 16px 0;
+
+    .qr-code-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 8px;
+      border: 1px solid var(--el-border-color-light);
+    }
+  }
+
+  .secret-display {
+    padding: 12px;
+    background: var(--el-fill-color-light);
+    border-radius: 4px;
+    text-align: center;
+
+    code {
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      user-select: all;
+    }
+  }
+}
+</style>

@@ -1,1 +1,91 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IHR5cGUgRW52UGF5bG9hZCA9IHsKICBuYW1lOiBzdHJpbmcKICB2YWx1ZT86IHN0cmluZwogIHJlbWFya3M/OiBzdHJpbmcKICBncm91cD86IHN0cmluZwogIGdyb3Vwcz86IHN0cmluZ1tdCn0KCmV4cG9ydCBjb25zdCBlbnZBcGkgPSB7CiAgbGlzdChwYXJhbXM/OiB7IGtleXdvcmQ/OiBzdHJpbmc7IGdyb3VwPzogc3RyaW5nOyBncm91cHM/OiBzdHJpbmc7IGVuYWJsZWQ/OiBib29sZWFuOyBwYWdlPzogbnVtYmVyOyBwYWdlX3NpemU/OiBudW1iZXI7IGFsbD86IDAgfCAxIH0pIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL2VudnMnLCB7IHBhcmFtcyB9KSBhcyBQcm9taXNlPHsgZGF0YTogYW55W107IHRvdGFsOiBudW1iZXI7IHBhZ2U6IG51bWJlcjsgcGFnZV9zaXplOiBudW1iZXIgfT4KICB9LAoKICBnZXQoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KGAvZW52cy8ke2lkfWApIGFzIFByb21pc2U8eyBkYXRhOiBhbnkgfT4KICB9LAoKICBjcmVhdGUoZGF0YTogRW52UGF5bG9hZCB8IEVudlBheWxvYWRbXSkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL2VudnMnLCBkYXRhKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICB1cGRhdGUoaWQ6IG51bWJlciwgZGF0YTogYW55KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC9lbnZzLyR7aWR9YCwgZGF0YSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55IH0+CiAgfSwKCiAgZGVsZXRlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZShgL2VudnMvJHtpZH1gKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgZW5hYmxlKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL2VudnMvJHtpZH0vZW5hYmxlYCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZGF0YTogYW55IH0+CiAgfSwKCiAgZGlzYWJsZShpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC9lbnZzLyR7aWR9L2Rpc2FibGVgKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICBiYXRjaERlbGV0ZShpZHM6IG51bWJlcltdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoJy9lbnZzL2JhdGNoJywgeyBkYXRhOiB7IGlkcyB9IH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBiYXRjaFJlbmFtZShpZHM6IG51bWJlcltdLCBuYW1lOiBzdHJpbmcpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dCgnL2VudnMvYmF0Y2gvcmVuYW1lJywgeyBpZHMsIG5hbWUgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGJhdGNoRW5hYmxlKGlkczogbnVtYmVyW10pIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dCgnL2VudnMvYmF0Y2gvZW5hYmxlJywgeyBpZHMgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGJhdGNoRGlzYWJsZShpZHM6IG51bWJlcltdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy9lbnZzL2JhdGNoL2Rpc2FibGUnLCB7IGlkcyB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgYmF0Y2hTZXRHcm91cChpZHM6IG51bWJlcltdLCBncm91cHM6IHN0cmluZ1tdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoJy9lbnZzL2JhdGNoL2dyb3VwJywgeyBpZHMsIGdyb3VwcyB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgc29ydChzb3VyY2VJZDogbnVtYmVyLCB0YXJnZXRJZD86IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KCcvZW52cy9zb3J0JywgeyBzb3VyY2VfaWQ6IHNvdXJjZUlkLCB0YXJnZXRfaWQ6IHRhcmdldElkIH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBtb3ZlVG9Ub3AoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KGAvZW52cy8ke2lkfS9tb3ZlLXRvcGApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBjYW5jZWxUb3AoaWQ6IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QucHV0KGAvZW52cy8ke2lkfS9jYW5jZWwtdG9wYCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGdyb3VwcygpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL2VudnMvZ3JvdXBzJykgYXMgUHJvbWlzZTx7IGRhdGE6IHN0cmluZ1tdIH0+CiAgfSwKCiAgZXhwb3J0KGlkcz86IG51bWJlcltdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy9lbnZzL2V4cG9ydCcsIHsgcGFyYW1zOiBpZHM/Lmxlbmd0aCA/IHsgaWRzOiBpZHMuam9pbignLCcpIH0gOiB1bmRlZmluZWQgfSkgYXMgUHJvbWlzZTx7IGRhdGE6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gfT4KICB9LAoKICBleHBvcnRBbGwoaWRzPzogbnVtYmVyW10pIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL2VudnMvZXhwb3J0LWFsbCcsIHsgcGFyYW1zOiBpZHM/Lmxlbmd0aCA/IHsgaWRzOiBpZHMuam9pbignLCcpIH0gOiB1bmRlZmluZWQgfSkgYXMgUHJvbWlzZTx7IGRhdGE6IGFueVtdIH0+CiAgfSwKCiAgZXhwb3J0RmlsZXMoZm9ybWF0Pzogc3RyaW5nLCBlbmFibGVkT25seT86IGJvb2xlYW4sIGlkcz86IG51bWJlcltdKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvZW52cy9leHBvcnQtZmlsZXMnLCB7IGZvcm1hdCwgZW5hYmxlZF9vbmx5OiBlbmFibGVkT25seSwgaWRzIH0pIGFzIFByb21pc2U8eyBkYXRhOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+IH0+CiAgfSwKCiAgaW1wb3J0KGVudnM6IGFueVtdLCBtb2RlPzogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvZW52cy9pbXBvcnQnLCB7IGVudnMsIG1vZGUgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZzsgZXJyb3JzOiBzdHJpbmdbXSB9PgogIH0KfQo=
+import request from './request'
+
+export type EnvPayload = {
+  name: string
+  value?: string
+  remarks?: string
+  group?: string
+  groups?: string[]
+}
+
+export const envApi = {
+  list(params?: { keyword?: string; group?: string; groups?: string; enabled?: boolean; page?: number; page_size?: number; all?: 0 | 1 }) {
+    return request.get('/envs', { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  get(id: number) {
+    return request.get(`/envs/${id}`) as Promise<{ data: any }>
+  },
+
+  create(data: EnvPayload | EnvPayload[]) {
+    return request.post('/envs', data) as Promise<{ message: string; data: any }>
+  },
+
+  update(id: number, data: any) {
+    return request.put(`/envs/${id}`, data) as Promise<{ message: string; data: any }>
+  },
+
+  delete(id: number) {
+    return request.delete(`/envs/${id}`) as Promise<{ message: string }>
+  },
+
+  enable(id: number) {
+    return request.put(`/envs/${id}/enable`) as Promise<{ message: string; data: any }>
+  },
+
+  disable(id: number) {
+    return request.put(`/envs/${id}/disable`) as Promise<{ message: string; data: any }>
+  },
+
+  batchDelete(ids: number[]) {
+    return request.delete('/envs/batch', { data: { ids } }) as Promise<{ message: string }>
+  },
+
+  batchRename(ids: number[], name: string) {
+    return request.put('/envs/batch/rename', { ids, name }) as Promise<{ message: string }>
+  },
+
+  batchEnable(ids: number[]) {
+    return request.put('/envs/batch/enable', { ids }) as Promise<{ message: string }>
+  },
+
+  batchDisable(ids: number[]) {
+    return request.put('/envs/batch/disable', { ids }) as Promise<{ message: string }>
+  },
+
+  batchSetGroup(ids: number[], groups: string[]) {
+    return request.put('/envs/batch/group', { ids, groups }) as Promise<{ message: string }>
+  },
+
+  sort(sourceId: number, targetId?: number) {
+    return request.put('/envs/sort', { source_id: sourceId, target_id: targetId }) as Promise<{ message: string }>
+  },
+
+  moveToTop(id: number) {
+    return request.put(`/envs/${id}/move-top`) as Promise<{ message: string }>
+  },
+
+  cancelTop(id: number) {
+    return request.put(`/envs/${id}/cancel-top`) as Promise<{ message: string }>
+  },
+
+  groups() {
+    return request.get('/envs/groups') as Promise<{ data: string[] }>
+  },
+
+  export(ids?: number[]) {
+    return request.get('/envs/export', { params: ids?.length ? { ids: ids.join(',') } : undefined }) as Promise<{ data: Record<string, string> }>
+  },
+
+  exportAll(ids?: number[]) {
+    return request.get('/envs/export-all', { params: ids?.length ? { ids: ids.join(',') } : undefined }) as Promise<{ data: any[] }>
+  },
+
+  exportFiles(format?: string, enabledOnly?: boolean, ids?: number[]) {
+    return request.post('/envs/export-files', { format, enabled_only: enabledOnly, ids }) as Promise<{ data: Record<string, string> }>
+  },
+
+  import(envs: any[], mode?: string) {
+    return request.post('/envs/import', { envs, mode }) as Promise<{ message: string; errors: string[] }>
+  }
+}

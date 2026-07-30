@@ -1,1 +1,121 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IERlbGV0ZSwgRG9jdW1lbnQsIFJlZnJlc2ggfSBmcm9tICdAZWxlbWVudC1wbHVzL2ljb25zLXZ1ZScKaW1wb3J0IHsgdXNlUmVzcG9uc2l2ZSB9IGZyb20gJ0AvY29tcG9zYWJsZXMvdXNlUmVzcG9uc2l2ZScKCmNvbnN0IGxvZ2luTG9nc1BhZ2UgPSBkZWZpbmVNb2RlbDxudW1iZXI+KCdsb2dpbkxvZ3NQYWdlJywgeyByZXF1aXJlZDogdHJ1ZSB9KQpjb25zdCB7IGlzTW9iaWxlIH0gPSB1c2VSZXNwb25zaXZlKCkKCmRlZmluZVByb3BzPHsKICBsb2dpbkxvZ3M6IGFueVtdCiAgbG9naW5Mb2dzTG9hZGluZzogYm9vbGVhbgogIGxvZ2luTG9nc1RvdGFsOiBudW1iZXIKICBvbkxvYWRMb2dpbkxvZ3M6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25DbGVhckxvZ2luTG9nczogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KfT4oKQo8L3NjcmlwdD4KCjx0ZW1wbGF0ZT4KICA8ZWwtY2FyZCBzaGFkb3c9Im5ldmVyIj4KICAgIDx0ZW1wbGF0ZSAjaGVhZGVyPgogICAgICA8ZGl2IGNsYXNzPSJjYXJkLWhlYWRlciI+CiAgICAgICAgPHNwYW4gY2xhc3M9ImNhcmQtdGl0bGUiPjxlbC1pY29uPjxEb2N1bWVudCAvPjwvZWwtaWNvbj4g55m75b2V5pel5b+XPC9zcGFuPgogICAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyLWJ1dHRvbnMiPgogICAgICAgICAgPGVsLWJ1dHRvbiBAY2xpY2s9Im9uTG9hZExvZ2luTG9ncyI+PGVsLWljb24+PFJlZnJlc2ggLz48L2VsLWljb24+5Yi35pawPC9lbC1idXR0b24+CiAgICAgICAgICA8ZWwtYnV0dG9uIEBjbGljaz0ib25DbGVhckxvZ2luTG9ncyI+PGVsLWljb24+PERlbGV0ZSAvPjwvZWwtaWNvbj7muIXnkIbml6fml6Xlv5c8L2VsLWJ1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3RlbXBsYXRlPgogICAgPGRpdiB2LWlmPSJpc01vYmlsZSIgY2xhc3M9ImRkLW1vYmlsZS1saXN0Ij4KICAgICAgPGRpdgogICAgICAgIHYtZm9yPSJyb3cgaW4gbG9naW5Mb2dzIgogICAgICAgIDprZXk9InJvdy5pZCIKICAgICAgICBjbGFzcz0iZGQtbW9iaWxlLWNhcmQiCiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9faGVhZGVyIj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImRkLW1vYmlsZS1jYXJkX190aXRsZS13cmFwIj4KICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX190aXRsZSI+e3sgcm93LnVzZXJuYW1lIH19PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3N1YnRpdGxlIj57eyByb3cuaXAgfX08L3NwYW4+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxlbC10YWcgc2l6ZT0ic21hbGwiIDp0eXBlPSJyb3cuc3RhdHVzID09PSAwID8gJ3N1Y2Nlc3MnIDogJ2RhbmdlciciPgogICAgICAgICAgICB7eyByb3cuc3RhdHVzID09PSAwID8gJ+aIkOWKnycgOiAn5aSx6LSlJyB9fQogICAgICAgICAgPC9lbC10YWc+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2JvZHkiPgogICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2dyaWQiPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fZmllbGQgZGQtbW9iaWxlLWNhcmRfX2ZpZWxkLS1mdWxsIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2xhYmVsIj7lrqLmiLfnq688L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX192YWx1ZSI+e3sgcm93LmNsaWVudF9uYW1lIHx8IHJvdy5jbGllbnRfdHlwZV9sYWJlbCB8fCAnLScgfX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fZmllbGQiPgogICAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fbGFiZWwiPueZu+W9leaWueW8jzwvc3Bhbj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX3ZhbHVlIj57eyByb3cubWV0aG9kIH19PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2ZpZWxkIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2xhYmVsIj7ml7bpl7Q8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX192YWx1ZSI+e3sgbmV3IERhdGUocm93LmNyZWF0ZWRfYXQpLnRvTG9jYWxlU3RyaW5nKCkgfX08L3NwYW4+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJkZC1tb2JpbGUtY2FyZF9fZmllbGQgZGQtbW9iaWxlLWNhcmRfX2ZpZWxkLS1mdWxsIj4KICAgICAgICAgICAgICA8c3BhbiBjbGFzcz0iZGQtbW9iaWxlLWNhcmRfX2xhYmVsIj7ljp/lm6A8L3NwYW4+CiAgICAgICAgICAgICAgPHNwYW4gY2xhc3M9ImRkLW1vYmlsZS1jYXJkX192YWx1ZSI+e3sgcm93Lm1lc3NhZ2UgfHwgJy0nIH19PC9zcGFuPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgICAgPGVsLWVtcHR5IHYtaWY9IiFsb2dpbkxvZ3NMb2FkaW5nICYmIGxvZ2luTG9ncy5sZW5ndGggPT09IDAiIGRlc2NyaXB0aW9uPSLmmoLml6DmlbDmja4iIC8+CiAgICA8L2Rpdj4KCiAgICA8ZWwtdGFibGUgdi1lbHNlIDpkYXRhPSJsb2dpbkxvZ3MiIHYtbG9hZGluZz0ibG9naW5Mb2dzTG9hZGluZyIgc3RyaXBlIGVtcHR5LXRleHQ9IuaaguaXoOaVsOaNriI+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gcHJvcD0idXNlcm5hbWUiIGxhYmVsPSLnlKjmiLciIHdpZHRoPSIxMDAiIC8+CiAgICAgIDxlbC10YWJsZS1jb2x1bW4gbGFiZWw9IueKtuaAgSIgd2lkdGg9IjgwIj4KICAgICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ9Insgcm93IH0iPgogICAgICAgICAgPGVsLXRhZyBzaXplPSJzbWFsbCIgOnR5cGU9InJvdy5zdGF0dXMgPT09IDAgPyAnc3VjY2VzcycgOiAnZGFuZ2VyJyI+CiAgICAgICAgICAgIHt7IHJvdy5zdGF0dXMgPT09IDAgPyAn5oiQ5YqfJyA6ICflpLHotKUnIH19CiAgICAgICAgICA8L2VsLXRhZz4KICAgICAgICA8L3RlbXBsYXRlPgogICAgICA8L2VsLXRhYmxlLWNvbHVtbj4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJpcCIgbGFiZWw9IklQ5Zyw5Z2AIiB3aWR0aD0iMTQwIiAvPgogICAgICA8ZWwtdGFibGUtY29sdW1uIGxhYmVsPSLlrqLmiLfnq68iIG1pbi13aWR0aD0iMTgwIiBzaG93LW92ZXJmbG93LXRvb2x0aXA+CiAgICAgICAgPHRlbXBsYXRlICNkZWZhdWx0PSJ7IHJvdyB9Ij57eyByb3cuY2xpZW50X25hbWUgfHwgcm93LmNsaWVudF90eXBlX2xhYmVsIHx8ICctJyB9fTwvdGVtcGxhdGU+CiAgICAgIDwvZWwtdGFibGUtY29sdW1uPgogICAgICA8ZWwtdGFibGUtY29sdW1uIHByb3A9Im1ldGhvZCIgbGFiZWw9IueZu+W9leaWueW8jyIgd2lkdGg9IjEwMCIgLz4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJtZXNzYWdlIiBsYWJlbD0i5Y6f5ZugIiBzaG93LW92ZXJmbG93LXRvb2x0aXAgLz4KICAgICAgPGVsLXRhYmxlLWNvbHVtbiBwcm9wPSJjcmVhdGVkX2F0IiBsYWJlbD0i5pe26Ze0IiB3aWR0aD0iMTcwIj4KICAgICAgICA8dGVtcGxhdGUgI2RlZmF1bHQ9Insgcm93IH0iPnt7IG5ldyBEYXRlKHJvdy5jcmVhdGVkX2F0KS50b0xvY2FsZVN0cmluZygpIH19PC90ZW1wbGF0ZT4KICAgICAgPC9lbC10YWJsZS1jb2x1bW4+CiAgICA8L2VsLXRhYmxlPgogICAgPGRpdiBjbGFzcz0icGFnaW5hdGlvbi1jb250YWluZXIiIHYtaWY9ImxvZ2luTG9nc1RvdGFsID4gMTUiPgogICAgICA8ZWwtcGFnaW5hdGlvbgogICAgICAgIHYtbW9kZWw6Y3VycmVudC1wYWdlPSJsb2dpbkxvZ3NQYWdlIgogICAgICAgIDp0b3RhbD0ibG9naW5Mb2dzVG90YWwiCiAgICAgICAgOnBhZ2Utc2l6ZT0iMTUiCiAgICAgICAgbGF5b3V0PSJwcmV2LCBwYWdlciwgbmV4dCIKICAgICAgICBAY3VycmVudC1jaGFuZ2U9Im9uTG9hZExvZ2luTG9ncyIKICAgICAgLz4KICAgIDwvZGl2PgogIDwvZWwtY2FyZD4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+CkB1c2UgJy4vY29uZmlnLWNhcmQtc2hhcmVkLnNjc3MnIGFzICo7CgouY2FyZC1oZWFkZXItYnV0dG9ucyB7CiAgcGFkZGluZzogMnB4OwogIGJvcmRlci1yYWRpdXM6IDEycHg7CiAgYmFja2dyb3VuZDogY29sb3ItbWl4KGluIHNyZ2IsIHZhcigtLWVsLWZpbGwtY29sb3ItbGlnaHQpIDg0JSwgdHJhbnNwYXJlbnQpOwogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiA4cHg7Cn0KCi5wYWdpbmF0aW9uLWNvbnRhaW5lciB7CiAgZGlzcGxheTogZmxleDsKICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKICBtYXJnaW4tdG9wOiAyMHB4Owp9CgpAbWVkaWEgKG1heC13aWR0aDogNzY4cHgpIHsKICAuY2FyZC1oZWFkZXItYnV0dG9ucyB7CiAgICB3aWR0aDogMTAwJTsKICAgIGZsZXgtd3JhcDogd3JhcDsKICB9Cn0KPC9zdHlsZT4K
+<script setup lang="ts">
+import { Delete, Document, Refresh } from '@element-plus/icons-vue'
+import { useResponsive } from '@/composables/useResponsive'
+
+const loginLogsPage = defineModel<number>('loginLogsPage', { required: true })
+const { isMobile } = useResponsive()
+
+defineProps<{
+  loginLogs: any[]
+  loginLogsLoading: boolean
+  loginLogsTotal: number
+  onLoadLoginLogs: () => void | Promise<void>
+  onClearLoginLogs: () => void | Promise<void>
+}>()
+</script>
+
+<template>
+  <el-card shadow="never">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Document /></el-icon> 登录日志</span>
+        <div class="card-header-buttons">
+          <el-button @click="onLoadLoginLogs"><el-icon><Refresh /></el-icon>刷新</el-button>
+          <el-button @click="onClearLoginLogs"><el-icon><Delete /></el-icon>清理旧日志</el-button>
+        </div>
+      </div>
+    </template>
+    <div v-if="isMobile" class="dd-mobile-list">
+      <div
+        v-for="row in loginLogs"
+        :key="row.id"
+        class="dd-mobile-card"
+      >
+        <div class="dd-mobile-card__header">
+          <div class="dd-mobile-card__title-wrap">
+            <span class="dd-mobile-card__title">{{ row.username }}</span>
+            <span class="dd-mobile-card__subtitle">{{ row.ip }}</span>
+          </div>
+          <el-tag size="small" :type="row.status === 0 ? 'success' : 'danger'">
+            {{ row.status === 0 ? '成功' : '失败' }}
+          </el-tag>
+        </div>
+        <div class="dd-mobile-card__body">
+          <div class="dd-mobile-card__grid">
+            <div class="dd-mobile-card__field dd-mobile-card__field--full">
+              <span class="dd-mobile-card__label">客户端</span>
+              <span class="dd-mobile-card__value">{{ row.client_name || row.client_type_label || '-' }}</span>
+            </div>
+            <div class="dd-mobile-card__field">
+              <span class="dd-mobile-card__label">登录方式</span>
+              <span class="dd-mobile-card__value">{{ row.method }}</span>
+            </div>
+            <div class="dd-mobile-card__field">
+              <span class="dd-mobile-card__label">时间</span>
+              <span class="dd-mobile-card__value">{{ new Date(row.created_at).toLocaleString() }}</span>
+            </div>
+            <div class="dd-mobile-card__field dd-mobile-card__field--full">
+              <span class="dd-mobile-card__label">原因</span>
+              <span class="dd-mobile-card__value">{{ row.message || '-' }}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <el-empty v-if="!loginLogsLoading && loginLogs.length === 0" description="暂无数据" />
+    </div>
+
+    <el-table v-else :data="loginLogs" v-loading="loginLogsLoading" stripe empty-text="暂无数据">
+      <el-table-column prop="username" label="用户" width="100" />
+      <el-table-column label="状态" width="80">
+        <template #default="{ row }">
+          <el-tag size="small" :type="row.status === 0 ? 'success' : 'danger'">
+            {{ row.status === 0 ? '成功' : '失败' }}
+          </el-tag>
+        </template>
+      </el-table-column>
+      <el-table-column prop="ip" label="IP地址" width="140" />
+      <el-table-column label="客户端" min-width="180" show-overflow-tooltip>
+        <template #default="{ row }">{{ row.client_name || row.client_type_label || '-' }}</template>
+      </el-table-column>
+      <el-table-column prop="method" label="登录方式" width="100" />
+      <el-table-column prop="message" label="原因" show-overflow-tooltip />
+      <el-table-column prop="created_at" label="时间" width="170">
+        <template #default="{ row }">{{ new Date(row.created_at).toLocaleString() }}</template>
+      </el-table-column>
+    </el-table>
+    <div class="pagination-container" v-if="loginLogsTotal > 15">
+      <el-pagination
+        v-model:current-page="loginLogsPage"
+        :total="loginLogsTotal"
+        :page-size="15"
+        layout="prev, pager, next"
+        @current-change="onLoadLoginLogs"
+      />
+    </div>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.card-header-buttons {
+  padding: 2px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--el-fill-color-light) 84%, transparent);
+  display: flex;
+  gap: 8px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .card-header-buttons {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}
+</style>

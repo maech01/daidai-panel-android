@@ -1,1 +1,106 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImZtdCIKCSJzdHJpbmdzIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9wa2cvcmVzcG9uc2UiCgoJImdpdGh1Yi5jb20vZ2luLWdvbmljL2dpbiIKKQoKLy8gQmF0Y2hBZGRMYWJlbHMg5om56YeP57uZ5Lu75Yqh6L+95Yqg5qCH562+44CCCi8vIOivreS5ieS4uuOAjOi/veWKoOOAje+8muS/neeVmeS7u+WKoeWOn+acieWFqOmDqOagh+etvu+8iOWQqyDliIbnu4Q6L3N1YnNjcmlwdGlvbjog562J5YaF6YOo5qCH562+77yJ77yMCi8vIOWPquaKiuaWsOagh+etvuW5tui/m+WOu+W5tuWOu+mHje+8jOS4jeWIoOmZpOS7u+S9leWOn+agh+etvuOAggovLyDluKblhoXpg6jliY3nvIDvvIjliIbnu4Q6IC8gc3Vic2NyaXB0aW9uOu+8ieeahOi+k+WFpeS4gOW+i+W/veeVpe+8jOmBv+WFjeeUqOaIt+azqOWFpeS/neeVmeagh+etvuOAggpmdW5jIChoICpUYXNrSGFuZGxlcikgQmF0Y2hBZGRMYWJlbHMoYyAqZ2luLkNvbnRleHQpIHsKCXZhciByZXEgc3RydWN0IHsKCQlUYXNrSURzIFtddWludCAgIGBqc29uOiJ0YXNrX2lkcyIgYmluZGluZzoicmVxdWlyZWQiYAoJCUxhYmVscyAgW11zdHJpbmcgYGpzb246ImxhYmVscyIgYmluZGluZzoicmVxdWlyZWQiYAoJfQoJaWYgZXJyIDo9IGMuU2hvdWxkQmluZEpTT04oJnJlcSk7IGVyciAhPSBuaWwgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuivt+axguWPguaVsOmUmeivryIpCgkJcmV0dXJuCgl9CgoJLy8g5riF5rSX5b6F6L+95Yqg55qE5qCH562+77yadHJpbeOAgei3s+i/h+epuuOAgeW/veeVpeWGhemDqOWJjee8gOOAgeWOu+mHjeOAggoJbmV3TGFiZWxzIDo9IHNhbml0aXplSW5jb21pbmdMYWJlbHMocmVxLkxhYmVscykKCWlmIGxlbihuZXdMYWJlbHMpID09IDAgewoJCXJlc3BvbnNlLkJhZFJlcXVlc3QoYywgIuayoeacieWPr+a3u+WKoOeahOacieaViOagh+etviIpCgkJcmV0dXJuCgl9CgoJY291bnQgOj0gMAoJZm9yIF8sIGlkIDo9IHJhbmdlIHJlcS5UYXNrSURzIHsKCQl2YXIgdGFzayBtb2RlbC5UYXNrCgkJaWYgZGF0YWJhc2UuREIuRmlyc3QoJnRhc2ssIGlkKS5FcnJvciAhPSBuaWwgewoJCQljb250aW51ZQoJCX0KCgkJbWVyZ2VkIDo9IG1lcmdlTGFiZWxzKHRhc2suR2V0TGFiZWxzKCksIG5ld0xhYmVscykKCQl0YXNrLlNldExhYmVsc0Zyb21TbGljZShtZXJnZWQpCgkJaWYgZGF0YWJhc2UuREIuTW9kZWwoJnRhc2spLlVwZGF0ZSgibGFiZWxzIiwgdGFzay5MYWJlbHMpLkVycm9yICE9IG5pbCB7CgkJCWNvbnRpbnVlCgkJfQoJCWNvdW50KysKCX0KCglyZXNwb25zZS5TdWNjZXNzKGMsIGdpbi5IewoJCSJtZXNzYWdlIjogICAgICAgZm10LlNwcmludGYoIuW3suS4uiAlZCDkuKrku7vliqHmt7vliqDmoIfnrb4iLCBjb3VudCksCgkJInN1Y2Nlc3NfY291bnQiOiBjb3VudCwKCX0pCn0KCi8vIHNhbml0aXplSW5jb21pbmdMYWJlbHMg5riF5rSX55So5oi36L6T5YWl55qE5b6F6L+95Yqg5qCH562+77yaCi8vIHRyaW0g56m655m944CB6Lez6L+H56m65Liy44CB5b+955Wl5bim5YaF6YOo5YmN57yA55qE6L6T5YWl44CB5Y676YeN77yI5L+d5oyB6L6T5YWl6aG65bqP77yJ44CCCmZ1bmMgc2FuaXRpemVJbmNvbWluZ0xhYmVscyhsYWJlbHMgW11zdHJpbmcpIFtdc3RyaW5nIHsKCXNlZW4gOj0gbWFrZShtYXBbc3RyaW5nXXN0cnVjdHt9KQoJcmVzdWx0IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihsYWJlbHMpKQoJZm9yIF8sIHJhdyA6PSByYW5nZSBsYWJlbHMgewoJCWxhYmVsIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHJhdykKCQlpZiBsYWJlbCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIGlzSW50ZXJuYWxMYWJlbChsYWJlbCkgewoJCQljb250aW51ZQoJCX0KCQlpZiBfLCBvayA6PSBzZWVuW2xhYmVsXTsgb2sgewoJCQljb250aW51ZQoJCX0KCQlzZWVuW2xhYmVsXSA9IHN0cnVjdHt9e30KCQlyZXN1bHQgPSBhcHBlbmQocmVzdWx0LCBsYWJlbCkKCX0KCXJldHVybiByZXN1bHQKfQoKLy8gbWVyZ2VMYWJlbHMg5oqKIG5ld0xhYmVscyDov73liqDov5sgZXhpc3RpbmfvvIzkv53nlZkgZXhpc3Rpbmcg5Y6f5pyJ5YWo6YOo5qCH562+77yI5ZCr5YaF6YOo5qCH562+77yJ77yM5Y676YeN44CCCmZ1bmMgbWVyZ2VMYWJlbHMoZXhpc3RpbmcsIG5ld0xhYmVscyBbXXN0cmluZykgW11zdHJpbmcgewoJc2VlbiA6PSBtYWtlKG1hcFtzdHJpbmddc3RydWN0e30pCglyZXN1bHQgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGV4aXN0aW5nKStsZW4obmV3TGFiZWxzKSkKCWZvciBfLCByYXcgOj0gcmFuZ2UgZXhpc3RpbmcgewoJCWxhYmVsIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHJhdykKCQlpZiBsYWJlbCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWlmIF8sIG9rIDo9IHNlZW5bbGFiZWxdOyBvayB7CgkJCWNvbnRpbnVlCgkJfQoJCXNlZW5bbGFiZWxdID0gc3RydWN0e317fQoJCXJlc3VsdCA9IGFwcGVuZChyZXN1bHQsIGxhYmVsKQoJfQoJZm9yIF8sIGxhYmVsIDo9IHJhbmdlIG5ld0xhYmVscyB7CgkJaWYgXywgb2sgOj0gc2VlbltsYWJlbF07IG9rIHsKCQkJY29udGludWUKCQl9CgkJc2VlbltsYWJlbF0gPSBzdHJ1Y3R7fXt9CgkJcmVzdWx0ID0gYXBwZW5kKHJlc3VsdCwgbGFiZWwpCgl9CglyZXR1cm4gcmVzdWx0Cn0KCi8vIGlzSW50ZXJuYWxMYWJlbCDliKTmlq3mmK/lkKbkuLrluKbkv53nlZnliY3nvIDnmoTlhoXpg6jmoIfnrb7vvIjliIbnu4Q6IC8gc3Vic2NyaXB0aW9uOu+8ieOAggpmdW5jIGlzSW50ZXJuYWxMYWJlbChsYWJlbCBzdHJpbmcpIGJvb2wgewoJcmV0dXJuIHN0cmluZ3MuSGFzUHJlZml4KGxhYmVsLCB0YXNrR3JvdXBMYWJlbFByZWZpeCkgfHwgc3RyaW5ncy5IYXNQcmVmaXgobGFiZWwsICJzdWJzY3JpcHRpb246IikKfQo=
+package handler
+
+import (
+	"fmt"
+	"strings"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/pkg/response"
+
+	"github.com/gin-gonic/gin"
+)
+
+// BatchAddLabels 批量给任务追加标签。
+// 语义为「追加」：保留任务原有全部标签（含 分组:/subscription: 等内部标签），
+// 只把新标签并进去并去重，不删除任何原标签。
+// 带内部前缀（分组: / subscription:）的输入一律忽略，避免用户注入保留标签。
+func (h *TaskHandler) BatchAddLabels(c *gin.Context) {
+	var req struct {
+		TaskIDs []uint   `json:"task_ids" binding:"required"`
+		Labels  []string `json:"labels" binding:"required"`
+	}
+	if err := c.ShouldBindJSON(&req); err != nil {
+		response.BadRequest(c, "请求参数错误")
+		return
+	}
+
+	// 清洗待追加的标签：trim、跳过空、忽略内部前缀、去重。
+	newLabels := sanitizeIncomingLabels(req.Labels)
+	if len(newLabels) == 0 {
+		response.BadRequest(c, "没有可添加的有效标签")
+		return
+	}
+
+	count := 0
+	for _, id := range req.TaskIDs {
+		var task model.Task
+		if database.DB.First(&task, id).Error != nil {
+			continue
+		}
+
+		merged := mergeLabels(task.GetLabels(), newLabels)
+		task.SetLabelsFromSlice(merged)
+		if database.DB.Model(&task).Update("labels", task.Labels).Error != nil {
+			continue
+		}
+		count++
+	}
+
+	response.Success(c, gin.H{
+		"message":       fmt.Sprintf("已为 %d 个任务添加标签", count),
+		"success_count": count,
+	})
+}
+
+// sanitizeIncomingLabels 清洗用户输入的待追加标签：
+// trim 空白、跳过空串、忽略带内部前缀的输入、去重（保持输入顺序）。
+func sanitizeIncomingLabels(labels []string) []string {
+	seen := make(map[string]struct{})
+	result := make([]string, 0, len(labels))
+	for _, raw := range labels {
+		label := strings.TrimSpace(raw)
+		if label == "" {
+			continue
+		}
+		if isInternalLabel(label) {
+			continue
+		}
+		if _, ok := seen[label]; ok {
+			continue
+		}
+		seen[label] = struct{}{}
+		result = append(result, label)
+	}
+	return result
+}
+
+// mergeLabels 把 newLabels 追加进 existing，保留 existing 原有全部标签（含内部标签），去重。
+func mergeLabels(existing, newLabels []string) []string {
+	seen := make(map[string]struct{})
+	result := make([]string, 0, len(existing)+len(newLabels))
+	for _, raw := range existing {
+		label := strings.TrimSpace(raw)
+		if label == "" {
+			continue
+		}
+		if _, ok := seen[label]; ok {
+			continue
+		}
+		seen[label] = struct{}{}
+		result = append(result, label)
+	}
+	for _, label := range newLabels {
+		if _, ok := seen[label]; ok {
+			continue
+		}
+		seen[label] = struct{}{}
+		result = append(result, label)
+	}
+	return result
+}
+
+// isInternalLabel 判断是否为带保留前缀的内部标签（分组: / subscription:）。
+func isInternalLabel(label string) bool {
+	return strings.HasPrefix(label, taskGroupLabelPrefix) || strings.HasPrefix(label, "subscription:")
+}

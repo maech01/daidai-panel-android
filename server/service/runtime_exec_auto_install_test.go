@@ -1,1 +1,498 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJydW50aW1lIgoJInN0cmluZ3MiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKLy8gVGVzdEJ1aWxkTWFuYWdlZFJ1bnRpbWVFbnZNYXBEb2VzTm90V3JpdGVQeXRob25QcmVDaGVja0VudiDlrojljavvvJoKLy8gUHl0aG9uIOmihOajgOiHquWKqOWuieijhemTvui3r+W3suenu+mZpO+8jOS4jeW6lOWGjeWQkeS7u+WKoeeOr+Wig+WGmeWFpei/meS6m+W3suW6n+W8g+eahCBlbnYg6ZSu44CCCi8vIOiLpeWwhuadpeacieS6uuaKiumihOajgOWKoOWbnuadpe+8jOi/meS4qua1i+ivleS8mueri+WIu+Wksei0pe+8jOaPkOmGkuWQjOaXtuaKiiBweXNteCDmvI/liKTpl67popjph43mlrDor4TkvLDjgIIKZnVuYyBUZXN0QnVpbGRNYW5hZ2VkUnVudGltZUVudk1hcERvZXNOb3RXcml0ZVB5dGhvblByZUNoZWNrRW52KHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgllbnZNYXAsIGVyciA6PSBCdWlsZE1hbmFnZWRSdW50aW1lRW52TWFwKHJvb3QsIHJvb3QsIG5pbCwgdGltZS5Ib3VyKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIG1hbmFnZWQgcnVudGltZSBlbnYgbWFwOiAldiIsIGVycikKCX0KCglmb3IgXywga2V5IDo9IHJhbmdlIFtdc3RyaW5neyJERF9BVVRPX0lOU1RBTExfREVQUyIsICJERF9QWV9BVVRPX0lOU1RBTExfQUxJQVNFUyJ9IHsKCQlpZiBnb3QsIGV4aXN0cyA6PSBlbnZNYXBba2V5XTsgZXhpc3RzIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkICVzIHRvIGJlIGFic2VudCwgZ290ICVxIiwga2V5LCBnb3QpCgkJfQoJfQp9CgpmdW5jIFRlc3RCdWlsZE1hbmFnZWRSdW50aW1lRW52TWFwVXNlc1JlcXVlc3RlZFB5dGhvblZlcnNpb24odCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVudk1hcCwgZXJyIDo9IEJ1aWxkTWFuYWdlZFJ1bnRpbWVFbnZNYXBGb3JQeXRob25WZXJzaW9uKHJvb3QsIHJvb3QsIG5pbCwgdGltZS5Ib3VyLCAiMy4xMCIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiYnVpbGQgbWFuYWdlZCBydW50aW1lIGVudiBtYXA6ICV2IiwgZXJyKQoJfQoJaWYgZW52TWFwWyJEQUlEQUlfUFlUSE9OX1ZFUlNJT04iXSAhPSAiMy4xMCIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBEQUlEQUlfUFlUSE9OX1ZFUlNJT049My4xMCwgZ290ICVxIiwgZW52TWFwWyJEQUlEQUlfUFlUSE9OX1ZFUlNJT04iXSkKCX0KCWV4cGVjdGVkVmVudkJpbiA6PSByZXNvbHZlTWFuYWdlZFZlbnZCaW4oTWFuYWdlZFB5dGhvblZlbnZEaXIoIjMuMTAiKSkKCWlmICFzdHJpbmdzLkNvbnRhaW5zKGVudk1hcFsiUEFUSCJdLCBleHBlY3RlZFZlbnZCaW4pIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgUEFUSCB0byBjb250YWluIHB5dGhvbiAzLjEwIHZlbnYgYmluICVxLCBnb3QgJXEiLCBleHBlY3RlZFZlbnZCaW4sIGVudk1hcFsiUEFUSCJdKQoJfQp9CgpmdW5jIFRlc3ROb2RlUHJlbG9hZEtlZXBzR2l0aHViRW52UmVhZGFibGVCdXRIaWRkZW5Gcm9tU3RyaW5naWZ5KHQgKnRlc3RpbmcuVCkgewoJbm9kZUJpbiwgZXJyIDo9IGV4ZWMuTG9va1BhdGgoIm5vZGUiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5Ta2lwKCJub2RlIG5vdCBmb3VuZCIpCgl9CgoJdGVtcERpciA6PSB0LlRlbXBEaXIoKQoJZW52RmlsZSA6PSBmaWxlcGF0aC5Kb2luKHRlbXBEaXIsICJlbnYuanNvbiIpCgkvLyDlm57lvZIgaGV4LWNpL3NtemRtX3NjcmlwdO+8muWug+S8mueUqCBKU09OLnN0cmluZ2lmeShwcm9jZXNzLmVudikg5qOA5rWLIEdJVEhVQu+8jAoJLy8g5L2G6ISa5pys5pi+5byP6K+75Y+WIHByb2Nlc3MuZW52LkdJVEhVQl9BQ1RJT05TIOaXtuS7jeW6lOivpeaLv+WIsOecn+WunuWAvOOAggoJZW52SlNPTiA6PSBgeyJHSVRIVUJfQUNUSU9OUyI6IjEiLCJTTVpETV9DT09LSUUiOiJjb29raWUifWAKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZW52RmlsZSwgW11ieXRlKGVudkpTT04pLCAwbzYwMCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBlbnYgZmlsZTogJXYiLCBlcnIpCgl9CglwcmVsb2FkRmlsZSwgZXJyIDo9IHdyaXRlTm9kZVByZWxvYWRTY3JpcHQodGVtcERpciwgZW52RmlsZSwgbWFwW3N0cmluZ11zdHJpbmd7fSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBub2RlIHByZWxvYWQ6ICV2IiwgZXJyKQoJfQoKCXNjcmlwdEZpbGUgOj0gZmlsZXBhdGguSm9pbih0ZW1wRGlyLCAidGFyZ2V0LmpzIikKCXNjcmlwdCA6PSBgCmlmIChKU09OLnN0cmluZ2lmeShwcm9jZXNzLmVudikuaW5kZXhPZigiR0lUSFVCIikgPiAtMSkgcHJvY2Vzcy5leGl0KDcpOwppZiAocHJvY2Vzcy5lbnYuR0lUSFVCX0FDVElPTlMgIT09ICIxIikgcHJvY2Vzcy5leGl0KDgpOwppZiAocHJvY2Vzcy5lbnYuU01aRE1fQ09PS0lFICE9PSAiY29va2llIikgcHJvY2Vzcy5leGl0KDkpOwpjb25zb2xlLmxvZygib2siKTsKYAoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzY3JpcHRGaWxlLCBbXWJ5dGUoc2NyaXB0KSwgMG82MDApOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgdGFyZ2V0IHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJY21kIDo9IGV4ZWMuQ29tbWFuZChub2RlQmluLCAiLS1yZXF1aXJlIiwgcHJlbG9hZEZpbGUsIHNjcmlwdEZpbGUpCglvdXQsIGVyciA6PSBjbWQuQ29tYmluZWRPdXRwdXQoKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm5vZGUgc2NyaXB0IGZhaWxlZDogJXYsIG91dHB1dD0lcyIsIGVyciwgc3RyaW5nKG91dCkpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhzdHJpbmcob3V0KSwgIm9rIikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvayBvdXRwdXQsIGdvdCAlcSIsIHN0cmluZyhvdXQpKQoJfQp9CgpmdW5jIFRlc3RNYW5hZ2VkUHl0aG9uVmVudkRpclVzZXNGbGF0VmVyc2lvbmVkUGF0aHModCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJZGF0YURpciA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJkYXRhIikKCglpZiBnb3QgOj0gTWFuYWdlZFB5dGhvblZlbnZEaXIoIjMuMTIiKTsgZ290ICE9IGZpbGVwYXRoLkpvaW4oZGF0YURpciwgImRlcHMiLCAicHl0aG9uIiwgIjMuMTIiKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGZsYXQgMy4xMiB2ZW52IHBhdGgsIGdvdCAlcSIsIGdvdCkKCX0KCWlmIGdvdCA6PSBNYW5hZ2VkUHl0aG9uVmVudkRpcigiMy4xMCIpOyBnb3QgIT0gZmlsZXBhdGguSm9pbihkYXRhRGlyLCAiZGVwcyIsICJweXRob24iLCAiMy4xMCIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZmxhdCAzLjEwIHZlbnYgcGF0aCwgZ290ICVxIiwgZ290KQoJfQp9CgpmdW5jIFRlc3RXYXJtTWFuYWdlZFB5dGhvblZlbnZXYXJtc0FsbFN1cHBvcnRlZFZlcnNpb25zKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdmFyIHdhcm1lZCBbXXN0cmluZwoJb3JpZ2luYWwgOj0gd2FybU1hbmFnZWRQeXRob25WZW52Rm9yVmVyc2lvbkZ1bmMKCW9yaWdpbmFsQ2xlYW51cCA6PSBjbGVhbnVwQnJva2VuTWFuYWdlZFB5dGhvblZlbnZzRnVuYwoJd2FybU1hbmFnZWRQeXRob25WZW52Rm9yVmVyc2lvbkZ1bmMgPSBmdW5jKHZlcnNpb24gc3RyaW5nKSB7CgkJd2FybWVkID0gYXBwZW5kKHdhcm1lZCwgdmVyc2lvbikKCX0KCWNsZWFudXBCcm9rZW5NYW5hZ2VkUHl0aG9uVmVudnNGdW5jID0gZnVuYygpIHt9Cgl0LkNsZWFudXAoZnVuYygpIHsKCQl3YXJtTWFuYWdlZFB5dGhvblZlbnZGb3JWZXJzaW9uRnVuYyA9IG9yaWdpbmFsCgkJY2xlYW51cEJyb2tlbk1hbmFnZWRQeXRob25WZW52c0Z1bmMgPSBvcmlnaW5hbENsZWFudXAKCX0pCgoJaWYgZXJyIDo9IG1vZGVsLlNldENvbmZpZygicHl0aG9uX2RlZmF1bHRfdmVyc2lvbiIsICIzLjExIik7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzZXQgZGVmYXVsdCBweXRob24gdmVyc2lvbjogJXYiLCBlcnIpCgl9Cglmb3IgXywgdmVyc2lvbiA6PSByYW5nZSBbXXN0cmluZ3siMy4xMCIsICIzLjEyIn0gewoJCWlmIGVyciA6PSBvcy5Na2RpckFsbChyZXNvbHZlTWFuYWdlZFZlbnZCaW4oTWFuYWdlZFB5dGhvblZlbnZEaXIodmVyc2lvbikpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigibWtkaXIgdmVyc2lvbmVkIHZlbnYgJXM6ICV2IiwgdmVyc2lvbiwgZXJyKQoJCX0KCX0KCglXYXJtTWFuYWdlZFB5dGhvblZlbnYoKQoKCXdhbnQgOj0gW11zdHJpbmd7IjMuMTEiLCAiMy4xMCIsICIzLjEyIn0KCWlmIGxlbih3YXJtZWQpICE9IGxlbih3YW50KSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHdhcm1lZCB2ZXJzaW9ucyAldiwgZ290ICV2Iiwgd2FudCwgd2FybWVkKQoJfQoJZm9yIGlkeCwgdmVyc2lvbiA6PSByYW5nZSB3YW50IHsKCQlpZiB3YXJtZWRbaWR4XSAhPSB2ZXJzaW9uIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIHdhcm1lZCB2ZXJzaW9ucyAldiwgZ290ICV2Iiwgd2FudCwgd2FybWVkKQoJCX0KCX0KfQoKZnVuYyBUZXN0U3VwcG9ydGVkUHl0aG9uVmVyc2lvbnNIb25vcnNTaW5nbGVSdW50aW1lVmFyaWFudCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJdC5TZXRlbnYoIkRBSURBSV9QWVRIT05fUlVOVElNRV9NT0RFIiwgInNpbmdsZSIpCgl0LlNldGVudigiREFJREFJX1BZVEhPTl9WRVJTSU9OIiwgIjMuMTEiKQoKCXZlcnNpb25zIDo9IFN1cHBvcnRlZFB5dGhvblZlcnNpb25zKCkKCWlmIGxlbih2ZXJzaW9ucykgIT0gMSB8fCB2ZXJzaW9uc1swXSAhPSAiMy4xMSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbmx5IFB5dGhvbiAzLjExIGluIHNpbmdsZSBydW50aW1lIGltYWdlLCBnb3QgJXYiLCB2ZXJzaW9ucykKCX0KCWlmIGdvdCA6PSBEZWZhdWx0UHl0aG9uVmVyc2lvbigpOyBnb3QgIT0gIjMuMTEiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVmYXVsdCBweXRob24gdmVyc2lvbiB0byBmb2xsb3cgc2luZ2xlIGltYWdlIHZlcnNpb24gMy4xMSwgZ290ICVxIiwgZ290KQoJfQoKCS8vIOWNleeJiOacrOmVnOWDj+eahOi/kOihjOaXtuaOpeWPo+S5n+WPquiDveaatOmcsuW9k+WJjeWwj+eJiOacrO+8jOWJjeerr+S7u+WKoeihqOWNleS8muebtOaOpeS9v+eUqOi/meS4quWIl+ihqOeUn+aIkOmAiemhueOAggoJaW5mb3MgOj0gUHl0aG9uUnVudGltZUluZm9zKCkKCWlmIGxlbihpbmZvcykgIT0gMSB8fCBpbmZvc1swXS5WZXJzaW9uICE9ICIzLjExIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJ1bnRpbWUgaW5mb3Mgb25seSBmb3IgUHl0aG9uIDMuMTEgaW4gc2luZ2xlIGltYWdlLCBnb3QgJSt2IiwgaW5mb3MpCgl9Cn0KCmZ1bmMgVGVzdENsZWFudXBNYW5hZ2VkUHl0aG9uQXJ0aWZhY3RzT25TdGFydHVwUmVtb3Zlc1Vuc3VwcG9ydGVkU2luZ2xlUnVudGltZURpcnModCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJZGF0YURpciA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJkYXRhIikKCXQuU2V0ZW52KCJEQUlEQUlfUFlUSE9OX1JVTlRJTUVfTU9ERSIsICJzaW5nbGUiKQoJdC5TZXRlbnYoIkRBSURBSV9QWVRIT05fVkVSU0lPTiIsICIzLjEyIikKCglmb3IgXywgdmVyc2lvbiA6PSByYW5nZSBbXXN0cmluZ3siMy4xMCIsICIzLjExIiwgIjMuMTIifSB7CgkJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGZpbGVwYXRoLkpvaW4oZGF0YURpciwgImRlcHMiLCAicHl0aG9uIiwgdmVyc2lvbiwgImJpbiIpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigibWtkaXIgcHl0aG9uICVzIGRpcjogJXYiLCB2ZXJzaW9uLCBlcnIpCgkJfQoJfQoKCUNsZWFudXBNYW5hZ2VkUHl0aG9uQXJ0aWZhY3RzT25TdGFydHVwKCkKCglmb3IgXywgdmVyc2lvbiA6PSByYW5nZSBbXXN0cmluZ3siMy4xMCIsICIzLjExIn0gewoJCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oZGF0YURpciwgImRlcHMiLCAicHl0aG9uIiwgdmVyc2lvbikpOyAhb3MuSXNOb3RFeGlzdChlcnIpIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIHVuc3VwcG9ydGVkIHB5dGhvbiAlcyBkaXIgdG8gYmUgcmVtb3ZlZCwgc3RhdCBlcnI9JXYiLCB2ZXJzaW9uLCBlcnIpCgkJfQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoZmlsZXBhdGguSm9pbihkYXRhRGlyLCAiZGVwcyIsICJweXRob24iLCAiMy4xMiIpKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRlZmF1bHQgcHl0aG9uIDMuMTIgZGlyIHRvIGJlIGtlcHQ6ICV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RDbGVhbnVwTWFuYWdlZFB5dGhvbkFydGlmYWN0c09uU3RhcnR1cEtlZXBzQWxsUnVudGltZURpcnModCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJZGF0YURpciA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJkYXRhIikKCXQuU2V0ZW52KCJEQUlEQUlfUFlUSE9OX1JVTlRJTUVfTU9ERSIsICJhbGwiKQoKCWZvciBfLCB2ZXJzaW9uIDo9IHJhbmdlIFtdc3RyaW5neyIzLjEwIiwgIjMuMTEiLCAiMy4xMiJ9IHsKCQlpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguSm9pbihkYXRhRGlyLCAiZGVwcyIsICJweXRob24iLCB2ZXJzaW9uLCAiYmluIiksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJta2RpciBweXRob24gJXMgZGlyOiAldiIsIHZlcnNpb24sIGVycikKCQl9Cgl9CgoJQ2xlYW51cE1hbmFnZWRQeXRob25BcnRpZmFjdHNPblN0YXJ0dXAoKQoKCWZvciBfLCB2ZXJzaW9uIDo9IHJhbmdlIFtdc3RyaW5neyIzLjEwIiwgIjMuMTEiLCAiMy4xMiJ9IHsKCQlpZiBfLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5Kb2luKGRhdGFEaXIsICJkZXBzIiwgInB5dGhvbiIsIHZlcnNpb24pKTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBweXRob24gJXMgZGlyIHRvIGJlIGtlcHQgaW4gYWxsIGltYWdlOiAldiIsIHZlcnNpb24sIGVycikKCQl9Cgl9Cn0KCmZ1bmMgVGVzdEFwcGx5U2luZ2xlUHl0aG9uUnVudGltZVBvbGljeU9uU3RhcnR1cFJlc2V0c0RlZmF1bHRBbmRUYXNrcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJdC5TZXRlbnYoIkRBSURBSV9QWVRIT05fUlVOVElNRV9NT0RFIiwgInNpbmdsZSIpCgl0LlNldGVudigiREFJREFJX1BZVEhPTl9WRVJTSU9OIiwgIjMuMTIiKQoKCWlmIGVyciA6PSBtb2RlbC5TZXRDb25maWcoInB5dGhvbl9kZWZhdWx0X3ZlcnNpb24iLCAiMy4xMCIpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic2V0IG9sZCBkZWZhdWx0IHB5dGhvbiB2ZXJzaW9uOiAldiIsIGVycikKCX0KCXRhc2sgOj0gbW9kZWwuVGFza3sKCQlOYW1lOiAgICAgICAgICAgIm9sZCBweXRob24gdGFzayIsCgkJQ29tbWFuZDogICAgICAgICJ0YXNrLnB5IiwKCQlQeXRob25WZXJzaW9uOiAgIjMuMTAiLAoJCUNyb25FeHByZXNzaW9uOiAiMCAwICogKiAqIiwKCQlUYXNrVHlwZTogICAgICAgbW9kZWwuVGFza1R5cGVDcm9uLAoJCVN0YXR1czogICAgICAgICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJnRhc2spLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIG9sZCBweXRob24gdGFzazogJXYiLCBlcnIpCgl9CgoJQXBwbHlTaW5nbGVQeXRob25SdW50aW1lUG9saWN5T25TdGFydHVwKCkKCglpZiBnb3QgOj0gbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygicHl0aG9uX2RlZmF1bHRfdmVyc2lvbiIpOyBnb3QgIT0gIjMuMTIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVmYXVsdCBweXRob24gdmVyc2lvbiByZXNldCB0byAzLjEyLCBnb3QgJXEiLCBnb3QpCgl9Cgl2YXIgcmVsb2FkZWQgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZyZWxvYWRlZCwgdGFzay5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiByZWxvYWRlZC5QeXRob25WZXJzaW9uICE9ICIzLjEyIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRhc2sgcHl0aG9uIHZlcnNpb24gcmVzZXQgdG8gMy4xMiwgZ290ICVxIiwgcmVsb2FkZWQuUHl0aG9uVmVyc2lvbikKCX0KfQoKZnVuYyBUZXN0V2FybU1hbmFnZWRQeXRob25WZW52Q2xlYW5zQnJva2VuQmFja3Vwcyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWJyb2tlbkRpciA6PSBNYW5hZ2VkUHl0aG9uVmVudkRpcigiMy4xMiIpICsgIi5icm9rZW4tMjAyNjA2MDkxMjE4NDkiCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguSm9pbihicm9rZW5EaXIsICJiaW4iKSwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgYnJva2VuIHZlbnYgZGlyOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihicm9rZW5EaXIsICJiaW4iLCAicHl0aG9uMy4xMiIpLCBbXWJ5dGUoInN0dWIiKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgYnJva2VuIHZlbnYgc3R1YjogJXYiLCBlcnIpCgl9CgoJb3JpZ2luYWwgOj0gd2FybU1hbmFnZWRQeXRob25WZW52Rm9yVmVyc2lvbkZ1bmMKCXdhcm1NYW5hZ2VkUHl0aG9uVmVudkZvclZlcnNpb25GdW5jID0gZnVuYyh2ZXJzaW9uIHN0cmluZykge30KCXQuQ2xlYW51cChmdW5jKCkgewoJCXdhcm1NYW5hZ2VkUHl0aG9uVmVudkZvclZlcnNpb25GdW5jID0gb3JpZ2luYWwKCX0pCgoJV2FybU1hbmFnZWRQeXRob25WZW52KCkKCglpZiBfLCBlcnIgOj0gb3MuU3RhdChicm9rZW5EaXIpOyAhb3MuSXNOb3RFeGlzdChlcnIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgYnJva2VuIHZlbnYgYmFja3VwIHRvIGJlIGNsZWFuZWQsIHN0YXQgZXJyPSV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RDbGVhbnVwTWFuYWdlZFB5dGhvbkFydGlmYWN0c09uU3RhcnR1cERvZXNOb3RXYXJtQW55VmVyc2lvbih0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWNhbGxlZCA6PSBmYWxzZQoJb3JpZ2luYWxXYXJtIDo9IHdhcm1NYW5hZ2VkUHl0aG9uVmVudkZvclZlcnNpb25GdW5jCgl3YXJtTWFuYWdlZFB5dGhvblZlbnZGb3JWZXJzaW9uRnVuYyA9IGZ1bmModmVyc2lvbiBzdHJpbmcpIHsKCQljYWxsZWQgPSB0cnVlCgl9Cgl0LkNsZWFudXAoZnVuYygpIHsKCQl3YXJtTWFuYWdlZFB5dGhvblZlbnZGb3JWZXJzaW9uRnVuYyA9IG9yaWdpbmFsV2FybQoJfSkKCglDbGVhbnVwTWFuYWdlZFB5dGhvbkFydGlmYWN0c09uU3RhcnR1cCgpCgoJaWYgY2FsbGVkIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBzdGFydHVwIGNsZWFudXAgdG8gYXZvaWQgZWFnZXIgcHl0aG9uIHZlbnYgd2FybS11cCIpCgl9Cn0KCmZ1bmMgVGVzdEJ1aWxkTWFuYWdlZFB5dGhvblBhdGhQcmlvcml0aXplc1dvcmtEaXJBbmRTY3JpcHRzRGlyKHQgKnRlc3RpbmcuVCkgewoJZ290IDo9IGJ1aWxkTWFuYWdlZFB5dGhvblBhdGgoCgkJZmlsZXBhdGguQ2xlYW4oIi9jdXN0b20vcHl0aG9ucGF0aCIpLAoJCWZpbGVwYXRoLkNsZWFuKCIvd29yay9zY3JpcHRzL3N1YmRpciIpLAoJCWZpbGVwYXRoLkNsZWFuKCIvd29yay9zY3JpcHRzIiksCgkJZmlsZXBhdGguQ2xlYW4oIi9kZXBzL3B5dGhvbi92ZW52L2xpYi9weXRob24zLjExL3NpdGUtcGFja2FnZXMiKSwKCSkKCglwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0KGdvdCwgc3RyaW5nKG9zLlBhdGhMaXN0U2VwYXJhdG9yKSkKCXdhbnQgOj0gW11zdHJpbmd7CgkJZmlsZXBhdGguQ2xlYW4oIi93b3JrL3NjcmlwdHMvc3ViZGlyIiksCgkJZmlsZXBhdGguQ2xlYW4oIi93b3JrL3NjcmlwdHMiKSwKCQlmaWxlcGF0aC5DbGVhbigiL2N1c3RvbS9weXRob25wYXRoIiksCgkJZmlsZXBhdGguQ2xlYW4oIi9kZXBzL3B5dGhvbi92ZW52L2xpYi9weXRob24zLjExL3NpdGUtcGFja2FnZXMiKSwKCX0KCglpZiBsZW4ocGFydHMpICE9IGxlbih3YW50KSB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgcHl0aG9uIHBhdGggcGFydHM6IGdvdD0ldiB3YW50PSV2IiwgcGFydHMsIHdhbnQpCgl9Cglmb3IgaWR4LCBleHBlY3RlZCA6PSByYW5nZSB3YW50IHsKCQlpZiBwYXJ0c1tpZHhdICE9IGV4cGVjdGVkIHsKCQkJdC5GYXRhbGYoInB5dGhvbiBwYXRoIG9yZGVyIG1pc21hdGNoIGF0ICVkOiBnb3Q9JXEgd2FudD0lcSAoYWxsPSV2KSIsIGlkeCwgcGFydHNbaWR4XSwgZXhwZWN0ZWQsIHBhcnRzKQoJCX0KCX0KfQoKZnVuYyBUZXN0TWlncmF0ZUxlZ2FjeU1hbmFnZWRQeXRob25WZW52VXNlc0RldGVjdGVkVmVyc2lvbih0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglkYXRhRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgImRhdGEiKQoJbGVnYWN5RGlyIDo9IGZpbGVwYXRoLkpvaW4oZGF0YURpciwgImRlcHMiLCAicHl0aG9uIiwgInZlbnYiKQoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCByZXNvbHZlTWFuYWdlZFZlbnZCaW4obGVnYWN5RGlyKSwgInB5dGhvbiIsIFtdc3RyaW5neyJlY2hvIDMuMTEifSkKCXdyaXRlRmFrZUV4ZWN1dGFibGUodCwgcmVzb2x2ZU1hbmFnZWRWZW52QmluKGxlZ2FjeURpciksICJwaXAzIiwgW11zdHJpbmd7ImVjaG8gcGlwIDI0LjAgZnJvbSB0ZXN0In0pCgoJdmVyc2lvbiA6PSBNaWdyYXRlTGVnYWN5TWFuYWdlZFB5dGhvblZlbnYoKQoJaWYgdmVyc2lvbiAhPSAiMy4xMSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsZWdhY3kgdmVudiB0byBiZSBkZXRlY3RlZCBhcyAzLjExLCBnb3QgJXEiLCB2ZXJzaW9uKQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoZmlsZXBhdGguSm9pbihkYXRhRGlyLCAiZGVwcyIsICJweXRob24iLCAiMy4xMSIpKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGxlZ2FjeSB2ZW52IHRvIG1vdmUgdG8gMy4xMTogJXYiLCBlcnIpCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdChsZWdhY3lEaXIpOyAhb3MuSXNOb3RFeGlzdChlcnIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbGVnYWN5IHZlbnYgcGF0aCB0byBiZSByZW1vdmVkLCBlcnI9JXYiLCBlcnIpCgl9Cn0KCmZ1bmMgVGVzdE1pZ3JhdGVMZWdhY3lNYW5hZ2VkUHl0aG9uVmVudkZsYXR0ZW5zVmVyc2lvbmVkTmVzdGVkVmVudih0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglkYXRhRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgImRhdGEiKQoJbmVzdGVkRGlyIDo9IGZpbGVwYXRoLkpvaW4oZGF0YURpciwgImRlcHMiLCAicHl0aG9uIiwgIjMuMTAiLCAidmVudiIpCgl3cml0ZUZha2VFeGVjdXRhYmxlKHQsIHJlc29sdmVNYW5hZ2VkVmVudkJpbihuZXN0ZWREaXIpLCAicHl0aG9uIiwgW11zdHJpbmd7ImVjaG8gMy4xMCJ9KQoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCByZXNvbHZlTWFuYWdlZFZlbnZCaW4obmVzdGVkRGlyKSwgInBpcDMiLCBbXXN0cmluZ3siZWNobyBwaXAgMjQuMCBmcm9tIHRlc3QifSkKCglNaWdyYXRlTGVnYWN5TWFuYWdlZFB5dGhvblZlbnYoKQoKCWZsYXREaXIgOj0gZmlsZXBhdGguSm9pbihkYXRhRGlyLCAiZGVwcyIsICJweXRob24iLCAiMy4xMCIpCglpZiBfLCBlcnIgOj0gb3MuU3RhdChyZXNvbHZlTWFuYWdlZFZlbnZCaW4oZmxhdERpcikpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbmVzdGVkIDMuMTAgdmVudiB0byBiZSBmbGF0dGVuZWQ6ICV2IiwgZXJyKQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQobmVzdGVkRGlyKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5lc3RlZCB2ZW52IHBhdGggdG8gYmUgcmVtb3ZlZCwgZXJyPSV2IiwgZXJyKQoJfQp9CgpmdW5jIFRlc3RGaW5kVmVudlNpdGVQYWNrYWdlc1N1cHBvcnRzV2luZG93c0xheW91dCh0ICp0ZXN0aW5nLlQpIHsKCXZlbnZEaXIgOj0gZmlsZXBhdGguSm9pbih0LlRlbXBEaXIoKSwgInZlbnYiKQoJc2l0ZVBhY2thZ2VzIDo9IGZpbGVwYXRoLkpvaW4odmVudkRpciwgIkxpYiIsICJzaXRlLXBhY2thZ2VzIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChzaXRlUGFja2FnZXMsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIHNpdGUtcGFja2FnZXM6ICV2IiwgZXJyKQoJfQoKCWlmIGdvdCA6PSBmaW5kVmVudlNpdGVQYWNrYWdlcyh2ZW52RGlyKTsgZ290ICE9IHNpdGVQYWNrYWdlcyB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHdpbmRvd3Mgc2l0ZS1wYWNrYWdlcyBwYXRoICVxLCBnb3QgJXEiLCBzaXRlUGFja2FnZXMsIGdvdCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZU1hbmFnZWRWZW52QmluVXNlc0V4aXN0aW5nU2NyaXB0c0Rpcih0ICp0ZXN0aW5nLlQpIHsKCXZlbnZEaXIgOj0gZmlsZXBhdGguSm9pbih0LlRlbXBEaXIoKSwgInZlbnYiKQoJc2NyaXB0c0RpciA6PSBmaWxlcGF0aC5Kb2luKHZlbnZEaXIsICJTY3JpcHRzIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChzY3JpcHRzRGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciBzY3JpcHRzIGRpcjogJXYiLCBlcnIpCgl9CgoJaWYgZ290IDo9IHJlc29sdmVNYW5hZ2VkVmVudkJpbih2ZW52RGlyKTsgZ290ICE9IHNjcmlwdHNEaXIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBTY3JpcHRzIGRpciAlcSwgZ290ICVxIiwgc2NyaXB0c0RpciwgZ290KQoJfQp9CgpmdW5jIFRlc3RNYW5hZ2VkUHl0aG9uVmVudkhlYWx0aHlSZWplY3RzQnJva2VuUGlwKHQgKnRlc3RpbmcuVCkgewoJdmVudkRpciA6PSBmaWxlcGF0aC5Kb2luKHQuVGVtcERpcigpLCAidmVudiIpCgl2ZW52QmluIDo9IHJlc29sdmVNYW5hZ2VkVmVudkJpbih2ZW52RGlyKQoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCB2ZW52QmluLCAicHl0aG9uIiwgW11zdHJpbmd7ImV4aXQgMCJ9KQoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCB2ZW52QmluLCAicGlwMyIsIFtdc3RyaW5neyJlY2hvIE1vZHVsZU5vdEZvdW5kRXJyb3I6IE5vIG1vZHVsZSBuYW1lZCAncGlwJyAxPiYyIiwgImV4aXQgMSJ9KQoKCWlmIG1hbmFnZWRQeXRob25WZW52SGVhbHRoeSh2ZW52RGlyKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgdmVudiB3aXRoIGJyb2tlbiBwaXAgbW9kdWxlIHRvIGJlIHVuaGVhbHRoeSIpCgl9Cn0KCmZ1bmMgVGVzdE1hbmFnZWRQeXRob25WZW52SGVhbHRoeUFjY2VwdHNXb3JraW5nUGlwKHQgKnRlc3RpbmcuVCkgewoJdmVudkRpciA6PSBmaWxlcGF0aC5Kb2luKHQuVGVtcERpcigpLCAidmVudiIpCgl2ZW52QmluIDo9IHJlc29sdmVNYW5hZ2VkVmVudkJpbih2ZW52RGlyKQoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCB2ZW52QmluLCAicHl0aG9uIiwgW11zdHJpbmd7ImV4aXQgMCJ9KQoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCB2ZW52QmluLCAicGlwMyIsIFtdc3RyaW5neyJlY2hvIHBpcCAyNC4wIGZyb20gdGVzdCIsICJleGl0IDAifSkKCglpZiAhbWFuYWdlZFB5dGhvblZlbnZIZWFsdGh5KHZlbnZEaXIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCB2ZW52IHdpdGggd29ya2luZyBwaXAgLS12ZXJzaW9uIHRvIGJlIGhlYWx0aHkiKQoJfQp9CgpmdW5jIHdyaXRlRmFrZUV4ZWN1dGFibGUodCAqdGVzdGluZy5ULCBkaXIsIG5hbWUgc3RyaW5nLCBsaW5lcyBbXXN0cmluZykgc3RyaW5nIHsKCXQuSGVscGVyKCkKCWlmIGVyciA6PSBvcy5Na2RpckFsbChkaXIsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIGZha2UgZXhlY3V0YWJsZSBkaXI6ICV2IiwgZXJyKQoJfQoKCXBhdGggOj0gZmlsZXBhdGguSm9pbihkaXIsIG5hbWUpCgljb250ZW50IDo9ICIjIS9iaW4vc2hcbiIgKyBzdHJpbmdzLkpvaW4obGluZXMsICJcbiIpICsgIlxuIgoJaWYgcnVudGltZS5HT09TID09ICJ3aW5kb3dzIiB7CgkJcGF0aCArPSAiLmNtZCIKCQljb250ZW50ID0gIkBlY2hvIG9mZlxyXG4iICsgc3RyaW5ncy5Kb2luKGxpbmVzLCAiXHJcbiIpICsgIlxyXG4iCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHBhdGgsIFtdYnl0ZShjb250ZW50KSwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgZmFrZSBleGVjdXRhYmxlOiAldiIsIGVycikKCX0KCXJldHVybiBwYXRoCn0KZnVuYyBUZXN0UmVzb2x2ZU1hbmFnZWRCaW5hcnlQcmVmZXJzUmVhbFdpbmRvd3NQeXRob25JbnN0YWxsT3ZlcldpbmRvd3NBcHBzUHJveHkodCAqdGVzdGluZy5UKSB7CglpZiBydW50aW1lLkdPT1MgIT0gIndpbmRvd3MiIHsKCQl0LlNraXAoIndpbmRvd3Mtb25seSByZXNvbHV0aW9uIGJlaGF2aW9yIikKCX0KCglyb290IDo9IHQuVGVtcERpcigpCgl3aW5kb3dzQXBwc0RpciA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJXaW5kb3dzQXBwcyIpCglyZWFsUHl0aG9uRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgIlByb2dyYW1zIiwgIlB5dGhvbiIsICJQeXRob24zMTQiKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKHdpbmRvd3NBcHBzRGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciB3aW5kb3dzIGFwcHMgZGlyOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Na2RpckFsbChyZWFsUHl0aG9uRGlyLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciByZWFsIHB5dGhvbiBkaXI6ICV2IiwgZXJyKQoJfQoKCXdpbmRvd3NBcHBzUHl0aG9uIDo9IGZpbGVwYXRoLkpvaW4od2luZG93c0FwcHNEaXIsICJweXRob24uZXhlIikKCXJlYWxQeXRob24gOj0gZmlsZXBhdGguSm9pbihyZWFsUHl0aG9uRGlyLCAicHl0aG9uLmV4ZSIpCglmb3IgXywgcGF0aCA6PSByYW5nZSBbXXN0cmluZ3t3aW5kb3dzQXBwc1B5dGhvbiwgcmVhbFB5dGhvbn0gewoJCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUocGF0aCwgW11ieXRlKCJzdHViIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJ3cml0ZSBzdHViIGJpbmFyeSAlczogJXYiLCBwYXRoLCBlcnIpCgkJfQoJfQoKCWdvdCwgZXJyIDo9IHJlc29sdmVNYW5hZ2VkQmluYXJ5KCJweXRob24iLCBbXXN0cmluZ3tyZWFsUHl0aG9uRGlyfSwgW11zdHJpbmd7d2luZG93c0FwcHNEaXJ9KQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlc29sdmUgbWFuYWdlZCBiaW5hcnk6ICV2IiwgZXJyKQoJfQoJaWYgZ290ICE9IHJlYWxQeXRob24gewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZWFsIHB5dGhvbiAlcSwgZ290ICVxIiwgcmVhbFB5dGhvbiwgZ290KQoJfQp9CgovLyBUZXN0UHl0aG9uQm9vdHN0cmFwSGFzTm9QcmVDaGVja0F1dG9JbnN0YWxsIOWuiOWNq++8mgovLyBQeXRob24gYm9vdHN0cmFwIOW/hemhu+S/neaMgSLnuq/ot5HohJrmnKwi6K+t5LmJ77yM5LiN5YGa5Lu75L2V5Z+65LqOIGltcG9ydGxpYi5maW5kX3NwZWMg5oiWCi8vIEFTVCDmiasgaW1wb3J0IOeahOmihOajgOiHquWKqOWuieijheOAguWOhuWPsuS4iui/meWll+mihOajgOabvuWvvOiHtCBweXNteCDnrYnlt7Loo4Xlpb3nmoTljIXooqvlj43lpI0KLy8g5Yik5a6a57y65aSx5bm25b6q546v6Kem5Y+RIHBpcCBpbnN0YWxs77yIdjIuMC43IOS4pOasoeWwneivleS/riBmaW5kX3NwZWMg5Z2H5pyq5qC55rK777yJ44CCCi8vIOecn+Wunue8uuWkseeahOS+nei1lueUsSBHbyDkvqcgdGFza19leGVjdXRvci5kZXRlY3RBbmRJbnN0YWxsRGVwcyDlhZzlupXlpITnkIbvvIwKLy8g5a6D5Zyo6ISa5pys55yf5a6e5oqb5Ye6IE1vZHVsZU5vdEZvdW5kRXJyb3Ig5pe25YaNIHBpcCBpbnN0YWxsICsg6Ieq5Yqo6YeN6LeR77yM5pu057K+5YeG44CCCmZ1bmMgVGVzdFB5dGhvbkJvb3RzdHJhcEhhc05vUHJlQ2hlY2tBdXRvSW5zdGFsbCh0ICp0ZXN0aW5nLlQpIHsKCWZvcmJpZGRlbiA6PSBbXXN0cnVjdCB7CgkJbmFtZSBzdHJpbmcKCQl0ZXh0IHN0cmluZwoJfXsKCQl7IkFTVCBpbXBvcnQgc2NhbiIsICJfZGRfc2Nhbl9pbXBvcnRzIn0sCgkJeyJmaW5kX3NwZWMgcHJlLWNoZWNrIiwgImZpbmRfc3BlYyJ9LAoJCXsiaW1wb3J0bGliLm1ldGFkYXRhIGZhbGxiYWNrIiwgInBhY2thZ2VzX2Rpc3RyaWJ1dGlvbnMifSwKCQl7ImRpc2sgc2NhbiBmYWxsYmFjayIsICJfZGRfbW9kdWxlX2F2YWlsYWJsZV9vbl9kaXNrIn0sCgkJeyJwaXAgaW5zdGFsbCBzdWJwcm9jZXNzIiwgIl9kZF9pbnN0YWxsX3BhY2thZ2UifSwKCQl7ImF1dG8gaW5zdGFsbCBzd2l0Y2giLCAiRERfQVVUT19JTlNUQUxMX0RFUFMifSwKCQl7ImFsaWFzIGVudiIsICJERF9QWV9BVVRPX0lOU1RBTExfQUxJQVNFUyJ9LAoJCXsibWlzc2luZyBkZXAgYmFubmVyIiwgIuajgOa1i+WIsOe8uuWkseS+nei1liJ9LAoJfQoJZm9yIF8sIG0gOj0gcmFuZ2UgZm9yYmlkZGVuIHsKCQlpZiBzdHJpbmdzLkNvbnRhaW5zKHB5dGhvbkVudkJvb3RzdHJhcCwgbS50ZXh0KSB7CgkJCXQuRmF0YWxmKCJweXRob25FbnZCb290c3RyYXAgbXVzdCBub3QgY29udGFpbiAlcyBtYXJrZXIgJXEgKOmihOajgOmTvui3r+W3suenu+mZpO+8jOaUueeUsSBHbyDkvqflkI7nva7lhZzlupUpIiwgbS5uYW1lLCBtLnRleHQpCgkJfQoJfQp9CgpmdW5jIFRlc3REZWZhdWx0UHl0aG9uVmVyc2lvbkZhbGxzQmFja1RvQWN0aXZlU3lzdGVtUHl0aG9uT25NYWdpc2tSdW50aW1lKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdC5TZXRlbnYoIkRBSURBSV9NQUdJU0tfTU9EVUxFIiwgIjEiKQoJdC5TZXRlbnYoIlBBVEgiLCB0LlRlbXBEaXIoKStzdHJpbmcob3MuUGF0aExpc3RTZXBhcmF0b3IpK29zLkdldGVudigiUEFUSCIpKQoKCWZha2VEaXIgOj0gc3RyaW5ncy5TcGxpdChvcy5HZXRlbnYoIlBBVEgiKSwgc3RyaW5nKG9zLlBhdGhMaXN0U2VwYXJhdG9yKSlbMF0KCS8vIOaWsOeJiOWbnumAgOaOoua1i+i1sCBgPGJpbmFyeT4gLS12ZXJzaW9uYO+8iGRpc2NvdmVyU3lzdGVtUHl0aG9uRm9yVmVyc2lvbu+8ie+8jAoJLy8g5YGHIHB5dGhvbjMg6ZyA5oyJ55yf5a6eIGAtLXZlcnNpb25gIOi+k+WHuuagvOW8j++8iCJQeXRob24gMy4xMS40Iu+8ieWTjeW6lOaJjeiDveiiq+ivhuWIq+OAggoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCBmYWtlRGlyLCAicHl0aG9uMyIsIFtdc3RyaW5neyJlY2hvIFB5dGhvbiAzLjExLjQifSkKCglpZiBnb3QgOj0gRGVmYXVsdFB5dGhvblZlcnNpb24oKTsgZ290ICE9ICIzLjExIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIE1hZ2lzayBydW50aW1lIGRlZmF1bHQgcHl0aG9uIHZlcnNpb24gdG8gZm9sbG93IGFjdGl2ZSBweXRob24zPTMuMTEsIGdvdCAlcSIsIGdvdCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZVB5dGhvblZlcnNpb25Gcm9tRW52RmFsbHNCYWNrVG9BY3RpdmVTeXN0ZW1QeXRob25Pbk1hZ2lza1J1bnRpbWUodCAqdGVzdGluZy5UKSB7Cgl0ZXN0dXRpbC5TZXR1cFRlc3RFbnYodCkKCgl0LlNldGVudigiREFJREFJX01BR0lTS19NT0RVTEUiLCAiMSIpCgl0LlNldGVudigiUEFUSCIsIHQuVGVtcERpcigpK3N0cmluZyhvcy5QYXRoTGlzdFNlcGFyYXRvcikrb3MuR2V0ZW52KCJQQVRIIikpCgoJZmFrZURpciA6PSBzdHJpbmdzLlNwbGl0KG9zLkdldGVudigiUEFUSCIpLCBzdHJpbmcob3MuUGF0aExpc3RTZXBhcmF0b3IpKVswXQoJLy8g5ZCM5LiK77ya5YGHIHB5dGhvbjMg5oyJ55yf5a6eIGAtLXZlcnNpb25gIOi+k+WHuuagvOW8j+WTjeW6lO+8jOS+m+aWsOeJiOaOoua1i+ivhuWIq+OAggoJd3JpdGVGYWtlRXhlY3V0YWJsZSh0LCBmYWtlRGlyLCAicHl0aG9uMyIsIFtdc3RyaW5neyJlY2hvIFB5dGhvbiAzLjExLjQifSkKCgllbnZNYXAgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIkRBSURBSV9QWVRIT05fVkVSU0lPTiI6ICIzLjEyIiwKCX0KCWlmIGdvdCA6PSBSZXNvbHZlUHl0aG9uVmVyc2lvbkZyb21FbnYoZW52TWFwKTsgZ290ICE9ICIzLjExIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIE1hZ2lzayBydW50aW1lIHB5dGhvbiB2ZXJzaW9uIHRvIGZhbGwgYmFjayBmcm9tIDMuMTIgdG8gYWN0aXZlIHB5dGhvbjM9My4xMSwgZ290ICVxIiwgZ290KQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"os/exec"
+	"path/filepath"
+	"runtime"
+	"strings"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+// TestBuildManagedRuntimeEnvMapDoesNotWritePythonPreCheckEnv 守卫：
+// Python 预检自动安装链路已移除，不应再向任务环境写入这些已废弃的 env 键。
+// 若将来有人把预检加回来，这个测试会立刻失败，提醒同时把 pysmx 漏判问题重新评估。
+func TestBuildManagedRuntimeEnvMapDoesNotWritePythonPreCheckEnv(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	envMap, err := BuildManagedRuntimeEnvMap(root, root, nil, time.Hour)
+	if err != nil {
+		t.Fatalf("build managed runtime env map: %v", err)
+	}
+
+	for _, key := range []string{"DD_AUTO_INSTALL_DEPS", "DD_PY_AUTO_INSTALL_ALIASES"} {
+		if got, exists := envMap[key]; exists {
+			t.Fatalf("expected %s to be absent, got %q", key, got)
+		}
+	}
+}
+
+func TestBuildManagedRuntimeEnvMapUsesRequestedPythonVersion(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+
+	envMap, err := BuildManagedRuntimeEnvMapForPythonVersion(root, root, nil, time.Hour, "3.10")
+	if err != nil {
+		t.Fatalf("build managed runtime env map: %v", err)
+	}
+	if envMap["DAIDAI_PYTHON_VERSION"] != "3.10" {
+		t.Fatalf("expected DAIDAI_PYTHON_VERSION=3.10, got %q", envMap["DAIDAI_PYTHON_VERSION"])
+	}
+	expectedVenvBin := resolveManagedVenvBin(ManagedPythonVenvDir("3.10"))
+	if !strings.Contains(envMap["PATH"], expectedVenvBin) {
+		t.Fatalf("expected PATH to contain python 3.10 venv bin %q, got %q", expectedVenvBin, envMap["PATH"])
+	}
+}
+
+func TestNodePreloadKeepsGithubEnvReadableButHiddenFromStringify(t *testing.T) {
+	nodeBin, err := exec.LookPath("node")
+	if err != nil {
+		t.Skip("node not found")
+	}
+
+	tempDir := t.TempDir()
+	envFile := filepath.Join(tempDir, "env.json")
+	// 回归 hex-ci/smzdm_script：它会用 JSON.stringify(process.env) 检测 GITHUB，
+	// 但脚本显式读取 process.env.GITHUB_ACTIONS 时仍应该拿到真实值。
+	envJSON := `{"GITHUB_ACTIONS":"1","SMZDM_COOKIE":"cookie"}`
+	if err := os.WriteFile(envFile, []byte(envJSON), 0o600); err != nil {
+		t.Fatalf("write env file: %v", err)
+	}
+	preloadFile, err := writeNodePreloadScript(tempDir, envFile, map[string]string{})
+	if err != nil {
+		t.Fatalf("write node preload: %v", err)
+	}
+
+	scriptFile := filepath.Join(tempDir, "target.js")
+	script := `
+if (JSON.stringify(process.env).indexOf("GITHUB") > -1) process.exit(7);
+if (process.env.GITHUB_ACTIONS !== "1") process.exit(8);
+if (process.env.SMZDM_COOKIE !== "cookie") process.exit(9);
+console.log("ok");
+`
+	if err := os.WriteFile(scriptFile, []byte(script), 0o600); err != nil {
+		t.Fatalf("write target script: %v", err)
+	}
+
+	cmd := exec.Command(nodeBin, "--require", preloadFile, scriptFile)
+	out, err := cmd.CombinedOutput()
+	if err != nil {
+		t.Fatalf("node script failed: %v, output=%s", err, string(out))
+	}
+	if !strings.Contains(string(out), "ok") {
+		t.Fatalf("expected ok output, got %q", string(out))
+	}
+}
+
+func TestManagedPythonVenvDirUsesFlatVersionedPaths(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	dataDir := filepath.Join(root, "data")
+
+	if got := ManagedPythonVenvDir("3.12"); got != filepath.Join(dataDir, "deps", "python", "3.12") {
+		t.Fatalf("expected flat 3.12 venv path, got %q", got)
+	}
+	if got := ManagedPythonVenvDir("3.10"); got != filepath.Join(dataDir, "deps", "python", "3.10") {
+		t.Fatalf("expected flat 3.10 venv path, got %q", got)
+	}
+}
+
+func TestWarmManagedPythonVenvWarmsAllSupportedVersions(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	var warmed []string
+	original := warmManagedPythonVenvForVersionFunc
+	originalCleanup := cleanupBrokenManagedPythonVenvsFunc
+	warmManagedPythonVenvForVersionFunc = func(version string) {
+		warmed = append(warmed, version)
+	}
+	cleanupBrokenManagedPythonVenvsFunc = func() {}
+	t.Cleanup(func() {
+		warmManagedPythonVenvForVersionFunc = original
+		cleanupBrokenManagedPythonVenvsFunc = originalCleanup
+	})
+
+	if err := model.SetConfig("python_default_version", "3.11"); err != nil {
+		t.Fatalf("set default python version: %v", err)
+	}
+	for _, version := range []string{"3.10", "3.12"} {
+		if err := os.MkdirAll(resolveManagedVenvBin(ManagedPythonVenvDir(version)), 0o755); err != nil {
+			t.Fatalf("mkdir versioned venv %s: %v", version, err)
+		}
+	}
+
+	WarmManagedPythonVenv()
+
+	want := []string{"3.11", "3.10", "3.12"}
+	if len(warmed) != len(want) {
+		t.Fatalf("expected warmed versions %v, got %v", want, warmed)
+	}
+	for idx, version := range want {
+		if warmed[idx] != version {
+			t.Fatalf("expected warmed versions %v, got %v", want, warmed)
+		}
+	}
+}
+
+func TestSupportedPythonVersionsHonorsSingleRuntimeVariant(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	t.Setenv("DAIDAI_PYTHON_RUNTIME_MODE", "single")
+	t.Setenv("DAIDAI_PYTHON_VERSION", "3.11")
+
+	versions := SupportedPythonVersions()
+	if len(versions) != 1 || versions[0] != "3.11" {
+		t.Fatalf("expected only Python 3.11 in single runtime image, got %v", versions)
+	}
+	if got := DefaultPythonVersion(); got != "3.11" {
+		t.Fatalf("expected default python version to follow single image version 3.11, got %q", got)
+	}
+
+	// 单版本镜像的运行时接口也只能暴露当前小版本，前端任务表单会直接使用这个列表生成选项。
+	infos := PythonRuntimeInfos()
+	if len(infos) != 1 || infos[0].Version != "3.11" {
+		t.Fatalf("expected runtime infos only for Python 3.11 in single image, got %+v", infos)
+	}
+}
+
+func TestCleanupManagedPythonArtifactsOnStartupRemovesUnsupportedSingleRuntimeDirs(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	dataDir := filepath.Join(root, "data")
+	t.Setenv("DAIDAI_PYTHON_RUNTIME_MODE", "single")
+	t.Setenv("DAIDAI_PYTHON_VERSION", "3.12")
+
+	for _, version := range []string{"3.10", "3.11", "3.12"} {
+		if err := os.MkdirAll(filepath.Join(dataDir, "deps", "python", version, "bin"), 0o755); err != nil {
+			t.Fatalf("mkdir python %s dir: %v", version, err)
+		}
+	}
+
+	CleanupManagedPythonArtifactsOnStartup()
+
+	for _, version := range []string{"3.10", "3.11"} {
+		if _, err := os.Stat(filepath.Join(dataDir, "deps", "python", version)); !os.IsNotExist(err) {
+			t.Fatalf("expected unsupported python %s dir to be removed, stat err=%v", version, err)
+		}
+	}
+	if _, err := os.Stat(filepath.Join(dataDir, "deps", "python", "3.12")); err != nil {
+		t.Fatalf("expected default python 3.12 dir to be kept: %v", err)
+	}
+}
+
+func TestCleanupManagedPythonArtifactsOnStartupKeepsAllRuntimeDirs(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	dataDir := filepath.Join(root, "data")
+	t.Setenv("DAIDAI_PYTHON_RUNTIME_MODE", "all")
+
+	for _, version := range []string{"3.10", "3.11", "3.12"} {
+		if err := os.MkdirAll(filepath.Join(dataDir, "deps", "python", version, "bin"), 0o755); err != nil {
+			t.Fatalf("mkdir python %s dir: %v", version, err)
+		}
+	}
+
+	CleanupManagedPythonArtifactsOnStartup()
+
+	for _, version := range []string{"3.10", "3.11", "3.12"} {
+		if _, err := os.Stat(filepath.Join(dataDir, "deps", "python", version)); err != nil {
+			t.Fatalf("expected python %s dir to be kept in all image: %v", version, err)
+		}
+	}
+}
+
+func TestApplySinglePythonRuntimePolicyOnStartupResetsDefaultAndTasks(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	t.Setenv("DAIDAI_PYTHON_RUNTIME_MODE", "single")
+	t.Setenv("DAIDAI_PYTHON_VERSION", "3.12")
+
+	if err := model.SetConfig("python_default_version", "3.10"); err != nil {
+		t.Fatalf("set old default python version: %v", err)
+	}
+	task := model.Task{
+		Name:           "old python task",
+		Command:        "task.py",
+		PythonVersion:  "3.10",
+		CronExpression: "0 0 * * *",
+		TaskType:       model.TaskTypeCron,
+		Status:         model.TaskStatusEnabled,
+	}
+	if err := database.DB.Create(&task).Error; err != nil {
+		t.Fatalf("create old python task: %v", err)
+	}
+
+	ApplySinglePythonRuntimePolicyOnStartup()
+
+	if got := model.GetRegisteredConfig("python_default_version"); got != "3.12" {
+		t.Fatalf("expected default python version reset to 3.12, got %q", got)
+	}
+	var reloaded model.Task
+	if err := database.DB.First(&reloaded, task.ID).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if reloaded.PythonVersion != "3.12" {
+		t.Fatalf("expected task python version reset to 3.12, got %q", reloaded.PythonVersion)
+	}
+}
+
+func TestWarmManagedPythonVenvCleansBrokenBackups(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	brokenDir := ManagedPythonVenvDir("3.12") + ".broken-20260609121849"
+	if err := os.MkdirAll(filepath.Join(brokenDir, "bin"), 0o755); err != nil {
+		t.Fatalf("mkdir broken venv dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(brokenDir, "bin", "python3.12"), []byte("stub"), 0o644); err != nil {
+		t.Fatalf("write broken venv stub: %v", err)
+	}
+
+	original := warmManagedPythonVenvForVersionFunc
+	warmManagedPythonVenvForVersionFunc = func(version string) {}
+	t.Cleanup(func() {
+		warmManagedPythonVenvForVersionFunc = original
+	})
+
+	WarmManagedPythonVenv()
+
+	if _, err := os.Stat(brokenDir); !os.IsNotExist(err) {
+		t.Fatalf("expected broken venv backup to be cleaned, stat err=%v", err)
+	}
+}
+
+func TestCleanupManagedPythonArtifactsOnStartupDoesNotWarmAnyVersion(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	called := false
+	originalWarm := warmManagedPythonVenvForVersionFunc
+	warmManagedPythonVenvForVersionFunc = func(version string) {
+		called = true
+	}
+	t.Cleanup(func() {
+		warmManagedPythonVenvForVersionFunc = originalWarm
+	})
+
+	CleanupManagedPythonArtifactsOnStartup()
+
+	if called {
+		t.Fatal("expected startup cleanup to avoid eager python venv warm-up")
+	}
+}
+
+func TestBuildManagedPythonPathPrioritizesWorkDirAndScriptsDir(t *testing.T) {
+	got := buildManagedPythonPath(
+		filepath.Clean("/custom/pythonpath"),
+		filepath.Clean("/work/scripts/subdir"),
+		filepath.Clean("/work/scripts"),
+		filepath.Clean("/deps/python/venv/lib/python3.11/site-packages"),
+	)
+
+	parts := strings.Split(got, string(os.PathListSeparator))
+	want := []string{
+		filepath.Clean("/work/scripts/subdir"),
+		filepath.Clean("/work/scripts"),
+		filepath.Clean("/custom/pythonpath"),
+		filepath.Clean("/deps/python/venv/lib/python3.11/site-packages"),
+	}
+
+	if len(parts) != len(want) {
+		t.Fatalf("unexpected python path parts: got=%v want=%v", parts, want)
+	}
+	for idx, expected := range want {
+		if parts[idx] != expected {
+			t.Fatalf("python path order mismatch at %d: got=%q want=%q (all=%v)", idx, parts[idx], expected, parts)
+		}
+	}
+}
+
+func TestMigrateLegacyManagedPythonVenvUsesDetectedVersion(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	dataDir := filepath.Join(root, "data")
+	legacyDir := filepath.Join(dataDir, "deps", "python", "venv")
+	writeFakeExecutable(t, resolveManagedVenvBin(legacyDir), "python", []string{"echo 3.11"})
+	writeFakeExecutable(t, resolveManagedVenvBin(legacyDir), "pip3", []string{"echo pip 24.0 from test"})
+
+	version := MigrateLegacyManagedPythonVenv()
+	if version != "3.11" {
+		t.Fatalf("expected legacy venv to be detected as 3.11, got %q", version)
+	}
+	if _, err := os.Stat(filepath.Join(dataDir, "deps", "python", "3.11")); err != nil {
+		t.Fatalf("expected legacy venv to move to 3.11: %v", err)
+	}
+	if _, err := os.Stat(legacyDir); !os.IsNotExist(err) {
+		t.Fatalf("expected legacy venv path to be removed, err=%v", err)
+	}
+}
+
+func TestMigrateLegacyManagedPythonVenvFlattensVersionedNestedVenv(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	dataDir := filepath.Join(root, "data")
+	nestedDir := filepath.Join(dataDir, "deps", "python", "3.10", "venv")
+	writeFakeExecutable(t, resolveManagedVenvBin(nestedDir), "python", []string{"echo 3.10"})
+	writeFakeExecutable(t, resolveManagedVenvBin(nestedDir), "pip3", []string{"echo pip 24.0 from test"})
+
+	MigrateLegacyManagedPythonVenv()
+
+	flatDir := filepath.Join(dataDir, "deps", "python", "3.10")
+	if _, err := os.Stat(resolveManagedVenvBin(flatDir)); err != nil {
+		t.Fatalf("expected nested 3.10 venv to be flattened: %v", err)
+	}
+	if _, err := os.Stat(nestedDir); !os.IsNotExist(err) {
+		t.Fatalf("expected nested venv path to be removed, err=%v", err)
+	}
+}
+
+func TestFindVenvSitePackagesSupportsWindowsLayout(t *testing.T) {
+	venvDir := filepath.Join(t.TempDir(), "venv")
+	sitePackages := filepath.Join(venvDir, "Lib", "site-packages")
+	if err := os.MkdirAll(sitePackages, 0o755); err != nil {
+		t.Fatalf("mkdir site-packages: %v", err)
+	}
+
+	if got := findVenvSitePackages(venvDir); got != sitePackages {
+		t.Fatalf("expected windows site-packages path %q, got %q", sitePackages, got)
+	}
+}
+
+func TestResolveManagedVenvBinUsesExistingScriptsDir(t *testing.T) {
+	venvDir := filepath.Join(t.TempDir(), "venv")
+	scriptsDir := filepath.Join(venvDir, "Scripts")
+	if err := os.MkdirAll(scriptsDir, 0o755); err != nil {
+		t.Fatalf("mkdir scripts dir: %v", err)
+	}
+
+	if got := resolveManagedVenvBin(venvDir); got != scriptsDir {
+		t.Fatalf("expected Scripts dir %q, got %q", scriptsDir, got)
+	}
+}
+
+func TestManagedPythonVenvHealthyRejectsBrokenPip(t *testing.T) {
+	venvDir := filepath.Join(t.TempDir(), "venv")
+	venvBin := resolveManagedVenvBin(venvDir)
+	writeFakeExecutable(t, venvBin, "python", []string{"exit 0"})
+	writeFakeExecutable(t, venvBin, "pip3", []string{"echo ModuleNotFoundError: No module named 'pip' 1>&2", "exit 1"})
+
+	if managedPythonVenvHealthy(venvDir) {
+		t.Fatal("expected venv with broken pip module to be unhealthy")
+	}
+}
+
+func TestManagedPythonVenvHealthyAcceptsWorkingPip(t *testing.T) {
+	venvDir := filepath.Join(t.TempDir(), "venv")
+	venvBin := resolveManagedVenvBin(venvDir)
+	writeFakeExecutable(t, venvBin, "python", []string{"exit 0"})
+	writeFakeExecutable(t, venvBin, "pip3", []string{"echo pip 24.0 from test", "exit 0"})
+
+	if !managedPythonVenvHealthy(venvDir) {
+		t.Fatal("expected venv with working pip --version to be healthy")
+	}
+}
+
+func writeFakeExecutable(t *testing.T, dir, name string, lines []string) string {
+	t.Helper()
+	if err := os.MkdirAll(dir, 0o755); err != nil {
+		t.Fatalf("mkdir fake executable dir: %v", err)
+	}
+
+	path := filepath.Join(dir, name)
+	content := "#!/bin/sh\n" + strings.Join(lines, "\n") + "\n"
+	if runtime.GOOS == "windows" {
+		path += ".cmd"
+		content = "@echo off\r\n" + strings.Join(lines, "\r\n") + "\r\n"
+	}
+	if err := os.WriteFile(path, []byte(content), 0o755); err != nil {
+		t.Fatalf("write fake executable: %v", err)
+	}
+	return path
+}
+func TestResolveManagedBinaryPrefersRealWindowsPythonInstallOverWindowsAppsProxy(t *testing.T) {
+	if runtime.GOOS != "windows" {
+		t.Skip("windows-only resolution behavior")
+	}
+
+	root := t.TempDir()
+	windowsAppsDir := filepath.Join(root, "WindowsApps")
+	realPythonDir := filepath.Join(root, "Programs", "Python", "Python314")
+	if err := os.MkdirAll(windowsAppsDir, 0o755); err != nil {
+		t.Fatalf("mkdir windows apps dir: %v", err)
+	}
+	if err := os.MkdirAll(realPythonDir, 0o755); err != nil {
+		t.Fatalf("mkdir real python dir: %v", err)
+	}
+
+	windowsAppsPython := filepath.Join(windowsAppsDir, "python.exe")
+	realPython := filepath.Join(realPythonDir, "python.exe")
+	for _, path := range []string{windowsAppsPython, realPython} {
+		if err := os.WriteFile(path, []byte("stub"), 0o644); err != nil {
+			t.Fatalf("write stub binary %s: %v", path, err)
+		}
+	}
+
+	got, err := resolveManagedBinary("python", []string{realPythonDir}, []string{windowsAppsDir})
+	if err != nil {
+		t.Fatalf("resolve managed binary: %v", err)
+	}
+	if got != realPython {
+		t.Fatalf("expected real python %q, got %q", realPython, got)
+	}
+}
+
+// TestPythonBootstrapHasNoPreCheckAutoInstall 守卫：
+// Python bootstrap 必须保持"纯跑脚本"语义，不做任何基于 importlib.find_spec 或
+// AST 扫 import 的预检自动安装。历史上这套预检曾导致 pysmx 等已装好的包被反复
+// 判定缺失并循环触发 pip install（v2.0.7 两次尝试修 find_spec 均未根治）。
+// 真实缺失的依赖由 Go 侧 task_executor.detectAndInstallDeps 兜底处理，
+// 它在脚本真实抛出 ModuleNotFoundError 时再 pip install + 自动重跑，更精准。
+func TestPythonBootstrapHasNoPreCheckAutoInstall(t *testing.T) {
+	forbidden := []struct {
+		name string
+		text string
+	}{
+		{"AST import scan", "_dd_scan_imports"},
+		{"find_spec pre-check", "find_spec"},
+		{"importlib.metadata fallback", "packages_distributions"},
+		{"disk scan fallback", "_dd_module_available_on_disk"},
+		{"pip install subprocess", "_dd_install_package"},
+		{"auto install switch", "DD_AUTO_INSTALL_DEPS"},
+		{"alias env", "DD_PY_AUTO_INSTALL_ALIASES"},
+		{"missing dep banner", "检测到缺失依赖"},
+	}
+	for _, m := range forbidden {
+		if strings.Contains(pythonEnvBootstrap, m.text) {
+			t.Fatalf("pythonEnvBootstrap must not contain %s marker %q (预检链路已移除，改由 Go 侧后置兜底)", m.name, m.text)
+		}
+	}
+}
+
+func TestDefaultPythonVersionFallsBackToActiveSystemPythonOnMagiskRuntime(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	t.Setenv("DAIDAI_MAGISK_MODULE", "1")
+	t.Setenv("PATH", t.TempDir()+string(os.PathListSeparator)+os.Getenv("PATH"))
+
+	fakeDir := strings.Split(os.Getenv("PATH"), string(os.PathListSeparator))[0]
+	// 新版回退探测走 `<binary> --version`（discoverSystemPythonForVersion），
+	// 假 python3 需按真实 `--version` 输出格式（"Python 3.11.4"）响应才能被识别。
+	writeFakeExecutable(t, fakeDir, "python3", []string{"echo Python 3.11.4"})
+
+	if got := DefaultPythonVersion(); got != "3.11" {
+		t.Fatalf("expected Magisk runtime default python version to follow active python3=3.11, got %q", got)
+	}
+}
+
+func TestResolvePythonVersionFromEnvFallsBackToActiveSystemPythonOnMagiskRuntime(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	t.Setenv("DAIDAI_MAGISK_MODULE", "1")
+	t.Setenv("PATH", t.TempDir()+string(os.PathListSeparator)+os.Getenv("PATH"))
+
+	fakeDir := strings.Split(os.Getenv("PATH"), string(os.PathListSeparator))[0]
+	// 同上：假 python3 按真实 `--version` 输出格式响应，供新版探测识别。
+	writeFakeExecutable(t, fakeDir, "python3", []string{"echo Python 3.11.4"})
+
+	envMap := map[string]string{
+		"DAIDAI_PYTHON_VERSION": "3.12",
+	}
+	if got := ResolvePythonVersionFromEnv(envMap); got != "3.11" {
+		t.Fatalf("expected Magisk runtime python version to fall back from 3.12 to active python3=3.11, got %q", got)
+	}
+}

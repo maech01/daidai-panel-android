@@ -1,1 +1,18 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICJ0aW1lIgoKdHlwZSBUYXNrVmlldyBzdHJ1Y3QgewoJSUQgICAgICAgIHVpbnQgICAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJTmFtZSAgICAgIHN0cmluZyAgICBgZ29ybToic2l6ZToxMjg7bm90IG51bGwiIGpzb246Im5hbWUiYAoJRmlsdGVycyAgIHN0cmluZyAgICBgZ29ybToidHlwZTp0ZXh0O2RlZmF1bHQ6J1tdJyIganNvbjoiZmlsdGVycyJgCglTb3J0UnVsZXMgc3RyaW5nICAgIGBnb3JtOiJ0eXBlOnRleHQ7ZGVmYXVsdDonW10nIiBqc29uOiJzb3J0X3J1bGVzImAKCUhpZGRlbiAgICBib29sICAgICAgYGdvcm06ImRlZmF1bHQ6ZmFsc2U7aW5kZXgiIGpzb246ImhpZGRlbiJgCglTb3J0T3JkZXIgaW50ICAgICAgIGBnb3JtOiJkZWZhdWx0OjA7aW5kZXgiIGpzb246InNvcnRfb3JkZXIiYAoJQ3JlYXRlZEF0IHRpbWUuVGltZSBganNvbjoiY3JlYXRlZF9hdCJgCglVcGRhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJ1cGRhdGVkX2F0ImAKfQoKZnVuYyAoVGFza1ZpZXcpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInRhc2tfdmlld3MiCn0K
+package model
+
+import "time"
+
+type TaskView struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	Name      string    `gorm:"size:128;not null" json:"name"`
+	Filters   string    `gorm:"type:text;default:'[]'" json:"filters"`
+	SortRules string    `gorm:"type:text;default:'[]'" json:"sort_rules"`
+	Hidden    bool      `gorm:"default:false;index" json:"hidden"`
+	SortOrder int       `gorm:"default:0;index" json:"sort_order"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+func (TaskView) TableName() string {
+	return "task_views"
+}

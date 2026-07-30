@@ -1,1 +1,81 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKKQoKZnVuYyBUZXN0U2hvdWxkSWdub3JlU2NyaXB0RW50cnlOYW1lKHQgKnRlc3RpbmcuVCkgewoJaWYgIVNob3VsZElnbm9yZVNjcmlwdEVudHJ5TmFtZSgibm9kZV9tb2R1bGVzIikgewoJCXQuRmF0YWwoImV4cGVjdGVkIG5vZGVfbW9kdWxlcyB0byBiZSBpZ25vcmVkIikKCX0KCWlmICFTaG91bGRJZ25vcmVTY3JpcHRFbnRyeU5hbWUoIl9fcHljYWNoZV9fIikgewoJCXQuRmF0YWwoImV4cGVjdGVkIF9fcHljYWNoZV9fIHRvIGJlIGlnbm9yZWQiKQoJfQoJaWYgIVNob3VsZElnbm9yZVNjcmlwdEVudHJ5TmFtZSgiJVN5c3RlbURyaXZlJSIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCAlU3lzdGVtRHJpdmUlIHRvIGJlIGlnbm9yZWQiKQoJfQoJaWYgU2hvdWxkSWdub3JlU2NyaXB0RW50cnlOYW1lKCJkZW1vIikgewoJCXQuRmF0YWwoImV4cGVjdGVkIG5vcm1hbCBkaXJlY3Rvcnkgbm90IHRvIGJlIGlnbm9yZWQiKQoJfQp9CgpmdW5jIFRlc3RTaG91bGRJZ25vcmVTY3JpcHRQYXRoKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJdGFyZ2V0IDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgIiVTeXN0ZW1Ecml2ZSUiLCAiUHJvZ3JhbURhdGEiLCAiZGVtby5kYiIpCglpZiAhU2hvdWxkSWdub3JlU2NyaXB0UGF0aChyb290LCB0YXJnZXQpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBxdWFyYW50aW5lZCBzdWJ0cmVlIHBhdGggdG8gYmUgaWdub3JlZCIpCgl9CgoJbm9ybWFsIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgImpvYnMiLCAiZGVtby5weSIpCglpZiBTaG91bGRJZ25vcmVTY3JpcHRQYXRoKHJvb3QsIG5vcm1hbCkgewoJCXQuRmF0YWwoImV4cGVjdGVkIG5vcm1hbCBzY3JpcHQgcGF0aCBub3QgdG8gYmUgaWdub3JlZCIpCgl9Cn0KCmZ1bmMgVGVzdFNob3VsZElnbm9yZVNjcmlwdFJlbGF0aXZlUGF0aCh0ICp0ZXN0aW5nLlQpIHsKCWlmICFTaG91bGRJZ25vcmVTY3JpcHRSZWxhdGl2ZVBhdGgoIiVTeXN0ZW1Ecml2ZSUvUHJvZ3JhbURhdGEvdGVzdC5kYiIpIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBxdWFyYW50aW5lZCByZWxhdGl2ZSBwYXRoIHRvIGJlIGlnbm9yZWQiKQoJfQoJaWYgU2hvdWxkSWdub3JlU2NyaXB0UmVsYXRpdmVQYXRoKCJkZW1vL3JlZ3Jlc3Npb24ucHkiKSB7CgkJdC5GYXRhbCgiZXhwZWN0ZWQgbm9ybWFsIHJlbGF0aXZlIHBhdGggbm90IHRvIGJlIGlnbm9yZWQiKQoJfQp9CgpmdW5jIFRlc3RRdWFyYW50aW5lVW5leHBlY3RlZFNjcmlwdEVudHJpZXNPblN0YXJ0dXAodCAqdGVzdGluZy5UKSB7CglvbGRDb25maWcgOj0gY29uZmlnLkMKCWRlZmVyIGZ1bmMoKSB7CgkJY29uZmlnLkMgPSBvbGRDb25maWcKCX0oKQoKCWRhdGFEaXIgOj0gdC5UZW1wRGlyKCkKCXNjcmlwdHNEaXIgOj0gZmlsZXBhdGguSm9pbihkYXRhRGlyLCAic2NyaXB0cyIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguSm9pbihzY3JpcHRzRGlyLCAiJVN5c3RlbURyaXZlJSIsICJQcm9ncmFtRGF0YSIpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciBwb2xsdXRlZCBzY3JpcHRzIGRpcjogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4oc2NyaXB0c0RpciwgIiVTeXN0ZW1Ecml2ZSUiLCAiUHJvZ3JhbURhdGEiLCAiZGVtby5kYiIpLCBbXWJ5dGUoIngiKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgcG9sbHV0ZWQgZmlsZTogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4oc2NyaXB0c0RpciwgInJlZ3Jlc3Npb24ucHkiKSwgW11ieXRlKCJwcmludCgnb2snKSIpLCAwbzY0NCk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBub3JtYWwgc2NyaXB0OiAldiIsIGVycikKCX0KCgljb25maWcuQyA9ICZjb25maWcuQ29uZmlne30KCWNvbmZpZy5DLkRhdGEuRGlyID0gZGF0YURpcgoJY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyID0gc2NyaXB0c0RpcgoKCVF1YXJhbnRpbmVVbmV4cGVjdGVkU2NyaXB0RW50cmllc09uU3RhcnR1cCgpCgoJaWYgXywgZXJyIDo9IG9zLlN0YXQoZmlsZXBhdGguSm9pbihzY3JpcHRzRGlyLCAiJVN5c3RlbURyaXZlJSIpKTsgIW9zLklzTm90RXhpc3QoZXJyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHBvbGx1dGVkIGRpcmVjdG9yeSB0byBiZSBtb3ZlZCBhd2F5LCBzdGF0IGVycj0ldiIsIGVycikKCX0KCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oc2NyaXB0c0RpciwgInJlZ3Jlc3Npb24ucHkiKSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBub3JtYWwgc2NyaXB0IHRvIHN0YXkgaW4gcGxhY2U6ICV2IiwgZXJyKQoJfQoJaWYgXywgZXJyIDo9IG9zLlN0YXQoZmlsZXBhdGguSm9pbihkYXRhRGlyLCAicXVhcmFudGluZSIsICJzY3JpcHRzIiwgIiVTeXN0ZW1Ecml2ZSUiLCAiUHJvZ3JhbURhdGEiLCAiZGVtby5kYiIpKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHBvbGx1dGVkIGRpcmVjdG9yeSB0byBiZSBxdWFyYW50aW5lZDogJXYiLCBlcnIpCgl9Cn0K
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+)
+
+func TestShouldIgnoreScriptEntryName(t *testing.T) {
+	if !ShouldIgnoreScriptEntryName("node_modules") {
+		t.Fatal("expected node_modules to be ignored")
+	}
+	if !ShouldIgnoreScriptEntryName("__pycache__") {
+		t.Fatal("expected __pycache__ to be ignored")
+	}
+	if !ShouldIgnoreScriptEntryName("%SystemDrive%") {
+		t.Fatal("expected %SystemDrive% to be ignored")
+	}
+	if ShouldIgnoreScriptEntryName("demo") {
+		t.Fatal("expected normal directory not to be ignored")
+	}
+}
+
+func TestShouldIgnoreScriptPath(t *testing.T) {
+	root := t.TempDir()
+	target := filepath.Join(root, "%SystemDrive%", "ProgramData", "demo.db")
+	if !ShouldIgnoreScriptPath(root, target) {
+		t.Fatal("expected quarantined subtree path to be ignored")
+	}
+
+	normal := filepath.Join(root, "jobs", "demo.py")
+	if ShouldIgnoreScriptPath(root, normal) {
+		t.Fatal("expected normal script path not to be ignored")
+	}
+}
+
+func TestShouldIgnoreScriptRelativePath(t *testing.T) {
+	if !ShouldIgnoreScriptRelativePath("%SystemDrive%/ProgramData/test.db") {
+		t.Fatal("expected quarantined relative path to be ignored")
+	}
+	if ShouldIgnoreScriptRelativePath("demo/regression.py") {
+		t.Fatal("expected normal relative path not to be ignored")
+	}
+}
+
+func TestQuarantineUnexpectedScriptEntriesOnStartup(t *testing.T) {
+	oldConfig := config.C
+	defer func() {
+		config.C = oldConfig
+	}()
+
+	dataDir := t.TempDir()
+	scriptsDir := filepath.Join(dataDir, "scripts")
+	if err := os.MkdirAll(filepath.Join(scriptsDir, "%SystemDrive%", "ProgramData"), 0o755); err != nil {
+		t.Fatalf("mkdir polluted scripts dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(scriptsDir, "%SystemDrive%", "ProgramData", "demo.db"), []byte("x"), 0o644); err != nil {
+		t.Fatalf("write polluted file: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(scriptsDir, "regression.py"), []byte("print('ok')"), 0o644); err != nil {
+		t.Fatalf("write normal script: %v", err)
+	}
+
+	config.C = &config.Config{}
+	config.C.Data.Dir = dataDir
+	config.C.Data.ScriptsDir = scriptsDir
+
+	QuarantineUnexpectedScriptEntriesOnStartup()
+
+	if _, err := os.Stat(filepath.Join(scriptsDir, "%SystemDrive%")); !os.IsNotExist(err) {
+		t.Fatalf("expected polluted directory to be moved away, stat err=%v", err)
+	}
+	if _, err := os.Stat(filepath.Join(scriptsDir, "regression.py")); err != nil {
+		t.Fatalf("expected normal script to stay in place: %v", err)
+	}
+	if _, err := os.Stat(filepath.Join(dataDir, "quarantine", "scripts", "%SystemDrive%", "ProgramData", "demo.db")); err != nil {
+		t.Fatalf("expected polluted directory to be quarantined: %v", err)
+	}
+}

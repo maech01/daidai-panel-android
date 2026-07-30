@@ -1,1 +1,144 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJ0aW1lIgopCgp0eXBlIExvZ2luTG9nIHN0cnVjdCB7CglJRCAgICAgICAgIHVpbnQgICAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJVXNlcklEICAgICB1aW50ICAgICAgYGdvcm06ImluZGV4IiBqc29uOiJ1c2VyX2lkImAKCVVzZXJuYW1lICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0IiBqc29uOiJ1c2VybmFtZSJgCglJUCAgICAgICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo2NCIganNvbjoiaXAiYAoJQ2xpZW50TmFtZSBzdHJpbmcgICAgYGdvcm06InNpemU6MjU1IiBqc29uOiJjbGllbnRfbmFtZSJgCglVc2VyQWdlbnQgIHN0cmluZyAgICBgZ29ybToic2l6ZTo1MTIiIGpzb246InVzZXJfYWdlbnQiYAoJTWV0aG9kICAgICBzdHJpbmcgICAgYGdvcm06InNpemU6MzI7ZGVmYXVsdDon5a+G56CB55m75b2VJyIganNvbjoibWV0aG9kImAKCVN0YXR1cyAgICAgaW50ICAgICAgIGBnb3JtOiJkZWZhdWx0OjAiIGpzb246InN0YXR1cyJgCglNZXNzYWdlICAgIHN0cmluZyAgICBgZ29ybToic2l6ZToyNTYiIGpzb246Im1lc3NhZ2UiYAoJQ3JlYXRlZEF0ICB0aW1lLlRpbWUgYGpzb246ImNyZWF0ZWRfYXQiYAp9CgpmdW5jIChMb2dpbkxvZykgVGFibGVOYW1lKCkgc3RyaW5nIHsKCXJldHVybiAibG9naW5fbG9ncyIKfQoKZnVuYyAobCAqTG9naW5Mb2cpIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICAgbC5JRCwKCQkidXNlcl9pZCI6ICAgICBsLlVzZXJJRCwKCQkidXNlcm5hbWUiOiAgICBsLlVzZXJuYW1lLAoJCSJpcCI6ICAgICAgICAgIGwuSVAsCgkJImNsaWVudF9uYW1lIjogbC5DbGllbnROYW1lLAoJCSJ1c2VyX2FnZW50IjogIGwuVXNlckFnZW50LAoJCSJtZXRob2QiOiAgICAgIGwuTWV0aG9kLAoJCSJzdGF0dXMiOiAgICAgIGwuU3RhdHVzLAoJCSJtZXNzYWdlIjogICAgIGwuTWVzc2FnZSwKCQkiY3JlYXRlZF9hdCI6ICBsLkNyZWF0ZWRBdCwKCX0KfQoKdHlwZSBMb2dpbkF0dGVtcHQgc3RydWN0IHsKCUlEICAgICAgICB1aW50ICAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglJUCAgICAgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZTo2NDtpbmRleCIganNvbjoiaXAiYAoJVXNlcm5hbWUgIHN0cmluZyAgICAgYGdvcm06InNpemU6NjQiIGpzb246InVzZXJuYW1lImAKCUNvdW50ICAgICBpbnQgICAgICAgIGBnb3JtOiJkZWZhdWx0OjEiIGpzb246ImNvdW50ImAKCUxvY2tlZEF0ICAqdGltZS5UaW1lIGBqc29uOiJsb2NrZWRfYXQiYAoJRXhwaXJlc0F0IHRpbWUuVGltZSAgYGpzb246ImV4cGlyZXNfYXQiYAoJQ3JlYXRlZEF0IHRpbWUuVGltZSAgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0IHRpbWUuVGltZSAgYGpzb246InVwZGF0ZWRfYXQiYAp9CgpmdW5jIChMb2dpbkF0dGVtcHQpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gImxvZ2luX2F0dGVtcHRzIgp9Cgp0eXBlIFVzZXJTZXNzaW9uIHN0cnVjdCB7CglJRCAgICAgICAgICAgICAgIHVpbnQgICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCVVzZXJJRCAgICAgICAgICAgdWludCAgICAgICBgZ29ybToiaW5kZXgiIGpzb246InVzZXJfaWQiYAoJVXNlcm5hbWUgICAgICAgICBzdHJpbmcgICAgIGBnb3JtOiJzaXplOjY0IiBqc29uOiJ1c2VybmFtZSJgCglKVEkgICAgICAgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MzY7dW5pcXVlSW5kZXgiIGpzb246Imp0aSJgCglSZWZyZXNoSlRJICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MzYiIGpzb246Ii0iYAoJQ2xpZW50VHlwZSAgICAgICBzdHJpbmcgICAgIGBnb3JtOiJzaXplOjE2O2luZGV4O2RlZmF1bHQ6J3dlYiciIGpzb246ImNsaWVudF90eXBlImAKCUNsaWVudE5hbWUgICAgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZToyNTUiIGpzb246ImNsaWVudF9uYW1lImAKCUlQICAgICAgICAgICAgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZTo2NCIganNvbjoiaXAiYAoJVXNlckFnZW50ICAgICAgICBzdHJpbmcgICAgIGBnb3JtOiJzaXplOjUxMiIganNvbjoidXNlcl9hZ2VudCJgCglFeHBpcmVzQXQgICAgICAgIHRpbWUuVGltZSAgYGpzb246ImV4cGlyZXNfYXQiYAoJUmVmcmVzaEV4cGlyZXNBdCAqdGltZS5UaW1lIGBqc29uOiItImAKCUNyZWF0ZWRBdCAgICAgICAgdGltZS5UaW1lICBganNvbjoiY3JlYXRlZF9hdCJgCn0KCmZ1bmMgKFVzZXJTZXNzaW9uKSBUYWJsZU5hbWUoKSBzdHJpbmcgewoJcmV0dXJuICJ1c2VyX3Nlc3Npb25zIgp9CgpmdW5jIChzICpVc2VyU2Vzc2lvbikgVG9EaWN0KCkgbWFwW3N0cmluZ11pbnRlcmZhY2V7fSB7CglyZXR1cm4gbWFwW3N0cmluZ11pbnRlcmZhY2V7fXsKCQkiaWQiOiAgICAgICAgICBzLklELAoJCSJ1c2VyX2lkIjogICAgIHMuVXNlcklELAoJCSJ1c2VybmFtZSI6ICAgIHMuVXNlcm5hbWUsCgkJImNsaWVudF90eXBlIjogcy5DbGllbnRUeXBlLAoJCSJjbGllbnRfbmFtZSI6IHMuQ2xpZW50TmFtZSwKCQkiaXAiOiAgICAgICAgICBzLklQLAoJCSJ1c2VyX2FnZW50IjogIHMuVXNlckFnZW50LAoJCSJleHBpcmVzX2F0IjogIHMuRXhwaXJlc0F0LAoJCSJjcmVhdGVkX2F0IjogIHMuQ3JlYXRlZEF0LAoJfQp9Cgp0eXBlIElQV2hpdGVsaXN0IHN0cnVjdCB7CglJRCAgICAgICAgdWludCAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglJUCAgICAgICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0O3VuaXF1ZUluZGV4O25vdCBudWxsIiBqc29uOiJpcCJgCglSZW1hcmtzICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjI1NiIganNvbjoicmVtYXJrcyJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKfQoKZnVuYyAoSVBXaGl0ZWxpc3QpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gImlwX3doaXRlbGlzdHMiCn0KCmZ1bmMgKHcgKklQV2hpdGVsaXN0KSBUb0RpY3QoKSBtYXBbc3RyaW5nXWludGVyZmFjZXt9IHsKCXJldHVybiBtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCSJpZCI6ICAgICAgICAgdy5JRCwKCQkiaXAiOiAgICAgICAgIHcuSVAsCgkJInJlbWFya3MiOiAgICB3LlJlbWFya3MsCgkJImNyZWF0ZWRfYXQiOiB3LkNyZWF0ZWRBdCwKCX0KfQoKdHlwZSBTZWN1cml0eUF1ZGl0IHN0cnVjdCB7CglJRCAgICAgICAgdWludCAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglVc2VySUQgICAgKnVpbnQgICAgIGBnb3JtOiJpbmRleCIganNvbjoidXNlcl9pZCJgCglVc2VybmFtZSAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0IiBqc29uOiJ1c2VybmFtZSJgCglBY3Rpb24gICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0IiBqc29uOiJhY3Rpb24iYAoJRGV0YWlsICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo1MTIiIGpzb246ImRldGFpbCJgCglJUCAgICAgICAgc3RyaW5nICAgIGBnb3JtOiJzaXplOjY0IiBqc29uOiJpcCJgCglDcmVhdGVkQXQgdGltZS5UaW1lIGBqc29uOiJjcmVhdGVkX2F0ImAKfQoKZnVuYyAoU2VjdXJpdHlBdWRpdCkgVGFibGVOYW1lKCkgc3RyaW5nIHsKCXJldHVybiAic2VjdXJpdHlfYXVkaXRzIgp9CgpmdW5jIChhICpTZWN1cml0eUF1ZGl0KSBUb0RpY3QoKSBtYXBbc3RyaW5nXWludGVyZmFjZXt9IHsKCXJldHVybiBtYXBbc3RyaW5nXWludGVyZmFjZXt9ewoJCSJpZCI6ICAgICAgICAgYS5JRCwKCQkidXNlcl9pZCI6ICAgIGEuVXNlcklELAoJCSJ1c2VybmFtZSI6ICAgYS5Vc2VybmFtZSwKCQkiYWN0aW9uIjogICAgIGEuQWN0aW9uLAoJCSJkZXRhaWwiOiAgICAgYS5EZXRhaWwsCgkJImlwIjogICAgICAgICBhLklQLAoJCSJjcmVhdGVkX2F0IjogYS5DcmVhdGVkQXQsCgl9Cn0KCnR5cGUgVHdvRmFjdG9yQXV0aCBzdHJ1Y3QgewoJSUQgICAgICAgIHVpbnQgICAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJVXNlcklEICAgIHVpbnQgICAgICBgZ29ybToidW5pcXVlSW5kZXg7bm90IG51bGwiIGpzb246InVzZXJfaWQiYAoJU2VjcmV0ICAgIHN0cmluZyAgICBgZ29ybToic2l6ZTo2NDtub3QgbnVsbCIganNvbjoiLSJgCglFbmFibGVkICAgYm9vbCAgICAgIGBnb3JtOiJkZWZhdWx0OmZhbHNlIiBqc29uOiJlbmFibGVkImAKCUNyZWF0ZWRBdCB0aW1lLlRpbWUgYGpzb246ImNyZWF0ZWRfYXQiYAoJVXBkYXRlZEF0IHRpbWUuVGltZSBganNvbjoidXBkYXRlZF9hdCJgCn0KCmZ1bmMgKFR3b0ZhY3RvckF1dGgpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInR3b19mYWN0b3JfYXV0aHMiCn0K
+package model
+
+import (
+	"time"
+)
+
+type LoginLog struct {
+	ID         uint      `gorm:"primarykey" json:"id"`
+	UserID     uint      `gorm:"index" json:"user_id"`
+	Username   string    `gorm:"size:64" json:"username"`
+	IP         string    `gorm:"size:64" json:"ip"`
+	ClientName string    `gorm:"size:255" json:"client_name"`
+	UserAgent  string    `gorm:"size:512" json:"user_agent"`
+	Method     string    `gorm:"size:32;default:'密码登录'" json:"method"`
+	Status     int       `gorm:"default:0" json:"status"`
+	Message    string    `gorm:"size:256" json:"message"`
+	CreatedAt  time.Time `json:"created_at"`
+}
+
+func (LoginLog) TableName() string {
+	return "login_logs"
+}
+
+func (l *LoginLog) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":          l.ID,
+		"user_id":     l.UserID,
+		"username":    l.Username,
+		"ip":          l.IP,
+		"client_name": l.ClientName,
+		"user_agent":  l.UserAgent,
+		"method":      l.Method,
+		"status":      l.Status,
+		"message":     l.Message,
+		"created_at":  l.CreatedAt,
+	}
+}
+
+type LoginAttempt struct {
+	ID        uint       `gorm:"primarykey" json:"id"`
+	IP        string     `gorm:"size:64;index" json:"ip"`
+	Username  string     `gorm:"size:64" json:"username"`
+	Count     int        `gorm:"default:1" json:"count"`
+	LockedAt  *time.Time `json:"locked_at"`
+	ExpiresAt time.Time  `json:"expires_at"`
+	CreatedAt time.Time  `json:"created_at"`
+	UpdatedAt time.Time  `json:"updated_at"`
+}
+
+func (LoginAttempt) TableName() string {
+	return "login_attempts"
+}
+
+type UserSession struct {
+	ID               uint       `gorm:"primarykey" json:"id"`
+	UserID           uint       `gorm:"index" json:"user_id"`
+	Username         string     `gorm:"size:64" json:"username"`
+	JTI              string     `gorm:"size:36;uniqueIndex" json:"jti"`
+	RefreshJTI       string     `gorm:"size:36" json:"-"`
+	ClientType       string     `gorm:"size:16;index;default:'web'" json:"client_type"`
+	ClientName       string     `gorm:"size:255" json:"client_name"`
+	IP               string     `gorm:"size:64" json:"ip"`
+	UserAgent        string     `gorm:"size:512" json:"user_agent"`
+	ExpiresAt        time.Time  `json:"expires_at"`
+	RefreshExpiresAt *time.Time `json:"-"`
+	CreatedAt        time.Time  `json:"created_at"`
+}
+
+func (UserSession) TableName() string {
+	return "user_sessions"
+}
+
+func (s *UserSession) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":          s.ID,
+		"user_id":     s.UserID,
+		"username":    s.Username,
+		"client_type": s.ClientType,
+		"client_name": s.ClientName,
+		"ip":          s.IP,
+		"user_agent":  s.UserAgent,
+		"expires_at":  s.ExpiresAt,
+		"created_at":  s.CreatedAt,
+	}
+}
+
+type IPWhitelist struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	IP        string    `gorm:"size:64;uniqueIndex;not null" json:"ip"`
+	Remarks   string    `gorm:"size:256" json:"remarks"`
+	CreatedAt time.Time `json:"created_at"`
+}
+
+func (IPWhitelist) TableName() string {
+	return "ip_whitelists"
+}
+
+func (w *IPWhitelist) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         w.ID,
+		"ip":         w.IP,
+		"remarks":    w.Remarks,
+		"created_at": w.CreatedAt,
+	}
+}
+
+type SecurityAudit struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	UserID    *uint     `gorm:"index" json:"user_id"`
+	Username  string    `gorm:"size:64" json:"username"`
+	Action    string    `gorm:"size:64" json:"action"`
+	Detail    string    `gorm:"size:512" json:"detail"`
+	IP        string    `gorm:"size:64" json:"ip"`
+	CreatedAt time.Time `json:"created_at"`
+}
+
+func (SecurityAudit) TableName() string {
+	return "security_audits"
+}
+
+func (a *SecurityAudit) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":         a.ID,
+		"user_id":    a.UserID,
+		"username":   a.Username,
+		"action":     a.Action,
+		"detail":     a.Detail,
+		"ip":         a.IP,
+		"created_at": a.CreatedAt,
+	}
+}
+
+type TwoFactorAuth struct {
+	ID        uint      `gorm:"primarykey" json:"id"`
+	UserID    uint      `gorm:"uniqueIndex;not null" json:"user_id"`
+	Secret    string    `gorm:"size:64;not null" json:"-"`
+	Enabled   bool      `gorm:"default:false" json:"enabled"`
+	CreatedAt time.Time `json:"created_at"`
+	UpdatedAt time.Time `json:"updated_at"`
+}
+
+func (TwoFactorAuth) TableName() string {
+	return "two_factor_auths"
+}

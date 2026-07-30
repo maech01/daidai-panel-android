@@ -1,1 +1,3 @@
-PHRlbXBsYXRlPgogIDxyb3V0ZXItdmlldyAvPgo8L3RlbXBsYXRlPgo=
+<template>
+  <router-view />
+</template>

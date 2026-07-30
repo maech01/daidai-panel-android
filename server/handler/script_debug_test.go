@@ -1,1 +1,55 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0UHJlcGFyZUlubGluZURlYnVnRmlsZVVzZXNPcmlnaW5hbFNjcmlwdERpcmVjdG9yeSh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXNjcmlwdFBhdGggOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsICJkZW1vIiwgInNhbXBsZS5weSIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKHNjcmlwdFBhdGgpLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciBzY3JpcHQgZGlyOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoc2NyaXB0UGF0aCwgW11ieXRlKCJwcmludCgnaGVsbG8nKVxuIiksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJZnVsbCwgd29ya0RpciwgY2xlYW51cCwgZXJyIDo9IHByZXBhcmVJbmxpbmVEZWJ1Z0ZpbGUoImRlbW8vc2FtcGxlLnB5IiwgIi5weSIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicHJlcGFyZUlubGluZURlYnVnRmlsZTogJXYiLCBlcnIpCgl9CglkZWZlciBjbGVhbnVwKCkKCglleHBlY3RlZERpckluZm8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkRpcihzY3JpcHRQYXRoKSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzdGF0IGV4cGVjdGVkIGRpcjogJXYiLCBlcnIpCgl9CglhY3R1YWxXb3JrRGlySW5mbywgZXJyIDo9IG9zLlN0YXQod29ya0RpcikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJzdGF0IGFjdHVhbCB3b3JrRGlyOiAldiIsIGVycikKCX0KCWFjdHVhbEZpbGVEaXJJbmZvLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5EaXIoZnVsbCkpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigic3RhdCBhY3R1YWwgZmlsZSBkaXI6ICV2IiwgZXJyKQoJfQoKCWlmICFvcy5TYW1lRmlsZShleHBlY3RlZERpckluZm8sIGFjdHVhbFdvcmtEaXJJbmZvKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHdvcmtEaXIgJXEsIGdvdCAlcSIsIGZpbGVwYXRoLkRpcihzY3JpcHRQYXRoKSwgd29ya0RpcikKCX0KCWlmICFvcy5TYW1lRmlsZShleHBlY3RlZERpckluZm8sIGFjdHVhbEZpbGVEaXJJbmZvKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRlYnVnIGZpbGUgdG8gYmUgY3JlYXRlZCBiZXNpZGUgc291cmNlIHNjcmlwdCwgZ290ICVxIiwgZnVsbCkKCX0KCWlmICFzdHJpbmdzLkhhc1ByZWZpeChmaWxlcGF0aC5CYXNlKGZ1bGwpLCAiLnNhbXBsZS5kYWlkYWktZGVidWctIikgewoJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGRlYnVnIGZpbGVuYW1lICVxIiwgZmlsZXBhdGguQmFzZShmdWxsKSkKCX0KCWlmIGZpbGVwYXRoLkV4dChmdWxsKSAhPSAiLnB5IiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGRlYnVnIGZpbGUgZXh0ZW5zaW9uIC5weSwgZ290ICVxIiwgZmlsZXBhdGguRXh0KGZ1bGwpKQoJfQp9Cg==
+package handler
+
+import (
+	"os"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestPrepareInlineDebugFileUsesOriginalScriptDirectory(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	scriptPath := filepath.Join(config.C.Data.ScriptsDir, "demo", "sample.py")
+	if err := os.MkdirAll(filepath.Dir(scriptPath), 0o755); err != nil {
+		t.Fatalf("mkdir script dir: %v", err)
+	}
+	if err := os.WriteFile(scriptPath, []byte("print('hello')\n"), 0o644); err != nil {
+		t.Fatalf("write script: %v", err)
+	}
+
+	full, workDir, cleanup, err := prepareInlineDebugFile("demo/sample.py", ".py")
+	if err != nil {
+		t.Fatalf("prepareInlineDebugFile: %v", err)
+	}
+	defer cleanup()
+
+	expectedDirInfo, err := os.Stat(filepath.Dir(scriptPath))
+	if err != nil {
+		t.Fatalf("stat expected dir: %v", err)
+	}
+	actualWorkDirInfo, err := os.Stat(workDir)
+	if err != nil {
+		t.Fatalf("stat actual workDir: %v", err)
+	}
+	actualFileDirInfo, err := os.Stat(filepath.Dir(full))
+	if err != nil {
+		t.Fatalf("stat actual file dir: %v", err)
+	}
+
+	if !os.SameFile(expectedDirInfo, actualWorkDirInfo) {
+		t.Fatalf("expected workDir %q, got %q", filepath.Dir(scriptPath), workDir)
+	}
+	if !os.SameFile(expectedDirInfo, actualFileDirInfo) {
+		t.Fatalf("expected debug file to be created beside source script, got %q", full)
+	}
+	if !strings.HasPrefix(filepath.Base(full), ".sample.daidai-debug-") {
+		t.Fatalf("unexpected debug filename %q", filepath.Base(full))
+	}
+	if filepath.Ext(full) != ".py" {
+		t.Fatalf("expected debug file extension .py, got %q", filepath.Ext(full))
+	}
+}

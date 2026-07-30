@@ -1,1 +1,291 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImZtdCIKCSJsb2ciCgkic3RyY29udiIKCSJzdHJpbmdzIgoJInN5bmMiCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoKCSJnaXRodWIuY29tL3JvYmZpZy9jcm9uL3YzIgopCgp0eXBlIEJhY2t1cFNjaGVkdWxlQ29uZmlnIHN0cnVjdCB7CglFbmFibGVkICAgYm9vbAoJRnJlcXVlbmN5IHN0cmluZwoJVGltZSAgICAgIHN0cmluZwoJV2Vla2RheSAgIHN0cmluZwoJTW9udGhkYXkgIGludAoJTmFtZSAgICAgIHN0cmluZwoJUGFzc3dvcmQgIHN0cmluZwoJU2VsZWN0aW9uIEJhY2t1cFNlbGVjdGlvbgp9Cgp0eXBlIEJhY2t1cFNjaGVkdWxlciBzdHJ1Y3QgewoJY3JvbiAgICAqY3Jvbi5Dcm9uCgllbnRyeUlEIGNyb24uRW50cnlJRAoJbXUgICAgICBzeW5jLk11dGV4CglydW5uaW5nIGJvb2wKfQoKdmFyIGdsb2JhbEJhY2t1cFNjaGVkdWxlciAqQmFja3VwU2NoZWR1bGVyCgpmdW5jIEluaXRCYWNrdXBTY2hlZHVsZXIoKSB7CglzY2hlZHVsZXIgOj0gJkJhY2t1cFNjaGVkdWxlcnsKCQljcm9uOiBjcm9uLk5ldyhjcm9uLldpdGhTZWNvbmRzKCksIGNyb24uV2l0aENoYWluKGNyb24uUmVjb3Zlcihjcm9uLkRlZmF1bHRMb2dnZXIpKSksCgl9CglzY2hlZHVsZXIuY3Jvbi5TdGFydCgpCglnbG9iYWxCYWNrdXBTY2hlZHVsZXIgPSBzY2hlZHVsZXIKCXNjaGVkdWxlci5SZWxvYWQoKQoJbG9nLlByaW50bG4oImJhY2t1cCBzY2hlZHVsZXIgaW5pdGlhbGl6ZWQiKQp9CgpmdW5jIFNodXRkb3duQmFja3VwU2NoZWR1bGVyKCkgewoJaWYgZ2xvYmFsQmFja3VwU2NoZWR1bGVyID09IG5pbCB7CgkJcmV0dXJuCgl9CgljdHggOj0gZ2xvYmFsQmFja3VwU2NoZWR1bGVyLmNyb24uU3RvcCgpCgk8LWN0eC5Eb25lKCkKCWxvZy5QcmludGxuKCJiYWNrdXAgc2NoZWR1bGVyIHN0b3BwZWQiKQp9CgpmdW5jIEdldEJhY2t1cFNjaGVkdWxlcigpICpCYWNrdXBTY2hlZHVsZXIgewoJcmV0dXJuIGdsb2JhbEJhY2t1cFNjaGVkdWxlcgp9CgpmdW5jIFJlbG9hZEJhY2t1cFNjaGVkdWxlcigpIHsKCWlmIGdsb2JhbEJhY2t1cFNjaGVkdWxlciA9PSBuaWwgewoJCXJldHVybgoJfQoJZ2xvYmFsQmFja3VwU2NoZWR1bGVyLlJlbG9hZCgpCn0KCmZ1bmMgKHMgKkJhY2t1cFNjaGVkdWxlcikgUmVsb2FkKCkgewoJaWYgcyA9PSBuaWwgewoJCXJldHVybgoJfQoKCXMubXUuTG9jaygpCglkZWZlciBzLm11LlVubG9jaygpCgoJaWYgcy5lbnRyeUlEICE9IDAgewoJCXMuY3Jvbi5SZW1vdmUocy5lbnRyeUlEKQoJCXMuZW50cnlJRCA9IDAKCX0KCgljZmcsIGVyciA6PSBsb2FkQmFja3VwU2NoZWR1bGVDb25maWcoKQoJaWYgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50ZigiYmFja3VwIHNjaGVkdWxlciBjb25maWcgaW52YWxpZDogJXYiLCBlcnIpCgkJcmV0dXJuCgl9CglpZiAhY2ZnLkVuYWJsZWQgewoJCXJldHVybgoJfQoKCWNyb25FeHByLCBlcnIgOj0gYmFja3VwU2NoZWR1bGVDcm9uRXhwcmVzc2lvbihjZmcpCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJiYWNrdXAgc2NoZWR1bGVyIGNyb24gaW52YWxpZDogJXYiLCBlcnIpCgkJcmV0dXJuCgl9CgoJZW50cnlJRCwgZXJyIDo9IHMuY3Jvbi5BZGRGdW5jKGNyb25FeHByLCBmdW5jKCkgewoJCXMucnVuU2NoZWR1bGVkQmFja3VwKCkKCX0pCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJiYWNrdXAgc2NoZWR1bGVyIGFkZCBqb2IgZmFpbGVkOiAldiIsIGVycikKCQlyZXR1cm4KCX0KCglzLmVudHJ5SUQgPSBlbnRyeUlECn0KCmZ1bmMgKHMgKkJhY2t1cFNjaGVkdWxlcikgcnVuU2NoZWR1bGVkQmFja3VwKCkgewoJcy5tdS5Mb2NrKCkKCWlmIHMucnVubmluZyB7CgkJcy5tdS5VbmxvY2soKQoJCWxvZy5QcmludGxuKCJiYWNrdXAgc2NoZWR1bGVyIHNraXBwZWQ6IHByZXZpb3VzIGJhY2t1cCBzdGlsbCBydW5uaW5nIikKCQlyZXR1cm4KCX0KCXMucnVubmluZyA9IHRydWUKCXMubXUuVW5sb2NrKCkKCglkZWZlciBmdW5jKCkgewoJCXMubXUuTG9jaygpCgkJcy5ydW5uaW5nID0gZmFsc2UKCQlzLm11LlVubG9jaygpCgl9KCkKCgljZmcsIGVyciA6PSBsb2FkQmFja3VwU2NoZWR1bGVDb25maWcoKQoJaWYgZXJyICE9IG5pbCB7CgkJbG9nLlByaW50ZigiYmFja3VwIHNjaGVkdWxlciBsb2FkIGNvbmZpZyBmYWlsZWQ6ICV2IiwgZXJyKQoJCXJldHVybgoJfQoJaWYgIWNmZy5FbmFibGVkIHsKCQlyZXR1cm4KCX0KCglmaWxlUGF0aCwgZXJyIDo9IENyZWF0ZUJhY2t1cChCYWNrdXBDcmVhdGVPcHRpb25zewoJCVBhc3N3b3JkOiAgY2ZnLlBhc3N3b3JkLAoJCU5hbWU6ICAgICAgYnVpbGRTY2hlZHVsZWRCYWNrdXBOYW1lKGNmZyksCgkJU2VsZWN0aW9uOiBjZmcuU2VsZWN0aW9uLAoJfSkKCWlmIGVyciAhPSBuaWwgewoJCWxvZy5QcmludGYoImJhY2t1cCBzY2hlZHVsZXIgY3JlYXRlIGJhY2t1cCBmYWlsZWQ6ICV2IiwgZXJyKQoJCXJldHVybgoJfQoKCWxvZy5QcmludGYoImJhY2t1cCBzY2hlZHVsZXIgY3JlYXRlZCBiYWNrdXA6ICVzIiwgZmlsZVBhdGgpCgoJY2xlYW51cE9sZFNjaGVkdWxlZEJhY2t1cHMoY2ZnLCAzKQp9CgpmdW5jIGNsZWFudXBPbGRTY2hlZHVsZWRCYWNrdXBzKGNmZyBCYWNrdXBTY2hlZHVsZUNvbmZpZywgcmV0ZW50aW9uRGF5cyBpbnQpIHsKCWJhY2t1cHMsIGVyciA6PSBMaXN0QmFja3VwcygpCglpZiBlcnIgIT0gbmlsIHsKCQlsb2cuUHJpbnRmKCJiYWNrdXAgY2xlYW51cDogbGlzdCBiYWNrdXBzIGZhaWxlZDogJXYiLCBlcnIpCgkJcmV0dXJuCgl9CgoJcHJlZml4IDo9IHN0cmluZ3MuVHJpbVNwYWNlKGNmZy5OYW1lKQoJaWYgcHJlZml4ID09ICIiIHsKCQlwcmVmaXggPSAic2NoZWR1bGVkLWJhY2t1cCIKCX0KCgljdXRvZmYgOj0gdGltZS5Ob3coKS5BZGREYXRlKDAsIDAsIC1yZXRlbnRpb25EYXlzKQoJZGVsZXRlZCA6PSAwCgoJZm9yIF8sIGIgOj0gcmFuZ2UgYmFja3VwcyB7CgkJbmFtZSwgXyA6PSBiWyJuYW1lIl0uKHN0cmluZykKCQlpZiBuYW1lID09ICIiIHx8ICFzdHJpbmdzLkhhc1ByZWZpeChuYW1lLCBwcmVmaXgpIHsKCQkJY29udGludWUKCQl9CgkJY3JlYXRlZEF0LCBvayA6PSBiWyJjcmVhdGVkX2F0Il0uKHRpbWUuVGltZSkKCQlpZiAhb2sgewoJCQljb250aW51ZQoJCX0KCQlpZiBjcmVhdGVkQXQuQmVmb3JlKGN1dG9mZikgewoJCQlpZiBlcnIgOj0gRGVsZXRlQmFja3VwKG5hbWUpOyBlcnIgIT0gbmlsIHsKCQkJCWxvZy5QcmludGYoImJhY2t1cCBjbGVhbnVwOiBkZWxldGUgJXMgZmFpbGVkOiAldiIsIG5hbWUsIGVycikKCQkJfSBlbHNlIHsKCQkJCWRlbGV0ZWQrKwoJCQl9CgkJfQoJfQoKCWlmIGRlbGV0ZWQgPiAwIHsKCQlsb2cuUHJpbnRmKCJiYWNrdXAgY2xlYW51cDogZGVsZXRlZCAlZCBvbGQgc2NoZWR1bGVkIGJhY2t1cChzKSBvbGRlciB0aGFuICVkIGRheXMiLCBkZWxldGVkLCByZXRlbnRpb25EYXlzKQoJfQp9CgpmdW5jIGxvYWRCYWNrdXBTY2hlZHVsZUNvbmZpZygpIChCYWNrdXBTY2hlZHVsZUNvbmZpZywgZXJyb3IpIHsKCXNlbGVjdGlvbiwgZXJyIDo9IHBhcnNlQmFja3VwU2VsZWN0aW9uQ1NWKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoImJhY2t1cF9zY2hlZHVsZV9zZWxlY3Rpb24iKSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBCYWNrdXBTY2hlZHVsZUNvbmZpZ3t9LCBlcnIKCX0KCgljZmcgOj0gQmFja3VwU2NoZWR1bGVDb25maWd7CgkJRW5hYmxlZDogICBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnQm9vbCgiYmFja3VwX3NjaGVkdWxlX2VuYWJsZWQiKSwKCQlGcmVxdWVuY3k6IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnKCJiYWNrdXBfc2NoZWR1bGVfZnJlcXVlbmN5IikpKSwKCQlUaW1lOiAgICAgIHN0cmluZ3MuVHJpbVNwYWNlKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoImJhY2t1cF9zY2hlZHVsZV90aW1lIikpLAoJCVdlZWtkYXk6ICAgc3RyaW5ncy5UcmltU3BhY2UobW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygiYmFja3VwX3NjaGVkdWxlX3dlZWtkYXkiKSksCgkJTW9udGhkYXk6ICBtb2RlbC5HZXRSZWdpc3RlcmVkQ29uZmlnSW50KCJiYWNrdXBfc2NoZWR1bGVfbW9udGhkYXkiKSwKCQlOYW1lOiAgICAgIHN0cmluZ3MuVHJpbVNwYWNlKG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWcoImJhY2t1cF9zY2hlZHVsZV9uYW1lIikpLAoJCVBhc3N3b3JkOiAgbW9kZWwuR2V0UmVnaXN0ZXJlZENvbmZpZygiYmFja3VwX3NjaGVkdWxlX3Bhc3N3b3JkIiksCgkJU2VsZWN0aW9uOiBzZWxlY3Rpb24uTm9ybWFsaXplRGVmYXVsdHMoKSwKCX0KCglpZiBjZmcuRnJlcXVlbmN5ID09ICIiIHsKCQljZmcuRnJlcXVlbmN5ID0gImRhaWx5IgoJfQoJaWYgY2ZnLlRpbWUgPT0gIiIgewoJCWNmZy5UaW1lID0gIjAzOjAwIgoJfQoJaWYgY2ZnLk1vbnRoZGF5IDw9IDAgewoJCWNmZy5Nb250aGRheSA9IDEKCX0KCXJldHVybiBjZmcsIG5pbAp9CgpmdW5jIHBhcnNlQmFja3VwU2VsZWN0aW9uQ1NWKHJhdyBzdHJpbmcpIChCYWNrdXBTZWxlY3Rpb24sIGVycm9yKSB7CglhbGxvd2VkIDo9IG1hcFtzdHJpbmddZnVuYygqQmFja3VwU2VsZWN0aW9uKXsKCQkiY29uZmlncyI6ICAgICAgIGZ1bmMocyAqQmFja3VwU2VsZWN0aW9uKSB7IHMuQ29uZmlncyA9IHRydWUgfSwKCQkidGFza3MiOiAgICAgICAgIGZ1bmMocyAqQmFja3VwU2VsZWN0aW9uKSB7IHMuVGFza3MgPSB0cnVlIH0sCgkJInN1YnNjcmlwdGlvbnMiOiBmdW5jKHMgKkJhY2t1cFNlbGVjdGlvbikgeyBzLlN1YnNjcmlwdGlvbnMgPSB0cnVlIH0sCgkJImVudl92YXJzIjogICAgICBmdW5jKHMgKkJhY2t1cFNlbGVjdGlvbikgeyBzLkVudlZhcnMgPSB0cnVlIH0sCgkJImxvZ3MiOiAgICAgICAgICBmdW5jKHMgKkJhY2t1cFNlbGVjdGlvbikgeyBzLkxvZ3MgPSB0cnVlIH0sCgkJInNjcmlwdHMiOiAgICAgICBmdW5jKHMgKkJhY2t1cFNlbGVjdGlvbikgeyBzLlNjcmlwdHMgPSB0cnVlIH0sCgkJImRlcGVuZGVuY2llcyI6ICBmdW5jKHMgKkJhY2t1cFNlbGVjdGlvbikgeyBzLkRlcGVuZGVuY2llcyA9IHRydWUgfSwKCQkidGFza192aWV3cyI6ICAgIGZ1bmMocyAqQmFja3VwU2VsZWN0aW9uKSB7IHMuVGFza1ZpZXdzID0gdHJ1ZSB9LAoJfQoKCXZhciBzZWxlY3Rpb24gQmFja3VwU2VsZWN0aW9uCglmb3IgXywgdG9rZW4gOj0gcmFuZ2Ugc3RyaW5ncy5GaWVsZHNGdW5jKHN0cmluZ3MuVHJpbVNwYWNlKHJhdyksIGZ1bmMociBydW5lKSBib29sIHsKCQlyZXR1cm4gciA9PSAnLCcgfHwgciA9PSAnOycgfHwgciA9PSAnXG4nIHx8IHIgPT0gJ1xyJyB8fCByID09ICdcdCcgfHwgciA9PSAnICcKCX0pIHsKCQlrZXkgOj0gc3RyaW5ncy5Ub0xvd2VyKHN0cmluZ3MuVHJpbVNwYWNlKHRva2VuKSkKCQlpZiBrZXkgPT0gIiIgewoJCQljb250aW51ZQoJCX0KCQlhcHBseSwgb2sgOj0gYWxsb3dlZFtrZXldCgkJaWYgIW9rIHsKCQkJcmV0dXJuIEJhY2t1cFNlbGVjdGlvbnt9LCBmbXQuRXJyb3JmKCJpbnZhbGlkIGJhY2t1cCBzZWxlY3Rpb24gaXRlbTogJXMiLCBrZXkpCgkJfQoJCWFwcGx5KCZzZWxlY3Rpb24pCgl9CglyZXR1cm4gc2VsZWN0aW9uLCBuaWwKfQoKZnVuYyBiYWNrdXBTY2hlZHVsZUNyb25FeHByZXNzaW9uKGNmZyBCYWNrdXBTY2hlZHVsZUNvbmZpZykgKHN0cmluZywgZXJyb3IpIHsKCWhvdXIsIG1pbnV0ZSwgZXJyIDo9IHBhcnNlQmFja3VwU2NoZWR1bGVDbG9jayhjZmcuVGltZSkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiAiIiwgZXJyCgl9CgoJc3dpdGNoIGNmZy5GcmVxdWVuY3kgewoJY2FzZSAiZGFpbHkiOgoJCXJldHVybiBmbXQuU3ByaW50ZigiMCAlZCAlZCAqICogKiIsIG1pbnV0ZSwgaG91ciksIG5pbAoJY2FzZSAid2Vla2x5IjoKCQl3ZWVrZGF5IDo9IHN0cmluZ3MuVHJpbVNwYWNlKGNmZy5XZWVrZGF5KQoJCWlmIHdlZWtkYXkgPT0gIiIgewoJCQl3ZWVrZGF5ID0gIjEiCgkJfQoJCXJldHVybiBmbXQuU3ByaW50ZigiMCAlZCAlZCAqICogJXMiLCBtaW51dGUsIGhvdXIsIHdlZWtkYXkpLCBuaWwKCWNhc2UgIm1vbnRobHkiOgoJCWRheSA6PSBjZmcuTW9udGhkYXkKCQlpZiBkYXkgPCAxIHx8IGRheSA+IDI4IHsKCQkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCJpbnZhbGlkIG1vbnRobHkgZGF5OiAlZCIsIGRheSkKCQl9CgkJcmV0dXJuIGZtdC5TcHJpbnRmKCIwICVkICVkICVkICogKiIsIG1pbnV0ZSwgaG91ciwgZGF5KSwgbmlsCglkZWZhdWx0OgoJCXJldHVybiAiIiwgZm10LkVycm9yZigiaW52YWxpZCBiYWNrdXAgZnJlcXVlbmN5OiAlcyIsIGNmZy5GcmVxdWVuY3kpCgl9Cn0KCmZ1bmMgcGFyc2VCYWNrdXBTY2hlZHVsZUNsb2NrKHJhdyBzdHJpbmcpIChob3VyIGludCwgbWludXRlIGludCwgZXJyIGVycm9yKSB7CglwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0KHN0cmluZ3MuVHJpbVNwYWNlKHJhdyksICI6IikKCWlmIGxlbihwYXJ0cykgIT0gMiB7CgkJcmV0dXJuIDAsIDAsIGZtdC5FcnJvcmYoImludmFsaWQgYmFja3VwIHRpbWU6ICVzIiwgcmF3KQoJfQoKCWhvdXIsIGVyciA9IHN0cmNvbnYuQXRvaShzdHJpbmdzLlRyaW1TcGFjZShwYXJ0c1swXSkpCglpZiBlcnIgIT0gbmlsIHx8IGhvdXIgPCAwIHx8IGhvdXIgPiAyMyB7CgkJcmV0dXJuIDAsIDAsIGZtdC5FcnJvcmYoImludmFsaWQgYmFja3VwIGhvdXI6ICVzIiwgcmF3KQoJfQoJbWludXRlLCBlcnIgPSBzdHJjb252LkF0b2koc3RyaW5ncy5UcmltU3BhY2UocGFydHNbMV0pKQoJaWYgZXJyICE9IG5pbCB8fCBtaW51dGUgPCAwIHx8IG1pbnV0ZSA+IDU5IHsKCQlyZXR1cm4gMCwgMCwgZm10LkVycm9yZigiaW52YWxpZCBiYWNrdXAgbWludXRlOiAlcyIsIHJhdykKCX0KCglyZXR1cm4gaG91ciwgbWludXRlLCBuaWwKfQoKZnVuYyBidWlsZFNjaGVkdWxlZEJhY2t1cE5hbWUoY2ZnIEJhY2t1cFNjaGVkdWxlQ29uZmlnKSBzdHJpbmcgewoJcHJlZml4IDo9IHN0cmluZ3MuVHJpbVNwYWNlKGNmZy5OYW1lKQoJaWYgcHJlZml4ID09ICIiIHsKCQlwcmVmaXggPSAic2NoZWR1bGVkLWJhY2t1cCIKCX0KCXJldHVybiBmbXQuU3ByaW50ZigiJXNfJXMiLCBwcmVmaXgsIHRpbWUuTm93KCkuRm9ybWF0KCIyMDA2MDEwMl8xNTA0MDUiKSkKfQo=
+package service
+
+import (
+	"fmt"
+	"log"
+	"strconv"
+	"strings"
+	"sync"
+	"time"
+
+	"daidai-panel/model"
+
+	"github.com/robfig/cron/v3"
+)
+
+type BackupScheduleConfig struct {
+	Enabled   bool
+	Frequency string
+	Time      string
+	Weekday   string
+	Monthday  int
+	Name      string
+	Password  string
+	Selection BackupSelection
+}
+
+type BackupScheduler struct {
+	cron    *cron.Cron
+	entryID cron.EntryID
+	mu      sync.Mutex
+	running bool
+}
+
+var globalBackupScheduler *BackupScheduler
+
+func InitBackupScheduler() {
+	scheduler := &BackupScheduler{
+		cron: cron.New(cron.WithSeconds(), cron.WithChain(cron.Recover(cron.DefaultLogger))),
+	}
+	scheduler.cron.Start()
+	globalBackupScheduler = scheduler
+	scheduler.Reload()
+	log.Println("backup scheduler initialized")
+}
+
+func ShutdownBackupScheduler() {
+	if globalBackupScheduler == nil {
+		return
+	}
+	ctx := globalBackupScheduler.cron.Stop()
+	<-ctx.Done()
+	log.Println("backup scheduler stopped")
+}
+
+func GetBackupScheduler() *BackupScheduler {
+	return globalBackupScheduler
+}
+
+func ReloadBackupScheduler() {
+	if globalBackupScheduler == nil {
+		return
+	}
+	globalBackupScheduler.Reload()
+}
+
+func (s *BackupScheduler) Reload() {
+	if s == nil {
+		return
+	}
+
+	s.mu.Lock()
+	defer s.mu.Unlock()
+
+	if s.entryID != 0 {
+		s.cron.Remove(s.entryID)
+		s.entryID = 0
+	}
+
+	cfg, err := loadBackupScheduleConfig()
+	if err != nil {
+		log.Printf("backup scheduler config invalid: %v", err)
+		return
+	}
+	if !cfg.Enabled {
+		return
+	}
+
+	cronExpr, err := backupScheduleCronExpression(cfg)
+	if err != nil {
+		log.Printf("backup scheduler cron invalid: %v", err)
+		return
+	}
+
+	entryID, err := s.cron.AddFunc(cronExpr, func() {
+		s.runScheduledBackup()
+	})
+	if err != nil {
+		log.Printf("backup scheduler add job failed: %v", err)
+		return
+	}
+
+	s.entryID = entryID
+}
+
+func (s *BackupScheduler) runScheduledBackup() {
+	s.mu.Lock()
+	if s.running {
+		s.mu.Unlock()
+		log.Println("backup scheduler skipped: previous backup still running")
+		return
+	}
+	s.running = true
+	s.mu.Unlock()
+
+	defer func() {
+		s.mu.Lock()
+		s.running = false
+		s.mu.Unlock()
+	}()
+
+	cfg, err := loadBackupScheduleConfig()
+	if err != nil {
+		log.Printf("backup scheduler load config failed: %v", err)
+		return
+	}
+	if !cfg.Enabled {
+		return
+	}
+
+	filePath, err := CreateBackup(BackupCreateOptions{
+		Password:  cfg.Password,
+		Name:      buildScheduledBackupName(cfg),
+		Selection: cfg.Selection,
+	})
+	if err != nil {
+		log.Printf("backup scheduler create backup failed: %v", err)
+		return
+	}
+
+	log.Printf("backup scheduler created backup: %s", filePath)
+
+	cleanupOldScheduledBackups(cfg, 3)
+}
+
+func cleanupOldScheduledBackups(cfg BackupScheduleConfig, retentionDays int) {
+	backups, err := ListBackups()
+	if err != nil {
+		log.Printf("backup cleanup: list backups failed: %v", err)
+		return
+	}
+
+	prefix := strings.TrimSpace(cfg.Name)
+	if prefix == "" {
+		prefix = "scheduled-backup"
+	}
+
+	cutoff := time.Now().AddDate(0, 0, -retentionDays)
+	deleted := 0
+
+	for _, b := range backups {
+		name, _ := b["name"].(string)
+		if name == "" || !strings.HasPrefix(name, prefix) {
+			continue
+		}
+		createdAt, ok := b["created_at"].(time.Time)
+		if !ok {
+			continue
+		}
+		if createdAt.Before(cutoff) {
+			if err := DeleteBackup(name); err != nil {
+				log.Printf("backup cleanup: delete %s failed: %v", name, err)
+			} else {
+				deleted++
+			}
+		}
+	}
+
+	if deleted > 0 {
+		log.Printf("backup cleanup: deleted %d old scheduled backup(s) older than %d days", deleted, retentionDays)
+	}
+}
+
+func loadBackupScheduleConfig() (BackupScheduleConfig, error) {
+	selection, err := parseBackupSelectionCSV(model.GetRegisteredConfig("backup_schedule_selection"))
+	if err != nil {
+		return BackupScheduleConfig{}, err
+	}
+
+	cfg := BackupScheduleConfig{
+		Enabled:   model.GetRegisteredConfigBool("backup_schedule_enabled"),
+		Frequency: strings.ToLower(strings.TrimSpace(model.GetRegisteredConfig("backup_schedule_frequency"))),
+		Time:      strings.TrimSpace(model.GetRegisteredConfig("backup_schedule_time")),
+		Weekday:   strings.TrimSpace(model.GetRegisteredConfig("backup_schedule_weekday")),
+		Monthday:  model.GetRegisteredConfigInt("backup_schedule_monthday"),
+		Name:      strings.TrimSpace(model.GetRegisteredConfig("backup_schedule_name")),
+		Password:  model.GetRegisteredConfig("backup_schedule_password"),
+		Selection: selection.NormalizeDefaults(),
+	}
+
+	if cfg.Frequency == "" {
+		cfg.Frequency = "daily"
+	}
+	if cfg.Time == "" {
+		cfg.Time = "03:00"
+	}
+	if cfg.Monthday <= 0 {
+		cfg.Monthday = 1
+	}
+	return cfg, nil
+}
+
+func parseBackupSelectionCSV(raw string) (BackupSelection, error) {
+	allowed := map[string]func(*BackupSelection){
+		"configs":       func(s *BackupSelection) { s.Configs = true },
+		"tasks":         func(s *BackupSelection) { s.Tasks = true },
+		"subscriptions": func(s *BackupSelection) { s.Subscriptions = true },
+		"env_vars":      func(s *BackupSelection) { s.EnvVars = true },
+		"logs":          func(s *BackupSelection) { s.Logs = true },
+		"scripts":       func(s *BackupSelection) { s.Scripts = true },
+		"dependencies":  func(s *BackupSelection) { s.Dependencies = true },
+		"task_views":    func(s *BackupSelection) { s.TaskViews = true },
+	}
+
+	var selection BackupSelection
+	for _, token := range strings.FieldsFunc(strings.TrimSpace(raw), func(r rune) bool {
+		return r == ',' || r == ';' || r == '\n' || r == '\r' || r == '\t' || r == ' '
+	}) {
+		key := strings.ToLower(strings.TrimSpace(token))
+		if key == "" {
+			continue
+		}
+		apply, ok := allowed[key]
+		if !ok {
+			return BackupSelection{}, fmt.Errorf("invalid backup selection item: %s", key)
+		}
+		apply(&selection)
+	}
+	return selection, nil
+}
+
+func backupScheduleCronExpression(cfg BackupScheduleConfig) (string, error) {
+	hour, minute, err := parseBackupScheduleClock(cfg.Time)
+	if err != nil {
+		return "", err
+	}
+
+	switch cfg.Frequency {
+	case "daily":
+		return fmt.Sprintf("0 %d %d * * *", minute, hour), nil
+	case "weekly":
+		weekday := strings.TrimSpace(cfg.Weekday)
+		if weekday == "" {
+			weekday = "1"
+		}
+		return fmt.Sprintf("0 %d %d * * %s", minute, hour, weekday), nil
+	case "monthly":
+		day := cfg.Monthday
+		if day < 1 || day > 28 {
+			return "", fmt.Errorf("invalid monthly day: %d", day)
+		}
+		return fmt.Sprintf("0 %d %d %d * *", minute, hour, day), nil
+	default:
+		return "", fmt.Errorf("invalid backup frequency: %s", cfg.Frequency)
+	}
+}
+
+func parseBackupScheduleClock(raw string) (hour int, minute int, err error) {
+	parts := strings.Split(strings.TrimSpace(raw), ":")
+	if len(parts) != 2 {
+		return 0, 0, fmt.Errorf("invalid backup time: %s", raw)
+	}
+
+	hour, err = strconv.Atoi(strings.TrimSpace(parts[0]))
+	if err != nil || hour < 0 || hour > 23 {
+		return 0, 0, fmt.Errorf("invalid backup hour: %s", raw)
+	}
+	minute, err = strconv.Atoi(strings.TrimSpace(parts[1]))
+	if err != nil || minute < 0 || minute > 59 {
+		return 0, 0, fmt.Errorf("invalid backup minute: %s", raw)
+	}
+
+	return hour, minute, nil
+}
+
+func buildScheduledBackupName(cfg BackupScheduleConfig) string {
+	prefix := strings.TrimSpace(cfg.Name)
+	if prefix == "" {
+		prefix = "scheduled-backup"
+	}
+	return fmt.Sprintf("%s_%s", prefix, time.Now().Format("20060102_150405"))
+}

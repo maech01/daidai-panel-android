@@ -1,1 +1,284 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IGNvbXB1dGVkLCByZWYsIHdhdGNoIH0gZnJvbSAndnVlJwppbXBvcnQgeyBFbE1lc3NhZ2UgfSBmcm9tICdlbGVtZW50LXBsdXMnCmltcG9ydCB7IHVzZVJlc3BvbnNpdmUgfSBmcm9tICdAL2NvbXBvc2FibGVzL3VzZVJlc3BvbnNpdmUnCgp0eXBlIEVudkZvcm1Nb2RlbCA9IHsKICBpZDogbnVtYmVyCiAgbmFtZTogc3RyaW5nCiAgdmFsdWU6IHN0cmluZwogIHJlbWFya3M6IHN0cmluZwogIGdyb3VwPzogc3RyaW5nCiAgZ3JvdXBzOiBzdHJpbmdbXQp9Cgpjb25zdCBwcm9wcyA9IHdpdGhEZWZhdWx0cyhkZWZpbmVQcm9wczx7CiAgbW9kZWxWYWx1ZTogYm9vbGVhbgogIG1vZGU6ICdjcmVhdGUnIHwgJ2VkaXQnCiAgaW5pdGlhbERhdGE/OiBFbnZGb3JtTW9kZWwgfCBudWxsCiAgZ3JvdXBzPzogc3RyaW5nW10KfT4oKSwgewogIGluaXRpYWxEYXRhOiBudWxsLAogIGdyb3VwczogKCkgPT4gW10KfSkKCmNvbnN0IGVtaXQgPSBkZWZpbmVFbWl0czx7CiAgJ3VwZGF0ZTptb2RlbFZhbHVlJzogW3ZhbHVlOiBib29sZWFuXQogIHNhdmU6IFt2YWx1ZTogRW52Rm9ybU1vZGVsIHwgRW52Rm9ybU1vZGVsW11dCn0+KCkKCi8vIOS4juWQjuerryBlbnZOYW1lUGF0dGVybiDlr7npvZDvvJrlrZfmr40v5pWw5a2XL+S4i+WIkue6v++8jOS4lOS4jeiDveS7peaVsOWtl+W8gOWktApjb25zdCBFTlZfTkFNRV9QQVRURVJOID0gL15bQS1aYS16X11bQS1aYS16MC05X10qJC8KCmZ1bmN0aW9uIHNwbGl0RW52R3JvdXBzKHZhbHVlOiBzdHJpbmcpOiBzdHJpbmdbXSB7CiAgcmV0dXJuIHZhbHVlCiAgICAuc3BsaXQoL1ss77yMO++8m1xuXHJcdF0vKQogICAgLm1hcChncm91cCA9PiBncm91cC50cmltKCkpCiAgICAuZmlsdGVyKChncm91cCwgaW5kZXgsIGxpc3QpID0+IGdyb3VwICE9PSAnJyAmJiBsaXN0LmluZGV4T2YoZ3JvdXApID09PSBpbmRleCkKfQoKZnVuY3Rpb24gbm9ybWFsaXplR3JvdXBMaXN0KGdyb3Vwczogc3RyaW5nW10pOiBzdHJpbmdbXSB7CiAgcmV0dXJuIHNwbGl0RW52R3JvdXBzKGdyb3Vwcy5qb2luKCcsJykpCn0KCmZ1bmN0aW9uIGNyZWF0ZUVtcHR5Rm9ybSgpOiBFbnZGb3JtTW9kZWwgewogIHJldHVybiB7IGlkOiAwLCBuYW1lOiAnJywgdmFsdWU6ICcnLCByZW1hcmtzOiAnJywgZ3JvdXA6ICcnLCBncm91cHM6IFtdIH0KfQoKY29uc3QgZm9ybSA9IHJlZjxFbnZGb3JtTW9kZWw+KGNyZWF0ZUVtcHR5Rm9ybSgpKQpjb25zdCBzcGxpdE1vZGUgPSByZWYoZmFsc2UpCmNvbnN0IHsgZGlhbG9nRnVsbHNjcmVlbiB9ID0gdXNlUmVzcG9uc2l2ZSgpCgpjb25zdCBpc0NyZWF0ZSA9IGNvbXB1dGVkKCgpID0+IHByb3BzLm1vZGUgPT09ICdjcmVhdGUnKQpjb25zdCBkaWFsb2dUaXRsZSA9IGNvbXB1dGVkKCgpID0+IGlzQ3JlYXRlLnZhbHVlID8gJ+aWsOW7uueOr+Wig+WPmOmHjycgOiAn57yW6L6R546v5aKD5Y+Y6YePJykKY29uc3Qgc3VibWl0VGV4dCA9IGNvbXB1dGVkKCgpID0+IGlzQ3JlYXRlLnZhbHVlID8gJ+WIm+W7uicgOiAn5L+d5a2YJykKCi8vIOW3sui+k+WFpeS9huS4jeespuWQiOinhOWImeaXtu+8jOaPkOekuuaWh+Wtl+WPmOe6ogpjb25zdCBuYW1lSW52YWxpZCA9IGNvbXB1dGVkKCgpID0+IHsKICBjb25zdCBuYW1lID0gZm9ybS52YWx1ZS5uYW1lLnRyaW0oKQogIHJldHVybiBuYW1lICE9PSAnJyAmJiAhRU5WX05BTUVfUEFUVEVSTi50ZXN0KG5hbWUpCn0pCgpmdW5jdGlvbiBzeW5jRm9ybSgpIHsKICBjb25zdCBpbml0aWFsID0gcHJvcHMuaW5pdGlhbERhdGEgPz8gY3JlYXRlRW1wdHlGb3JtKCkKICBjb25zdCBpbml0aWFsR3JvdXBzID0gaW5pdGlhbC5ncm91cHM/Lmxlbmd0aAogICAgPyBub3JtYWxpemVHcm91cExpc3QoaW5pdGlhbC5ncm91cHMpCiAgICA6IHNwbGl0RW52R3JvdXBzKGluaXRpYWwuZ3JvdXAgfHwgJycpCiAgZm9ybS52YWx1ZSA9IHsKICAgIC4uLmNyZWF0ZUVtcHR5Rm9ybSgpLAogICAgLi4uaW5pdGlhbCwKICAgIGdyb3VwOiBpbml0aWFsR3JvdXBzLmpvaW4oJywnKSwKICAgIGdyb3VwczogaW5pdGlhbEdyb3VwcwogIH0KICBzcGxpdE1vZGUudmFsdWUgPSBmYWxzZQp9CgpmdW5jdGlvbiBjbG9zZURpYWxvZygpIHsKICBlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsIGZhbHNlKQp9CgpmdW5jdGlvbiBoYW5kbGVTYXZlKCkgewogIGNvbnN0IG5hbWUgPSBmb3JtLnZhbHVlLm5hbWUudHJpbSgpCiAgY29uc3QgcmVtYXJrcyA9IGZvcm0udmFsdWUucmVtYXJrcy50cmltKCkKICBjb25zdCBncm91cHMgPSBub3JtYWxpemVHcm91cExpc3QoZm9ybS52YWx1ZS5ncm91cHMpCiAgY29uc3QgZ3JvdXAgPSBncm91cHMuam9pbignLCcpCgogIGlmICghbmFtZSkgewogICAgRWxNZXNzYWdlLndhcm5pbmcoJ+WPmOmHj+WQjeS4jeiDveS4uuepuicpCiAgICByZXR1cm4KICB9CgogIGlmICghRU5WX05BTUVfUEFUVEVSTi50ZXN0KG5hbWUpKSB7CiAgICBFbE1lc3NhZ2Uud2FybmluZygn5Y+Y6YeP5ZCN5Y+q6IO95YyF5ZCr5a2X5q+N44CB5pWw5a2X44CB5LiL5YiS57q/77yM5LiU5LiN6IO95Lul5pWw5a2X5byA5aS0JykKICAgIHJldHVybgogIH0KCiAgaWYgKGlzQ3JlYXRlLnZhbHVlICYmIHNwbGl0TW9kZS52YWx1ZSkgewogICAgY29uc3QgbGluZXMgPSBmb3JtLnZhbHVlLnZhbHVlLnNwbGl0KCdcbicpLmZpbHRlcihsaW5lID0+IGxpbmUudHJpbSgpICE9PSAnJykKICAgIGlmIChsaW5lcy5sZW5ndGggPT09IDApIHsKICAgICAgRWxNZXNzYWdlLndhcm5pbmcoJ+ivt+i+k+WFpeiHs+WwkeS4gOihjOWPmOmHj+WAvCcpCiAgICAgIHJldHVybgogICAgfQogICAgY29uc3QgaXRlbXM6IEVudkZvcm1Nb2RlbFtdID0gbGluZXMubWFwKGxpbmUgPT4gKHsKICAgICAgaWQ6IDAsCiAgICAgIG5hbWUsCiAgICAgIHZhbHVlOiBsaW5lLnRyaW0oKSwKICAgICAgcmVtYXJrcywKICAgICAgZ3JvdXAsCiAgICAgIGdyb3VwcwogICAgfSkpCiAgICBlbWl0KCdzYXZlJywgaXRlbXMpCiAgfSBlbHNlIHsKICAgIGVtaXQoJ3NhdmUnLCB7CiAgICAgIGlkOiBmb3JtLnZhbHVlLmlkLAogICAgICBuYW1lLAogICAgICB2YWx1ZTogZm9ybS52YWx1ZS52YWx1ZSwKICAgICAgcmVtYXJrcywKICAgICAgZ3JvdXAsCiAgICAgIGdyb3VwcwogICAgfSkKICB9Cn0KCndhdGNoKAogICgpID0+IFtwcm9wcy5tb2RlbFZhbHVlLCBwcm9wcy5pbml0aWFsRGF0YSwgcHJvcHMubW9kZV0sCiAgKFt2aXNpYmxlXSkgPT4gewogICAgaWYgKHZpc2libGUpIHsKICAgICAgc3luY0Zvcm0oKQogICAgfQogIH0sCiAgeyBpbW1lZGlhdGU6IHRydWUgfQopCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1kaWFsb2cKICAgIDptb2RlbC12YWx1ZT0ibW9kZWxWYWx1ZSIKICAgIDp0aXRsZT0iZGlhbG9nVGl0bGUiCiAgICB3aWR0aD0iNzYwcHgiCiAgICB0b3A9Ijh2aCIKICAgIGNsYXNzPSJlbnYtZWRpdC1kaWFsb2ciCiAgICA6ZnVsbHNjcmVlbj0iZGlhbG9nRnVsbHNjcmVlbiIKICAgIDpjbG9zZS1vbi1jbGljay1tb2RhbD0iZmFsc2UiCiAgICBkZXN0cm95LW9uLWNsb3NlCiAgICBAdXBkYXRlOm1vZGVsLXZhbHVlPSJlbWl0KCd1cGRhdGU6bW9kZWxWYWx1ZScsICRldmVudCkiCiAgPgogICAgPGVsLWZvcm0KICAgICAgY2xhc3M9ImVudi1lZGl0LWRpYWxvZ19fZm9ybSIKICAgICAgOm1vZGVsPSJmb3JtIgogICAgICA6bGFiZWwtd2lkdGg9ImRpYWxvZ0Z1bGxzY3JlZW4gPyAnYXV0bycgOiAnODRweCciCiAgICAgIDpsYWJlbC1wb3NpdGlvbj0iZGlhbG9nRnVsbHNjcmVlbiA/ICd0b3AnIDogJ3JpZ2h0JyIKICAgID4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5Y+Y6YeP5ZCNIj4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5uYW1lIiBwbGFjZWhvbGRlcj0i5Y+Y6YeP5ZCNICjlpoI6IEFQSV9LRVkpIiAvPgogICAgICAgIDxkaXYgY2xhc3M9ImVudi1lZGl0LWRpYWxvZ19fbmFtZS1oaW50IiA6Y2xhc3M9InsgJ2lzLWVycm9yJzogbmFtZUludmFsaWQgfSI+CiAgICAgICAgICDlj6rog73ovpPlhaXlrZfmr43jgIHmlbDlrZfjgIHkuIvliJLnur/vvIzkuJTkuI3og73ku6XmlbDlrZflvIDlpLQKICAgICAgICA8L2Rpdj4KICAgICAgPC9lbC1mb3JtLWl0ZW0+CiAgICAgIDxlbC1mb3JtLWl0ZW0gdi1pZj0iaXNDcmVhdGUiIGxhYmVsPSLmjInooYzmi4bliIYiPgogICAgICAgIDxkaXYgc3R5bGU9ImRpc3BsYXk6IGZsZXg7IGFsaWduLWl0ZW1zOiBjZW50ZXI7IGdhcDogOHB4OyB3aWR0aDogMTAwJSI+CiAgICAgICAgICA8ZWwtc3dpdGNoIHYtbW9kZWw9InNwbGl0TW9kZSIgLz4KICAgICAgICAgIDxzcGFuIHN0eWxlPSJmb250LXNpemU6IDEycHg7IGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXNlY29uZGFyeSkiPgogICAgICAgICAgICB7eyBzcGxpdE1vZGUgPyAn5q+P6KGM5Yib5bu65LiA5Liq5Y+Y6YePJyA6ICfmiYDmnInooYzkvZzkuLrkuIDkuKrlj5jph4/lgLwnIH19CiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZWwtZm9ybS1pdGVtPgogICAgICA8ZWwtZm9ybS1pdGVtIGNsYXNzPSJlbnYtZWRpdC1kaWFsb2dfX3ZhbHVlLWl0ZW0iIGxhYmVsPSLlgLwiPgogICAgICAgIDxlbC1pbnB1dAogICAgICAgICAgdi1tb2RlbD0iZm9ybS52YWx1ZSIKICAgICAgICAgIHR5cGU9InRleHRhcmVhIgogICAgICAgICAgOnJvd3M9ImlzQ3JlYXRlID8gMTAgOiAxMiIKICAgICAgICAgIDpwbGFjZWhvbGRlcj0ic3BsaXRNb2RlID8gJ+avj+ihjOS4gOS4quWAvCcgOiAn5Y+Y6YeP5YC8JyIKICAgICAgICAvPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5aSH5rOoIj4KICAgICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5yZW1hcmtzIiBwbGFjZWhvbGRlcj0i5aSH5rOo6K+05piOIiAvPgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgICAgPGVsLWZvcm0taXRlbSBsYWJlbD0i5YiG57uEIj4KICAgICAgICA8ZWwtc2VsZWN0CiAgICAgICAgICB2LW1vZGVsPSJmb3JtLmdyb3VwcyIKICAgICAgICAgIG11bHRpcGxlCiAgICAgICAgICBmaWx0ZXJhYmxlCiAgICAgICAgICBhbGxvdy1jcmVhdGUKICAgICAgICAgIGRlZmF1bHQtZmlyc3Qtb3B0aW9uCiAgICAgICAgICBjb2xsYXBzZS10YWdzCiAgICAgICAgICBjb2xsYXBzZS10YWdzLXRvb2x0aXAKICAgICAgICAgIGNsZWFyYWJsZQogICAgICAgICAgcGxhY2Vob2xkZXI9IuWPr+mAieaLqeWkmuS4quWIhue7hO+8jOS5n+WPr+ebtOaOpei+k+WFpeaWsOWIhue7hCIKICAgICAgICAgIHN0eWxlPSJ3aWR0aDogMTAwJSIKICAgICAgICA+CiAgICAgICAgICA8ZWwtb3B0aW9uIHYtZm9yPSJncm91cCBpbiBncm91cHMiIDprZXk9Imdyb3VwIiA6bGFiZWw9Imdyb3VwIiA6dmFsdWU9Imdyb3VwIiAvPgogICAgICAgIDwvZWwtc2VsZWN0PgogICAgICA8L2VsLWZvcm0taXRlbT4KICAgIDwvZWwtZm9ybT4KICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICA8ZWwtYnV0dG9uIEBjbGljaz0iY2xvc2VEaWFsb2ciPuWPlua2iDwvZWwtYnV0dG9uPgogICAgICA8ZWwtYnV0dG9uIHR5cGU9InByaW1hcnkiIEBjbGljaz0iaGFuZGxlU2F2ZSI+e3sgc3VibWl0VGV4dCB9fTwvZWwtYnV0dG9uPgogICAgPC90ZW1wbGF0ZT4KICA8L2VsLWRpYWxvZz4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQ+CjpkZWVwKC5lbnYtZWRpdC1kaWFsb2cpIHsKICBtYXgtd2lkdGg6IGNhbGMoMTAwdncgLSA0OHB4KTsKfQoKOmRlZXAoLmVudi1lZGl0LWRpYWxvZyAuZWwtZGlhbG9nX19oZWFkZXIpIHsKICBwYWRkaW5nOiAyMHB4IDI0cHggMTRweDsKICBtYXJnaW4tcmlnaHQ6IDA7CiAgYm9yZGVyLWJvdHRvbTogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodGVyKTsKfQoKOmRlZXAoLmVudi1lZGl0LWRpYWxvZyAuZWwtZGlhbG9nX19ib2R5KSB7CiAgbWF4LWhlaWdodDogY2FsYyg3OHZoIC0gMTI4cHgpOwogIHBhZGRpbmc6IDAgMjRweDsKICBvdmVyZmxvdy15OiBhdXRvOwp9Cgo6ZGVlcCguZW52LWVkaXQtZGlhbG9nIC5lbC1kaWFsb2dfX2Zvb3RlcikgewogIHBhZGRpbmc6IDE0cHggMjRweCAxOHB4OwogIGJvcmRlci10b3A6IDFweCBzb2xpZCB2YXIoLS1lbC1ib3JkZXItY29sb3ItbGlnaHRlcik7Cn0KCi5lbnYtZWRpdC1kaWFsb2dfX2Zvcm0gewogIHBhZGRpbmc6IDE4cHggMCAyMHB4Owp9CgouZW52LWVkaXQtZGlhbG9nX19mb3JtIDpkZWVwKC5lbC1mb3JtLWl0ZW1fX2xhYmVsKSB7CiAgd2hpdGUtc3BhY2U6IG5vd3JhcDsKICB3b3JkLWJyZWFrOiBrZWVwLWFsbDsKfQoKLmVudi1lZGl0LWRpYWxvZ19fbmFtZS1oaW50IHsKICB3aWR0aDogMTAwJTsKICBtYXJnaW4tdG9wOiA0cHg7CiAgZm9udC1zaXplOiAxMnB4OwogIGxpbmUtaGVpZ2h0OiAxLjU7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKfQoKLmVudi1lZGl0LWRpYWxvZ19fbmFtZS1oaW50LmlzLWVycm9yIHsKICBjb2xvcjogdmFyKC0tZWwtY29sb3ItZGFuZ2VyKTsKfQoKLmVudi1lZGl0LWRpYWxvZ19fdmFsdWUtaXRlbSA6ZGVlcCguZWwtZm9ybS1pdGVtX19sYWJlbCkgewogIGFsaWduLXNlbGY6IGZsZXgtc3RhcnQ7Cn0KCi5lbnYtZWRpdC1kaWFsb2dfX3ZhbHVlLWl0ZW0gOmRlZXAoLmVsLXRleHRhcmVhX19pbm5lcikgewogIG1pbi1oZWlnaHQ6IDI4MHB4OwogIG1heC1oZWlnaHQ6IDQydmg7CiAgb3ZlcmZsb3c6IGF1dG87CiAgcmVzaXplOiB2ZXJ0aWNhbDsKICBsaW5lLWhlaWdodDogMS42OwogIGZvbnQtZmFtaWx5OiB1aS1tb25vc3BhY2UsIFNGTW9uby1SZWd1bGFyLCBNZW5sbywgTW9uYWNvLCBDb25zb2xhcywgIkxpYmVyYXRpb24gTW9ubyIsIG1vbm9zcGFjZTsKfQoKQG1lZGlhIChtYXgtd2lkdGg6IDc2OHB4KSB7CiAgOmRlZXAoLmVudi1lZGl0LWRpYWxvZykgewogICAgbWF4LXdpZHRoOiAxMDB2dzsKICB9CgogIDpkZWVwKC5lbnYtZWRpdC1kaWFsb2cgLmVsLWRpYWxvZ19faGVhZGVyKSB7CiAgICBwYWRkaW5nOiAxNnB4IDE4cHggMTJweDsKICB9CgogIDpkZWVwKC5lbnYtZWRpdC1kaWFsb2cgLmVsLWRpYWxvZ19fYm9keSkgewogICAgbWF4LWhlaWdodDogbm9uZTsKICAgIHBhZGRpbmc6IDAgMThweDsKICB9CgogIDpkZWVwKC5lbnYtZWRpdC1kaWFsb2cgLmVsLWRpYWxvZ19fZm9vdGVyKSB7CiAgICBwYWRkaW5nOiAxMnB4IDE4cHggMTZweDsKICB9CgogIC5lbnYtZWRpdC1kaWFsb2dfX2Zvcm0gewogICAgcGFkZGluZzogMTRweCAwIDE4cHg7CiAgfQoKICAuZW52LWVkaXQtZGlhbG9nX192YWx1ZS1pdGVtIDpkZWVwKC5lbC10ZXh0YXJlYV9faW5uZXIpIHsKICAgIG1pbi1oZWlnaHQ6IDQ1dmg7CiAgICBtYXgtaGVpZ2h0OiBub25lOwogIH0KfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import { computed, ref, watch } from 'vue'
+import { ElMessage } from 'element-plus'
+import { useResponsive } from '@/composables/useResponsive'
+
+type EnvFormModel = {
+  id: number
+  name: string
+  value: string
+  remarks: string
+  group?: string
+  groups: string[]
+}
+
+const props = withDefaults(defineProps<{
+  modelValue: boolean
+  mode: 'create' | 'edit'
+  initialData?: EnvFormModel | null
+  groups?: string[]
+}>(), {
+  initialData: null,
+  groups: () => []
+})
+
+const emit = defineEmits<{
+  'update:modelValue': [value: boolean]
+  save: [value: EnvFormModel | EnvFormModel[]]
+}>()
+
+// 与后端 envNamePattern 对齐：字母/数字/下划线，且不能以数字开头
+const ENV_NAME_PATTERN = /^[A-Za-z_][A-Za-z0-9_]*$/
+
+function splitEnvGroups(value: string): string[] {
+  return value
+    .split(/[,，;；\n\r\t]/)
+    .map(group => group.trim())
+    .filter((group, index, list) => group !== '' && list.indexOf(group) === index)
+}
+
+function normalizeGroupList(groups: string[]): string[] {
+  return splitEnvGroups(groups.join(','))
+}
+
+function createEmptyForm(): EnvFormModel {
+  return { id: 0, name: '', value: '', remarks: '', group: '', groups: [] }
+}
+
+const form = ref<EnvFormModel>(createEmptyForm())
+const splitMode = ref(false)
+const { dialogFullscreen } = useResponsive()
+
+const isCreate = computed(() => props.mode === 'create')
+const dialogTitle = computed(() => isCreate.value ? '新建环境变量' : '编辑环境变量')
+const submitText = computed(() => isCreate.value ? '创建' : '保存')
+
+// 已输入但不符合规则时，提示文字变红
+const nameInvalid = computed(() => {
+  const name = form.value.name.trim()
+  return name !== '' && !ENV_NAME_PATTERN.test(name)
+})
+
+function syncForm() {
+  const initial = props.initialData ?? createEmptyForm()
+  const initialGroups = initial.groups?.length
+    ? normalizeGroupList(initial.groups)
+    : splitEnvGroups(initial.group || '')
+  form.value = {
+    ...createEmptyForm(),
+    ...initial,
+    group: initialGroups.join(','),
+    groups: initialGroups
+  }
+  splitMode.value = false
+}
+
+function closeDialog() {
+  emit('update:modelValue', false)
+}
+
+function handleSave() {
+  const name = form.value.name.trim()
+  const remarks = form.value.remarks.trim()
+  const groups = normalizeGroupList(form.value.groups)
+  const group = groups.join(',')
+
+  if (!name) {
+    ElMessage.warning('变量名不能为空')
+    return
+  }
+
+  if (!ENV_NAME_PATTERN.test(name)) {
+    ElMessage.warning('变量名只能包含字母、数字、下划线，且不能以数字开头')
+    return
+  }
+
+  if (isCreate.value && splitMode.value) {
+    const lines = form.value.value.split('\n').filter(line => line.trim() !== '')
+    if (lines.length === 0) {
+      ElMessage.warning('请输入至少一行变量值')
+      return
+    }
+    const items: EnvFormModel[] = lines.map(line => ({
+      id: 0,
+      name,
+      value: line.trim(),
+      remarks,
+      group,
+      groups
+    }))
+    emit('save', items)
+  } else {
+    emit('save', {
+      id: form.value.id,
+      name,
+      value: form.value.value,
+      remarks,
+      group,
+      groups
+    })
+  }
+}
+
+watch(
+  () => [props.modelValue, props.initialData, props.mode],
+  ([visible]) => {
+    if (visible) {
+      syncForm()
+    }
+  },
+  { immediate: true }
+)
+</script>
+
+<template>
+  <el-dialog
+    :model-value="modelValue"
+    :title="dialogTitle"
+    width="760px"
+    top="8vh"
+    class="env-edit-dialog"
+    :fullscreen="dialogFullscreen"
+    :close-on-click-modal="false"
+    destroy-on-close
+    @update:model-value="emit('update:modelValue', $event)"
+  >
+    <el-form
+      class="env-edit-dialog__form"
+      :model="form"
+      :label-width="dialogFullscreen ? 'auto' : '84px'"
+      :label-position="dialogFullscreen ? 'top' : 'right'"
+    >
+      <el-form-item label="变量名">
+        <el-input v-model="form.name" placeholder="变量名 (如: API_KEY)" />
+        <div class="env-edit-dialog__name-hint" :class="{ 'is-error': nameInvalid }">
+          只能输入字母、数字、下划线，且不能以数字开头
+        </div>
+      </el-form-item>
+      <el-form-item v-if="isCreate" label="按行拆分">
+        <div style="display: flex; align-items: center; gap: 8px; width: 100%">
+          <el-switch v-model="splitMode" />
+          <span style="font-size: 12px; color: var(--el-text-color-secondary)">
+            {{ splitMode ? '每行创建一个变量' : '所有行作为一个变量值' }}
+          </span>
+        </div>
+      </el-form-item>
+      <el-form-item class="env-edit-dialog__value-item" label="值">
+        <el-input
+          v-model="form.value"
+          type="textarea"
+          :rows="isCreate ? 10 : 12"
+          :placeholder="splitMode ? '每行一个值' : '变量值'"
+        />
+      </el-form-item>
+      <el-form-item label="备注">
+        <el-input v-model="form.remarks" placeholder="备注说明" />
+      </el-form-item>
+      <el-form-item label="分组">
+        <el-select
+          v-model="form.groups"
+          multiple
+          filterable
+          allow-create
+          default-first-option
+          collapse-tags
+          collapse-tags-tooltip
+          clearable
+          placeholder="可选择多个分组，也可直接输入新分组"
+          style="width: 100%"
+        >
+          <el-option v-for="group in groups" :key="group" :label="group" :value="group" />
+        </el-select>
+      </el-form-item>
+    </el-form>
+    <template #footer>
+      <el-button @click="closeDialog">取消</el-button>
+      <el-button type="primary" @click="handleSave">{{ submitText }}</el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped>
+:deep(.env-edit-dialog) {
+  max-width: calc(100vw - 48px);
+}
+
+:deep(.env-edit-dialog .el-dialog__header) {
+  padding: 20px 24px 14px;
+  margin-right: 0;
+  border-bottom: 1px solid var(--el-border-color-lighter);
+}
+
+:deep(.env-edit-dialog .el-dialog__body) {
+  max-height: calc(78vh - 128px);
+  padding: 0 24px;
+  overflow-y: auto;
+}
+
+:deep(.env-edit-dialog .el-dialog__footer) {
+  padding: 14px 24px 18px;
+  border-top: 1px solid var(--el-border-color-lighter);
+}
+
+.env-edit-dialog__form {
+  padding: 18px 0 20px;
+}
+
+.env-edit-dialog__form :deep(.el-form-item__label) {
+  white-space: nowrap;
+  word-break: keep-all;
+}
+
+.env-edit-dialog__name-hint {
+  width: 100%;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--el-text-color-secondary);
+}
+
+.env-edit-dialog__name-hint.is-error {
+  color: var(--el-color-danger);
+}
+
+.env-edit-dialog__value-item :deep(.el-form-item__label) {
+  align-self: flex-start;
+}
+
+.env-edit-dialog__value-item :deep(.el-textarea__inner) {
+  min-height: 280px;
+  max-height: 42vh;
+  overflow: auto;
+  resize: vertical;
+  line-height: 1.6;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+@media (max-width: 768px) {
+  :deep(.env-edit-dialog) {
+    max-width: 100vw;
+  }
+
+  :deep(.env-edit-dialog .el-dialog__header) {
+    padding: 16px 18px 12px;
+  }
+
+  :deep(.env-edit-dialog .el-dialog__body) {
+    max-height: none;
+    padding: 0 18px;
+  }
+
+  :deep(.env-edit-dialog .el-dialog__footer) {
+    padding: 12px 18px 16px;
+  }
+
+  .env-edit-dialog__form {
+    padding: 14px 0 18px;
+  }
+
+  .env-edit-dialog__value-item :deep(.el-textarea__inner) {
+    min-height: 45vh;
+    max-height: none;
+  }
+}
+</style>

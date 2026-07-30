@@ -1,1 +1,81 @@
-aW1wb3J0IHJlcXVlc3QgZnJvbSAnLi9yZXF1ZXN0JwoKZXhwb3J0IGNvbnN0IHVzZXJBcGkgPSB7CiAgbGlzdCgpIHsKICAgIHJldHVybiByZXF1ZXN0LmdldCgnL3VzZXJzJykgYXMgUHJvbWlzZTx7IGRhdGE6IGFueVtdIH0+CiAgfSwKCiAgY3JlYXRlKGRhdGE6IHsgdXNlcm5hbWU6IHN0cmluZzsgcGFzc3dvcmQ6IHN0cmluZzsgcm9sZT86IHN0cmluZyB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wb3N0KCcvdXNlcnMnLCBkYXRhKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICB1cGRhdGUoaWQ6IG51bWJlciwgZGF0YTogeyByb2xlPzogc3RyaW5nOyBlbmFibGVkPzogYm9vbGVhbiB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5wdXQoYC91c2Vycy8ke2lkfWAsIGRhdGEpIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmc7IGRhdGE6IGFueSB9PgogIH0sCgogIGRlbGV0ZShpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoYC91c2Vycy8ke2lkfWApIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICByZXNldFBhc3N3b3JkKGlkOiBudW1iZXIsIHBhc3N3b3JkOiBzdHJpbmcpIHsKICAgIHJldHVybiByZXF1ZXN0LnB1dChgL3VzZXJzLyR7aWR9L3Jlc2V0LXBhc3N3b3JkYCwgeyBwYXNzd29yZCB9KSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfQp9CgpleHBvcnQgY29uc3Qgc2VjdXJpdHlBcGkgPSB7CiAgbG9naW5Mb2dzKHBhcmFtcz86IHsgcGFnZT86IG51bWJlcjsgcGFnZV9zaXplPzogbnVtYmVyOyB1c2VybmFtZT86IHN0cmluZyB9KSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy9zZWN1cml0eS9sb2dpbi1sb2dzJywgeyBwYXJhbXMgfSkgYXMgUHJvbWlzZTx7IGRhdGE6IGFueVtdOyB0b3RhbDogbnVtYmVyOyBwYWdlOiBudW1iZXI7IHBhZ2Vfc2l6ZTogbnVtYmVyIH0+CiAgfSwKCiAgY2xlYXJMb2dpbkxvZ3MoKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoJy9zZWN1cml0eS9sb2dpbi1sb2dzJykgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIHNlc3Npb25zKCkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvc2VjdXJpdHkvc2Vzc2lvbnMnKSBhcyBQcm9taXNlPHsgZGF0YTogYW55W10gfT4KICB9LAoKICByZXZva2VTZXNzaW9uKGlkOiBudW1iZXIpIHsKICAgIHJldHVybiByZXF1ZXN0LmRlbGV0ZShgL3NlY3VyaXR5L3Nlc3Npb25zLyR7aWR9YCkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIHJldm9rZUFsbFNlc3Npb25zKCkgewogICAgcmV0dXJuIHJlcXVlc3QuZGVsZXRlKCcvc2VjdXJpdHkvc2Vzc2lvbnMvb3RoZXJzJykgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGlwV2hpdGVsaXN0KCkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvc2VjdXJpdHkvaXAtd2hpdGVsaXN0JykgYXMgUHJvbWlzZTx7IGRhdGE6IGFueVtdIH0+CiAgfSwKCiAgYWRkSVBXaGl0ZWxpc3QoZGF0YTogeyBpcDogc3RyaW5nOyByZW1hcmtzPzogc3RyaW5nIH0pIHsKICAgIHJldHVybiByZXF1ZXN0LnBvc3QoJy9zZWN1cml0eS9pcC13aGl0ZWxpc3QnLCBkYXRhKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nOyBkYXRhOiBhbnkgfT4KICB9LAoKICByZW1vdmVJUFdoaXRlbGlzdChpZDogbnVtYmVyKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoYC9zZWN1cml0eS9pcC13aGl0ZWxpc3QvJHtpZH1gKSBhcyBQcm9taXNlPHsgbWVzc2FnZTogc3RyaW5nIH0+CiAgfSwKCiAgYXVkaXRMb2dzKHBhcmFtcz86IHsgcGFnZT86IG51bWJlcjsgcGFnZV9zaXplPzogbnVtYmVyOyBhY3Rpb24/OiBzdHJpbmcgfSkgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvc2VjdXJpdHkvYXVkaXQtbG9ncycsIHsgcGFyYW1zIH0pIGFzIFByb21pc2U8eyBkYXRhOiBhbnlbXTsgdG90YWw6IG51bWJlcjsgcGFnZTogbnVtYmVyOyBwYWdlX3NpemU6IG51bWJlciB9PgogIH0sCgogIGxvZ2luU3RhdHMoZGF5cz86IG51bWJlcikgewogICAgcmV0dXJuIHJlcXVlc3QuZ2V0KCcvc2VjdXJpdHkvbG9naW4tc3RhdHMnLCB7IHBhcmFtczogeyBkYXlzIH0gfSkgYXMgUHJvbWlzZTx7IGRhdGE6IGFueSB9PgogIH0sCgogIHNldHVwMkZBKCkgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL3NlY3VyaXR5LzJmYS9zZXR1cCcpIGFzIFByb21pc2U8eyBkYXRhOiB7IHNlY3JldDogc3RyaW5nOyB1cmk6IHN0cmluZyB9IH0+CiAgfSwKCiAgdmVyaWZ5MkZBKGNvZGU6IHN0cmluZykgewogICAgcmV0dXJuIHJlcXVlc3QucG9zdCgnL3NlY3VyaXR5LzJmYS92ZXJpZnknLCB7IGNvZGUgfSkgYXMgUHJvbWlzZTx7IG1lc3NhZ2U6IHN0cmluZyB9PgogIH0sCgogIGRpc2FibGUyRkEoY29kZTogc3RyaW5nKSB7CiAgICByZXR1cm4gcmVxdWVzdC5kZWxldGUoJy9zZWN1cml0eS8yZmEnLCB7IGRhdGE6IHsgY29kZSB9IH0pIGFzIFByb21pc2U8eyBtZXNzYWdlOiBzdHJpbmcgfT4KICB9LAoKICBnZXQyRkFTdGF0dXMoKSB7CiAgICByZXR1cm4gcmVxdWVzdC5nZXQoJy9zZWN1cml0eS8yZmEvc3RhdHVzJykgYXMgUHJvbWlzZTx7IGRhdGE6IHsgZW5hYmxlZDogYm9vbGVhbiB9IH0+CiAgfQp9Cg==
+import request from './request'
+
+export const userApi = {
+  list() {
+    return request.get('/users') as Promise<{ data: any[] }>
+  },
+
+  create(data: { username: string; password: string; role?: string }) {
+    return request.post('/users', data) as Promise<{ message: string; data: any }>
+  },
+
+  update(id: number, data: { role?: string; enabled?: boolean }) {
+    return request.put(`/users/${id}`, data) as Promise<{ message: string; data: any }>
+  },
+
+  delete(id: number) {
+    return request.delete(`/users/${id}`) as Promise<{ message: string }>
+  },
+
+  resetPassword(id: number, password: string) {
+    return request.put(`/users/${id}/reset-password`, { password }) as Promise<{ message: string }>
+  }
+}
+
+export const securityApi = {
+  loginLogs(params?: { page?: number; page_size?: number; username?: string }) {
+    return request.get('/security/login-logs', { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  clearLoginLogs() {
+    return request.delete('/security/login-logs') as Promise<{ message: string }>
+  },
+
+  sessions() {
+    return request.get('/security/sessions') as Promise<{ data: any[] }>
+  },
+
+  revokeSession(id: number) {
+    return request.delete(`/security/sessions/${id}`) as Promise<{ message: string }>
+  },
+
+  revokeAllSessions() {
+    return request.delete('/security/sessions/others') as Promise<{ message: string }>
+  },
+
+  ipWhitelist() {
+    return request.get('/security/ip-whitelist') as Promise<{ data: any[] }>
+  },
+
+  addIPWhitelist(data: { ip: string; remarks?: string }) {
+    return request.post('/security/ip-whitelist', data) as Promise<{ message: string; data: any }>
+  },
+
+  removeIPWhitelist(id: number) {
+    return request.delete(`/security/ip-whitelist/${id}`) as Promise<{ message: string }>
+  },
+
+  auditLogs(params?: { page?: number; page_size?: number; action?: string }) {
+    return request.get('/security/audit-logs', { params }) as Promise<{ data: any[]; total: number; page: number; page_size: number }>
+  },
+
+  loginStats(days?: number) {
+    return request.get('/security/login-stats', { params: { days } }) as Promise<{ data: any }>
+  },
+
+  setup2FA() {
+    return request.post('/security/2fa/setup') as Promise<{ data: { secret: string; uri: string } }>
+  },
+
+  verify2FA(code: string) {
+    return request.post('/security/2fa/verify', { code }) as Promise<{ message: string }>
+  },
+
+  disable2FA(code: string) {
+    return request.delete('/security/2fa', { data: { code } }) as Promise<{ message: string }>
+  },
+
+  get2FAStatus() {
+    return request.get('/security/2fa/status') as Promise<{ data: { enabled: boolean } }>
+  }
+}

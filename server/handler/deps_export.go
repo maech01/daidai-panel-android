@@ -1,1 +1,198 @@
-cGFja2FnZSBoYW5kbGVyCgppbXBvcnQgKAoJImVuY29kaW5nL2pzb24iCgkiZm10IgoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJzbGljZXMiCgkic3RyaW5ncyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC9zZXJ2aWNlIgopCgpmdW5jIGJ1aWxkRGVwZW5kZW5jeUV4cG9ydFRleHQoZGVwVHlwZSBzdHJpbmcsIGRlcHMgW11tb2RlbC5EZXBlbmRlbmN5KSAoc3RyaW5nLCBlcnJvcikgewoJbGluZXMsIGVyciA6PSBidWlsZERlcGVuZGVuY3lFeHBvcnRMaW5lcyhkZXBUeXBlLCBkZXBzKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuICIiLCBlcnIKCX0KCXJldHVybiBzdHJpbmdzLkpvaW4obGluZXMsICJcbiIpLCBuaWwKfQoKZnVuYyBidWlsZERlcGVuZGVuY3lFeHBvcnRMaW5lcyhkZXBUeXBlIHN0cmluZywgZGVwcyBbXW1vZGVsLkRlcGVuZGVuY3kpIChbXXN0cmluZywgZXJyb3IpIHsKCXB5dGhvblZlcnNpb24gOj0gIiIKCWlmIGRlcFR5cGUgPT0gbW9kZWwuRGVwVHlwZVB5dGhvbiAmJiBsZW4oZGVwcykgPiAwIHsKCQlweXRob25WZXJzaW9uID0gc2VydmljZS5Ob3JtYWxpemVEZXBlbmRlbmN5UHl0aG9uVmVyc2lvbihkZXBzWzBdLlB5dGhvblZlcnNpb24pCgl9Cgl2ZXJzaW9uTWFwLCBlcnIgOj0gcmVzb2x2ZURlcGVuZGVuY3lWZXJzaW9ucyhkZXBUeXBlLCBweXRob25WZXJzaW9uKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CglyZXR1cm4gYnVpbGREZXBlbmRlbmN5RXhwb3J0TGluZXNGcm9tVmVyc2lvbnMoZGVwcywgdmVyc2lvbk1hcCksIG5pbAp9CgpmdW5jIGJ1aWxkRGVwZW5kZW5jeUV4cG9ydExpbmVzRnJvbVZlcnNpb25zKGRlcHMgW11tb2RlbC5EZXBlbmRlbmN5LCB2ZXJzaW9ucyBtYXBbc3RyaW5nXXN0cmluZykgW11zdHJpbmcgewoJbGluZXMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGRlcHMpKQoJZm9yIF8sIGRlcCA6PSByYW5nZSBkZXBzIHsKCQl2ZXJzaW9uIDo9IHN0cmluZ3MuVHJpbVNwYWNlKHZlcnNpb25zW3N0cmluZ3MuVG9Mb3dlcihkZXAuTmFtZSldKQoJCWlmIHZlcnNpb24gPT0gIiIgewoJCQl2ZXJzaW9uID0gIuacquefpeeJiOacrCIKCQl9CgkJbGluZXMgPSBhcHBlbmQobGluZXMsIGZtdC5TcHJpbnRmKCIlcz09PiVzIiwgZGVwLk5hbWUsIHZlcnNpb24pKQoJfQoJcmV0dXJuIGxpbmVzCn0KCmZ1bmMgcmVzb2x2ZURlcGVuZGVuY3lWZXJzaW9ucyhkZXBUeXBlLCBweXRob25WZXJzaW9uIHN0cmluZykgKG1hcFtzdHJpbmddc3RyaW5nLCBlcnJvcikgewoJc3dpdGNoIGRlcFR5cGUgewoJY2FzZSBtb2RlbC5EZXBUeXBlTm9kZUpTOgoJCXJldHVybiByZXNvbHZlTm9kZURlcGVuZGVuY3lWZXJzaW9ucygpCgljYXNlIG1vZGVsLkRlcFR5cGVQeXRob246CgkJcmV0dXJuIHJlc29sdmVQeXRob25EZXBlbmRlbmN5VmVyc2lvbnMocHl0aG9uVmVyc2lvbikKCWNhc2UgbW9kZWwuRGVwVHlwZUxpbnV4OgoJCXJldHVybiByZXNvbHZlTGludXhEZXBlbmRlbmN5VmVyc2lvbnMoKQoJZGVmYXVsdDoKCQlyZXR1cm4gbmlsLCBmbXQuRXJyb3JmKCLkuI3mlK/mjIHnmoTkvp3otZbnsbvlnos6ICVzIiwgZGVwVHlwZSkKCX0KfQoKZnVuYyByZXNvbHZlTm9kZURlcGVuZGVuY3lWZXJzaW9ucygpIChtYXBbc3RyaW5nXXN0cmluZywgZXJyb3IpIHsKCXR5cGUgbnBtRGVwZW5kZW5jeSBzdHJ1Y3QgewoJCVZlcnNpb24gc3RyaW5nIGBqc29uOiJ2ZXJzaW9uImAKCX0KCXR5cGUgbnBtTGlzdFJlc3BvbnNlIHN0cnVjdCB7CgkJRGVwZW5kZW5jaWVzIG1hcFtzdHJpbmddbnBtRGVwZW5kZW5jeSBganNvbjoiZGVwZW5kZW5jaWVzImAKCX0KCglkZXBzRGlyIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5EaXIsICJkZXBzIiwgIm5vZGVqcyIpCglvdXQsIGVyciA6PSBleGVjLkNvbW1hbmQoIm5wbSIsICJsaXN0IiwgIi0tcHJlZml4IiwgZGVwc0RpciwgIi0tanNvbiIsICItLWRlcHRoPTAiKS5PdXRwdXQoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CgoJdmFyIHBheWxvYWQgbnBtTGlzdFJlc3BvbnNlCglpZiBlcnIgOj0ganNvbi5Vbm1hcnNoYWwob3V0LCAmcGF5bG9hZCk7IGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCXJlc3VsdCA6PSBtYWtlKG1hcFtzdHJpbmddc3RyaW5nLCBsZW4ocGF5bG9hZC5EZXBlbmRlbmNpZXMpKQoJZm9yIG5hbWUsIGRlcCA6PSByYW5nZSBwYXlsb2FkLkRlcGVuZGVuY2llcyB7CgkJcmVzdWx0W3N0cmluZ3MuVG9Mb3dlcihuYW1lKV0gPSBzdHJpbmdzLlRyaW1TcGFjZShkZXAuVmVyc2lvbikKCX0KCXJldHVybiByZXN1bHQsIG5pbAp9CgpmdW5jIHJlc29sdmVQeXRob25EZXBlbmRlbmN5VmVyc2lvbnMocHl0aG9uVmVyc2lvbiBzdHJpbmcpIChtYXBbc3RyaW5nXXN0cmluZywgZXJyb3IpIHsKCXR5cGUgcGlwUGFja2FnZSBzdHJ1Y3QgewoJCU5hbWUgICAgc3RyaW5nIGBqc29uOiJuYW1lImAKCQlWZXJzaW9uIHN0cmluZyBganNvbjoidmVyc2lvbiJgCgl9CgoJcGlwQmluIDo9IHNlcnZpY2UuUmVzb2x2ZU1hbmFnZWRQaXBCaW5hcnlGb3JQeXRob25WZXJzaW9uKHB5dGhvblZlcnNpb24pCgl2YXIgbGlzdENtZCAqZXhlYy5DbWQKCWlmIHN0cmluZ3MuVHJpbVNwYWNlKHBpcEJpbikgPT0gIiIgewoJCXZhciBlcnIgZXJyb3IKCQlsaXN0Q21kLCBlcnIgPSBzZXJ2aWNlLk5ld1BpcENvbW1hbmRGb3JQeXRob25WZXJzaW9uKHB5dGhvblZlcnNpb24sIFtdc3RyaW5neyJsaXN0IiwgIi0tZm9ybWF0PWpzb24ifSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgZXJyCgkJfQoJfSBlbHNlIHsKCQlsaXN0Q21kID0gZXhlYy5Db21tYW5kKHBpcEJpbiwgImxpc3QiLCAiLS1mb3JtYXQ9anNvbiIpCgl9CglsaXN0Q21kLkVudiA9IHNlcnZpY2UuU2FuaXRpemVQaXBFbnYob3MuRW52aXJvbigpKQoJb3V0LCBlcnIgOj0gbGlzdENtZC5PdXRwdXQoKQoJaWYgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CgoJdmFyIHBhY2thZ2VzIFtdcGlwUGFja2FnZQoJaWYgZXJyIDo9IGpzb24uVW5tYXJzaGFsKG91dCwgJnBhY2thZ2VzKTsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIG5pbCwgZXJyCgl9CgoJcmVzdWx0IDo9IG1ha2UobWFwW3N0cmluZ11zdHJpbmcsIGxlbihwYWNrYWdlcykpCglmb3IgXywgcGtnIDo9IHJhbmdlIHBhY2thZ2VzIHsKCQlyZXN1bHRbc3RyaW5ncy5Ub0xvd2VyKHBrZy5OYW1lKV0gPSBzdHJpbmdzLlRyaW1TcGFjZShwa2cuVmVyc2lvbikKCX0KCXJldHVybiByZXN1bHQsIG5pbAp9CgpmdW5jIHJlc29sdmVMaW51eERlcGVuZGVuY3lWZXJzaW9ucygpIChtYXBbc3RyaW5nXXN0cmluZywgZXJyb3IpIHsKCW1hbmFnZXIsIGVyciA6PSBkZXRlY3RMaW51eFBhY2thZ2VNYW5hZ2VyKCkKCWlmIGVyciAhPSBuaWwgewoJCXJldHVybiBuaWwsIGVycgoJfQoKCXZhciBkZXBzIFtdbW9kZWwuRGVwZW5kZW5jeQoJZGF0YWJhc2UuREIuV2hlcmUoInR5cGUgPSA/IEFORCBzdGF0dXMgPSA/IiwgbW9kZWwuRGVwVHlwZUxpbnV4LCBtb2RlbC5EZXBTdGF0dXNJbnN0YWxsZWQpLkZpbmQoJmRlcHMpCgoJbmFtZXMgOj0gbWFrZShbXXN0cmluZywgMCwgbGVuKGRlcHMpKQoJc2VlbiA6PSBtYWtlKG1hcFtzdHJpbmddc3RydWN0e30sIGxlbihkZXBzKSkKCWZvciBfLCBkZXAgOj0gcmFuZ2UgZGVwcyB7CgkJa2V5IDo9IHN0cmluZ3MuVG9Mb3dlcihzdHJpbmdzLlRyaW1TcGFjZShkZXAuTmFtZSkpCgkJaWYga2V5ID09ICIiIHsKCQkJY29udGludWUKCQl9CgkJaWYgXywgZXhpc3RzIDo9IHNlZW5ba2V5XTsgZXhpc3RzIHsKCQkJY29udGludWUKCQl9CgkJc2VlbltrZXldID0gc3RydWN0e317fQoJCW5hbWVzID0gYXBwZW5kKG5hbWVzLCBkZXAuTmFtZSkKCX0KCglyZXR1cm4gcmVzb2x2ZUxpbnV4VmVyc2lvbnNCeU5hbWVzKG1hbmFnZXIsIG5hbWVzKQp9CgpmdW5jIHJlc29sdmVMaW51eFZlcnNpb25zQnlOYW1lcyhtYW5hZ2VyIGxpbnV4UGFja2FnZU1hbmFnZXIsIG5hbWVzIFtdc3RyaW5nKSAobWFwW3N0cmluZ11zdHJpbmcsIGVycm9yKSB7CglyZXN1bHQgOj0gbWFrZShtYXBbc3RyaW5nXXN0cmluZywgbGVuKG5hbWVzKSkKCXNvcnRlZE5hbWVzIDo9IGFwcGVuZChbXXN0cmluZyhuaWwpLCBuYW1lcy4uLikKCXNsaWNlcy5Tb3J0KHNvcnRlZE5hbWVzKQoKCWZvciBfLCBuYW1lIDo9IHJhbmdlIHNvcnRlZE5hbWVzIHsKCQl2ZXJzaW9uLCBlcnIgOj0gcmVhZExpbnV4UGFja2FnZVZlcnNpb24obWFuYWdlciwgbmFtZSkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIG5pbCwgZXJyCgkJfQoJCXJlc3VsdFtzdHJpbmdzLlRvTG93ZXIobmFtZSldID0gdmVyc2lvbgoJfQoJcmV0dXJuIHJlc3VsdCwgbmlsCn0KCmZ1bmMgcmVhZExpbnV4UGFja2FnZVZlcnNpb24obWFuYWdlciBsaW51eFBhY2thZ2VNYW5hZ2VyLCBwYWNrYWdlTmFtZSBzdHJpbmcpIChzdHJpbmcsIGVycm9yKSB7Cglzd2l0Y2ggbWFuYWdlci5OYW1lIHsKCWNhc2UgImFwayI6CgkJb3V0LCBlcnIgOj0gZXhlYy5Db21tYW5kKG1hbmFnZXIuQmluYXJ5LCAiaW5mbyIsICItdiIsIHBhY2thZ2VOYW1lKS5PdXRwdXQoKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gIiIsIGVycgoJCX0KCQlmb3IgXywgbGluZSA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KHN0cmluZ3MuVHJpbVNwYWNlKHN0cmluZyhvdXQpKSwgIlxuIikgewoJCQlsaW5lID0gc3RyaW5ncy5UcmltU3BhY2UobGluZSkKCQkJaWYgbGluZSA9PSAiIiB7CgkJCQljb250aW51ZQoJCQl9CgkJCWlmIHRyaW1tZWQsIG9rIDo9IHN0cmluZ3MuQ3V0UHJlZml4KGxpbmUsIHBhY2thZ2VOYW1lKyItIik7IG9rIHsKCQkJCXJldHVybiBzdHJpbmdzLlRyaW1TcGFjZSh0cmltbWVkKSwgbmlsCgkJCX0KCQkJcmV0dXJuIGxpbmUsIG5pbAoJCX0KCQlyZXR1cm4gIiIsIG5pbAoJY2FzZSAiYXB0IjoKCQlvdXQsIGVyciA6PSBleGVjLkNvbW1hbmQoImRwa2ctcXVlcnkiLCAiLVciLCAiLWY9JHtWZXJzaW9ufSIsIHBhY2thZ2VOYW1lKS5PdXRwdXQoKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gIiIsIGVycgoJCX0KCQlyZXR1cm4gc3RyaW5ncy5UcmltU3BhY2Uoc3RyaW5nKG91dCkpLCBuaWwKCWNhc2UgImRuZiIsICJ5dW0iLCAibWljcm9kbmYiLCAienlwcGVyIjoKCQlvdXQsIGVyciA6PSBleGVjLkNvbW1hbmQoInJwbSIsICItcSIsICItLXFmIiwgIiV7VkVSU0lPTn0tJXtSRUxFQVNFfSIsIHBhY2thZ2VOYW1lKS5PdXRwdXQoKQoJCWlmIGVyciAhPSBuaWwgewoJCQlyZXR1cm4gIiIsIGVycgoJCX0KCQlyZXR1cm4gc3RyaW5ncy5UcmltU3BhY2Uoc3RyaW5nKG91dCkpLCBuaWwKCWRlZmF1bHQ6CgkJcmV0dXJuICIiLCBmbXQuRXJyb3JmKCLkuI3mlK/mjIHnmoQgTGludXgg5YyF566h55CG5ZmoOiAlcyIsIG1hbmFnZXIuQmluYXJ5KQoJfQp9Cg==
+package handler
+
+import (
+	"encoding/json"
+	"fmt"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"slices"
+	"strings"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/service"
+)
+
+func buildDependencyExportText(depType string, deps []model.Dependency) (string, error) {
+	lines, err := buildDependencyExportLines(depType, deps)
+	if err != nil {
+		return "", err
+	}
+	return strings.Join(lines, "\n"), nil
+}
+
+func buildDependencyExportLines(depType string, deps []model.Dependency) ([]string, error) {
+	pythonVersion := ""
+	if depType == model.DepTypePython && len(deps) > 0 {
+		pythonVersion = service.NormalizeDependencyPythonVersion(deps[0].PythonVersion)
+	}
+	versionMap, err := resolveDependencyVersions(depType, pythonVersion)
+	if err != nil {
+		return nil, err
+	}
+	return buildDependencyExportLinesFromVersions(deps, versionMap), nil
+}
+
+func buildDependencyExportLinesFromVersions(deps []model.Dependency, versions map[string]string) []string {
+	lines := make([]string, 0, len(deps))
+	for _, dep := range deps {
+		version := strings.TrimSpace(versions[strings.ToLower(dep.Name)])
+		if version == "" {
+			version = "未知版本"
+		}
+		lines = append(lines, fmt.Sprintf("%s==>%s", dep.Name, version))
+	}
+	return lines
+}
+
+func resolveDependencyVersions(depType, pythonVersion string) (map[string]string, error) {
+	switch depType {
+	case model.DepTypeNodeJS:
+		return resolveNodeDependencyVersions()
+	case model.DepTypePython:
+		return resolvePythonDependencyVersions(pythonVersion)
+	case model.DepTypeLinux:
+		return resolveLinuxDependencyVersions()
+	default:
+		return nil, fmt.Errorf("不支持的依赖类型: %s", depType)
+	}
+}
+
+func resolveNodeDependencyVersions() (map[string]string, error) {
+	type npmDependency struct {
+		Version string `json:"version"`
+	}
+	type npmListResponse struct {
+		Dependencies map[string]npmDependency `json:"dependencies"`
+	}
+
+	depsDir := filepath.Join(config.C.Data.Dir, "deps", "nodejs")
+	out, err := exec.Command("npm", "list", "--prefix", depsDir, "--json", "--depth=0").Output()
+	if err != nil {
+		return nil, err
+	}
+
+	var payload npmListResponse
+	if err := json.Unmarshal(out, &payload); err != nil {
+		return nil, err
+	}
+
+	result := make(map[string]string, len(payload.Dependencies))
+	for name, dep := range payload.Dependencies {
+		result[strings.ToLower(name)] = strings.TrimSpace(dep.Version)
+	}
+	return result, nil
+}
+
+func resolvePythonDependencyVersions(pythonVersion string) (map[string]string, error) {
+	type pipPackage struct {
+		Name    string `json:"name"`
+		Version string `json:"version"`
+	}
+
+	pipBin := service.ResolveManagedPipBinaryForPythonVersion(pythonVersion)
+	var listCmd *exec.Cmd
+	if strings.TrimSpace(pipBin) == "" {
+		var err error
+		listCmd, err = service.NewPipCommandForPythonVersion(pythonVersion, []string{"list", "--format=json"})
+		if err != nil {
+			return nil, err
+		}
+	} else {
+		listCmd = exec.Command(pipBin, "list", "--format=json")
+	}
+	listCmd.Env = service.SanitizePipEnv(os.Environ())
+	out, err := listCmd.Output()
+	if err != nil {
+		return nil, err
+	}
+
+	var packages []pipPackage
+	if err := json.Unmarshal(out, &packages); err != nil {
+		return nil, err
+	}
+
+	result := make(map[string]string, len(packages))
+	for _, pkg := range packages {
+		result[strings.ToLower(pkg.Name)] = strings.TrimSpace(pkg.Version)
+	}
+	return result, nil
+}
+
+func resolveLinuxDependencyVersions() (map[string]string, error) {
+	manager, err := detectLinuxPackageManager()
+	if err != nil {
+		return nil, err
+	}
+
+	var deps []model.Dependency
+	database.DB.Where("type = ? AND status = ?", model.DepTypeLinux, model.DepStatusInstalled).Find(&deps)
+
+	names := make([]string, 0, len(deps))
+	seen := make(map[string]struct{}, len(deps))
+	for _, dep := range deps {
+		key := strings.ToLower(strings.TrimSpace(dep.Name))
+		if key == "" {
+			continue
+		}
+		if _, exists := seen[key]; exists {
+			continue
+		}
+		seen[key] = struct{}{}
+		names = append(names, dep.Name)
+	}
+
+	return resolveLinuxVersionsByNames(manager, names)
+}
+
+func resolveLinuxVersionsByNames(manager linuxPackageManager, names []string) (map[string]string, error) {
+	result := make(map[string]string, len(names))
+	sortedNames := append([]string(nil), names...)
+	slices.Sort(sortedNames)
+
+	for _, name := range sortedNames {
+		version, err := readLinuxPackageVersion(manager, name)
+		if err != nil {
+			return nil, err
+		}
+		result[strings.ToLower(name)] = version
+	}
+	return result, nil
+}
+
+func readLinuxPackageVersion(manager linuxPackageManager, packageName string) (string, error) {
+	switch manager.Name {
+	case "apk":
+		out, err := exec.Command(manager.Binary, "info", "-v", packageName).Output()
+		if err != nil {
+			return "", err
+		}
+		for _, line := range strings.Split(strings.TrimSpace(string(out)), "\n") {
+			line = strings.TrimSpace(line)
+			if line == "" {
+				continue
+			}
+			if trimmed, ok := strings.CutPrefix(line, packageName+"-"); ok {
+				return strings.TrimSpace(trimmed), nil
+			}
+			return line, nil
+		}
+		return "", nil
+	case "apt":
+		out, err := exec.Command("dpkg-query", "-W", "-f=${Version}", packageName).Output()
+		if err != nil {
+			return "", err
+		}
+		return strings.TrimSpace(string(out)), nil
+	case "dnf", "yum", "microdnf", "zypper":
+		out, err := exec.Command("rpm", "-q", "--qf", "%{VERSION}-%{RELEASE}", packageName).Output()
+		if err != nil {
+			return "", err
+		}
+		return strings.TrimSpace(string(out)), nil
+	default:
+		return "", fmt.Errorf("不支持的 Linux 包管理器: %s", manager.Binary)
+	}
+}

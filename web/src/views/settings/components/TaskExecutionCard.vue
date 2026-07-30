@@ -1,1 +1,75 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB7IENsb2NrLCBEb2N1bWVudCB9IGZyb20gJ0BlbGVtZW50LXBsdXMvaWNvbnMtdnVlJwppbXBvcnQgdHlwZSB7IFNldHRpbmdzQ29uZmlnRm9ybSB9IGZyb20gJy4uL3R5cGVzJwoKZGVmaW5lUHJvcHM8ewogIGNvbmZpZ3NMb2FkaW5nOiBib29sZWFuCiAgY29uZmlnc1NhdmluZzogYm9vbGVhbgogIGZvcm06IFNldHRpbmdzQ29uZmlnRm9ybQogIG9uU2F2ZTogKCkgPT4gdm9pZAp9PigpCjwvc2NyaXB0PgoKPHRlbXBsYXRlPgogIDxlbC1jYXJkIHNoYWRvdz0ibmV2ZXIiIHYtbG9hZGluZz0iY29uZmlnc0xvYWRpbmciPgogICAgPHRlbXBsYXRlICNoZWFkZXI+CiAgICAgIDxkaXYgY2xhc3M9ImNhcmQtaGVhZGVyIj4KICAgICAgICA8c3BhbiBjbGFzcz0iY2FyZC10aXRsZSI+PGVsLWljb24+PENsb2NrIC8+PC9lbC1pY29uPiDku7vliqHmiafooYw8L3NwYW4+CiAgICAgICAgPGVsLWJ1dHRvbiB0eXBlPSJwcmltYXJ5IiA6bG9hZGluZz0iY29uZmlnc1NhdmluZyIgQGNsaWNrPSJvblNhdmUiPgogICAgICAgICAgPGVsLWljb24+PERvY3VtZW50IC8+PC9lbC1pY29uPuS/neWtmOmFjee9rgogICAgICAgIDwvZWwtYnV0dG9uPgogICAgICA8L2Rpdj4KICAgIDwvdGVtcGxhdGU+CgogICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgIDxsYWJlbD7lrprml7bku7vliqHlubblj5HmlbA8L2xhYmVsPgogICAgICA8ZWwtaW5wdXQgdi1tb2RlbC5udW1iZXI9ImZvcm0ubWF4X2NvbmN1cnJlbnRfdGFza3MiIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPuWQjOaXtuaJp+ihjOeahOacgOWkp+S7u+WKoeaVsOmHjzwvc3Bhbj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgIDxsYWJlbD7ml6Xlv5fliKDpmaTpopHnjoc8L2xhYmVsPgogICAgICA8ZGl2IGNsYXNzPSJjb21wb3VuZC1pbnB1dCI+CiAgICAgICAgPHNwYW4+5q+PPC9zcGFuPgogICAgICAgIDxlbC1pbnB1dCB2LW1vZGVsLm51bWJlcj0iZm9ybS5sb2dfcmV0ZW50aW9uX2RheXMiIGNsYXNzPSJyZXRlbnRpb24taW5wdXQiIC8+CiAgICAgICAgPHNwYW4+5aSpPC9zcGFuPgogICAgICA8L2Rpdj4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+5pel5b+X5riF55CG5o6l5Y+j6buY6K6k5L+d55WZ5pyA6L+R5aSa5bCR5aSp55qE5pWw5o2uPC9zcGFuPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJmb3JtLWZpZWxkIj4KICAgICAgPGxhYmVsPuaXpeW/l+WGheWuueS4iumZkDwvbGFiZWw+CiAgICAgIDxlbC1pbnB1dCB2LW1vZGVsLm51bWJlcj0iZm9ybS5tYXhfbG9nX2NvbnRlbnRfc2l6ZSIgLz4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+5Y2V5qyh5Lu75Yqh5Zyo5pWw5o2u5bqT5Lit5L+d55WZ55qE5pel5b+X5a2X6IqC5pWw77yM6buY6K6kIDEwMjQwMDAwMDwvc3Bhbj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgIDxsYWJlbD7pmo/mnLrlu7bov5/mnIDlpKfnp5LmlbA8L2xhYmVsPgogICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5yYW5kb21fZGVsYXkiIHBsYWNlaG9sZGVyPSLlpoIgMzAwIOihqOekuiAxfjMwMCDnp5Lpmo/mnLrlu7bov58iIC8+CiAgICAgIDxzcGFuIGNsYXNzPSJmb3JtLWhpbnQiPueVmeepuuaIliAwIOihqOekuuS4jeW7tui/nzwvc3Bhbj4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0iZm9ybS1maWVsZCI+CiAgICAgIDxsYWJlbD7lu7bov5/mlofku7blkI7nvIA8L2xhYmVsPgogICAgICA8ZWwtaW5wdXQgdi1tb2RlbD0iZm9ybS5yYW5kb21fZGVsYXlfZXh0ZW5zaW9ucyIgcGxhY2Vob2xkZXI9IuWmgiBqcyBweSIgLz4KICAgICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+56m65qC85YiG6ZqU77yM55WZ56m66KGo56S65YWo6YOo5Lu75Yqh77yb546w5Zyo5bey5o6l5YWl55yf5a6e5omn6KGM6YC76L6RPC9zcGFuPgogICAgPC9kaXY+CiAgICA8ZGl2IGNsYXNzPSJzd2l0Y2gtcm93Ij4KICAgICAgPGRpdiBjbGFzcz0ic3dpdGNoLWl0ZW0iPgogICAgICAgIDxzcGFuIGNsYXNzPSJzd2l0Y2gtbGFiZWwiPuiHquWKqOWuieijhee8uuWkseS+nei1ljwvc3Bhbj4KICAgICAgICA8ZWwtc3dpdGNoIHYtbW9kZWw9ImZvcm0uYXV0b19pbnN0YWxsX2RlcHMiIGlubGluZS1wcm9tcHQgYWN0aXZlLXRleHQ9IuW8gCIgaW5hY3RpdmUtdGV4dD0i5YWzIiAvPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICAgPHNwYW4gY2xhc3M9ImZvcm0taGludCI+6ISa5pys6L+Q6KGM5aSx6LSl5LiU5qOA5rWL5Yiw57y65aSx5L6d6LWW5pe277yM6Ieq5Yqo5bCd6K+V5a6J6KOF5ZCO6YeN6K+VPC9zcGFuPgogIDwvZWwtY2FyZD4KPC90ZW1wbGF0ZT4KCjxzdHlsZSBzY29wZWQgbGFuZz0ic2NzcyI+CkB1c2UgJy4vY29uZmlnLWNhcmQtc2hhcmVkLnNjc3MnIGFzICo7CgoucmV0ZW50aW9uLWlucHV0IHsKICB3aWR0aDogMTIwcHg7Cn0KCkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgewogIC5yZXRlbnRpb24taW5wdXQgewogICAgd2lkdGg6IDEwMCU7CiAgfQp9Cjwvc3R5bGU+Cg==
+<script setup lang="ts">
+import { Clock, Document } from '@element-plus/icons-vue'
+import type { SettingsConfigForm } from '../types'
+
+defineProps<{
+  configsLoading: boolean
+  configsSaving: boolean
+  form: SettingsConfigForm
+  onSave: () => void
+}>()
+</script>
+
+<template>
+  <el-card shadow="never" v-loading="configsLoading">
+    <template #header>
+      <div class="card-header">
+        <span class="card-title"><el-icon><Clock /></el-icon> 任务执行</span>
+        <el-button type="primary" :loading="configsSaving" @click="onSave">
+          <el-icon><Document /></el-icon>保存配置
+        </el-button>
+      </div>
+    </template>
+
+    <div class="form-field">
+      <label>定时任务并发数</label>
+      <el-input v-model.number="form.max_concurrent_tasks" />
+      <span class="form-hint">同时执行的最大任务数量</span>
+    </div>
+    <div class="form-field">
+      <label>日志删除频率</label>
+      <div class="compound-input">
+        <span>每</span>
+        <el-input v-model.number="form.log_retention_days" class="retention-input" />
+        <span>天</span>
+      </div>
+      <span class="form-hint">日志清理接口默认保留最近多少天的数据</span>
+    </div>
+    <div class="form-field">
+      <label>日志内容上限</label>
+      <el-input v-model.number="form.max_log_content_size" />
+      <span class="form-hint">单次任务在数据库中保留的日志字节数，默认 102400000</span>
+    </div>
+    <div class="form-field">
+      <label>随机延迟最大秒数</label>
+      <el-input v-model="form.random_delay" placeholder="如 300 表示 1~300 秒随机延迟" />
+      <span class="form-hint">留空或 0 表示不延迟</span>
+    </div>
+    <div class="form-field">
+      <label>延迟文件后缀</label>
+      <el-input v-model="form.random_delay_extensions" placeholder="如 js py" />
+      <span class="form-hint">空格分隔，留空表示全部任务；现在已接入真实执行逻辑</span>
+    </div>
+    <div class="switch-row">
+      <div class="switch-item">
+        <span class="switch-label">自动安装缺失依赖</span>
+        <el-switch v-model="form.auto_install_deps" inline-prompt active-text="开" inactive-text="关" />
+      </div>
+    </div>
+    <span class="form-hint">脚本运行失败且检测到缺失依赖时，自动尝试安装后重试</span>
+  </el-card>
+</template>
+
+<style scoped lang="scss">
+@use './config-card-shared.scss' as *;
+
+.retention-input {
+  width: 120px;
+}
+
+@media (max-width: 768px) {
+  .retention-input {
+    width: 100%;
+  }
+}
+</style>

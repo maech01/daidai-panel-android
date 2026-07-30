@@ -1,1 +1,430 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJIm9zL2V4ZWMiCgkicGF0aC9maWxlcGF0aCIKCSJyZWZsZWN0IgoJInJ1bnRpbWUiCgkic3RyaW5ncyIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvY29uZmlnIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0UGFyc2VDb21tYW5kRXhlY3V0aW9uUGxhblN1cHBvcnRzVGFza01vZGVzQW5kQXJncyh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXNwYWNlZFNjcmlwdCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImRlbW8gZm9sZGVyIiwgIm15IHNjcmlwdC5weSIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoZmlsZXBhdGguRGlyKHNwYWNlZFNjcmlwdCksIDA3NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgc3BhY2VkIHNjcmlwdCBkaXI6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShzcGFjZWRTY3JpcHQsIFtdYnl0ZSgicHJpbnQoJ29rJylcbiIpLCAwNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHNwYWNlZCBzY3JpcHQ6ICV2IiwgZXJyKQoJfQoKCXNpbXBsZVNjcmlwdCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgInNpbXBsZS5zaCIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHNpbXBsZVNjcmlwdCwgW11ieXRlKCJlY2hvIG9rXG4iKSwgMDc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBzaW1wbGUgc2NyaXB0OiAldiIsIGVycikKCX0KCglnb1NjcmlwdCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgIndvcmtlci5nbyIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGdvU2NyaXB0LCBbXWJ5dGUoInBhY2thZ2UgbWFpblxuZnVuYyBtYWluKCkge31cbiIpLCAwNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGdvIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJbWpzU2NyaXB0IDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAiZXNtLWRlbW8ubWpzIikKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUobWpzU2NyaXB0LCBbXWJ5dGUoImNvbnNvbGUubG9nKCdlc20gb2snKVxuIiksIDA2NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgbWpzIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJdC5SdW4oInBhcnNlcyBub3cgbW9kZSB3aXRoIHRpbWVvdXQgb3ZlcnJpZGUgYW5kIHBhc3N0aHJvdWdoIGFyZ3MiLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCXBsYW4sIGVyciA6PSBQYXJzZUNvbW1hbmRFeGVjdXRpb25QbGFuKGB0YXNrIC1tIDVtIGRlbW8gZm9sZGVyL215IHNjcmlwdC5weSBub3cgLS0gLXUgd2h5b3VyIC1wIHBhc3N3b3JkYCwgY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyKQoJCWlmIGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigicGFyc2UgdGFzayBub3cgcGxhbjogJXYiLCBlcnIpCgkJfQoKCQlpZiBwbGFuLkludGVycHJldGVyICE9ICJweXRob24zIiB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBweXRob24zIGludGVycHJldGVyLCBnb3QgJXEiLCBwbGFuLkludGVycHJldGVyKQoJCX0KCQlleHBlY3RlZEluZm8sIGVyciA6PSBvcy5TdGF0KHNwYWNlZFNjcmlwdCkKCQlpZiBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoInN0YXQgZXhwZWN0ZWQgc3BhY2VkIHNjcmlwdDogJXYiLCBlcnIpCgkJfQoJCWFjdHVhbEluZm8sIGVyciA6PSBvcy5TdGF0KHBsYW4uRnVsbFBhdGgpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJzdGF0IGFjdHVhbCBzcGFjZWQgc2NyaXB0OiAldiIsIGVycikKCQl9CgkJaWYgIW9zLlNhbWVGaWxlKGV4cGVjdGVkSW5mbywgYWN0dWFsSW5mbykgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgcGxhbiBwYXRoICVxIHRvIHJlZmVyZW5jZSAlcSIsIHBsYW4uRnVsbFBhdGgsIHNwYWNlZFNjcmlwdCkKCQl9CgkJaWYgcGxhbi5UaW1lb3V0T3ZlcnJpZGUgPT0gbmlsIHx8ICpwbGFuLlRpbWVvdXRPdmVycmlkZSAhPSAzMDAgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgdGltZW91dCBvdmVycmlkZSAzMDAsIGdvdCAlI3YiLCBwbGFuLlRpbWVvdXRPdmVycmlkZSkKCQl9CgkJaWYgIXBsYW4uU2tpcFJhbmRvbURlbGF5IHsKCQkJdC5GYXRhbCgiZXhwZWN0ZWQgbm93IG1vZGUgdG8gc2tpcCByYW5kb20gZGVsYXkiKQoJCX0KCQlpZiBwbGFuLk1vZGUgIT0gY29tbWFuZE1vZGVOb3cgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgbm93IG1vZGUsIGdvdCAlcSIsIHBsYW4uTW9kZSkKCQl9CgkJaWYgIXJlZmxlY3QuRGVlcEVxdWFsKHBsYW4uU2NyaXB0QXJncywgW11zdHJpbmd7Ii11IiwgIndoeW91ciIsICItcCIsICJwYXNzd29yZCJ9KSB7CgkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIHNjcmlwdCBhcmdzOiAlI3YiLCBwbGFuLlNjcmlwdEFyZ3MpCgkJfQoJfSkKCgl0LlJ1bigicGFyc2VzIGNvbmMgbW9kZSB3aXRoIGVudiBhbmQgYWNjb3VudCBzcGVjIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQlwbGFuLCBlcnIgOj0gUGFyc2VDb21tYW5kRXhlY3V0aW9uUGxhbihgdGFzayBzaW1wbGUuc2ggY29uYyBKRF9DT09LSUUgMS0yYCwgY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyKQoJCWlmIGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigicGFyc2UgdGFzayBjb25jIHBsYW46ICV2IiwgZXJyKQoJCX0KCgkJaWYgcGxhbi5Nb2RlICE9IGNvbW1hbmRNb2RlQ29uYyB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBjb25jIG1vZGUsIGdvdCAlcSIsIHBsYW4uTW9kZSkKCQl9CgkJaWYgIXBsYW4uU3VwcHJlc3NMaXZlT3V0cHV0IHsKCQkJdC5GYXRhbCgiZXhwZWN0ZWQgY29uYyBtb2RlIHRvIHN1cHByZXNzIGxpdmUgb3V0cHV0IikKCQl9CgkJaWYgcGxhbi5FbnZOYW1lICE9ICJKRF9DT09LSUUiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGVudiBuYW1lIEpEX0NPT0tJRSwgZ290ICVxIiwgcGxhbi5FbnZOYW1lKQoJCX0KCQlpZiBwbGFuLkFjY291bnRTcGVjICE9ICIxLTIiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGFjY291bnQgc3BlYyAxLTIsIGdvdCAlcSIsIHBsYW4uQWNjb3VudFNwZWMpCgkJfQoJfSkKCgl0LlJ1bigicGFyc2VzIGRlc2lnbmF0ZWQgZW52IHNlbGVjdGlvbiIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJcGxhbiwgZXJyIDo9IFBhcnNlQ29tbWFuZEV4ZWN1dGlvblBsYW4oYHRhc2sgc2ltcGxlLnNoIGRlc2kgSkRfQ09PS0lFIDJgLCBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJwYXJzZSB0YXNrIGRlc2kgcGxhbjogJXYiLCBlcnIpCgkJfQoKCQlpZiBwbGFuLk1vZGUgIT0gY29tbWFuZE1vZGVEZXNpIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGRlc2kgbW9kZSwgZ290ICVxIiwgcGxhbi5Nb2RlKQoJCX0KCQlpZiBwbGFuLkVudk5hbWUgIT0gIkpEX0NPT0tJRSIgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZW52IG5hbWUgSkRfQ09PS0lFLCBnb3QgJXEiLCBwbGFuLkVudk5hbWUpCgkJfQoJCWlmIHBsYW4uQWNjb3VudFNwZWMgIT0gIjIiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGFjY291bnQgc3BlYyAyLCBnb3QgJXEiLCBwbGFuLkFjY291bnRTcGVjKQoJCX0KCX0pCgoJdC5SdW4oInBhcnNlcyBnbyB0YXNrIHNjcmlwdCIsIGZ1bmModCAqdGVzdGluZy5UKSB7CgkJcGxhbiwgZXJyIDo9IFBhcnNlQ29tbWFuZEV4ZWN1dGlvblBsYW4oYHRhc2sgd29ya2VyLmdvIG5vd2AsIGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpcikKCQlpZiBlcnIgIT0gbmlsIHsKCQkJdC5GYXRhbGYoInBhcnNlIGdvIHRhc2sgcGxhbjogJXYiLCBlcnIpCgkJfQoKCQlpZiBwbGFuLkludGVycHJldGVyICE9ICJnbyIgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZ28gaW50ZXJwcmV0ZXIsIGdvdCAlcSIsIHBsYW4uSW50ZXJwcmV0ZXIpCgkJfQoJCWlmIHBsYW4uTW9kZSAhPSBjb21tYW5kTW9kZU5vdyB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBub3cgbW9kZSwgZ290ICVxIiwgcGxhbi5Nb2RlKQoJCX0KCQlpZiAhcGxhbi5Ta2lwUmFuZG9tRGVsYXkgewoJCQl0LkZhdGFsKCJleHBlY3RlZCBnbyBub3cgbW9kZSB0byBza2lwIHJhbmRvbSBkZWxheSIpCgkJfQoJfSkKCgl0LlJ1bigicGFyc2VzIGRpcmVjdCBnbyBjb21tYW5kIiwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQlwbGFuLCBlcnIgOj0gUGFyc2VDb21tYW5kRXhlY3V0aW9uUGxhbihgZ28gd29ya2VyLmdvYCwgY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyKQoJCWlmIGVyciAhPSBuaWwgewoJCQl0LkZhdGFsZigicGFyc2UgZGlyZWN0IGdvIHBsYW46ICV2IiwgZXJyKQoJCX0KCgkJaWYgcGxhbi5JbnRlcnByZXRlciAhPSAiZ28iIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGdvIGludGVycHJldGVyLCBnb3QgJXEiLCBwbGFuLkludGVycHJldGVyKQoJCX0KCQlpZiBmaWxlcGF0aC5CYXNlKHBsYW4uRnVsbFBhdGgpICE9ICJ3b3JrZXIuZ28iIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIHdvcmtlci5nbyBwYXRoLCBnb3QgJXEiLCBwbGFuLkZ1bGxQYXRoKQoJCX0KCX0pCgoJdC5SdW4oInBhcnNlcyBtanMgdGFzayBzY3JpcHQiLCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCXBsYW4sIGVyciA6PSBQYXJzZUNvbW1hbmRFeGVjdXRpb25QbGFuKGB0YXNrIGVzbS1kZW1vLm1qcyBub3dgLCBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIpCgkJaWYgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJwYXJzZSBtanMgdGFzayBwbGFuOiAldiIsIGVycikKCQl9CgoJCWlmIHBsYW4uSW50ZXJwcmV0ZXIgIT0gIm5vZGUiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIG5vZGUgaW50ZXJwcmV0ZXIsIGdvdCAlcSIsIHBsYW4uSW50ZXJwcmV0ZXIpCgkJfQoJCWlmIGZpbGVwYXRoLkJhc2UocGxhbi5GdWxsUGF0aCkgIT0gImVzbS1kZW1vLm1qcyIgewoJCQl0LkZhdGFsZigiZXhwZWN0ZWQgZXNtLWRlbW8ubWpzIHBhdGgsIGdvdCAlcSIsIHBsYW4uRnVsbFBhdGgpCgkJfQoJCWlmIHBsYW4uTW9kZSAhPSBjb21tYW5kTW9kZU5vdyB7CgkJCXQuRmF0YWxmKCJleHBlY3RlZCBub3cgbW9kZSwgZ290ICVxIiwgcGxhbi5Nb2RlKQoJCX0KCX0pCgp9CgpmdW5jIFRlc3RQYXJzZUNvbW1hbmRFeGVjdXRpb25QbGFuU3VwcG9ydHNNYW5hZ2VkRGVwZW5kZW5jeUNvbW1hbmRzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJdGVzdHMgOj0gW11zdHJ1Y3QgewoJCW5hbWUgICAgICAgICAgc3RyaW5nCgkJY29tbWFuZCAgICAgICBzdHJpbmcKCQl3YW50Q29tbWFuZCAgIHN0cmluZwoJCXdhbnRBcmdzICAgICAgW11zdHJpbmcKCQl3YW50TW9kZSAgICAgIGNvbW1hbmRFeGVjdXRpb25Nb2RlCgkJd2FudE5vRGVsYXkgICBib29sCgkJd2FudFB5dGhvbk1vZCBzdHJpbmcKCX17CgkJewoJCQluYW1lOiAgICAgICAgImRpcmVjdCBkZXBlbmRlbmN5IGNvbW1hbmQiLAoJCQljb21tYW5kOiAgICAgYGRhaWx5Y2hlY2tpbiAtLWhlbHBgLAoJCQl3YW50Q29tbWFuZDogImRhaWx5Y2hlY2tpbiIsCgkJCXdhbnRBcmdzOiAgICBbXXN0cmluZ3siLS1oZWxwIn0sCgkJCXdhbnRNb2RlOiAgICBjb21tYW5kTW9kZU5vcm1hbCwKCQl9LAoJCXsKCQkJbmFtZTogICAgICAgICJ0YXNrIGRlcGVuZGVuY3kgY29tbWFuZCBrZWVwcyBub3cgbW9kZSIsCgkJCWNvbW1hbmQ6ICAgICBgdGFzayBkYWlseWNoZWNraW4gbm93YCwKCQkJd2FudENvbW1hbmQ6ICJkYWlseWNoZWNraW4iLAoJCQl3YW50TW9kZTogICAgY29tbWFuZE1vZGVOb3csCgkJCXdhbnROb0RlbGF5OiB0cnVlLAoJCX0sCgkJewoJCQluYW1lOiAgICAgICAgInRhc2sgZGVwZW5kZW5jeSBjb21tYW5kIGtlZXBzIHBhc3N0aHJvdWdoIGFyZ3MiLAoJCQljb21tYW5kOiAgICAgYHRhc2sgZGFpbHljaGVja2luIC0tIC0tY29uZmlnIGNvbmZpZy5qc29uYCwKCQkJd2FudENvbW1hbmQ6ICJkYWlseWNoZWNraW4iLAoJCQl3YW50QXJnczogICAgW11zdHJpbmd7Ii0tY29uZmlnIiwgImNvbmZpZy5qc29uIn0sCgkJCXdhbnRNb2RlOiAgICBjb21tYW5kTW9kZU5vcm1hbCwKCQl9LAoJCXsKCQkJbmFtZTogICAgICAgICAgInB5dGhvbiBtb2R1bGUgY29tbWFuZCIsCgkJCWNvbW1hbmQ6ICAgICAgIGBweXRob24zIC1tIGRhaWx5Y2hlY2tpbiAtLWhlbHBgLAoJCQl3YW50UHl0aG9uTW9kOiAiZGFpbHljaGVja2luIiwKCQkJd2FudEFyZ3M6ICAgICAgW11zdHJpbmd7Ii0taGVscCJ9LAoJCQl3YW50TW9kZTogICAgICBjb21tYW5kTW9kZU5vcm1hbCwKCQl9LAoJfQoKCWZvciBfLCB0dCA6PSByYW5nZSB0ZXN0cyB7CgkJdC5SdW4odHQubmFtZSwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQkJcGxhbiwgZXJyIDo9IFBhcnNlQ29tbWFuZEV4ZWN1dGlvblBsYW4odHQuY29tbWFuZCwgY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyKQoJCQlpZiBlcnIgIT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJwYXJzZSBjb21tYW5kIHBsYW46ICV2IiwgZXJyKQoJCQl9CgkJCWlmIHBsYW4uTWFuYWdlZENvbW1hbmQgIT0gdHQud2FudENvbW1hbmQgewoJCQkJdC5GYXRhbGYoImV4cGVjdGVkIG1hbmFnZWQgY29tbWFuZCAlcSwgZ290ICVxIiwgdHQud2FudENvbW1hbmQsIHBsYW4uTWFuYWdlZENvbW1hbmQpCgkJCX0KCQkJaWYgcGxhbi5QeXRob25Nb2R1bGUgIT0gdHQud2FudFB5dGhvbk1vZCB7CgkJCQl0LkZhdGFsZigiZXhwZWN0ZWQgcHl0aG9uIG1vZHVsZSAlcSwgZ290ICVxIiwgdHQud2FudFB5dGhvbk1vZCwgcGxhbi5QeXRob25Nb2R1bGUpCgkJCX0KCQkJaWYgIXJlZmxlY3QuRGVlcEVxdWFsKHBsYW4uU2NyaXB0QXJncywgdHQud2FudEFyZ3MpIHsKCQkJCXQuRmF0YWxmKCJ1bmV4cGVjdGVkIGNvbW1hbmQgYXJnczogZ290PSUjdiB3YW50PSUjdiIsIHBsYW4uU2NyaXB0QXJncywgdHQud2FudEFyZ3MpCgkJCX0KCQkJaWYgcGxhbi5Nb2RlICE9IHR0LndhbnRNb2RlIHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBtb2RlICVxLCBnb3QgJXEiLCB0dC53YW50TW9kZSwgcGxhbi5Nb2RlKQoJCQl9CgkJCWlmIHBsYW4uU2tpcFJhbmRvbURlbGF5ICE9IHR0LndhbnROb0RlbGF5IHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBza2lwIHJhbmRvbSBkZWxheSAldiwgZ290ICV2IiwgdHQud2FudE5vRGVsYXksIHBsYW4uU2tpcFJhbmRvbURlbGF5KQoJCQl9CgkJfSkKCX0KfQoKZnVuYyBUZXN0UnVuQ29tbWFuZFN1cHBvcnRzTWFuYWdlZERlcGVuZGVuY3lDb21tYW5kKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJcHl0aG9uVmVyc2lvbiA6PSBEZWZhdWx0UHl0aG9uVmVyc2lvbigpCgl2ZW52QmluIDo9IHJlc29sdmVNYW5hZ2VkVmVudkJpbihNYW5hZ2VkUHl0aG9uVmVudkRpcihweXRob25WZXJzaW9uKSkKCWVudkVjaG8gOj0gImVjaG8gZGFpbHk6JEREX1RFU1RfVkFMVUUiCglhcmdFY2hvIDo9ICJlY2hvIGFyZzokMSIKCWlmIHJ1bnRpbWUuR09PUyA9PSAid2luZG93cyIgewoJCWVudkVjaG8gPSAiZWNobyBkYWlseTolRERfVEVTVF9WQUxVRSUiCgkJYXJnRWNobyA9ICJlY2hvIGFyZzolMSIKCX0KCXdyaXRlRmFrZUV4ZWN1dGFibGUodCwgdmVudkJpbiwgImRhaWx5Y2hlY2tpbiIsIFtdc3RyaW5ne2VudkVjaG8sIGFyZ0VjaG99KQoKCXJlc3VsdCwgXywgZXJyIDo9IFJ1bkNvbW1hbmQoCgkJYGRhaWx5Y2hlY2tpbiAtLWZsYWdgLAoJCWNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwKCQk1LAoJCW1hcFtzdHJpbmddc3RyaW5newoJCQkiREFJREFJX1BZVEhPTl9WRVJTSU9OIjogcHl0aG9uVmVyc2lvbiwKCQkJIkREX1RFU1RfVkFMVUUiOiAgICAgICAgICJvayIsCgkJfSwKCQkxMDI0LAoJCW5pbCwKCSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJydW4gbWFuYWdlZCBkZXBlbmRlbmN5IGNvbW1hbmQ6ICV2IiwgZXJyKQoJfQoJaWYgcmVzdWx0LlJldHVybkNvZGUgIT0gMCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHJldHVybiBjb2RlIDAsIGdvdCAlZCBvdXRwdXQ9JXMiLCByZXN1bHQuUmV0dXJuQ29kZSwgcmVzdWx0Lk91dHB1dCkKCX0KCWlmICFzdHJpbmdzLkNvbnRhaW5zKHJlc3VsdC5PdXRwdXQsICJkYWlseTpvayIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVwZW5kZW5jeSBjb21tYW5kIHRvIHJlY2VpdmUgdGFzayBlbnYsIG91dHB1dD0lcSIsIHJlc3VsdC5PdXRwdXQpCgl9CglpZiAhc3RyaW5ncy5Db250YWlucyhyZXN1bHQuT3V0cHV0LCAiYXJnOi0tZmxhZyIpIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVwZW5kZW5jeSBjb21tYW5kIHRvIHJlY2VpdmUgYXJncywgb3V0cHV0PSVxIiwgcmVzdWx0Lk91dHB1dCkKCX0KfQoKZnVuYyByZXF1aXJlVXNhYmxlQmFzaCh0ICp0ZXN0aW5nLlQpIHsKCXQuSGVscGVyKCkKCgliYXNoUGF0aCwgZXJyIDo9IGV4ZWMuTG9va1BhdGgoImJhc2giKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5Ta2lwZigiYmFzaCB1bmF2YWlsYWJsZTogJXYiLCBlcnIpCgl9CglpZiBlcnIgOj0gZXhlYy5Db21tYW5kKGJhc2hQYXRoLCAiLS12ZXJzaW9uIikuUnVuKCk7IGVyciAhPSBuaWwgewoJCXQuU2tpcGYoImJhc2ggaXMgcHJlc2VudCBidXQgbm90IHVzYWJsZTogJXYiLCBlcnIpCgl9Cn0KCmZ1bmMgVGVzdEhvb2tTY3JpcHRzUmVjZWl2ZVRhc2tTY3JpcHRBcmdzKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJcmVxdWlyZVVzYWJsZUJhc2godCkKCglvdXRwdXRGaWxlIDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCAiaG9vay1hcmdzLm91dCIpCglob29rUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgInRhc2tfYmVmb3JlLnNoIikKCWhvb2tDb250ZW50IDo9IFtdYnl0ZShgcHJpbnRmICclc3wlc3wlcycgIiQxIiAiJDIiICIkMyIgPiBob29rLWFyZ3Mub3V0YCArICJcbiIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGhvb2tQYXRoLCBob29rQ29udGVudCwgMDc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSBob29rIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJUnVuSG9va1NjcmlwdCgidGFza19iZWZvcmUuc2giLCBjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsIG5pbCwgbmlsLCAiaHR0cDovLzEyNy4wLjAuMTo3ODkwIiwgInR3byB3b3JkcyIsICJ2YWx1ZTMiKQoKCWNvbnRlbnQsIGVyciA6PSBvcy5SZWFkRmlsZShvdXRwdXRGaWxlKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgaG9vayBhcmdzIG91dHB1dDogJXYiLCBlcnIpCgl9CglpZiBnb3QsIHdhbnQgOj0gc3RyaW5nKGNvbnRlbnQpLCAiaHR0cDovLzEyNy4wLjAuMTo3ODkwfHR3byB3b3Jkc3x2YWx1ZTMiOyBnb3QgIT0gd2FudCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGhvb2sgYXJncyAlcSwgZ290ICVxIiwgd2FudCwgZ290KQoJfQp9CgpmdW5jIFRlc3RSdW5Ib29rU2NyaXB0SGFuZGxlc0xhcmdlRW52V2l0aG91dEV4ZWNBcmdMaW1pdCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXJlcXVpcmVVc2FibGVCYXNoKHQpCgoJb3V0cHV0RmlsZSA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgImhvb2stbGFyZ2UtZW52Lm91dCIpCglob29rUGF0aCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0RpciwgInRhc2tfYmVmb3JlLnNoIikKCWhvb2tDb250ZW50IDo9IFtdYnl0ZShgcHJpbnRmICclc3wlc3wlcycgIiR7I0JJR19FTlZ9IiAiJDEiICIkMiIgPiBob29rLWxhcmdlLWVudi5vdXRgICsgIlxuIikKCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoaG9va1BhdGgsIGhvb2tDb250ZW50LCAwNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIGhvb2sgc2NyaXB0OiAldiIsIGVycikKCX0KCglSdW5Ib29rU2NyaXB0KAoJCSJ0YXNrX2JlZm9yZS5zaCIsCgkJY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLAoJCW1hcFtzdHJpbmddc3RyaW5neyJCSUdfRU5WIjogc3RyaW5ncy5SZXBlYXQoIngiLCAzKjEwMjQqMTAyNCl9LAoJCW5pbCwKCQkiYXJnLW9uZSIsCgkJImFyZyB0d28iLAoJKQoKCWNvbnRlbnQsIGVyciA6PSBvcy5SZWFkRmlsZShvdXRwdXRGaWxlKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgaG9vayBvdXRwdXQ6ICV2IiwgZXJyKQoJfQoJaWYgZ290LCB3YW50IDo9IHN0cmluZyhjb250ZW50KSwgIjMxNDU3Mjh8YXJnLW9uZXxhcmcgdHdvIjsgZ290ICE9IHdhbnQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBsYXJnZSBlbnYgYW5kIGFyZ3MgJXEsIGdvdCAlcSIsIHdhbnQsIGdvdCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZVRhc2tBY2NvdW50U2VsZWN0aW9ucyh0ICp0ZXN0aW5nLlQpIHsKCWVudlZhcnMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIkpEX0NPT0tJRSI6ICJhJmImYyIsCgl9CgoJc2VsZWN0aW9ucywgZXJyIDo9IHJlc29sdmVUYXNrQWNjb3VudFNlbGVjdGlvbnMoZW52VmFycywgIkpEX0NPT0tJRSIsICIxLTIgMyIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVzb2x2ZSB0YXNrIGFjY291bnQgc2VsZWN0aW9uczogJXYiLCBlcnIpCgl9CgoJZ290IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihzZWxlY3Rpb25zKSkKCWZvciBfLCBzZWxlY3Rpb24gOj0gcmFuZ2Ugc2VsZWN0aW9ucyB7CgkJZ290ID0gYXBwZW5kKGdvdCwgc2VsZWN0aW9uLlZhbHVlKQoJfQoKCWlmICFyZWZsZWN0LkRlZXBFcXVhbChnb3QsIFtdc3RyaW5neyJhIiwgImIiLCAiYyJ9KSB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgc2VsZWN0ZWQgdmFsdWVzOiAlI3YiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVUYXNrQWNjb3VudFNlbGVjdGlvbnNTdXBwb3J0c0RvdWJsZUFtcGVyc2FuZFNlcGFyYXRvcih0ICp0ZXN0aW5nLlQpIHsKCWVudlZhcnMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIkpEX0NPT0tJRSI6ICJwdF9rZXk9b25lJmE9MSYmcHRfa2V5PXR3byZiPTIiLAoJfQoKCXNlbGVjdGlvbnMsIGVyciA6PSByZXNvbHZlVGFza0FjY291bnRTZWxlY3Rpb25zKGVudlZhcnMsICJKRF9DT09LSUUiLCAiMS0yIikKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZXNvbHZlIHRhc2sgYWNjb3VudCBzZWxlY3Rpb25zIHdpdGggZG91YmxlIGFtcGVyc2FuZDogJXYiLCBlcnIpCgl9CgoJZ290IDo9IG1ha2UoW11zdHJpbmcsIDAsIGxlbihzZWxlY3Rpb25zKSkKCWZvciBfLCBzZWxlY3Rpb24gOj0gcmFuZ2Ugc2VsZWN0aW9ucyB7CgkJZ290ID0gYXBwZW5kKGdvdCwgc2VsZWN0aW9uLlZhbHVlKQoJfQoKCWlmICFyZWZsZWN0LkRlZXBFcXVhbChnb3QsIFtdc3RyaW5neyJwdF9rZXk9b25lJmE9MSIsICJwdF9rZXk9dHdvJmI9MiJ9KSB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgc2VsZWN0ZWQgdmFsdWVzOiAlI3YiLCBnb3QpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVUYXNrQWNjb3VudFNlbGVjdGlvbnNTdXBwb3J0c0VzY2FwZWRBbXBlcnNhbmRzKHQgKnRlc3RpbmcuVCkgewoJZW52VmFycyA6PSBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiSkRfQ09PS0lFIjogYHB0X2tleT1vbmVcJmE9MSZwdF9rZXk9dHdvXCZiPTJgLAoJfQoKCXNlbGVjdGlvbnMsIGVyciA6PSByZXNvbHZlVGFza0FjY291bnRTZWxlY3Rpb25zKGVudlZhcnMsICJKRF9DT09LSUUiLCAiMiIpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicmVzb2x2ZSB0YXNrIGFjY291bnQgc2VsZWN0aW9ucyB3aXRoIGVzY2FwZWQgYW1wZXJzYW5kczogJXYiLCBlcnIpCgl9CgoJaWYgbGVuKHNlbGVjdGlvbnMpICE9IDEgfHwgc2VsZWN0aW9uc1swXS5WYWx1ZSAhPSAicHRfa2V5PXR3byZiPTIiIHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCBzZWxlY3RlZCB2YWx1ZXM6ICUjdiIsIHNlbGVjdGlvbnMpCgl9Cn0KCmZ1bmMgVGVzdEFwcGx5Q29tbWFuZEVudk92ZXJyaWRlc0ZvckRlc2kodCAqdGVzdGluZy5UKSB7CglwbGFuIDo9ICZDb21tYW5kRXhlY3V0aW9uUGxhbnsKCQlNb2RlOiAgICAgICAgY29tbWFuZE1vZGVEZXNpLAoJCUVudk5hbWU6ICAgICAiSkRfQ09PS0lFIiwKCQlBY2NvdW50U3BlYzogIjItMyIsCgl9CgllbnZWYXJzIDo9IG1hcFtzdHJpbmddc3RyaW5newoJCSJKRF9DT09LSUUiOiAiYSZiJmMiLAoJfQoKCW92ZXJyaWRkZW4sIGVyciA6PSBhcHBseUNvbW1hbmRFbnZPdmVycmlkZXMocGxhbiwgZW52VmFycykKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJhcHBseSBkZXNpZ25hdGVkIGVudiBvdmVycmlkZXM6ICV2IiwgZXJyKQoJfQoJaWYgb3ZlcnJpZGRlblsiSkRfQ09PS0lFIl0gIT0gImImYyIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBkZXNpZ25hdGVkIGVudiB2YWx1ZXMgYiZjLCBnb3QgJXEiLCBvdmVycmlkZGVuWyJKRF9DT09LSUUiXSkKCX0KCWlmIG92ZXJyaWRkZW5bImVudlBhcmFtIl0gIT0gIkpEX0NPT0tJRSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBlbnZQYXJhbSBKRF9DT09LSUUsIGdvdCAlcSIsIG92ZXJyaWRkZW5bImVudlBhcmFtIl0pCgl9CglpZiBvdmVycmlkZGVuWyJudW1QYXJhbSJdICE9ICIyIDMiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbnVtUGFyYW0gJzIgMycsIGdvdCAlcSIsIG92ZXJyaWRkZW5bIm51bVBhcmFtIl0pCgl9Cn0KCmZ1bmMgVGVzdEFwcGx5Q29tbWFuZEVudk92ZXJyaWRlc0ZvckRlc2lQcmVzZXJ2ZXNBbXBlcnNhbmRzSW5TZWxlY3RlZFZhbHVlcyh0ICp0ZXN0aW5nLlQpIHsKCXBsYW4gOj0gJkNvbW1hbmRFeGVjdXRpb25QbGFuewoJCU1vZGU6ICAgICAgICBjb21tYW5kTW9kZURlc2ksCgkJRW52TmFtZTogICAgICJKRF9DT09LSUUiLAoJCUFjY291bnRTcGVjOiAiMS0yIiwKCX0KCWVudlZhcnMgOj0gbWFwW3N0cmluZ11zdHJpbmd7CgkJIkpEX0NPT0tJRSI6ICJwdF9rZXk9b25lJmE9MSYmcHRfa2V5PXR3byZiPTIiLAoJfQoKCW92ZXJyaWRkZW4sIGVyciA6PSBhcHBseUNvbW1hbmRFbnZPdmVycmlkZXMocGxhbiwgZW52VmFycykKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJhcHBseSBkZXNpZ25hdGVkIGVudiBvdmVycmlkZXMgd2l0aCBhbXBlcnNhbmRzOiAldiIsIGVycikKCX0KCWlmIG92ZXJyaWRkZW5bIkpEX0NPT0tJRSJdICE9ICJwdF9rZXk9b25lJmE9MSYmcHRfa2V5PXR3byZiPTIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgZGVzaWduYXRlZCBlbnYgdmFsdWVzIHRvIHByZXNlcnZlIGVtYmVkZGVkIGFtcGVyc2FuZHMsIGdvdCAlcSIsIG92ZXJyaWRkZW5bIkpEX0NPT0tJRSJdKQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"os/exec"
+	"path/filepath"
+	"reflect"
+	"runtime"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/testutil"
+)
+
+func TestParseCommandExecutionPlanSupportsTaskModesAndArgs(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	spacedScript := filepath.Join(config.C.Data.ScriptsDir, "demo folder", "my script.py")
+	if err := os.MkdirAll(filepath.Dir(spacedScript), 0755); err != nil {
+		t.Fatalf("mkdir spaced script dir: %v", err)
+	}
+	if err := os.WriteFile(spacedScript, []byte("print('ok')\n"), 0644); err != nil {
+		t.Fatalf("write spaced script: %v", err)
+	}
+
+	simpleScript := filepath.Join(config.C.Data.ScriptsDir, "simple.sh")
+	if err := os.WriteFile(simpleScript, []byte("echo ok\n"), 0755); err != nil {
+		t.Fatalf("write simple script: %v", err)
+	}
+
+	goScript := filepath.Join(config.C.Data.ScriptsDir, "worker.go")
+	if err := os.WriteFile(goScript, []byte("package main\nfunc main() {}\n"), 0644); err != nil {
+		t.Fatalf("write go script: %v", err)
+	}
+
+	mjsScript := filepath.Join(config.C.Data.ScriptsDir, "esm-demo.mjs")
+	if err := os.WriteFile(mjsScript, []byte("console.log('esm ok')\n"), 0644); err != nil {
+		t.Fatalf("write mjs script: %v", err)
+	}
+
+	t.Run("parses now mode with timeout override and passthrough args", func(t *testing.T) {
+		plan, err := ParseCommandExecutionPlan(`task -m 5m demo folder/my script.py now -- -u whyour -p password`, config.C.Data.ScriptsDir)
+		if err != nil {
+			t.Fatalf("parse task now plan: %v", err)
+		}
+
+		if plan.Interpreter != "python3" {
+			t.Fatalf("expected python3 interpreter, got %q", plan.Interpreter)
+		}
+		expectedInfo, err := os.Stat(spacedScript)
+		if err != nil {
+			t.Fatalf("stat expected spaced script: %v", err)
+		}
+		actualInfo, err := os.Stat(plan.FullPath)
+		if err != nil {
+			t.Fatalf("stat actual spaced script: %v", err)
+		}
+		if !os.SameFile(expectedInfo, actualInfo) {
+			t.Fatalf("expected plan path %q to reference %q", plan.FullPath, spacedScript)
+		}
+		if plan.TimeoutOverride == nil || *plan.TimeoutOverride != 300 {
+			t.Fatalf("expected timeout override 300, got %#v", plan.TimeoutOverride)
+		}
+		if !plan.SkipRandomDelay {
+			t.Fatal("expected now mode to skip random delay")
+		}
+		if plan.Mode != commandModeNow {
+			t.Fatalf("expected now mode, got %q", plan.Mode)
+		}
+		if !reflect.DeepEqual(plan.ScriptArgs, []string{"-u", "whyour", "-p", "password"}) {
+			t.Fatalf("unexpected script args: %#v", plan.ScriptArgs)
+		}
+	})
+
+	t.Run("parses conc mode with env and account spec", func(t *testing.T) {
+		plan, err := ParseCommandExecutionPlan(`task simple.sh conc JD_COOKIE 1-2`, config.C.Data.ScriptsDir)
+		if err != nil {
+			t.Fatalf("parse task conc plan: %v", err)
+		}
+
+		if plan.Mode != commandModeConc {
+			t.Fatalf("expected conc mode, got %q", plan.Mode)
+		}
+		if !plan.SuppressLiveOutput {
+			t.Fatal("expected conc mode to suppress live output")
+		}
+		if plan.EnvName != "JD_COOKIE" {
+			t.Fatalf("expected env name JD_COOKIE, got %q", plan.EnvName)
+		}
+		if plan.AccountSpec != "1-2" {
+			t.Fatalf("expected account spec 1-2, got %q", plan.AccountSpec)
+		}
+	})
+
+	t.Run("parses designated env selection", func(t *testing.T) {
+		plan, err := ParseCommandExecutionPlan(`task simple.sh desi JD_COOKIE 2`, config.C.Data.ScriptsDir)
+		if err != nil {
+			t.Fatalf("parse task desi plan: %v", err)
+		}
+
+		if plan.Mode != commandModeDesi {
+			t.Fatalf("expected desi mode, got %q", plan.Mode)
+		}
+		if plan.EnvName != "JD_COOKIE" {
+			t.Fatalf("expected env name JD_COOKIE, got %q", plan.EnvName)
+		}
+		if plan.AccountSpec != "2" {
+			t.Fatalf("expected account spec 2, got %q", plan.AccountSpec)
+		}
+	})
+
+	t.Run("parses go task script", func(t *testing.T) {
+		plan, err := ParseCommandExecutionPlan(`task worker.go now`, config.C.Data.ScriptsDir)
+		if err != nil {
+			t.Fatalf("parse go task plan: %v", err)
+		}
+
+		if plan.Interpreter != "go" {
+			t.Fatalf("expected go interpreter, got %q", plan.Interpreter)
+		}
+		if plan.Mode != commandModeNow {
+			t.Fatalf("expected now mode, got %q", plan.Mode)
+		}
+		if !plan.SkipRandomDelay {
+			t.Fatal("expected go now mode to skip random delay")
+		}
+	})
+
+	t.Run("parses direct go command", func(t *testing.T) {
+		plan, err := ParseCommandExecutionPlan(`go worker.go`, config.C.Data.ScriptsDir)
+		if err != nil {
+			t.Fatalf("parse direct go plan: %v", err)
+		}
+
+		if plan.Interpreter != "go" {
+			t.Fatalf("expected go interpreter, got %q", plan.Interpreter)
+		}
+		if filepath.Base(plan.FullPath) != "worker.go" {
+			t.Fatalf("expected worker.go path, got %q", plan.FullPath)
+		}
+	})
+
+	t.Run("parses mjs task script", func(t *testing.T) {
+		plan, err := ParseCommandExecutionPlan(`task esm-demo.mjs now`, config.C.Data.ScriptsDir)
+		if err != nil {
+			t.Fatalf("parse mjs task plan: %v", err)
+		}
+
+		if plan.Interpreter != "node" {
+			t.Fatalf("expected node interpreter, got %q", plan.Interpreter)
+		}
+		if filepath.Base(plan.FullPath) != "esm-demo.mjs" {
+			t.Fatalf("expected esm-demo.mjs path, got %q", plan.FullPath)
+		}
+		if plan.Mode != commandModeNow {
+			t.Fatalf("expected now mode, got %q", plan.Mode)
+		}
+	})
+
+}
+
+func TestParseCommandExecutionPlanSupportsManagedDependencyCommands(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	tests := []struct {
+		name          string
+		command       string
+		wantCommand   string
+		wantArgs      []string
+		wantMode      commandExecutionMode
+		wantNoDelay   bool
+		wantPythonMod string
+	}{
+		{
+			name:        "direct dependency command",
+			command:     `dailycheckin --help`,
+			wantCommand: "dailycheckin",
+			wantArgs:    []string{"--help"},
+			wantMode:    commandModeNormal,
+		},
+		{
+			name:        "task dependency command keeps now mode",
+			command:     `task dailycheckin now`,
+			wantCommand: "dailycheckin",
+			wantMode:    commandModeNow,
+			wantNoDelay: true,
+		},
+		{
+			name:        "task dependency command keeps passthrough args",
+			command:     `task dailycheckin -- --config config.json`,
+			wantCommand: "dailycheckin",
+			wantArgs:    []string{"--config", "config.json"},
+			wantMode:    commandModeNormal,
+		},
+		{
+			name:          "python module command",
+			command:       `python3 -m dailycheckin --help`,
+			wantPythonMod: "dailycheckin",
+			wantArgs:      []string{"--help"},
+			wantMode:      commandModeNormal,
+		},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			plan, err := ParseCommandExecutionPlan(tt.command, config.C.Data.ScriptsDir)
+			if err != nil {
+				t.Fatalf("parse command plan: %v", err)
+			}
+			if plan.ManagedCommand != tt.wantCommand {
+				t.Fatalf("expected managed command %q, got %q", tt.wantCommand, plan.ManagedCommand)
+			}
+			if plan.PythonModule != tt.wantPythonMod {
+				t.Fatalf("expected python module %q, got %q", tt.wantPythonMod, plan.PythonModule)
+			}
+			if !reflect.DeepEqual(plan.ScriptArgs, tt.wantArgs) {
+				t.Fatalf("unexpected command args: got=%#v want=%#v", plan.ScriptArgs, tt.wantArgs)
+			}
+			if plan.Mode != tt.wantMode {
+				t.Fatalf("expected mode %q, got %q", tt.wantMode, plan.Mode)
+			}
+			if plan.SkipRandomDelay != tt.wantNoDelay {
+				t.Fatalf("expected skip random delay %v, got %v", tt.wantNoDelay, plan.SkipRandomDelay)
+			}
+		})
+	}
+}
+
+func TestRunCommandSupportsManagedDependencyCommand(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	pythonVersion := DefaultPythonVersion()
+	venvBin := resolveManagedVenvBin(ManagedPythonVenvDir(pythonVersion))
+	envEcho := "echo daily:$DD_TEST_VALUE"
+	argEcho := "echo arg:$1"
+	if runtime.GOOS == "windows" {
+		envEcho = "echo daily:%DD_TEST_VALUE%"
+		argEcho = "echo arg:%1"
+	}
+	writeFakeExecutable(t, venvBin, "dailycheckin", []string{envEcho, argEcho})
+
+	result, _, err := RunCommand(
+		`dailycheckin --flag`,
+		config.C.Data.ScriptsDir,
+		5,
+		map[string]string{
+			"DAIDAI_PYTHON_VERSION": pythonVersion,
+			"DD_TEST_VALUE":         "ok",
+		},
+		1024,
+		nil,
+	)
+	if err != nil {
+		t.Fatalf("run managed dependency command: %v", err)
+	}
+	if result.ReturnCode != 0 {
+		t.Fatalf("expected return code 0, got %d output=%s", result.ReturnCode, result.Output)
+	}
+	if !strings.Contains(result.Output, "daily:ok") {
+		t.Fatalf("expected dependency command to receive task env, output=%q", result.Output)
+	}
+	if !strings.Contains(result.Output, "arg:--flag") {
+		t.Fatalf("expected dependency command to receive args, output=%q", result.Output)
+	}
+}
+
+func requireUsableBash(t *testing.T) {
+	t.Helper()
+
+	bashPath, err := exec.LookPath("bash")
+	if err != nil {
+		t.Skipf("bash unavailable: %v", err)
+	}
+	if err := exec.Command(bashPath, "--version").Run(); err != nil {
+		t.Skipf("bash is present but not usable: %v", err)
+	}
+}
+
+func TestHookScriptsReceiveTaskScriptArgs(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	requireUsableBash(t)
+
+	outputFile := filepath.Join(config.C.Data.ScriptsDir, "hook-args.out")
+	hookPath := filepath.Join(config.C.Data.ScriptsDir, "task_before.sh")
+	hookContent := []byte(`printf '%s|%s|%s' "$1" "$2" "$3" > hook-args.out` + "\n")
+	if err := os.WriteFile(hookPath, hookContent, 0755); err != nil {
+		t.Fatalf("write hook script: %v", err)
+	}
+
+	RunHookScript("task_before.sh", config.C.Data.ScriptsDir, nil, nil, "http://127.0.0.1:7890", "two words", "value3")
+
+	content, err := os.ReadFile(outputFile)
+	if err != nil {
+		t.Fatalf("read hook args output: %v", err)
+	}
+	if got, want := string(content), "http://127.0.0.1:7890|two words|value3"; got != want {
+		t.Fatalf("expected hook args %q, got %q", want, got)
+	}
+}
+
+func TestRunHookScriptHandlesLargeEnvWithoutExecArgLimit(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	requireUsableBash(t)
+
+	outputFile := filepath.Join(config.C.Data.ScriptsDir, "hook-large-env.out")
+	hookPath := filepath.Join(config.C.Data.ScriptsDir, "task_before.sh")
+	hookContent := []byte(`printf '%s|%s|%s' "${#BIG_ENV}" "$1" "$2" > hook-large-env.out` + "\n")
+	if err := os.WriteFile(hookPath, hookContent, 0755); err != nil {
+		t.Fatalf("write hook script: %v", err)
+	}
+
+	RunHookScript(
+		"task_before.sh",
+		config.C.Data.ScriptsDir,
+		map[string]string{"BIG_ENV": strings.Repeat("x", 3*1024*1024)},
+		nil,
+		"arg-one",
+		"arg two",
+	)
+
+	content, err := os.ReadFile(outputFile)
+	if err != nil {
+		t.Fatalf("read hook output: %v", err)
+	}
+	if got, want := string(content), "3145728|arg-one|arg two"; got != want {
+		t.Fatalf("expected large env and args %q, got %q", want, got)
+	}
+}
+
+func TestResolveTaskAccountSelections(t *testing.T) {
+	envVars := map[string]string{
+		"JD_COOKIE": "a&b&c",
+	}
+
+	selections, err := resolveTaskAccountSelections(envVars, "JD_COOKIE", "1-2 3")
+	if err != nil {
+		t.Fatalf("resolve task account selections: %v", err)
+	}
+
+	got := make([]string, 0, len(selections))
+	for _, selection := range selections {
+		got = append(got, selection.Value)
+	}
+
+	if !reflect.DeepEqual(got, []string{"a", "b", "c"}) {
+		t.Fatalf("unexpected selected values: %#v", got)
+	}
+}
+
+func TestResolveTaskAccountSelectionsSupportsDoubleAmpersandSeparator(t *testing.T) {
+	envVars := map[string]string{
+		"JD_COOKIE": "pt_key=one&a=1&&pt_key=two&b=2",
+	}
+
+	selections, err := resolveTaskAccountSelections(envVars, "JD_COOKIE", "1-2")
+	if err != nil {
+		t.Fatalf("resolve task account selections with double ampersand: %v", err)
+	}
+
+	got := make([]string, 0, len(selections))
+	for _, selection := range selections {
+		got = append(got, selection.Value)
+	}
+
+	if !reflect.DeepEqual(got, []string{"pt_key=one&a=1", "pt_key=two&b=2"}) {
+		t.Fatalf("unexpected selected values: %#v", got)
+	}
+}
+
+func TestResolveTaskAccountSelectionsSupportsEscapedAmpersands(t *testing.T) {
+	envVars := map[string]string{
+		"JD_COOKIE": `pt_key=one\&a=1&pt_key=two\&b=2`,
+	}
+
+	selections, err := resolveTaskAccountSelections(envVars, "JD_COOKIE", "2")
+	if err != nil {
+		t.Fatalf("resolve task account selections with escaped ampersands: %v", err)
+	}
+
+	if len(selections) != 1 || selections[0].Value != "pt_key=two&b=2" {
+		t.Fatalf("unexpected selected values: %#v", selections)
+	}
+}
+
+func TestApplyCommandEnvOverridesForDesi(t *testing.T) {
+	plan := &CommandExecutionPlan{
+		Mode:        commandModeDesi,
+		EnvName:     "JD_COOKIE",
+		AccountSpec: "2-3",
+	}
+	envVars := map[string]string{
+		"JD_COOKIE": "a&b&c",
+	}
+
+	overridden, err := applyCommandEnvOverrides(plan, envVars)
+	if err != nil {
+		t.Fatalf("apply designated env overrides: %v", err)
+	}
+	if overridden["JD_COOKIE"] != "b&c" {
+		t.Fatalf("expected designated env values b&c, got %q", overridden["JD_COOKIE"])
+	}
+	if overridden["envParam"] != "JD_COOKIE" {
+		t.Fatalf("expected envParam JD_COOKIE, got %q", overridden["envParam"])
+	}
+	if overridden["numParam"] != "2 3" {
+		t.Fatalf("expected numParam '2 3', got %q", overridden["numParam"])
+	}
+}
+
+func TestApplyCommandEnvOverridesForDesiPreservesAmpersandsInSelectedValues(t *testing.T) {
+	plan := &CommandExecutionPlan{
+		Mode:        commandModeDesi,
+		EnvName:     "JD_COOKIE",
+		AccountSpec: "1-2",
+	}
+	envVars := map[string]string{
+		"JD_COOKIE": "pt_key=one&a=1&&pt_key=two&b=2",
+	}
+
+	overridden, err := applyCommandEnvOverrides(plan, envVars)
+	if err != nil {
+		t.Fatalf("apply designated env overrides with ampersands: %v", err)
+	}
+	if overridden["JD_COOKIE"] != "pt_key=one&a=1&&pt_key=two&b=2" {
+		t.Fatalf("expected designated env values to preserve embedded ampersands, got %q", overridden["JD_COOKIE"])
+	}
+}

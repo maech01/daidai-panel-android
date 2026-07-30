@@ -1,1 +1,141 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJzdHJpbmdzIgoJInRpbWUiCikKCmNvbnN0ICgKCVN1YlR5cGVTaW5nbGVGaWxlID0gInNpbmdsZS1maWxlIgoJU3ViVHlwZUdpdFJlcG8gICAgPSAiZ2l0LXJlcG8iCglTdWJBdXRoVHlwZVNTSCAgICA9ICJzc2giCglTdWJBdXRoVHlwZVRva2VuICA9ICJ0b2tlbiIKKQoKdHlwZSBTdWJzY3JpcHRpb24gc3RydWN0IHsKCUlEICAgICAgICAgIHVpbnQgICAgICAgYGdvcm06InByaW1hcnlrZXkiIGpzb246ImlkImAKCU5hbWUgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MTI4O25vdCBudWxsIiBqc29uOiJuYW1lImAKCVR5cGUgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6MzI7bm90IG51bGw7ZGVmYXVsdDonZ2l0LXJlcG8nIiBqc29uOiJ0eXBlImAKCVVSTCAgICAgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6NTEyO25vdCBudWxsIiBqc29uOiJ1cmwiYAoJQnJhbmNoICAgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZToxMjg7ZGVmYXVsdDonJyIganNvbjoiYnJhbmNoImAKCVNjaGVkdWxlICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6NjQ7ZGVmYXVsdDonJyIganNvbjoic2NoZWR1bGUiYAoJV2hpdGVsaXN0ICAgc3RyaW5nICAgICBgZ29ybToic2l6ZTo1MTI7ZGVmYXVsdDonJyIganNvbjoid2hpdGVsaXN0ImAKCUJsYWNrbGlzdCAgIHN0cmluZyAgICAgYGdvcm06InNpemU6NTEyO2RlZmF1bHQ6JyciIGpzb246ImJsYWNrbGlzdCJgCglEZXBlbmRPbiAgICBzdHJpbmcgICAgIGBnb3JtOiJzaXplOjUxMjtkZWZhdWx0OicnIiBqc29uOiJkZXBlbmRfb24iYAoJSG9va1NjcmlwdCAgc3RyaW5nICAgICBgZ29ybToidHlwZTp0ZXh0O2RlZmF1bHQ6JyciIGpzb246Imhvb2tfc2NyaXB0ImAKCUF1dG9BZGRUYXNrIGJvb2wgICAgICAgYGdvcm06ImRlZmF1bHQ6ZmFsc2UiIGpzb246ImF1dG9fYWRkX3Rhc2siYAoJQXV0b0RlbFRhc2sgYm9vbCAgICAgICBgZ29ybToiZGVmYXVsdDpmYWxzZSIganNvbjoiYXV0b19kZWxfdGFzayJgCglFbmFibGVkICAgICBib29sICAgICAgIGBnb3JtOiJkZWZhdWx0OnRydWUiIGpzb246ImVuYWJsZWQiYAoJU3RhdHVzICAgICAgaW50ICAgICAgICBgZ29ybToiZGVmYXVsdDowIiBqc29uOiJzdGF0dXMiYAoJTGFzdFB1bGxBdCAgKnRpbWUuVGltZSBganNvbjoibGFzdF9wdWxsX2F0ImAKCVNhdmVEaXIgICAgIHN0cmluZyAgICAgYGdvcm06InNpemU6NTEyO2RlZmF1bHQ6JyciIGpzb246InNhdmVfZGlyImAKCVNTSEtleUlEICAgICp1aW50ICAgICAgYGpzb246InNzaF9rZXlfaWQiYAoJQXV0aFR5cGUgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZToxNjtkZWZhdWx0OicnIiBqc29uOiJhdXRoX3R5cGUiYAoJQXV0aFVzZXJuYW1lIHN0cmluZyAgICAgYGdvcm06InNpemU6MTI4O2RlZmF1bHQ6JyciIGpzb246ImF1dGhfdXNlcm5hbWUiYAoJQXV0aFRva2VuICAgc3RyaW5nICAgICBgZ29ybToidHlwZTp0ZXh0O2RlZmF1bHQ6JyciIGpzb246Ii0iYAoJU3ViUGF0aCAgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZTo1MTI7ZGVmYXVsdDonJyIganNvbjoic3ViX3BhdGgiYAoJQWxpYXMgICAgICAgc3RyaW5nICAgICBgZ29ybToic2l6ZToxMjg7ZGVmYXVsdDonJyIganNvbjoiYWxpYXMiYAoJRm9yY2VPdmVyd3JpdGUgKmJvb2wgICBgZ29ybToiZGVmYXVsdDp0cnVlIiBqc29uOiJmb3JjZV9vdmVyd3JpdGUiYAoJQ3JlYXRlZEF0ICAgdGltZS5UaW1lICBganNvbjoiY3JlYXRlZF9hdCJgCglVcGRhdGVkQXQgICB0aW1lLlRpbWUgIGBqc29uOiJ1cGRhdGVkX2F0ImAKfQoKZnVuYyAoU3Vic2NyaXB0aW9uKSBUYWJsZU5hbWUoKSBzdHJpbmcgewoJcmV0dXJuICJzdWJzY3JpcHRpb25zIgp9CgpmdW5jIChzICpTdWJzY3JpcHRpb24pIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmV0dXJuIG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICAgICAgIHMuSUQsCgkJIm5hbWUiOiAgICAgICAgICAgIHMuTmFtZSwKCQkidHlwZSI6ICAgICAgICAgICAgcy5UeXBlLAoJCSJ1cmwiOiAgICAgICAgICAgICBzLlVSTCwKCQkiYnJhbmNoIjogICAgICAgICAgcy5CcmFuY2gsCgkJInNjaGVkdWxlIjogICAgICAgIHMuU2NoZWR1bGUsCgkJIndoaXRlbGlzdCI6ICAgICAgIHMuV2hpdGVsaXN0LAoJCSJibGFja2xpc3QiOiAgICAgICBzLkJsYWNrbGlzdCwKCQkiZGVwZW5kX29uIjogICAgICAgcy5EZXBlbmRPbiwKCQkiaG9va19zY3JpcHQiOiAgICAgcy5Ib29rU2NyaXB0LAoJCSJhdXRvX2FkZF90YXNrIjogICBzLkF1dG9BZGRUYXNrLAoJCSJhdXRvX2RlbF90YXNrIjogICBzLkF1dG9EZWxUYXNrLAoJCSJlbmFibGVkIjogICAgICAgICBzLkVuYWJsZWQsCgkJInN0YXR1cyI6ICAgICAgICAgIHMuU3RhdHVzLAoJCSJsYXN0X3B1bGxfYXQiOiAgICBzLkxhc3RQdWxsQXQsCgkJInN1Yl9wYXRoIjogICAgICAgIHMuU3ViUGF0aCwKCQkic2F2ZV9kaXIiOiAgICAgICAgcy5TYXZlRGlyLAoJCSJzc2hfa2V5X2lkIjogICAgICBzLlNTSEtleUlELAoJCSJhdXRoX3R5cGUiOiAgICAgICBzLkVmZmVjdGl2ZUF1dGhUeXBlKCksCgkJImF1dGhfdXNlcm5hbWUiOiAgIHMuQXV0aFVzZXJuYW1lLAoJCSJoYXNfYXV0aF90b2tlbiI6ICBzLkhhc0F1dGhUb2tlbigpLAoJCSJhbGlhcyI6ICAgICAgICAgICBzLkFsaWFzLAoJCSJmb3JjZV9vdmVyd3JpdGUiOiBzLkZvcmNlT3ZlcndyaXRlID09IG5pbCB8fCAqcy5Gb3JjZU92ZXJ3cml0ZSwKCQkiY3JlYXRlZF9hdCI6ICAgICAgcy5DcmVhdGVkQXQsCgkJInVwZGF0ZWRfYXQiOiAgICAgIHMuVXBkYXRlZEF0LAoJfQp9CgpmdW5jIE5vcm1hbGl6ZVN1YnNjcmlwdGlvbkF1dGhUeXBlKHZhbHVlIHN0cmluZykgc3RyaW5nIHsKCXN3aXRjaCBzdHJpbmdzLlRvTG93ZXIoc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpKSB7CgljYXNlICIiOgoJCXJldHVybiAiIgoJY2FzZSBTdWJBdXRoVHlwZVNTSDoKCQlyZXR1cm4gU3ViQXV0aFR5cGVTU0gKCWNhc2UgU3ViQXV0aFR5cGVUb2tlbjoKCQlyZXR1cm4gU3ViQXV0aFR5cGVUb2tlbgoJZGVmYXVsdDoKCQlyZXR1cm4gIiIKCX0KfQoKZnVuYyAocyAqU3Vic2NyaXB0aW9uKSBIYXNBdXRoVG9rZW4oKSBib29sIHsKCWlmIHMgPT0gbmlsIHsKCQlyZXR1cm4gZmFsc2UKCX0KCXJldHVybiBzdHJpbmdzLlRyaW1TcGFjZShzLkF1dGhUb2tlbikgIT0gIiIKfQoKZnVuYyAocyAqU3Vic2NyaXB0aW9uKSBFZmZlY3RpdmVBdXRoVHlwZSgpIHN0cmluZyB7CglpZiBzID09IG5pbCB7CgkJcmV0dXJuICIiCgl9CglpZiBub3JtYWxpemVkIDo9IE5vcm1hbGl6ZVN1YnNjcmlwdGlvbkF1dGhUeXBlKHMuQXV0aFR5cGUpOyBub3JtYWxpemVkICE9ICIiIHsKCQlyZXR1cm4gbm9ybWFsaXplZAoJfQoJaWYgcy5IYXNBdXRoVG9rZW4oKSB7CgkJcmV0dXJuIFN1YkF1dGhUeXBlVG9rZW4KCX0KCWlmIHMuU1NIS2V5SUQgIT0gbmlsICYmICpzLlNTSEtleUlEID4gMCB7CgkJcmV0dXJuIFN1YkF1dGhUeXBlU1NICgl9CglyZXR1cm4gIiIKfQoKdHlwZSBTdWJMb2cgc3RydWN0IHsKCUlEICAgICAgICAgICAgIHVpbnQgICAgICBgZ29ybToicHJpbWFyeWtleSIganNvbjoiaWQiYAoJU3Vic2NyaXB0aW9uSUQgdWludCAgICAgIGBnb3JtOiJpbmRleDtub3QgbnVsbCIganNvbjoic3Vic2NyaXB0aW9uX2lkImAKCVN0YXR1cyAgICAgICAgIGludCAgICAgICBgZ29ybToiZGVmYXVsdDowIiBqc29uOiJzdGF0dXMiYAoJQ29udGVudCAgICAgICAgc3RyaW5nICAgIGBnb3JtOiJ0eXBlOnRleHQiIGpzb246ImNvbnRlbnQiYAoJRHVyYXRpb24gICAgICAgZmxvYXQ2NCAgIGBnb3JtOiJkZWZhdWx0OjAiIGpzb246ImR1cmF0aW9uImAKCUNyZWF0ZWRBdCAgICAgIHRpbWUuVGltZSBganNvbjoiY3JlYXRlZF9hdCJgCgoJU3Vic2NyaXB0aW9uICpTdWJzY3JpcHRpb24gYGdvcm06ImZvcmVpZ25LZXk6U3Vic2NyaXB0aW9uSUQiIGpzb246Ii0iYAp9CgpmdW5jIChTdWJMb2cpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInN1Yl9sb2dzIgp9CgpmdW5jIChsICpTdWJMb2cpIFRvRGljdCgpIG1hcFtzdHJpbmddaW50ZXJmYWNle30gewoJcmVzdWx0IDo9IG1hcFtzdHJpbmddaW50ZXJmYWNle317CgkJImlkIjogICAgICAgICAgICAgIGwuSUQsCgkJInN1YnNjcmlwdGlvbl9pZCI6IGwuU3Vic2NyaXB0aW9uSUQsCgkJInN0YXR1cyI6ICAgICAgICAgIGwuU3RhdHVzLAoJCSJjb250ZW50IjogICAgICAgICBsLkNvbnRlbnQsCgkJImR1cmF0aW9uIjogICAgICAgIGwuRHVyYXRpb24sCgkJImNyZWF0ZWRfYXQiOiAgICAgIGwuQ3JlYXRlZEF0LAoJfQoJaWYgbC5TdWJzY3JpcHRpb24gIT0gbmlsIHsKCQlyZXN1bHRbInN1YnNjcmlwdGlvbl9uYW1lIl0gPSBsLlN1YnNjcmlwdGlvbi5OYW1lCgl9CglyZXR1cm4gcmVzdWx0Cn0K
+package model
+
+import (
+	"strings"
+	"time"
+)
+
+const (
+	SubTypeSingleFile = "single-file"
+	SubTypeGitRepo    = "git-repo"
+	SubAuthTypeSSH    = "ssh"
+	SubAuthTypeToken  = "token"
+)
+
+type Subscription struct {
+	ID          uint       `gorm:"primarykey" json:"id"`
+	Name        string     `gorm:"size:128;not null" json:"name"`
+	Type        string     `gorm:"size:32;not null;default:'git-repo'" json:"type"`
+	URL         string     `gorm:"size:512;not null" json:"url"`
+	Branch      string     `gorm:"size:128;default:''" json:"branch"`
+	Schedule    string     `gorm:"size:64;default:''" json:"schedule"`
+	Whitelist   string     `gorm:"size:512;default:''" json:"whitelist"`
+	Blacklist   string     `gorm:"size:512;default:''" json:"blacklist"`
+	DependOn    string     `gorm:"size:512;default:''" json:"depend_on"`
+	HookScript  string     `gorm:"type:text;default:''" json:"hook_script"`
+	AutoAddTask bool       `gorm:"default:false" json:"auto_add_task"`
+	AutoDelTask bool       `gorm:"default:false" json:"auto_del_task"`
+	Enabled     bool       `gorm:"default:true" json:"enabled"`
+	Status      int        `gorm:"default:0" json:"status"`
+	LastPullAt  *time.Time `json:"last_pull_at"`
+	SaveDir     string     `gorm:"size:512;default:''" json:"save_dir"`
+	SSHKeyID    *uint      `json:"ssh_key_id"`
+	AuthType    string     `gorm:"size:16;default:''" json:"auth_type"`
+	AuthUsername string     `gorm:"size:128;default:''" json:"auth_username"`
+	AuthToken   string     `gorm:"type:text;default:''" json:"-"`
+	SubPath     string     `gorm:"size:512;default:''" json:"sub_path"`
+	Alias       string     `gorm:"size:128;default:''" json:"alias"`
+	ForceOverwrite *bool   `gorm:"default:true" json:"force_overwrite"`
+	CreatedAt   time.Time  `json:"created_at"`
+	UpdatedAt   time.Time  `json:"updated_at"`
+}
+
+func (Subscription) TableName() string {
+	return "subscriptions"
+}
+
+func (s *Subscription) ToDict() map[string]interface{} {
+	return map[string]interface{}{
+		"id":              s.ID,
+		"name":            s.Name,
+		"type":            s.Type,
+		"url":             s.URL,
+		"branch":          s.Branch,
+		"schedule":        s.Schedule,
+		"whitelist":       s.Whitelist,
+		"blacklist":       s.Blacklist,
+		"depend_on":       s.DependOn,
+		"hook_script":     s.HookScript,
+		"auto_add_task":   s.AutoAddTask,
+		"auto_del_task":   s.AutoDelTask,
+		"enabled":         s.Enabled,
+		"status":          s.Status,
+		"last_pull_at":    s.LastPullAt,
+		"sub_path":        s.SubPath,
+		"save_dir":        s.SaveDir,
+		"ssh_key_id":      s.SSHKeyID,
+		"auth_type":       s.EffectiveAuthType(),
+		"auth_username":   s.AuthUsername,
+		"has_auth_token":  s.HasAuthToken(),
+		"alias":           s.Alias,
+		"force_overwrite": s.ForceOverwrite == nil || *s.ForceOverwrite,
+		"created_at":      s.CreatedAt,
+		"updated_at":      s.UpdatedAt,
+	}
+}
+
+func NormalizeSubscriptionAuthType(value string) string {
+	switch strings.ToLower(strings.TrimSpace(value)) {
+	case "":
+		return ""
+	case SubAuthTypeSSH:
+		return SubAuthTypeSSH
+	case SubAuthTypeToken:
+		return SubAuthTypeToken
+	default:
+		return ""
+	}
+}
+
+func (s *Subscription) HasAuthToken() bool {
+	if s == nil {
+		return false
+	}
+	return strings.TrimSpace(s.AuthToken) != ""
+}
+
+func (s *Subscription) EffectiveAuthType() string {
+	if s == nil {
+		return ""
+	}
+	if normalized := NormalizeSubscriptionAuthType(s.AuthType); normalized != "" {
+		return normalized
+	}
+	if s.HasAuthToken() {
+		return SubAuthTypeToken
+	}
+	if s.SSHKeyID != nil && *s.SSHKeyID > 0 {
+		return SubAuthTypeSSH
+	}
+	return ""
+}
+
+type SubLog struct {
+	ID             uint      `gorm:"primarykey" json:"id"`
+	SubscriptionID uint      `gorm:"index;not null" json:"subscription_id"`
+	Status         int       `gorm:"default:0" json:"status"`
+	Content        string    `gorm:"type:text" json:"content"`
+	Duration       float64   `gorm:"default:0" json:"duration"`
+	CreatedAt      time.Time `json:"created_at"`
+
+	Subscription *Subscription `gorm:"foreignKey:SubscriptionID" json:"-"`
+}
+
+func (SubLog) TableName() string {
+	return "sub_logs"
+}
+
+func (l *SubLog) ToDict() map[string]interface{} {
+	result := map[string]interface{}{
+		"id":              l.ID,
+		"subscription_id": l.SubscriptionID,
+		"status":          l.Status,
+		"content":         l.Content,
+		"duration":        l.Duration,
+		"created_at":      l.CreatedAt,
+	}
+	if l.Subscription != nil {
+		result["subscription_name"] = l.Subscription.Name
+	}
+	return result
+}

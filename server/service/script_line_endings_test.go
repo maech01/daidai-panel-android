@@ -1,1 +1,27 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkidGVzdGluZyIKKQoKZnVuYyBUZXN0Tm9ybWFsaXplU2hlbGxTY3JpcHRGaWxlUmV3cml0ZXNDUkxGKHQgKnRlc3RpbmcuVCkgewoJZGlyIDo9IHQuVGVtcERpcigpCglwYXRoIDo9IGZpbGVwYXRoLkpvaW4oZGlyLCAiZGVtby5zaCIpCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKHBhdGgsIFtdYnl0ZSgiIyEvYmluL2Jhc2hcclxuZWNobyBoaVxyXG4iKSwgMDc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJ3cml0ZSB0ZW1wIHNoZWxsIHNjcmlwdDogJXYiLCBlcnIpCgl9CgoJaWYgZXJyIDo9IE5vcm1hbGl6ZVNoZWxsU2NyaXB0RmlsZShwYXRoKTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm5vcm1hbGl6ZSBzaGVsbCBzY3JpcHQ6ICV2IiwgZXJyKQoJfQoKCWNvbnRlbnQsIGVyciA6PSBvcy5SZWFkRmlsZShwYXRoKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoInJlYWQgbm9ybWFsaXplZCBzaGVsbCBzY3JpcHQ6ICV2IiwgZXJyKQoJfQoJaWYgc3RyaW5nKGNvbnRlbnQpICE9ICIjIS9iaW4vYmFzaFxuZWNobyBoaVxuIiB7CgkJdC5GYXRhbGYoInVuZXhwZWN0ZWQgbm9ybWFsaXplZCBjb250ZW50OiAlcSIsIHN0cmluZyhjb250ZW50KSkKCX0KfQo=
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+)
+
+func TestNormalizeShellScriptFileRewritesCRLF(t *testing.T) {
+	dir := t.TempDir()
+	path := filepath.Join(dir, "demo.sh")
+	if err := os.WriteFile(path, []byte("#!/bin/bash\r\necho hi\r\n"), 0755); err != nil {
+		t.Fatalf("write temp shell script: %v", err)
+	}
+
+	if err := NormalizeShellScriptFile(path); err != nil {
+		t.Fatalf("normalize shell script: %v", err)
+	}
+
+	content, err := os.ReadFile(path)
+	if err != nil {
+		t.Fatalf("read normalized shell script: %v", err)
+	}
+	if string(content) != "#!/bin/bash\necho hi\n" {
+		t.Fatalf("unexpected normalized content: %q", string(content))
+	}
+}

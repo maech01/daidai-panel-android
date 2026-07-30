@@ -1,1 +1,154 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkic3RyY29udiIKCSJ0ZXN0aW5nIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0VGFza1N1Y2Nlc3NFeGl0Q29kZXNDcmVhdGVVcGRhdGVDb3B5QW5kRXhwb3J0KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzdWNjZXNzLWV4aXQtY29kZXMtb3BlcmF0b3IiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCWhlYWRlcnMgOj0gbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0KCgljcmVhdGVSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFBvc3QsCgkJIi9hcGkvdjEvdGFza3MiLAoJCWB7Im5hbWUiOiJsZWdhY3kgZXhpdCB0YXNrIiwiY29tbWFuZCI6InRhc2sgbGVnYWN5LmpzIiwidGFza190eXBlIjoibWFudWFsIiwic3VjY2Vzc19leGl0X2NvZGVzIjoiMO+8jDEsMSJ9YCwKCQloZWFkZXJzLAoJCSIiLAoJKQoJaWYgY3JlYXRlUmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgY3JlYXRlIDIwMSwgZ290ICVkOiAlcyIsIGNyZWF0ZVJlYy5Db2RlLCBjcmVhdGVSZWMuQm9keS5TdHJpbmcoKSkKCX0KCWNyZWF0ZWQgOj0gZGVjb2RlSlNPTk1hcCh0LCBjcmVhdGVSZWMpWyJkYXRhIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglpZiBnb3QgOj0gY3JlYXRlZFsic3VjY2Vzc19leGl0X2NvZGVzIl07IGdvdCAhPSAiMCwxIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG5vcm1hbGl6ZWQgc3VjY2Vzc19leGl0X2NvZGVzPTAsMSwgZ290ICUjdiIsIGdvdCkKCX0KCXRhc2tJRCA6PSB1aW50KGNyZWF0ZWRbImlkIl0uKGZsb2F0NjQpKQoKCXJlc2V0UmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJIi9hcGkvdjEvdGFza3MvIitzdHJjb252LkZvcm1hdFVpbnQodWludDY0KHRhc2tJRCksIDEwKSwKCQlgeyJzdWNjZXNzX2V4aXRfY29kZXMiOm51bGx9YCwKCQloZWFkZXJzLAoJCSIiLAoJKQoJaWYgcmVzZXRSZWMuQ29kZSAhPSBodHRwLlN0YXR1c09LIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbnVsbCByZXNldCAyMDAsIGdvdCAlZDogJXMiLCByZXNldFJlYy5Db2RlLCByZXNldFJlYy5Cb2R5LlN0cmluZygpKQoJfQoJcmVzZXRUYXNrIDo9IGRlY29kZUpTT05NYXAodCwgcmVzZXRSZWMpWyJkYXRhIl0uKG1hcFtzdHJpbmddaW50ZXJmYWNle30pCglpZiBnb3QgOj0gcmVzZXRUYXNrWyJzdWNjZXNzX2V4aXRfY29kZXMiXTsgZ290ICE9ICIwIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIG51bGwgc3VjY2Vzc19leGl0X2NvZGVzIHRvIHJlc2V0IHRvIDAsIGdvdCAlI3YiLCBnb3QpCgl9CgoJdXBkYXRlUmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQdXQsCgkJIi9hcGkvdjEvdGFza3MvIitzdHJjb252LkZvcm1hdFVpbnQodWludDY0KHRhc2tJRCksIDEwKSwKCQlgeyJzdWNjZXNzX2V4aXRfY29kZXMiOiIwIDIifWAsCgkJaGVhZGVycywKCQkiIiwKCSkKCWlmIHVwZGF0ZVJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCB1cGRhdGUgMjAwLCBnb3QgJWQ6ICVzIiwgdXBkYXRlUmVjLkNvZGUsIHVwZGF0ZVJlYy5Cb2R5LlN0cmluZygpKQoJfQoJdXBkYXRlZCA6PSBkZWNvZGVKU09OTWFwKHQsIHVwZGF0ZVJlYylbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmIGdvdCA6PSB1cGRhdGVkWyJzdWNjZXNzX2V4aXRfY29kZXMiXTsgZ290ICE9ICIwLDIiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdXBkYXRlZCBzdWNjZXNzX2V4aXRfY29kZXM9MCwyLCBnb3QgJSN2IiwgZ290KQoJfQoKCWNvcHlSZWMgOj0gcGVyZm9ybUpTT05SZXF1ZXN0KAoJCWVuZ2luZSwKCQlodHRwLk1ldGhvZFBvc3QsCgkJIi9hcGkvdjEvdGFza3MvIitzdHJjb252LkZvcm1hdFVpbnQodWludDY0KHRhc2tJRCksIDEwKSsiL2NvcHkiLAoJCWB7fWAsCgkJaGVhZGVycywKCQkiIiwKCSkKCWlmIGNvcHlSZWMuQ29kZSAhPSBodHRwLlN0YXR1c0NyZWF0ZWQgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjb3B5IDIwMSwgZ290ICVkOiAlcyIsIGNvcHlSZWMuQ29kZSwgY29weVJlYy5Cb2R5LlN0cmluZygpKQoJfQoJY29waWVkIDo9IGRlY29kZUpTT05NYXAodCwgY29weVJlYylbImRhdGEiXS4obWFwW3N0cmluZ11pbnRlcmZhY2V7fSkKCWlmIGdvdCA6PSBjb3BpZWRbInN1Y2Nlc3NfZXhpdF9jb2RlcyJdOyBnb3QgIT0gIjAsMiIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBjb3BpZWQgc3VjY2Vzc19leGl0X2NvZGVzPTAsMiwgZ290ICUjdiIsIGdvdCkKCX0KCglleHBvcnRSZWMgOj0gcGVyZm9ybVJlcXVlc3QoZW5naW5lLCBodHRwLk1ldGhvZEdldCwgIi9hcGkvdjEvdGFza3MvZXhwb3J0IiwgaGVhZGVycykKCWlmIGV4cG9ydFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBleHBvcnQgMjAwLCBnb3QgJWQ6ICVzIiwgZXhwb3J0UmVjLkNvZGUsIGV4cG9ydFJlYy5Cb2R5LlN0cmluZygpKQoJfQoJZXhwb3J0ZWRUYXNrcyA6PSBkZWNvZGVKU09OTWFwKHQsIGV4cG9ydFJlYylbImRhdGEiXS4oW11pbnRlcmZhY2V7fSkKCWZvdW5kRXhwb3J0ZWRUYXNrIDo9IGZhbHNlCglmb3IgXywgaXRlbSA6PSByYW5nZSBleHBvcnRlZFRhc2tzIHsKCQlleHBvcnRlZCA6PSBpdGVtLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJCWlmIGV4cG9ydGVkWyJuYW1lIl0gIT0gImxlZ2FjeSBleGl0IHRhc2siIHsKCQkJY29udGludWUKCQl9CgkJZm91bmRFeHBvcnRlZFRhc2sgPSB0cnVlCgkJaWYgZXhwb3J0ZWRbInN1Y2Nlc3NfZXhpdF9jb2RlcyJdICE9ICIwLDIiIHsKCQkJdC5GYXRhbGYoImV4cGVjdGVkIGV4cG9ydGVkIHN1Y2Nlc3NfZXhpdF9jb2Rlcz0wLDIsIGdvdCAlI3YiLCBleHBvcnRlZFsic3VjY2Vzc19leGl0X2NvZGVzIl0pCgkJfQoJfQoJaWYgIWZvdW5kRXhwb3J0ZWRUYXNrIHsKCQl0LkZhdGFsKCJleHBlY3RlZCBleHBvcnRlZCB0YXNrIHRvIGJlIHByZXNlbnQiKQoJfQoKCXZhciBzdG9yZWQgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZzdG9yZWQsIHRhc2tJRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJyZWxvYWQgdGFzazogJXYiLCBlcnIpCgl9CglpZiBzdG9yZWQuU3VjY2Vzc0V4aXRDb2RlcyAhPSAiMCwyIiB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN0b3JlZCBzdWNjZXNzX2V4aXRfY29kZXM9MCwyLCBnb3QgJXEiLCBzdG9yZWQuU3VjY2Vzc0V4aXRDb2RlcykKCX0KfQoKZnVuYyBUZXN0VGFza1N1Y2Nlc3NFeGl0Q29kZXNSZWplY3RJbnZhbGlkVmFsdWVBbmRJbXBvcnRWYWxpZFZhbHVlKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJZW5naW5lIDo9IG5ld1Byb3RlY3RlZFJvdXRlcigpCgl1c2VyIDo9IHRlc3R1dGlsLk11c3RDcmVhdGVVc2VyKHQsICJzdWNjZXNzLWV4aXQtY29kZXMtaW1wb3J0ZXIiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCWhlYWRlcnMgOj0gbWFwW3N0cmluZ11zdHJpbmd7IkF1dGhvcml6YXRpb24iOiAiQmVhcmVyICIgKyB0b2tlbn0KCglpbnZhbGlkUmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQllbmdpbmUsCgkJaHR0cC5NZXRob2RQb3N0LAoJCSIvYXBpL3YxL3Rhc2tzIiwKCQlgeyJuYW1lIjoiaW52YWxpZCBleGl0IHRhc2siLCJjb21tYW5kIjoidGFzayBpbnZhbGlkLmpzIiwidGFza190eXBlIjoibWFudWFsIiwic3VjY2Vzc19leGl0X2NvZGVzIjoiMCwtMSJ9YCwKCQloZWFkZXJzLAoJCSIiLAoJKQoJaWYgaW52YWxpZFJlYy5Db2RlICE9IGh0dHAuU3RhdHVzQmFkUmVxdWVzdCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIGludmFsaWQgY3JlYXRlIDQwMCwgZ290ICVkOiAlcyIsIGludmFsaWRSZWMuQ29kZSwgaW52YWxpZFJlYy5Cb2R5LlN0cmluZygpKQoJfQoKCWltcG9ydFJlYyA6PSBwZXJmb3JtSlNPTlJlcXVlc3QoCgkJZW5naW5lLAoJCWh0dHAuTWV0aG9kUG9zdCwKCQkiL2FwaS92MS90YXNrcy9pbXBvcnQiLAoJCWB7InRhc2tzIjpbeyJuYW1lIjoiaW1wb3J0ZWQgZXhpdCB0YXNrIiwiY29tbWFuZCI6InRhc2sgaW1wb3J0ZWQuanMiLCJ0YXNrX3R5cGUiOiJtYW51YWwiLCJzdWNjZXNzX2V4aXRfY29kZXMiOiIwLDEifV19YCwKCQloZWFkZXJzLAoJCSIiLAoJKQoJaWYgaW1wb3J0UmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNDcmVhdGVkIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgaW1wb3J0IDIwMSwgZ290ICVkOiAlcyIsIGltcG9ydFJlYy5Db2RlLCBpbXBvcnRSZWMuQm9keS5TdHJpbmcoKSkKCX0KCgl2YXIgaW1wb3J0ZWQgbW9kZWwuVGFzawoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJuYW1lID0gPyIsICJpbXBvcnRlZCBleGl0IHRhc2siKS5GaXJzdCgmaW1wb3J0ZWQpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibG9hZCBpbXBvcnRlZCB0YXNrOiAldiIsIGVycikKCX0KCWlmIGltcG9ydGVkLlN1Y2Nlc3NFeGl0Q29kZXMgIT0gIjAsMSIgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBpbXBvcnRlZCBzdWNjZXNzX2V4aXRfY29kZXM9MCwxLCBnb3QgJXEiLCBpbXBvcnRlZC5TdWNjZXNzRXhpdENvZGVzKQoJfQp9Cg==
+package handler_test
+
+import (
+	"net/http"
+	"strconv"
+	"testing"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestTaskSuccessExitCodesCreateUpdateCopyAndExport(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "success-exit-codes-operator", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	headers := map[string]string{"Authorization": "Bearer " + token}
+
+	createRec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks",
+		`{"name":"legacy exit task","command":"task legacy.js","task_type":"manual","success_exit_codes":"0，1,1"}`,
+		headers,
+		"",
+	)
+	if createRec.Code != http.StatusCreated {
+		t.Fatalf("expected create 201, got %d: %s", createRec.Code, createRec.Body.String())
+	}
+	created := decodeJSONMap(t, createRec)["data"].(map[string]interface{})
+	if got := created["success_exit_codes"]; got != "0,1" {
+		t.Fatalf("expected normalized success_exit_codes=0,1, got %#v", got)
+	}
+	taskID := uint(created["id"].(float64))
+
+	resetRec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/tasks/"+strconv.FormatUint(uint64(taskID), 10),
+		`{"success_exit_codes":null}`,
+		headers,
+		"",
+	)
+	if resetRec.Code != http.StatusOK {
+		t.Fatalf("expected null reset 200, got %d: %s", resetRec.Code, resetRec.Body.String())
+	}
+	resetTask := decodeJSONMap(t, resetRec)["data"].(map[string]interface{})
+	if got := resetTask["success_exit_codes"]; got != "0" {
+		t.Fatalf("expected null success_exit_codes to reset to 0, got %#v", got)
+	}
+
+	updateRec := performJSONRequest(
+		engine,
+		http.MethodPut,
+		"/api/v1/tasks/"+strconv.FormatUint(uint64(taskID), 10),
+		`{"success_exit_codes":"0 2"}`,
+		headers,
+		"",
+	)
+	if updateRec.Code != http.StatusOK {
+		t.Fatalf("expected update 200, got %d: %s", updateRec.Code, updateRec.Body.String())
+	}
+	updated := decodeJSONMap(t, updateRec)["data"].(map[string]interface{})
+	if got := updated["success_exit_codes"]; got != "0,2" {
+		t.Fatalf("expected updated success_exit_codes=0,2, got %#v", got)
+	}
+
+	copyRec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks/"+strconv.FormatUint(uint64(taskID), 10)+"/copy",
+		`{}`,
+		headers,
+		"",
+	)
+	if copyRec.Code != http.StatusCreated {
+		t.Fatalf("expected copy 201, got %d: %s", copyRec.Code, copyRec.Body.String())
+	}
+	copied := decodeJSONMap(t, copyRec)["data"].(map[string]interface{})
+	if got := copied["success_exit_codes"]; got != "0,2" {
+		t.Fatalf("expected copied success_exit_codes=0,2, got %#v", got)
+	}
+
+	exportRec := performRequest(engine, http.MethodGet, "/api/v1/tasks/export", headers)
+	if exportRec.Code != http.StatusOK {
+		t.Fatalf("expected export 200, got %d: %s", exportRec.Code, exportRec.Body.String())
+	}
+	exportedTasks := decodeJSONMap(t, exportRec)["data"].([]interface{})
+	foundExportedTask := false
+	for _, item := range exportedTasks {
+		exported := item.(map[string]interface{})
+		if exported["name"] != "legacy exit task" {
+			continue
+		}
+		foundExportedTask = true
+		if exported["success_exit_codes"] != "0,2" {
+			t.Fatalf("expected exported success_exit_codes=0,2, got %#v", exported["success_exit_codes"])
+		}
+	}
+	if !foundExportedTask {
+		t.Fatal("expected exported task to be present")
+	}
+
+	var stored model.Task
+	if err := database.DB.First(&stored, taskID).Error; err != nil {
+		t.Fatalf("reload task: %v", err)
+	}
+	if stored.SuccessExitCodes != "0,2" {
+		t.Fatalf("expected stored success_exit_codes=0,2, got %q", stored.SuccessExitCodes)
+	}
+}
+
+func TestTaskSuccessExitCodesRejectInvalidValueAndImportValidValue(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "success-exit-codes-importer", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+	headers := map[string]string{"Authorization": "Bearer " + token}
+
+	invalidRec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks",
+		`{"name":"invalid exit task","command":"task invalid.js","task_type":"manual","success_exit_codes":"0,-1"}`,
+		headers,
+		"",
+	)
+	if invalidRec.Code != http.StatusBadRequest {
+		t.Fatalf("expected invalid create 400, got %d: %s", invalidRec.Code, invalidRec.Body.String())
+	}
+
+	importRec := performJSONRequest(
+		engine,
+		http.MethodPost,
+		"/api/v1/tasks/import",
+		`{"tasks":[{"name":"imported exit task","command":"task imported.js","task_type":"manual","success_exit_codes":"0,1"}]}`,
+		headers,
+		"",
+	)
+	if importRec.Code != http.StatusCreated {
+		t.Fatalf("expected import 201, got %d: %s", importRec.Code, importRec.Body.String())
+	}
+
+	var imported model.Task
+	if err := database.DB.Where("name = ?", "imported exit task").First(&imported).Error; err != nil {
+		t.Fatalf("load imported task: %v", err)
+	}
+	if imported.SuccessExitCodes != "0,1" {
+		t.Fatalf("expected imported success_exit_codes=0,1, got %q", imported.SuccessExitCodes)
+	}
+}

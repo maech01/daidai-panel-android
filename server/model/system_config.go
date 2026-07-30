@@ -1,1 +1,154 @@
-cGFja2FnZSBtb2RlbAoKaW1wb3J0ICgKCSJlcnJvcnMiCgkic3RyaW5ncyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgoJImdvcm0uaW8vZ29ybSIKCSJnb3JtLmlvL2dvcm0vbG9nZ2VyIgopCgp0eXBlIFN5c3RlbUNvbmZpZyBzdHJ1Y3QgewoJSUQgICAgICAgICAgdWludCAgICAgIGBnb3JtOiJwcmltYXJ5a2V5IiBqc29uOiJpZCJgCglLZXkgICAgICAgICBzdHJpbmcgICAgYGdvcm06InNpemU6NjQ7dW5pcXVlSW5kZXg7bm90IG51bGwiIGpzb246ImtleSJgCglWYWx1ZSAgICAgICBzdHJpbmcgICAgYGdvcm06InR5cGU6dGV4dDtkZWZhdWx0OicnIiBqc29uOiJ2YWx1ZSJgCglEZXNjcmlwdGlvbiBzdHJpbmcgICAgYGdvcm06InNpemU6MjU2O2RlZmF1bHQ6JyciIGpzb246ImRlc2NyaXB0aW9uImAKCVVwZGF0ZWRBdCAgIHRpbWUuVGltZSBganNvbjoidXBkYXRlZF9hdCJgCn0KCnZhciBkZXByZWNhdGVkU3lzdGVtQ29uZmlnS2V5cyA9IG1hcFtzdHJpbmddYm9vbHsKCSJjb21tYW5kX3RpbWVvdXQiOiB0cnVlLAp9CgpmdW5jIChTeXN0ZW1Db25maWcpIFRhYmxlTmFtZSgpIHN0cmluZyB7CglyZXR1cm4gInN5c3RlbV9jb25maWdzIgp9CgpmdW5jIHNpbGVudERCKCkgKmdvcm0uREIgewoJcmV0dXJuIGRhdGFiYXNlLkRCLlNlc3Npb24oJmdvcm0uU2Vzc2lvbntMb2dnZXI6IGRhdGFiYXNlLkRCLkxvZ2dlci5Mb2dNb2RlKGxvZ2dlci5TaWxlbnQpfSkKfQoKZnVuYyBHZXRDb25maWcoa2V5IHN0cmluZywgZGVmYXVsdFZhbHVlIHN0cmluZykgc3RyaW5nIHsKCWlmIGRlZmF1bHRWYWx1ZSA9PSAiIiB7CgkJaWYgZGVmLCBleGlzdHMgOj0gR2V0U3lzdGVtQ29uZmlnRGVmaW5pdGlvbihrZXkpOyBleGlzdHMgewoJCQlkZWZhdWx0VmFsdWUgPSBkZWYuRGVmYXVsdFZhbHVlCgkJfQoJfQoKCXZhciBjZmcgU3lzdGVtQ29uZmlnCglpZiBlcnIgOj0gc2lsZW50REIoKS5XaGVyZSgiYGtleWAgPSA/Iiwga2V5KS5GaXJzdCgmY2ZnKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJcmV0dXJuIGRlZmF1bHRWYWx1ZQoJfQoJaWYgY2ZnLlZhbHVlID09ICIiIHsKCQlyZXR1cm4gZGVmYXVsdFZhbHVlCgl9CglyZXR1cm4gY2ZnLlZhbHVlCn0KCmZ1bmMgR2V0Q29uZmlnSW50KGtleSBzdHJpbmcsIGRlZmF1bHRWYWx1ZSBpbnQpIGludCB7Cgl2YWwgOj0gR2V0Q29uZmlnKGtleSwgIiIpCglpZiB2YWwgPT0gIiIgewoJCXJldHVybiBkZWZhdWx0VmFsdWUKCX0KCXZhciByZXN1bHQgaW50Cglmb3IgXywgYyA6PSByYW5nZSB2YWwgewoJCWlmIGMgPj0gJzAnICYmIGMgPD0gJzknIHsKCQkJcmVzdWx0ID0gcmVzdWx0KjEwICsgaW50KGMtJzAnKQoJCX0gZWxzZSB7CgkJCXJldHVybiBkZWZhdWx0VmFsdWUKCQl9Cgl9CglyZXR1cm4gcmVzdWx0Cn0KCmZ1bmMgR2V0Q29uZmlnQm9vbChrZXkgc3RyaW5nLCBkZWZhdWx0VmFsdWUgYm9vbCkgYm9vbCB7Cgl2YWwgOj0gR2V0Q29uZmlnKGtleSwgIiIpCglpZiB2YWwgPT0gIiIgewoJCXJldHVybiBkZWZhdWx0VmFsdWUKCX0KCglwYXJzZWQsIG9rIDo9IHBhcnNlQm9vbFN0cmluZyh2YWwpCglpZiAhb2sgewoJCXJldHVybiBkZWZhdWx0VmFsdWUKCX0KCXJldHVybiBwYXJzZWQKfQoKZnVuYyBTZXRDb25maWcoa2V5LCB2YWx1ZSBzdHJpbmcpIGVycm9yIHsKCWlmIGRlcHJlY2F0ZWRTeXN0ZW1Db25maWdLZXlzW2tleV0gewoJCXJldHVybiByZW1vdmVEZXByZWNhdGVkU3lzdGVtQ29uZmlncyhrZXkpCgl9CgoJbm9ybWFsaXplZCwgZXJyIDo9IE5vcm1hbGl6ZVN5c3RlbUNvbmZpZ1ZhbHVlKGtleSwgdmFsdWUpCglpZiBlcnIgIT0gbmlsIHsKCQlyZXR1cm4gZXJyCgl9CgoJdmFyIGNmZyBTeXN0ZW1Db25maWcKCWlmIGVyciA6PSBzaWxlbnREQigpLldoZXJlKCJga2V5YCA9ID8iLCBrZXkpLkZpcnN0KCZjZmcpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQljZmcgPSBTeXN0ZW1Db25maWd7S2V5OiBrZXksIFZhbHVlOiBub3JtYWxpemVkfQoJCWlmIGRlZiwgZXhpc3RzIDo9IEdldFN5c3RlbUNvbmZpZ0RlZmluaXRpb24oa2V5KTsgZXhpc3RzIHsKCQkJY2ZnLkRlc2NyaXB0aW9uID0gZGVmLkRlc2NyaXB0aW9uCgkJfQoJCXJldHVybiBkYXRhYmFzZS5EQi5DcmVhdGUoJmNmZykuRXJyb3IKCX0KCgl1cGRhdGVzIDo9IG1hcFtzdHJpbmddaW50ZXJmYWNle317InZhbHVlIjogbm9ybWFsaXplZH0KCWlmIGRlZiwgZXhpc3RzIDo9IEdldFN5c3RlbUNvbmZpZ0RlZmluaXRpb24oa2V5KTsgZXhpc3RzICYmIGNmZy5EZXNjcmlwdGlvbiAhPSBkZWYuRGVzY3JpcHRpb24gewoJCXVwZGF0ZXNbImRlc2NyaXB0aW9uIl0gPSBkZWYuRGVzY3JpcHRpb24KCX0KCglyZXR1cm4gZGF0YWJhc2UuREIuTW9kZWwoJmNmZykuVXBkYXRlcyh1cGRhdGVzKS5FcnJvcgp9CgpmdW5jIEluaXREZWZhdWx0Q29uZmlncygpIHsKCWRiIDo9IHNpbGVudERCKCkKCWZvciBfLCBkZWYgOj0gcmFuZ2UgU3lzdGVtQ29uZmlnRGVmaW5pdGlvbnMoKSB7CgkJdmFyIGV4aXN0aW5nIFN5c3RlbUNvbmZpZwoJCWlmIGVyciA6PSBkYi5XaGVyZSgiYGtleWAgPSA/IiwgZGVmLktleSkuRmlyc3QoJmV4aXN0aW5nKS5FcnJvcjsgZXJyICE9IG5pbCAmJiBlcnJvcnMuSXMoZXJyLCBnb3JtLkVyclJlY29yZE5vdEZvdW5kKSB7CgkJCWRhdGFiYXNlLkRCLkNyZWF0ZSgmU3lzdGVtQ29uZmlnewoJCQkJS2V5OiAgICAgICAgIGRlZi5LZXksCgkJCQlWYWx1ZTogICAgICAgZGVmLkRlZmF1bHRWYWx1ZSwKCQkJCURlc2NyaXB0aW9uOiBkZWYuRGVzY3JpcHRpb24sCgkJCX0pCgkJCWNvbnRpbnVlCgkJfQoKCQlub3JtYWxpemVkVmFsdWUgOj0gZXhpc3RpbmcuVmFsdWUKCQlpZiBub3JtYWxpemVkVmFsdWUgPT0gIiIgewoJCQlub3JtYWxpemVkVmFsdWUgPSBkZWYuRGVmYXVsdFZhbHVlCgkJfSBlbHNlIGlmIG5vcm1hbGl6ZWQsIGVyciA6PSBOb3JtYWxpemVTeXN0ZW1Db25maWdWYWx1ZShkZWYuS2V5LCBleGlzdGluZy5WYWx1ZSk7IGVyciA9PSBuaWwgewoJCQlub3JtYWxpemVkVmFsdWUgPSBub3JtYWxpemVkCgkJfSBlbHNlIHsKCQkJbm9ybWFsaXplZFZhbHVlID0gZGVmLkRlZmF1bHRWYWx1ZQoJCX0KCgkJdXBkYXRlcyA6PSBtYXBbc3RyaW5nXWludGVyZmFjZXt9e30KCQlpZiBzdHJpbmdzLlRyaW1TcGFjZShleGlzdGluZy5EZXNjcmlwdGlvbikgIT0gZGVmLkRlc2NyaXB0aW9uIHsKCQkJdXBkYXRlc1siZGVzY3JpcHRpb24iXSA9IGRlZi5EZXNjcmlwdGlvbgoJCX0KCQlpZiBkZWYuS2V5ID09ICJtYXhfbG9nX2NvbnRlbnRfc2l6ZSIgJiYgc3RyaW5ncy5UcmltU3BhY2UoZXhpc3RpbmcuVmFsdWUpID09ICIxMDI0MDAiIHsKCQkJbm9ybWFsaXplZFZhbHVlID0gZGVmLkRlZmF1bHRWYWx1ZQoJCX0KCQlpZiBub3JtYWxpemVkVmFsdWUgIT0gZXhpc3RpbmcuVmFsdWUgewoJCQl1cGRhdGVzWyJ2YWx1ZSJdID0gbm9ybWFsaXplZFZhbHVlCgkJfQoJCWlmIGxlbih1cGRhdGVzKSA+IDAgewoJCQlkYXRhYmFzZS5EQi5Nb2RlbCgmZXhpc3RpbmcpLlVwZGF0ZXModXBkYXRlcykKCQl9Cgl9CgoJcmVtb3ZlRGVwcmVjYXRlZFN5c3RlbUNvbmZpZ3MoImNvbW1hbmRfdGltZW91dCIpCn0KCmZ1bmMgcmVtb3ZlRGVwcmVjYXRlZFN5c3RlbUNvbmZpZ3Moa2V5cyAuLi5zdHJpbmcpIGVycm9yIHsKCWZvciBfLCBrZXkgOj0gcmFuZ2Uga2V5cyB7CgkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLldoZXJlKCJga2V5YCA9ID8iLCBrZXkpLkRlbGV0ZSgmU3lzdGVtQ29uZmlne30pLkVycm9yOyBlcnIgIT0gbmlsIHsKCQkJcmV0dXJuIGVycgoJCX0KCX0KCXJldHVybiBuaWwKfQo=
+package model
+
+import (
+	"errors"
+	"strings"
+	"time"
+
+	"daidai-panel/database"
+
+	"gorm.io/gorm"
+	"gorm.io/gorm/logger"
+)
+
+type SystemConfig struct {
+	ID          uint      `gorm:"primarykey" json:"id"`
+	Key         string    `gorm:"size:64;uniqueIndex;not null" json:"key"`
+	Value       string    `gorm:"type:text;default:''" json:"value"`
+	Description string    `gorm:"size:256;default:''" json:"description"`
+	UpdatedAt   time.Time `json:"updated_at"`
+}
+
+var deprecatedSystemConfigKeys = map[string]bool{
+	"command_timeout": true,
+}
+
+func (SystemConfig) TableName() string {
+	return "system_configs"
+}
+
+func silentDB() *gorm.DB {
+	return database.DB.Session(&gorm.Session{Logger: database.DB.Logger.LogMode(logger.Silent)})
+}
+
+func GetConfig(key string, defaultValue string) string {
+	if defaultValue == "" {
+		if def, exists := GetSystemConfigDefinition(key); exists {
+			defaultValue = def.DefaultValue
+		}
+	}
+
+	var cfg SystemConfig
+	if err := silentDB().Where("`key` = ?", key).First(&cfg).Error; err != nil {
+		return defaultValue
+	}
+	if cfg.Value == "" {
+		return defaultValue
+	}
+	return cfg.Value
+}
+
+func GetConfigInt(key string, defaultValue int) int {
+	val := GetConfig(key, "")
+	if val == "" {
+		return defaultValue
+	}
+	var result int
+	for _, c := range val {
+		if c >= '0' && c <= '9' {
+			result = result*10 + int(c-'0')
+		} else {
+			return defaultValue
+		}
+	}
+	return result
+}
+
+func GetConfigBool(key string, defaultValue bool) bool {
+	val := GetConfig(key, "")
+	if val == "" {
+		return defaultValue
+	}
+
+	parsed, ok := parseBoolString(val)
+	if !ok {
+		return defaultValue
+	}
+	return parsed
+}
+
+func SetConfig(key, value string) error {
+	if deprecatedSystemConfigKeys[key] {
+		return removeDeprecatedSystemConfigs(key)
+	}
+
+	normalized, err := NormalizeSystemConfigValue(key, value)
+	if err != nil {
+		return err
+	}
+
+	var cfg SystemConfig
+	if err := silentDB().Where("`key` = ?", key).First(&cfg).Error; err != nil {
+		cfg = SystemConfig{Key: key, Value: normalized}
+		if def, exists := GetSystemConfigDefinition(key); exists {
+			cfg.Description = def.Description
+		}
+		return database.DB.Create(&cfg).Error
+	}
+
+	updates := map[string]interface{}{"value": normalized}
+	if def, exists := GetSystemConfigDefinition(key); exists && cfg.Description != def.Description {
+		updates["description"] = def.Description
+	}
+
+	return database.DB.Model(&cfg).Updates(updates).Error
+}
+
+func InitDefaultConfigs() {
+	db := silentDB()
+	for _, def := range SystemConfigDefinitions() {
+		var existing SystemConfig
+		if err := db.Where("`key` = ?", def.Key).First(&existing).Error; err != nil && errors.Is(err, gorm.ErrRecordNotFound) {
+			database.DB.Create(&SystemConfig{
+				Key:         def.Key,
+				Value:       def.DefaultValue,
+				Description: def.Description,
+			})
+			continue
+		}
+
+		normalizedValue := existing.Value
+		if normalizedValue == "" {
+			normalizedValue = def.DefaultValue
+		} else if normalized, err := NormalizeSystemConfigValue(def.Key, existing.Value); err == nil {
+			normalizedValue = normalized
+		} else {
+			normalizedValue = def.DefaultValue
+		}
+
+		updates := map[string]interface{}{}
+		if strings.TrimSpace(existing.Description) != def.Description {
+			updates["description"] = def.Description
+		}
+		if def.Key == "max_log_content_size" && strings.TrimSpace(existing.Value) == "102400" {
+			normalizedValue = def.DefaultValue
+		}
+		if normalizedValue != existing.Value {
+			updates["value"] = normalizedValue
+		}
+		if len(updates) > 0 {
+			database.DB.Model(&existing).Updates(updates)
+		}
+	}
+
+	removeDeprecatedSystemConfigs("command_timeout")
+}
+
+func removeDeprecatedSystemConfigs(keys ...string) error {
+	for _, key := range keys {
+		if err := database.DB.Where("`key` = ?", key).Delete(&SystemConfig{}).Error; err != nil {
+			return err
+		}
+	}
+	return nil
+}

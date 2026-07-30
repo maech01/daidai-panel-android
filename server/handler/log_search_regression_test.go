@@ -1,1 +1,90 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkibmV0L2h0dHAiCgkibmV0L2h0dHAvaHR0cHRlc3QiCgkidGVzdGluZyIKCSJ0aW1lIgoKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKZnVuYyBUZXN0TG9nTGlzdEtleXdvcmRTZWFyY2hNYXRjaGVzVGFza05hbWVJbnN0ZWFkT2ZDb250ZW50KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCgoJYWRtaW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZVVzZXIodCwgImxvZy1zZWFyY2gtYWRtaW4iLCAiYWRtaW4iKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIGFkbWluLlVzZXJuYW1lLCBhZG1pbi5Sb2xlKQoKCXRhcmdldFRhc2sgOj0gbW9kZWwuVGFza3sKCQlOYW1lOiAgICAgICAgICAgIuS6rOS4nOetvuWIsOS7u+WKoSIsCgkJQ29tbWFuZDogICAgICAgICJlY2hvIHRhcmdldCIsCgkJQ3JvbkV4cHJlc3Npb246ICIwIDAgKiAqICoiLAoJCVN0YXR1czogICAgICAgICBtb2RlbC5UYXNrU3RhdHVzRW5hYmxlZCwKCX0KCW90aGVyVGFzayA6PSBtb2RlbC5UYXNrewoJCU5hbWU6ICAgICAgICAgICAi5pmu6YCa5ZCM5q2l5Lu75YqhIiwKCQlDb21tYW5kOiAgICAgICAgImVjaG8gb3RoZXIiLAoJCUNyb25FeHByZXNzaW9uOiAiMCAwICogKiAqIiwKCQlTdGF0dXM6ICAgICAgICAgbW9kZWwuVGFza1N0YXR1c0VuYWJsZWQsCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmdGFyZ2V0VGFzaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgdGFyZ2V0IHRhc2s6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmb3RoZXJUYXNrKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBvdGhlciB0YXNrOiAldiIsIGVycikKCX0KCglzdWNjZXNzU3RhdHVzIDo9IG1vZGVsLkxvZ1N0YXR1c1N1Y2Nlc3MKCW5vdyA6PSB0aW1lLk5vdygpCgl0YXJnZXRMb2cgOj0gbW9kZWwuVGFza0xvZ3sKCQlUYXNrSUQ6ICAgIHRhcmdldFRhc2suSUQsCgkJQ29udGVudDogICAi6L+Z5p2h5pel5b+X5YaF5a656YeM5rKh5pyJ5YWz6ZSu5a2XIiwKCQlTdGF0dXM6ICAgICZzdWNjZXNzU3RhdHVzLAoJCVN0YXJ0ZWRBdDogbm93LAoJfQoJb3RoZXJMb2cgOj0gbW9kZWwuVGFza0xvZ3sKCQlUYXNrSUQ6ICAgIG90aGVyVGFzay5JRCwKCQlDb250ZW50OiAgICLml6Xlv5flhoXlrrnph4zmj5DliLDkuobnrb7liLDlhbPplK7lrZciLAoJCVN0YXR1czogICAgJnN1Y2Nlc3NTdGF0dXMsCgkJU3RhcnRlZEF0OiBub3cuQWRkKC10aW1lLk1pbnV0ZSksCgl9CgoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZSgmdGFyZ2V0TG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSB0YXJnZXQgbG9nOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUoJm90aGVyTG9nKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImNyZWF0ZSBvdGhlciBsb2c6ICV2IiwgZXJyKQoJfQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJcmVxIDo9IGh0dHB0ZXN0Lk5ld1JlcXVlc3QoaHR0cC5NZXRob2RHZXQsICIvYXBpL3YxL2xvZ3M/a2V5d29yZD3nrb7liLAiLCBuaWwpCglyZXEuSGVhZGVyLlNldCgiQXV0aG9yaXphdGlvbiIsICJCZWFyZXIgIit0b2tlbikKCXJlYyA6PSBodHRwdGVzdC5OZXdSZWNvcmRlcigpCgllbmdpbmUuU2VydmVIVFRQKHJlYywgcmVxKQoKCWlmIHJlYy5Db2RlICE9IGh0dHAuU3RhdHVzT0sgewoJCXQuRmF0YWxmKCJleHBlY3RlZCAyMDAsIGdvdCAlZCwgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCX0KCglwYXlsb2FkIDo9IGRlY29kZUpTT05NYXAodCwgcmVjKQoJaWYgaW50KHBheWxvYWRbInRvdGFsIl0uKGZsb2F0NjQpKSAhPSAxIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdG90YWwgMSwgZ290ICV2IiwgcGF5bG9hZFsidG90YWwiXSkKCX0KCglkYXRhLCBvayA6PSBwYXlsb2FkWyJkYXRhIl0uKFtdaW50ZXJmYWNle30pCglpZiAhb2sgfHwgbGVuKGRhdGEpICE9IDEgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBzaW5nbGUgbG9nIGVudHJ5LCBnb3QgJSN2IiwgcGF5bG9hZFsiZGF0YSJdKQoJfQoKCWVudHJ5LCBvayA6PSBkYXRhWzBdLihtYXBbc3RyaW5nXWludGVyZmFjZXt9KQoJaWYgIW9rIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgbG9nIGVudHJ5IG1hcCwgZ290ICUjdiIsIGRhdGFbMF0pCgl9CgoJaWYgZW50cnlbInRhc2tfbmFtZSJdICE9IHRhcmdldFRhc2suTmFtZSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHRhc2tfbmFtZSAlcSwgZ290ICUjdiIsIHRhcmdldFRhc2suTmFtZSwgZW50cnlbInRhc2tfbmFtZSJdKQoJfQp9Cg==
+package handler_test
+
+import (
+	"net/http"
+	"net/http/httptest"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestLogListKeywordSearchMatchesTaskNameInsteadOfContent(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	admin := testutil.MustCreateUser(t, "log-search-admin", "admin")
+	token := testutil.MustCreateAccessToken(t, admin.Username, admin.Role)
+
+	targetTask := model.Task{
+		Name:           "京东签到任务",
+		Command:        "echo target",
+		CronExpression: "0 0 * * *",
+		Status:         model.TaskStatusEnabled,
+	}
+	otherTask := model.Task{
+		Name:           "普通同步任务",
+		Command:        "echo other",
+		CronExpression: "0 0 * * *",
+		Status:         model.TaskStatusEnabled,
+	}
+
+	if err := database.DB.Create(&targetTask).Error; err != nil {
+		t.Fatalf("create target task: %v", err)
+	}
+	if err := database.DB.Create(&otherTask).Error; err != nil {
+		t.Fatalf("create other task: %v", err)
+	}
+
+	successStatus := model.LogStatusSuccess
+	now := time.Now()
+	targetLog := model.TaskLog{
+		TaskID:    targetTask.ID,
+		Content:   "这条日志内容里没有关键字",
+		Status:    &successStatus,
+		StartedAt: now,
+	}
+	otherLog := model.TaskLog{
+		TaskID:    otherTask.ID,
+		Content:   "日志内容里提到了签到关键字",
+		Status:    &successStatus,
+		StartedAt: now.Add(-time.Minute),
+	}
+
+	if err := database.DB.Create(&targetLog).Error; err != nil {
+		t.Fatalf("create target log: %v", err)
+	}
+	if err := database.DB.Create(&otherLog).Error; err != nil {
+		t.Fatalf("create other log: %v", err)
+	}
+
+	engine := newProtectedRouter()
+	req := httptest.NewRequest(http.MethodGet, "/api/v1/logs?keyword=签到", nil)
+	req.Header.Set("Authorization", "Bearer "+token)
+	rec := httptest.NewRecorder()
+	engine.ServeHTTP(rec, req)
+
+	if rec.Code != http.StatusOK {
+		t.Fatalf("expected 200, got %d, body=%s", rec.Code, rec.Body.String())
+	}
+
+	payload := decodeJSONMap(t, rec)
+	if int(payload["total"].(float64)) != 1 {
+		t.Fatalf("expected total 1, got %v", payload["total"])
+	}
+
+	data, ok := payload["data"].([]interface{})
+	if !ok || len(data) != 1 {
+		t.Fatalf("expected single log entry, got %#v", payload["data"])
+	}
+
+	entry, ok := data[0].(map[string]interface{})
+	if !ok {
+		t.Fatalf("expected log entry map, got %#v", data[0])
+	}
+
+	if entry["task_name"] != targetTask.Name {
+		t.Fatalf("expected task_name %q, got %#v", targetTask.Name, entry["task_name"])
+	}
+}

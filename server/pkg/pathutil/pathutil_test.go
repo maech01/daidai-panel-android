@@ -1,1 +1,93 @@
-cGFja2FnZSBwYXRodXRpbAoKaW1wb3J0ICgKCSJvcyIKCSJwYXRoL2ZpbGVwYXRoIgoJInRlc3RpbmciCikKCmZ1bmMgVGVzdFJlc29sdmVXaXRoaW5CYXNlQWxsb3dzQ2hpbGRQYXRoKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJYmFzZSA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJzY3JpcHRzIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChiYXNlLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciBiYXNlOiAldiIsIGVycikKCX0KCglnb3QsIGVyciA6PSBSZXNvbHZlV2l0aGluQmFzZShiYXNlLCBmaWxlcGF0aC5Kb2luKCJqb2JzIiwgInRhc2suanMiKSwgZmFsc2UpCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiUmVzb2x2ZVdpdGhpbkJhc2UgcmV0dXJuZWQgZXJyb3I6ICV2IiwgZXJyKQoJfQoKCXdhbnQgOj0gcmVzb2x2ZVBhdGhGcm9tRXhpc3RpbmdBbmNlc3RvcihmaWxlcGF0aC5Kb2luKGJhc2UsICJqb2JzIiwgInRhc2suanMiKSkKCWlmIGdvdCAhPSB3YW50IHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCByZXNvbHZlZCBwYXRoOiBnb3QgJXEgd2FudCAlcSIsIGdvdCwgd2FudCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZVdpdGhpbkJhc2VBbGxvd3NDaGlsZFBhdGhXaGVuQmFzZURvZXNOb3RFeGlzdFlldCh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCWJhc2UgOj0gZmlsZXBhdGguSm9pbihyb290LCAic2NyaXB0cyIpCgoJZ290LCBlcnIgOj0gUmVzb2x2ZVdpdGhpbkJhc2UoYmFzZSwgImRlbW8uc2giLCBmYWxzZSkKCWlmIGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJSZXNvbHZlV2l0aGluQmFzZSByZXR1cm5lZCBlcnJvcjogJXYiLCBlcnIpCgl9CgoJd2FudCA6PSByZXNvbHZlUGF0aEZyb21FeGlzdGluZ0FuY2VzdG9yKGZpbGVwYXRoLkpvaW4oYmFzZSwgImRlbW8uc2giKSkKCWlmIGdvdCAhPSB3YW50IHsKCQl0LkZhdGFsZigidW5leHBlY3RlZCByZXNvbHZlZCBwYXRoOiBnb3QgJXEgd2FudCAlcSIsIGdvdCwgd2FudCkKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZVdpdGhpbkJhc2VSZWplY3RzUHJlZml4Q29sbGlzaW9uKHQgKnRlc3RpbmcuVCkgewoJcm9vdCA6PSB0LlRlbXBEaXIoKQoJYmFzZSA6PSBmaWxlcGF0aC5Kb2luKHJvb3QsICJzY3JpcHRzIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChiYXNlLCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJta2RpciBiYXNlOiAldiIsIGVycikKCX0KCglvdXRzaWRlIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInNjcmlwdHNfZXZpbCIsICJ0YXNrLmpzIikKCWlmIGVyciA6PSBvcy5Na2RpckFsbChmaWxlcGF0aC5EaXIob3V0c2lkZSksIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIG91dHNpZGU6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShvdXRzaWRlLCBbXWJ5dGUoImNvbnNvbGUubG9nKCd4JykiKSwgMG82NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgb3V0c2lkZTogJXYiLCBlcnIpCgl9CgoJaWYgXywgZXJyIDo9IFJlc29sdmVXaXRoaW5CYXNlKGJhc2UsIG91dHNpZGUsIHRydWUpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgcHJlZml4IGNvbGxpc2lvbiB0byBiZSByZWplY3RlZCIpCgl9Cn0KCmZ1bmMgVGVzdFJlc29sdmVXaXRoaW5CYXNlUmVqZWN0c1RyYXZlcnNhbCh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCWJhc2UgOj0gZmlsZXBhdGguSm9pbihyb290LCAic2NyaXB0cyIpCglpZiBlcnIgOj0gb3MuTWtkaXJBbGwoYmFzZSwgMG83NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigibWtkaXIgYmFzZTogJXYiLCBlcnIpCgl9CgoJaWYgXywgZXJyIDo9IFJlc29sdmVXaXRoaW5CYXNlKGJhc2UsIGZpbGVwYXRoLkpvaW4oIi4uIiwgImV2aWwuanMiKSwgZmFsc2UpOyBlcnIgPT0gbmlsIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgdHJhdmVyc2FsIHRvIGJlIHJlamVjdGVkIikKCX0KfQoKZnVuYyBUZXN0UmVzb2x2ZVdpdGhpbkJhc2VSZWplY3RzU3ltbGlua0VzY2FwZSh0ICp0ZXN0aW5nLlQpIHsKCXJvb3QgOj0gdC5UZW1wRGlyKCkKCWJhc2UgOj0gZmlsZXBhdGguSm9pbihyb290LCAic2NyaXB0cyIpCglvdXRzaWRlIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgIm91dHNpZGUiKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGJhc2UsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIGJhc2U6ICV2IiwgZXJyKQoJfQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKG91dHNpZGUsIDBvNzU1KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIm1rZGlyIG91dHNpZGU6ICV2IiwgZXJyKQoJfQoKCWxpbmtQYXRoIDo9IGZpbGVwYXRoLkpvaW4oYmFzZSwgImxpbmsiKQoJaWYgZXJyIDo9IG9zLlN5bWxpbmsob3V0c2lkZSwgbGlua1BhdGgpOyBlcnIgIT0gbmlsIHsKCQl0LlNraXBmKCJzeW1saW5rIHVuYXZhaWxhYmxlOiAldiIsIGVycikKCX0KCglpZiBfLCBlcnIgOj0gUmVzb2x2ZVdpdGhpbkJhc2UoYmFzZSwgZmlsZXBhdGguSm9pbigibGluayIsICJ0YXNrLmpzIiksIGZhbHNlKTsgZXJyID09IG5pbCB7CgkJdC5GYXRhbGYoImV4cGVjdGVkIHN5bWxpbmsgZXNjYXBlIHRvIGJlIHJlamVjdGVkIikKCX0KfQo=
+package pathutil
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+)
+
+func TestResolveWithinBaseAllowsChildPath(t *testing.T) {
+	root := t.TempDir()
+	base := filepath.Join(root, "scripts")
+	if err := os.MkdirAll(base, 0o755); err != nil {
+		t.Fatalf("mkdir base: %v", err)
+	}
+
+	got, err := ResolveWithinBase(base, filepath.Join("jobs", "task.js"), false)
+	if err != nil {
+		t.Fatalf("ResolveWithinBase returned error: %v", err)
+	}
+
+	want := resolvePathFromExistingAncestor(filepath.Join(base, "jobs", "task.js"))
+	if got != want {
+		t.Fatalf("unexpected resolved path: got %q want %q", got, want)
+	}
+}
+
+func TestResolveWithinBaseAllowsChildPathWhenBaseDoesNotExistYet(t *testing.T) {
+	root := t.TempDir()
+	base := filepath.Join(root, "scripts")
+
+	got, err := ResolveWithinBase(base, "demo.sh", false)
+	if err != nil {
+		t.Fatalf("ResolveWithinBase returned error: %v", err)
+	}
+
+	want := resolvePathFromExistingAncestor(filepath.Join(base, "demo.sh"))
+	if got != want {
+		t.Fatalf("unexpected resolved path: got %q want %q", got, want)
+	}
+}
+
+func TestResolveWithinBaseRejectsPrefixCollision(t *testing.T) {
+	root := t.TempDir()
+	base := filepath.Join(root, "scripts")
+	if err := os.MkdirAll(base, 0o755); err != nil {
+		t.Fatalf("mkdir base: %v", err)
+	}
+
+	outside := filepath.Join(root, "scripts_evil", "task.js")
+	if err := os.MkdirAll(filepath.Dir(outside), 0o755); err != nil {
+		t.Fatalf("mkdir outside: %v", err)
+	}
+	if err := os.WriteFile(outside, []byte("console.log('x')"), 0o644); err != nil {
+		t.Fatalf("write outside: %v", err)
+	}
+
+	if _, err := ResolveWithinBase(base, outside, true); err == nil {
+		t.Fatalf("expected prefix collision to be rejected")
+	}
+}
+
+func TestResolveWithinBaseRejectsTraversal(t *testing.T) {
+	root := t.TempDir()
+	base := filepath.Join(root, "scripts")
+	if err := os.MkdirAll(base, 0o755); err != nil {
+		t.Fatalf("mkdir base: %v", err)
+	}
+
+	if _, err := ResolveWithinBase(base, filepath.Join("..", "evil.js"), false); err == nil {
+		t.Fatalf("expected traversal to be rejected")
+	}
+}
+
+func TestResolveWithinBaseRejectsSymlinkEscape(t *testing.T) {
+	root := t.TempDir()
+	base := filepath.Join(root, "scripts")
+	outside := filepath.Join(root, "outside")
+	if err := os.MkdirAll(base, 0o755); err != nil {
+		t.Fatalf("mkdir base: %v", err)
+	}
+	if err := os.MkdirAll(outside, 0o755); err != nil {
+		t.Fatalf("mkdir outside: %v", err)
+	}
+
+	linkPath := filepath.Join(base, "link")
+	if err := os.Symlink(outside, linkPath); err != nil {
+		t.Skipf("symlink unavailable: %v", err)
+	}
+
+	if _, err := ResolveWithinBase(base, filepath.Join("link", "task.js"), false); err == nil {
+		t.Fatalf("expected symlink escape to be rejected")
+	}
+}

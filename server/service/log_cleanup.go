@@ -1,1 +1,77 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImxvZyIKCSJzeW5jIgoJInRpbWUiCgoJImRhaWRhaS1wYW5lbC9jb25maWciCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKKQoKdmFyICgKCWxvZ0NsZWFudXBPbmNlIHN5bmMuT25jZQoJbG9nQ2xlYW51cFN0b3AgY2hhbiBzdHJ1Y3R7fQopCgovLyBTdGFydExvZ0NsZWFudXBXb3JrZXIg5ZCv5Yqo5pel5b+X6Ieq5Yqo5riF55CG5ZCO5Y+wIHdvcmtlcu+8mgovLyDlkK/liqjlkI7lu7bov5/kuIDlsI/mrrXml7bpl7TlhYjmuIXkuIDmrKHvvIzkuYvlkI7mr48gNiDlsI/ml7bmuIXnkIbkuIDmrKHjgIIKLy8g5ZCM5pe25riF55CG44CM5pWw5o2u5bqTIFRhc2tMb2cg5pen6K6w5b2V44CN5LiO44CM56OB55uY5penIC5sb2cg5paH5Lu244CN77yM5oyJIGxvZ19yZXRlbnRpb25fZGF5cyDliKTlrprvvIzml6DlvIDlhbPjgIIKZnVuYyBTdGFydExvZ0NsZWFudXBXb3JrZXIoKSB7Cglsb2dDbGVhbnVwT25jZS5EbyhmdW5jKCkgewoJCWxvZ0NsZWFudXBTdG9wID0gbWFrZShjaGFuIHN0cnVjdHt9KQoJCWdvIGxvZ0NsZWFudXBMb29wKCkKCQlsb2cuUHJpbnRsbigibG9nIGNsZWFudXAgd29ya2VyIHN0YXJ0ZWQgKGludGVydmFsOiA2aCkiKQoJfSkKfQoKZnVuYyBTdG9wTG9nQ2xlYW51cFdvcmtlcigpIHsKCWlmIGxvZ0NsZWFudXBTdG9wICE9IG5pbCB7CgkJY2xvc2UobG9nQ2xlYW51cFN0b3ApCgl9Cn0KCmZ1bmMgbG9nQ2xlYW51cExvb3AoKSB7Cgl0aWNrZXIgOj0gdGltZS5OZXdUaWNrZXIoNiAqIHRpbWUuSG91cikKCWRlZmVyIHRpY2tlci5TdG9wKCkKCgkvLyDlkK/liqjlu7bov5/vvIzpgb/lhY3kuI7lkK/liqjov4Hnp7vkuonmiqIKCXRpbWUuU2xlZXAoNjAgKiB0aW1lLlNlY29uZCkKCWNsZWFudXBPbGRMb2dzKCkKCglmb3IgewoJCXNlbGVjdCB7CgkJY2FzZSA8LXRpY2tlci5DOgoJCQljbGVhbnVwT2xkTG9ncygpCgkJY2FzZSA8LWxvZ0NsZWFudXBTdG9wOgoJCQlyZXR1cm4KCQl9Cgl9Cn0KCi8vIGNsZWFudXBPbGRMb2dzIOaMiSBsb2dfcmV0ZW50aW9uX2RheXMg5riF55CG6L+H5pyf5pel5b+X77yIREIg6K6w5b2VICsg56OB55uY5paH5Lu277yJ44CCCmZ1bmMgY2xlYW51cE9sZExvZ3MoKSB7CglkYXlzIDo9IG1vZGVsLkdldFJlZ2lzdGVyZWRDb25maWdJbnQoImxvZ19yZXRlbnRpb25fZGF5cyIpCglpZiBkYXlzIDwgMSB7CgkJZGF5cyA9IDEKCX0KCWN1dG9mZiA6PSB0aW1lLk5vdygpLkFkZERhdGUoMCwgMCwgLWRheXMpCgoJdmFyIGRlbGV0ZWRSZWNvcmRzIGludDY0CglpZiBkYXRhYmFzZS5EQiAhPSBuaWwgewoJCXJlc3VsdCA6PSBkYXRhYmFzZS5EQi5XaGVyZSgic3RhcnRlZF9hdCA8ID8iLCBjdXRvZmYpLkRlbGV0ZSgmbW9kZWwuVGFza0xvZ3t9KQoJCWlmIHJlc3VsdC5FcnJvciAhPSBuaWwgewoJCQlsb2cuUHJpbnRmKCJsb2cgY2xlYW51cDogZGVsZXRlIFRhc2tMb2cgcmVjb3JkcyBmYWlsZWQ6ICV2IiwgcmVzdWx0LkVycm9yKQoJCX0gZWxzZSB7CgkJCWRlbGV0ZWRSZWNvcmRzID0gcmVzdWx0LlJvd3NBZmZlY3RlZAoJCX0KCX0KCglkZWxldGVkRmlsZXMgOj0gMAoJaWYgY29uZmlnLkMgIT0gbmlsIHsKCQlkZWxldGVkRmlsZXMgPSBDbGVhbk9sZExvZ3MoY29uZmlnLkMuRGF0YS5Mb2dEaXIsIGRheXMpCgl9CgoJbG9nLlByaW50ZigibG9nIGNsZWFudXA6IHJlbW92ZWQgJWQgVGFza0xvZyByZWNvcmRzIGFuZCAlZCBsb2cgZmlsZXMgKHJldGVudGlvbjogJWQgZGF5cykiLCBkZWxldGVkUmVjb3JkcywgZGVsZXRlZEZpbGVzLCBkYXlzKQp9Cg==
+package service
+
+import (
+	"log"
+	"sync"
+	"time"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+)
+
+var (
+	logCleanupOnce sync.Once
+	logCleanupStop chan struct{}
+)
+
+// StartLogCleanupWorker 启动日志自动清理后台 worker：
+// 启动后延迟一小段时间先清一次，之后每 6 小时清理一次。
+// 同时清理「数据库 TaskLog 旧记录」与「磁盘旧 .log 文件」，按 log_retention_days 判定，无开关。
+func StartLogCleanupWorker() {
+	logCleanupOnce.Do(func() {
+		logCleanupStop = make(chan struct{})
+		go logCleanupLoop()
+		log.Println("log cleanup worker started (interval: 6h)")
+	})
+}
+
+func StopLogCleanupWorker() {
+	if logCleanupStop != nil {
+		close(logCleanupStop)
+	}
+}
+
+func logCleanupLoop() {
+	ticker := time.NewTicker(6 * time.Hour)
+	defer ticker.Stop()
+
+	// 启动延迟，避免与启动迁移争抢
+	time.Sleep(60 * time.Second)
+	cleanupOldLogs()
+
+	for {
+		select {
+		case <-ticker.C:
+			cleanupOldLogs()
+		case <-logCleanupStop:
+			return
+		}
+	}
+}
+
+// cleanupOldLogs 按 log_retention_days 清理过期日志（DB 记录 + 磁盘文件）。
+func cleanupOldLogs() {
+	days := model.GetRegisteredConfigInt("log_retention_days")
+	if days < 1 {
+		days = 1
+	}
+	cutoff := time.Now().AddDate(0, 0, -days)
+
+	var deletedRecords int64
+	if database.DB != nil {
+		result := database.DB.Where("started_at < ?", cutoff).Delete(&model.TaskLog{})
+		if result.Error != nil {
+			log.Printf("log cleanup: delete TaskLog records failed: %v", result.Error)
+		} else {
+			deletedRecords = result.RowsAffected
+		}
+	}
+
+	deletedFiles := 0
+	if config.C != nil {
+		deletedFiles = CleanOldLogs(config.C.Data.LogDir, days)
+	}
+
+	log.Printf("log cleanup: removed %d TaskLog records and %d log files (retention: %d days)", deletedRecords, deletedFiles, days)
+}

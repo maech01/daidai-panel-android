@@ -1,1 +1,8 @@
-PHJlc291cmNlcz4KICAgIDxzdHlsZSBuYW1lPSJUaGVtZS5EYWlkYWlQYW5lbCIgcGFyZW50PSJUaGVtZS5BcHBDb21wYXQuTGlnaHQuTm9BY3Rpb25CYXIiPgogICAgICAgIDxpdGVtIG5hbWU9ImNvbG9yUHJpbWFyeSI+IzAwODlGRjwvaXRlbT4KICAgICAgICA8aXRlbSBuYW1lPSJjb2xvclByaW1hcnlEYXJrIj4jMDA2NkNDPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImNvbG9yQWNjZW50Ij4jMDA4OUZGPC9pdGVtPgogICAgICAgIDxpdGVtIG5hbWU9ImFuZHJvaWQ6d2luZG93QmFja2dyb3VuZCI+I0ZGRkZGRjwvaXRlbT4KICAgIDwvc3R5bGU+CjwvcmVzb3VyY2VzPgo=
+<resources>
+    <style name="Theme.DaidaiPanel" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#0089FF</item>
+        <item name="colorPrimaryDark">#0066CC</item>
+        <item name="colorAccent">#0089FF</item>
+        <item name="android:windowBackground">#FFFFFF</item>
+    </style>
+</resources>

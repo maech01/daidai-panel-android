@@ -1,1 +1,234 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJIm9zIgoJInBhdGgvZmlsZXBhdGgiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvZGF0YWJhc2UiCgkiZGFpZGFpLXBhbmVsL21vZGVsIgoJImRhaWRhaS1wYW5lbC90ZXN0dXRpbCIKKQoKLy8g5aSN546w55So5oi35oql5ZGK55qEIGpkcHJvIOS7k+W6kyAi5omr5o+PIDAg5Liq5YCZ6YCJ5paH5Lu2IiDlpLHotKXvvJoKLy8gc2F2ZURpciA9ICLkuqzkuJwi77yI5Lit5paH77yJ77yM5LuT5bqT5qC555uu5b2V5pyJIDY1IOS4qiAuanMgKyA2IOS4qiAucHnjgIIKLy8g5pyf5pyb77ya5omr5o+P5Ye6IDcxIOS4quWAmemAie+8jOWFqOmDqOiiq+W7uuS7u+WKoe+8iOW4piBjcm9uIOWktOeahOeUqOiEmuacrCBjcm9u77yM5rKh5pyJ55qE55So5YWc5bqV77yJ44CCCmZ1bmMgVGVzdFN5bmNTdWJzY3JpcHRpb25UYXNrc0hhbmRsZXNDaGluZXNlU2F2ZURpcldpdGhKZHByb0xheW91dCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCXNhdmVEaXIgOj0gIuS6rOS4nCIKCXNjcmlwdHNSb290IDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBzYXZlRGlyKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKHNjcmlwdHNSb290LCAwbzc1NSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJjcmVhdGUgY2hpbmVzZSBzYXZlIGRpcjogJXYiLCBlcnIpCgl9CgoJLy8g5qih5oufIGpkcHJvIOS7k+W6kyA0IOS4quecn+WunuiEmuacrOWktOmDqOagt+acrAoJc2NyaXB0cyA6PSBtYXBbc3RyaW5nXXN0cmluZ3sKCQkiamRfYmVhbl9jaGFuZ2UuanMiOiBgLyoqCiAqIGNyb24gMSAwICogKiAqIGpkX2JlYW5fY2hhbmdlLmpzLCB0YWc65Lqs5Lic6LWE5Lqn5Y+Y5YqoCiAqLwpjb25zdCAkID0gbmV3IEVudign5Lqs5Lic6LWE5LqnJyk7CmAsCgkJImpkX0NoZWNrQ0suanMiOiBgLyoqCiAqIGNyb24gIjYgNiA2IDYgKiIgamRfQ2hlY2tDSy5qcywgdGFnOuS6rOS4nENL5qOA5rWLCiAqLwpjb25zdCAkID0gbmV3IEVudign5Lqs5LicQ0vmo4DmtYsnKTsKYCwKCQkvLyDmsqEgY3JvbiDlpLTnmoTkuJrliqHohJrmnKzigJTigJTlv4XpobvnlKjlhZzlupXlu7rku7vliqEKCQkiamRfbm9fY3Jvbi5qcyI6IGBjb25zdCAkID0gbmV3IEVudign5p+Q6ISa5pysJyk7CmAsCgkJLy8g6YCa55+l6L6F5Yqp6ISa5pys4oCU4oCU5b+F6aG76Lez6L+HCgkJInNlbmROb3RpZnkuanMiOiBgbW9kdWxlLmV4cG9ydHMgPSB7IHNlbmROb3RpZnk6ICgpID0+IHt9IH07CmAsCgkJLy8g5Lit5paH5paH5Lu25ZCNICsg5rKhIGNyb24g5aS0CgkJIuS6rOS4nOetvuWIsC5qcyI6IGBjb25zdCAkID0gbmV3IEVudign5Lqs5Lic562+5YiwJyk7CmAsCgl9Cglmb3IgbmFtZSwgYm9keSA6PSByYW5nZSBzY3JpcHRzIHsKCQlwYXRoIDo9IGZpbGVwYXRoLkpvaW4oc2NyaXB0c1Jvb3QsIG5hbWUpCgkJaWYgZXJyIDo9IG9zLldyaXRlRmlsZShwYXRoLCBbXWJ5dGUoYm9keSksIDBvNjQ0KTsgZXJyICE9IG5pbCB7CgkJCXQuRmF0YWxmKCJ3cml0ZSAlczogJXYiLCBuYW1lLCBlcnIpCgkJfQoJfQoKCXN1YiA6PSAmbW9kZWwuU3Vic2NyaXB0aW9uewoJCU5hbWU6ICAgICAgICAi5Lqs5LicIiwKCQlUeXBlOiAgICAgICAgbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAgICAgICAgICJodHRwczovL2dpdGh1Yi5jb20vNmR5bGFuNi9qZHByby5naXQiLAoJCVNhdmVEaXI6ICAgICBzYXZlRGlyLAoJCUF1dG9BZGRUYXNrOiB0cnVlLAoJCUVuYWJsZWQ6ICAgICB0cnVlLAoJfQoJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkNyZWF0ZShzdWIpLkVycm9yOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIHN1YnNjcmlwdGlvbjogJXYiLCBlcnIpCgl9CgoJSW5pdFNjaGVkdWxlclYyKCkKCWRlZmVyIFNodXRkb3duU2NoZWR1bGVyVjIoKQoKCXZhciBsb2dzIFtdc3RyaW5nCglzeW5jU3Vic2NyaXB0aW9uVGFza3Moc3ViLCBmdW5jKHMgc3RyaW5nKSB7IGxvZ3MgPSBhcHBlbmQobG9ncywgcykgfSkKCglmb3IgXywgbCA6PSByYW5nZSBsb2dzIHsKCQl0LkxvZ2YoIiAgJXMiLCBsKQoJfQoKCXZhciB0YXNrcyBbXW1vZGVsLlRhc2sKCXF1ZXJ5VGFza3NCeUxhYmVsKHN1YnNjcmlwdGlvblRhc2tMYWJlbChzdWIuSUQpKS5GaW5kKCZ0YXNrcykKCgkvLyDmnJ/mnJsgNCDkuKrku7vliqHvvJpqZF9iZWFuX2NoYW5nZSAvIGpkX0NoZWNrQ0vvvIjluKYgY3Jvbu+8iSArIGpkX25vX2Nyb24gLyDkuqzkuJznrb7liLDvvIjlhZzlupXvvIkKCS8vIHNlbmROb3RpZnkuanMg5bqU6K+l6KKr6Lez6L+HCglpZiBsZW4odGFza3MpICE9IDQgewoJCWZvciBfLCB0YXNrIDo9IHJhbmdlIHRhc2tzIHsKCQkJdC5Mb2dmKCIgIHRhc2s6IGNtZD0lcSBjcm9uPSVxIiwgdGFzay5Db21tYW5kLCB0YXNrLkNyb25FeHByZXNzaW9uKQoJCX0KCQl0LkZhdGFsZigiZXhwZWN0ZWQgNCB0YXNrcyAoaGVscGVycyBza2lwcGVkKSwgZ290ICVkIiwgbGVuKHRhc2tzKSkKCX0KCgloYXNIZWxwZXJUYXNrIDo9IGZhbHNlCglmb3IgXywgdGFzayA6PSByYW5nZSB0YXNrcyB7CgkJaWYgZmlsZXBhdGguQmFzZSh0YXNrLkNvbW1hbmQpID09ICJzZW5kTm90aWZ5LmpzIiB7CgkJCWhhc0hlbHBlclRhc2sgPSB0cnVlCgkJfQoJfQoJaWYgaGFzSGVscGVyVGFzayB7CgkJdC5FcnJvcmYoInNlbmROb3RpZnkuanMgc2hvdWxkIE5PVCBiZSBjcmVhdGVkIGFzIHRhc2siKQoJfQp9CgovLyDnlKjmiLfloavkuobnmb3lkI3ljZXkvYblrozlhajmsqHljLnphY3liLDku7vkvZXmlofku7Yg4oaSIOiHquWKqOW/veeVpeeZveWQjeWNlSBmYWxsYmFja+OAggovLyDkuYvliY3kvJoiZ2l0IOaLieaIkOWKn+S9huS7u+WKoeWIl+ihqCAwIuKAlOKAlHYyLjIuMTAgaG90Zml4IOWQjuW/hemhuyBmYWxsYmFjayDlu7rku7vliqHjgIIKZnVuYyBUZXN0U3luY1N1YnNjcmlwdGlvblRhc2tzRmFsbHNCYWNrV2hlbldoaXRlbGlzdEZpbHRlcnNFdmVyeXRoaW5nT3V0KHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglzYXZlRGlyIDo9ICJmaWx0ZXJfdGVzdCIKCXNjcmlwdHNSb290IDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBzYXZlRGlyKQoJb3MuTWtkaXJBbGwoc2NyaXB0c1Jvb3QsIDBvNzU1KQoJb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4oc2NyaXB0c1Jvb3QsICJiaXouanMiKSwKCQlbXWJ5dGUoIi8qKlxuICogY3JvbiA1IDggKiAqICogYml6LmpzXG4gKi9cbmNvbnN0ICQgPSBuZXcgRW52KCdiaXonKTtcbiIpLCAwbzY0NCkKCglzdWIgOj0gJm1vZGVsLlN1YnNjcmlwdGlvbnsKCQlOYW1lOiAiZmlsdGVyIiwgVHlwZTogbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAiaHR0cHM6Ly9naXRodWIuY29tL3Uvci5naXQiLCBTYXZlRGlyOiBzYXZlRGlyLAoJCUF1dG9BZGRUYXNrOiB0cnVlLCBFbmFibGVkOiB0cnVlLAoJCS8vIOeUqOaIt+Whq+S6huS4gOS4quWujOWFqOS4jeWMuemFjeeahOeZveWQjeWNlSBwYXR0ZXJuCgkJV2hpdGVsaXN0OiAidGhpc19wYXR0ZXJuX21hdGNoZXNfbm9fZmlsZSIsCgl9CglkYXRhYmFzZS5EQi5DcmVhdGUoc3ViKQoKCUluaXRTY2hlZHVsZXJWMigpCglkZWZlciBTaHV0ZG93blNjaGVkdWxlclYyKCkKCglzeW5jU3Vic2NyaXB0aW9uVGFza3Moc3ViLCBmdW5jKHN0cmluZykge30pCgoJdmFyIHRhc2tzIFtdbW9kZWwuVGFzawoJcXVlcnlUYXNrc0J5TGFiZWwoc3Vic2NyaXB0aW9uVGFza0xhYmVsKHN1Yi5JRCkpLkZpbmQoJnRhc2tzKQoJaWYgbGVuKHRhc2tzKSAhPSAxIHsKCQl0LkZhdGFsZigid2hpdGVsaXN0IGNvbXBsZXRlbHkgZmlsdGVycyBvdXQg4oaSIHNob3VsZCBmYWxsYmFjayB0byBpZ25vcmUgZmlsdGVyLCBleHBlY3RlZCAxIHRhc2ssIGdvdCAlZCIsIGxlbih0YXNrcykpCgl9Cn0KCmZ1bmMgVGVzdFN5bmNTdWJzY3JpcHRpb25UYXNrc0JsYWNrbGlzdE1hdGNoZXNEaXJlY3RvcnlQYXRoKHQgKnRlc3RpbmcuVCkgewoJdGVzdHV0aWwuU2V0dXBUZXN0RW52KHQpCglzYXZlRGlyIDo9ICJwYXRoX2ZpbHRlciIKCXNjcmlwdHNSb290IDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBzYXZlRGlyKQoJYmFja3VwRGlyIDo9IGZpbGVwYXRoLkpvaW4oc2NyaXB0c1Jvb3QsICJCYWNrdXAiKQoJb3MuTWtkaXJBbGwoYmFja3VwRGlyLCAwbzc1NSkKCglvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihzY3JpcHRzUm9vdCwgImRhaWx5LmpzIiksCgkJW11ieXRlKCIvL2Nyb246IDE1IDEyICogKiAqXG5jb25zdCAkID0gbmV3IEVudignZGFpbHknKTtcbiIpLCAwbzY0NCkKCW9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKGJhY2t1cERpciwgImJhY2t1cF90YXNrLmpzIiksCgkJW11ieXRlKCIvL2Nyb246IDIwIDEyICogKiAqXG5jb25zdCAkID0gbmV3IEVudignYmFja3VwJyk7XG4iKSwgMG82NDQpCgoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJTmFtZTogInBhdGhfZmlsdGVyIiwgVHlwZTogbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAiaHR0cHM6Ly9naXRodWIuY29tL3Uvci5naXQiLCBTYXZlRGlyOiBzYXZlRGlyLAoJCUF1dG9BZGRUYXNrOiB0cnVlLCBFbmFibGVkOiB0cnVlLAoJCUJsYWNrbGlzdDogIkJhY2t1cCIsCgl9CglkYXRhYmFzZS5EQi5DcmVhdGUoc3ViKQoKCUluaXRTY2hlZHVsZXJWMigpCglkZWZlciBTaHV0ZG93blNjaGVkdWxlclYyKCkKCglzeW5jU3Vic2NyaXB0aW9uVGFza3Moc3ViLCBmdW5jKHN0cmluZykge30pCgoJdmFyIHRhc2tzIFtdbW9kZWwuVGFzawoJcXVlcnlUYXNrc0J5TGFiZWwoc3Vic2NyaXB0aW9uVGFza0xhYmVsKHN1Yi5JRCkpLkZpbmQoJnRhc2tzKQoJaWYgbGVuKHRhc2tzKSAhPSAxIHsKCQlmb3IgXywgdGFzayA6PSByYW5nZSB0YXNrcyB7CgkJCXQuTG9nZigiICB0YXNrOiBjbWQ9JXEgY3Jvbj0lcSIsIHRhc2suQ29tbWFuZCwgdGFzay5Dcm9uRXhwcmVzc2lvbikKCQl9CgkJdC5GYXRhbGYoImV4cGVjdGVkIG9ubHkgdGhlIHJvb3Qgc2NyaXB0IHRhc2sgYWZ0ZXIgQmFja3VwIGJsYWNrbGlzdCwgZ290ICVkIiwgbGVuKHRhc2tzKSkKCX0KCWlmIGZpbGVwYXRoLkJhc2UodGFza3NbMF0uQ29tbWFuZCkgIT0gImRhaWx5LmpzIiB7CgkJdC5GYXRhbGYoImJsYWNrbGlzdGVkIEJhY2t1cCBzY3JpcHQgc2hvdWxkIG5vdCBiZSBjcmVhdGVkLCBnb3QgY29tbWFuZCAlcSIsIHRhc2tzWzBdLkNvbW1hbmQpCgl9CglpZiB0YXNrc1swXS5Dcm9uRXhwcmVzc2lvbiAhPSAiMTUgMTIgKiAqICoiIHsKCQl0LkZhdGFsZigiZXhwZWN0ZWQgLy9jcm9uIGV4cHJlc3Npb24gdG8gYmUgcHJlc2VydmVkLCBnb3QgJXEiLCB0YXNrc1swXS5Dcm9uRXhwcmVzc2lvbikKCX0KfQoKZnVuYyBUZXN0U3luY1N1YnNjcmlwdGlvblRhc2tzQmxhY2tsaXN0Q2FuRmlsdGVyRXZlcnl0aGluZ1dpdGhvdXRGYWxsYmFjayh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJc2F2ZURpciA6PSAiYmxhY2tsaXN0X2FsbCIKCXNjcmlwdHNSb290IDo9IGZpbGVwYXRoLkpvaW4oY29uZmlnLkMuRGF0YS5TY3JpcHRzRGlyLCBzYXZlRGlyKQoJYmFja3VwRGlyIDo9IGZpbGVwYXRoLkpvaW4oc2NyaXB0c1Jvb3QsICJCYWNrdXAiKQoJb3MuTWtkaXJBbGwoYmFja3VwRGlyLCAwbzc1NSkKCW9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKGJhY2t1cERpciwgImJhY2t1cF90YXNrLmpzIiksCgkJW11ieXRlKCIvL2Nyb246IDIwIDEyICogKiAqXG5jb25zdCAkID0gbmV3IEVudignYmFja3VwJyk7XG4iKSwgMG82NDQpCgoJc3ViIDo9ICZtb2RlbC5TdWJzY3JpcHRpb257CgkJTmFtZTogImJsYWNrbGlzdF9hbGwiLCBUeXBlOiBtb2RlbC5TdWJUeXBlR2l0UmVwbywKCQlVUkw6ICJodHRwczovL2dpdGh1Yi5jb20vdS9yLmdpdCIsIFNhdmVEaXI6IHNhdmVEaXIsCgkJQXV0b0FkZFRhc2s6IHRydWUsIEVuYWJsZWQ6IHRydWUsCgkJQmxhY2tsaXN0OiAiQmFja3VwIiwKCX0KCWRhdGFiYXNlLkRCLkNyZWF0ZShzdWIpCgoJSW5pdFNjaGVkdWxlclYyKCkKCWRlZmVyIFNodXRkb3duU2NoZWR1bGVyVjIoKQoKCXN5bmNTdWJzY3JpcHRpb25UYXNrcyhzdWIsIGZ1bmMoc3RyaW5nKSB7fSkKCgl2YXIgdGFza3MgW11tb2RlbC5UYXNrCglxdWVyeVRhc2tzQnlMYWJlbChzdWJzY3JpcHRpb25UYXNrTGFiZWwoc3ViLklEKSkuRmluZCgmdGFza3MpCglpZiBsZW4odGFza3MpICE9IDAgewoJCWZvciBfLCB0YXNrIDo9IHJhbmdlIHRhc2tzIHsKCQkJdC5Mb2dmKCIgIHRhc2s6IGNtZD0lcSBjcm9uPSVxIiwgdGFzay5Db21tYW5kLCB0YXNrLkNyb25FeHByZXNzaW9uKQoJCX0KCQl0LkZhdGFsZigiYmxhY2tsaXN0LW9ubHkgZmlsdGVyIHNob3VsZCBub3QgZmFsbGJhY2sgYW5kIHJlY3JlYXRlIGV4Y2x1ZGVkIHNjcmlwdHMsIGdvdCAlZCB0YXNrcyIsIGxlbih0YXNrcykpCgl9Cn0KCi8vIOeUqOaIt+WcqOeZveWQjeWNleWhq+S6hiBgKmAg6YCa6YWN56ym77yI5pyA5bi46KeB55qEIuaIkeimgeWFqOmDqCLor6/nlKjvvInihpIg6KeG5Li65LiN6L+H5ruk44CCCmZ1bmMgVGVzdFN5bmNTdWJzY3JpcHRpb25UYXNrc1RyZWF0c1dpbGRjYXJkV2hpdGVsaXN0QXNOb0ZpbHRlcih0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJc2F2ZURpciA6PSAid2lsZGNhcmQiCglzY3JpcHRzUm9vdCA6PSBmaWxlcGF0aC5Kb2luKGNvbmZpZy5DLkRhdGEuU2NyaXB0c0Rpciwgc2F2ZURpcikKCW9zLk1rZGlyQWxsKHNjcmlwdHNSb290LCAwbzc1NSkKCW9zLldyaXRlRmlsZShmaWxlcGF0aC5Kb2luKHNjcmlwdHNSb290LCAiYS5qcyIpLAoJCVtdYnl0ZSgiLyoqXG4gKiBjcm9uIDEgMSAqICogKiBhLmpzXG4gKi9cbmNvbnN0ICQgPSBuZXcgRW52KCdhJyk7XG4iKSwgMG82NDQpCglvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihzY3JpcHRzUm9vdCwgImIuanMiKSwKCQlbXWJ5dGUoIi8qKlxuICogY3JvbiAyIDIgKiAqICogYi5qc1xuICovXG5jb25zdCAkID0gbmV3IEVudignYicpO1xuIiksIDBvNjQ0KQoKCWZvciBfLCB3aGl0ZWxpc3QgOj0gcmFuZ2UgW11zdHJpbmd7IioiLCAiKioiLCAiKi4qIiwgIuWFqOmDqCJ9IHsKCQl0LlJ1bigid2hpdGVsaXN0PSIrd2hpdGVsaXN0LCBmdW5jKHQgKnRlc3RpbmcuVCkgewoJCQkvLyDmr4/kuKrlrZDmtYvor5XnlKjni6znq4sgc3Vi77yM6YG/5YWN54q25oCB5rGh5p+TCgkJCXN1YiA6PSAmbW9kZWwuU3Vic2NyaXB0aW9uewoJCQkJTmFtZTogIndfIiArIHdoaXRlbGlzdCwgVHlwZTogbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJCQlVUkw6ICJodHRwczovL2dpdGh1Yi5jb20vdS9yLmdpdCIsIFNhdmVEaXI6IHNhdmVEaXIsCgkJCQlBdXRvQWRkVGFzazogdHJ1ZSwgRW5hYmxlZDogdHJ1ZSwgV2hpdGVsaXN0OiB3aGl0ZWxpc3QsCgkJCX0KCQkJZGF0YWJhc2UuREIuQ3JlYXRlKHN1YikKCQkJSW5pdFNjaGVkdWxlclYyKCkKCQkJc3luY1N1YnNjcmlwdGlvblRhc2tzKHN1YiwgZnVuYyhzdHJpbmcpIHt9KQoJCQl2YXIgdGFza3MgW11tb2RlbC5UYXNrCgkJCXF1ZXJ5VGFza3NCeUxhYmVsKHN1YnNjcmlwdGlvblRhc2tMYWJlbChzdWIuSUQpKS5GaW5kKCZ0YXNrcykKCQkJaWYgbGVuKHRhc2tzKSAhPSAyIHsKCQkJCXQuRXJyb3JmKCJ3aWxkY2FyZCAlcSBzaG91bGQgYmUgdHJlYXRlZCBhcyBubyBmaWx0ZXIsIGV4cGVjdGVkIDIgdGFza3MsIGdvdCAlZCIsIHdoaXRlbGlzdCwgbGVuKHRhc2tzKSkKCQkJfQoJCQlTaHV0ZG93blNjaGVkdWxlclYyKCkKCQl9KQoJfQp9Cg==
+package service
+
+import (
+	"os"
+	"path/filepath"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+// 复现用户报告的 jdpro 仓库 "扫描 0 个候选文件" 失败：
+// saveDir = "京东"（中文），仓库根目录有 65 个 .js + 6 个 .py。
+// 期望：扫描出 71 个候选，全部被建任务（带 cron 头的用脚本 cron，没有的用兜底）。
+func TestSyncSubscriptionTasksHandlesChineseSaveDirWithJdproLayout(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	saveDir := "京东"
+	scriptsRoot := filepath.Join(config.C.Data.ScriptsDir, saveDir)
+	if err := os.MkdirAll(scriptsRoot, 0o755); err != nil {
+		t.Fatalf("create chinese save dir: %v", err)
+	}
+
+	// 模拟 jdpro 仓库 4 个真实脚本头部样本
+	scripts := map[string]string{
+		"jd_bean_change.js": `/**
+ * cron 1 0 * * * jd_bean_change.js, tag:京东资产变动
+ */
+const $ = new Env('京东资产');
+`,
+		"jd_CheckCK.js": `/**
+ * cron "6 6 6 6 *" jd_CheckCK.js, tag:京东CK检测
+ */
+const $ = new Env('京东CK检测');
+`,
+		// 没 cron 头的业务脚本——必须用兜底建任务
+		"jd_no_cron.js": `const $ = new Env('某脚本');
+`,
+		// 通知辅助脚本——必须跳过
+		"sendNotify.js": `module.exports = { sendNotify: () => {} };
+`,
+		// 中文文件名 + 没 cron 头
+		"京东签到.js": `const $ = new Env('京东签到');
+`,
+	}
+	for name, body := range scripts {
+		path := filepath.Join(scriptsRoot, name)
+		if err := os.WriteFile(path, []byte(body), 0o644); err != nil {
+			t.Fatalf("write %s: %v", name, err)
+		}
+	}
+
+	sub := &model.Subscription{
+		Name:        "京东",
+		Type:        model.SubTypeGitRepo,
+		URL:         "https://github.com/6dylan6/jdpro.git",
+		SaveDir:     saveDir,
+		AutoAddTask: true,
+		Enabled:     true,
+	}
+	if err := database.DB.Create(sub).Error; err != nil {
+		t.Fatalf("create subscription: %v", err)
+	}
+
+	InitSchedulerV2()
+	defer ShutdownSchedulerV2()
+
+	var logs []string
+	syncSubscriptionTasks(sub, func(s string) { logs = append(logs, s) })
+
+	for _, l := range logs {
+		t.Logf("  %s", l)
+	}
+
+	var tasks []model.Task
+	queryTasksByLabel(subscriptionTaskLabel(sub.ID)).Find(&tasks)
+
+	// 期望 4 个任务：jd_bean_change / jd_CheckCK（带 cron） + jd_no_cron / 京东签到（兜底）
+	// sendNotify.js 应该被跳过
+	if len(tasks) != 4 {
+		for _, task := range tasks {
+			t.Logf("  task: cmd=%q cron=%q", task.Command, task.CronExpression)
+		}
+		t.Fatalf("expected 4 tasks (helpers skipped), got %d", len(tasks))
+	}
+
+	hasHelperTask := false
+	for _, task := range tasks {
+		if filepath.Base(task.Command) == "sendNotify.js" {
+			hasHelperTask = true
+		}
+	}
+	if hasHelperTask {
+		t.Errorf("sendNotify.js should NOT be created as task")
+	}
+}
+
+// 用户填了白名单但完全没匹配到任何文件 → 自动忽略白名单 fallback。
+// 之前会"git 拉成功但任务列表 0"——v2.2.10 hotfix 后必须 fallback 建任务。
+func TestSyncSubscriptionTasksFallsBackWhenWhitelistFiltersEverythingOut(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	saveDir := "filter_test"
+	scriptsRoot := filepath.Join(config.C.Data.ScriptsDir, saveDir)
+	os.MkdirAll(scriptsRoot, 0o755)
+	os.WriteFile(filepath.Join(scriptsRoot, "biz.js"),
+		[]byte("/**\n * cron 5 8 * * * biz.js\n */\nconst $ = new Env('biz');\n"), 0o644)
+
+	sub := &model.Subscription{
+		Name: "filter", Type: model.SubTypeGitRepo,
+		URL: "https://github.com/u/r.git", SaveDir: saveDir,
+		AutoAddTask: true, Enabled: true,
+		// 用户填了一个完全不匹配的白名单 pattern
+		Whitelist: "this_pattern_matches_no_file",
+	}
+	database.DB.Create(sub)
+
+	InitSchedulerV2()
+	defer ShutdownSchedulerV2()
+
+	syncSubscriptionTasks(sub, func(string) {})
+
+	var tasks []model.Task
+	queryTasksByLabel(subscriptionTaskLabel(sub.ID)).Find(&tasks)
+	if len(tasks) != 1 {
+		t.Fatalf("whitelist completely filters out → should fallback to ignore filter, expected 1 task, got %d", len(tasks))
+	}
+}
+
+func TestSyncSubscriptionTasksBlacklistMatchesDirectoryPath(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	saveDir := "path_filter"
+	scriptsRoot := filepath.Join(config.C.Data.ScriptsDir, saveDir)
+	backupDir := filepath.Join(scriptsRoot, "Backup")
+	os.MkdirAll(backupDir, 0o755)
+
+	os.WriteFile(filepath.Join(scriptsRoot, "daily.js"),
+		[]byte("//cron: 15 12 * * *\nconst $ = new Env('daily');\n"), 0o644)
+	os.WriteFile(filepath.Join(backupDir, "backup_task.js"),
+		[]byte("//cron: 20 12 * * *\nconst $ = new Env('backup');\n"), 0o644)
+
+	sub := &model.Subscription{
+		Name: "path_filter", Type: model.SubTypeGitRepo,
+		URL: "https://github.com/u/r.git", SaveDir: saveDir,
+		AutoAddTask: true, Enabled: true,
+		Blacklist: "Backup",
+	}
+	database.DB.Create(sub)
+
+	InitSchedulerV2()
+	defer ShutdownSchedulerV2()
+
+	syncSubscriptionTasks(sub, func(string) {})
+
+	var tasks []model.Task
+	queryTasksByLabel(subscriptionTaskLabel(sub.ID)).Find(&tasks)
+	if len(tasks) != 1 {
+		for _, task := range tasks {
+			t.Logf("  task: cmd=%q cron=%q", task.Command, task.CronExpression)
+		}
+		t.Fatalf("expected only the root script task after Backup blacklist, got %d", len(tasks))
+	}
+	if filepath.Base(tasks[0].Command) != "daily.js" {
+		t.Fatalf("blacklisted Backup script should not be created, got command %q", tasks[0].Command)
+	}
+	if tasks[0].CronExpression != "15 12 * * *" {
+		t.Fatalf("expected //cron expression to be preserved, got %q", tasks[0].CronExpression)
+	}
+}
+
+func TestSyncSubscriptionTasksBlacklistCanFilterEverythingWithoutFallback(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	saveDir := "blacklist_all"
+	scriptsRoot := filepath.Join(config.C.Data.ScriptsDir, saveDir)
+	backupDir := filepath.Join(scriptsRoot, "Backup")
+	os.MkdirAll(backupDir, 0o755)
+	os.WriteFile(filepath.Join(backupDir, "backup_task.js"),
+		[]byte("//cron: 20 12 * * *\nconst $ = new Env('backup');\n"), 0o644)
+
+	sub := &model.Subscription{
+		Name: "blacklist_all", Type: model.SubTypeGitRepo,
+		URL: "https://github.com/u/r.git", SaveDir: saveDir,
+		AutoAddTask: true, Enabled: true,
+		Blacklist: "Backup",
+	}
+	database.DB.Create(sub)
+
+	InitSchedulerV2()
+	defer ShutdownSchedulerV2()
+
+	syncSubscriptionTasks(sub, func(string) {})
+
+	var tasks []model.Task
+	queryTasksByLabel(subscriptionTaskLabel(sub.ID)).Find(&tasks)
+	if len(tasks) != 0 {
+		for _, task := range tasks {
+			t.Logf("  task: cmd=%q cron=%q", task.Command, task.CronExpression)
+		}
+		t.Fatalf("blacklist-only filter should not fallback and recreate excluded scripts, got %d tasks", len(tasks))
+	}
+}
+
+// 用户在白名单填了 `*` 通配符（最常见的"我要全部"误用）→ 视为不过滤。
+func TestSyncSubscriptionTasksTreatsWildcardWhitelistAsNoFilter(t *testing.T) {
+	testutil.SetupTestEnv(t)
+	saveDir := "wildcard"
+	scriptsRoot := filepath.Join(config.C.Data.ScriptsDir, saveDir)
+	os.MkdirAll(scriptsRoot, 0o755)
+	os.WriteFile(filepath.Join(scriptsRoot, "a.js"),
+		[]byte("/**\n * cron 1 1 * * * a.js\n */\nconst $ = new Env('a');\n"), 0o644)
+	os.WriteFile(filepath.Join(scriptsRoot, "b.js"),
+		[]byte("/**\n * cron 2 2 * * * b.js\n */\nconst $ = new Env('b');\n"), 0o644)
+
+	for _, whitelist := range []string{"*", "**", "*.*", "全部"} {
+		t.Run("whitelist="+whitelist, func(t *testing.T) {
+			// 每个子测试用独立 sub，避免状态污染
+			sub := &model.Subscription{
+				Name: "w_" + whitelist, Type: model.SubTypeGitRepo,
+				URL: "https://github.com/u/r.git", SaveDir: saveDir,
+				AutoAddTask: true, Enabled: true, Whitelist: whitelist,
+			}
+			database.DB.Create(sub)
+			InitSchedulerV2()
+			syncSubscriptionTasks(sub, func(string) {})
+			var tasks []model.Task
+			queryTasksByLabel(subscriptionTaskLabel(sub.ID)).Find(&tasks)
+			if len(tasks) != 2 {
+				t.Errorf("wildcard %q should be treated as no filter, expected 2 tasks, got %d", whitelist, len(tasks))
+			}
+			ShutdownSchedulerV2()
+		})
+	}
+}

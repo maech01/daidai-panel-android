@@ -1,1 +1,314 @@
-PHNjcmlwdCBzZXR1cCBsYW5nPSJ0cyI+CmltcG9ydCB0eXBlIHsgUGFuZWxVcGRhdGVTdGF0dXMgfSBmcm9tICdAL2FwaS9zeXN0ZW0nCmltcG9ydCBVcGRhdGVQcm9ncmVzc0RpYWxvZyBmcm9tICcuL1VwZGF0ZVByb2dyZXNzRGlhbG9nLnZ1ZScKCmRlZmluZVByb3BzPHsKICBpc0FkbWluOiBib29sZWFuCiAgY3VycmVudFZlcnNpb246IHN0cmluZwogIHVwZGF0ZUluZm86IGFueQogIHVwZGF0ZVN0YXR1czogUGFuZWxVcGRhdGVTdGF0dXMgfCBudWxsCiAgY2hlY2tpbmdVcGRhdGU6IGJvb2xlYW4KICB1cGRhdGluZ1BhbmVsOiBib29sZWFuCiAgYXV0b1VwZGF0ZUVuYWJsZWQ6IGJvb2xlYW4KICBzYXZpbmdBdXRvVXBkYXRlOiBib29sZWFuCiAgcmVsZWFzZU5vdGVzVmlzaWJsZTogYm9vbGVhbgogIHVwZGF0ZVByb2dyZXNzVmlzaWJsZTogYm9vbGVhbgogIHVwZGF0ZVByb2dyZXNzU3RhdHVzOiAnaWRsZScgfCAncnVubmluZycgfCAncmVzdGFydGluZycgfCAnZmFpbGVkJyB8ICd0aW1lb3V0JwogIHVwZGF0ZVByb2dyZXNzRXJyb3I6IHN0cmluZwogIG9uQ2hlY2tVcGRhdGU6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25TdGFydFVwZGF0ZTogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvblJlc3RhcnRQYW5lbDogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvblRvZ2dsZUF1dG9VcGRhdGU6ICh2YWx1ZTogYm9vbGVhbikgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvbk9wZW5SZWxlYXNlTm90ZXM6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+CiAgb25DbG9zZVJlbGVhc2VOb3RlczogKCkgPT4gdm9pZCB8IFByb21pc2U8dm9pZD4KICBvbk9wZW5HaXRIdWI6ICgpID0+IHZvaWQKICBvbkNsb3NlVXBkYXRlUHJvZ3Jlc3M6ICgpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+Cn0+KCkKPC9zY3JpcHQ+Cgo8dGVtcGxhdGU+CiAgPGVsLWNhcmQgc2hhZG93PSJuZXZlciIgY2xhc3M9Imhlcm8tY2FyZCI+CiAgICA8ZGl2IGNsYXNzPSJoZXJvLWxheW91dCI+CiAgICAgIDxkaXYgY2xhc3M9Imhlcm8tc2VjdGlvbi10aXRsZSI+5Lqn5ZOB5LiO54mI5pysPC9kaXY+CgogICAgICA8ZGl2IGNsYXNzPSJoZXJvLWNlbnRlciI+CiAgICAgICAgPGRpdiBjbGFzcz0iaGVyby1sb2dvIj4KICAgICAgICAgIDxpbWcgc3JjPSIvZmF2aWNvbi5zdmciIGFsdD0i5ZGG5ZGG6Z2i5p2/IiBjbGFzcz0iaGVyby1sb2dvLWltZyIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgICA8aDIgY2xhc3M9Imhlcm8tbmFtZSI+5ZGG5ZGG6Z2i5p2/PC9oMj4KICAgICAgICA8cCBjbGFzcz0iaGVyby1kZXNjIj7ovbvph4/nuqflrprml7bku7vliqHnrqHnkIbpnaLmnb88L3A+CgogICAgICAgIDxkaXYgY2xhc3M9Imhlcm8tdmVyc2lvbi1yb3ciPgogICAgICAgICAgPGRpdiBjbGFzcz0iaGVyby12ZXJzaW9uLWl0ZW0iPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGVyby12ZXJzaW9uLWxhYmVsIj7lvZPliY3niYjmnKw8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJoZXJvLXZlcnNpb24tdmFsdWUiPnZ7eyBjdXJyZW50VmVyc2lvbiB9fTwvc3Bhbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iaGVyby12ZXJzaW9uLWl0ZW0iPgogICAgICAgICAgICA8c3BhbiBjbGFzcz0iaGVyby12ZXJzaW9uLWxhYmVsIj7mioDmnK/moIg8L3NwYW4+CiAgICAgICAgICAgIDxzcGFuIGNsYXNzPSJoZXJvLXZlcnNpb24tdmFsdWUgaGVyby12ZXJzaW9uLXZhbHVlLS10ZWNoIj5HaW4gKyBWdWUzPC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CgogICAgICAgIDxkaXYgY2xhc3M9Imhlcm8tYWN0aW9ucyI+CiAgICAgICAgICA8ZWwtYnV0dG9uIHYtaWY9ImlzQWRtaW4iIHR5cGU9InByaW1hcnkiIHJvdW5kIDpsb2FkaW5nPSJjaGVja2luZ1VwZGF0ZSIgQGNsaWNrPSJvbkNoZWNrVXBkYXRlIiBjbGFzcz0iaGVyby1idG4gaGVyby1idG4tLXByaW1hcnkiPgogICAgICAgICAgICDmo4Dmn6Xns7vnu5/mm7TmlrAKICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgPGVsLWJ1dHRvbiB2LWlmPSJpc0FkbWluIiB0eXBlPSJ3YXJuaW5nIiByb3VuZCBAY2xpY2s9Im9uUmVzdGFydFBhbmVsIiBjbGFzcz0iaGVyby1idG4gaGVyby1idG4tLXdhcm5pbmciPgogICAgICAgICAgICDph43lkK/pnaLmnb8KICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgPGVsLWJ1dHRvbiByb3VuZCBAY2xpY2s9Im9uT3BlbkdpdEh1YiIgY2xhc3M9Imhlcm8tYnRuIGhlcm8tYnRuLS1naG9zdCI+CiAgICAgICAgICAgIOiuv+mXriBHaXRIdWIKICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgdi1pZj0idXBkYXRlSW5mbyIgY2xhc3M9Imhlcm8tYWxlcnQiPgogICAgICAgIDxlbC1hbGVydAogICAgICAgICAgOnR5cGU9InVwZGF0ZUluZm8uaGFzX3VwZGF0ZSA/ICh1cGRhdGVJbmZvLmF1dG9fdXBkYXRlX3N1cHBvcnRlZCA/ICdzdWNjZXNzJyA6ICd3YXJuaW5nJykgOiAnaW5mbyciCiAgICAgICAgICA6dGl0bGU9InVwZGF0ZUluZm8uaGFzX3VwZGF0ZSA/IGDlj5HnjrDmlrDniYjmnKwgdiR7dXBkYXRlSW5mby5sYXRlc3R9YCA6ICflvZPliY3lt7LmmK/mnIDmlrDniYjmnKwnIgogICAgICAgICAgOmNsb3NhYmxlPSJmYWxzZSIKICAgICAgICA+CiAgICAgICAgICA8ZGl2IHYtaWY9InVwZGF0ZUluZm8uaGFzX3VwZGF0ZSI+CiAgICAgICAgICAgIDxwPuWPkeW4g+aXtumXtDoge3sgbmV3IERhdGUodXBkYXRlSW5mby5wdWJsaXNoZWRfYXQpLnRvTG9jYWxlU3RyaW5nKCkgfX08L3A+CiAgICAgICAgICAgIDxwIHYtaWY9InVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8uZGVwbG95bWVudF90eXBlID09PSAnYmluYXJ5JyIgY2xhc3M9Imhlcm8tbWV0YSI+5pu05paw5pa55byP77ya5LqM6L+b5Yi25ZCO5Y+w5pu05pawPC9wPgogICAgICAgICAgICA8cCB2LWlmPSJ1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQ/LnVwZGF0ZV9tYW5hZ2VyID09PSAnd2F0Y2h0b3dlcicgfHwgdXBkYXRlSW5mby51cGRhdGVfdGFyZ2V0Py53YXRjaHRvd2VyX21hbmFnZWQiIGNsYXNzPSJoZXJvLW1ldGEiPuabtOaWsOaWueW8j++8mldhdGNodG93ZXIg5omY566h5pu05pawPC9wPgogICAgICAgICAgICA8cCB2LWlmPSJ1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQ/LmFzc2V0X25hbWUiIGNsYXNzPSJoZXJvLW1ldGEiPuabtOaWsOWMhe+8mnt7IHVwZGF0ZUluZm8udXBkYXRlX3RhcmdldC5hc3NldF9uYW1lIH19PC9wPgogICAgICAgICAgICA8cCB2LWlmPSJ1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQ/Lmluc3RhbGxfZGlyIiBjbGFzcz0iaGVyby1tZXRhIj7lronoo4Xnm67lvZXvvJp7eyB1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQuaW5zdGFsbF9kaXIgfX08L3A+CiAgICAgICAgICAgIDxwIHYtaWY9InVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8uZGVwbG95bWVudF90eXBlICE9PSAnYmluYXJ5JyAmJiB1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQ/Lm1pcnJvcl9ob3N0IiBjbGFzcz0iaGVyby1tZXRhIj7plZzlg4/mupDvvJp7eyB1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQubWlycm9yX2hvc3QgfX08L3A+CiAgICAgICAgICAgIDxwIHYtaWY9InVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8uZGVwbG95bWVudF90eXBlICE9PSAnYmluYXJ5JyAmJiB1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQ/LmNoYW5uZWwiIGNsYXNzPSJoZXJvLW1ldGEiPua4oOmBk++8mnt7IHVwZGF0ZUluZm8udXBkYXRlX3RhcmdldC5jaGFubmVsID09PSAnZGViaWFuJyA/ICdEZWJpYW4nIDogJ0xhdGVzdCAoQWxwaW5lKScgfX08L3A+CiAgICAgICAgICAgIDxwIHYtaWY9InVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8ud2F0Y2h0b3dlcl9zY2hlZHVsZSIgY2xhc3M9Imhlcm8tbWV0YSI+V2F0Y2h0b3dlciDosIPluqbvvJp7eyB1cGRhdGVJbmZvLnVwZGF0ZV90YXJnZXQud2F0Y2h0b3dlcl9zY2hlZHVsZSB9fTwvcD4KICAgICAgICAgICAgPHAgdi1pZj0idXBkYXRlSW5mby51cGRhdGVfdGFyZ2V0Py51cGRhdGVfbWFuYWdlciA9PT0gJ3dhdGNodG93ZXInIHx8IHVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8ud2F0Y2h0b3dlcl9tYW5hZ2VkIiBjbGFzcz0iaGVyby1tZXRhIj4KICAgICAgICAgICAgICDlvZPliY3pg6jnvbLnlLEgV2F0Y2h0b3dlciDotJ/otKPoh6rliqjmm7TmlrDvvJvlpoLlt7LphY3nva4gSFRUUCBBUEnvvIzlj6/lnKjov5nph4zmiYvliqjop6blj5HkuIDmrKHmo4Dmn6XjgIIKICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8cCB2LWlmPSIhdXBkYXRlSW5mby5hdXRvX3VwZGF0ZV9zdXBwb3J0ZWQiIGNsYXNzPSJoZXJvLW1ldGEiPnt7IHVwZGF0ZUluZm8udXBkYXRlX2Rpc2FibGVkX3JlYXNvbiB8fCAn5b2T5YmN6YOo572y5pqC5LiN5pSv5oyB5LiA6ZSu5pu05pawJyB9fTwvcD4KICAgICAgICAgICAgPHAgdi1pZj0iIXVwZGF0ZUluZm8uYXV0b191cGRhdGVfc3VwcG9ydGVkICYmIHVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8uZGVwbG95bWVudF90eXBlICE9PSAnYmluYXJ5JyIgY2xhc3M9Imhlcm8tbWV0YSI+CiAgICAgICAgICAgICAg5o6o6I2Q5L2/55SoIFdhdGNodG93ZXIg5omY566h6Ieq5Yqo5pu05paw77yb6ZyA6KaB56uL5Y2z5omL5Yqo5pu05paw5pe277yM5Zyo5a6/5Li75py65omn6KGMIGRvY2tlciBjb21wb3NlIHB1bGwgJiYgZG9ja2VyIGNvbXBvc2UgdXAgLWTjgIIKICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJoZXJvLWFsZXJ0LWFjdGlvbnMiPgogICAgICAgICAgICAgIDxlbC1idXR0b24gdi1pZj0iaXNBZG1pbiAmJiB1cGRhdGVJbmZvLmF1dG9fdXBkYXRlX3N1cHBvcnRlZCIgdHlwZT0icHJpbWFyeSIgc2l6ZT0ic21hbGwiIHJvdW5kIDpsb2FkaW5nPSJ1cGRhdGluZ1BhbmVsIiBAY2xpY2s9Im9uU3RhcnRVcGRhdGUiPgogICAgICAgICAgICAgICAge3sgdXBkYXRlSW5mby51cGRhdGVfdGFyZ2V0Py51cGRhdGVfbWFuYWdlciA9PT0gJ3dhdGNodG93ZXInIHx8IHVwZGF0ZUluZm8udXBkYXRlX3RhcmdldD8ud2F0Y2h0b3dlcl9tYW5hZ2VkID8gJ+inpuWPkSBXYXRjaHRvd2VyIOajgOafpScgOiAn56uL5Y2z5pu05pawJyB9fQogICAgICAgICAgICAgIDwvZWwtYnV0dG9uPgogICAgICAgICAgICAgIDxlbC1idXR0b24gc2l6ZT0ic21hbGwiIHJvdW5kIEBjbGljaz0ib25PcGVuUmVsZWFzZU5vdGVzIj7mn6XnnIvmm7TmlrDml6Xlv5c8L2VsLWJ1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2VsLWFsZXJ0PgogICAgICA8L2Rpdj4KCiAgICAgIDxkaXYgdi1pZj0idXBkYXRlU3RhdHVzICYmIHVwZGF0ZVN0YXR1cy5zdGF0dXMgJiYgdXBkYXRlU3RhdHVzLnN0YXR1cyAhPT0gJ2lkbGUnIiBjbGFzcz0iaGVyby1hbGVydCI+CiAgICAgICAgPGVsLWFsZXJ0CiAgICAgICAgICA6dHlwZT0idXBkYXRlU3RhdHVzLnN0YXR1cyA9PT0gJ2ZhaWxlZCcgPyAnZXJyb3InIDogKHVwZGF0ZVN0YXR1cy5zdGF0dXMgPT09ICdyZXN0YXJ0aW5nJyA/ICdzdWNjZXNzJyA6ICd3YXJuaW5nJykiCiAgICAgICAgICA6dGl0bGU9InVwZGF0ZVN0YXR1cy5zdGF0dXMgPT09ICdmYWlsZWQnID8gJ+abtOaWsOWksei0pScgOiAodXBkYXRlU3RhdHVzLnN0YXR1cyA9PT0gJ3Jlc3RhcnRpbmcnID8gJ+ato+WcqOWIh+aNouWIsOaWsOeJiOacrCcgOiAn5pu05paw6L+b6KGM5LitJykiCiAgICAgICAgICA6Y2xvc2FibGU9ImZhbHNlIgogICAgICAgID4KICAgICAgICAgIDxwPnt7IHVwZGF0ZVN0YXR1cy5tZXNzYWdlIH19PC9wPgogICAgICAgIDwvZWwtYWxlcnQ+CiAgICAgIDwvZGl2PgogICAgPC9kaXY+CiAgPC9lbC1jYXJkPgoKICA8VXBkYXRlUHJvZ3Jlc3NEaWFsb2cKICAgIDp2aXNpYmxlPSJ1cGRhdGVQcm9ncmVzc1Zpc2libGUiCiAgICA6Y3VycmVudC12ZXJzaW9uPSJjdXJyZW50VmVyc2lvbiIKICAgIDpsYXRlc3QtdmVyc2lvbj0idXBkYXRlSW5mbz8ubGF0ZXN0IgogICAgOnJlbGVhc2UtdXJsPSJ1cGRhdGVJbmZvPy5yZWxlYXNlX3VybCIKICAgIDpzdGF0dXM9InVwZGF0ZVByb2dyZXNzU3RhdHVzIgogICAgOnVwZGF0ZS1zdGF0dXM9InVwZGF0ZVN0YXR1cyIKICAgIDplcnJvci1tZXNzYWdlPSJ1cGRhdGVQcm9ncmVzc0Vycm9yIgogICAgOm9uLWNsb3NlPSJvbkNsb3NlVXBkYXRlUHJvZ3Jlc3MiCiAgLz4KCiAgPGVsLWRpYWxvZyA6bW9kZWwtdmFsdWU9InJlbGVhc2VOb3Rlc1Zpc2libGUiIHRpdGxlPSLlj5HnjrDmlrDniYjmnKwiIHdpZHRoPSI3MjBweCIgYXBwZW5kLXRvLWJvZHkgQGNsb3NlPSJvbkNsb3NlUmVsZWFzZU5vdGVzIj4KICAgIDxkaXYgdi1pZj0idXBkYXRlSW5mbyIgY2xhc3M9InJlbGVhc2Utbm90ZXMtc2hlbGwiPgogICAgICA8ZGl2IGNsYXNzPSJyZWxlYXNlLW5vdGVzLW1ldGEiPgogICAgICAgIDxzdHJvbmc+54mI5pys77yadnt7IHVwZGF0ZUluZm8ubGF0ZXN0IH19PC9zdHJvbmc+CiAgICAgICAgPHNwYW4gdi1pZj0idXBkYXRlSW5mby5yZWxlYXNlX25hbWUiPnt7IHVwZGF0ZUluZm8ucmVsZWFzZV9uYW1lIH19PC9zcGFuPgogICAgICAgIDxzcGFuIHYtaWY9InVwZGF0ZUluZm8ucHVibGlzaGVkX2F0Ij7lj5HluIPml7bpl7TvvJp7eyBuZXcgRGF0ZSh1cGRhdGVJbmZvLnB1Ymxpc2hlZF9hdCkudG9Mb2NhbGVTdHJpbmcoKSB9fTwvc3Bhbj4KICAgICAgPC9kaXY+CiAgICAgIDxwcmUgY2xhc3M9InJlbGVhc2Utbm90ZXMtY29udGVudCI+e3sgdXBkYXRlSW5mby5yZWxlYXNlX25vdGVzIHx8ICflvZPliY3niYjmnKzmnKrmj5Dkvpvmm7TmlrDml6Xlv5fjgIInIH19PC9wcmU+CiAgICA8L2Rpdj4KICAgIDx0ZW1wbGF0ZSAjZm9vdGVyPgogICAgICA8ZWwtYnV0dG9uIEBjbGljaz0ib25DbG9zZVJlbGVhc2VOb3RlcyI+5YWz6ZetPC9lbC1idXR0b24+CiAgICAgIDxlbC1idXR0b24gdi1pZj0iaXNBZG1pbiAmJiB1cGRhdGVJbmZvPy5hdXRvX3VwZGF0ZV9zdXBwb3J0ZWQiIHR5cGU9InByaW1hcnkiIDpsb2FkaW5nPSJ1cGRhdGluZ1BhbmVsIiBAY2xpY2s9Im9uU3RhcnRVcGRhdGUiPgogICAgICAgIHt7IHVwZGF0ZUluZm8/LnVwZGF0ZV90YXJnZXQ/LnVwZGF0ZV9tYW5hZ2VyID09PSAnd2F0Y2h0b3dlcicgfHwgdXBkYXRlSW5mbz8udXBkYXRlX3RhcmdldD8ud2F0Y2h0b3dlcl9tYW5hZ2VkID8gJ+inpuWPkSBXYXRjaHRvd2VyIOajgOafpScgOiAn56uL5Y2z5pu05pawJyB9fQogICAgICA8L2VsLWJ1dHRvbj4KICAgIDwvdGVtcGxhdGU+CiAgPC9lbC1kaWFsb2c+CjwvdGVtcGxhdGU+Cgo8c3R5bGUgc2NvcGVkIGxhbmc9InNjc3MiPgouaGVyby1jYXJkIHsKICBib3JkZXItcmFkaXVzOiAxNHB4OwogIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodGVyKTsKICBib3gtc2hhZG93OiAwIDFweCA0cHggcmdiYSgwLCAwLCAwLCAwLjA0KTsKICBoZWlnaHQ6IDEwMCU7CgogIDpkZWVwKC5lbC1jYXJkX19ib2R5KSB7IHBhZGRpbmc6IDA7IGhlaWdodDogMTAwJTsgfQp9CgouaGVyby1sYXlvdXQgewogIHBhZGRpbmc6IDI0cHg7CiAgZGlzcGxheTogZmxleDsKICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIGhlaWdodDogMTAwJTsKfQoKLmhlcm8tc2VjdGlvbi10aXRsZSB7CiAgZm9udC1zaXplOiAxNXB4OwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3ItcHJpbWFyeSk7CiAgbWFyZ2luLWJvdHRvbTogMjBweDsKfQoKLmhlcm8tY2VudGVyIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICB0ZXh0LWFsaWduOiBjZW50ZXI7CiAgZmxleDogMTsKfQoKLmhlcm8tbG9nbyB7CiAgd2lkdGg6IDcycHg7CiAgaGVpZ2h0OiA3MnB4OwogIGJvcmRlci1yYWRpdXM6IDIwcHg7CiAgb3ZlcmZsb3c6IGhpZGRlbjsKICBib3gtc2hhZG93OiAwIDZweCAyMHB4IHJnYmEoNTksIDEzMCwgMjQ2LCAwLjE1KSwgMCAycHggNnB4IHJnYmEoMCwgMCwgMCwgMC4wNik7CiAgbWFyZ2luLWJvdHRvbTogMTRweDsKfQoKLmhlcm8tbG9nby1pbWcgewogIHdpZHRoOiAxMDAlOwogIGhlaWdodDogMTAwJTsKICBvYmplY3QtZml0OiBjb3ZlcjsKfQoKLmhlcm8tbmFtZSB7CiAgZm9udC1zaXplOiAyMHB4OwogIGZvbnQtd2VpZ2h0OiA4MDA7CiAgbWFyZ2luOiAwIDAgNHB4OwogIGxldHRlci1zcGFjaW5nOiAtMC4wMWVtOwp9CgouaGVyby1kZXNjIHsKICBmb250LXNpemU6IDEzcHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICBtYXJnaW46IDAgMCAxNnB4Owp9CgouaGVyby12ZXJzaW9uLXJvdyB7CiAgZGlzcGxheTogZmxleDsKICBnYXA6IDMycHg7CiAgbWFyZ2luLWJvdHRvbTogMThweDsKfQoKLmhlcm8tdmVyc2lvbi1pdGVtIHsKICBkaXNwbGF5OiBmbGV4OwogIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47CiAgYWxpZ24taXRlbXM6IGNlbnRlcjsKICBnYXA6IDJweDsKfQoKLmhlcm8tdmVyc2lvbi1sYWJlbCB7CiAgZm9udC1zaXplOiAxMXB4OwogIGNvbG9yOiB2YXIoLS1lbC10ZXh0LWNvbG9yLXBsYWNlaG9sZGVyKTsKICB0ZXh0LXRyYW5zZm9ybTogdXBwZXJjYXNlOwogIGxldHRlci1zcGFjaW5nOiAwLjVweDsKfQoKLmhlcm8tdmVyc2lvbi12YWx1ZSB7CiAgZm9udC1zaXplOiAxOHB4OwogIGZvbnQtd2VpZ2h0OiA3MDA7CiAgY29sb3I6IHZhcigtLWVsLWNvbG9yLXByaW1hcnkpOwogIGZvbnQtZmFtaWx5OiAnSW50ZXInLCB2YXIoLS1kZC1mb250LXVpKSwgc2Fucy1zZXJpZjsKCiAgJi0tdGVjaCB7CiAgICBmb250LXNpemU6IDE0cHg7CiAgICBmb250LXdlaWdodDogNTAwOwogICAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKICB9Cn0KCi5oZXJvLWFjdGlvbnMgewogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiAxMHB4OwogIGZsZXgtd3JhcDogd3JhcDsKICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjsKfQoKLmhlcm8tYnRuIHsKICBmb250LXdlaWdodDogNjAwICFpbXBvcnRhbnQ7CiAgZm9udC1zaXplOiAxM3B4ICFpbXBvcnRhbnQ7CiAgcGFkZGluZzogOHB4IDE4cHggIWltcG9ydGFudDsKICBib3JkZXItcmFkaXVzOiAyMHB4ICFpbXBvcnRhbnQ7Cn0KCi5oZXJvLWJ0bi1pY29uIHsKICBtYXJnaW4tcmlnaHQ6IDRweDsKfQoKLmhlcm8tYnRuLS1naG9zdCB7CiAgYmFja2dyb3VuZDogdmFyKC0tZWwtZmlsbC1jb2xvci1saWdodCkgIWltcG9ydGFudDsKICBib3JkZXItY29sb3I6IHZhcigtLWVsLWJvcmRlci1jb2xvci1saWdodCkgIWltcG9ydGFudDsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1yZWd1bGFyKSAhaW1wb3J0YW50OwoKICAmOmhvdmVyIHsKICAgIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3IpICFpbXBvcnRhbnQ7CiAgICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1wcmltYXJ5KSAhaW1wb3J0YW50OwogIH0KfQoKLmhlcm8tYWxlcnQgewogIG1hcmdpbi10b3A6IDE2cHg7CiAgd2lkdGg6IDEwMCU7Cn0KCi5oZXJvLWFsZXJ0LWFjdGlvbnMgewogIGRpc3BsYXk6IGZsZXg7CiAgZ2FwOiA4cHg7CiAgbWFyZ2luLXRvcDogOHB4Owp9CgouaGVyby1tZXRhIHsKICBjb2xvcjogdmFyKC0tZWwtdGV4dC1jb2xvci1zZWNvbmRhcnkpOwogIGZvbnQtc2l6ZTogMTJweDsKfQoKLnJlbGVhc2Utbm90ZXMtc2hlbGwgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjsKICBnYXA6IDE0cHg7Cn0KCi5yZWxlYXNlLW5vdGVzLW1ldGEgewogIGRpc3BsYXk6IGZsZXg7CiAgZmxleC13cmFwOiB3cmFwOwogIGdhcDogOHB4IDE0cHg7CiAgY29sb3I6IHZhcigtLWVsLXRleHQtY29sb3Itc2Vjb25kYXJ5KTsKfQoKLnJlbGVhc2Utbm90ZXMtY29udGVudCB7CiAgbWFyZ2luOiAwOwogIG1heC1oZWlnaHQ6IDQ2dmg7CiAgb3ZlcmZsb3c6IGF1dG87CiAgcGFkZGluZzogMTZweDsKICBib3JkZXItcmFkaXVzOiAxMnB4OwogIGJhY2tncm91bmQ6IHZhcigtLWVsLWZpbGwtY29sb3ItbGlnaHRlcik7CiAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tZWwtYm9yZGVyLWNvbG9yLWxpZ2h0KTsKICB3aGl0ZS1zcGFjZTogcHJlLXdyYXA7CiAgd29yZC1icmVhazogYnJlYWstd29yZDsKICBsaW5lLWhlaWdodDogMS42NTsKICBmb250LWZhbWlseTogdmFyKC0tZGQtZm9udC1tb25vKTsKICBmb250LXNpemU6IDEzcHg7Cn0KCkBtZWRpYSAobWF4LXdpZHRoOiA3NjhweCkgewogIC5oZXJvLWFjdGlvbnMgewogICAgd2lkdGg6IDEwMCU7CiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uOwogIH0KCiAgLmhlcm8tdmVyc2lvbi1yb3cgewogICAgZ2FwOiAyNHB4OwogIH0KfQo8L3N0eWxlPgo=
+<script setup lang="ts">
+import type { PanelUpdateStatus } from '@/api/system'
+import UpdateProgressDialog from './UpdateProgressDialog.vue'
+
+defineProps<{
+  isAdmin: boolean
+  currentVersion: string
+  updateInfo: any
+  updateStatus: PanelUpdateStatus | null
+  checkingUpdate: boolean
+  updatingPanel: boolean
+  autoUpdateEnabled: boolean
+  savingAutoUpdate: boolean
+  releaseNotesVisible: boolean
+  updateProgressVisible: boolean
+  updateProgressStatus: 'idle' | 'running' | 'restarting' | 'failed' | 'timeout'
+  updateProgressError: string
+  onCheckUpdate: () => void | Promise<void>
+  onStartUpdate: () => void | Promise<void>
+  onRestartPanel: () => void | Promise<void>
+  onToggleAutoUpdate: (value: boolean) => void | Promise<void>
+  onOpenReleaseNotes: () => void | Promise<void>
+  onCloseReleaseNotes: () => void | Promise<void>
+  onOpenGitHub: () => void
+  onCloseUpdateProgress: () => void | Promise<void>
+}>()
+</script>
+
+<template>
+  <el-card shadow="never" class="hero-card">
+    <div class="hero-layout">
+      <div class="hero-section-title">产品与版本</div>
+
+      <div class="hero-center">
+        <div class="hero-logo">
+          <img src="/favicon.svg" alt="呆呆面板" class="hero-logo-img" />
+        </div>
+        <h2 class="hero-name">呆呆面板</h2>
+        <p class="hero-desc">轻量级定时任务管理面板</p>
+
+        <div class="hero-version-row">
+          <div class="hero-version-item">
+            <span class="hero-version-label">当前版本</span>
+            <span class="hero-version-value">v{{ currentVersion }}</span>
+          </div>
+          <div class="hero-version-item">
+            <span class="hero-version-label">技术栈</span>
+            <span class="hero-version-value hero-version-value--tech">Gin + Vue3</span>
+          </div>
+        </div>
+
+        <div class="hero-actions">
+          <el-button v-if="isAdmin" type="primary" round :loading="checkingUpdate" @click="onCheckUpdate" class="hero-btn hero-btn--primary">
+            检查系统更新
+          </el-button>
+          <el-button v-if="isAdmin" type="warning" round @click="onRestartPanel" class="hero-btn hero-btn--warning">
+            重启面板
+          </el-button>
+          <el-button round @click="onOpenGitHub" class="hero-btn hero-btn--ghost">
+            访问 GitHub
+          </el-button>
+        </div>
+      </div>
+
+      <div v-if="updateInfo" class="hero-alert">
+        <el-alert
+          :type="updateInfo.has_update ? (updateInfo.auto_update_supported ? 'success' : 'warning') : 'info'"
+          :title="updateInfo.has_update ? `发现新版本 v${updateInfo.latest}` : '当前已是最新版本'"
+          :closable="false"
+        >
+          <div v-if="updateInfo.has_update">
+            <p>发布时间: {{ new Date(updateInfo.published_at).toLocaleString() }}</p>
+            <p v-if="updateInfo.update_target?.deployment_type === 'binary'" class="hero-meta">更新方式：二进制后台更新</p>
+            <p v-if="updateInfo.update_target?.update_manager === 'watchtower' || updateInfo.update_target?.watchtower_managed" class="hero-meta">更新方式：Watchtower 托管更新</p>
+            <p v-if="updateInfo.update_target?.asset_name" class="hero-meta">更新包：{{ updateInfo.update_target.asset_name }}</p>
+            <p v-if="updateInfo.update_target?.install_dir" class="hero-meta">安装目录：{{ updateInfo.update_target.install_dir }}</p>
+            <p v-if="updateInfo.update_target?.deployment_type !== 'binary' && updateInfo.update_target?.mirror_host" class="hero-meta">镜像源：{{ updateInfo.update_target.mirror_host }}</p>
+            <p v-if="updateInfo.update_target?.deployment_type !== 'binary' && updateInfo.update_target?.channel" class="hero-meta">渠道：{{ updateInfo.update_target.channel === 'debian' ? 'Debian' : 'Latest (Alpine)' }}</p>
+            <p v-if="updateInfo.update_target?.watchtower_schedule" class="hero-meta">Watchtower 调度：{{ updateInfo.update_target.watchtower_schedule }}</p>
+            <p v-if="updateInfo.update_target?.update_manager === 'watchtower' || updateInfo.update_target?.watchtower_managed" class="hero-meta">
+              当前部署由 Watchtower 负责自动更新；如已配置 HTTP API，可在这里手动触发一次检查。
+            </p>
+            <p v-if="!updateInfo.auto_update_supported" class="hero-meta">{{ updateInfo.update_disabled_reason || '当前部署暂不支持一键更新' }}</p>
+            <p v-if="!updateInfo.auto_update_supported && updateInfo.update_target?.deployment_type !== 'binary'" class="hero-meta">
+              推荐使用 Watchtower 托管自动更新；需要立即手动更新时，在宿主机执行 docker compose pull && docker compose up -d。
+            </p>
+            <div class="hero-alert-actions">
+              <el-button v-if="isAdmin && updateInfo.auto_update_supported" type="primary" size="small" round :loading="updatingPanel" @click="onStartUpdate">
+                {{ updateInfo.update_target?.update_manager === 'watchtower' || updateInfo.update_target?.watchtower_managed ? '触发 Watchtower 检查' : '立即更新' }}
+              </el-button>
+              <el-button size="small" round @click="onOpenReleaseNotes">查看更新日志</el-button>
+            </div>
+          </div>
+        </el-alert>
+      </div>
+
+      <div v-if="updateStatus && updateStatus.status && updateStatus.status !== 'idle'" class="hero-alert">
+        <el-alert
+          :type="updateStatus.status === 'failed' ? 'error' : (updateStatus.status === 'restarting' ? 'success' : 'warning')"
+          :title="updateStatus.status === 'failed' ? '更新失败' : (updateStatus.status === 'restarting' ? '正在切换到新版本' : '更新进行中')"
+          :closable="false"
+        >
+          <p>{{ updateStatus.message }}</p>
+        </el-alert>
+      </div>
+    </div>
+  </el-card>
+
+  <UpdateProgressDialog
+    :visible="updateProgressVisible"
+    :current-version="currentVersion"
+    :latest-version="updateInfo?.latest"
+    :release-url="updateInfo?.release_url"
+    :status="updateProgressStatus"
+    :update-status="updateStatus"
+    :error-message="updateProgressError"
+    :on-close="onCloseUpdateProgress"
+  />
+
+  <el-dialog :model-value="releaseNotesVisible" title="发现新版本" width="720px" append-to-body @close="onCloseReleaseNotes">
+    <div v-if="updateInfo" class="release-notes-shell">
+      <div class="release-notes-meta">
+        <strong>版本：v{{ updateInfo.latest }}</strong>
+        <span v-if="updateInfo.release_name">{{ updateInfo.release_name }}</span>
+        <span v-if="updateInfo.published_at">发布时间：{{ new Date(updateInfo.published_at).toLocaleString() }}</span>
+      </div>
+      <pre class="release-notes-content">{{ updateInfo.release_notes || '当前版本未提供更新日志。' }}</pre>
+    </div>
+    <template #footer>
+      <el-button @click="onCloseReleaseNotes">关闭</el-button>
+      <el-button v-if="isAdmin && updateInfo?.auto_update_supported" type="primary" :loading="updatingPanel" @click="onStartUpdate">
+        {{ updateInfo?.update_target?.update_manager === 'watchtower' || updateInfo?.update_target?.watchtower_managed ? '触发 Watchtower 检查' : '立即更新' }}
+      </el-button>
+    </template>
+  </el-dialog>
+</template>
+
+<style scoped lang="scss">
+.hero-card {
+  border-radius: 14px;
+  border: 1px solid var(--el-border-color-lighter);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  height: 100%;
+
+  :deep(.el-card__body) { padding: 0; height: 100%; }
+}
+
+.hero-layout {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.hero-section-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--el-text-color-primary);
+  margin-bottom: 20px;
+}
+
+.hero-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.hero-logo {
+  width: 72px;
+  height: 72px;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.15), 0 2px 6px rgba(0, 0, 0, 0.06);
+  margin-bottom: 14px;
+}
+
+.hero-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-name {
+  font-size: 20px;
+  font-weight: 800;
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+
+.hero-desc {
+  font-size: 13px;
+  color: var(--el-text-color-secondary);
+  margin: 0 0 16px;
+}
+
+.hero-version-row {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 18px;
+}
+
+.hero-version-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.hero-version-label {
+  font-size: 11px;
+  color: var(--el-text-color-placeholder);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.hero-version-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--el-color-primary);
+  font-family: 'Inter', var(--dd-font-ui), sans-serif;
+
+  &--tech {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--el-text-color-secondary);
+  }
+}
+
+.hero-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.hero-btn {
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  padding: 8px 18px !important;
+  border-radius: 20px !important;
+}
+
+.hero-btn-icon {
+  margin-right: 4px;
+}
+
+.hero-btn--ghost {
+  background: var(--el-fill-color-light) !important;
+  border-color: var(--el-border-color-light) !important;
+  color: var(--el-text-color-regular) !important;
+
+  &:hover {
+    background: var(--el-fill-color) !important;
+    color: var(--el-text-color-primary) !important;
+  }
+}
+
+.hero-alert {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.hero-alert-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.hero-meta {
+  color: var(--el-text-color-secondary);
+  font-size: 12px;
+}
+
+.release-notes-shell {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.release-notes-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  color: var(--el-text-color-secondary);
+}
+
+.release-notes-content {
+  margin: 0;
+  max-height: 46vh;
+  overflow: auto;
+  padding: 16px;
+  border-radius: 12px;
+  background: var(--el-fill-color-lighter);
+  border: 1px solid var(--el-border-color-light);
+  white-space: pre-wrap;
+  word-break: break-word;
+  line-height: 1.65;
+  font-family: var(--dd-font-mono);
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .hero-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .hero-version-row {
+    gap: 24px;
+  }
+}
+</style>

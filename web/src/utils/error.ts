@@ -1,1 +1,33 @@
-LyoqCiAqIOS7jiBheGlvcyDplJnor6/lr7nosaHkuK3mj5Dlj5blkI7nq6/ov5Tlm57nmoTlj6/or7vplJnor6/kv6Hmga/jgIIKICog5LyY5YWI57qn77yacmVzcG9uc2UuZGF0YS5lcnJvciA+IHJlc3BvbnNlLmRhdGEubWVzc2FnZSA+IGVyci5tZXNzYWdlID4gZmFsbGJhY2sKICovCmV4cG9ydCBmdW5jdGlvbiBleHRyYWN0RXJyb3IoZXJyOiB1bmtub3duLCBmYWxsYmFjayA9ICfmk43kvZzlpLHotKUnKTogc3RyaW5nIHsKICBpZiAoIWVycikgcmV0dXJuIGZhbGxiYWNrCiAgaWYgKHR5cGVvZiBlcnIgPT09ICdzdHJpbmcnKSB7CiAgICAvLyBFbE1lc3NhZ2VCb3guY29uZmlybSDlj5bmtojml7YgcmVqZWN0IOWtl+espuS4siAnY2FuY2VsJwogICAgaWYgKGVyciA9PT0gJ2NhbmNlbCcgfHwgZXJyID09PSAnY2xvc2UnKSByZXR1cm4gJycKICAgIHJldHVybiBlcnIKICB9CiAgY29uc3QgYW55RXJyID0gZXJyIGFzIGFueQogIGlmIChhbnlFcnIgPT09ICdjYW5jZWwnIHx8IGFueUVycj8udG9TdHJpbmc/LigpID09PSAnY2FuY2VsJykgcmV0dXJuICcnCiAgY29uc3QgZGF0YSA9IGFueUVycj8ucmVzcG9uc2U/LmRhdGEKICBpZiAoZGF0YSkgewogICAgaWYgKHR5cGVvZiBkYXRhID09PSAnc3RyaW5nJykgcmV0dXJuIGRhdGEKICAgIGlmIChkYXRhLmVycm9yKSByZXR1cm4gU3RyaW5nKGRhdGEuZXJyb3IpCiAgICBpZiAoZGF0YS5tZXNzYWdlKSByZXR1cm4gU3RyaW5nKGRhdGEubWVzc2FnZSkKICB9CiAgaWYgKGFueUVycj8ubWVzc2FnZSkgcmV0dXJuIFN0cmluZyhhbnlFcnIubWVzc2FnZSkKICByZXR1cm4gZmFsbGJhY2sKfQoKLyoqCiAqIOWIpOaWremUmeivr+aYr+WQpuS4uiBFbE1lc3NhZ2VCb3gg5Y+W5raICiAqLwpleHBvcnQgZnVuY3Rpb24gaXNDYW5jZWwoZXJyOiB1bmtub3duKTogYm9vbGVhbiB7CiAgaWYgKCFlcnIpIHJldHVybiBmYWxzZQogIGlmIChlcnIgPT09ICdjYW5jZWwnIHx8IGVyciA9PT0gJ2Nsb3NlJykgcmV0dXJuIHRydWUKICBjb25zdCBhbnlFcnIgPSBlcnIgYXMgYW55CiAgY29uc3QgcyA9IGFueUVycj8udG9TdHJpbmc/LigpCiAgcmV0dXJuIHMgPT09ICdjYW5jZWwnIHx8IHMgPT09ICdjbG9zZScKfQo=
+/**
+ * 从 axios 错误对象中提取后端返回的可读错误信息。
+ * 优先级：response.data.error > response.data.message > err.message > fallback
+ */
+export function extractError(err: unknown, fallback = '操作失败'): string {
+  if (!err) return fallback
+  if (typeof err === 'string') {
+    // ElMessageBox.confirm 取消时 reject 字符串 'cancel'
+    if (err === 'cancel' || err === 'close') return ''
+    return err
+  }
+  const anyErr = err as any
+  if (anyErr === 'cancel' || anyErr?.toString?.() === 'cancel') return ''
+  const data = anyErr?.response?.data
+  if (data) {
+    if (typeof data === 'string') return data
+    if (data.error) return String(data.error)
+    if (data.message) return String(data.message)
+  }
+  if (anyErr?.message) return String(anyErr.message)
+  return fallback
+}
+
+/**
+ * 判断错误是否为 ElMessageBox 取消
+ */
+export function isCancel(err: unknown): boolean {
+  if (!err) return false
+  if (err === 'cancel' || err === 'close') return true
+  const anyErr = err as any
+  const s = anyErr?.toString?.()
+  return s === 'cancel' || s === 'close'
+}

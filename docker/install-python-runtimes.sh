@@ -1,1 +1,158 @@
-IyEvYmluL3NoCiMgSW5zdGFsbCB2ZXJzaW9uZWQgQ1B5dGhvbiBydW50aW1lcyBmb3IgRG9ja2VyIGltYWdlcy4KIwojIFRoZSBwYW5lbCBjcmVhdGVzIHBlci12ZXJzaW9uIHZlbnZzIGF0IHJ1bnRpbWUsIGJ1dCBEb2NrZXIgaW1hZ2VzIG11c3Qgc3RpbGwKIyBwcm92aWRlIHRoZSBtYXRjaGluZyBweXRob24zLjEwIC8gcHl0aG9uMy4xMSAvIHB5dGhvbjMuMTIgYm9vdHN0cmFwIGJpbmFyaWVzLgoKc2V0IC1ldQoKUlVOVElNRV9GTEFWT1I9JHsxOi1hbHBpbmV9ClRBUkdFVF9BUkNIPSR7MjotfQpUQVJHRVRfVkFSSUFOVD0kezM6LX0KUFlUSE9OX1NUQU5EQUxPTkVfUkVMRUFTRT0kezQ6LTIwMjYwNjAyfQpQWVRIT05fUlVOVElNRV8zMTA9JHs1Oi0zLjEwLjIwfQpQWVRIT05fUlVOVElNRV8zMTE9JHs2Oi0zLjExLjE1fQpQWVRIT05fUlVOVElNRV8zMTI9JHs3Oi0zLjEyLjEzfQpQWVRIT05fUlVOVElNRV9NT0RFPSR7ODotc2luZ2xlfQpQWVRIT05fUlVOVElNRV9WRVJTSU9OPSR7OTotMy4xMn0KCklOU1RBTExfUk9PVD0ke1BZVEhPTl9SVU5USU1FX1JPT1Q6LS9vcHQvZGFpZGFpLXB5dGhvbn0KQkFTRV9VUkw9Imh0dHBzOi8vZ2l0aHViLmNvbS9hc3RyYWwtc2gvcHl0aG9uLWJ1aWxkLXN0YW5kYWxvbmUvcmVsZWFzZXMvZG93bmxvYWQvJHtQWVRIT05fU1RBTkRBTE9ORV9SRUxFQVNFfSIKCmxvZygpIHsKICBwcmludGYgJ1tweXRob24tcnVudGltZV0gJXNcbicgIiQqIgp9CgpjYXNlICIkUFlUSE9OX1JVTlRJTUVfTU9ERSIgaW4KICBhbGx8c2luZ2xlKQogICAgOzsKICAqKQogICAgbG9nICJ1bmtub3duIFBZVEhPTl9SVU5USU1FX01PREU9JHtQWVRIT05fUlVOVElNRV9NT0RFfSwgZmFsbGJhY2sgdG8gc2luZ2xlIgogICAgUFlUSE9OX1JVTlRJTUVfTU9ERT1zaW5nbGUKICAgIDs7CmVzYWMKCmNhc2UgIiRQWVRIT05fUlVOVElNRV9WRVJTSU9OIiBpbgogIDMuMTB8My4xMXwzLjEyKQogICAgOzsKICAqKQogICAgbG9nICJ1bmtub3duIFBZVEhPTl9SVU5USU1FX1ZFUlNJT049JHtQWVRIT05fUlVOVElNRV9WRVJTSU9OfSwgZmFsbGJhY2sgdG8gMy4xMiIKICAgIFBZVEhPTl9SVU5USU1FX1ZFUlNJT049My4xMgogICAgOzsKZXNhYwoKZmV0Y2goKSB7CiAgdXJsPSQxCiAgb3V0PSQyCiAgaWYgY29tbWFuZCAtdiBjdXJsID4vZGV2L251bGwgMj4mMTsgdGhlbgogICAgY3VybCAtZnNTTCAiJHVybCIgLW8gIiRvdXQiCiAgZWxpZiBjb21tYW5kIC12IHdnZXQgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICB3Z2V0IC1xTyAiJG91dCIgIiR1cmwiCiAgZWxzZQogICAgbG9nICJjdXJsL3dnZXQgdW5hdmFpbGFibGUsIHNraXAgUHl0aG9uIHJ1bnRpbWUgaW5zdGFsbGF0aW9uIgogICAgcmV0dXJuIDEKICBmaQp9CgpweXRob25fcGxhdGZvcm0oKSB7CiAgZmxhdm9yPSQxCiAgYXJjaD0kMgogIHZhcmlhbnQ9JDMKCiAgY2FzZSAiJHtmbGF2b3J9OiR7YXJjaH0iIGluCiAgICBhbHBpbmU6YW1kNjQpCiAgICAgIHByaW50ZiAnJXMnICd4ODZfNjQtdW5rbm93bi1saW51eC1tdXNsJwogICAgICA7OwogICAgYWxwaW5lOmFybTY0KQogICAgICBwcmludGYgJyVzJyAnYWFyY2g2NC11bmtub3duLWxpbnV4LW11c2wnCiAgICAgIDs7CiAgICBkZWJpYW46YW1kNjQpCiAgICAgIHByaW50ZiAnJXMnICd4ODZfNjQtdW5rbm93bi1saW51eC1nbnUnCiAgICAgIDs7CiAgICBkZWJpYW46YXJtNjQpCiAgICAgIHByaW50ZiAnJXMnICdhYXJjaDY0LXVua25vd24tbGludXgtZ251JwogICAgICA7OwogICAgZGViaWFuOmFybSkKICAgICAgY2FzZSAiJHZhcmlhbnQiIGluCiAgICAgICAgdjd8JycpCiAgICAgICAgICBwcmludGYgJyVzJyAnYXJtdjctdW5rbm93bi1saW51eC1nbnVlYWJpaGYnCiAgICAgICAgICA7OwogICAgICBlc2FjCiAgICAgIDs7CiAgZXNhYwp9CgppbnN0YWxsX3B5dGhvbigpIHsKICBtaW5vcj0kMQogIGZ1bGxfdmVyc2lvbj0kMgogIHBsYXRmb3JtPSQzCgogIGFyY2hpdmU9ImNweXRob24tJHtmdWxsX3ZlcnNpb259KyR7UFlUSE9OX1NUQU5EQUxPTkVfUkVMRUFTRX0tJHtwbGF0Zm9ybX0taW5zdGFsbF9vbmx5LnRhci5neiIKICB1cmw9IiR7QkFTRV9VUkx9LyR7YXJjaGl2ZX0iCiAgdG1wPSIvdG1wLyR7YXJjaGl2ZX0iCiAgc3RhZ2U9IiR7SU5TVEFMTF9ST09UfS8ke21pbm9yfS50bXAiCiAgZGVzdD0iJHtJTlNUQUxMX1JPT1R9LyR7bWlub3J9IgoKICBsb2cgImluc3RhbGwgUHl0aG9uICR7bWlub3J9IGZyb20gJHthcmNoaXZlfSIKICBybSAtcmYgIiRzdGFnZSIgIiRkZXN0IgogIG1rZGlyIC1wICIkc3RhZ2UiICIkSU5TVEFMTF9ST09UIgogIGZldGNoICIkdXJsIiAiJHRtcCIKICB0YXIgLXh6ZiAiJHRtcCIgLUMgIiRzdGFnZSIKICBtdiAiJHN0YWdlL3B5dGhvbiIgIiRkZXN0IgogIHJtIC1yZiAiJHN0YWdlIiAiJHRtcCIKCiAgbG4gLXNmICIke2Rlc3R9L2Jpbi9weXRob24ke21pbm9yfSIgIi91c3IvbG9jYWwvYmluL3B5dGhvbiR7bWlub3J9IgogIGxuIC1zZiAiJHtkZXN0fS9iaW4vcGlwJHttaW5vcn0iICIvdXNyL2xvY2FsL2Jpbi9waXAke21pbm9yfSIKCiAgZXhwb3J0IFBBVEg9IiR7ZGVzdH0vYmluOiR7UEFUSH0iCiAgZXhwb3J0IExEX0xJQlJBUllfUEFUSD0iJHtkZXN0fS9saWIke0xEX0xJQlJBUllfUEFUSDorOiR7TERfTElCUkFSWV9QQVRIfX0iCgogICJweXRob24ke21pbm9yfSIgLS12ZXJzaW9uCiAgInB5dGhvbiR7bWlub3J9IiAtbSBwaXAgLS12ZXJzaW9uCn0KCnNob3VsZF9pbnN0YWxsX3B5dGhvbigpIHsKICBtaW5vcj0kMQogIGlmIFsgIiRQWVRIT05fUlVOVElNRV9NT0RFIiA9ICJhbGwiIF07IHRoZW4KICAgIHJldHVybiAwCiAgZmkKICBbICIkbWlub3IiID0gIiRQWVRIT05fUlVOVElNRV9WRVJTSU9OIiBdCn0KClBMQVRGT1JNPSQocHl0aG9uX3BsYXRmb3JtICIkUlVOVElNRV9GTEFWT1IiICIkVEFSR0VUX0FSQ0giICIkVEFSR0VUX1ZBUklBTlQiIHx8IHRydWUpCgppZiBbIC16ICIkUExBVEZPUk0iIF07IHRoZW4KICAjIOm7mOiupCAzLjEyIOmVnOWDj+WcqCBBbHBpbmUgMzIg5L2N5bmz5Y+w5LiK5Y+v5Lul57un57ut5L2/55So5Y+R6KGM54mIIHB5dGhvbjPvvJsKICAjIOS9hiAzLjEwIC8gMy4xMSAvIGFsbCDplZzlg4/lpoLmnpzmsqHmnInni6znq4vov5DooYzml7botYTkuqfvvIzlv4Xpobvnm7TmjqXlpLHotKXvvIzpgb/lhY3mjqjpgIHigJzlkI3lrZfmmK8gMy4xMO+8jOWunumZheWNtOWPquacieezu+e7nyBQeXRob27igJ3nmoTlgYfplZzlg4/jgIIKICBpZiBbICIkUFlUSE9OX1JVTlRJTUVfTU9ERSIgPSAic2luZ2xlIiBdICYmIFsgIiRQWVRIT05fUlVOVElNRV9WRVJTSU9OIiA9ICIzLjEyIiBdOyB0aGVuCiAgICBsb2cgIm5vIHN0YW5kYWxvbmUgQ1B5dGhvbiBhc3NldCBmb3IgZmxhdm9yPSR7UlVOVElNRV9GTEFWT1J9IGFyY2g9JHtUQVJHRVRfQVJDSH0gdmFyaWFudD0ke1RBUkdFVF9WQVJJQU5UfTsga2VlcCBkaXN0cm8gcHl0aG9uIG9ubHkiCiAgICBleGl0IDAKICBmaQogIGxvZyAibm8gc3RhbmRhbG9uZSBDUHl0aG9uIGFzc2V0IGZvciBmbGF2b3I9JHtSVU5USU1FX0ZMQVZPUn0gYXJjaD0ke1RBUkdFVF9BUkNIfSB2YXJpYW50PSR7VEFSR0VUX1ZBUklBTlR9OyBjYW5ub3QgYnVpbGQgbW9kZT0ke1BZVEhPTl9SVU5USU1FX01PREV9IHZlcnNpb249JHtQWVRIT05fUlVOVElNRV9WRVJTSU9OfSIKICBleGl0IDEKZmkKCmlmIHNob3VsZF9pbnN0YWxsX3B5dGhvbiAiMy4xMCI7IHRoZW4KICBpbnN0YWxsX3B5dGhvbiAiMy4xMCIgIiRQWVRIT05fUlVOVElNRV8zMTAiICIkUExBVEZPUk0iCmZpCmlmIHNob3VsZF9pbnN0YWxsX3B5dGhvbiAiMy4xMSI7IHRoZW4KICBpbnN0YWxsX3B5dGhvbiAiMy4xMSIgIiRQWVRIT05fUlVOVElNRV8zMTEiICIkUExBVEZPUk0iCmZpCmlmIHNob3VsZF9pbnN0YWxsX3B5dGhvbiAiMy4xMiI7IHRoZW4KICBpbnN0YWxsX3B5dGhvbiAiMy4xMiIgIiRQWVRIT05fUlVOVElNRV8zMTIiICIkUExBVEZPUk0iCmZpCgojIOiuqemAmueUqCBweXRob24zIC8gcGlwMyDokL3liLDlvZPliY3plZzlg4/pu5jorqTniYjmnKzvvJthbGwg6ZWc5YOP5LuN6buY6K6kIDMuMTLjgIIKIyDov5nmoLcgbGF0ZXN0My4xMCAvIGRlYmlhbjMuMTAg6L+Z57G75Y2V54mI5pys6ZWc5YOP6YeM77yM5Lu75Yqh5ZKMIHZlbnYg5Yib5bu66YO95Lya5LyY5YWI5L2/55So5a+55bqU5bCP54mI5pys44CCCmRlZmF1bHRfcm9vdD0iJHtJTlNUQUxMX1JPT1R9LyR7UFlUSE9OX1JVTlRJTUVfVkVSU0lPTn0iCmlmIFsgISAtZCAiJHtkZWZhdWx0X3Jvb3R9L2JpbiIgXSAmJiBbIC1kICIke0lOU1RBTExfUk9PVH0vMy4xMi9iaW4iIF07IHRoZW4KICBkZWZhdWx0X3Jvb3Q9IiR7SU5TVEFMTF9ST09UfS8zLjEyIgogIFBZVEhPTl9SVU5USU1FX1ZFUlNJT049My4xMgpmaQppZiBbIC1kICIke2RlZmF1bHRfcm9vdH0vYmluIiBdOyB0aGVuCiAgbG4gLXNmICIke2RlZmF1bHRfcm9vdH0vYmluL3B5dGhvbiR7UFlUSE9OX1JVTlRJTUVfVkVSU0lPTn0iICIvdXNyL2xvY2FsL2Jpbi9weXRob24zIgogIGxuIC1zZiAiJHtkZWZhdWx0X3Jvb3R9L2Jpbi9waXAke1BZVEhPTl9SVU5USU1FX1ZFUlNJT059IiAiL3Vzci9sb2NhbC9iaW4vcGlwMyIKICBsbiAtc2YgIiR7ZGVmYXVsdF9yb290fS9iaW4vcGlwJHtQWVRIT05fUlVOVElNRV9WRVJTSU9OfSIgIi91c3IvbG9jYWwvYmluL3BpcCIKZmkKCmxvZyAiUHl0aG9uIHJ1bnRpbWVzIGluc3RhbGxlZCB1bmRlciAke0lOU1RBTExfUk9PVH0gKG1vZGU9JHtQWVRIT05fUlVOVElNRV9NT0RFfSwgZGVmYXVsdD0ke1BZVEhPTl9SVU5USU1FX1ZFUlNJT059KSIK
+#!/bin/sh
+# Install versioned CPython runtimes for Docker images.
+#
+# The panel creates per-version venvs at runtime, but Docker images must still
+# provide the matching python3.10 / python3.11 / python3.12 bootstrap binaries.
+
+set -eu
+
+RUNTIME_FLAVOR=${1:-alpine}
+TARGET_ARCH=${2:-}
+TARGET_VARIANT=${3:-}
+PYTHON_STANDALONE_RELEASE=${4:-20260602}
+PYTHON_RUNTIME_310=${5:-3.10.20}
+PYTHON_RUNTIME_311=${6:-3.11.15}
+PYTHON_RUNTIME_312=${7:-3.12.13}
+PYTHON_RUNTIME_MODE=${8:-single}
+PYTHON_RUNTIME_VERSION=${9:-3.12}
+
+INSTALL_ROOT=${PYTHON_RUNTIME_ROOT:-/opt/daidai-python}
+BASE_URL="https://github.com/astral-sh/python-build-standalone/releases/download/${PYTHON_STANDALONE_RELEASE}"
+
+log() {
+  printf '[python-runtime] %s\n' "$*"
+}
+
+case "$PYTHON_RUNTIME_MODE" in
+  all|single)
+    ;;
+  *)
+    log "unknown PYTHON_RUNTIME_MODE=${PYTHON_RUNTIME_MODE}, fallback to single"
+    PYTHON_RUNTIME_MODE=single
+    ;;
+esac
+
+case "$PYTHON_RUNTIME_VERSION" in
+  3.10|3.11|3.12)
+    ;;
+  *)
+    log "unknown PYTHON_RUNTIME_VERSION=${PYTHON_RUNTIME_VERSION}, fallback to 3.12"
+    PYTHON_RUNTIME_VERSION=3.12
+    ;;
+esac
+
+fetch() {
+  url=$1
+  out=$2
+  if command -v curl >/dev/null 2>&1; then
+    curl -fsSL "$url" -o "$out"
+  elif command -v wget >/dev/null 2>&1; then
+    wget -qO "$out" "$url"
+  else
+    log "curl/wget unavailable, skip Python runtime installation"
+    return 1
+  fi
+}
+
+python_platform() {
+  flavor=$1
+  arch=$2
+  variant=$3
+
+  case "${flavor}:${arch}" in
+    alpine:amd64)
+      printf '%s' 'x86_64-unknown-linux-musl'
+      ;;
+    alpine:arm64)
+      printf '%s' 'aarch64-unknown-linux-musl'
+      ;;
+    debian:amd64)
+      printf '%s' 'x86_64-unknown-linux-gnu'
+      ;;
+    debian:arm64)
+      printf '%s' 'aarch64-unknown-linux-gnu'
+      ;;
+    debian:arm)
+      case "$variant" in
+        v7|'')
+          printf '%s' 'armv7-unknown-linux-gnueabihf'
+          ;;
+      esac
+      ;;
+  esac
+}
+
+install_python() {
+  minor=$1
+  full_version=$2
+  platform=$3
+
+  archive="cpython-${full_version}+${PYTHON_STANDALONE_RELEASE}-${platform}-install_only.tar.gz"
+  url="${BASE_URL}/${archive}"
+  tmp="/tmp/${archive}"
+  stage="${INSTALL_ROOT}/${minor}.tmp"
+  dest="${INSTALL_ROOT}/${minor}"
+
+  log "install Python ${minor} from ${archive}"
+  rm -rf "$stage" "$dest"
+  mkdir -p "$stage" "$INSTALL_ROOT"
+  fetch "$url" "$tmp"
+  tar -xzf "$tmp" -C "$stage"
+  mv "$stage/python" "$dest"
+  rm -rf "$stage" "$tmp"
+
+  ln -sf "${dest}/bin/python${minor}" "/usr/local/bin/python${minor}"
+  ln -sf "${dest}/bin/pip${minor}" "/usr/local/bin/pip${minor}"
+
+  export PATH="${dest}/bin:${PATH}"
+  export LD_LIBRARY_PATH="${dest}/lib${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}"
+
+  "python${minor}" --version
+  "python${minor}" -m pip --version
+}
+
+should_install_python() {
+  minor=$1
+  if [ "$PYTHON_RUNTIME_MODE" = "all" ]; then
+    return 0
+  fi
+  [ "$minor" = "$PYTHON_RUNTIME_VERSION" ]
+}
+
+PLATFORM=$(python_platform "$RUNTIME_FLAVOR" "$TARGET_ARCH" "$TARGET_VARIANT" || true)
+
+if [ -z "$PLATFORM" ]; then
+  # 默认 3.12 镜像在 Alpine 32 位平台上可以继续使用发行版 python3；
+  # 但 3.10 / 3.11 / all 镜像如果没有独立运行时资产，必须直接失败，避免推送“名字是 3.10，实际却只有系统 Python”的假镜像。
+  if [ "$PYTHON_RUNTIME_MODE" = "single" ] && [ "$PYTHON_RUNTIME_VERSION" = "3.12" ]; then
+    log "no standalone CPython asset for flavor=${RUNTIME_FLAVOR} arch=${TARGET_ARCH} variant=${TARGET_VARIANT}; keep distro python only"
+    exit 0
+  fi
+  log "no standalone CPython asset for flavor=${RUNTIME_FLAVOR} arch=${TARGET_ARCH} variant=${TARGET_VARIANT}; cannot build mode=${PYTHON_RUNTIME_MODE} version=${PYTHON_RUNTIME_VERSION}"
+  exit 1
+fi
+
+if should_install_python "3.10"; then
+  install_python "3.10" "$PYTHON_RUNTIME_310" "$PLATFORM"
+fi
+if should_install_python "3.11"; then
+  install_python "3.11" "$PYTHON_RUNTIME_311" "$PLATFORM"
+fi
+if should_install_python "3.12"; then
+  install_python "3.12" "$PYTHON_RUNTIME_312" "$PLATFORM"
+fi
+
+# 让通用 python3 / pip3 落到当前镜像默认版本；all 镜像仍默认 3.12。
+# 这样 latest3.10 / debian3.10 这类单版本镜像里，任务和 venv 创建都会优先使用对应小版本。
+default_root="${INSTALL_ROOT}/${PYTHON_RUNTIME_VERSION}"
+if [ ! -d "${default_root}/bin" ] && [ -d "${INSTALL_ROOT}/3.12/bin" ]; then
+  default_root="${INSTALL_ROOT}/3.12"
+  PYTHON_RUNTIME_VERSION=3.12
+fi
+if [ -d "${default_root}/bin" ]; then
+  ln -sf "${default_root}/bin/python${PYTHON_RUNTIME_VERSION}" "/usr/local/bin/python3"
+  ln -sf "${default_root}/bin/pip${PYTHON_RUNTIME_VERSION}" "/usr/local/bin/pip3"
+  ln -sf "${default_root}/bin/pip${PYTHON_RUNTIME_VERSION}" "/usr/local/bin/pip"
+fi
+
+log "Python runtimes installed under ${INSTALL_ROOT} (mode=${PYTHON_RUNTIME_MODE}, default=${PYTHON_RUNTIME_VERSION})"

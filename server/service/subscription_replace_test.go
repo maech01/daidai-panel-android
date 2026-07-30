@@ -1,1 +1,76 @@
-cGFja2FnZSBzZXJ2aWNlCgppbXBvcnQgKAoJImNvbnRleHQiCgkib3MiCgkib3MvZXhlYyIKCSJwYXRoL2ZpbGVwYXRoIgoJInN0cmluZ3MiCgkidGVzdGluZyIKCgkiZGFpZGFpLXBhbmVsL2NvbmZpZyIKCSJkYWlkYWktcGFuZWwvbW9kZWwiCgkiZGFpZGFpLXBhbmVsL3Rlc3R1dGlsIgopCgpmdW5jIHJ1bkdpdCh0ICp0ZXN0aW5nLlQsIGRpciBzdHJpbmcsIGFyZ3MgLi4uc3RyaW5nKSBzdHJpbmcgewoJdC5IZWxwZXIoKQoKCWNtZCA6PSBleGVjLkNvbW1hbmQoImdpdCIsIGFyZ3MuLi4pCgljbWQuRGlyID0gZGlyCglvdXRwdXQsIGVyciA6PSBjbWQuQ29tYmluZWRPdXRwdXQoKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImdpdCAlcyBmYWlsZWQ6ICV2XG4lcyIsIHN0cmluZ3MuSm9pbihhcmdzLCAiICIpLCBlcnIsIHN0cmluZyhvdXRwdXQpKQoJfQoJcmV0dXJuIHN0cmluZyhvdXRwdXQpCn0KCmZ1bmMgVGVzdFB1bGxHaXRSZXBvV2l0aENhbGxiYWNrQ29udmVydHNFeGlzdGluZ05vbkdpdERpcmVjdG9yeUluUGxhY2UodCAqdGVzdGluZy5UKSB7Cglyb290IDo9IHRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoJcmVtb3RlRGlyIDo9IGZpbGVwYXRoLkpvaW4ocm9vdCwgInJlbW90ZS5naXQiKQoJd29ya3RyZWVEaXIgOj0gZmlsZXBhdGguSm9pbihyb290LCAid29ya3RyZWUiKQoKCXJ1bkdpdCh0LCByb290LCAiaW5pdCIsICItLWJhcmUiLCByZW1vdGVEaXIpCglydW5HaXQodCwgcm9vdCwgImNsb25lIiwgcmVtb3RlRGlyLCB3b3JrdHJlZURpcikKCglpZiBlcnIgOj0gb3MuV3JpdGVGaWxlKGZpbGVwYXRoLkpvaW4od29ya3RyZWVEaXIsICJyZXBvLmpzIiksIFtdYnl0ZSgiY29uc29sZS5sb2coJ3JlcG8nKSIpLCAwNjQ0KTsgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoIndyaXRlIHJlcG8gZmlsZTogJXYiLCBlcnIpCgl9CglydW5HaXQodCwgd29ya3RyZWVEaXIsICJhZGQiLCAicmVwby5qcyIpCglydW5HaXQodCwgd29ya3RyZWVEaXIsICItYyIsICJ1c2VyLm5hbWU9VGVzdCBVc2VyIiwgIi1jIiwgInVzZXIuZW1haWw9dGVzdEBleGFtcGxlLmNvbSIsICJjb21taXQiLCAiLW0iLCAiaW5pdCIpCglydW5HaXQodCwgd29ya3RyZWVEaXIsICJwdXNoIiwgIm9yaWdpbiIsICJIRUFEOm1haW4iKQoKCXN1YiA6PSAmbW9kZWwuU3Vic2NyaXB0aW9uewoJCU5hbWU6ICAgICJkZW1vLXN1YiIsCgkJVHlwZTogICAgbW9kZWwuU3ViVHlwZUdpdFJlcG8sCgkJVVJMOiAgICAgcmVtb3RlRGlyLAoJCUJyYW5jaDogICJtYWluIiwKCQlTYXZlRGlyOiAiZGVtby1yZXBvIiwKCX0KCWRlc3REaXIgOj0gZmlsZXBhdGguSm9pbihjb25maWcuQy5EYXRhLlNjcmlwdHNEaXIsIHN1Yi5TYXZlRGlyKQoJaWYgZXJyIDo9IG9zLk1rZGlyQWxsKGRlc3REaXIsIDA3NTUpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigiY3JlYXRlIGRlc3QgZGlyOiAldiIsIGVycikKCX0KCWlmIGVyciA6PSBvcy5Xcml0ZUZpbGUoZmlsZXBhdGguSm9pbihkZXN0RGlyLCAib2xkLmpzIiksIFtdYnl0ZSgib2xkIiksIDA2NDQpOyBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigid3JpdGUgb2xkIGZpbGU6ICV2IiwgZXJyKQoJfQoKCWF1dGhDZmcsIGVyciA6PSBidWlsZEdpdEF1dGhDb25maWcob3MuRW52aXJvbigpLCBzdWIuVVJMLCBzdWIsICIiKQoJaWYgZXJyICE9IG5pbCB7CgkJdC5GYXRhbGYoImJ1aWxkIGdpdCBhdXRoIGNvbmZpZzogJXYiLCBlcnIpCgl9CglvdXRwdXQsIGVyciA6PSBwdWxsR2l0UmVwb1dpdGhDYWxsYmFjayhjb250ZXh0LkJhY2tncm91bmQoKSwgc3ViLCBhdXRoQ2ZnLCBmdW5jKHN0cmluZykge30pCglpZiBlcnIgIT0gbmlsIHsKCQl0LkZhdGFsZigicHVsbCBnaXQgcmVwbyB3aXRoIGV4aXN0aW5nIGRpcjogJXZcbiVzIiwgZXJyLCBvdXRwdXQpCgl9CgoJaWYgIUlzR2l0UmVwbyhkZXN0RGlyKSB7CgkJdC5GYXRhbGYoImV4cGVjdGVkICVzIHRvIGJlY29tZSBhIGdpdCByZXBvIiwgZGVzdERpcikKCX0KCWlmIF8sIGVyciA6PSBvcy5TdGF0KGZpbGVwYXRoLkpvaW4oZGVzdERpciwgInJlcG8uanMiKSk7IGVyciAhPSBuaWwgewoJCXQuRmF0YWxmKCJleHBlY3RlZCByZXBvIGZpbGUgdG8gZXhpc3QgYWZ0ZXIgcHVsbDogJXYiLCBlcnIpCgl9CglpZiBfLCBlcnIgOj0gb3MuU3RhdChmaWxlcGF0aC5Kb2luKGRlc3REaXIsICJvbGQuanMiKSk7ICFvcy5Jc05vdEV4aXN0KGVycikgewoJCXQuRmF0YWxmKCJleHBlY3RlZCBvbGQgZmlsZSB0byBiZSBjbGVhbmVkLCBnb3QgZXJyPSV2IiwgZXJyKQoJfQp9Cg==
+package service
+
+import (
+	"context"
+	"os"
+	"os/exec"
+	"path/filepath"
+	"strings"
+	"testing"
+
+	"daidai-panel/config"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func runGit(t *testing.T, dir string, args ...string) string {
+	t.Helper()
+
+	cmd := exec.Command("git", args...)
+	cmd.Dir = dir
+	output, err := cmd.CombinedOutput()
+	if err != nil {
+		t.Fatalf("git %s failed: %v\n%s", strings.Join(args, " "), err, string(output))
+	}
+	return string(output)
+}
+
+func TestPullGitRepoWithCallbackConvertsExistingNonGitDirectoryInPlace(t *testing.T) {
+	root := testutil.SetupTestEnv(t)
+	remoteDir := filepath.Join(root, "remote.git")
+	worktreeDir := filepath.Join(root, "worktree")
+
+	runGit(t, root, "init", "--bare", remoteDir)
+	runGit(t, root, "clone", remoteDir, worktreeDir)
+
+	if err := os.WriteFile(filepath.Join(worktreeDir, "repo.js"), []byte("console.log('repo')"), 0644); err != nil {
+		t.Fatalf("write repo file: %v", err)
+	}
+	runGit(t, worktreeDir, "add", "repo.js")
+	runGit(t, worktreeDir, "-c", "user.name=Test User", "-c", "user.email=test@example.com", "commit", "-m", "init")
+	runGit(t, worktreeDir, "push", "origin", "HEAD:main")
+
+	sub := &model.Subscription{
+		Name:    "demo-sub",
+		Type:    model.SubTypeGitRepo,
+		URL:     remoteDir,
+		Branch:  "main",
+		SaveDir: "demo-repo",
+	}
+	destDir := filepath.Join(config.C.Data.ScriptsDir, sub.SaveDir)
+	if err := os.MkdirAll(destDir, 0755); err != nil {
+		t.Fatalf("create dest dir: %v", err)
+	}
+	if err := os.WriteFile(filepath.Join(destDir, "old.js"), []byte("old"), 0644); err != nil {
+		t.Fatalf("write old file: %v", err)
+	}
+
+	authCfg, err := buildGitAuthConfig(os.Environ(), sub.URL, sub, "")
+	if err != nil {
+		t.Fatalf("build git auth config: %v", err)
+	}
+	output, err := pullGitRepoWithCallback(context.Background(), sub, authCfg, func(string) {})
+	if err != nil {
+		t.Fatalf("pull git repo with existing dir: %v\n%s", err, output)
+	}
+
+	if !IsGitRepo(destDir) {
+		t.Fatalf("expected %s to become a git repo", destDir)
+	}
+	if _, err := os.Stat(filepath.Join(destDir, "repo.js")); err != nil {
+		t.Fatalf("expected repo file to exist after pull: %v", err)
+	}
+	if _, err := os.Stat(filepath.Join(destDir, "old.js")); !os.IsNotExist(err) {
+		t.Fatalf("expected old file to be cleaned, got err=%v", err)
+	}
+}

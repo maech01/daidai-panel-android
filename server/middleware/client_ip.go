@@ -1,1 +1,143 @@
-cGFja2FnZSBtaWRkbGV3YXJlCgppbXBvcnQgKAoJIm5ldCIKCSJuZXQvaHR0cCIKCSJzdHJpbmdzIgoKCSJnaXRodWIuY29tL2dpbi1nb25pYy9naW4iCikKCnZhciBmb3J3YXJkZWRJUEhlYWRlcnMgPSBbXXN0cmluZ3sKCSJDRi1Db25uZWN0aW5nLUlQIiwKCSJUcnVlLUNsaWVudC1JUCIsCgkiWC1Gb3J3YXJkZWQtRm9yIiwKCSJYLVJlYWwtSVAiLAoJIlgtT3JpZ2luYWwtRm9yd2FyZGVkLUZvciIsCn0KCmZ1bmMgUmVzb2x2ZUNsaWVudElQKGMgKmdpbi5Db250ZXh0KSBzdHJpbmcgewoJcmV0dXJuIFJlc29sdmVDbGllbnRJUEZyb21SZXF1ZXN0KGMuUmVxdWVzdCkKfQoKZnVuYyBSZXNvbHZlQ2xpZW50SVBGcm9tUmVxdWVzdChyICpodHRwLlJlcXVlc3QpIHN0cmluZyB7CglyZW1vdGVJUCA6PSBub3JtYWxpemVJUFN0cmluZyhyLlJlbW90ZUFkZHIpCglmb3J3YXJkZWRJUCA6PSBleHRyYWN0Rm9yd2FyZGVkQ2xpZW50SVAoci5IZWFkZXIpCgoJaWYgaXNUcnVzdGVkUHJveHlIb3AocmVtb3RlSVApICYmIGZvcndhcmRlZElQICE9ICIiIHsKCQlyZXR1cm4gZm9yd2FyZGVkSVAKCX0KCWlmIHJlbW90ZUlQICE9ICIiIHsKCQlyZXR1cm4gcmVtb3RlSVAKCX0KCWlmIGZvcndhcmRlZElQICE9ICIiIHsKCQlyZXR1cm4gZm9yd2FyZGVkSVAKCX0KCXJldHVybiAiIgp9CgpmdW5jIGV4dHJhY3RGb3J3YXJkZWRDbGllbnRJUChoZWFkZXJzIGh0dHAuSGVhZGVyKSBzdHJpbmcgewoJZm9yIF8sIGhlYWRlck5hbWUgOj0gcmFuZ2UgZm9yd2FyZGVkSVBIZWFkZXJzIHsKCQlyYXcgOj0gc3RyaW5ncy5UcmltU3BhY2UoaGVhZGVycy5HZXQoaGVhZGVyTmFtZSkpCgkJaWYgcmF3ID09ICIiIHsKCQkJY29udGludWUKCQl9CgoJCXN3aXRjaCBoZWFkZXJOYW1lIHsKCQljYXNlICJYLUZvcndhcmRlZC1Gb3IiLCAiWC1PcmlnaW5hbC1Gb3J3YXJkZWQtRm9yIjoKCQkJaWYgaXAgOj0gbGFzdFVudHJ1c3RlZEZvcndhcmRlZElQKHJhdyk7IGlwICE9ICIiIHsKCQkJCXJldHVybiBpcAoJCQl9CgkJZGVmYXVsdDoKCQkJaWYgaXAgOj0gbm9ybWFsaXplSVBTdHJpbmcocmF3KTsgaXAgIT0gIiIgewoJCQkJcmV0dXJuIGlwCgkJCX0KCQl9Cgl9CgoJcmV0dXJuICIiCn0KCmZ1bmMgbGFzdFVudHJ1c3RlZEZvcndhcmRlZElQKHJhdyBzdHJpbmcpIHN0cmluZyB7Cgl2YXIgZmFsbGJhY2sgc3RyaW5nCglwYXJ0cyA6PSBzdHJpbmdzLlNwbGl0KHJhdywgIiwiKQoJZm9yIGkgOj0gbGVuKHBhcnRzKSAtIDE7IGkgPj0gMDsgaS0tIHsKCQlpcCA6PSBub3JtYWxpemVJUFN0cmluZyhwYXJ0c1tpXSkKCQlpZiBpcCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoJCWZhbGxiYWNrID0gaXAKCgkJcGFyc2VkIDo9IG5ldC5QYXJzZUlQKGlwKQoJCWlmIHBhcnNlZCA9PSBuaWwgfHwgaXNDb25maWd1cmVkVHJ1c3RlZFByb3h5KHBhcnNlZCkgewoJCQljb250aW51ZQoJCX0KCQlyZXR1cm4gaXAKCX0KCglyZXR1cm4gZmFsbGJhY2sKfQoKZnVuYyBmaXJzdFB1YmxpY0lQKHJhdyBzdHJpbmcpIHN0cmluZyB7Cglmb3IgXywgcGFydCA6PSByYW5nZSBzdHJpbmdzLlNwbGl0KHJhdywgIiwiKSB7CgkJaXAgOj0gbm9ybWFsaXplSVBTdHJpbmcocGFydCkKCQlpZiBpcCA9PSAiIiB7CgkJCWNvbnRpbnVlCgkJfQoKCQlwYXJzZWQgOj0gbmV0LlBhcnNlSVAoaXApCgkJaWYgcGFyc2VkID09IG5pbCB8fCBpc1ByaXZhdGVPckxvY2FsSVAocGFyc2VkKSB7CgkJCWNvbnRpbnVlCgkJfQoJCXJldHVybiBpcAoJfQoKCXJldHVybiAiIgp9CgpmdW5jIGZpcnN0VmFsaWRJUChyYXcgc3RyaW5nKSBzdHJpbmcgewoJZm9yIF8sIHBhcnQgOj0gcmFuZ2Ugc3RyaW5ncy5TcGxpdChyYXcsICIsIikgewoJCWlmIGlwIDo9IG5vcm1hbGl6ZUlQU3RyaW5nKHBhcnQpOyBpcCAhPSAiIiB7CgkJCXJldHVybiBpcAoJCX0KCX0KCXJldHVybiAiIgp9CgpmdW5jIG5vcm1hbGl6ZUlQU3RyaW5nKHZhbHVlIHN0cmluZykgc3RyaW5nIHsKCXZhbHVlID0gc3RyaW5ncy5UcmltU3BhY2UodmFsdWUpCglpZiB2YWx1ZSA9PSAiIiB7CgkJcmV0dXJuICIiCgl9CgoJaWYgaG9zdCwgXywgZXJyIDo9IG5ldC5TcGxpdEhvc3RQb3J0KHZhbHVlKTsgZXJyID09IG5pbCB7CgkJdmFsdWUgPSBob3N0Cgl9CgoJdmFsdWUgPSBzdHJpbmdzLlRyaW1QcmVmaXgodmFsdWUsICJbIikKCXZhbHVlID0gc3RyaW5ncy5UcmltU3VmZml4KHZhbHVlLCAiXSIpCgoJaXAgOj0gbmV0LlBhcnNlSVAodmFsdWUpCglpZiBpcCA9PSBuaWwgewoJCXJldHVybiAiIgoJfQoKCXJldHVybiBpcC5TdHJpbmcoKQp9CgpmdW5jIGlzVHJ1c3RlZFByb3h5SG9wKGlwIHN0cmluZykgYm9vbCB7CglpZiBpcCA9PSAiIiB7CgkJcmV0dXJuIHRydWUKCX0KCglwYXJzZWQgOj0gbmV0LlBhcnNlSVAoaXApCglpZiBwYXJzZWQgPT0gbmlsIHsKCQlyZXR1cm4gZmFsc2UKCX0KCglyZXR1cm4gaXNDb25maWd1cmVkVHJ1c3RlZFByb3h5KHBhcnNlZCkKfQoKZnVuYyBpc1ByaXZhdGVPckxvY2FsSVAoaXAgbmV0LklQKSBib29sIHsKCXJldHVybiBpcC5Jc1ByaXZhdGUoKSB8fCBpcC5Jc0xvb3BiYWNrKCkgfHwgaXAuSXNMaW5rTG9jYWxVbmljYXN0KCkgfHwgaXAuSXNMaW5rTG9jYWxNdWx0aWNhc3QoKSB8fCBpcC5Jc1Vuc3BlY2lmaWVkKCkKfQo=
+package middleware
+
+import (
+	"net"
+	"net/http"
+	"strings"
+
+	"github.com/gin-gonic/gin"
+)
+
+var forwardedIPHeaders = []string{
+	"CF-Connecting-IP",
+	"True-Client-IP",
+	"X-Forwarded-For",
+	"X-Real-IP",
+	"X-Original-Forwarded-For",
+}
+
+func ResolveClientIP(c *gin.Context) string {
+	return ResolveClientIPFromRequest(c.Request)
+}
+
+func ResolveClientIPFromRequest(r *http.Request) string {
+	remoteIP := normalizeIPString(r.RemoteAddr)
+	forwardedIP := extractForwardedClientIP(r.Header)
+
+	if isTrustedProxyHop(remoteIP) && forwardedIP != "" {
+		return forwardedIP
+	}
+	if remoteIP != "" {
+		return remoteIP
+	}
+	if forwardedIP != "" {
+		return forwardedIP
+	}
+	return ""
+}
+
+func extractForwardedClientIP(headers http.Header) string {
+	for _, headerName := range forwardedIPHeaders {
+		raw := strings.TrimSpace(headers.Get(headerName))
+		if raw == "" {
+			continue
+		}
+
+		switch headerName {
+		case "X-Forwarded-For", "X-Original-Forwarded-For":
+			if ip := lastUntrustedForwardedIP(raw); ip != "" {
+				return ip
+			}
+		default:
+			if ip := normalizeIPString(raw); ip != "" {
+				return ip
+			}
+		}
+	}
+
+	return ""
+}
+
+func lastUntrustedForwardedIP(raw string) string {
+	var fallback string
+	parts := strings.Split(raw, ",")
+	for i := len(parts) - 1; i >= 0; i-- {
+		ip := normalizeIPString(parts[i])
+		if ip == "" {
+			continue
+		}
+		fallback = ip
+
+		parsed := net.ParseIP(ip)
+		if parsed == nil || isConfiguredTrustedProxy(parsed) {
+			continue
+		}
+		return ip
+	}
+
+	return fallback
+}
+
+func firstPublicIP(raw string) string {
+	for _, part := range strings.Split(raw, ",") {
+		ip := normalizeIPString(part)
+		if ip == "" {
+			continue
+		}
+
+		parsed := net.ParseIP(ip)
+		if parsed == nil || isPrivateOrLocalIP(parsed) {
+			continue
+		}
+		return ip
+	}
+
+	return ""
+}
+
+func firstValidIP(raw string) string {
+	for _, part := range strings.Split(raw, ",") {
+		if ip := normalizeIPString(part); ip != "" {
+			return ip
+		}
+	}
+	return ""
+}
+
+func normalizeIPString(value string) string {
+	value = strings.TrimSpace(value)
+	if value == "" {
+		return ""
+	}
+
+	if host, _, err := net.SplitHostPort(value); err == nil {
+		value = host
+	}
+
+	value = strings.TrimPrefix(value, "[")
+	value = strings.TrimSuffix(value, "]")
+
+	ip := net.ParseIP(value)
+	if ip == nil {
+		return ""
+	}
+
+	return ip.String()
+}
+
+func isTrustedProxyHop(ip string) bool {
+	if ip == "" {
+		return true
+	}
+
+	parsed := net.ParseIP(ip)
+	if parsed == nil {
+		return false
+	}
+
+	return isConfiguredTrustedProxy(parsed)
+}
+
+func isPrivateOrLocalIP(ip net.IP) bool {
+	return ip.IsPrivate() || ip.IsLoopback() || ip.IsLinkLocalUnicast() || ip.IsLinkLocalMulticast() || ip.IsUnspecified()
+}

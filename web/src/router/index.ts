@@ -1,1 +1,320 @@
-aW1wb3J0IHsgY3JlYXRlUm91dGVyLCBjcmVhdGVXZWJIaXN0b3J5IH0gZnJvbSAndnVlLXJvdXRlcicKaW1wb3J0IHsgdXNlQXV0aFN0b3JlIH0gZnJvbSAnQC9zdG9yZXMvYXV0aCcKaW1wb3J0IHsgZ2V0Q2FjaGVkUGFuZWxUaXRsZSwgbG9hZFBhbmVsU2V0dGluZ3MgfSBmcm9tICdAL3V0aWxzL3BhbmVsU2V0dGluZ3MnCgpjb25zdCByb2xlTGV2ZWw6IFJlY29yZDxzdHJpbmcsIG51bWJlcj4gPSB7CiAgdmlld2VyOiAxLAogIG9wZXJhdG9yOiAyLAogIGFkbWluOiAzLAp9CgpmdW5jdGlvbiBoYXNSZXF1aXJlZFJvbGUocm9sZTogc3RyaW5nIHwgdW5kZWZpbmVkLCBtaW5Sb2xlOiBzdHJpbmcgfCB1bmRlZmluZWQpIHsKICBpZiAoIW1pblJvbGUpIHJldHVybiB0cnVlCiAgaWYgKCFyb2xlKSByZXR1cm4gZmFsc2UKICByZXR1cm4gKHJvbGVMZXZlbFtyb2xlXSB8fCAwKSA+PSAocm9sZUxldmVsW21pblJvbGVdIHx8IDApCn0KCmNvbnN0IGxlZ2FjeVJvdXRlTWFwOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0gewogICcvbm90aWZpY2F0aW9ucyc6ICcvYWRtaW4vbm90aWZpY2F0aW9ucycsCiAgJy91c2Vycyc6ICcvYWRtaW4vdXNlcnMnLAogICcvb3Blbi1hcGknOiAnL2FkbWluL29wZW4tYXBpJywKICAnL2FkbWluL2RlcHMnOiAnL2RlcHMnLAogICcvYXBpLWRvY3MnOiAnL2RvY3MvYXBpJywKfQoKY29uc3Qgcm91dGVDb21wb25lbnRzID0gewogIGxvZ2luOiAoKSA9PiBpbXBvcnQoJ0Avdmlld3MvbG9naW4vaW5kZXgudnVlJyksCiAgbGF5b3V0OiAoKSA9PiBpbXBvcnQoJ0AvbGF5b3V0cy9NYWluTGF5b3V0LnZ1ZScpLAogIGRhc2hib2FyZDogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL2Rhc2hib2FyZC9pbmRleC52dWUnKSwKICB0YXNrczogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL3Rhc2tzL2luZGV4LnZ1ZScpLAogIHNjcmlwdHM6ICgpID0+IGltcG9ydCgnQC92aWV3cy9zY3JpcHRzL2luZGV4LnZ1ZScpLAogIGVudnM6ICgpID0+IGltcG9ydCgnQC92aWV3cy9lbnZzL2luZGV4LnZ1ZScpLAogIGNvbmZpZ0ZpbGU6ICgpID0+IGltcG9ydCgnQC92aWV3cy9jb25maWctZmlsZS9pbmRleC52dWUnKSwKICBzdWJzY3JpcHRpb25zOiAoKSA9PiBpbXBvcnQoJ0Avdmlld3Mvc3Vic2NyaXB0aW9ucy9pbmRleC52dWUnKSwKICBsb2dzOiAoKSA9PiBpbXBvcnQoJ0Avdmlld3MvbG9ncy9pbmRleC52dWUnKSwKICBkZXBzOiAoKSA9PiBpbXBvcnQoJ0Avdmlld3MvZGVwcy9pbmRleC52dWUnKSwKICBub3RpZmljYXRpb25zOiAoKSA9PiBpbXBvcnQoJ0Avdmlld3Mvbm90aWZpY2F0aW9ucy9pbmRleC52dWUnKSwKICB1c2VyczogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL3VzZXJzL2luZGV4LnZ1ZScpLAogIHByb2ZpbGU6ICgpID0+IGltcG9ydCgnQC92aWV3cy9wcm9maWxlL2luZGV4LnZ1ZScpLAogIGFwaURvY3M6ICgpID0+IGltcG9ydCgnQC92aWV3cy9hcGktZG9jcy9pbmRleC52dWUnKSwKICBzZXR0aW5nczogKCkgPT4gaW1wb3J0KCdAL3ZpZXdzL3NldHRpbmdzL2luZGV4LnZ1ZScpLAogIG9wZW5BcGk6ICgpID0+IGltcG9ydCgnQC92aWV3cy9vcGVuLWFwaS9pbmRleC52dWUnKSwKfQoKY29uc3Qgcm91dGVQcmVsb2FkZXJzOiBSZWNvcmQ8c3RyaW5nLCAoKSA9PiBQcm9taXNlPHVua25vd24+PiA9IHsKICAnL2Rhc2hib2FyZCc6IHJvdXRlQ29tcG9uZW50cy5kYXNoYm9hcmQsCiAgJy90YXNrcyc6IHJvdXRlQ29tcG9uZW50cy50YXNrcywKICAnL3NjcmlwdHMnOiByb3V0ZUNvbXBvbmVudHMuc2NyaXB0cywKICAnL2VudnMnOiByb3V0ZUNvbXBvbmVudHMuZW52cywKICAnL2NvbmZpZy1maWxlJzogcm91dGVDb21wb25lbnRzLmNvbmZpZ0ZpbGUsCiAgJy9zdWJzY3JpcHRpb25zJzogcm91dGVDb21wb25lbnRzLnN1YnNjcmlwdGlvbnMsCiAgJy9sb2dzJzogcm91dGVDb21wb25lbnRzLmxvZ3MsCiAgJy9kZXBzJzogcm91dGVDb21wb25lbnRzLmRlcHMsCiAgJy9ub3RpZmljYXRpb25zJzogcm91dGVDb21wb25lbnRzLm5vdGlmaWNhdGlvbnMsCiAgJy91c2Vycyc6IHJvdXRlQ29tcG9uZW50cy51c2VycywKICAnL3Byb2ZpbGUnOiByb3V0ZUNvbXBvbmVudHMucHJvZmlsZSwKICAnL2RvY3MvYXBpJzogcm91dGVDb21wb25lbnRzLmFwaURvY3MsCiAgJy9hZG1pbi9zZXR0aW5ncyc6IHJvdXRlQ29tcG9uZW50cy5zZXR0aW5ncywKICAnL2FkbWluL25vdGlmaWNhdGlvbnMnOiByb3V0ZUNvbXBvbmVudHMubm90aWZpY2F0aW9ucywKICAnL2FkbWluL3VzZXJzJzogcm91dGVDb21wb25lbnRzLnVzZXJzLAogICcvYWRtaW4vb3Blbi1hcGknOiByb3V0ZUNvbXBvbmVudHMub3BlbkFwaSwKfQoKY29uc3QgcHJlbG9hZGVkUm91dGVzID0gbmV3IFNldDxzdHJpbmc+KCkKCmZ1bmN0aW9uIG5vcm1hbGl6ZVByZWxvYWRQYXRoKHBhdGg6IHN0cmluZykgewogIGNvbnN0IGNsZWFuID0gcGF0aC5zcGxpdCgvWz8jXS8pWzBdIHx8ICcvJwogIHJldHVybiBjbGVhbi5sZW5ndGggPiAxID8gY2xlYW4ucmVwbGFjZSgvXC8kLywgJycpIDogY2xlYW4KfQoKZXhwb3J0IGZ1bmN0aW9uIHByZWxvYWRSb3V0ZUJ5UGF0aChwYXRoOiBzdHJpbmcpIHsKICBjb25zdCBub3JtYWxpemVkUGF0aCA9IG5vcm1hbGl6ZVByZWxvYWRQYXRoKHBhdGgpCiAgY29uc3QgbG9hZGVyID0gcm91dGVQcmVsb2FkZXJzW25vcm1hbGl6ZWRQYXRoXQogIGlmICghbG9hZGVyIHx8IHByZWxvYWRlZFJvdXRlcy5oYXMobm9ybWFsaXplZFBhdGgpKSByZXR1cm4gUHJvbWlzZS5yZXNvbHZlKCkKCiAgcHJlbG9hZGVkUm91dGVzLmFkZChub3JtYWxpemVkUGF0aCkKICByZXR1cm4gbG9hZGVyKCkuY2F0Y2goKGVycm9yKSA9PiB7CiAgICAvLyDpooTliqDovb3lpLHotKXkuI3og73lvbHlk43nlKjmiLfmraPluLjliIfpobXvvJvkuIvmrKHngrnlh7vml7blhYHorrjph43mlrDotbAgVnVlIFJvdXRlciDnmoTmh5LliqDovb3jgIIKICAgIHByZWxvYWRlZFJvdXRlcy5kZWxldGUobm9ybWFsaXplZFBhdGgpCiAgICBjb25zb2xlLndhcm4oJ+mhtemdoumihOWKoOi9veWksei0pScsIG5vcm1hbGl6ZWRQYXRoLCBlcnJvcikKICB9KQp9CgpleHBvcnQgZnVuY3Rpb24gcHJlbG9hZFBhbmVsUm91dGVzKHBhdGhzOiBzdHJpbmdbXSkgewogIGlmICh0eXBlb2Ygd2luZG93ID09PSAndW5kZWZpbmVkJykgcmV0dXJuCgogIGNvbnN0IHF1ZXVlID0gWy4uLm5ldyBTZXQocGF0aHMubWFwKG5vcm1hbGl6ZVByZWxvYWRQYXRoKSldCiAgICAuZmlsdGVyKChwYXRoKSA9PiByb3V0ZVByZWxvYWRlcnNbcGF0aF0gJiYgIXByZWxvYWRlZFJvdXRlcy5oYXMocGF0aCkpCgogIGNvbnN0IHNjaGVkdWxlTmV4dCA9ICgpID0+IHsKICAgIGlmIChxdWV1ZS5sZW5ndGggPT09IDApIHJldHVybgoKICAgIGNvbnN0IGlkbGVXaW5kb3cgPSB3aW5kb3cgYXMgV2luZG93ICYgewogICAgICByZXF1ZXN0SWRsZUNhbGxiYWNrPzogKAogICAgICAgIGNhbGxiYWNrOiAoZGVhZGxpbmU6IHsgdGltZVJlbWFpbmluZzogKCkgPT4gbnVtYmVyOyBkaWRUaW1lb3V0PzogYm9vbGVhbiB9KSA9PiB2b2lkLAogICAgICAgIG9wdGlvbnM/OiB7IHRpbWVvdXQ6IG51bWJlciB9LAogICAgICApID0+IG51bWJlcgogICAgfQoKICAgIGNvbnN0IHJ1biA9IChkZWFkbGluZT86IHsgdGltZVJlbWFpbmluZzogKCkgPT4gbnVtYmVyOyBkaWRUaW1lb3V0PzogYm9vbGVhbiB9KSA9PiB7CiAgICAgIC8vIOavj+S4quepuumXsueJh+auteWPqumihOWKoOi9veWwkemHj+mhtemdou+8jOmBv+WFjeWQjuWPsOS4i+i9vS/op6PmnpAgY2h1bmsg5Y+N6L+H5p2l5oqi5Y2g5YiH6aG15Li757q/56iL44CCCiAgICAgIGxldCBjb3VudCA9IDAKICAgICAgLy8gcmVxdWVzdElkbGVDYWxsYmFjayDotoXml7bop6blj5Hml7YgdGltZVJlbWFpbmluZyDlj6/og73kuLogMO+8m+atpOaXtuiHs+WwkeaOqOi/m+S4gOWwj+aJue+8jOmBv+WFjemYn+WIl+S4gOebtOepuui9rOOAggogICAgICBjb25zdCBzaG91bGRGb3JjZVJ1biA9ICFkZWFkbGluZSB8fCBkZWFkbGluZS5kaWRUaW1lb3V0CiAgICAgIHdoaWxlIChxdWV1ZS5sZW5ndGggPiAwICYmIGNvdW50IDwgMiAmJiAoc2hvdWxkRm9yY2VSdW4gfHwgZGVhZGxpbmUudGltZVJlbWFpbmluZygpID4gOCkpIHsKICAgICAgICB2b2lkIHByZWxvYWRSb3V0ZUJ5UGF0aChxdWV1ZS5zaGlmdCgpISkKICAgICAgICBjb3VudCArPSAxCiAgICAgIH0KICAgICAgaWYgKHF1ZXVlLmxlbmd0aCA+IDApIHNjaGVkdWxlTmV4dCgpCiAgICB9CgogICAgaWYgKGlkbGVXaW5kb3cucmVxdWVzdElkbGVDYWxsYmFjaykgewogICAgICBpZGxlV2luZG93LnJlcXVlc3RJZGxlQ2FsbGJhY2socnVuLCB7IHRpbWVvdXQ6IDE4MDAgfSkKICAgICAgcmV0dXJuCiAgICB9CgogICAgd2luZG93LnNldFRpbWVvdXQoKCkgPT4gcnVuKCksIDUwMCkKICB9CgogIHNjaGVkdWxlTmV4dCgpCn0KCmNvbnN0IHJvdXRlciA9IGNyZWF0ZVJvdXRlcih7CiAgaGlzdG9yeTogY3JlYXRlV2ViSGlzdG9yeSgpLAogIHJvdXRlczogWwogICAgewogICAgICBwYXRoOiAnL2xvZ2luJywKICAgICAgbmFtZTogJ0xvZ2luJywKICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMubG9naW4sCiAgICAgIG1ldGE6IHsgcmVxdWlyZXNBdXRoOiBmYWxzZSB9CiAgICB9LAogICAgewogICAgICBwYXRoOiAnLycsCiAgICAgIGNvbXBvbmVudDogcm91dGVDb21wb25lbnRzLmxheW91dCwKICAgICAgbWV0YTogeyByZXF1aXJlc0F1dGg6IHRydWUsIHNlY3Rpb246ICd3b3Jrc3BhY2UnIH0sCiAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgewogICAgICAgICAgcGF0aDogJycsCiAgICAgICAgICByZWRpcmVjdDogJy9kYXNoYm9hcmQnCiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAnZGFzaGJvYXJkJywKICAgICAgICAgIG5hbWU6ICdEYXNoYm9hcmQnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMuZGFzaGJvYXJkLAogICAgICAgICAgbWV0YTogeyB0aXRsZTogJ+S7quihqOadvycsIGljb246ICdPZG9tZXRlcicsIG1pblJvbGU6ICd2aWV3ZXInIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICd0YXNrcycsCiAgICAgICAgICBuYW1lOiAnVGFza3MnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMudGFza3MsCiAgICAgICAgICBtZXRhOiB7IHRpdGxlOiAn5a6a5pe25Lu75YqhJywgaWNvbjogJ1RpbWVyJywgbWluUm9sZTogJ3ZpZXdlcicgfQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogJ3NjcmlwdHMnLAogICAgICAgICAgbmFtZTogJ1NjcmlwdHMnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMuc2NyaXB0cywKICAgICAgICAgIG1ldGE6IHsgdGl0bGU6ICfohJrmnKznrqHnkIYnLCBpY29uOiAnRG9jdW1lbnQnLCBtaW5Sb2xlOiAnb3BlcmF0b3InIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdlbnZzJywKICAgICAgICAgIG5hbWU6ICdFbnZzJywKICAgICAgICAgIGNvbXBvbmVudDogcm91dGVDb21wb25lbnRzLmVudnMsCiAgICAgICAgICBtZXRhOiB7IHRpdGxlOiAn546v5aKD5Y+Y6YePJywgaWNvbjogJ1NldHRpbmcnLCBtaW5Sb2xlOiAnb3BlcmF0b3InIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdjb25maWctZmlsZScsCiAgICAgICAgICBuYW1lOiAnQ29uZmlnRmlsZScsCiAgICAgICAgICBjb21wb25lbnQ6IHJvdXRlQ29tcG9uZW50cy5jb25maWdGaWxlLAogICAgICAgICAgbWV0YTogeyB0aXRsZTogJ+mFjee9ruaWh+S7ticsIGljb246ICdEb2N1bWVudCcsIG1pblJvbGU6ICdhZG1pbicgfQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogJ3N1YnNjcmlwdGlvbnMnLAogICAgICAgICAgbmFtZTogJ1N1YnNjcmlwdGlvbnMnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMuc3Vic2NyaXB0aW9ucywKICAgICAgICAgIG1ldGE6IHsgdGl0bGU6ICforqLpmIXnrqHnkIYnLCBpY29uOiAnRG93bmxvYWQnLCBtaW5Sb2xlOiAnb3BlcmF0b3InIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdsb2dzJywKICAgICAgICAgIG5hbWU6ICdMb2dzJywKICAgICAgICAgIGNvbXBvbmVudDogcm91dGVDb21wb25lbnRzLmxvZ3MsCiAgICAgICAgICBtZXRhOiB7IHRpdGxlOiAn5omn6KGM5pel5b+XJywgaWNvbjogJ1RpY2tldHMnLCBtaW5Sb2xlOiAndmlld2VyJyB9CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAnZGVwcycsCiAgICAgICAgICBuYW1lOiAnRGVwcycsCiAgICAgICAgICBjb21wb25lbnQ6IHJvdXRlQ29tcG9uZW50cy5kZXBzLAogICAgICAgICAgbWV0YTogeyB0aXRsZTogJ+S+nei1lueuoeeQhicsIGljb246ICdCb3gnLCBtaW5Sb2xlOiAnYWRtaW4nIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdub3RpZmljYXRpb25zJywKICAgICAgICAgIG5hbWU6ICdOb3RpZmljYXRpb25zJywKICAgICAgICAgIGNvbXBvbmVudDogcm91dGVDb21wb25lbnRzLm5vdGlmaWNhdGlvbnMsCiAgICAgICAgICBtZXRhOiB7IHRpdGxlOiAn6YCa55+l5rig6YGTJywgaWNvbjogJ0JlbGwnLCBtaW5Sb2xlOiAnYWRtaW4nIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICd1c2VycycsCiAgICAgICAgICBuYW1lOiAnVXNlcnMnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMudXNlcnMsCiAgICAgICAgICBtZXRhOiB7IHRpdGxlOiAn55So5oi3566h55CGJywgaWNvbjogJ1VzZXJGaWxsZWQnLCBtaW5Sb2xlOiAnYWRtaW4nIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdwcm9maWxlJywKICAgICAgICAgIG5hbWU6ICdQcm9maWxlJywKICAgICAgICAgIGNvbXBvbmVudDogcm91dGVDb21wb25lbnRzLnByb2ZpbGUsCiAgICAgICAgICBtZXRhOiB7IHRpdGxlOiAn5Liq5Lq66K6+572uJywgaWNvbjogJ1VzZXInLCBtaW5Sb2xlOiAndmlld2VyJyB9CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAnZG9jcy9hcGknLAogICAgICAgICAgbmFtZTogJ0FwaURvY3MnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMuYXBpRG9jcywKICAgICAgICAgIG1ldGE6IHsgdGl0bGU6ICfmjqXlj6PmlofmoaMnLCBpY29uOiAnQ29ubmVjdGlvbicsIG1pblJvbGU6ICd2aWV3ZXInIH0KICAgICAgICB9CiAgICAgIF0KICAgIH0sCiAgICB7CiAgICAgIHBhdGg6ICcvYWRtaW4nLAogICAgICBjb21wb25lbnQ6IHJvdXRlQ29tcG9uZW50cy5sYXlvdXQsCiAgICAgIG1ldGE6IHsgcmVxdWlyZXNBdXRoOiB0cnVlLCBzZWN0aW9uOiAnYWRtaW4nIH0sCiAgICAgIGNoaWxkcmVuOiBbCiAgICAgICAgewogICAgICAgICAgcGF0aDogJycsCiAgICAgICAgICByZWRpcmVjdDogJy9hZG1pbi9zZXR0aW5ncycKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdzZXR0aW5ncycsCiAgICAgICAgICBuYW1lOiAnQWRtaW5TZXR0aW5ncycsCiAgICAgICAgICBjb21wb25lbnQ6IHJvdXRlQ29tcG9uZW50cy5zZXR0aW5ncywKICAgICAgICAgIG1ldGE6IHsgdGl0bGU6ICfns7vnu5/orr7nva4nLCBpY29uOiAnU2V0VXAnLCBtaW5Sb2xlOiAnYWRtaW4nIH0KICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgIHBhdGg6ICdub3RpZmljYXRpb25zJywKICAgICAgICAgIG5hbWU6ICdBZG1pbk5vdGlmaWNhdGlvbnMnLAogICAgICAgICAgY29tcG9uZW50OiByb3V0ZUNvbXBvbmVudHMubm90aWZpY2F0aW9ucywKICAgICAgICAgIG1ldGE6IHsgdGl0bGU6ICfpgJrnn6XmuKDpgZMnLCBpY29uOiAnQmVsbCcsIG1pblJvbGU6ICdhZG1pbicgfQogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgcGF0aDogJ3VzZXJzJywKICAgICAgICAgIG5hbWU6ICdBZG1pblVzZXJzJywKICAgICAgICAgIGNvbXBvbmVudDogcm91dGVDb21wb25lbnRzLnVzZXJzLAogICAgICAgICAgbWV0YTogeyB0aXRsZTogJ+eUqOaIt+euoeeQhicsIGljb246ICdVc2VyRmlsbGVkJywgbWluUm9sZTogJ2FkbWluJyB9CiAgICAgICAgfSwKICAgICAgICB7CiAgICAgICAgICBwYXRoOiAnb3Blbi1hcGknLAogICAgICAgICAgbmFtZTogJ0FkbWluT3BlbkFQSScsCiAgICAgICAgICBjb21wb25lbnQ6IHJvdXRlQ29tcG9uZW50cy5vcGVuQXBpLAogICAgICAgICAgbWV0YTogeyB0aXRsZTogJ09wZW4gQVBJJywgaWNvbjogJ0tleScsIG1pblJvbGU6ICdhZG1pbicgfQogICAgICAgIH0KICAgICAgXQogICAgfSwKICAgIHsKICAgICAgcGF0aDogJy86cGF0aE1hdGNoKC4qKSonLAogICAgICByZWRpcmVjdDogJy8nCiAgICB9CiAgXQp9KQoKcm91dGVyLmJlZm9yZUVhY2goYXN5bmMgKHRvLCBfZnJvbSwgbmV4dCkgPT4gewogIGNvbnN0IGF1dGhTdG9yZSA9IHVzZUF1dGhTdG9yZSgpCgogIGlmICh0by5tZXRhLnJlcXVpcmVzQXV0aCA9PT0gZmFsc2UpIHsKICAgIGlmIChhdXRoU3RvcmUuaXNMb2dnZWRJbiAmJiB0by5uYW1lID09PSAnTG9naW4nKSB7CiAgICAgIG5leHQoJy8nKQogICAgICByZXR1cm4KICAgIH0KICAgIG5leHQoKQogICAgcmV0dXJuCiAgfQoKICBpZiAoIWF1dGhTdG9yZS5pc0xvZ2dlZEluKSB7CiAgICBuZXh0KCcvbG9naW4nKQogICAgcmV0dXJuCiAgfQoKICBpZiAoIWF1dGhTdG9yZS51c2VyKSB7CiAgICB0cnkgewogICAgICBhd2FpdCBhdXRoU3RvcmUuZmV0Y2hVc2VyKCkKICAgIH0gY2F0Y2ggewogICAgICBhdXRoU3RvcmUuY2xlYXJBdXRoKCkKICAgICAgbmV4dCgnL2xvZ2luJykKICAgICAgcmV0dXJuCiAgICB9CiAgfQoKICBpZiAodG8ucGF0aCA9PT0gJy9zZXR0aW5ncycpIHsKICAgIG5leHQoaGFzUmVxdWlyZWRSb2xlKGF1dGhTdG9yZS51c2VyPy5yb2xlLCAnYWRtaW4nKSA/ICcvYWRtaW4vc2V0dGluZ3MnIDogJy9wcm9maWxlJykKICAgIHJldHVybgogIH0KCiAgY29uc3QgbGVnYWN5UmVkaXJlY3QgPSBsZWdhY3lSb3V0ZU1hcFt0by5wYXRoXQogIGlmIChsZWdhY3lSZWRpcmVjdCkgewogICAgaWYgKCFoYXNSZXF1aXJlZFJvbGUoYXV0aFN0b3JlLnVzZXI/LnJvbGUsICdhZG1pbicpKSB7CiAgICAgIG5leHQoJy9kYXNoYm9hcmQnKQogICAgICByZXR1cm4KICAgIH0KICAgIG5leHQobGVnYWN5UmVkaXJlY3QpCiAgICByZXR1cm4KICB9CgogIGNvbnN0IG1pblJvbGUgPSB0by5tZXRhLm1pblJvbGUgYXMgc3RyaW5nIHwgdW5kZWZpbmVkCiAgaWYgKCFoYXNSZXF1aXJlZFJvbGUoYXV0aFN0b3JlLnVzZXI/LnJvbGUsIG1pblJvbGUpKSB7CiAgICBuZXh0KCcvZGFzaGJvYXJkJykKICAgIHJldHVybgogIH0KCiAgbmV4dCgpCn0pCgpyb3V0ZXIuYWZ0ZXJFYWNoKCh0bykgPT4gewogIGNvbnN0IHRpdGxlID0gdG8ubWV0YS50aXRsZSBhcyBzdHJpbmcgfCB1bmRlZmluZWQKICBjb25zdCBwYW5lbFRpdGxlID0gZ2V0Q2FjaGVkUGFuZWxUaXRsZSgpCiAgZG9jdW1lbnQudGl0bGUgPSB0aXRsZSA/IGAke3BhbmVsVGl0bGV9IC0gJHt0aXRsZX1gIDogcGFuZWxUaXRsZQp9KQoKdm9pZCBsb2FkUGFuZWxTZXR0aW5ncygpLnRoZW4oKCkgPT4gewogIGNvbnN0IGN1cnJlbnRSb3V0ZSA9IHJvdXRlci5jdXJyZW50Um91dGUudmFsdWUKICBjb25zdCB0aXRsZSA9IGN1cnJlbnRSb3V0ZS5tZXRhLnRpdGxlIGFzIHN0cmluZyB8IHVuZGVmaW5lZAogIGNvbnN0IHBhbmVsVGl0bGUgPSBnZXRDYWNoZWRQYW5lbFRpdGxlKCkKICBkb2N1bWVudC50aXRsZSA9IHRpdGxlID8gYCR7cGFuZWxUaXRsZX0gLSAke3RpdGxlfWAgOiBwYW5lbFRpdGxlCn0pCgpleHBvcnQgZGVmYXVsdCByb3V0ZXIK
+import { createRouter, createWebHistory } from 'vue-router'
+import { useAuthStore } from '@/stores/auth'
+import { getCachedPanelTitle, loadPanelSettings } from '@/utils/panelSettings'
+
+const roleLevel: Record<string, number> = {
+  viewer: 1,
+  operator: 2,
+  admin: 3,
+}
+
+function hasRequiredRole(role: string | undefined, minRole: string | undefined) {
+  if (!minRole) return true
+  if (!role) return false
+  return (roleLevel[role] || 0) >= (roleLevel[minRole] || 0)
+}
+
+const legacyRouteMap: Record<string, string> = {
+  '/notifications': '/admin/notifications',
+  '/users': '/admin/users',
+  '/open-api': '/admin/open-api',
+  '/admin/deps': '/deps',
+  '/api-docs': '/docs/api',
+}
+
+const routeComponents = {
+  login: () => import('@/views/login/index.vue'),
+  layout: () => import('@/layouts/MainLayout.vue'),
+  dashboard: () => import('@/views/dashboard/index.vue'),
+  tasks: () => import('@/views/tasks/index.vue'),
+  scripts: () => import('@/views/scripts/index.vue'),
+  envs: () => import('@/views/envs/index.vue'),
+  configFile: () => import('@/views/config-file/index.vue'),
+  subscriptions: () => import('@/views/subscriptions/index.vue'),
+  logs: () => import('@/views/logs/index.vue'),
+  deps: () => import('@/views/deps/index.vue'),
+  notifications: () => import('@/views/notifications/index.vue'),
+  users: () => import('@/views/users/index.vue'),
+  profile: () => import('@/views/profile/index.vue'),
+  apiDocs: () => import('@/views/api-docs/index.vue'),
+  settings: () => import('@/views/settings/index.vue'),
+  openApi: () => import('@/views/open-api/index.vue'),
+}
+
+const routePreloaders: Record<string, () => Promise<unknown>> = {
+  '/dashboard': routeComponents.dashboard,
+  '/tasks': routeComponents.tasks,
+  '/scripts': routeComponents.scripts,
+  '/envs': routeComponents.envs,
+  '/config-file': routeComponents.configFile,
+  '/subscriptions': routeComponents.subscriptions,
+  '/logs': routeComponents.logs,
+  '/deps': routeComponents.deps,
+  '/notifications': routeComponents.notifications,
+  '/users': routeComponents.users,
+  '/profile': routeComponents.profile,
+  '/docs/api': routeComponents.apiDocs,
+  '/admin/settings': routeComponents.settings,
+  '/admin/notifications': routeComponents.notifications,
+  '/admin/users': routeComponents.users,
+  '/admin/open-api': routeComponents.openApi,
+}
+
+const preloadedRoutes = new Set<string>()
+
+function normalizePreloadPath(path: string) {
+  const clean = path.split(/[?#]/)[0] || '/'
+  return clean.length > 1 ? clean.replace(/\/$/, '') : clean
+}
+
+export function preloadRouteByPath(path: string) {
+  const normalizedPath = normalizePreloadPath(path)
+  const loader = routePreloaders[normalizedPath]
+  if (!loader || preloadedRoutes.has(normalizedPath)) return Promise.resolve()
+
+  preloadedRoutes.add(normalizedPath)
+  return loader().catch((error) => {
+    // 预加载失败不能影响用户正常切页；下次点击时允许重新走 Vue Router 的懒加载。
+    preloadedRoutes.delete(normalizedPath)
+    console.warn('页面预加载失败', normalizedPath, error)
+  })
+}
+
+export function preloadPanelRoutes(paths: string[]) {
+  if (typeof window === 'undefined') return
+
+  const queue = [...new Set(paths.map(normalizePreloadPath))]
+    .filter((path) => routePreloaders[path] && !preloadedRoutes.has(path))
+
+  const scheduleNext = () => {
+    if (queue.length === 0) return
+
+    const idleWindow = window as Window & {
+      requestIdleCallback?: (
+        callback: (deadline: { timeRemaining: () => number; didTimeout?: boolean }) => void,
+        options?: { timeout: number },
+      ) => number
+    }
+
+    const run = (deadline?: { timeRemaining: () => number; didTimeout?: boolean }) => {
+      // 每个空闲片段只预加载少量页面，避免后台下载/解析 chunk 反过来抢占切页主线程。
+      let count = 0
+      // requestIdleCallback 超时触发时 timeRemaining 可能为 0；此时至少推进一小批，避免队列一直空转。
+      const shouldForceRun = !deadline || deadline.didTimeout
+      while (queue.length > 0 && count < 2 && (shouldForceRun || deadline.timeRemaining() > 8)) {
+        void preloadRouteByPath(queue.shift()!)
+        count += 1
+      }
+      if (queue.length > 0) scheduleNext()
+    }
+
+    if (idleWindow.requestIdleCallback) {
+      idleWindow.requestIdleCallback(run, { timeout: 1800 })
+      return
+    }
+
+    window.setTimeout(() => run(), 500)
+  }
+
+  scheduleNext()
+}
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
+    {
+      path: '/login',
+      name: 'Login',
+      component: routeComponents.login,
+      meta: { requiresAuth: false }
+    },
+    {
+      path: '/',
+      component: routeComponents.layout,
+      meta: { requiresAuth: true, section: 'workspace' },
+      children: [
+        {
+          path: '',
+          redirect: '/dashboard'
+        },
+        {
+          path: 'dashboard',
+          name: 'Dashboard',
+          component: routeComponents.dashboard,
+          meta: { title: '仪表板', icon: 'Odometer', minRole: 'viewer' }
+        },
+        {
+          path: 'tasks',
+          name: 'Tasks',
+          component: routeComponents.tasks,
+          meta: { title: '定时任务', icon: 'Timer', minRole: 'viewer' }
+        },
+        {
+          path: 'scripts',
+          name: 'Scripts',
+          component: routeComponents.scripts,
+          meta: { title: '脚本管理', icon: 'Document', minRole: 'operator' }
+        },
+        {
+          path: 'envs',
+          name: 'Envs',
+          component: routeComponents.envs,
+          meta: { title: '环境变量', icon: 'Setting', minRole: 'operator' }
+        },
+        {
+          path: 'config-file',
+          name: 'ConfigFile',
+          component: routeComponents.configFile,
+          meta: { title: '配置文件', icon: 'Document', minRole: 'admin' }
+        },
+        {
+          path: 'subscriptions',
+          name: 'Subscriptions',
+          component: routeComponents.subscriptions,
+          meta: { title: '订阅管理', icon: 'Download', minRole: 'operator' }
+        },
+        {
+          path: 'logs',
+          name: 'Logs',
+          component: routeComponents.logs,
+          meta: { title: '执行日志', icon: 'Tickets', minRole: 'viewer' }
+        },
+        {
+          path: 'deps',
+          name: 'Deps',
+          component: routeComponents.deps,
+          meta: { title: '依赖管理', icon: 'Box', minRole: 'admin' }
+        },
+        {
+          path: 'notifications',
+          name: 'Notifications',
+          component: routeComponents.notifications,
+          meta: { title: '通知渠道', icon: 'Bell', minRole: 'admin' }
+        },
+        {
+          path: 'users',
+          name: 'Users',
+          component: routeComponents.users,
+          meta: { title: '用户管理', icon: 'UserFilled', minRole: 'admin' }
+        },
+        {
+          path: 'profile',
+          name: 'Profile',
+          component: routeComponents.profile,
+          meta: { title: '个人设置', icon: 'User', minRole: 'viewer' }
+        },
+        {
+          path: 'docs/api',
+          name: 'ApiDocs',
+          component: routeComponents.apiDocs,
+          meta: { title: '接口文档', icon: 'Connection', minRole: 'viewer' }
+        }
+      ]
+    },
+    {
+      path: '/admin',
+      component: routeComponents.layout,
+      meta: { requiresAuth: true, section: 'admin' },
+      children: [
+        {
+          path: '',
+          redirect: '/admin/settings'
+        },
+        {
+          path: 'settings',
+          name: 'AdminSettings',
+          component: routeComponents.settings,
+          meta: { title: '系统设置', icon: 'SetUp', minRole: 'admin' }
+        },
+        {
+          path: 'notifications',
+          name: 'AdminNotifications',
+          component: routeComponents.notifications,
+          meta: { title: '通知渠道', icon: 'Bell', minRole: 'admin' }
+        },
+        {
+          path: 'users',
+          name: 'AdminUsers',
+          component: routeComponents.users,
+          meta: { title: '用户管理', icon: 'UserFilled', minRole: 'admin' }
+        },
+        {
+          path: 'open-api',
+          name: 'AdminOpenAPI',
+          component: routeComponents.openApi,
+          meta: { title: 'Open API', icon: 'Key', minRole: 'admin' }
+        }
+      ]
+    },
+    {
+      path: '/:pathMatch(.*)*',
+      redirect: '/'
+    }
+  ]
+})
+
+router.beforeEach(async (to, _from, next) => {
+  const authStore = useAuthStore()
+
+  if (to.meta.requiresAuth === false) {
+    if (authStore.isLoggedIn && to.name === 'Login') {
+      next('/')
+      return
+    }
+    next()
+    return
+  }
+
+  if (!authStore.isLoggedIn) {
+    next('/login')
+    return
+  }
+
+  if (!authStore.user) {
+    try {
+      await authStore.fetchUser()
+    } catch {
+      authStore.clearAuth()
+      next('/login')
+      return
+    }
+  }
+
+  if (to.path === '/settings') {
+    next(hasRequiredRole(authStore.user?.role, 'admin') ? '/admin/settings' : '/profile')
+    return
+  }
+
+  const legacyRedirect = legacyRouteMap[to.path]
+  if (legacyRedirect) {
+    if (!hasRequiredRole(authStore.user?.role, 'admin')) {
+      next('/dashboard')
+      return
+    }
+    next(legacyRedirect)
+    return
+  }
+
+  const minRole = to.meta.minRole as string | undefined
+  if (!hasRequiredRole(authStore.user?.role, minRole)) {
+    next('/dashboard')
+    return
+  }
+
+  next()
+})
+
+router.afterEach((to) => {
+  const title = to.meta.title as string | undefined
+  const panelTitle = getCachedPanelTitle()
+  document.title = title ? `${panelTitle} - ${title}` : panelTitle
+})
+
+void loadPanelSettings().then(() => {
+  const currentRoute = router.currentRoute.value
+  const title = currentRoute.meta.title as string | undefined
+  const panelTitle = getCachedPanelTitle()
+  document.title = title ? `${panelTitle} - ${title}` : panelTitle
+})
+
+export default router

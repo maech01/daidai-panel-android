@@ -1,1 +1,82 @@
-cGFja2FnZSBoYW5kbGVyX3Rlc3QKCmltcG9ydCAoCgkiZm10IgoJIm5ldC9odHRwIgoJInRlc3RpbmciCgkidGltZSIKCgkiZGFpZGFpLXBhbmVsL2RhdGFiYXNlIgoJImRhaWRhaS1wYW5lbC9tb2RlbCIKCSJkYWlkYWktcGFuZWwvdGVzdHV0aWwiCikKCmZ1bmMgVGVzdFN0b3BUYXNrTWFya3NSdW5uaW5nTG9nQWJvcnRlZCh0ICp0ZXN0aW5nLlQpIHsKCXRlc3R1dGlsLlNldHVwVGVzdEVudih0KQoKCWVuZ2luZSA6PSBuZXdQcm90ZWN0ZWRSb3V0ZXIoKQoJdXNlciA6PSB0ZXN0dXRpbC5NdXN0Q3JlYXRlVXNlcih0LCAidGFzay1zdG9wLW91dGNvbWUiLCAib3BlcmF0b3IiKQoJdG9rZW4gOj0gdGVzdHV0aWwuTXVzdENyZWF0ZUFjY2Vzc1Rva2VuKHQsIHVzZXIuVXNlcm5hbWUsIHVzZXIuUm9sZSkKCgl0ZXN0cyA6PSBbXXN0cnVjdCB7CgkJbmFtZSBzdHJpbmcKCX17CgkJe25hbWU6ICLmiYvliqjlgZzmraIifSwKCQl7bmFtZTogIuWumuaXtuWBnOatouWFnOW6leWQjOWPo+W+hCJ9LAoJfQoKCWZvciBfLCB0dCA6PSByYW5nZSB0ZXN0cyB7CgkJdC5SdW4odHQubmFtZSwgZnVuYyh0ICp0ZXN0aW5nLlQpIHsKCQkJc3RhcnRlZEF0IDo9IHRpbWUuTm93KCkuQWRkKC10aW1lLk1pbnV0ZSkKCQkJdGFzayA6PSAmbW9kZWwuVGFza3sKCQkJCU5hbWU6ICAgICB0dC5uYW1lLAoJCQkJQ29tbWFuZDogICJlY2hvIHJ1bm5pbmciLAoJCQkJVGFza1R5cGU6IG1vZGVsLlRhc2tUeXBlTWFudWFsLAoJCQkJU3RhdHVzOiAgIG1vZGVsLlRhc2tTdGF0dXNSdW5uaW5nLAoJCQl9CgkJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUodGFzaykuRXJyb3I7IGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoImNyZWF0ZSB0YXNrOiAldiIsIGVycikKCQkJfQoJCQlydW5uaW5nU3RhdHVzIDo9IG1vZGVsLkxvZ1N0YXR1c1J1bm5pbmcKCQkJbG9nUmVjb3JkIDo9ICZtb2RlbC5UYXNrTG9newoJCQkJVGFza0lEOiAgICB0YXNrLklELAoJCQkJU3RhdHVzOiAgICAmcnVubmluZ1N0YXR1cywKCQkJCVN0YXJ0ZWRBdDogc3RhcnRlZEF0LAoJCQl9CgkJCWlmIGVyciA6PSBkYXRhYmFzZS5EQi5DcmVhdGUobG9nUmVjb3JkKS5FcnJvcjsgZXJyICE9IG5pbCB7CgkJCQl0LkZhdGFsZigiY3JlYXRlIHRhc2sgbG9nOiAldiIsIGVycikKCQkJfQoKCQkJcmVjIDo9IHBlcmZvcm1KU09OUmVxdWVzdCgKCQkJCWVuZ2luZSwKCQkJCWh0dHAuTWV0aG9kUHV0LAoJCQkJZm10LlNwcmludGYoIi9hcGkvdjEvdGFza3MvJWQvc3RvcCIsIHRhc2suSUQpLAoJCQkJYHt9YCwKCQkJCW1hcFtzdHJpbmddc3RyaW5neyJBdXRob3JpemF0aW9uIjogIkJlYXJlciAiICsgdG9rZW59LAoJCQkJIiIsCgkJCSkKCQkJaWYgcmVjLkNvZGUgIT0gaHR0cC5TdGF0dXNPSyB7CgkJCQl0LkZhdGFsZigiZXhwZWN0ZWQgMjAwLCBnb3QgJWQgYm9keT0lcyIsIHJlYy5Db2RlLCByZWMuQm9keS5TdHJpbmcoKSkKCQkJfQoKCQkJdmFyIHVwZGF0ZWRMb2cgbW9kZWwuVGFza0xvZwoJCQlpZiBlcnIgOj0gZGF0YWJhc2UuREIuRmlyc3QoJnVwZGF0ZWRMb2csIGxvZ1JlY29yZC5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoInJlbG9hZCB0YXNrIGxvZzogJXYiLCBlcnIpCgkJCX0KCQkJaWYgdXBkYXRlZExvZy5TdGF0dXMgPT0gbmlsIHx8ICp1cGRhdGVkTG9nLlN0YXR1cyAhPSBtb2RlbC5Mb2dTdGF0dXNBYm9ydGVkIHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBhYm9ydGVkIGxvZyBzdGF0dXMsIGdvdCAlI3YiLCB1cGRhdGVkTG9nLlN0YXR1cykKCQkJfQoJCQlpZiB1cGRhdGVkTG9nLkVuZGVkQXQgPT0gbmlsIHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCBlbmRlZF9hdCBhZnRlciBzdG9wIikKCQkJfQoKCQkJdmFyIHVwZGF0ZWRUYXNrIG1vZGVsLlRhc2sKCQkJaWYgZXJyIDo9IGRhdGFiYXNlLkRCLkZpcnN0KCZ1cGRhdGVkVGFzaywgdGFzay5JRCkuRXJyb3I7IGVyciAhPSBuaWwgewoJCQkJdC5GYXRhbGYoInJlbG9hZCB0YXNrOiAldiIsIGVycikKCQkJfQoJCQlpZiB1cGRhdGVkVGFzay5MYXN0UnVuU3RhdHVzID09IG5pbCB8fCAqdXBkYXRlZFRhc2suTGFzdFJ1blN0YXR1cyAhPSBtb2RlbC5SdW5BYm9ydGVkIHsKCQkJCXQuRmF0YWxmKCJleHBlY3RlZCB0YXNrIGxhc3RfcnVuX3N0YXR1cyBhYm9ydGVkLCBnb3QgJSN2IiwgdXBkYXRlZFRhc2suTGFzdFJ1blN0YXR1cykKCQkJfQoJCX0pCgl9Cn0K
+package handler_test
+
+import (
+	"fmt"
+	"net/http"
+	"testing"
+	"time"
+
+	"daidai-panel/database"
+	"daidai-panel/model"
+	"daidai-panel/testutil"
+)
+
+func TestStopTaskMarksRunningLogAborted(t *testing.T) {
+	testutil.SetupTestEnv(t)
+
+	engine := newProtectedRouter()
+	user := testutil.MustCreateUser(t, "task-stop-outcome", "operator")
+	token := testutil.MustCreateAccessToken(t, user.Username, user.Role)
+
+	tests := []struct {
+		name string
+	}{
+		{name: "手动停止"},
+		{name: "定时停止兜底同口径"},
+	}
+
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			startedAt := time.Now().Add(-time.Minute)
+			task := &model.Task{
+				Name:     tt.name,
+				Command:  "echo running",
+				TaskType: model.TaskTypeManual,
+				Status:   model.TaskStatusRunning,
+			}
+			if err := database.DB.Create(task).Error; err != nil {
+				t.Fatalf("create task: %v", err)
+			}
+			runningStatus := model.LogStatusRunning
+			logRecord := &model.TaskLog{
+				TaskID:    task.ID,
+				Status:    &runningStatus,
+				StartedAt: startedAt,
+			}
+			if err := database.DB.Create(logRecord).Error; err != nil {
+				t.Fatalf("create task log: %v", err)
+			}
+
+			rec := performJSONRequest(
+				engine,
+				http.MethodPut,
+				fmt.Sprintf("/api/v1/tasks/%d/stop", task.ID),
+				`{}`,
+				map[string]string{"Authorization": "Bearer " + token},
+				"",
+			)
+			if rec.Code != http.StatusOK {
+				t.Fatalf("expected 200, got %d body=%s", rec.Code, rec.Body.String())
+			}
+
+			var updatedLog model.TaskLog
+			if err := database.DB.First(&updatedLog, logRecord.ID).Error; err != nil {
+				t.Fatalf("reload task log: %v", err)
+			}
+			if updatedLog.Status == nil || *updatedLog.Status != model.LogStatusAborted {
+				t.Fatalf("expected aborted log status, got %#v", updatedLog.Status)
+			}
+			if updatedLog.EndedAt == nil {
+				t.Fatalf("expected ended_at after stop")
+			}
+
+			var updatedTask model.Task
+			if err := database.DB.First(&updatedTask, task.ID).Error; err != nil {
+				t.Fatalf("reload task: %v", err)
+			}
+			if updatedTask.LastRunStatus == nil || *updatedTask.LastRunStatus != model.RunAborted {
+				t.Fatalf("expected task last_run_status aborted, got %#v", updatedTask.LastRunStatus)
+			}
+		})
+	}
+}
