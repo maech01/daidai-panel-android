@@ -331,8 +331,10 @@ jobs:
       - name: Build APK
         working-directory: android-app
         run: |
+          # 确保 gradle.properties 被正确读取
+          cat gradle.properties
           # assembleDebug 已自动用 ~/.android/debug.keystore 签名（v1 签名）
-          gradle assembleDebug --no-daemon --stacktrace
+          gradle assembleDebug --no-daemon --stacktrace -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true
 
       - name: Zipalign APK
         run: |
