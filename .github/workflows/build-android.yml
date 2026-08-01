@@ -350,11 +350,12 @@ jobs:
           name: daidai-panel-android-apk
           path: daidai-panel-android.apk
 
-      - name: Create Release
+      - name: Upload APK to Release
         if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           files: daidai-panel-android.apk
           generate_release_notes: true
+          allow_updates: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
