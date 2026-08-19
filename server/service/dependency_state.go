@@ -35,6 +35,9 @@ func DependencyInstalledForPythonVersion(depType, name, pythonVersion string) bo
 	if depType == "" || name == "" {
 		return false
 	}
+	if sandboxRuntimeEnabled(nil) {
+		return sandboxDependencyInstalled(depType, name)
+	}
 
 	depsDir := filepath.Join(config.C.Data.Dir, "deps")
 	switch depType {
@@ -97,6 +100,26 @@ func DependencyInstalledForPythonVersion(depType, name, pythonVersion string) bo
 	}
 
 	return false
+}
+
+func sandboxDependencyInstalled(depType, name string) bool {
+	var command string
+	switch depType {
+	case model.DepTypeNodeJS:
+		command = shellJoin("npm", "list", "--depth=0", name)
+	case model.DepTypePython:
+		command = shellJoin("python3", "-m", "pip", "show", name)
+	case model.DepTypeLinux:
+		command = shellJoin("apk", "info", "-e", name)
+	default:
+		return false
+	}
+	cmd, cleanup, err := createSandboxShellCommand(command, "/panel/scripts", nil)
+	if err != nil {
+		return false
+	}
+	defer cleanup()
+	return cmd.Run() == nil
 }
 
 func NormalizeNodeDependencyPackageName(spec string) string {

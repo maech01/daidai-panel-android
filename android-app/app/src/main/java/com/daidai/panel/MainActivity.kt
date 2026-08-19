@@ -143,9 +143,12 @@ class MainActivity : AppCompatActivity() {
     private fun loadPanelWhenReady() {
         Thread {
             var attempts = 0
-            val maxAttempts = 120 // 120 seconds total (runtime extraction takes time)
+            val maxAttempts = 900 // 首次启动需要安装完整 Linux 运行环境。
             while (attempts < maxAttempts) {
                 if (PanelService.isServerRunning()) {
+                    break
+                }
+                if (PanelService.startupFailed) {
                     break
                 }
                 try {
@@ -156,13 +159,7 @@ class MainActivity : AppCompatActivity() {
                 attempts++
 
                 // Update loading text with progress
-                val msg = when {
-                    attempts < 10 -> "正在启动呆呆面板..."
-                    attempts < 30 -> "正在解压运行时环境..."
-                    attempts < 60 -> "正在初始化后端服务..."
-                    attempts < 90 -> "正在加载前端资源..."
-                    else -> "启动时间较长，请耐心等待..."
-                }
+                val msg = PanelService.startupStatus
                 runOnUiThread { loadingText.text = "$msg (${attempts}s)" }
             }
 
@@ -172,12 +169,14 @@ class MainActivity : AppCompatActivity() {
                 } else {
                     Toast.makeText(
                         this,
-                        "面板启动失败，请检查日志或重启App",
+                        PanelService.startupStatus,
                         Toast.LENGTH_LONG
                     ).show()
-                    loadingText.text = "启动失败，正在重试..."
+                    loadingText.text = PanelService.startupStatus
                     // Retry after a delay
-                    webView.postDelayed({ loadPanelWhenReady() }, 5000)
+                    if (!PanelService.startupFailed) {
+                        webView.postDelayed({ loadPanelWhenReady() }, 5000)
+                    }
                 }
             }
         }.start()

@@ -17,6 +17,7 @@ import (
 
 	"daidai-panel/middleware"
 	"daidai-panel/pkg/response"
+	"daidai-panel/service"
 
 	"github.com/gin-gonic/gin"
 )
@@ -38,20 +39,21 @@ const defaultAndroidRuntimeBinDir = "/data/adb/daidai-panel/bin"
 
 // androidRuntimePreset 定义了面板预置的运行时下载源。
 type androidRuntimePreset struct {
-	Name            string `json:"name"`              // python / node
-	Label           string `json:"label"`             // 展示用
-	Arch            string `json:"arch"`              // arm64 / amd64
-	URL             string `json:"url"`               // 下载地址 (tar.gz)
-	StripComponents int    `json:"strip_components"`  // 解压时去掉的顶层目录层数
-	CheckBin        string `json:"check_bin"`         // 解压后期望存在的可执行文件相对路径 (相对 bin 目录)
-	SizeMB          int    `json:"size_mb"`           // 预估大小
-	Note            string `json:"note"`              // 备注
+	Name            string `json:"name"`             // python / node
+	Label           string `json:"label"`            // 展示用
+	Arch            string `json:"arch"`             // arm64 / amd64
+	URL             string `json:"url"`              // 下载地址 (tar.gz)
+	StripComponents int    `json:"strip_components"` // 解压时去掉的顶层目录层数
+	CheckBin        string `json:"check_bin"`        // 解压后期望存在的可执行文件相对路径 (相对 bin 目录)
+	SizeMB          int    `json:"size_mb"`          // 预估大小
+	Note            string `json:"note"`             // 备注
 }
 
 // 预置下载源 —— 会跟随后续 Release 更新，用户也可以通过 `/install` 接口传入自定义 URL。
 // 这里选择的是社区常用的静态/可移植构建：
 //   - Python: python-build-standalone (indygreg) aarch64-unknown-linux-gnu / x86_64-unknown-linux-gnu
 //   - Node.js: 官方 nodejs.org linux-arm64 / linux-x64 包
+//
 // 由于 Android 是 bionic libc，这些预构建并不总是能跑，因此同时保留 Termux 一键方案。
 var androidRuntimePresets = []androidRuntimePreset{
 	{
@@ -94,12 +96,14 @@ var androidRuntimePresets = []androidRuntimePreset{
 }
 
 type androidRuntimeStatus struct {
-	Supported bool                       `json:"supported"`
-	Arch      string                     `json:"arch"`
-	BinDir    string                     `json:"bin_dir"`
-	Termux    bool                       `json:"termux_detected"`
-	Runtimes  []androidRuntimeItem       `json:"runtimes"`
-	Presets   []androidRuntimePreset     `json:"presets"`
+	Supported bool                          `json:"supported"`
+	Mode      string                        `json:"mode,omitempty"`
+	Arch      string                        `json:"arch"`
+	BinDir    string                        `json:"bin_dir"`
+	Termux    bool                          `json:"termux_detected"`
+	Runtimes  []androidRuntimeItem          `json:"runtimes"`
+	Presets   []androidRuntimePreset        `json:"presets"`
+	Sandbox   *service.AndroidSandboxHealth `json:"sandbox,omitempty"`
 }
 
 type androidRuntimeItem struct {
@@ -111,9 +115,9 @@ type androidRuntimeItem struct {
 
 // androidSupported 判断当前进程是不是跑在 Android 上（面具版）。
 // 判定方式：
-//   1) 真实 Android 二进制（runtime.GOOS == "android"）
-//   2) Magisk 模块显式注入的环境变量
-//   3) 宿主侧可见的模块目录
+//  1. 真实 Android 二进制（runtime.GOOS == "android"）
+//  2. Magisk 模块显式注入的环境变量
+//  3. 宿主侧可见的模块目录
 func androidSupported() bool {
 	if runtime.GOOS == "android" {
 		return true
@@ -209,6 +213,21 @@ func (h *AndroidRuntimeHandler) Status(c *gin.Context) {
 		})
 		return
 	}
+	if service.IsSandboxRuntime() {
+		health := service.CheckAndroidSandboxHealth()
+		response.Success(c, androidRuntimeStatus{
+			Supported: true,
+			Mode:      "linux-sandbox",
+			Arch:      detectArch(),
+			BinDir:    service.SandboxRootfsPath(),
+			Runtimes: []androidRuntimeItem{
+				{Name: "python", Installed: health.Status == "ok" && health.Checks["python"] != "", Path: "/usr/bin/python3", Version: health.Checks["python"]},
+				{Name: "node", Installed: health.Status == "ok" && health.Checks["node"] != "", Path: "/usr/bin/node", Version: health.Checks["node"]},
+			},
+			Sandbox: &health,
+		})
+		return
+	}
 
 	arch := detectArch()
 	runtimes := []androidRuntimeItem{
@@ -226,6 +245,7 @@ func (h *AndroidRuntimeHandler) Status(c *gin.Context) {
 
 	response.Success(c, androidRuntimeStatus{
 		Supported: true,
+		Mode:      "legacy",
 		Arch:      arch,
 		BinDir:    androidBinDir,
 		Termux:    termuxDetected(),
@@ -235,9 +255,9 @@ func (h *AndroidRuntimeHandler) Status(c *gin.Context) {
 }
 
 type androidInstallRequest struct {
-	Name            string `json:"name" binding:"required"`        // python / node
-	URL             string `json:"url"`                             // 可选：自定义下载源
-	StripComponents int    `json:"strip_components"`                // 解压层数
+	Name            string `json:"name" binding:"required"` // python / node
+	URL             string `json:"url"`                     // 可选：自定义下载源
+	StripComponents int    `json:"strip_components"`        // 解压层数
 }
 
 // Install 以 SSE 形式流式返回下载/解压进度。
@@ -245,6 +265,10 @@ func (h *AndroidRuntimeHandler) Install(c *gin.Context) {
 	androidBinDir := resolveAndroidRuntimeBinDir()
 	if !androidSupported() {
 		response.Error(c, http.StatusForbidden, "仅 Android 面具版支持该操作")
+		return
+	}
+	if service.IsSandboxRuntime() {
+		response.Error(c, http.StatusConflict, "Linux 沙盒运行时由应用统一管理，请使用依赖管理安装 Python、Node.js 或 Linux 软件包")
 		return
 	}
 
@@ -426,6 +450,10 @@ func (h *AndroidRuntimeHandler) Uninstall(c *gin.Context) {
 	androidBinDir := resolveAndroidRuntimeBinDir()
 	if !androidSupported() {
 		response.Error(c, http.StatusForbidden, "仅 Android 面具版支持该操作")
+		return
+	}
+	if service.IsSandboxRuntime() {
+		response.Error(c, http.StatusConflict, "Linux 沙盒核心运行时受应用保护，无法从依赖页面移除")
 		return
 	}
 	var req androidUninstallRequest

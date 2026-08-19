@@ -206,6 +206,10 @@ func buildManagedPythonPath(existingPythonPath, workDir, scriptsDir, venvSitePac
 }
 
 func CreateManagedCommand(interpreter, scriptPath string, scriptArgs []string, workDir string, envVars map[string]string) (*exec.Cmd, func(), error) {
+	if sandboxRuntimeEnabled(envVars) {
+		return createSandboxScriptCommand(interpreter, scriptPath, scriptArgs, workDir, envVars)
+	}
+
 	pythonVersion := ResolvePythonVersionFromEnv(envVars)
 	if versionFromInterpreter := ResolvePythonVersionFromInterpreter(interpreter); versionFromInterpreter != "" {
 		pythonVersion = versionFromInterpreter
@@ -759,6 +763,10 @@ func createManagedPythonCommand(scriptPath string, scriptArgs []string, workDir 
 }
 
 func createManagedPythonModuleCommand(interpreter string, moduleName string, moduleArgs []string, workDir string, envVars map[string]string) (*exec.Cmd, func(), error) {
+	if sandboxRuntimeEnabled(envVars) {
+		return createSandboxPythonModuleCommand(moduleName, moduleArgs, workDir, envVars)
+	}
+
 	pythonVersion := ResolvePythonVersionFromEnv(envVars)
 	if versionFromInterpreter := ResolvePythonVersionFromInterpreter(interpreter); versionFromInterpreter != "" {
 		pythonVersion = versionFromInterpreter
@@ -803,6 +811,10 @@ func createManagedPythonModuleCommand(interpreter string, moduleName string, mod
 }
 
 func createManagedExecutableCommand(commandName string, commandArgs []string, workDir string, envVars map[string]string) (*exec.Cmd, func(), error) {
+	if sandboxRuntimeEnabled(envVars) {
+		return createSandboxExecutableCommand(commandName, commandArgs, workDir, envVars)
+	}
+
 	pythonVersion := ResolvePythonVersionFromEnv(envVars)
 	runtimePaths := currentManagedRuntimePathsForPythonVersion(pythonVersion)
 	preferredDirs := []string{runtimePaths.VenvBin, runtimePaths.NodeBin}

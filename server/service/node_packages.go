@@ -105,6 +105,13 @@ func NewNpmInstallCommand(packageName string) (*exec.Cmd, error) {
 	}
 
 	installSpec := ResolveNodeInstallPackageSpec(packageName)
+	if IsSandboxRuntime() {
+		guestNodeDir, err := sandboxGuestPath(nodeDir, nil)
+		if err != nil {
+			return nil, err
+		}
+		return NewSandboxCommand([]string{"npm", "install", "--registry", sandboxNpmRegistry, "--prefix", guestNodeDir, installSpec}, guestNodeDir)
+	}
 	cmd := exec.Command("npm", "install", "--prefix", nodeDir, installSpec)
 	cmd.Env = NpmInstallEnv(AppendProxyEnv(os.Environ()), CurrentNpmMirror())
 	return cmd, nil
@@ -184,6 +191,18 @@ func NewNpmUninstallCommand(packageName string, force bool) (*exec.Cmd, error) {
 		args = append(args, "--force")
 	}
 	args = append(args, packageName)
+	if IsSandboxRuntime() {
+		guestNodeDir, err := sandboxGuestPath(nodeDir, nil)
+		if err != nil {
+			return nil, err
+		}
+		args = []string{"npm", "uninstall", "--registry", sandboxNpmRegistry, "--prefix", guestNodeDir}
+		if force {
+			args = append(args, "--force")
+		}
+		args = append(args, packageName)
+		return NewSandboxCommand(args, guestNodeDir)
+	}
 
 	cmd := exec.Command("npm", args...)
 	cmd.Env = NpmInstallEnv(AppendProxyEnv(os.Environ()), CurrentNpmMirror())

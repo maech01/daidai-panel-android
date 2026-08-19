@@ -22,11 +22,18 @@ export interface AndroidRuntimeItem {
 
 export interface AndroidRuntimeStatus {
   supported: boolean
+  mode?: 'linux-sandbox' | 'legacy'
   arch: string
   bin_dir: string
   termux_detected: boolean
   runtimes: AndroidRuntimeItem[]
   presets: AndroidRuntimePreset[]
+  sandbox?: {
+    enabled: boolean
+    status: string
+    message?: string
+    checks?: Record<string, string>
+  }
 }
 
 async function authorizedFetch(input: string, init?: RequestInit) {

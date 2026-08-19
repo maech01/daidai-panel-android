@@ -551,7 +551,7 @@ func (h *SystemHandler) PanelLog(c *gin.Context) {
 }
 
 func runSystemHealthChecks() []systemHealthCheckItem {
-	items := make([]systemHealthCheckItem, 0, 4)
+	items := make([]systemHealthCheckItem, 0, 5)
 
 	if err := database.DB.Exec("SELECT 1").Error; err != nil {
 		items = append(items, systemHealthCheckItem{Name: "database", Status: "error", Message: err.Error()})
@@ -580,6 +580,14 @@ func runSystemHealthChecks() []systemHealthCheckItem {
 		items = append(items, systemHealthCheckItem{Name: "scheduler", Status: "ok", Message: "空闲"})
 	}
 
+	if sandbox := service.CheckAndroidSandboxHealth(); sandbox.Enabled {
+		message := sandbox.Message
+		if sandbox.Status == "ok" {
+			message = buildSandboxHealthMessage(sandbox.Checks)
+		}
+		items = append(items, systemHealthCheckItem{Name: "linux_sandbox", Status: sandbox.Status, Message: message})
+	}
+
 	if resp, err := resolveSystemHealthCheckClient().Get(systemHealthCheckURL); err != nil {
 		items = append(items, systemHealthCheckItem{Name: "network", Status: "error", Message: "无法连接外部网络"})
 	} else {
@@ -592,6 +600,23 @@ func runSystemHealthChecks() []systemHealthCheckItem {
 	}
 
 	return items
+}
+
+func buildSandboxHealthMessage(checks map[string]string) string {
+	if len(checks) == 0 {
+		return "Linux 沙盒运行正常"
+	}
+	parts := make([]string, 0, 4)
+	for _, key := range []string{"alpine", "python", "node", "go"} {
+		value := strings.TrimSpace(checks[key])
+		if value != "" {
+			parts = append(parts, key+": "+value)
+		}
+	}
+	if len(parts) == 0 {
+		return "Linux 沙盒运行正常"
+	}
+	return strings.Join(parts, "; ")
 }
 
 func loadSystemHealthSnapshot() systemHealthSnapshot {

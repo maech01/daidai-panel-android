@@ -201,7 +201,7 @@ func setLinuxMirror(manager linuxPackageManager, distribution, mirror string) er
 }
 
 func readAPKMirror() (string, error) {
-	data, err := os.ReadFile("/etc/apk/repositories")
+	data, err := os.ReadFile(apkRepositoriesPath())
 	if err != nil {
 		return "", err
 	}
@@ -230,17 +230,27 @@ func writeAPKMirror(mirror string) error {
 	}
 
 	mirror = strings.TrimRight(mirror, "/")
-	out, err := exec.Command("cat", "/etc/alpine-release").Output()
 	ver := "3.19"
+	versionData, err := os.ReadFile(filepath.Join(service.SandboxRootfsPath(), "etc/alpine-release"))
+	if !service.IsSandboxRuntime() {
+		versionData, err = exec.Command("cat", "/etc/alpine-release").Output()
+	}
 	if err == nil {
-		parts := strings.Split(strings.TrimSpace(string(out)), ".")
+		parts := strings.Split(strings.TrimSpace(string(versionData)), ".")
 		if len(parts) >= 2 {
 			ver = parts[0] + "." + parts[1]
 		}
 	}
 
 	content := fmt.Sprintf("%s/v%s/main\n%s/v%s/community\n", mirror, ver, mirror, ver)
-	return os.WriteFile("/etc/apk/repositories", []byte(content), 0o644)
+	return os.WriteFile(apkRepositoriesPath(), []byte(content), 0o644)
+}
+
+func apkRepositoriesPath() string {
+	if rootfs := service.SandboxRootfsPath(); service.IsSandboxRuntime() && rootfs != "" {
+		return filepath.Join(rootfs, "etc/apk/repositories")
+	}
+	return "/etc/apk/repositories"
 }
 
 func readAPTMirror() (string, error) {

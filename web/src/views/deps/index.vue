@@ -19,7 +19,10 @@
         <div class="android-runtime-header">
           <span>
             <el-icon><Cpu /></el-icon>
-            Android 脚本运行时 <el-tag size="small" type="info">面具版</el-tag>
+            Android 脚本运行时
+            <el-tag size="small" :type="androidStatus.mode === 'linux-sandbox' ? 'success' : 'info'">
+              {{ androidStatus.mode === 'linux-sandbox' ? 'Linux 沙盒' : '面具版' }}
+            </el-tag>
           </span>
           <span class="android-runtime-meta">
             架构 {{ androidStatus.arch }} · 安装目录 {{ androidStatus.bin_dir }}
@@ -33,6 +36,35 @@
         </div>
       </template>
 
+      <div v-if="androidStatus.mode === 'linux-sandbox'" class="android-runtime-tip">
+        <el-alert
+          :type="androidStatus.sandbox?.status === 'ok' ? 'success' : 'error'"
+          :closable="false"
+          show-icon
+          :title="androidStatus.sandbox?.message || 'Linux 沙盒状态未知'"
+        >
+          Alpine、Python、Node.js、Bash、Go、Git 与依赖管理均由应用内置 Linux 沙盒统一提供。
+          核心解释器受应用保护，第三方依赖请使用下方 Node.js、Python3 和 Linux 标签页管理。
+        </el-alert>
+        <el-row :gutter="16" class="android-runtime-grid">
+          <el-col v-for="item in androidStatus.runtimes" :key="item.name" :xs="24" :sm="12">
+            <div class="runtime-item">
+              <div class="runtime-item__head">
+                <b>{{ item.name }}</b>
+                <el-tag :type="item.installed ? 'success' : 'danger'" size="small">
+                  {{ item.installed ? '运行正常' : '检查失败' }}
+                </el-tag>
+              </div>
+              <div class="runtime-item__meta">
+                <div>沙盒路径: <code>{{ item.path }}</code></div>
+                <div v-if="item.version">版本: {{ item.version }}</div>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+      </div>
+
+      <template v-else>
       <div class="android-runtime-tip">
         <el-alert type="info" :closable="false" show-icon>
           面具环境没有
@@ -123,6 +155,7 @@
         </div>
         <pre v-html="androidInstallLogHtml"></pre>
       </div>
+      </template>
     </el-card>
 
     <div class="deps-tabs">

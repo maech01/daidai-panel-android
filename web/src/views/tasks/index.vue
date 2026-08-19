@@ -105,7 +105,11 @@ function getCronExpressions(task: any) {
     .filter(Boolean)
 }
 
-const hasRunningTasks = computed(() => tasks.value.some(t => t.status === 2))
+function isTaskActive(status: number) {
+  return status === 0.5 || status === 2
+}
+
+const hasRunningTasks = computed(() => tasks.value.some(t => isTaskActive(t.status)))
 
 // 快捷排序可选项：value 为 null 表示恢复默认排序，其余对应后端 sort_rules 的单条规则
 const quickSortOptions: { key: string; label: string; value: { field: string; direction: 'asc' | 'desc' } | null }[] = [
@@ -451,12 +455,12 @@ async function handleToggle(task: any) {
       const res = await taskApi.enable(task.id)
       ElMessage.success(res.message || '已启用')
     } else {
-      const confirmMessage = task.status === 2
+      const confirmMessage = isTaskActive(task.status)
         ? `确认禁用定时任务「${task.name}」吗？当前执行不会被中断，禁用会在本次运行结束后生效。`
         : `确认禁用定时任务「${task.name}」吗？`
       await ElMessageBox.confirm(confirmMessage, '禁用确认', { type: 'warning' })
       const res = await taskApi.disable(task.id)
-      ElMessage.success(res.message || (task.status === 2 ? '已设置为禁用，当前执行结束后生效' : '已禁用'))
+      ElMessage.success(res.message || (isTaskActive(task.status) ? '已设置为禁用，当前执行结束后生效' : '已禁用'))
     }
     loadTasks()
   } catch (err: any) {
@@ -754,8 +758,8 @@ async function handleImport(event: Event) {
                   </div>
                 </div>
               </div>
-              <el-tag :type="getStatusType(row.status)" size="small" :class="row.status === 2 ? 'tag-with-dot' : ''">
-                <span v-if="row.status === 2" class="pulse-dot"></span>
+              <el-tag :type="getStatusType(row.status)" size="small" :class="isTaskActive(row.status) ? 'tag-with-dot' : ''">
+                <span v-if="isTaskActive(row.status)" class="pulse-dot"></span>
                 {{ getStatusText(row.status) }}
               </el-tag>
             </div>
@@ -827,7 +831,7 @@ async function handleImport(event: Event) {
           </div>
 
           <div class="dd-mobile-card__actions task-card__actions">
-            <el-button v-if="canOperateTasks && row.status !== 2" type="primary" size="small" @click="handleRun(row)">运行</el-button>
+            <el-button v-if="canOperateTasks && !isTaskActive(row.status)" type="primary" size="small" @click="handleRun(row)">运行</el-button>
             <el-button v-else-if="canOperateTasks" type="warning" size="small" @click="handleStop(row)">停止</el-button>
             <el-button v-if="canOperateTasks" :type="row.status === 0 ? 'success' : 'danger'" size="small" plain @click="handleToggle(row)">
               {{ row.status === 0 ? '启用' : '禁用' }}
@@ -925,8 +929,8 @@ async function handleImport(event: Event) {
         </el-table-column>
         <el-table-column label="状态" width="110" align="center">
           <template #default="{ row }">
-            <el-tag :type="getStatusType(row.status)" size="small" round :class="row.status === 2 ? 'tag-with-dot' : ''">
-              <span v-if="row.status === 2" class="pulse-dot"></span>
+            <el-tag :type="getStatusType(row.status)" size="small" round :class="isTaskActive(row.status) ? 'tag-with-dot' : ''">
+              <span v-if="isTaskActive(row.status)" class="pulse-dot"></span>
               {{ getStatusText(row.status) }}
             </el-tag>
           </template>
@@ -961,7 +965,7 @@ async function handleImport(event: Event) {
         <el-table-column label="操作" width="260" fixed="right" align="center">
           <template #default="{ row }">
             <div class="action-btns">
-              <el-button v-if="canOperateTasks && row.status !== 2" type="primary" text size="small" @click="handleRun(row)">运行</el-button>
+              <el-button v-if="canOperateTasks && !isTaskActive(row.status)" type="primary" text size="small" @click="handleRun(row)">运行</el-button>
               <el-button v-else-if="canOperateTasks" type="warning" text size="small" @click="handleStop(row)">停止</el-button>
               <el-button v-if="canOperateTasks" :type="row.status === 0 ? 'success' : 'danger'" text size="small" @click="handleToggle(row)">
                 {{ row.status === 0 ? '启用' : '禁用' }}

@@ -128,7 +128,7 @@ jobs:
           path: web/dist/
 
   package-runtimes:
-    name: Package Termux Runtimes
+    name: Package Linux Sandbox Runtime
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -142,113 +142,77 @@ jobs:
           restore-keys: |
             android-debug-keystore-
 
-      - name: Cache Termux packages
+      - name: Cache Linux sandbox packages
         uses: actions/cache@v4
         with:
-          path: termux-cache
-          key: termux-packages-${{ hashFiles('scripts/download-termux.sh') }}
+          path: sandbox-cache
+          key: linux-sandbox-runtime-v1
           restore-keys: |
-            termux-packages-
+            linux-sandbox-runtime-
 
-      - name: Install dpkg tools
+      - name: Install packaging tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y dpkg-dev patchelf
+          sudo apt-get install -y dpkg-dev zstd
 
-      - name: Download and extract Termux packages
+      - name: Download Linux sandbox runtime
         run: |
-          mkdir -p termux-cache runtime/termux-prefix
-          cd termux-cache
+          mkdir -p sandbox-cache runtime/proot runtime/jni
 
-          # Download the Packages index
-          if [ ! -f Packages ]; then
-            curl -sL "https://packages.termux.dev/apt/termux-main/dists/stable/main/binary-aarch64/Packages.gz" | \
-              gunzip > Packages
+          ALPINE_VERSION="3.21"
+          ALPINE_RELEASE="3.21.3"
+          ALPINE_URL="https://dl-cdn.alpinelinux.org/alpine/v${ALPINE_VERSION}/releases/aarch64/alpine-minirootfs-${ALPINE_RELEASE}-aarch64.tar.gz"
+          if [ ! -f sandbox-cache/alpine-minirootfs.tar.gz ]; then
+            curl -fSL "$ALPINE_URL" -o sandbox-cache/alpine-minirootfs.tar.gz
+          fi
+          cp sandbox-cache/alpine-minirootfs.tar.gz runtime/alpine-minirootfs.tar.gz
+
+          if [ ! -f sandbox-cache/Packages ]; then
+            curl -sL "https://packages.termux.dev/apt/termux-main/dists/stable/main/binary-aarch64/Packages.gz" | gunzip > sandbox-cache/Packages
+          fi
+          PROOT_FILE=$(awk '
+            /^Package: / { p=$2 }
+            /^Filename: / { if (p=="proot") print $2 }
+          ' sandbox-cache/Packages | head -1)
+          if [ -z "$PROOT_FILE" ]; then
+            echo "::error::Unable to resolve Termux proot package"
+            exit 1
+          fi
+          PROOT_DEB="sandbox-cache/$(basename "$PROOT_FILE")"
+          if [ ! -f "$PROOT_DEB" ]; then
+            curl -fSL "https://packages.termux.dev/apt/termux-main/$PROOT_FILE" -o "$PROOT_DEB"
           fi
 
-          # Function to download a package and extract it
-          download_pkg() {
-            local pkgname=$1
-            local filename=$(awk -v pkg="$pkgname" '
-              /^Package: / { p=$2 }
-              /^Filename: / { if (p==pkg) print $2 }
-            ' Packages)
-            if [ -n "$filename" ]; then
-              local base=$(basename "$filename")
-              if [ ! -f "$base" ]; then
-                echo "  Downloading $pkgname..."
-                curl -sL "https://packages.termux.dev/apt/termux-main/$filename" -o "$base"
-              fi
-              dpkg-deb -x "$base" ../runtime/termux-prefix/
-            else
-              echo "  WARNING: Package $pkgname not found in index"
-            fi
-          }
+          mkdir -p runtime/proot-extract
+          dpkg-deb -x "$PROOT_DEB" runtime/proot-extract
+          PROOT_BIN=$(find runtime/proot-extract -type f -name proot | head -1)
+          if [ -z "$PROOT_BIN" ]; then
+            echo "::error::Unable to find proot binary"
+            exit 1
+          fi
+          cp "$PROOT_BIN" runtime/jni/libproot.so
+          chmod +x runtime/jni/libproot.so
 
-          # Download and extract all needed packages in dependency order
-          for pkg in \
-            libandroid-support \
-            libc++ \
-            ndk-sysroot \
-            termux-exec \
-            ca-certificates \
-            libbz2 \
-            libexpat \
-            libffi \
-            liblzma \
-            libsqlite \
-            libssl3 \
-            libuuid \
-            libxml2 \
-            zlib \
-            readline \
-            sqlite \
-            tcl \
-            python \
-            nodejs \
-            bash \
-            coreutils \
-            findutils \
-            grep \
-            sed \
-            tar \
-            gzip \
-            gawk \
-            which; do
-            download_pkg "$pkg"
-          done
+          LOADER64=$(find runtime/proot-extract -type f \( -name 'loader' -o -name '*loader.so' -o -name '*loader' \) | head -1 || true)
+          LOADER32=$(find runtime/proot-extract -type f \( -name 'loader32' -o -name '*loader32*' \) | head -1 || true)
+          if [ -z "$LOADER64" ] || [ -z "$LOADER32" ]; then
+            echo "::error::Missing proot loader artifacts"
+            find runtime/proot-extract -type f | sort
+            exit 1
+          fi
+          cp "$LOADER64" runtime/jni/libproot-loader.so
+          cp "$LOADER32" runtime/jni/libproot-loader32.so
+          chmod +x runtime/jni/libproot-loader.so runtime/jni/libproot-loader32.so
 
-          echo "=== Extracted packages ==="
-          ls -la ../runtime/termux-prefix/
-          ls ../runtime/termux-prefix/usr/bin/ 2>/dev/null | head -30
-
-      - name: Optimize runtime size
-        run: |
-          cd runtime/termux-prefix
-          rm -rf usr/share/{man,doc,info,locale,tabset,terminfo} 2>/dev/null || true
-          rm -rf usr/include 2>/dev/null || true
-          find usr/lib/python* -name "test" -type d -exec rm -rf {} + 2>/dev/null || true
-          find usr/lib/python* -name "tests" -type d -exec rm -rf {} + 2>/dev/null || true
-          find usr/lib/python* -name "__pycache__" -type d -exec rm -rf {} + 2>/dev/null || true
-          find usr/lib/python* -name "*.pyc" -delete 2>/dev/null || true
-          rm -rf usr/lib/node_modules/npm/docs 2>/dev/null || true
-          rm -rf usr/lib/node_modules/npm/html 2>/dev/null || true
-          find usr/bin -type f -exec strip {} + 2>/dev/null || true
-          find usr/lib -name "*.so" -exec strip {} + 2>/dev/null || true
-          echo "=== Size after optimization ==="
-          du -sh .
-
-      - name: Create runtime archive
-        run: |
-          cd runtime
-          tar czf ../runtime-arm64.tar.gz termux-prefix
-          ls -lh ../runtime-arm64.tar.gz
+          ls -lh runtime/alpine-minirootfs.tar.gz runtime/jni/
 
       - name: Upload runtime archive
         uses: actions/upload-artifact@v4
         with:
           name: runtime-archive
-          path: runtime-arm64.tar.gz
+          path: |
+            runtime/alpine-minirootfs.tar.gz
+            runtime/jni/*.so
 
   build-apk:
     name: Build Android APK
@@ -320,8 +284,20 @@ jobs:
           zip -r ../../android-app/app/src/main/assets/web-dist.zip .
           cd ../..
 
-          # Copy runtime archive
-          cp artifacts/runtime-arm64.tar.gz android-app/app/src/main/assets/
+          # Copy Linux sandbox runtime
+          ROOTFS_FILE=$(find artifacts -name alpine-minirootfs.tar.gz | head -1)
+          if [ -z "$ROOTFS_FILE" ]; then
+            echo "::error::Missing alpine-minirootfs.tar.gz"
+            exit 1
+          fi
+          cp "$ROOTFS_FILE" android-app/app/src/main/assets/
+          find artifacts -name '*.so' -exec cp {} android-app/app/src/main/jniLibs/arm64-v8a/ \;
+          for required in libproot.so libproot-loader.so libproot-loader32.so; do
+            if [ ! -f "android-app/app/src/main/jniLibs/arm64-v8a/$required" ]; then
+              echo "::error::Missing sandbox native artifact: $required"
+              exit 1
+            fi
+          done
 
           ls -la android-app/app/src/main/assets/
           ls -la android-app/app/src/main/jniLibs/arm64-v8a/

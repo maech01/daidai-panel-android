@@ -18,6 +18,9 @@ const AptPackageListTTL = 6 * time.Hour
 var DetectLinuxPackageManagerLookPathFunc = exec.LookPath
 
 func DetectLinuxPackageManager() (LinuxPackageManager, error) {
+	if IsSandboxRuntime() {
+		return LinuxPackageManager{Name: "apk", Binary: "apk"}, nil
+	}
 	return DetectLinuxPackageManagerWithLookPath(DetectLinuxPackageManagerLookPathFunc)
 }
 
@@ -122,6 +125,21 @@ func LinuxRemoveCommandSpec(manager LinuxPackageManager, packageName string, for
 }
 
 func BuildLinuxPackageCommand(manager LinuxPackageManager, action, packageName string, force bool, distribution string, ensureMirror func(LinuxPackageManager, string) error) (*exec.Cmd, error) {
+	if IsSandboxRuntime() {
+		switch action {
+		case "install":
+			return NewSandboxCommand([]string{"apk", "add", "--no-cache", packageName}, "/root")
+		case "remove":
+			args := []string{"apk", "del"}
+			if force {
+				args = append(args, "--force-broken-world")
+			}
+			args = append(args, packageName)
+			return NewSandboxCommand(args, "/root")
+		default:
+			return nil, errors.New("不支持的 Linux 依赖操作")
+		}
+	}
 	switch action {
 	case "install":
 		refreshApt := manager.Name == "apt" && ShouldRefreshAptPackageLists()
@@ -151,6 +169,9 @@ func BuildLinuxPackageCommand(manager LinuxPackageManager, action, packageName s
 }
 
 func DetectLinuxDistribution() string {
+	if IsSandboxRuntime() {
+		return "alpine"
+	}
 	data, err := os.ReadFile("/etc/os-release")
 	if err != nil {
 		return ""

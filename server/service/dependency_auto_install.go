@@ -143,6 +143,9 @@ func InstallAutoDependency(candidate *AutoInstallCandidate, envVars map[string]s
 	if candidate == nil {
 		return AutoInstallResult{Error: "未找到可自动安装的依赖"}
 	}
+	if sandboxRuntimeEnabled(envVars) {
+		return installSandboxAutoDependency(candidate, envVars)
+	}
 
 	baseEnv := buildEnvSlice(envVars)
 	switch candidate.Manager {
@@ -284,6 +287,9 @@ func ResolvePipInstallCommandForPythonVersion(pythonVersion string) (binary stri
 }
 
 func NewPipCommandForPythonVersion(pythonVersion string, args []string) (*exec.Cmd, error) {
+	if IsSandboxRuntime() {
+		return NewSandboxCommand(append([]string{"python3", "-m", "pip"}, args...), "/panel/scripts")
+	}
 	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, false)
 	if err != nil {
 		return nil, err
@@ -292,6 +298,9 @@ func NewPipCommandForPythonVersion(pythonVersion string, args []string) (*exec.C
 }
 
 func NewPipInstallCommandForPythonVersion(pythonVersion, packageName string) (*exec.Cmd, error) {
+	if IsSandboxRuntime() {
+		return NewSandboxCommand([]string{"python3", "-m", "pip", "install", "--break-system-packages", "-i", sandboxPipIndexURL, packageName}, "/panel/scripts")
+	}
 	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
 	if err != nil {
 		return nil, err
@@ -300,6 +309,12 @@ func NewPipInstallCommandForPythonVersion(pythonVersion, packageName string) (*e
 }
 
 func NewPipInstallCommandForPythonVersionWithFlags(pythonVersion, packageName string, extraFlags []string) (*exec.Cmd, error) {
+	if IsSandboxRuntime() {
+		args := []string{"python3", "-m", "pip", "install", "--break-system-packages", "-i", sandboxPipIndexURL}
+		args = append(args, extraFlags...)
+		args = append(args, packageName)
+		return NewSandboxCommand(args, "/panel/scripts")
+	}
 	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
 	if err != nil {
 		return nil, err
@@ -308,6 +323,12 @@ func NewPipInstallCommandForPythonVersionWithFlags(pythonVersion, packageName st
 }
 
 func NewPipUninstallCommandForPythonVersion(pythonVersion, packageName string, extraOptions ...string) (*exec.Cmd, error) {
+	if IsSandboxRuntime() {
+		args := []string{"python3", "-m", "pip", "uninstall", "-y", "--break-system-packages"}
+		args = append(args, extraOptions...)
+		args = append(args, packageName)
+		return NewSandboxCommand(args, "/panel/scripts")
+	}
 	spec, err := resolvePipCommandSpecForPythonVersion(pythonVersion, true)
 	if err != nil {
 		return nil, err

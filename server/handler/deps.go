@@ -742,6 +742,7 @@ func runCmdWithSSE(cmd *exec.Cmd, id uint, successStatus string, deleteOnSuccess
 
 		scanner := bufio.NewScanner(pipe)
 		scanner.Buffer(make([]byte, 64*1024), 256*1024)
+		scanner.Split(scanTerminalLogEntry)
 		for scanner.Scan() {
 			appendLine(scanner.Text(), true)
 			flushLog(false)
@@ -802,6 +803,23 @@ func runCmdWithSSE(cmd *exec.Cmd, id uint, successStatus string, deleteOnSuccess
 	}
 
 	broadcaster.done()
+}
+
+func scanTerminalLogEntry(data []byte, atEOF bool) (advance int, token []byte, err error) {
+	for i, value := range data {
+		if value != '\n' && value != '\r' {
+			continue
+		}
+		advance = i + 1
+		if value == '\r' && advance < len(data) && data[advance] == '\n' {
+			advance++
+		}
+		return advance, data[:i], nil
+	}
+	if atEOF && len(data) > 0 {
+		return len(data), data, nil
+	}
+	return 0, nil, nil
 }
 
 func buildDependencyFailureHint(logText string) string {

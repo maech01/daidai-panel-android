@@ -43,6 +43,14 @@ class PanelService : Service() {
         @Volatile
         private var logOverlay: LogOverlayWindow? = null
 
+        @Volatile
+        var startupStatus: String = "等待启动"
+            private set
+
+        @Volatile
+        var startupFailed: Boolean = false
+            private set
+
         fun isServerRunning(): Boolean {
             return try {
                 val url = URL("http://127.0.0.1:$PANEL_PORT/api/v1/health")
@@ -80,6 +88,8 @@ class PanelService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
+        startupFailed = false
+        startupStatus = "正在启动面板服务"
         startForeground(NOTIFICATION_ID, createNotification("呆呆面板正在启动..."))
 
         // Show log overlay for debugging (requires overlay permission)
@@ -93,6 +103,8 @@ class PanelService : Service() {
                 setupEnvironment()
                 startServer()
             } catch (e: Exception) {
+                startupFailed = true
+                startupStatus = "启动失败: ${e.message ?: "未知错误"}"
                 Log.e(TAG, "Failed to start panel", e)
                 appendOverlay("E", TAG, "Failed to start panel: ${e.message}")
                 updateNotification("呆呆面板启动失败: ${e.message}")
@@ -107,6 +119,7 @@ class PanelService : Service() {
     }
 
     private fun setupEnvironment() {
+        startupStatus = "正在准备面板文件"
         val nativeLibDir = applicationInfo.nativeLibraryDir
         val filesDir = filesDir.absolutePath
         val panelDir = File(filesDir, "panel")
@@ -198,18 +211,11 @@ class PanelService : Service() {
             appendOverlay("I", TAG, "Web assets already exist")
         }
 
-        // Extract built-in runtimes
-        val runtimeDir = File(panelDir, "runtime")
-        val termuxPrefix = File(runtimeDir, "termux-prefix/usr")
-        val termuxBin = File(termuxPrefix, "bin")
-
-        if (!termuxBin.exists()) {
-            extractRuntime(runtimeDir, termuxPrefix, termuxBin)
-        } else {
-            Log.i(TAG, "Runtime already exists at ${termuxPrefix.absolutePath}")
-            appendOverlay("I", TAG, "Runtime already exists")
-            makeBinariesExecutable(termuxBin, termuxPrefix)
+        val sandboxManager = AndroidSandboxManager(this, panelDir) { level, tag, msg ->
+            startupStatus = msg
+            appendOverlay(level, tag, msg)
         }
+        sandboxManager.installIfNeeded()
     }
 
     private fun extractRuntime(runtimeDir: File, termuxPrefix: File, termuxBin: File) {
@@ -274,6 +280,7 @@ class PanelService : Service() {
     }
 
     private fun startServer() {
+        startupStatus = "正在启动后端服务"
         val filesDir = filesDir.absolutePath
         val panelDir = File(filesDir, "panel")
         val binDir = File(panelDir, "bin")
@@ -296,26 +303,15 @@ class PanelService : Service() {
         Log.i(TAG, "Server binary: ${serverBinary.absolutePath} (${serverBinary.length()} bytes)")
         appendOverlay("I", TAG, "Server binary: ${serverBinary.length()}B OK")
 
-        val runtimeDir = File(panelDir, "runtime")
-        val termuxPrefix = File(runtimeDir, "termux-prefix/usr")
-        val termuxBin = File(termuxPrefix, "bin")
-        val termuxLib = File(termuxPrefix, "lib")
-
         val pathEnv = listOf(
             binDir.absolutePath,
-            termuxBin.absolutePath,
             "/system/bin",
             "/system/xbin",
             "/vendor/bin"
         ).joinToString(":")
 
-        val ldLibraryPath = listOf(
-            termuxLib.absolutePath,
-            "/system/lib64",
-            "/system/lib",
-            "/vendor/lib64",
-            "/vendor/lib"
-        ).joinToString(":")
+        val sandboxManager = AndroidSandboxManager(this, panelDir, ::appendOverlay)
+        val ldLibraryPath = sandboxManager.nativeLibDir.absolutePath
 
         val env = mutableMapOf<String, String>()
         env["DAIDAI_CONFIG"] = ""
@@ -325,19 +321,24 @@ class PanelService : Service() {
         env["PATH"] = pathEnv
         env["LD_LIBRARY_PATH"] = ldLibraryPath
         env["HOME"] = panelDir.absolutePath
-        env["PREFIX"] = termuxPrefix.absolutePath
-        env["TERMUX_PREFIX"] = termuxPrefix.absolutePath
-        env["PYTHONHOME"] = termuxPrefix.absolutePath
-        env["NODE_PATH"] = File(termuxPrefix, "lib/node_modules").absolutePath
         env["TMPDIR"] = File(panelDir, "tmp").absolutePath
         env["TZ"] = "Asia/Shanghai"
         env["LANG"] = "C.UTF-8"
         env["LC_ALL"] = "C.UTF-8"
         env["DAIDAI_ANDROID_APP"] = "1"
+        env["DAIDAI_RUNTIME_MODE"] = "linux-sandbox"
+        env["DAIDAI_PYTHON_RUNTIME_MODE"] = "single"
+        env["DAIDAI_PYTHON_VERSION"] = "3.12"
         env["DAIDAI_DATA_DIR"] = dataDir.absolutePath
         env["DAIDAI_SCRIPTS_DIR"] = scriptsDir.absolutePath
         env["DAIDAI_LOG_DIR"] = logDir.absolutePath
-        env["DAIDAI_RUNTIME_BIN_DIR"] = termuxBin.absolutePath
+        env["DAIDAI_SANDBOX_ROOTFS"] = sandboxManager.rootfsDir.absolutePath
+        env["DAIDAI_SANDBOX_PROOT"] = sandboxManager.prootBinary.absolutePath
+        env["DAIDAI_SANDBOX_PROOT_LOADER"] = sandboxManager.prootLoader.absolutePath
+        env["DAIDAI_SANDBOX_PROOT_LOADER_32"] = sandboxManager.prootLoader32.absolutePath
+        env["DAIDAI_SANDBOX_TMPDIR"] = sandboxManager.tmpDir.absolutePath
+        env["DAIDAI_SANDBOX_NATIVE_LIB_DIR"] = sandboxManager.nativeLibDir.absolutePath
+        env["DAIDAI_SANDBOX_MOUNTS"] = sandboxManager.mountSpec(dataDir, scriptsDir, logDir)
 
         val configFile = File(panelDir, "config.yaml")
         configFile.writeText("""
@@ -369,6 +370,8 @@ cors:
         appendOverlay("I", TAG, "PATH=$pathEnv")
         Log.i(TAG, "LD_LIBRARY_PATH: $ldLibraryPath")
         appendOverlay("I", TAG, "LD_LIB_PATH=$ldLibraryPath")
+        Log.i(TAG, "Sandbox rootfs: ${sandboxManager.rootfsDir.absolutePath}")
+        appendOverlay("I", TAG, "Sandbox rootfs ready")
 
         val processBuilder = ProcessBuilder(listOf(serverBinary.absolutePath))
         processBuilder.directory(panelDir)
@@ -399,6 +402,7 @@ cors:
         while (attempts < 120) {
             if (isServerRunning()) {
                 updateNotification("呆呆面板运行中 (端口 $PANEL_PORT)")
+                startupStatus = "面板运行中"
                 Log.i(TAG, "Server is running on port $PANEL_PORT")
                 appendOverlay("I", TAG, "Server running on :$PANEL_PORT ✓")
                 return
@@ -409,6 +413,8 @@ cors:
                 Log.e(TAG, "Server process exited with code $exitCode")
                 appendOverlay("E", TAG, "Server EXITED code=$exitCode")
                 updateNotification("呆呆面板启动失败 (exit=$exitCode)")
+                startupFailed = true
+                startupStatus = "后端进程退出，退出码 $exitCode"
                 return
             }
 
@@ -425,6 +431,8 @@ cors:
 
         val exitCode = if (process.isAlive) -1 else process.exitValue()
         updateNotification("呆呆面板启动超时 (exit=$exitCode)")
+        startupFailed = true
+        startupStatus = "后端服务启动超时，退出码 $exitCode"
         Log.e(TAG, "Server failed to start within 120 seconds, exit code: $exitCode")
         appendOverlay("E", TAG, "Server timeout after 120s, exit=$exitCode")
     }

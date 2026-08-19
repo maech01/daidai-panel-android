@@ -17,6 +17,7 @@ const nameMap: Record<string, string> = {
   database: '数据库连接',
   memory: '内存使用',
   scheduler: '定时任务调度',
+  linux_sandbox: 'Linux 沙盒运行时',
   network: '外部网络连接',
 }
 
