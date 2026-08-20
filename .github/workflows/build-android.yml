@@ -308,10 +308,10 @@ jobs:
           gradle-version: '8.5'
 
       - name: Build APK
-  working-directory: android-app
-  run: |
-    cat gradle.properties
-    gradle assembleDebug --no-daemon --stacktrace -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true -Pandroid.injected.signing.v1-enabled=true -Pandroid.injected.signing.v2-enabled=true
+        working-directory: android-app
+        run: |
+          cat gradle.properties
+          gradle assembleDebug --no-daemon --stacktrace -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true -Pandroid.injected.signing.v1-enabled=true -Pandroid.injected.signing.v2-enabled=true
 
       - name: Zipalign APK
         run: |
