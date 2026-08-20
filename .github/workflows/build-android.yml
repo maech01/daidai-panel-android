@@ -313,7 +313,13 @@ jobs:
           cat gradle.properties
           gradle assembleDebug --no-daemon --stacktrace \
   -Pandroid.useAndroidX=true \
-  -Pandroid.enableJetifier=true \ -Pandroid.injected.signing.v1-enabled=true \  -Pandroid.injected.signing.v2-enabled=true \  -Pandroid.injected.signing.store.file=$HOME/.android/debug.keystore \  -Pandroid.injected.signing.store.password=android \  -Pandroid.injected.signing.key.alias=androiddebugkey \  -Pandroid.injected.signing.key.password=android
+  -Pandroid.enableJetifier=true \
+  -Pandroid.injected.signing.v1-enabled=true \
+  -Pandroid.injected.signing.v2-enabled=true \
+  -Pandroid.injected.signing.store.file=$HOME/.android/debug.keystore \
+  -Pandroid.injected.signing.store.password=android \
+  -Pandroid.injected.signing.key.alias=androiddebugkey \
+  -Pandroid.injected.signing.key.password=android
 
       - name: Zipalign APK
         run: |
