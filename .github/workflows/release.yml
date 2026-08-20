@@ -19,6 +19,36 @@ permissions:
 jobs:
   release:
     runs-on: ubuntu-latest
+    strategy:
+          fail-fast: false
+          matrix:
+            include:
+              - target: linux-amd64
+                goos: linux
+                goarch: amd64
+                binary: daidai-linux-amd64
+                ddp: false
+              - target: linux-arm64
+                goos: linux
+                goarch: arm64
+                binary: daidai-linux-arm64
+                ddp: false
+              - target: linux-386
+                goos: linux
+                goarch: "386"
+                binary: daidai-linux-386
+                ddp: false
+              - target: linux-armv7
+                goos: linux
+                goarch: arm
+                goarm: "7"
+                binary: daidai-linux-armv7
+                ddp: false
+              - target: windows-amd64
+                goos: windows
+                goarch: amd64
+                binary: daidai-server.exe
+                ddp: true
     steps:
       - uses: actions/checkout@v5
 
@@ -72,37 +102,7 @@ jobs:
           CGO_ENABLED: '0'
           GOOS: ${{ matrix.goos }}
           GOARCH: ${{ matrix.goarch }}
-          GOARM: ${{ matrix.goarm }}
-        strategy:
-          fail-fast: false
-          matrix:
-            include:
-              - target: linux-amd64
-                goos: linux
-                goarch: amd64
-                binary: daidai-linux-amd64
-                ddp: false
-              - target: linux-arm64
-                goos: linux
-                goarch: arm64
-                binary: daidai-linux-arm64
-                ddp: false
-              - target: linux-386
-                goos: linux
-                goarch: "386"
-                binary: daidai-linux-386
-                ddp: false
-              - target: linux-armv7
-                goos: linux
-                goarch: arm
-                goarm: "7"
-                binary: daidai-linux-armv7
-                ddp: false
-              - target: windows-amd64
-                goos: windows
-                goarch: amd64
-                binary: daidai-server.exe
-                ddp: true
+          GOARM: ${{ matrix.goarm }}        
         working-directory: server
         run: |
           go build -trimpath -ldflags="-s -w -X daidai-panel/handler.Version=${VERSION}" -o ${{ matrix.binary }} .
