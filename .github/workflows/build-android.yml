@@ -311,7 +311,8 @@ jobs:
         working-directory: android-app
         run: |
           cat gradle.properties
-          gradle assembleDebug --no-daemon --stacktrace -Pandroid.useAndroidX=true -Pandroid.enableJetifier=true -Pandroid.injected.signing.v1-enabled=true -Pandroid.injected.signing.v2-enabled=true -Pandroid.injected.signing.store.file=~/.android/debug.keystore -Pandroid.injected.signing.store.password=android -Pandroid.injected.signing.key.alias=androiddebugkey -Pandroid.injected.signing.key.password=android
+          ./gradlew assembleDebug --no-daemon --stacktrace
+
       - name: Zipalign APK
         run: |
           APK_FILE=$(find android-app/app/build/outputs/apk -name "*.apk" | head -1)
